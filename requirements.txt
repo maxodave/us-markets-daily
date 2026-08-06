@@ -7,3 +7,7 @@ pandas>=2.2.2,<3
 requests>=2.32.3,<3
 feedparser>=6.0.14,<7
 lxml>=5.2.1,<6
+# Solo per generate_commentary.py (commento discorsivo, facoltativo — vedi README).
+# Senza ANTHROPIC_API_KEY quello script salta senza errori: questa dipendenza in
+# piu' non impedisce al resto della pipeline di girare se manca la chiave.
+anthropic>=0.100,<1
