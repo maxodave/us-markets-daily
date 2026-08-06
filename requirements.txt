@@ -1,0 +1,9 @@
+# Versioni minime allineate a quelle usate sul Mac, con il maggiore bloccato:
+# il job gira senza nessuno che lo guardi, e un cambio incompatibile di yfinance
+# (che segue le modifiche non documentate di Yahoo Finance) romperebbe il sito
+# in silenzio.
+yfinance>=1.5.2,<2
+pandas>=2.2.2,<3
+requests>=2.32.3,<3
+feedparser>=6.0.14,<7
+lxml>=5.2.1,<6
