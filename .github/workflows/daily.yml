@@ -25,6 +25,10 @@ jobs:
       # I runner girano in UTC: senza questo, alle 22:00 datetime.now() darebbe
       # ancora il giorno precedente e l'edizione uscirebbe datata a ieri.
       TZ: Europe/Rome
+      # Usata solo da generate_commentary.py. Se il secret non e' impostato la
+      # variabile arriva vuota e quello script salta il commento senza errori
+      # (vedi il file): il resto della pipeline non dipende da questa chiave.
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -47,7 +51,34 @@ jobs:
       - name: Feed notizie con immagini
         run: python pipeline/fetch_feed_news.py
 
-      - name: Edizione del giorno
+      # Contesto macro per il commento discorsivo del passo successivo. Se
+      # fallisce non e' fatale: generate_commentary.py scrive senza contesto
+      # macro (o salta il commento) se general_news_pool.json non c'e'.
+      - name: Notizie macro del giorno
+        run: python pipeline/fetch_general_news.py
+        continue-on-error: true
+
+      # Prima passata: crea l'edizione con i mover e le loro motivazioni
+      # (mover_reason.py), che il passo successivo legge per scrivere il
+      # commento. Senza ANTHROPIC_API_KEY questa e' anche l'edizione finale.
+      - name: Edizione del giorno (resoconto automatico)
+        run: python pipeline/build_edition.py --force
+
+      # Scrive il commento discorsivo chiamando l'API Claude. Il modello scrive
+      # SOLO la prosa: non riceve mai e non puo' mai restituire un link o una
+      # testata ‚Äî quelli restano sempre quelli gia' verificati da
+      # mover_reason.py. Se manca la chiave, se la chiamata fallisce o se la
+      # risposta non ha la forma attesa, lo script non scrive nulla ed esce
+      # con codice 0: il passo successivo semplicemente non trova un commento
+      # da aggiungere, e il sito esce comunque con il resoconto automatico.
+      - name: Commento discorsivo (facoltativo)
+        run: python pipeline/generate_commentary.py
+
+      # Seconda passata: se il passo sopra ha scritto market_summary_it.json,
+      # questa rigenera l'edizione includendo il commento. Se non l'ha
+      # scritto, produce lo stesso identico file di prima: rilanciare
+      # build_edition.py e' innocuo, non e' un doppio conteggio.
+      - name: Edizione del giorno (con commento, se presente)
         run: python pipeline/build_edition.py --force
 
       - name: Pagina pubblica
