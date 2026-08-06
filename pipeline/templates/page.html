@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>US Markets Daily</title>
+<meta name="description" content="Resoconto giornaliero e feed notizie sui mercati USA — solo ricerca/monitoraggio, non consulenza di investimento.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+__STYLE_CSS__
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>US Markets Daily</h1>
+  <div class="subtitle">Resoconto giornaliero dei mercati USA &middot; ultimo aggiornamento <span id="gendate"></span></div>
+  <div class="disclaimer">
+    <b>Solo ricerca/monitoraggio.</b> Nessun consiglio di investimento, nessuna operazione eseguita.
+    Dati di mercato via Yahoo Finance, notizie via feed pubblici delle testate
+    (Reuters, Bloomberg, FT, WSJ, CNBC, MarketWatch, Barron's, NYT, Forbes, Yahoo Finance e altre).
+    Ogni decisione di acquisto/vendita resta esclusivamente tua.
+  </div>
+
+  <!-- Il contenuto qui dentro e' il TESTO DI RISERVA, scritto da Python: occhiello,
+       titolo e primo paragrafo dell'edizione. Il JavaScript lo sostituisce con la
+       pagina completa. Serve a due cose: se app.js va in errore il lettore vede
+       comunque di che giornata si tratta invece di una pagina bianca, e Google e la
+       card di LinkedIn trovano un testo anche senza eseguire il JS. -->
+  <div id="editionsContent">__FALLBACK_HTML__</div>
+
+  <footer>
+    Le immagini restano di proprieta' delle rispettive testate, linkate alla fonte originale.
+  </footer>
+</div>
+
+<script>
+// Rete di sicurezza, installata PRIMA di app.js: se il rendering va in errore il
+// testo di riserva resta dov'e' e si aggiunge una riga neutra. Senza questo, un
+// errore a meta' di renderEditions() lascerebbe la pagina vuota, perche' tutto
+// passa da un solo innerHTML.
+window.addEventListener("error", function () {
+  var el = document.getElementById("editionsContent");
+  if (el && !el.dataset.avviso) {
+    el.dataset.avviso = "1";
+    var d = document.createElement("div");
+    d.className = "no-edition";
+    d.style.marginTop = "20px";
+    d.textContent = "Il resto dell'edizione non e' disponibile in questo momento.";
+    el.appendChild(d);
+  }
+});
+</script>
+<script>
+const EDITIONS = __EDITIONS_JSON__;
+</script>
+<script>
+__APP_JS__
+</script>
+</body>
+</html>
