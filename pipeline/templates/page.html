@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="it">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <title>US Markets Daily</title>
-<meta name="description" content="Resoconto giornaliero e feed notizie sui mercati USA — solo ricerca/monitoraggio, non consulenza di investimento.">
+<meta name="description" content="Daily report and news feed on US markets — research/monitoring only, not investment advice.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 __STYLE_CSS__
@@ -12,12 +12,16 @@ __STYLE_CSS__
 <body>
 <div class="wrap">
   <h1>US Markets Daily</h1>
-  <div class="subtitle">Resoconto giornaliero dei mercati USA &middot; ultimo aggiornamento <span id="gendate"></span></div>
-  <div class="disclaimer">
-    <b>Solo ricerca/monitoraggio.</b> Nessun consiglio di investimento, nessuna operazione eseguita.
-    Dati di mercato via Yahoo Finance, notizie via feed pubblici delle testate
-    (Reuters, Bloomberg, FT, WSJ, CNBC, MarketWatch, Barron's, NYT, Forbes, Yahoo Finance e altre).
-    Ogni decisione di acquisto/vendita resta esclusivamente tua.
+  <!-- Il testo qui sotto (sottotitolo/disclaimer/footer) e' in inglese di default:
+       e' anche il testo di riserva per chi non esegue JS (motori di ricerca,
+       anteprima social). app.js lo aggiorna a ogni render in base alla lingua
+       scelta — vedi applyShellI18n() in app.js. -->
+  <div class="subtitle"><span id="subtitle-text">Daily report on US markets</span> &middot; last updated <span id="gendate"></span></div>
+  <div class="disclaimer" id="disclaimer-text">
+    <b>Research/monitoring only.</b> No investment advice, no trades executed.
+    Market data via Yahoo Finance, news via outlets' public feeds
+    (Reuters, Bloomberg, FT, WSJ, CNBC, MarketWatch, Barron's, NYT, Forbes, Yahoo Finance and others).
+    Every buy/sell decision remains entirely yours.
   </div>
 
   <!-- Il contenuto qui dentro e' il TESTO DI RISERVA, scritto da Python: occhiello,
@@ -28,7 +32,7 @@ __STYLE_CSS__
   <div id="editionsContent">__FALLBACK_HTML__</div>
 
   <footer>
-    Le immagini restano di proprieta' delle rispettive testate, linkate alla fonte originale.
+    <span id="footer-text">Images remain the property of their respective outlets, linked to the original source.</span>
   </footer>
 </div>
 
@@ -36,7 +40,8 @@ __STYLE_CSS__
 // Rete di sicurezza, installata PRIMA di app.js: se il rendering va in errore il
 // testo di riserva resta dov'e' e si aggiunge una riga neutra. Senza questo, un
 // errore a meta' di renderEditions() lascerebbe la pagina vuota, perche' tutto
-// passa da un solo innerHTML.
+// passa da un solo innerHTML. Resta fissa in inglese (non dipende da app.js: deve
+// funzionare anche se app.js e' proprio quello che si e' rotto).
 window.addEventListener("error", function () {
   var el = document.getElementById("editionsContent");
   if (el && !el.dataset.avviso) {
@@ -44,7 +49,7 @@ window.addEventListener("error", function () {
     var d = document.createElement("div");
     d.className = "no-edition";
     d.style.marginTop = "20px";
-    d.textContent = "Il resto dell'edizione non e' disponibile in questo momento.";
+    d.textContent = "The rest of the edition is not available right now.";
     el.appendChild(d);
   }
 });

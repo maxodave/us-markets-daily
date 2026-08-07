@@ -49,10 +49,18 @@ PLACEHOLDERS = ("__STYLE_CSS__", "__APP_JS__", "__EDITIONS_JSON__", "__FALLBACK_
 # Campi che il JavaScript legge davvero (verificato su templates/app.js). Il resto
 # non viene incorporato nella pagina: erano oltre la metà del peso, e nessuna riga
 # li mostrava. Restano tutti in editions/, che e' l'archivio completo.
-MOVER_FIELDS = ("symbol", "name", "sector", "pct_change", "last_close", "reason")
+# "indices" serve al badge indice nella scheda "Combined" (solo li' si mostra).
+MOVER_FIELDS = ("symbol", "name", "sector", "pct_change", "last_close", "reason", "indices")
 FEED_FIELDS = ("category", "image", "link", "published", "source", "summary", "title")
-# Nell'archivio serve solo di che giornata si trattava.
-ARCHIVE_FIELDS = ("edition_date", "edition_date_it", "session_date_it", "headline")
+# Nell'archivio serve solo di che giornata si trattava. Le varianti _en mancano
+# sulle edizioni pre-bilingue: app.js ricade sull'italiano quando non le trova.
+ARCHIVE_FIELDS = (
+    "edition_date", "edition_date_it", "edition_date_en",
+    "session_date_it", "session_date_en", "headline", "headline_en",
+)
+# Indici per cui esiste una finestra dedicata (vedi build_edition.py). "combined"
+# e' l'unione deduplicata dei tre, non un quarto indice a se'.
+INDEX_KEYS = ("sp500", "dow", "nasdaq100", "combined")
 
 
 class TemplateError(Exception):
@@ -79,13 +87,33 @@ def slim_mover(m: dict) -> dict:
     return {k: m[k] for k in MOVER_FIELDS if k in m}
 
 
+def slim_auto_report_by_index(auto_report_by_index: dict) -> dict:
+    """Stessa potatura di slim_mover/ARCHIVE_FIELDS, per ciascuno dei 4 indici.
+
+    I paragrafi sono gia' un dict {en, it}: nessuna potatura necessaria, sono
+    poche righe di testo per lingua, non liste di notizie.
+    """
+    out = {}
+    for key in INDEX_KEYS:
+        block = auto_report_by_index.get(key)
+        if not block:
+            continue
+        out[key] = {
+            "stats": block.get("stats") or {},
+            "paragraphs": block.get("paragraphs") or {},
+            "gainers": [slim_mover(m) for m in (block.get("gainers") or [])],
+            "losers": [slim_mover(m) for m in (block.get("losers") or [])],
+        }
+    return out
+
+
 def slim_editions(editions: list[dict]) -> list[dict]:
     """Tiene solo cio' che la pagina mostra.
 
     L'edizione in testa conserva tutto tranne le liste di notizie per mover (6+3
-    per ciascuno dei 16: il grosso del peso, e la pagina non ne mostra nessuna);
-    le precedenti si riducono alla riga d'archivio. Senza questo la pagina cresce
-    di ~86 KB al giorno per contenuti che nessuno vede.
+    per ciascuno dei mover di ciascun indice: il grosso del peso, e la pagina non
+    ne mostra nessuna); le precedenti si riducono alla riga d'archivio. Senza
+    questo la pagina cresce di parecchio al giorno per contenuti che nessuno vede.
     """
     out = []
     for i, ed in enumerate(editions):
@@ -93,7 +121,7 @@ def slim_editions(editions: list[dict]) -> list[dict]:
             out.append({k: ed[k] for k in ARCHIVE_FIELDS if k in ed})
             continue
         auto = ed.get("auto_report") or {}
-        out.append({
+        slim = {
             "edition_date": ed.get("edition_date"),
             "edition_date_it": ed.get("edition_date_it"),
             "session_date_it": ed.get("session_date_it"),
@@ -110,7 +138,17 @@ def slim_editions(editions: list[dict]) -> list[dict]:
                 {k: it[k] for k in FEED_FIELDS if k in it}
                 for it in (ed.get("feed") or [])
             ],
-        })
+        }
+        # Presenti solo sulle edizioni bilingui/multi-indice (da questa modifica in
+        # avanti): le edizioni precedenti restano cosi' come sono, e app.js lo sa
+        # (controlla "auto_report_by_index" per decidere quale vista disegnare).
+        if ed.get("auto_report_by_index"):
+            slim["edition_date_en"] = ed.get("edition_date_en")
+            slim["session_date_en"] = ed.get("session_date_en")
+            slim["headline_en"] = ed.get("headline_en")
+            slim["manual_commentary_html_en"] = ed.get("manual_commentary_html_en")
+            slim["auto_report_by_index"] = slim_auto_report_by_index(ed["auto_report_by_index"])
+        out.append(slim)
     return out
 
 
@@ -119,17 +157,34 @@ def fallback_html(editions: list[dict]) -> str:
 
     Se app.js va in errore il lettore vede almeno di che giornata si tratta; e
     Google e la card di LinkedIn trovano un testo senza eseguire il JavaScript.
+
+    Preferisce l'inglese (lingua primaria del sito) quando l'edizione lo prevede;
+    le edizioni precedenti, solo italiane, restano il fallback naturale.
     """
     if not editions:
-        return '<div class="no-edition">Nessuna edizione ancora pubblicata.</div>'
+        return '<div class="no-edition">No edition published yet.</div>'
     ed = editions[0]
     e = html.escape
-    paragraphs = (ed.get("auto_report") or {}).get("paragraphs") or []
+
+    by_index = ed.get("auto_report_by_index")
+    if by_index and by_index.get("sp500"):
+        paragraphs = (by_index["sp500"].get("paragraphs") or {}).get("en") or []
+        edition_date = ed.get("edition_date_en") or ed.get("edition_date_it")
+        session_date = ed.get("session_date_en") or ed.get("session_date_it")
+        headline = ed.get("headline_en") or ed.get("headline")
+        edition_label, session_label = "Edition of", "session of"
+    else:
+        paragraphs = (ed.get("auto_report") or {}).get("paragraphs") or []
+        edition_date = ed.get("edition_date_it")
+        session_date = ed.get("session_date_it")
+        headline = ed.get("headline")
+        edition_label, session_label = "Edizione del", "seduta del"
+
     first = e(paragraphs[0]) if paragraphs else ""
     return (
-        f'<div class="eyebrow">Edizione del {e(str(ed.get("edition_date_it") or ""))}'
-        f' <span class="dim">&middot; seduta del {e(str(ed.get("session_date_it") or ""))}</span></div>\n'
-        f'    <h2 class="edition-headline">{e(str(ed.get("headline") or ""))}</h2>\n'
+        f'<div class="eyebrow">{edition_label} {e(str(edition_date or ""))}'
+        f' <span class="dim">&middot; {session_label} {e(str(session_date or ""))}</span></div>\n'
+        f'    <h2 class="edition-headline">{e(str(headline or ""))}</h2>\n'
         f'    <div class="edition-text"><p>{first}</p></div>'
     )
 

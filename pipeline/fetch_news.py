@@ -203,9 +203,21 @@ def select_movers(companies: list[dict]) -> list[dict]:
 
     MOVERS_ONLY_N e' piu' alto degli 8 mover che build_edition.py pubblica: se un
     titolo non ha notizie utilizzabili, quelli subito dietro sono comunque coperti.
+
+    Il taglio e' PER INDICE (S&P 500, Dow Jones, Nasdaq-100), non globale: un
+    movimento estremo per il Dow (30 titoli, oscillazioni tipicamente piu' contenute)
+    quasi mai finirebbe nel taglio globale, e le sue notizie non verrebbero mai
+    recuperate. Ogni titolo compare in "indices" (vedi fetch_data.py); i tre insiemi
+    si uniscono deduplicando per symbol, cosi' un titolo in piu' indici (es. Apple) si
+    interroga una sola volta.
     """
-    ordered = sorted(companies, key=lambda c: c["pct_change"], reverse=True)
-    return ordered[:MOVERS_ONLY_N] + ordered[-MOVERS_ONLY_N:]
+    selected: dict[str, dict] = {}
+    for index_name in ("sp500", "dow", "nasdaq100"):
+        in_index = [c for c in companies if index_name in (c.get("indices") or [])]
+        ordered = sorted(in_index, key=lambda c: c["pct_change"], reverse=True)
+        for c in ordered[:MOVERS_ONLY_N] + ordered[-MOVERS_ONLY_N:]:
+            selected[c["symbol"]] = c
+    return list(selected.values())
 
 
 def main():

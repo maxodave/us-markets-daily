@@ -1,12 +1,24 @@
 """
-Scarica l'elenco S&P 500 (Wikipedia, con settore/sotto-settore GICS) e le variazioni
-di prezzo giornaliere (Yahoo Finance via yfinance), poi salva tutto in data.json
-pronto per la dashboard.
+Scarica l'elenco di S&P 500, Dow Jones e Nasdaq-100 da Wikipedia (con settore GICS/ICB)
+e le variazioni di prezzo giornaliere (Yahoo Finance via yfinance), poi salva tutto in
+data.json pronto per la dashboard e per il sito.
+
+I tre indici si sovrappongono molto (il Dow e' quasi interamente incluso nell'S&P 500,
+e cosi' la maggior parte del Nasdaq-100): per questo NON si tengono tre liste separate.
+Si fondono in un unico universo deduplicato per ticker, dove ogni titolo porta un campo
+"indices" con l'insieme di indici di cui fa parte (es. ["sp500", "nasdaq100"]). Le
+statistiche per singolo indice, piu' avanti nella pipeline, sono un filtro su questo
+campo — non un fetch/merge separato.
+
+Il settore usa sempre la taxonomy GICS (S&P 500 e Dow) quando disponibile; solo per i
+pochi titoli esclusivamente Nasdaq-100 (non in S&P/Dow) si usa "ICB Industry" come
+fallback, perche' la pagina Wikipedia del Nasdaq-100 non pubblica il GICS.
 
 Uso:
     python3 fetch_data.py
 """
 import json
+import re
 import sys
 import time
 from io import StringIO
@@ -15,15 +27,49 @@ import pandas as pd
 import requests
 import yfinance as yf
 
-WIKI_URL = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+SP500_URL = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+DOW_URL = "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average"
+# NON la pagina "Nasdaq-100" (ha solo un elenco senza tabella): la tabella coi ticker
+# e i settori vive nella pagina dedicata, con la maiuscola "NASDAQ" nel titolo esatto.
+NASDAQ100_URL = "https://en.wikipedia.org/wiki/List_of_NASDAQ-100_companies"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
 CHUNK_SIZE = 80
 OUT_FILE = "data.json"
 
 
-def fetch_constituents() -> pd.DataFrame:
+def _flat_columns(df: pd.DataFrame) -> list[str]:
+    """Nomi di colonna come stringhe semplici, senza note a pie' di pagina.
+
+    Wikipedia a volte genera header a piu' livelli (pagine con piu' tabelle, come
+    quella del Dow) e a volte appende un marcatore di nota al nome della colonna
+    (es. "ICB Industry[1]", visto realmente sulla pagina del Nasdaq-100): senza
+    questa pulizia un confronto esatto con "ICB Industry" fallisce in silenzio e la
+    colonna sembra non esistere.
+    """
+    cols = []
+    for c in df.columns:
+        if isinstance(c, tuple):
+            c = next((str(x) for x in reversed(c) if str(x) and not str(x).startswith("Unnamed")), str(c[-1]))
+        c = re.sub(r"\[.*?\]\s*$", "", str(c)).strip()
+        cols.append(c)
+    return cols
+
+
+def find_table(tables: list, required_cols: set) -> pd.DataFrame:
+    """La pagina del Dow ha piu' tabelle (componenti + storico): si cerca quella giusta
+    per nome delle colonne invece di assumere che sia la prima."""
+    for df in tables:
+        cols = _flat_columns(df)
+        if required_cols.issubset(set(cols)):
+            out = df.copy()
+            out.columns = cols
+            return out
+    raise ValueError(f"nessuna tabella con le colonne {required_cols} trovata")
+
+
+def fetch_constituents_sp500() -> pd.DataFrame:
     print("Scarico elenco S&P 500 da Wikipedia...")
-    r = requests.get(WIKI_URL, headers=HEADERS, timeout=30)
+    r = requests.get(SP500_URL, headers=HEADERS, timeout=30)
     r.raise_for_status()
     df = pd.read_html(StringIO(r.text))[0]
     df = df[["Symbol", "Security", "GICS Sector", "GICS Sub-Industry"]].copy()
@@ -31,6 +77,84 @@ def fetch_constituents() -> pd.DataFrame:
     df["yf_symbol"] = df["symbol"].str.replace(".", "-", regex=False)
     print(f"  -> {len(df)} societa' trovate")
     return df
+
+
+def fetch_constituents_dow() -> pd.DataFrame:
+    try:
+        print("Scarico elenco Dow Jones da Wikipedia...")
+        r = requests.get(DOW_URL, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        df = find_table(pd.read_html(StringIO(r.text)), {"Symbol", "Company", "Sector"})
+        df = df[["Symbol", "Company", "Sector"]].copy()
+        df.columns = ["symbol", "name", "sector"]
+        df["sub_industry"] = None
+        df["yf_symbol"] = df["symbol"].str.replace(".", "-", regex=False)
+        print(f"  -> {len(df)} societa' trovate")
+        return df
+    except Exception as e:
+        print(f"ATTENZIONE: elenco Dow Jones non recuperato ({e}) — "
+              f"l'edizione uscira' senza la finestra Dow Jones.", file=sys.stderr)
+        return pd.DataFrame(columns=["symbol", "name", "sector", "sub_industry", "yf_symbol"])
+
+
+def fetch_constituents_nasdaq100() -> pd.DataFrame:
+    try:
+        print("Scarico elenco Nasdaq-100 da Wikipedia...")
+        r = requests.get(NASDAQ100_URL, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        df = find_table(pd.read_html(StringIO(r.text)), {"Ticker", "Company"})
+        cols = {"Ticker": "symbol", "Company": "name"}
+        if "ICB Industry" in df.columns:
+            cols["ICB Industry"] = "sector"
+        df = df.rename(columns=cols)
+        keep = ["symbol", "name"] + (["sector"] if "sector" in df.columns else [])
+        df = df[keep].copy()
+        if "sector" not in df.columns:
+            df["sector"] = None
+        df["sub_industry"] = None
+        df["yf_symbol"] = df["symbol"].str.replace(".", "-", regex=False)
+        print(f"  -> {len(df)} societa' trovate")
+        return df
+    except Exception as e:
+        print(f"ATTENZIONE: elenco Nasdaq-100 non recuperato ({e}) — "
+              f"l'edizione uscira' senza la finestra Nasdaq-100.", file=sys.stderr)
+        return pd.DataFrame(columns=["symbol", "name", "sector", "sub_industry", "yf_symbol"])
+
+
+def merge_constituents(sp500: pd.DataFrame, dow: pd.DataFrame, nasdaq100: pd.DataFrame) -> pd.DataFrame:
+    """Fonde le tre liste in un unico universo deduplicato per symbol.
+
+    Ogni titolo guadagna "indices": l'elenco di tutti gli indici di cui fa parte.
+    L'ordine sp500 -> dow -> nasdaq100 e' anche l'ordine di preferenza per il settore:
+    GICS (sp500/dow) vince sempre su ICB (nasdaq100), che si usa solo per completare i
+    titoli mai visti nelle prime due liste.
+    """
+    by_symbol: dict[str, dict] = {}
+    for df, idx_name in ((sp500, "sp500"), (dow, "dow"), (nasdaq100, "nasdaq100")):
+        for _, row in df.iterrows():
+            sym = row["symbol"]
+            entry = by_symbol.get(sym)
+            if entry is None:
+                entry = {
+                    "symbol": sym,
+                    "name": row["name"],
+                    "sector": row.get("sector"),
+                    "sub_industry": row.get("sub_industry"),
+                    "yf_symbol": row["yf_symbol"],
+                    "indices": [],
+                }
+                by_symbol[sym] = entry
+            elif not entry.get("sector") and row.get("sector"):
+                entry["sector"] = row["sector"]  # completa con ICB solo se GICS manca
+            if idx_name not in entry["indices"]:
+                entry["indices"].append(idx_name)
+
+    merged = pd.DataFrame(by_symbol.values())
+    print(
+        f"Unione indici: {len(merged)} titoli unici "
+        f"(S&P 500: {len(sp500)}, Dow Jones: {len(dow)}, Nasdaq-100: {len(nasdaq100)})"
+    )
+    return merged
 
 
 def chunked(seq, size):
@@ -90,7 +214,13 @@ def bucket_for(pct: float) -> str:
 
 
 def main():
-    constituents = fetch_constituents()
+    sp500 = fetch_constituents_sp500()
+    dow = fetch_constituents_dow()
+    nasdaq100 = fetch_constituents_nasdaq100()
+    constituents = merge_constituents(sp500, dow, nasdaq100)
+
+    # Un solo fetch prezzi sull'unione: i titoli in piu' indici non vengono scaricati
+    # due volte, e i ~505-520 titoli unici restano ben dentro il chunking esistente.
     prices = fetch_prices(constituents["yf_symbol"].tolist())
 
     rows = []
@@ -106,6 +236,7 @@ def main():
                 "name": row["name"],
                 "sector": row["sector"],
                 "sub_industry": row["sub_industry"],
+                "indices": row["indices"],
                 "date": p["date"],
                 "prev_close": p["prev_close"],
                 "last_close": p["last_close"],

@@ -82,6 +82,8 @@ ed.auto_report.stats.best_sectors      <- MAI MOSTRATO come elenco
 ed.auto_report.stats.worst_sectors     <- MAI MOSTRATO come elenco
 ed.auto_report.gainers / .losers       le 8+8 società
 ed.manual_commentary_html      commento discorsivo, quando c'è
+                                (lo scrive da solo generate_commentary.py via
+                                API — vedi README, "Il commento discorsivo")
 ed.feed                        le 40 notizie con immagine
 ```
 

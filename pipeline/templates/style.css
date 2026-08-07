@@ -29,9 +29,19 @@
   .name { color: var(--muted); font-size: 0.82em; }
 
   .edition { border-top: 2px solid var(--text); padding-top: 18px; margin-bottom: 56px; }
+  /* Riga dell'eyebrow: data a sinistra, pulsante lingua a destra, appena sotto il
+     border-top di .edition — e' la "riga bianca" sotto cui va il selettore EN/IT. */
+  .eyebrow-row { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
   .eyebrow { font-size: 1.35rem; font-weight: 800; text-transform: uppercase; line-height: 1;
-             letter-spacing: -0.005em; font-stretch: condensed; margin-bottom: 14px; }
+             letter-spacing: -0.005em; font-stretch: condensed; margin-bottom: 0; }
   .eyebrow .dim { color: var(--muted); font-weight: 700; }
+  .lang-toggle, .index-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+  .lang-chip, .index-chip { border: 1px solid var(--border); background: var(--panel); padding: 5px 12px; font-size: 0.76rem;
+              text-transform: uppercase; letter-spacing: 0.04em; cursor: pointer; color: var(--text); user-select: none; }
+  .lang-chip.active, .index-chip.active { background: var(--text); color: var(--bg); border-color: var(--text); }
+  .index-tabs { margin: 4px 0 20px; }
+  .index-badge { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.04em; color: var(--muted);
+                 border: 1px solid var(--border); border-radius: 4px; padding: 1px 5px; }
   .edition-headline { font-size: 2.1rem; font-weight: 700; line-height: 1.12; letter-spacing: -0.02em; margin: 0 0 12px; max-width: 22ch; }
   .edition-meta { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 24px; }
   .edition-body { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 40px; align-items: start; }
@@ -120,7 +130,12 @@
     /* Su mobile il nome societa' va a capo invece di essere troncato con "...":
        su una pagina che si scorre lo spazio verticale non costa, e un nome tagliato
        a meta' ("Alexandria Real Estate Equit...") e' meno utile di due righe. */
-    .mover-head { align-items: flex-start; }
+    .mover-head { align-items: flex-start; flex-wrap: wrap; }
     .mover .mname { font-size: 0.8rem; white-space: normal; overflow: visible; text-overflow: clip; line-height: 1.3; }
     .mover-reason { font-size: 0.82rem; }
+    /* Sotto i 600px il pulsante lingua andrebbe a scontrarsi con "Edition of ...":
+       si passa a colonna (data sopra, lingua sotto), cosi' nessuno dei due si tronca. */
+    .eyebrow-row { flex-direction: column; align-items: flex-start; gap: 8px; }
+    .lang-chip, .index-chip { padding: 4px 10px; font-size: 0.72rem; }
+    .index-badge { font-size: 0.64rem; }
   }
