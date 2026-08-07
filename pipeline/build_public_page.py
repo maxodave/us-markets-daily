@@ -307,6 +307,41 @@ def main():
         f"({os.path.getsize(out_path) / 1024:.0f} KB, {len(editions)} edizioni)"
     )
 
+    write_share_page(out_dir, editions)
+
+
+# La pagina "post pronto" (vedi share_page.py) va scritta dentro editions/ e non
+# nella radice: il workflow notturno committa solo "index.html" e "editions", e
+# tenerla qui evita di dover modificare daily.yml — cosa che richiederebbe uno
+# scope OAuth che le credenziali locali non hanno, quindi un copia-incolla a mano
+# dall'editor web di GitHub a ogni ritocco.
+SHARE_PAGE_PATH = os.path.join("editions", "share.html")
+
+
+def write_share_page(out_dir: str, editions: list[dict]) -> None:
+    """Scrive la pagina da cui si pubblica dal telefono. Mai fatale.
+
+    Se qualcosa va storto qui, il sito e' gia' stato scritto e deve restare
+    pubblicabile: la pagina di condivisione e' una comodita' in piu', non una
+    dipendenza. Si segnala l'errore su stderr e si continua.
+    """
+    if not editions:
+        return
+    try:
+        import share_page
+
+        path = os.path.join(out_dir, SHARE_PAGE_PATH)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(share_page.build(editions[0]))
+        print(f"Pagina 'post pronto' generata: {path}")
+    except Exception as e:
+        print(
+            f"ATTENZIONE: pagina 'post pronto' non generata ({type(e).__name__}: {e}).",
+            file=sys.stderr,
+        )
+        print("Il sito e' comunque a posto.", file=sys.stderr)
+
 
 if __name__ == "__main__":
     main()
