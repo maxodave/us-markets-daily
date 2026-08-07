@@ -105,9 +105,24 @@ def mover_bullet(m: dict) -> str:
 
 
 def build_sections(ed: dict) -> dict:
-    stats = ed["auto_report"]["stats"]
-    gainers = ed["auto_report"]["gainers"][:MAX_MOVERS]
-    losers = ed["auto_report"]["losers"][:MAX_MOVERS]
+    # Il post copre TUTTI E TRE gli indici, quindi legge il blocco "combined":
+    # l'unione deduplicata di S&P 500, Dow Jones e Nasdaq-100. Cambiare solo le
+    # parole ("US markets" al posto di "S&P 500") lasciando i conteggi del solo
+    # S&P 500 direbbe una cosa falsa — il testo e i numeri devono coprire lo
+    # stesso perimetro. Le edizioni pubblicate prima della modifica multi-indice
+    # non hanno questo blocco: per loro si ricade sul vecchio auto_report, che era
+    # S&P 500, ed e' corretto cosi' perche' quel giorno il sito copriva solo quello.
+    by_index = ed.get("auto_report_by_index") or {}
+    report = by_index.get("combined") or ed["auto_report"]
+    covers_all_markets = "combined" in by_index
+
+    stats = report["stats"]
+    gainers = report["gainers"][:MAX_MOVERS]
+    losers = report["losers"][:MAX_MOVERS]
+    # "US markets" solo quando i numeri lo sono davvero. L'articolo e' incluso nella
+    # stringa: "across US markets" non lo vuole, "across the S&P 500" si'.
+    universe = "US-listed" if covers_all_markets else "S&P 500"
+    scope = "US markets" if covers_all_markets else "the S&P 500"
 
     session_en = english_date(ed["session_date"])
     edition_en = english_date(ed["edition_date"])
@@ -125,7 +140,7 @@ def build_sections(ed: dict) -> dict:
     top = gainers[0] if gainers else None
     headline = f"US Markets Daily — {edition_en}"
     if top:
-        headline += f": {top['name']} {fmt_pct(top['pct_change'])} Leads the S&P 500"
+        headline += f": {top['name']} {fmt_pct(top['pct_change'])} Leads {scope}"
 
     # Titolo e sottotitolo per Substack, che li tiene in due campi separati (a
     # differenza di LinkedIn, dove il titolo e' la prima riga del testo).
@@ -137,12 +152,19 @@ def build_sections(ed: dict) -> dict:
         "Breadth was clearly negative": "a broadly negative",
     }.get(breadth, "a mixed")
     substack_subtitle = (
-        f"{top['name']} {fmt_pct(top['pct_change'])} leads {tone} session across US markets"
+        f"{top['name']} {fmt_pct(top['pct_change'])} leads {tone} session across {scope}"
         if top
-        else f"{tone.capitalize()} session across US markets"
+        else f"{tone.capitalize()} session across {scope}"
     )
 
     summary = (
+        f"In the {session_en} session, {stats['n_up']} {universe} companies closed higher and "
+        f"{stats['n_down']} closed lower out of {stats['n_total']} tracked across the S&P 500, "
+        f"Dow Jones and Nasdaq-100, for an average move of "
+        f"{fmt_pct(stats['avg_pct'])}. {breadth}. Strongest sectors by average move: {best}. "
+        f"Weakest: {worst}."
+        if covers_all_markets
+        else
         f"In the {session_en} session, {stats['n_up']} S&P 500 companies closed higher and "
         f"{stats['n_down']} closed lower out of {stats['n_total']} tracked, for an average move of "
         f"{fmt_pct(stats['avg_pct'])}. {breadth}. Strongest sectors by average move: {best}. "
@@ -161,6 +183,7 @@ def build_sections(ed: dict) -> dict:
         "headline": headline,
         "substack_title": substack_title,
         "substack_subtitle": substack_subtitle,
+        "scope": scope,
         "edition_en": edition_en,
         "session_en": session_en,
         "session_en_day_month": english_day_month(ed["session_date"]),
@@ -269,7 +292,7 @@ def render_substack(s: dict) -> str:
 
 {sources_line}<p><em>{e(DISCLAIMER)}</em></p>
 
-<p>🔗 Tap the link below for a deeper look at the US markets news from
+<p>🔗 Tap the link below for a deeper look at {e(s['scope'])} news from
 yesterday's session, {e(s['session_en_day_month'])}<br>
 <a href="{SITE_URL}">{SITE_URL}</a></p>
 """
@@ -282,7 +305,7 @@ def render_linkedin(s: dict) -> str:
     identico schema di ogni edizione, cosi' il post e' riconoscibile a colpo
     d'occhio e l'utente non deve riadattarlo a mano ogni mattina. Nell'ordine:
 
-        🇺🇲 titolo · data · numero progressivo edizione
+        🇺🇸 titolo · data · numero progressivo edizione
         riassunto della seduta
         📈 Top Gainers   (elenco COMPLETO, una riga per titolo, con la causa)
         📉 Top Decliners (idem)
@@ -295,7 +318,7 @@ def render_linkedin(s: dict) -> str:
     L'URL va sulla riga DOPO il testo, perche' il testo dice "below".
     """
     lines = [
-        f"🇺🇲 US Markets Daily — {s['edition_en']} #{s['number']:03d}",
+        f"🇺🇸 US Markets Daily — {s['edition_en']} #{s['number']:03d}",
         "",
         s["summary"],
         "",
@@ -310,7 +333,7 @@ def render_linkedin(s: dict) -> str:
         "",
         HASHTAGS,
         "",
-        "🔗 Tap the link below for a deeper look at the S&P 500 news from "
+        f"🔗 Tap the link below for a deeper look at {s['scope']} news from "
         f"yesterday's session, {s['session_en_day_month']}",
         SITE_URL,
     ]

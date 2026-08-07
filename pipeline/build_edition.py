@@ -75,6 +75,9 @@ TOP_MOVERS = 8
 # spiegati vale piu' di otto elencati: la lista completa e' comunque nelle due
 # colonne accanto al testo.
 NARRATED_MOVERS = 3
+# Società minime perché un settore entri nella classifica migliori/peggiori.
+# Vedi build_auto_report(): serve a non far vincere un settore da una società sola.
+MIN_SECTOR_SAMPLE = 3
 
 
 def italian_date(date_str: str) -> str:
@@ -134,11 +137,22 @@ def build_stats_and_movers(companies: list[dict]) -> tuple[dict, list[dict], lis
     by_sector: dict[str, list[float]] = {}
     for c in companies:
         by_sector.setdefault(c.get("sector") or "N/D", []).append(c["pct_change"])
-    sector_avg = sorted(
-        ((s, sum(v) / len(v)) for s, v in by_sector.items()), key=lambda x: x[1], reverse=True
+    # Un settore con una o due societa' non ha una "variazione media" che significhi
+    # qualcosa: nella vista combinata i titoli esclusivamente Nasdaq-100 portano
+    # nomi di settore ICB che l'S&P 500 non usa, e ne e' bastato uno (SPCX,
+    # "Telecommunications", n=1) per apparire come settore piu' forte della seduta
+    # a +6,14%. Sotto la soglia il settore resta nei dati, ma fuori dalla classifica.
+    ranked = sorted(
+        (
+            (s, sum(v) / len(v))
+            for s, v in by_sector.items()
+            if len(v) >= MIN_SECTOR_SAMPLE
+        ),
+        key=lambda x: x[1],
+        reverse=True,
     )
-    best_sectors = sector_avg[:3]
-    worst_sectors = list(reversed(sector_avg[-3:]))
+    best_sectors = ranked[:3]
+    worst_sectors = list(reversed(ranked[-3:]))
 
     stats = {
         "n_up": len(ups),

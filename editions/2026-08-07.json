@@ -46,7 +46,7 @@
     "paragraphs": [
       "Nella seduta del 6 agosto 2026 l'S&P 500 ha chiuso con 202 societa' in rialzo, 299 in ribasso e 2 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di -0,50%.",
       "Settori con la variazione media migliore: Energy (+1,39%); Communication Services (+1,22%); Consumer Staples (-0,24%). Settori piu' debolli: Real Estate (-1,28%); Industrials (-0,93%); Information Technology (-0,91%).",
-      "In cima alla seduta: Motorola Solutions (MSI, +8,20%), dove Reuters riporta: «Motorola Solutions lifts annual guidance on resilient public safety demand»; Parker Hannifin (PH, +7,31%); Leidos (LDOS, +6,63%). In fondo: Honeywell Aerospace (HONA, -23,16%), dove MarketWatch riporta: «Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff»; AppLovin (APP, -19,66%); Datadog (DDOG, -19,03%), dove Barron's riporta: «Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’»."
+      "In cima alla seduta: Motorola Solutions (MSI, +8,20%), dove Reuters riporta: «Motorola Solutions lifts annual guidance on resilient public safety demand»; Parker Hannifin (PH, +7,31%); Leidos (LDOS, +6,63%), dove Reuters riporta: «Leidos lifts annual forecasts on strong defense demand». In fondo: Honeywell Aerospace (HONA, -23,16%), dove MarketWatch riporta: «Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff»; AppLovin (APP, -19,66%); Datadog (DDOG, -19,03%), dove Barron's riporta: «Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’»."
     ],
     "gainers": [
       {
@@ -182,7 +182,11 @@
         "indices": [
           "sp500"
         ],
-        "reason": null,
+        "reason": {
+          "title": "Leidos lifts annual forecasts on strong defense demand",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ19DdGQyMFRmenI0OGZIek9SejF6RmxmbHp6T19YN1JnRnhacVdwYTVzdlBLUkZCTHlSZ2cwTjRoc2ZZU2wxMndjbVh1Mk5SSGEtOWFyd0N0YTQ5OGR1R09jeU5NSXB5ejZLWWhBdVVkY0g4c2w3bG9VRm5WdVZPSzJsRFFCdkNmbklXNTgyXzM4UVBYS0VXWllieUU?oc=5"
+        },
         "news": [
           {
             "title": "Cognizant Technology Solutions Corp. stock outperforms competitors on strong trading day - MarketWatch",
@@ -200,11 +204,6 @@
             "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdUlWTDRjV21jQ0hlYTBieC1WTXJteS14b3ZkaDJLQVJfMGxIUDdhMTNuZ3oxWk1WaFJINWU3MS1fZmVQOXl0ZzVTTTBoMDhCeDc2UFdoanNPRmNwZjFfc2duM0ZNb0NnMk04UnZPaUdZWjlLZWxGdFk4QnJEZGdqRWFUaUNvNzJHbFdIcnh2NzdsbUhSSVoyOE5KSzMyUV8zenN0UDN1NDN1THVoMTd1WmtuZVUteVd5UDFpMW5XS1VzS0d6bUVKckh2Rk40cFMyZG1JQUpzUnNTM2VibG05eWpDUGU?oc=5"
           },
           {
-            "title": "Jacobs Solutions Inc. stock outperforms competitors on strong trading day - MarketWatch",
-            "source": "MarketWatch",
-            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOblpvbkZYRjJfaHhJTmlNdHU0NTU5eG5YQzJWTTVyZ2ZiRWl4Q2ZuVV81SUVrX3BtX2hKNUlrUUJZNjFGNmhyLURYcjVXSng3RkgyMFNVc0Y0X2RES0UwVXB1NUxzNVhPanFNU05uRF96SjladG9wZmRRZy1zVTdfV0U4aXRaMTFSTkpNMTJKQU9oRUpVSWU1Nl8zX3RXX0NRai03UVhUaHZ6cUlPUFYyVW84ZG5WVW5XR2Q0MC1INzF5UXRNd29TbEVxbnZ6UGRPa1BzNVU3NUhmek9sLWc5WEZfSmQ?oc=5"
-          },
-          {
             "title": "Cognizant Technology Solutions Corp. stock rises Tuesday, still underperforms market - MarketWatch",
             "source": "MarketWatch",
             "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSXVfQ0hlLVZpQUZMZGw4Z29NZEx2VGJtWm4tRVpfY0RxX25Oam5fbXZUSUE4cDlTS2dIVGZMQUMzUzdfUzFKd183TWVOTU1QNU5LYXRDbkZYUW5fb3RwejZxLTd6Nlc5TXY4b0FvNl93V3l2emhBa0tEWm9SWDlXV1k4bDd1Z0o3ZlVrM3htVVlCTHAzR19QVnhYOXgwWXJXUE00c0JGRVhDWU5SN3NzMGxFcEd6Zk9EWGliTXlIQVFtLUI4WGpkZkRubThQR0hDT3lWOHZFMGhLZw?oc=5"
@@ -213,6 +212,11 @@
             "title": "Leidos Holdings Inc. stock outperforms competitors on strong trading day - MarketWatch",
             "source": "MarketWatch",
             "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWHpsXzczX2FKQU9WcGRPQm1ORlZtTDZDM1NXeF9tU3ZJZXdPcE9SeFV0d2hCWkEzdTJ5NUZDbG5lYVVWSjhMNWVLSXFObzhqcFpmOHBWYjAzVWNJY1lCRTVkWVRtb2NWYTNTRm9xamJpYTZ0ZzZZa3JrZWNhYl9RUERGdWk3SklGMGRseTliRE5OaUNfTFF1d3pPS2RNR3VzXzEydzNxUTlRTHVZRjhheVZBRjN3Qk5Vdjlia2xwbHphMURpZi1Pa2xUMA?oc=5"
+          },
+          {
+            "title": "Leidos lifts annual forecasts on strong defense demand - Reuters",
+            "source": "Reuters",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ19DdGQyMFRmenI0OGZIek9SejF6RmxmbHp6T19YN1JnRnhacVdwYTVzdlBLUkZCTHlSZ2cwTjRoc2ZZU2wxMndjbVh1Mk5SSGEtOWFyd0N0YTQ5OGR1R09jeU5NSXB5ejZLWWhBdVVkY0g4c2w3bG9VRm5WdVZPSzJsRFFCdkNmbklXNTgyXzM4UVBYS0VXWllieUU?oc=5"
           }
         ],
         "news_historical": [
@@ -249,19 +253,14 @@
         },
         "news": [
           {
-            "title": "Some House Republicans Are Backing a Challenger in Cory Mills’s Re-election Bid - The New York Times",
-            "source": "The New York Times",
-            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRWdNeG9fQ3NGOXltaG1EbWFBVV9uWTFkeXk0MGFmUUtsUUN1dzM3YVNEbDdPZlA1Q3JuOUdNdEhBQ1p5ZmE4Q2hyUnEwdldpeFNfRjR6N0FYZ2N1dnE5b1UtNlNIdlJIS0F4T2lSNVFFTGEwUV93LTZZS2dDbDFyRjlPMHFoOUtVUXNDVUF0X3MtTi1oNXc?oc=5"
-          },
-          {
             "title": "NVDA Stock Price | NVIDIA Corp. Stock Quote (U.S.: Nasdaq) - MarketWatch",
             "source": "MarketWatch",
             "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rTUx0am9SNU4zUG1rZG02REFwVHRBSmgyanJKb1ZFRHZNbG91b2RIN1NTUUxsTS1JX0xFWmVkTmxsQWxleG1nN1VXZnVJby13cEdlX1B2dUs4aEhr?oc=5"
           },
           {
-            "title": "Opinion | Where Gen Z Finds Meaning in Life - The New York Times",
-            "source": "The New York Times",
-            "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tMHlfb2VIWGYtUmhZZHVPRF9zQ1d2Qzdwak9lbE5yV3l6dERoSkRfRVhyS0xYLU1Gc2VUN0xkbnFOeXRLQkF4RHFHZW9ocF9Bc2pWdnV3Nk9aQmhsclEwbFFfM2czU25Tc2JuNFUydHo?oc=5"
+            "title": "Senegal court jails three TikTok influencers for insulting the president - Reuters",
+            "source": "Reuters",
+            "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX0pVOHpLWjNINXAzWUxFN09wbjZUYnFoNFRMVWp6ek9CZW5tMWRCeHQ4RG9wWVpBdDdrbjNaTHN1UXVjckktRXRiVlpDdFJnWkhSRHBja2lhaXoyaHVvVEYxcUJtSHo1VS1rMHh2T0J1eG1NTE14NFFFT1J3dC03cjIyRFdnbWdkUVdMOU1UeW93djdOMmM1bW5wQXg3NDA4NndPUU1IYnJlVkoyN1lKRnB6Z0dkdEh3YnFtTG5jc3U?oc=5"
           },
           {
             "title": "Fox posts upbeat revenue, profit on ad boost from FIFA World Cup - Reuters",
@@ -269,14 +268,19 @@
             "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYjg5R0poUXFLQmZZTHUzQ19YZVUwNVBNRzJUTGlPcGdGVEJJZVlheWlrYlZXdS1fdWYtd1NyTzBYbTlKcU04RlF2SmpPVkplWWJmZ29NSlpmTE94bTVEUkdoVTVKNU5nYXN5RVc0NHFOVDlqd05NZldHRmNmRWpqdVkwZGFBc1hteEJGQVBjUEtyc282RjJIek1JZW9Mem93eHlN?oc=5"
           },
           {
-            "title": "Wars, Wildfires and Migrants Leave Europe Straining for Control - The New York Times",
-            "source": "The New York Times",
-            "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSHFtY0Z4RFIwMWNWdTkyaF9aMzRYZWdFbE9aRHlTcXZFRmdLQ1ZYRUtpUzZENlF5SHBlbjd2WTdGSURGZEpyS3JYUXB2bllGYjQtcUdYYU1NX1RidklnMHYyd1RNalJ2VVNYUVg1UXowR001aXVSYzBrN2owcVhDdk1rYkxSbmVKN0Zn?oc=5"
-          },
-          {
             "title": "India court sentences journalist Tarun Tejpal to 10 years in jail for rape - Reuters",
             "source": "Reuters",
             "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZDNVNEh3YVlWR2gzYVV0MHdmbTJqVk5pbHZhRlNLQ1phLW1adWh4b0gwMmxTUWZ4YWJzNDU1eGtTUDQ3VUR0bldBLUx3aVdPQ1dGTENfWWtwOElsYk5BYUhGYmxOVW5wOG1RaGVsdjJKdzBianlCUTZYRXhxaTBYcDlLcWRRek4yNVpUS0lSdVhnXzZrdzByb3ozRENUYmRGZXBuUFltMmY2QmtreG5SY3FLWnFmYXA5cGItNzlzTDI?oc=5"
+          },
+          {
+            "title": "What a Contempt Vote for Fauci Would Mean for the Pardoned Doctor - WSJ",
+            "source": "WSJ",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOFJwZ1lWeEJnbGwzd2d5by03V1ZOX0dsdVRUWldCR0plODhSVHQ0ZDBvWVB0UUdrbkFfUWpfZXB4dlRpN18xc2NsMHAzTFNXZG16R3pDV1d5bUNZSXFvZC1SNnFqSURKamdlWGUxaFA4VXdqYWNlWVJvQ2hZaEdGTnpyeU16Q1dYdFgyVGtTaWp3Y3NybjVJYUp0MEdwbW9HbHNaRHRR?oc=5"
+          },
+          {
+            "title": "How the new generation of left-wing US media is powering progressive candidates - Reuters",
+            "source": "Reuters",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWTRPY0l0SF96SVZ1NWNqamhHN0VoUC1rbmNWU2s0VUoxRUE3bjQwV05hYjBrMktYbTVZbzVpS2d6OGtFbjY4enNzRUUyYjBnY1N0TjNGZWhTcGw0VTdySnFJbEFwRHJVWHc4eWtxaFdSaTlyRGMwY0IzWFN5TGJ0Y1lWX010dWVYNEVqZGxOel9hbUJHMmplVnZUTXZGaWgxdXB4U1hvb0lIN0FMNEtlN3lWSW5fYmthay05bVQ0X05HaklPZ1FqVVFCSQ?oc=5"
           }
         ],
         "news_historical": [
@@ -404,9 +408,9 @@
             "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wYnpfd0ZaZXV6T3JwakZZV0lWWERFQU1xbm85NUp0eG5LSGoweUdseVZrSnVyQmlVOERpQTJEemlKLXJpTTY0QXR0YnNMMTVNT0lnSURTTG41WVkxRXBCaTBBdHFZQWF2?oc=5"
           },
           {
-            "title": "Do Options Traders Know Something About Albemarle Stock We Don't? - ca.finance.yahoo.com",
-            "source": "ca.finance.yahoo.com",
-            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbnd3OFlnR0hveTBnQ05udENVaWRfUHp2Vms1WkJ4TEdDTVJGSWo0UkFBTFE3UU83TVN5RjA4cGIxdVRLWFNHc1BWVjRXenVSWmdMQWNlSlgyaWp1OGlrdWlvRXFla2FqUlc4T3ZTU19aNGNMdnVzNjlEQzkwVlR6TDg5NWR5TktydkdTd1JRSnVuaFk?oc=5"
+            "title": "Do Options Traders Know Something About Albemarle Stock We Don't? - Yahoo Finance",
+            "source": "Yahoo Finance",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVEpEcmFOYmt4a1FnWFd5cmwtcmIxdHFoYUp1MUlaVllQQlBFQ1Vzekg5VmNIQXVUZER6VEtMdWV3b3g2amhZWVphUFhfckI2cnhXbFhNMXluSGQyQnFkcGFWcTFoX1p1alZfUTNRbWoyZFBwV2NLd0NmSWczal9wZlJlYXIteXZWTW13cUQ0THV0TnZkWXVlQ3VlYkFCdzBHZFNrUFdSMGt0Zw?oc=5"
           },
           {
             "title": "Albemarle Corp (ALB) Stock Up 3.4% but GF Value Says Overvalued -- GF Score: 79/100 - GuruFocus",
@@ -464,14 +468,14 @@
             "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNXV1dISjMtTFZWV2NvaTJOYm9NVnhrU3VoWlEzcXB0ZklyWFdDSlZiQ1NlaS1YLU9GNW1VSW85S3AwXzU5RzZUcVd2Y1pYdHh2NVJEOG9aT3E0SEN0ek1pc0JWaDdhZm1ldDhEbFV5RDlCNDJYbGhfRDVLMTZDb3o5RHdNcGhVM3dFMy1EQlB6RUlVWVpkMWt0V2JYVW43RUFPNWhDQnY3Y2JyeUl4Mg?oc=5"
           },
           {
-            "title": "Carillon Chartwell Real Income Fund's APA Corp(APA) Holding History - GuruFocus",
-            "source": "GuruFocus",
-            "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRjR5Rk16XzRlUlk1d3pMUDFWUzVBYV8wVW10SlZ6aTJKV25PVFNzOTFuYlBURGZRZi1zRHBucTNnbDYyMHdmT29ucHN5cEM3RTBBZWUxSVlRektZNHFBVDRNOTYxZkw4VnlDVFRiVWl0X004WlFoZkZWcG5sclpFdk8tN2dBZ0dzOWQ1TkNnMmtqUQ?oc=5"
-          },
-          {
             "title": "APA Corp. stock outperforms competitors on strong trading day - MarketWatch",
             "source": "MarketWatch",
             "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRXpjTEEtM3pyVlYtSG8xMTBnQTlKYUhPWnJrVUtzdE1keTlUSHlBVnpIR0tQSmZRWUZ2U240SDlOM1pJR3dTNUtNbDRvN3dmbmhCb2FXNkNMbFBoUkFrQ25DMGswRlNhQzNKSFBvUTFleXlOeFBXZUt6XzJhRzB0VWF0aVNFbzVnRWhkNHdyd2hKYjlwUFlMM2lIT0FOMmhlakhZZTN2cUVFNjVCc2lMSjNwc2EyT0xFYzZHaw?oc=5"
+          },
+          {
+            "title": "Quantinno Capital Management LP Acquires 39,375 Shares of APA Corporation $APA - MarketBeat",
+            "source": "MarketBeat",
+            "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQWQxbTF3UHl1SGdfRzJSMnl2ZFRtNlJfME81T1RrOEdRTzRoRzVEUmJWUWNXYzd3Q0JFN0wwNjZETlo4UkkyQWtJLWxuR3dyVWtWeHpGMGs2ZzVWcXcwcXJ2MzlqNW9tbEloN3JtLWw4eC1BSm1mTFU5aWtCd0RpbFpOMUVXNXh5NW1qT1VxT1FyZVlIUzBqUzg2SUJBSzVpU0ZkV2kzS2xkZFJMd3pVX1Q5S0ppMm9IODRIMXVLWWxoMkFJMjlvaDA1VktiLWpDVXRr?oc=5"
           }
         ]
       },
@@ -589,19 +593,9 @@
             "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTTU3bi1UZjI5WVJkYl9mN2R3bVlSZGF5OGc3YnpBUkVhRFRNQTdQTVA0MEx6azB2V3RpZVM5SUJfVHBMekRsclZ3R0p3dkgwZTZTWW1uWjJZT1JZZndRTEZFUVRnNWpfdzU4bXdnSXhNckNTXzdVV3NlMXFxbFp4aW91Y216c0ZGNEVQTks0NFFSSkhnMWlLTm9vZDF0RzJ1YnFYcA?oc=5"
           },
           {
-            "title": "SpaceX True Believers Propel Shares Past End of Epic Lockup - WSJ",
-            "source": "WSJ",
-            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbGRjWXRjQllNb0EwQXdVdFVGUUhGUXJzX25nRXNNbU9hbjJNXzhlQndBdFhycG1JRDlqSlRWZElIaWtYOWpkOUlpZUZXVHlyb203ajQ4T1R3VzhONmJwN19lNzgxYU9oV0JuS1c2TXhNM3BlRWFGcS04ZWFXdjFuOVFONk44VkJtQmVrVVNlaE5lV1kyeEFrd1ZfeVg5Zw?oc=5"
-          },
-          {
             "title": "Tech, Media & Telecom Roundup: Market Talk - WSJ",
             "source": "WSJ",
             "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPODA5TXIzVVY1ZGRwU3JqSWd2dnRYSXNDeU8tLVdKMUFJc2FRSEZ5ZHUzelRKOU4wSjN0MTZpSGUzVGN6OVFzaF85eWZmVlFXcTI5LXhQSjJVRC1zd1g2R01FYnhOdkMwN2FjVHNWRldseENtOXM4YzZKMzU4ZTlUdEJR?oc=5"
-          },
-          {
-            "title": "Rocket Revenue Surges on Mortgage Market Share Gains - WSJ",
-            "source": "WSJ",
-            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTVRZSFdKUU55YmpyeFVndG5qQkhRc1RCTzVhYjBGVGNXbkRIRk1xTDJTanF6cUJzYms4eVdad2FPQnRyd01TYjJYNkJXR1A4SnRBa2pOUjdEdTkyckU3cHlPZzQzaU9EYUo1OWk0ZHloVFR3eEhqVjAyajlyWUVFbm11OHd3QTg5VGZ2blM2dkFZSGNzUTlIbThuaG5OMEtZ?oc=5"
           },
           {
             "title": "Stocks close lower as investors eye Mideast talks, earnings - Reuters",
@@ -612,6 +606,16 @@
             "title": "SpaceX, Honeywell Aerospace, Sandisk, D-Wave, Datadog, and More Stocks That Explain Today’s Market - Barron's",
             "source": "Barron's",
             "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwaTdMQnBJLWVINmIxRk4xR00tSTZyc0MyWmtLRURKY3ZVczBveUw4NmU4UmpEVDlHUXkyZ3VNbXF6TWpzNldnUFVTVE5xUW1lNk4zT05OVnFkRmRwVlpINXZZOXA?oc=5"
+          },
+          {
+            "title": "FTSE 100 slips as Relx weighs; WPP, Persimmon gain after results - Reuters",
+            "source": "Reuters",
+            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSjJ4ZmljTVlnRGlOczVZaVBnZ0RLbTBRYW5iRjNzVExzVUJIWDdkNGllVnRvc0ZTWmhzYndibnpzOHNGVkNQTlRIaHZRMnV1di1tTzRPT3hZZVFxVU1CR1NpenZCQ05XNjRqaFlZSVZSdER1QVd0Z0tWWkJEX0VlYmRFQ3dQNXJy?oc=5"
+          },
+          {
+            "title": "Versant Media Shares Jump After Raising Outlook on Strong Viewership - WSJ",
+            "source": "WSJ",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTmdjaW9HV0RjOUx1ejZ3SWR3UUg0WXM5ajZFVlMzRWlJd09qSlhJbGU0dVBSekRKT2l0RUVjUkN4c3BXVTNUT2dSaTNobkJLcTZLWHBudHpENEYtVjM4V0I4WFFqMWwySlJTLWhkV3FGMkVoc0JSRjlYRGJmMDJMejh0UThGZ3ZfUWllampuWWRLZ2JSUkRTb1JOeHRBMWk4Q3FVYjQ5b0ZaTlp4MDlBdnhVekJyQQ?oc=5"
           }
         ],
         "news_historical": [
@@ -643,7 +647,7 @@
           "nasdaq100"
         ],
         "reason": {
-          "title": "Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’",
+          "title": "Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’",
           "source": "Barron's",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JdmVxTUZicWNtNFpOZVJUZVVCX3Jlam04NUR4NS1salZfZk42Nng1S0hKaExCNVBNR3BXczU0U3d6UmoxcFlrb3pmU3BDV3hVcWVuY2ZiaG5YQ2NnNjZYLUFHV0xYWjltNTM0VEpjTlRHZG14RUNfOEh3?oc=5"
         },
@@ -664,7 +668,7 @@
             "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbE1LWWNEaExUVlhSemZzQWpUbjZ5ckE1TENVZ3VkX0VyWXVla3pmaGliUEthTHlELVR6OTNkSldSRndUdUt0dkdaazUtVlZpbDZhblUyUDdjXzNXT29QaDB5YV9VZ2otenlzYXMySE1PZWxHSFl1RzJuejRpN3FEUmlLck1ZWnlvQ2ZHOUIyakFqU1Y2NUExNWpIQkh2WlNNRGRvSTVQdw?oc=5"
           },
           {
-            "title": "Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’ - Barron's",
+            "title": "Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’ - Barron's",
             "source": "Barron's",
             "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JdmVxTUZicWNtNFpOZVJUZVVCX3Jlam04NUR4NS1salZfZk42Nng1S0hKaExCNVBNR3BXczU0U3d6UmoxcFlrb3pmU3BDV3hVcWVuY2ZiaG5YQ2NnNjZYLUFHV0xYWjltNTM0VEpjTlRHZG14RUNfOEh3?oc=5"
           },
@@ -708,40 +712,30 @@
           "nasdaq100"
         ],
         "reason": {
-          "title": "0HKE | Axon Enterprise Inc. Profile",
-          "source": "MarketWatch",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2lsSFpaY1UtanFfeFNqczIwZjVxWVVmNGpFU0hnNGZ1REJzaS1RZnhfWXVVMGtpWHRLRDVadDJxSXpMR3pib2I1cVRwUDJpY3hydWNHT1FtSVZ3ZHVnUS1ESm5PYzVtU1JIVXE5VERNNV9RUW44R1BpMHp4SWVVd1lFUmRreVhEbU9hSk9WOERZTkhUbnBYdg?oc=5"
+          "title": "Axon reports Q2 2026 revenue of $904 million, up 35% year over year – Company Announcement",
+          "source": "Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ24zTHQ4LTJiNVpNZGZKZmRra1BDTktGNWVFdWZYWHN2OEdKUUdkaUJYeDMtQk1xSGI3d255NWllYnp0Wmk4X0Y5WmdnaHZOZl90dTlPOXdrRHJDWnJtY3JHSkMzZ2ctbHNlVjE1THkwdVc0TkFiaHFpWXZ1V0FHTG9lZGxUb2JFYVRaV0ZOb0xBenBNVzlHUw?oc=5"
         },
         "news": [
-          {
-            "title": "NET Stock Price | Cloudflare Inc. Cl A Stock Quote (U.S.: NYSE) - MarketWatch",
-            "source": "MarketWatch",
-            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OUGtBVnFBc21GR0o2QV9GZTN3OEItaFRQRzNlNmV1YkI0M1ZyZWdjc0VzYm5Dd2dBTDVpc1hvd0JJYm1OTXlRNzFIUGFicVo3cEJHbkJfeFFlMzQ?oc=5"
-          },
-          {
-            "title": "NVDA Stock Price | NVIDIA Corp. Stock Quote (U.S.: Nasdaq) - MarketWatch",
-            "source": "MarketWatch",
-            "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rTUx0am9SNU4zUG1rZG02REFwVHRBSmgyanJKb1ZFRHZNbG91b2RIN1NTUUxsTS1JX0xFWmVkTmxsQWxleG1nN1VXZnVJby13cEdlX1B2dUs4aEhr?oc=5"
-          },
-          {
-            "title": "U.S. Stocks Down on Hormuz Deal Doubts - WSJ",
-            "source": "WSJ",
-            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbjhuREI1Y1RXUzBiLVRhTWozYTBLeTNaRW82R25mMzR5TnBxN0EtR2ZOTzlzT1Y5M05wQUlmcFg0ZWpCZWFQTTBmdXhhdlh0VmhldmQ2Y21BTTRZMDdoN0R4XzcydlhfSkxzYkRfMEs5cVBzTjF2ZGNzOVA4NGNYbVF5R3VZaG9t?oc=5"
-          },
           {
             "title": "Axon Enterprise Inc. stock underperforms Thursday when compared to competitors - MarketWatch",
             "source": "MarketWatch",
             "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbkJPZERFaTVHNWl4WDg0Ni1oMjNOVG5JenA4NlNfOF9ZbWhJUDN0LW5sNFFENjJGdFNkTVJIei0tZnllTGtYck9pWkFsTG02NkxydUlVNG1TLVZjWmF0SlJxamJ5X09Vd2lCRThUVmRPNFcxQVB1RkJuNWI1NWpkNXNKUmNmS0dXeExhWFI4Wk1RMHFpZ2FTRVVTNmdsOHJsc25VMnJFUTJGUVpfcWUzS3YtYV9hU2ZWX1QxYm1JTC1EMWl2OW9wT1ZCcVRmTUN4Y1kw?oc=5"
           },
           {
-            "title": "0HKE | Axon Enterprise Inc. Profile - MarketWatch",
+            "title": "Motorola Solutions Inc. stock outperforms competitors on strong trading day - MarketWatch",
             "source": "MarketWatch",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2lsSFpaY1UtanFfeFNqczIwZjVxWVVmNGpFU0hnNGZ1REJzaS1RZnhfWXVVMGtpWHRLRDVadDJxSXpMR3pib2I1cVRwUDJpY3hydWNHT1FtSVZ3ZHVnUS1ESm5PYzVtU1JIVXE5VERNNV9RUW44R1BpMHp4SWVVd1lFUmRreVhEbU9hSk9WOERZTkhUbnBYdg?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV1hPZG9vaElTWFQycmRnc1dwczNoNy1HRkZpeFd2Y0RMR29xM0VqNm5ab05iWnZyLUlHYnZ1Q3JfUGFtZWpyRWJlaTRFRHRYLXBnN1FZbktBbEFKQ3pvWFd0ei1qVUR6enFkVTNzTGZPeDZKbmJaZElNcTJLVUZXaF9mOV8tTnV2amRyOU5Rd2J0OV80Z2Zkakg4eHRZdV8wWmo0QUhIQW94ZVZZaXZsMU5LRGt6WFZYWVFuNVZULTMxdVcxRU9DNG5KaHNzdk0?oc=5"
           },
           {
-            "title": "Alphabet slumps on more AI brain drain. We're not too worried - CNBC",
-            "source": "CNBC",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcS1SbFJieDhXZDJIVHdxZ2NUNlVnNml0TmwwLU5vRFhDUlNEZlRlMkxtOFdQNERJX3ZIM19WS3htVHM1QmdNZC04TFVjbGZGTFk5V3pnN2c0akpXYjdVaU9aOVdhRExYOGU1OElHdEZzVjIyZ0xvNlpmSDgzZlIzU00wYy1OT25mY2I2OXRTSFVQZXZXZVdzMA?oc=5"
+            "title": "Axon reports Q2 2026 revenue of $904 million, up 35% year over year – Company Announcement - Financial Times",
+            "source": "Financial Times",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ24zTHQ4LTJiNVpNZGZKZmRra1BDTktGNWVFdWZYWHN2OEdKUUdkaUJYeDMtQk1xSGI3d255NWllYnp0Wmk4X0Y5WmdnaHZOZl90dTlPOXdrRHJDWnJtY3JHSkMzZ2ctbHNlVjE1THkwdVc0TkFiaHFpWXZ1V0FHTG9lZGxUb2JFYVRaV0ZOb0xBenBNVzlHUw?oc=5"
+          },
+          {
+            "title": "AXON.N - Reuters",
+            "source": "Reuters",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XeGpzYzZoOFYwOV81NVl3am1lN0lpOWZreU5WREExOHRrWjQyNTd2NlRUajN1OFJNaWxNLUd2QWlxVm9MQ096SFM1THdhbUd5ZmtndzhoUWJhZUgwVU5QcUZFMWRoQzRwem94ajFLMHMyMFVIdWU0OFhJTzNXbWs?oc=5"
           }
         ],
         "news_historical": [
@@ -865,7 +859,7 @@
           {
             "title": "Table: barrons_weekly_nasdaq_E.xml - WSJ",
             "source": "WSJ",
-            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOGI1QWJlSGlyRXYtNGZUYm8xWGFyQ3o1cTctRnlQSzVTMHZHd0ZpR2t2YlcySVJFWFljaUNmSmxkcFVsYkhaVGNCbFRlTWlZTWlqSkxtUTUwSzVnbkxVTlR3TVllUXdhcGlWXzdmVko4U0pSWHExZEo2YzVicDNwdHJB?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hZFZYOFpvX3ctWk1pQVJZVEpjYVNObzdSTVJhOHNYUkd4Qi1IQWVFdzNsd3UyaXg3MjB6THB5Zk5ZRnNPTU5yZGJ5UEQ0Q1oyVXlZMXBZVEs2VGFGMld5VjRFeDdJQ3FNNEtlckdfYVRxLW43V1ZsOE5rdC0?oc=5"
           }
         ],
         "news_historical": [
@@ -895,21 +889,12 @@
         "indices": [
           "sp500"
         ],
-        "reason": {
-          "title": "Host Hotels & Resorts Inc. Stock Grades | HST",
-          "source": "Barron's",
-          "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNWWZDVW5aVzdrZ19uclM5VlVCOUpPaWh3b3AzbVIwWTNBNGxoTllwOG9tbXRPUXR3dTBJTEJoX3AzWGxDcXZkcFI0ODlBakx6WFRQU0xEYXJRbktjZWNLYWR3NkhUd3lBNFJaNjlBdTNscWcwN2NneGR0NGFiMi1JWDNtSHliSkJ3V3ExdElFbEk2UVNTVEl1OHpleWc2X3BwS2R6LXp0cTVXWHc0SjZmVmU5WExxR2tHMkVyWm5TampFQVYyS2g1OHhtSUF4NzVuVjB2QS1kdWdhWFNINkVRYk5sV3IzcmVKTk9xY2syU3JhNnlYZmV3VHFSNUJMc2lMQmpPXy1iakduelB1akxhY0ZOX2xhcEhhMGxWZHlia1o2a1RMakhLeUxUY2xGaWRKb0gzNUdGXzFvNXRqbk5ZUVVwLXluVzZVV2c?oc=5"
-        },
+        "reason": null,
         "news": [
           {
             "title": "Host Hotels & Resorts Inc. stock underperforms Thursday when compared to competitors - MarketWatch",
             "source": "MarketWatch",
             "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSVNUUm0ySEYtcmdPNVpSS3MtTU1ZTTRzdUU3S0M4Z3Zmb2lEaDgzZWFwQ3BrczFTT3lYM1JnMEdaWG5XZXJxR0l0cmJfNG9QeENGOFE1MlNERW15TklTSGt2YU1TRHJIdkJ5eTR4OFZqblNSbjRiZjZxZmlFSURhUGdSYVdWYTZ1VTJST0pjdG9WTmpORXliTmg1TUZHd0ZLbHJaVHJJUFBqcGpTYURLTUhYYVo3cm82X2RBZGxhc0kzTkxyclRJX19VYXk5ZzBfNXpRSmp0RzU?oc=5"
-          },
-          {
-            "title": "Host Hotels & Resorts Inc. Stock Grades | HST - Barron's",
-            "source": "Barron's",
-            "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNWWZDVW5aVzdrZ19uclM5VlVCOUpPaWh3b3AzbVIwWTNBNGxoTllwOG9tbXRPUXR3dTBJTEJoX3AzWGxDcXZkcFI0ODlBakx6WFRQU0xEYXJRbktjZWNLYWR3NkhUd3lBNFJaNjlBdTNscWcwN2NneGR0NGFiMi1JWDNtSHliSkJ3V3ExdElFbEk2UVNTVEl1OHpleWc2X3BwS2R6LXp0cTVXWHc0SjZmVmU5WExxR2tHMkVyWm5TampFQVYyS2g1OHhtSUF4NzVuVjB2QS1kdWdhWFNINkVRYk5sV3IzcmVKTk9xY2syU3JhNnlYZmV3VHFSNUJMc2lMQmpPXy1iakduelB1akxhY0ZOX2xhcEhhMGxWZHlia1o2a1RMakhLeUxUY2xGaWRKb0gzNUdGXzFvNXRqbk5ZUVVwLXluVzZVV2c?oc=5"
           },
           {
             "title": "HST.O - | Stock Price & Latest News - Reuters",
@@ -981,7 +966,7 @@
           {
             "title": "10% Owner HORIZON KINETICS ASSET MANAGEMENT LLC Buys 1 Share of Texas Pacific Land Corp (TPL) - GuruFocus",
             "source": "GuruFocus",
-            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVEFSVVJJRFBHb3hrSFlIUGlEbzRKd3ZYYjRfN210WFFiQjA1cnd4amE2QlVnM1prS0dSRERGMS03c3dsZV9kdDhzN1RDU0hlWlctVzh1OGtpenZCMEJQLTQ5Rk9OQ1JJNmR6TE9FamZpSTBNSkZHQ01xWWNSWGNBTmxZdV9WNjM0eUt1azUtSUEtandwTmZqcmJvUXVLVF9EWnQ3UlhXYjQxMTVjU0xzWWVPdDZ6NHZ1aVl4MjJYR2ZLdnFEVVJrWQ?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZlFPcmdXSU5Qci1ucnRMTWQ5VFo5Q0RXZC1GOVYyenh0ZXhnNjliQkcwYlJjVzN3SUM4Zk1OaDVCajRtWVhRbU1iZjd3d3dwTFNiZjhvZmVnTTUtLXIzN1JWTkYyTUZadWM3QkR2OEJySGNhazR0X3M1cm1pS1llN0x3RE8xUTNHMWcxeFlxZWNGS29VMU1WSXJ0dUpFMUI0WXI0NU9RcVdQZnhBTS1sQzZWRzNNT1d4Q1lDbzY4ZkgwbUczWFJHUHIta01fZEhvaExKRkp2OUY?oc=5"
           }
         ]
       }
@@ -1158,7 +1143,11 @@
           "indices": [
             "sp500"
           ],
-          "reason": null,
+          "reason": {
+            "title": "Leidos lifts annual forecasts on strong defense demand",
+            "source": "Reuters",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ19DdGQyMFRmenI0OGZIek9SejF6RmxmbHp6T19YN1JnRnhacVdwYTVzdlBLUkZCTHlSZ2cwTjRoc2ZZU2wxMndjbVh1Mk5SSGEtOWFyd0N0YTQ5OGR1R09jeU5NSXB5ejZLWWhBdVVkY0g4c2w3bG9VRm5WdVZPSzJsRFFCdkNmbklXNTgyXzM4UVBYS0VXWllieUU?oc=5"
+          },
           "news": [
             {
               "title": "Cognizant Technology Solutions Corp. stock outperforms competitors on strong trading day - MarketWatch",
@@ -1176,11 +1165,6 @@
               "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdUlWTDRjV21jQ0hlYTBieC1WTXJteS14b3ZkaDJLQVJfMGxIUDdhMTNuZ3oxWk1WaFJINWU3MS1fZmVQOXl0ZzVTTTBoMDhCeDc2UFdoanNPRmNwZjFfc2duM0ZNb0NnMk04UnZPaUdZWjlLZWxGdFk4QnJEZGdqRWFUaUNvNzJHbFdIcnh2NzdsbUhSSVoyOE5KSzMyUV8zenN0UDN1NDN1THVoMTd1WmtuZVUteVd5UDFpMW5XS1VzS0d6bUVKckh2Rk40cFMyZG1JQUpzUnNTM2VibG05eWpDUGU?oc=5"
             },
             {
-              "title": "Jacobs Solutions Inc. stock outperforms competitors on strong trading day - MarketWatch",
-              "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOblpvbkZYRjJfaHhJTmlNdHU0NTU5eG5YQzJWTTVyZ2ZiRWl4Q2ZuVV81SUVrX3BtX2hKNUlrUUJZNjFGNmhyLURYcjVXSng3RkgyMFNVc0Y0X2RES0UwVXB1NUxzNVhPanFNU05uRF96SjladG9wZmRRZy1zVTdfV0U4aXRaMTFSTkpNMTJKQU9oRUpVSWU1Nl8zX3RXX0NRai03UVhUaHZ6cUlPUFYyVW84ZG5WVW5XR2Q0MC1INzF5UXRNd29TbEVxbnZ6UGRPa1BzNVU3NUhmek9sLWc5WEZfSmQ?oc=5"
-            },
-            {
               "title": "Cognizant Technology Solutions Corp. stock rises Tuesday, still underperforms market - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSXVfQ0hlLVZpQUZMZGw4Z29NZEx2VGJtWm4tRVpfY0RxX25Oam5fbXZUSUE4cDlTS2dIVGZMQUMzUzdfUzFKd183TWVOTU1QNU5LYXRDbkZYUW5fb3RwejZxLTd6Nlc5TXY4b0FvNl93V3l2emhBa0tEWm9SWDlXV1k4bDd1Z0o3ZlVrM3htVVlCTHAzR19QVnhYOXgwWXJXUE00c0JGRVhDWU5SN3NzMGxFcEd6Zk9EWGliTXlIQVFtLUI4WGpkZkRubThQR0hDT3lWOHZFMGhLZw?oc=5"
@@ -1189,6 +1173,11 @@
               "title": "Leidos Holdings Inc. stock outperforms competitors on strong trading day - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWHpsXzczX2FKQU9WcGRPQm1ORlZtTDZDM1NXeF9tU3ZJZXdPcE9SeFV0d2hCWkEzdTJ5NUZDbG5lYVVWSjhMNWVLSXFObzhqcFpmOHBWYjAzVWNJY1lCRTVkWVRtb2NWYTNTRm9xamJpYTZ0ZzZZa3JrZWNhYl9RUERGdWk3SklGMGRseTliRE5OaUNfTFF1d3pPS2RNR3VzXzEydzNxUTlRTHVZRjhheVZBRjN3Qk5Vdjlia2xwbHphMURpZi1Pa2xUMA?oc=5"
+            },
+            {
+              "title": "Leidos lifts annual forecasts on strong defense demand - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ19DdGQyMFRmenI0OGZIek9SejF6RmxmbHp6T19YN1JnRnhacVdwYTVzdlBLUkZCTHlSZ2cwTjRoc2ZZU2wxMndjbVh1Mk5SSGEtOWFyd0N0YTQ5OGR1R09jeU5NSXB5ejZLWWhBdVVkY0g4c2w3bG9VRm5WdVZPSzJsRFFCdkNmbklXNTgyXzM4UVBYS0VXWllieUU?oc=5"
             }
           ],
           "news_historical": [
@@ -1225,19 +1214,14 @@
           },
           "news": [
             {
-              "title": "Some House Republicans Are Backing a Challenger in Cory Mills’s Re-election Bid - The New York Times",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRWdNeG9fQ3NGOXltaG1EbWFBVV9uWTFkeXk0MGFmUUtsUUN1dzM3YVNEbDdPZlA1Q3JuOUdNdEhBQ1p5ZmE4Q2hyUnEwdldpeFNfRjR6N0FYZ2N1dnE5b1UtNlNIdlJIS0F4T2lSNVFFTGEwUV93LTZZS2dDbDFyRjlPMHFoOUtVUXNDVUF0X3MtTi1oNXc?oc=5"
-            },
-            {
               "title": "NVDA Stock Price | NVIDIA Corp. Stock Quote (U.S.: Nasdaq) - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rTUx0am9SNU4zUG1rZG02REFwVHRBSmgyanJKb1ZFRHZNbG91b2RIN1NTUUxsTS1JX0xFWmVkTmxsQWxleG1nN1VXZnVJby13cEdlX1B2dUs4aEhr?oc=5"
             },
             {
-              "title": "Opinion | Where Gen Z Finds Meaning in Life - The New York Times",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tMHlfb2VIWGYtUmhZZHVPRF9zQ1d2Qzdwak9lbE5yV3l6dERoSkRfRVhyS0xYLU1Gc2VUN0xkbnFOeXRLQkF4RHFHZW9ocF9Bc2pWdnV3Nk9aQmhsclEwbFFfM2czU25Tc2JuNFUydHo?oc=5"
+              "title": "Senegal court jails three TikTok influencers for insulting the president - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX0pVOHpLWjNINXAzWUxFN09wbjZUYnFoNFRMVWp6ek9CZW5tMWRCeHQ4RG9wWVpBdDdrbjNaTHN1UXVjckktRXRiVlpDdFJnWkhSRHBja2lhaXoyaHVvVEYxcUJtSHo1VS1rMHh2T0J1eG1NTE14NFFFT1J3dC03cjIyRFdnbWdkUVdMOU1UeW93djdOMmM1bW5wQXg3NDA4NndPUU1IYnJlVkoyN1lKRnB6Z0dkdEh3YnFtTG5jc3U?oc=5"
             },
             {
               "title": "Fox posts upbeat revenue, profit on ad boost from FIFA World Cup - Reuters",
@@ -1245,14 +1229,19 @@
               "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYjg5R0poUXFLQmZZTHUzQ19YZVUwNVBNRzJUTGlPcGdGVEJJZVlheWlrYlZXdS1fdWYtd1NyTzBYbTlKcU04RlF2SmpPVkplWWJmZ29NSlpmTE94bTVEUkdoVTVKNU5nYXN5RVc0NHFOVDlqd05NZldHRmNmRWpqdVkwZGFBc1hteEJGQVBjUEtyc282RjJIek1JZW9Mem93eHlN?oc=5"
             },
             {
-              "title": "Wars, Wildfires and Migrants Leave Europe Straining for Control - The New York Times",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSHFtY0Z4RFIwMWNWdTkyaF9aMzRYZWdFbE9aRHlTcXZFRmdLQ1ZYRUtpUzZENlF5SHBlbjd2WTdGSURGZEpyS3JYUXB2bllGYjQtcUdYYU1NX1RidklnMHYyd1RNalJ2VVNYUVg1UXowR001aXVSYzBrN2owcVhDdk1rYkxSbmVKN0Zn?oc=5"
-            },
-            {
               "title": "India court sentences journalist Tarun Tejpal to 10 years in jail for rape - Reuters",
               "source": "Reuters",
               "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZDNVNEh3YVlWR2gzYVV0MHdmbTJqVk5pbHZhRlNLQ1phLW1adWh4b0gwMmxTUWZ4YWJzNDU1eGtTUDQ3VUR0bldBLUx3aVdPQ1dGTENfWWtwOElsYk5BYUhGYmxOVW5wOG1RaGVsdjJKdzBianlCUTZYRXhxaTBYcDlLcWRRek4yNVpUS0lSdVhnXzZrdzByb3ozRENUYmRGZXBuUFltMmY2QmtreG5SY3FLWnFmYXA5cGItNzlzTDI?oc=5"
+            },
+            {
+              "title": "What a Contempt Vote for Fauci Would Mean for the Pardoned Doctor - WSJ",
+              "source": "WSJ",
+              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOFJwZ1lWeEJnbGwzd2d5by03V1ZOX0dsdVRUWldCR0plODhSVHQ0ZDBvWVB0UUdrbkFfUWpfZXB4dlRpN18xc2NsMHAzTFNXZG16R3pDV1d5bUNZSXFvZC1SNnFqSURKamdlWGUxaFA4VXdqYWNlWVJvQ2hZaEdGTnpyeU16Q1dYdFgyVGtTaWp3Y3NybjVJYUp0MEdwbW9HbHNaRHRR?oc=5"
+            },
+            {
+              "title": "How the new generation of left-wing US media is powering progressive candidates - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWTRPY0l0SF96SVZ1NWNqamhHN0VoUC1rbmNWU2s0VUoxRUE3bjQwV05hYjBrMktYbTVZbzVpS2d6OGtFbjY4enNzRUUyYjBnY1N0TjNGZWhTcGw0VTdySnFJbEFwRHJVWHc4eWtxaFdSaTlyRGMwY0IzWFN5TGJ0Y1lWX010dWVYNEVqZGxOel9hbUJHMmplVnZUTXZGaWgxdXB4U1hvb0lIN0FMNEtlN3lWSW5fYmthay05bVQ0X05HaklPZ1FqVVFCSQ?oc=5"
             }
           ],
           "news_historical": [
@@ -1380,9 +1369,9 @@
               "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wYnpfd0ZaZXV6T3JwakZZV0lWWERFQU1xbm85NUp0eG5LSGoweUdseVZrSnVyQmlVOERpQTJEemlKLXJpTTY0QXR0YnNMMTVNT0lnSURTTG41WVkxRXBCaTBBdHFZQWF2?oc=5"
             },
             {
-              "title": "Do Options Traders Know Something About Albemarle Stock We Don't? - ca.finance.yahoo.com",
-              "source": "ca.finance.yahoo.com",
-              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbnd3OFlnR0hveTBnQ05udENVaWRfUHp2Vms1WkJ4TEdDTVJGSWo0UkFBTFE3UU83TVN5RjA4cGIxdVRLWFNHc1BWVjRXenVSWmdMQWNlSlgyaWp1OGlrdWlvRXFla2FqUlc4T3ZTU19aNGNMdnVzNjlEQzkwVlR6TDg5NWR5TktydkdTd1JRSnVuaFk?oc=5"
+              "title": "Do Options Traders Know Something About Albemarle Stock We Don't? - Yahoo Finance",
+              "source": "Yahoo Finance",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVEpEcmFOYmt4a1FnWFd5cmwtcmIxdHFoYUp1MUlaVllQQlBFQ1Vzekg5VmNIQXVUZER6VEtMdWV3b3g2amhZWVphUFhfckI2cnhXbFhNMXluSGQyQnFkcGFWcTFoX1p1alZfUTNRbWoyZFBwV2NLd0NmSWczal9wZlJlYXIteXZWTW13cUQ0THV0TnZkWXVlQ3VlYkFCdzBHZFNrUFdSMGt0Zw?oc=5"
             },
             {
               "title": "Albemarle Corp (ALB) Stock Up 3.4% but GF Value Says Overvalued -- GF Score: 79/100 - GuruFocus",
@@ -1440,14 +1429,14 @@
               "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNXV1dISjMtTFZWV2NvaTJOYm9NVnhrU3VoWlEzcXB0ZklyWFdDSlZiQ1NlaS1YLU9GNW1VSW85S3AwXzU5RzZUcVd2Y1pYdHh2NVJEOG9aT3E0SEN0ek1pc0JWaDdhZm1ldDhEbFV5RDlCNDJYbGhfRDVLMTZDb3o5RHdNcGhVM3dFMy1EQlB6RUlVWVpkMWt0V2JYVW43RUFPNWhDQnY3Y2JyeUl4Mg?oc=5"
             },
             {
-              "title": "Carillon Chartwell Real Income Fund's APA Corp(APA) Holding History - GuruFocus",
-              "source": "GuruFocus",
-              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRjR5Rk16XzRlUlk1d3pMUDFWUzVBYV8wVW10SlZ6aTJKV25PVFNzOTFuYlBURGZRZi1zRHBucTNnbDYyMHdmT29ucHN5cEM3RTBBZWUxSVlRektZNHFBVDRNOTYxZkw4VnlDVFRiVWl0X004WlFoZkZWcG5sclpFdk8tN2dBZ0dzOWQ1TkNnMmtqUQ?oc=5"
-            },
-            {
               "title": "APA Corp. stock outperforms competitors on strong trading day - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRXpjTEEtM3pyVlYtSG8xMTBnQTlKYUhPWnJrVUtzdE1keTlUSHlBVnpIR0tQSmZRWUZ2U240SDlOM1pJR3dTNUtNbDRvN3dmbmhCb2FXNkNMbFBoUkFrQ25DMGswRlNhQzNKSFBvUTFleXlOeFBXZUt6XzJhRzB0VWF0aVNFbzVnRWhkNHdyd2hKYjlwUFlMM2lIT0FOMmhlakhZZTN2cUVFNjVCc2lMSjNwc2EyT0xFYzZHaw?oc=5"
+            },
+            {
+              "title": "Quantinno Capital Management LP Acquires 39,375 Shares of APA Corporation $APA - MarketBeat",
+              "source": "MarketBeat",
+              "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQWQxbTF3UHl1SGdfRzJSMnl2ZFRtNlJfME81T1RrOEdRTzRoRzVEUmJWUWNXYzd3Q0JFN0wwNjZETlo4UkkyQWtJLWxuR3dyVWtWeHpGMGs2ZzVWcXcwcXJ2MzlqNW9tbEloN3JtLWw4eC1BSm1mTFU5aWtCd0RpbFpOMUVXNXh5NW1qT1VxT1FyZVlIUzBqUzg2SUJBSzVpU0ZkV2kzS2xkZFJMd3pVX1Q5S0ppMm9IODRIMXVLWWxoMkFJMjlvaDA1VktiLWpDVXRr?oc=5"
             }
           ]
         },
@@ -1565,19 +1554,9 @@
               "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTTU3bi1UZjI5WVJkYl9mN2R3bVlSZGF5OGc3YnpBUkVhRFRNQTdQTVA0MEx6azB2V3RpZVM5SUJfVHBMekRsclZ3R0p3dkgwZTZTWW1uWjJZT1JZZndRTEZFUVRnNWpfdzU4bXdnSXhNckNTXzdVV3NlMXFxbFp4aW91Y216c0ZGNEVQTks0NFFSSkhnMWlLTm9vZDF0RzJ1YnFYcA?oc=5"
             },
             {
-              "title": "SpaceX True Believers Propel Shares Past End of Epic Lockup - WSJ",
-              "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbGRjWXRjQllNb0EwQXdVdFVGUUhGUXJzX25nRXNNbU9hbjJNXzhlQndBdFhycG1JRDlqSlRWZElIaWtYOWpkOUlpZUZXVHlyb203ajQ4T1R3VzhONmJwN19lNzgxYU9oV0JuS1c2TXhNM3BlRWFGcS04ZWFXdjFuOVFONk44VkJtQmVrVVNlaE5lV1kyeEFrd1ZfeVg5Zw?oc=5"
-            },
-            {
               "title": "Tech, Media & Telecom Roundup: Market Talk - WSJ",
               "source": "WSJ",
               "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPODA5TXIzVVY1ZGRwU3JqSWd2dnRYSXNDeU8tLVdKMUFJc2FRSEZ5ZHUzelRKOU4wSjN0MTZpSGUzVGN6OVFzaF85eWZmVlFXcTI5LXhQSjJVRC1zd1g2R01FYnhOdkMwN2FjVHNWRldseENtOXM4YzZKMzU4ZTlUdEJR?oc=5"
-            },
-            {
-              "title": "Rocket Revenue Surges on Mortgage Market Share Gains - WSJ",
-              "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTVRZSFdKUU55YmpyeFVndG5qQkhRc1RCTzVhYjBGVGNXbkRIRk1xTDJTanF6cUJzYms4eVdad2FPQnRyd01TYjJYNkJXR1A4SnRBa2pOUjdEdTkyckU3cHlPZzQzaU9EYUo1OWk0ZHloVFR3eEhqVjAyajlyWUVFbm11OHd3QTg5VGZ2blM2dkFZSGNzUTlIbThuaG5OMEtZ?oc=5"
             },
             {
               "title": "Stocks close lower as investors eye Mideast talks, earnings - Reuters",
@@ -1588,6 +1567,16 @@
               "title": "SpaceX, Honeywell Aerospace, Sandisk, D-Wave, Datadog, and More Stocks That Explain Today’s Market - Barron's",
               "source": "Barron's",
               "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwaTdMQnBJLWVINmIxRk4xR00tSTZyc0MyWmtLRURKY3ZVczBveUw4NmU4UmpEVDlHUXkyZ3VNbXF6TWpzNldnUFVTVE5xUW1lNk4zT05OVnFkRmRwVlpINXZZOXA?oc=5"
+            },
+            {
+              "title": "FTSE 100 slips as Relx weighs; WPP, Persimmon gain after results - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSjJ4ZmljTVlnRGlOczVZaVBnZ0RLbTBRYW5iRjNzVExzVUJIWDdkNGllVnRvc0ZTWmhzYndibnpzOHNGVkNQTlRIaHZRMnV1di1tTzRPT3hZZVFxVU1CR1NpenZCQ05XNjRqaFlZSVZSdER1QVd0Z0tWWkJEX0VlYmRFQ3dQNXJy?oc=5"
+            },
+            {
+              "title": "Versant Media Shares Jump After Raising Outlook on Strong Viewership - WSJ",
+              "source": "WSJ",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTmdjaW9HV0RjOUx1ejZ3SWR3UUg0WXM5ajZFVlMzRWlJd09qSlhJbGU0dVBSekRKT2l0RUVjUkN4c3BXVTNUT2dSaTNobkJLcTZLWHBudHpENEYtVjM4V0I4WFFqMWwySlJTLWhkV3FGMkVoc0JSRjlYRGJmMDJMejh0UThGZ3ZfUWllampuWWRLZ2JSUkRTb1JOeHRBMWk4Q3FVYjQ5b0ZaTlp4MDlBdnhVekJyQQ?oc=5"
             }
           ],
           "news_historical": [
@@ -1619,7 +1608,7 @@
             "nasdaq100"
           ],
           "reason": {
-            "title": "Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’",
+            "title": "Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’",
             "source": "Barron's",
             "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JdmVxTUZicWNtNFpOZVJUZVVCX3Jlam04NUR4NS1salZfZk42Nng1S0hKaExCNVBNR3BXczU0U3d6UmoxcFlrb3pmU3BDV3hVcWVuY2ZiaG5YQ2NnNjZYLUFHV0xYWjltNTM0VEpjTlRHZG14RUNfOEh3?oc=5"
           },
@@ -1640,7 +1629,7 @@
               "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbE1LWWNEaExUVlhSemZzQWpUbjZ5ckE1TENVZ3VkX0VyWXVla3pmaGliUEthTHlELVR6OTNkSldSRndUdUt0dkdaazUtVlZpbDZhblUyUDdjXzNXT29QaDB5YV9VZ2otenlzYXMySE1PZWxHSFl1RzJuejRpN3FEUmlLck1ZWnlvQ2ZHOUIyakFqU1Y2NUExNWpIQkh2WlNNRGRvSTVQdw?oc=5"
             },
             {
-              "title": "Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’ - Barron's",
+              "title": "Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’ - Barron's",
               "source": "Barron's",
               "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JdmVxTUZicWNtNFpOZVJUZVVCX3Jlam04NUR4NS1salZfZk42Nng1S0hKaExCNVBNR3BXczU0U3d6UmoxcFlrb3pmU3BDV3hVcWVuY2ZiaG5YQ2NnNjZYLUFHV0xYWjltNTM0VEpjTlRHZG14RUNfOEh3?oc=5"
             },
@@ -1684,40 +1673,30 @@
             "nasdaq100"
           ],
           "reason": {
-            "title": "0HKE | Axon Enterprise Inc. Profile",
-            "source": "MarketWatch",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2lsSFpaY1UtanFfeFNqczIwZjVxWVVmNGpFU0hnNGZ1REJzaS1RZnhfWXVVMGtpWHRLRDVadDJxSXpMR3pib2I1cVRwUDJpY3hydWNHT1FtSVZ3ZHVnUS1ESm5PYzVtU1JIVXE5VERNNV9RUW44R1BpMHp4SWVVd1lFUmRreVhEbU9hSk9WOERZTkhUbnBYdg?oc=5"
+            "title": "Axon reports Q2 2026 revenue of $904 million, up 35% year over year – Company Announcement",
+            "source": "Financial Times",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ24zTHQ4LTJiNVpNZGZKZmRra1BDTktGNWVFdWZYWHN2OEdKUUdkaUJYeDMtQk1xSGI3d255NWllYnp0Wmk4X0Y5WmdnaHZOZl90dTlPOXdrRHJDWnJtY3JHSkMzZ2ctbHNlVjE1THkwdVc0TkFiaHFpWXZ1V0FHTG9lZGxUb2JFYVRaV0ZOb0xBenBNVzlHUw?oc=5"
           },
           "news": [
-            {
-              "title": "NET Stock Price | Cloudflare Inc. Cl A Stock Quote (U.S.: NYSE) - MarketWatch",
-              "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OUGtBVnFBc21GR0o2QV9GZTN3OEItaFRQRzNlNmV1YkI0M1ZyZWdjc0VzYm5Dd2dBTDVpc1hvd0JJYm1OTXlRNzFIUGFicVo3cEJHbkJfeFFlMzQ?oc=5"
-            },
-            {
-              "title": "NVDA Stock Price | NVIDIA Corp. Stock Quote (U.S.: Nasdaq) - MarketWatch",
-              "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rTUx0am9SNU4zUG1rZG02REFwVHRBSmgyanJKb1ZFRHZNbG91b2RIN1NTUUxsTS1JX0xFWmVkTmxsQWxleG1nN1VXZnVJby13cEdlX1B2dUs4aEhr?oc=5"
-            },
-            {
-              "title": "U.S. Stocks Down on Hormuz Deal Doubts - WSJ",
-              "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbjhuREI1Y1RXUzBiLVRhTWozYTBLeTNaRW82R25mMzR5TnBxN0EtR2ZOTzlzT1Y5M05wQUlmcFg0ZWpCZWFQTTBmdXhhdlh0VmhldmQ2Y21BTTRZMDdoN0R4XzcydlhfSkxzYkRfMEs5cVBzTjF2ZGNzOVA4NGNYbVF5R3VZaG9t?oc=5"
-            },
             {
               "title": "Axon Enterprise Inc. stock underperforms Thursday when compared to competitors - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbkJPZERFaTVHNWl4WDg0Ni1oMjNOVG5JenA4NlNfOF9ZbWhJUDN0LW5sNFFENjJGdFNkTVJIei0tZnllTGtYck9pWkFsTG02NkxydUlVNG1TLVZjWmF0SlJxamJ5X09Vd2lCRThUVmRPNFcxQVB1RkJuNWI1NWpkNXNKUmNmS0dXeExhWFI4Wk1RMHFpZ2FTRVVTNmdsOHJsc25VMnJFUTJGUVpfcWUzS3YtYV9hU2ZWX1QxYm1JTC1EMWl2OW9wT1ZCcVRmTUN4Y1kw?oc=5"
             },
             {
-              "title": "0HKE | Axon Enterprise Inc. Profile - MarketWatch",
+              "title": "Motorola Solutions Inc. stock outperforms competitors on strong trading day - MarketWatch",
               "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2lsSFpaY1UtanFfeFNqczIwZjVxWVVmNGpFU0hnNGZ1REJzaS1RZnhfWXVVMGtpWHRLRDVadDJxSXpMR3pib2I1cVRwUDJpY3hydWNHT1FtSVZ3ZHVnUS1ESm5PYzVtU1JIVXE5VERNNV9RUW44R1BpMHp4SWVVd1lFUmRreVhEbU9hSk9WOERZTkhUbnBYdg?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV1hPZG9vaElTWFQycmRnc1dwczNoNy1HRkZpeFd2Y0RMR29xM0VqNm5ab05iWnZyLUlHYnZ1Q3JfUGFtZWpyRWJlaTRFRHRYLXBnN1FZbktBbEFKQ3pvWFd0ei1qVUR6enFkVTNzTGZPeDZKbmJaZElNcTJLVUZXaF9mOV8tTnV2amRyOU5Rd2J0OV80Z2Zkakg4eHRZdV8wWmo0QUhIQW94ZVZZaXZsMU5LRGt6WFZYWVFuNVZULTMxdVcxRU9DNG5KaHNzdk0?oc=5"
             },
             {
-              "title": "Alphabet slumps on more AI brain drain. We're not too worried - CNBC",
-              "source": "CNBC",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcS1SbFJieDhXZDJIVHdxZ2NUNlVnNml0TmwwLU5vRFhDUlNEZlRlMkxtOFdQNERJX3ZIM19WS3htVHM1QmdNZC04TFVjbGZGTFk5V3pnN2c0akpXYjdVaU9aOVdhRExYOGU1OElHdEZzVjIyZ0xvNlpmSDgzZlIzU00wYy1OT25mY2I2OXRTSFVQZXZXZVdzMA?oc=5"
+              "title": "Axon reports Q2 2026 revenue of $904 million, up 35% year over year – Company Announcement - Financial Times",
+              "source": "Financial Times",
+              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ24zTHQ4LTJiNVpNZGZKZmRra1BDTktGNWVFdWZYWHN2OEdKUUdkaUJYeDMtQk1xSGI3d255NWllYnp0Wmk4X0Y5WmdnaHZOZl90dTlPOXdrRHJDWnJtY3JHSkMzZ2ctbHNlVjE1THkwdVc0TkFiaHFpWXZ1V0FHTG9lZGxUb2JFYVRaV0ZOb0xBenBNVzlHUw?oc=5"
+            },
+            {
+              "title": "AXON.N - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XeGpzYzZoOFYwOV81NVl3am1lN0lpOWZreU5WREExOHRrWjQyNTd2NlRUajN1OFJNaWxNLUd2QWlxVm9MQ096SFM1THdhbUd5ZmtndzhoUWJhZUgwVU5QcUZFMWRoQzRwem94ajFLMHMyMFVIdWU0OFhJTzNXbWs?oc=5"
             }
           ],
           "news_historical": [
@@ -1841,7 +1820,7 @@
             {
               "title": "Table: barrons_weekly_nasdaq_E.xml - WSJ",
               "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOGI1QWJlSGlyRXYtNGZUYm8xWGFyQ3o1cTctRnlQSzVTMHZHd0ZpR2t2YlcySVJFWFljaUNmSmxkcFVsYkhaVGNCbFRlTWlZTWlqSkxtUTUwSzVnbkxVTlR3TVllUXdhcGlWXzdmVko4U0pSWHExZEo2YzVicDNwdHJB?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hZFZYOFpvX3ctWk1pQVJZVEpjYVNObzdSTVJhOHNYUkd4Qi1IQWVFdzNsd3UyaXg3MjB6THB5Zk5ZRnNPTU5yZGJ5UEQ0Q1oyVXlZMXBZVEs2VGFGMld5VjRFeDdJQ3FNNEtlckdfYVRxLW43V1ZsOE5rdC0?oc=5"
             }
           ],
           "news_historical": [
@@ -1871,21 +1850,12 @@
           "indices": [
             "sp500"
           ],
-          "reason": {
-            "title": "Host Hotels & Resorts Inc. Stock Grades | HST",
-            "source": "Barron's",
-            "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNWWZDVW5aVzdrZ19uclM5VlVCOUpPaWh3b3AzbVIwWTNBNGxoTllwOG9tbXRPUXR3dTBJTEJoX3AzWGxDcXZkcFI0ODlBakx6WFRQU0xEYXJRbktjZWNLYWR3NkhUd3lBNFJaNjlBdTNscWcwN2NneGR0NGFiMi1JWDNtSHliSkJ3V3ExdElFbEk2UVNTVEl1OHpleWc2X3BwS2R6LXp0cTVXWHc0SjZmVmU5WExxR2tHMkVyWm5TampFQVYyS2g1OHhtSUF4NzVuVjB2QS1kdWdhWFNINkVRYk5sV3IzcmVKTk9xY2syU3JhNnlYZmV3VHFSNUJMc2lMQmpPXy1iakduelB1akxhY0ZOX2xhcEhhMGxWZHlia1o2a1RMakhLeUxUY2xGaWRKb0gzNUdGXzFvNXRqbk5ZUVVwLXluVzZVV2c?oc=5"
-          },
+          "reason": null,
           "news": [
             {
               "title": "Host Hotels & Resorts Inc. stock underperforms Thursday when compared to competitors - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSVNUUm0ySEYtcmdPNVpSS3MtTU1ZTTRzdUU3S0M4Z3Zmb2lEaDgzZWFwQ3BrczFTT3lYM1JnMEdaWG5XZXJxR0l0cmJfNG9QeENGOFE1MlNERW15TklTSGt2YU1TRHJIdkJ5eTR4OFZqblNSbjRiZjZxZmlFSURhUGdSYVdWYTZ1VTJST0pjdG9WTmpORXliTmg1TUZHd0ZLbHJaVHJJUFBqcGpTYURLTUhYYVo3cm82X2RBZGxhc0kzTkxyclRJX19VYXk5ZzBfNXpRSmp0RzU?oc=5"
-            },
-            {
-              "title": "Host Hotels & Resorts Inc. Stock Grades | HST - Barron's",
-              "source": "Barron's",
-              "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNWWZDVW5aVzdrZ19uclM5VlVCOUpPaWh3b3AzbVIwWTNBNGxoTllwOG9tbXRPUXR3dTBJTEJoX3AzWGxDcXZkcFI0ODlBakx6WFRQU0xEYXJRbktjZWNLYWR3NkhUd3lBNFJaNjlBdTNscWcwN2NneGR0NGFiMi1JWDNtSHliSkJ3V3ExdElFbEk2UVNTVEl1OHpleWc2X3BwS2R6LXp0cTVXWHc0SjZmVmU5WExxR2tHMkVyWm5TampFQVYyS2g1OHhtSUF4NzVuVjB2QS1kdWdhWFNINkVRYk5sV3IzcmVKTk9xY2syU3JhNnlYZmV3VHFSNUJMc2lMQmpPXy1iakduelB1akxhY0ZOX2xhcEhhMGxWZHlia1o2a1RMakhLeUxUY2xGaWRKb0gzNUdGXzFvNXRqbk5ZUVVwLXluVzZVV2c?oc=5"
             },
             {
               "title": "HST.O - | Stock Price & Latest News - Reuters",
@@ -1957,7 +1927,7 @@
             {
               "title": "10% Owner HORIZON KINETICS ASSET MANAGEMENT LLC Buys 1 Share of Texas Pacific Land Corp (TPL) - GuruFocus",
               "source": "GuruFocus",
-              "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVEFSVVJJRFBHb3hrSFlIUGlEbzRKd3ZYYjRfN210WFFiQjA1cnd4amE2QlVnM1prS0dSRERGMS03c3dsZV9kdDhzN1RDU0hlWlctVzh1OGtpenZCMEJQLTQ5Rk9OQ1JJNmR6TE9FamZpSTBNSkZHQ01xWWNSWGNBTmxZdV9WNjM0eUt1azUtSUEtandwTmZqcmJvUXVLVF9EWnQ3UlhXYjQxMTVjU0xzWWVPdDZ6NHZ1aVl4MjJYR2ZLdnFEVVJrWQ?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZlFPcmdXSU5Qci1ucnRMTWQ5VFo5Q0RXZC1GOVYyenh0ZXhnNjliQkcwYlJjVzN3SUM4Zk1OaDVCajRtWVhRbU1iZjd3d3dwTFNiZjhvZmVnTTUtLXIzN1JWTkYyTUZadWM3QkR2OEJySGNhazR0X3M1cm1pS1llN0x3RE8xUTNHMWcxeFlxZWNGS29VMU1WSXJ0dUpFMUI0WXI0NU9RcVdQZnhBTS1sQzZWRzNNT1d4Q1lDbzY4ZkgwbUczWFJHUHIta01fZEhvaExKRkp2OUY?oc=5"
             }
           ]
         }
@@ -1966,12 +1936,12 @@
         "en": [
           "In the August 6, 2026 session the S&P 500 closed with 202 stocks higher, 299 lower and 2 unchanged, out of 503 tracked. The average move was -0.50%.",
           "Best-performing sectors by average move: Energy (+1.39%); Communication Services (+1.22%); Consumer Staples (-0.24%). Weakest: Real Estate (-1.28%); Industrials (-0.93%); Information Technology (-0.91%).",
-          "Leading the session: Motorola Solutions (MSI, +8.20%), where Reuters reports: “Motorola Solutions lifts annual guidance on resilient public safety demand”; Parker Hannifin (PH, +7.31%); Leidos (LDOS, +6.63%). At the bottom: Honeywell Aerospace (HONA, -23.16%), where MarketWatch reports: “Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff”; AppLovin (APP, -19.66%); Datadog (DDOG, -19.03%), where Barron's reports: “Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’”."
+          "Leading the session: Motorola Solutions (MSI, +8.20%), where Reuters reports: “Motorola Solutions lifts annual guidance on resilient public safety demand”; Parker Hannifin (PH, +7.31%); Leidos (LDOS, +6.63%), where Reuters reports: “Leidos lifts annual forecasts on strong defense demand”. At the bottom: Honeywell Aerospace (HONA, -23.16%), where MarketWatch reports: “Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff”; AppLovin (APP, -19.66%); Datadog (DDOG, -19.03%), where Barron's reports: “Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’”."
         ],
         "it": [
           "Nella seduta del 6 agosto 2026 l'S&P 500 ha chiuso con 202 societa' in rialzo, 299 in ribasso e 2 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di -0,50%.",
           "Settori con la variazione media migliore: Energy (+1,39%); Communication Services (+1,22%); Consumer Staples (-0,24%). Settori piu' debolli: Real Estate (-1,28%); Industrials (-0,93%); Information Technology (-0,91%).",
-          "In cima alla seduta: Motorola Solutions (MSI, +8,20%), dove Reuters riporta: «Motorola Solutions lifts annual guidance on resilient public safety demand»; Parker Hannifin (PH, +7,31%); Leidos (LDOS, +6,63%). In fondo: Honeywell Aerospace (HONA, -23,16%), dove MarketWatch riporta: «Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff»; AppLovin (APP, -19,66%); Datadog (DDOG, -19,03%), dove Barron's riporta: «Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’»."
+          "In cima alla seduta: Motorola Solutions (MSI, +8,20%), dove Reuters riporta: «Motorola Solutions lifts annual guidance on resilient public safety demand»; Parker Hannifin (PH, +7,31%); Leidos (LDOS, +6,63%), dove Reuters riporta: «Leidos lifts annual forecasts on strong defense demand». In fondo: Honeywell Aerospace (HONA, -23,16%), dove MarketWatch riporta: «Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff»; AppLovin (APP, -19,66%); Datadog (DDOG, -19,03%), dove Barron's riporta: «Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’»."
         ]
       }
     },
@@ -1984,16 +1954,16 @@
         "avg_pct": -0.59,
         "best_sectors": [
           {
-            "sector": "Energy",
-            "avg_pct": 1.51
-          },
-          {
-            "sector": "Communication Services",
-            "avg_pct": 0.79
-          },
-          {
             "sector": "Consumer Staples",
             "avg_pct": -0.03
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": -0.32
+          },
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": -0.35
           }
         ],
         "worst_sectors": [
@@ -2002,12 +1972,12 @@
             "avg_pct": -2.17
           },
           {
-            "sector": "Materials",
-            "avg_pct": -1.69
-          },
-          {
             "sector": "Health Care",
             "avg_pct": -0.77
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": -0.76
           }
         ]
       },
@@ -2040,6 +2010,11 @@
               "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwdjlyUWNSUjA2cjBydUVRakcxVFdURVFFT3JHejQtand4RTJWUXFEcGtWS0Z6V0lpRGY3RWN0Qkpla0ZzZE5vSVcyckNpN2dRNjRGNFVrX05MYlVHZVBNZkYzRDRMYXFqY2lvUDJYQ1lKeXhxZ0E1MmUyMXc3Z9IBgwFBVV95cUxNeERhMURRVzVWU3lkcDdxTV83Rks0ckpZejlub1pTWHJySFNTY3pGNDBQWFFQQXVkNUJjZ2N1d3R3UnpsTkZXaC1TTm02Z21NelVOc1RoQmtQek9JSDFZSmdUdTVhbG1rNDJvUFNzQnpveXdvNnRoSkw1NzBkb3lHbWFWSQ?oc=5"
             },
             {
+              "title": "Disney Stock Jumps After Earnings Beat. Toy Story 5, Theme Parks Drive Gains. - Barron's",
+              "source": "Barron's",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VbHMzMVVLalFkT3Q2NFo5ZkdJb2sySDZTc2pYMnRKcEVFbXNkcmcyaUR6cWRpY0E5MWxlMm1UekVJTUFqSGNXUHFqdGo0bFlFN3ZENDd1aHgwTUUyMVZHM2xETFR3MzRQVm5meXZndTRKXzh5bU1wNg?oc=5"
+            },
+            {
               "title": "Disney's 'Toy Story 5' fuels streaming business and merchandise sales for June quarter - Reuters",
               "source": "Reuters",
               "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdlg2dEVMRUtKSmV1UWlYeHFRNHlDcV9LNVdIcTVpVmNwc2czRjhuOGFUNEdTMkE4WEdFejhNV0pPcHdvNnljZlVNNUozYWV2cHh3WldORF81RF96TlBXSzNqeTVDcEhXSVF5NTlJd2xpTUVfdXFJc0xzYTBPYncwc1ZPVWF5RHlza1ZTLVQ5TEswNjhPZEQzVHc1MzRhQUpobENZcXR4bEpQczBNTUZNYWRtY3dEX3BnLThtYWNYUjU0T1ZtS3lVMmVLOA?oc=5"
@@ -2048,19 +2023,9 @@
               "title": "How Disney parks are bucking a travel slowdown - CNBC",
               "source": "CNBC",
               "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQY1ROa2xsQVdTLV8tTU1kcThZVEUtUjBSX1lzTHh2UmpwczRleGRsLVdlZVpmLVhBdWhOWVdZeVJROGxxUnMwX09sNnZoeWxUU2c1VVBkNHRmMXVHY0N3VTVtMlBCZ29hMjRFMWlUUXdOZjA2eGQ2MnZTZmFjMUNWadIBhgFBVV95cUxPXzBjRHZxTUhrbWZ3VjZ3WVliRnBmWXJucnRGT0RKTUlNNkt4NlM2UzJPSDBDVF85TTNIZ25Qcks2c0pVSlcyQnlnYlRVM1ZYSzk3UV8welVHNE1FRVlEcHZWQkxIN1dkXy03LWFMMldUVllRa21TNEJveExyNElYQkhHOWVPZw?oc=5"
-            },
-            {
-              "title": "Disney weighs free, ad-supported streaming, says it has sold out Super Bowl ad spots - CNBC",
-              "source": "CNBC",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWnAwOXEwa2ltcVFvbkE4YzY4alk0VWdvVjl6T2FjY1BSVkF6bWQ0UFFuNU1BMVU4SFVWRkUycEdacXhzSV9pc3BpbzVybnhmMkVYREFNbEpKSFctelFWZWdMR3czQ1pwWXJncmExUng1TXBLazk5ckp2X0N5MHdrMmJ3NHpsbEZidnB2dFBzUdIBlAFBVV95cUxPX2wzdWtwNFdjZHJReGQ4bXdpbjhNZE9YaVQ2NVVGM2NqZi1ZTUtQN1YtWUNMSnNNdnZIR0c2TlJUNW1sUEJqVk9KYWdKMFFCS29DaHRSaUNCLVNnSHRKWmJCZkVSS1kzVWQxZ05RcXg5c1JSeVZWMDlBNGpDYV9WSkJ3MXA2aFpMcVZpSm5yX1ZZaWV0?oc=5"
             }
           ],
           "news_historical": [
-            {
-              "title": "symbol__ Stock Quote Price and Forecast - CNN",
-              "source": "CNN",
-              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81ek9Qc2VwYmpZbFZscjhXTkt2VWdjWGpra0xEbVJLR3dfaUpuTTl6dmNoLW9GUll6d05LUlp2LTM2bEtkQVFQTlRtU3drMVZ0ZllFMQ?oc=5"
-            },
             {
               "title": "Financial Solutions Advisory Group Inc. Invests $765,000 in The Walt Disney Company $DIS - MarketBeat",
               "source": "MarketBeat",
@@ -2070,6 +2035,11 @@
               "title": "Walt Disney Co (DIS) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey",
               "source": "TradingKey",
               "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Pc2o0djlzQl9FcDFZa1pmMlFTNFpYVDg0WVJYcUE4czBHY3hKSjlqdWluNWhCVl93RHNnZENmZWlmVll6VHlEaGxwbUdta3d1ZXZ5RGx6UTFYZEVGZVJwNS1RNktnQQ?oc=5"
+            },
+            {
+              "title": "Disney (NYSE:DIS) faces key earnings test as Sports excluded, aims for 25% profit rise - SEC - TechStock²",
+              "source": "TechStock²",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRjZPTnFudDB3TTZCMnk0NU1KQmI3aVFrN1gycjVkSUFMYWZwZFVoUkRGeDlPaVVWRHA0WGpZY1RRbXQxaURuYzRYMEY0R2xpUjdSelhWSEdsbW15SzRLOUhLbWhXOWkyaUhCcmI4dFNMLWcyUUJaR0xjblRSZms5VEUtY0dmRzlubklwaVBkS0ZwclN4d2xiU19uSnZsd19WbkJhd3VGQlZfUQ?oc=5"
             }
           ]
         },
@@ -2272,6 +2242,11 @@
               "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZFhwNXdsdkFVb0g1aS14T1pUdm01UFZMSXRIRjRTUDFEaDBmbjlGODlybURMODJYYkxXOG91VWhvam1PTExrN0cxUERzcWdjU1hmZXZ4bU93bTJVZmY4RjF4VjhtOGRvM2VPT2RUUUMzcFdaV0d6cVY5S3ZRSVIwekJyZWJRUl80ZEx5V2wxdi1vdjVJNmV5aHNzYnByZGpRZjFuampYdnJXWVlFWGRDZXRaUXJWSk1URVlzejQ5cUw?oc=5"
             },
             {
+              "title": "Bikemaker Accell starts insolvency proceedings four years after KKR-led buyout - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYTVfVUQ1ZEJOZ0NHX0xIZnllVS1ISzlpeWZBM3JJVUdOUzlSUG5BSXB0SWtiZVQ2UTN1Z1lpaURVNktVSUVFbjVoSENGWTE5R1BjNmFBRkFJWHNmUW1FSmlSTHRtaXVjRkRsZzFubWpXenMtME94ZVJCVHU3YWlRT1Jxa3I0Wk9NdWRUYjhrNXJlYnctaGVlaDZCTkpuWlZwUVZHd0ZPZVd3RGxKU2tWSHpWalY1Uklzdy1WN2xIeVluRnBiaElpU3VLT0hMWWs?oc=5"
+            },
+            {
               "title": "McDonald's Corp. Stock Grades | MCD - Barron's",
               "source": "Barron's",
               "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNdTQ5anJDVWh5U05UYURGZ0FJQUNIclA1bEM4SWItUjBmZU8xWmg4ZTROUjZ5RDZfZ2ktRnpfeVhBeTdrT2hfZUdaYWhRd1ZWXzV1c2JOYnJ0QzFGSVZGTUtwNzRQQURHNzNrX0NEQl9wb1AyUzVpVFlPOEFrUHYwM29UMUJNR0NLNGR6WXFIaFBlR1ZuMTNDM0E1YzA1Z1ZJRHd1V0RmLVFnY0x3T0dwV1hJRE95QjB5RW9fR3hMOUZXaTJpYmdacXBBSDlTLWY0elhNZGY2NXFaQWFKeFZ4X0t1Z3JFNjEwMUU5WWpSZkRDbVlvUFYxdm54WGpPTWZremppLWgxeE5GZGk1R3ZmQUhqRTRyQ0dQVkpiejhwZGJNTndQdW1ucTZ3?oc=5"
@@ -2285,11 +2260,6 @@
               "title": "McDonald’s says its value meals have become too complicated - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSnJBR0c5WTUxZy1kOFNwQ080OE1hT2JVcWpXSkRoMWVwZG96V2gzTnlUWUlEMDk1Ul9mVy0tdElXS3dvOHNpQTJieElOSWdLdHh3RU55eURKY1J4V0NlRFk4eE4tRVpxLXJWVHRYa0llbVNIb3BFZHByekRpc0FuYkx2RGNlLXZsQ2pUQ09WYldUa0UzSHZpVXdjYllGcmtkYU5Z?oc=5"
-            },
-            {
-              "title": "Chipotle pulls jalapenos from some restaurants amid salmonella probe - Reuters",
-              "source": "Reuters",
-              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX2RhdG9zUUlsMjlDaklJdXFRc0s4aGJXLVBrakhjUE14MkVYYy15SmgxNUxTMjRmOEJyQmtRZm9lTzFNMkkwNTV3V19NeFIxaDdwWTRTS29TN2lEZHNVQUxxX1A2c0ZaazRURmxtLUNtcTFZZmloVlZMclE0NDNOYUJzQ0I5ejFmaDBaTkhONHBuaXRMeFJjRzRqdkM1Y1dNeEdiQm1yNmRZTTRWRHdZTTBvMnRBcHFm?oc=5"
             }
           ],
           "news_historical": [
@@ -2348,8 +2318,8 @@
               "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByUFFiZENfY1V0RGRGV1NZU3Y4cmlRWDBXR2lVT2dxVmtuZWpFM2VMMnE0N1Q4U1VIbk80MnlJblFSbW05STRyX3VENUNwREhJRWpLbTRyQnkzQkpNZU9RbU5vWm91QVVBdndYREQtUTE?oc=5"
             },
             {
-              "title": "Forbes - forbes.com",
-              "source": "forbes.com",
+              "title": "Forbes - Forbes",
+              "source": "Forbes",
               "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9NTXFhcFVxM0JtVFNQTUNIQzFVbEo5dnhjY2JHc1hoaWpfTkVsUTRieENyNzRjOGtwNnlr?oc=5"
             }
           ],
@@ -2447,7 +2417,11 @@
             "sp500",
             "dow"
           ],
-          "reason": null,
+          "reason": {
+            "title": "Procter & Gamble will acquire supplements brand Thorne, CEO says",
+            "source": "CNBC",
+            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLUJUX0dUTlA4S3ctX1ZNUU92a1ZmZUt3WnA5TWJnTFZ5S01KY3diUUQwcWRJVEVtWUNPR2dCWUpKZk9YWDFSRkd3Z0pNclc1Y1QwcjBveW9pbEU5VTBvazB0cXpGbThHYkMta3dybWI0U1hicFNyZ0o3ZzZ2VkZnbkNNU3Q2QW9FbzdtTzJhNlNZZUhfOHp1UWZlaFVUajNNczNSeXFEcw?oc=5"
+          },
           "news": [
             {
               "title": "P&G Agrees to Buy Supplements Maker for $3.8 Billion - WSJ",
@@ -2460,14 +2434,9 @@
               "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcUhqbERTaFV6d0FTdHVOUFM1VTVYQkdINTNIc3d3c1BaLTdVODVXQlhBUHFEUklLTFI1SjBrbmtad0RxUXRBTE1OTklJVk5JYk51LVR4cU5VZVdnTnV3d2JJX2tJY0NJcXNMNlQ2eklpX1NUQmozM2hfRGVPTUVzRzZxcnljZDlHSXlfYWRvOHZRa1VKbEk1a1B6TlVEcE5jZ0xUWVFvb0d6ajh1dEZfUmV1VzBtZjAxcEpN?oc=5"
             },
             {
-              "title": "Forbes - forbes.com",
-              "source": "forbes.com",
+              "title": "Forbes - Forbes",
+              "source": "Forbes",
               "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9NTXFhcFVxM0JtVFNQTUNIQzFVbEo5dnhjY2JHc1hoaWpfTkVsUTRieENyNzRjOGtwNnlr?oc=5"
-            },
-            {
-              "title": "SpaceX Stock Falls 11% As AI Capex Surges To $18.4 Billion - forbes.com",
-              "source": "forbes.com",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYXUzZkYycXZQdDhHMHBGdWQtVFp4QnVGdGxLU1pSX1l5R1RUQXItT2pVanFrTzhZcFNIQWkyMXV4SXp4bmJvLXNvbWxLX0dZSXcxSzlMekRZOVJVVmFZNXhFZzBuSFdqWGt4NHF3c09pSjNrVlNkSnVrOW9NaGM4Wk1KMGJ1QktiVlBiMUNRb1N6M1E4ZmozUmdXcUFteEhXSUxv?oc=5"
             },
             {
               "title": "P&G seals $3.8bn deal for supplements company Thorne - Financial Times",
@@ -2478,6 +2447,11 @@
               "title": "P&G buys supplements maker Thorne for $3.8 billion as wellness push intensifies - Reuters",
               "source": "Reuters",
               "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUGY5U2dRaE45WDVMbjVOb2NFNGN0WmpiYlQ5R0lRbGxtM1VWMk4taWIxdmN6WXJ0a0pRUGgwdllaaGNFUWNRU04tN05ZSFU5ZVBwTkxRdFVMOGZPNlh5S1Qxa2dGNlZUSVRPQldxY0E5WlNMeHBrUjNfQnc5UjlOeFNscjBoelpBNnE0V0RDVUtVX0p4U2ZCamVhZVp1RHUyYVdOcEU4TFFsc25WYnlia0s3NTlDVGNDOXdHSFZB?oc=5"
+            },
+            {
+              "title": "Procter & Gamble will acquire supplements brand Thorne, CEO says - CNBC",
+              "source": "CNBC",
+              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLUJUX0dUTlA4S3ctX1ZNUU92a1ZmZUt3WnA5TWJnTFZ5S01KY3diUUQwcWRJVEVtWUNPR2dCWUpKZk9YWDFSRkd3Z0pNclc1Y1QwcjBveW9pbEU5VTBvazB0cXpGbThHYkMta3dybWI0U1hicFNyZ0o3ZzZ2VkZnbkNNU3Q2QW9FbzdtTzJhNlNZZUhfOHp1UWZlaFVUajNNczNSeXFEcw?oc=5"
             }
           ],
           "news_historical": [
@@ -2523,11 +2497,6 @@
               "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNblJpM0pYY0NrYnduWUNBY0xfNDBSSFhSY2tzX3c1WFBzM29KN0FxTzVycS13WWdyUUFXUHBnY0EtTEp3TVRfY0MwVGgtYmZMcXpZX2c1RUhoanc1UUxkUHJQVXA5alpibTRBcTFuRjdFd1NIbHBmS1RfbFRMZnhwdVJINUpEZk41LXkyeDFhY3ZzOTNtem0xRmRIWDBkS1RXU2NaV1FRRUdMZEVHM1lmZXlGYUJ5QllWUjZZRE8ydVpfUTZ0Y2lmSVFkU1hVTnlBY2c?oc=5"
             },
             {
-              "title": "Air India bets on Ethiopian Airlines veteran Tewolde for tough reset - Reuters",
-              "source": "Reuters",
-              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNmlGUk9oNDItR2pPRnowblp1U3hBckZldlZrMktzSTRQWUlQblMyTVNwc1NfX1Z2b3ZiUXRSUVdlQ0x0YUx2eXBJMEJwTXVUOC03TTF3Wm5sTXpkS2U4alo1aHo2TlgtWkNvTWRIVXBHdzVwN0l1anhqZEN6OUJjS1FkOUVnTGVvNWRSdzNFU1JjajNkU1ZVX2tVdk5GTlFQVWtlbTNlS1RFdlU0SFE?oc=5"
-            },
-            {
               "title": "Rheinmetall cuts sales outlook after Germany scraps warship project - Financial Times",
               "source": "Financial Times",
               "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcERZYnNleXlJd0xnV0xGN2dna1RYa2EwNjZkdXV3MzdDQ1J0MmQ1ajFHUlhJUTJNNWdoTFNIeVZMTmhhazJuUllZUl9FSnhNc2RaLXlza0lSa3dPLWgtRWlWTWpMUDVPUHMzT01qRmNlQjVhSVp0MnJfSkY3NUtHeVhnSUk?oc=5"
@@ -2541,6 +2510,11 @@
               "title": "Exclusive | Airlines Push Back Against ICE Enforcement at Airports - WSJ",
               "source": "WSJ",
               "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSXZVVEVlcHM0ZEJjNzZsaWNKLXk3OU9sRjlhSWFVdnJjUjZKVm5abWlaeUs5aWpMZE1BMl9vQk05VWx5TTZvT1gzZ2IzemhpcUh0VE43YnlvRUY4WmNpcFpYY25lN2tMLW1CUjkxY1F0ZDdYbVRMTzVaR0w0YlFWWDRpYk9uem1lb2FiOVN0d3YtTl9sNjkxRjdnU2UtSmZHeHFB?oc=5"
+            },
+            {
+              "title": "Newly spun-off Honeywell Aerospace cuts 2026 forecast on supply-chain woes - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNclQ0dHVjSWxSTHFkNlFlSlVUMGxHODRCa2g2OVpvbnUya1cyaWNDSGtSME1ra1E0bjBod3BoRk12cmZNUG5jSE9hMEEyX2kyQlhDOFdFSmFrcHVZcHVWaDdXTUNZNlY4Szk1M0tzWHJWdVFEck5sTGEyWkhRRFlhdnFVc2I3czFySkxNOGFNTW5fNDJpd1FyMjRlbmdCd1E0alozNV9KbmlNdExhMFA4ODBlRmJYMmZNa1BYdkFwQ3FSVVZ6WlI1bjlIUmhUN0k?oc=5"
             }
           ],
           "news_historical": [
@@ -2583,8 +2557,8 @@
               "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQVpQQk9DYWdmalVDdXpxYWx0ZGIxeGd4eUE5M2NsbzRxNWhlOHRnc2dKWDRtRi1qbFNZZUpOTngyY1IyZTNZbG5qeWNtNmF1QjhMZjdvM3g1NHYzS3UzVGlFWEw0YVU2c1VHcF8zclRIXzREZUU3aWE0LUR0bTN6S0ZEQ0lsNDdLbnQ40gGQAUFVX3lxTE84UGJkSGJGMGZPMFFMSHRmOFloaGhzZl9nUWEtWUU4NkdZeVRwOFp6enY2QUxwOEJwUWhXbDBFeTF3enY1MnR6d2xsR3dSZUJTMzd2ekxvYmdFTnRGYkdHVjB2VWIzWHQ0VkJCVDJBSWlpOC02QWFtaHRDUzNjNUhheDI4M3Y4TUpOOXVTVnd2Ng?oc=5"
             },
             {
-              "title": "Forbes - forbes.com",
-              "source": "forbes.com",
+              "title": "Forbes - Forbes",
+              "source": "Forbes",
               "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9NTXFhcFVxM0JtVFNQTUNIQzFVbEo5dnhjY2JHc1hoaWpfTkVsUTRieENyNzRjOGtwNnlr?oc=5"
             },
             {
@@ -2593,19 +2567,19 @@
               "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRFN5ZkRISzRpbUtZb3Z4RDE4LWh6VW9feFhMNHl2WldEYWtVa21yakRBLUU2VUdpQ3h0QUg1T0hoMjNXYkRGX2JiMlZ1NnQxVUNBVVJSZTNvWjB2SDJCaFVvVFlieXBVbThZMVduMzZSOFpDZHJXVi1OelB2NlNQSmRqR1d0MFliTFRlUUpUVmtLQXpQMG0wdzg3akdwMHUySUFCOdIBqgFBVV95cUxOdlhycGN4WUZobUVEWWxBRVFNN1dRRGdUZTJWUVhVd0JmNmkwTXFNdDVscFRyTEE4dTJBX1YyQm5TZFFyMnR1TXA1c3BoaFVlOWM1MDFhaW9pa0Y4amtzQXdEVkRZRUlyWDNVM2pHdnB2X19SRmk0MGY1NDNldS1BVVRPa0std3g2REpzcEFRVHJrM3RlZFZ0cE9QV1dUYW5TSmlUaHM3QUtCZw?oc=5"
             },
             {
-              "title": "SpaceX Stock Falls 11% As AI Capex Surges To $18.4 Billion - forbes.com",
-              "source": "forbes.com",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYXUzZkYycXZQdDhHMHBGdWQtVFp4QnVGdGxLU1pSX1l5R1RUQXItT2pVanFrTzhZcFNIQWkyMXV4SXp4bmJvLXNvbWxLX0dZSXcxSzlMekRZOVJVVmFZNXhFZzBuSFdqWGt4NHF3c09pSjNrVlNkSnVrOW9NaGM4Wk1KMGJ1QktiVlBiMUNRb1N6M1E4ZmozUmdXcUFteEhXSUxv?oc=5"
-            },
-            {
               "title": "Obsidian Security raises funding at $1.1 billion valuation on AI security demand - Reuters",
               "source": "Reuters",
               "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQmdoY3dVd3hoSmZIbU1RajM2TVByN2s2bkpWSUV5b3N0OE02QzdEZDJwMnRLYURkcUtZZjlvVGJqWHNhb2lZQzJaUXJJcEhFbWhnMGtlSU1ELUR2NGc5aHVIRE9yQ0FUN2xPSExfb2JTeHJQaHdOV1FGb1YtM0l3dFlCS1ZhdEtlZHpVdjlxNS1NT2JMMDRUMlB2NGJ3bVhQTENsRzhndXExUm1INzEwMU1PSTZHb0FyVHdz?oc=5"
             },
             {
-              "title": "SpaceX First Earnings Report Is Coming. Here’s What To Look For - forbes.com",
-              "source": "forbes.com",
+              "title": "SpaceX First Earnings Report Is Coming. Here’s What To Look For - Forbes",
+              "source": "Forbes",
               "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWEhfVXFQb3BEVkY3U3BlRHlpX2tLd1BQOUFUTlctV3k0WGFVTWlHOFdQVDdGN0YzbnNSNHpOSGg4RHJIYmZ6TFZLNkM4Ty1GREpPVVdYVXU1MW9yNDVfSEcyS0Q4OGVqRk9TYzlEbU5FYUNFV1g5dGRqNFNYUDNxTVFqWndyRTM0VlJsQWQtVzRlVmFwb1I5VU9TVG5tbk1EWnc?oc=5"
+            },
+            {
+              "title": "After decades, Diageo's partnership with Moet Hennessy has lost some fizz - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQd0k1V2xjMjIzNU53blBickNUVEhJRDBYaGdxeTFIamF0endHM09JT2U1b1UwQ1dfM2dSN2xsbnpjVy1zQlhuOEt1czRkdVNwMFFoTUgydmFFNmhhOVFKQ1MzV3VfdklXSmNmYnQtSWRoVVg5QUg4QWo5NDUzLWtub1Q2bWpOV001VjNFMkxjLXZXcl9vcVZ5QUpRMGtHMmZtVzBjVklYNVoyenZVdU1HRFJNbl94MWt3SW5RWUVxR2ZPb1U3X3JfZWRZbzA?oc=5"
             }
           ],
           "news_historical": [
@@ -2676,11 +2650,6 @@
           ],
           "news_historical": [
             {
-              "title": "Honeywell Stock Leads This Wildfire Resilience Investing Watchlist - simplywall.st",
-              "source": "simplywall.st",
-              "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQN1VFdTRLZTFQLUI0MW9MaEFTdWNoNjBBUkdoNEhDVmM5c05Vc3hZTVZPdEdIcG9EU2M3Tzk1NVhxY2pNdll2eWpKZG02X0JMVXFZdEt3T1RVUEV1RlFTNlMyd1lTeWdSUVV0M3RXVHNPSWNVM3VWRTdTRkVDUHR4QV8tUjY1RURmMExadnFuUnBhQTc5YUhtWC1PVnQyUzcwSXYxVmZDUGtwY1ZlTUoxaVRZR0tvUUxZVXNHVXVRZVhuSmV6VVpib1JqajE4SXl2aG96S0dwdFplYS0wNEZZ0gHkAUFVX3lxTE5lekVwOVBueGxDa1FiM3lPWWZFbmgtMkxXUlkyeG9wMFdXM3BIRGJUN2NIeW94RFR5WFJOQ0s5ejFpUHhrRUFKU0NnWldtQm0tZnVfbURISGFoLW1zYndvV3Z5dW8xRFVhanBKQ1Y1anBjTEVZbWRRODZwbDVpRnhkUElBQmNVNzBOYjh6R1FWYVpKRDQ0R3JxRngwR1RnWVhqalpNOUY3bFJsNTI0NE44OVhqY0ljeUV4eU45bm9PVmhhM0FjdVJaVlNZT0stcmh1Q0lNeEdwdklHSE1FMXVOcnNKag?oc=5"
-            },
-            {
               "title": "Insider at Iconic Industrial Stock Sells $4.2 Million Worth of Shares, According to Recent SEC Filing - The Globe and Mail",
               "source": "The Globe and Mail",
               "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNU3Nud1V0RDlHRVA2enlhRmY2YjR0TDZFNHByOE5RUFp1YkRwYmZXcVM1MTJjQW0wb294SjB3UFZnUnBzVW1lUVVTV0YyT0MyUGxlTHIyVTQ4UVNlR1RlNVBzeVQ1czlweDh3cTZpbnphVGRGc01sVU9QWUNWYjV4RXlNR1Rmb3JKM3dWVDk0UVdSbTNuYTFqMzk3Uk4tOHJ3dTZXWnFBa0VLdGdiQ3hYOTNhbWZFU3RTRm41dUxkUVRXNjNZYUNRYnFndFdoaG1JTEllOTBLRGRXOEhfSHU1WUI3Wlg2NHZndlptRDNNR1d6WEVzcWJWSC1jWm1GUGhHVmVmczN4VDU5U19lejA4?oc=5"
@@ -2689,6 +2658,11 @@
               "title": "Kenneth J. West, Honeywell exec, sells $4.15m in stock By Investing.com - Investing.com UK",
               "source": "Investing.com UK",
               "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPelQtTnQtVXF2azk4RkZJQnRXTTVrZWR1RUdkNXNuTUNXZXZOalZ5MXpGaXJPeTVBYmdpQlp3dHRVeWJqWlVCWkFXVk1tNnJGZG90U3VkTE9LQXBTZ0lNYTVvUDNKbHE1LVJUck4zV0F5STUwTnJBSWlQNTBvaW1zaHlmRGNjZFBmaE9yZnlrQUVhOWU2bGpFMVlMOTdnRVlJTmRKOTFLNjNySWVLcXppMXdKOWV5Z044UTBlREdfSQ?oc=5"
+            },
+            {
+              "title": "Honeywell Technologies (HON)’s First Earnings as a Standalone Company: Bull vs Bear Analysis - Yahoo Finance",
+              "source": "Yahoo Finance",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYU5XZXhLajNCamZuQjFuRFZ6WHlIT0JKZW53UVV6UXJBY2V5ZGNWdFZlU1c1YTNNWi10VWppdmtYVEVQYm1GMDBZclNyMHRzZTQ3MHZ5SjR0SDkyZU9Bc2UxVlpXWkVtQW1jRDd0akEtVVktLXpvdDh4bUJsZy1XVXRUSlNpRkw4VDlwS1JBd3I3cDdGNjVVX3NLbVliUE9WX29GWWtGN0pKdw?oc=5"
             }
           ]
         },
@@ -2704,6 +2678,11 @@
           ],
           "reason": null,
           "news": [
+            {
+              "title": "China’s Factory Activity Gauge Unexpectedly Signals Contraction - WSJ",
+              "source": "WSJ",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdGZxUEYxMm52eUJRX0szZEd0SmRreWhGbkxlQlFjaG9WZDhNRjNUakNPMmVIZ0pqXzRaUmg4Y1I5X1c2eERRNVZWdmZvMkYxbVY3VU9rcVBvNzdVbnh6VHVtQkhNUG5jeHFXSnJEbWlRcE03cVUtd09yeVIwM3ZoRVEwYjRoanBVeGFEUmVCMWQ5Ykd5TnZybE1Cd2RNcUdJ?oc=5"
+            },
             {
               "title": "Check out Goldman Sachs Group's stock price (GS) in real time - CNBC",
               "source": "CNBC",
@@ -2801,18 +2780,13 @@
           "reason": null,
           "news": [
             {
-              "title": "Forbes - forbes.com",
-              "source": "forbes.com",
+              "title": "Forbes - Forbes",
+              "source": "Forbes",
               "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9NTXFhcFVxM0JtVFNQTUNIQzFVbEo5dnhjY2JHc1hoaWpfTkVsUTRieENyNzRjOGtwNnlr?oc=5"
             },
             {
-              "title": "SpaceX Stock Falls 11% As AI Capex Surges To $18.4 Billion - forbes.com",
-              "source": "forbes.com",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYXUzZkYycXZQdDhHMHBGdWQtVFp4QnVGdGxLU1pSX1l5R1RUQXItT2pVanFrTzhZcFNIQWkyMXV4SXp4bmJvLXNvbWxLX0dZSXcxSzlMekRZOVJVVmFZNXhFZzBuSFdqWGt4NHF3c09pSjNrVlNkSnVrOW9NaGM4Wk1KMGJ1QktiVlBiMUNRb1N6M1E4ZmozUmdXcUFteEhXSUxv?oc=5"
-            },
-            {
-              "title": "SpaceX First Earnings Report Is Coming. Here’s What To Look For - forbes.com",
-              "source": "forbes.com",
+              "title": "SpaceX First Earnings Report Is Coming. Here’s What To Look For - Forbes",
+              "source": "Forbes",
               "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWEhfVXFQb3BEVkY3U3BlRHlpX2tLd1BQOUFUTlctV3k0WGFVTWlHOFdQVDdGN0YzbnNSNHpOSGg4RHJIYmZ6TFZLNkM4Ty1GREpPVVdYVXU1MW9yNDVfSEcyS0Q4OGVqRk9TYzlEbU5FYUNFV1g5dGRqNFNYUDNxTVFqWndyRTM0VlJsQWQtVzRlVmFwb1I5VU9TVG5tbk1EWnc?oc=5"
             }
           ],
@@ -2847,11 +2821,6 @@
           "reason": null,
           "news": [
             {
-              "title": "PPG Industries Inc. stock underperforms Thursday when compared to competitors - MarketWatch",
-              "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNa2JkMERzYmNVQmRRLWo1QTdERnIyTkJhQ3dIYlJTcEUxQTI3T3pIekluNE9MUEl3REhsajZ4M0JzWkVPVGNaWXRqVVdDTHp6ZEZld2ZyT0plcE9uNUVra1BSMU1lY3NpZndETzdpQUV6RXlhaUl2b3k2d21RaXd0Y2hBcEpZVVpSUmtVWWFSVzkwT0gza1d3ZmZvMW9oSnBlcjJfOU5HRllocWdGMjN3TlozRHJndlZ2VHBwaFcyZlVXQ0tSS1UzZU5hN1I0S3Q5b0JJbFROek5NX2p5LVpxbElDWWRTOFZUTEE?oc=5"
-            },
-            {
               "title": "PPG Industries Inc. stock outperforms competitors on strong trading day - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbFdUNUlvbnNSd0UwVlBLWm9PdHZKcmwya3k5ZE12X0owN2tZcDVjN0h1NEo4NVVxdHB6c0FnaW5xX2tGaENkVURUQ2VpNFdFNkYtaTBWNEtZTEo2TVhQOU51NWRSTTVXWm0wNmZyLXVhWDdxTDJWalFQb0JKbHNPZXVtWks1bWVzek94LWItT3JQSHdQTDR2OFFiRUhaM2kxb3JnbEpraVVzUDYwS1pGT1BCOGEzcDE3RE0yTmNNLVc3QUduRDB1VlB6eTk4ZVRPVmR0ZWZyWGlhcVJ4MkdXVWVR?oc=5"
@@ -2875,14 +2844,14 @@
               "title": "PPG Industries Inc. stock outperforms competitors on strong trading day - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTHhpVmxoUkw3YmFHZlMxQUJ5bnhiVDR1NEZ2TnlaM2RQM296LVhQOE1yWDVDUXZCbmk3Tks4WXB1UUg4eFQ5WUtwRFJqVUlYWjd5U002VGNxaElnd1BCU2JsbzlXQ2RSbzUwWHBJa1dwT29DckhtTVNRN0pib0d2UW9ia3FpSXpkX0V4UHBONnpubVlGSDVNT3ZnaEdZX0h4TjNxTHRiM3hDOGxPbVVaTzg0aWFvYjJJYWtvR1g3SEhJWDNId0czUXlKdzFuZHhVMzRxN181VXBvTmZpM0Z2ZmlR?oc=5"
+            },
+            {
+              "title": "Sherwin-Williams Co. stock outperforms competitors on strong trading day - MarketWatch",
+              "source": "MarketWatch",
+              "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdDFnQjNrdi1HSE1BVVVCb01YV0prQ0RFZVVMa0VGTFI1cW9GSFYxTFI1UjlfWjVjS2VuSDRfTjNXaWg3ck5rQ19BT3UzLS1CN0hVcENMSURscFJLRlRuR1NOZjlBNDY3VGZTZm91R2JPWHZ6T3pqLUJuSHdIVGw2Tk83aUxoRnNORFFvbTNUdmlhbWdKQ1E5NzVVTHAtNjBBVy1zSm1SQVNhWlJWQVkwb1RMLUVvQVlRRDRTZC1SMGRmbVJnRFpyQmFMMTdoN0pFY1pWaDJTSHRHdk1pSUh2N05maw?oc=5"
             }
           ],
           "news_historical": [
-            {
-              "title": "Sherwin-Williams Company (SHW) Receives a Buy from RBC Capital - The Globe and Mail",
-              "source": "The Globe and Mail",
-              "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMXBBYzlJN1lqZ1FOc0FKTlNpaWExNjdTWmtqMHZwdDlyRGVEZldZUnFYZldYcHhNNlF5Tl9QMl95TWFlT0Fmd3BzUDByUE9faWwzTlNXbXIzNE1reHdvVWNVUkhwaDh5Z3l2aHVWdHplaHFuU0E2ak9sc1pRNlFXejg1ZTdCa0hBMHRLYjcyb1I3bXI2SFA0XzI1QkJLSnBueWlzVHZZT0daQnI2OWgzRnp3U2F2OHlRR1B4NExSaERDODNBSDZNZUdfTXhxT0xwRDJoSXZ1RVVmX3Jz?oc=5"
-            },
             {
               "title": "Glenmede Trust Co. NA Sells 29,562 Shares of The Sherwin-Williams Company $SHW - MarketBeat",
               "source": "MarketBeat",
@@ -2892,6 +2861,11 @@
               "title": "Compass Capital Management Inc. Sells 7,842 Shares of The Sherwin-Williams Company $SHW - MarketBeat",
               "source": "MarketBeat",
               "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMmJjLWtkUGl0SmpvWThRcjhPM3ZJcE5LUjJlSjBfdDktMHhYUnJud0lfMXo0U0lYekYyOXdmc1lyUzU3bmU5cEt4UXlIRmdVWjVseVI1MVVYd1ViOEZzalZ3U0pBXzVZNDRlQktpSmo5MU5lMGJGOU9ZR25FWThOLWY1TjlLb3h5M3ZRQVVIZlRMR2h1OGNrdUtfQVJCVjVJTmxMWDdRZHpxNFBIbHQ5X1czQ1JLcUx6YUE1YVJZOXFETHIxWjBQbVkyaXdZaGhGMkhmWXlqOVlEU2xOWlE?oc=5"
+            },
+            {
+              "title": "Stocks making big moves this week: Huron, Sherwin-Williams, PROG, CONMED, and Freshworks - The Globe and Mail",
+              "source": "The Globe and Mail",
+              "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZXljZVllNVFJb3JQR3VDODhWems2WW1VQzRZSzBOZWNTUThCRWtFa29YeTRFMEpaaUJFZWtFUTVFQlJicEtSUlNqUC1iejlZc1QzVTJMOHpQeWNmX3lza1JFLVRBU21VMkVNbThYQWctN0NuTU93VDdJdno4SWl4Z2lDeThmaUV4OW84ZWZqbHNVbC1ueGhJeTNmdE5IcThxZmdzU1FQRFdDY2pWa0RybTZtbWgteFMzbHpwVmlUM0ZjYlhMSEMxZXF2QzhXMGY5NjRaZTkyNzlsOXFIU00yZTIyRktUZDVheVgzMy1sLWVWWmtzMTd0N2FxMA?oc=5"
             }
           ]
         },
@@ -2949,14 +2923,14 @@
               "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVTZNQVBpREF6MlVBU2ZOam1pY2VCN3ZTTlc4bWtNVVVVTUlDY0o3WF9yN19pVno5NlZlU2ZXWDdacUZLbm03V2JpLVRyMlg0MG1ucXhKeG9vajZSeDIxRFVicWZZbjhmZmZQV0JqVWZibGxxTV9aajNhdURTWVp5Y2xxY05URkx5ZzdTd3BweTBoN19oQ1dwb0k4TjFVSU85?oc=5"
             },
             {
+              "title": "Here’s How Much You Would Have Made Owning Caterpillar Stock In The Last 15 Years - Benzinga",
+              "source": "Benzinga",
+              "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRnpGMU1Wc09iVDBoMk5aRVM1RGFZd2p2WVAxTE0zOW9pQmdSUVdmd1Rzc3liNGFWbDJoMjdaMTR3cExfQTRycHJwTXpDMFhuU0hFSmVhTjRPOU1qUXRyUG56ZHMxQzhpM3VnWG9FX2Z2QkR5cWtUbjhacEswTElYd3dxQkladW1FOWduM0trVE16Q01nTExERUJDeVViR0VuUmQtM1NaT1hxWnBtSDc3Ti0wejYxUl9RYjQw?oc=5"
+            },
+            {
               "title": "Caterpillar Inc (CAT) Valuation: PE, PB & Fair Value Analysis - TradingKey",
               "source": "TradingKey",
               "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TWm1ObkE3UGMwWVVidnlwUEhhR0MtdlVJdUhNbEZLenJXc1VjUWhvQWU3MzkxZFhtVVBOLWM4WGlicWVzbmk4cll4RVYwSHpwZllHNGs4ckE0a0pGbzhjMXZzLVppQ2RobUoyQTRKQ1I?oc=5"
-            },
-            {
-              "title": "Caterpillar Inc Stock (CAT) Moved Up by 3.06% on Jul 30: What Signal Does It Send? - TradingKey",
-              "source": "TradingKey",
-              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPX3VYQnJZNDU4Nl9WZFNHaXBuZXF3emlzR3M3RElsRDJyTVJvM081aDJWeGpkeFQ0UjNIalg0TlR1bC1fMjlDUk9hNnVISWdEV293YnhrRlRNT2N4SHBzcDZlTlQzaEFqWWw0QVBScUw0YWd2UTJzVWhxbjJQR3RQSDB4b0hfLXVKdmc?oc=5"
             }
           ]
         }
@@ -2964,12 +2938,12 @@
       "paragraphs": {
         "en": [
           "In the August 6, 2026 session the Dow Jones closed with 10 stocks higher, 20 lower, out of 30 tracked. The average move was -0.59%.",
-          "Best-performing sectors by average move: Energy (+1.51%); Communication Services (+0.79%); Consumer Staples (-0.03%). Weakest: Industrials (-2.17%); Materials (-1.69%); Health Care (-0.77%).",
+          "Best-performing sectors by average move: Consumer Staples (-0.03%); Information Technology (-0.32%); Consumer Discretionary (-0.35%). Weakest: Industrials (-2.17%); Health Care (-0.77%); Financials (-0.76%).",
           "Leading the session: Walt Disney Company (The) (DIS, +2.87%); Microsoft (MSFT, +2.54%); Chevron Corporation (CVX, +1.51%), where Financial Times reports: “Chevron Corp, CVX:TOR financials”. At the bottom: Boeing (BA, -3.33%); Salesforce (CRM, -3.22%), where CNBC reports: “Marc Benioff gets a new operating chief, as Salesforce promotes Miguel Milano”; Honeywell Technologies (HON, -2.97%), where Barron's reports: “Honeywell Aerospace Stock Plunges. Its First Standalone Quarter Was a Mess.”."
         ],
         "it": [
           "Nella seduta del 6 agosto 2026 il Dow Jones ha chiuso con 10 societa' in rialzo, 20 in ribasso, su 30 titoli monitorati. La variazione media dell'indice e' stata di -0,59%.",
-          "Settori con la variazione media migliore: Energy (+1,51%); Communication Services (+0,79%); Consumer Staples (-0,03%). Settori piu' debolli: Industrials (-2,17%); Materials (-1,69%); Health Care (-0,77%).",
+          "Settori con la variazione media migliore: Consumer Staples (-0,03%); Information Technology (-0,32%); Consumer Discretionary (-0,35%). Settori piu' debolli: Industrials (-2,17%); Health Care (-0,77%); Financials (-0,76%).",
           "In cima alla seduta: Walt Disney Company (The) (DIS, +2,87%); Microsoft (MSFT, +2,54%); Chevron Corporation (CVX, +1,51%), dove Financial Times riporta: «Chevron Corp, CVX:TOR financials». In fondo: Boeing (BA, -3,33%); Salesforce (CRM, -3,22%), dove CNBC riporta: «Marc Benioff gets a new operating chief, as Salesforce promotes Miguel Milano»; Honeywell Technologies (HON, -2,97%), dove Barron's riporta: «Honeywell Aerospace Stock Plunges. Its First Standalone Quarter Was a Mess.»."
         ]
       }
@@ -2983,16 +2957,16 @@
         "avg_pct": -1.07,
         "best_sectors": [
           {
-            "sector": "Telecommunications",
-            "avg_pct": 6.14
+            "sector": "Communication Services",
+            "avg_pct": 0.41
           },
           {
-            "sector": "Financials",
-            "avg_pct": 3.19
+            "sector": "Consumer Discretionary",
+            "avg_pct": -0.39
           },
           {
-            "sector": "Energy",
-            "avg_pct": 1.81
+            "sector": "Consumer Staples",
+            "avg_pct": -0.54
           }
         ],
         "worst_sectors": [
@@ -3021,11 +2995,16 @@
             "nasdaq100"
           ],
           "reason": {
-            "title": "3 Surprising IPO Winners That Aren’t SpaceX or SK Hynix Stock",
-            "source": "Barron's",
-            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCUGo4RGFmVk95ZEc4cjFnLTRmWHQwOUUxQ3dUM1Zkd0lLNHdaT2YzSXdJY2RBRTcwNWxFZzUwVTRuc2IzTHowMmt6REF1QjBINEJ2RERobXRvbjJ1cG9MSFVHX1U2MlpuMWhUcDVGSE8wdF9EeUhLb0FTaks?oc=5"
+            "title": "SpaceX Shares Sink on AI Spending Plans",
+            "source": "WSJ",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSnZqUklPaEpkdWhsOEtmQzV2SEEyaFM5bF8wSEsxX2xkemUxZ3BHeDZfczhpNVhVOEVsdTZWVW9CMXV4VXY4c241Mm5vU1JyRVd0TUdfbW5sZlVuSGZKc2pSanhyM25YWWtZMlMxSnp5VTJ1bVNLdnFqYVhwX1phOUlOdWo0SG4tdUZZZkxRNUh0UmJkeEtZ?oc=5"
           },
           "news": [
+            {
+              "title": "SpaceX Shares Sink on AI Spending Plans - WSJ",
+              "source": "WSJ",
+              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSnZqUklPaEpkdWhsOEtmQzV2SEEyaFM5bF8wSEsxX2xkemUxZ3BHeDZfczhpNVhVOEVsdTZWVW9CMXV4VXY4c241Mm5vU1JyRVd0TUdfbW5sZlVuSGZKc2pSanhyM25YWWtZMlMxSnp5VTJ1bVNLdnFqYVhwX1phOUlOdWo0SG4tdUZZZkxRNUh0UmJkeEtZ?oc=5"
+            },
             {
               "title": "3 Surprising IPO Winners That Aren’t SpaceX or SK Hynix Stock - Barron's",
               "source": "Barron's",
@@ -3050,11 +3029,6 @@
               "title": "SpaceX Stock Rises. Millions of Shares Unlock Today—Brace For More Volatility. - Barron's",
               "source": "Barron's",
               "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM1BMTVI3bVNYOHRmbjQxQUNadFYtZURTOFppYXRMQjVjcjltbnlwNVgxLWhuenR4dWNXb05ybHdEeGxQWnc5eVNZYzVROTRiVC01XzhpQ0N5LTlpVFNWRHo3dl9zNWw3UGR0SmtPOU5tcXhtTWRkVHN6SGJrUkQ3RS1NVm1YOWc?oc=5"
-            },
-            {
-              "title": "Yorkville Ives' Dan Ives: Investing in SpaceX is betting on Musk - CNBC",
-              "source": "CNBC",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdGNpOUdsNnJOQWVrMW11cHJVZ1BDdHV6a0dHeVpEeFJ3TGN2RnVOXzRzelR5TmpLOUJ6LXlOOWxMZVdxQlNLQjNwUnoyc1ZLTzFsbWxKWElzQTNrMXNkZkZVTlYyWTdHejFNLWVHeVZYLVRQam1hcUkydmRucGtBUkRiOUF1Q3ppS1VfYTZjN25aZHFrd0pIRVZiYzhXaEVMRmpwN2lyR3E?oc=5"
             }
           ],
           "news_historical": [
@@ -3102,11 +3076,6 @@
               "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbWpKeVFhVFlyMV9FX09pTEdJVFUzeGI1ajkxajlQb3FyX0gwdkM0c2VwYUpnTlVZdkJIaDVBRkxJZFBwVVJxMklaQ1dGVEFUTmU1T1dfM05KXzQteU5OSUVwdnFvTS1XaVRNZDluRGdjVklKU1FiXzRYNXFYSjgxeXdwQnY2Zw?oc=5"
             },
             {
-              "title": "US FDA approves Replimune's skin cancer drug after prior rejections - Reuters",
-              "source": "Reuters",
-              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSzRDTVZPLXhNYTNDWDYyVXZTemQwOXJNQVlVblBvZHVpbUxPX0dQQzVRVTJIT2h5ZmFjVGlOZjNScjRPT1FveDliRmtNdEh5WEtNWUF4Sk5xVi1qdV9aQ3A3eEZvWHNGUDFCWGNhT0ZEb2gwdWw1amRPWkJ2d1M4em1VVVZCdUM3YW9JLXhMamVWOUFseVZnNTd3OWFwaFdWdy1VNVlITVVqUWR6dFYzZ0xFRzlGZw?oc=5"
-            },
-            {
               "title": "Tech, Media & Telecom Roundup: Market Talk - WSJ",
               "source": "WSJ",
               "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPODA5TXIzVVY1ZGRwU3JqSWd2dnRYSXNDeU8tLVdKMUFJc2FRSEZ5ZHUzelRKOU4wSjN0MTZpSGUzVGN6OVFzaF85eWZmVlFXcTI5LXhQSjJVRC1zd1g2R01FYnhOdkMwN2FjVHNWRldseENtOXM4YzZKMzU4ZTlUdEJR?oc=5"
@@ -3115,6 +3084,11 @@
               "title": "FDA Approves Replimune’s Melanoma Drug on Third Attempt - WSJ",
               "source": "WSJ",
               "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRmRrSHFJX3AwbEdBc2pUd0E0TVFmVmNzNWtNNVZSMnBSQWx6cDRZOF85bEcybzN6MlJKTmNHRlN2OVdGZlphSEtrdHRjY0ZPX1M5QTEtb0l1MEdla2NscW55Tkt1elFmVURTdTZ4S2l6Ymc3SWpwcHAxYUdsYnhTRi02VVlVVE9LWkJzOHV3TGFzU1JuTVd3TlZkaTI?oc=5"
+            },
+            {
+              "title": "El-Sayed and Stevens Project Party Unity After Divisive Race - The New York Times",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWkMzeXN5RWNSU3JyUGxpZXJZNngwc3RaOVZjR1JKb2tkRU9zN3ZRVUZ2MDlOVzdZNVRmQVdBUEgxbHF3VWtLbG9Fci1PS19NR1dPX3h4QnkzZDdnQ09Fd3kxbzQtUW1lcmplUTlJQ0xYOWE3RS1lXzJ6SjZock5FOC1R?oc=5"
             }
           ],
           "news_historical": [
@@ -3202,14 +3176,9 @@
               "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWWlnNVp6UWlHSGNHRW5fdUdhdVk5Mi1lZjQ1ZUEtMU5PZFhrbG9vaHdMSGhiQVBYRU5sOFBwUDVOSDVuX25QNFl1ZUZieEhhb2RvN2NOVUVUMDJIcTBaSUJURDd4YmtwYmpQcXRWOXZwUlVURU9fbG1Jd0ZtbTNWTzl0bVVZLXhFSWUyR0pObjE5QnhPbHZJZg?oc=5"
             },
             {
-              "title": "Forbes - forbes.com",
-              "source": "forbes.com",
+              "title": "Forbes - Forbes",
+              "source": "Forbes",
               "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9NTXFhcFVxM0JtVFNQTUNIQzFVbEo5dnhjY2JHc1hoaWpfTkVsUTRieENyNzRjOGtwNnlr?oc=5"
-            },
-            {
-              "title": "Why AT&T, Verizon and T-Mobile shares are down after SpaceX’s earnings - MarketWatch",
-              "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTktab3cyaC1BVlVvT05SQVdpWjQtYU15NEREQXFubEE2UDJrQlNnMTZYd19wX3ozUkFLS3RsdlVEandsS1JfdzB4N1UxWDRMRE9ZTEFWOUFrd1p3aXo3Z0NER3p2NU1hMHdRY3c2RkJEaExxUzA1TlJINVRYYm9xYVIzdWl5eVNvWTlhbEFsUHFweF9mT05EbWU2WjZCMUJxTVZ3azVWNVBnQkxkcmdZZQ?oc=5"
             },
             {
               "title": "Check out Bumble Inc.'s stock price (BMBL) in real time - CNBC",
@@ -3217,9 +3186,14 @@
               "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1GNEktQTIydHAyeDQ5QWdQQnJFaTlQcnFhNmlUd1RKX2JIUFRGbDBhRUtzMkVsaHlTRkkxMkNYVlVOU1RkTnp3?oc=5"
             },
             {
-              "title": "SpaceX Stock Falls 11% As AI Capex Surges To $18.4 Billion - forbes.com",
-              "source": "forbes.com",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYXUzZkYycXZQdDhHMHBGdWQtVFp4QnVGdGxLU1pSX1l5R1RUQXItT2pVanFrTzhZcFNIQWkyMXV4SXp4bmJvLXNvbWxLX0dZSXcxSzlMekRZOVJVVmFZNXhFZzBuSFdqWGt4NHF3c09pSjNrVlNkSnVrOW9NaGM4Wk1KMGJ1QktiVlBiMUNRb1N6M1E4ZmozUmdXcUFteEhXSUxv?oc=5"
+              "title": "Why AT&T, Verizon and T-Mobile shares are down after SpaceX’s earnings - MarketWatch",
+              "source": "MarketWatch",
+              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTktab3cyaC1BVlVvT05SQVdpWjQtYU15NEREQXFubEE2UDJrQlNnMTZYd19wX3ozUkFLS3RsdlVEandsS1JfdzB4N1UxWDRMRE9ZTEFWOUFrd1p3aXo3Z0NER3p2NU1hMHdRY3c2RkJEaExxUzA1TlJINVRYYm9xYVIzdWl5eVNvWTlhbEFsUHFweF9mT05EbWU2WjZCMUJxTVZ3azVWNVBnQkxkcmdZZQ?oc=5"
+            },
+            {
+              "title": "SpaceX revenue jumps in debut results as satellite, AI businesses surge - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRkFZQkJoRmRlajg5SzYxaU5EQVZ3U2RYbUtyZHRfcndUVmpYb3lwWm5DNmtVMFY3bFZoLVEyaVJ0b0dmRWYxZ05vSXhRaWFLVXVlVG9MSmV2Qjg4OEFTNU4xLU5ST2NOMDh5b3NOM1J4cGgzQmFIRjBEOUNlZXhaQ1JoV0VPeS1ZWW9XX1ZSUnZJQ19kNHN6cnYwWHFoN25saEltTjZNQWhlclNieEJCQ1VWUGtDRC1xcjNEUmxjMG9KYVJLaGNHU2RJaw?oc=5"
             }
           ],
           "news_historical": [
@@ -3253,8 +3227,8 @@
           "reason": null,
           "news": [
             {
-              "title": "PayPal - forbes.com",
-              "source": "forbes.com",
+              "title": "PayPal - Forbes",
+              "source": "Forbes",
               "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JU2c2RDlSbjVIRGUxbGtzeHEzdUJ1RmtUQ2NGMVRzdG5sal9DQmZnaGk5QnBYdllGbjRxenJTaHpzdjhhSGpMRVA5TzdFRmc2eHc?oc=5"
             }
           ],
@@ -3403,25 +3377,15 @@
             "nasdaq100"
           ],
           "reason": {
-            "title": "Shopify Inc. Stock Grades | SHOP",
-            "source": "Barron's",
-            "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWnNMT2Z0eWp5ZlhaNWVyWnZKdktRQTg0enJkajVsWnpqV2ZwcTF3TmJ6X25jaUVLcTQxdmZwV1JMZjZLMFNoQmRmMF9LQWlyc201VUR2SDA3ellLUzQ3ZnRpVW9nczF5UWxGT0NjOTQ0ZHpHVlIxeG1odHcyT2xQRlROd1E2OVRSM0ZCaHVjQ0JVQVM5SnhNM2gxX1F1SXB6YkZqaEMwc2xkX1F4aHdWMnZoVUVaYWhpRXdsSzF0M3pYZHVCTWlZdG5VV1BMWk1ibWc?oc=5"
+            "title": "Shopify exec says AI is ushering in a 'golden age of entrepreneurship'",
+            "source": "CNBC",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUG5Qa1pXLS15OHo5ZWVfWE9JSXpsQk1GRXQtRjU3d0hsMkt3b1pyVmpWQkV5MGhNR1pVbmV3eFNCMmUyVGc0bTcyU1ZkNmhGV05qUkxRelZqVG9ZcUVuQXJadUVUWGJEOEhYYjBwdUVTU2h2b0xrRGRZa2szNHdRbVdkeWxGSkR1V0RISW5sSTY0YWpTUThv0gGcAUFVX3lxTE9qcnBjWnl6XzZoUklScjB0Yi1aQ3l3LUV1eUtSOHJPOFBEd3R6MmZKMDJmV0ctemtPYzJidkVGVVk1Y0Q1NGhuWkU3eEJWeGRTVzdneGhDbEtQcmR4eGxXTEREMDZOY0dLZFN0WUpvbnl0cGFlcXZzYjVELUVkaHVPcnR2YXNFYmxUY2FfTG1VU3A1VU9oREUtTGVYbg?oc=5"
           },
           "news": [
             {
               "title": "The Rise of Million-Dollar Companies With Just One Employee - WSJ",
               "source": "WSJ",
               "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSEVXTXdLbUtqYl9RWVBzckFKdzBvZUp4UC1ZMXIyaC1UeGJmc0tTQ2FYZ1Z4cHpUN3dhOXZFRmxFWm1BOHV5ajM4UlZHUWI3R3NERjdEUFkwel92MjJCQmZUejgtVGc4VmdmODdXTUFuVjZlT0Y3RXhJUGZueFoyck54UVBMQ1A0bFlzeWR3d2thVkg4SU4zTzJpQno?oc=5"
-            },
-            {
-              "title": "Airbnb Boosts Full-Year Forecast on Strong Demand as AI Bets Pay Off - WSJ",
-              "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMG9mbWdpcjhsYTZHSGNmNzVjRmpqYlM2em9NR2JlQXRIVGQtakVFeHZkbm0tVDFDYV9uUGdfdWxfSWljS2tLRnl6QWZyQk1hV0Vpa1ZFQWFRTGE0TF9Kc3p6M0dGQWxMQmVON3pid2NpYVotYzJ1RVZoc1N2a2VLX2h3bGZ3MkYzU09pcmJIaTc0eFJSdWpnYndEei01U1B6bjZV?oc=5"
-            },
-            {
-              "title": "Shopify Inc. Stock Grades | SHOP - Barron's",
-              "source": "Barron's",
-              "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWnNMT2Z0eWp5ZlhaNWVyWnZKdktRQTg0enJkajVsWnpqV2ZwcTF3TmJ6X25jaUVLcTQxdmZwV1JMZjZLMFNoQmRmMF9LQWlyc201VUR2SDA3ellLUzQ3ZnRpVW9nczF5UWxGT0NjOTQ0ZHpHVlIxeG1odHcyT2xQRlROd1E2OVRSM0ZCaHVjQ0JVQVM5SnhNM2gxX1F1SXB6YkZqaEMwc2xkX1F4aHdWMnZoVUVaYWhpRXdsSzF0M3pYZHVCTWlZdG5VV1BMWk1ibWc?oc=5"
             },
             {
               "title": "Keurig Dr Pepper Posts Higher Sales as Separation Work Continues - WSJ",
@@ -3437,6 +3401,16 @@
               "title": "Shopify exec says AI is ushering in a 'golden age of entrepreneurship' - CNBC",
               "source": "CNBC",
               "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUG5Qa1pXLS15OHo5ZWVfWE9JSXpsQk1GRXQtRjU3d0hsMkt3b1pyVmpWQkV5MGhNR1pVbmV3eFNCMmUyVGc0bTcyU1ZkNmhGV05qUkxRelZqVG9ZcUVuQXJadUVUWGJEOEhYYjBwdUVTU2h2b0xrRGRZa2szNHdRbVdkeWxGSkR1V0RISW5sSTY0YWpTUThv0gGcAUFVX3lxTE9qcnBjWnl6XzZoUklScjB0Yi1aQ3l3LUV1eUtSOHJPOFBEd3R6MmZKMDJmV0ctemtPYzJidkVGVVk1Y0Q1NGhuWkU3eEJWeGRTVzdneGhDbEtQcmR4eGxXTEREMDZOY0dLZFN0WUpvbnl0cGFlcXZzYjVELUVkaHVPcnR2YXNFYmxUY2FfTG1VU3A1VU9oREUtTGVYbg?oc=5"
+            },
+            {
+              "title": "Etsy to Cut 12% of Workforce as CEO Focuses on Core Marketplace - WSJ",
+              "source": "WSJ",
+              "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONktiNTlnOEMzY2hVUVNQdUc4MnN2NFdycWgxMXZiUmlsTXlkeWZzRk1lNGRwRUJldTdCVHhOX3FwVkoyb3Nsc3NCXzhscklfVlJBcUd0MlRxOC1Sc244d1RsOUZpb2VqdWR4RHpWcHBYaHU0UlFUaW1TYnh0QWdxZ2ROdFQwQkZfUFlNRFJkc2tpUWhvWThlMkdSeTNheGZZRGRFYy1YYTV2SE0?oc=5"
+            },
+            {
+              "title": "Strong Earnings Power Dow to Another Record - WSJ",
+              "source": "WSJ",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZFZPYkJXazVxR2I3V3RxQ0tJM1Z4bE9DbzhVcnJ6cGpndjBCS01qVFdTcG9fX2Y1dzFHZ0NFVjVlM2E5Yjg4VWh2aHZMblB2dTJmQjN5UHJvMVNleU53bzk1MUNBeFpLWlRBTklPS2dVRTcxdlhKbEMxM242cUxNSmE1UThrMFJlUnRzNXRvSTQ?oc=5"
             }
           ],
           "news_historical": [
@@ -3542,19 +3516,9 @@
               "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTTU3bi1UZjI5WVJkYl9mN2R3bVlSZGF5OGc3YnpBUkVhRFRNQTdQTVA0MEx6azB2V3RpZVM5SUJfVHBMekRsclZ3R0p3dkgwZTZTWW1uWjJZT1JZZndRTEZFUVRnNWpfdzU4bXdnSXhNckNTXzdVV3NlMXFxbFp4aW91Y216c0ZGNEVQTks0NFFSSkhnMWlLTm9vZDF0RzJ1YnFYcA?oc=5"
             },
             {
-              "title": "SpaceX True Believers Propel Shares Past End of Epic Lockup - WSJ",
-              "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbGRjWXRjQllNb0EwQXdVdFVGUUhGUXJzX25nRXNNbU9hbjJNXzhlQndBdFhycG1JRDlqSlRWZElIaWtYOWpkOUlpZUZXVHlyb203ajQ4T1R3VzhONmJwN19lNzgxYU9oV0JuS1c2TXhNM3BlRWFGcS04ZWFXdjFuOVFONk44VkJtQmVrVVNlaE5lV1kyeEFrd1ZfeVg5Zw?oc=5"
-            },
-            {
               "title": "Tech, Media & Telecom Roundup: Market Talk - WSJ",
               "source": "WSJ",
               "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPODA5TXIzVVY1ZGRwU3JqSWd2dnRYSXNDeU8tLVdKMUFJc2FRSEZ5ZHUzelRKOU4wSjN0MTZpSGUzVGN6OVFzaF85eWZmVlFXcTI5LXhQSjJVRC1zd1g2R01FYnhOdkMwN2FjVHNWRldseENtOXM4YzZKMzU4ZTlUdEJR?oc=5"
-            },
-            {
-              "title": "Rocket Revenue Surges on Mortgage Market Share Gains - WSJ",
-              "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTVRZSFdKUU55YmpyeFVndG5qQkhRc1RCTzVhYjBGVGNXbkRIRk1xTDJTanF6cUJzYms4eVdad2FPQnRyd01TYjJYNkJXR1A4SnRBa2pOUjdEdTkyckU3cHlPZzQzaU9EYUo1OWk0ZHloVFR3eEhqVjAyajlyWUVFbm11OHd3QTg5VGZ2blM2dkFZSGNzUTlIbThuaG5OMEtZ?oc=5"
             },
             {
               "title": "Stocks close lower as investors eye Mideast talks, earnings - Reuters",
@@ -3565,6 +3529,16 @@
               "title": "SpaceX, Honeywell Aerospace, Sandisk, D-Wave, Datadog, and More Stocks That Explain Today’s Market - Barron's",
               "source": "Barron's",
               "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwaTdMQnBJLWVINmIxRk4xR00tSTZyc0MyWmtLRURKY3ZVczBveUw4NmU4UmpEVDlHUXkyZ3VNbXF6TWpzNldnUFVTVE5xUW1lNk4zT05OVnFkRmRwVlpINXZZOXA?oc=5"
+            },
+            {
+              "title": "FTSE 100 slips as Relx weighs; WPP, Persimmon gain after results - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSjJ4ZmljTVlnRGlOczVZaVBnZ0RLbTBRYW5iRjNzVExzVUJIWDdkNGllVnRvc0ZTWmhzYndibnpzOHNGVkNQTlRIaHZRMnV1di1tTzRPT3hZZVFxVU1CR1NpenZCQ05XNjRqaFlZSVZSdER1QVd0Z0tWWkJEX0VlYmRFQ3dQNXJy?oc=5"
+            },
+            {
+              "title": "Versant Media Shares Jump After Raising Outlook on Strong Viewership - WSJ",
+              "source": "WSJ",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTmdjaW9HV0RjOUx1ejZ3SWR3UUg0WXM5ajZFVlMzRWlJd09qSlhJbGU0dVBSekRKT2l0RUVjUkN4c3BXVTNUT2dSaTNobkJLcTZLWHBudHpENEYtVjM4V0I4WFFqMWwySlJTLWhkV3FGMkVoc0JSRjlYRGJmMDJMejh0UThGZ3ZfUWllampuWWRLZ2JSUkRTb1JOeHRBMWk4Q3FVYjQ5b0ZaTlp4MDlBdnhVekJyQQ?oc=5"
             }
           ],
           "news_historical": [
@@ -3596,7 +3570,7 @@
             "nasdaq100"
           ],
           "reason": {
-            "title": "Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’",
+            "title": "Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’",
             "source": "Barron's",
             "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JdmVxTUZicWNtNFpOZVJUZVVCX3Jlam04NUR4NS1salZfZk42Nng1S0hKaExCNVBNR3BXczU0U3d6UmoxcFlrb3pmU3BDV3hVcWVuY2ZiaG5YQ2NnNjZYLUFHV0xYWjltNTM0VEpjTlRHZG14RUNfOEh3?oc=5"
           },
@@ -3617,7 +3591,7 @@
               "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbE1LWWNEaExUVlhSemZzQWpUbjZ5ckE1TENVZ3VkX0VyWXVla3pmaGliUEthTHlELVR6OTNkSldSRndUdUt0dkdaazUtVlZpbDZhblUyUDdjXzNXT29QaDB5YV9VZ2otenlzYXMySE1PZWxHSFl1RzJuejRpN3FEUmlLck1ZWnlvQ2ZHOUIyakFqU1Y2NUExNWpIQkh2WlNNRGRvSTVQdw?oc=5"
             },
             {
-              "title": "Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’ - Barron's",
+              "title": "Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’ - Barron's",
               "source": "Barron's",
               "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JdmVxTUZicWNtNFpOZVJUZVVCX3Jlam04NUR4NS1salZfZk42Nng1S0hKaExCNVBNR3BXczU0U3d6UmoxcFlrb3pmU3BDV3hVcWVuY2ZiaG5YQ2NnNjZYLUFHV0xYWjltNTM0VEpjTlRHZG14RUNfOEh3?oc=5"
             },
@@ -3661,40 +3635,30 @@
             "nasdaq100"
           ],
           "reason": {
-            "title": "0HKE | Axon Enterprise Inc. Profile",
-            "source": "MarketWatch",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2lsSFpaY1UtanFfeFNqczIwZjVxWVVmNGpFU0hnNGZ1REJzaS1RZnhfWXVVMGtpWHRLRDVadDJxSXpMR3pib2I1cVRwUDJpY3hydWNHT1FtSVZ3ZHVnUS1ESm5PYzVtU1JIVXE5VERNNV9RUW44R1BpMHp4SWVVd1lFUmRreVhEbU9hSk9WOERZTkhUbnBYdg?oc=5"
+            "title": "Axon reports Q2 2026 revenue of $904 million, up 35% year over year – Company Announcement",
+            "source": "Financial Times",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ24zTHQ4LTJiNVpNZGZKZmRra1BDTktGNWVFdWZYWHN2OEdKUUdkaUJYeDMtQk1xSGI3d255NWllYnp0Wmk4X0Y5WmdnaHZOZl90dTlPOXdrRHJDWnJtY3JHSkMzZ2ctbHNlVjE1THkwdVc0TkFiaHFpWXZ1V0FHTG9lZGxUb2JFYVRaV0ZOb0xBenBNVzlHUw?oc=5"
           },
           "news": [
-            {
-              "title": "NET Stock Price | Cloudflare Inc. Cl A Stock Quote (U.S.: NYSE) - MarketWatch",
-              "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OUGtBVnFBc21GR0o2QV9GZTN3OEItaFRQRzNlNmV1YkI0M1ZyZWdjc0VzYm5Dd2dBTDVpc1hvd0JJYm1OTXlRNzFIUGFicVo3cEJHbkJfeFFlMzQ?oc=5"
-            },
-            {
-              "title": "NVDA Stock Price | NVIDIA Corp. Stock Quote (U.S.: Nasdaq) - MarketWatch",
-              "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rTUx0am9SNU4zUG1rZG02REFwVHRBSmgyanJKb1ZFRHZNbG91b2RIN1NTUUxsTS1JX0xFWmVkTmxsQWxleG1nN1VXZnVJby13cEdlX1B2dUs4aEhr?oc=5"
-            },
-            {
-              "title": "U.S. Stocks Down on Hormuz Deal Doubts - WSJ",
-              "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbjhuREI1Y1RXUzBiLVRhTWozYTBLeTNaRW82R25mMzR5TnBxN0EtR2ZOTzlzT1Y5M05wQUlmcFg0ZWpCZWFQTTBmdXhhdlh0VmhldmQ2Y21BTTRZMDdoN0R4XzcydlhfSkxzYkRfMEs5cVBzTjF2ZGNzOVA4NGNYbVF5R3VZaG9t?oc=5"
-            },
             {
               "title": "Axon Enterprise Inc. stock underperforms Thursday when compared to competitors - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbkJPZERFaTVHNWl4WDg0Ni1oMjNOVG5JenA4NlNfOF9ZbWhJUDN0LW5sNFFENjJGdFNkTVJIei0tZnllTGtYck9pWkFsTG02NkxydUlVNG1TLVZjWmF0SlJxamJ5X09Vd2lCRThUVmRPNFcxQVB1RkJuNWI1NWpkNXNKUmNmS0dXeExhWFI4Wk1RMHFpZ2FTRVVTNmdsOHJsc25VMnJFUTJGUVpfcWUzS3YtYV9hU2ZWX1QxYm1JTC1EMWl2OW9wT1ZCcVRmTUN4Y1kw?oc=5"
             },
             {
-              "title": "0HKE | Axon Enterprise Inc. Profile - MarketWatch",
+              "title": "Motorola Solutions Inc. stock outperforms competitors on strong trading day - MarketWatch",
               "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2lsSFpaY1UtanFfeFNqczIwZjVxWVVmNGpFU0hnNGZ1REJzaS1RZnhfWXVVMGtpWHRLRDVadDJxSXpMR3pib2I1cVRwUDJpY3hydWNHT1FtSVZ3ZHVnUS1ESm5PYzVtU1JIVXE5VERNNV9RUW44R1BpMHp4SWVVd1lFUmRreVhEbU9hSk9WOERZTkhUbnBYdg?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV1hPZG9vaElTWFQycmRnc1dwczNoNy1HRkZpeFd2Y0RMR29xM0VqNm5ab05iWnZyLUlHYnZ1Q3JfUGFtZWpyRWJlaTRFRHRYLXBnN1FZbktBbEFKQ3pvWFd0ei1qVUR6enFkVTNzTGZPeDZKbmJaZElNcTJLVUZXaF9mOV8tTnV2amRyOU5Rd2J0OV80Z2Zkakg4eHRZdV8wWmo0QUhIQW94ZVZZaXZsMU5LRGt6WFZYWVFuNVZULTMxdVcxRU9DNG5KaHNzdk0?oc=5"
             },
             {
-              "title": "Alphabet slumps on more AI brain drain. We're not too worried - CNBC",
-              "source": "CNBC",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcS1SbFJieDhXZDJIVHdxZ2NUNlVnNml0TmwwLU5vRFhDUlNEZlRlMkxtOFdQNERJX3ZIM19WS3htVHM1QmdNZC04TFVjbGZGTFk5V3pnN2c0akpXYjdVaU9aOVdhRExYOGU1OElHdEZzVjIyZ0xvNlpmSDgzZlIzU00wYy1OT25mY2I2OXRTSFVQZXZXZVdzMA?oc=5"
+              "title": "Axon reports Q2 2026 revenue of $904 million, up 35% year over year – Company Announcement - Financial Times",
+              "source": "Financial Times",
+              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ24zTHQ4LTJiNVpNZGZKZmRra1BDTktGNWVFdWZYWHN2OEdKUUdkaUJYeDMtQk1xSGI3d255NWllYnp0Wmk4X0Y5WmdnaHZOZl90dTlPOXdrRHJDWnJtY3JHSkMzZ2ctbHNlVjE1THkwdVc0TkFiaHFpWXZ1V0FHTG9lZGxUb2JFYVRaV0ZOb0xBenBNVzlHUw?oc=5"
+            },
+            {
+              "title": "AXON.N - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XeGpzYzZoOFYwOV81NVl3am1lN0lpOWZreU5WREExOHRrWjQyNTd2NlRUajN1OFJNaWxNLUd2QWlxVm9MQ096SFM1THdhbUd5ZmtndzhoUWJhZUgwVU5QcUZFMWRoQzRwem94ajFLMHMyMFVIdWU0OFhJTzNXbWs?oc=5"
             }
           ],
           "news_historical": [
@@ -3939,13 +3903,13 @@
       "paragraphs": {
         "en": [
           "In the August 6, 2026 session the Nasdaq-100 closed with 44 stocks higher, 58 lower, out of 102 tracked. The average move was -1.07%.",
-          "Best-performing sectors by average move: Telecommunications (+6.14%); Financials (+3.19%); Energy (+1.81%). Weakest: Industrials (-3.04%); Information Technology (-1.72%); Utilities (-0.93%).",
-          "Leading the session: SpaceX (SPCX, +6.14%), where Barron's reports: “3 Surprising IPO Winners That Aren’t SpaceX or SK Hynix Stock”; Arm Holdings (ARM, +4.41%); Astera Labs (ALAB, +4.10%). At the bottom: Honeywell Aerospace (HONA, -23.16%), where MarketWatch reports: “Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff”; AppLovin (APP, -19.66%); Datadog (DDOG, -19.03%), where Barron's reports: “Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’”."
+          "Best-performing sectors by average move: Communication Services (+0.41%); Consumer Discretionary (-0.39%); Consumer Staples (-0.54%). Weakest: Industrials (-3.04%); Information Technology (-1.72%); Utilities (-0.93%).",
+          "Leading the session: SpaceX (SPCX, +6.14%), where WSJ reports: “SpaceX Shares Sink on AI Spending Plans”; Arm Holdings (ARM, +4.41%); Astera Labs (ALAB, +4.10%). At the bottom: Honeywell Aerospace (HONA, -23.16%), where MarketWatch reports: “Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff”; AppLovin (APP, -19.66%); Datadog (DDOG, -19.03%), where Barron's reports: “Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’”."
         ],
         "it": [
           "Nella seduta del 6 agosto 2026 il Nasdaq-100 ha chiuso con 44 societa' in rialzo, 58 in ribasso, su 102 titoli monitorati. La variazione media dell'indice e' stata di -1,07%.",
-          "Settori con la variazione media migliore: Telecommunications (+6,14%); Financials (+3,19%); Energy (+1,81%). Settori piu' debolli: Industrials (-3,04%); Information Technology (-1,72%); Utilities (-0,93%).",
-          "In cima alla seduta: SpaceX (SPCX, +6,14%), dove Barron's riporta: «3 Surprising IPO Winners That Aren’t SpaceX or SK Hynix Stock»; Arm Holdings (ARM, +4,41%); Astera Labs (ALAB, +4,10%). In fondo: Honeywell Aerospace (HONA, -23,16%), dove MarketWatch riporta: «Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff»; AppLovin (APP, -19,66%); Datadog (DDOG, -19,03%), dove Barron's riporta: «Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’»."
+          "Settori con la variazione media migliore: Communication Services (+0,41%); Consumer Discretionary (-0,39%); Consumer Staples (-0,54%). Settori piu' debolli: Industrials (-3,04%); Information Technology (-1,72%); Utilities (-0,93%).",
+          "In cima alla seduta: SpaceX (SPCX, +6,14%), dove WSJ riporta: «SpaceX Shares Sink on AI Spending Plans»; Arm Holdings (ARM, +4,41%); Astera Labs (ALAB, +4,10%). In fondo: Honeywell Aerospace (HONA, -23,16%), dove MarketWatch riporta: «Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff»; AppLovin (APP, -19,66%); Datadog (DDOG, -19,03%), dove Barron's riporta: «Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’»."
         ]
       }
     },
@@ -3958,16 +3922,16 @@
         "avg_pct": -0.51,
         "best_sectors": [
           {
-            "sector": "Telecommunications",
-            "avg_pct": 6.14
-          },
-          {
             "sector": "Energy",
             "avg_pct": 1.39
           },
           {
             "sector": "Communication Services",
             "avg_pct": 1.22
+          },
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": -0.24
           }
         ],
         "worst_sectors": [
@@ -4119,7 +4083,11 @@
           "indices": [
             "sp500"
           ],
-          "reason": null,
+          "reason": {
+            "title": "Leidos lifts annual forecasts on strong defense demand",
+            "source": "Reuters",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ19DdGQyMFRmenI0OGZIek9SejF6RmxmbHp6T19YN1JnRnhacVdwYTVzdlBLUkZCTHlSZ2cwTjRoc2ZZU2wxMndjbVh1Mk5SSGEtOWFyd0N0YTQ5OGR1R09jeU5NSXB5ejZLWWhBdVVkY0g4c2w3bG9VRm5WdVZPSzJsRFFCdkNmbklXNTgyXzM4UVBYS0VXWllieUU?oc=5"
+          },
           "news": [
             {
               "title": "Cognizant Technology Solutions Corp. stock outperforms competitors on strong trading day - MarketWatch",
@@ -4137,11 +4105,6 @@
               "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdUlWTDRjV21jQ0hlYTBieC1WTXJteS14b3ZkaDJLQVJfMGxIUDdhMTNuZ3oxWk1WaFJINWU3MS1fZmVQOXl0ZzVTTTBoMDhCeDc2UFdoanNPRmNwZjFfc2duM0ZNb0NnMk04UnZPaUdZWjlLZWxGdFk4QnJEZGdqRWFUaUNvNzJHbFdIcnh2NzdsbUhSSVoyOE5KSzMyUV8zenN0UDN1NDN1THVoMTd1WmtuZVUteVd5UDFpMW5XS1VzS0d6bUVKckh2Rk40cFMyZG1JQUpzUnNTM2VibG05eWpDUGU?oc=5"
             },
             {
-              "title": "Jacobs Solutions Inc. stock outperforms competitors on strong trading day - MarketWatch",
-              "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOblpvbkZYRjJfaHhJTmlNdHU0NTU5eG5YQzJWTTVyZ2ZiRWl4Q2ZuVV81SUVrX3BtX2hKNUlrUUJZNjFGNmhyLURYcjVXSng3RkgyMFNVc0Y0X2RES0UwVXB1NUxzNVhPanFNU05uRF96SjladG9wZmRRZy1zVTdfV0U4aXRaMTFSTkpNMTJKQU9oRUpVSWU1Nl8zX3RXX0NRai03UVhUaHZ6cUlPUFYyVW84ZG5WVW5XR2Q0MC1INzF5UXRNd29TbEVxbnZ6UGRPa1BzNVU3NUhmek9sLWc5WEZfSmQ?oc=5"
-            },
-            {
               "title": "Cognizant Technology Solutions Corp. stock rises Tuesday, still underperforms market - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSXVfQ0hlLVZpQUZMZGw4Z29NZEx2VGJtWm4tRVpfY0RxX25Oam5fbXZUSUE4cDlTS2dIVGZMQUMzUzdfUzFKd183TWVOTU1QNU5LYXRDbkZYUW5fb3RwejZxLTd6Nlc5TXY4b0FvNl93V3l2emhBa0tEWm9SWDlXV1k4bDd1Z0o3ZlVrM3htVVlCTHAzR19QVnhYOXgwWXJXUE00c0JGRVhDWU5SN3NzMGxFcEd6Zk9EWGliTXlIQVFtLUI4WGpkZkRubThQR0hDT3lWOHZFMGhLZw?oc=5"
@@ -4150,6 +4113,11 @@
               "title": "Leidos Holdings Inc. stock outperforms competitors on strong trading day - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWHpsXzczX2FKQU9WcGRPQm1ORlZtTDZDM1NXeF9tU3ZJZXdPcE9SeFV0d2hCWkEzdTJ5NUZDbG5lYVVWSjhMNWVLSXFObzhqcFpmOHBWYjAzVWNJY1lCRTVkWVRtb2NWYTNTRm9xamJpYTZ0ZzZZa3JrZWNhYl9RUERGdWk3SklGMGRseTliRE5OaUNfTFF1d3pPS2RNR3VzXzEydzNxUTlRTHVZRjhheVZBRjN3Qk5Vdjlia2xwbHphMURpZi1Pa2xUMA?oc=5"
+            },
+            {
+              "title": "Leidos lifts annual forecasts on strong defense demand - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ19DdGQyMFRmenI0OGZIek9SejF6RmxmbHp6T19YN1JnRnhacVdwYTVzdlBLUkZCTHlSZ2cwTjRoc2ZZU2wxMndjbVh1Mk5SSGEtOWFyd0N0YTQ5OGR1R09jeU5NSXB5ejZLWWhBdVVkY0g4c2w3bG9VRm5WdVZPSzJsRFFCdkNmbklXNTgyXzM4UVBYS0VXWllieUU?oc=5"
             }
           ],
           "news_historical": [
@@ -4180,11 +4148,16 @@
             "nasdaq100"
           ],
           "reason": {
-            "title": "3 Surprising IPO Winners That Aren’t SpaceX or SK Hynix Stock",
-            "source": "Barron's",
-            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCUGo4RGFmVk95ZEc4cjFnLTRmWHQwOUUxQ3dUM1Zkd0lLNHdaT2YzSXdJY2RBRTcwNWxFZzUwVTRuc2IzTHowMmt6REF1QjBINEJ2RERobXRvbjJ1cG9MSFVHX1U2MlpuMWhUcDVGSE8wdF9EeUhLb0FTaks?oc=5"
+            "title": "SpaceX Shares Sink on AI Spending Plans",
+            "source": "WSJ",
+            "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSnZqUklPaEpkdWhsOEtmQzV2SEEyaFM5bF8wSEsxX2xkemUxZ3BHeDZfczhpNVhVOEVsdTZWVW9CMXV4VXY4c241Mm5vU1JyRVd0TUdfbW5sZlVuSGZKc2pSanhyM25YWWtZMlMxSnp5VTJ1bVNLdnFqYVhwX1phOUlOdWo0SG4tdUZZZkxRNUh0UmJkeEtZ?oc=5"
           },
           "news": [
+            {
+              "title": "SpaceX Shares Sink on AI Spending Plans - WSJ",
+              "source": "WSJ",
+              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSnZqUklPaEpkdWhsOEtmQzV2SEEyaFM5bF8wSEsxX2xkemUxZ3BHeDZfczhpNVhVOEVsdTZWVW9CMXV4VXY4c241Mm5vU1JyRVd0TUdfbW5sZlVuSGZKc2pSanhyM25YWWtZMlMxSnp5VTJ1bVNLdnFqYVhwX1phOUlOdWo0SG4tdUZZZkxRNUh0UmJkeEtZ?oc=5"
+            },
             {
               "title": "3 Surprising IPO Winners That Aren’t SpaceX or SK Hynix Stock - Barron's",
               "source": "Barron's",
@@ -4209,11 +4182,6 @@
               "title": "SpaceX Stock Rises. Millions of Shares Unlock Today—Brace For More Volatility. - Barron's",
               "source": "Barron's",
               "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM1BMTVI3bVNYOHRmbjQxQUNadFYtZURTOFppYXRMQjVjcjltbnlwNVgxLWhuenR4dWNXb05ybHdEeGxQWnc5eVNZYzVROTRiVC01XzhpQ0N5LTlpVFNWRHo3dl9zNWw3UGR0SmtPOU5tcXhtTWRkVHN6SGJrUkQ3RS1NVm1YOWc?oc=5"
-            },
-            {
-              "title": "Yorkville Ives' Dan Ives: Investing in SpaceX is betting on Musk - CNBC",
-              "source": "CNBC",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdGNpOUdsNnJOQWVrMW11cHJVZ1BDdHV6a0dHeVpEeFJ3TGN2RnVOXzRzelR5TmpLOUJ6LXlOOWxMZVdxQlNLQjNwUnoyc1ZLTzFsbWxKWElzQTNrMXNkZkZVTlYyWTdHejFNLWVHeVZYLVRQam1hcUkydmRucGtBUkRiOUF1Q3ppS1VfYTZjN25aZHFrd0pIRVZiYzhXaEVMRmpwN2lyR3E?oc=5"
             }
           ],
           "news_historical": [
@@ -4250,19 +4218,14 @@
           },
           "news": [
             {
-              "title": "Some House Republicans Are Backing a Challenger in Cory Mills’s Re-election Bid - The New York Times",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRWdNeG9fQ3NGOXltaG1EbWFBVV9uWTFkeXk0MGFmUUtsUUN1dzM3YVNEbDdPZlA1Q3JuOUdNdEhBQ1p5ZmE4Q2hyUnEwdldpeFNfRjR6N0FYZ2N1dnE5b1UtNlNIdlJIS0F4T2lSNVFFTGEwUV93LTZZS2dDbDFyRjlPMHFoOUtVUXNDVUF0X3MtTi1oNXc?oc=5"
-            },
-            {
               "title": "NVDA Stock Price | NVIDIA Corp. Stock Quote (U.S.: Nasdaq) - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rTUx0am9SNU4zUG1rZG02REFwVHRBSmgyanJKb1ZFRHZNbG91b2RIN1NTUUxsTS1JX0xFWmVkTmxsQWxleG1nN1VXZnVJby13cEdlX1B2dUs4aEhr?oc=5"
             },
             {
-              "title": "Opinion | Where Gen Z Finds Meaning in Life - The New York Times",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tMHlfb2VIWGYtUmhZZHVPRF9zQ1d2Qzdwak9lbE5yV3l6dERoSkRfRVhyS0xYLU1Gc2VUN0xkbnFOeXRLQkF4RHFHZW9ocF9Bc2pWdnV3Nk9aQmhsclEwbFFfM2czU25Tc2JuNFUydHo?oc=5"
+              "title": "Senegal court jails three TikTok influencers for insulting the president - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX0pVOHpLWjNINXAzWUxFN09wbjZUYnFoNFRMVWp6ek9CZW5tMWRCeHQ4RG9wWVpBdDdrbjNaTHN1UXVjckktRXRiVlpDdFJnWkhSRHBja2lhaXoyaHVvVEYxcUJtSHo1VS1rMHh2T0J1eG1NTE14NFFFT1J3dC03cjIyRFdnbWdkUVdMOU1UeW93djdOMmM1bW5wQXg3NDA4NndPUU1IYnJlVkoyN1lKRnB6Z0dkdEh3YnFtTG5jc3U?oc=5"
             },
             {
               "title": "Fox posts upbeat revenue, profit on ad boost from FIFA World Cup - Reuters",
@@ -4270,14 +4233,19 @@
               "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYjg5R0poUXFLQmZZTHUzQ19YZVUwNVBNRzJUTGlPcGdGVEJJZVlheWlrYlZXdS1fdWYtd1NyTzBYbTlKcU04RlF2SmpPVkplWWJmZ29NSlpmTE94bTVEUkdoVTVKNU5nYXN5RVc0NHFOVDlqd05NZldHRmNmRWpqdVkwZGFBc1hteEJGQVBjUEtyc282RjJIek1JZW9Mem93eHlN?oc=5"
             },
             {
-              "title": "Wars, Wildfires and Migrants Leave Europe Straining for Control - The New York Times",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSHFtY0Z4RFIwMWNWdTkyaF9aMzRYZWdFbE9aRHlTcXZFRmdLQ1ZYRUtpUzZENlF5SHBlbjd2WTdGSURGZEpyS3JYUXB2bllGYjQtcUdYYU1NX1RidklnMHYyd1RNalJ2VVNYUVg1UXowR001aXVSYzBrN2owcVhDdk1rYkxSbmVKN0Zn?oc=5"
-            },
-            {
               "title": "India court sentences journalist Tarun Tejpal to 10 years in jail for rape - Reuters",
               "source": "Reuters",
               "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZDNVNEh3YVlWR2gzYVV0MHdmbTJqVk5pbHZhRlNLQ1phLW1adWh4b0gwMmxTUWZ4YWJzNDU1eGtTUDQ3VUR0bldBLUx3aVdPQ1dGTENfWWtwOElsYk5BYUhGYmxOVW5wOG1RaGVsdjJKdzBianlCUTZYRXhxaTBYcDlLcWRRek4yNVpUS0lSdVhnXzZrdzByb3ozRENUYmRGZXBuUFltMmY2QmtreG5SY3FLWnFmYXA5cGItNzlzTDI?oc=5"
+            },
+            {
+              "title": "What a Contempt Vote for Fauci Would Mean for the Pardoned Doctor - WSJ",
+              "source": "WSJ",
+              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOFJwZ1lWeEJnbGwzd2d5by03V1ZOX0dsdVRUWldCR0plODhSVHQ0ZDBvWVB0UUdrbkFfUWpfZXB4dlRpN18xc2NsMHAzTFNXZG16R3pDV1d5bUNZSXFvZC1SNnFqSURKamdlWGUxaFA4VXdqYWNlWVJvQ2hZaEdGTnpyeU16Q1dYdFgyVGtTaWp3Y3NybjVJYUp0MEdwbW9HbHNaRHRR?oc=5"
+            },
+            {
+              "title": "How the new generation of left-wing US media is powering progressive candidates - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWTRPY0l0SF96SVZ1NWNqamhHN0VoUC1rbmNWU2s0VUoxRUE3bjQwV05hYjBrMktYbTVZbzVpS2d6OGtFbjY4enNzRUUyYjBnY1N0TjNGZWhTcGw0VTdySnFJbEFwRHJVWHc4eWtxaFdSaTlyRGMwY0IzWFN5TGJ0Y1lWX010dWVYNEVqZGxOel9hbUJHMmplVnZUTXZGaWgxdXB4U1hvb0lIN0FMNEtlN3lWSW5fYmthay05bVQ0X05HaklPZ1FqVVFCSQ?oc=5"
             }
           ],
           "news_historical": [
@@ -4405,9 +4373,9 @@
               "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wYnpfd0ZaZXV6T3JwakZZV0lWWERFQU1xbm85NUp0eG5LSGoweUdseVZrSnVyQmlVOERpQTJEemlKLXJpTTY0QXR0YnNMMTVNT0lnSURTTG41WVkxRXBCaTBBdHFZQWF2?oc=5"
             },
             {
-              "title": "Do Options Traders Know Something About Albemarle Stock We Don't? - ca.finance.yahoo.com",
-              "source": "ca.finance.yahoo.com",
-              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbnd3OFlnR0hveTBnQ05udENVaWRfUHp2Vms1WkJ4TEdDTVJGSWo0UkFBTFE3UU83TVN5RjA4cGIxdVRLWFNHc1BWVjRXenVSWmdMQWNlSlgyaWp1OGlrdWlvRXFla2FqUlc4T3ZTU19aNGNMdnVzNjlEQzkwVlR6TDg5NWR5TktydkdTd1JRSnVuaFk?oc=5"
+              "title": "Do Options Traders Know Something About Albemarle Stock We Don't? - Yahoo Finance",
+              "source": "Yahoo Finance",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVEpEcmFOYmt4a1FnWFd5cmwtcmIxdHFoYUp1MUlaVllQQlBFQ1Vzekg5VmNIQXVUZER6VEtMdWV3b3g2amhZWVphUFhfckI2cnhXbFhNMXluSGQyQnFkcGFWcTFoX1p1alZfUTNRbWoyZFBwV2NLd0NmSWczal9wZlJlYXIteXZWTW13cUQ0THV0TnZkWXVlQ3VlYkFCdzBHZFNrUFdSMGt0Zw?oc=5"
             },
             {
               "title": "Albemarle Corp (ALB) Stock Up 3.4% but GF Value Says Overvalued -- GF Score: 79/100 - GuruFocus",
@@ -4465,14 +4433,14 @@
               "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTNXV1dISjMtTFZWV2NvaTJOYm9NVnhrU3VoWlEzcXB0ZklyWFdDSlZiQ1NlaS1YLU9GNW1VSW85S3AwXzU5RzZUcVd2Y1pYdHh2NVJEOG9aT3E0SEN0ek1pc0JWaDdhZm1ldDhEbFV5RDlCNDJYbGhfRDVLMTZDb3o5RHdNcGhVM3dFMy1EQlB6RUlVWVpkMWt0V2JYVW43RUFPNWhDQnY3Y2JyeUl4Mg?oc=5"
             },
             {
-              "title": "Carillon Chartwell Real Income Fund's APA Corp(APA) Holding History - GuruFocus",
-              "source": "GuruFocus",
-              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRjR5Rk16XzRlUlk1d3pMUDFWUzVBYV8wVW10SlZ6aTJKV25PVFNzOTFuYlBURGZRZi1zRHBucTNnbDYyMHdmT29ucHN5cEM3RTBBZWUxSVlRektZNHFBVDRNOTYxZkw4VnlDVFRiVWl0X004WlFoZkZWcG5sclpFdk8tN2dBZ0dzOWQ1TkNnMmtqUQ?oc=5"
-            },
-            {
               "title": "APA Corp. stock outperforms competitors on strong trading day - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRXpjTEEtM3pyVlYtSG8xMTBnQTlKYUhPWnJrVUtzdE1keTlUSHlBVnpIR0tQSmZRWUZ2U240SDlOM1pJR3dTNUtNbDRvN3dmbmhCb2FXNkNMbFBoUkFrQ25DMGswRlNhQzNKSFBvUTFleXlOeFBXZUt6XzJhRzB0VWF0aVNFbzVnRWhkNHdyd2hKYjlwUFlMM2lIT0FOMmhlakhZZTN2cUVFNjVCc2lMSjNwc2EyT0xFYzZHaw?oc=5"
+            },
+            {
+              "title": "Quantinno Capital Management LP Acquires 39,375 Shares of APA Corporation $APA - MarketBeat",
+              "source": "MarketBeat",
+              "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQWQxbTF3UHl1SGdfRzJSMnl2ZFRtNlJfME81T1RrOEdRTzRoRzVEUmJWUWNXYzd3Q0JFN0wwNjZETlo4UkkyQWtJLWxuR3dyVWtWeHpGMGs2ZzVWcXcwcXJ2MzlqNW9tbEloN3JtLWw4eC1BSm1mTFU5aWtCd0RpbFpOMUVXNXh5NW1qT1VxT1FyZVlIUzBqUzg2SUJBSzVpU0ZkV2kzS2xkZFJMd3pVX1Q5S0ppMm9IODRIMXVLWWxoMkFJMjlvaDA1VktiLWpDVXRr?oc=5"
             }
           ]
         }
@@ -4561,19 +4529,9 @@
               "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTTU3bi1UZjI5WVJkYl9mN2R3bVlSZGF5OGc3YnpBUkVhRFRNQTdQTVA0MEx6azB2V3RpZVM5SUJfVHBMekRsclZ3R0p3dkgwZTZTWW1uWjJZT1JZZndRTEZFUVRnNWpfdzU4bXdnSXhNckNTXzdVV3NlMXFxbFp4aW91Y216c0ZGNEVQTks0NFFSSkhnMWlLTm9vZDF0RzJ1YnFYcA?oc=5"
             },
             {
-              "title": "SpaceX True Believers Propel Shares Past End of Epic Lockup - WSJ",
-              "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbGRjWXRjQllNb0EwQXdVdFVGUUhGUXJzX25nRXNNbU9hbjJNXzhlQndBdFhycG1JRDlqSlRWZElIaWtYOWpkOUlpZUZXVHlyb203ajQ4T1R3VzhONmJwN19lNzgxYU9oV0JuS1c2TXhNM3BlRWFGcS04ZWFXdjFuOVFONk44VkJtQmVrVVNlaE5lV1kyeEFrd1ZfeVg5Zw?oc=5"
-            },
-            {
               "title": "Tech, Media & Telecom Roundup: Market Talk - WSJ",
               "source": "WSJ",
               "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPODA5TXIzVVY1ZGRwU3JqSWd2dnRYSXNDeU8tLVdKMUFJc2FRSEZ5ZHUzelRKOU4wSjN0MTZpSGUzVGN6OVFzaF85eWZmVlFXcTI5LXhQSjJVRC1zd1g2R01FYnhOdkMwN2FjVHNWRldseENtOXM4YzZKMzU4ZTlUdEJR?oc=5"
-            },
-            {
-              "title": "Rocket Revenue Surges on Mortgage Market Share Gains - WSJ",
-              "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTVRZSFdKUU55YmpyeFVndG5qQkhRc1RCTzVhYjBGVGNXbkRIRk1xTDJTanF6cUJzYms4eVdad2FPQnRyd01TYjJYNkJXR1A4SnRBa2pOUjdEdTkyckU3cHlPZzQzaU9EYUo1OWk0ZHloVFR3eEhqVjAyajlyWUVFbm11OHd3QTg5VGZ2blM2dkFZSGNzUTlIbThuaG5OMEtZ?oc=5"
             },
             {
               "title": "Stocks close lower as investors eye Mideast talks, earnings - Reuters",
@@ -4584,6 +4542,16 @@
               "title": "SpaceX, Honeywell Aerospace, Sandisk, D-Wave, Datadog, and More Stocks That Explain Today’s Market - Barron's",
               "source": "Barron's",
               "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwaTdMQnBJLWVINmIxRk4xR00tSTZyc0MyWmtLRURKY3ZVczBveUw4NmU4UmpEVDlHUXkyZ3VNbXF6TWpzNldnUFVTVE5xUW1lNk4zT05OVnFkRmRwVlpINXZZOXA?oc=5"
+            },
+            {
+              "title": "FTSE 100 slips as Relx weighs; WPP, Persimmon gain after results - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSjJ4ZmljTVlnRGlOczVZaVBnZ0RLbTBRYW5iRjNzVExzVUJIWDdkNGllVnRvc0ZTWmhzYndibnpzOHNGVkNQTlRIaHZRMnV1di1tTzRPT3hZZVFxVU1CR1NpenZCQ05XNjRqaFlZSVZSdER1QVd0Z0tWWkJEX0VlYmRFQ3dQNXJy?oc=5"
+            },
+            {
+              "title": "Versant Media Shares Jump After Raising Outlook on Strong Viewership - WSJ",
+              "source": "WSJ",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTmdjaW9HV0RjOUx1ejZ3SWR3UUg0WXM5ajZFVlMzRWlJd09qSlhJbGU0dVBSekRKT2l0RUVjUkN4c3BXVTNUT2dSaTNobkJLcTZLWHBudHpENEYtVjM4V0I4WFFqMWwySlJTLWhkV3FGMkVoc0JSRjlYRGJmMDJMejh0UThGZ3ZfUWllampuWWRLZ2JSUkRTb1JOeHRBMWk4Q3FVYjQ5b0ZaTlp4MDlBdnhVekJyQQ?oc=5"
             }
           ],
           "news_historical": [
@@ -4615,7 +4583,7 @@
             "nasdaq100"
           ],
           "reason": {
-            "title": "Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’",
+            "title": "Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’",
             "source": "Barron's",
             "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JdmVxTUZicWNtNFpOZVJUZVVCX3Jlam04NUR4NS1salZfZk42Nng1S0hKaExCNVBNR3BXczU0U3d6UmoxcFlrb3pmU3BDV3hVcWVuY2ZiaG5YQ2NnNjZYLUFHV0xYWjltNTM0VEpjTlRHZG14RUNfOEh3?oc=5"
           },
@@ -4636,7 +4604,7 @@
               "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbE1LWWNEaExUVlhSemZzQWpUbjZ5ckE1TENVZ3VkX0VyWXVla3pmaGliUEthTHlELVR6OTNkSldSRndUdUt0dkdaazUtVlZpbDZhblUyUDdjXzNXT29QaDB5YV9VZ2otenlzYXMySE1PZWxHSFl1RzJuejRpN3FEUmlLck1ZWnlvQ2ZHOUIyakFqU1Y2NUExNWpIQkh2WlNNRGRvSTVQdw?oc=5"
             },
             {
-              "title": "Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’ - Barron's",
+              "title": "Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’ - Barron's",
               "source": "Barron's",
               "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JdmVxTUZicWNtNFpOZVJUZVVCX3Jlam04NUR4NS1salZfZk42Nng1S0hKaExCNVBNR3BXczU0U3d6UmoxcFlrb3pmU3BDV3hVcWVuY2ZiaG5YQ2NnNjZYLUFHV0xYWjltNTM0VEpjTlRHZG14RUNfOEh3?oc=5"
             },
@@ -4680,40 +4648,30 @@
             "nasdaq100"
           ],
           "reason": {
-            "title": "0HKE | Axon Enterprise Inc. Profile",
-            "source": "MarketWatch",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2lsSFpaY1UtanFfeFNqczIwZjVxWVVmNGpFU0hnNGZ1REJzaS1RZnhfWXVVMGtpWHRLRDVadDJxSXpMR3pib2I1cVRwUDJpY3hydWNHT1FtSVZ3ZHVnUS1ESm5PYzVtU1JIVXE5VERNNV9RUW44R1BpMHp4SWVVd1lFUmRreVhEbU9hSk9WOERZTkhUbnBYdg?oc=5"
+            "title": "Axon reports Q2 2026 revenue of $904 million, up 35% year over year – Company Announcement",
+            "source": "Financial Times",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ24zTHQ4LTJiNVpNZGZKZmRra1BDTktGNWVFdWZYWHN2OEdKUUdkaUJYeDMtQk1xSGI3d255NWllYnp0Wmk4X0Y5WmdnaHZOZl90dTlPOXdrRHJDWnJtY3JHSkMzZ2ctbHNlVjE1THkwdVc0TkFiaHFpWXZ1V0FHTG9lZGxUb2JFYVRaV0ZOb0xBenBNVzlHUw?oc=5"
           },
           "news": [
-            {
-              "title": "NET Stock Price | Cloudflare Inc. Cl A Stock Quote (U.S.: NYSE) - MarketWatch",
-              "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OUGtBVnFBc21GR0o2QV9GZTN3OEItaFRQRzNlNmV1YkI0M1ZyZWdjc0VzYm5Dd2dBTDVpc1hvd0JJYm1OTXlRNzFIUGFicVo3cEJHbkJfeFFlMzQ?oc=5"
-            },
-            {
-              "title": "NVDA Stock Price | NVIDIA Corp. Stock Quote (U.S.: Nasdaq) - MarketWatch",
-              "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rTUx0am9SNU4zUG1rZG02REFwVHRBSmgyanJKb1ZFRHZNbG91b2RIN1NTUUxsTS1JX0xFWmVkTmxsQWxleG1nN1VXZnVJby13cEdlX1B2dUs4aEhr?oc=5"
-            },
-            {
-              "title": "U.S. Stocks Down on Hormuz Deal Doubts - WSJ",
-              "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbjhuREI1Y1RXUzBiLVRhTWozYTBLeTNaRW82R25mMzR5TnBxN0EtR2ZOTzlzT1Y5M05wQUlmcFg0ZWpCZWFQTTBmdXhhdlh0VmhldmQ2Y21BTTRZMDdoN0R4XzcydlhfSkxzYkRfMEs5cVBzTjF2ZGNzOVA4NGNYbVF5R3VZaG9t?oc=5"
-            },
             {
               "title": "Axon Enterprise Inc. stock underperforms Thursday when compared to competitors - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbkJPZERFaTVHNWl4WDg0Ni1oMjNOVG5JenA4NlNfOF9ZbWhJUDN0LW5sNFFENjJGdFNkTVJIei0tZnllTGtYck9pWkFsTG02NkxydUlVNG1TLVZjWmF0SlJxamJ5X09Vd2lCRThUVmRPNFcxQVB1RkJuNWI1NWpkNXNKUmNmS0dXeExhWFI4Wk1RMHFpZ2FTRVVTNmdsOHJsc25VMnJFUTJGUVpfcWUzS3YtYV9hU2ZWX1QxYm1JTC1EMWl2OW9wT1ZCcVRmTUN4Y1kw?oc=5"
             },
             {
-              "title": "0HKE | Axon Enterprise Inc. Profile - MarketWatch",
+              "title": "Motorola Solutions Inc. stock outperforms competitors on strong trading day - MarketWatch",
               "source": "MarketWatch",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2lsSFpaY1UtanFfeFNqczIwZjVxWVVmNGpFU0hnNGZ1REJzaS1RZnhfWXVVMGtpWHRLRDVadDJxSXpMR3pib2I1cVRwUDJpY3hydWNHT1FtSVZ3ZHVnUS1ESm5PYzVtU1JIVXE5VERNNV9RUW44R1BpMHp4SWVVd1lFUmRreVhEbU9hSk9WOERZTkhUbnBYdg?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV1hPZG9vaElTWFQycmRnc1dwczNoNy1HRkZpeFd2Y0RMR29xM0VqNm5ab05iWnZyLUlHYnZ1Q3JfUGFtZWpyRWJlaTRFRHRYLXBnN1FZbktBbEFKQ3pvWFd0ei1qVUR6enFkVTNzTGZPeDZKbmJaZElNcTJLVUZXaF9mOV8tTnV2amRyOU5Rd2J0OV80Z2Zkakg4eHRZdV8wWmo0QUhIQW94ZVZZaXZsMU5LRGt6WFZYWVFuNVZULTMxdVcxRU9DNG5KaHNzdk0?oc=5"
             },
             {
-              "title": "Alphabet slumps on more AI brain drain. We're not too worried - CNBC",
-              "source": "CNBC",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcS1SbFJieDhXZDJIVHdxZ2NUNlVnNml0TmwwLU5vRFhDUlNEZlRlMkxtOFdQNERJX3ZIM19WS3htVHM1QmdNZC04TFVjbGZGTFk5V3pnN2c0akpXYjdVaU9aOVdhRExYOGU1OElHdEZzVjIyZ0xvNlpmSDgzZlIzU00wYy1OT25mY2I2OXRTSFVQZXZXZVdzMA?oc=5"
+              "title": "Axon reports Q2 2026 revenue of $904 million, up 35% year over year – Company Announcement - Financial Times",
+              "source": "Financial Times",
+              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ24zTHQ4LTJiNVpNZGZKZmRra1BDTktGNWVFdWZYWHN2OEdKUUdkaUJYeDMtQk1xSGI3d255NWllYnp0Wmk4X0Y5WmdnaHZOZl90dTlPOXdrRHJDWnJtY3JHSkMzZ2ctbHNlVjE1THkwdVc0TkFiaHFpWXZ1V0FHTG9lZGxUb2JFYVRaV0ZOb0xBenBNVzlHUw?oc=5"
+            },
+            {
+              "title": "AXON.N - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XeGpzYzZoOFYwOV81NVl3am1lN0lpOWZreU5WREExOHRrWjQyNTd2NlRUajN1OFJNaWxNLUd2QWlxVm9MQ096SFM1THdhbUd5ZmtndzhoUWJhZUgwVU5QcUZFMWRoQzRwem94ajFLMHMyMFVIdWU0OFhJTzNXbWs?oc=5"
             }
           ],
           "news_historical": [
@@ -4872,7 +4830,7 @@
             {
               "title": "Table: barrons_weekly_nasdaq_E.xml - WSJ",
               "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOGI1QWJlSGlyRXYtNGZUYm8xWGFyQ3o1cTctRnlQSzVTMHZHd0ZpR2t2YlcySVJFWFljaUNmSmxkcFVsYkhaVGNCbFRlTWlZTWlqSkxtUTUwSzVnbkxVTlR3TVllUXdhcGlWXzdmVko4U0pSWHExZEo2YzVicDNwdHJB?oc=5"
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hZFZYOFpvX3ctWk1pQVJZVEpjYVNObzdSTVJhOHNYUkd4Qi1IQWVFdzNsd3UyaXg3MjB6THB5Zk5ZRnNPTU5yZGJ5UEQ0Q1oyVXlZMXBZVEs2VGFGMld5VjRFeDdJQ3FNNEtlckdfYVRxLW43V1ZsOE5rdC0?oc=5"
             }
           ],
           "news_historical": [
@@ -4902,21 +4860,12 @@
           "indices": [
             "sp500"
           ],
-          "reason": {
-            "title": "Host Hotels & Resorts Inc. Stock Grades | HST",
-            "source": "Barron's",
-            "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNWWZDVW5aVzdrZ19uclM5VlVCOUpPaWh3b3AzbVIwWTNBNGxoTllwOG9tbXRPUXR3dTBJTEJoX3AzWGxDcXZkcFI0ODlBakx6WFRQU0xEYXJRbktjZWNLYWR3NkhUd3lBNFJaNjlBdTNscWcwN2NneGR0NGFiMi1JWDNtSHliSkJ3V3ExdElFbEk2UVNTVEl1OHpleWc2X3BwS2R6LXp0cTVXWHc0SjZmVmU5WExxR2tHMkVyWm5TampFQVYyS2g1OHhtSUF4NzVuVjB2QS1kdWdhWFNINkVRYk5sV3IzcmVKTk9xY2syU3JhNnlYZmV3VHFSNUJMc2lMQmpPXy1iakduelB1akxhY0ZOX2xhcEhhMGxWZHlia1o2a1RMakhLeUxUY2xGaWRKb0gzNUdGXzFvNXRqbk5ZUVVwLXluVzZVV2c?oc=5"
-          },
+          "reason": null,
           "news": [
             {
               "title": "Host Hotels & Resorts Inc. stock underperforms Thursday when compared to competitors - MarketWatch",
               "source": "MarketWatch",
               "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSVNUUm0ySEYtcmdPNVpSS3MtTU1ZTTRzdUU3S0M4Z3Zmb2lEaDgzZWFwQ3BrczFTT3lYM1JnMEdaWG5XZXJxR0l0cmJfNG9QeENGOFE1MlNERW15TklTSGt2YU1TRHJIdkJ5eTR4OFZqblNSbjRiZjZxZmlFSURhUGdSYVdWYTZ1VTJST0pjdG9WTmpORXliTmg1TUZHd0ZLbHJaVHJJUFBqcGpTYURLTUhYYVo3cm82X2RBZGxhc0kzTkxyclRJX19VYXk5ZzBfNXpRSmp0RzU?oc=5"
-            },
-            {
-              "title": "Host Hotels & Resorts Inc. Stock Grades | HST - Barron's",
-              "source": "Barron's",
-              "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNWWZDVW5aVzdrZ19uclM5VlVCOUpPaWh3b3AzbVIwWTNBNGxoTllwOG9tbXRPUXR3dTBJTEJoX3AzWGxDcXZkcFI0ODlBakx6WFRQU0xEYXJRbktjZWNLYWR3NkhUd3lBNFJaNjlBdTNscWcwN2NneGR0NGFiMi1JWDNtSHliSkJ3V3ExdElFbEk2UVNTVEl1OHpleWc2X3BwS2R6LXp0cTVXWHc0SjZmVmU5WExxR2tHMkVyWm5TampFQVYyS2g1OHhtSUF4NzVuVjB2QS1kdWdhWFNINkVRYk5sV3IzcmVKTk9xY2syU3JhNnlYZmV3VHFSNUJMc2lMQmpPXy1iakduelB1akxhY0ZOX2xhcEhhMGxWZHlia1o2a1RMakhLeUxUY2xGaWRKb0gzNUdGXzFvNXRqbk5ZUVVwLXluVzZVV2c?oc=5"
             },
             {
               "title": "HST.O - | Stock Price & Latest News - Reuters",
@@ -4951,245 +4900,29 @@
       "paragraphs": {
         "en": [
           "In the August 6, 2026 session the combined three indices closed with 209 stocks higher, 307 lower and 2 unchanged, out of 518 tracked. The average move was -0.51%.",
-          "Best-performing sectors by average move: Telecommunications (+6.14%); Energy (+1.39%); Communication Services (+1.22%). Weakest: Real Estate (-1.28%); Industrials (-0.92%); Information Technology (-0.91%).",
-          "Leading the session: Motorola Solutions (MSI, +8.20%), where Reuters reports: “Motorola Solutions lifts annual guidance on resilient public safety demand”; Parker Hannifin (PH, +7.31%); Leidos (LDOS, +6.63%). At the bottom: Honeywell Aerospace (HONA, -23.16%), where MarketWatch reports: “Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff”; AppLovin (APP, -19.66%); Datadog (DDOG, -19.03%), where Barron's reports: “Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’”."
+          "Best-performing sectors by average move: Energy (+1.39%); Communication Services (+1.22%); Consumer Staples (-0.24%). Weakest: Real Estate (-1.28%); Industrials (-0.92%); Information Technology (-0.91%).",
+          "Leading the session: Motorola Solutions (MSI, +8.20%), where Reuters reports: “Motorola Solutions lifts annual guidance on resilient public safety demand”; Parker Hannifin (PH, +7.31%); Leidos (LDOS, +6.63%), where Reuters reports: “Leidos lifts annual forecasts on strong defense demand”. At the bottom: Honeywell Aerospace (HONA, -23.16%), where MarketWatch reports: “Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff”; AppLovin (APP, -19.66%); Datadog (DDOG, -19.03%), where Barron's reports: “Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’”."
         ],
         "it": [
           "Nella seduta del 6 agosto 2026 l'insieme dei tre indici ha chiuso con 209 societa' in rialzo, 307 in ribasso e 2 invariate, su 518 titoli monitorati. La variazione media dell'indice e' stata di -0,51%.",
-          "Settori con la variazione media migliore: Telecommunications (+6,14%); Energy (+1,39%); Communication Services (+1,22%). Settori piu' debolli: Real Estate (-1,28%); Industrials (-0,92%); Information Technology (-0,91%).",
-          "In cima alla seduta: Motorola Solutions (MSI, +8,20%), dove Reuters riporta: «Motorola Solutions lifts annual guidance on resilient public safety demand»; Parker Hannifin (PH, +7,31%); Leidos (LDOS, +6,63%). In fondo: Honeywell Aerospace (HONA, -23,16%), dove MarketWatch riporta: «Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff»; AppLovin (APP, -19,66%); Datadog (DDOG, -19,03%), dove Barron's riporta: «Datadog Stock Has Worst Day in More Than 6 Years as Earnings Beat Estimates. Why the Reaction Is ‘Extreme.’»."
+          "Settori con la variazione media migliore: Energy (+1,39%); Communication Services (+1,22%); Consumer Staples (-0,24%). Settori piu' debolli: Real Estate (-1,28%); Industrials (-0,92%); Information Technology (-0,91%).",
+          "In cima alla seduta: Motorola Solutions (MSI, +8,20%), dove Reuters riporta: «Motorola Solutions lifts annual guidance on resilient public safety demand»; Parker Hannifin (PH, +7,31%); Leidos (LDOS, +6,63%), dove Reuters riporta: «Leidos lifts annual forecasts on strong defense demand». In fondo: Honeywell Aerospace (HONA, -23,16%), dove MarketWatch riporta: «Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff»; AppLovin (APP, -19,66%); Datadog (DDOG, -19,03%), dove Barron's riporta: «Datadog Won on Earnings But Stock Has Worst Day in More Than 6 Years. Why the Reaction Is ‘Extreme.’»."
         ]
       }
     }
   },
-  "manual_commentary_html": "<p>I titoli statunitensi hanno chiuso in ribasso l&#x27;6 agosto 2026, mentre gli investitori valutavano le tensioni geopolitiche e i risultati aziendali contrastanti. Secondo il Wall Street Journal, i dubbi su un possibile accordo dello Stretto di Hormuz e le più ampie preoccupazioni per il Medio Oriente hanno pesato sul sentimento, mentre Reuters ha notato che i risultati degli utili hanno continuato a guidare i movimenti dei singoli titoli. L&#x27;S&amp;P 500 è sceso dello 0,5 percento con 202 titoli in rialzo e 299 in ribasso, mentre il Dow Jones è calato dello 0,59 percento. Il Nasdaq-100 ha sottoperformato più nettamente, scendendo dell&#x27;1,07 percento con soli 44 rialzisti contro 58 ribassisti, segnalando debolezza nei titoli orientati alla crescita.</p><p>Le Telecomunicazioni hanno guidato i guadagni settoriali, salendo del 6,14 percento, mentre l&#x27;Energia ha aggiunto l&#x27;1,39 percento e i Servizi di Comunicazione sono saliti dell&#x27;1,22 percento. Tra i singoli rialzisti, Motorola Solutions è balzata dell&#x27;8,2 percento dopo aver alzato le previsioni annuali sulla domanda resiliente di sicurezza pubblica, secondo Reuters. Fox Corporation Classe B ha guadagnato il 6,07 percento dopo ricavi e profitti positivi guidati dalla pubblicità della Coppa del Mondo FIFA. SpaceX è salita del 6,14 percento, Albemarle è salita del 5,54 percento con utili aumentati del 3.300 percento aiutati dai prezzi delle materie prime, e PTC Inc. è avanzata del 5,9 percento dopo aver rafforzato il suo portafoglio ALM con nuove capacità di intelligenza artificiale e gestione della configurazione. Parker Hannifin e APA Corporation hanno registrato anche guadagni rispettivamente del 7,31 percento e del 5,4 percento, sebbene gli outlet tracciati non abbiano segnalato catalizzatori specifici per questi movimenti.</p><p>Immobiliare, Industriali e Tecnologia dell&#x27;Informazione sono stati i peggiori performer della giornata, in calo rispettivamente dell&#x27;1,28 percento, dello 0,92 percento e dello 0,91 percento. Honeywell Aerospace ha subito la perdita più ripida della seduta, crollando del 23,16 percento dopo che le previsioni pessimistiche hanno innescato una vendita di Wall Street, secondo MarketWatch. Datadog è scesa del 19,03 percento nonostante abbia battuto le stime degli utili, con Barron&#x27;s che ha notato come la reazione fosse estrema. AppLovin è scesa del 19,66 percento senza catalizzatore segnalato, mentre Western Digital è scivolata del 13,03 percento anche dopo un battere degli utili. Axon Enterprise è scesa del 14,28 percento, Nebius Group è scesa del 13,29 percento e Viatris ha perso il 7,71 percento dopo l&#x27;annuncio dei risultati finanziari del secondo trimestre. Host Hotels &amp; Resorts si è ritirata del 6,96 percento, completando i principali ribassi della seduta.</p>",
-  "manual_commentary_html_en": "<p>U.S. stocks closed lower on August 6, 2026, as investors weighed geopolitical tensions and mixed corporate earnings. According to the Wall Street Journal, doubts over a potential Hormuz deal and broader Middle East concerns pressured sentiment, while Reuters noted that earnings results continued to drive individual stock moves. The S&amp;P 500 declined 0.5 percent with 202 stocks advancing and 299 declining, while the Dow Jones fell 0.59 percent. The Nasdaq-100 underperformed more sharply, dropping 1.07 percent with only 44 gainers against 58 losers, signaling weakness in growth-oriented names.</p><p>Telecommunications led sector gains, rising 6.14 percent, while Energy added 1.39 percent and Communication Services climbed 1.22 percent. Among individual gainers, Motorola Solutions jumped 8.2 percent after lifting annual guidance on resilient public safety demand, according to Reuters. Fox Corporation Class B gained 6.07 percent following upbeat revenue and profit driven by advertising from the FIFA World Cup. SpaceX rose 6.14 percent, Albemarle climbed 5.54 percent on earnings that jumped 3,300 percent aided by commodity prices, and PTC Inc. advanced 5.9 percent after strengthening its ALM portfolio with new AI and configuration management capabilities. Parker Hannifin and APA Corporation also posted gains of 7.31 percent and 5.4 percent respectively, though tracked outlets reported no specific catalysts for those moves.</p><p>Real Estate, Industrials, and Information Technology were the day&#x27;s worst performers, declining 1.28 percent, 0.92 percent, and 0.91 percent respectively. Honeywell Aerospace suffered the session&#x27;s steepest loss, plummeting 23.16 percent after gloomy guidance triggered a Wall Street selloff, according to MarketWatch. Datadog fell 19.03 percent despite beating earnings estimates, with Barron&#x27;s noting the reaction was extreme. AppLovin dropped 19.66 percent with no reported catalyst, while Western Digital slid 13.03 percent even after an earnings beat. Axon Enterprise declined 14.28 percent, Nebius Group fell 13.29 percent, and Viatris lost 7.71 percent following its second-quarter financial results announcement. Host Hotels &amp; Resorts retreated 6.96 percent, rounding out the session&#x27;s major declines.</p>",
+  "manual_commentary_html": null,
+  "manual_commentary_html_en": null,
   "manual_highlights": [],
   "feed": [
     {
-      "title": "Meta ordered to pay $567 million into abatement fund as remedy to child harms case in New Mexico",
+      "title": "Jim Cramer highlights 5 investing themes — and the stocks to buy for each",
       "source": "CNBC",
       "category": "mercati",
-      "published": "Fri, 07 Aug 2026 01:28:57 GMT",
-      "link": "https://www.cnbc.com/2026/08/06/meta-to-pay-into-567-million-fund-after-child-harms-case-new-mexico.html",
-      "summary": "A judge in New Mexico ordered Meta to pay $567 million into an abatement fund after a jury ruled the company violated the state’s unfair practices act.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108297760-1777307207308-108297760-1777307153926-gettyimages-2267943764-Zuckerberg_182_032626.jpeg?v=1780690805&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "One of China’s Most Powerful AI Models Has Also Broken Containment",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 07 Aug 2026 01:16:55 +0000",
-      "link": "https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox/",
-      "summary": "Security researchers say that Kimi K3, an open-weight model from China, wandered off to the internet in an attempt to cheat on a test it was given.",
-      "image": "https://media.wired.com/photos/6a749a84077eac6832213fdf/master/pass/BadKimi.jpg"
-    },
-    {
-      "title": "Oil rises amid supply disruption fears following Iran's restrictive draft plan for the Strait of Hormuz",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Fri, 07 Aug 2026 01:00:40 GMT",
-      "link": "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html",
-      "summary": "News of Iran's restrictive draft plan for the Strait of Hormuz sent oil prices higher, renewing concerns over supply disruptions.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108345236-1785935747468-gettyimages-2286971571-AFP_C37P2FW.jpeg?v=1785935768&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "Controllo predittivo con reinforcement learning: quattro sfide ancora senza soluzione",
-      "source": "The Cryptonomist",
-      "category": "crypto",
-      "published": "Fri, 07 Aug 2026 00:49:58 +0000",
-      "link": "https://cryptonomist.ch/2026/08/07/controllo-predittivo-reinforcement-learning/",
-      "summary": "Un nuovo studio scientifico prova a fare ordine in un campo che sta crescendo più velocemente della sua stessa letteratura: quello del controllo predittivo con reinforcement learning. La revisione, firmata da Mohsen Jalaeian-Farimani, è una Systematic Literature Review che passa ",
-      "image": "https://cryptonomist.ch/wp-content/uploads/2026/08/controllo-predittivo-con-reinforcement-learning.jpeg"
-    },
-    {
-      "title": "Cyberattacchi alle società finanziarie: chi c’è dietro i 10 milioni in bitcoin?",
-      "source": "The Cryptonomist",
-      "category": "crypto",
-      "published": "Fri, 07 Aug 2026 00:49:52 +0000",
-      "link": "https://cryptonomist.ch/2026/08/07/cyberattacchi-societa-finanziarie/",
-      "summary": "Una telefonata all&#8217;apparenza innocua, la voce di un collega o del supporto IT, e in pochi minuti le credenziali aziendali finiscono nelle mani sbagliate. È lo schema che sta dietro a una serie di cyberattacchi alle società finanziarie statunitensi, documentati da Google in ",
-      "image": "https://cryptonomist.ch/wp-content/uploads/2026/08/cyberattacchi-alle-societa-finanziarie.jpeg"
-    },
-    {
-      "title": "Usa, Meta dovrà pagare 567 milioni per danni dei social ai minori",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Fri, 7 Aug 2026 02:39:03 +0200",
-      "link": "https://www.ansa.it/sito/notizie/topnews/2026/08/07/usa-meta-dovra-pagare-567-milioni-per-danni-dei-social_43cc949d-e666-48dd-9317-6b8306994369.html",
-      "summary": "La cifra si aggiunge alle sanzioni civili per 375 milioni già disposte",
-      "image": "https://www.ansa.it/webimages/img_1280x720/2026/1/23/f4b673d65722505a314d9cbe93f7f06b.jpg"
-    },
-    {
-      "title": "US euro sale to prop up yen blindsided European Central Bank",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Fri, 07 Aug 2026 00:36:19 GMT",
-      "link": "https://www.ft.com/content/d9922d0b-51a0-48be-811b-42e08f90985a?syn-25a6b1a6=1",
-      "summary": "Christine Lagarde and Scott Bessent spoke only after Washington’s historic intervention",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0facac4e-2cd7-4025-b4d0-8db4f73395e6.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "Social Security’s funding crisis is the elephant in the room. But don’t ignore the mouse.",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Fri, 07 Aug 2026 00:31:00 GMT",
-      "link": "https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories",
-      "summary": "No one knows what Congress will do if Social Security’s trust fund were actually to be depleted.",
-      "image": "https://images.mktw.net/im-55523121"
-    },
-    {
-      "title": "Crypto market maker Wintermute launches US broker-dealer",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "published": "Fri, 07 Aug 2026 00:09:47 +0000",
-      "link": "https://cointelegraph.com/news/crypto-market-maker-wintermute-launches-us-broker-dealer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Wintermute said the registration allows the firm to position itself for the growth of tokenized securities in the US.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-how-wall-street-is-using-ethereum-without-talking-about-ethereum.jpg"
-    },
-    {
-      "title": "A 'weaponized' yen: How the U.S.-Japan intervention may reshape global currency markets",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Fri, 07 Aug 2026 00:05:26 GMT",
-      "link": "https://www.cnbc.com/2026/08/07/japan-us-yen-intervention-global-currency-markets.html",
-      "summary": "The unprecedented U.S.-Japan intervention to support the yen may end up shaping market behavior.",
-      "image": "https://image.cnbcfm.com/api/v1/image/107282488-1691376461152-gettyimages-1434261552-banderajaponyyen2.jpeg?v=1785984770&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "Follow the Markets and Track Stocks With These Free Apps",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Fri, 07 Aug 2026 00:01:36 +0000",
-      "link": "https://www.nytimes.com/2026/08/06/technology/personaltech/finance-stocks-apps.html",
-      "summary": "Google Finance and Apple’s Stocks app have added new features over the years to make them more useful for tracking the markets and your investments.",
-      "image": "https://static01.nyt.com/images/2026/08/05/technology/personaltech/05BIZ-TECHTIP-TOPART/05BIZ-TECHTIP-TOPART-mediumSquareAt3X.jpg"
-    },
-    {
-      "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Fri, 07 Aug 2026 00:00:00 GMT",
-      "link": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
-      "summary": "“I expect to have several years before I take distributions from my 401(k) account.”",
-      "image": "https://images.mktw.net/im-08898714"
-    },
-    {
-      "title": "From birth to brokerage: Why South Korea is seeing a surge in infant investment accounts",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 23:42:20 GMT",
-      "link": "https://www.cnbc.com/2026/08/07/south-korea-investment-stock-baby-accounts.html",
-      "summary": "South Korean babies are turning into mini shareholders, thanks to their parents' investment strategies.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108340851-1785207141227-gettyimages-170839386-591b72cf-5cfc-4a45-811b-cd927e922b93.jpeg?v=1785207157&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "Tate McRae, MUNA, Wunderhorse Close Out Lollapalooza 2026 In Chicago",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 19:41:55 -0400",
-      "link": "https://www.forbes.com/sites/jimryan1/2026/08/06/tate-mcrae-muna-wunderhorse-close-out-lollapalooza-2026-in-chicago/",
-      "summary": "Tate McRae, Wunderhorse, Leon Thomas, Turnstile and more closed out Lollapalooza 2026 in Chicago. Plus conversations with MUNA, The Braymores and Surfing for Daisy.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6a751704c7878fd7191453ac/0x0.jpg?width=960&precrop=2018%2C1135%2Cx0%2Cy96"
-    },
-    {
-      "title": "Trump’s Hairstyle During Vegas Speech Sparks Wild Online Speculation About Makeover",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 19:36:04 -0400",
-      "link": "https://www.forbes.com/sites/antoniopequenoiv/2026/08/06/trumps-hairstyle-during-vegas-speech-sparks-wild-online-speculation-about-makeover/",
-      "summary": "Trump appeared to have fuller, more colorful hair during a speech in Las Vegas on Wednesday.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6a750910001c8577e604658d/0x0.jpg?width=960"
-    },
-    {
-      "title": "‘I don’t wish to be cold-hearted’: My elderly relative can no longer care for himself. Am I wrong to leave his care to the state?",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 23:31:00 GMT",
-      "link": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
-      "summary": "“He has never been particularly generous or nurturing.”",
-      "image": "https://images.mktw.net/im-96138603"
-    },
-    {
-      "title": "As Alphabet burns through cash on AI, it’s turning back to the bond market",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 23:14:00 GMT",
-      "link": "https://www.marketwatch.com/story/as-alphabet-burns-through-cash-on-ai-its-turning-back-to-the-bond-market-04e85f31?mod=mw_rss_topstories",
-      "summary": "Alphabet is utilizing its balance sheet with a fresh debt issuance as heavy AI investments eat into its free cash flow.",
-      "image": "https://images.mktw.net/im-71631091"
-    },
-    {
-      "title": "The Good, Bad And Ugly From The Packers’ 7th Training Camp Practice",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 19:06:46 -0400",
-      "link": "https://www.forbes.com/sites/robreischel/2026/08/06/the-good-bad-and-ugly-from-the-packers-7th-training-camp-practice/",
-      "summary": "The Green Bay Packers held a closed practice Thursday that saw plenty of highs and lows.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6a7512b78deb74a2648c9645/0x0.jpg"
-    },
-    {
-      "title": "Joan Blackman, Elvis Presley’s Love In ‘Blue Hawaii,’ Dies At 87",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 19:03:50 -0400",
-      "link": "https://www.forbes.com/sites/timlammers/2026/08/06/joan-blackman-elvis-presleys-love-in-blue-hawaii-dies-at-87/",
-      "summary": "Joan Blackman, who starred as Elvis Presley’s love interest in his singer’s classic movies \"Blue Hawaii\" and \"Kid Galahad,\" has died.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6a751000d909f89c78bf23de/0x0.jpg?width=960&precrop=2793%2C1572%2Cx0%2Cy235"
-    },
-    {
-      "title": "Alibaba’s latest AI model puts it back in the great game",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 23:00:03 GMT",
-      "link": "https://www.ft.com/content/391c5f14-4bf2-4d24-92f0-65b912574513?syn-25a6b1a6=1",
-      "summary": "The ecommerce and cloud company hopes to recoup some of its lost shine with Monday’s release",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F9548ec72-8be1-409b-8f8a-ba4fc60ea50e.jpg?source=next-barrier-page&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1"
-    },
-    {
-      "title": "Trade Desk shares tumble on earnings miss and weak outlook",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 22:59:00 GMT",
-      "link": "https://www.marketwatch.com/story/trade-desk-shares-tumble-on-earnings-miss-and-weak-outlook-9f4640e9?mod=mw_rss_topstories",
-      "summary": "Trade Desk’s growth struggles deepened in the second quarter, as the company posted an earnings and revenue miss combined with disappointing guidance.",
-      "image": "https://images.mktw.net/im-74455865"
-    },
-    {
-      "title": "Sweetgreen recalls jalapenos, details how cyclospora outbreak will weigh on sales",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 22:58:00 GMT",
-      "link": "https://www.marketwatch.com/story/sweetgreen-recalls-jalapenos-details-how-cyclospora-outbreak-will-weigh-on-sales-c52435bf?mod=mw_rss_topstories",
-      "summary": "The salad chain’s shares tumbled after hours, but it said it doesn’t use iceberg lettuce and only uses jalapenos in two dressings.",
-      "image": "https://images.mktw.net/im-37300215"
-    },
-    {
-      "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
-      "source": "TechCrunch",
-      "category": "tech",
-      "published": "Thu, 06 Aug 2026 22:43:53 +0000",
-      "link": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
-      "summary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024"
-    },
-    {
-      "title": "GAO finds Elon Musk's DOGE inflated claims of $110 billion in savings for federal government",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 22:19:52 GMT",
-      "link": "https://www.cnbc.com/2026/08/06/doge-elon-musk-gao-government-cost-cuts.html",
-      "summary": "The nonpartisan watchdog found Elon Musk's DOGE didn't cut as much federal spending as it claimed and that it fell far short of its promised $2 trillion.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108100933-17393067622025-02-11t204145z_1729317157_rc2jscaafi5c_rtrmadp_0_usa-trump.jpeg?v=1786049729&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "NYT Strands Answers Today: Hints & Clues For Friday, August 7 (Struggling To Find The Words)",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 18:13:05 -0400",
-      "link": "https://www.forbes.com/sites/erikkain/2026/08/06/nyt-strands-answers-friday-august-7-struggling-to-find-the-words/",
-      "summary": "Looking for help with today's NYT Strands puzzle? Here's an extra hint to help you uncover the right words, as well as all of today's answers and Spangram.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/661994c1a11cd45a738c205f/0x0.jpg?width=960"
+      "published": "Thu, 06 Aug 2026 22:23:25 GMT",
+      "link": "https://www.cnbc.com/2026/08/06/jim-cramer-5-investing-themes-stocks-to-buy.html",
+      "summary": "CNBC’s Jim Cramer said earnings season reinforced five investing themes he thinks will produce the market's best buying opportunities.",
+      "image": "https://image.cnbcfm.com/api/v1/image/107113455-NUP_198430_00728r.jpg?v=1697496177&amp;w=1920&amp;h=1080"
     },
     {
       "title": "Airbnb stock soars 9% on earnings and revenue beat, strong guidance for third quarter",
@@ -5210,24 +4943,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/08/54890573133_6dd8482235_o.jpg?resize=1200,800"
     },
     {
-      "title": "PXG Releases New PXG One & Done Zero Torque (ZT) Putter",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 17:59:11 -0400",
-      "link": "https://www.forbes.com/sites/break80/2026/08/06/pxg-releases-new-pxg-one--done-zero-torque-zt-putter/",
-      "summary": "PXG has expanded its zero-torque putter lineup with the introduction of the One &amp; Done ZT, a highly stable mallet designed to help golfers of every skill level.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6a738817e140843a76eb2a0a/0x0.jpg"
-    },
-    {
-      "title": "Claire’s Intensifies Focus On  Piercing As Part Of Store Overhaul",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 17:53:58 -0400",
-      "link": "https://www.forbes.com/sites/sharonedelson/2026/08/06/claires-intensifies-focus-on--piercing-as-part-of-store-overhaul/",
-      "summary": "Claires has reimagined its core piercing business to reflect modern girls with everything from upgraded training for associates to elevated in-store experiences.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6a74ad7d9510bf38409c00e6/0x0.jpg"
-    },
-    {
       "title": "Crypto bill ethics provision could let Trump defer millions in taxes: Bloomberg",
       "source": "The Block",
       "category": "crypto",
@@ -5240,7 +4955,7 @@
       "title": "FIFA Executives Were Given Ultimatum to Approve World Cup Privatization Plan",
       "source": "The New York Times",
       "category": "mercati",
-      "published": "Thu, 06 Aug 2026 21:51:46 +0000",
+      "published": "Thu, 06 Aug 2026 21:51:45 +0000",
       "link": "https://www.nytimes.com/2026/08/06/business/fifa-world-cup-privatization.html",
       "summary": "The day before the World Cup final, key FIFA figures faced a stunning demand to sign off on a multibillion-dollar privatization project.",
       "image": "https://static01.nyt.com/images/2026/08/06/multimedia/06Biz-Fifa-Board-04-bcwz/06Biz-Fifa-Board-04-bcwz-mediumSquareAt3X.jpg"
@@ -5255,15 +4970,6 @@
       "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F393916b8-c221-43bf-9032-dde077de9579.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
     },
     {
-      "title": "Rail users face further disruption after Manchester power cut",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Thu, 06 Aug 2026 21:36:30 GMT",
-      "link": "https://www.ft.com/content/030898ed-4fa2-4669-9970-c587c669ee4f?syn-25a6b1a6=1",
-      "summary": "Hundreds of trains were cancelled in north-west England after a 90-second outage at a critical train signalling centre",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F276031b7-6599-4ba0-9e4c-522374579f9c.jpg?source=next-barrier-page&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1"
-    },
-    {
       "title": "SEC Bought a Billion Airline Records to Track Travelers—Likely Without a Warrant",
       "source": "Decrypt",
       "category": "crypto",
@@ -5271,6 +4977,15 @@
       "link": "https://decrypt.co/375078/sec-billion-airline-records-track-travelers",
       "summary": "The financial regulator subscribed to a global flight database covering more than a billion tickets to monitor activity.",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png"
+    },
+    {
+      "title": "Trade Desk shares tumble on earnings miss and weak outlook",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 21:36:00 GMT",
+      "link": "https://www.marketwatch.com/story/trade-desk-shares-tumble-on-earnings-miss-and-weak-outlook-9f4640e9?mod=mw_rss_topstories",
+      "summary": "Trade Desk’s growth struggles deepened in the second quarter, as the company posted an earnings and revenue miss combined with disappointing guidance.",
+      "image": "https://images.mktw.net/im-74455865"
     },
     {
       "title": "Hackers Stalked Me by Hijacking a Smartwatch for Kids",
@@ -5325,7 +5040,241 @@
       "link": "https://cointelegraph.com/news/crypto-pac-florida-alaska-wyoming-primary-races?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "summary": "The Defend American Jobs and Protect Progress PACs reported spending more than $1.5 million on media for four House and Senate races ahead of Aug. 18 primary elections.",
       "image": "https://s3-images.ctmedia.io/media/article-covers/voting-line-vol-2.jpg"
+    },
+    {
+      "title": "Bitcoin miners MARA and CleanSpark post double-digital revenue drops as AI infrastructure pivot continues",
+      "source": "The Block",
+      "category": "crypto",
+      "published": "Thu, 06 Aug 2026 17:10:23 -0400",
+      "link": "https://www.theblock.co/post/411049/bitcoin-miners-mara-cleanspark-double-digital-revenue-drops-ai-infrastructure-pivot?utm_source=rss&utm_medium=rss",
+      "summary": "MARA's net loss widened to $611.3 million, or $1.60 per diluted share, while CleanSpark’s was $239.8 million, or $0.89 per basic share.",
+      "image": "https://www.tbstat.com/wp/uploads/2026/04/20260428_Mara_News_2-800x450.jpg"
+    },
+    {
+      "title": "Tokyo Tells Trump to Stop Meme-ing Mario",
+      "source": "Decrypt",
+      "category": "crypto",
+      "published": "Thu, 06 Aug 2026 21:01:03 +0000",
+      "link": "https://decrypt.co/375069/tokyo-trump-mario-naruto-pokemon-memes",
+      "summary": "Tokyo has asked Washington to stop meme-posting Mario, Pokémon, and Naruto without permission in a clash between meme-heavy statecraft and strict IP norms.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png"
+    },
+    {
+      "title": "How Spider-Man Can Save Marvel At The Box-Office",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 17:00:00 -0400",
+      "link": "https://www.forbes.com/sites/jairhilburn/2026/08/06/how-spider-man-can-save-marvel-at-the-box-office/",
+      "summary": "The success of “Spider-Man: Brand New Day,” which hits IMAX screens this week, can reinvigorate Marvel Studios’ mojo.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a74f1eab4fe441577934af6/0x0.jpg?width=960"
+    },
+    {
+      "title": "Gold prices are breaking higher after a tough stretch. Could fresh records be within reach?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 20:57:00 GMT",
+      "link": "https://www.marketwatch.com/story/gold-prices-are-breaking-higher-after-a-tough-stretch-could-fresh-records-be-within-reach-1e1a872f?mod=mw_rss_topstories",
+      "summary": "Gold miners’ stocks can offer a high-quality play for investors worried about inflation and the Fed.",
+      "image": "https://images.mktw.net/im-23207750"
+    },
+    {
+      "title": "How to wish Social Security a happy 91st birthday",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 20:56:00 GMT",
+      "link": "https://www.marketwatch.com/story/how-to-wish-social-security-a-happy-91st-birthday-865d71a8?mod=mw_rss_topstories",
+      "summary": "Let’s all agree that, going forward, we’ll stop saying that Social Security will “run out of money” in 2032.",
+      "image": "https://images.mktw.net/im-16113248"
+    },
+    {
+      "title": "Virginia governor to intervene in NextEra, Dominion merger over electricity price concerns",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 20:50:59 GMT",
+      "link": "https://www.cnbc.com/2026/08/06/virginia-governor-nextera-nee-dominion-data-center.html",
+      "summary": "Virginia's State Corporation Commission is tasked with reviewing the deal and will either accept, reject or impose conditions on it.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108346268-1786047169487-gettyimages-2276445040-051925-rtd-met-edu.jpeg?v=1786047224&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Infantino's Redemption Plan Backfires: Europe Still Boycotting World Cup As Players’ Union Outraged",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 16:49:57 -0400",
+      "link": "https://www.forbes.com/sites/antoniopequenoiv/2026/08/06/infantinos-redemption-plan-backfires-europe-still-boycotting-world-cup-as-players-union-outraged/",
+      "summary": "Infantino has faced calls to resign and statements of no confidence after he sought to plan part of the World Cup to private investors.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a74f1b6ab3f7f1caaa7c0e2/0x0.jpg?width=960"
+    },
+    {
+      "title": "Honeywell Aerospace lands in Wall Street’s ‘penalty box’ after gloomy guidance triggers 23% stock selloff",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 20:41:00 GMT",
+      "link": "https://www.marketwatch.com/story/honeywell-aerospace-lands-in-wall-streets-penalty-box-after-gloomy-guidance-triggers-21-stock-selloff-ea8b032c?mod=mw_rss_topstories",
+      "summary": "The newly minted Honeywell Aerospace stunned Wall Street only weeks into its life as a standalone company.",
+      "image": "https://images.mktw.net/im-21217134"
+    },
+    {
+      "title": "How to use options to trade stocks around an earnings announcement",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 20:37:00 GMT",
+      "link": "https://www.marketwatch.com/story/how-to-use-options-to-trade-stocks-around-an-earnings-announcement-e1ba7920?mod=mw_rss_topstories",
+      "summary": "What volatility measures are saying about the S&amp;P 500’s rally to record highs.",
+      "image": "https://images.mktw.net/im-94459003"
+    },
+    {
+      "title": "Meta Says Its AI Model Escaped and Hacked a Third-Party Company Too",
+      "source": "Decrypt",
+      "category": "crypto",
+      "published": "Thu, 06 Aug 2026 20:31:03 +0000",
+      "link": "https://decrypt.co/375070/meta-says-ai-model-escaped-hack-third-party",
+      "summary": "The company says a configuration error by an outside testing partner gave one of its Muse Spark models internet access during a cybersecurity evaluation.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg"
+    },
+    {
+      "title": "American Airlines will stop upgrading elite flyers to business from coach on long domestic flights",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 20:30:05 GMT",
+      "link": "https://www.cnbc.com/2026/08/06/american-airlines-flight-upgrades-become-harder-to-get.html",
+      "summary": "American Airlines will no longer give elite frequent flyers free upgrades from economy class to business on some of its longest domestic routes",
+      "image": "https://image.cnbcfm.com/api/v1/image/108025032-1724437349260-gettyimages-2167250314-AFP_36EN87H.jpeg?v=1724437432&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "These 5 Republican Senators Urge Max Miller To Resign—As Ohio’s Husted Joins Ranks",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 16:25:05 -0400",
+      "link": "https://www.forbes.com/sites/saradorn/2026/08/06/these-5-republican-senators-urge-max-miller-to-resign-as-ohios-husted-joins-ranks/",
+      "summary": "Miller has said repeatedly this week, as the scandal has spiraled, that he has no intention of stepping down.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a70e45bdd8e10a229a24d88/0x0.jpg?width=960"
+    },
+    {
+      "title": "Shares of Memory Giants Drop on Soft Guidance",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 20:25:00 GMT",
+      "link": "https://www.wsj.com/finance/stocks/shares-of-memory-giants-drop-on-soft-guidance-505f1796?mod=rss_markets_main",
+      "summary": "Plus, oil prices jump and the Dow breaks its winning streak.",
+      "image": "https://images.wsj.net/im-87546378"
+    },
+    {
+      "title": "The July jobs numbers are due out Friday. Here's what to expect",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 20:15:22 GMT",
+      "link": "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
+      "summary": "Nonfarm payrolls are expected to post a gain of just 83,000 with an unchanged unemployment rate at 4.2%.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108342395-1785415946548-gettyimages-2287553544-AFP_C3J43BD.jpeg?v=1786047083&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Jane Street in talks to shift its $11bn in debt to investors including Pimco",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 20:10:07 GMT",
+      "link": "https://www.ft.com/content/80f5fede-a34a-4069-a751-f9523e3c6e00?syn-25a6b1a6=1",
+      "summary": "Private credit deal would allow the secretive trading firm to make further investments in AI",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F1616dff2-0c09-4e48-ba10-4148d14e8eb5.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Copper jumps to its highest level ever. What the metal is telling us",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 20:07:51 GMT",
+      "link": "https://www.cnbc.com/2026/08/06/copper-jumps-to-its-highest-level-ever-what-the-metal-is-telling-us-.html",
+      "summary": "Once a reliable gauge if economic health, \"Dr. Copper\" may be giving complicated signals this year.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108346260-1786046336064-gettyimages-2228106290-US_COPPER.jpeg?v=1786046387&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Grindr's AI spend is paying off and its pricey new tier has had some surprises, CEO says",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 20:07:24 GMT",
+      "link": "https://www.cnbc.com/2026/08/06/grindr-grnd-stock-earnings-ai.html",
+      "summary": "Grindr says AI is boosting engineering productivity, supporting a new $350/month premium tier and driving stronger subscriber growth and retention.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108346222-1786043613835-gettyimages-2281609240-GRINDR_CULTURE_HUB.jpeg?v=1786054212&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Crypto Trader Wintermute Steps Onto Regulated Wall Street With Broker License",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 19:59:00 GMT",
+      "link": "https://www.wsj.com/finance/currencies/crypto-trader-wintermute-steps-onto-regulated-wall-street-with-broker-license-cbeb7013?mod=rss_markets_main",
+      "summary": "One of many digital currency firms pushing into traditional finance services, Wintermute aims to take on Jane Street, Citadel and other big market makers.",
+      "image": "https://images.wsj.net/im-18858508"
+    },
+    {
+      "title": "The last time value stocks beat growth by this much was 2022 — the year of the last major bear market",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 19:57:00 GMT",
+      "link": "https://www.marketwatch.com/story/the-last-time-value-stocks-beat-growth-by-this-much-was-2022-the-year-of-the-last-major-bear-market-93851a5f?mod=mw_rss_topstories",
+      "summary": "Value is leaving growth behind at a pace rarely seen outside major market downturns. The twist: This is a bull market.",
+      "image": "https://images.mktw.net/im-52705146"
+    },
+    {
+      "title": "Why Normal People Aren’t Using AI Agents",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Thu, 06 Aug 2026 19:55:45 +0000",
+      "link": "https://www.wired.com/story/why-normal-people-arent-using-ai-agents/",
+      "summary": "The tech industry is realizing it needs to build agents based on what regular consumers want, not just what its AI models can do.",
+      "image": "https://media.wired.com/photos/6a73b0755ac7830744b4402a/master/pass/Model-Behavior-Why-Normal-People-Dont-Use-AI-Business.jpg"
+    },
+    {
+      "title": "Senators Push CFTC to Ban Wildfire Bets on Prediction Markets",
+      "source": "Decrypt",
+      "category": "crypto",
+      "published": "Thu, 06 Aug 2026 19:51:09 +0000",
+      "link": "https://decrypt.co/375066/senators-push-cftc-ban-wildfire-bets-prediction-markets",
+      "summary": "Democratic lawmakers say wildfire event contracts create risks of arson, insider trading, and disaster profiteering as they urge federal regulators to step in.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/michael-selig-cftc-decrypt-style-gID_7.jpg"
+    },
+    {
+      "title": "Late Ondo founder’s mother seeks control of company and removal of De Bode as CEO",
+      "source": "The Block",
+      "category": "crypto",
+      "published": "Thu, 06 Aug 2026 15:45:06 -0400",
+      "link": "https://www.theblock.co/post/411006/late-ondo-founders-mother-seeks-control-of-company-and-removal-of-de-bode-as-ceo?utm_source=rss&utm_medium=rss",
+      "summary": "After Nathan Allman's death was announced in May, Ondo Finance said that Ian De Bode would take over as CEO.",
+      "image": "https://www.tbstat.com/wp/uploads/2025/09/20230216_Ondo-800x450.jpg"
+    },
+    {
+      "title": "U.S. Marines Practice Launching Kamikaze Attack Drones In South Korea",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 15:44:47 -0400",
+      "link": "https://www.forbes.com/sites/zitaballingerfletcher/2026/08/06/us-marines-practice-launching-kamikaze-attack-drones-in-south-korea/",
+      "summary": "In a historic first, U.S. Marines fired explosive suicide drones less than 20 miles from the Demilitarized Zone dividing North from South Korea in joint drill exercises.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a74d189d6c62d3efd91ff6c/0x0.jpg"
+    },
+    {
+      "title": "Behind ‘The City In Bloom,’ The First NYC All-Women BMX Street Film",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 15:42:18 -0400",
+      "link": "https://www.forbes.com/sites/michellebruton/2026/08/06/behind-the-city-in-bloom-the-first-ever-all-women-bmx-street-film/",
+      "summary": "The Bloom BMX’s 'The City in Bloom,' is the first all-women BMX street film, featuring riders Angie Marino, Bethany Hedrick and Emma Finnegan riding in New York City.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a74dde5b4fe441577934af4/0x0.jpg?width=960&precrop=2761%2C1554%2Cx0%2Cy249"
+    },
+    {
+      "title": "Scientists Trained An AI Model In DNA—And It Invented 16 New Viruses",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Thu, 06 Aug 2026 15:41:16 -0400",
+      "link": "https://www.forbes.com/sites/maryroeloffs/2026/08/06/scientists-trained-an-ai-model-in-dna-and-it-invented-16-new-viruses/",
+      "summary": "Scientists are worried about how smart DNA-trained artificial intelligence models could get—and that they could become a weapon in biological warfare.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a74e106a51e292ccb722fcd/0x0.jpg?width=960&precrop=2006%2C1129%2Cx0%2Cy683"
+    },
+    {
+      "title": "Google says hackers are calling financial firm employees to hack and extort victims",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Thu, 06 Aug 2026 19:40:46 +0000",
+      "link": "https://techcrunch.com/2026/08/06/google-says-hackers-are-calling-financial-firm-employees-to-hack-and-extort-victims/",
+      "summary": "Groups of hackers are breaking into large U.S. financial firms to steal sensitive data and extort victims, Google’s security researchers report.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/blackstone-wall-street.jpg?resize=1200,800"
     }
   ],
-  "generated_at": "2026-08-07 03:31:29"
+  "generated_at": "2026-08-07 17:39:07"
 }
