@@ -10,13 +10,20 @@ che si apre da qualsiasi dispositivo.
 Il flusso, tre tap: Copia titolo -> Copia sottotitolo -> Copia corpo, poi
 "Apri Substack" e Pubblica.
 
+Contiene gli ultimi SHARE_DAYS giorni, scegliibili da un menu a tendina: se una
+sera ci si dimentica di pubblicare, il post di quel giorno e' ancora li'.
+Perche' una finestra e non tutto l'archivio: non e' una questione di costo (la
+pagina e' solo testo assemblato, nessuna chiamata a un modello, e il file viene
+riscritto ogni notte invece che accresciuto) ma di uso — dopo un anno un menu da
+365 voci sarebbe inutilizzabile e la pagina peserebbe oltre un megabyte.
+
 Sul contenuto pubblico: quanto c'e' qui e' lo stesso testo che il sito mostra
 gia' pubblicamente a mezzanotte (stesse statistiche, stessi mover, stesse
 notizie). Non anticipa nulla che non sia gia' online — e' solo lo stesso
 materiale impaginato per essere copiato.
 
 Non e' uno script da lanciare a mano: lo chiama build_public_page.py, che gira
-nel job notturno su GitHub. Vedi README, "Pubblicare dal telefono".
+nel job notturno su GitHub. Vedi README, "Routine giornaliera".
 """
 import html
 import os
@@ -26,6 +33,10 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
+# Quanti giorni tenere nel menu. E' l'unico numero da cambiare per allargare la
+# finestra: il resto della pagina si adatta da solo.
+SHARE_DAYS = 7
+
 # L'editor di un nuovo post. Aprendolo si crea una bozza vuota, pronta a
 # ricevere i tre incolla.
 SUBSTACK_NEW_POST = "https://maximedaverio.substack.com/publish/post?type=newsletter"
@@ -34,7 +45,7 @@ TEMPLATE = """<!doctype html>
 <html lang="it">
 <head>
 <meta charset="utf-8">
-<title>Post pronto — __EDITION_DATE__</title>
+<title>Post pronto — __LATEST_DATE__</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
 <style>
@@ -50,7 +61,16 @@ TEMPLATE = """<!doctype html>
          font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; }
   .wrap { max-width:720px; margin:0 auto; padding:20px 16px 60px; }
   h1 { font-size:1.25rem; margin:0 0 4px; }
-  .sub { color:var(--muted); font-size:.85rem; margin-bottom:18px; }
+  .sub { color:var(--muted); font-size:.85rem; margin-bottom:14px; }
+  /* Il selettore del giorno: grande quanto un pulsante, perche' si usa col
+     pollice. -webkit-appearance:none toglie lo stile di sistema di iOS, che
+     altrimenti ignora sfondo e bordo. */
+  .daybar { margin-bottom:18px; }
+  select { width:100%; padding:14px 16px; font-size:1rem; font-weight:600;
+           border-radius:10px; border:1px solid var(--accent);
+           background:var(--panel); color:var(--text); -webkit-appearance:none;
+           appearance:none; }
+  .daybar .hint { margin-top:8px; }
   .step { background:var(--panel); border:1px solid var(--border); border-radius:12px;
           padding:14px 16px; margin-bottom:14px; }
   .step-n { font-size:.7rem; text-transform:uppercase; letter-spacing:.07em;
@@ -74,6 +94,12 @@ TEMPLATE = """<!doctype html>
   a.btn.go { background:var(--accent); border-color:var(--accent); color:#fff;
              margin-top:22px; }
   .hint { color:var(--muted); font-size:.8rem; margin-top:10px; line-height:1.45; }
+  .day[hidden] { display:none; }
+  /* Un giorno diverso da quello di oggi: si segnala, per non pubblicare per
+     sbaglio il post di tre giorni fa credendolo quello di stamattina. */
+  .old-warning { background:var(--panel); border:1px solid var(--accent);
+                 border-radius:10px; padding:12px 14px; margin-bottom:14px;
+                 font-size:.85rem; line-height:1.45; }
   details { margin-top:26px; }
   summary { color:var(--muted); font-size:.85rem; cursor:pointer; padding:8px 0; }
   footer { margin-top:30px; padding-top:16px; border-top:1px solid var(--border);
@@ -83,46 +109,25 @@ TEMPLATE = """<!doctype html>
 <body>
 <div class="wrap">
   <h1>Post pronto da pubblicare</h1>
-  <div class="sub">Edizione del __EDITION_DATE__ &middot; seduta del __SESSION_DATE__</div>
+  <div class="sub">Scegli il giorno, copia, incolla su Substack.</div>
 
-  <div class="step">
-    <div class="step-n">1 — Titolo</div>
-    <div class="val" id="title">__TITLE__</div>
-    <button data-copy="title">Copia titolo</button>
+  <div class="daybar">
+    <select id="daySelect" aria-label="Scegli l'edizione">
+__OPTIONS__
+    </select>
+    <div class="hint">Ultimi __N_DAYS__ giorni. Se una sera hai saltato la
+      pubblicazione, il post di quel giorno e' ancora qui.</div>
   </div>
 
-  <div class="step">
-    <div class="step-n">2 — Sottotitolo</div>
-    <div class="val" id="subtitle">__SUBTITLE__</div>
-    <button data-copy="subtitle">Copia sottotitolo</button>
-  </div>
-
-  <div class="step">
-    <div class="step-n">3 — Corpo del post</div>
-    <div class="body-preview" id="body">__BODY__</div>
-    <button data-copy="body" data-rich="1">Copia corpo (con formattazione)</button>
-    <div class="hint">Incolla nel corpo del post: elenchi, corsivi e il link in
-      fondo restano formattati.</div>
-  </div>
+__DAYS__
 
   <a class="btn go" href="__SUBSTACK_URL__" target="_blank" rel="noopener">
     Apri Substack e incolla &rarr;
   </a>
 
-  <details>
-    <summary>Serve anche il post per LinkedIn?</summary>
-    <div class="step" style="margin-top:12px">
-      <div class="step-n">Testo LinkedIn</div>
-      <div class="body-preview" id="linkedin" style="white-space:pre-wrap">__LINKEDIN__</div>
-      <button data-copy="linkedin">Copia testo LinkedIn</button>
-      <div class="hint">LinkedIn non interpreta la formattazione: questo si copia
-        come testo semplice, com'e'.</div>
-    </div>
-  </details>
-
   <footer>
     Questa pagina la rigenera GitHub ogni notte insieme al sito: al mattino mostra
-    sempre l'edizione del giorno, senza che il Mac sia accesso.
+    sempre l'edizione del giorno, senza che il Mac sia acceso.
     Nulla viene pubblicato da qui — premere "Pubblica" su Substack resta un tuo gesto.
   </footer>
 </div>
@@ -140,7 +145,10 @@ function feedback(btn, msg) {
 }
 
 async function copyFrom(btn) {
-  const el = document.getElementById(btn.dataset.copy);
+  // Il contenuto si cerca DENTRO il giorno del pulsante, non per id globale:
+  // in pagina ci sono piu' giorni con gli stessi campi, e un id ripetuto
+  // farebbe copiare sempre il primo.
+  const el = btn.closest(".day").querySelector("." + btn.dataset.copy);
   const rich = btn.dataset.rich === "1";
   const text = el.innerText;
   try {
@@ -169,20 +177,57 @@ async function copyFrom(btn) {
 document.querySelectorAll("button[data-copy]").forEach(function (btn) {
   btn.addEventListener("click", function () { copyFrom(btn); });
 });
+
+const daySelect = document.getElementById("daySelect");
+function showDay(date) {
+  document.querySelectorAll(".day").forEach(function (d) {
+    d.hidden = d.dataset.day !== date;
+  });
+}
+daySelect.addEventListener("change", function () { showDay(daySelect.value); });
+showDay(daySelect.value);
 </script>
 </body>
 </html>
 """
 
+DAY_BLOCK = """  <div class="day" data-day="__DATE__">
+__WARNING__    <div class="step">
+      <div class="step-n">1 — Titolo</div>
+      <div class="val f-title">__TITLE__</div>
+      <button data-copy="f-title">Copia titolo</button>
+    </div>
 
-def build(ed: dict) -> str:
-    """HTML della pagina, a partire dall'edizione del giorno.
+    <div class="step">
+      <div class="step-n">2 — Sottotitolo</div>
+      <div class="val f-subtitle">__SUBTITLE__</div>
+      <button data-copy="f-subtitle">Copia sottotitolo</button>
+    </div>
 
-    Importa build_publish qui e non in cima al modulo: build_public_page.py
-    chiama questa funzione dentro un try/except, cosi' se build_publish non
-    fosse presente (o cambiasse forma) il sito esce comunque — la pagina di
-    condivisione e' un extra, non deve poter far fallire la pubblicazione.
-    """
+    <div class="step">
+      <div class="step-n">3 — Corpo del post</div>
+      <div class="body-preview f-body">__BODY__</div>
+      <button data-copy="f-body" data-rich="1">Copia corpo (con formattazione)</button>
+      <div class="hint">Incolla nel corpo del post: elenchi, corsivi e il link in
+        fondo restano formattati.</div>
+    </div>
+
+    <details>
+      <summary>Serve anche il post per LinkedIn?</summary>
+      <div class="step" style="margin-top:12px">
+        <div class="step-n">Testo LinkedIn</div>
+        <div class="body-preview f-linkedin" style="white-space:pre-wrap">__LINKEDIN__</div>
+        <button data-copy="f-linkedin">Copia testo LinkedIn</button>
+        <div class="hint">LinkedIn non interpreta la formattazione: questo si copia
+          come testo semplice, com'e'.</div>
+      </div>
+    </details>
+  </div>
+"""
+
+
+def _sections(ed: dict):
+    """Titolo, sottotitolo, corpo e testo LinkedIn di una singola edizione."""
     import build_publish as bp
 
     s = bp.build_sections(ed)
@@ -202,17 +247,65 @@ def build(ed: dict) -> str:
         i += 1
     linkedin = "\n".join(lines[i:]).strip()
 
+    return s["substack_title"], s["substack_subtitle"], body, linkedin
+
+
+def build(editions: list[dict]) -> str:
+    """HTML della pagina, dagli ultimi SHARE_DAYS giorni (il piu' recente primo).
+
+    Importa build_publish dentro _sections e non in cima al modulo:
+    build_public_page.py chiama questa funzione dentro un try/except, cosi' se
+    build_publish non fosse presente (o cambiasse forma) il sito esce comunque —
+    la pagina di condivisione e' un extra, non deve poter far fallire la
+    pubblicazione.
+    """
     e = html.escape
+    recent = editions[:SHARE_DAYS]
+    if not recent:
+        raise ValueError("nessuna edizione da mostrare")
+
+    options, days = [], []
+    for i, ed in enumerate(recent):
+        date = str(ed.get("edition_date") or "")
+        label_ed = str(ed.get("edition_date_en") or ed.get("edition_date_it") or date)
+        label_se = str(ed.get("session_date_en") or ed.get("session_date_it") or "")
+        label = f"Edizione del {label_ed}"
+        if label_se:
+            label += f" · seduta del {label_se}"
+        if i == 0:
+            label += "  (l'ultima)"
+
+        options.append(
+            f'      <option value="{e(date)}">{e(label)}</option>'
+        )
+
+        title, subtitle, body, linkedin = _sections(ed)
+        warning = ""
+        if i > 0:
+            warning = (
+                f'    <div class="old-warning">Stai guardando l\'edizione del '
+                f'<b>{e(label_ed)}</b>, non l\'ultima. Se cercavi quella di oggi, '
+                f"scegli la prima voce del menu.</div>\n"
+            )
+        days.append(
+            DAY_BLOCK
+            .replace("__DATE__", e(date))
+            .replace("__WARNING__", warning)
+            .replace("__TITLE__", e(title))
+            .replace("__SUBTITLE__", e(subtitle))
+            .replace("__LINKEDIN__", e(linkedin))
+            # Il corpo per ultimo e come HTML vero (non escapato): e' il contenuto
+            # che va copiato con la formattazione. Per ultimo cosi' un titolo di
+            # giornale che contenesse "__TITLE__" non venga preso per un segnaposto.
+            .replace("__BODY__", body)
+        )
+
+    latest = recent[0]
     return (
         TEMPLATE
-        .replace("__EDITION_DATE__", e(str(ed.get("edition_date_en") or ed.get("edition_date") or "")))
-        .replace("__SESSION_DATE__", e(str(ed.get("session_date_en") or ed.get("session_date") or "")))
-        .replace("__TITLE__", e(s["substack_title"]))
-        .replace("__SUBTITLE__", e(s["substack_subtitle"]))
-        .replace("__LINKEDIN__", e(linkedin))
+        .replace("__LATEST_DATE__", e(str(latest.get("edition_date_en") or latest.get("edition_date") or "")))
+        .replace("__N_DAYS__", str(len(recent)))
         .replace("__SUBSTACK_URL__", SUBSTACK_NEW_POST)
-        # Il corpo per ultimo e come HTML vero (non escapato): e' il contenuto che
-        # va copiato con la formattazione. Per ultimo cosi' un titolo di giornale
-        # che contenesse "__TITLE__" non venga preso per un segnaposto.
-        .replace("__BODY__", body)
+        .replace("__OPTIONS__", "\n".join(options))
+        .replace("__DAYS__", "\n".join(days))
     )

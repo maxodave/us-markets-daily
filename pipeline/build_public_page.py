@@ -332,9 +332,12 @@ def write_share_page(out_dir: str, editions: list[dict]) -> None:
 
         path = os.path.join(out_dir, SHARE_PAGE_PATH)
         os.makedirs(os.path.dirname(path), exist_ok=True)
+        # Tutta la lista: share_page tiene gli ultimi SHARE_DAYS giorni, cosi' un
+        # post dimenticato ieri resta raggiungibile dal menu a tendina.
         with open(path, "w", encoding="utf-8") as f:
-            f.write(share_page.build(editions[0]))
-        print(f"Pagina 'post pronto' generata: {path}")
+            f.write(share_page.build(editions))
+        n = min(len(editions), share_page.SHARE_DAYS)
+        print(f"Pagina 'post pronto' generata: {path} ({n} giorni)")
     except Exception as e:
         print(
             f"ATTENZIONE: pagina 'post pronto' non generata ({type(e).__name__}: {e}).",
