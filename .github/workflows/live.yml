@@ -1,11 +1,12 @@
 name: Quotazioni LIVE
 
 # Aggiorna live.json (livello e variazione % dei quattro indici) per la striscia
-# "LIVE" del sito. Leggero: quattro simboli, nessuna notizia. Ogni 4 ore per ora;
-# per portarlo a ogni 30 minuti basta cambiare il cron in "*/30 * * * *".
+# "LIVE" del sito. Leggero: quattro simboli, nessuna notizia — per questo puo'
+# girare ogni 30 minuti, tutto il giorno, senza pesare come la pipeline piena
+# (repo pubblico: i minuti di GitHub Actions sono illimitati e gratuiti).
 on:
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
