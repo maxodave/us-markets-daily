@@ -1,0 +1,44 @@
+name: Quotazioni LIVE
+
+# Aggiorna live.json (livello e variazione % dei quattro indici) per la striscia
+# "LIVE" del sito. Leggero: quattro simboli, nessuna notizia. Ogni 4 ore per ora;
+# per portarlo a ogni 30 minuti basta cambiare il cron in "*/30 * * * *".
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-quotes
+  cancel-in-progress: false
+
+jobs:
+  quotes:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Rome
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Quotazioni dei quattro indici
+        run: python pipeline/fetch_live_quotes.py .
+
+      - name: Pubblica se qualcosa e' cambiato
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add live.json
+          if git diff --cached --quiet; then
+            echo "Quotazioni invariate."
+          else
+            git commit -m "Live quotes $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

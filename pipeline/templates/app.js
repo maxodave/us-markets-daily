@@ -482,31 +482,23 @@ function renderEditions() {
   const header = isWeekend
     ? renderEditionHeaderWeekend(latest, L)
     : (hasMultiIndex ? renderEditionHeaderNew(latest, lang, indexTab) : renderEditionHeaderLegacy(latest));
-  let html = `<div class="edition">${header}</div>`;
+  // DUE VISTE distinte, scelte dalla nav via body[data-view]:
+  //  - "edition" = l'editoriale (statistiche, movers, Top Mercati, commento) +
+  //    l'archivio: il notiziario del giorno, come lo screenshot dell'edizione.
+  //  - "live" = la striscia indici LIVE + il feed di notizie del giorno.
+  // Si disegnano SEMPRE entrambi i pannelli; la CSS ne mostra uno solo, cosi' il
+  // cambio vista non ridisegna nulla (la striscia LIVE mantiene i suoi dati).
+  let editorial = `<div class="edition">${header}</div>`;
+  if (isWeekend) editorial += weekendDigest(latest.weekend_report, L);
 
-  // Il digest per tema va PRIMA del feed: e' la parte redazionale dell'edizione
-  // del fine settimana, il feed sotto e' cio' che resta.
-  if (isWeekend) html += weekendDigest(latest.weekend_report, L);
-
-  html += `<div class="section-head">
-      <h3>${esc(isWeekend ? t.moreTitle : t.feedTitle)}</h3>
-      <div class="cat-filters">
-        <div class="cat-chip ${feedState.category === null ? "active" : ""}" data-cat="">${esc(t.allLabel)} (${feedItems.length})</div>
-        ${available.map(c => {
-          const n = feedItems.filter(i => i.category === c.key).length;
-          return `<div class="cat-chip ${feedState.category === c.key ? "active" : ""}" data-cat="${esc(c.key)}">${esc(c.label[L])} (${n})</div>`;
-        }).join("")}
-      </div>
-    </div>
-    <div class="feed-grid">${shown.map(item => feedCard(item, L)).join("")}</div>`;
-
+  let archiveHtml = "";
   if (older.length) {
-    html += `<div class="section-head" style="margin-top:56px">
+    archiveHtml = `<div class="section-head" style="margin-top:56px">
         <h3>${esc(t.archiveLabel)} (${older.length})</h3>
         <button class="archive-toggle" id="archiveToggle">${feedState.showArchive ? esc(t.archiveHide) : esc(t.archiveShow)}</button>
       </div>`;
     if (feedState.showArchive) {
-      html += older.map(ed => {
+      archiveHtml += older.map(ed => {
         const edDate = L === "en" ? (ed.edition_date_en || ed.edition_date_it) : ed.edition_date_it;
         const headline = L === "en" ? (ed.headline_en || ed.headline) : ed.headline;
         // Le edizioni del fine settimana si datano sulle NOTIZIE che riassumono,
@@ -526,6 +518,21 @@ function renderEditions() {
       }).join("");
     }
   }
+
+  const feedHtml = `<div class="section-head">
+      <h3>${esc(isWeekend ? t.moreTitle : t.feedTitle)}</h3>
+      <div class="cat-filters">
+        <div class="cat-chip ${feedState.category === null ? "active" : ""}" data-cat="">${esc(t.allLabel)} (${feedItems.length})</div>
+        ${available.map(c => {
+          const n = feedItems.filter(i => i.category === c.key).length;
+          return `<div class="cat-chip ${feedState.category === c.key ? "active" : ""}" data-cat="${esc(c.key)}">${esc(c.label[L])} (${n})</div>`;
+        }).join("")}
+      </div>
+    </div>
+    <div class="feed-grid">${shown.map(item => feedCard(item, L)).join("")}</div>`;
+
+  const html = `<div class="only-edition">${editorial}${archiveHtml}</div>`
+             + `<div class="only-live">${feedHtml}</div>`;
 
   el.innerHTML = html;
 
@@ -561,3 +568,112 @@ function renderEditions() {
 
 document.getElementById("gendate").textContent = EDITIONS.length ? EDITIONS[0].edition_date : "n/d";
 renderEditions();
+
+// ====== Layer cinematografico: hero, viste LIVE/edition, weekend, quotazioni ======
+// Solo presentazione e navigazione: nessun dato nuovo oltre a live.json (le
+// quotazioni degli indici, raccolte da un workflow perche' il browser non puo'
+// leggere Yahoo per via del CORS). Tutto degrada con grazia se un pezzo manca.
+(function heroLayer() {
+  var HEADER_H = 64;
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* --- campo stellare --- */
+  (function stars() {
+    var c = document.getElementById("stars"); if (!c || reduce) return;
+    var x = c.getContext("2d"); if (!x) return;
+    var W, H, st, mx = 0, my = 0, t = 0, raf;
+    function rs() { W = c.width = innerWidth; H = c.height = innerHeight; var n = Math.min(180, Math.floor(W * H / 12000));
+      st = Array.from({ length: n }, function () { return { x: Math.random() * W, y: Math.random() * H, z: Math.random() * .8 + .2, r: Math.random() * 1.2 + .2, tw: Math.random() * Math.PI * 2 }; }); }
+    function draw() { t += .012; x.clearRect(0, 0, W, H); for (var i = 0; i < st.length; i++) { var s = st[i]; var px = s.x + mx * 24 * s.z, py = s.y + my * 24 * s.z, a = .28 + Math.sin(t + s.tw) * .22; x.beginPath(); x.arc(px, py, s.r * s.z * 1.3, 0, 7); x.fillStyle = "rgba(200,214,255," + a.toFixed(2) + ")"; x.fill(); } raf = requestAnimationFrame(draw); }
+    rs(); draw(); addEventListener("resize", rs); addEventListener("mousemove", function (e) { mx = e.clientX / W - .5; my = e.clientY / H - .5; });
+    document.addEventListener("visibilitychange", function () { if (document.hidden) { cancelAnimationFrame(raf); } else { draw(); } });
+  })();
+
+  /* --- titolo a macchina da scrivere --- */
+  (function tw() { var el = document.getElementById("heroType"); if (!el) return; var p = "See the close. Read the why.", cur = '<span class="type-cursor">&nbsp;</span>';
+    if (reduce) { el.innerHTML = p + cur; return; } var i = 0; (function s() { el.innerHTML = p.slice(0, i) + cur; if (i < p.length) { var pause = p[i] === "." ? 260 : 0; i++; setTimeout(s, 55 + pause); } })(); })();
+
+  /* --- ticker: chiusure della seduta precedente (o segnali weekend) --- */
+  (function ticker() {
+    var track = document.getElementById("tickerTrack"), bar = document.getElementById("tickerBar");
+    if (!track || !bar || typeof EDITIONS === "undefined" || !EDITIONS.length) { if (bar) bar.style.display = "none"; return; }
+    var ed = EDITIONS[0], rows = [];
+    var blk = ed.auto_report_by_index ? (ed.auto_report_by_index.sp500 || ed.auto_report_by_index.combined) : ed.auto_report;
+    if (blk) { rows = (blk.gainers || []).slice(0, 6).concat((blk.losers || []).slice(0, 6)).map(function (m) { return { s: m.symbol, p: m.pct_change }; }); }
+    if (!rows.length && ed.weekend_report && ed.weekend_report.signals) { (ed.weekend_report.signals.groups || []).forEach(function (g) { (g.instruments || []).forEach(function (it) { rows.push({ s: it.name_en || it.name, p: it.pct_change }); }); }); }
+    if (!rows.length) { bar.style.display = "none"; document.body.style.paddingBottom = "0"; return; }
+    var cell = function (r) { var cls = r.p >= 0 ? "up" : "down", sign = r.p >= 0 ? "+" : ""; return '<span class="tk"><span class="sym">' + r.s + '</span><span class="' + cls + '">' + sign + Number(r.p).toFixed(2) + '%</span></span>'; };
+    var h = rows.map(cell).join(""); track.innerHTML = h + h;
+  })();
+
+  /* --- weekend? (ora di New York) --- */
+  var forced = /[?&](closed|weekend)\b/.test(location.search);
+  var wd = new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", weekday: "short" }).format(new Date());
+  var isWeekend = (wd === "Sat" || wd === "Sun") || forced;
+
+  /* --- viste: edition (editoriale) / live (indici + notizie) --- */
+  function setView(v) {
+    document.body.setAttribute("data-view", v);
+    try { localStorage.setItem("view", v); } catch (e) {}
+    document.querySelectorAll(".nav-link[data-go]").forEach(function (b) { b.classList.toggle("active", b.dataset.go === v); });
+    if (v === "live" && isWeekend) openMcFull();
+  }
+  var savedView = "edition";
+  try { savedView = localStorage.getItem("view") || "edition"; } catch (e) {}
+  document.body.setAttribute("data-view", savedView);
+
+  function scrollToEl(sel) { var el = typeof sel === "string" ? document.querySelector(sel) : sel; if (!el) return false; var y = el.getBoundingClientRect().top + window.pageYOffset - HEADER_H - 14; window.scrollTo({ top: y < 0 ? 0 : y, behavior: "smooth" }); return true; }
+  function goLive() { setView("live"); if (!isWeekend) scrollToEl("#liveStrip") || scrollToEl(".only-live"); }
+  function goEdition() { closeMcFull(); setView("edition"); scrollToEl(".edition") || scrollToEl("#editionsContent"); }
+  function openArchive() { closeMcFull(); setView("edition"); var t = document.getElementById("archiveToggle"); if (t && !document.querySelector(".archive-item")) { t.click(); setTimeout(function () { var n = document.getElementById("archiveToggle"); scrollToEl(n ? n.closest(".section-head") : "#editionsContent"); }, 90); } else { var n2 = document.getElementById("archiveToggle"); scrollToEl(n2 ? n2.closest(".section-head") : "#editionsContent"); } }
+
+  document.querySelectorAll(".nav-link[data-go]").forEach(function (b) { b.addEventListener("click", function () { var g = b.dataset.go; if (g === "live") goLive(); else if (g === "edition") goEdition(); else if (g === "archive") openArchive(); }); });
+  var gl = document.getElementById("goLiveBtn"); if (gl) gl.addEventListener("click", goLive);
+  var ge = document.getElementById("goEditionBtn"); if (ge) ge.addEventListener("click", goEdition);
+  document.querySelectorAll(".nav-link[data-go]").forEach(function (b) { b.classList.toggle("active", b.dataset.go === savedView); });
+
+  /* --- banner weekend nell'hero --- */
+  (function heroBanner() { var box = document.getElementById("marketClosed"); if (!box || !isWeekend) return;
+    box.innerHTML = '<div class="mc-title"><span class="dot"></span>Markets closed</div><div class="mc-body">Wall Street is shut for the weekend. Tap <strong>LIVE</strong> for the countdown to the next opening bell; the edition below covers the last close.</div>'; box.hidden = false; })();
+
+  /* --- overlay MERCATI CHIUSI + countdown --- */
+  var EXCH = [
+    { name: "Nasdaq-100", tz: "America/New_York", h: 9, m: 30 },
+    { name: "S&P 500", tz: "America/New_York", h: 9, m: 30 },
+    { name: "Dow Jones", tz: "America/New_York", h: 9, m: 30 },
+    { name: "FTSE MIB", tz: "Europe/Rome", h: 9, m: 0 }
+  ];
+  function msToOpen(tz, h, m) { var now = new Date(new Date().toLocaleString("en-US", { timeZone: tz })); var d = new Date(now); d.setHours(h, m, 0, 0); while (d <= now || d.getDay() === 0 || d.getDay() === 6) { d.setDate(d.getDate() + 1); d.setHours(h, m, 0, 0); } return d - now; }
+  function fmtDur(ms) { var s = Math.max(0, Math.floor(ms / 1000)); var d = Math.floor(s / 86400); s -= d * 86400; var hh = Math.floor(s / 3600); s -= hh * 3600; var mm = Math.floor(s / 60); var ss = s - mm * 60; var p = function (n) { return (n < 10 ? "0" : "") + n; }; return (d > 0 ? d + "d " : "") + p(hh) + ":" + p(mm) + ":" + p(ss); }
+  var mcFull = document.getElementById("mcFull"), mcGrid = document.getElementById("mcGrid"), mcTimer = null;
+  function renderMc() { if (!mcGrid) return; mcGrid.innerHTML = EXCH.map(function (e) { return '<div class="mc-ex"><div class="ex-name">' + e.name + '</div><div class="ex-time" data-tz="' + e.tz + '" data-h="' + e.h + '" data-m="' + e.m + '">--:--:--</div><div class="ex-sub">to open</div></div>'; }).join(""); tickMc(); }
+  function tickMc() { if (!mcGrid) return; mcGrid.querySelectorAll(".ex-time").forEach(function (el) { el.textContent = fmtDur(msToOpen(el.dataset.tz, +el.dataset.h, +el.dataset.m)); }); }
+  function openMcFull() { if (!mcFull) return; renderMc(); mcFull.classList.add("open"); if (mcTimer) clearInterval(mcTimer); mcTimer = setInterval(tickMc, 1000); }
+  function closeMcFull() { if (!mcFull) return; mcFull.classList.remove("open"); if (mcTimer) { clearInterval(mcTimer); mcTimer = null; } }
+  var mcClose = document.getElementById("mcCloseBtn"); if (mcClose) mcClose.addEventListener("click", function () { closeMcFull(); goEdition(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeMcFull(); });
+  if (isWeekend && savedView === "live") openMcFull();
+
+  /* --- percentuali LIVE degli indici (poll di live.json, stessa origine) --- */
+  (function live() {
+    var strip = document.getElementById("liveStrip"); if (!strip) return;
+    function paint(d) { var items = (d && d.indices) || []; if (!items.length) { strip.hidden = true; return; }
+      var when = ""; try { when = new Date(d.updated).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }); } catch (e) {}
+      strip.innerHTML = '<div class="li-head"><span class="live-dot"></span>Live index levels' + (when ? (' &middot; updated ' + when) : '') + (d.market_open === false ? ' &middot; market closed' : '') + '</div>' +
+        items.map(function (i) { var cls = i.pct > 0 ? "up" : (i.pct < 0 ? "down" : "flat"), sign = i.pct > 0 ? "+" : ""; return '<div class="live-idx"><div class="li-name">' + i.label + '</div><div class="li-pct ' + cls + '">' + sign + Number(i.pct).toFixed(2) + '%</div></div>'; }).join("");
+      strip.hidden = false;
+    }
+    function load() { fetch("live.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(paint).catch(function () { strip.hidden = true; }); }
+    load(); setInterval(load, 30 * 60 * 1000);
+  })();
+
+  /* --- Subscribe --- */
+  var modal = document.getElementById("subModal"), ob = document.getElementById("subscribeBtn"), cb = document.getElementById("subClose"), form = document.getElementById("subForm"), email = document.getElementById("subEmail"), msg = document.getElementById("subMsg");
+  function om() { if (modal) { modal.classList.add("open"); setTimeout(function () { email && email.focus(); }, 60); } }
+  function cm() { if (modal) modal.classList.remove("open"); }
+  if (ob) ob.addEventListener("click", om); if (cb) cb.addEventListener("click", cm);
+  if (modal) modal.addEventListener("click", function (e) { if (e.target === modal) cm(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") cm(); });
+  if (form) form.addEventListener("submit", function (e) { e.preventDefault(); var v = (email.value || "").trim(); if (!/.+@.+\..+/.test(v)) { msg.style.color = "var(--red-5,#f87171)"; msg.textContent = "Please enter a valid email address."; return; }
+    window.open("https://maximedaverio.substack.com/subscribe?email=" + encodeURIComponent(v), "_blank", "noopener"); msg.style.color = "var(--green-5,#4ade80)"; msg.textContent = "Opening Substack to confirm — check the new tab."; email.value = ""; });
+})();

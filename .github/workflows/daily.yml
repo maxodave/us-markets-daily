@@ -3,9 +3,17 @@ name: Edizione giornaliera
 # Aggiorna il sito da solo, senza dipendere dal Mac dell'autore.
 # 22:00 UTC = mezzanotte in Italia con l'ora estiva (23:00 con l'ora solare):
 # in entrambi i casi Wall Street ha chiuso da diverse ore.
+#
+# Nel FINE SETTIMANA (sabato e domenica) non c'e' una seduta nuova, ma le notizie
+# continuano ad arrivare: si rigenera ogni 6 ore (00/06/12/18 UTC) cosi' il digest
+# "Mercati" e la riga laterale "Top Mercati" restano freschi — sabato con le
+# notizie del sabato, domenica con le ultime della domenica. Questi run saltano il
+# fetch pesante delle notizie per singolo titolo (vedi lo step gated sotto): a
+# Wall Street chiusa non c'e' nulla di nuovo da spiegare per i mover.
 on:
   schedule:
     - cron: "0 22 * * *"
+    - cron: "0 */6 * * 6,0"
   workflow_dispatch:
 
 # Il workflow scrive nel repo in cui vive, quindi basta il GITHUB_TOKEN
@@ -39,13 +47,24 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Giorno della settimana in UTC (1=lun .. 7=dom): decide se questo e' un run
+      # feriale (seduta nuova) o del fine settimana (solo notizie). Il run delle
+      # 22:00 UTC di venerdi' e' un run FERIALE (weekday=5) e raccoglie la seduta di
+      # venerdi'; sabato e domenica (6,7) saltano il fetch pesante.
+      - name: Giorno della settimana (UTC)
+        id: cal
+        run: echo "weekday=$(date -u +%u)" >> "$GITHUB_OUTPUT"
+
       - name: Dati di mercato S&P 500
         run: python pipeline/fetch_data.py
 
       # Solo i titoli agli estremi della seduta: sono i soli che finiscono
       # nell'edizione, e ~1000 richieste a Google News da un IP di datacenter
-      # verrebbero probabilmente limitate.
+      # verrebbero probabilmente limitate. Nel fine settimana (weekday 6/7) si
+      # salta: Wall Street e' chiusa, non ci sono nuovi mover da spiegare e
+      # l'edizione diventa un riassunto di notizie (vedi weekend_edition.py).
       - name: Notizie dei mover
+        if: steps.cal.outputs.weekday != '6' && steps.cal.outputs.weekday != '7'
         run: python pipeline/fetch_news.py --movers-only
 
       - name: Feed notizie con immagini

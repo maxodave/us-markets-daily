@@ -10,8 +10,34 @@ __STYLE_CSS__
 </style>
 </head>
 <body>
+<canvas id="stars" aria-hidden="true"></canvas>
+<div class="vignette" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="site-nav" id="siteNav">
+  <div class="brand"><span aria-hidden="true">&#127482;&#127480;</span> US Markets Daily</div>
+  <nav class="nav-links" aria-label="Sections">
+    <button type="button" class="nav-link live-link" data-go="live"><span class="live-dot"></span>LIVE</button>
+    <button type="button" class="nav-link" data-go="edition">Read today's edition</button>
+    <button type="button" class="nav-link" data-go="archive">Archive</button>
+  </nav>
+  <button class="cta" id="subscribeBtn" type="button">Subscribe &rarr;</button>
+</header>
+
+<section class="hero" id="hero">
+  <div class="hero-eyebrow">Daily S&amp;P 500 &middot; Dow &middot; Nasdaq-100 Intelligence</div>
+  <h1 class="hero-title" id="heroType"><span class="type-cursor">&nbsp;</span></h1>
+  <p class="hero-sub">Every session's biggest movers &mdash; and the real headline behind each one.
+    No fluff, no hype, no predictions. Just what happened, and why, by the time you wake up.</p>
+  <div class="hero-actions">
+    <button class="btn primary" id="goLiveBtn" type="button"><span class="live-dot"></span>LIVE</button>
+    <button class="btn ghost" id="goEditionBtn" type="button">Read today's edition</button>
+  </div>
+  <div class="market-closed" id="marketClosed" hidden></div>
+  <div class="hero-scroll" aria-hidden="true"><span class="scroll-dot"></span></div>
+</section>
+
 <div class="wrap">
-  <h1>US Markets Daily</h1>
   <!-- Il testo qui sotto (sottotitolo/disclaimer/footer) e' in inglese di default:
        e' anche il testo di riserva per chi non esegue JS (motori di ricerca,
        anteprima social). app.js lo aggiorna a ogni render in base alla lingua
@@ -29,11 +55,40 @@ __STYLE_CSS__
        pagina completa. Serve a due cose: se app.js va in errore il lettore vede
        comunque di che giornata si tratta invece di una pagina bianca, e Google e la
        card di LinkedIn trovano un testo anche senza eseguire il JS. -->
+  <div id="liveStrip" class="live-strip only-live" hidden></div>
   <div id="editionsContent">__FALLBACK_HTML__</div>
 
   <footer>
     <span id="footer-text">Images remain the property of their respective outlets, linked to the original source.</span>
   </footer>
+</div>
+
+<div class="ticker-bar" id="tickerBar" aria-hidden="true"><div class="ticker-track" id="tickerTrack"></div></div>
+
+<div class="mc-full" id="mcFull" role="dialog" aria-modal="true">
+  <div class="mc-badge"><span class="dot"></span>U.S. &amp; EU markets closed</div>
+  <h2>MERCATI CHIUSI</h2>
+  <div class="mc-note">Wall Street and Borsa Italiana are shut for the weekend. Here's the countdown to the next opening bell.</div>
+  <div class="mc-grid" id="mcGrid"></div>
+  <button class="btn ghost mc-close" id="mcCloseBtn" type="button">Back to the edition</button>
+</div>
+
+<div class="modal-backdrop" id="subModal" role="dialog" aria-modal="true">
+  <div class="modal">
+    <button class="close" id="subClose" type="button" aria-label="Close">&times;</button>
+    <h3>Get the daily edition</h3>
+    <p class="modal-lead">One email at market open: the biggest movers and the real headline behind each. Enter your address and we'll take you to the confirmation.</p>
+    <form class="sub-form" id="subForm" novalidate>
+      <input type="email" id="subEmail" placeholder="you@example.com" autocomplete="email" required>
+      <button class="sub-go" type="submit">Notify me &rarr;</button>
+      <div class="sub-msg" id="subMsg"></div>
+    </form>
+    <div class="or">or</div>
+    <a class="substack-btn" href="https://maximedaverio.substack.com/subscribe" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="2" y="3.2" width="20" height="2.7"></rect><rect x="2" y="8.3" width="20" height="2.7"></rect><path d="M2 13.4h20V22l-10-5.4L2 22z"></path></svg>
+      Subscribe on Substack
+    </a>
+  </div>
 </div>
 
 <script>
