@@ -44,6 +44,13 @@ HEADERS = {
 FEEDS = [
     # --- mercati / finanza ---
     ("Yahoo Finance", "https://finance.yahoo.com/news/rssindex", "mercati"),
+    ("Bloomberg", "https://feeds.bloomberg.com/markets/news.rss", "mercati"),
+    # Reuters e Barron's non offrono un RSS pubblico utilizzabile (Reuters ha chiuso
+    # i feed, Barron's risponde 403): si recuperano via Google News. Sono schede
+    # SENZA immagine (il link e' un redirect google, non l'articolo) e col titolo
+    # ripulito dal suffisso " - Testata" in collect(). Vedi anche backfill_images().
+    ("Reuters", "https://news.google.com/rss/search?q=site:reuters.com+business+when:2d&hl=en-US&gl=US&ceid=US:en", "mercati"),
+    ("Barron's", "https://news.google.com/rss/search?q=site:barrons.com+when:2d&hl=en-US&gl=US&ceid=US:en", "mercati"),
     ("MarketWatch", "https://feeds.content.dowjones.io/public/rss/mw_topstories", "mercati"),
     ("The Wall Street Journal", "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", "mercati"),
     ("Financial Times", "https://www.ft.com/rss/home", "mercati"),
@@ -68,6 +75,7 @@ FEEDS = [
     ("Wired Italia", "https://www.wired.it/feed/rss", "tech"),
     ("TechCrunch", "https://techcrunch.com/feed/", "tech"),
     ("Nature", "https://www.nature.com/nature.rss", "scienza"),
+    ("MIT Technology Review", "https://www.technologyreview.com/feed/", "scienza"),
 ]
 
 OG_IMAGE_RE = re.compile(
@@ -144,9 +152,14 @@ def collect() -> list[dict]:
             seen_links.add(link)
             seen_titles.add(nt)
             dt = parse_dt(e)
+            title = (e.get("title") or "").strip()
+            # Google News aggiunge " - Testata" in coda al titolo: la fonte la
+            # mostriamo gia' noi (l'etichetta del feed), quindi si toglie.
+            if "news.google.com" in url:
+                title = title.rsplit(" - ", 1)[0].strip()
             items.append(
                 {
-                    "title": (e.get("title") or "").strip(),
+                    "title": title,
                     "source": source,
                     "category": category,
                     "published": e.get("published", ""),
@@ -163,7 +176,9 @@ def collect() -> list[dict]:
 
 
 def backfill_images(items: list[dict]) -> None:
-    missing = [i for i in items[:IMG_FETCH_LIMIT] if not i["image"]]
+    # I link di Google News (Reuters/Barron's) sono redirect, non l'articolo: il
+    # fetch og:image non troverebbe nulla e sprecherebbe solo tempo — si saltano.
+    missing = [i for i in items[:IMG_FETCH_LIMIT] if not i["image"] and "news.google.com" not in i["link"]]
     if not missing:
         return
     print(f"\nRecupero og:image per {len(missing)} articoli senza immagine nel feed...")

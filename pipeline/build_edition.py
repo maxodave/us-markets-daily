@@ -292,11 +292,47 @@ def load_feed_raw() -> list[dict]:
 
 
 def load_feed_items(items: list[dict] | None = None) -> list[dict]:
+    """I MAX_FEED_ITEMS articoli del feed, scelti a ROUND-ROBIN per testata.
+
+    Prima si prendeva "prima quelli con immagine, poi il resto, taglia a 40": con
+    tante testate i 40 slot si riempivano coi soli articoli con foto delle fonti
+    piu' prolifiche, e chi non ha immagine (Reuters/Barron's via Google News) o
+    pubblica meno non entrava MAI. Qui invece ogni testata contribuisce a turno il
+    suo articolo piu' recente, poi il secondo, ecc.: cosi' TUTTE le fonti scelte
+    compaiono, con l'immagine preferita dentro ciascuna testata. La lista finale
+    resta ordinata per data (gli articoli in ingresso lo sono gia')."""
     items = load_feed_raw() if items is None else items
-    # prima quelli con immagine, mantenendo l'ordine cronologico dentro i due gruppi
-    with_img = [i for i in items if i.get("image")]
-    without = [i for i in items if not i.get("image")]
-    return (with_img + without)[:MAX_FEED_ITEMS]
+    for rank, it in enumerate(items):
+        it["_rank"] = rank  # posizione cronologica d'origine (0 = piu' recente)
+
+    by_source: dict[str, list[dict]] = {}
+    for it in items:
+        by_source.setdefault(it.get("source", ""), []).append(it)
+    # dentro ogni testata: prima gli articoli con immagine, ordine cronologico
+    # preservato (sort stabile su una lista gia' ordinata per data).
+    for group in by_source.values():
+        group.sort(key=lambda i: 0 if i.get("image") else 1)
+    # testate ordinate per quanto e' fresco il loro articolo migliore
+    order = sorted(by_source.values(), key=lambda g: g[0]["_rank"])
+
+    selected: list[dict] = []
+    depth = 0
+    while len(selected) < MAX_FEED_ITEMS:
+        advanced = False
+        for group in order:
+            if depth < len(group):
+                selected.append(group[depth])
+                advanced = True
+                if len(selected) >= MAX_FEED_ITEMS:
+                    break
+        if not advanced:
+            break
+        depth += 1
+
+    selected.sort(key=lambda i: i["_rank"])  # visualizzazione: piu' recenti in alto
+    for it in selected:
+        it.pop("_rank", None)
+    return selected
 
 
 def feed_fetched_at() -> datetime | None:
