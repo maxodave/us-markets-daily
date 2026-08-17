@@ -2,11 +2,20 @@ name: Quotazioni LIVE
 
 # Aggiorna live.json (livello e variazione % dei quattro indici) per la striscia
 # "LIVE" del sito. Leggero: quattro simboli, nessuna notizia — per questo puo'
-# girare ogni 30 minuti, tutto il giorno, senza pesare come la pipeline piena
-# (repo pubblico: i minuti di GitHub Actions sono illimitati e gratuiti).
+# girare spesso, tutto il giorno, senza pesare come la pipeline piena (repo
+# pubblico: i minuti di GitHub Actions sono illimitati e gratuiti).
+#
+# Ogni 15 minuti e non ogni 30: GitHub stesso documenta che gli "schedule" possono
+# essere ritardati o SALTATI DEL TUTTO nei momenti di carico piu' alto, in
+# particolare "all'inizio di ogni ora" — e un run saltato non produce nessun
+# errore, sparisce e basta. Verificato qui il 17/08/2026: col cron a 30 minuti,
+# i run delle 16:00 e delle 17:00 UTC non sono mai partiti, solo quello delle
+# 16:30. Con il cron a 15 minuti un salto nello stesso slot lascia comunque uno
+# scarto reale di ~15-20 minuti circa invece di 60+, senza costare nulla in piu'
+# (2 richieste extra all'ora a 4 simboli, non e' questo il limite pratico).
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
