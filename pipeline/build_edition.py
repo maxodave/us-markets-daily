@@ -84,12 +84,17 @@ MONTHS_EN = {
     7: "July", 8: "August", 9: "September", 10: "October", 11: "November", 12: "December",
 }
 
-INDEX_KEYS = ("sp500", "dow", "nasdaq100", "combined")
+INDEX_KEYS = ("sp500", "dow", "nasdaq100", "ftsemib", "combined")
+# "combined" e' l'unione deduplicata di questi tre soli (Wall Street): il FTSE MIB
+# ha valuta e orari di borsa diversi, e resta un tab a se', mai sommato agli USA.
+# Vedi il bivio su questa costante dentro il ciclo di main().
+US_INDEX_KEYS = ("sp500", "dow", "nasdaq100")
 INDEX_LABELS = {
     "sp500": {"it": "l'S&P 500", "en": "the S&P 500"},
     "dow": {"it": "il Dow Jones", "en": "the Dow Jones"},
     "nasdaq100": {"it": "il Nasdaq-100", "en": "the Nasdaq-100"},
-    "combined": {"it": "l'insieme dei tre indici", "en": "the combined three indices"},
+    "ftsemib": {"it": "il FTSE MIB", "en": "the FTSE MIB"},
+    "combined": {"it": "l'insieme dei tre indici USA", "en": "the combined three U.S. indices"},
 }
 
 # Notizie da mostrare nel feed visuale dell'edizione
@@ -135,6 +140,14 @@ def movers_entry(c: dict) -> dict:
     # una notizia recente. Mescolarle porta ad attribuzioni contraddittorie (un
     # titolo salito del 10% "spiegato" da una notizia di giorni prima che parlava
     # di un calo). Lo storico serve al contesto, non come causa.
+    #
+    # FTSE MIB fa eccezione DI PROPOSITO: select_movers() di fetch_news.py non lo
+    # interroga mai (elenca solo sp500/dow/nasdaq100), quindi qui non ci sarebbe
+    # comunque nulla da leggere — ma alcune societa' italiane grandi (Ferrari,
+    # Stellantis...) potrebbero avere notizie in inglese per altri motivi. Il
+    # controllo esplicito rende la scelta "solo prezzo, niente motivo" garantita
+    # e non un caso fortunato.
+    is_ftsemib = "ftsemib" in (c.get("indices") or [])
     return {
         "symbol": c["symbol"],
         "name": c["name"],
@@ -142,9 +155,9 @@ def movers_entry(c: dict) -> dict:
         "pct_change": c["pct_change"],
         "last_close": c["last_close"],
         "indices": c.get("indices") or [],
-        "reason": pick_reason(c, news_key="news_recent"),
-        "news": _slim((c.get("news_recent") or [])[:6]),
-        "news_historical": _slim((c.get("news_historical") or [])[:3]),
+        "reason": None if is_ftsemib else pick_reason(c, news_key="news_recent"),
+        "news": [] if is_ftsemib else _slim((c.get("news_recent") or [])[:6]),
+        "news_historical": [] if is_ftsemib else _slim((c.get("news_historical") or [])[:3]),
     }
 
 
@@ -418,7 +431,10 @@ def main():
     auto_report_by_index = {}
     for index_key in INDEX_KEYS:
         if index_key == "combined":
-            subset = companies
+            # Unione deduplicata dei SOLI tre indici USA (vedi US_INDEX_KEYS): non
+            # "companies" per intero, altrimenti il FTSE MIB (valuta e orari
+            # diversi) finirebbe sommato dentro il totale di Wall Street.
+            subset = [c for c in companies if set(c.get("indices") or []) & set(US_INDEX_KEYS)]
         else:
             subset = [c for c in companies if index_key in (c.get("indices") or ["sp500"])]
         stats, gainers, losers = build_stats_and_movers(subset)

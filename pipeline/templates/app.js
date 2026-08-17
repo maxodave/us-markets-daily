@@ -11,7 +11,7 @@ let feedState = { category: null, showArchive: false };
 // L'inglese e' la lingua originale/di default (vedi README).
 let lang = localStorage.getItem("lang") || "en";
 let indexTab = localStorage.getItem("indexTab") || "sp500";
-const INDEX_TABS = ["sp500", "dow", "nasdaq100", "combined"];
+const INDEX_TABS = ["sp500", "dow", "nasdaq100", "ftsemib", "combined"];
 const INDEX_BADGE = { sp500: "SPX", dow: "DJI", nasdaq100: "NDX" };
 
 const I18N = {
@@ -41,7 +41,7 @@ const I18N = {
     noCatalyst: "No company-specific catalyst reported by the outlets tracked",
     commentaryLabel: "Today's commentary",
     marketsBriefLabel: "Top in Markets",
-    indexLabels: { sp500: "S&P 500", dow: "Dow Jones", nasdaq100: "Nasdaq-100", combined: "Combined" },
+    indexLabels: { sp500: "S&P 500", dow: "Dow Jones", nasdaq100: "Nasdaq-100", ftsemib: "FTSE MIB", combined: "Combined" },
     // Edizione senza seduta nuova (domenica, lunedi', dopo una festivita').
     newsFrom: "news from",
     noSessionNote: "Wall Street was closed. The last session was covered in the previous edition and its figures are not repeated here.",
@@ -81,7 +81,7 @@ const I18N = {
     noCatalyst: "Nessun catalizzatore societario riportato dalle testate seguite",
     commentaryLabel: "Commento della giornata",
     marketsBriefLabel: "Top Mercati",
-    indexLabels: { sp500: "S&P 500", dow: "Dow Jones", nasdaq100: "Nasdaq-100", combined: "Combinata" },
+    indexLabels: { sp500: "S&P 500", dow: "Dow Jones", nasdaq100: "Nasdaq-100", ftsemib: "FTSE MIB", combined: "Combinata" },
     newsFrom: "notizie del",
     noSessionNote: "Wall Street era chiusa. L'ultima seduta e' gia' stata coperta dall'edizione precedente: i suoi numeri qui non vengono ripetuti.",
     signalsTitle: "Cosa ha scambiato a Wall Street chiusa",

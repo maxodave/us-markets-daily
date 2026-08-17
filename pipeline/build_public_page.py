@@ -72,7 +72,7 @@ ARCHIVE_FIELDS = (
 )
 # Indici per cui esiste una finestra dedicata (vedi build_edition.py). "combined"
 # e' l'unione deduplicata dei tre, non un quarto indice a se'.
-INDEX_KEYS = ("sp500", "dow", "nasdaq100", "combined")
+INDEX_KEYS = ("sp500", "dow", "nasdaq100", "ftsemib", "combined")
 
 
 class TemplateError(Exception):
