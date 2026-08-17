@@ -28,7 +28,12 @@ import requests
 import yfinance as yf
 
 SP500_URL = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
-DOW_URL = "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average"
+# NON la pagina "Dow Jones Industrial Average" (dal 2026 non ha piu' la tabella dei 30
+# titoli, solo la storia dell'indice): la tabella con Symbol/Sector vive nella pagina
+# dedicata, esattamente come per S&P 500 e Nasdaq-100 qui sotto. Senza questo la
+# finestra Dow Jones esce silenziosamente vuota (fallisce dentro un try/except che
+# stampa solo su stderr) — vedi fetch_constituents_dow().
+DOW_URL = "https://en.wikipedia.org/wiki/List_of_Dow_Jones_Industrial_Average_companies"
 # NON la pagina "Nasdaq-100" (ha solo un elenco senza tabella): la tabella coi ticker
 # e i settori vive nella pagina dedicata, con la maiuscola "NASDAQ" nel titolo esatto.
 NASDAQ100_URL = "https://en.wikipedia.org/wiki/List_of_NASDAQ-100_companies"
