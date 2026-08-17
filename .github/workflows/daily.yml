@@ -1,8 +1,15 @@
 name: Edizione giornaliera
 
 # Aggiorna il sito da solo, senza dipendere dal Mac dell'autore.
-# 22:00 UTC = mezzanotte in Italia con l'ora estiva (23:00 con l'ora solare):
-# in entrambi i casi Wall Street ha chiuso da diverse ore.
+#
+# 21:30 UTC = SUBITO DOPO la chiusura di Wall Street (20:00 UTC d'estate, 21:00
+# d'inverno), e ancora SERA in Italia (23:30 d'estate, 22:30 d'inverno). Due cose
+# in una: il riepilogo e' pronto gia' la sera con i dati di CHIUSURA (non un
+# intraday di meta' giornata), e — poiche' build_edition.py data l'edizione con
+# datetime.now() in ora italiana, cioe' ancora lo stesso giorno della seduta —
+# esce come "Edition of <oggi> · session of <oggi>", una sola edizione per seduta.
+# (Prima girava alle 22:00 UTC = mezzanotte italiana d'estate: aggiornava tardi e
+# datava l'edizione al giorno DOPO solo d'estate — un'incoerenza stagionale.)
 #
 # Nel FINE SETTIMANA (sabato e domenica) non c'e' una seduta nuova, ma le notizie
 # continuano ad arrivare: si rigenera ogni 6 ore (00/06/12/18 UTC) cosi' il digest
@@ -12,7 +19,7 @@ name: Edizione giornaliera
 # Wall Street chiusa non c'e' nulla di nuovo da spiegare per i mover.
 on:
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "30 21 * * *"
     - cron: "0 */6 * * 6,0"
   workflow_dispatch:
 
