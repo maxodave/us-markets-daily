@@ -40,7 +40,20 @@ const I18N = {
     worstMovers: "Worst of the session",
     noCatalyst: "No company-specific catalyst reported by the outlets tracked",
     commentaryLabel: "Today's commentary",
+    marketsBriefLabel: "Top in Markets",
     indexLabels: { sp500: "S&P 500", dow: "Dow Jones", nasdaq100: "Nasdaq-100", combined: "Combined" },
+    // Edizione senza seduta nuova (domenica, lunedi', dopo una festivita').
+    newsFrom: "news from",
+    noSessionNote: "Wall Street was closed. The last session was covered in the previous edition and its figures are not repeated here.",
+    signalsTitle: "What traded while Wall Street was closed",
+    signalsNote: "Change since the last US close. These are quotes on markets that stay open — not forecasts.",
+    watchTitle: "On the calendar",
+    watchNote: "Scheduled events and previews published by the outlets themselves — listed, not predicted.",
+    digestTitle: "The weekend in headlines",
+    moreTitle: "More from these days",
+    weekendCommentaryLabel: "Weekend commentary",
+    nicheTitle: "Named in weekend coverage",
+    nicheNote: "A lexical score (0–10) for how intensely the outlets themselves wrote about it — not a forecast, not investment advice, and not backtested against real price moves.",
   },
   it: {
     subtitle: "Resoconto giornaliero dei mercati USA",
@@ -67,7 +80,19 @@ const I18N = {
     worstMovers: "Peggiori della seduta",
     noCatalyst: "Nessun catalizzatore societario riportato dalle testate seguite",
     commentaryLabel: "Commento della giornata",
+    marketsBriefLabel: "Top Mercati",
     indexLabels: { sp500: "S&P 500", dow: "Dow Jones", nasdaq100: "Nasdaq-100", combined: "Combinata" },
+    newsFrom: "notizie del",
+    noSessionNote: "Wall Street era chiusa. L'ultima seduta e' gia' stata coperta dall'edizione precedente: i suoi numeri qui non vengono ripetuti.",
+    signalsTitle: "Cosa ha scambiato a Wall Street chiusa",
+    signalsNote: "Variazione dall'ultima chiusura americana. Sono quotazioni di mercati rimasti aperti, non previsioni.",
+    watchTitle: "In calendario",
+    watchNote: "Appuntamenti gia' fissati e anteprime pubblicate dalle testate stesse: elencati, non previsti.",
+    digestTitle: "Il fine settimana in sintesi",
+    moreTitle: "Altre notizie di questi giorni",
+    weekendCommentaryLabel: "Commento del fine settimana",
+    nicheTitle: "Nominate nella copertura del weekend",
+    nicheNote: "Un punteggio lessicale (0–10) su quanto intensamente ne hanno scritto le testate — non una previsione, non un consiglio di investimento, non verificato contro i movimenti di prezzo reali.",
   },
 };
 
@@ -178,6 +203,28 @@ function renderEditionHeaderLegacy(ed) {
 }
 
 // ====== Vista NUOVA: bilingue + 3 indici + combinata ======
+// Riga laterale "Top Mercati": bordo colorato (viola nei giorni di borsa,
+// arancione nel weekend) con il riassunto delle notizie top della sezione
+// Mercati. Preferisce la prosa scritta da Claude; se non c'e', elenca i titoli
+// top (sempre presenti), cosi' il blocco non e' mai vuoto. Vedi build_edition.py.
+function marketsBrief(ed, lang, isWeekend) {
+  const mb = ed.markets_brief;
+  if (!mb) return "";
+  const t = I18N[lang];
+  const prose = lang === "en" ? mb.prose_html_en : mb.prose_html;
+  const items = mb.items || [];
+  if (!prose && !items.length) return "";
+  const body = prose
+    ? `<div class="mb-prose">${prose}</div>`
+    : `<ul class="mb-list">${items.map(i =>
+        `<li><a href="${esc(i.link)}" target="_blank" rel="noopener noreferrer"><span class="mb-src">${esc(i.source)}</span>${esc(i.title)}</a></li>`
+      ).join("")}</ul>`;
+  return `<div class="markets-brief${isWeekend ? " weekend" : ""}">
+      <div class="mb-label">${esc(t.marketsBriefLabel)}</div>
+      ${body}
+    </div>`;
+}
+
 function renderEditionHeaderNew(ed, lang, indexTab) {
   const t = I18N[lang];
   const block = ed.auto_report_by_index[indexTab] || ed.auto_report_by_index.sp500;
@@ -229,7 +276,7 @@ function renderEditionHeaderNew(ed, lang, indexTab) {
     ${indexTabsHtml}
 
     <div class="edition-body">
-      <div class="edition-text auto-report">${autoParas}${commentary}</div>
+      <div class="edition-text auto-report">${autoParas}${marketsBrief(ed, lang, false)}${commentary}</div>
       <div class="movers-split">
         <div class="movers-col">
           <h4>${esc(t.bestMovers)}</h4>
@@ -242,6 +289,156 @@ function renderEditionHeaderNew(ed, lang, indexTab) {
       </div>
     </div>
   `;
+}
+
+// ====== Vista FINE SETTIMANA: nessuna seduta nuova da raccontare ======
+// Domenica, lunedi' e il giorno dopo una festivita' di borsa l'ultima seduta
+// chiusa e' la stessa gia' pubblicata: ripeterne percentuali, top gainer e top
+// loser per tre giorni di fila e' inutile per chi legge. Questa vista mostra
+// invece il riassunto delle notizie del giorno appena passato, i mercati che
+// restano aperti e gli appuntamenti in calendario. Vedi weekend_edition.py.
+//
+// Volutamente NON disegna: stat-strip della seduta, schede indice, elenchi di
+// mover. Se un giorno ricomparissero qui, sarebbe tornato il difetto.
+
+// I movimenti macro non si leggono con la scala di un singolo titolo: per un
+// future sull'S&P 500 lo 0,8% e' una giornata vera, per un'azione e' rumore.
+// Da qui una scala propria, molto piu' stretta di pctColor().
+function signalColor(pct) {
+  const a = Math.abs(pct);
+  if (a < 0.25) return { bg: "var(--panel-2)", fg: "var(--muted)" };
+  if (pct > 0) return a < 1 ? { bg: "var(--green-1)", fg: "var(--green-5)" } : { bg: "var(--green-3)", fg: "#fff" };
+  return a < 1 ? { bg: "var(--red-1)", fg: "var(--red-5)" } : { bg: "var(--red-3)", fg: "#fff" };
+}
+
+function signalPanel(signals, lang) {
+  if (!signals || !signals.groups || !signals.groups.length) return "";
+  const t = I18N[lang];
+  const groups = signals.groups.map(g => `
+    <div class="signal-group">
+      <div class="sg-label">${esc(g.label[lang] || g.label.en)}</div>
+      ${g.instruments.map(i => {
+        const c = signalColor(i.pct_change);
+        const name = lang === "it" ? (i.name_it || i.name_en) : i.name_en;
+        return `<div class="signal-row">
+          <span class="sig-name">${esc(name)}</span>
+          <span class="pct" style="background:${c.bg};color:${c.fg}">${fmtPct(i.pct_change, lang)}</span>
+        </div>`;
+      }).join("")}
+    </div>`).join("");
+  return `<div class="signal-panel">
+    <div class="signal-head">
+      <h4>${esc(t.signalsTitle)}</h4>
+      <div class="signal-note">${esc(t.signalsNote)}</div>
+    </div>
+    <div class="signal-grid">${groups}</div>
+  </div>`;
+}
+
+// Punteggio 0-10 -> colore. Volutamente NEUTRO (mai rosso/verde): in questo
+// sito rosso e verde significano sempre "il prezzo e' sceso/salito", ma questo
+// punteggio non ha una direzione — un richiamo prodotti e un utile record
+// possono avere lo stesso punteggio alto, perche' misura solo quanto
+// intensamente ne ha scritto la testata. Colorarlo come una percentuale
+// smentirebbe in un'occhiata cio' che nicheNote dice a parole.
+function scoreColor(score) {
+  if (score >= 8) return { bg: "var(--accent)", fg: "#fff" };
+  if (score >= 6.5) return { bg: "var(--panel-2)", fg: "var(--accent)" };
+  return { bg: "var(--panel-2)", fg: "var(--muted)" };
+}
+
+function nichePanel(signals, lang) {
+  if (!signals || !signals.length) return "";
+  const t = I18N[lang];
+  const rows = signals.map(s => {
+    const c = scoreColor(s.score);
+    return `<a class="niche-item" href="${esc(s.link)}" target="_blank" rel="noopener noreferrer">
+      <div class="niche-head">
+        <span class="sym">${esc(s.symbol)}</span>
+        <span class="mname">${esc(s.name)}</span>
+        <span class="score-badge" style="background:${c.bg};color:${c.fg}">${s.score}/10</span>
+      </div>
+      <div class="mover-reason"><span class="mr-source">${esc(s.source)}</span>${esc(s.title)}</div>
+    </a>`;
+  }).join("");
+  return `<div class="watch-col">
+    <h4>${esc(t.nicheTitle)}</h4>
+    ${rows}
+    <div class="watch-note">${esc(t.nicheNote)}</div>
+  </div>`;
+}
+
+function watchPanel(watchlist, lang) {
+  if (!watchlist || !watchlist.length) return "";
+  const t = I18N[lang];
+  const rows = watchlist.map(w => `
+    <a class="watch-item" href="${esc(w.link)}" target="_blank" rel="noopener noreferrer">
+      <span class="mr-source">${esc(w.source)}</span>${esc(w.title)}
+    </a>`).join("");
+  return `<div class="watch-col">
+    <h4>${esc(t.watchTitle)}</h4>
+    ${rows}
+    <div class="watch-note">${esc(t.watchNote)}</div>
+  </div>`;
+}
+
+function renderEditionHeaderWeekend(ed, lang) {
+  const t = I18N[lang];
+  const w = ed.weekend_report;
+  const paragraphs = (w.paragraphs && w.paragraphs[lang]) || [];
+  const autoParas = paragraphs.map(p => `<p>${esc(p)}</p>`).join("");
+
+  const commentaryHtml = lang === "it" ? ed.weekend_commentary_html : ed.weekend_commentary_html_en;
+  const commentary = commentaryHtml
+    ? `<div class="commentary">
+         <div class="commentary-label">${esc(t.weekendCommentaryLabel)}</div>
+         ${commentaryHtml}
+       </div>`
+    : "";
+
+  const editionDate = lang === "en" ? (ed.edition_date_en || ed.edition_date_it) : ed.edition_date_it;
+  const coversDate = lang === "en" ? w.covers_date_en : w.covers_date_it;
+  const headline = lang === "en" ? (ed.headline_en || ed.headline) : ed.headline;
+
+  const langToggle = `<div class="lang-toggle">
+      <div class="lang-chip ${lang === "en" ? "active" : ""}" data-lang="en">EN</div>
+      <div class="lang-chip ${lang === "it" ? "active" : ""}" data-lang="it">IT</div>
+    </div>`;
+
+  return `
+    <div class="eyebrow-row">
+      <div class="eyebrow">${esc(t.editionOf)} ${esc(editionDate)} <span class="dim">&middot; ${esc(t.newsFrom)} ${esc(coversDate)}</span></div>
+      ${langToggle}
+    </div>
+    <h2 class="edition-headline">${esc(headline)}</h2>
+    <div class="edition-meta">${esc(t.updatedOn)} ${esc(ed.generated_at || "")}</div>
+
+    <div class="no-session-note">${esc(t.noSessionNote)}</div>
+
+    ${signalPanel(w.signals, lang)}
+
+    <div class="edition-body">
+      <div class="edition-text auto-report">${autoParas}${marketsBrief(ed, lang, true)}${commentary}</div>
+      <div class="weekend-side">
+        ${watchPanel(w.watchlist, lang)}
+        ${nichePanel(w.niche_signals, lang)}
+      </div>
+    </div>
+  `;
+}
+
+function weekendDigest(w, lang) {
+  if (!w.sections || !w.sections.length) return "";
+  const t = I18N[lang];
+  let html = `<div class="section-head"><h3>${esc(t.digestTitle)}</h3></div>`;
+  w.sections.forEach(s => {
+    // Solo il nome del tema: mostrare accanto il totale disponibile (59) sopra
+    // sei schede fa sembrare la pagina incompleta. I totali stanno nel testo,
+    // dove sono una misura di copertura e non una promessa non mantenuta.
+    html += `<div class="digest-theme">${esc(s.label[lang] || s.label.en)}</div>`;
+    html += `<div class="feed-grid">${s.items.map(i => feedCard(i, lang)).join("")}</div>`;
+  });
+  return html;
 }
 
 // Testo fisso fuori da #editionsContent (sottotitolo/disclaimer/footer): segue la
@@ -267,10 +464,14 @@ function renderEditions() {
   const latest = EDITIONS[0];
   const older = EDITIONS.slice(1);
   const hasMultiIndex = !!latest.auto_report_by_index;
+  // Un'edizione di riassunto ha comunque auto_report_by_index (e' l'archivio dei
+  // dati della seduta), quindi il controllo va fatto PRIMA: qui si sceglie che
+  // cosa disegnare, e per il fine settimana la risposta non e' "la seduta".
+  const isWeekend = latest.edition_kind === "weekend_recap" && !!latest.weekend_report;
   // Le edizioni pre-multi-indice non hanno testo inglese: quando sono in testa,
   // TUTTA la pagina (non solo l'edizione) resta in italiano, senza pulsante
   // lingua ne' schede — esattamente come prima di questa funzionalita'.
-  const L = hasMultiIndex ? lang : "it";
+  const L = (hasMultiIndex || isWeekend) ? lang : "it";
   const t = I18N[L];
   applyShellI18n(L);
 
@@ -278,11 +479,17 @@ function renderEditions() {
   const shown = feedState.category ? feedItems.filter(i => i.category === feedState.category) : feedItems;
   const available = CATEGORIES.filter(c => feedItems.some(i => i.category === c.key));
 
-  const header = hasMultiIndex ? renderEditionHeaderNew(latest, lang, indexTab) : renderEditionHeaderLegacy(latest);
+  const header = isWeekend
+    ? renderEditionHeaderWeekend(latest, L)
+    : (hasMultiIndex ? renderEditionHeaderNew(latest, lang, indexTab) : renderEditionHeaderLegacy(latest));
   let html = `<div class="edition">${header}</div>`;
 
+  // Il digest per tema va PRIMA del feed: e' la parte redazionale dell'edizione
+  // del fine settimana, il feed sotto e' cio' che resta.
+  if (isWeekend) html += weekendDigest(latest.weekend_report, L);
+
   html += `<div class="section-head">
-      <h3>${esc(t.feedTitle)}</h3>
+      <h3>${esc(isWeekend ? t.moreTitle : t.feedTitle)}</h3>
       <div class="cat-filters">
         <div class="cat-chip ${feedState.category === null ? "active" : ""}" data-cat="">${esc(t.allLabel)} (${feedItems.length})</div>
         ${available.map(c => {
@@ -301,11 +508,18 @@ function renderEditions() {
     if (feedState.showArchive) {
       html += older.map(ed => {
         const edDate = L === "en" ? (ed.edition_date_en || ed.edition_date_it) : ed.edition_date_it;
-        const sDate = L === "en" ? (ed.session_date_en || ed.session_date_it) : ed.session_date_it;
         const headline = L === "en" ? (ed.headline_en || ed.headline) : ed.headline;
+        // Le edizioni del fine settimana si datano sulle NOTIZIE che riassumono,
+        // non sulla seduta: scritte "seduta del 14 agosto" apparirebbero come tre
+        // voci identiche in fila, che e' esattamente cio' che si voleva togliere.
+        const weekend = ed.edition_kind === "weekend_recap";
+        const subLabel = weekend ? t.newsFrom : t.sessionOf;
+        const sDate = weekend
+          ? (L === "en" ? (ed.covers_date_en || ed.covers_date_it) : ed.covers_date_it)
+          : (L === "en" ? (ed.session_date_en || ed.session_date_it) : ed.session_date_it);
         return `
         <div class="archive-item">
-          <div class="a-date">${esc(t.editionOf)} ${esc(edDate)} &middot; ${esc(t.sessionOf)} ${esc(sDate)}</div>
+          <div class="a-date">${esc(t.editionOf)} ${esc(edDate)} &middot; ${esc(subLabel)} ${esc(sDate)}</div>
           <div class="a-title">${esc(headline)}</div>
         </div>
       `;
@@ -324,7 +538,7 @@ function renderEditions() {
   const at = document.getElementById("archiveToggle");
   if (at) at.addEventListener("click", () => { feedState.showArchive = !feedState.showArchive; renderEditions(); });
 
-  if (hasMultiIndex) {
+  if (hasMultiIndex || isWeekend) {
     el.querySelectorAll(".lang-chip").forEach(chip => {
       chip.addEventListener("click", () => {
         lang = chip.dataset.lang;
@@ -332,6 +546,9 @@ function renderEditions() {
         renderEditions();
       });
     });
+    // Le schede indice esistono solo nella vista di seduta: nel fine settimana
+    // non c'e' nessun elenco per indice da filtrare, quindi il selettore non
+    // viene disegnato e questo ciclo non trova nulla.
     el.querySelectorAll(".index-chip").forEach(chip => {
       chip.addEventListener("click", () => {
         indexTab = chip.dataset.index;

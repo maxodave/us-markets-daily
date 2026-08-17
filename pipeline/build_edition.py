@@ -31,6 +31,16 @@ Se esiste un commento scritto a mano (o da generate_commentary.py) per la stessa
 seduta in market_summary.json, viene usato come paragrafo di apertura in aggiunta
 al resoconto automatico.
 
+DUE TIPI DI EDIZIONE. Il campo "edition_kind" dice quale:
+  - "session"       — c'e' una seduta nuova da raccontare (da martedi' a sabato);
+  - "weekend_recap" — non c'e' (domenica, lunedi', giorno dopo una festivita').
+Nel secondo caso l'edizione NON ripete le percentuali e i mover della seduta gia'
+pubblicata: diventa un riassunto delle notizie del giorno appena passato piu' i
+mercati che nel fine settimana restano aperti. Tutta la logica sta in
+weekend_edition.py; qui c'e' solo il bivio. Il blocco "auto_report" viene scritto
+comunque, perche' e' l'archivio dei dati della seduta e diverse parti del progetto
+lo leggono, ma nessuna vista del recap lo mostra.
+
 Le edizioni non vengono mai sovrascritte a meno di --force: l'archivio e' la
 cronologia del sito.
 
@@ -41,13 +51,28 @@ Uso:
 import json
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 
+import weekend_edition
 from mover_reason import pick_reason
 
 DATA_FILE = "data.json"
 FEED_FILE = "feed_news.json"
 MANUAL_SUMMARY_FILE = "market_summary.json"
+# Commento discorsivo delle edizioni senza seduta nuova. File separato da
+# market_summary.json e indicizzato per DATA DELL'EDIZIONE, non della seduta:
+# domenica e lunedi' condividono la stessa seduta di riferimento, quindi una
+# chiave sulla seduta farebbe leggere a lunedi' il commento scritto per domenica.
+WEEKEND_SUMMARY_FILE = "weekend_summary.json"
+# Riassunto discorsivo delle notizie top della sezione "Mercati" (la riga
+# laterale colorata dell'edizione). Scritto da generate_commentary.py con l'API
+# Claude e indicizzato per DATA DELL'EDIZIONE (come il weekend: le notizie di
+# sabato non sono quelle di domenica). Se il file manca o e' di un altro giorno,
+# l'edizione ricade sulla lista dei titoli top, sempre presente.
+MARKETS_BRIEF_FILE = "markets_brief.json"
+# Quante notizie "Mercati" tenere per la riga laterale (e come materiale per la
+# prosa). Poche e in vista: la lista completa resta nel feed sotto.
+TOP_MARKETS_NEWS = 5
 EDITIONS_DIR = "editions"
 
 MESI_IT = {
@@ -238,17 +263,43 @@ def build_paragraphs(
     return paragraphs
 
 
-def load_feed_items() -> list[dict]:
+def load_feed_raw() -> list[dict]:
+    """Tutte le notizie del feed, senza tagli.
+
+    Separata da load_feed_items() perche' l'edizione del fine settimana deve
+    poter filtrare sull'orario di pubblicazione: partire dai 40 gia' selezionati
+    per immagine escluderebbe titoli recenti solo perche' senza foto.
+    """
     try:
         with open(FEED_FILE) as f:
             feed = json.load(f)
     except FileNotFoundError:
         return []
-    items = [i for i in feed.get("items", []) if i.get("category") in FEED_CATEGORIES]
+    return [i for i in feed.get("items", []) if i.get("category") in FEED_CATEGORIES]
+
+
+def load_feed_items(items: list[dict] | None = None) -> list[dict]:
+    items = load_feed_raw() if items is None else items
     # prima quelli con immagine, mantenendo l'ordine cronologico dentro i due gruppi
     with_img = [i for i in items if i.get("image")]
     without = [i for i in items if not i.get("image")]
     return (with_img + without)[:MAX_FEED_ITEMS]
+
+
+def feed_fetched_at() -> datetime | None:
+    """Quando il feed e' stato raccolto, in UTC.
+
+    E' l'ancora giusta per la finestra "ultime 24 ore" dell'edizione del fine
+    settimana: se un run parte in ritardo, o viene rilanciato a mano il giorno
+    dopo, contare dall'ora di ADESSO sposterebbe la finestra su notizie che il
+    feed non contiene nemmeno. Se il campo manca si torna all'ora corrente.
+    """
+    try:
+        with open(FEED_FILE) as f:
+            raw = json.load(f).get("fetched_at")
+        return datetime.strptime(raw, "%Y-%m-%d %H:%M:%S UTC").replace(tzinfo=timezone.utc)
+    except Exception:
+        return None
 
 
 def load_manual_summary(session_date: str) -> dict | None:
@@ -260,6 +311,55 @@ def load_manual_summary(session_date: str) -> dict | None:
     if ms.get("date") != session_date:
         return None  # commento scritto per un'altra seduta: non riusarlo
     return ms
+
+
+def load_weekend_summary(edition_date: str) -> dict | None:
+    """Commento discorsivo dell'edizione senza seduta, se scritto per QUESTA.
+
+    Il confronto e' sulla data dell'EDIZIONE: domenica e lunedi' hanno la stessa
+    seduta di riferimento, quindi una chiave sulla seduta farebbe ricomparire di
+    lunedi' il testo di domenica — la ripetizione che questa funzionalita' esiste
+    per eliminare.
+    """
+    try:
+        with open(WEEKEND_SUMMARY_FILE, encoding="utf-8") as f:
+            ws = json.load(f)
+    except (FileNotFoundError, ValueError):
+        return None
+    return ws if ws.get("edition_date") == edition_date else None
+
+
+def top_markets_items(feed_raw: list[dict], weekend_report: dict | None) -> list[dict]:
+    """Le notizie top della sezione "Mercati" del giorno, per la riga laterale.
+
+    Weekend: dal digest gia' ordinato di weekend_edition.py (la sezione "mercati",
+    che li' si chiama "Mercati e macro"). Giorno feriale: dal feed del giorno,
+    categoria "mercati", nell'ordine in cui e' arrivato. In entrambi i casi si
+    tengono solo i primi TOP_MARKETS_NEWS: e' un riassunto, non l'elenco completo.
+    """
+    if weekend_report:
+        items = next((s.get("items", []) for s in weekend_report.get("sections", [])
+                      if s.get("key") == "mercati"), [])
+    else:
+        items = [i for i in feed_raw if i.get("category") == "mercati"]
+    return [
+        {"title": i.get("title", ""), "source": i.get("source", ""), "link": i.get("link", "")}
+        for i in items[:TOP_MARKETS_NEWS]
+    ]
+
+
+def load_markets_brief(edition_date: str) -> dict | None:
+    """La prosa "Top Mercati" scritta da Claude per QUESTA edizione, se esiste.
+
+    Chiave sulla data dell'edizione (non della seduta): le notizie di sabato non
+    sono quelle di domenica, quindi un file di ieri non va riusato oggi.
+    """
+    try:
+        with open(MARKETS_BRIEF_FILE, encoding="utf-8") as f:
+            mb = json.load(f)
+    except (FileNotFoundError, ValueError):
+        return None
+    return mb if mb.get("edition_date") == edition_date else None
 
 
 def headline_for(session_date: str, stats: dict, gainers: list[dict], lang: str, manual_headline: str | None) -> str:
@@ -304,7 +404,16 @@ def main():
         print(f"Edizione {edition_date} gia' presente: {out_path} (usa --force per rigenerarla)")
         return
 
-    manual = load_manual_summary(session_date)
+    # Il bivio: c'e' una seduta nuova, o quella di data.json e' gia' stata
+    # raccontata ieri? Vedi weekend_edition.py per il perche' e per la regola.
+    prev = weekend_edition.previous_edition(EDITIONS_DIR, edition_date)
+    is_recap = weekend_edition.is_recap_edition(session_date, prev)
+
+    # Un recap non deve MAI ereditare il commento della seduta: quel testo parla
+    # dei mover di venerdi', che qui non compaiono. Il suo commento e' un altro
+    # file, scritto per la data dell'edizione.
+    manual = None if is_recap else load_manual_summary(session_date)
+    weekend_manual = load_weekend_summary(edition_date) if is_recap else None
 
     auto_report_by_index = {}
     for index_key in INDEX_KEYS:
@@ -334,10 +443,49 @@ def main():
         "losers": sp500_block["losers"],
     }
 
-    manual_headline_it = (manual or {}).get("headline")
-    manual_headline_en = (manual or {}).get("headline_en")
-    headline_it = headline_for(session_date, sp500_block["stats"], sp500_block["gainers"], "it", manual_headline_it)
-    headline_en = headline_for(session_date, sp500_block["stats"], sp500_block["gainers"], "en", manual_headline_en)
+    # --- il riassunto del fine settimana, quando non c'e' una seduta nuova -----
+    weekend_report = None
+    feed_raw = load_feed_raw()
+    if is_recap:
+        # I segnali si recuperano da qui e non da un passo del workflow: il file
+        # daily.yml su GitHub si modifica solo dall'editor web (le credenziali
+        # locali non hanno lo scope "workflow" — vedi README), quindi una
+        # funzionalita' che richiedesse un passo in piu' resterebbe inattiva
+        # online. Sono una dozzina di quotazioni, non i 15 minuti di fetch_news.
+        try:
+            import fetch_weekend_signals
+
+            fetch_weekend_signals.ensure(session_date)
+        except Exception as e:
+            print(
+                f"ATTENZIONE: segnali del fine settimana non disponibili ({type(e).__name__}: {e}).",
+                file=sys.stderr,
+            )
+        weekend_report = weekend_edition.build_report(
+            edition_date=edition_date,
+            session_date=session_date,
+            session_date_label={"en": english_date(session_date), "it": italian_date(session_date)},
+            feed_items=feed_raw,
+            prev=prev,
+            italian_date=italian_date,
+            english_date=english_date,
+            companies=companies,
+            now=feed_fetched_at(),
+        )
+
+    if weekend_report:
+        headline_it = weekend_report["headline"]["it"]
+        headline_en = weekend_report["headline"]["en"]
+        # Il feed sotto il digest mostra SOLO cio' che il digest non ha gia'
+        # mostrato, e solo dalla finestra di questo giorno: due notizie uguali
+        # nella stessa pagina sono lo stesso difetto in scala ridotta.
+        feed = load_feed_items(weekend_report["feed_leftover"])
+    else:
+        manual_headline_it = (manual or {}).get("headline")
+        manual_headline_en = (manual or {}).get("headline_en")
+        headline_it = headline_for(session_date, sp500_block["stats"], sp500_block["gainers"], "it", manual_headline_it)
+        headline_en = headline_for(session_date, sp500_block["stats"], sp500_block["gainers"], "en", manual_headline_en)
+        feed = load_feed_items(feed_raw)
 
     edition = {
         "edition_date": edition_date,
@@ -346,6 +494,7 @@ def main():
         "session_date": session_date,
         "session_date_it": italian_date(session_date),
         "session_date_en": english_date(session_date),
+        "edition_kind": "weekend_recap" if is_recap else "session",
         "headline": headline_it,
         "headline_en": headline_en,
         "auto_report": legacy_auto_report,
@@ -353,20 +502,54 @@ def main():
         "manual_commentary_html": (manual or {}).get("summary_html_it") or (manual or {}).get("summary_html"),
         "manual_commentary_html_en": (manual or {}).get("summary_html_en"),
         "manual_highlights": (manual or {}).get("highlights", []),
-        "feed": load_feed_items(),
+        "feed": feed,
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     }
+
+    # Riga laterale "Top Mercati": prosa di Claude se scritta per oggi, altrimenti
+    # la lista dei titoli top (sempre presente, cosi' il blocco non e' mai vuoto).
+    mb = load_markets_brief(edition_date)
+    edition["markets_brief"] = {
+        "items": top_markets_items(feed_raw, weekend_report),
+        "prose_html": (mb or {}).get("prose_html_it"),
+        "prose_html_en": (mb or {}).get("prose_html_en"),
+    }
+
+    if weekend_report:
+        edition["weekend_report"] = weekend_report
+        edition["weekend_commentary_html"] = (weekend_manual or {}).get("summary_html_it")
+        edition["weekend_commentary_html_en"] = (weekend_manual or {}).get("summary_html_en")
+        # Anche in cima all'edizione, non solo dentro weekend_report: l'elenco
+        # dell'archivio sul sito legge pochi campi di primo livello, e senza
+        # questi mostrerebbe "seduta del 14 agosto" su tre righe consecutive —
+        # cioe' la ripetizione, spostata dalla pagina all'archivio.
+        edition["covers_date_it"] = weekend_report["covers_date_it"]
+        edition["covers_date_en"] = weekend_report["covers_date_en"]
 
     with open(out_path, "w") as f:
         json.dump(edition, f, indent=2, ensure_ascii=False)
 
-    print(
-        f"Edizione creata: {out_path}\n"
-        f"  titolo edizione: {edition['edition_date_it']} (seduta del {edition['session_date_it']})\n"
-        f"  indici: " + ", ".join(f"{k} ({auto_report_by_index[k]['stats']['n_total']} titoli)" for k in INDEX_KEYS) + "\n"
-        f"  {len(edition['feed'])} notizie nel feed, "
-        f"commento manuale: {'presente' if manual else 'assente (solo resoconto automatico)'}"
-    )
+    if weekend_report:
+        w = weekend_report
+        n_signals = len(weekend_edition.flat_signals(w.get("signals")))
+        print(
+            f"Edizione creata: {out_path}  [RIASSUNTO FINE SETTIMANA]\n"
+            f"  {edition['edition_date_it']} — nessuna seduta nuova (l'ultima, "
+            f"{edition['session_date_it']}, e' gia' uscita ieri: qui non si ripete)\n"
+            f"  notizie di {w['covers_date_it']}: {w['n_items']} nella finestra di {w['window_hours']}h "
+            f"da {w['n_sources']} testate, {w['n_digest']} nel digest e {len(edition['feed'])} nel feed\n"
+            f"  cosa guardare: {len(w['watchlist'])} titoli, segnali di mercato: {n_signals} strumenti, "
+            f"segnali di nicchia: {len(w['niche_signals'])} societa'\n"
+            f"  commento discorsivo: {'presente' if weekend_manual else 'assente (solo resoconto automatico)'}"
+        )
+    else:
+        print(
+            f"Edizione creata: {out_path}\n"
+            f"  titolo edizione: {edition['edition_date_it']} (seduta del {edition['session_date_it']})\n"
+            f"  indici: " + ", ".join(f"{k} ({auto_report_by_index[k]['stats']['n_total']} titoli)" for k in INDEX_KEYS) + "\n"
+            f"  {len(edition['feed'])} notizie nel feed, "
+            f"commento manuale: {'presente' if manual else 'assente (solo resoconto automatico)'}"
+        )
 
 
 if __name__ == "__main__":

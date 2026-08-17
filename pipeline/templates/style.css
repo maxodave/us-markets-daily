@@ -54,6 +54,19 @@
   .commentary { border-left: 3px solid var(--accent); padding-left: 18px; margin-top: 22px; }
   .commentary-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); margin-bottom: 8px; }
 
+  /* Riga laterale "Top Mercati": viola nei giorni di borsa, arancione nel weekend. */
+  .markets-brief { border-left: 3px solid var(--cat-scienza); padding-left: 18px; margin-top: 22px; }
+  .markets-brief.weekend { border-left-color: #ff8a3d; }
+  .mb-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.09em; color: var(--cat-scienza); margin-bottom: 10px; font-weight: 600; }
+  .markets-brief.weekend .mb-label { color: #ff8a3d; }
+  .mb-prose p { margin: 0 0 12px; }
+  .mb-prose p:last-child { margin-bottom: 0; }
+  .mb-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+  .mb-list a { color: var(--text); text-decoration: none; display: block; line-height: 1.4; font-size: 0.94rem; }
+  .mb-list a:hover { color: var(--cat-scienza); }
+  .markets-brief.weekend .mb-list a:hover { color: #ff8a3d; }
+  .mb-src { display: block; font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 2px; font-weight: 700; }
+
   .stat-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); margin-bottom: 26px; }
   .stat { background: var(--panel); padding: 14px 16px; }
   .stat .v { font-size: 1.45rem; font-weight: 700; line-height: 1.1; }
@@ -74,6 +87,69 @@
   .mr-source { font-weight: 700; text-transform: uppercase; font-size: 0.72rem;
                letter-spacing: 0.04em; color: var(--muted); margin-right: 7px; }
   .movers-split { display: grid; grid-template-columns: minmax(0, 1fr); gap: 26px; }
+
+  /* ====== Edizione del fine settimana (nessuna seduta nuova) ======
+     Vedi weekend_edition.py. Queste regole disegnano cio' che PRENDE IL POSTO
+     della striscia statistiche e delle due colonne di mover: l'avviso che non
+     c'e' una seduta, il pannello dei mercati rimasti aperti e la lista degli
+     appuntamenti. Nessuna di esse tocca le classi della vista di seduta, cosi'
+     l'edizione da martedi' a sabato resta esattamente com'era. */
+  .no-session-note { background: var(--panel-2); border-left: 3px solid var(--accent);
+                     padding: 12px 16px; font-size: 0.88rem; line-height: 1.5;
+                     color: var(--muted); margin-bottom: 26px; }
+
+  .signal-panel { border: 1px solid var(--border); background: var(--panel); margin-bottom: 30px; }
+  .signal-head { padding: 14px 16px; border-bottom: 1px solid var(--border); }
+  .signal-head h4 { margin: 0; font-size: 0.78rem; text-transform: uppercase;
+                    letter-spacing: 0.07em; color: var(--text); }
+  .signal-note { font-size: 0.76rem; line-height: 1.45; color: var(--muted); margin-top: 5px; }
+  /* Stessa griglia a filo della stat-strip: il fondo --border che traspare dai
+     gap da' le righe di separazione senza disegnare bordi su ogni cella. */
+  .signal-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+                 gap: 1px; background: var(--border); }
+  .signal-group { background: var(--panel); padding: 14px 16px; }
+  .sg-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em;
+              color: var(--muted); margin-bottom: 10px; }
+  .signal-row { display: flex; align-items: baseline; justify-content: space-between;
+                gap: 10px; padding: 5px 0; }
+  .sig-name { font-size: 0.88rem; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .signal-row .pct { font-size: 0.82rem; min-width: 68px; }
+
+  /* Le due colonne "cosa guardare" / "nominate nel weekend" impilate nella
+     stessa colonna laterale della griglia — non affiancate, per non ridurre a
+     meta' larghezza proprio i due elenchi che citano titoli piu' lunghi. */
+  .weekend-side { display: flex; flex-direction: column; gap: 34px; min-width: 0; }
+
+  .watch-col h4 { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.07em;
+                  color: var(--muted); margin: 0 0 10px; }
+  .watch-item { display: block; padding: 11px 0; border-bottom: 1px solid var(--border);
+                font-size: 0.88rem; line-height: 1.42; color: var(--text); text-decoration: none; }
+  .watch-item:hover { text-decoration: underline; }
+  .watch-item .mr-source { display: block; margin-bottom: 3px; }
+  .watch-note { font-size: 0.76rem; line-height: 1.45; color: var(--muted);
+                font-style: italic; margin-top: 12px; }
+
+  /* "Nominate nella copertura del weekend": stesso impianto della colonna
+     mover di seduta (sym/mname/pct) con il punteggio al posto della
+     percentuale — e' un'intensita' lessicale, non un prezzo, quindi il
+     colore usa scoreColor() e non pctColor()/signalColor() (vedi app.js). */
+  .niche-item { display: block; padding: 11px 0; border-bottom: 1px solid var(--border);
+                text-decoration: none; color: var(--text); }
+  .niche-item:last-child { border-bottom: none; }
+  .niche-head { display: flex; gap: 10px; align-items: baseline; }
+  .niche-head .mname { flex: 1; font-size: 0.86rem; color: var(--muted); min-width: 0;
+                        overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .score-badge { font-weight: 700; padding: 3px 8px; border-radius: 6px; font-size: 0.78rem; }
+  .niche-item .mover-reason { color: var(--text); }
+  .niche-item:hover .mover-reason { text-decoration: underline; }
+
+  /* Intestazione di tema dentro il digest: piu' leggera di .section-head, che qui
+     spezzerebbe la pagina in cinque blocchi tutti dello stesso peso del titolo. */
+  .digest-theme { font-size: 0.95rem; font-weight: 800; text-transform: uppercase;
+                  font-stretch: condensed; letter-spacing: 0.02em; margin: 26px 0 14px;
+                  display: flex; align-items: baseline; gap: 8px; }
+  .digest-theme:first-of-type { margin-top: 0; }
+  .digest-theme .dim { color: var(--muted); font-weight: 600; font-size: 0.8rem; }
 
   .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap;
                   border-top: 2px solid var(--text); padding-top: 14px; margin: 0 0 18px; }
@@ -138,4 +214,11 @@
     .eyebrow-row { flex-direction: column; align-items: flex-start; gap: 8px; }
     .lang-chip, .index-chip { padding: 4px 10px; font-size: 0.72rem; }
     .index-badge { font-size: 0.64rem; }
+    /* Fine settimana: due colonne di strumenti restano leggibili anche stretti
+       (nome corto + percentuale), mentre una sola sprecherebbe mezza riga. */
+    .signal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .signal-group { padding: 12px; }
+    .signal-row .pct { min-width: 58px; font-size: 0.76rem; }
+    .sig-name { font-size: 0.82rem; }
+    .digest-theme { font-size: 0.88rem; margin: 22px 0 12px; }
   }

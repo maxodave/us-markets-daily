@@ -4,6 +4,18 @@ Scrive market_summary.json chiamando l'API Claude, cosi' il commento discorsivo
 Code ogni sera: lo scrive da solo, ogni notte, nel job di GitHub Actions — in
 inglese e in italiano, con UNA sola chiamata.
 
+DUE MESTIERI, uno per tipo di edizione (vedi build_edition.py):
+  - edizione con seduta nuova -> commento della seduta, in market_summary.json;
+  - edizione di riassunto (domenica, lunedi', dopo una festivita') -> riassunto
+    del fine settimana e "cosa guardare all'apertura", in weekend_summary.json.
+Il secondo file e' indicizzato per DATA DELL'EDIZIONE e non per seduta: domenica
+e lunedi' condividono la stessa seduta di riferimento, quindi una chiave sulla
+seduta farebbe ricomparire di lunedi' il testo di domenica — cioe' la
+ripetizione che tutto questo lavoro serve a togliere.
+
+Lo script si sceglie il mestiere da solo leggendo "edition_kind": il workflow di
+GitHub continua a chiamarlo con lo stesso identico comando di prima.
+
 Il punto delicato: e' testo generato da un modello che finisce sul sito pubblico
 SENZA revisione umana, ogni notte. Per questo il modello scrive SOLO la prosa —
 non riceve mai e non puo' mai restituire un link, una testata o un URL: quelli
@@ -38,6 +50,11 @@ import sys
 EDITIONS_DIR = "editions"
 GENERAL_NEWS_FILE = "general_news_pool.json"
 OUT_FILE = "market_summary.json"
+WEEKEND_OUT_FILE = "weekend_summary.json"
+# Prosa della riga laterale "Top Mercati" (EN+IT). Indicizzata per data
+# dell'edizione: le notizie di sabato non sono quelle di domenica. Se manca,
+# build_edition.py ricade sulla lista dei titoli top.
+MARKETS_BRIEF_OUT_FILE = "markets_brief.json"
 MODEL = os.environ.get("COMMENTARY_MODEL", "claude-haiku-4-5-20251001")
 MAX_MACRO_HEADLINES = 20
 
@@ -156,7 +173,47 @@ structure, same number of paragraphs). Company/outlet names stay as given in bot
 translate numbers incorrectly: every percentage and count must match between the two versions."""
 
 
-def call_model(material: dict) -> dict:
+WEEKEND_SYSTEM_PROMPT = """You are a financial editor writing the weekend edition of a US markets \
+newsletter, published with no human review. The exchanges were CLOSED on the day this edition covers, \
+so there is no trading session to report.
+
+The single most important rule of this edition: you must NOT restate the previous session's numbers. \
+No breadth counts, no index averages, no top gainers or losers, no company percentage moves from the \
+last session. Readers have already received all of that in the previous edition, and repeating it \
+across three days is exactly the failure this format exists to fix. You are given no such numbers, so \
+any you wrote would be invented.
+
+The other absolute rules, as always: write ONLY facts present in the material you are given; never \
+cite an outlet, URL or source that was not given to you; never predict a price or recommend an action; \
+no HTML, markdown, bullet lists or links — prose paragraphs only.
+
+Write 3-6 paragraphs, in this order:
+1. what actually happened over the closed days, built from "headlines" — group the stories by theme \
+rather than listing them, and name the outlet when it adds credibility;
+2. one paragraph on the markets that DO trade while the exchanges are shut, using only the figures in \
+"weekend_signals" (crypto, index futures, commodities, currencies, each measured from the last US \
+close). Describe them as quotes, never as forecasts. If every move is small, say so plainly;
+3. only if "niche_signals" is non-empty, one paragraph naming up to 2 of the companies listed there — \
+these are companies named in this weekend's news coverage outside the regular market-news cycle, each \
+with a "score" measuring how intensely the outlets themselves wrote about the story (strong words, a \
+percentage mentioned in the text), NOT a price move and NOT a forecast. Cite the exact headline and \
+outlet given, state the score as what it is (a coverage-intensity score, out of 10), and explicitly say \
+this is not a prediction of Monday's move. Never invent or state a percentage price change for these \
+companies — "score" is the only number "niche_signals" gives you, and it is not a price;
+4. a closing paragraph on what the coming session brings, built ONLY from "watchlist" — these are \
+scheduled events and outlet previews, not your predictions. Frame them as things to watch, never as \
+directional calls.
+
+Analytical, direct tone, like a real financial newsletter — not enthusiastic, not alarmist, and never \
+advisory.
+
+You must produce the SAME commentary in two languages: "paragraphs_en" in English (the primary \
+version) and "paragraphs_it" in Italian (a faithful equivalent, not a decoration — same facts, same \
+structure, same number of paragraphs). Company/outlet names stay as given in both languages. Every \
+percentage must match between the two versions."""
+
+
+def call_model(material: dict, system: str = SYSTEM_PROMPT) -> dict:
     import anthropic
 
     client = anthropic.Anthropic()
@@ -164,7 +221,7 @@ def call_model(material: dict) -> dict:
         model=MODEL,
         max_tokens=3000,
         temperature=0.4,
-        system=SYSTEM_PROMPT,
+        system=system,
         tools=[TOOL_SCHEMA],
         tool_choice={"type": "tool", "name": "scrivi_commento"},
         messages=[{"role": "user", "content": json.dumps(material, ensure_ascii=False)}],
@@ -187,6 +244,166 @@ def validate_paragraphs(paragraphs, expected_names: set, lang: str) -> None:
         print(f"  ATTENZIONE (non bloccante, {lang}): societa' non citate nel testo: {', '.join(missing)}", file=sys.stderr)
 
 
+def to_html(paragraphs) -> str:
+    return "".join(f"<p>{html.escape(p.strip())}</p>" for p in paragraphs)
+
+
+MAX_DIGEST_HEADLINES = 24
+
+
+def weekend_material(edition: dict) -> dict:
+    """Materiale per il riassunto del fine settimana.
+
+    Contiene di proposito ZERO statistiche della seduta precedente: niente
+    ampiezza, niente medie, niente mover. E' la stessa difesa architetturale del
+    resto del file — il modello non puo' ripetere numeri che non ha — applicata
+    al difetto specifico che questa edizione elimina. Le uniche percentuali che
+    riceve sono quelle degli strumenti che hanno DAVVERO scambiato nel fine
+    settimana, calcolate da fetch_weekend_signals.py.
+    """
+    w = edition["weekend_report"]
+    headlines = [
+        {"title": i["title"], "source": i["source"], "theme": s["label"]["en"]}
+        for s in w.get("sections", [])
+        for i in s.get("items", [])
+    ][:MAX_DIGEST_HEADLINES]
+
+    signals = [
+        {
+            "instrument": inst["name_en"],
+            "group": inst["group"],
+            "pct_change_since_last_us_close": inst["pct_change"],
+        }
+        for group in (w.get("signals") or {}).get("groups", [])
+        for inst in group["instruments"]
+    ]
+
+    # "score" e' l'unico numero che passa: niente "move_pct_mentioned" (una
+    # percentuale trovata nel testo di un titolo, non un prezzo verificato) —
+    # darla al modello insieme a un ticker rischierebbe di farla leggere come
+    # un movimento di mercato reale, che non e'.
+    niche = [
+        {"symbol": n["symbol"], "name": n["name"], "score": n["score"],
+         "headline": n["title"], "source": n["source"]}
+        for n in (w.get("niche_signals") or [])
+    ]
+
+    return {
+        "covers_date_en": w["covers_date_en"],
+        "exchanges_closed": True,
+        "last_session_already_published_on": edition["session_date_en"],
+        "n_stories_in_window": w["n_items"],
+        "n_outlets": w["n_sources"],
+        "headlines": headlines,
+        "weekend_signals": signals,
+        "niche_signals": niche,
+        "watchlist": w.get("watchlist", []),
+        "macro_headlines": load_macro_headlines(),
+    }
+
+
+def write_weekend_summary(edition: dict) -> None:
+    material = weekend_material(edition)
+    if not material["headlines"] and not material["weekend_signals"]:
+        print("Nessuna notizia e nessun segnale nel fine settimana: niente da commentare.")
+        return
+
+    result = call_model(material, system=WEEKEND_SYSTEM_PROMPT)
+    for lang in ("en", "it"):
+        validate_paragraphs(result[lang], set(), lang)
+
+    out = {
+        # Chiave sull'EDIZIONE, non sulla seduta: vedi l'intestazione del file.
+        "edition_date": edition["edition_date"],
+        "covers_date": edition["weekend_report"]["covers_date"],
+        "summary_html_en": to_html(result["en"]),
+        "summary_html_it": to_html(result["it"]),
+    }
+    with open(WEEKEND_OUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+    print(
+        f"Riassunto del fine settimana scritto in {WEEKEND_OUT_FILE} "
+        f"({len(result['en'])} paragrafi EN, {len(result['it'])} paragrafi IT, "
+        f"edizione {edition['edition_date']}, notizie del {out['covers_date']})."
+    )
+
+
+# ====== Riga laterale "Top Mercati" ======================================
+# Un riassunto BREVE (1-2 paragrafi) delle notizie top della sezione Mercati del
+# giorno. Stesse regole ferree del resto del file: solo fatti presenti nel
+# materiale, mai una testata o un dato non forniti, nessuna previsione. Il modello
+# riceve SOLO titolo+testata dei pochi articoli gia' scelti da build_edition.py.
+MARKETS_BRIEF_TOOL = {
+    "name": "scrivi_top_mercati",
+    "description": "Restituisce un riassunto brevissimo delle notizie top di mercato, in EN e IT.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "summary_en": {"type": "string", "description": "1-2 short paragraphs, plain prose."},
+            "summary_it": {"type": "string", "description": "La stessa sintesi in italiano."},
+        },
+        "required": ["summary_en", "summary_it"],
+    },
+}
+
+MARKETS_BRIEF_SYSTEM_PROMPT = """You write the "Top in Markets" blurb for a daily US-markets newsletter: a very short \
+digest of the day's most important markets/macro news.
+
+You are given ONLY a short list of headlines, each with its outlet. Write 1 to 2 tight paragraphs that \
+tie the top stories together into what a reader should take away — grouped by theme, not listed one by one.
+
+Absolute rules: use ONLY facts present in the headlines you are given; never cite an outlet or a story \
+that was not given; never invent a number, a price or a percentage; never predict a price or recommend \
+an action; no HTML, markdown, bullet points or links — plain prose only. Analytical, direct tone.
+
+Produce the SAME blurb in two languages: "summary_en" (primary) and "summary_it" (a faithful Italian \
+equivalent — same facts, same length). Outlet names stay as given in both."""
+
+
+def write_markets_brief(edition: dict) -> None:
+    """Prosa breve della riga 'Top Mercati'. Mai fatale: se salta, resta la lista.
+
+    Le notizie le ha gia' scelte build_edition.py (edition["markets_brief"]["items"]),
+    identiche a quelle che finiscono nel blocco: cosi' il testo non puo' citare un
+    articolo che nella pagina non c'e'.
+    """
+    items = ((edition.get("markets_brief") or {}).get("items")) or []
+    if not items:
+        print("Nessuna notizia 'Mercati' per il riassunto laterale: salto (resta la lista).")
+        return
+    material = {
+        "top_markets_headlines": [{"title": i.get("title", ""), "source": i.get("source", "")} for i in items],
+    }
+    import anthropic
+
+    client = anthropic.Anthropic()
+    resp = client.messages.create(
+        model=MODEL,
+        max_tokens=900,
+        temperature=0.4,
+        system=MARKETS_BRIEF_SYSTEM_PROMPT,
+        tools=[MARKETS_BRIEF_TOOL],
+        tool_choice={"type": "tool", "name": "scrivi_top_mercati"},
+        messages=[{"role": "user", "content": json.dumps(material, ensure_ascii=False)}],
+    )
+    result = None
+    for block in resp.content:
+        if block.type == "tool_use" and block.name == "scrivi_top_mercati":
+            result = block.input
+            break
+    if not result or not result.get("summary_en") or not result.get("summary_it"):
+        raise RuntimeError("il modello non ha restituito il riassunto 'Top Mercati'")
+
+    out = {
+        "edition_date": edition["edition_date"],
+        "prose_html_en": to_html([result["summary_en"].strip()]),
+        "prose_html_it": to_html([result["summary_it"].strip()]),
+    }
+    with open(MARKETS_BRIEF_OUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+    print(f"Riga 'Top Mercati' scritta in {MARKETS_BRIEF_OUT_FILE} (edizione {edition['edition_date']}, {len(items)} notizie).")
+
+
 def main():
     date_arg = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("--") else None
 
@@ -196,6 +413,21 @@ def main():
 
     try:
         edition = load_edition(date_arg)
+
+        # Riga laterale "Top Mercati": vale per OGNI edizione (feriale o weekend).
+        # In un try a se': se la sua chiamata fallisce, il commento principale qui
+        # sotto deve comunque essere tentato, e viceversa.
+        try:
+            write_markets_brief(edition)
+        except Exception as e:
+            print(f"ATTENZIONE: riga 'Top Mercati' non generata ({type(e).__name__}: {e}).", file=sys.stderr)
+
+        # Il bivio. Un'edizione di riassunto non ha mover da spiegare: chiederne
+        # il commento di seduta produrrebbe proprio il testo che non deve uscire.
+        if edition.get("edition_kind") == "weekend_recap" and edition.get("weekend_report"):
+            write_weekend_summary(edition)
+            return
+
         combined = edition["auto_report_by_index"]["combined"]
         gainers = [mover_material(m) for m in combined["gainers"]]
         losers = [mover_material(m) for m in combined["losers"]]
@@ -212,9 +444,6 @@ def main():
         expected_names = {m["name"] for m in gainers + losers}
         validate_paragraphs(result["en"], expected_names, "en")
         validate_paragraphs(result["it"], expected_names, "it")
-
-        def to_html(paragraphs):
-            return "".join(f"<p>{html.escape(p.strip())}</p>" for p in paragraphs)
 
         out = {
             "date": edition["session_date"],

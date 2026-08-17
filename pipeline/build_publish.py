@@ -29,6 +29,7 @@ import os
 import sys
 from datetime import datetime
 
+import weekend_edition
 from mover_reason import pick_reason
 
 EDITIONS_DIR = "editions"
@@ -49,6 +50,9 @@ DISCLAIMER = (
     "advice. Always do your own research."
 )
 HASHTAGS = "#StockMarket #SP500 #Markets #Earnings #WallStreet"
+# L'edizione senza seduta parla d'altro: ripetere #SP500 e #Earnings su un post
+# che non contiene ne' l'uno ne' le altre porta il lettore sbagliato.
+WEEKEND_HASHTAGS = "#StockMarket #Markets #WallStreet #WeekAhead #Crypto"
 
 
 def english_date(date_str: str) -> str:
@@ -104,7 +108,105 @@ def mover_bullet(m: dict) -> str:
     return base + f" — {reason['title']}" + (f" ({source})" if source else "")
 
 
+def fmt_signal(inst: dict) -> str:
+    return f"{inst['name_en']} {fmt_pct(inst['pct_change'])}"
+
+
+def build_weekend_sections(ed: dict) -> dict:
+    """Il post delle edizioni SENZA seduta nuova (domenica, lunedi', post-festivi).
+
+    Stessa struttura fissa del post quotidiano — titolo, riassunto, due o tre
+    elenchi, disclaimer, hashtag, link in fondo — ma con un contenuto che non
+    ripete nulla: le notizie del giorno appena passato al posto dei mover, le
+    quotazioni dei mercati rimasti aperti al posto delle percentuali di seduta.
+    Vedi weekend_edition.py per il perche'.
+
+    Il testo del riassunto e' quello DETERMINISTICO dell'edizione, non il
+    commento scritto dal modello: e' la stessa scelta gia' fatta per il post
+    quotidiano, cosi' il post esce identico a se stesso anche le notti in cui
+    l'API non risponde.
+    """
+    w = ed["weekend_report"]
+    paragraphs = (w.get("paragraphs") or {}).get("en") or []
+    edition_en = english_date(ed["edition_date"])
+
+    signal_groups = [
+        {
+            "label": g["label"]["en"],
+            "line": " · ".join(fmt_signal(i) for i in g["instruments"]),
+        }
+        for g in (w.get("signals") or {}).get("groups", [])
+    ]
+
+    # La newsletter e' in inglese (vedi newsletter/TEMPLATE.md): fuori dal tema
+    # "Italia" i titoli in italiano restano sul sito — che ha il pulsante lingua —
+    # ma non nel post. Un elenco inglese con due righe in italiano in mezzo e' la
+    # prima cosa che un lettore nota, e non e' quella che deve notare.
+    digest = []
+    for s in w.get("sections", []):
+        items = [
+            {"title": strip_title(i["title"]), "source": i["source"]}
+            for i in s["items"]
+            if s["key"] == "italia" or not weekend_edition.is_italian_source(i["source"])
+        ][:MAX_WEEKEND_PER_THEME]
+        if items:
+            digest.append({"label": s["label"]["en"], "items": items})
+
+    lead = (w.get("lead_headlines") or [{}])[0]
+    subtitle = (
+        f"{w['covers_date_en']}: {lead['title']}" if lead.get("title")
+        else f"The weekend's news, and what to watch at the next open"
+    )
+
+    niche = [
+        {
+            "symbol": s["symbol"], "name": s["name"], "score": s["score"],
+            "title": strip_title(s["title"]), "source": s["source"],
+        }
+        for s in (w.get("niche_signals") or [])
+    ]
+
+    sources = sorted({
+        i["source"] for d in digest for i in d["items"] if i.get("source")
+    } | {w_["source"] for w_ in (w.get("watchlist") or []) if w_.get("source")}
+      | {n["source"] for n in niche if n.get("source")})
+
+    return {
+        "kind": "weekend",
+        "headline": f"US Markets Weekend — {edition_en}",
+        "substack_title": f"🇺🇸US Markets Weekend — {edition_en} #{edition_number(ed['edition_date']):03d}",
+        # Il sottotitolo non promette numeri di seduta: e' il primo posto in cui
+        # un lettore verificherebbe se il post di domenica e' un doppione.
+        "substack_subtitle": subtitle[:180],
+        "edition_en": edition_en,
+        "covers_en": w["covers_date_en"],
+        "number": edition_number(ed["edition_date"]),
+        "summary": paragraphs[0] if paragraphs else "",
+        "digest": digest,
+        "signal_groups": signal_groups,
+        "watchlist": [
+            {"title": strip_title(x["title"]), "source": x["source"]}
+            for x in (w.get("watchlist") or [])
+        ],
+        "niche_signals": niche,
+        "sources": sources,
+    }
+
+
+# Quante notizie per tema nel post. Meno che sul sito: un post di LinkedIn con
+# ventiquattro righe non lo legge nessuno, e il link in fondo porta al resto.
+MAX_WEEKEND_PER_THEME = 3
+
+
+def strip_title(title: str) -> str:
+    t = (title or "").strip()
+    return t.rsplit(" - ", 1)[0].strip() if " - " in t else t
+
+
 def build_sections(ed: dict) -> dict:
+    if ed.get("edition_kind") == "weekend_recap" and ed.get("weekend_report"):
+        return build_weekend_sections(ed)
+
     # Il post copre TUTTI E TRE gli indici, quindi legge il blocco "combined":
     # l'unione deduplicata di S&P 500, Dow Jones e Nasdaq-100. Cambiare solo le
     # parole ("US markets" al posto di "S&P 500") lasciando i conteggi del solo
@@ -180,6 +282,7 @@ def build_sections(ed: dict) -> dict:
     })
 
     return {
+        "kind": "session",
         "headline": headline,
         "substack_title": substack_title,
         "substack_subtitle": substack_subtitle,
@@ -195,7 +298,196 @@ def build_sections(ed: dict) -> dict:
     }
 
 
+# Testi condivisi dalle quattro rese del post del fine settimana, cosi' la stessa
+# frase non esiste in quattro copie che prima o poi divergono.
+W_DIGEST_LABEL = "📰 The weekend in headlines"
+W_SIGNALS_LABEL = "🌙 What traded while Wall Street was closed"
+W_SIGNALS_NOTE = (
+    "Change since Friday's US close. These are quotes on markets that stay open, "
+    "not forecasts for the coming session."
+)
+W_WATCH_LABEL = "👀 On the calendar"
+W_WATCH_NOTE = (
+    "Scheduled events and previews published by the outlets themselves — listed, not predicted."
+)
+W_NICHE_LABEL = "🔎 Named in weekend coverage"
+W_NICHE_NOTE = (
+    "A lexical score (0-10) for how intensely the outlets themselves wrote about it — "
+    "not a forecast, not investment advice, and not backtested against real price moves."
+)
+W_NO_SESSION_NOTE = (
+    "No new trading session: the last one was covered in the previous edition and its "
+    "figures are not repeated here."
+)
+
+
+def weekend_headline_line(item: dict) -> str:
+    return f"{item['title']} ({item['source']})" if item.get("source") else item["title"]
+
+
+def niche_signal_line(item: dict) -> str:
+    return f"{item['name']} ({item['symbol']}, {item['score']}/10) — {item['source']}: {item['title']}"
+
+
+def render_html_weekend(s: dict) -> str:
+    e = html.escape
+
+    def ul(items):
+        rows = "\n".join(f"    <li>{e(x)}</li>" for x in items)
+        return f"  <ul>\n{rows}\n  </ul>"
+
+    blocks = [f"<h1>{e(s['headline'])}</h1>", f"<p>{e(s['summary'])}</p>"]
+    if s["digest"]:
+        blocks.append(f"<h2>{e(W_DIGEST_LABEL)}</h2>")
+        for d in s["digest"]:
+            blocks.append(f"  <p><strong>{e(d['label'])}</strong></p>")
+            blocks.append(ul(weekend_headline_line(i) for i in d["items"]))
+    if s["signal_groups"]:
+        blocks.append(f"<h2>{e(W_SIGNALS_LABEL)}</h2>")
+        blocks.append(ul(f"{g['label']}: {g['line']}" for g in s["signal_groups"]))
+        blocks.append(f"  <p><em>{e(W_SIGNALS_NOTE)}</em></p>")
+    if s["niche_signals"]:
+        blocks.append(f"<h2>{e(W_NICHE_LABEL)}</h2>")
+        blocks.append(ul(niche_signal_line(i) for i in s["niche_signals"]))
+        blocks.append(f"  <p><em>{e(W_NICHE_NOTE)}</em></p>")
+    if s["watchlist"]:
+        blocks.append(f"<h2>{e(W_WATCH_LABEL)}</h2>")
+        blocks.append(ul(weekend_headline_line(i) for i in s["watchlist"]))
+        blocks.append(f"  <p><em>{e(W_WATCH_NOTE)}</em></p>")
+    blocks.append("<hr>")
+    if s["sources"]:
+        blocks.append(f"  <p><em>Sources: {e(', '.join(s['sources']))}.</em></p>")
+    blocks.append(f"  <p><em>{e(DISCLAIMER)}</em></p>")
+    blocks.append(f"<p>{e(WEEKEND_HASHTAGS)}</p>")
+    return '<meta charset="utf-8">\n' + "\n\n".join(blocks) + "\n"
+
+
+def render_markdown_weekend(s: dict) -> str:
+    out = [f"# {s['headline']}", "", s["summary"], ""]
+    if s["digest"]:
+        out += [f"## {W_DIGEST_LABEL}", ""]
+        for d in s["digest"]:
+            out.append(f"**{d['label']}**")
+            out += [f"- {weekend_headline_line(i)}" for i in d["items"]]
+            out.append("")
+    if s["signal_groups"]:
+        out += [f"## {W_SIGNALS_LABEL}", ""]
+        out += [f"- **{g['label']}**: {g['line']}" for g in s["signal_groups"]]
+        out += ["", f"*{W_SIGNALS_NOTE}*", ""]
+    if s["niche_signals"]:
+        out += [f"## {W_NICHE_LABEL}", ""]
+        out += [f"- {niche_signal_line(i)}" for i in s["niche_signals"]]
+        out += ["", f"*{W_NICHE_NOTE}*", ""]
+    if s["watchlist"]:
+        out += [f"## {W_WATCH_LABEL}", ""]
+        out += [f"- {weekend_headline_line(i)}" for i in s["watchlist"]]
+        out += ["", f"*{W_WATCH_NOTE}*", ""]
+    out += ["---", ""]
+    if s["sources"]:
+        out += [f"*Sources: {', '.join(s['sources'])}.*", ""]
+    out += [f"*{DISCLAIMER}*", "", WEEKEND_HASHTAGS, ""]
+    return "\n".join(out)
+
+
+def render_substack_weekend(s: dict) -> str:
+    """Corpo del post Substack del fine settimana — SOLO il corpo.
+
+    Stesse regole del post quotidiano (vedi render_substack): niente h1/h2, il
+    link finale come <a href> vero, <meta charset> in testa per chi apre il file
+    dal browser per copiarlo.
+    """
+    e = html.escape
+
+    def ul(items):
+        rows = "\n".join(f"  <li>{e(x)}</li>" for x in items)
+        return f"<ul>\n{rows}\n</ul>"
+
+    blocks = [f"<p>{e(s['summary'])}</p>"]
+    if s["digest"]:
+        blocks.append(f"<p>{e(W_DIGEST_LABEL)}</p>")
+        for d in s["digest"]:
+            blocks.append(f"<p><strong>{e(d['label'])}</strong></p>")
+            blocks.append(ul(weekend_headline_line(i) for i in d["items"]))
+    if s["signal_groups"]:
+        blocks.append(f"<p>{e(W_SIGNALS_LABEL)}</p>")
+        blocks.append(ul(f"{g['label']}: {g['line']}" for g in s["signal_groups"]))
+        blocks.append(f"<p><em>{e(W_SIGNALS_NOTE)}</em></p>")
+    if s["niche_signals"]:
+        blocks.append(f"<p>{e(W_NICHE_LABEL)}</p>")
+        blocks.append(ul(niche_signal_line(i) for i in s["niche_signals"]))
+        blocks.append(f"<p><em>{e(W_NICHE_NOTE)}</em></p>")
+    if s["watchlist"]:
+        blocks.append(f"<p>{e(W_WATCH_LABEL)}</p>")
+        blocks.append(ul(weekend_headline_line(i) for i in s["watchlist"]))
+        blocks.append(f"<p><em>{e(W_WATCH_NOTE)}</em></p>")
+    if s["sources"]:
+        blocks.append(f"<p><em>Sources: {e(', '.join(s['sources']))}.</em></p>")
+    blocks.append(f"<p><em>{e(DISCLAIMER)}</em></p>")
+    blocks.append(
+        f'<p>🔗 Tap the link below for the full weekend read — every story, by theme,'
+        f' plus the markets that stayed open<br>\n<a href="{SITE_URL}">{SITE_URL}</a></p>'
+    )
+    return '<meta charset="utf-8">\n' + "\n\n".join(blocks) + "\n"
+
+
+def render_linkedin_weekend(s: dict) -> str:
+    """Post LinkedIn del fine settimana: stesso schema fisso di quello quotidiano.
+
+        🇺🇸 titolo · data · numero progressivo edizione
+        riassunto (dice esplicitamente che non c'e' una seduta nuova)
+        📰 le notizie, per tema
+        🌙 cosa ha scambiato a borse chiuse
+        🔎 societa' nominate nella copertura del weekend (punteggio lessicale)
+        👀 cosa c'e' in calendario
+        disclaimer · hashtag
+        🔗 invito al link + URL sulla riga sotto, sempre ultimo
+    """
+    lines = [f"🇺🇸 US Markets Weekend — {s['edition_en']} #{s['number']:03d}", "", s["summary"], ""]
+    if s["digest"]:
+        lines.append(W_DIGEST_LABEL)
+        for d in s["digest"]:
+            lines.append(f"{d['label']}:")
+            lines += [f"• {weekend_headline_line(i)}" for i in d["items"]]
+        lines.append("")
+    if s["signal_groups"]:
+        lines.append(W_SIGNALS_LABEL)
+        lines += [f"• {g['label']}: {g['line']}" for g in s["signal_groups"]]
+        lines += [W_SIGNALS_NOTE, ""]
+    if s["niche_signals"]:
+        lines.append(W_NICHE_LABEL)
+        lines += [f"• {niche_signal_line(i)}" for i in s["niche_signals"]]
+        lines += [W_NICHE_NOTE, ""]
+    if s["watchlist"]:
+        lines.append(W_WATCH_LABEL)
+        lines += [f"• {weekend_headline_line(i)}" for i in s["watchlist"]]
+        lines += [W_WATCH_NOTE, ""]
+    lines += [
+        DISCLAIMER,
+        "",
+        WEEKEND_HASHTAGS,
+        "",
+        "🔗 Tap the link below for the full weekend read — every story, by theme, "
+        "plus the markets that stayed open",
+        SITE_URL,
+    ]
+    note = """# ----------------------------------------------------------------------
+# BOZZA POST LINKEDIN (edizione del fine settimana, senza seduta nuova) —
+# rileggila e pubblicala tu: nulla viene postato da qui.
+#
+# Questo post NON ripete le percentuali della seduta gia' uscita: e' il
+# riassunto delle notizie del giorno appena passato piu' i mercati rimasti
+# aperti. Vedi weekend_edition.py.
+#
+# Le righe che iniziano con # sono queste istruzioni: NON copiarle nel post.
+# ----------------------------------------------------------------------
+
+"""
+    return note + "\n".join(lines) + "\n"
+
+
 def render_html(s: dict) -> str:
+    if s.get("kind") == "weekend":
+        return render_html_weekend(s)
     e = html.escape
 
     def ul(movers):
@@ -231,6 +523,9 @@ def render_html(s: dict) -> str:
 
 
 def render_markdown(s: dict) -> str:
+    if s.get("kind") == "weekend":
+        return render_markdown_weekend(s)
+
     def bullets(movers):
         return "\n".join(f"- **{mover_bullet(m)}**" for m in movers)
 
@@ -272,6 +567,8 @@ def render_substack(s: dict) -> str:
       - <meta charset> in testa: senza, il browser da cui si copia sbaglia la
         codifica e trattini/apostrofi arrivano come mojibake (â€", â€™).
     """
+    if s.get("kind") == "weekend":
+        return render_substack_weekend(s)
     e = html.escape
 
     def ul(movers):
@@ -317,6 +614,8 @@ def render_linkedin(s: dict) -> str:
 
     L'URL va sulla riga DOPO il testo, perche' il testo dice "below".
     """
+    if s.get("kind") == "weekend":
+        return render_linkedin_weekend(s)
     lines = [
         f"🇺🇸 US Markets Daily — {s['edition_en']} #{s['number']:03d}",
         "",
@@ -383,7 +682,12 @@ def main():
     with open(f"{stem}-substack.html", "w", encoding="utf-8") as f:
         f.write(render_substack(s))
 
-    print(f"Pronti per la pubblicazione (edizione {ed['edition_date']}, seduta {s['session_en']}):")
+    what = (
+        f"notizie del {s['covers_en']}, nessuna seduta nuova"
+        if s.get("kind") == "weekend"
+        else f"seduta {s['session_en']}"
+    )
+    print(f"Pronti per la pubblicazione (edizione {ed['edition_date']}, {what}):")
     print(f"  {stem}-substack.html     <- APRI questo nel browser e incollalo in Substack")
     print(f"  {stem}-linkedin.txt      <- bozza post LinkedIn")
     print(f"  {stem}-newsletter.html   <- versione con titolo incorporato (archivio)")

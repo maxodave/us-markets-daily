@@ -52,11 +52,23 @@ PLACEHOLDERS = ("__STYLE_CSS__", "__APP_JS__", "__EDITIONS_JSON__", "__FALLBACK_
 # "indices" serve al badge indice nella scheda "Combined" (solo li' si mostra).
 MOVER_FIELDS = ("symbol", "name", "sector", "pct_change", "last_close", "reason", "indices")
 FEED_FIELDS = ("category", "image", "link", "published", "source", "summary", "title")
+# Campi del blocco "weekend_report" che il JavaScript disegna davvero. Il resto
+# (feed_leftover, lead_headlines, i conteggi grezzi) e' materiale per costruire
+# il testo e per il post: sta nell'archivio in editions/, non nella pagina.
+WEEKEND_FIELDS = (
+    "covers_date", "covers_date_it", "covers_date_en", "window_hours",
+    "n_items", "n_digest", "n_sources", "sections", "watchlist",
+    "niche_signals", "signals", "paragraphs",
+)
 # Nell'archivio serve solo di che giornata si trattava. Le varianti _en mancano
 # sulle edizioni pre-bilingue: app.js ricade sull'italiano quando non le trova.
 ARCHIVE_FIELDS = (
     "edition_date", "edition_date_it", "edition_date_en",
     "session_date_it", "session_date_en", "headline", "headline_en",
+    # Le edizioni senza seduta nuova (vedi weekend_edition.py) vanno etichettate
+    # anche in archivio: altrimenti l'elenco mostra "seduta del 14 agosto" su tre
+    # righe di fila, che e' la stessa ripetizione, solo spostata piu' in basso.
+    "edition_kind", "covers_date_it", "covers_date_en",
 )
 # Indici per cui esiste una finestra dedicata (vedi build_edition.py). "combined"
 # e' l'unione deduplicata dei tre, non un quarto indice a se'.
@@ -107,6 +119,38 @@ def slim_auto_report_by_index(auto_report_by_index: dict) -> dict:
     return out
 
 
+def slim_weekend_edition(ed: dict) -> dict:
+    """L'edizione senza seduta nuova, ridotta a cio' che la pagina disegna.
+
+    Qui NON entra nulla di auto_report/auto_report_by_index: sono i numeri della
+    seduta gia' pubblicata ieri, e la vista del fine settimana non li mostra per
+    scelta (vedi weekend_edition.py). Tenerli nella pagina sarebbe solo peso
+    inutile — e la tentazione, un giorno, di ridisegnarli.
+    """
+    w = ed["weekend_report"]
+    return {
+        "edition_date": ed.get("edition_date"),
+        "edition_date_it": ed.get("edition_date_it"),
+        "edition_date_en": ed.get("edition_date_en"),
+        "session_date_it": ed.get("session_date_it"),
+        "session_date_en": ed.get("session_date_en"),
+        "covers_date_it": ed.get("covers_date_it"),
+        "covers_date_en": ed.get("covers_date_en"),
+        "edition_kind": "weekend_recap",
+        "headline": ed.get("headline"),
+        "headline_en": ed.get("headline_en"),
+        "generated_at": ed.get("generated_at"),
+        "weekend_commentary_html": ed.get("weekend_commentary_html"),
+        "weekend_commentary_html_en": ed.get("weekend_commentary_html_en"),
+        "weekend_report": {k: w[k] for k in WEEKEND_FIELDS if k in w},
+        "markets_brief": ed.get("markets_brief"),
+        "feed": [
+            {k: it[k] for k in FEED_FIELDS if k in it}
+            for it in (ed.get("feed") or [])
+        ],
+    }
+
+
 def slim_editions(editions: list[dict]) -> list[dict]:
     """Tiene solo cio' che la pagina mostra.
 
@@ -119,6 +163,9 @@ def slim_editions(editions: list[dict]) -> list[dict]:
     for i, ed in enumerate(editions):
         if i > 0:
             out.append({k: ed[k] for k in ARCHIVE_FIELDS if k in ed})
+            continue
+        if ed.get("edition_kind") == "weekend_recap" and ed.get("weekend_report"):
+            out.append(slim_weekend_edition(ed))
             continue
         auto = ed.get("auto_report") or {}
         slim = {
@@ -134,6 +181,7 @@ def slim_editions(editions: list[dict]) -> list[dict]:
                 "gainers": [slim_mover(m) for m in (auto.get("gainers") or [])],
                 "losers": [slim_mover(m) for m in (auto.get("losers") or [])],
             },
+            "markets_brief": ed.get("markets_brief"),
             "feed": [
                 {k: it[k] for k in FEED_FIELDS if k in it}
                 for it in (ed.get("feed") or [])
@@ -167,7 +215,18 @@ def fallback_html(editions: list[dict]) -> str:
     e = html.escape
 
     by_index = ed.get("auto_report_by_index")
-    if by_index and by_index.get("sp500"):
+    if ed.get("edition_kind") == "weekend_recap" and ed.get("weekend_report"):
+        # Anche il testo di riserva deve dire subito che non c'e' una seduta
+        # nuova: e' quello che leggono Google e l'anteprima di LinkedIn, e una
+        # card che promettesse "the August 14 session" per la terza volta di
+        # fila sarebbe il difetto visibile proprio dove fa piu' danno.
+        w = ed["weekend_report"]
+        paragraphs = (w.get("paragraphs") or {}).get("en") or []
+        edition_date = ed.get("edition_date_en") or ed.get("edition_date_it")
+        session_date = w.get("covers_date_en") or w.get("covers_date_it")
+        headline = ed.get("headline_en") or ed.get("headline")
+        edition_label, session_label = "Edition of", "news from"
+    elif by_index and by_index.get("sp500"):
         paragraphs = (by_index["sp500"].get("paragraphs") or {}).get("en") or []
         edition_date = ed.get("edition_date_en") or ed.get("edition_date_it")
         session_date = ed.get("session_date_en") or ed.get("session_date_it")

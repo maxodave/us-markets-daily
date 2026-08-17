@@ -268,10 +268,17 @@ def build(editions: list[dict]) -> str:
     for i, ed in enumerate(recent):
         date = str(ed.get("edition_date") or "")
         label_ed = str(ed.get("edition_date_en") or ed.get("edition_date_it") or date)
-        label_se = str(ed.get("session_date_en") or ed.get("session_date_it") or "")
+        # Le edizioni senza seduta nuova si datano sulle notizie che riassumono:
+        # nel menu a tendina tre voci "seduta del 14 agosto" di fila sarebbero
+        # indistinguibili proprio dove serve scegliere il post giusto.
+        weekend = ed.get("edition_kind") == "weekend_recap"
+        label_se = str(
+            (ed.get("covers_date_en") or ed.get("covers_date_it") or "") if weekend
+            else (ed.get("session_date_en") or ed.get("session_date_it") or "")
+        )
         label = f"Edizione del {label_ed}"
         if label_se:
-            label += f" · seduta del {label_se}"
+            label += f" · {'notizie del' if weekend else 'seduta del'} {label_se}"
         if i == 0:
             label += "  (l'ultima)"
 
