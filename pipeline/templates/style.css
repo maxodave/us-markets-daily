@@ -267,6 +267,14 @@
 
   .live-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 8px 0 30px; }
   .live-strip .li-head { grid-column: 1/-1; display: flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+
+  /* Segno stato mercato (verde aperto / arancione chiuso), come la scritta weekend. */
+  .live-status { grid-column: 1/-1; display: flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; padding: 12px 16px; border-radius: 12px; border: 1px solid; }
+  .live-status .ls-dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
+  .live-status.open { color: var(--green-5); border-color: rgba(34,197,94,.4); background: rgba(34,197,94,.06); }
+  .live-status.open .ls-dot { background: var(--green-5); box-shadow: 0 0 10px var(--green-5); animation: v2pulse 1.6s ease-in-out infinite; }
+  .live-status.closed { color: #ff8a3d; border-color: rgba(255,138,61,.45); background: rgba(255,138,61,.08); }
+  .live-status.closed .ls-dot { background: #ff8a3d; box-shadow: 0 0 10px #ff8a3d; }
   .live-idx { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
   .live-idx .li-name { font-family: var(--mono); font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
   .live-idx .li-pct { font-family: var(--mono); font-size: 1.5rem; font-weight: 700; margin-top: 6px; }

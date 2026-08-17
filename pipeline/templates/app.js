@@ -606,10 +606,27 @@ renderEditions();
     var h = rows.map(cell).join(""); track.innerHTML = h + h;
   })();
 
-  /* --- weekend? (ora di New York) --- */
-  var forced = /[?&](closed|weekend)\b/.test(location.search);
-  var wd = new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", weekday: "short" }).format(new Date());
-  var isWeekend = (wd === "Sat" || wd === "Sun") || forced;
+  /* --- stato del mercato USA, in ora di New York (gestisce da solo l'ora legale) --- */
+  var forceClosed = /[?&]closed\b/.test(location.search);   // anteprima "mercato chiuso" feriale
+  var forceWeekend = /[?&]weekend\b/.test(location.search);  // anteprima overlay weekend
+  function usMarketState() {
+    var parts = new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", weekday: "short", hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(new Date());
+    var get = function (t) { var f = parts.find(function (x) { return x.type === t; }); return f ? f.value : ""; };
+    var wd = get("weekday"), hh = (+get("hour")) % 24, mm = +get("minute");
+    var weekday = wd !== "Sat" && wd !== "Sun";
+    var mins = hh * 60 + mm;
+    return { open: weekday && mins >= 570 && mins < 960, weekday: weekday };   // 9:30–16:00 ET
+  }
+  function nextUsOpenLabel() {
+    var now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/New_York" }));
+    var d = new Date(now); d.setHours(9, 30, 0, 0);
+    while (d <= now || d.getDay() === 0 || d.getDay() === 6) { d.setDate(d.getDate() + 1); d.setHours(9, 30, 0, 0); }
+    var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], mons = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    return days[d.getDay()] + " " + mons[d.getMonth()] + " " + d.getDate() + ", 9:30 AM ET";
+  }
+  // isWeekend pilota SOLO l'overlay a tutto schermo MERCATI CHIUSI (evento "grosso");
+  // la chiusura feriale di sera usa invece il segno arancione dentro la vista LIVE.
+  var isWeekend = (!usMarketState().weekday) || forceWeekend;
 
   /* --- viste: edition (editoriale) / live (indici + notizie) --- */
   function setView(v) {
@@ -618,9 +635,11 @@ renderEditions();
     document.querySelectorAll(".nav-link[data-go]").forEach(function (b) { b.classList.toggle("active", b.dataset.go === v); });
     if (v === "live" && isWeekend) openMcFull();
   }
-  var savedView = "edition";
-  try { savedView = localStorage.getItem("view") || "edition"; } catch (e) {}
-  document.body.setAttribute("data-view", savedView);
+  // Vista d'ingresso: a mercati APERTI si apre su LIVE (il dato corrente), a mercati
+  // CHIUSI sull'edizione (il resoconto della seduta). La nav resta libera di passare
+  // all'altra vista, e la scelta manuale vale per la sessione.
+  var initialView = usMarketState().open ? "live" : "edition";
+  document.body.setAttribute("data-view", initialView);
 
   function scrollToEl(sel) { var el = typeof sel === "string" ? document.querySelector(sel) : sel; if (!el) return false; var y = el.getBoundingClientRect().top + window.pageYOffset - HEADER_H - 14; window.scrollTo({ top: y < 0 ? 0 : y, behavior: "smooth" }); return true; }
   function goLive() { setView("live"); if (!isWeekend) scrollToEl("#liveStrip") || scrollToEl(".only-live"); }
@@ -630,7 +649,7 @@ renderEditions();
   document.querySelectorAll(".nav-link[data-go]").forEach(function (b) { b.addEventListener("click", function () { var g = b.dataset.go; if (g === "live") goLive(); else if (g === "edition") goEdition(); else if (g === "archive") openArchive(); }); });
   var gl = document.getElementById("goLiveBtn"); if (gl) gl.addEventListener("click", goLive);
   var ge = document.getElementById("goEditionBtn"); if (ge) ge.addEventListener("click", goEdition);
-  document.querySelectorAll(".nav-link[data-go]").forEach(function (b) { b.classList.toggle("active", b.dataset.go === savedView); });
+  document.querySelectorAll(".nav-link[data-go]").forEach(function (b) { b.classList.toggle("active", b.dataset.go === initialView); });
 
   /* --- banner weekend nell'hero --- */
   (function heroBanner() { var box = document.getElementById("marketClosed"); if (!box || !isWeekend) return;
@@ -652,19 +671,35 @@ renderEditions();
   function closeMcFull() { if (!mcFull) return; mcFull.classList.remove("open"); if (mcTimer) { clearInterval(mcTimer); mcTimer = null; } }
   var mcClose = document.getElementById("mcCloseBtn"); if (mcClose) mcClose.addEventListener("click", function () { closeMcFull(); goEdition(); });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeMcFull(); });
-  if (isWeekend && savedView === "live") openMcFull();
 
-  /* --- percentuali LIVE degli indici (poll di live.json, stessa origine) --- */
+  /* --- striscia LIVE: segno stato mercato (verde aperto / arancione chiuso) +
+         livelli indici (poll di live.json, stessa origine). Lo stato lo calcola il
+         browser in ora di New York, cosi' e' esatto anche fra un aggiornamento e
+         l'altro di live.json, e la scritta CLOSED compare come nel weekend. --- */
   (function live() {
     var strip = document.getElementById("liveStrip"); if (!strip) return;
-    function paint(d) { var items = (d && d.indices) || []; if (!items.length) { strip.hidden = true; return; }
-      var when = ""; try { when = new Date(d.updated).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }); } catch (e) {}
-      strip.innerHTML = '<div class="li-head"><span class="live-dot"></span>Live index levels' + (when ? (' &middot; updated ' + when) : '') + (d.market_open === false ? ' &middot; market closed' : '') + '</div>' +
-        items.map(function (i) { var cls = i.pct > 0 ? "up" : (i.pct < 0 ? "down" : "flat"), sign = i.pct > 0 ? "+" : ""; return '<div class="live-idx"><div class="li-name">' + i.label + '</div><div class="li-pct ' + cls + '">' + sign + Number(i.pct).toFixed(2) + '%</div></div>'; }).join("");
+    var latest = null;
+    function statusHtml() {
+      var s = usMarketState();
+      var closed = !s.open || forceClosed || forceWeekend;
+      if (!closed) return '<div class="live-status open"><span class="ls-dot"></span>U.S. markets open &middot; live</div>';
+      var why = (!s.weekday || forceWeekend) ? "closed for the weekend" : "closed &middot; showing the last close";
+      return '<div class="live-status closed"><span class="ls-dot"></span>U.S. markets ' + why + ' &middot; reopens ' + nextUsOpenLabel() + '</div>';
+    }
+    function paint() {
+      var d = latest, items = (d && d.indices) || [];
+      var when = ""; try { if (d && d.updated) when = new Date(d.updated).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }); } catch (e) {}
+      var idx = items.length
+        ? '<div class="li-head"><span class="live-dot"></span>Index levels' + (when ? (' &middot; updated ' + when) : '') + '</div>' +
+          items.map(function (i) { var cls = i.pct > 0 ? "up" : (i.pct < 0 ? "down" : "flat"), sign = i.pct > 0 ? "+" : ""; return '<div class="live-idx"><div class="li-name">' + i.label + '</div><div class="li-pct ' + cls + '">' + sign + Number(i.pct).toFixed(2) + '%</div></div>'; }).join("")
+        : "";
+      strip.innerHTML = statusHtml() + idx;
       strip.hidden = false;
     }
-    function load() { fetch("live.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(paint).catch(function () { strip.hidden = true; }); }
-    load(); setInterval(load, 30 * 60 * 1000);
+    function load() { fetch("live.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { latest = d; paint(); }).catch(paint); }
+    load();
+    setInterval(load, 5 * 60 * 1000);   // ricarica i dati ogni 5 min (json minuscolo)
+    setInterval(paint, 60 * 1000);      // ridisegna al minuto: cattura il passaggio aperto<->chiuso
   })();
 
   /* --- Subscribe --- */
