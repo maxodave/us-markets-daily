@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-18T19:15:48Z",
+  "updated": "2026-08-18T19:37:15Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.64,
-      "last": 7696.68
+      "pct": -0.61,
+      "last": 7698.69
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.72,
-      "last": 29480.14
+      "pct": -1.66,
+      "last": 29498.38
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.18,
-      "last": 53371.06
+      "pct": -0.14,
+      "last": 53391.03
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "PFSA",
         "name": "Profusa, Inc.",
-        "pct": 380.8
+        "pct": 422.96
       },
       {
         "symbol": "IPST",
         "name": "IP Strategy Holdings, Inc.",
-        "pct": 144.25
-      },
-      {
-        "symbol": "CDTG",
-        "name": "CDT Environmental Technology Investment Hold",
-        "pct": 72.08
+        "pct": 117.25
       },
       {
         "symbol": "AMLX",
         "name": "Amylyx Pharmaceuticals, Inc.",
-        "pct": 59.91
+        "pct": 64.47
+      },
+      {
+        "symbol": "CDTG",
+        "name": "CDT Environmental Technology Investment Hold",
+        "pct": 53.57
       },
       {
         "symbol": "SXTC",
         "name": "China SXT Pharmaceuticals, Inc.",
-        "pct": 43.05
+        "pct": 42.3
       },
       {
         "symbol": "WEAV",
         "name": "Weave Communications, Inc.",
-        "pct": 31.74
+        "pct": 31.83
       },
       {
         "symbol": "WETO",
         "name": "Wetour Robotics Limited",
-        "pct": 20.13
+        "pct": 16.57
       },
       {
         "symbol": "HAE",
         "name": "Haemonetics Corporation",
-        "pct": 16.36
+        "pct": 16.27
       },
       {
         "symbol": "DUOT",
         "name": "Duos Technologies Group, Inc.",
-        "pct": 13.52
+        "pct": 13.42
       },
       {
         "symbol": "EYPT",
         "name": "EyePoint, Inc.",
-        "pct": 11.81
+        "pct": 12.71
       }
     ],
     "losers": [
       {
         "symbol": "KLAR",
         "name": "Klarna Group plc",
-        "pct": -22.66
+        "pct": -22.48
+      },
+      {
+        "symbol": "SGLY",
+        "name": "Singularity Future Technology Ltd.",
+        "pct": -22.27
       },
       {
         "symbol": "FN",
         "name": "Fabrinet",
-        "pct": -20.93
+        "pct": -19.97
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": -15.34
+        "pct": -15.27
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": -15.03
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -14.89
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -14.14
-      },
-      {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": -13.83
+        "pct": -14.51
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -13.67
+        "pct": -14.22
       },
       {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": -13.13
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -14.16
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -13.47
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -13.01
+        "pct": -13.19
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": -12.92
       }
     ],
     "universe": 864
