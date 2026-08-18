@@ -312,6 +312,22 @@
   .tk { font-family: var(--mono); font-size: .82rem; display: inline-flex; align-items: center; gap: 10px; }
   .tk .sym { color: var(--text); font-weight: 600; } .tk .up { color: var(--green-5); } .tk .down { color: var(--red-5); }
 
+  /* Avviso "SEDUTA CHIUSA" in cima all'edizione, nella finestra fra la campana e
+     la pubblicazione della nuova edizione. Stesso linguaggio visivo del blocco
+     "mercati chiusi" del fine settimana (arancione, punto luminoso), ma piu'
+     grande: qui e' l'informazione principale della pagina. Vedi paintSessionClosed(). */
+  .session-closed { border: 1px solid rgba(255,138,61,.5); background: rgba(255,138,61,.09);
+    border-radius: 14px; padding: 22px 26px; margin: 0 0 30px; }
+  .session-closed .sc-title { font-family: var(--mono); font-size: 1.6rem; font-weight: 800;
+    letter-spacing: .05em; text-transform: uppercase; color: #ff8a3d; display: flex;
+    align-items: center; gap: 13px; margin-bottom: 10px; line-height: 1.1; }
+  .session-closed .sc-title .dot { width: 13px; height: 13px; border-radius: 50%; flex: 0 0 auto;
+    background: #ff8a3d; box-shadow: 0 0 12px #ff8a3d; animation: v2pulse 1.6s ease-in-out infinite; }
+  .session-closed .sc-body { font-size: .95rem; line-height: 1.65; color: var(--text); }
+  .session-closed .sc-eta { font-family: var(--mono); color: #ff8a3d; font-weight: 700; }
+  @media (max-width: 640px) { .session-closed { padding: 18px 18px; }
+    .session-closed .sc-title { font-size: 1.15rem; } }
+
   /* Lista LIVE dei top 10 / worst 10 del MOMENTO (scheda LIVE): stessa fonte dello
      striscione, aggiornata a ogni refresh di live.json. Due colonne compatte. */
   .live-movers { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 4px 0 34px; }
@@ -512,6 +528,11 @@ const I18N = {
     liveMoversWorst: "Worst 10 movers",
     liveMoversNow: "now",
     liveMoversClose: "last close",
+    scTitle: "Session closed",
+    scBody: "Wall Street has rung the closing bell. Today's edition, with the figures of the session that just ended, is published at",
+    scCountdown: "in",
+    scPublishing: "publishing now — reload in a few minutes.",
+    scMeanwhile: "For now you are reading the session of",
     allLabel: "All",
     archiveLabel: "Edition archive",
     archiveShow: "Show",
@@ -557,6 +578,11 @@ const I18N = {
     liveMoversWorst: "Peggiori 10",
     liveMoversNow: "ora",
     liveMoversClose: "ultima chiusura",
+    scTitle: "Seduta chiusa",
+    scBody: "Wall Street ha suonato la campana di chiusura. L'edizione di oggi, con i numeri della seduta appena conclusa, viene pubblicata alle",
+    scCountdown: "fra",
+    scPublishing: "in pubblicazione — ricarica fra qualche minuto.",
+    scMeanwhile: "Per ora stai leggendo la seduta del",
     allLabel: "Tutte",
     archiveLabel: "Archivio edizioni",
     archiveShow: "Mostra",
@@ -1021,7 +1047,10 @@ function renderEditions() {
   //  - "live" = la striscia indici LIVE + il feed di notizie del giorno.
   // Si disegnano SEMPRE entrambi i pannelli; la CSS ne mostra uno solo, cosi' il
   // cambio vista non ridisegna nulla (la striscia LIVE mantiene i suoi dati).
-  let editorial = `<div class="edition">${header}</div>`;
+  // Riquadro arancione "seduta chiusa": lo riempie paintSessionClosed() dentro
+  // heroLayer(), che conosce l'ora di New York. Vive solo nella finestra fra la
+  // campana di chiusura e la pubblicazione della nuova edizione.
+  let editorial = `<div id="sessionClosedNote"></div><div class="edition">${header}</div>`;
   if (isWeekend) editorial += weekendDigest(latest.weekend_report, L);
   // Edizione di seduta: sotto l'editoriale, il feed "notizie dietro i mover" con i
   // catalizzatori dei 10 top gainer e 10 top loser (una scheda per titolo, i piu'
@@ -1127,24 +1156,36 @@ renderEditions();
          per lo striscione in basso e per la lista nella scheda LIVE, cosi' coincidono
          sempre e cambiano insieme a ogni refresh di live.json (~15 min). --- */
   function moversFor(live) {
-    if (live && live.market_open && live.movers && (live.movers.gainers || []).length) {
+    // I mover di live.json valgono ANCHE a mercati chiusi: l'ultimo run della
+    // giornata cade dopo la campana, quindi quella lista E' la classifica di
+    // chiusura, e va lasciata li' fino alla seduta successiva. Prima si usavano
+    // solo con "market_open", e alle 22:00 la vista tornava di colpo ai mover
+    // dell'edizione (universo dei soli tre indici): la classifica cambiava sotto
+    // gli occhi appena chiudeva la borsa. L'etichetta distingue i due casi:
+    // "ora" a mercati aperti, "ultima chiusura" dopo la campana.
+    if (live && live.movers && (live.movers.gainers || []).length) {
       var mapL = function (m) { return { s: m.symbol, p: m.pct, n: m.name || "" }; };
-      return { live: true, gainers: live.movers.gainers.map(mapL), losers: (live.movers.losers || []).map(mapL) };
+      // "now" dallo stato calcolato dal BROWSER, non da live.market_open: quel flag
+      // dice com'era il mercato quando il file e' stato scritto, quindi dopo la
+      // campana resterebbe "aperto" ed etichetterebbe "ora" una classifica di
+      // chiusura. Lo stato vero lo sa il browser, in ora di New York.
+      return { live: true, now: usMarketState().open,
+               gainers: live.movers.gainers.map(mapL), losers: (live.movers.losers || []).map(mapL) };
     }
     if (typeof EDITIONS !== "undefined" && EDITIONS.length) {
       var ed = EDITIONS[0];
       var blk = ed.auto_report_by_index ? (ed.auto_report_by_index.combined || ed.auto_report_by_index.sp500) : ed.auto_report;
       if (blk && (blk.gainers || []).length) {
         var mapE = function (m) { return { s: m.symbol, p: m.pct_change, n: m.name || "" }; };
-        return { live: false, gainers: (blk.gainers || []).slice(0, 10).map(mapE), losers: (blk.losers || []).slice(0, 10).map(mapE) };
+        return { live: false, now: false, gainers: (blk.gainers || []).slice(0, 10).map(mapE), losers: (blk.losers || []).slice(0, 10).map(mapE) };
       }
       if (ed.weekend_report && ed.weekend_report.signals) {
         var rows = [];
         (ed.weekend_report.signals.groups || []).forEach(function (g) { (g.instruments || []).forEach(function (it) { rows.push({ s: it.name_en || it.name, p: it.pct_change, n: "" }); }); });
-        return { live: false, gainers: rows, losers: [] };
+        return { live: false, now: false, gainers: rows, losers: [] };
       }
     }
-    return { live: false, gainers: [], losers: [] };
+    return { live: false, now: false, gainers: [], losers: [] };
   }
 
   function renderTicker(live) {
@@ -1161,7 +1202,7 @@ renderEditions();
     var box = document.getElementById("liveMovers"); if (!box) return;
     var mv = moversFor(live);
     if (!mv.gainers.length && !mv.losers.length) { box.innerHTML = ""; return; }
-    var t = I18N[lang], tag = mv.live ? t.liveMoversNow : t.liveMoversClose;
+    var t = I18N[lang], tag = mv.now ? t.liveMoversNow : t.liveMoversClose;
     var col = function (label, list, dir) {
       var body = list.map(function (r) {
         var cls = r.p >= 0 ? "up" : "down", sign = r.p >= 0 ? "+" : "";
@@ -1170,6 +1211,52 @@ renderEditions();
       return '<div class="lm-col"><div class="lm-head ' + dir + '">' + label + ' <span class="lm-tag">&middot; ' + tag + '</span></div>' + body + '</div>';
     };
     box.innerHTML = col(t.liveMoversTop, mv.gainers, "up") + col(t.liveMoversWorst, mv.losers, "down");
+  }
+
+  /* --- riquadro arancione "SEDUTA CHIUSA": dalla campana di chiusura fino alla
+         pubblicazione della nuova edizione (cron di daily.yml, 21:30 UTC = 23:30
+         italiane d'estate, 22:30 d'inverno). Fuori da quella finestra non si
+         disegna: di mattina l'edizione di ieri E' quella giusta e non c'e' nessun
+         aggiornamento in attesa, quindi l'avviso sarebbe solo rumore. --- */
+  var EDITION_UTC_H = 21, EDITION_UTC_M = 30;   // deve restare allineato a daily.yml
+  var SC_FROM = 960;    // 16:00 ET: la campana di chiusura
+  var SC_TO = 1110;     // 18:30 ET: oltre questa, se l'edizione non e' arrivata e' un
+                        // guasto del job, non un'attesa — non si lascia l'avviso tutta notte.
+  function etToday() {
+    // en-CA da' "YYYY-MM-DD", lo stesso formato di session_date.
+    return new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York",
+      year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+  }
+  function editionPublishAt() {
+    var n = new Date();
+    return new Date(Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate(), EDITION_UTC_H, EDITION_UTC_M, 0));
+  }
+  var scLast = null;
+  function paintSessionClosed() {
+    var box = document.getElementById("sessionClosedNote"); if (!box) return;
+    var st = usMarketState();
+    var ed = (typeof EDITIONS !== "undefined" && EDITIONS.length) ? EDITIONS[0] : null;
+    var inWindow = st.weekday && !st.open && st.mins >= SC_FROM && st.mins < SC_TO;
+    // L'avviso serve solo se l'edizione in testa NON racconta ancora la seduta di
+    // oggi: appena il job notturno pubblica, la condizione cade da sola. Nessuna
+    // data cablata, nessun avviso da spegnere a mano.
+    var pending = ed && ed.edition_kind !== "weekend_recap" && ed.session_date !== etToday();
+    var html = "";
+    if (inWindow && pending && !forceWeekend) {
+      var t = I18N[lang], at = editionPublishAt(), left = at - new Date();
+      var when = new Intl.DateTimeFormat(lang === "it" ? "it-IT" : "en-GB",
+        { timeZone: "Europe/Rome", hour: "2-digit", minute: "2-digit" }).format(at);
+      var tail = left > 0
+        ? esc(t.scCountdown) + ' <span class="sc-eta">' + fmtDur(left) + "</span>"
+        : '<span class="sc-eta">' + esc(t.scPublishing) + "</span>";
+      var edDate = lang === "en" ? (ed.session_date_en || ed.session_date_it) : ed.session_date_it;
+      html = '<div class="session-closed">'
+           + '<div class="sc-title"><span class="dot"></span>' + esc(t.scTitle) + "</div>"
+           + '<div class="sc-body">' + esc(t.scBody) + ' <span class="sc-eta">' + esc(when)
+           + "</span> &middot; " + tail + "<br>" + esc(t.scMeanwhile) + " " + esc(edDate) + ".</div>"
+           + "</div>";
+    }
+    if (html !== scLast) { box.innerHTML = html; scLast = html; }
   }
 
   /* --- campo stellare --- */
@@ -1203,7 +1290,7 @@ renderEditions();
     var wd = get("weekday"), hh = (+get("hour")) % 24, mm = +get("minute");
     var weekday = wd !== "Sat" && wd !== "Sun";
     var mins = hh * 60 + mm;
-    return { open: weekday && mins >= 570 && mins < 960, weekday: weekday };   // 9:30–16:00 ET
+    return { open: weekday && mins >= 570 && mins < 960, weekday: weekday, mins: mins };   // 9:30–16:00 ET
   }
   function nextUsOpenLabel() {
     var now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/New_York" }));
@@ -1292,6 +1379,11 @@ renderEditions();
     setInterval(load, 5 * 60 * 1000);   // ricarica i dati ogni 5 min (json minuscolo)
     setInterval(paint, 60 * 1000);      // ridisegna al minuto: cattura il passaggio aperto<->chiuso
   })();
+
+  /* Avviso "seduta chiusa": al secondo, per il conto alla rovescia. Il disegno
+     avviene solo quando l'HTML cambia, quindi non tocca il DOM inutilmente. */
+  paintSessionClosed();
+  setInterval(paintSessionClosed, 1000);
 
   /* --- Subscribe --- */
   var modal = document.getElementById("subModal"), ob = document.getElementById("subscribeBtn"), cb = document.getElementById("subClose"), form = document.getElementById("subForm"), email = document.getElementById("subEmail"), msg = document.getElementById("subMsg");

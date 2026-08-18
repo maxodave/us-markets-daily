@@ -6,9 +6,13 @@ name: Quotazioni LIVE
 # Gira SOLO quando Wall Street e' aperta: giorni feriali, ogni 15 minuti dalle
 # 13:00 alle 20:45 UTC. A mercati chiusi le quotazioni non cambiano — rigenerare
 # di notte o nel weekend produce solo run inutili (e ogni tanto un pages-build a
-# vuoto). La finestra 13-20 UTC copre la seduta USA in entrambi i regimi orari:
-# d'estate 13:30-20:00 UTC (piena), d'inverno 14:30-21:00 UTC (fino a 20:45, poi
-# la chiusura ufficiale la fissa comunque l'edizione serale delle 21:30 UTC).
+# vuoto). La finestra 13-21 UTC copre la seduta USA in entrambi i regimi orari
+# COMPRESA la chiusura: d'estate la seduta e' 13:30-20:00 UTC, d'inverno
+# 14:30-21:00 UTC. L'ora 21 serve all'inverno: con la vecchia finestra 13-20 UTC
+# l'ultimo run cadeva alle 20:45 UTC = 15:45 ET, cioe' QUINDICI MINUTI PRIMA della
+# campana, quindi i valori di chiusura non venivano mai catturati e la lista
+# "ultima chiusura" restava ferma a meta' pomeriggio. Ora l'ultimo run e' alle
+# 21:45 UTC (16:45 ET d'inverno, 17:45 ET d'estate): sempre dopo la chiusura.
 # Ogni 15 minuti (non 30) perche' GitHub puo' ritardare o SALTARE del tutto uno
 # slot schedulato nei momenti di carico: col passo a 15' un salto lascia uno
 # scarto di ~15-20 min invece di 60+. (Verificato il 17/08/2026: col passo a 30'
@@ -19,7 +23,7 @@ name: Quotazioni LIVE
 # run per dirlo.
 on:
   schedule:
-    - cron: "*/15 13-20 * * 1-5"
+    - cron: "*/15 13-21 * * 1-5"
   workflow_dispatch:
 
 permissions:
