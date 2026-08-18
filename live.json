@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-18T16:54:30Z",
+  "updated": "2026-08-18T17:16:22Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.49,
-      "last": 7708.3
+      "pct": -0.55,
+      "last": 7703.73
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.41,
-      "last": 29571.78
+      "pct": -1.58,
+      "last": 29520.54
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.14,
-      "last": 53393.13
+      "pct": -0.16,
+      "last": 53379.72
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "TRGP",
         "name": "Targa Resources",
-        "pct": 7.61
+        "pct": 7.45
       },
       {
         "symbol": "ULTA",
         "name": "Ulta Beauty",
-        "pct": 5.65
+        "pct": 5.6
       },
       {
-        "symbol": "CHTR",
-        "name": "Charter Communications",
+        "symbol": "INTU",
+        "name": "Intuit",
         "pct": 5.37
       },
       {
         "symbol": "GDDY",
         "name": "GoDaddy",
-        "pct": 5.28
+        "pct": 5.27
       },
       {
-        "symbol": "INTU",
-        "name": "Intuit",
+        "symbol": "CHTR",
+        "name": "Charter Communications",
         "pct": 5.04
       },
       {
         "symbol": "ADBE",
         "name": "Adobe Inc.",
-        "pct": 4.66
-      },
-      {
-        "symbol": "PODD",
-        "name": "Insulet Corporation",
-        "pct": 4.55
-      },
-      {
-        "symbol": "LULU",
-        "name": "Lululemon Athletica",
-        "pct": 4.39
+        "pct": 4.76
       },
       {
         "symbol": "ERIE",
         "name": "Erie Indemnity",
-        "pct": 4.3
+        "pct": 4.53
+      },
+      {
+        "symbol": "TYL",
+        "name": "Tyler Technologies",
+        "pct": 4.53
+      },
+      {
+        "symbol": "FDS",
+        "name": "FactSet",
+        "pct": 4.42
       },
       {
         "symbol": "IT",
         "name": "Gartner",
-        "pct": 4.3
+        "pct": 4.41
       }
     ],
     "losers": [
       {
         "symbol": "COHR",
         "name": "Coherent Corp.",
-        "pct": -11.74
+        "pct": -12.06
       },
       {
         "symbol": "CIEN",
         "name": "Ciena",
-        "pct": -9.85
+        "pct": -10.51
       },
       {
         "symbol": "TER",
         "name": "Teradyne",
-        "pct": -9.73
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum",
-        "pct": -9.29
+        "pct": -10.2
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave",
-        "pct": -9.19
+        "pct": -10.08
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum",
+        "pct": -9.76
       },
       {
         "symbol": "SNDK",
         "name": "Sandisk",
-        "pct": -8.8
+        "pct": -9.61
       },
       {
         "symbol": "MRVL",
         "name": "Marvell Technology",
-        "pct": -8.08
-      },
-      {
-        "symbol": "STX",
-        "name": "Seagate Technology",
-        "pct": -8.01
-      },
-      {
-        "symbol": "ARM",
-        "name": "Arm Holdings",
-        "pct": -7.6
+        "pct": -8.8
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group",
-        "pct": -7.39
+        "pct": -8.53
+      },
+      {
+        "symbol": "STX",
+        "name": "Seagate Technology",
+        "pct": -8.15
+      },
+      {
+        "symbol": "JBL",
+        "name": "Jabil",
+        "pct": -7.59
       }
     ],
     "universe": 517
