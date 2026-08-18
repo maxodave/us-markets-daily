@@ -469,6 +469,27 @@ def main():
     # della seduta precedente (che e' esattamente cio' che deve mostrare fino alla
     # chiusura di oggi). Vedi weekend_edition.py.
     prev = weekend_edition.previous_edition(EDITIONS_DIR, edition_date)
+
+    # Guardia anti-regressione: non pubblicare mai un'edizione la cui seduta e'
+    # PIU' VECCHIA dell'ultima gia' uscita. Le sedute non tornano indietro nel
+    # tempo, quindi una seduta che regredisce non e' una seduta vera: e' un fetch
+    # rimasto indietro. Capita sui runner GitHub, dove yfinance ogni tanto serve
+    # dati fermi al giorno prima; senza guardia un run di meta' giornata
+    # sovrascriveva l'edizione buona e il sito finiva a mostrare "seduta del 14"
+    # mentre l'edizione della sera prima raccontava gia' la seduta del 17.
+    # Una seduta UGUALE resta lecita: weekend e feste ripetono la seduta di
+    # riferimento (il recap sotto vive apposta). Solo lo STRETTAMENTE piu' vecchio
+    # viene rifiutato, lasciando in piedi l'ultima edizione buona.
+    prev_session = prev.get("session_date") if prev else None
+    if prev_session and session_date and session_date < prev_session:
+        print(
+            f"Seduta {session_date} piu' vecchia dell'ultima pubblicata "
+            f"({prev_session}): dati di mercato non aggiornati. Non sovrascrivo "
+            f"l'edizione buona — rilancia quando il fetch e' fresco.",
+            file=sys.stderr,
+        )
+        return
+
     is_weekend_day = datetime.strptime(edition_date, "%Y-%m-%d").weekday() >= 5  # 5=sabato, 6=domenica
     is_recap = is_weekend_day and weekend_edition.is_recap_edition(session_date, prev)
 
