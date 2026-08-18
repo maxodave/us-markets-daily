@@ -535,6 +535,11 @@ function renderEditions() {
   // cambio vista non ridisegna nulla (la striscia LIVE mantiene i suoi dati).
   let editorial = `<div class="edition">${header}</div>`;
   if (isWeekend) editorial += weekendDigest(latest.weekend_report, L);
+  // Edizione di seduta: sotto l'editoriale, il feed "notizie dietro i mover" con i
+  // catalizzatori dei 10 top gainer e 10 top loser (una scheda per titolo, i piu'
+  // forti prima). E' lo stesso blocco che compare in LIVE; qui resta dalla chiusura
+  // della sera fino alla nuova edizione. La vista LIVE non viene toccata.
+  else editorial += moverNewsHtml(latest, L);
 
   let archiveHtml = "";
   if (older.length) {

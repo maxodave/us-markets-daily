@@ -100,7 +100,10 @@ INDEX_LABELS = {
 # Notizie da mostrare nel feed visuale dell'edizione
 FEED_CATEGORIES = ("mercati", "italia", "crypto", "tech", "scienza")
 MAX_FEED_ITEMS = 40
-TOP_MOVERS = 8
+# 10 per lato: l'edizione mostra i 10 top gainer e i 10 top loser della seduta, e
+# il blocco "notizie dietro i mover" ne deriva fino a 20 schede (una per titolo).
+# fetch_news.py ne interroga gia' 12 per lato (MOVERS_ONLY_N), quindi c'e' margine.
+TOP_MOVERS = 10
 # Quanti mover citare nel paragrafo che riassume le notizie della seduta. Pochi e
 # spiegati vale piu' di otto elencati: la lista completa e' comunque nelle due
 # colonne accanto al testo.
