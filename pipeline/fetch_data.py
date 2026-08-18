@@ -293,8 +293,24 @@ def main():
 
     rows.sort(key=lambda r: r["pct_change"], reverse=True)
 
+    # La data della seduta e' quella CONDIVISA dalla maggioranza dei titoli, non
+    # quella del singolo top gainer (rows[0]). Un titolo sospeso o con l'ultima
+    # barra mancante su yfinance porta una data vecchia: se capita di essere il
+    # mover in cima, "generated_at" (e quindi la "seduta del ..." sul sito)
+    # regrediva a quel giorno stantio mentre gli altri 500+ titoli erano freschi.
+    # E' successo davvero: il 18 agosto l'edizione mostrava la seduta del 14 perche'
+    # il top gainer sul runner GitHub aveva ancora la barra del venerdi'. La moda
+    # delle date (a parita', la piu' recente) e' la seduta che l'indice ha davvero
+    # scambiato.
+    session_date = None
+    if rows:
+        counts = {}
+        for r in rows:
+            counts[r["date"]] = counts.get(r["date"], 0) + 1
+        session_date = max(counts, key=lambda d: (counts[d], d))
+
     out = {
-        "generated_at": rows[0]["date"] if rows else None,
+        "generated_at": session_date,
         "count": len(rows),
         "missing": missing,
         "companies": rows,
