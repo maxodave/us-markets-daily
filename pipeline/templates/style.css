@@ -159,6 +159,22 @@
               text-transform: uppercase; letter-spacing: 0.04em; cursor: pointer; color: var(--text); user-select: none; }
   .cat-chip.active { background: var(--text); color: var(--bg); border-color: var(--text); }
 
+  /* "Le notizie dietro i mover": catalizzatori dei top gainer/loser, in cima a Tutte. */
+  .mover-news { margin-bottom: 34px; }
+  .mover-news .section-head { border-top: none; padding-top: 0; margin-bottom: 6px; }
+  .mn-note { color: var(--muted); font-size: 0.86rem; line-height: 1.5; margin-bottom: 16px; max-width: 70ch; }
+  .mn-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }
+  .mn-card { display: block; text-decoration: none; color: var(--text); background: var(--panel); border: 1px solid var(--border);
+    border-left: 3px solid var(--accent); border-radius: var(--radius-sm, 8px); padding: 14px 16px;
+    transition: border-color .18s ease, transform .18s ease, background .18s ease; }
+  .mn-card:hover { transform: translateY(-2px); border-color: var(--border-strong); background: var(--panel-2, rgba(255,255,255,.03)); }
+  .mn-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; }
+  .mn-sym { font-family: var(--mono); font-weight: 700; letter-spacing: .04em; color: var(--accent); }
+  .mn-name { flex: 1; min-width: 0; font-size: .82rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .mn-pct { font-family: var(--mono); font-weight: 700; font-size: .78rem; padding: 3px 9px; border-radius: 6px; }
+  .mn-title { font-size: .94rem; line-height: 1.42; }
+  .mn-src { font-family: var(--mono); font-weight: 700; text-transform: uppercase; font-size: .64rem; letter-spacing: .06em; color: var(--muted); margin-right: 8px; }
+
   .feed-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 24px; }
   .feed-card { background: var(--panel); border: 1px solid var(--border); display: flex; flex-direction: column;
                text-decoration: none; color: var(--text); overflow: hidden; transition: border-color .15s ease; }

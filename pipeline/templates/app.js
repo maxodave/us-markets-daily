@@ -24,6 +24,8 @@ const I18N = {
     footer: "Images remain the property of their respective outlets, linked to the original source.",
     noEdition: "No edition published yet.",
     feedTitle: "News feed",
+    moverNewsTitle: "The news behind the movers",
+    moverNewsNote: "Why the biggest gainers and losers moved — the stories to weigh before going long or short.",
     allLabel: "All",
     archiveLabel: "Edition archive",
     archiveShow: "Show",
@@ -64,6 +66,8 @@ const I18N = {
     footer: "Le immagini restano di proprieta' delle rispettive testate, linkate alla fonte originale.",
     noEdition: "Nessuna edizione ancora pubblicata.",
     feedTitle: "Feed notizie",
+    moverNewsTitle: "Le notizie dietro i mover",
+    moverNewsNote: "Perche' i titoli piu' su e piu' giu' si sono mossi — le notizie da pesare prima di andare long o short.",
     allLabel: "Tutte",
     archiveLabel: "Archivio edizioni",
     archiveShow: "Mostra",
@@ -453,6 +457,47 @@ function applyShellI18n(effectiveLang) {
   if (footerEl) footerEl.textContent = t.footer;
 }
 
+// "Le notizie dietro i mover": i catalizzatori dei top gainer/loser della seduta,
+// in cima a "Tutte". Sono gli stessi articoli-motivazione gia' scelti da
+// mover_reason.py (fonte affidabile, recente, specifica sul titolo): qui li
+// raccogliamo da tutti gli indici, deduplicati per titolo e ordinati per ampiezza
+// del movimento, cosi' la sera e la mattina si capisce PERCHE' un titolo e' salito
+// o sceso, prima di decidere long o short. Se un mover non ha un catalizzatore
+// affidabile, semplicemente non compare (niente motivazioni inventate).
+function moverNewsHtml(ed, lang) {
+  const t = I18N[lang];
+  const byIdx = ed.auto_report_by_index;
+  if (!byIdx) return "";  // edizioni weekend/legacy: nessun mover da spiegare
+  const block = byIdx.combined || byIdx.sp500;
+  if (!block) return "";
+  const seen = new Set();
+  const picks = [];
+  [...(block.gainers || []), ...(block.losers || [])].forEach(m => {
+    if (!m.reason || seen.has(m.symbol)) return;
+    seen.add(m.symbol);
+    picks.push(m);
+  });
+  if (!picks.length) return "";
+  picks.sort((a, b) => Math.abs(b.pct_change) - Math.abs(a.pct_change));
+  const cards = picks.map(m => {
+    const col = pctColor(m.pct_change);
+    const r = m.reason;
+    return `<a class="mn-card" href="${esc(r.link)}" target="_blank" rel="noopener noreferrer">
+      <div class="mn-head">
+        <span class="mn-sym">${esc(m.symbol)}</span>
+        <span class="mn-name">${esc(m.name)}</span>
+        <span class="mn-pct" style="background:${col.bg};color:${col.fg}">${fmtPct(m.pct_change, lang)}</span>
+      </div>
+      <div class="mn-title"><span class="mn-src">${esc(r.source)}</span>${esc(r.title)}</div>
+    </a>`;
+  }).join("");
+  return `<div class="mover-news">
+      <div class="section-head"><h3>${esc(t.moverNewsTitle)}</h3></div>
+      <div class="mn-note">${esc(t.moverNewsNote)}</div>
+      <div class="mn-grid">${cards}</div>
+    </div>`;
+}
+
 function renderEditions() {
   const el = document.getElementById("editionsContent");
   if (!EDITIONS.length) {
@@ -519,6 +564,11 @@ function renderEditions() {
     }
   }
 
+  // Le notizie dietro i mover vanno SOLO sotto "Tutte" (category null) e solo per
+  // le edizioni di seduta (il weekend non ha mover). Con un filtro categoria
+  // attivo si mostra invece solo la cronaca di quella categoria.
+  const moverNews = (feedState.category === null && !isWeekend) ? moverNewsHtml(latest, L) : "";
+
   const feedHtml = `<div class="section-head">
       <h3>${esc(isWeekend ? t.moreTitle : t.feedTitle)}</h3>
       <div class="cat-filters">
@@ -529,6 +579,7 @@ function renderEditions() {
         }).join("")}
       </div>
     </div>
+    ${moverNews}
     <div class="feed-grid">${shown.map(item => feedCard(item, L)).join("")}</div>`;
 
   const html = `<div class="only-edition">${editorial}${archiveHtml}</div>`
