@@ -41,6 +41,8 @@ FTSEMIB_URL = "https://en.wikipedia.org/wiki/FTSE_MIB"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
 CHUNK_SIZE = 80
 OUT_FILE = "data.json"
+# Elenco snello dei costituenti (simbolo Yahoo + indici) per il job LIVE. Vedi main().
+UNIVERSE_FILE = "universe.json"
 
 
 def _flat_columns(df: pd.DataFrame) -> list[str]:
@@ -317,6 +319,25 @@ def main():
     }
     with open(OUT_FILE, "w") as f:
         json.dump(out, f, indent=2, ensure_ascii=False)
+
+    # universe.json: l'elenco SNELLO (simbolo Yahoo + indici) di tutto l'universo,
+    # committato nel repo. Serve al job LIVE (fetch_live_quotes.py, ogni 15 min):
+    # data.json e' gitignorato e comunque il job live non gira fetch_data, quindi
+    # senza questo file non saprebbe QUALI titoli quotare per i top/worst del
+    # momento. Cambia di rado (i costituenti sono stabili), quindi committarlo non
+    # sporca la cronologia. Vedi fetch_live_quotes.py.
+    universe = [
+        {
+            "yf_symbol": r["yf_symbol"],
+            "symbol": r["symbol"],
+            "name": r["name"],
+            "indices": r["indices"],
+        }
+        for _, r in constituents.iterrows()
+    ]
+    with open(UNIVERSE_FILE, "w") as f:
+        json.dump({"generated_at": session_date, "companies": universe}, f, indent=2, ensure_ascii=False)
+    print(f"Universo LIVE salvato in {UNIVERSE_FILE} ({len(universe)} simboli).")
 
     print(f"\nCompletato: {len(rows)} societa' salvate in {OUT_FILE}")
     if missing:

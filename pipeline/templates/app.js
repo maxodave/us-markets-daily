@@ -25,7 +25,10 @@ const I18N = {
     noEdition: "No edition published yet.",
     feedTitle: "News feed",
     moverNewsTitle: "The news behind the movers",
-    moverNewsNote: "Why the biggest gainers and losers moved — the stories to weigh before going long or short.",
+    liveMoversTop: "Top 10 movers",
+    liveMoversWorst: "Worst 10 movers",
+    liveMoversNow: "now",
+    liveMoversClose: "last close",
     allLabel: "All",
     archiveLabel: "Edition archive",
     archiveShow: "Show",
@@ -67,7 +70,10 @@ const I18N = {
     noEdition: "Nessuna edizione ancora pubblicata.",
     feedTitle: "Feed notizie",
     moverNewsTitle: "Le notizie dietro i mover",
-    moverNewsNote: "Perche' i titoli piu' su e piu' giu' si sono mossi — le notizie da pesare prima di andare long o short.",
+    liveMoversTop: "Migliori 10",
+    liveMoversWorst: "Peggiori 10",
+    liveMoversNow: "ora",
+    liveMoversClose: "ultima chiusura",
     allLabel: "Tutte",
     archiveLabel: "Archivio edizioni",
     archiveShow: "Mostra",
@@ -493,7 +499,6 @@ function moverNewsHtml(ed, lang) {
   }).join("");
   return `<div class="mover-news">
       <div class="section-head"><h3>${esc(t.moverNewsTitle)}</h3></div>
-      <div class="mn-note">${esc(t.moverNewsNote)}</div>
       <div class="mn-grid">${cards}</div>
     </div>`;
 }
@@ -569,12 +574,14 @@ function renderEditions() {
     }
   }
 
-  // Le notizie dietro i mover vanno SOLO sotto "Tutte" (category null) e solo per
-  // le edizioni di seduta (il weekend non ha mover). Con un filtro categoria
-  // attivo si mostra invece solo la cronaca di quella categoria.
-  const moverNews = (feedState.category === null && !isWeekend) ? moverNewsHtml(latest, L) : "";
+  // Scheda LIVE: al posto delle "notizie dietro i mover" (che ora vivono SOLO
+  // nell'edizione) va la lista dei top 10 / worst 10 del MOMENTO. Il contenitore
+  // resta vuoto qui: lo riempie il poller di live.json (funzione live() sotto),
+  // cosi' cambia a ogni aggiornamento (ogni 15 min) come lo striscione in basso.
+  // A mercati chiusi ricade sui mover della seduta. Nel weekend non c'e' seduta.
+  const liveMoversSlot = isWeekend ? "" : `<div id="liveMovers" class="live-movers"></div>`;
 
-  const feedHtml = `<div class="section-head">
+  const feedHtml = liveMoversSlot + `<div class="section-head">
       <h3>${esc(isWeekend ? t.moreTitle : t.feedTitle)}</h3>
       <div class="cat-filters">
         <div class="cat-chip ${feedState.category === null ? "active" : ""}" data-cat="">${esc(t.allLabel)} (${feedItems.length})</div>
@@ -584,7 +591,6 @@ function renderEditions() {
         }).join("")}
       </div>
     </div>
-    ${moverNews}
     <div class="feed-grid">${shown.map(item => feedCard(item, L)).join("")}</div>`;
 
   const html = `<div class="only-edition">${editorial}${archiveHtml}</div>`
@@ -633,6 +639,56 @@ renderEditions();
   var HEADER_H = 64;
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  /* --- mover del MOMENTO: da live.json se il mercato e' aperto e li ha, altrimenti
+         i mover della SEDUTA dall'edizione (a mercato chiuso). Stessa identica fonte
+         per lo striscione in basso e per la lista nella scheda LIVE, cosi' coincidono
+         sempre e cambiano insieme a ogni refresh di live.json (~15 min). --- */
+  function moversFor(live) {
+    if (live && live.market_open && live.movers && (live.movers.gainers || []).length) {
+      var mapL = function (m) { return { s: m.symbol, p: m.pct, n: m.name || "" }; };
+      return { live: true, gainers: live.movers.gainers.map(mapL), losers: (live.movers.losers || []).map(mapL) };
+    }
+    if (typeof EDITIONS !== "undefined" && EDITIONS.length) {
+      var ed = EDITIONS[0];
+      var blk = ed.auto_report_by_index ? (ed.auto_report_by_index.combined || ed.auto_report_by_index.sp500) : ed.auto_report;
+      if (blk && (blk.gainers || []).length) {
+        var mapE = function (m) { return { s: m.symbol, p: m.pct_change, n: m.name || "" }; };
+        return { live: false, gainers: (blk.gainers || []).slice(0, 10).map(mapE), losers: (blk.losers || []).slice(0, 10).map(mapE) };
+      }
+      if (ed.weekend_report && ed.weekend_report.signals) {
+        var rows = [];
+        (ed.weekend_report.signals.groups || []).forEach(function (g) { (g.instruments || []).forEach(function (it) { rows.push({ s: it.name_en || it.name, p: it.pct_change, n: "" }); }); });
+        return { live: false, gainers: rows, losers: [] };
+      }
+    }
+    return { live: false, gainers: [], losers: [] };
+  }
+
+  function renderTicker(live) {
+    var track = document.getElementById("tickerTrack"), bar = document.getElementById("tickerBar");
+    if (!track || !bar) return;
+    var mv = moversFor(live), rows = mv.gainers.concat(mv.losers);
+    if (!rows.length) { bar.style.display = "none"; document.body.style.paddingBottom = "0"; return; }
+    bar.style.display = "";
+    var cell = function (r) { var cls = r.p >= 0 ? "up" : "down", sign = r.p >= 0 ? "+" : ""; return '<span class="tk"><span class="sym">' + r.s + '</span><span class="' + cls + '">' + sign + Number(r.p).toFixed(2) + '%</span></span>'; };
+    var h = rows.map(cell).join(""); track.innerHTML = h + h;
+  }
+
+  function paintLiveMovers(live) {
+    var box = document.getElementById("liveMovers"); if (!box) return;
+    var mv = moversFor(live);
+    if (!mv.gainers.length && !mv.losers.length) { box.innerHTML = ""; return; }
+    var t = I18N[lang], tag = mv.live ? t.liveMoversNow : t.liveMoversClose;
+    var col = function (label, list, dir) {
+      var body = list.map(function (r) {
+        var cls = r.p >= 0 ? "up" : "down", sign = r.p >= 0 ? "+" : "";
+        return '<div class="lm-row"><span class="lm-sym">' + r.s + '</span><span class="lm-name">' + r.n + '</span><span class="lm-pct ' + cls + '">' + sign + Number(r.p).toFixed(2) + '%</span></div>';
+      }).join("");
+      return '<div class="lm-col"><div class="lm-head ' + dir + '">' + label + ' <span class="lm-tag">&middot; ' + tag + '</span></div>' + body + '</div>';
+    };
+    box.innerHTML = col(t.liveMoversTop, mv.gainers, "up") + col(t.liveMoversWorst, mv.losers, "down");
+  }
+
   /* --- campo stellare --- */
   (function stars() {
     var c = document.getElementById("stars"); if (!c || reduce) return;
@@ -649,18 +705,11 @@ renderEditions();
   (function tw() { var el = document.getElementById("heroType"); if (!el) return; var p = "See the close. Read the why.", cur = '<span class="type-cursor">&nbsp;</span>';
     if (reduce) { el.innerHTML = p + cur; return; } var i = 0; (function s() { el.innerHTML = p.slice(0, i) + cur; if (i < p.length) { var pause = p[i] === "." ? 260 : 0; i++; setTimeout(s, 55 + pause); } })(); })();
 
-  /* --- ticker: chiusure della seduta precedente (o segnali weekend) --- */
-  (function ticker() {
-    var track = document.getElementById("tickerTrack"), bar = document.getElementById("tickerBar");
-    if (!track || !bar || typeof EDITIONS === "undefined" || !EDITIONS.length) { if (bar) bar.style.display = "none"; return; }
-    var ed = EDITIONS[0], rows = [];
-    var blk = ed.auto_report_by_index ? (ed.auto_report_by_index.sp500 || ed.auto_report_by_index.combined) : ed.auto_report;
-    if (blk) { rows = (blk.gainers || []).slice(0, 6).concat((blk.losers || []).slice(0, 6)).map(function (m) { return { s: m.symbol, p: m.pct_change }; }); }
-    if (!rows.length && ed.weekend_report && ed.weekend_report.signals) { (ed.weekend_report.signals.groups || []).forEach(function (g) { (g.instruments || []).forEach(function (it) { rows.push({ s: it.name_en || it.name, p: it.pct_change }); }); }); }
-    if (!rows.length) { bar.style.display = "none"; document.body.style.paddingBottom = "0"; return; }
-    var cell = function (r) { var cls = r.p >= 0 ? "up" : "down", sign = r.p >= 0 ? "+" : ""; return '<span class="tk"><span class="sym">' + r.s + '</span><span class="' + cls + '">' + sign + Number(r.p).toFixed(2) + '%</span></span>'; };
-    var h = rows.map(cell).join(""); track.innerHTML = h + h;
-  })();
+  /* --- striscione + lista LIVE: primo disegno dai mover della seduta (fallback);
+         il poller live() sotto li sostituisce coi mover del momento appena arriva
+         live.json, e li aggiorna a ogni refresh. --- */
+  renderTicker(null);
+  paintLiveMovers(null);
 
   /* --- stato del mercato USA, in ora di New York (gestisce da solo l'ora legale) --- */
   var forceClosed = /[?&]closed\b/.test(location.search);   // anteprima "mercato chiuso" feriale
@@ -751,6 +800,9 @@ renderEditions();
         : "";
       strip.innerHTML = statusHtml() + idx;
       strip.hidden = false;
+      // Stessa fonte per striscione e lista LIVE: cambiano insieme a ogni refresh.
+      renderTicker(latest);
+      paintLiveMovers(latest);
     }
     function load() { fetch("live.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { latest = d; paint(); }).catch(paint); }
     load();
