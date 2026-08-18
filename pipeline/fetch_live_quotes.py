@@ -5,13 +5,16 @@ qui un workflow GitHub e la pagina legge il file (stessa origine).
 
 I MOVER del momento (non della sola chiusura) sono cio' che rende viva la
 dashboard: lo striscione in basso e la lista nella scheda LIVE cambiano a ogni
-run (ogni 15 min durante la seduta). Si calcolano sull'universo USA
-(sp500/dow/nasdaq100) letto da universe.json — il FTSE MIB resta fuori perche'
-Milano e' gia' chiusa mentre Wall Street contratta, quindi mostrerebbe numeri
-fermi. Durante la seduta l'ultima barra giornaliera di yfinance E' il prezzo
-corrente, quindi "ultima vs penultima chiusura" da' la variazione intraday.
+run (ogni 15 min durante la seduta). Si calcolano su TUTTO il mercato USA
+(NYSE + Nasdaq + NYSE American) filtrato per liquidita', letto da
+universe_live.json (lo scrive build_live_universe.py ogni notte). Prima si
+guardavano solo i tre indici, e una societa' fuori da quelli non poteva comparire
+nemmeno crollando: il 18 agosto 2026 Klarna faceva -22% e non si vedeva. Il FTSE
+MIB resta fuori perche' Milano e' gia' chiusa mentre Wall Street contratta.
+Durante la seduta l'ultima barra giornaliera di yfinance E' il prezzo corrente,
+quindi "ultima vs penultima chiusura" da' la variazione intraday.
 
-Se universe.json manca o Yahoo non risponde per abbastanza titoli, i mover si
+Se manca l'universo o Yahoo non risponde per abbastanza titoli, i mover si
 OMETTONO (niente chiave "movers"): la pagina ricade sui mover della seduta
 dell'edizione. Meglio nessun dato che dati sbagliati.
 
@@ -33,6 +36,13 @@ INDICES = [
     {"key": "ftsemib", "label": "FTSE MIB", "symbol": "FTSEMIB.MI"},
 ]
 
+# Universo dei mover LIVE, in ordine di preferenza:
+#  1) universe_live.json — TUTTO il mercato USA (NYSE + Nasdaq + NYSE American)
+#     filtrato per liquidita', scritto ogni notte da build_live_universe.py. E' la
+#     lista giusta: una societa' fuori dai tre indici (Klarna, NYSE) puo' comparire.
+#  2) universe.json — i soli costituenti dei tre indici (503+30+102). Ripiego, usato
+#     se il file sopra manca: meglio 518 titoli che nessun mover.
+LIVE_UNIVERSE_FILE = "universe_live.json"
 UNIVERSE_FILE = "universe.json"
 # Solo Wall Street per i mover del momento: il FTSE MIB (borsa di Milano) chiude
 # nel primo pomeriggio USA, quindi durante la seduta americana darebbe variazioni
@@ -69,13 +79,35 @@ def quote_index(symbol: str) -> dict | None:
 
 
 def load_universe(base_dir: str) -> list[dict]:
-    """L'universo USA da universe.json (scritto da fetch_data.py). Vuoto se manca."""
+    """I titoli su cui calcolare i mover del momento, normalizzati a
+    {yf_symbol, symbol, name}. Prima l'universo USA liquido, poi i tre indici."""
+    for path in (os.path.join(base_dir, LIVE_UNIVERSE_FILE), LIVE_UNIVERSE_FILE):
+        try:
+            with open(path, encoding="utf-8") as f:
+                companies = json.load(f).get("companies", [])
+            if companies:
+                print(f"  universo LIVE: {len(companies)} societa' liquide da {os.path.basename(path)}.")
+                # Nel listino ufficiale il ticker e' gia' quello di Yahoo (solo simboli
+                # semplici, vedi build_live_universe.py): symbol == yf_symbol.
+                return [
+                    {"yf_symbol": c["symbol"], "symbol": c["symbol"], "name": c.get("name", "")}
+                    for c in companies
+                ]
+        except (FileNotFoundError, ValueError):
+            continue
+
     for path in (os.path.join(base_dir, UNIVERSE_FILE), UNIVERSE_FILE):
         try:
             with open(path, encoding="utf-8") as f:
-                data = json.load(f)
-            companies = data.get("companies", [])
-            return [c for c in companies if set(c.get("indices") or []) & set(US_INDEX_KEYS)]
+                companies = json.load(f).get("companies", [])
+            us = [c for c in companies if set(c.get("indices") or []) & set(US_INDEX_KEYS)]
+            if us:
+                print(f"  universo LIVE: ripiego sui {len(us)} titoli dei tre indici "
+                      f"({os.path.basename(path)}).")
+                return [
+                    {"yf_symbol": c["yf_symbol"], "symbol": c["symbol"], "name": c.get("name", "")}
+                    for c in us
+                ]
         except (FileNotFoundError, ValueError):
             continue
     return []
