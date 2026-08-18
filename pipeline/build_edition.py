@@ -453,10 +453,24 @@ def main():
         print(f"Edizione {edition_date} gia' presente: {out_path} (usa --force per rigenerarla)")
         return
 
-    # Il bivio: c'e' una seduta nuova, o quella di data.json e' gia' stata
-    # raccontata ieri? Vedi weekend_edition.py per il perche' e per la regola.
+    # Il bivio: recap (digest "mercati chiusi") oppure edizione di seduta coi top
+    # gainer/loser. Il recap vale SOLO nei giorni davvero senza contrattazioni —
+    # sabato e domenica. Un giorno feriale ha una seduta, quindi l'edizione mostra
+    # sempre i suoi mover.
+    #
+    # Il guard sul weekend e' nato da un bug reale: se il build viene rilanciato
+    # DOPO la mezzanotte italiana ma prima dell'apertura di Wall Street (quindi
+    # l'ora locale e' gia' il giorno feriale dopo, mentre l'ultima seduta chiusa e'
+    # ancora quella di ieri), la sola regola "questa seduta l'ha gia' raccontata
+    # l'edizione precedente" scattava e trasformava un normale martedi' mattina in
+    # un recap "mercati chiusi lunedi'" — falso, lunedi' la borsa era aperta.
+    # Legando il recap al giorno della settimana, un feriale non viene mai piu'
+    # etichettato "chiuso": al massimo, se rilanciato di mattina, ripete i mover
+    # della seduta precedente (che e' esattamente cio' che deve mostrare fino alla
+    # chiusura di oggi). Vedi weekend_edition.py.
     prev = weekend_edition.previous_edition(EDITIONS_DIR, edition_date)
-    is_recap = weekend_edition.is_recap_edition(session_date, prev)
+    is_weekend_day = datetime.strptime(edition_date, "%Y-%m-%d").weekday() >= 5  # 5=sabato, 6=domenica
+    is_recap = is_weekend_day and weekend_edition.is_recap_edition(session_date, prev)
 
     # Un recap non deve MAI ereditare il commento della seduta: quel testo parla
     # dei mover di venerdi', che qui non compaiono. Il suo commento e' un altro
