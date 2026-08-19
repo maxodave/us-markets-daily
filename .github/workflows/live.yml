@@ -1,34 +1,46 @@
 name: Quotazioni LIVE
 
-# Aggiorna live.json (livello e variazione % dei quattro indici) per la striscia
-# "LIVE" del sito. Leggero: quattro simboli, nessuna notizia.
+# Aggiorna live.json (livelli dei quattro indici + top 10 / worst 10 mover del
+# momento) per la vista "LIVE" del sito. Il browser non puo' leggere Yahoo (CORS),
+# quindi i dati li raccoglie qui un job e la pagina legge il file (stessa origine).
 #
-# Gira SOLO quando Wall Street e' aperta: giorni feriali, ogni 15 minuti dalle
-# 13:00 alle 20:45 UTC. A mercati chiusi le quotazioni non cambiano — rigenerare
-# di notte o nel weekend produce solo run inutili (e ogni tanto un pages-build a
-# vuoto). La finestra 13-21 UTC copre la seduta USA in entrambi i regimi orari
-# COMPRESA la chiusura: d'estate la seduta e' 13:30-20:00 UTC, d'inverno
-# 14:30-21:00 UTC. L'ora 21 serve all'inverno: con la vecchia finestra 13-20 UTC
-# l'ultimo run cadeva alle 20:45 UTC = 15:45 ET, cioe' QUINDICI MINUTI PRIMA della
-# campana, quindi i valori di chiusura non venivano mai catturati e la lista
-# "ultima chiusura" restava ferma a meta' pomeriggio. Ora l'ultimo run e' alle
-# 21:45 UTC (16:45 ET d'inverno, 17:45 ET d'estate): sempre dopo la chiusura.
-# Ogni 15 minuti (non 30) perche' GitHub puo' ritardare o SALTARE del tutto uno
-# slot schedulato nei momenti di carico: col passo a 15' un salto lascia uno
-# scarto di ~15-20 min invece di 60+. (Verificato il 17/08/2026: col passo a 30'
-# gli slot delle 16:00 e 17:00 UTC non erano mai partiti.)
+# PERCHE' UN JOB CHE CICLA, e non piu' un cron "*/15". GitHub Actions NON rispetta
+# gli schedule frequenti: li ritarda di parecchi minuti e ne SALTA in blocco,
+# specie i primi della giornata e gli slot :00. Verificato: col cron "*/15" il
+# 19/08/2026 il primo run e' partito solo alle 13:49 UTC (saltati 13:00/13:15/13:30,
+# cioe' l'apertura), e nei giorni "buoni" il ritmo reale era di 20-45 min, non 15.
+# Per chi guarda la pagina, i mover restavano fermi per mezz'ora: "LIVE non si
+# aggiorna". La cura non e' un cron piu' fitto (GitHub lo collassa lo stesso): e'
+# far partire un job che poi cicla DA SOLO, scaricando e pubblicando ogni 15 minuti
+# fino a fine finestra. Cosi' il passo dei 15 minuti lo garantisce il job, non lo
+# scheduler. Il repo e' PUBBLICO: i minuti Actions sono illimitati, un job lungo non
+# costa nulla.
 #
-# La striscia mostra "MARKETS CLOSED" comunque, anche fuori da questa finestra:
-# lo stato aperto/chiuso lo calcola il browser in ora di New York, non serve un
-# run per dirlo.
+# UN JOB NON BASTA A COPRIRE TUTTA LA SEDUTA. Il limite di GitHub e' 6 ore per job;
+# la finestra utile (pre-apertura -> dopo la campana, in entrambi i regimi orari) e'
+# ~13:25-21:50 UTC = oltre 8 ore. Quindi piu' PUNTI DI AVVIO ridondanti (13:25,
+# 16:25, 19:25 UTC) e "concurrency" che SERIALIZZA: mentre un job cicla, gli avvii
+# successivi restano in coda e vengono soppiantati; quando il job in corso finisce
+# (o GitHub lo uccide al limite di tempo), quello in coda riparte e continua. Se
+# GitHub salta un avvio, il successivo copre comunque. La finestra di FINE e' fissa
+# alle 21:50 UTC: dopo la campara (20:00 estate / 21:00 inverno) restano ancora run
+# che catturano i valori di CHIUSURA, che poi la pagina lascia come "ultima chiusura"
+# fino alla seduta dopo.
+#
+# Nel weekend non gira: sab/dom non ci sono avvii (1-5 = lun-ven). La striscia mostra
+# comunque "MARKETS CLOSED" perche' lo stato lo calcola il browser in ora di New York.
 on:
   schedule:
-    - cron: "*/15 13-21 * * 1-5"
+    - cron: "25 13 * * 1-5"
+    - cron: "25 16 * * 1-5"
+    - cron: "25 19 * * 1-5"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Un solo job LIVE alla volta: gli avvii ridondanti si mettono in coda dietro a
+# quello che sta gia' ciclando, non si accavallano (niente push in conflitto).
 concurrency:
   group: live-quotes
   cancel-in-progress: false
@@ -36,6 +48,9 @@ concurrency:
 jobs:
   quotes:
     runs-on: ubuntu-latest
+    # Sotto il limite GitHub di 360'. Se un job viene ucciso qui, l'avvio in coda
+    # (o il cron successivo) riprende il ciclo: la copertura non si interrompe.
+    timeout-minutes: 355
     env:
       TZ: Europe/Rome
     steps:
@@ -46,17 +61,31 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
 
-      - name: Quotazioni dei quattro indici
-        run: python pipeline/fetch_live_quotes.py .
-
-      - name: Pubblica se qualcosa e' cambiato
+      - name: Ciclo di quotazioni ogni 15 minuti fino a fine finestra
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add live.json
-          if git diff --cached --quiet; then
-            echo "Quotazioni invariate."
-          else
-            git commit -m "Live quotes $(date -u '+%Y-%m-%d %H:%M UTC')"
-            git push
-          fi
+
+          # Fine finestra: 21:50 UTC di oggi. Copre la chiusura in estate (20:00 UTC)
+          # e in inverno (21:00 UTC) con qualche run di margine dopo la campana.
+          END=$(date -u -d 'today 21:50' +%s)
+          echo "Ciclo LIVE fino alle $(date -u -d "@$END" '+%H:%M UTC')."
+
+          while [ "$(date -u +%s)" -lt "$END" ]; do
+            python pipeline/fetch_live_quotes.py . || echo "fetch fallito, riprovo al giro dopo"
+            git add live.json
+            if git diff --cached --quiet; then
+              echo "Quotazioni invariate."
+            else
+              git commit -q -m "Live quotes $(date -u '+%Y-%m-%d %H:%M UTC')"
+              # Un altro job (daily.yml, o l'avvio in coda che parte al cambio) puo'
+              # aver spinto nel frattempo: riallinea prima di push, e se il push
+              # fallisce non fermare il ciclo — il giro dopo recupera.
+              git pull -q --rebase --autostash || true
+              git push -q || echo "push fallito, riprovo al giro dopo"
+            fi
+            # Non superare la fine della finestra con un'ultima attesa inutile.
+            [ "$(( $(date -u +%s) + 900 ))" -ge "$END" ] && break
+            sleep 900
+          done
+          echo "Finestra LIVE conclusa."
