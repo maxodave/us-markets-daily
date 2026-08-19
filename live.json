@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-19T17:06:54Z",
+  "updated": "2026-08-19T17:22:55Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.34,
-      "last": 7719.11
+      "pct": 0.22,
+      "last": 7710.31
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.07,
-      "last": 29469.63
+      "pct": -0.24,
+      "last": 29420.01
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.19,
-      "last": 53447.14
+      "pct": 0.12,
+      "last": 53410.87
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 144.5
+        "pct": 145.31
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 20.97
-      },
-      {
-        "symbol": "EL",
-        "name": "Estee Lauder Companies, Inc. (The)",
-        "pct": 17.45
+        "pct": 20.96
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": 16.61
+        "pct": 17.39
       },
       {
-        "symbol": "CDE",
-        "name": "Coeur Mining, Inc.",
-        "pct": 12.99
-      },
-      {
-        "symbol": "MSTR",
-        "name": "Strategy Inc",
-        "pct": 12.95
+        "symbol": "EL",
+        "name": "Estee Lauder Companies, Inc. (The)",
+        "pct": 16.93
       },
       {
         "symbol": "HL",
         "name": "Hecla Mining Company",
-        "pct": 12.95
+        "pct": 11.95
       },
       {
-        "symbol": "BMNR",
-        "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 12.34
+        "symbol": "MSTR",
+        "name": "Strategy Inc",
+        "pct": 11.88
+      },
+      {
+        "symbol": "MRK",
+        "name": "Merck & Company, Inc.",
+        "pct": 11.79
+      },
+      {
+        "symbol": "CDE",
+        "name": "Coeur Mining, Inc.",
+        "pct": 11.78
+      },
+      {
+        "symbol": "AMR",
+        "name": "Alpha Metallurgical Resources, Inc.",
+        "pct": 11.28
       },
       {
         "symbol": "EXK",
         "name": "Endeavour Silver Corporation",
-        "pct": 12.23
-      },
-      {
-        "symbol": "COIN",
-        "name": "Coinbase Global, Inc.",
-        "pct": 11.64
+        "pct": 11.18
       }
     ],
     "losers": [
       {
         "symbol": "PFSA",
         "name": "Profusa, Inc.",
-        "pct": -53.93
+        "pct": -54.08
       },
       {
         "symbol": "IPST",
         "name": "IP Strategy Holdings, Inc.",
-        "pct": -36.81
+        "pct": -37.5
       },
       {
         "symbol": "WETO",
         "name": "Wetour Robotics Limited",
-        "pct": -34.09
+        "pct": -31.32
       },
       {
         "symbol": "SLE",
         "name": "Super League Enterprise, Inc.",
-        "pct": -28.27
+        "pct": -27.97
       },
       {
         "symbol": "WYFI",
         "name": "WhiteFiber, Inc.",
-        "pct": -24.38
+        "pct": -25.64
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -11.85
+        "pct": -12.48
       },
       {
         "symbol": "SXTC",
         "name": "China SXT Pharmaceuticals, Inc.",
-        "pct": -10.73
+        "pct": -11.31
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": -10.26
-      },
-      {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": -8.9
+        "pct": -10.23
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -8.86
+        "pct": -9.62
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -8.44
       }
     ],
     "universe": 1225
