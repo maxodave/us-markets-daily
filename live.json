@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-19T13:49:58Z",
+  "updated": "2026-08-19T14:42:16Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.13,
-      "last": 7703.33
+      "pct": 0.46,
+      "last": 7729.02
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.41,
-      "last": 29370.36
+      "pct": -0.12,
+      "last": 29456.46
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.16,
-      "last": 53432.47
+      "pct": 0.59,
+      "last": 53661.84
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.22,
-      "last": 52959.56
+      "pct": -0.66,
+      "last": 52727.38
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 106.29
+        "pct": 140.53
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": 18.48
-      },
-      {
-        "symbol": "EL",
-        "name": "Estee Lauder Companies, Inc. (The)",
-        "pct": 17.57
+        "pct": 19.47
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 12.48
+        "pct": 16.33
       },
       {
-        "symbol": "MRK",
-        "name": "Merck & Company, Inc.",
-        "pct": 9.79
-      },
-      {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 9.32
-      },
-      {
-        "symbol": "FSM",
-        "name": "Fortuna Mining Corp.",
-        "pct": 8.76
-      },
-      {
-        "symbol": "CDE",
-        "name": "Coeur Mining, Inc.",
-        "pct": 8.71
-      },
-      {
-        "symbol": "TXG",
-        "name": "10x Genomics, Inc.",
-        "pct": 8.57
+        "symbol": "EL",
+        "name": "Estee Lauder Companies, Inc. (The)",
+        "pct": 16.14
       },
       {
         "symbol": "EXK",
         "name": "Endeavour Silver Corporation",
-        "pct": 8.54
+        "pct": 13.2
+      },
+      {
+        "symbol": "CDE",
+        "name": "Coeur Mining, Inc.",
+        "pct": 13.07
+      },
+      {
+        "symbol": "HL",
+        "name": "Hecla Mining Company",
+        "pct": 12.81
+      },
+      {
+        "symbol": "FSM",
+        "name": "Fortuna Mining Corp.",
+        "pct": 11.87
+      },
+      {
+        "symbol": "EYPT",
+        "name": "EyePoint, Inc.",
+        "pct": 10.97
+      },
+      {
+        "symbol": "AG",
+        "name": "First Majestic Silver Corp.",
+        "pct": 10.88
       }
     ],
     "losers": [
       {
         "symbol": "PFSA",
         "name": "Profusa, Inc.",
-        "pct": -47.8
+        "pct": -50.87
       },
       {
         "symbol": "WETO",
         "name": "Wetour Robotics Limited",
-        "pct": -26.07
-      },
-      {
-        "symbol": "WYFI",
-        "name": "WhiteFiber, Inc.",
-        "pct": -25.12
+        "pct": -42.42
       },
       {
         "symbol": "IPST",
         "name": "IP Strategy Holdings, Inc.",
-        "pct": -21.45
+        "pct": -27.98
+      },
+      {
+        "symbol": "WYFI",
+        "name": "WhiteFiber, Inc.",
+        "pct": -24.71
       },
       {
         "symbol": "SLE",
         "name": "Super League Enterprise, Inc.",
-        "pct": -12.18
-      },
-      {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "pct": -11.41
+        "pct": -21.79
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": -9.46
+        "pct": -9.98
       },
       {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": -8.53
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": -9.28
       },
       {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "pct": -7.98
+        "symbol": "DOCN",
+        "name": "DigitalOcean Holdings, Inc.",
+        "pct": -8.99
       },
       {
-        "symbol": "UMAC",
-        "name": "Unusual Machines, Inc.",
-        "pct": -7.91
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": -8.95
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -8.46
       }
     ],
     "universe": 1225
