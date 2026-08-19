@@ -1,135 +1,135 @@
 {
-  "updated": "2026-08-18T22:00:26Z",
-  "market_open": false,
+  "updated": "2026-08-19T13:49:58Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.69,
-      "last": 7691.76
+      "pct": 0.13,
+      "last": 7703.33
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.68,
-      "last": 29490.96
+      "pct": -0.41,
+      "last": 29370.36
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.22,
-      "last": 53343.4
+      "pct": 0.16,
+      "last": 53432.47
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.18,
-      "last": 53017.84
+      "pct": -0.22,
+      "last": 52959.56
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "PFSA",
-        "name": "Profusa, Inc.",
-        "pct": 506.62
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 106.29
       },
       {
-        "symbol": "IPST",
-        "name": "IP Strategy Holdings, Inc.",
-        "pct": 113.26
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "pct": 18.48
       },
       {
-        "symbol": "SLE",
-        "name": "Super League Enterprise, Inc.",
-        "pct": 82.12
+        "symbol": "EL",
+        "name": "Estee Lauder Companies, Inc. (The)",
+        "pct": 17.57
       },
       {
-        "symbol": "AMLX",
-        "name": "Amylyx Pharmaceuticals, Inc.",
-        "pct": 63.84
+        "symbol": "TEM",
+        "name": "Tempus AI, Inc.",
+        "pct": 12.48
       },
       {
-        "symbol": "SXTC",
-        "name": "China SXT Pharmaceuticals, Inc.",
-        "pct": 36.8
+        "symbol": "MRK",
+        "name": "Merck & Company, Inc.",
+        "pct": 9.79
       },
       {
-        "symbol": "WETO",
-        "name": "Wetour Robotics Limited",
-        "pct": 34.2
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": 9.32
       },
       {
-        "symbol": "WEAV",
-        "name": "Weave Communications, Inc.",
-        "pct": 31.65
+        "symbol": "FSM",
+        "name": "Fortuna Mining Corp.",
+        "pct": 8.76
       },
       {
-        "symbol": "HAE",
-        "name": "Haemonetics Corporation",
-        "pct": 15.93
+        "symbol": "CDE",
+        "name": "Coeur Mining, Inc.",
+        "pct": 8.71
       },
       {
-        "symbol": "CDNL",
-        "name": "Cardinal Infrastructure Group Inc.",
-        "pct": 15.07
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "pct": 8.57
       },
       {
-        "symbol": "DUOT",
-        "name": "Duos Technologies Group, Inc.",
-        "pct": 12.74
+        "symbol": "EXK",
+        "name": "Endeavour Silver Corporation",
+        "pct": 8.54
       }
     ],
     "losers": [
       {
-        "symbol": "KLAR",
-        "name": "Klarna Group plc",
-        "pct": -22.81
+        "symbol": "PFSA",
+        "name": "Profusa, Inc.",
+        "pct": -47.8
       },
       {
-        "symbol": "FN",
-        "name": "Fabrinet",
-        "pct": -19.38
+        "symbol": "WETO",
+        "name": "Wetour Robotics Limited",
+        "pct": -26.07
+      },
+      {
+        "symbol": "WYFI",
+        "name": "WhiteFiber, Inc.",
+        "pct": -25.12
+      },
+      {
+        "symbol": "IPST",
+        "name": "IP Strategy Holdings, Inc.",
+        "pct": -21.45
+      },
+      {
+        "symbol": "SLE",
+        "name": "Super League Enterprise, Inc.",
+        "pct": -12.18
+      },
+      {
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": -11.41
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": -15.36
+        "pct": -9.46
       },
       {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": -15.16
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": -8.53
       },
       {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": -14.31
+        "symbol": "LUNR",
+        "name": "Intuitive Machines, Inc.",
+        "pct": -7.98
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -14.23
-      },
-      {
-        "symbol": "KALU",
-        "name": "Kaiser Aluminum Corporation",
-        "pct": -13.08
-      },
-      {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": -13.03
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -13.0
-      },
-      {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": -12.75
+        "symbol": "UMAC",
+        "name": "Unusual Machines, Inc.",
+        "pct": -7.91
       }
     ],
     "universe": 1225
