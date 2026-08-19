@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-19T19:30:53Z",
+  "updated": "2026-08-19T19:46:52Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.33,
-      "last": 7718.99
+      "pct": 0.18,
+      "last": 7707.46
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.04,
-      "last": 29477.9
+      "pct": -0.23,
+      "last": 29422.37
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.26,
-      "last": 53484.98
+      "pct": 0.22,
+      "last": 53462.23
     },
     {
       "key": "ftsemib",
@@ -32,69 +32,69 @@
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 153.59
+        "pct": 169.07
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": 25.06
+        "pct": 29.24
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 23.46
+        "pct": 23.44
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": 21.55
+        "pct": 20.63
       },
       {
         "symbol": "EL",
         "name": "Estee Lauder Companies, Inc. (The)",
-        "pct": 17.67
+        "pct": 17.72
       },
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 14.3
+        "pct": 14.15
       },
       {
-        "symbol": "HIMS",
-        "name": "Hims & Hers Health, Inc.",
-        "pct": 13.84
+        "symbol": "EYPT",
+        "name": "EyePoint, Inc.",
+        "pct": 13.78
       },
       {
         "symbol": "HL",
         "name": "Hecla Mining Company",
-        "pct": 13.73
+        "pct": 13.23
       },
       {
         "symbol": "AMR",
         "name": "Alpha Metallurgical Resources, Inc.",
-        "pct": 13.57
+        "pct": 13.19
       },
       {
-        "symbol": "EXK",
-        "name": "Endeavour Silver Corporation",
-        "pct": 13.3
+        "symbol": "HIMS",
+        "name": "Hims & Hers Health, Inc.",
+        "pct": 13.14
       }
     ],
     "losers": [
       {
         "symbol": "PFSA",
         "name": "Profusa, Inc.",
-        "pct": -51.24
+        "pct": -53.66
       },
       {
         "symbol": "IPST",
         "name": "IP Strategy Holdings, Inc.",
-        "pct": -49.81
+        "pct": -49.05
       },
       {
         "symbol": "WETO",
         "name": "Wetour Robotics Limited",
-        "pct": -31.0
+        "pct": -37.68
       },
       {
         "symbol": "SLE",
@@ -104,32 +104,32 @@
       {
         "symbol": "WYFI",
         "name": "WhiteFiber, Inc.",
-        "pct": -24.9
+        "pct": -23.64
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -11.91
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": -11.41
+        "pct": -12.74
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": -10.97
+        "pct": -12.14
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": -10.4
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": -9.93
+        "pct": -10.06
       },
       {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": -9.71
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -10.05
       }
     ],
     "universe": 1225
