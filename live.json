@@ -1,137 +1,137 @@
 {
-  "updated": "2026-08-19T20:34:52Z",
-  "market_open": false,
+  "updated": "2026-08-20T14:04:51Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.21,
-      "last": 7707.98
+      "pct": -0.36,
+      "last": 7680.65
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.22,
-      "last": 29426.02
+      "pct": -0.61,
+      "last": 29245.96
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.22,
-      "last": 53463.05
+      "pct": -0.69,
+      "last": 53100.58
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.86,
-      "last": 52618.2
+      "pct": -0.01,
+      "last": 52746.8
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": 176.97
+        "symbol": "BULL",
+        "name": "Webull Corporation",
+        "pct": 11.28
       },
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": 30.42
+        "symbol": "MRVI",
+        "name": "Maravai LifeSciences Holdings, Inc.",
+        "pct": 10.58
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 24.09
+        "pct": 9.8
       },
       {
-        "symbol": "TWST",
-        "name": "Twist Bioscience Corporation",
-        "pct": 22.64
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": 8.88
       },
       {
-        "symbol": "EL",
-        "name": "Estee Lauder Companies, Inc. (The)",
-        "pct": 16.3
+        "symbol": "MARA",
+        "name": "MARA Holdings, Inc.",
+        "pct": 8.7
       },
       {
-        "symbol": "EYPT",
-        "name": "EyePoint, Inc.",
-        "pct": 15.17
+        "symbol": "MSTR",
+        "name": "Strategy Inc",
+        "pct": 7.04
       },
       {
-        "symbol": "AMR",
-        "name": "Alpha Metallurgical Resources, Inc.",
-        "pct": 14.74
+        "symbol": "COIN",
+        "name": "Coinbase Global, Inc.",
+        "pct": 7.01
       },
       {
-        "symbol": "HL",
-        "name": "Hecla Mining Company",
-        "pct": 14.43
+        "symbol": "CF",
+        "name": "CF Industries Holdings, Inc.",
+        "pct": 6.68
       },
       {
-        "symbol": "EXK",
-        "name": "Endeavour Silver Corporation",
-        "pct": 13.77
+        "symbol": "HIMS",
+        "name": "Hims & Hers Health, Inc.",
+        "pct": 6.24
       },
       {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 13.66
+        "symbol": "BMNR",
+        "name": "BitMine Immersion Technologies, Inc.",
+        "pct": 6.1
       }
     ],
     "losers": [
       {
-        "symbol": "PFSA",
-        "name": "Profusa, Inc.",
-        "pct": -50.62
+        "symbol": "TNON",
+        "name": "Tenon Medical, Inc.",
+        "pct": -43.07
       },
       {
-        "symbol": "IPST",
-        "name": "IP Strategy Holdings, Inc.",
-        "pct": -46.38
+        "symbol": "RDAC",
+        "name": "Rising Dragon Acquisition Corp.",
+        "pct": -22.78
       },
       {
-        "symbol": "WETO",
-        "name": "Wetour Robotics Limited",
-        "pct": -37.09
+        "symbol": "AAP",
+        "name": "Advance Auto Parts Inc.",
+        "pct": -20.66
       },
       {
-        "symbol": "SLE",
-        "name": "Super League Enterprise, Inc.",
-        "pct": -25.09
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": -17.81
       },
       {
-        "symbol": "WYFI",
-        "name": "WhiteFiber, Inc.",
-        "pct": -21.02
+        "symbol": "EYPT",
+        "name": "EyePoint, Inc.",
+        "pct": -13.02
       },
       {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": -12.41
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": -10.11
       },
       {
-        "symbol": "SXTC",
-        "name": "China SXT Pharmaceuticals, Inc.",
-        "pct": -11.5
+        "symbol": "CAPR",
+        "name": "Capricor Therapeutics, Inc.",
+        "pct": -9.03
       },
       {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": -11.02
+        "symbol": "WMT",
+        "name": "Walmart Inc.",
+        "pct": -9.02
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -10.79
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -7.56
       },
       {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": -10.34
+        "symbol": "UMAC",
+        "name": "Unusual Machines, Inc.",
+        "pct": -6.96
       }
     ],
-    "universe": 1225
+    "universe": 1273
   }
 }
