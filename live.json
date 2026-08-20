@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-20T14:37:43Z",
+  "updated": "2026-08-20T14:53:49Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.27,
-      "last": 7686.84
+      "pct": -0.23,
+      "last": 7690.58
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.44,
-      "last": 29295.24
+      "pct": -0.42,
+      "last": 29301.24
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.63,
-      "last": 53130.41
+      "pct": -0.58,
+      "last": 53156.88
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.15,
-      "last": 52675.72
+      "pct": -0.22,
+      "last": 52636.04
     }
   ],
   "movers": {
@@ -32,84 +32,84 @@
       {
         "symbol": "MRVI",
         "name": "Maravai LifeSciences Holdings, Inc.",
-        "pct": 9.97
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": 9.14
-      },
-      {
-        "symbol": "MARA",
-        "name": "MARA Holdings, Inc.",
-        "pct": 9.01
+        "pct": 11.57
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 7.18
+        "pct": 9.67
+      },
+      {
+        "symbol": "MARA",
+        "name": "MARA Holdings, Inc.",
+        "pct": 8.7
+      },
+      {
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": 8.28
       },
       {
         "symbol": "DE",
         "name": "Deere & Company",
-        "pct": 7.02
+        "pct": 7.98
       },
       {
         "symbol": "PSNL",
         "name": "Personalis, Inc.",
-        "pct": 6.21
+        "pct": 7.24
       },
       {
-        "symbol": "TPL",
-        "name": "Texas Pacific Land Corporation",
-        "pct": 5.98
-      },
-      {
-        "symbol": "NDSN",
-        "name": "Nordson Corporation",
-        "pct": 5.69
+        "symbol": "CAI",
+        "name": "Caris Life Sciences, Inc.",
+        "pct": 7.12
       },
       {
         "symbol": "COIN",
         "name": "Coinbase Global, Inc.",
-        "pct": 5.49
+        "pct": 6.52
       },
       {
-        "symbol": "BMNR",
-        "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 5.48
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": 6.49
+      },
+      {
+        "symbol": "NDSN",
+        "name": "Nordson Corporation",
+        "pct": 6.49
       }
     ],
     "losers": [
       {
         "symbol": "TNON",
         "name": "Tenon Medical, Inc.",
-        "pct": -41.65
+        "pct": -36.11
       },
       {
         "symbol": "RDAC",
         "name": "Rising Dragon Acquisition Corp.",
-        "pct": -27.55
+        "pct": -30.75
       },
       {
         "symbol": "AAP",
         "name": "Advance Auto Parts Inc.",
-        "pct": -22.17
+        "pct": -22.46
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": -20.4
-      },
-      {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": -11.83
+        "pct": -18.94
       },
       {
         "symbol": "EYPT",
         "name": "EyePoint, Inc.",
-        "pct": -10.22
+        "pct": -11.98
+      },
+      {
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": -11.89
       },
       {
         "symbol": "CAPR",
@@ -119,17 +119,17 @@
       {
         "symbol": "WMT",
         "name": "Walmart Inc.",
-        "pct": -9.2
-      },
-      {
-        "symbol": "UMAC",
-        "name": "Unusual Machines, Inc.",
-        "pct": -8.39
+        "pct": -9.55
       },
       {
         "symbol": "UPST",
         "name": "Upstart Holdings, Inc.",
-        "pct": -8.09
+        "pct": -8.46
+      },
+      {
+        "symbol": "NVAX",
+        "name": "Novavax, Inc.",
+        "pct": -8.08
       }
     ],
     "universe": 1273
