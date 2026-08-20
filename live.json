@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-20T19:42:59Z",
-  "market_open": true,
+  "updated": "2026-08-20T20:00:09Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.74,
-      "last": 7650.86
+      "pct": -0.86,
+      "last": 7641.82
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.66,
-      "last": 29230.34
+      "pct": -0.72,
+      "last": 29213.16
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.23,
-      "last": 52809.91
+      "pct": -1.31,
+      "last": 52765.33
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 16.9
-      },
-      {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
-        "pct": 15.08
+        "pct": 15.54
       },
       {
         "symbol": "MRVI",
         "name": "Maravai LifeSciences Holdings, Inc.",
-        "pct": 14.25
+        "pct": 14.82
       },
       {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": 10.12
-      },
-      {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "pct": 9.21
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": 12.52
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 9.16
+        "pct": 9.5
+      },
+      {
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": 9.33
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 8.59
+        "pct": 8.87
       },
       {
-        "symbol": "NDSN",
-        "name": "Nordson Corporation",
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": 8.5
+      },
+      {
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": 8.31
+      },
+      {
+        "symbol": "RIOT",
+        "name": "Riot Platforms, Inc.",
         "pct": 8.26
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": 8.03
-      },
-      {
-        "symbol": "MSTR",
-        "name": "Strategy Inc",
-        "pct": 7.94
+        "pct": 8.05
       }
     ],
     "losers": [
       {
         "symbol": "TNON",
         "name": "Tenon Medical, Inc.",
-        "pct": -38.21
+        "pct": -38.59
       },
       {
         "symbol": "AAP",
         "name": "Advance Auto Parts Inc.",
-        "pct": -25.95
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": -25.07
+        "pct": -24.49
       },
       {
         "symbol": "RDAC",
         "name": "Rising Dragon Acquisition Corp.",
-        "pct": -17.08
+        "pct": -24.26
       },
       {
-        "symbol": "EYPT",
-        "name": "EyePoint, Inc.",
-        "pct": -13.41
-      },
-      {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": -12.55
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": -23.56
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": -10.78
+        "pct": -14.35
       },
       {
-        "symbol": "INIO",
-        "name": "INNIO N.V.",
-        "pct": -10.53
+        "symbol": "EYPT",
+        "name": "EyePoint, Inc.",
+        "pct": -14.29
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": -10.0
+        "pct": -9.56
+      },
+      {
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": -9.25
       },
       {
         "symbol": "WMT",
         "name": "Walmart Inc.",
-        "pct": -9.64
+        "pct": -9.15
+      },
+      {
+        "symbol": "INIO",
+        "name": "INNIO N.V.",
+        "pct": -8.8
       }
     ],
     "universe": 1273
