@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-20T17:50:20Z",
+  "updated": "2026-08-20T18:06:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.55,
-      "last": 7665.87
+      "pct": -0.66,
+      "last": 7657.21
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.69,
-      "last": 29221.55
+      "pct": -0.91,
+      "last": 29159.34
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.04,
-      "last": 52913.36
+      "pct": -1.11,
+      "last": 52871.48
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "MRVI",
-        "name": "Maravai LifeSciences Holdings, Inc.",
-        "pct": 13.09
-      },
-      {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
-        "pct": 12.23
+        "pct": 12.44
+      },
+      {
+        "symbol": "MRVI",
+        "name": "Maravai LifeSciences Holdings, Inc.",
+        "pct": 11.57
       },
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 10.01
+        "pct": 9.2
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 9.61
+        "pct": 8.7
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 8.89
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": 8.36
+        "pct": 8.62
       },
       {
         "symbol": "CAI",
         "name": "Caris Life Sciences, Inc.",
-        "pct": 8.3
+        "pct": 8.48
       },
       {
-        "symbol": "COIN",
-        "name": "Coinbase Global, Inc.",
-        "pct": 7.87
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": 7.84
+      },
+      {
+        "symbol": "DE",
+        "name": "Deere & Company",
+        "pct": 7.44
       },
       {
         "symbol": "MSTR",
         "name": "Strategy Inc",
-        "pct": 7.41
+        "pct": 7.02
       },
       {
-        "symbol": "SBET",
-        "name": "Sharplink, Inc.",
-        "pct": 7.3
+        "symbol": "COIN",
+        "name": "Coinbase Global, Inc.",
+        "pct": 6.98
       }
     ],
     "losers": [
       {
         "symbol": "TNON",
         "name": "Tenon Medical, Inc.",
-        "pct": -38.91
+        "pct": -39.0
       },
       {
         "symbol": "RDAC",
         "name": "Rising Dragon Acquisition Corp.",
-        "pct": -28.82
+        "pct": -28.59
       },
       {
         "symbol": "AAP",
         "name": "Advance Auto Parts Inc.",
-        "pct": -25.72
+        "pct": -25.96
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": -23.39
+        "pct": -24.45
       },
       {
         "symbol": "EYPT",
         "name": "EyePoint, Inc.",
-        "pct": -14.46
+        "pct": -14.6
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -12.86
+        "pct": -13.32
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": -10.46
+        "pct": -10.65
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -10.37
+        "pct": -10.61
       },
       {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -9.29
+        "symbol": "INIO",
+        "name": "INNIO N.V.",
+        "pct": -10.11
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": -9.24
+        "pct": -9.9
       }
     ],
     "universe": 1273
