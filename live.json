@@ -1,135 +1,135 @@
 {
-  "updated": "2026-08-20T14:04:51Z",
+  "updated": "2026-08-20T14:21:42Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.36,
-      "last": 7680.65
+      "pct": -0.34,
+      "last": 7681.78
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.61,
-      "last": 29245.96
+      "pct": -0.44,
+      "last": 29295.36
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.69,
-      "last": 53100.58
+      "pct": -0.78,
+      "last": 53050.65
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.01,
-      "last": 52746.8
+      "pct": -0.08,
+      "last": 52712.34
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "BULL",
-        "name": "Webull Corporation",
-        "pct": 11.28
+        "symbol": "MARA",
+        "name": "MARA Holdings, Inc.",
+        "pct": 9.43
       },
       {
         "symbol": "MRVI",
         "name": "Maravai LifeSciences Holdings, Inc.",
-        "pct": 10.58
-      },
-      {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "pct": 9.8
+        "pct": 9.21
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": 8.88
+        "pct": 8.31
       },
       {
-        "symbol": "MARA",
-        "name": "MARA Holdings, Inc.",
-        "pct": 8.7
+        "symbol": "TEM",
+        "name": "Tempus AI, Inc.",
+        "pct": 7.19
       },
       {
-        "symbol": "MSTR",
-        "name": "Strategy Inc",
-        "pct": 7.04
+        "symbol": "BULL",
+        "name": "Webull Corporation",
+        "pct": 6.83
+      },
+      {
+        "symbol": "PSNL",
+        "name": "Personalis, Inc.",
+        "pct": 6.77
       },
       {
         "symbol": "COIN",
         "name": "Coinbase Global, Inc.",
-        "pct": 7.01
+        "pct": 6.29
+      },
+      {
+        "symbol": "MSTR",
+        "name": "Strategy Inc",
+        "pct": 6.13
       },
       {
         "symbol": "CF",
         "name": "CF Industries Holdings, Inc.",
-        "pct": 6.68
-      },
-      {
-        "symbol": "HIMS",
-        "name": "Hims & Hers Health, Inc.",
-        "pct": 6.24
+        "pct": 5.66
       },
       {
         "symbol": "BMNR",
         "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 6.1
+        "pct": 5.56
       }
     ],
     "losers": [
       {
         "symbol": "TNON",
         "name": "Tenon Medical, Inc.",
-        "pct": -43.07
+        "pct": -40.8
       },
       {
         "symbol": "RDAC",
         "name": "Rising Dragon Acquisition Corp.",
-        "pct": -22.78
+        "pct": -26.39
       },
       {
         "symbol": "AAP",
         "name": "Advance Auto Parts Inc.",
-        "pct": -20.66
+        "pct": -21.66
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": -17.81
+        "pct": -18.7
       },
       {
         "symbol": "EYPT",
         "name": "EyePoint, Inc.",
-        "pct": -13.02
+        "pct": -12.37
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -10.11
+        "pct": -11.21
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": -9.03
+        "pct": -9.4
       },
       {
         "symbol": "WMT",
         "name": "Walmart Inc.",
-        "pct": -9.02
+        "pct": -9.12
       },
       {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -7.56
+        "symbol": "UPST",
+        "name": "Upstart Holdings, Inc.",
+        "pct": -8.14
       },
       {
         "symbol": "UMAC",
         "name": "Unusual Machines, Inc.",
-        "pct": -6.96
+        "pct": -7.63
       }
     ],
     "universe": 1273
