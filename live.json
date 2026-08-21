@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-21T18:01:14Z",
+  "updated": "2026-08-21T18:17:08Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.43,
-      "last": 7673.92
+      "pct": 0.41,
+      "last": 7672.16
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.33,
-      "last": 29308.69
+      "pct": 0.29,
+      "last": 29296.75
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.84,
-      "last": 53200.99
+      "pct": 0.82,
+      "last": 53192.72
     },
     {
       "key": "ftsemib",
@@ -30,49 +30,49 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "ASST",
-        "name": "Strive, Inc.",
-        "pct": 15.69
-      },
-      {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 13.96
+        "pct": 16.04
+      },
+      {
+        "symbol": "ASST",
+        "name": "Strive, Inc.",
+        "pct": 14.88
       },
       {
         "symbol": "HOOD",
         "name": "Robinhood Markets, Inc.",
-        "pct": 13.76
+        "pct": 13.89
       },
       {
         "symbol": "USAR",
         "name": "USA Rare Earth, Inc.",
-        "pct": 13.27
+        "pct": 12.42
       },
       {
         "symbol": "UEC",
         "name": "Uranium Energy Corp.",
-        "pct": 11.35
+        "pct": 11.52
       },
       {
         "symbol": "VIRT",
         "name": "Virtu Financial, Inc.",
-        "pct": 10.81
-      },
-      {
-        "symbol": "TGTX",
-        "name": "TG Therapeutics, Inc.",
-        "pct": 10.44
+        "pct": 11.05
       },
       {
         "symbol": "RGTI",
         "name": "Rigetti Computing, Inc.",
-        "pct": 9.96
+        "pct": 10.08
       },
       {
-        "symbol": "MP",
-        "name": "MP Materials Corp.",
-        "pct": 9.8
+        "symbol": "DK",
+        "name": "Delek US Holdings, Inc.",
+        "pct": 10.05
+      },
+      {
+        "symbol": "TGTX",
+        "name": "TG Therapeutics, Inc.",
+        "pct": 9.81
       },
       {
         "symbol": "INFQ",
@@ -82,54 +82,54 @@
     ],
     "losers": [
       {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -10.05
-      },
-      {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": -10.01
+        "pct": -10.09
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -9.87
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -9.3
+        "pct": -9.15
+      },
+      {
+        "symbol": "IPST",
+        "name": "IP Strategy Holdings, Inc.",
+        "pct": -9.1
       },
       {
         "symbol": "OSIS",
         "name": "OSI Systems, Inc.",
-        "pct": -8.82
+        "pct": -8.75
       },
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": -8.06
+        "pct": -8.54
       },
       {
         "symbol": "DAR",
         "name": "Darling Ingredients Inc.",
-        "pct": -7.19
+        "pct": -6.99
       },
       {
         "symbol": "WULF",
         "name": "TeraWulf Inc.",
-        "pct": -5.87
-      },
-      {
-        "symbol": "CLSK",
-        "name": "CleanSpark, Inc.",
-        "pct": -5.67
-      },
-      {
-        "symbol": "WETO",
-        "name": "Wetour Robotics Limited",
-        "pct": -5.47
+        "pct": -5.84
       },
       {
         "symbol": "RIOT",
         "name": "Riot Platforms, Inc.",
-        "pct": -5.29
+        "pct": -5.36
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": -5.31
       }
     ],
     "universe": 1269
