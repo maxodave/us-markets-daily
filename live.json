@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-21T16:41:48Z",
+  "updated": "2026-08-21T16:57:41Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.55,
-      "last": 7683.49
+      "pct": 0.51,
+      "last": 7680.16
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.43,
-      "last": 29338.89
+      "pct": 0.34,
+      "last": 29311.28
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.8,
-      "last": 53183.45
+      "pct": 0.79,
+      "last": 53178.27
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 16.31
-      },
-      {
-        "symbol": "HOOD",
-        "name": "Robinhood Markets, Inc.",
-        "pct": 13.14
-      },
-      {
-        "symbol": "USAR",
-        "name": "USA Rare Earth, Inc.",
-        "pct": 12.07
+        "pct": 17.3
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 11.76
+        "pct": 13.68
+      },
+      {
+        "symbol": "HOOD",
+        "name": "Robinhood Markets, Inc.",
+        "pct": 13.45
+      },
+      {
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": 12.22
       },
       {
         "symbol": "TGTX",
         "name": "TG Therapeutics, Inc.",
-        "pct": 11.59
-      },
-      {
-        "symbol": "UEC",
-        "name": "Uranium Energy Corp.",
-        "pct": 11.52
-      },
-      {
-        "symbol": "DK",
-        "name": "Delek US Holdings, Inc.",
-        "pct": 10.64
+        "pct": 12.05
       },
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 10.36
+        "pct": 11.57
       },
       {
-        "symbol": "RGTI",
-        "name": "Rigetti Computing, Inc.",
-        "pct": 10.27
+        "symbol": "UEC",
+        "name": "Uranium Energy Corp.",
+        "pct": 11.35
+      },
+      {
+        "symbol": "DK",
+        "name": "Delek US Holdings, Inc.",
+        "pct": 10.38
+      },
+      {
+        "symbol": "UUUU",
+        "name": "Energy Fuels Inc",
+        "pct": 9.6
       },
       {
         "symbol": "INFQ",
         "name": "Infleqtion, Inc.",
-        "pct": 9.92
+        "pct": 9.44
       }
     ],
     "losers": [
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -11.12
+        "pct": -11.51
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -8.66
+        "pct": -9.67
       },
       {
         "symbol": "OSIS",
         "name": "OSI Systems, Inc.",
-        "pct": -8.58
+        "pct": -9.04
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": -7.16
-      },
-      {
-        "symbol": "MRVL",
-        "name": "Marvell Technology, Inc.",
-        "pct": -6.62
+        "pct": -7.89
       },
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": -6.28
+        "pct": -7.4
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "pct": -6.89
+      },
+      {
+        "symbol": "WULF",
+        "name": "TeraWulf Inc.",
+        "pct": -6.6
       },
       {
         "symbol": "CLSK",
         "name": "CleanSpark, Inc.",
-        "pct": -5.48
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -5.27
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -5.27
+        "pct": -6.23
       },
       {
         "symbol": "RIOT",
         "name": "Riot Platforms, Inc.",
-        "pct": -5.2
+        "pct": -6.12
+      },
+      {
+        "symbol": "WETO",
+        "name": "Wetour Robotics Limited",
+        "pct": -6.03
       }
     ],
     "universe": 1269
