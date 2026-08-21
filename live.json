@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-21T19:36:18Z",
+  "updated": "2026-08-21T19:52:06Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": 0.51,
-      "last": 7680.4
+      "last": 7680.18
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.39,
-      "last": 29327.69
+      "pct": 0.38,
+      "last": 29322.74
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.05,
-      "last": 53310.56
+      "pct": 1.06,
+      "last": 53317.42
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 14.4
-      },
-      {
         "symbol": "UEC",
         "name": "Uranium Energy Corp.",
-        "pct": 13.99
+        "pct": 14.8
+      },
+      {
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": 13.77
       },
       {
         "symbol": "USAR",
         "name": "USA Rare Earth, Inc.",
-        "pct": 13.27
+        "pct": 13.56
       },
       {
         "symbol": "HOOD",
         "name": "Robinhood Markets, Inc.",
-        "pct": 12.79
+        "pct": 13.03
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 12.03
-      },
-      {
-        "symbol": "RGTI",
-        "name": "Rigetti Computing, Inc.",
-        "pct": 11.33
-      },
-      {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": 11.24
+        "pct": 12.34
       },
       {
         "symbol": "VIRT",
         "name": "Virtu Financial, Inc.",
-        "pct": 10.9
+        "pct": 12.01
+      },
+      {
+        "symbol": "RGTI",
+        "name": "Rigetti Computing, Inc.",
+        "pct": 11.83
+      },
+      {
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": 11.75
       },
       {
         "symbol": "DK",
         "name": "Delek US Holdings, Inc.",
-        "pct": 10.8
+        "pct": 11.06
       },
       {
         "symbol": "FCFS",
         "name": "FirstCash Holdings, Inc.",
-        "pct": 10.06
+        "pct": 10.45
       }
     ],
     "losers": [
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -10.07
-      },
-      {
-        "symbol": "CAPR",
-        "name": "Capricor Therapeutics, Inc.",
-        "pct": -9.95
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -8.36
-      },
-      {
-        "symbol": "OSIS",
-        "name": "OSI Systems, Inc.",
-        "pct": -8.28
-      },
-      {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": -8.12
+        "pct": -9.67
       },
       {
         "symbol": "IPST",
         "name": "IP Strategy Holdings, Inc.",
-        "pct": -7.61
+        "pct": -8.73
       },
       {
-        "symbol": "WULF",
-        "name": "TeraWulf Inc.",
-        "pct": -6.29
+        "symbol": "CAPR",
+        "name": "Capricor Therapeutics, Inc.",
+        "pct": -8.7
       },
       {
-        "symbol": "RIOT",
-        "name": "Riot Platforms, Inc.",
-        "pct": -6.22
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": -8.62
+      },
+      {
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -8.4
+      },
+      {
+        "symbol": "OSIS",
+        "name": "OSI Systems, Inc.",
+        "pct": -6.47
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -5.67
+        "pct": -6.14
       },
       {
-        "symbol": "MRVL",
-        "name": "Marvell Technology, Inc.",
-        "pct": -5.55
+        "symbol": "WULF",
+        "name": "TeraWulf Inc.",
+        "pct": -5.93
+      },
+      {
+        "symbol": "RIOT",
+        "name": "Riot Platforms, Inc.",
+        "pct": -5.84
+      },
+      {
+        "symbol": "WETO",
+        "name": "Wetour Robotics Limited",
+        "pct": -5.58
       }
     ],
     "universe": 1269
