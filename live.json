@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-21T15:22:18Z",
+  "updated": "2026-08-21T15:38:09Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.45,
-      "last": 7675.42
+      "pct": 0.58,
+      "last": 7685.36
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.18,
-      "last": 29265.54
+      "pct": 0.42,
+      "last": 29334.87
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.75,
-      "last": 53154.33
+      "pct": 0.84,
+      "last": 53200.35
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.01,
-      "last": 52691.03
+      "pct": -0.06,
+      "last": 52661.54
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 16.21
+        "pct": 16.71
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 15.38
+        "pct": 14.24
       },
       {
         "symbol": "HOOD",
         "name": "Robinhood Markets, Inc.",
-        "pct": 12.15
-      },
-      {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": 10.32
+        "pct": 12.37
       },
       {
         "symbol": "USAR",
         "name": "USA Rare Earth, Inc.",
-        "pct": 10.11
-      },
-      {
-        "symbol": "COIN",
-        "name": "Coinbase Global, Inc.",
-        "pct": 9.6
-      },
-      {
-        "symbol": "TGTX",
-        "name": "TG Therapeutics, Inc.",
-        "pct": 9.1
+        "pct": 11.48
       },
       {
         "symbol": "UEC",
         "name": "Uranium Energy Corp.",
-        "pct": 8.97
+        "pct": 10.81
+      },
+      {
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": 10.6
       },
       {
         "symbol": "PSNL",
         "name": "Personalis, Inc.",
-        "pct": 8.95
+        "pct": 10.19
       },
       {
-        "symbol": "VIRT",
-        "name": "Virtu Financial, Inc.",
-        "pct": 8.4
+        "symbol": "TGTX",
+        "name": "TG Therapeutics, Inc.",
+        "pct": 9.64
+      },
+      {
+        "symbol": "COIN",
+        "name": "Coinbase Global, Inc.",
+        "pct": 9.56
+      },
+      {
+        "symbol": "UUUU",
+        "name": "Energy Fuels Inc",
+        "pct": 8.99
       }
     ],
     "losers": [
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -9.83
-      },
-      {
-        "symbol": "WETO",
-        "name": "Wetour Robotics Limited",
-        "pct": -8.99
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -8.57
+        "pct": -11.29
       },
       {
         "symbol": "OSIS",
         "name": "OSI Systems, Inc.",
-        "pct": -8.55
+        "pct": -9.88
+      },
+      {
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -8.4
+      },
+      {
+        "symbol": "WETO",
+        "name": "Wetour Robotics Limited",
+        "pct": -7.14
       },
       {
         "symbol": "UI",
         "name": "Ubiquiti Inc.",
-        "pct": -6.95
+        "pct": -6.81
       },
       {
         "symbol": "MRVL",
         "name": "Marvell Technology, Inc.",
-        "pct": -6.92
-      },
-      {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": -5.89
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": -5.28
+        "pct": -6.55
       },
       {
         "symbol": "CLSK",
         "name": "CleanSpark, Inc.",
-        "pct": -5.24
+        "pct": -5.95
       },
       {
-        "symbol": "WULF",
-        "name": "TeraWulf Inc.",
-        "pct": -5.11
+        "symbol": "MWH",
+        "name": "SOLV Energy, Inc.",
+        "pct": -5.48
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -5.47
+      },
+      {
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": -5.39
       }
     ],
     "universe": 1269
