@@ -1,135 +1,135 @@
 {
-  "updated": "2026-08-21T14:02:20Z",
+  "updated": "2026-08-21T14:18:42Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": 0.33,
-      "last": 7666.56
+      "last": 7666.66
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.01,
-      "last": 29211.55
+      "pct": -0.12,
+      "last": 29178.48
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.67,
-      "last": 53113.87
+      "pct": 0.74,
+      "last": 53151.84
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.11,
-      "last": 52753.34
+      "pct": 0.21,
+      "last": 52804.14
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 16.85
+      },
+      {
         "symbol": "HOOD",
         "name": "Robinhood Markets, Inc.",
-        "pct": 13.85
+        "pct": 11.87
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 13.3
+        "pct": 10.6
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": 12.67
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": 10.4
-      },
-      {
-        "symbol": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "pct": 10.29
-      },
-      {
-        "symbol": "CRCL",
-        "name": "Circle Internet Group, Inc.",
-        "pct": 9.66
+        "symbol": "TGTX",
+        "name": "TG Therapeutics, Inc.",
+        "pct": 10.21
       },
       {
         "symbol": "COIN",
         "name": "Coinbase Global, Inc.",
-        "pct": 9.5
+        "pct": 8.68
       },
       {
-        "symbol": "MARA",
-        "name": "MARA Holdings, Inc.",
-        "pct": 9.19
+        "symbol": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "pct": 8.0
       },
       {
-        "symbol": "UUUU",
-        "name": "Energy Fuels Inc",
-        "pct": 9.03
+        "symbol": "CLF",
+        "name": "Cleveland-Cliffs Inc.",
+        "pct": 7.96
       },
       {
-        "symbol": "FIGR",
-        "name": "Figure Technology Solutions, Inc.",
-        "pct": 8.35
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": 7.66
+      },
+      {
+        "symbol": "NVAX",
+        "name": "Novavax, Inc.",
+        "pct": 7.48
+      },
+      {
+        "symbol": "SBSW",
+        "name": "D/B/A Sibanye-Stillwater Limited ADS",
+        "pct": 7.4
       }
     ],
     "losers": [
       {
-        "symbol": "OSIS",
-        "name": "OSI Systems, Inc.",
-        "pct": -9.34
+        "symbol": "WETO",
+        "name": "Wetour Robotics Limited",
+        "pct": -9.77
       },
       {
         "symbol": "UI",
         "name": "Ubiquiti Inc.",
-        "pct": -9.08
+        "pct": -9.66
       },
       {
-        "symbol": "WETO",
-        "name": "Wetour Robotics Limited",
-        "pct": -8.45
+        "symbol": "OSIS",
+        "name": "OSI Systems, Inc.",
+        "pct": -7.15
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": -4.88
+        "pct": -6.84
       },
       {
-        "symbol": "IPST",
-        "name": "IP Strategy Holdings, Inc.",
-        "pct": -3.49
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -6.46
       },
       {
-        "symbol": "SCSC",
-        "name": "ScanSource, Inc.",
-        "pct": -3.46
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -5.61
       },
       {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": -3.41
+        "symbol": "MWH",
+        "name": "SOLV Energy, Inc.",
+        "pct": -5.27
       },
       {
-        "symbol": "TENB",
-        "name": "Tenable Holdings, Inc.",
-        "pct": -3.4
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "pct": -5.1
       },
       {
         "symbol": "FORM",
         "name": "FormFactor, Inc.",
-        "pct": -3.35
+        "pct": -4.52
       },
       {
         "symbol": "TER",
         "name": "Teradyne, Inc.",
-        "pct": -3.28
+        "pct": -4.44
       }
     ],
     "universe": 1269
