@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-21T14:34:37Z",
+  "updated": "2026-08-21T14:50:33Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.31,
-      "last": 7665.15
+      "pct": 0.37,
+      "last": 7669.15
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.02,
-      "last": 29208.63
+      "pct": 0.06,
+      "last": 29231.87
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.67,
-      "last": 53114.23
+      "pct": 0.68,
+      "last": 53115.41
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.0,
-      "last": 52695.33
+      "pct": -0.04,
+      "last": 52674.55
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 18.95
+        "pct": 14.14
       },
       {
         "symbol": "HOOD",
         "name": "Robinhood Markets, Inc.",
-        "pct": 12.13
-      },
-      {
-        "symbol": "TGTX",
-        "name": "TG Therapeutics, Inc.",
-        "pct": 11.57
+        "pct": 12.02
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 10.79
+        "pct": 11.38
       },
       {
         "symbol": "USAR",
         "name": "USA Rare Earth, Inc.",
-        "pct": 9.88
-      },
-      {
-        "symbol": "VIRT",
-        "name": "Virtu Financial, Inc.",
-        "pct": 9.67
+        "pct": 10.75
       },
       {
         "symbol": "COIN",
         "name": "Coinbase Global, Inc.",
-        "pct": 8.61
+        "pct": 9.87
       },
       {
-        "symbol": "FIGR",
-        "name": "Figure Technology Solutions, Inc.",
-        "pct": 8.51
+        "symbol": "TGTX",
+        "name": "TG Therapeutics, Inc.",
+        "pct": 9.06
       },
       {
-        "symbol": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "pct": 8.19
+        "symbol": "VIRT",
+        "name": "Virtu Financial, Inc.",
+        "pct": 8.43
+      },
+      {
+        "symbol": "MP",
+        "name": "MP Materials Corp.",
+        "pct": 8.39
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": 8.17
+        "pct": 8.13
+      },
+      {
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": 8.05
       }
     ],
     "losers": [
       {
         "symbol": "WETO",
         "name": "Wetour Robotics Limited",
-        "pct": -13.9
-      },
-      {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": -9.55
-      },
-      {
-        "symbol": "OSIS",
-        "name": "OSI Systems, Inc.",
-        "pct": -8.5
+        "pct": -10.57
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -8.36
+        "pct": -10.41
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -6.36
+        "pct": -9.04
       },
       {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": -5.92
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "pct": -8.52
+      },
+      {
+        "symbol": "OSIS",
+        "name": "OSI Systems, Inc.",
+        "pct": -8.03
       },
       {
         "symbol": "MRVL",
         "name": "Marvell Technology, Inc.",
-        "pct": -5.83
+        "pct": -5.92
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -5.87
       },
       {
         "symbol": "MWH",
         "name": "SOLV Energy, Inc.",
-        "pct": -5.43
+        "pct": -5.76
+      },
+      {
+        "symbol": "CLSK",
+        "name": "CleanSpark, Inc.",
+        "pct": -5.08
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -4.76
-      },
-      {
-        "symbol": "AESI",
-        "name": "Atlas Energy Solutions Inc.",
-        "pct": -4.23
+        "pct": -4.88
       }
     ],
     "universe": 1269
