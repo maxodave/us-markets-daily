@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-21T14:18:42Z",
+  "updated": "2026-08-21T14:34:37Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.33,
-      "last": 7666.66
+      "pct": 0.31,
+      "last": 7665.15
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.12,
-      "last": 29178.48
+      "pct": -0.02,
+      "last": 29208.63
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.74,
-      "last": 53151.84
+      "pct": 0.67,
+      "last": 53114.23
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.21,
-      "last": 52804.14
+      "pct": -0.0,
+      "last": 52695.33
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 16.85
+        "pct": 18.95
       },
       {
         "symbol": "HOOD",
         "name": "Robinhood Markets, Inc.",
-        "pct": 11.87
-      },
-      {
-        "symbol": "ASST",
-        "name": "Strive, Inc.",
-        "pct": 10.6
+        "pct": 12.13
       },
       {
         "symbol": "TGTX",
         "name": "TG Therapeutics, Inc.",
-        "pct": 10.21
+        "pct": 11.57
       },
       {
-        "symbol": "COIN",
-        "name": "Coinbase Global, Inc.",
-        "pct": 8.68
-      },
-      {
-        "symbol": "CRCL",
-        "name": "Circle Internet Group, Inc.",
-        "pct": 8.0
-      },
-      {
-        "symbol": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "pct": 7.96
+        "symbol": "ASST",
+        "name": "Strive, Inc.",
+        "pct": 10.79
       },
       {
         "symbol": "USAR",
         "name": "USA Rare Earth, Inc.",
-        "pct": 7.66
+        "pct": 9.88
       },
       {
-        "symbol": "NVAX",
-        "name": "Novavax, Inc.",
-        "pct": 7.48
+        "symbol": "VIRT",
+        "name": "Virtu Financial, Inc.",
+        "pct": 9.67
       },
       {
-        "symbol": "SBSW",
-        "name": "D/B/A Sibanye-Stillwater Limited ADS",
-        "pct": 7.4
+        "symbol": "COIN",
+        "name": "Coinbase Global, Inc.",
+        "pct": 8.61
+      },
+      {
+        "symbol": "FIGR",
+        "name": "Figure Technology Solutions, Inc.",
+        "pct": 8.51
+      },
+      {
+        "symbol": "CLF",
+        "name": "Cleveland-Cliffs Inc.",
+        "pct": 8.19
+      },
+      {
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": 8.17
       }
     ],
     "losers": [
       {
         "symbol": "WETO",
         "name": "Wetour Robotics Limited",
-        "pct": -9.77
+        "pct": -13.9
       },
       {
         "symbol": "UI",
         "name": "Ubiquiti Inc.",
-        "pct": -9.66
+        "pct": -9.55
       },
       {
         "symbol": "OSIS",
         "name": "OSI Systems, Inc.",
-        "pct": -7.15
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": -6.84
+        "pct": -8.5
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -6.46
+        "pct": -8.36
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -5.61
+        "pct": -6.36
       },
       {
-        "symbol": "MWH",
-        "name": "SOLV Energy, Inc.",
-        "pct": -5.27
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -5.92
       },
       {
         "symbol": "MRVL",
         "name": "Marvell Technology, Inc.",
-        "pct": -5.1
+        "pct": -5.83
       },
       {
-        "symbol": "FORM",
-        "name": "FormFactor, Inc.",
-        "pct": -4.52
+        "symbol": "MWH",
+        "name": "SOLV Energy, Inc.",
+        "pct": -5.43
       },
       {
-        "symbol": "TER",
-        "name": "Teradyne, Inc.",
-        "pct": -4.44
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": -4.76
+      },
+      {
+        "symbol": "AESI",
+        "name": "Atlas Energy Solutions Inc.",
+        "pct": -4.23
       }
     ],
     "universe": 1269
