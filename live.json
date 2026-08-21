@@ -1,100 +1,90 @@
 {
-  "updated": "2026-08-21T15:06:24Z",
+  "updated": "2026-08-21T15:22:18Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.53,
-      "last": 7681.49
+      "pct": 0.45,
+      "last": 7675.42
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.23,
-      "last": 29281.21
+      "pct": 0.18,
+      "last": 29265.54
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.85,
-      "last": 53206.16
+      "pct": 0.75,
+      "last": 53154.33
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.03,
-      "last": 52711.95
+      "pct": -0.01,
+      "last": 52691.03
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": 13.43
-      },
-      {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 13.02
+        "pct": 16.21
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 15.38
       },
       {
         "symbol": "HOOD",
         "name": "Robinhood Markets, Inc.",
-        "pct": 12.7
-      },
-      {
-        "symbol": "COIN",
-        "name": "Coinbase Global, Inc.",
-        "pct": 10.53
-      },
-      {
-        "symbol": "USAR",
-        "name": "USA Rare Earth, Inc.",
-        "pct": 10.17
-      },
-      {
-        "symbol": "TGTX",
-        "name": "TG Therapeutics, Inc.",
-        "pct": 9.64
+        "pct": 12.15
       },
       {
         "symbol": "INFQ",
         "name": "Infleqtion, Inc.",
+        "pct": 10.32
+      },
+      {
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": 10.11
+      },
+      {
+        "symbol": "COIN",
+        "name": "Coinbase Global, Inc.",
         "pct": 9.6
       },
       {
-        "symbol": "NVAX",
-        "name": "Novavax, Inc.",
-        "pct": 8.72
+        "symbol": "TGTX",
+        "name": "TG Therapeutics, Inc.",
+        "pct": 9.1
       },
       {
         "symbol": "UEC",
         "name": "Uranium Energy Corp.",
-        "pct": 8.48
+        "pct": 8.97
+      },
+      {
+        "symbol": "PSNL",
+        "name": "Personalis, Inc.",
+        "pct": 8.95
       },
       {
         "symbol": "VIRT",
         "name": "Virtu Financial, Inc.",
-        "pct": 8.32
+        "pct": 8.4
       }
     ],
     "losers": [
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -10.04
-      },
-      {
-        "symbol": "OSIS",
-        "name": "OSI Systems, Inc.",
-        "pct": -9.33
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -9.21
+        "pct": -9.83
       },
       {
         "symbol": "WETO",
@@ -102,34 +92,44 @@
         "pct": -8.99
       },
       {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": -8.85
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -8.57
       },
       {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": -6.29
+        "symbol": "OSIS",
+        "name": "OSI Systems, Inc.",
+        "pct": -8.55
+      },
+      {
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "pct": -6.95
       },
       {
         "symbol": "MRVL",
         "name": "Marvell Technology, Inc.",
-        "pct": -5.99
+        "pct": -6.92
       },
       {
-        "symbol": "MWH",
-        "name": "SOLV Energy, Inc.",
-        "pct": -5.79
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": -5.89
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -5.28
+      },
+      {
+        "symbol": "CLSK",
+        "name": "CleanSpark, Inc.",
+        "pct": -5.24
       },
       {
         "symbol": "WULF",
         "name": "TeraWulf Inc.",
-        "pct": -5.32
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -5.28
+        "pct": -5.11
       }
     ],
     "universe": 1269
