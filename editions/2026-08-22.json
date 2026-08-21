@@ -1,0 +1,2336 @@
+{
+  "edition_date": "2026-08-22",
+  "edition_date_it": "22 agosto 2026",
+  "edition_date_en": "August 22, 2026",
+  "session_date": "2026-08-21",
+  "session_date_it": "21 agosto 2026",
+  "session_date_en": "August 21, 2026",
+  "edition_kind": "session",
+  "headline": "Seduta ampiamente positiva a Wall Street: Robinhood Markets +13,70% guida i rialzi",
+  "headline_en": "Broadly positive session on Wall Street: Robinhood Markets +13.70% leads gainers",
+  "auto_report": {
+    "stats": {
+      "n_up": 332,
+      "n_down": 169,
+      "n_flat": 2,
+      "n_total": 503,
+      "avg_pct": 0.59,
+      "best_sectors": [
+        {
+          "sector": "Materials",
+          "avg_pct": 2.1
+        },
+        {
+          "sector": "Health Care",
+          "avg_pct": 1.31
+        },
+        {
+          "sector": "Financials",
+          "avg_pct": 1.16
+        }
+      ],
+      "worst_sectors": [
+        {
+          "sector": "Utilities",
+          "avg_pct": -2.36
+        },
+        {
+          "sector": "Energy",
+          "avg_pct": -0.14
+        },
+        {
+          "sector": "Real Estate",
+          "avg_pct": -0.04
+        }
+      ]
+    },
+    "paragraphs": [
+      "Nella seduta del 21 agosto 2026 l'S&P 500 ha chiuso con 332 societa' in rialzo, 169 in ribasso e 2 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di +0,59%.",
+      "Settori con la variazione media migliore: Materials (+2,10%); Health Care (+1,31%); Financials (+1,16%). Settori piu' debolli: Utilities (-2,36%); Energy (-0,14%); Real Estate (-0,04%).",
+      "In cima alla seduta: Robinhood Markets (HOOD, +13,70%); Moderna (MRNA, +8,86%); Coinbase (COIN, +8,20%). In fondo: Marvell Technology (MRVL, -5,57%); Sempra (SRE, -5,14%); Edison International (EIX, -4,11%)."
+    ],
+    "gainers": [
+      {
+        "symbol": "HOOD",
+        "name": "Robinhood Markets",
+        "sector": "Financials",
+        "pct_change": 13.7,
+        "last_close": 108.13,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna",
+        "sector": "Health Care",
+        "pct_change": 8.86,
+        "last_close": 145.13,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "COIN",
+        "name": "Coinbase",
+        "sector": "Financials",
+        "pct_change": 8.2,
+        "last_close": 186.49,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "FCX",
+        "name": "Freeport-McMoRan",
+        "sector": "Materials",
+        "pct_change": 7.64,
+        "last_close": 76.66,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "ALB",
+        "name": "Albemarle Corporation",
+        "sector": "Materials",
+        "pct_change": 6.75,
+        "last_close": 143.25,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "EL",
+        "name": "Estée Lauder Companies (The)",
+        "sector": "Consumer Staples",
+        "pct_change": 6.02,
+        "last_close": 101.94,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "HCA",
+        "name": "HCA Healthcare",
+        "sector": "Health Care",
+        "pct_change": 5.64,
+        "last_close": 429.19,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "sector": "Consumer Discretionary",
+        "pct_change": 5.14,
+        "last_close": 362.86,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "LULU",
+        "name": "Lululemon Athletica",
+        "sector": "Consumer Discretionary",
+        "pct_change": 4.65,
+        "last_close": 121.07,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CMG",
+        "name": "Chipotle Mexican Grill",
+        "sector": "Consumer Discretionary",
+        "pct_change": 4.56,
+        "last_close": 36.9,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology",
+        "sector": "Information Technology",
+        "pct_change": -5.57,
+        "last_close": 237.04,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "SRE",
+        "name": "Sempra",
+        "sector": "Utilities",
+        "pct_change": -5.14,
+        "last_close": 82.89,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "EIX",
+        "name": "Edison International",
+        "sector": "Utilities",
+        "pct_change": -4.11,
+        "last_close": 71.59,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "AEP",
+        "name": "American Electric Power",
+        "sector": "Utilities",
+        "pct_change": -3.79,
+        "last_close": 120.94,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CNP",
+        "name": "CenterPoint Energy",
+        "sector": "Utilities",
+        "pct_change": -3.56,
+        "last_close": 38.77,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "PWR",
+        "name": "Quanta Services",
+        "sector": "Industrials",
+        "pct_change": -3.49,
+        "last_close": 639.34,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "Q",
+        "name": "Qnity Electronics",
+        "sector": "Information Technology",
+        "pct_change": -3.48,
+        "last_close": 128.88,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "XEL",
+        "name": "Xcel Energy",
+        "sector": "Utilities",
+        "pct_change": -3.06,
+        "last_close": 76.3,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "BG",
+        "name": "Bunge Global",
+        "sector": "Consumer Staples",
+        "pct_change": -2.97,
+        "last_close": 113.11,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "EXC",
+        "name": "Exelon",
+        "sector": "Utilities",
+        "pct_change": -2.84,
+        "last_close": 43.78,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      }
+    ]
+  },
+  "auto_report_by_index": {
+    "sp500": {
+      "stats": {
+        "n_up": 332,
+        "n_down": 169,
+        "n_flat": 2,
+        "n_total": 503,
+        "avg_pct": 0.59,
+        "best_sectors": [
+          {
+            "sector": "Materials",
+            "avg_pct": 2.1
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": 1.31
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": 1.16
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Utilities",
+            "avg_pct": -2.36
+          },
+          {
+            "sector": "Energy",
+            "avg_pct": -0.14
+          },
+          {
+            "sector": "Real Estate",
+            "avg_pct": -0.04
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "HOOD",
+          "name": "Robinhood Markets",
+          "sector": "Financials",
+          "pct_change": 13.7,
+          "last_close": 108.13,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MRNA",
+          "name": "Moderna",
+          "sector": "Health Care",
+          "pct_change": 8.86,
+          "last_close": 145.13,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "COIN",
+          "name": "Coinbase",
+          "sector": "Financials",
+          "pct_change": 8.2,
+          "last_close": 186.49,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FCX",
+          "name": "Freeport-McMoRan",
+          "sector": "Materials",
+          "pct_change": 7.64,
+          "last_close": 76.66,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ALB",
+          "name": "Albemarle Corporation",
+          "sector": "Materials",
+          "pct_change": 6.75,
+          "last_close": 143.25,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EL",
+          "name": "Estée Lauder Companies (The)",
+          "sector": "Consumer Staples",
+          "pct_change": 6.02,
+          "last_close": 101.94,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HCA",
+          "name": "HCA Healthcare",
+          "sector": "Health Care",
+          "pct_change": 5.64,
+          "last_close": 429.19,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla, Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": 5.14,
+          "last_close": 362.86,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LULU",
+          "name": "Lululemon Athletica",
+          "sector": "Consumer Discretionary",
+          "pct_change": 4.65,
+          "last_close": 121.07,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CMG",
+          "name": "Chipotle Mexican Grill",
+          "sector": "Consumer Discretionary",
+          "pct_change": 4.56,
+          "last_close": 36.9,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "MRVL",
+          "name": "Marvell Technology",
+          "sector": "Information Technology",
+          "pct_change": -5.57,
+          "last_close": 237.04,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SRE",
+          "name": "Sempra",
+          "sector": "Utilities",
+          "pct_change": -5.14,
+          "last_close": 82.89,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EIX",
+          "name": "Edison International",
+          "sector": "Utilities",
+          "pct_change": -4.11,
+          "last_close": 71.59,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AEP",
+          "name": "American Electric Power",
+          "sector": "Utilities",
+          "pct_change": -3.79,
+          "last_close": 120.94,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CNP",
+          "name": "CenterPoint Energy",
+          "sector": "Utilities",
+          "pct_change": -3.56,
+          "last_close": 38.77,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PWR",
+          "name": "Quanta Services",
+          "sector": "Industrials",
+          "pct_change": -3.49,
+          "last_close": 639.34,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "Q",
+          "name": "Qnity Electronics",
+          "sector": "Information Technology",
+          "pct_change": -3.48,
+          "last_close": 128.88,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "XEL",
+          "name": "Xcel Energy",
+          "sector": "Utilities",
+          "pct_change": -3.06,
+          "last_close": 76.3,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BG",
+          "name": "Bunge Global",
+          "sector": "Consumer Staples",
+          "pct_change": -2.97,
+          "last_close": 113.11,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EXC",
+          "name": "Exelon",
+          "sector": "Utilities",
+          "pct_change": -2.84,
+          "last_close": 43.78,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the August 21, 2026 session the S&P 500 closed with 332 stocks higher, 169 lower and 2 unchanged, out of 503 tracked. The average move was +0.59%.",
+          "Best-performing sectors by average move: Materials (+2.10%); Health Care (+1.31%); Financials (+1.16%). Weakest: Utilities (-2.36%); Energy (-0.14%); Real Estate (-0.04%).",
+          "Leading the session: Robinhood Markets (HOOD, +13.70%); Moderna (MRNA, +8.86%); Coinbase (COIN, +8.20%). At the bottom: Marvell Technology (MRVL, -5.57%); Sempra (SRE, -5.14%); Edison International (EIX, -4.11%)."
+        ],
+        "it": [
+          "Nella seduta del 21 agosto 2026 l'S&P 500 ha chiuso con 332 societa' in rialzo, 169 in ribasso e 2 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di +0,59%.",
+          "Settori con la variazione media migliore: Materials (+2,10%); Health Care (+1,31%); Financials (+1,16%). Settori piu' debolli: Utilities (-2,36%); Energy (-0,14%); Real Estate (-0,04%).",
+          "In cima alla seduta: Robinhood Markets (HOOD, +13,70%); Moderna (MRNA, +8,86%); Coinbase (COIN, +8,20%). In fondo: Marvell Technology (MRVL, -5,57%); Sempra (SRE, -5,14%); Edison International (EIX, -4,11%)."
+        ]
+      }
+    },
+    "dow": {
+      "stats": {
+        "n_up": 21,
+        "n_down": 9,
+        "n_flat": 0,
+        "n_total": 30,
+        "avg_pct": 0.69,
+        "best_sectors": [
+          {
+            "sector": "Health Care",
+            "avg_pct": 1.53
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": 1.28
+          },
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": 0.58
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Industrials",
+            "avg_pct": 0.12
+          },
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": 0.45
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": 0.47
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "GS",
+          "name": "Goldman Sachs",
+          "sector": "Financials",
+          "pct_change": 3.73,
+          "last_close": 1039.28,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MRK",
+          "name": "Merck & Co.",
+          "sector": "Health Care",
+          "pct_change": 2.39,
+          "last_close": 152.55,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CRM",
+          "name": "Salesforce",
+          "sector": "Information Technology",
+          "pct_change": 1.82,
+          "last_close": 209.17,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CAT",
+          "name": "Caterpillar Inc.",
+          "sector": "Industrials",
+          "pct_change": 1.53,
+          "last_close": 827.9,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AXP",
+          "name": "American Express",
+          "sector": "Financials",
+          "pct_change": 1.46,
+          "last_close": 336.0,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "V",
+          "name": "Visa Inc.",
+          "sector": "Financials",
+          "pct_change": 1.45,
+          "last_close": 371.04,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NKE",
+          "name": "Nike, Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": 1.37,
+          "last_close": 40.76,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group",
+          "sector": "Health Care",
+          "pct_change": 1.37,
+          "last_close": 390.11,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco",
+          "sector": "Information Technology",
+          "pct_change": 1.32,
+          "last_close": 111.04,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMGN",
+          "name": "Amgen",
+          "sector": "Health Care",
+          "pct_change": 1.29,
+          "last_close": 439.33,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "HON",
+          "name": "Honeywell Technologies",
+          "sector": "Industrials",
+          "pct_change": -1.11,
+          "last_close": 215.9,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NVDA",
+          "name": "Nvidia",
+          "sector": "Information Technology",
+          "pct_change": -0.98,
+          "last_close": 214.72,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc.",
+          "sector": "Information Technology",
+          "pct_change": -0.63,
+          "last_close": 309.35,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon",
+          "sector": "Consumer Discretionary",
+          "pct_change": -0.57,
+          "last_close": 258.63,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BA",
+          "name": "Boeing",
+          "sector": "Industrials",
+          "pct_change": -0.42,
+          "last_close": 214.2,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRV",
+          "name": "Travelers Companies (The)",
+          "sector": "Financials",
+          "pct_change": -0.25,
+          "last_close": 363.58,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CVX",
+          "name": "Chevron Corporation",
+          "sector": "Energy",
+          "pct_change": -0.24,
+          "last_close": 205.27,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "WMT",
+          "name": "Walmart",
+          "sector": "Consumer Staples",
+          "pct_change": -0.13,
+          "last_close": 103.7,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SHW",
+          "name": "Sherwin-Williams",
+          "sector": "Materials",
+          "pct_change": -0.09,
+          "last_close": 346.59,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "JPM",
+          "name": "JPMorgan Chase",
+          "sector": "Financials",
+          "pct_change": 0.01,
+          "last_close": 351.58,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the August 21, 2026 session the Dow Jones closed with 21 stocks higher, 9 lower, out of 30 tracked. The average move was +0.69%.",
+          "Best-performing sectors by average move: Health Care (+1.53%); Financials (+1.28%); Consumer Staples (+0.58%). Weakest: Industrials (+0.12%); Consumer Discretionary (+0.45%); Information Technology (+0.47%).",
+          "Leading the session: Goldman Sachs (GS, +3.73%); Merck & Co. (MRK, +2.39%); Salesforce (CRM, +1.82%). At the bottom: Honeywell Technologies (HON, -1.11%); Nvidia (NVDA, -0.98%); Apple Inc. (AAPL, -0.63%)."
+        ],
+        "it": [
+          "Nella seduta del 21 agosto 2026 il Dow Jones ha chiuso con 21 societa' in rialzo, 9 in ribasso, su 30 titoli monitorati. La variazione media dell'indice e' stata di +0,69%.",
+          "Settori con la variazione media migliore: Health Care (+1,53%); Financials (+1,28%); Consumer Staples (+0,58%). Settori piu' debolli: Industrials (+0,12%); Consumer Discretionary (+0,45%); Information Technology (+0,47%).",
+          "In cima alla seduta: Goldman Sachs (GS, +3,73%); Merck & Co. (MRK, +2,39%); Salesforce (CRM, +1,82%). In fondo: Honeywell Technologies (HON, -1,11%); Nvidia (NVDA, -0,98%); Apple Inc. (AAPL, -0,63%)."
+        ]
+      }
+    },
+    "nasdaq100": {
+      "stats": {
+        "n_up": 63,
+        "n_down": 39,
+        "n_flat": 0,
+        "n_total": 102,
+        "avg_pct": 0.41,
+        "best_sectors": [
+          {
+            "sector": "Health Care",
+            "avg_pct": 1.68
+          },
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": 1.36
+          },
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": 0.73
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Utilities",
+            "avg_pct": -2.42
+          },
+          {
+            "sector": "Technology",
+            "avg_pct": -0.08
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": 0.18
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "MSTR",
+          "name": "MicroStrategy",
+          "sector": "Technology",
+          "pct_change": 6.1,
+          "last_close": 119.25,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla, Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": 5.14,
+          "last_close": 362.86,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ROST",
+          "name": "Ross Stores",
+          "sector": "Consumer Discretionary",
+          "pct_change": 4.39,
+          "last_close": 239.04,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PLTR",
+          "name": "Palantir Technologies",
+          "sector": "Information Technology",
+          "pct_change": 3.44,
+          "last_close": 179.94,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ALNY",
+          "name": "Alnylam Pharmaceuticals",
+          "sector": "Health Care",
+          "pct_change": 3.02,
+          "last_close": 236.22,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SBUX",
+          "name": "Starbucks",
+          "sector": "Consumer Discretionary",
+          "pct_change": 2.97,
+          "last_close": 107.08,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PANW",
+          "name": "Palo Alto Networks",
+          "sector": "Information Technology",
+          "pct_change": 2.38,
+          "last_close": 357.87,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DXCM",
+          "name": "Dexcom",
+          "sector": "Health Care",
+          "pct_change": 2.35,
+          "last_close": 92.34,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SPCX",
+          "name": "SpaceX",
+          "sector": "Telecommunications",
+          "pct_change": 2.22,
+          "last_close": 136.97,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AXON",
+          "name": "Axon Enterprise",
+          "sector": "Industrials",
+          "pct_change": 2.2,
+          "last_close": 627.75,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "MRVL",
+          "name": "Marvell Technology",
+          "sector": "Information Technology",
+          "pct_change": -5.57,
+          "last_close": 237.04,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AEP",
+          "name": "American Electric Power",
+          "sector": "Utilities",
+          "pct_change": -3.79,
+          "last_close": 120.94,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "XEL",
+          "name": "Xcel Energy",
+          "sector": "Utilities",
+          "pct_change": -3.06,
+          "last_close": 76.3,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ARM",
+          "name": "Arm Holdings",
+          "sector": "Technology",
+          "pct_change": -2.95,
+          "last_close": 243.32,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EXC",
+          "name": "Exelon",
+          "sector": "Utilities",
+          "pct_change": -2.84,
+          "last_close": 43.78,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel",
+          "sector": "Information Technology",
+          "pct_change": -2.24,
+          "last_close": 90.07,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CRWV",
+          "name": "CoreWeave",
+          "sector": "Technology",
+          "pct_change": -2.13,
+          "last_close": 87.85,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "WDC",
+          "name": "Western Digital",
+          "sector": "Information Technology",
+          "pct_change": -2.05,
+          "last_close": 459.44,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TER",
+          "name": "Teradyne",
+          "sector": "Information Technology",
+          "pct_change": -1.93,
+          "last_close": 375.74,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ALAB",
+          "name": "Astera Labs",
+          "sector": "Technology",
+          "pct_change": -1.91,
+          "last_close": 284.97,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the August 21, 2026 session the Nasdaq-100 closed with 63 stocks higher, 39 lower, out of 102 tracked. The average move was +0.41%.",
+          "Best-performing sectors by average move: Health Care (+1.68%); Consumer Discretionary (+1.36%); Consumer Staples (+0.73%). Weakest: Utilities (-2.42%); Technology (-0.08%); Information Technology (+0.18%).",
+          "Leading the session: MicroStrategy (MSTR, +6.10%); Tesla, Inc. (TSLA, +5.14%); Ross Stores (ROST, +4.39%). At the bottom: Marvell Technology (MRVL, -5.57%); American Electric Power (AEP, -3.79%); Xcel Energy (XEL, -3.06%)."
+        ],
+        "it": [
+          "Nella seduta del 21 agosto 2026 il Nasdaq-100 ha chiuso con 63 societa' in rialzo, 39 in ribasso, su 102 titoli monitorati. La variazione media dell'indice e' stata di +0,41%.",
+          "Settori con la variazione media migliore: Health Care (+1,68%); Consumer Discretionary (+1,36%); Consumer Staples (+0,73%). Settori piu' debolli: Utilities (-2,42%); Technology (-0,08%); Information Technology (+0,18%).",
+          "In cima alla seduta: MicroStrategy (MSTR, +6,10%); Tesla, Inc. (TSLA, +5,14%); Ross Stores (ROST, +4,39%). In fondo: Marvell Technology (MRVL, -5,57%); American Electric Power (AEP, -3,79%); Xcel Energy (XEL, -3,06%)."
+        ]
+      }
+    },
+    "ftsemib": {
+      "stats": {
+        "n_up": 24,
+        "n_down": 16,
+        "n_flat": 0,
+        "n_total": 40,
+        "avg_pct": 0.21,
+        "best_sectors": [
+          {
+            "sector": "Financial Services",
+            "avg_pct": 0.33
+          },
+          {
+            "sector": "Industrial Goods and Services",
+            "avg_pct": 0.29
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": 0.19
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Energy",
+            "avg_pct": -1.43
+          },
+          {
+            "sector": "Banks",
+            "avg_pct": -0.44
+          },
+          {
+            "sector": "Utilities",
+            "avg_pct": -0.28
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "STLAM.MI",
+          "name": "Stellantis",
+          "sector": "Automobiles and Parts",
+          "pct_change": 4.0,
+          "last_close": 4.65,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AVIO.MI",
+          "name": "Avio",
+          "sector": "Aerospace",
+          "pct_change": 2.55,
+          "last_close": 32.14,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BC.MI",
+          "name": "Brunello Cucinelli",
+          "sector": "Consumer Products and Services",
+          "pct_change": 2.33,
+          "last_close": 88.54,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "RACE.MI",
+          "name": "Ferrari",
+          "sector": "Automobiles and Parts",
+          "pct_change": 1.91,
+          "last_close": 371.1,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NEXI.MI",
+          "name": "Nexi",
+          "sector": "Industrial Goods and Services",
+          "pct_change": 1.89,
+          "last_close": 4.21,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PRY.MI",
+          "name": "Prysmian",
+          "sector": "Industrial Goods and Services",
+          "pct_change": 1.18,
+          "last_close": 124.0,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CPR.MI",
+          "name": "Campari",
+          "sector": "Food, Beverage and Tobacco",
+          "pct_change": 1.06,
+          "last_close": 5.9,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LTMC.MI",
+          "name": "Lottomatica Group",
+          "sector": "Gambling",
+          "pct_change": 1.03,
+          "last_close": 24.44,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FBK.MI",
+          "name": "FinecoBank",
+          "sector": "Banks",
+          "pct_change": 0.94,
+          "last_close": 23.63,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNI.MI",
+          "name": "Unipol",
+          "sector": "Insurance",
+          "pct_change": 0.91,
+          "last_close": 27.77,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "TEN.MI",
+          "name": "Tenaris",
+          "sector": "Energy",
+          "pct_change": -2.44,
+          "last_close": 22.37,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LDO.MI",
+          "name": "Leonardo",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -1.88,
+          "last_close": 56.25,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MB.MI",
+          "name": "Mediobanca",
+          "sector": "Banks",
+          "pct_change": -1.81,
+          "last_close": 27.65,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ENI.MI",
+          "name": "Eni",
+          "sector": "Energy",
+          "pct_change": -1.67,
+          "last_close": 24.14,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BMPS.MI",
+          "name": "Banca Monte dei Paschi di Siena",
+          "sector": "Banks",
+          "pct_change": -1.3,
+          "last_close": 11.57,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "A2A.MI",
+          "name": "A2A",
+          "sector": "Utilities",
+          "pct_change": -0.83,
+          "last_close": 2.27,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SPM.MI",
+          "name": "Saipem",
+          "sector": "Energy",
+          "pct_change": -0.8,
+          "last_close": 4.48,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SRG.MI",
+          "name": "Snam",
+          "sector": "Energy",
+          "pct_change": -0.79,
+          "last_close": 5.79,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ISP.MI",
+          "name": "Intesa Sanpaolo",
+          "sector": "Banks",
+          "pct_change": -0.67,
+          "last_close": 6.77,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IG.MI",
+          "name": "Italgas",
+          "sector": "Utilities",
+          "pct_change": -0.64,
+          "last_close": 8.73,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the August 21, 2026 session the FTSE MIB closed with 24 stocks higher, 16 lower, out of 40 tracked. The average move was +0.21%.",
+          "Best-performing sectors by average move: Financial Services (+0.33%); Industrial Goods and Services (+0.29%); Health Care (+0.19%). Weakest: Energy (-1.43%); Banks (-0.44%); Utilities (-0.28%).",
+          "Leading the session: Stellantis (STLAM.MI, +4.00%); Avio (AVIO.MI, +2.55%); Brunello Cucinelli (BC.MI, +2.33%). At the bottom: Tenaris (TEN.MI, -2.44%); Leonardo (LDO.MI, -1.88%); Mediobanca (MB.MI, -1.81%)."
+        ],
+        "it": [
+          "Nella seduta del 21 agosto 2026 il FTSE MIB ha chiuso con 24 societa' in rialzo, 16 in ribasso, su 40 titoli monitorati. La variazione media dell'indice e' stata di +0,21%.",
+          "Settori con la variazione media migliore: Financial Services (+0,33%); Industrial Goods and Services (+0,29%); Health Care (+0,19%). Settori piu' debolli: Energy (-1,43%); Banks (-0,44%); Utilities (-0,28%).",
+          "In cima alla seduta: Stellantis (STLAM.MI, +4,00%); Avio (AVIO.MI, +2,55%); Brunello Cucinelli (BC.MI, +2,33%). In fondo: Tenaris (TEN.MI, -2,44%); Leonardo (LDO.MI, -1,88%); Mediobanca (MB.MI, -1,81%)."
+        ]
+      }
+    },
+    "combined": {
+      "stats": {
+        "n_up": 339,
+        "n_down": 177,
+        "n_flat": 2,
+        "n_total": 518,
+        "avg_pct": 0.58,
+        "best_sectors": [
+          {
+            "sector": "Materials",
+            "avg_pct": 2.1
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": 1.34
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": 1.16
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Utilities",
+            "avg_pct": -2.36
+          },
+          {
+            "sector": "Energy",
+            "avg_pct": -0.14
+          },
+          {
+            "sector": "Technology",
+            "avg_pct": -0.08
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "HOOD",
+          "name": "Robinhood Markets",
+          "sector": "Financials",
+          "pct_change": 13.7,
+          "last_close": 108.13,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MRNA",
+          "name": "Moderna",
+          "sector": "Health Care",
+          "pct_change": 8.86,
+          "last_close": 145.13,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "COIN",
+          "name": "Coinbase",
+          "sector": "Financials",
+          "pct_change": 8.2,
+          "last_close": 186.49,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FCX",
+          "name": "Freeport-McMoRan",
+          "sector": "Materials",
+          "pct_change": 7.64,
+          "last_close": 76.66,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ALB",
+          "name": "Albemarle Corporation",
+          "sector": "Materials",
+          "pct_change": 6.75,
+          "last_close": 143.25,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MSTR",
+          "name": "MicroStrategy",
+          "sector": "Technology",
+          "pct_change": 6.1,
+          "last_close": 119.25,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EL",
+          "name": "Estée Lauder Companies (The)",
+          "sector": "Consumer Staples",
+          "pct_change": 6.02,
+          "last_close": 101.94,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HCA",
+          "name": "HCA Healthcare",
+          "sector": "Health Care",
+          "pct_change": 5.64,
+          "last_close": 429.19,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla, Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": 5.14,
+          "last_close": 362.86,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LULU",
+          "name": "Lululemon Athletica",
+          "sector": "Consumer Discretionary",
+          "pct_change": 4.65,
+          "last_close": 121.07,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "MRVL",
+          "name": "Marvell Technology",
+          "sector": "Information Technology",
+          "pct_change": -5.57,
+          "last_close": 237.04,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SRE",
+          "name": "Sempra",
+          "sector": "Utilities",
+          "pct_change": -5.14,
+          "last_close": 82.89,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EIX",
+          "name": "Edison International",
+          "sector": "Utilities",
+          "pct_change": -4.11,
+          "last_close": 71.59,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AEP",
+          "name": "American Electric Power",
+          "sector": "Utilities",
+          "pct_change": -3.79,
+          "last_close": 120.94,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CNP",
+          "name": "CenterPoint Energy",
+          "sector": "Utilities",
+          "pct_change": -3.56,
+          "last_close": 38.77,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PWR",
+          "name": "Quanta Services",
+          "sector": "Industrials",
+          "pct_change": -3.49,
+          "last_close": 639.34,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "Q",
+          "name": "Qnity Electronics",
+          "sector": "Information Technology",
+          "pct_change": -3.48,
+          "last_close": 128.88,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "XEL",
+          "name": "Xcel Energy",
+          "sector": "Utilities",
+          "pct_change": -3.06,
+          "last_close": 76.3,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BG",
+          "name": "Bunge Global",
+          "sector": "Consumer Staples",
+          "pct_change": -2.97,
+          "last_close": 113.11,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ARM",
+          "name": "Arm Holdings",
+          "sector": "Technology",
+          "pct_change": -2.95,
+          "last_close": 243.32,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the August 21, 2026 session the combined three U.S. indices closed with 339 stocks higher, 177 lower and 2 unchanged, out of 518 tracked. The average move was +0.58%.",
+          "Best-performing sectors by average move: Materials (+2.10%); Health Care (+1.34%); Financials (+1.16%). Weakest: Utilities (-2.36%); Energy (-0.14%); Technology (-0.08%).",
+          "Leading the session: Robinhood Markets (HOOD, +13.70%); Moderna (MRNA, +8.86%); Coinbase (COIN, +8.20%). At the bottom: Marvell Technology (MRVL, -5.57%); Sempra (SRE, -5.14%); Edison International (EIX, -4.11%)."
+        ],
+        "it": [
+          "Nella seduta del 21 agosto 2026 l'insieme dei tre indici USA ha chiuso con 339 societa' in rialzo, 177 in ribasso e 2 invariate, su 518 titoli monitorati. La variazione media dell'indice e' stata di +0,58%.",
+          "Settori con la variazione media migliore: Materials (+2,10%); Health Care (+1,34%); Financials (+1,16%). Settori piu' debolli: Utilities (-2,36%); Energy (-0,14%); Technology (-0,08%).",
+          "In cima alla seduta: Robinhood Markets (HOOD, +13,70%); Moderna (MRNA, +8,86%); Coinbase (COIN, +8,20%). In fondo: Marvell Technology (MRVL, -5,57%); Sempra (SRE, -5,14%); Edison International (EIX, -4,11%)."
+        ]
+      }
+    }
+  },
+  "manual_commentary_html": "<p>I mercati azionari statunitensi hanno chiuso in rialzo il 21 agosto 2026, con l&#x27;S&amp;P 500 in avanzamento dello 0,59 percento su un ampiezza di 332 titoli in rialzo contro 169 in calo. Il Dow Jones ha sovraperformato con un guadagno dello 0,69 percento, mentre il Nasdaq-100 ha registrato un rialzo dello 0,41 percento, riflettendo una divergenza di momentum tra i segmenti per capitalizzazione di mercato. I Materiali hanno guidato la performance settoriale con un guadagno medio del 2,1 percento, seguiti dall&#x27;Health Care all&#x27;1,34 percento e dai Finanziari all&#x27;1,16 percento, mentre i Servizi di pubblica utilità hanno registrato un calo del 2,36 percento e l&#x27;Energia e la Tecnologia hanno subito perdite marginali.</p><p>Tra i titoli in rialzo, Robinhood Markets è salito del 13,7 percento, Moderna ha guadagnato l&#x27;8,86 percento e Coinbase ha avanzato dell&#x27;8,2 percento. Freeport-McMoRan e Albemarle Corporation, entrambi beneficiari della forza del settore Materiali, sono saliti rispettivamente del 7,64 percento e del 6,75 percento. MicroStrategy ha guadagnato il 6,1 percento, Estée Lauder Companies ha aggiunto il 6,02 percento, HCA Healthcare è salito del 5,64 percento, Tesla ha guadagnato il 5,14 percento e Lululemon Athletica ha avanzato del 4,65 percento. I media tracciati non hanno segnalato catalizzatori aziendali specifici per nessuno di questi movimenti.</p><p>Al ribasso, Marvell Technology è sceso del 5,57 percento e Sempra ha registrato un calo del 5,14 percento, mentre Edison International, American Electric Power e CenterPoint Energy hanno perso rispettivamente il 4,11, il 3,79 e il 3,56 percento. La debolezza dei Servizi di pubblica utilità si è estesa a Quanta Services, Xcel Energy e Qnity Electronics, che hanno registrato cali del 3,49, del 3,06 e del 3,48 percento. Bunge Global è sceso del 2,97 percento e Arm Holdings si è ritirato del 2,95 percento. Non sono stati segnalati catalizzatori aziendali specifici per nessuno dei cali.</p>",
+  "manual_commentary_html_en": "<p>U.S. equities closed higher on August 21, 2026, with the S&amp;P 500 advancing 0.59 percent on breadth of 332 advancing stocks to 169 decliners. The Dow Jones outperformed with a 0.69 percent gain, while the Nasdaq-100 lagged with a 0.41 percent rise, reflecting a divergence in momentum across market-cap segments. Materials led sector performance with a 2.1 percent average gain, followed by Health Care at 1.34 percent and Financials at 1.16 percent, while Utilities declined 2.36 percent and Energy and Technology posted marginal losses.</p><p>Among gainers, Robinhood Markets surged 13.7 percent, Moderna climbed 8.86 percent, and Coinbase advanced 8.2 percent. Freeport-McMoRan and Albemarle Corporation, both benefiting from Materials sector strength, rose 7.64 percent and 6.75 percent respectively. MicroStrategy gained 6.1 percent, Estée Lauder Companies added 6.02 percent, HCA Healthcare rose 5.64 percent, Tesla climbed 5.14 percent, and Lululemon Athletica advanced 4.65 percent. Tracked outlets reported no specific company catalysts for any of these moves.</p><p>On the downside, Marvell Technology fell 5.57 percent and Sempra declined 5.14 percent, while Edison International, American Electric Power, and CenterPoint Energy lost 4.11, 3.79, and 3.56 percent respectively. Utilities weakness extended to Quanta Services, Xcel Energy, and Qnity Electronics, which dropped 3.49, 3.06, and 3.48 percent. Bunge Global slid 2.97 percent and Arm Holdings retreated 2.95 percent. No specific company catalysts were reported for any of the declines.</p>",
+  "manual_highlights": [],
+  "feed": [
+    {
+      "title": "Moderna, Merck Cancer Vax Gives Hope",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 21:53:36 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-21/moderna-merck-cancer-vax-gives-hope-video",
+      "summary": "Scientists are on the cusp of fulfilling a decades-long quest: to use vaccines to teach the immune system to spot and destroy cancer cells. News that an mRNA cancer vaccine developed by Merck & Co. and Moderna Inc. kept melanoma from returning in a large, late-stage trial marks a",
+      "image": null
+    },
+    {
+      "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 21:50:09 GMT",
+      "link": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+      "summary": "Anthropic is poised to debut on the stock market at a time when the public is increasingly upset about data centers and is fearful about AI taking jobs.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108342843-1785448090042-gettyimages-2280291466-ANTHROPIC_CIRCUIT.jpeg?v=1785448353&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Bitcoin and gold surge as Bessent’s intervention in bond market hits dollar",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 21:46:46 GMT",
+      "link": "https://www.ft.com/content/7e0c8dc0-e957-420a-bba3-d33666d919b8?syn-25a6b1a6=1",
+      "summary": "World’s biggest cryptocurrency registers best week in more than three years as investors pile into ‘debasement’ trades",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F74755619-732b-4795-8524-af00a006cf3d.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Meghan of Sussex Eyes Role in Netflix Show ‘The Gentlemen’",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 21:38:47 +0000",
+      "link": "https://www.nytimes.com/2026/08/21/business/meghan-sussex-the-gentlemen-netflix.html",
+      "summary": "The duchess’s representatives have had exploratory talks about her joining a third season of “The Gentlemen,” two people said. Netflix has not yet ordered a third season of the show.",
+      "image": "https://static01.nyt.com/images/2026/08/21/business/21biz-markle/21biz-markle-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Grayscale moves closer to launching first Zcash ETF in US with fresh amended SEC filing",
+      "source": "The Block",
+      "category": "crypto",
+      "published": "Fri, 21 Aug 2026 21:34:53 +0000",
+      "link": "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517",
+      "summary": "Grayscale is inching closer to launching its Zcash ETF, filing another amendment with the Securities and Exchange Commission on Friday.",
+      "image": "https://www.tbstat.com/wp/uploads/2025/09/20250919_Greyscale_News-1200x675.jpg"
+    },
+    {
+      "title": "Trump Allows Tariff Relief for Some Ground Beef Imports",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 21:32:56 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-21/trump-allows-tariff-relief-for-some-ground-beef-imports-video",
+      "summary": "President Donald Trump is aiming to deliver cost relief for some ground beef imports to lower prices for American consumers, by allowing up to 300,000 metric tons of product for ground beef to be imported with no out of quota tariff for the next 90 days. He also made a commitment",
+      "image": null
+    },
+    {
+      "title": "Trump says U.S., Canada 'should be able' to reach trade deal as tariff deadline looms",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 21:31:24 GMT",
+      "link": "https://www.cnbc.com/2026/08/21/trump-canada-tariffs-trade-deal-deadline.html",
+      "summary": "Trump had already postponed the 50% tariffs on a range of Canadian goods so Washington and Ottawa could finalize a tentative deal.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108352257-1787243975253-gettyimages-2290660212-AFP_C66A67P.jpeg?v=1787244111&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
+      "source": "Decrypt",
+      "category": "crypto",
+      "published": "Fri, 21 Aug 2026 21:31:05 +0000",
+      "link": "https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit",
+      "summary": "Coinkite's latest firmware requires users to add their own randomness when generating wallet seeds and fixes additional security issues uncovered during a three-week review.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/07/coldcard-mk3-decrypt-style-1-2-gID_7.jpg"
+    },
+    {
+      "title": "You can now Venmo your kid’s college tuition. But should you?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 21:20:00 GMT",
+      "link": "https://www.marketwatch.com/story/should-you-venmo-your-tuition-heres-what-to-know-as-colleges-add-new-payment-options-1a70ae96?mod=mw_rss_topstories",
+      "summary": "Some universities will begin accepting the nontraditional payment method as consumers seek flexible spending options.",
+      "image": "https://images.mktw.net/im-56268337"
+    },
+    {
+      "title": "Soon you can buy Medicare Advantage plans at Costco. What you need to know.",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 21:17:00 GMT",
+      "link": "https://www.marketwatch.com/story/soon-you-can-buy-medicare-advantage-plans-at-costco-what-you-need-to-know-34e03242?mod=mw_rss_topstories",
+      "summary": "The warehouse club becomes the latest consumer brand to offer health insurance.",
+      "image": "https://images.mktw.net/im-00949142"
+    },
+    {
+      "title": "Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Fri, 21 Aug 2026 20:58:07 +0000",
+      "link": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
+      "summary": "Apple has admitted that some roles are being impacted as it shifts its focus away from certain initiatives.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/06/Apple-Vision-Pro-global-availability-e1718041644616.jpg?resize=1200,676"
+    },
+    {
+      "title": "How FOX Sports Will Showcase IndyCar In The Freedom 250 Grand Prix",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 16:56:06 -0400",
+      "link": "https://www.forbes.com/sites/brucemartin/2026/08/21/how-fox-sports-will-showcase-indycar-in-the-freedom-250-grand-prix/",
+      "summary": "FOX Sports will showcase all the grandeur and spectacle of the Freedom 250 Grand Prix of Washington DC. It's the first ever major auto race at the National Mall.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a88b634e19d777530bbb09c/0x0.jpg"
+    },
+    {
+      "title": "How Good Is Arsenal’s New Winger Christos Tzolis?",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 16:50:53 -0400",
+      "link": "https://www.forbes.com/sites/grahamruthven/2026/08/21/how-good-is-arsenals-new-winger-christos-tzolis/",
+      "summary": "Christos Tzolis has made a big impact for Arsenal since joining the Premier League champions in the summer transfer window.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a88b72b7e5bf03fda2d6f19/0x0.jpg"
+    },
+    {
+      "title": "Trump Announces Move to Lift Ground Beef Tariffs in Bid to Lower Prices",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 20:49:35 +0000",
+      "link": "https://www.nytimes.com/2026/08/21/business/economy/trump-beef-prices.html",
+      "summary": "The move prompted blowback from cattle ranchers and Republicans who represent them.",
+      "image": "https://static01.nyt.com/images/2026/08/21/business/21biz-beef/21biz-beef-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Fri, 21 Aug 2026 20:48:48 +0000",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+    },
+    {
+      "title": "SEC accuses ex-Bank of America utilities banker of insider trading",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 20:35:56 GMT",
+      "link": "https://www.ft.com/content/12f457bc-8cb0-45bd-bf7f-83abf2d9c7d8?syn-25a6b1a6=1",
+      "summary": "Regulator says Jason Satsky helped a friend make $18.5mn in illegal profits tied to planned takeover of South Jersey Industries",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0492491c-fd7f-44be-8eb7-2400b3b5892c.jpg?source=next-barrier-page&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1"
+    },
+    {
+      "title": "Bond Yields Rise Despite Treasury Efforts to Curb Borrowing Costs",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 20:27:00 GMT",
+      "link": "https://www.wsj.com/finance/investing/bond-yields-rise-despite-treasury-efforts-to-curb-borrowing-costs-8aed2b0f?mod=rss_markets_main",
+      "summary": "Plus, crypto climbs and stocks bounce back.",
+      "image": "https://images.wsj.net/im-948172"
+    },
+    {
+      "title": "Azioni Jupiter Neurosciences: da 11 a 5,5 dollari, poi chiusura a 6,20",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Fri, 21 Aug 2026 20:26:34 +0000",
+      "link": "https://cryptonomist.ch/2026/08/21/azioni-jupiter-neurosciences-da-11-a-55-dollari-poi-chiusura-a-620/",
+      "summary": "Jupiter Neurosciences (JUNS) ha vissuto una seduta estrema il 21 agosto. Le azioni Jupiter Neurosciences hanno aperto a 8,20 dollari, toccato 11,14 dollari, per poi cedere fino a 5,54 e chiudere a 6,20 dollari. Il rally mostra segni di tensione: l&#8217;RSI a 78,21 è in territori",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/08/Jupiter-Neurosciences-Inc.-stock.jpeg"
+    },
+    {
+      "title": "Bitget CEO sees Bitcoin near current levels at year-end, doubts US will buy BTC",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Fri, 21 Aug 2026 20:26:16 +0000",
+      "link": "https://cointelegraph.com/markets/bitget-ceo-sees-bitcoin-near-current-levels-at-year-end-doubts-us-will-buy-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Gracy Chen says macroeconomic uncertainty could keep Bitcoin within $10,000 to $20,000 of current levels, while US government purchases remain unlikely within the next two years.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-true-or-false-about-bitcoin-and-crypto-are-totally-wrong-1.jpg"
+    },
+    {
+      "title": "TikTok reaches $400M settlement over children’s privacy lawsuit",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Fri, 21 Aug 2026 20:25:21 +0000",
+      "link": "https://techcrunch.com/2026/08/21/tiktok-reaches-400m-settlement-over-childrens-privacy-lawsuit/",
+      "summary": "Two years after the U.S. Department of Justice alleged that TikTok violated the Children’s Online Privacy Protection Act, it has reached a $400 million settlement.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2268918823.jpg?resize=1200,800"
+    },
+    {
+      "title": "Azioni USA Rare Earth testano l’EMA200: fair value a 37 dollari, il doppio del prezzo",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Fri, 21 Aug 2026 20:25:17 +0000",
+      "link": "https://cryptonomist.ch/2026/08/21/azioni-usa-rare-earth-testano-lema200-fair-value-a-37-dollari-il-doppio-del-prezzo/",
+      "summary": "Le azioni USA Rare Earth hanno chiuso la seduta del 21 agosto a 19,25 dollari, toccando esattamente l&#8217;EMA200 daily. Il movimento racconta una forza ritrovata. Ma il regime giornaliero resta neutrale: siamo in fase di test, non di conferma. USAR — grafico giornaliero con can",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/08/USA-Rare-Earth-Inc.-stock.jpeg"
+    },
+    {
+      "title": "Fannie Mae Hit by Turmoil in Senior Ranks as Roughly 12 Executives Are Let Go",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 20:11:00 GMT",
+      "link": "https://www.wsj.com/finance/regulation/fannie-mae-hit-by-turmoil-in-senior-ranks-as-at-least-10-executives-depart-9f0f40e0?mod=rss_markets_main",
+      "summary": "The departures are raising concerns about stability inside the government mortgage giant.",
+      "image": "https://images.wsj.net/im-33808678"
+    },
+    {
+      "title": "Wall Street and Washington Fuel Bitcoin Rally: Here's What's Going On",
+      "source": "Decrypt",
+      "category": "crypto",
+      "published": "Fri, 21 Aug 2026 20:07:05 +0000",
+      "link": "https://decrypt.co/376244/wall-street-washington-bitcoin-rally",
+      "summary": "Institutional buying, improving macro conditions and a friendlier regulatory outlook are supporting Bitcoin's rally, while billions in short liquidations have accelerated the move.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/bitcoin-dollar-decrypt-style-gID_7.jpg"
+    },
+    {
+      "title": "BounceBit to sunset blockchain, migrate to BNB Chain after $3 million exploit",
+      "source": "The Block",
+      "category": "crypto",
+      "published": "Fri, 21 Aug 2026 17:28:34 +0000",
+      "link": "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485",
+      "summary": "The attacker transferred approximately 286.5 million BB from nine wallets before block production was eventually halted.",
+      "image": "https://www.tbstat.com/wp/uploads/2022/03/20220321_DAO-Generic-1200x675.jpg"
+    },
+    {
+      "title": "Tracking the cost of Donald Trump’s tariffs",
+      "source": "The Economist",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 17:00:33 +0000",
+      "link": "https://www.economist.com/interactive/trump-tariff-costs-tracker",
+      "summary": "America’s global effective tariff stands at 10.0%",
+      "image": null
+    },
+    {
+      "title": "Borsa: Milano sulla parità con le banche deboli, recupera Stellantis (+4%)",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Fri, 21 Aug 2026 18:51:15 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/08/21/borsa-milano-sulla-parita-con-le-banche-deboli-recupera-stellantis-4_c37e4adc-6bae-4c22-ab86-ae422a4b1504.html",
+      "summary": "Giù Banca Generali, Mps e Mediobanca. Euro e spread calmi, prosegue la corsa del Bitcoin",
+      "image": null
+    },
+    {
+      "title": "Intesa Sanpaolo valuta un esposto alla Consob su Mps",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Fri, 21 Aug 2026 18:43:43 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/08/21/intesa-sanpaolo-valuta-esposto-alla-consob-su-mps_14b84922-cb20-4ca7-b3cd-06f3c121a703.html",
+      "summary": "A lavoro il team dei legali per accurati approfondimenti",
+      "image": null
+    },
+    {
+      "title": "Meta’s Big Reckoning Is Here",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Fri, 21 Aug 2026 15:00:00 +0000",
+      "link": "https://www.wired.com/story/metas-big-reckoning-is-here/",
+      "summary": "Meta is in court again over child safety, and this time it’s a landmark case that could force significant changes to core features of Facebook and Instagram.",
+      "image": "https://media.wired.com/photos/6a87451ce60bdcf9fa335d65/master/pass/Backchannel-Meta-Child-Safety-Trial-Biggest-Challenge-Yet-Business-2261841235.jpg"
+    },
+    {
+      "title": "Aste di New York, un successo con qualche riserva",
+      "source": "Wall Street Italia",
+      "category": "italia",
+      "published": "Fri, 21 Aug 2026 12:30:32 +0000",
+      "link": "https://www.wallstreetitalia.com/un-successo-con-qualche-riserva/",
+      "summary": "La settimana delle grandi aste primaverili di New York si conferma il fulcro del mercato dell’arte mondiale. Sotheby’s e Christie’s hanno registrato record storici di incassiNumeri importanti sono emersi dalle aste d’arte della marquee week newyorkese di maggio. Gli incassi netti",
+      "image": null
+    },
+    {
+      "title": "Juventus: risoluzione consensuale contratto con Arthur",
+      "source": "Wall Street Italia",
+      "category": "italia",
+      "published": "Fri, 21 Aug 2026 12:12:53 +0000",
+      "link": "https://www.wallstreetitalia.com/news/juventus-risoluzione-consensuale-contratto-con-arthur/",
+      "summary": "Risolto consensualmente con il calciatore Arthur Henrique Ramos De Oliveira Melo il contratto di diritto alle prestazioni sportive",
+      "image": null
+    },
+    {
+      "title": "The Download: threats from space mirrors and credit for AI drugs",
+      "source": "MIT Technology Review",
+      "category": "scienza",
+      "published": "Fri, 21 Aug 2026 12:10:00 +0000",
+      "link": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This company’s plans to deploy space mirrors could jeopardize the night sky for many A company that plans to beam sunlight from sp",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/12/SB1-top_3.jpg?fit=3840,2560"
+    },
+    {
+      "title": "I Tried the Best Robotic Pool Cleaners of 2026: Beatbot, iGarden, Dreame",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Fri, 21 Aug 2026 11:33:00 +0000",
+      "link": "https://www.wired.com/story/best-pool-cleaning-robots/",
+      "summary": "Pack up your pool cleaning supplies. Let one of these robot buddies maintain your water quality instead",
+      "image": "https://media.wired.com/photos/69e95b2c9a0a1ec843ac2661/master/pass/The-Best-Pool-Cleaning-Robots-of-2026.jpg"
+    },
+    {
+      "title": "Goldman Sachs e JPMorgan tra i più “bullish” sull’Europa. C’è un big di Wall Street che va controcorrente",
+      "source": "FinanzaOnline",
+      "category": "italia",
+      "published": "Fri, 21 Aug 2026 10:21:43 +0000",
+      "link": "https://www.finanzaonline.com/notizie/goldman-sachs-e-jpmorgan-tra-i-piu-bullish-sulleuropa-ce-un-big-di-wall-street-che-va-controcorrente",
+      "summary": "Goldman Sachs e JPMorgan i più \"bullish\" sull'Europa. Gli strategist delle due banche d'affari sono tra i più ottimisti sulle azioni europee grazie alle solide prospettive sugli utili aziendali. C'è anche un banca d'affari Usa che va controcorrente",
+      "image": null
+    },
+    {
+      "title": "Bitcoin inarrestabile, ecco il vero motivo della rinascita cripto. E il ceo di Coinbase indica un target da urlo",
+      "source": "FinanzaOnline",
+      "category": "italia",
+      "published": "Fri, 21 Aug 2026 08:57:32 +0000",
+      "link": "https://www.finanzaonline.com/notizie/bitcoin-inarrestabile-ecco-il-vero-motivo-del-super-rally-il-ceo-di-coinbase-sforna-target-da-urlo",
+      "summary": "La criptovaluta torna sopra i 76mila dollari. Flussi istituzionali in ripresa e la scommessa di Armstrong: fino a 400mila dollari nel 2030",
+      "image": null
+    },
+    {
+      "title": "The Download: polycrisis support networks and a hydrogen gold rush",
+      "source": "MIT Technology Review",
+      "category": "scienza",
+      "published": "Thu, 20 Aug 2026 12:10:00 +0000",
+      "link": "https://www.technologyreview.com/2026/08/20/1142579/the-download-polycrisis-support-networks-underground-hydrogen-gold-rush/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Support networks aim to help kids through the polycrisis Sometime in the late 2000s, six-year-old Pim Sullivan-Tailyour was sittin",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/10/MIT_Opener_final2.jpg?fit=2128,1196"
+    },
+    {
+      "title": "The high cost of phantom tollbooths",
+      "source": "The Economist",
+      "category": "mercati",
+      "published": "Thu, 20 Aug 2026 09:21:32 +0000",
+      "link": "https://www.economist.com/finance-and-economics/2026/08/20/the-high-cost-of-phantom-tollbooths",
+      "summary": "Freedom of navigation is worth preserving",
+      "image": null
+    },
+    {
+      "title": "Le migliori tende da campeggio tra modelli ultraleggeri, familiari e gonfiabili",
+      "source": "Wired Italia",
+      "category": "tech",
+      "published": "Wed, 01 Jul 2026 07:00:00 +0000",
+      "link": "https://www.wired.it/gallery/migliori-tende-campeggio/",
+      "summary": "Dalle tende ultraleggere da trekking ai modelli familiari con vere e proprie stanze, passando per soluzioni gonfiabili e a montaggio rapido",
+      "image": "https://media-assets.wired.it/photos/6a194670a7792b1bc7faf331/master/pass/tende%20da%20campeggio%20giugno%202026.jpg"
+    },
+    {
+      "title": "Will the next iPhone charge wirelessly?",
+      "source": "CNN",
+      "category": "mercati",
+      "published": "Mon, 13 Feb 2017 14:42:14 EST",
+      "link": "http://money.cnn.com/2017/02/13/technology/apple-wireless-charging/index.html?section=money_news_international",
+      "summary": "The days of plugging in an iPhone to charge won't last forever.",
+      "image": "http://i2.cdn.turner.com/money/dam/assets/170203124414-apple-iphone-120x90.jpg"
+    },
+    {
+      "title": "AT&T stands to gain as Verizon loses a customer related battle",
+      "source": "Yahoo Finance",
+      "category": "mercati",
+      "published": "2026-08-20T23:00:00Z",
+      "link": "https://finance.yahoo.com/technology/articles/t-stands-gain-verizon-loses-230000780.html",
+      "summary": "",
+      "image": "https://media.zenfs.com/en/thestreet_881/9ca7aacf9bc83b58c6519fafdbaafd4d.jpg"
+    },
+    {
+      "title": "Briefing Chat: New narcolepsy drug could unlock host of novel brain therapies",
+      "source": "Nature",
+      "category": "scienza",
+      "published": "",
+      "link": "https://www.nature.com/articles/d41586-026-02626-x",
+      "summary": "Nature, Published online: 21 August 2026; doi:10.1038/d41586-026-02626-x Nature staff discuss how an FDA-approved drug for narcolepsy could have promise beyond the condition, and the longest-lived human brain organoids yet.",
+      "image": null
+    }
+  ],
+  "generated_at": "2026-08-22 00:02:45",
+  "markets_brief": {
+    "items": [
+      {
+        "title": "Moderna, Merck Cancer Vax Gives Hope",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-21/moderna-merck-cancer-vax-gives-hope-video"
+      },
+      {
+        "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html"
+      },
+      {
+        "title": "Bitcoin and gold surge as Bessent’s intervention in bond market hits dollar",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/7e0c8dc0-e957-420a-bba3-d33666d919b8?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Meghan of Sussex Eyes Role in Netflix Show ‘The Gentlemen’",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2026/08/21/business/meghan-sussex-the-gentlemen-netflix.html"
+      },
+      {
+        "title": "Trump Allows Tariff Relief for Some Ground Beef Imports",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-21/trump-allows-tariff-relief-for-some-ground-beef-imports-video"
+      }
+    ],
+    "prose_html": "<p>Moderna e Merck hanno fatto progressi con il loro candidato vaccino contro il cancro, segnalando avanzamenti nella terapia oncologica. Nel frattempo, il prossimo deposito IPO di Anthropic metterà in evidenza i rischi normativi e di sentimento pubblico che affrontano il settore dell&#x27;IA, sottolineando le preoccupazioni degli investitori sulla traiettoria dell&#x27;industria. Nei mercati valutari e delle materie prime, l&#x27;intervento del Segretario al Tesoro Bessent nel mercato obbligazionario ha pesato sul dollaro, facendo salire sia Bitcoin che l&#x27;oro mentre gli investitori cercavano alternative come riserva di valore. Sul fronte commerciale, l&#x27;amministrazione Trump ha concesso uno sconto tariffario per alcune importazioni di carne macinata, un modesto cambiamento nella sua posizione protezionista più ampia.</p>",
+    "prose_html_en": "<p>Moderna and Merck advanced their cancer vaccine candidate, signaling progress in oncology therapeutics. Meanwhile, Anthropic&#x27;s upcoming IPO filing will highlight regulatory and public sentiment risks facing the AI sector, underscoring investor concerns about the industry&#x27;s trajectory. In currency and commodities markets, Treasury Secretary Bessent&#x27;s intervention in the bond market weighed on the dollar, lifting both Bitcoin and gold as investors sought alternative stores of value. On the trade front, the Trump administration granted tariff relief for certain ground beef imports, a modest shift in its broader protectionist stance.</p>"
+  }
+}
