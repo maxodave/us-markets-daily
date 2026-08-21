@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-21T16:10:02Z",
+  "updated": "2026-08-21T16:25:58Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.53,
-      "last": 7681.55
+      "pct": 0.52,
+      "last": 7681.18
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.34,
-      "last": 29313.85
+      "pct": 0.38,
+      "last": 29325.14
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.77,
-      "last": 53163.94
+      "pct": 0.73,
+      "last": 53145.56
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 15.13
+        "pct": 15.81
       },
       {
         "symbol": "HOOD",
         "name": "Robinhood Markets, Inc.",
-        "pct": 11.98
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 11.64
+        "pct": 13.13
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 11.45
-      },
-      {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": 11.0
+        "pct": 12.14
       },
       {
         "symbol": "USAR",
         "name": "USA Rare Earth, Inc.",
-        "pct": 10.81
-      },
-      {
-        "symbol": "UEC",
-        "name": "Uranium Energy Corp.",
-        "pct": 9.87
-      },
-      {
-        "symbol": "RGTI",
-        "name": "Rigetti Computing, Inc.",
-        "pct": 9.29
+        "pct": 11.89
       },
       {
         "symbol": "TGTX",
         "name": "TG Therapeutics, Inc.",
-        "pct": 9.04
+        "pct": 11.69
       },
       {
-        "symbol": "COIN",
-        "name": "Coinbase Global, Inc.",
-        "pct": 8.42
+        "symbol": "RGTI",
+        "name": "Rigetti Computing, Inc.",
+        "pct": 10.68
+      },
+      {
+        "symbol": "UEC",
+        "name": "Uranium Energy Corp.",
+        "pct": 10.67
+      },
+      {
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": 10.45
+      },
+      {
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": 10.28
+      },
+      {
+        "symbol": "DK",
+        "name": "Delek US Holdings, Inc.",
+        "pct": 9.99
       }
     ],
     "losers": [
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -10.64
+        "pct": -9.67
       },
       {
         "symbol": "OSIS",
         "name": "OSI Systems, Inc.",
-        "pct": -9.16
-      },
-      {
-        "symbol": "WETO",
-        "name": "Wetour Robotics Limited",
-        "pct": -9.06
+        "pct": -8.88
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -7.58
+        "pct": -7.29
       },
       {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": -7.53
-      },
-      {
-        "symbol": "MRVL",
-        "name": "Marvell Technology, Inc.",
-        "pct": -6.5
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": -6.11
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -6.0
+        "symbol": "WETO",
+        "name": "Wetour Robotics Limited",
+        "pct": -7.14
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": -5.99
+        "pct": -6.58
       },
       {
-        "symbol": "CLSK",
-        "name": "CleanSpark, Inc.",
-        "pct": -5.52
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "pct": -6.38
+      },
+      {
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": -6.34
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -5.51
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -5.19
+      },
+      {
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "pct": -4.75
       }
     ],
     "universe": 1269
