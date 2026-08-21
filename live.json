@@ -1,137 +1,137 @@
 {
-  "updated": "2026-08-20T21:36:46Z",
-  "market_open": false,
+  "updated": "2026-08-21T14:02:20Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.87,
-      "last": 7641.16
+      "pct": 0.33,
+      "last": 7666.56
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.72,
-      "last": 29213.16
+      "pct": -0.01,
+      "last": 29211.55
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.32,
-      "last": 52759.21
+      "pct": 0.67,
+      "last": 53113.87
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.17,
-      "last": 52665.82
+      "pct": 0.11,
+      "last": 52753.34
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "MARA",
-        "name": "MARA Holdings, Inc.",
-        "pct": 15.54
-      },
-      {
-        "symbol": "MRVI",
-        "name": "Maravai LifeSciences Holdings, Inc.",
-        "pct": 14.82
-      },
-      {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 12.52
+        "symbol": "HOOD",
+        "name": "Robinhood Markets, Inc.",
+        "pct": 13.85
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 9.5
-      },
-      {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "pct": 9.33
-      },
-      {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "pct": 8.82
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": 8.31
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": 8.31
-      },
-      {
-        "symbol": "RIOT",
-        "name": "Riot Platforms, Inc.",
-        "pct": 8.26
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": 8.0
-      }
-    ],
-    "losers": [
-      {
-        "symbol": "TNON",
-        "name": "Tenon Medical, Inc.",
-        "pct": -38.04
-      },
-      {
-        "symbol": "AAP",
-        "name": "Advance Auto Parts Inc.",
-        "pct": -24.55
-      },
-      {
-        "symbol": "RDAC",
-        "name": "Rising Dragon Acquisition Corp.",
-        "pct": -24.26
+        "pct": 13.3
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": -23.55
+        "pct": 12.67
       },
       {
-        "symbol": "CAPR",
-        "name": "Capricor Therapeutics, Inc.",
-        "pct": -14.35
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": 10.4
       },
       {
-        "symbol": "EYPT",
-        "name": "EyePoint, Inc.",
-        "pct": -14.29
+        "symbol": "CLF",
+        "name": "Cleveland-Cliffs Inc.",
+        "pct": 10.29
       },
       {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": -9.56
+        "symbol": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "pct": 9.66
       },
       {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": -9.42
+        "symbol": "COIN",
+        "name": "Coinbase Global, Inc.",
+        "pct": 9.5
       },
       {
-        "symbol": "WMT",
-        "name": "Walmart Inc.",
-        "pct": -9.15
+        "symbol": "MARA",
+        "name": "MARA Holdings, Inc.",
+        "pct": 9.19
       },
       {
-        "symbol": "INIO",
-        "name": "INNIO N.V.",
-        "pct": -8.8
+        "symbol": "UUUU",
+        "name": "Energy Fuels Inc",
+        "pct": 9.03
+      },
+      {
+        "symbol": "FIGR",
+        "name": "Figure Technology Solutions, Inc.",
+        "pct": 8.35
       }
     ],
-    "universe": 1273
+    "losers": [
+      {
+        "symbol": "OSIS",
+        "name": "OSI Systems, Inc.",
+        "pct": -9.34
+      },
+      {
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "pct": -9.08
+      },
+      {
+        "symbol": "WETO",
+        "name": "Wetour Robotics Limited",
+        "pct": -8.45
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -4.88
+      },
+      {
+        "symbol": "IPST",
+        "name": "IP Strategy Holdings, Inc.",
+        "pct": -3.49
+      },
+      {
+        "symbol": "SCSC",
+        "name": "ScanSource, Inc.",
+        "pct": -3.46
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": -3.41
+      },
+      {
+        "symbol": "TENB",
+        "name": "Tenable Holdings, Inc.",
+        "pct": -3.4
+      },
+      {
+        "symbol": "FORM",
+        "name": "FormFactor, Inc.",
+        "pct": -3.35
+      },
+      {
+        "symbol": "TER",
+        "name": "Teradyne, Inc.",
+        "pct": -3.28
+      }
+    ],
+    "universe": 1269
   }
 }
