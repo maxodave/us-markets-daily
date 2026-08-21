@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-21T14:50:33Z",
+  "updated": "2026-08-21T15:06:24Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.37,
-      "last": 7669.15
+      "pct": 0.53,
+      "last": 7681.49
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.06,
-      "last": 29231.87
+      "pct": 0.23,
+      "last": 29281.21
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.68,
-      "last": 53115.41
+      "pct": 0.85,
+      "last": 53206.16
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.04,
-      "last": 52674.55
+      "pct": 0.03,
+      "last": 52711.95
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 14.14
-      },
-      {
-        "symbol": "HOOD",
-        "name": "Robinhood Markets, Inc.",
-        "pct": 12.02
+        "pct": 13.43
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 11.38
+        "pct": 13.02
       },
       {
-        "symbol": "USAR",
-        "name": "USA Rare Earth, Inc.",
-        "pct": 10.75
+        "symbol": "HOOD",
+        "name": "Robinhood Markets, Inc.",
+        "pct": 12.7
       },
       {
         "symbol": "COIN",
         "name": "Coinbase Global, Inc.",
-        "pct": 9.87
+        "pct": 10.53
+      },
+      {
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": 10.17
       },
       {
         "symbol": "TGTX",
         "name": "TG Therapeutics, Inc.",
-        "pct": 9.06
-      },
-      {
-        "symbol": "VIRT",
-        "name": "Virtu Financial, Inc.",
-        "pct": 8.43
-      },
-      {
-        "symbol": "MP",
-        "name": "MP Materials Corp.",
-        "pct": 8.39
-      },
-      {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": 8.13
+        "pct": 9.64
       },
       {
         "symbol": "INFQ",
         "name": "Infleqtion, Inc.",
-        "pct": 8.05
+        "pct": 9.6
+      },
+      {
+        "symbol": "NVAX",
+        "name": "Novavax, Inc.",
+        "pct": 8.72
+      },
+      {
+        "symbol": "UEC",
+        "name": "Uranium Energy Corp.",
+        "pct": 8.48
+      },
+      {
+        "symbol": "VIRT",
+        "name": "Virtu Financial, Inc.",
+        "pct": 8.32
       }
     ],
     "losers": [
       {
-        "symbol": "WETO",
-        "name": "Wetour Robotics Limited",
-        "pct": -10.57
-      },
-      {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -10.41
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -9.04
-      },
-      {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": -8.52
+        "pct": -10.04
       },
       {
         "symbol": "OSIS",
         "name": "OSI Systems, Inc.",
-        "pct": -8.03
+        "pct": -9.33
       },
       {
-        "symbol": "MRVL",
-        "name": "Marvell Technology, Inc.",
-        "pct": -5.92
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -9.21
+      },
+      {
+        "symbol": "WETO",
+        "name": "Wetour Robotics Limited",
+        "pct": -8.99
+      },
+      {
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "pct": -8.85
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": -5.87
+        "pct": -6.29
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "pct": -5.99
       },
       {
         "symbol": "MWH",
         "name": "SOLV Energy, Inc.",
-        "pct": -5.76
+        "pct": -5.79
       },
       {
-        "symbol": "CLSK",
-        "name": "CleanSpark, Inc.",
-        "pct": -5.08
+        "symbol": "WULF",
+        "name": "TeraWulf Inc.",
+        "pct": -5.32
       },
       {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": -4.88
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -5.28
       }
     ],
     "universe": 1269
