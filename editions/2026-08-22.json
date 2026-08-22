@@ -1307,283 +1307,47 @@
     },
     "ftsemib": {
       "stats": {
-        "n_up": 24,
-        "n_down": 16,
+        "n_up": 20,
+        "n_down": 20,
         "n_flat": 0,
         "n_total": 40,
-        "avg_pct": 0.21,
+        "avg_pct": -0.2,
         "best_sectors": [
           {
-            "sector": "Financial Services",
-            "avg_pct": 0.33
+            "sector": "Energy",
+            "avg_pct": 1.09
           },
           {
-            "sector": "Industrial Goods and Services",
-            "avg_pct": 0.29
+            "sector": "Utilities",
+            "avg_pct": 0.9
           },
           {
-            "sector": "Health Care",
-            "avg_pct": 0.19
+            "sector": "Banks",
+            "avg_pct": 0.01
           }
         ],
         "worst_sectors": [
           {
-            "sector": "Energy",
-            "avg_pct": -1.43
+            "sector": "Industrial Goods and Services",
+            "avg_pct": -0.58
           },
           {
-            "sector": "Banks",
-            "avg_pct": -0.44
+            "sector": "Health Care",
+            "avg_pct": -0.49
           },
           {
-            "sector": "Utilities",
-            "avg_pct": -0.28
+            "sector": "Financial Services",
+            "avg_pct": -0.18
           }
         ]
       },
       "gainers": [
         {
-          "symbol": "STLAM.MI",
-          "name": "Stellantis",
-          "sector": "Automobiles and Parts",
-          "pct_change": 4.0,
-          "last_close": 4.65,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "AVIO.MI",
-          "name": "Avio",
-          "sector": "Aerospace",
-          "pct_change": 2.55,
-          "last_close": 32.14,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "BC.MI",
-          "name": "Brunello Cucinelli",
-          "sector": "Consumer Products and Services",
-          "pct_change": 2.33,
-          "last_close": 88.54,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "RACE.MI",
-          "name": "Ferrari",
-          "sector": "Automobiles and Parts",
-          "pct_change": 1.91,
-          "last_close": 371.1,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "NEXI.MI",
-          "name": "Nexi",
-          "sector": "Industrial Goods and Services",
-          "pct_change": 1.89,
-          "last_close": 4.21,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "PRY.MI",
-          "name": "Prysmian",
-          "sector": "Industrial Goods and Services",
-          "pct_change": 1.18,
-          "last_close": 124.0,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "CPR.MI",
-          "name": "Campari",
-          "sector": "Food, Beverage and Tobacco",
-          "pct_change": 1.06,
-          "last_close": 5.9,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "LTMC.MI",
-          "name": "Lottomatica Group",
-          "sector": "Gambling",
-          "pct_change": 1.03,
-          "last_close": 24.44,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "FBK.MI",
-          "name": "FinecoBank",
-          "sector": "Banks",
-          "pct_change": 0.94,
-          "last_close": 23.63,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "UNI.MI",
-          "name": "Unipol",
-          "sector": "Insurance",
-          "pct_change": 0.91,
-          "last_close": 27.77,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        }
-      ],
-      "losers": [
-        {
-          "symbol": "TEN.MI",
-          "name": "Tenaris",
-          "sector": "Energy",
-          "pct_change": -2.44,
-          "last_close": 22.37,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "LDO.MI",
-          "name": "Leonardo",
-          "sector": "Industrial Goods and Services",
-          "pct_change": -1.88,
-          "last_close": 56.25,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "MB.MI",
-          "name": "Mediobanca",
-          "sector": "Banks",
-          "pct_change": -1.81,
-          "last_close": 27.65,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
           "symbol": "ENI.MI",
           "name": "Eni",
           "sector": "Energy",
-          "pct_change": -1.67,
-          "last_close": 24.14,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "BMPS.MI",
-          "name": "Banca Monte dei Paschi di Siena",
-          "sector": "Banks",
-          "pct_change": -1.3,
-          "last_close": 11.57,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "A2A.MI",
-          "name": "A2A",
-          "sector": "Utilities",
-          "pct_change": -0.83,
-          "last_close": 2.27,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "SPM.MI",
-          "name": "Saipem",
-          "sector": "Energy",
-          "pct_change": -0.8,
-          "last_close": 4.48,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "SRG.MI",
-          "name": "Snam",
-          "sector": "Energy",
-          "pct_change": -0.79,
-          "last_close": 5.79,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "ISP.MI",
-          "name": "Intesa Sanpaolo",
-          "sector": "Banks",
-          "pct_change": -0.67,
-          "last_close": 6.77,
+          "pct_change": 2.59,
+          "last_close": 24.55,
           "indices": [
             "ftsemib"
           ],
@@ -1595,8 +1359,244 @@
           "symbol": "IG.MI",
           "name": "Italgas",
           "sector": "Utilities",
-          "pct_change": -0.64,
-          "last_close": 8.73,
+          "pct_change": 1.92,
+          "last_close": 8.79,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DIA.MI",
+          "name": "Diasorin",
+          "sector": "Health Care",
+          "pct_change": 1.6,
+          "last_close": 74.72,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LTMC.MI",
+          "name": "Lottomatica Group",
+          "sector": "Gambling",
+          "pct_change": 1.43,
+          "last_close": 24.19,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SRG.MI",
+          "name": "Snam",
+          "sector": "Energy",
+          "pct_change": 1.25,
+          "last_close": 5.83,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRN.MI",
+          "name": "Terna",
+          "sector": "Utilities",
+          "pct_change": 0.92,
+          "last_close": 9.83,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HER.MI",
+          "name": "Hera",
+          "sector": "Utilities",
+          "pct_change": 0.78,
+          "last_close": 3.86,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TEN.MI",
+          "name": "Tenaris",
+          "sector": "Energy",
+          "pct_change": 0.75,
+          "last_close": 22.93,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BAMI.MI",
+          "name": "Banco BPM",
+          "sector": "Banks",
+          "pct_change": 0.66,
+          "last_close": 16.75,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "A2A.MI",
+          "name": "A2A",
+          "sector": "Utilities",
+          "pct_change": 0.61,
+          "last_close": 2.29,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "STLAM.MI",
+          "name": "Stellantis",
+          "sector": "Automobiles and Parts",
+          "pct_change": -3.71,
+          "last_close": 4.47,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMP.MI",
+          "name": "Amplifon",
+          "sector": "Health Care",
+          "pct_change": -2.99,
+          "last_close": 11.85,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNI.MI",
+          "name": "Unipol",
+          "sector": "Insurance",
+          "pct_change": -2.96,
+          "last_close": 27.52,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AVIO.MI",
+          "name": "Avio",
+          "sector": "Aerospace",
+          "pct_change": -2.37,
+          "last_close": 31.34,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STMMI.MI",
+          "name": "STMicroelectronics",
+          "sector": "Technology",
+          "pct_change": -2.16,
+          "last_close": 43.01,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LDO.MI",
+          "name": "Leonardo",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -1.95,
+          "last_close": 57.33,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MONC.MI",
+          "name": "Moncler",
+          "sector": "Consumer Products and Services",
+          "pct_change": -1.53,
+          "last_close": 46.94,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BC.MI",
+          "name": "Brunello Cucinelli",
+          "sector": "Consumer Products and Services",
+          "pct_change": -0.92,
+          "last_close": 86.52,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PRY.MI",
+          "name": "Prysmian",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -0.85,
+          "last_close": 122.55,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BMED.MI",
+          "name": "Banca Mediolanum",
+          "sector": "Financial Services",
+          "pct_change": -0.75,
+          "last_close": 23.86,
           "indices": [
             "ftsemib"
           ],
@@ -1607,14 +1607,14 @@
       ],
       "paragraphs": {
         "en": [
-          "In the August 21, 2026 session the FTSE MIB closed with 24 stocks higher, 16 lower, out of 40 tracked. The average move was +0.21%.",
-          "Best-performing sectors by average move: Financial Services (+0.33%); Industrial Goods and Services (+0.29%); Health Care (+0.19%). Weakest: Energy (-1.43%); Banks (-0.44%); Utilities (-0.28%).",
-          "Leading the session: Stellantis (STLAM.MI, +4.00%); Avio (AVIO.MI, +2.55%); Brunello Cucinelli (BC.MI, +2.33%). At the bottom: Tenaris (TEN.MI, -2.44%); Leonardo (LDO.MI, -1.88%); Mediobanca (MB.MI, -1.81%)."
+          "In the August 21, 2026 session the FTSE MIB closed with 20 stocks higher, 20 lower, out of 40 tracked. The average move was -0.20%.",
+          "Best-performing sectors by average move: Energy (+1.09%); Utilities (+0.90%); Banks (+0.01%). Weakest: Industrial Goods and Services (-0.58%); Health Care (-0.49%); Financial Services (-0.18%).",
+          "Leading the session: Eni (ENI.MI, +2.59%); Italgas (IG.MI, +1.92%); Diasorin (DIA.MI, +1.60%). At the bottom: Stellantis (STLAM.MI, -3.71%); Amplifon (AMP.MI, -2.99%); Unipol (UNI.MI, -2.96%)."
         ],
         "it": [
-          "Nella seduta del 21 agosto 2026 il FTSE MIB ha chiuso con 24 societa' in rialzo, 16 in ribasso, su 40 titoli monitorati. La variazione media dell'indice e' stata di +0,21%.",
-          "Settori con la variazione media migliore: Financial Services (+0,33%); Industrial Goods and Services (+0,29%); Health Care (+0,19%). Settori piu' debolli: Energy (-1,43%); Banks (-0,44%); Utilities (-0,28%).",
-          "In cima alla seduta: Stellantis (STLAM.MI, +4,00%); Avio (AVIO.MI, +2,55%); Brunello Cucinelli (BC.MI, +2,33%). In fondo: Tenaris (TEN.MI, -2,44%); Leonardo (LDO.MI, -1,88%); Mediobanca (MB.MI, -1,81%)."
+          "Nella seduta del 21 agosto 2026 il FTSE MIB ha chiuso con 20 societa' in rialzo, 20 in ribasso, su 40 titoli monitorati. La variazione media dell'indice e' stata di -0,20%.",
+          "Settori con la variazione media migliore: Energy (+1,09%); Utilities (+0,90%); Banks (+0,01%). Settori piu' debolli: Industrial Goods and Services (-0,58%); Health Care (-0,49%); Financial Services (-0,18%).",
+          "In cima alla seduta: Eni (ENI.MI, +2,59%); Italgas (IG.MI, +1,92%); Diasorin (DIA.MI, +1,60%). In fondo: Stellantis (STLAM.MI, -3,71%); Amplifon (AMP.MI, -2,99%); Unipol (UNI.MI, -2,96%)."
         ]
       }
     },
@@ -1936,72 +1936,144 @@
       }
     }
   },
-  "manual_commentary_html": "<p>I mercati azionari statunitensi hanno chiuso in rialzo il 21 agosto 2026, con l&#x27;S&amp;P 500 in avanzamento dello 0,59 percento su un ampiezza di 332 titoli in rialzo contro 169 in calo. Il Dow Jones ha sovraperformato con un guadagno dello 0,69 percento, mentre il Nasdaq-100 ha registrato un rialzo dello 0,41 percento, riflettendo una divergenza di momentum tra i segmenti per capitalizzazione di mercato. I Materiali hanno guidato la performance settoriale con un guadagno medio del 2,1 percento, seguiti dall&#x27;Health Care all&#x27;1,34 percento e dai Finanziari all&#x27;1,16 percento, mentre i Servizi di pubblica utilità hanno registrato un calo del 2,36 percento e l&#x27;Energia e la Tecnologia hanno subito perdite marginali.</p><p>Tra i titoli in rialzo, Robinhood Markets è salito del 13,7 percento, Moderna ha guadagnato l&#x27;8,86 percento e Coinbase ha avanzato dell&#x27;8,2 percento. Freeport-McMoRan e Albemarle Corporation, entrambi beneficiari della forza del settore Materiali, sono saliti rispettivamente del 7,64 percento e del 6,75 percento. MicroStrategy ha guadagnato il 6,1 percento, Estée Lauder Companies ha aggiunto il 6,02 percento, HCA Healthcare è salito del 5,64 percento, Tesla ha guadagnato il 5,14 percento e Lululemon Athletica ha avanzato del 4,65 percento. I media tracciati non hanno segnalato catalizzatori aziendali specifici per nessuno di questi movimenti.</p><p>Al ribasso, Marvell Technology è sceso del 5,57 percento e Sempra ha registrato un calo del 5,14 percento, mentre Edison International, American Electric Power e CenterPoint Energy hanno perso rispettivamente il 4,11, il 3,79 e il 3,56 percento. La debolezza dei Servizi di pubblica utilità si è estesa a Quanta Services, Xcel Energy e Qnity Electronics, che hanno registrato cali del 3,49, del 3,06 e del 3,48 percento. Bunge Global è sceso del 2,97 percento e Arm Holdings si è ritirato del 2,95 percento. Non sono stati segnalati catalizzatori aziendali specifici per nessuno dei cali.</p>",
-  "manual_commentary_html_en": "<p>U.S. equities closed higher on August 21, 2026, with the S&amp;P 500 advancing 0.59 percent on breadth of 332 advancing stocks to 169 decliners. The Dow Jones outperformed with a 0.69 percent gain, while the Nasdaq-100 lagged with a 0.41 percent rise, reflecting a divergence in momentum across market-cap segments. Materials led sector performance with a 2.1 percent average gain, followed by Health Care at 1.34 percent and Financials at 1.16 percent, while Utilities declined 2.36 percent and Energy and Technology posted marginal losses.</p><p>Among gainers, Robinhood Markets surged 13.7 percent, Moderna climbed 8.86 percent, and Coinbase advanced 8.2 percent. Freeport-McMoRan and Albemarle Corporation, both benefiting from Materials sector strength, rose 7.64 percent and 6.75 percent respectively. MicroStrategy gained 6.1 percent, Estée Lauder Companies added 6.02 percent, HCA Healthcare rose 5.64 percent, Tesla climbed 5.14 percent, and Lululemon Athletica advanced 4.65 percent. Tracked outlets reported no specific company catalysts for any of these moves.</p><p>On the downside, Marvell Technology fell 5.57 percent and Sempra declined 5.14 percent, while Edison International, American Electric Power, and CenterPoint Energy lost 4.11, 3.79, and 3.56 percent respectively. Utilities weakness extended to Quanta Services, Xcel Energy, and Qnity Electronics, which dropped 3.49, 3.06, and 3.48 percent. Bunge Global slid 2.97 percent and Arm Holdings retreated 2.95 percent. No specific company catalysts were reported for any of the declines.</p>",
+  "manual_commentary_html": "<p>I titoli azionari statunitensi sono saliti il 21 agosto 2026, con l&#x27;S&amp;P 500 in rialzo dello 0.59 percento e il Dow Jones in guadagno dello 0.69 percento, mentre il Nasdaq-100 ha registrato un rialzo più modesto dello 0.41 percento. Secondo il Wall Street Journal, i titoli statunitensi sono saliti mentre il Bitcoin si avvicinava a 80.000 dollari, mentre Reuters ha riferito che Wall Street ha guadagnato nonostante i rendimenti obbligazionari e le preoccupazioni per l&#x27;Iran dominassero i titoli. I rendimenti obbligazionari hanno continuato a salire nonostante gli sforzi del Tesoro per contenere i costi di finanziamento, secondo il Journal. La seduta ha visto 339 titoli in rialzo contro 177 in ribasso su un campione di 518 titoli, indicando un solido supporto di ampiezza per i guadagni della giornata.</p><p>I Materials hanno guidato la performance settoriale con un guadagno medio del 2.1 percento, seguiti dall&#x27;Health Care all&#x27;1.34 percento e dai Financials all&#x27;1.16 percento. Tra i maggiori rialzisti, Robinhood Markets è salito del 13.7 percento, Moderna ha guadagnato l&#x27;8.86 percento e Coinbase è salito dell&#x27;8.2 percento; i media tracciati non hanno segnalato catalizzatori specifici per questi movimenti. Freeport-McMoRan e Albemarle Corporation, entrambi titoli del settore materiali, hanno guadagnato rispettivamente il 7.64 percento e il 6.75 percento. Tesla è avanzata del 5.14 percento, mentre Estée Lauder Companies, HCA Healthcare, MicroStrategy e Lululemon Athletica hanno tutti registrato guadagni tra il 4.65 e il 6.02 percento, senza notizie specifiche aziendali che guidassero i movimenti.</p><p>Le utilities e l&#x27;energia hanno subito le perdite più pesanti della seduta, in calo rispettivamente del 2.36 percento e dello 0.14 percento in media. Marvell Technology è sceso del 5.57 percento e Arm Holdings ha perso il 2.95 percento, senza catalizzatori tracciati citati per nessuno dei due cali. I titoli del settore utility hanno dominato la lista dei perdenti: Sempra è sceso del 5.14 percento, Edison International ha registrato un calo del 4.11 percento, American Electric Power è sceso del 3.79 percento, CenterPoint Energy ha perso il 3.56 percento, Xcel Energy ha registrato una perdita del 3.06 percento e Quanta Services è sceso del 3.49 percento. Bunge Global ha registrato un calo del 2.97 percento senza notizie aziendali segnalate, completando una seduta in cui la rotazione settoriale lontano dai titoli difensivi e tecnologici ha guidato la performance divergente della giornata.</p>",
+  "manual_commentary_html_en": "<p>U.S. stocks rose on August 21, 2026, with the S&amp;P 500 advancing 0.59 percent and the Dow Jones gaining 0.69 percent, though the Nasdaq-100 lagged with a 0.41 percent gain. According to the Wall Street Journal, U.S. stocks rose as Bitcoin neared $80,000, while Reuters reported that Wall Street climbed despite bond yields and Iran concerns dominating headlines. Bond yields continued to rise despite Treasury efforts to curb borrowing costs, according to the Journal. The session saw 339 stocks advance against 177 decliners across a broad 518-stock sample, indicating solid breadth support for the day&#x27;s gains.</p><p>Materials led sector performance with a 2.1 percent average gain, followed by Health Care at 1.34 percent and Financials at 1.16 percent. Among the largest gainers, Robinhood Markets surged 13.7 percent, Moderna climbed 8.86 percent, and Coinbase rose 8.2 percent; tracked outlets reported no specific catalysts for these moves. Freeport-McMoRan and Albemarle Corporation, both materials names, gained 7.64 percent and 6.75 percent respectively. Tesla advanced 5.14 percent, while Estée Lauder Companies, HCA Healthcare, MicroStrategy, and Lululemon Athletica all posted gains between 4.65 and 6.02 percent, with no reported company-specific news driving the moves.</p><p>Utilities and Energy sectors bore the session&#x27;s heaviest losses, declining 2.36 percent and 0.14 percent on average respectively. Marvell Technology fell 5.57 percent and Arm Holdings dropped 2.95 percent, with no tracked catalysts cited for either decline. Utility stocks dominated the losers list: Sempra fell 5.14 percent, Edison International declined 4.11 percent, American Electric Power dropped 3.79 percent, CenterPoint Energy slid 3.56 percent, Xcel Energy lost 3.06 percent, and Quanta Services fell 3.49 percent. Bunge Global declined 2.97 percent with no reported company news, rounding out a session where sector rotation away from defensive and technology names drove the day&#x27;s divergent performance.</p>",
   "manual_highlights": [],
   "feed": [
     {
-      "title": "Moderna, Merck Cancer Vax Gives Hope",
+      "title": "Michael Polansky is training an AI model on skin that’s still alive",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 22 Aug 2026 01:31:04 +0000",
+      "link": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
+      "summary": "Michael Polansky — better known publicly as Lady Gaga's partner and a former top deputy to Sean Parker — has quietly spent years building an AI-driven startup that keeps living human skin tissue alive for weeks outside the body to discover new skincare compounds, and is only now ",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/Michael_Polansky.jpg?resize=1200,759"
+    },
+    {
+      "title": "US-Canada trade deal goes down to the wire",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 22 Aug 2026 01:15:41 GMT",
+      "link": "https://www.ft.com/content/24f9c08e-e23f-434e-b0f4-fc1eb55a7b04?syn-25a6b1a6=1",
+      "summary": "Officials locked in tough talks ahead of midnight deadline after Trump paused $20bn of new levies on North American trading partner",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F66ed6dd3-db22-4fe6-9b9b-d4f6174cebf9.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Japanese space tech startup Letara expands beyond satellite thrusters with $16M",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 22 Aug 2026 01:03:06 +0000",
+      "link": "https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m/",
+      "summary": "Japanese space startup Letara is betting its hybrid rocket technology can move beyond small satellite thrusters into a broader market for space, defense and security, after raising ¥2.6 billion ($16 million).",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2238027332.jpg?resize=1200,675"
+    },
+    {
+      "title": "How To Solve Today’s NYT Pips Puzzles, Saturday August 22",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 20:51:42 -0400",
+      "link": "https://www.forbes.com/sites/erikkain/2026/08/21/nyt-pips-answers-saturday-august-22/",
+      "summary": "Looking for help with today's New York Times Pips? We'll walk you through today's puzzle and help you match dominoes to tiles.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/68ab7aaa205e351d8e7e68df/0x0.jpg?width=960"
+    },
+    {
+      "title": "Pentagon fires military newspaper staffers for insubordination",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 22 Aug 2026 00:19:47 GMT",
+      "link": "https://www.ft.com/content/8b6b2021-bde2-4255-91a3-9c8dd44ffd51?syn-25a6b1a6=1",
+      "summary": "Defence department dismisses Stars and Stripes editor-in-chief and Middle East reporter",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe84c604d-cb18-4613-bf1a-97f2a2169026.jpg?source=next-barrier-page&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1"
+    },
+    {
+      "title": "Mexico Optimistic it Can Achieve Lower US Tariffs on Cars, Steel",
       "source": "Bloomberg",
       "category": "mercati",
-      "published": "Fri, 21 Aug 2026 21:53:36 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-21/moderna-merck-cancer-vax-gives-hope-video",
-      "summary": "Scientists are on the cusp of fulfilling a decades-long quest: to use vaccines to teach the immune system to spot and destroy cancer cells. News that an mRNA cancer vaccine developed by Merck & Co. and Moderna Inc. kept melanoma from returning in a large, late-stage trial marks a",
+      "published": "Sat, 22 Aug 2026 00:16:57 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-22/mexico-optimistic-it-can-achieve-lower-us-tariffs-on-cars-steel",
+      "summary": "Mexico’s top trade negotiator expressed optimism he can secure less burdensome tariff terms from the US on Mexican automobile and steel exports, similar to revised measures Washington is discussing with Canada.",
       "image": null
     },
     {
-      "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-      "source": "CNBC",
+      "title": "The Wild Week When Scott Bessent Was Schooled by the Bond Market",
+      "source": "The Wall Street Journal",
       "category": "mercati",
-      "published": "Fri, 21 Aug 2026 21:50:09 GMT",
-      "link": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
-      "summary": "Anthropic is poised to debut on the stock market at a time when the public is increasingly upset about data centers and is fearful about AI taking jobs.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108342843-1785448090042-gettyimages-2280291466-ANTHROPIC_CIRCUIT.jpeg?v=1785448353&amp;w=1920&amp;h=1080"
+      "published": "Fri, 21 Aug 2026 23:34:00 GMT",
+      "link": "https://www.wsj.com/finance/investing/the-wild-week-when-scott-bessent-was-schooled-by-the-bond-market-a244aca2?mod=rss_markets_main",
+      "summary": "The Treasury Department’s announcement of a bond buyback stemmed a selloff—but not for long.",
+      "image": "https://images.wsj.net/im-47642743"
     },
     {
-      "title": "Bitcoin and gold surge as Bessent’s intervention in bond market hits dollar",
-      "source": "Financial Times",
+      "title": "The Unlikely Place at the Center of China’s AI Boom",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Fri, 21 Aug 2026 23:25:32 +0000",
+      "link": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
+      "summary": "Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a crucial hub for data centers.",
+      "image": "https://media.wired.com/photos/6a86349028fa0a4f102bcd1b/master/pass/Made-in-China-Unlikely-Place-at-Center-of-China-AI-Boom-Business.jpg"
+    },
+    {
+      "title": "As GOP warns data centers put Ohio Senate seat at risk, Husted defends energy policy",
+      "source": "CNBC",
       "category": "mercati",
-      "published": "Fri, 21 Aug 2026 21:46:46 GMT",
-      "link": "https://www.ft.com/content/7e0c8dc0-e957-420a-bba3-d33666d919b8?syn-25a6b1a6=1",
-      "summary": "World’s biggest cryptocurrency registers best week in more than three years as investors pile into ‘debasement’ trades",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F74755619-732b-4795-8524-af00a006cf3d.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      "published": "Fri, 21 Aug 2026 23:12:26 GMT",
+      "link": "https://www.cnbc.com/2026/08/21/jon-husted-data-centers-ohio-senate.html",
+      "summary": "Vice President JD Vance joined Sen. Jon Husted and other GOP leaders at a Middletown, Ohio, steel plant, as data center fears loom.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108352833-1787330383115-gettyimages-2287101451-1r5_7018_chhoszxl.jpeg?v=1787338846&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Wall Street Week | AI Hits Wages, USMCA Under Pressure, Colorado River Crisis",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 23:12:20 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-21/wall-street-week-ai-hits-wages-colorado-river-crisis-video",
+      "summary": "This week, Former IBM CEO Sam Palmisano discusses why companies may benefit from having a “Plan B” for AI implementation. And, AI may not be causing mass layoffs yet, but early data suggest it is already slowing wage growth in exposed occupations. Plus, Canada may have dodged Tru",
+      "image": null
+    },
+    {
+      "title": "Tesla’s Door Handles Lead to Its Biggest Recall Yet",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Fri, 21 Aug 2026 23:10:00 +0000",
+      "link": "https://www.wired.com/story/teslas-door-handles-lead-to-its-biggest-recall-yet/",
+      "summary": "A Chinese agency says the two recalls affecting some 3 million vehicles can mostly be fixed by over-the-air updates—but they will also require physical warning stickers and camera-related updates.",
+      "image": "https://media.wired.com/photos/6a88c764f06dc0383e8c9d25/master/pass/GettyImages-964985876-resized.jpg"
+    },
+    {
+      "title": "Boeing Engineers and Technicians Reject Contract Offer",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 23:03:04 +0000",
+      "link": "https://www.nytimes.com/2026/08/21/business/boeing-engineers-technicians-contract.html",
+      "summary": "The union members also authorized a potential strike if a new agreement is not reached by October.",
+      "image": "https://static01.nyt.com/images/2026/08/21/multimedia/21biz-boeing-union-ckhf/21biz-boeing-union-ckhf-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "NYT Strands Answers Today: Hints & Clues For Saturday, August 22 (Peak Americana)",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 18:42:17 -0400",
+      "link": "https://www.forbes.com/sites/erikkain/2026/08/21/nyt-strands-answers-saturday-august-22-peak-americana-clues/",
+      "summary": "Looking for help with today's NYT Strands puzzle? Here's an extra hint to help you uncover the right words, as well as all of today's answers and Spangram.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/661994c1a11cd45a738c205f/0x0.jpg?width=960"
+    },
+    {
+      "title": "Trump to allow import of 300,000 metric tons of ground beef without tariff",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 22:35:17 GMT",
+      "link": "https://www.cnbc.com/2026/08/21/trump-ground-beef-import-tariff.html",
+      "summary": "Beef prices in the U.S have soared in 2026 due to a reduction in the nation's cattle herd.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108352672-17873152642022-03-28t233711z_1609630567_rc2vbt910szz_rtrmadp_0_global-inflation.jpeg?v=1787315381&amp;w=1920&amp;h=1080"
     },
     {
       "title": "Meghan of Sussex Eyes Role in Netflix Show ‘The Gentlemen’",
       "source": "The New York Times",
       "category": "mercati",
-      "published": "Fri, 21 Aug 2026 21:38:47 +0000",
+      "published": "Fri, 21 Aug 2026 22:14:11 +0000",
       "link": "https://www.nytimes.com/2026/08/21/business/meghan-sussex-the-gentlemen-netflix.html",
       "summary": "The duchess’s representatives have had exploratory talks about her joining a third season of “The Gentlemen,” two people said. Netflix has not yet ordered a third season of the show.",
       "image": "https://static01.nyt.com/images/2026/08/21/business/21biz-markle/21biz-markle-mediumSquareAt3X.jpg"
-    },
-    {
-      "title": "Grayscale moves closer to launching first Zcash ETF in US with fresh amended SEC filing",
-      "source": "The Block",
-      "category": "crypto",
-      "published": "Fri, 21 Aug 2026 21:34:53 +0000",
-      "link": "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517",
-      "summary": "Grayscale is inching closer to launching its Zcash ETF, filing another amendment with the Securities and Exchange Commission on Friday.",
-      "image": "https://www.tbstat.com/wp/uploads/2025/09/20250919_Greyscale_News-1200x675.jpg"
-    },
-    {
-      "title": "Trump Allows Tariff Relief for Some Ground Beef Imports",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Fri, 21 Aug 2026 21:32:56 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-21/trump-allows-tariff-relief-for-some-ground-beef-imports-video",
-      "summary": "President Donald Trump is aiming to deliver cost relief for some ground beef imports to lower prices for American consumers, by allowing up to 300,000 metric tons of product for ground beef to be imported with no out of quota tariff for the next 90 days. He also made a commitment",
-      "image": null
-    },
-    {
-      "title": "Trump says U.S., Canada 'should be able' to reach trade deal as tariff deadline looms",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Fri, 21 Aug 2026 21:31:24 GMT",
-      "link": "https://www.cnbc.com/2026/08/21/trump-canada-tariffs-trade-deal-deadline.html",
-      "summary": "Trump had already postponed the 50% tariffs on a range of Canadian goods so Washington and Ottawa could finalize a tentative deal.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108352257-1787243975253-gettyimages-2290660212-AFP_C66A67P.jpeg?v=1787244111&amp;w=1920&amp;h=1080"
     },
     {
       "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
@@ -2031,42 +2103,6 @@
       "image": "https://images.mktw.net/im-00949142"
     },
     {
-      "title": "Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams",
-      "source": "TechCrunch",
-      "category": "tech",
-      "published": "Fri, 21 Aug 2026 20:58:07 +0000",
-      "link": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
-      "summary": "Apple has admitted that some roles are being impacted as it shifts its focus away from certain initiatives.",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/06/Apple-Vision-Pro-global-availability-e1718041644616.jpg?resize=1200,676"
-    },
-    {
-      "title": "How FOX Sports Will Showcase IndyCar In The Freedom 250 Grand Prix",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 21 Aug 2026 16:56:06 -0400",
-      "link": "https://www.forbes.com/sites/brucemartin/2026/08/21/how-fox-sports-will-showcase-indycar-in-the-freedom-250-grand-prix/",
-      "summary": "FOX Sports will showcase all the grandeur and spectacle of the Freedom 250 Grand Prix of Washington DC. It's the first ever major auto race at the National Mall.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6a88b634e19d777530bbb09c/0x0.jpg"
-    },
-    {
-      "title": "How Good Is Arsenal’s New Winger Christos Tzolis?",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 21 Aug 2026 16:50:53 -0400",
-      "link": "https://www.forbes.com/sites/grahamruthven/2026/08/21/how-good-is-arsenals-new-winger-christos-tzolis/",
-      "summary": "Christos Tzolis has made a big impact for Arsenal since joining the Premier League champions in the summer transfer window.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6a88b72b7e5bf03fda2d6f19/0x0.jpg"
-    },
-    {
-      "title": "Trump Announces Move to Lift Ground Beef Tariffs in Bid to Lower Prices",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Fri, 21 Aug 2026 20:49:35 +0000",
-      "link": "https://www.nytimes.com/2026/08/21/business/economy/trump-beef-prices.html",
-      "summary": "The move prompted blowback from cattle ranchers and Republicans who represent them.",
-      "image": "https://static01.nyt.com/images/2026/08/21/business/21biz-beef/21biz-beef-mediumSquareAt3X.jpg"
-    },
-    {
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
       "category": "crypto",
@@ -2076,13 +2112,13 @@
       "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
     },
     {
-      "title": "SEC accuses ex-Bank of America utilities banker of insider trading",
-      "source": "Financial Times",
+      "title": "Largest US grid's transmission constraint costs surge to $6 billion in 2026",
+      "source": "Reuters",
       "category": "mercati",
-      "published": "Fri, 21 Aug 2026 20:35:56 GMT",
-      "link": "https://www.ft.com/content/12f457bc-8cb0-45bd-bf7f-83abf2d9c7d8?syn-25a6b1a6=1",
-      "summary": "Regulator says Jason Satsky helped a friend make $18.5mn in illegal profits tied to planned takeover of South Jersey Industries",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0492491c-fd7f-44be-8eb7-2400b3b5892c.jpg?source=next-barrier-page&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1"
+      "published": "Fri, 21 Aug 2026 20:45:26 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNWRoU2kzdzVXMTc2WFZFZ1JtX0UtSVNBc3dMN1JUaVdXMlZTenR0cWJvQUgtMXpITzdqam10VkZfR0FEZWlaTmVtOXlSNFZYMEtSNXc0YzlIc1UwdHV4TmRlZWQ3bktMVzV1bTBNUU4xbU1ZdnJKMnpKRjBHRHJQN3RrZnl4QkJZekV0cFE4WW82czJRaGMzN3dZTlhGeWpJbEU2bzZubkFrNDBKZXFpUk5Ja2ZRaVNOdW8w?oc=5",
+      "summary": "Largest US grid's transmission constraint costs surge to $6 billion in 2026 &nbsp;&nbsp; Reuters",
+      "image": null
     },
     {
       "title": "Bond Yields Rise Despite Treasury Efforts to Curb Borrowing Costs",
@@ -2112,15 +2148,6 @@
       "image": "https://s3-images.ctmedia.io/media/article-covers/hi-true-or-false-about-bitcoin-and-crypto-are-totally-wrong-1.jpg"
     },
     {
-      "title": "TikTok reaches $400M settlement over children’s privacy lawsuit",
-      "source": "TechCrunch",
-      "category": "tech",
-      "published": "Fri, 21 Aug 2026 20:25:21 +0000",
-      "link": "https://techcrunch.com/2026/08/21/tiktok-reaches-400m-settlement-over-childrens-privacy-lawsuit/",
-      "summary": "Two years after the U.S. Department of Justice alleged that TikTok violated the Children’s Online Privacy Protection Act, it has reached a $400 million settlement.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2268918823.jpg?resize=1200,800"
-    },
-    {
       "title": "Azioni USA Rare Earth testano l’EMA200: fair value a 37 dollari, il doppio del prezzo",
       "source": "The Cryptonomist",
       "category": "crypto",
@@ -2130,13 +2157,13 @@
       "image": "https://cryptonomist.ch/wp-content/uploads/2026/08/USA-Rare-Earth-Inc.-stock.jpeg"
     },
     {
-      "title": "Fannie Mae Hit by Turmoil in Senior Ranks as Roughly 12 Executives Are Let Go",
-      "source": "The Wall Street Journal",
+      "title": "SpaceX Stock Gets Another Sell Rating. Why It Could Fall 25%.",
+      "source": "Barron's",
       "category": "mercati",
-      "published": "Fri, 21 Aug 2026 20:11:00 GMT",
-      "link": "https://www.wsj.com/finance/regulation/fannie-mae-hit-by-turmoil-in-senior-ranks-as-at-least-10-executives-depart-9f0f40e0?mod=rss_markets_main",
-      "summary": "The departures are raising concerns about stability inside the government mortgage giant.",
-      "image": "https://images.wsj.net/im-33808678"
+      "published": "Fri, 21 Aug 2026 20:12:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbHlhdWYyd2JlZm9NWGV6LW45NWFFbDh5dUVPX1RRMUwtVlZULUhoU3NDWHBOa0ZBeWxEUUdrSS1iMTFPNEFwbERwRHJicTJfMjFxSmpvTTBYMklZOEpsLUV4SmhJLWRBRXlMVGljbHVYOUpJT0huOTQta1M?oc=5",
+      "summary": "SpaceX Stock Gets Another Sell Rating. Why It Could Fall 25%. &nbsp;&nbsp; Barron's",
+      "image": null
     },
     {
       "title": "Wall Street and Washington Fuel Bitcoin Rally: Here's What's Going On",
@@ -2148,13 +2175,13 @@
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/bitcoin-dollar-decrypt-style-gID_7.jpg"
     },
     {
-      "title": "BounceBit to sunset blockchain, migrate to BNB Chain after $3 million exploit",
-      "source": "The Block",
-      "category": "crypto",
-      "published": "Fri, 21 Aug 2026 17:28:34 +0000",
-      "link": "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485",
-      "summary": "The attacker transferred approximately 286.5 million BB from nine wallets before block production was eventually halted.",
-      "image": "https://www.tbstat.com/wp/uploads/2022/03/20220321_DAO-Generic-1200x675.jpg"
+      "title": "US service sector fuels acceleration in business activity, S&P Global says",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 18:30:33 GMT",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRVBzVy1yLUVWTXVyYzJzOW9wZHFDZGZHU0RyNzY2Mk5UZ0FKMUR0WEoyNGM1YUlSQmdOUnZRSTJ5UUJFSkNtcHhiZmdQd3dOM0NpbUFndjhOenRzZTRRamtVQUEtQVVvbmhDZWJOV1JRcklpQ2tfX3FqdHRhRTlpdXpQM05KS1Y4ZHUyeGNuUy1GbE9GWEFQSld3eXJ0Wk5xeklPRHhJS05tVXA1Vjh2YVNVcDU?oc=5",
+      "summary": "US service sector fuels acceleration in business activity, S&amp;P Global says &nbsp;&nbsp; Reuters",
+      "image": null
     },
     {
       "title": "Tracking the cost of Donald Trump’s tariffs",
@@ -2184,15 +2211,6 @@
       "image": null
     },
     {
-      "title": "Meta’s Big Reckoning Is Here",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 21 Aug 2026 15:00:00 +0000",
-      "link": "https://www.wired.com/story/metas-big-reckoning-is-here/",
-      "summary": "Meta is in court again over child safety, and this time it’s a landmark case that could force significant changes to core features of Facebook and Instagram.",
-      "image": "https://media.wired.com/photos/6a87451ce60bdcf9fa335d65/master/pass/Backchannel-Meta-Child-Safety-Trial-Biggest-Challenge-Yet-Business-2261841235.jpg"
-    },
-    {
       "title": "Aste di New York, un successo con qualche riserva",
       "source": "Wall Street Italia",
       "category": "italia",
@@ -2220,13 +2238,13 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2025/12/SB1-top_3.jpg?fit=3840,2560"
     },
     {
-      "title": "I Tried the Best Robotic Pool Cleaners of 2026: Beatbot, iGarden, Dreame",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 21 Aug 2026 11:33:00 +0000",
-      "link": "https://www.wired.com/story/best-pool-cleaning-robots/",
-      "summary": "Pack up your pool cleaning supplies. Let one of these robot buddies maintain your water quality instead",
-      "image": "https://media.wired.com/photos/69e95b2c9a0a1ec843ac2661/master/pass/The-Best-Pool-Cleaning-Robots-of-2026.jpg"
+      "title": "Pharma Stocks Have Rallied. 2 Stocks to Avoid—and 2 to Buy.",
+      "source": "Barron's",
+      "category": "mercati",
+      "published": "Fri, 21 Aug 2026 12:08:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKR3dyU19KVFR4d0VTY25yNGNsVGpjSUVXMlNvVi1sUnRzSDBOSU1oTXF1cWI4cjBCWWtVZWVEd3E4QjktOXc0bEpEd1BlSlM2eGRpaXZXNkx3WGlCYnRqTHQ5dEk2YlJBNGJta1ZmTWoyVzlwZ2NV?oc=5",
+      "summary": "Pharma Stocks Have Rallied. 2 Stocks to Avoid—and 2 to Buy. &nbsp;&nbsp; Barron's",
+      "image": null
     },
     {
       "title": "Goldman Sachs e JPMorgan tra i più “bullish” sull’Europa. C’è un big di Wall Street che va controcorrente",
@@ -2236,24 +2254,6 @@
       "link": "https://www.finanzaonline.com/notizie/goldman-sachs-e-jpmorgan-tra-i-piu-bullish-sulleuropa-ce-un-big-di-wall-street-che-va-controcorrente",
       "summary": "Goldman Sachs e JPMorgan i più \"bullish\" sull'Europa. Gli strategist delle due banche d'affari sono tra i più ottimisti sulle azioni europee grazie alle solide prospettive sugli utili aziendali. C'è anche un banca d'affari Usa che va controcorrente",
       "image": null
-    },
-    {
-      "title": "Bitcoin inarrestabile, ecco il vero motivo della rinascita cripto. E il ceo di Coinbase indica un target da urlo",
-      "source": "FinanzaOnline",
-      "category": "italia",
-      "published": "Fri, 21 Aug 2026 08:57:32 +0000",
-      "link": "https://www.finanzaonline.com/notizie/bitcoin-inarrestabile-ecco-il-vero-motivo-del-super-rally-il-ceo-di-coinbase-sforna-target-da-urlo",
-      "summary": "La criptovaluta torna sopra i 76mila dollari. Flussi istituzionali in ripresa e la scommessa di Armstrong: fino a 400mila dollari nel 2030",
-      "image": null
-    },
-    {
-      "title": "The Download: polycrisis support networks and a hydrogen gold rush",
-      "source": "MIT Technology Review",
-      "category": "scienza",
-      "published": "Thu, 20 Aug 2026 12:10:00 +0000",
-      "link": "https://www.technologyreview.com/2026/08/20/1142579/the-download-polycrisis-support-networks-underground-hydrogen-gold-rush/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Support networks aim to help kids through the polycrisis Sometime in the late 2000s, six-year-old Pim Sullivan-Tailyour was sittin",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/10/MIT_Opener_final2.jpg?fit=2128,1196"
     },
     {
       "title": "The high cost of phantom tollbooths",
@@ -2301,36 +2301,36 @@
       "image": null
     }
   ],
-  "generated_at": "2026-08-22 00:02:45",
+  "generated_at": "2026-08-22 03:42:46",
   "markets_brief": {
     "items": [
       {
-        "title": "Moderna, Merck Cancer Vax Gives Hope",
-        "source": "Bloomberg",
-        "link": "https://www.bloomberg.com/news/videos/2026-08-21/moderna-merck-cancer-vax-gives-hope-video"
-      },
-      {
-        "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-        "source": "CNBC",
-        "link": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html"
-      },
-      {
-        "title": "Bitcoin and gold surge as Bessent’s intervention in bond market hits dollar",
+        "title": "US-Canada trade deal goes down to the wire",
         "source": "Financial Times",
-        "link": "https://www.ft.com/content/7e0c8dc0-e957-420a-bba3-d33666d919b8?syn-25a6b1a6=1"
+        "link": "https://www.ft.com/content/24f9c08e-e23f-434e-b0f4-fc1eb55a7b04?syn-25a6b1a6=1"
       },
       {
-        "title": "Meghan of Sussex Eyes Role in Netflix Show ‘The Gentlemen’",
+        "title": "Overlooked No More: Patricia Douglas, Who Challenged Hollywood’s Culture of Abuse",
         "source": "The New York Times",
-        "link": "https://www.nytimes.com/2026/08/21/business/meghan-sussex-the-gentlemen-netflix.html"
+        "link": "https://www.nytimes.com/2026/08/21/obituaries/patricia-douglas-overlooked.html"
       },
       {
-        "title": "Trump Allows Tariff Relief for Some Ground Beef Imports",
+        "title": "How To Solve Today’s NYT Pips Puzzles, Saturday August 22",
+        "source": "Forbes",
+        "link": "https://www.forbes.com/sites/erikkain/2026/08/21/nyt-pips-answers-saturday-august-22/"
+      },
+      {
+        "title": "Pentagon fires military newspaper staffers for insubordination",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/8b6b2021-bde2-4255-91a3-9c8dd44ffd51?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Mexico Optimistic it Can Achieve Lower US Tariffs on Cars, Steel",
         "source": "Bloomberg",
-        "link": "https://www.bloomberg.com/news/videos/2026-08-21/trump-allows-tariff-relief-for-some-ground-beef-imports-video"
+        "link": "https://www.bloomberg.com/news/articles/2026-08-22/mexico-optimistic-it-can-achieve-lower-us-tariffs-on-cars-steel"
       }
     ],
-    "prose_html": "<p>Moderna e Merck hanno fatto progressi con il loro candidato vaccino contro il cancro, segnalando avanzamenti nella terapia oncologica. Nel frattempo, il prossimo deposito IPO di Anthropic metterà in evidenza i rischi normativi e di sentimento pubblico che affrontano il settore dell&#x27;IA, sottolineando le preoccupazioni degli investitori sulla traiettoria dell&#x27;industria. Nei mercati valutari e delle materie prime, l&#x27;intervento del Segretario al Tesoro Bessent nel mercato obbligazionario ha pesato sul dollaro, facendo salire sia Bitcoin che l&#x27;oro mentre gli investitori cercavano alternative come riserva di valore. Sul fronte commerciale, l&#x27;amministrazione Trump ha concesso uno sconto tariffario per alcune importazioni di carne macinata, un modesto cambiamento nella sua posizione protezionista più ampia.</p>",
-    "prose_html_en": "<p>Moderna and Merck advanced their cancer vaccine candidate, signaling progress in oncology therapeutics. Meanwhile, Anthropic&#x27;s upcoming IPO filing will highlight regulatory and public sentiment risks facing the AI sector, underscoring investor concerns about the industry&#x27;s trajectory. In currency and commodities markets, Treasury Secretary Bessent&#x27;s intervention in the bond market weighed on the dollar, lifting both Bitcoin and gold as investors sought alternative stores of value. On the trade front, the Trump administration granted tariff relief for certain ground beef imports, a modest shift in its broader protectionist stance.</p>"
+    "prose_html": "<p>Le tensioni commerciali rimangono al centro dell&#x27;attenzione mentre l&#x27;accordo USA-Canada si avvicina a una scadenza critica, mentre il Messico segnala contemporaneamente ottimismo sulla possibilità di negoziare tariffe più basse su auto e acciaio. L&#x27;esito di questi negoziati determinerà l&#x27;esposizione tariffaria a breve termine per i principali settori nordamericani.</p>",
+    "prose_html_en": "<p>Trade tensions remain front and center as the US-Canada deal heads toward a critical deadline, with Mexico separately signaling optimism about negotiating lower tariffs on autos and steel. The outcome of these negotiations will shape near-term tariff exposure for key North American sectors.</p>"
   }
 }
