@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-24T16:16:23Z",
+  "updated": "2026-08-24T16:32:25Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.09,
-      "last": 7667.52
+      "pct": -0.13,
+      "last": 7664.09
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.64,
-      "last": 29120.45
+      "pct": -0.68,
+      "last": 29109.4
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.35,
-      "last": 53463.95
+      "pct": 0.29,
+      "last": 53435.14
     },
     {
       "key": "ftsemib",
@@ -32,32 +32,27 @@
       {
         "symbol": "SDOT",
         "name": "Sadot Group Inc.",
-        "pct": 82.51
+        "pct": 76.18
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 13.99
+        "pct": 14.15
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 10.21
+        "pct": 11.14
       },
       {
         "symbol": "BMNR",
         "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 8.55
-      },
-      {
-        "symbol": "EZPW",
-        "name": "EZCORP, Inc. - Class A Non-Voting",
-        "pct": 6.24
+        "pct": 8.59
       },
       {
         "symbol": "SA",
         "name": "Seabridge Gold, Inc.",
-        "pct": 6.23
+        "pct": 8.32
       },
       {
         "symbol": "SBET",
@@ -65,71 +60,76 @@
         "pct": 6.19
       },
       {
-        "symbol": "CNK",
-        "name": "Cinemark Holdings Inc Cinemark Holdings, Inc",
-        "pct": 5.66
+        "symbol": "EZPW",
+        "name": "EZCORP, Inc. - Class A Non-Voting",
+        "pct": 5.71
       },
       {
-        "symbol": "AVAH",
-        "name": "Aveanna Healthcare Holdings Inc.",
-        "pct": 5.36
+        "symbol": "CNK",
+        "name": "Cinemark Holdings Inc Cinemark Holdings, Inc",
+        "pct": 5.59
       },
       {
         "symbol": "MSTR",
         "name": "Strategy Inc",
-        "pct": 5.25
+        "pct": 4.81
+      },
+      {
+        "symbol": "ETSY",
+        "name": "Etsy, Inc.",
+        "pct": 4.74
       }
     ],
     "losers": [
       {
         "symbol": "AIAI",
         "name": "AIAI Holdings Corporation",
-        "pct": -12.84
-      },
-      {
-        "symbol": "RFAI",
-        "name": "RF Acquisition Corp II",
-        "pct": -12.5
+        "pct": -12.99
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -10.78
-      },
-      {
-        "symbol": "INOD",
-        "name": "Innodata Inc.",
-        "pct": -9.11
-      },
-      {
-        "symbol": "UMAC",
-        "name": "Unusual Machines, Inc.",
-        "pct": -8.88
+        "pct": -11.11
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -8.63
+        "pct": -10.8
       },
       {
-        "symbol": "HIMS",
-        "name": "Hims & Hers Health, Inc.",
-        "pct": -8.5
+        "symbol": "INOD",
+        "name": "Innodata Inc.",
+        "pct": -9.31
+      },
+      {
+        "symbol": "UMAC",
+        "name": "Unusual Machines, Inc.",
+        "pct": -8.9
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -8.33
+        "pct": -8.88
       },
       {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": -7.54
+        "symbol": "HIMS",
+        "name": "Hims & Hers Health, Inc.",
+        "pct": -8.13
       },
       {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "pct": -7.43
+        "symbol": "LUNR",
+        "name": "Intuitive Machines, Inc.",
+        "pct": -7.78
+      },
+      {
+        "symbol": "DK",
+        "name": "Delek US Holdings, Inc.",
+        "pct": -7.23
+      },
+      {
+        "symbol": "AGX",
+        "name": "Argan, Inc.",
+        "pct": -7.16
       }
     ],
     "universe": 1178
