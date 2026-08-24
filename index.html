@@ -441,8 +441,12 @@
        i suoi numeri possono differire da LIVE o da altre fonti (universo dei tre
        indici, non tutto il mercato; chiusura di seduta, non intraday) e che la
        classifica e' per variazione percentuale, non per copertura stampa. Vedi
-       editionScopeNote in app.js. -->
-  <div class="edition-scope-note" id="edition-scope-note"></div>
+       editionScopeNote in app.js.
+       "only-edition": parla SOLO dei numeri dell'edizione, quindi nella vista LIVE
+       (che ha un altro universo e un'altra finestra temporale) sarebbe fuori luogo
+       e perfino fuorviante. La classe la nasconde li' con la stessa regola che
+       gia' governa il cambio vista. -->
+  <div class="edition-scope-note only-edition" id="edition-scope-note"></div>
 
   <!-- Il contenuto qui dentro e' il TESTO DI RISERVA, scritto da Python: occhiello,
        titolo e primo paragrafo dell'edizione. Il JavaScript lo sostituisce con la
