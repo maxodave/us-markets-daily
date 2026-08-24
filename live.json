@@ -1,137 +1,137 @@
 {
-  "updated": "2026-08-21T19:52:06Z",
+  "updated": "2026-08-24T14:07:08Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.51,
-      "last": 7680.18
+      "pct": -0.35,
+      "last": 7646.93
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.38,
-      "last": 29322.74
+      "pct": -1.35,
+      "last": 28914.13
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.06,
-      "last": 53317.42
+      "pct": 0.22,
+      "last": 53394.87
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.05,
-      "last": 52668.04
+      "pct": -0.31,
+      "last": 52502.14
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "UEC",
-        "name": "Uranium Energy Corp.",
-        "pct": 14.8
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 13.77
-      },
-      {
-        "symbol": "USAR",
-        "name": "USA Rare Earth, Inc.",
-        "pct": 13.56
-      },
-      {
-        "symbol": "HOOD",
-        "name": "Robinhood Markets, Inc.",
-        "pct": 13.03
-      },
-      {
-        "symbol": "ASST",
-        "name": "Strive, Inc.",
-        "pct": 12.34
-      },
-      {
-        "symbol": "VIRT",
-        "name": "Virtu Financial, Inc.",
-        "pct": 12.01
-      },
-      {
-        "symbol": "RGTI",
-        "name": "Rigetti Computing, Inc.",
-        "pct": 11.83
-      },
-      {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": 11.75
-      },
-      {
-        "symbol": "DK",
-        "name": "Delek US Holdings, Inc.",
-        "pct": 11.06
-      },
-      {
-        "symbol": "FCFS",
-        "name": "FirstCash Holdings, Inc.",
-        "pct": 10.45
-      }
-    ],
-    "losers": [
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -9.67
-      },
-      {
-        "symbol": "IPST",
-        "name": "IP Strategy Holdings, Inc.",
-        "pct": -8.73
+        "symbol": "SDOT",
+        "name": "Sadot Group Inc.",
+        "pct": 108.12
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": -8.7
+        "pct": 7.0
       },
       {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": -8.62
+        "symbol": "ASST",
+        "name": "Strive, Inc.",
+        "pct": 6.42
       },
       {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -8.4
+        "symbol": "EZPW",
+        "name": "EZCORP, Inc. - Class A Non-Voting",
+        "pct": 6.21
       },
       {
-        "symbol": "OSIS",
-        "name": "OSI Systems, Inc.",
-        "pct": -6.47
+        "symbol": "CLF",
+        "name": "Cleveland-Cliffs Inc.",
+        "pct": 6.03
       },
       {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": -6.14
+        "symbol": "AVAH",
+        "name": "Aveanna Healthcare Holdings Inc.",
+        "pct": 5.89
       },
       {
-        "symbol": "WULF",
-        "name": "TeraWulf Inc.",
-        "pct": -5.93
+        "symbol": "SA",
+        "name": "Seabridge Gold, Inc.",
+        "pct": 5.12
       },
       {
-        "symbol": "RIOT",
-        "name": "Riot Platforms, Inc.",
-        "pct": -5.84
+        "symbol": "CALM",
+        "name": "Cal-Maine Foods, Inc.",
+        "pct": 4.75
       },
       {
-        "symbol": "WETO",
-        "name": "Wetour Robotics Limited",
-        "pct": -5.58
+        "symbol": "CENX",
+        "name": "Century Aluminum Company",
+        "pct": 4.6
+      },
+      {
+        "symbol": "BMNR",
+        "name": "BitMine Immersion Technologies, Inc.",
+        "pct": 4.34
       }
     ],
-    "universe": 1269
+    "losers": [
+      {
+        "symbol": "RFAI",
+        "name": "RF Acquisition Corp II",
+        "pct": -24.66
+      },
+      {
+        "symbol": "AAOI",
+        "name": "Applied Optoelectronics, Inc.",
+        "pct": -16.51
+      },
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": -11.3
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -10.42
+      },
+      {
+        "symbol": "JUNS",
+        "name": "Jupiter Neurosciences, Inc.",
+        "pct": -10.3
+      },
+      {
+        "symbol": "SNDK",
+        "name": "Sandisk Corporation",
+        "pct": -10.23
+      },
+      {
+        "symbol": "UMAC",
+        "name": "Unusual Machines, Inc.",
+        "pct": -10.13
+      },
+      {
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": -9.77
+      },
+      {
+        "symbol": "HIMS",
+        "name": "Hims & Hers Health, Inc.",
+        "pct": -9.18
+      },
+      {
+        "symbol": "LUNR",
+        "name": "Intuitive Machines, Inc.",
+        "pct": -8.56
+      }
+    ],
+    "universe": 1178
   }
 }
