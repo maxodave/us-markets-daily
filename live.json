@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-24T19:44:45Z",
-  "market_open": true,
+  "updated": "2026-08-24T20:00:47Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.25,
-      "last": 7655.19
+      "pct": -0.28,
+      "last": 7652.96
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.87,
-      "last": 29054.01
+      "pct": -0.97,
+      "last": 29023.18
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.3,
-      "last": 53440.71
+      "pct": 0.26,
+      "last": 53416.99
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "SDOT",
         "name": "Sadot Group Inc.",
-        "pct": 86.89
+        "pct": 75.72
       },
       {
         "symbol": "SA",
         "name": "Seabridge Gold, Inc.",
-        "pct": 9.18
+        "pct": 9.71
       },
       {
         "symbol": "EZPW",
         "name": "EZCORP, Inc. - Class A Non-Voting",
-        "pct": 8.29
+        "pct": 8.78
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 8.1
+        "pct": 8.29
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 7.55
+        "pct": 8.11
       },
       {
         "symbol": "ETSY",
         "name": "Etsy, Inc.",
-        "pct": 6.07
-      },
-      {
-        "symbol": "BMNR",
-        "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 5.48
+        "pct": 7.41
       },
       {
         "symbol": "SFM",
         "name": "Sprouts Farmers Market, Inc.",
-        "pct": 5.33
+        "pct": 6.23
+      },
+      {
+        "symbol": "BMNR",
+        "name": "BitMine Immersion Technologies, Inc.",
+        "pct": 5.78
+      },
+      {
+        "symbol": "SNAP",
+        "name": "Snap Inc.",
+        "pct": 5.53
       },
       {
         "symbol": "EXPE",
         "name": "Expedia Group, Inc.",
-        "pct": 5.24
-      },
-      {
-        "symbol": "FIVE",
-        "name": "Five Below, Inc.",
-        "pct": 4.71
+        "pct": 5.44
       }
     ],
     "losers": [
       {
         "symbol": "AIAI",
         "name": "AIAI Holdings Corporation",
-        "pct": -18.28
+        "pct": -19.79
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -17.0
+        "pct": -15.38
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -12.29
+        "pct": -13.77
+      },
+      {
+        "symbol": "RFAI",
+        "name": "RF Acquisition Corp II",
+        "pct": -12.0
       },
       {
         "symbol": "INOD",
         "name": "Innodata Inc.",
-        "pct": -10.33
-      },
-      {
-        "symbol": "AUR",
-        "name": "Aurora Innovation, Inc.",
-        "pct": -9.7
-      },
-      {
-        "symbol": "JUNS",
-        "name": "Jupiter Neurosciences, Inc.",
-        "pct": -9.68
+        "pct": -11.03
       },
       {
         "symbol": "UMAC",
         "name": "Unusual Machines, Inc.",
-        "pct": -9.41
-      },
-      {
-        "symbol": "HIMS",
-        "name": "Hims & Hers Health, Inc.",
-        "pct": -9.24
-      },
-      {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "pct": -8.98
+        "pct": -10.5
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": -8.25
+        "pct": -9.18
+      },
+      {
+        "symbol": "LUNR",
+        "name": "Intuitive Machines, Inc.",
+        "pct": -9.06
+      },
+      {
+        "symbol": "TEM",
+        "name": "Tempus AI, Inc.",
+        "pct": -8.97
+      },
+      {
+        "symbol": "AUR",
+        "name": "Aurora Innovation, Inc.",
+        "pct": -8.81
       }
     ],
     "universe": 1178
