@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-24T17:04:38Z",
+  "updated": "2026-08-24T17:20:44Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": -0.21,
-      "last": 7657.89
+      "last": 7658.35
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.79,
-      "last": 29078.0
+      "pct": -0.76,
+      "last": 29085.4
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.19,
-      "last": 53380.68
+      "pct": 0.22,
+      "last": 53394.96
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "SDOT",
         "name": "Sadot Group Inc.",
-        "pct": 77.31
+        "pct": 64.84
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 9.33
+        "pct": 9.17
       },
       {
         "symbol": "SA",
         "name": "Seabridge Gold, Inc.",
-        "pct": 8.44
+        "pct": 7.78
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 6.84
+        "pct": 6.92
       },
       {
         "symbol": "BMNR",
         "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 6.7
+        "pct": 6.86
       },
       {
         "symbol": "EZPW",
         "name": "EZCORP, Inc. - Class A Non-Voting",
-        "pct": 5.9
+        "pct": 6.36
       },
       {
         "symbol": "CNK",
         "name": "Cinemark Holdings Inc Cinemark Holdings, Inc",
-        "pct": 5.19
+        "pct": 5.41
       },
       {
         "symbol": "ETSY",
         "name": "Etsy, Inc.",
-        "pct": 4.95
+        "pct": 5.2
       },
       {
         "symbol": "AVAH",
         "name": "Aveanna Healthcare Holdings Inc.",
-        "pct": 4.6
+        "pct": 4.41
       },
       {
-        "symbol": "SBET",
-        "name": "Sharplink, Inc.",
-        "pct": 4.56
+        "symbol": "SNAP",
+        "name": "Snap Inc.",
+        "pct": 4.29
       }
     ],
     "losers": [
       {
-        "symbol": "AIAI",
-        "name": "AIAI Holdings Corporation",
-        "pct": -14.8
-      },
-      {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -11.88
+        "pct": -15.63
+      },
+      {
+        "symbol": "AIAI",
+        "name": "AIAI Holdings Corporation",
+        "pct": -15.33
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -11.07
-      },
-      {
-        "symbol": "RFAI",
-        "name": "RF Acquisition Corp II",
-        "pct": -10.33
+        "pct": -11.29
       },
       {
         "symbol": "INOD",
         "name": "Innodata Inc.",
-        "pct": -10.06
+        "pct": -9.91
       },
       {
         "symbol": "UMAC",
         "name": "Unusual Machines, Inc.",
-        "pct": -9.08
-      },
-      {
-        "symbol": "JUNS",
-        "name": "Jupiter Neurosciences, Inc.",
-        "pct": -8.87
+        "pct": -9.31
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -8.65
-      },
-      {
-        "symbol": "RGTI",
-        "name": "Rigetti Computing, Inc.",
-        "pct": -7.93
+        "pct": -8.91
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
+        "pct": -8.33
+      },
+      {
+        "symbol": "LUNR",
+        "name": "Intuitive Machines, Inc.",
+        "pct": -7.86
+      },
+      {
+        "symbol": "RFAI",
+        "name": "RF Acquisition Corp II",
         "pct": -7.76
+      },
+      {
+        "symbol": "MGA",
+        "name": "Magna International, Inc.",
+        "pct": -7.68
       }
     ],
     "universe": 1178
