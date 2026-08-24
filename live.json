@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-24T14:55:48Z",
+  "updated": "2026-08-24T15:11:49Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.26,
-      "last": 7654.05
+      "pct": -0.35,
+      "last": 7647.12
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.99,
-      "last": 29017.96
+      "pct": -1.13,
+      "last": 28977.84
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.24,
-      "last": 53407.95
+      "pct": 0.13,
+      "last": 53348.59
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.27,
-      "last": 52522.31
+      "pct": -0.28,
+      "last": 52515.12
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "SDOT",
         "name": "Sadot Group Inc.",
-        "pct": 108.8
+        "pct": 105.99
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 12.56
+        "pct": 17.57
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 8.12
-      },
-      {
-        "symbol": "EZPW",
-        "name": "EZCORP, Inc. - Class A Non-Voting",
-        "pct": 7.14
-      },
-      {
-        "symbol": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "pct": 5.95
-      },
-      {
-        "symbol": "SBET",
-        "name": "Sharplink, Inc.",
-        "pct": 5.94
-      },
-      {
-        "symbol": "CALM",
-        "name": "Cal-Maine Foods, Inc.",
-        "pct": 5.59
+        "pct": 9.43
       },
       {
         "symbol": "BMNR",
         "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 5.47
+        "pct": 7.12
+      },
+      {
+        "symbol": "SBET",
+        "name": "Sharplink, Inc.",
+        "pct": 7.08
+      },
+      {
+        "symbol": "EZPW",
+        "name": "EZCORP, Inc. - Class A Non-Voting",
+        "pct": 6.18
+      },
+      {
+        "symbol": "SA",
+        "name": "Seabridge Gold, Inc.",
+        "pct": 5.35
       },
       {
         "symbol": "AVAH",
         "name": "Aveanna Healthcare Holdings Inc.",
-        "pct": 5.43
+        "pct": 5.28
       },
       {
-        "symbol": "ETSY",
-        "name": "Etsy, Inc.",
-        "pct": 4.62
+        "symbol": "MSTR",
+        "name": "Strategy Inc",
+        "pct": 5.22
+      },
+      {
+        "symbol": "CALM",
+        "name": "Cal-Maine Foods, Inc.",
+        "pct": 5.19
       }
     ],
     "losers": [
       {
         "symbol": "RFAI",
         "name": "RF Acquisition Corp II",
-        "pct": -23.28
-      },
-      {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": -11.32
+        "pct": -22.43
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -11.26
-      },
-      {
-        "symbol": "AIAI",
-        "name": "AIAI Holdings Corporation",
-        "pct": -10.12
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -8.67
-      },
-      {
-        "symbol": "UMAC",
-        "name": "Unusual Machines, Inc.",
-        "pct": -8.6
-      },
-      {
-        "symbol": "HIMS",
-        "name": "Hims & Hers Health, Inc.",
-        "pct": -8.54
-      },
-      {
-        "symbol": "JUNS",
-        "name": "Jupiter Neurosciences, Inc.",
-        "pct": -8.23
+        "pct": -13.82
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -8.23
+        "pct": -10.88
+      },
+      {
+        "symbol": "INOD",
+        "name": "Innodata Inc.",
+        "pct": -8.94
+      },
+      {
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": -8.87
+      },
+      {
+        "symbol": "SNDK",
+        "name": "Sandisk Corporation",
+        "pct": -8.81
+      },
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": -8.63
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -8.04
+        "pct": -8.5
+      },
+      {
+        "symbol": "UMAC",
+        "name": "Unusual Machines, Inc.",
+        "pct": -8.42
+      },
+      {
+        "symbol": "JUNS",
+        "name": "Jupiter Neurosciences, Inc.",
+        "pct": -8.35
       }
     ],
     "universe": 1178
