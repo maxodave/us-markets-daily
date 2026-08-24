@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-24T18:08:45Z",
+  "updated": "2026-08-24T18:24:49Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.24,
-      "last": 7655.9
+      "pct": -0.12,
+      "last": 7664.71
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.73,
-      "last": 29095.34
+      "pct": -0.57,
+      "last": 29140.65
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.12,
-      "last": 53343.62
+      "pct": 0.24,
+      "last": 53406.38
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "SDOT",
         "name": "Sadot Group Inc.",
-        "pct": 69.95
-      },
-      {
-        "symbol": "SA",
-        "name": "Seabridge Gold, Inc.",
-        "pct": 7.79
+        "pct": 81.87
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 7.63
+        "pct": 8.82
+      },
+      {
+        "symbol": "SA",
+        "name": "Seabridge Gold, Inc.",
+        "pct": 8.72
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 7.14
-      },
-      {
-        "symbol": "BMNR",
-        "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 6.81
+        "pct": 8.01
       },
       {
         "symbol": "EZPW",
         "name": "EZCORP, Inc. - Class A Non-Voting",
-        "pct": 6.67
+        "pct": 7.25
       },
       {
-        "symbol": "CNK",
-        "name": "Cinemark Holdings Inc Cinemark Holdings, Inc",
-        "pct": 5.63
+        "symbol": "BMNR",
+        "name": "BitMine Immersion Technologies, Inc.",
+        "pct": 6.61
       },
       {
         "symbol": "ETSY",
         "name": "Etsy, Inc.",
-        "pct": 5.61
+        "pct": 5.74
       },
       {
-        "symbol": "BROS",
-        "name": "Dutch Bros Inc.",
-        "pct": 4.33
+        "symbol": "CNK",
+        "name": "Cinemark Holdings Inc Cinemark Holdings, Inc",
+        "pct": 5.64
       },
       {
         "symbol": "SFM",
         "name": "Sprouts Farmers Market, Inc.",
-        "pct": 4.29
+        "pct": 4.77
+      },
+      {
+        "symbol": "BROS",
+        "name": "Dutch Bros Inc.",
+        "pct": 4.57
       }
     ],
     "losers": [
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": -19.3
+      },
       {
         "symbol": "AIAI",
         "name": "AIAI Holdings Corporation",
         "pct": -18.05
       },
       {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": -15.11
+        "symbol": "JUNS",
+        "name": "Jupiter Neurosciences, Inc.",
+        "pct": -11.29
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -11.53
-      },
-      {
-        "symbol": "JUNS",
-        "name": "Jupiter Neurosciences, Inc.",
-        "pct": -10.0
+        "pct": -11.24
       },
       {
         "symbol": "INOD",
         "name": "Innodata Inc.",
-        "pct": -9.91
+        "pct": -9.52
       },
       {
         "symbol": "AUR",
         "name": "Aurora Innovation, Inc.",
-        "pct": -9.7
-      },
-      {
-        "symbol": "UMAC",
-        "name": "Unusual Machines, Inc.",
-        "pct": -9.33
+        "pct": -9.21
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": -9.01
+        "pct": -8.98
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -8.37
+        "symbol": "UMAC",
+        "name": "Unusual Machines, Inc.",
+        "pct": -8.82
       },
       {
         "symbol": "RGTI",
         "name": "Rigetti Computing, Inc.",
-        "pct": -8.27
+        "pct": -8.1
+      },
+      {
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": -7.92
       }
     ],
     "universe": 1178
