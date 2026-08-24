@@ -21,6 +21,14 @@ const I18N = {
     Market data via Yahoo Finance, news via outlets' public feeds
     (Reuters, Bloomberg, FT, WSJ, CNBC, MarketWatch, Barron's, NYT, Forbes, Yahoo Finance and others).
     Every buy/sell decision remains entirely yours.`,
+    editionScopeNote: `<b>About the "best/worst" figures.</b> Today's Edition ranks only the
+      S&amp;P 500, Dow Jones and Nasdaq-100 (~518 companies, deduplicated) — a stock from the
+      wider US market can move harder and still not appear here if it sits outside those three
+      indices (LIVE, further up, scans the whole liquid US market instead). The edition's number
+      is also the SESSION's close-to-close change, not an intraday reading, so the two views can
+      show different figures for the same stock. And the ranking is decided purely by percentage
+      move: the news shown under each mover explains it, never decides whether it's listed — a
+      quiet stock with no coverage can still be #1, a heavily-covered one can miss the list.`,
     footer: "Images remain the property of their respective outlets, linked to the original source.",
     noEdition: "No edition published yet.",
     feedTitle: "News feed",
@@ -71,6 +79,15 @@ const I18N = {
     Dati di mercato via Yahoo Finance, notizie via feed pubblici delle testate
     (Reuters, Bloomberg, FT, WSJ, CNBC, MarketWatch, Barron's, NYT, Forbes, Yahoo Finance e altre).
     Ogni decisione di acquisto/vendita resta esclusivamente tua.`,
+    editionScopeNote: `<b>Sui numeri di "migliori/peggiori".</b> L'edizione di oggi classifica
+      solo S&amp;P 500, Dow Jones e Nasdaq-100 (~518 societa', unione deduplicata): un titolo del
+      mercato USA piu' ampio puo' muoversi di piu' e comunque non comparire qui, se e' fuori da
+      questi tre indici (LIVE, piu' sopra, guarda invece tutto il mercato liquido USA). Il numero
+      dell'edizione e' anche quello della SEDUTA, chiusura su chiusura, non una lettura intraday:
+      per questo le due viste possono mostrare cifre diverse per lo stesso titolo. E la classifica
+      si decide solo per variazione percentuale: la notizia sotto ogni titolo la spiega, non decide
+      se compare — un titolo senza nessuna copertura puo' comunque essere il primo, uno molto
+      commentato puo' restarne fuori.`,
     footer: "Le immagini restano di proprieta' delle rispettive testate, linkate alla fonte originale.",
     noEdition: "Nessuna edizione ancora pubblicata.",
     feedTitle: "Feed notizie",
@@ -470,6 +487,8 @@ function applyShellI18n(effectiveLang) {
   const footerEl = document.getElementById("footer-text");
   if (subtitleEl) subtitleEl.textContent = t.subtitle;
   if (disclaimerEl) disclaimerEl.innerHTML = t.disclaimerHtml;
+  const scopeNoteEl = document.getElementById("edition-scope-note");
+  if (scopeNoteEl) scopeNoteEl.innerHTML = t.editionScopeNote || "";
   if (footerEl) footerEl.textContent = t.footer;
 }
 
