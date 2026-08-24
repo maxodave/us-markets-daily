@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-24T15:44:00Z",
+  "updated": "2026-08-24T16:00:06Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.18,
-      "last": 7660.48
+      "pct": -0.14,
+      "last": 7663.64
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.74,
-      "last": 29093.06
+      "pct": -0.73,
+      "last": 29093.65
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.28,
-      "last": 53426.92
+      "pct": 0.33,
+      "last": 53453.03
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.19,
-      "last": 52565.67
+      "pct": -0.23,
+      "last": 52542.18
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "SDOT",
         "name": "Sadot Group Inc.",
-        "pct": 80.84
+        "pct": 94.84
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 12.72
+        "pct": 13.67
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 9.12
+        "pct": 10.04
       },
       {
         "symbol": "BMNR",
         "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 7.99
+        "pct": 7.67
       },
       {
         "symbol": "EZPW",
         "name": "EZCORP, Inc. - Class A Non-Voting",
-        "pct": 6.7
-      },
-      {
-        "symbol": "AVAH",
-        "name": "Aveanna Healthcare Holdings Inc.",
-        "pct": 5.85
+        "pct": 6.28
       },
       {
         "symbol": "SBET",
         "name": "Sharplink, Inc.",
-        "pct": 5.82
+        "pct": 5.88
       },
       {
         "symbol": "SA",
         "name": "Seabridge Gold, Inc.",
-        "pct": 5.64
+        "pct": 5.7
       },
       {
         "symbol": "MSTR",
         "name": "Strategy Inc",
-        "pct": 5.31
+        "pct": 4.94
       },
       {
-        "symbol": "EXPE",
-        "name": "Expedia Group, Inc.",
-        "pct": 4.71
+        "symbol": "AVAH",
+        "name": "Aveanna Healthcare Holdings Inc.",
+        "pct": 4.75
+      },
+      {
+        "symbol": "CNK",
+        "name": "Cinemark Holdings Inc Cinemark Holdings, Inc",
+        "pct": 4.54
       }
     ],
     "losers": [
       {
         "symbol": "AIAI",
         "name": "AIAI Holdings Corporation",
-        "pct": -12.99
+        "pct": -14.65
       },
       {
         "symbol": "RFAI",
         "name": "RF Acquisition Corp II",
-        "pct": -12.16
+        "pct": -12.28
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -11.71
-      },
-      {
-        "symbol": "INOD",
-        "name": "Innodata Inc.",
-        "pct": -8.81
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -8.68
-      },
-      {
-        "symbol": "HIMS",
-        "name": "Hims & Hers Health, Inc.",
-        "pct": -8.16
+        "pct": -11.61
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -8.16
+        "pct": -9.23
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -7.96
+        "pct": -9.06
+      },
+      {
+        "symbol": "INOD",
+        "name": "Innodata Inc.",
+        "pct": -8.99
+      },
+      {
+        "symbol": "HIMS",
+        "name": "Hims & Hers Health, Inc.",
+        "pct": -8.5
       },
       {
         "symbol": "UMAC",
         "name": "Unusual Machines, Inc.",
-        "pct": -7.91
+        "pct": -8.38
       },
       {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "pct": -7.48
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": -7.99
+      },
+      {
+        "symbol": "TEM",
+        "name": "Tempus AI, Inc.",
+        "pct": -7.67
       }
     ],
     "universe": 1178
