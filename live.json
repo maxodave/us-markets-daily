@@ -1,135 +1,135 @@
 {
-  "updated": "2026-08-25T14:09:42Z",
+  "updated": "2026-08-25T14:26:16Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.24,
-      "last": 7671.21
+      "pct": 0.2,
+      "last": 7668.21
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.56,
-      "last": 29185.99
+      "pct": 0.51,
+      "last": 29172.41
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.06,
-      "last": 53449.99
+      "pct": 0.1,
+      "last": 53471.87
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.02,
-      "last": 52606.61
+      "pct": 0.2,
+      "last": 52701.03
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "AMIX",
-        "name": "Autonomix Medical, Inc.",
-        "pct": 80.9
-      },
-      {
         "symbol": "PMI",
         "name": "Picard Medical, Inc.",
-        "pct": 45.23
+        "pct": 79.36
+      },
+      {
+        "symbol": "AMIX",
+        "name": "Autonomix Medical, Inc.",
+        "pct": 46.37
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 18.68
+        "pct": 17.06
       },
       {
         "symbol": "CRML",
         "name": "Critical Metals Corp.",
-        "pct": 13.57
+        "pct": 16.34
       },
       {
         "symbol": "ABCL",
         "name": "AbCellera Biologics Inc.",
-        "pct": 13.48
+        "pct": 14.33
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 11.38
+        "pct": 10.89
       },
       {
         "symbol": "SMCI",
         "name": "Super Micro Computer, Inc.",
-        "pct": 7.39
+        "pct": 7.88
       },
       {
-        "symbol": "MRVL",
-        "name": "Marvell Technology, Inc.",
-        "pct": 6.85
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": 7.8
       },
       {
-        "symbol": "TWST",
-        "name": "Twist Bioscience Corporation",
-        "pct": 6.0
+        "symbol": "CRSP",
+        "name": "CRISPR Therapeutics AG",
+        "pct": 7.37
       },
       {
-        "symbol": "FOUR",
-        "name": "Shift4 Payments, Inc.",
-        "pct": 5.46
+        "symbol": "ASST",
+        "name": "Strive, Inc.",
+        "pct": 6.79
       }
     ],
     "losers": [
       {
-        "symbol": "DKS",
-        "name": "Dick's Sporting Goods Inc",
-        "pct": -25.72
-      },
-      {
         "symbol": "SDOT",
         "name": "Sadot Group Inc.",
-        "pct": -24.01
+        "pct": -33.31
+      },
+      {
+        "symbol": "DKS",
+        "name": "Dick's Sporting Goods Inc",
+        "pct": -25.22
       },
       {
         "symbol": "XPON",
         "name": "Expion360 Inc.",
-        "pct": -22.42
-      },
-      {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": -8.14
+        "pct": -16.85
       },
       {
         "symbol": "ALB",
         "name": "Albemarle Corporation",
-        "pct": -5.47
+        "pct": -5.29
       },
       {
         "symbol": "DAR",
         "name": "Darling Ingredients Inc.",
-        "pct": -4.55
-      },
-      {
-        "symbol": "TGT",
-        "name": "Target Corporation",
-        "pct": -4.3
+        "pct": -5.09
       },
       {
         "symbol": "PBR",
         "name": "Petroleo Brasileiro S.A. Petrobras ADS",
-        "pct": -4.01
+        "pct": -4.03
       },
       {
-        "symbol": "DECK",
-        "name": "Deckers Outdoor Corporation",
-        "pct": -3.8
+        "symbol": "KSS",
+        "name": "Kohl's Corporation",
+        "pct": -4.02
       },
       {
         "symbol": "SWKS",
         "name": "Skyworks Solutions, Inc.",
-        "pct": -3.76
+        "pct": -3.92
+      },
+      {
+        "symbol": "TGT",
+        "name": "Target Corporation",
+        "pct": -3.87
+      },
+      {
+        "symbol": "LULU",
+        "name": "lululemon athletica inc.",
+        "pct": -3.79
       }
     ],
     "universe": 1288
