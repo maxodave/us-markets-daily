@@ -37,6 +37,8 @@ const I18N = {
     liveMoversWorst: "Worst 10 movers",
     liveMoversNow: "now",
     liveMoversClose: "last close",
+    csTitle: "At the closing bell — whole US market",
+    csNote: "Snapshot of the LIVE list taken when Wall Street closed: the entire liquid US market, not just the three indices above, so a name absent from the session ranking can appear here. Frozen until the next edition.",
     scTitle: "Session closed",
     scBody: "Wall Street has rung the closing bell. Today's edition, with the figures of the session that just ended, is published at",
     scCountdown: "in",
@@ -96,6 +98,8 @@ const I18N = {
     liveMoversWorst: "Peggiori 10",
     liveMoversNow: "ora",
     liveMoversClose: "ultima chiusura",
+    csTitle: "Alla campana di chiusura — tutto il mercato USA",
+    csNote: "Foto della lista LIVE al momento della chiusura di Wall Street: tutto il mercato USA liquido, non solo i tre indici qui sopra, quindi un titolo assente dalla classifica di seduta puo' comparire qui. Resta ferma fino all'edizione successiva.",
     scTitle: "Seduta chiusa",
     scBody: "Wall Street ha suonato la campana di chiusura. L'edizione di oggi, con i numeri della seduta appena conclusa, viene pubblicata alle",
     scCountdown: "fra",
@@ -532,6 +536,38 @@ function moverNewsHtml(ed, lang) {
     </div>`;
 }
 
+// Foto di CHIUSURA della lista LIVE (top 10 / worst 10 di tutto il mercato USA
+// liquido), congelata da build_edition.py quando Wall Street ha chiuso — vedi
+// load_live_close_movers(). Vive SOLO nella vista edizione: LIVE racconta il
+// momento e si sovrascrive alla riapertura, questa dice come si era chiuso e
+// resta ferma fino all'edizione dopo. Non sostituisce i "Migliori/Peggiori della
+// seduta": quelli sono i tre indici, chiusura su chiusura; questa e' tutto il
+// mercato, e le due liste possono legittimamente non coincidere.
+function liveCloseBox(ed, lang) {
+  const snap = ed.live_close_movers;
+  if (!snap) return "";
+  const gainers = snap.gainers || [], losers = snap.losers || [];
+  if (!gainers.length && !losers.length) return "";
+  const t = I18N[lang];
+  const col = (label, list, dir) => {
+    const rows = list.map(m => {
+      const cls = m.pct >= 0 ? "up" : "down";
+      return `<div class="cs-row"><span class="cs-sym">${esc(m.symbol)}</span>`
+           + `<span class="cs-name">${esc(m.name || "")}</span>`
+           + `<span class="cs-pct ${cls}">${fmtPct(m.pct, lang)}</span></div>`;
+    }).join("");
+    return `<div class="cs-col"><div class="cs-head ${dir}">${esc(label)}</div>${rows}</div>`;
+  };
+  return `<div class="close-snapshot">
+      <div class="cs-title">${esc(t.csTitle)}</div>
+      <div class="cs-note">${esc(t.csNote)}</div>
+      <div class="cs-grid">
+        ${col(t.liveMoversTop, gainers, "up")}
+        ${col(t.liveMoversWorst, losers, "down")}
+      </div>
+    </div>`;
+}
+
 function renderEditions() {
   const el = document.getElementById("editionsContent");
   if (!EDITIONS.length) {
@@ -576,7 +612,7 @@ function renderEditions() {
   // catalizzatori dei 10 top gainer e 10 top loser (una scheda per titolo, i piu'
   // forti prima). E' lo stesso blocco che compare in LIVE; qui resta dalla chiusura
   // della sera fino alla nuova edizione. La vista LIVE non viene toccata.
-  else editorial += moverNewsHtml(latest, L);
+  else editorial += liveCloseBox(latest, L) + moverNewsHtml(latest, L);
 
   let archiveHtml = "";
   if (older.length) {

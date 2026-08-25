@@ -172,6 +172,16 @@ def slim_editions(editions: list[dict]) -> list[dict]:
             "edition_date": ed.get("edition_date"),
             "edition_date_it": ed.get("edition_date_it"),
             "session_date_it": ed.get("session_date_it"),
+            # La seduta in forma ISO serve all'avviso "seduta chiusa": confronta la
+            # seduta raccontata con la data di OGGI a New York per capire se
+            # l'edizione nuova e' ancora attesa. Senza questo campo il confronto
+            # girava su "undefined", quindi risultava sempre "in attesa" e l'avviso
+            # restava acceso anche dopo la pubblicazione. Vedi paintSessionClosed().
+            "session_date": ed.get("session_date"),
+            "edition_kind": ed.get("edition_kind"),
+            # Foto di chiusura della lista LIVE (tutto il mercato USA), congelata
+            # da build_edition.py. Vedi liveCloseBox() in app.js.
+            "live_close_movers": ed.get("live_close_movers"),
             "headline": ed.get("headline"),
             "generated_at": ed.get("generated_at"),
             "manual_commentary_html": ed.get("manual_commentary_html"),

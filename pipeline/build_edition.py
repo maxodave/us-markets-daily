@@ -70,6 +70,9 @@ WEEKEND_SUMMARY_FILE = "weekend_summary.json"
 # sabato non sono quelle di domenica). Se il file manca o e' di un altro giorno,
 # l'edizione ricade sulla lista dei titoli top, sempre presente.
 MARKETS_BRIEF_FILE = "markets_brief.json"
+# Quotazioni LIVE dell'ultimo run della giornata: da qui si ricava lo SNAPSHOT di
+# chiusura della lista LIVE, congelato nell'edizione. Vedi load_live_close_movers().
+LIVE_FILE = "live.json"
 # Quante notizie "Mercati" tenere per la riga laterale (e come materiale per la
 # prosa). Poche e in vista: la lista completa resta nel feed sotto.
 TOP_MARKETS_NEWS = 5
@@ -381,6 +384,54 @@ def load_weekend_summary(edition_date: str) -> dict | None:
     return ws if ws.get("edition_date") == edition_date else None
 
 
+def load_live_close_movers(session_date: str, previous: dict | None) -> dict | None:
+    """Lo SNAPSHOT DI CHIUSURA della lista LIVE: i top 10 / worst 10 di tutto il
+    mercato USA cosi' come stavano quando Wall Street ha chiuso.
+
+    Perche' esiste. L'edizione classifica i mover dei SOLI tre indici, chiusura su
+    chiusura. La vista LIVE guarda invece tutto il mercato USA liquido, e la sua
+    ultima lista della giornata E' la classifica di chiusura: senza congelarla qui,
+    quella foto si perde: LIVE la sovrascrive appena riapre la borsa il giorno dopo.
+
+    Si accetta solo una foto DAVVERO di chiusura e DAVVERO di questa seduta:
+      - live.json deve avere i mover (se Yahoo aveva risposto male non ci sono);
+      - "market_open" deve essere FALSO: a mercati aperti sarebbe un intraday, e
+        chiamarlo "alla chiusura" sarebbe scrivere una cosa non vera;
+      - la data di "updated", letta in ora di New York (dove la seduta ha una data
+        sola), deve essere quella della seduta raccontata dall'edizione.
+    Se una condizione non regge si tiene lo snapshot che l'edizione aveva GIA':
+    rigenerare l'edizione il giorno dopo (cosa che capita spesso) non deve
+    cancellare la foto di ieri sera.
+    """
+    try:
+        with open(LIVE_FILE, encoding="utf-8") as f:
+            live = json.load(f)
+    except (FileNotFoundError, ValueError, OSError):
+        return previous
+
+    movers = live.get("movers") or {}
+    if not (movers.get("gainers") or movers.get("losers")):
+        return previous
+    if live.get("market_open"):
+        return previous  # intraday, non una chiusura
+
+    try:
+        from zoneinfo import ZoneInfo
+
+        updated = datetime.strptime(live["updated"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        if updated.astimezone(ZoneInfo("America/New_York")).strftime("%Y-%m-%d") != session_date:
+            return previous  # foto di un'altra seduta
+    except (KeyError, ValueError):
+        return previous
+
+    return {
+        "captured_at": live["updated"],
+        "universe": movers.get("universe"),
+        "gainers": movers.get("gainers", []),
+        "losers": movers.get("losers", []),
+    }
+
+
 def top_markets_items(feed_raw: list[dict], weekend_report: dict | None) -> list[dict]:
     """Le notizie top della sezione "Mercati" del giorno, per la riga laterale.
 
@@ -604,6 +655,20 @@ def main():
         "prose_html": (mb or {}).get("prose_html_it"),
         "prose_html_en": (mb or {}).get("prose_html_en"),
     }
+
+    # Foto di chiusura della lista LIVE, congelata per tutto il giorno dopo. Si
+    # rilegge lo snapshot gia' presente nel file, per non perderlo se questa
+    # rigenerazione avviene quando live.json e' gia' passato alla seduta nuova.
+    prev_snapshot = None
+    if os.path.exists(out_path):
+        try:
+            with open(out_path, encoding="utf-8") as f:
+                prev_snapshot = json.load(f).get("live_close_movers")
+        except (ValueError, OSError):
+            prev_snapshot = None
+    snapshot = load_live_close_movers(session_date, prev_snapshot)
+    if snapshot:
+        edition["live_close_movers"] = snapshot
 
     if weekend_report:
         edition["weekend_report"] = weekend_report

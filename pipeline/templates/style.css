@@ -326,6 +326,26 @@
   @media (max-width: 640px) { .session-closed { padding: 18px 18px; }
     .session-closed .sc-title { font-size: 1.15rem; } }
 
+  /* Foto di CHIUSURA della lista LIVE, dentro l'edizione (vedi liveCloseBox in
+     app.js). Volutamente PICCOLA: e' un riquadro di riscontro accanto ai
+     "Migliori/Peggiori della seduta", non la classifica principale della pagina. */
+  .close-snapshot { border: 1px solid var(--border); background: var(--panel);
+    border-radius: 12px; padding: 14px 16px; margin: 0 0 34px; }
+  .cs-title { font-family: var(--mono); font-size: .74rem; letter-spacing: .09em;
+    text-transform: uppercase; font-weight: 700; color: var(--text); margin-bottom: 5px; }
+  .cs-note { font-size: .68rem; line-height: 1.5; color: var(--muted); margin-bottom: 11px; max-width: 92ch; }
+  .cs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .cs-head { font-family: var(--mono); font-size: .66rem; letter-spacing: .09em;
+    text-transform: uppercase; font-weight: 700; padding-bottom: 5px; margin-bottom: 3px;
+    border-bottom: 1px solid var(--border); }
+  .cs-head.up { color: var(--green-5); } .cs-head.down { color: var(--red-5); }
+  .cs-row { display: flex; align-items: baseline; gap: 8px; padding: 3px 0; font-size: .72rem; }
+  .cs-sym { font-family: var(--mono); font-weight: 700; flex: 0 0 auto; min-width: 48px; color: var(--text); }
+  .cs-name { flex: 1 1 auto; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .cs-pct { font-family: var(--mono); font-weight: 700; flex: 0 0 auto; }
+  .cs-pct.up { color: var(--green-5); } .cs-pct.down { color: var(--red-5); }
+  @media (max-width: 640px) { .cs-grid { grid-template-columns: 1fr; gap: 10px; } }
+
   /* Lista LIVE dei top 10 / worst 10 del MOMENTO (scheda LIVE): stessa fonte dello
      striscione, aggiornata a ogni refresh di live.json. Due colonne compatte. */
   .live-movers { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 4px 0 34px; }
