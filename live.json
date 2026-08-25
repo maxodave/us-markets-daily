@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-25T14:26:16Z",
+  "updated": "2026-08-25T14:42:14Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.2,
-      "last": 7668.21
+      "pct": 0.14,
+      "last": 7663.83
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.51,
-      "last": 29172.41
+      "pct": 0.46,
+      "last": 29157.74
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.1,
-      "last": 53471.87
+      "pct": 0.07,
+      "last": 53458.09
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.2,
-      "last": 52701.03
+      "pct": 0.19,
+      "last": 52691.97
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "PMI",
         "name": "Picard Medical, Inc.",
-        "pct": 79.36
+        "pct": 71.15
       },
       {
         "symbol": "AMIX",
         "name": "Autonomix Medical, Inc.",
-        "pct": 46.37
-      },
-      {
-        "symbol": "CAPR",
-        "name": "Capricor Therapeutics, Inc.",
-        "pct": 17.06
+        "pct": 52.14
       },
       {
         "symbol": "CRML",
         "name": "Critical Metals Corp.",
-        "pct": 16.34
+        "pct": 18.72
+      },
+      {
+        "symbol": "CAPR",
+        "name": "Capricor Therapeutics, Inc.",
+        "pct": 16.91
       },
       {
         "symbol": "ABCL",
         "name": "AbCellera Biologics Inc.",
-        "pct": 14.33
+        "pct": 13.15
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 10.89
+        "pct": 10.79
       },
       {
         "symbol": "SMCI",
         "name": "Super Micro Computer, Inc.",
-        "pct": 7.88
+        "pct": 8.29
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": 7.8
-      },
-      {
-        "symbol": "CRSP",
-        "name": "CRISPR Therapeutics AG",
-        "pct": 7.37
+        "pct": 8.27
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 6.79
+        "pct": 7.86
+      },
+      {
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "pct": 7.18
       }
     ],
     "losers": [
       {
         "symbol": "SDOT",
         "name": "Sadot Group Inc.",
-        "pct": -33.31
+        "pct": -31.53
       },
       {
         "symbol": "DKS",
         "name": "Dick's Sporting Goods Inc",
-        "pct": -25.22
+        "pct": -27.31
       },
       {
         "symbol": "XPON",
         "name": "Expion360 Inc.",
-        "pct": -16.85
-      },
-      {
-        "symbol": "ALB",
-        "name": "Albemarle Corporation",
-        "pct": -5.29
+        "pct": -19.35
       },
       {
         "symbol": "DAR",
         "name": "Darling Ingredients Inc.",
-        "pct": -5.09
+        "pct": -4.96
+      },
+      {
+        "symbol": "ALB",
+        "name": "Albemarle Corporation",
+        "pct": -4.56
       },
       {
         "symbol": "PBR",
         "name": "Petroleo Brasileiro S.A. Petrobras ADS",
-        "pct": -4.03
+        "pct": -4.46
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": -4.02
-      },
-      {
-        "symbol": "SWKS",
-        "name": "Skyworks Solutions, Inc.",
-        "pct": -3.92
+        "pct": -4.34
       },
       {
         "symbol": "TGT",
         "name": "Target Corporation",
-        "pct": -3.87
+        "pct": -4.33
+      },
+      {
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions, Inc.",
+        "pct": -4.32
       },
       {
         "symbol": "LULU",
         "name": "lululemon athletica inc.",
-        "pct": -3.79
+        "pct": -3.92
       }
     ],
     "universe": 1288
