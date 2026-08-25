@@ -1,137 +1,137 @@
 {
-  "updated": "2026-08-24T20:00:47Z",
-  "market_open": false,
+  "updated": "2026-08-25T14:09:42Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.28,
-      "last": 7652.96
+      "pct": 0.24,
+      "last": 7671.21
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.97,
-      "last": 29023.18
+      "pct": 0.56,
+      "last": 29185.99
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.26,
-      "last": 53416.99
+      "pct": 0.06,
+      "last": 53449.99
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.23,
-      "last": 52542.18
+      "pct": 0.02,
+      "last": 52606.61
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "SDOT",
-        "name": "Sadot Group Inc.",
-        "pct": 75.72
+        "symbol": "AMIX",
+        "name": "Autonomix Medical, Inc.",
+        "pct": 80.9
       },
       {
-        "symbol": "SA",
-        "name": "Seabridge Gold, Inc.",
-        "pct": 9.71
-      },
-      {
-        "symbol": "EZPW",
-        "name": "EZCORP, Inc. - Class A Non-Voting",
-        "pct": 8.78
-      },
-      {
-        "symbol": "ASST",
-        "name": "Strive, Inc.",
-        "pct": 8.29
+        "symbol": "PMI",
+        "name": "Picard Medical, Inc.",
+        "pct": 45.23
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 8.11
+        "pct": 18.68
       },
       {
-        "symbol": "ETSY",
-        "name": "Etsy, Inc.",
-        "pct": 7.41
+        "symbol": "CRML",
+        "name": "Critical Metals Corp.",
+        "pct": 13.57
       },
       {
-        "symbol": "SFM",
-        "name": "Sprouts Farmers Market, Inc.",
-        "pct": 6.23
+        "symbol": "ABCL",
+        "name": "AbCellera Biologics Inc.",
+        "pct": 13.48
       },
       {
-        "symbol": "BMNR",
-        "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 5.78
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 11.38
       },
       {
-        "symbol": "SNAP",
-        "name": "Snap Inc.",
-        "pct": 5.53
+        "symbol": "SMCI",
+        "name": "Super Micro Computer, Inc.",
+        "pct": 7.39
       },
       {
-        "symbol": "EXPE",
-        "name": "Expedia Group, Inc.",
-        "pct": 5.44
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "pct": 6.85
+      },
+      {
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "pct": 6.0
+      },
+      {
+        "symbol": "FOUR",
+        "name": "Shift4 Payments, Inc.",
+        "pct": 5.46
       }
     ],
     "losers": [
       {
-        "symbol": "AIAI",
-        "name": "AIAI Holdings Corporation",
-        "pct": -19.79
+        "symbol": "DKS",
+        "name": "Dick's Sporting Goods Inc",
+        "pct": -25.72
+      },
+      {
+        "symbol": "SDOT",
+        "name": "Sadot Group Inc.",
+        "pct": -24.01
+      },
+      {
+        "symbol": "XPON",
+        "name": "Expion360 Inc.",
+        "pct": -22.42
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -15.38
+        "pct": -8.14
       },
       {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": -13.77
+        "symbol": "ALB",
+        "name": "Albemarle Corporation",
+        "pct": -5.47
       },
       {
-        "symbol": "RFAI",
-        "name": "RF Acquisition Corp II",
-        "pct": -12.0
+        "symbol": "DAR",
+        "name": "Darling Ingredients Inc.",
+        "pct": -4.55
       },
       {
-        "symbol": "INOD",
-        "name": "Innodata Inc.",
-        "pct": -11.03
+        "symbol": "TGT",
+        "name": "Target Corporation",
+        "pct": -4.3
       },
       {
-        "symbol": "UMAC",
-        "name": "Unusual Machines, Inc.",
-        "pct": -10.5
+        "symbol": "PBR",
+        "name": "Petroleo Brasileiro S.A. Petrobras ADS",
+        "pct": -4.01
       },
       {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": -9.18
+        "symbol": "DECK",
+        "name": "Deckers Outdoor Corporation",
+        "pct": -3.8
       },
       {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "pct": -9.06
-      },
-      {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "pct": -8.97
-      },
-      {
-        "symbol": "AUR",
-        "name": "Aurora Innovation, Inc.",
-        "pct": -8.81
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions, Inc.",
+        "pct": -3.76
       }
     ],
-    "universe": 1178
+    "universe": 1288
   }
 }
