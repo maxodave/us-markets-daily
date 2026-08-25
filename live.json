@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-25T18:26:44Z",
+  "updated": "2026-08-25T18:42:45Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.19,
-      "last": 7667.09
+      "pct": 0.25,
+      "last": 7671.82
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.42,
-      "last": 29145.48
+      "pct": 0.53,
+      "last": 29175.71
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.21,
-      "last": 53529.3
+      "pct": 0.24,
+      "last": 53545.65
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "PMI",
         "name": "Picard Medical, Inc.",
-        "pct": 80.26
+        "pct": 85.09
       },
       {
         "symbol": "AMIX",
         "name": "Autonomix Medical, Inc.",
-        "pct": 57.91
+        "pct": 57.54
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 19.71
+        "pct": 18.85
       },
       {
         "symbol": "CRML",
         "name": "Critical Metals Corp.",
-        "pct": 17.57
+        "pct": 17.47
       },
       {
         "symbol": "ABCL",
         "name": "AbCellera Biologics Inc.",
-        "pct": 14.47
+        "pct": 15.27
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 13.55
-      },
-      {
-        "symbol": "RUM",
-        "name": "RUM Group Inc.",
-        "pct": 12.23
+        "pct": 13.05
       },
       {
         "symbol": "OKLO",
         "name": "Oklo Inc.",
-        "pct": 11.94
+        "pct": 12.29
+      },
+      {
+        "symbol": "RUM",
+        "name": "RUM Group Inc.",
+        "pct": 11.75
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": 10.06
+        "pct": 11.28
       },
       {
-        "symbol": "SMR",
-        "name": "NuScale Power Corporation",
-        "pct": 9.01
+        "symbol": "GLXY",
+        "name": "Galaxy Digital Inc.",
+        "pct": 9.24
       }
     ],
     "losers": [
       {
         "symbol": "SDOT",
         "name": "Sadot Group Inc.",
-        "pct": -31.87
+        "pct": -30.66
       },
       {
         "symbol": "DKS",
         "name": "Dick's Sporting Goods Inc",
-        "pct": -30.13
+        "pct": -30.25
       },
       {
         "symbol": "XPON",
         "name": "Expion360 Inc.",
-        "pct": -16.09
-      },
-      {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": -7.66
-      },
-      {
-        "symbol": "BBWI",
-        "name": "Bath & Body Works, Inc.",
-        "pct": -7.28
-      },
-      {
-        "symbol": "RBRK",
-        "name": "Rubrik, Inc.",
-        "pct": -7.24
+        "pct": -14.19
       },
       {
         "symbol": "BETA",
         "name": "Beta Technologies, Inc.",
-        "pct": -7.09
+        "pct": -7.42
       },
       {
-        "symbol": "ALB",
-        "name": "Albemarle Corporation",
-        "pct": -5.94
+        "symbol": "RBRK",
+        "name": "Rubrik, Inc.",
+        "pct": -7.38
+      },
+      {
+        "symbol": "BBWI",
+        "name": "Bath & Body Works, Inc.",
+        "pct": -7.22
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -5.76
+        "pct": -6.41
+      },
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": -6.14
+      },
+      {
+        "symbol": "ALB",
+        "name": "Albemarle Corporation",
+        "pct": -5.97
       },
       {
         "symbol": "ASO",
         "name": "Academy Sports and Outdoors, Inc.",
-        "pct": -5.37
+        "pct": -5.3
       }
     ],
     "universe": 1288
