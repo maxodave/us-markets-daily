@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-26T17:06:01Z",
+  "updated": "2026-08-26T17:22:10Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.15,
-      "last": 7665.44
+      "pct": -0.07,
+      "last": 7671.98
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.18,
-      "last": 29155.9
+      "pct": -0.06,
+      "last": 29190.69
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.31,
-      "last": 53410.66
+      "pct": -0.22,
+      "last": 53457.44
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ANF",
         "name": "Abercrombie & Fitch Company",
-        "pct": 32.6
+        "pct": 31.6
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 16.64
+        "pct": 16.73
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 11.46
-      },
-      {
-        "symbol": "SEDG",
-        "name": "SolarEdge Technologies, Inc.",
-        "pct": 8.05
+        "pct": 10.86
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "pct": 7.87
+        "pct": 8.45
+      },
+      {
+        "symbol": "SEDG",
+        "name": "SolarEdge Technologies, Inc.",
+        "pct": 7.9
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": 7.82
-      },
-      {
-        "symbol": "ZYME",
-        "name": "Zymeworks Inc.",
-        "pct": 7.39
-      },
-      {
-        "symbol": "BBWI",
-        "name": "Bath & Body Works, Inc.",
-        "pct": 7.11
+        "pct": 7.56
       },
       {
         "symbol": "TTMI",
         "name": "TTM Technologies, Inc.",
-        "pct": 6.93
+        "pct": 7.36
       },
       {
-        "symbol": "TNGX",
-        "name": "Tango Therapeutics, Inc.",
-        "pct": 6.58
+        "symbol": "ZYME",
+        "name": "Zymeworks Inc.",
+        "pct": 6.59
+      },
+      {
+        "symbol": "CHRW",
+        "name": "C.H. Robinson Worldwide, Inc.",
+        "pct": 6.54
+      },
+      {
+        "symbol": "INIO",
+        "name": "INNIO N.V.",
+        "pct": 6.53
       }
     ],
     "losers": [
       {
-        "symbol": "JEM",
-        "name": "707 Cayman Holdings Limited",
-        "pct": -17.66
-      },
-      {
         "symbol": "GENB",
         "name": "Generate Biomedicines, Inc.",
-        "pct": -16.73
+        "pct": -17.62
+      },
+      {
+        "symbol": "JEM",
+        "name": "707 Cayman Holdings Limited",
+        "pct": -16.56
       },
       {
         "symbol": "SYRE",
         "name": "Spyre Therapeutics, Inc.",
-        "pct": -13.46
+        "pct": -13.86
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -10.89
-      },
-      {
-        "symbol": "RUM",
-        "name": "RUM Group Inc.",
-        "pct": -9.68
-      },
-      {
-        "symbol": "FIGR",
-        "name": "Figure Technology Solutions, Inc.",
-        "pct": -9.54
+        "pct": -10.91
       },
       {
         "symbol": "SNAP",
         "name": "Snap Inc.",
-        "pct": -9.54
-      },
-      {
-        "symbol": "QBTS",
-        "name": "D-Wave Quantum Inc.",
-        "pct": -9.04
+        "pct": -9.71
       },
       {
         "symbol": "PMI",
         "name": "Picard Medical, Inc.",
-        "pct": -9.01
+        "pct": -9.31
       },
       {
-        "symbol": "DFNS",
-        "name": "T3 Defense Inc.",
-        "pct": -7.48
+        "symbol": "RUM",
+        "name": "RUM Group Inc.",
+        "pct": -8.85
+      },
+      {
+        "symbol": "QBTS",
+        "name": "D-Wave Quantum Inc.",
+        "pct": -8.79
+      },
+      {
+        "symbol": "FIGR",
+        "name": "Figure Technology Solutions, Inc.",
+        "pct": -8.77
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": -6.85
       }
     ],
     "universe": 1254
