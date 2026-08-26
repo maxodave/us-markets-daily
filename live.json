@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-26T16:17:48Z",
+  "updated": "2026-08-26T16:33:54Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": -0.14,
-      "last": 7666.81
+      "last": 7666.18
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.26,
-      "last": 29132.29
+      "pct": -0.2,
+      "last": 29149.4
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.28,
-      "last": 53427.74
+      "last": 53425.35
     },
     {
       "key": "ftsemib",
@@ -32,17 +32,22 @@
       {
         "symbol": "ANF",
         "name": "Abercrombie & Fitch Company",
-        "pct": 39.41
+        "pct": 35.63
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 16.91
+        "pct": 16.94
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 10.14
+        "pct": 9.77
+      },
+      {
+        "symbol": "SEDG",
+        "name": "SolarEdge Technologies, Inc.",
+        "pct": 8.0
       },
       {
         "symbol": "SMTC",
@@ -50,86 +55,81 @@
         "pct": 7.83
       },
       {
-        "symbol": "SEDG",
-        "name": "SolarEdge Technologies, Inc.",
-        "pct": 7.83
-      },
-      {
-        "symbol": "ZYME",
-        "name": "Zymeworks Inc.",
-        "pct": 7.24
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": 7.56
       },
       {
         "symbol": "TNGX",
         "name": "Tango Therapeutics, Inc.",
-        "pct": 7.23
+        "pct": 7.43
       },
       {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": 6.96
-      },
-      {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": 6.66
+        "symbol": "ZYME",
+        "name": "Zymeworks Inc.",
+        "pct": 7.28
       },
       {
         "symbol": "BBWI",
         "name": "Bath & Body Works, Inc.",
-        "pct": 6.43
+        "pct": 6.74
+      },
+      {
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": 6.72
       }
     ],
     "losers": [
       {
         "symbol": "JEM",
         "name": "707 Cayman Holdings Limited",
-        "pct": -18.91
+        "pct": -17.29
       },
       {
         "symbol": "GENB",
         "name": "Generate Biomedicines, Inc.",
-        "pct": -17.2
+        "pct": -17.25
       },
       {
         "symbol": "SYRE",
         "name": "Spyre Therapeutics, Inc.",
-        "pct": -13.31
+        "pct": -12.88
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -12.11
+        "pct": -11.45
       },
       {
         "symbol": "FIGR",
         "name": "Figure Technology Solutions, Inc.",
-        "pct": -9.14
+        "pct": -9.46
       },
       {
         "symbol": "RUM",
         "name": "RUM Group Inc.",
-        "pct": -8.8
+        "pct": -9.24
       },
       {
         "symbol": "SNAP",
         "name": "Snap Inc.",
-        "pct": -8.78
+        "pct": -9.1
       },
       {
         "symbol": "QBTS",
         "name": "D-Wave Quantum Inc.",
-        "pct": -8.45
-      },
-      {
-        "symbol": "PMI",
-        "name": "Picard Medical, Inc.",
-        "pct": -8.01
+        "pct": -8.48
       },
       {
         "symbol": "ZM",
         "name": "Zoom Communications, Inc.",
-        "pct": -7.81
+        "pct": -7.47
+      },
+      {
+        "symbol": "PMI",
+        "name": "Picard Medical, Inc.",
+        "pct": -7.33
       }
     ],
     "universe": 1254
