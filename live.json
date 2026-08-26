@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-26T14:57:29Z",
+  "updated": "2026-08-26T15:13:32Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.01,
-      "last": 7676.29
+      "pct": 0.03,
+      "last": 7679.88
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.07,
-      "last": 29190.07
+      "pct": -0.06,
+      "last": 29191.81
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.21,
-      "last": 53465.47
+      "pct": -0.16,
+      "last": 53489.36
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.46,
-      "last": 52982.48
+      "pct": 0.43,
+      "last": 52968.14
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ANF",
         "name": "Abercrombie & Fitch Company",
-        "pct": 34.52
+        "pct": 36.56
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 17.07
+        "pct": 18.02
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 11.34
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": 8.74
+        "pct": 9.58
       },
       {
         "symbol": "ZYME",
         "name": "Zymeworks Inc.",
-        "pct": 8.52
+        "pct": 7.97
       },
       {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": 7.04
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": 7.76
       },
       {
         "symbol": "SEDG",
         "name": "SolarEdge Technologies, Inc.",
-        "pct": 6.88
+        "pct": 7.48
       },
       {
-        "symbol": "ACHC",
-        "name": "Acadia Healthcare Company, Inc.",
-        "pct": 6.24
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": 7.28
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": 6.03
+        "pct": 5.95
       },
       {
-        "symbol": "P",
-        "name": "Everpure, Inc.",
-        "pct": 5.49
+        "symbol": "ACHC",
+        "name": "Acadia Healthcare Company, Inc.",
+        "pct": 5.83
+      },
+      {
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": 5.58
       }
     ],
     "losers": [
       {
         "symbol": "JEM",
         "name": "707 Cayman Holdings Limited",
-        "pct": -17.59
-      },
-      {
-        "symbol": "GENB",
-        "name": "Generate Biomedicines, Inc.",
-        "pct": -12.54
-      },
-      {
-        "symbol": "PMI",
-        "name": "Picard Medical, Inc.",
-        "pct": -12.46
-      },
-      {
-        "symbol": "DY",
-        "name": "Dycom Industries, Inc.",
-        "pct": -12.06
+        "pct": -17.0
       },
       {
         "symbol": "SYRE",
         "name": "Spyre Therapeutics, Inc.",
-        "pct": -11.89
+        "pct": -14.0
+      },
+      {
+        "symbol": "GENB",
+        "name": "Generate Biomedicines, Inc.",
+        "pct": -13.17
+      },
+      {
+        "symbol": "DY",
+        "name": "Dycom Industries, Inc.",
+        "pct": -12.45
+      },
+      {
+        "symbol": "PMI",
+        "name": "Picard Medical, Inc.",
+        "pct": -11.93
       },
       {
         "symbol": "FIGR",
         "name": "Figure Technology Solutions, Inc.",
-        "pct": -8.65
+        "pct": -9.16
       },
       {
         "symbol": "RUM",
         "name": "RUM Group Inc.",
-        "pct": -8.39
-      },
-      {
-        "symbol": "DFNS",
-        "name": "T3 Defense Inc.",
-        "pct": -7.78
+        "pct": -8.5
       },
       {
         "symbol": "QBTS",
         "name": "D-Wave Quantum Inc.",
-        "pct": -7.55
+        "pct": -7.88
       },
       {
-        "symbol": "SNAP",
-        "name": "Snap Inc.",
-        "pct": -7.27
+        "symbol": "ZM",
+        "name": "Zoom Communications, Inc.",
+        "pct": -7.17
+      },
+      {
+        "symbol": "DFNS",
+        "name": "T3 Defense Inc.",
+        "pct": -6.98
       }
     ],
     "universe": 1254
