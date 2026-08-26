@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-26T19:14:27Z",
+  "updated": "2026-08-26T19:30:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": 0.12,
-      "last": 7686.5
+      "last": 7686.16
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
       "pct": 0.19,
-      "last": 29263.98
+      "last": 29265.51
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.15,
-      "last": 53496.56
+      "pct": -0.12,
+      "last": 53511.21
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ANF",
         "name": "Abercrombie & Fitch Company",
-        "pct": 34.68
+        "pct": 37.05
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 15.9
+        "pct": 16.24
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 10.01
+        "pct": 11.34
       },
       {
         "symbol": "SEDG",
         "name": "SolarEdge Technologies, Inc.",
-        "pct": 8.94
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": 8.41
+        "pct": 9.0
       },
       {
         "symbol": "URBN",
         "name": "Urban Outfitters, Inc.",
-        "pct": 8.04
+        "pct": 8.33
       },
       {
-        "symbol": "BBWI",
-        "name": "Bath & Body Works, Inc.",
-        "pct": 7.79
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": 8.1
       },
       {
         "symbol": "TTMI",
         "name": "TTM Technologies, Inc.",
-        "pct": 7.48
+        "pct": 7.74
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": 7.3
+        "pct": 7.6
+      },
+      {
+        "symbol": "BBWI",
+        "name": "Bath & Body Works, Inc.",
+        "pct": 7.45
       },
       {
         "symbol": "DAVE",
         "name": "Dave Inc.",
-        "pct": 6.86
+        "pct": 7.09
       }
     ],
     "losers": [
       {
         "symbol": "GENB",
         "name": "Generate Biomedicines, Inc.",
-        "pct": -20.29
+        "pct": -19.68
       },
       {
         "symbol": "JEM",
         "name": "707 Cayman Holdings Limited",
-        "pct": -18.91
+        "pct": -16.56
       },
       {
         "symbol": "SYRE",
         "name": "Spyre Therapeutics, Inc.",
-        "pct": -11.25
+        "pct": -11.19
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -10.76
-      },
-      {
-        "symbol": "QBTS",
-        "name": "D-Wave Quantum Inc.",
-        "pct": -8.71
-      },
-      {
-        "symbol": "RUM",
-        "name": "RUM Group Inc.",
-        "pct": -8.41
-      },
-      {
-        "symbol": "FIGR",
-        "name": "Figure Technology Solutions, Inc.",
-        "pct": -8.34
-      },
-      {
-        "symbol": "SNAP",
-        "name": "Snap Inc.",
-        "pct": -8.13
+        "pct": -9.84
       },
       {
         "symbol": "DFNS",
         "name": "T3 Defense Inc.",
-        "pct": -8.05
+        "pct": -9.05
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": -7.84
+        "symbol": "FIGR",
+        "name": "Figure Technology Solutions, Inc.",
+        "pct": -8.99
+      },
+      {
+        "symbol": "QBTS",
+        "name": "D-Wave Quantum Inc.",
+        "pct": -8.94
+      },
+      {
+        "symbol": "AMIX",
+        "name": "Autonomix Medical, Inc.",
+        "pct": -8.48
+      },
+      {
+        "symbol": "RUM",
+        "name": "RUM Group Inc.",
+        "pct": -8.46
+      },
+      {
+        "symbol": "SNAP",
+        "name": "Snap Inc.",
+        "pct": -8.11
       }
     ],
     "universe": 1254
