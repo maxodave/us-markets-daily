@@ -1,137 +1,137 @@
 {
-  "updated": "2026-08-25T20:02:58Z",
-  "market_open": false,
+  "updated": "2026-08-26T14:09:00Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.32,
-      "last": 7677.2
+      "pct": 0.1,
+      "last": 7684.75
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.64,
-      "last": 29209.23
+      "pct": 0.06,
+      "last": 29225.77
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.3,
-      "last": 53577.23
+      "pct": -0.01,
+      "last": 53569.82
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.24,
-      "last": 52720.31
+      "pct": 0.68,
+      "last": 53100.74
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "PMI",
-        "name": "Picard Medical, Inc.",
-        "pct": 85.28
+        "symbol": "ANF",
+        "name": "Abercrombie & Fitch Company",
+        "pct": 32.86
       },
       {
-        "symbol": "AMIX",
-        "name": "Autonomix Medical, Inc.",
-        "pct": 33.89
+        "symbol": "BZ",
+        "name": "KANZHUN LIMITED - American Depository Shares",
+        "pct": 16.39
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 21.91
+        "pct": 16.28
       },
       {
-        "symbol": "CRML",
-        "name": "Critical Metals Corp.",
-        "pct": 21.44
+        "symbol": "ZYME",
+        "name": "Zymeworks Inc.",
+        "pct": 10.27
       },
       {
-        "symbol": "ABCL",
-        "name": "AbCellera Biologics Inc.",
-        "pct": 17.81
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": 10.15
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": 14.36
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": 9.87
       },
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": 11.56
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": 9.73
       },
       {
-        "symbol": "OKLO",
-        "name": "Oklo Inc.",
-        "pct": 11.51
+        "symbol": "ACHC",
+        "name": "Acadia Healthcare Company, Inc.",
+        "pct": 7.05
       },
       {
-        "symbol": "SMCI",
-        "name": "Super Micro Computer, Inc.",
-        "pct": 9.35
+        "symbol": "SEDG",
+        "name": "SolarEdge Technologies, Inc.",
+        "pct": 6.65
       },
       {
-        "symbol": "RUM",
-        "name": "RUM Group Inc.",
-        "pct": 9.29
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": 5.69
       }
     ],
     "losers": [
       {
-        "symbol": "DKS",
-        "name": "Dick's Sporting Goods Inc",
-        "pct": -30.63
+        "symbol": "JEM",
+        "name": "707 Cayman Holdings Limited",
+        "pct": -19.06
       },
       {
-        "symbol": "SDOT",
-        "name": "Sadot Group Inc.",
-        "pct": -29.4
+        "symbol": "SYRE",
+        "name": "Spyre Therapeutics, Inc.",
+        "pct": -12.09
       },
       {
-        "symbol": "XPON",
-        "name": "Expion360 Inc.",
-        "pct": -15.0
+        "symbol": "GENB",
+        "name": "Generate Biomedicines, Inc.",
+        "pct": -10.11
       },
       {
-        "symbol": "BBWI",
-        "name": "Bath & Body Works, Inc.",
-        "pct": -8.24
+        "symbol": "DFNS",
+        "name": "T3 Defense Inc.",
+        "pct": -9.51
+      },
+      {
+        "symbol": "FIGR",
+        "name": "Figure Technology Solutions, Inc.",
+        "pct": -9.01
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -7.66
+        "pct": -8.1
       },
       {
-        "symbol": "BETA",
-        "name": "Beta Technologies, Inc.",
-        "pct": -7.21
+        "symbol": "PMI",
+        "name": "Picard Medical, Inc.",
+        "pct": -7.64
       },
       {
-        "symbol": "ALB",
-        "name": "Albemarle Corporation",
-        "pct": -5.94
+        "symbol": "RUM",
+        "name": "RUM Group Inc.",
+        "pct": -7.43
       },
       {
-        "symbol": "ASO",
-        "name": "Academy Sports and Outdoors, Inc.",
-        "pct": -5.8
+        "symbol": "SNAP",
+        "name": "Snap Inc.",
+        "pct": -6.84
       },
       {
-        "symbol": "JMKE",
-        "name": "Jersey Mike's Subs Inc.",
-        "pct": -5.78
-      },
-      {
-        "symbol": "WSC",
-        "name": "WillScot Holdings Corporation",
-        "pct": -5.59
+        "symbol": "ZM",
+        "name": "Zoom Communications, Inc.",
+        "pct": -5.91
       }
     ],
-    "universe": 1288
+    "universe": 1254
   }
 }
