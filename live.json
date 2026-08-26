@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-26T14:41:25Z",
+  "updated": "2026-08-26T14:57:29Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.06,
-      "last": 7672.47
+      "pct": -0.01,
+      "last": 7676.29
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.14,
-      "last": 29167.84
+      "pct": -0.07,
+      "last": 29190.07
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.18,
-      "last": 53482.17
+      "pct": -0.21,
+      "last": 53465.47
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.39,
-      "last": 52948.14
+      "pct": 0.46,
+      "last": 52982.48
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ANF",
         "name": "Abercrombie & Fitch Company",
-        "pct": 32.39
+        "pct": 34.52
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 16.85
+        "pct": 17.07
       },
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": 11.94
+        "pct": 11.34
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "pct": 10.91
-      },
-      {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": 7.79
+        "pct": 8.74
       },
       {
         "symbol": "ZYME",
         "name": "Zymeworks Inc.",
-        "pct": 6.77
+        "pct": 8.52
+      },
+      {
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": 7.04
       },
       {
         "symbol": "SEDG",
         "name": "SolarEdge Technologies, Inc.",
-        "pct": 6.46
+        "pct": 6.88
       },
       {
         "symbol": "ACHC",
         "name": "Acadia Healthcare Company, Inc.",
-        "pct": 6.38
-      },
-      {
-        "symbol": "P",
-        "name": "Everpure, Inc.",
-        "pct": 5.91
+        "pct": 6.24
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": 5.72
+        "pct": 6.03
+      },
+      {
+        "symbol": "P",
+        "name": "Everpure, Inc.",
+        "pct": 5.49
       }
     ],
     "losers": [
       {
         "symbol": "JEM",
         "name": "707 Cayman Holdings Limited",
-        "pct": -19.79
-      },
-      {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "pct": -12.52
-      },
-      {
-        "symbol": "PMI",
-        "name": "Picard Medical, Inc.",
-        "pct": -11.94
+        "pct": -17.59
       },
       {
         "symbol": "GENB",
         "name": "Generate Biomedicines, Inc.",
-        "pct": -11.58
+        "pct": -12.54
+      },
+      {
+        "symbol": "PMI",
+        "name": "Picard Medical, Inc.",
+        "pct": -12.46
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -11.46
+        "pct": -12.06
       },
       {
-        "symbol": "RUM",
-        "name": "RUM Group Inc.",
-        "pct": -8.99
-      },
-      {
-        "symbol": "DFNS",
-        "name": "T3 Defense Inc.",
-        "pct": -8.24
+        "symbol": "SYRE",
+        "name": "Spyre Therapeutics, Inc.",
+        "pct": -11.89
       },
       {
         "symbol": "FIGR",
         "name": "Figure Technology Solutions, Inc.",
-        "pct": -8.12
+        "pct": -8.65
+      },
+      {
+        "symbol": "RUM",
+        "name": "RUM Group Inc.",
+        "pct": -8.39
+      },
+      {
+        "symbol": "DFNS",
+        "name": "T3 Defense Inc.",
+        "pct": -7.78
       },
       {
         "symbol": "QBTS",
         "name": "D-Wave Quantum Inc.",
-        "pct": -8.07
+        "pct": -7.55
       },
       {
         "symbol": "SNAP",
         "name": "Snap Inc.",
-        "pct": -7.52
+        "pct": -7.27
       }
     ],
     "universe": 1254
