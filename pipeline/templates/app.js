@@ -711,6 +711,19 @@ renderEditions();
          i mover della SEDUTA dall'edizione (a mercato chiuso). Stessa identica fonte
          per lo striscione in basso e per la lista nella scheda LIVE, cosi' coincidono
          sempre e cambiano insieme a ogni refresh di live.json (~15 min). --- */
+  // Quanto puo' essere vecchio live.json e valere ancora come "ora". Il ciclo del
+  // workflow aggiorna ogni 15 minuti, quindi 45 lasciano margine a un giro perso.
+  // Serve perche' i mover di live.json si mostrano ANCHE a mercati chiusi (sono la
+  // classifica di chiusura): senza questo controllo, un job che non parte lascia
+  // dati di ieri etichettati "ora" mentre la borsa e' aperta — cioe' una bugia.
+  // E' successo il 27/08/2026, con live.json fermo da 20 ore.
+  var LIVE_FRESH_MS = 45 * 60 * 1000;
+  function liveIsFresh(live) {
+    if (!live || !live.updated) return false;
+    var t = Date.parse(live.updated);
+    return isFinite(t) && (Date.now() - t) < LIVE_FRESH_MS;
+  }
+
   function moversFor(live) {
     // I mover di live.json valgono ANCHE a mercati chiusi: l'ultimo run della
     // giornata cade dopo la campana, quindi quella lista E' la classifica di
@@ -725,7 +738,7 @@ renderEditions();
       // dice com'era il mercato quando il file e' stato scritto, quindi dopo la
       // campana resterebbe "aperto" ed etichetterebbe "ora" una classifica di
       // chiusura. Lo stato vero lo sa il browser, in ora di New York.
-      return { live: true, now: usMarketState().open,
+      return { live: true, now: usMarketState().open && liveIsFresh(live),
                gainers: live.movers.gainers.map(mapL), losers: (live.movers.losers || []).map(mapL) };
     }
     if (typeof EDITIONS !== "undefined" && EDITIONS.length) {
