@@ -389,6 +389,32 @@
   .mc-ex .ex-sub { font-size: .66rem; color: var(--muted); margin-top: 6px; text-transform: uppercase; letter-spacing: .06em; }
   .mc-full .mc-close { margin-top: 40px; }
 
+  /* Overlay "Only for subscribers": stessa impaginazione di .mc-full, ma VIOLA
+     (--cat-scienza, lo stesso viola della riga "Top Mercati") invece dell'arancione,
+     che sul sito significa sempre "mercati chiusi" e qui direbbe la cosa sbagliata.
+     Regole tutte sotto .subs-full: non condivide un solo selettore con .mc-full,
+     quindi non puo' alterare l'avviso del fine settimana. */
+  .subs-full { position: fixed; inset: 0; z-index: 120; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; text-align: center; padding: 30px 20px;
+    background: radial-gradient(circle at 50% 30%, rgba(167,139,250,.12), transparent 60%), rgba(4,5,9,.97);
+    backdrop-filter: blur(4px); opacity: 0; pointer-events: none; transition: opacity .35s ease; }
+  .subs-full.open { opacity: 1; pointer-events: auto; }
+  .subs-full .subs-badge { font-family: var(--mono); font-size: .74rem; letter-spacing: .4em;
+    text-transform: uppercase; color: var(--cat-scienza); margin-bottom: 18px;
+    display: flex; align-items: center; gap: 10px; }
+  .subs-full .subs-badge .dot { width: 10px; height: 10px; border-radius: 50%;
+    background: var(--cat-scienza); box-shadow: 0 0 16px var(--cat-scienza);
+    animation: v2pulse 1.6s ease-in-out infinite; }
+  .subs-full h2 { font-family: var(--mono); font-weight: 800; font-size: clamp(2.1rem, 8vw, 5.4rem);
+    line-height: .98; letter-spacing: -.02em; margin: 0;
+    background: linear-gradient(180deg, #fff, var(--cat-scienza));
+    -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .subs-full .subs-note { color: var(--muted); margin-top: 16px; font-size: 1rem;
+    max-width: 46ch; line-height: 1.5; }
+  .subs-full .subs-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 32px; }
+  .subs-full .subs-actions .btn:hover { border-color: var(--cat-scienza); color: var(--cat-scienza); }
+  .subs-full .subs-close { margin-top: 34px; }
+
   .modal-backdrop { position: fixed; inset: 0; z-index: 130; background: rgba(3,4,8,.74); backdrop-filter: blur(6px); display: flex; align-items: center; justify-content: center; padding: 20px; opacity: 0; pointer-events: none; transition: opacity .25s ease; }
   .modal-backdrop.open { opacity: 1; pointer-events: auto; }
   .modal { position: relative; background: var(--panel-solid); border: 1px solid var(--border-strong); border-radius: 16px; box-shadow: 0 18px 50px rgba(0,0,0,.5); max-width: 420px; width: 100%; padding: 30px 28px; transform: translateY(14px); transition: transform .25s ease; }
@@ -428,6 +454,10 @@
     <button type="button" class="nav-link live-link" data-go="live"><span class="live-dot"></span>LIVE</button>
     <button type="button" class="nav-link" data-go="edition">Read today's edition</button>
     <button type="button" class="nav-link" data-go="archive">Archive</button>
+    <!-- Volutamente SENZA data-go: i cicli su .nav-link[data-go] in app.js
+         pilotano le due viste (live/edition), e questa terza voce non e' una
+         vista — apre un overlay e lascia sotto la vista che c'era. -->
+    <button type="button" class="nav-link" id="subsOnlyBtn">Only for subscribers</button>
   </nav>
   <button class="cta" id="subscribeBtn" type="button">Subscribe &rarr;</button>
 </header>
@@ -491,6 +521,24 @@
   <div class="mc-note">Wall Street and Borsa Italiana are shut for the weekend. Here's the countdown to the next opening bell.</div>
   <div class="mc-grid" id="mcGrid"></div>
   <button class="btn ghost mc-close" id="mcCloseBtn" type="button">Back to the edition</button>
+</div>
+
+<!-- "Only for subscribers": terza pagina, realizzata come OVERLAY e non come terzo
+     valore di body[data-view]. Le due viste esistenti si escludono a vicenda con
+     body[data-view="edition"] .only-live e body[data-view="live"] .only-edition:
+     un terzo valore non farebbe scattare nessuna delle due regole e mostrerebbe
+     ENTRAMBI i pannelli insieme. Come overlay si sovrappone e basta — la vista
+     sotto resta intatta, e ne' la pipeline ne' i workflow su GitHub la vedono:
+     e' markup statico, nessun dato, nessun file generato. Stessa struttura
+     dell'avviso arancione del fine settimana, in viola. -->
+<div class="subs-full" id="subsFull" role="dialog" aria-modal="true" aria-labelledby="subsFullTitle">
+  <div class="subs-badge"><span class="dot"></span>Only for subscribers</div>
+  <h2 id="subsFullTitle">WORK IN PROGRESS</h2>
+  <div class="subs-note">This area is being built. Subscribe on LinkedIn or Substack for future news.</div>
+  <div class="subs-actions">
+    <a class="btn ghost" href="https://maximedaverio.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Subscribe on Substack</a>
+  </div>
+  <button class="btn ghost subs-close" id="subsCloseBtn" type="button">Back to the edition</button>
 </div>
 
 <div class="modal-backdrop" id="subModal" role="dialog" aria-modal="true">
@@ -1437,6 +1485,26 @@ renderEditions();
   function closeMcFull() { if (!mcFull) return; mcFull.classList.remove("open"); if (mcTimer) { clearInterval(mcTimer); mcTimer = null; } }
   var mcClose = document.getElementById("mcCloseBtn"); if (mcClose) mcClose.addEventListener("click", function () { closeMcFull(); goEdition(); });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeMcFull(); });
+
+  /* --- overlay "Only for subscribers": la terza pagina. Deliberatamente NON passa
+         da setView() ne' tocca body[data-view]: apre e chiude solo se stesso, quindi
+         la vista sotto (LIVE o edizione) resta esattamente dov'era e nessuna delle
+         due puo' rompersi. Nessun dato, nessun file: e' markup statico, invisibile
+         alla pipeline e ai workflow su GitHub. --- */
+  var subsFull = document.getElementById("subsFull");
+  function openSubsFull() { if (!subsFull) return; closeMcFull(); subsFull.classList.add("open"); }
+  function closeSubsFull() { if (subsFull) subsFull.classList.remove("open"); }
+  var subsBtn = document.getElementById("subsOnlyBtn");
+  if (subsBtn) subsBtn.addEventListener("click", openSubsFull);
+  var subsCloseBtn = document.getElementById("subsCloseBtn");
+  if (subsCloseBtn) subsCloseBtn.addEventListener("click", function () { closeSubsFull(); goEdition(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeSubsFull(); });
+  // Passando a un'altra sezione dalla nav l'overlay si chiude da se'. E' un listener
+  // AGGIUNTIVO sugli stessi pulsanti, non una modifica a goLive/goEdition/openArchive:
+  // quelle funzioni restano intatte.
+  document.querySelectorAll(".nav-link[data-go]").forEach(function (b) {
+    b.addEventListener("click", closeSubsFull);
+  });
 
   /* --- striscia LIVE: segno stato mercato (verde aperto / arancione chiuso) +
          livelli indici (poll di live.json, stessa origine). Lo stato lo calcola il

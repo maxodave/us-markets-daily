@@ -903,6 +903,26 @@ renderEditions();
   var mcClose = document.getElementById("mcCloseBtn"); if (mcClose) mcClose.addEventListener("click", function () { closeMcFull(); goEdition(); });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeMcFull(); });
 
+  /* --- overlay "Only for subscribers": la terza pagina. Deliberatamente NON passa
+         da setView() ne' tocca body[data-view]: apre e chiude solo se stesso, quindi
+         la vista sotto (LIVE o edizione) resta esattamente dov'era e nessuna delle
+         due puo' rompersi. Nessun dato, nessun file: e' markup statico, invisibile
+         alla pipeline e ai workflow su GitHub. --- */
+  var subsFull = document.getElementById("subsFull");
+  function openSubsFull() { if (!subsFull) return; closeMcFull(); subsFull.classList.add("open"); }
+  function closeSubsFull() { if (subsFull) subsFull.classList.remove("open"); }
+  var subsBtn = document.getElementById("subsOnlyBtn");
+  if (subsBtn) subsBtn.addEventListener("click", openSubsFull);
+  var subsCloseBtn = document.getElementById("subsCloseBtn");
+  if (subsCloseBtn) subsCloseBtn.addEventListener("click", function () { closeSubsFull(); goEdition(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeSubsFull(); });
+  // Passando a un'altra sezione dalla nav l'overlay si chiude da se'. E' un listener
+  // AGGIUNTIVO sugli stessi pulsanti, non una modifica a goLive/goEdition/openArchive:
+  // quelle funzioni restano intatte.
+  document.querySelectorAll(".nav-link[data-go]").forEach(function (b) {
+    b.addEventListener("click", closeSubsFull);
+  });
+
   /* --- striscia LIVE: segno stato mercato (verde aperto / arancione chiuso) +
          livelli indici (poll di live.json, stessa origine). Lo stato lo calcola il
          browser in ora di New York, cosi' e' esatto anche fra un aggiornamento e

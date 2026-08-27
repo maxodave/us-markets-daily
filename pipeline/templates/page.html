@@ -20,6 +20,10 @@ __STYLE_CSS__
     <button type="button" class="nav-link live-link" data-go="live"><span class="live-dot"></span>LIVE</button>
     <button type="button" class="nav-link" data-go="edition">Read today's edition</button>
     <button type="button" class="nav-link" data-go="archive">Archive</button>
+    <!-- Volutamente SENZA data-go: i cicli su .nav-link[data-go] in app.js
+         pilotano le due viste (live/edition), e questa terza voce non e' una
+         vista — apre un overlay e lascia sotto la vista che c'era. -->
+    <button type="button" class="nav-link" id="subsOnlyBtn">Only for subscribers</button>
   </nav>
   <button class="cta" id="subscribeBtn" type="button">Subscribe &rarr;</button>
 </header>
@@ -81,6 +85,24 @@ __STYLE_CSS__
   <div class="mc-note">Wall Street and Borsa Italiana are shut for the weekend. Here's the countdown to the next opening bell.</div>
   <div class="mc-grid" id="mcGrid"></div>
   <button class="btn ghost mc-close" id="mcCloseBtn" type="button">Back to the edition</button>
+</div>
+
+<!-- "Only for subscribers": terza pagina, realizzata come OVERLAY e non come terzo
+     valore di body[data-view]. Le due viste esistenti si escludono a vicenda con
+     body[data-view="edition"] .only-live e body[data-view="live"] .only-edition:
+     un terzo valore non farebbe scattare nessuna delle due regole e mostrerebbe
+     ENTRAMBI i pannelli insieme. Come overlay si sovrappone e basta — la vista
+     sotto resta intatta, e ne' la pipeline ne' i workflow su GitHub la vedono:
+     e' markup statico, nessun dato, nessun file generato. Stessa struttura
+     dell'avviso arancione del fine settimana, in viola. -->
+<div class="subs-full" id="subsFull" role="dialog" aria-modal="true" aria-labelledby="subsFullTitle">
+  <div class="subs-badge"><span class="dot"></span>Only for subscribers</div>
+  <h2 id="subsFullTitle">WORK IN PROGRESS</h2>
+  <div class="subs-note">This area is being built. Subscribe on LinkedIn or Substack for future news.</div>
+  <div class="subs-actions">
+    <a class="btn ghost" href="https://maximedaverio.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Subscribe on Substack</a>
+  </div>
+  <button class="btn ghost subs-close" id="subsCloseBtn" type="button">Back to the edition</button>
 </div>
 
 <div class="modal-backdrop" id="subModal" role="dialog" aria-modal="true">
