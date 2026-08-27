@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-27T18:34:23Z",
+  "updated": "2026-08-27T18:50:28Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": 0.48,
-      "last": 7713.06
+      "last": 7713.31
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.89,
-      "last": 29484.65
+      "pct": 0.91,
+      "last": 29491.84
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.12,
-      "last": 53525.89
+      "pct": 0.13,
+      "last": 53531.92
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "OKTA",
         "name": "Okta, Inc.",
-        "pct": 28.63
+        "pct": 29.03
       },
       {
         "symbol": "CRM",
         "name": "Salesforce, Inc.",
-        "pct": 22.05
+        "pct": 22.24
       },
       {
         "symbol": "CRWD",
         "name": "CrowdStrike Holdings, Inc.",
-        "pct": 19.57
-      },
-      {
-        "symbol": "VEEV",
-        "name": "Veeva Systems Inc.",
-        "pct": 16.87
+        "pct": 19.75
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": 16.79
+        "pct": 15.96
+      },
+      {
+        "symbol": "VEEV",
+        "name": "Veeva Systems Inc.",
+        "pct": 15.62
       },
       {
         "symbol": "FIG",
         "name": "Figma, Inc.",
-        "pct": 14.17
+        "pct": 14.13
       },
       {
         "symbol": "PANW",
         "name": "Palo Alto Networks, Inc.",
-        "pct": 13.72
+        "pct": 14.02
       },
       {
         "symbol": "TENB",
         "name": "Tenable Holdings, Inc.",
-        "pct": 13.49
+        "pct": 12.8
       },
       {
         "symbol": "SNPS",
         "name": "Synopsys, Inc.",
-        "pct": 12.3
+        "pct": 12.69
       },
       {
         "symbol": "FROG",
         "name": "JFrog Ltd.",
-        "pct": 11.64
+        "pct": 12.05
       }
     ],
     "losers": [
       {
         "symbol": "CRE",
         "name": "Cre8 Enterprise Limited",
-        "pct": -17.77
+        "pct": -16.45
       },
       {
         "symbol": "XPON",
         "name": "Expion360 Inc.",
-        "pct": -14.26
+        "pct": -15.38
       },
       {
         "symbol": "HQY",
         "name": "HealthEquity, Inc.",
-        "pct": -13.21
+        "pct": -13.48
       },
       {
         "symbol": "WSHP",
         "name": "WeShop Holdings Limited",
-        "pct": -10.75
-      },
-      {
-        "symbol": "HRL",
-        "name": "Hormel Foods Corporation",
-        "pct": -9.78
+        "pct": -10.02
       },
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "pct": -9.65
+        "pct": -9.88
       },
       {
-        "symbol": "GNRC",
-        "name": "Generac Holdlings Inc.",
-        "pct": -7.59
+        "symbol": "HRL",
+        "name": "Hormel Foods Corporation",
+        "pct": -9.81
       },
       {
         "symbol": "BURL",
         "name": "Burlington Stores, Inc.",
-        "pct": -6.98
+        "pct": -7.03
       },
       {
-        "symbol": "RDIB",
-        "name": "Reading International Inc - Class B Voting",
-        "pct": -6.88
+        "symbol": "GNRC",
+        "name": "Generac Holdlings Inc.",
+        "pct": -6.92
       },
       {
         "symbol": "VERA",
         "name": "Vera Therapeutics, Inc.",
-        "pct": -6.44
+        "pct": -6.55
+      },
+      {
+        "symbol": "HMY",
+        "name": "Harmony Gold Mining Company Limited",
+        "pct": -6.4
       }
     ],
     "universe": 1219
