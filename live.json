@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-27T19:06:35Z",
+  "updated": "2026-08-27T19:22:40Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.55,
-      "last": 7718.38
+      "pct": 0.57,
+      "last": 7719.88
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.03,
-      "last": 29524.34
+      "pct": 1.1,
+      "last": 29545.69
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.14,
-      "last": 53539.77
+      "pct": 0.13,
+      "last": 53535.78
     },
     {
       "key": "ftsemib",
@@ -32,64 +32,59 @@
       {
         "symbol": "OKTA",
         "name": "Okta, Inc.",
-        "pct": 28.94
+        "pct": 28.52
       },
       {
         "symbol": "CRM",
         "name": "Salesforce, Inc.",
-        "pct": 22.39
+        "pct": 22.72
       },
       {
         "symbol": "CRWD",
         "name": "CrowdStrike Holdings, Inc.",
-        "pct": 19.52
-      },
-      {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": 16.63
+        "pct": 19.64
       },
       {
         "symbol": "VEEV",
         "name": "Veeva Systems Inc.",
-        "pct": 15.86
+        "pct": 15.85
+      },
+      {
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": 15.44
       },
       {
         "symbol": "FIG",
         "name": "Figma, Inc.",
-        "pct": 14.34
+        "pct": 15.32
       },
       {
         "symbol": "PANW",
         "name": "Palo Alto Networks, Inc.",
-        "pct": 13.75
-      },
-      {
-        "symbol": "TENB",
-        "name": "Tenable Holdings, Inc.",
-        "pct": 13.1
+        "pct": 13.49
       },
       {
         "symbol": "SNPS",
         "name": "Synopsys, Inc.",
-        "pct": 12.98
+        "pct": 13.02
       },
       {
-        "symbol": "FROG",
-        "name": "JFrog Ltd.",
-        "pct": 11.98
+        "symbol": "TENB",
+        "name": "Tenable Holdings, Inc.",
+        "pct": 12.86
+      },
+      {
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": 12.34
       }
     ],
     "losers": [
       {
         "symbol": "XPON",
         "name": "Expion360 Inc.",
-        "pct": -14.34
-      },
-      {
-        "symbol": "HQY",
-        "name": "HealthEquity, Inc.",
-        "pct": -12.76
+        "pct": -12.98
       },
       {
         "symbol": "CRE",
@@ -97,14 +92,19 @@
         "pct": -12.63
       },
       {
-        "symbol": "WSHP",
-        "name": "WeShop Holdings Limited",
-        "pct": -10.75
+        "symbol": "HQY",
+        "name": "HealthEquity, Inc.",
+        "pct": -11.75
       },
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "pct": -10.01
+        "pct": -10.39
+      },
+      {
+        "symbol": "WSHP",
+        "name": "WeShop Holdings Limited",
+        "pct": -9.62
       },
       {
         "symbol": "HRL",
@@ -114,22 +114,22 @@
       {
         "symbol": "BURL",
         "name": "Burlington Stores, Inc.",
-        "pct": -6.48
+        "pct": -7.33
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": -6.86
+      },
+      {
+        "symbol": "SPHR",
+        "name": "Sphere Entertainment Co.",
+        "pct": -6.07
       },
       {
         "symbol": "HMY",
         "name": "Harmony Gold Mining Company Limited",
-        "pct": -6.13
-      },
-      {
-        "symbol": "VERA",
-        "name": "Vera Therapeutics, Inc.",
-        "pct": -6.11
-      },
-      {
-        "symbol": "CELH",
-        "name": "Celsius Holdings, Inc.",
-        "pct": -5.79
+        "pct": -5.95
       }
     ],
     "universe": 1219
