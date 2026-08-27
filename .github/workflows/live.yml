@@ -16,24 +16,38 @@ name: Quotazioni LIVE
 # scheduler. Il repo e' PUBBLICO: i minuti Actions sono illimitati, un job lungo non
 # costa nulla.
 #
-# UN JOB NON BASTA A COPRIRE TUTTA LA SEDUTA. Il limite di GitHub e' 6 ore per job;
-# la finestra utile (pre-apertura -> dopo la campana, in entrambi i regimi orari) e'
-# ~13:25-21:50 UTC = oltre 8 ore. Quindi piu' PUNTI DI AVVIO ridondanti (13:25,
-# 16:25, 19:25 UTC) e "concurrency" che SERIALIZZA: mentre un job cicla, gli avvii
-# successivi restano in coda e vengono soppiantati; quando il job in corso finisce
-# (o GitHub lo uccide al limite di tempo), quello in coda riparte e continua. Se
-# GitHub salta un avvio, il successivo copre comunque. La finestra di FINE e' fissa
-# alle 21:50 UTC: dopo la campara (20:00 estate / 21:00 inverno) restano ancora run
-# che catturano i valori di CHIUSURA, che poi la pagina lascia come "ultima chiusura"
-# fino alla seduta dopo.
+# UN JOB NON BASTA A COPRIRE TUTTA LA SEDUTA, e un avvio solo non basta a garantirlo.
+# Il limite di GitHub e' 6 ore per job, mentre la finestra utile (pre-apertura ->
+# dopo la campana, in entrambi i regimi orari) supera le 8 ore. Percio' DUE
+# meccanismi insieme:
+#   1) il job cicla al suo interno ogni 15 minuti (la cadenza NON dipende dallo
+#      scheduler di GitHub, che i cron fitti li ritarda e li collassa);
+#   2) gli avvii sono TANTI (ogni 30 min) perche' GitHub ne salta: e' la lezione del
+#      27/08/2026, quando con soli tre avvii al giorno non ne parti' nessuno e la
+#      pagina LIVE resto' ferma alla chiusura precedente per tutta la seduta.
+# "concurrency" con cancel-in-progress: false serializza il tutto: mentre un job
+# cicla, gli avvii successivi restano in coda (al massimo uno, gli altri vengono
+# soppiantati) e nessuno fa lavoro doppio; quando il job in corso finisce o viene
+# ucciso al limite di tempo, quello in coda riprende il testimone.
+# La finestra di FINE e' fissa alle 21:50 UTC: dopo la campana (20:00 estate /
+# 21:00 inverno) restano ancora giri che catturano i valori di CHIUSURA, che la
+# pagina lascia poi come "ultima chiusura" fino alla seduta dopo.
 #
 # Nel weekend non gira: sab/dom non ci sono avvii (1-5 = lun-ven). La striscia mostra
 # comunque "MARKETS CLOSED" perche' lo stato lo calcola il browser in ora di New York.
 on:
   schedule:
-    - cron: "25 13 * * 1-5"
-    - cron: "25 16 * * 1-5"
-    - cron: "25 19 * * 1-5"
+    # OGNI 30 MINUTI, e non tre soli avvii al giorno. Il job cicla da solo (vedi
+    # sotto), quindi in teoria basterebbe un avvio; in pratica GitHub SALTA gli
+    # schedule, e con tre occasioni al giorno un salto costa ore di dati fermi —
+    # e' successo il 27/08/2026: nessuno dei tre avvii e' partito e la pagina LIVE
+    # e' rimasta ferma alla chiusura del giorno prima per tutta la seduta. (Lo
+    # stesso giorno l'edizione, schedulata alle 21:30, e' partita alle 00:59.)
+    # Con 18 occasioni un salto non si vede: il "concurrency" qui sotto serializza,
+    # quindi gli avvii che trovano un ciclo gia' in corso non fanno lavoro doppio —
+    # restano in coda e vengono soppiantati, e uno di loro riprende il testimone
+    # se il ciclo in corso muore.
+    - cron: "*/30 13-21 * * 1-5"
   workflow_dispatch:
 
 permissions:
