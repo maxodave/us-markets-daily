@@ -280,7 +280,15 @@
   .live-dot { width: 8px; height: 8px; border-radius: 50%; background: #ff4d4d; box-shadow: 0 0 8px #ff4d4d; animation: v2pulse 1.6s ease-in-out infinite; display: inline-block; }
   .cta { font-family: var(--mono); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; border: 1px solid var(--border-strong); border-radius: 999px; padding: 9px 18px; color: var(--text); background: rgba(255,255,255,.03); cursor: pointer; transition: .2s; white-space: nowrap; }
   .cta:hover { background: var(--accent); color: #05060a; border-color: var(--accent); }
-  @media (max-width: 780px) { .nav-links { display: none; } }
+  /* Sotto i 780px la nav veniva NASCOSTA del tutto. Ma LIVE e l'edizione hanno un
+     pulsante nell'hero, mentre "Archive" e "Only for subscribers" NON ce l'hanno:
+     su iPhone erano semplicemente irraggiungibili. Ora la barra va a capo e le voci
+     restano tutte toccabili su una seconda riga, invece di sparire. */
+  @media (max-width: 780px) {
+    .site-nav { flex-wrap: wrap; row-gap: 9px; padding-top: 10px; padding-bottom: 10px; }
+    .nav-links { order: 3; width: 100%; flex-wrap: wrap; gap: 8px 16px; justify-content: flex-start; }
+    .nav-link { font-size: .68rem; letter-spacing: .05em; }
+  }
 
   .hero { min-height: calc(100vh - 120px); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px 16px 40px; max-width: 1100px; margin: 0 auto; }
   .hero-eyebrow { font-family: var(--mono); font-size: .72rem; letter-spacing: .42em; text-transform: uppercase; color: var(--muted); margin-bottom: 26px; opacity: 0; animation: v2fade 1s ease .2s forwards; }
@@ -342,21 +350,28 @@
   .cs-title { font-family: var(--mono); font-size: .74rem; letter-spacing: .09em;
     text-transform: uppercase; font-weight: 700; color: var(--text); margin-bottom: 5px; }
   .cs-note { font-size: .68rem; line-height: 1.5; color: var(--muted); margin-bottom: 11px; max-width: 92ch; }
-  .cs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  /* minmax(0, ...) e non "1fr" nudo: una traccia 1fr ha minimo implicito auto e non
+     puo' restringersi sotto la larghezza minima del contenuto (le righe usano
+     white-space: nowrap), quindi su iPhone la colonna diventava 404px su uno schermo
+     di 375 e la PAGINA INTERA scorreva in orizzontale: i riquadri sembravano tagliati
+     sul bordo destro. Stesso motivo e stessa cura di .edition-body piu' sopra. */
+  .cs-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; }
   .cs-head { font-family: var(--mono); font-size: .66rem; letter-spacing: .09em;
     text-transform: uppercase; font-weight: 700; padding-bottom: 5px; margin-bottom: 3px;
     border-bottom: 1px solid var(--border); }
   .cs-head.up { color: var(--green-5); } .cs-head.down { color: var(--red-5); }
   .cs-row { display: flex; align-items: baseline; gap: 8px; padding: 3px 0; font-size: .72rem; }
   .cs-sym { font-family: var(--mono); font-weight: 700; flex: 0 0 auto; min-width: 48px; color: var(--text); }
-  .cs-name { flex: 1 1 auto; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  /* min-width: 0 esplicito: senza, il nome (nowrap) impone la propria larghezza
+     minima alla riga e sfonda il contenitore. */
+  .cs-name { flex: 1 1 auto; min-width: 0; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .cs-pct { font-family: var(--mono); font-weight: 700; flex: 0 0 auto; }
   .cs-pct.up { color: var(--green-5); } .cs-pct.down { color: var(--red-5); }
-  @media (max-width: 640px) { .cs-grid { grid-template-columns: 1fr; gap: 10px; } }
+  @media (max-width: 640px) { .cs-grid { grid-template-columns: minmax(0, 1fr); gap: 10px; } }
 
   /* Lista LIVE dei top 10 / worst 10 del MOMENTO (scheda LIVE): stessa fonte dello
      striscione, aggiornata a ogni refresh di live.json. Due colonne compatte. */
-  .live-movers { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 4px 0 34px; }
+  .live-movers { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; margin: 4px 0 34px; }
   .live-movers:empty { display: none; }
   .lm-col { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 12px 15px; }
   .lm-head { font-family: var(--mono); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 700; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
@@ -365,10 +380,10 @@
   .lm-row { display: flex; align-items: baseline; gap: 10px; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,.045); }
   .lm-row:last-child { border-bottom: none; }
   .lm-sym { font-family: var(--mono); font-weight: 700; font-size: .82rem; color: var(--text); flex: 0 0 auto; min-width: 54px; }
-  .lm-name { font-size: .8rem; color: var(--muted); flex: 1 1 auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .lm-name { font-size: .8rem; color: var(--muted); flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .lm-pct { font-family: var(--mono); font-weight: 700; font-size: .84rem; flex: 0 0 auto; }
   .lm-pct.up { color: var(--green-5); } .lm-pct.down { color: var(--red-5); }
-  @media (max-width: 640px) { .live-movers { grid-template-columns: 1fr; gap: 12px; } }
+  @media (max-width: 640px) { .live-movers { grid-template-columns: minmax(0, 1fr); gap: 12px; } }
 
   .market-closed { margin: 28px auto 0; max-width: 54ch; text-align: left; border: 1px solid rgba(255,138,61,.45); border-radius: 12px; background: rgba(255,138,61,.07); padding: 15px 18px; opacity: 0; animation: v2fade .8s ease .1s forwards; }
   .market-closed .mc-title { font-family: var(--mono); font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; color: #ff8a3d; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
@@ -1287,7 +1302,15 @@ renderEditions();
 // quotazioni degli indici, raccolte da un workflow perche' il browser non puo'
 // leggere Yahoo per via del CORS). Tutto degrada con grazia se un pezzo manca.
 (function heroLayer() {
+  // Altezza della barra fissa, MISURATA e non cablata: su mobile la nav va a capo
+  // (vedi la media query 780px in style.css) e diventa piu' alta, quindi un 64 fisso
+  // faceva finire il punto di arrivo dello scroll sotto la barra. Si misura a ogni
+  // scroll, cosi' vale anche se la barra cambia altezza ruotando il telefono.
   var HEADER_H = 64;
+  function headerH() {
+    var n = document.getElementById("siteNav");
+    return n && n.offsetHeight ? n.offsetHeight : HEADER_H;
+  }
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* --- mover del MOMENTO: da live.json se il mercato e' aperto e li ha, altrimenti
@@ -1468,7 +1491,7 @@ renderEditions();
   var initialView = usMarketState().open ? "live" : "edition";
   document.body.setAttribute("data-view", initialView);
 
-  function scrollToEl(sel) { var el = typeof sel === "string" ? document.querySelector(sel) : sel; if (!el) return false; var y = el.getBoundingClientRect().top + window.pageYOffset - HEADER_H - 14; window.scrollTo({ top: y < 0 ? 0 : y, behavior: "smooth" }); return true; }
+  function scrollToEl(sel) { var el = typeof sel === "string" ? document.querySelector(sel) : sel; if (!el) return false; var y = el.getBoundingClientRect().top + window.pageYOffset - headerH() - 14; window.scrollTo({ top: y < 0 ? 0 : y, behavior: "smooth" }); return true; }
   function goLive() { setView("live"); if (!isWeekend) scrollToEl("#liveStrip") || scrollToEl(".only-live"); }
   function goEdition() { closeMcFull(); setView("edition"); scrollToEl(".edition") || scrollToEl("#editionsContent"); }
   function openArchive() { closeMcFull(); setView("edition"); var t = document.getElementById("archiveToggle"); if (t && !document.querySelector(".archive-item")) { t.click(); setTimeout(function () { var n = document.getElementById("archiveToggle"); scrollToEl(n ? n.closest(".section-head") : "#editionsContent"); }, 90); } else { var n2 = document.getElementById("archiveToggle"); scrollToEl(n2 ? n2.closest(".section-head") : "#editionsContent"); } }

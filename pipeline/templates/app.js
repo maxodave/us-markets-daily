@@ -704,7 +704,15 @@ renderEditions();
 // quotazioni degli indici, raccolte da un workflow perche' il browser non puo'
 // leggere Yahoo per via del CORS). Tutto degrada con grazia se un pezzo manca.
 (function heroLayer() {
+  // Altezza della barra fissa, MISURATA e non cablata: su mobile la nav va a capo
+  // (vedi la media query 780px in style.css) e diventa piu' alta, quindi un 64 fisso
+  // faceva finire il punto di arrivo dello scroll sotto la barra. Si misura a ogni
+  // scroll, cosi' vale anche se la barra cambia altezza ruotando il telefono.
   var HEADER_H = 64;
+  function headerH() {
+    var n = document.getElementById("siteNav");
+    return n && n.offsetHeight ? n.offsetHeight : HEADER_H;
+  }
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* --- mover del MOMENTO: da live.json se il mercato e' aperto e li ha, altrimenti
@@ -885,7 +893,7 @@ renderEditions();
   var initialView = usMarketState().open ? "live" : "edition";
   document.body.setAttribute("data-view", initialView);
 
-  function scrollToEl(sel) { var el = typeof sel === "string" ? document.querySelector(sel) : sel; if (!el) return false; var y = el.getBoundingClientRect().top + window.pageYOffset - HEADER_H - 14; window.scrollTo({ top: y < 0 ? 0 : y, behavior: "smooth" }); return true; }
+  function scrollToEl(sel) { var el = typeof sel === "string" ? document.querySelector(sel) : sel; if (!el) return false; var y = el.getBoundingClientRect().top + window.pageYOffset - headerH() - 14; window.scrollTo({ top: y < 0 ? 0 : y, behavior: "smooth" }); return true; }
   function goLive() { setView("live"); if (!isWeekend) scrollToEl("#liveStrip") || scrollToEl(".only-live"); }
   function goEdition() { closeMcFull(); setView("edition"); scrollToEl(".edition") || scrollToEl("#editionsContent"); }
   function openArchive() { closeMcFull(); setView("edition"); var t = document.getElementById("archiveToggle"); if (t && !document.querySelector(".archive-item")) { t.click(); setTimeout(function () { var n = document.getElementById("archiveToggle"); scrollToEl(n ? n.closest(".section-head") : "#editionsContent"); }, 90); } else { var n2 = document.getElementById("archiveToggle"); scrollToEl(n2 ? n2.closest(".section-head") : "#editionsContent"); } }
