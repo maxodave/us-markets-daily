@@ -51,10 +51,16 @@ Uso:
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 import weekend_edition
 from mover_reason import pick_reason
+
+# Il fuso della borsa. Una seduta ha una data sola solo se la si guarda da New
+# York: in UTC la chiusura estiva cade alle 20:00 e quella invernale alle 21:00,
+# e un job che gira dopo la mezzanotte italiana vede gia' il giorno dopo.
+NY_TZ = ZoneInfo("America/New_York")
 
 DATA_FILE = "data.json"
 FEED_FILE = "feed_news.json"
@@ -384,7 +390,71 @@ def load_weekend_summary(edition_date: str) -> dict | None:
     return ws if ws.get("edition_date") == edition_date else None
 
 
-def load_live_close_movers(session_date: str, previous: dict | None) -> dict | None:
+def session_of_capture(captured_at: str) -> str | None:
+    """La seduta a cui appartiene una foto, dal suo istante di scrittura.
+
+    Una foto scritta DOPO la campana e PRIMA dell'apertura successiva contiene i
+    valori di chiusura di quella seduta: dopo la mezzanotte di New York la data
+    del calendario cambia, la seduta fotografata no. Serve per etichettare le
+    foto vecchie che non portano con se' la propria seduta.
+    """
+    try:
+        ny = (datetime.strptime(captured_at, "%Y-%m-%dT%H:%M:%SZ")
+              .replace(tzinfo=timezone.utc).astimezone(NY_TZ))
+    except (TypeError, ValueError):
+        return None
+    # Prima della campana appartiene alla seduta precedente; dopo, a quella di oggi.
+    d = ny.date() if ny.hour * 60 + ny.minute >= 16 * 60 else ny.date() - timedelta(days=1)
+    while d.weekday() >= 5:            # sabato/domenica: la seduta e' il venerdi'
+        d -= timedelta(days=1)
+    return d.strftime("%Y-%m-%d")
+
+
+def capture_window(session_date: str) -> tuple[datetime, datetime] | None:
+    """La finestra, in ora di New York, in cui live.json contiene ancora la
+    CHIUSURA di `session_date`: dalla campana (16:00) all'apertura della seduta
+    successiva (09:30 del primo giorno feriale dopo). Fuori da quella finestra la
+    lista LIVE o non ha ancora chiuso, o ha gia' ricominciato a muoversi.
+    """
+    try:
+        d = datetime.strptime(session_date, "%Y-%m-%d").date()
+    except (TypeError, ValueError):
+        return None
+    nxt = d + timedelta(days=1)
+    while nxt.weekday() >= 5:
+        nxt += timedelta(days=1)
+    return (datetime(d.year, d.month, d.day, 16, 0, tzinfo=NY_TZ),
+            datetime(nxt.year, nxt.month, nxt.day, 9, 30, tzinfo=NY_TZ))
+
+
+def snapshot_from_archive(editions_dir: str, edition_date: str) -> dict | None:
+    """La foto di chiusura piu' recente presente in ARCHIVIO.
+
+    Ultima rete perche' l'edizione non esca mai senza la tabella di chiusura. La
+    foto porta con se' la propria seduta (`session_date`), quindi la pagina puo'
+    dire a quale chiusura si riferisce: una foto piu' vecchia non e' una bugia,
+    lo sarebbe spacciarla per quella di stasera.
+    """
+    try:
+        names = sorted(n[: -len(".json")] for n in os.listdir(editions_dir) if n.endswith(".json"))
+    except FileNotFoundError:
+        return None
+    for name in reversed([n for n in names if n < edition_date]):
+        try:
+            with open(os.path.join(editions_dir, f"{name}.json"), encoding="utf-8") as f:
+                snap = json.load(f).get("live_close_movers")
+        except (ValueError, OSError):
+            continue
+        if snap and (snap.get("gainers") or snap.get("losers")):
+            if not snap.get("session_date"):
+                snap["session_date"] = session_of_capture(snap.get("captured_at"))
+            return snap
+    return None
+
+
+def load_live_close_movers(session_date: str, previous: dict | None,
+                           editions_dir: str = EDITIONS_DIR,
+                           edition_date: str | None = None) -> dict | None:
     """Lo SNAPSHOT DI CHIUSURA della lista LIVE: i top 10 / worst 10 di tutto il
     mercato USA cosi' come stavano quando Wall Street ha chiuso.
 
@@ -393,39 +463,63 @@ def load_live_close_movers(session_date: str, previous: dict | None) -> dict | N
     ultima lista della giornata E' la classifica di chiusura: senza congelarla qui,
     quella foto si perde: LIVE la sovrascrive appena riapre la borsa il giorno dopo.
 
-    Si accetta solo una foto DAVVERO di chiusura e DAVVERO di questa seduta:
+    Si accetta solo una foto DAVVERO di chiusura:
       - live.json deve avere i mover (se Yahoo aveva risposto male non ci sono);
       - "market_open" deve essere FALSO: a mercati aperti sarebbe un intraday, e
         chiamarlo "alla chiusura" sarebbe scrivere una cosa non vera;
-      - la data di "updated", letta in ora di New York (dove la seduta ha una data
-        sola), deve essere quella della seduta raccontata dall'edizione.
-    Se una condizione non regge si tiene lo snapshot che l'edizione aveva GIA':
-    rigenerare l'edizione il giorno dopo (cosa che capita spesso) non deve
-    cancellare la foto di ieri sera.
+      - "updated" deve cadere nella FINESTRA di chiusura della seduta raccontata,
+        cioe' tra la campana e l'apertura successiva (vedi capture_window).
+
+    PERCHE' UNA FINESTRA E NON UN CONFRONTO DI DATE (corretto il 28 agosto 2026).
+    Prima si pretendeva che la data di "updated", letta a New York, fosse identica
+    a `session_date`. Regge solo se il job dell'edizione gira la sera; ma GitHub
+    consegna gli schedule anche con ore di ritardo, e in quella settimana il job
+    delle 21:30 UTC e' partito una volta alle 00:59 e una alle 05:33 — cioe' dopo
+    la mezzanotte di New York. In quel momento "updated" portava il giorno DOPO, il
+    confronto falliva, l'edizione nasceva senza foto, e non essendoci un file
+    precedente da cui ereditarla la foto era persa per sempre: e' esattamente cosa
+    era accaduto all'edizione del 28 agosto, che aveva perso la chiusura del 27
+    (OKTA +28,63%, primo di tutto il mercato e fuori dai tre indici — cioe' il
+    titolo per cui questa tabella esiste). La domanda giusta non e' "in che giorno
+    e' stata scritta la foto" ma "la foto contiene la chiusura di questa seduta":
+    e la risposta e' la finestra campana -> apertura successiva. Come effetto
+    secondario regge anche se qualcuno riscrive live.json nella notte con gli
+    stessi numeri, che e' l'altro modo in cui la foto si perdeva.
+
+    Se nessuna condizione regge si ripiega, in ordine: sullo snapshot che
+    l'edizione aveva GIA' (rigenerarla il giorno dopo non deve cancellare la foto
+    di ieri sera), poi sulla foto piu' recente in archivio. Cosi' la tabella di
+    chiusura non manca mai, ed e' sempre etichettata con la seduta che ritrae.
     """
+    fallback = previous or snapshot_from_archive(editions_dir, edition_date or session_date)
+
     try:
         with open(LIVE_FILE, encoding="utf-8") as f:
             live = json.load(f)
     except (FileNotFoundError, ValueError, OSError):
-        return previous
+        return fallback
 
     movers = live.get("movers") or {}
     if not (movers.get("gainers") or movers.get("losers")):
-        return previous
+        return fallback
     if live.get("market_open"):
-        return previous  # intraday, non una chiusura
+        return fallback  # intraday, non una chiusura
 
+    window = capture_window(session_date)
+    if not window:
+        return fallback
     try:
-        from zoneinfo import ZoneInfo
-
         updated = datetime.strptime(live["updated"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-        if updated.astimezone(ZoneInfo("America/New_York")).strftime("%Y-%m-%d") != session_date:
-            return previous  # foto di un'altra seduta
     except (KeyError, ValueError):
-        return previous
+        return fallback
+    if not (window[0] <= updated.astimezone(NY_TZ) < window[1]):
+        return fallback  # foto di un'altra seduta
 
     return {
         "captured_at": live["updated"],
+        # La seduta ritratta, dentro la foto: cosi' resta leggibile anche quando la
+        # foto viene ereditata da un'edizione precedente, e la pagina puo' dirlo.
+        "session_date": session_date,
         "universe": movers.get("universe"),
         "gainers": movers.get("gainers", []),
         "losers": movers.get("losers", []),
@@ -666,7 +760,12 @@ def main():
                 prev_snapshot = json.load(f).get("live_close_movers")
         except (ValueError, OSError):
             prev_snapshot = None
-    snapshot = load_live_close_movers(session_date, prev_snapshot)
+        # Le foto scritte prima del 28 agosto 2026 non portano la propria seduta:
+        # si ricava dall'istante di scrittura, altrimenti la pagina non saprebbe
+        # che chiusura sta mostrando.
+        if prev_snapshot and not prev_snapshot.get("session_date"):
+            prev_snapshot["session_date"] = session_of_capture(prev_snapshot.get("captured_at"))
+    snapshot = load_live_close_movers(session_date, prev_snapshot, EDITIONS_DIR, edition_date)
     if snapshot:
         edition["live_close_movers"] = snapshot
 

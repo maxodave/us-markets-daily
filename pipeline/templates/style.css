@@ -345,7 +345,14 @@
   .close-snapshot { border: 1px solid var(--border); background: var(--panel);
     border-radius: 12px; padding: 14px 16px; margin: 0 0 34px; }
   .cs-title { font-family: var(--mono); font-size: .74rem; letter-spacing: .09em;
-    text-transform: uppercase; font-weight: 700; color: var(--text); margin-bottom: 5px; }
+    text-transform: uppercase; font-weight: 700; color: var(--text); margin-bottom: 5px;
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+  /* La seduta ritratta dalla foto: sempre presente, perche' da quando la foto puo'
+     essere ereditata da un'edizione precedente il titolo da solo non basta a dire
+     di che chiusura si tratta. Tono spento: e' una didascalia, non un secondo
+     titolo. Il separatore e' un punto medio, cosi' regge anche andando a capo. */
+  .cs-when { font-weight: 400; color: var(--muted); text-transform: none; letter-spacing: .03em; }
+  .cs-when::before { content: "· "; }
   .cs-note { font-size: .68rem; line-height: 1.5; color: var(--muted); margin-bottom: 11px; max-width: 92ch; }
   /* minmax(0, ...) e non "1fr" nudo: una traccia 1fr ha minimo implicito auto e non
      puo' restringersi sotto la larghezza minima del contenuto (le righe usano

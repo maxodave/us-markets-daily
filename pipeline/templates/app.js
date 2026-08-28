@@ -38,6 +38,8 @@ const I18N = {
     liveMoversNow: "now",
     liveMoversClose: "last close",
     csTitle: "At the closing bell — whole US market",
+    csSession: "session of",
+    csOlder: "This is the most recent closing photo available: the LIVE list had none for the session above, so the last one is kept rather than leaving the table out — the date beside the title is the session it shows.",
     csNote: "Snapshot of the LIVE list taken when Wall Street closed: the entire liquid US market, not just the three indices above, so a name absent from the session ranking can appear here. Frozen until the next edition.",
     scTitle: "Session closed",
     scBody: "Wall Street has rung the closing bell. Today's edition, with the figures of the session that just ended, is published at",
@@ -99,6 +101,8 @@ const I18N = {
     liveMoversNow: "ora",
     liveMoversClose: "ultima chiusura",
     csTitle: "Alla campana di chiusura — tutto il mercato USA",
+    csSession: "seduta del",
+    csOlder: "Questa e' la foto di chiusura piu' recente disponibile: per la seduta qui sopra la lista LIVE non ne aveva una, quindi si tiene l'ultima invece di lasciare la tabella fuori — la data accanto al titolo e' la seduta che mostra.",
     csNote: "Foto della lista LIVE al momento della chiusura di Wall Street: tutto il mercato USA liquido, non solo i tre indici qui sopra, quindi un titolo assente dalla classifica di seduta puo' comparire qui. Resta ferma fino all'edizione successiva.",
     scTitle: "Seduta chiusa",
     scBody: "Wall Street ha suonato la campana di chiusura. L'edizione di oggi, con i numeri della seduta appena conclusa, viene pubblicata alle",
@@ -543,12 +547,33 @@ function moverNewsHtml(ed, lang) {
 // resta ferma fino all'edizione dopo. Non sostituisce i "Migliori/Peggiori della
 // seduta": quelli sono i tre indici, chiusura su chiusura; questa e' tutto il
 // mercato, e le due liste possono legittimamente non coincidere.
+/* La data della foto di chiusura, scritta per esteso. La foto porta la propria
+   seduta in forma ISO (le due lingue non hanno un campo precalcolato come
+   l'edizione, perche' la foto puo' venire da un'edizione diversa da questa). */
+function isoDateLabel(iso, lang) {
+  const p = String(iso || "").split("-");
+  if (p.length !== 3) return "";
+  try {
+    return new Intl.DateTimeFormat(lang === "en" ? "en-GB" : "it-IT",
+      { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })
+      .format(new Date(Date.UTC(+p[0], +p[1] - 1, +p[2])));
+  } catch (e) { return iso; }
+}
+
 function liveCloseBox(ed, lang) {
   const snap = ed.live_close_movers;
   if (!snap) return "";
   const gainers = snap.gainers || [], losers = snap.losers || [];
   if (!gainers.length && !losers.length) return "";
   const t = I18N[lang];
+  /* SEMPRE la seduta ritratta, nel titolo. Non e' un ornamento: da quando la foto
+     puo' essere EREDITATA da un'edizione precedente (build_edition.py la tiene
+     invece di lasciare l'edizione senza tabella), il lettore deve poter vedere di
+     che chiusura si tratta. Se e' una seduta diversa da quella raccontata
+     dall'edizione, la nota lo dice a parole. */
+  const snapSession = snap.session_date || "";
+  const when = isoDateLabel(snapSession, lang);
+  const older = !!(snapSession && ed.session_date && snapSession !== ed.session_date);
   const col = (label, list, dir) => {
     const rows = list.map(m => {
       const cls = m.pct >= 0 ? "up" : "down";
@@ -559,8 +584,8 @@ function liveCloseBox(ed, lang) {
     return `<div class="cs-col"><div class="cs-head ${dir}">${esc(label)}</div>${rows}</div>`;
   };
   return `<div class="close-snapshot">
-      <div class="cs-title">${esc(t.csTitle)}</div>
-      <div class="cs-note">${esc(t.csNote)}</div>
+      <div class="cs-title">${esc(t.csTitle)}${when ? `<span class="cs-when">${esc(t.csSession)} ${esc(when)}</span>` : ""}</div>
+      <div class="cs-note">${esc(t.csNote)}${older ? " " + esc(t.csOlder) : ""}</div>
       <div class="cs-grid">
         ${col(t.liveMoversTop, gainers, "up")}
         ${col(t.liveMoversWorst, losers, "down")}
