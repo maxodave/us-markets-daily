@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-28T16:07:08Z",
+  "updated": "2026-08-28T16:22:58Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.0,
-      "last": 7730.41
+      "pct": -0.2,
+      "last": 7714.73
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.45,
-      "last": 29508.98
+      "pct": -0.7,
+      "last": 29434.01
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.22,
-      "last": 53678.86
+      "pct": -0.04,
+      "last": 53540.47
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ESTC",
         "name": "Elastic N.V.",
-        "pct": 18.53
+        "pct": 17.99
       },
       {
         "symbol": "SOLS",
         "name": "Solstice Advanced Materials Inc.",
-        "pct": 15.36
+        "pct": 14.77
       },
       {
         "symbol": "GAP",
         "name": "Gap, Inc. (The)",
-        "pct": 13.56
+        "pct": 12.94
       },
       {
         "symbol": "WDAY",
         "name": "Workday, Inc.",
-        "pct": 6.78
-      },
-      {
-        "symbol": "AFRM",
-        "name": "Affirm Holdings, Inc.",
-        "pct": 6.63
+        "pct": 7.11
       },
       {
         "symbol": "DPZ",
         "name": "Domino's Pizza Inc",
-        "pct": 5.73
+        "pct": 5.4
       },
       {
         "symbol": "ACM",
         "name": "AECOM",
-        "pct": 5.67
+        "pct": 4.94
       },
       {
-        "symbol": "TEAM",
-        "name": "Atlassian Corporation",
-        "pct": 4.71
+        "symbol": "AFRM",
+        "name": "Affirm Holdings, Inc.",
+        "pct": 4.74
+      },
+      {
+        "symbol": "WEN",
+        "name": "Wendy's Company (The)",
+        "pct": 4.54
       },
       {
         "symbol": "CHKP",
         "name": "Check Point Software Technologies Ltd.",
-        "pct": 4.69
+        "pct": 4.5
       },
       {
-        "symbol": "SPOT",
-        "name": "Spotify Technology S.A.",
-        "pct": 4.58
+        "symbol": "TEAM",
+        "name": "Atlassian Corporation",
+        "pct": 4.43
       }
     ],
     "losers": [
       {
         "symbol": "VISN",
         "name": "Vistance Networks, Inc.",
-        "pct": -46.82
+        "pct": -47.6
       },
       {
         "symbol": "DAIC",
         "name": "CID HoldCo, Inc.",
-        "pct": -18.32
+        "pct": -17.01
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": -12.57
+        "pct": -12.98
+      },
+      {
+        "symbol": "BRUN",
+        "name": "Boost Run Inc.",
+        "pct": -12.93
       },
       {
         "symbol": "UMAC",
         "name": "Unusual Machines, Inc.",
-        "pct": -11.86
+        "pct": -12.32
       },
       {
         "symbol": "PYPL",
         "name": "PayPal Holdings, Inc.",
-        "pct": -11.84
+        "pct": -12.31
       },
       {
         "symbol": "RBRK",
         "name": "Rubrik, Inc.",
-        "pct": -11.25
+        "pct": -11.66
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -10.66
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": -10.02
+        "pct": -10.64
       },
       {
         "symbol": "INFQ",
         "name": "Infleqtion, Inc.",
-        "pct": -9.99
+        "pct": -10.44
       },
       {
         "symbol": "MRVL",
         "name": "Marvell Technology, Inc.",
-        "pct": -9.94
+        "pct": -10.24
       }
     ],
     "universe": 1232
