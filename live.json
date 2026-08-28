@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-28T18:14:04Z",
+  "updated": "2026-08-28T18:30:03Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.23,
-      "last": 7712.6
+      "pct": -0.29,
+      "last": 7708.06
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.65,
-      "last": 29448.23
+      "pct": -0.73,
+      "last": 29426.65
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.03,
-      "last": 53547.06
+      "pct": -0.08,
+      "last": 53516.96
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ESTC",
         "name": "Elastic N.V.",
-        "pct": 20.47
-      },
-      {
-        "symbol": "SOLS",
-        "name": "Solstice Advanced Materials Inc.",
-        "pct": 13.65
+        "pct": 21.3
       },
       {
         "symbol": "GAP",
         "name": "Gap, Inc. (The)",
-        "pct": 12.43
+        "pct": 13.06
+      },
+      {
+        "symbol": "SOLS",
+        "name": "Solstice Advanced Materials Inc.",
+        "pct": 13.03
       },
       {
         "symbol": "DKNG",
         "name": "DraftKings Inc.",
-        "pct": 9.37
+        "pct": 8.2
       },
       {
         "symbol": "FLUT",
         "name": "Flutter Entertainment plc",
-        "pct": 7.06
-      },
-      {
-        "symbol": "WDAY",
-        "name": "Workday, Inc.",
-        "pct": 6.48
+        "pct": 7.02
       },
       {
         "symbol": "DPZ",
         "name": "Domino's Pizza Inc",
-        "pct": 5.84
+        "pct": 6.0
+      },
+      {
+        "symbol": "WDAY",
+        "name": "Workday, Inc.",
+        "pct": 5.41
       },
       {
         "symbol": "ACM",
         "name": "AECOM",
-        "pct": 5.48
-      },
-      {
-        "symbol": "CHDN",
-        "name": "Churchill Downs, Incorporated",
-        "pct": 4.61
+        "pct": 5.23
       },
       {
         "symbol": "NOW",
         "name": "ServiceNow, Inc.",
-        "pct": 4.56
+        "pct": 4.96
+      },
+      {
+        "symbol": "CHDN",
+        "name": "Churchill Downs, Incorporated",
+        "pct": 4.93
       }
     ],
     "losers": [
       {
         "symbol": "VISN",
         "name": "Vistance Networks, Inc.",
-        "pct": -47.21
+        "pct": -47.46
       },
       {
         "symbol": "DAIC",
         "name": "CID HoldCo, Inc.",
-        "pct": -16.23
+        "pct": -16.53
       },
       {
         "symbol": "BRUN",
         "name": "Boost Run Inc.",
-        "pct": -15.53
+        "pct": -16.01
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": -13.68
-      },
-      {
-        "symbol": "PYPL",
-        "name": "PayPal Holdings, Inc.",
-        "pct": -12.43
-      },
-      {
-        "symbol": "UMAC",
-        "name": "Unusual Machines, Inc.",
-        "pct": -12.21
-      },
-      {
-        "symbol": "RBRK",
-        "name": "Rubrik, Inc.",
-        "pct": -11.97
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -11.77
+        "pct": -13.3
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -11.34
+        "pct": -13.01
       },
       {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": -10.58
+        "symbol": "PYPL",
+        "name": "PayPal Holdings, Inc.",
+        "pct": -12.54
+      },
+      {
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -12.14
+      },
+      {
+        "symbol": "RBRK",
+        "name": "Rubrik, Inc.",
+        "pct": -11.92
+      },
+      {
+        "symbol": "UMAC",
+        "name": "Unusual Machines, Inc.",
+        "pct": -11.77
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "pct": -10.35
       }
     ],
     "universe": 1232
