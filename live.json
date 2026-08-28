@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T05:41:16Z",
+  "updated": "2026-08-28T05:56:49Z",
   "market_open": false,
   "indices": [
     {
@@ -30,6 +30,11 @@
   "movers": {
     "gainers": [
       {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": 34.95
+      },
+      {
         "symbol": "OKTA",
         "name": "Okta, Inc.",
         "pct": 28.63
@@ -55,6 +60,11 @@
         "pct": 13.39
       },
       {
+        "symbol": "BRUN",
+        "name": "Boost Run Inc.",
+        "pct": 13.3
+      },
+      {
         "symbol": "FIG",
         "name": "Figma, Inc.",
         "pct": 13.28
@@ -65,31 +75,21 @@
         "pct": 12.83
       },
       {
-        "symbol": "FROG",
-        "name": "JFrog Ltd.",
-        "pct": 12.1
-      },
-      {
-        "symbol": "DAIC",
-        "name": "CID HoldCo, Inc.",
-        "pct": 11.84
-      },
-      {
-        "symbol": "TENB",
-        "name": "Tenable Holdings, Inc.",
-        "pct": 11.76
+        "symbol": "SAIL",
+        "name": "SailPoint, Inc.",
+        "pct": 12.24
       }
     ],
     "losers": [
       {
-        "symbol": "CRE",
-        "name": "Cre8 Enterprise Limited",
-        "pct": -13.36
+        "symbol": "BBW",
+        "name": "Build-A-Bear Workshop, Inc.",
+        "pct": -27.26
       },
       {
-        "symbol": "XPON",
-        "name": "Expion360 Inc.",
-        "pct": -13.09
+        "symbol": "WEN",
+        "name": "Wendy's Company (The)",
+        "pct": -13.5
       },
       {
         "symbol": "HQY",
@@ -102,9 +102,9 @@
         "pct": -10.25
       },
       {
-        "symbol": "WSHP",
-        "name": "WeShop Holdings Limited",
-        "pct": -9.3
+        "symbol": "PAY",
+        "name": "Paymentus Holdings, Inc.",
+        "pct": -9.69
       },
       {
         "symbol": "P",
@@ -132,6 +132,6 @@
         "pct": -6.36
       }
     ],
-    "universe": 1221
+    "universe": 1232
   }
 }
