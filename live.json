@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-28T15:35:06Z",
+  "updated": "2026-08-28T15:51:18Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.42,
-      "last": 7762.89
+      "pct": 0.13,
+      "last": 7739.98
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.23,
-      "last": 29709.17
+      "pct": -0.25,
+      "last": 29568.01
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.34,
-      "last": 53742.35
+      "pct": 0.19,
+      "last": 53662.77
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.84,
-      "last": 52698.13
+      "pct": 0.67,
+      "last": 52613.53
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ESTC",
         "name": "Elastic N.V.",
-        "pct": 18.64
+        "pct": 18.86
       },
       {
         "symbol": "SOLS",
         "name": "Solstice Advanced Materials Inc.",
-        "pct": 14.71
+        "pct": 15.32
       },
       {
         "symbol": "GAP",
         "name": "Gap, Inc. (The)",
-        "pct": 12.99
-      },
-      {
-        "symbol": "AFRM",
-        "name": "Affirm Holdings, Inc.",
-        "pct": 7.7
-      },
-      {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": 5.48
+        "pct": 13.3
       },
       {
         "symbol": "WDAY",
         "name": "Workday, Inc.",
-        "pct": 5.42
+        "pct": 5.85
       },
       {
-        "symbol": "BBWI",
-        "name": "Bath & Body Works, Inc.",
-        "pct": 4.96
+        "symbol": "AFRM",
+        "name": "Affirm Holdings, Inc.",
+        "pct": 5.82
       },
       {
-        "symbol": "TEAM",
-        "name": "Atlassian Corporation",
-        "pct": 4.93
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "pct": 5.46
       },
       {
-        "symbol": "NOW",
-        "name": "ServiceNow, Inc.",
-        "pct": 4.87
+        "symbol": "DPZ",
+        "name": "Domino's Pizza Inc",
+        "pct": 5.35
       },
       {
-        "symbol": "WAY",
-        "name": "Waystar Holding Corp.",
-        "pct": 4.87
+        "symbol": "SGI",
+        "name": "Somnigroup International Inc.",
+        "pct": 4.83
+      },
+      {
+        "symbol": "VSNT",
+        "name": "Versant Media Group, Inc.",
+        "pct": 4.81
+      },
+      {
+        "symbol": "SPOT",
+        "name": "Spotify Technology S.A.",
+        "pct": 4.64
       }
     ],
     "losers": [
       {
         "symbol": "VISN",
         "name": "Vistance Networks, Inc.",
-        "pct": -45.87
+        "pct": -46.69
       },
       {
         "symbol": "DAIC",
         "name": "CID HoldCo, Inc.",
-        "pct": -15.97
-      },
-      {
-        "symbol": "PYPL",
-        "name": "PayPal Holdings, Inc.",
-        "pct": -11.44
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -10.92
+        "pct": -19.44
       },
       {
         "symbol": "UMAC",
         "name": "Unusual Machines, Inc.",
-        "pct": -10.46
+        "pct": -12.13
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -12.05
+      },
+      {
+        "symbol": "PYPL",
+        "name": "PayPal Holdings, Inc.",
+        "pct": -11.46
       },
       {
         "symbol": "RBRK",
         "name": "Rubrik, Inc.",
-        "pct": -9.85
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -9.8
+        "pct": -10.34
       },
       {
         "symbol": "BRUN",
         "name": "Boost Run Inc.",
-        "pct": -9.61
-      },
-      {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": -9.11
+        "pct": -10.29
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -8.39
+        "pct": -9.94
+      },
+      {
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": -9.64
+      },
+      {
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": -9.35
       }
     ],
     "universe": 1232
