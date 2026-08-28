@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-28T19:01:46Z",
+  "updated": "2026-08-28T19:17:41Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.33,
-      "last": 7704.89
+      "pct": -0.28,
+      "last": 7708.26
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.81,
-      "last": 29401.91
+      "pct": -0.78,
+      "last": 29410.94
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.06,
-      "last": 53531.0
+      "pct": 0.02,
+      "last": 53574.21
     },
     {
       "key": "ftsemib",
@@ -32,42 +32,42 @@
       {
         "symbol": "ESTC",
         "name": "Elastic N.V.",
-        "pct": 19.81
+        "pct": 19.61
       },
       {
         "symbol": "GAP",
         "name": "Gap, Inc. (The)",
-        "pct": 13.56
+        "pct": 14.21
       },
       {
         "symbol": "SOLS",
         "name": "Solstice Advanced Materials Inc.",
-        "pct": 12.29
+        "pct": 12.62
       },
       {
         "symbol": "FLUT",
         "name": "Flutter Entertainment plc",
-        "pct": 7.45
-      },
-      {
-        "symbol": "DKNG",
-        "name": "DraftKings Inc.",
-        "pct": 6.44
+        "pct": 6.6
       },
       {
         "symbol": "WDAY",
         "name": "Workday, Inc.",
-        "pct": 5.93
+        "pct": 6.22
       },
       {
         "symbol": "DPZ",
         "name": "Domino's Pizza Inc",
-        "pct": 5.87
+        "pct": 6.05
       },
       {
-        "symbol": "BBW",
-        "name": "Build-A-Bear Workshop, Inc.",
-        "pct": 5.49
+        "symbol": "DKNG",
+        "name": "DraftKings Inc.",
+        "pct": 5.97
+      },
+      {
+        "symbol": "ACM",
+        "name": "AECOM",
+        "pct": 5.53
       },
       {
         "symbol": "WEN",
@@ -77,59 +77,59 @@
       {
         "symbol": "DAR",
         "name": "Darling Ingredients Inc.",
-        "pct": 4.81
+        "pct": 4.9
       }
     ],
     "losers": [
       {
         "symbol": "VISN",
         "name": "Vistance Networks, Inc.",
-        "pct": -47.38
+        "pct": -47.59
       },
       {
         "symbol": "DAIC",
         "name": "CID HoldCo, Inc.",
-        "pct": -17.88
+        "pct": -17.97
       },
       {
         "symbol": "BRUN",
         "name": "Boost Run Inc.",
-        "pct": -16.55
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -13.5
+        "pct": -17.47
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -13.39
+        "pct": -13.95
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -13.26
+        "pct": -13.75
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -13.18
       },
       {
         "symbol": "PYPL",
         "name": "PayPal Holdings, Inc.",
-        "pct": -12.62
+        "pct": -12.73
       },
       {
         "symbol": "RBRK",
         "name": "Rubrik, Inc.",
-        "pct": -12.28
+        "pct": -11.94
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -11.67
+        "pct": -11.92
       },
       {
-        "symbol": "MRVL",
-        "name": "Marvell Technology, Inc.",
-        "pct": -10.6
+        "symbol": "CRML",
+        "name": "Critical Metals Corp.",
+        "pct": -11.81
       }
     ],
     "universe": 1232
