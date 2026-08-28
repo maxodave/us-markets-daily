@@ -1,30 +1,30 @@
 {
-  "updated": "2026-08-28T15:51:18Z",
+  "updated": "2026-08-28T16:07:08Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.13,
-      "last": 7739.98
+      "pct": 0.0,
+      "last": 7730.41
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.25,
-      "last": 29568.01
+      "pct": -0.45,
+      "last": 29508.98
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.19,
-      "last": 53662.77
+      "pct": 0.22,
+      "last": 53678.86
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.67,
-      "last": 52613.53
+      "pct": 0.68,
+      "last": 52616.12
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ESTC",
         "name": "Elastic N.V.",
-        "pct": 18.86
+        "pct": 18.53
       },
       {
         "symbol": "SOLS",
         "name": "Solstice Advanced Materials Inc.",
-        "pct": 15.32
+        "pct": 15.36
       },
       {
         "symbol": "GAP",
         "name": "Gap, Inc. (The)",
-        "pct": 13.3
+        "pct": 13.56
       },
       {
         "symbol": "WDAY",
         "name": "Workday, Inc.",
-        "pct": 5.85
+        "pct": 6.78
       },
       {
         "symbol": "AFRM",
         "name": "Affirm Holdings, Inc.",
-        "pct": 5.82
-      },
-      {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": 5.46
+        "pct": 6.63
       },
       {
         "symbol": "DPZ",
         "name": "Domino's Pizza Inc",
-        "pct": 5.35
+        "pct": 5.73
       },
       {
-        "symbol": "SGI",
-        "name": "Somnigroup International Inc.",
-        "pct": 4.83
+        "symbol": "ACM",
+        "name": "AECOM",
+        "pct": 5.67
       },
       {
-        "symbol": "VSNT",
-        "name": "Versant Media Group, Inc.",
-        "pct": 4.81
+        "symbol": "TEAM",
+        "name": "Atlassian Corporation",
+        "pct": 4.71
+      },
+      {
+        "symbol": "CHKP",
+        "name": "Check Point Software Technologies Ltd.",
+        "pct": 4.69
       },
       {
         "symbol": "SPOT",
         "name": "Spotify Technology S.A.",
-        "pct": 4.64
+        "pct": 4.58
       }
     ],
     "losers": [
       {
         "symbol": "VISN",
         "name": "Vistance Networks, Inc.",
-        "pct": -46.69
+        "pct": -46.82
       },
       {
         "symbol": "DAIC",
         "name": "CID HoldCo, Inc.",
-        "pct": -19.44
-      },
-      {
-        "symbol": "UMAC",
-        "name": "Unusual Machines, Inc.",
-        "pct": -12.13
+        "pct": -18.32
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": -12.05
+        "pct": -12.57
+      },
+      {
+        "symbol": "UMAC",
+        "name": "Unusual Machines, Inc.",
+        "pct": -11.86
       },
       {
         "symbol": "PYPL",
         "name": "PayPal Holdings, Inc.",
-        "pct": -11.46
+        "pct": -11.84
       },
       {
         "symbol": "RBRK",
         "name": "Rubrik, Inc.",
-        "pct": -10.34
-      },
-      {
-        "symbol": "BRUN",
-        "name": "Boost Run Inc.",
-        "pct": -10.29
+        "pct": -11.25
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -9.94
-      },
-      {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": -9.64
+        "pct": -10.66
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -9.35
+        "pct": -10.02
+      },
+      {
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": -9.99
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "pct": -9.94
       }
     ],
     "universe": 1232
