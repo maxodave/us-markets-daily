@@ -440,15 +440,20 @@ def snapshot_from_archive(editions_dir: str, edition_date: str) -> dict | None:
     except FileNotFoundError:
         return None
     for name in reversed([n for n in names if n < edition_date]):
+        # "except Exception" e non le sole eccezioni di I/O: questa funzione gira
+        # dentro il job notturno, senza nessuno che guardi, e un file di archivio
+        # malformato non deve far fallire l'edizione — l'alternativa e' una foto
+        # mancante, non un sito mancante. Stessa scelta di previous_edition().
         try:
             with open(os.path.join(editions_dir, f"{name}.json"), encoding="utf-8") as f:
                 snap = json.load(f).get("live_close_movers")
-        except (ValueError, OSError):
-            continue
-        if snap and (snap.get("gainers") or snap.get("losers")):
+            if not isinstance(snap, dict) or not (snap.get("gainers") or snap.get("losers")):
+                continue
             if not snap.get("session_date"):
                 snap["session_date"] = session_of_capture(snap.get("captured_at"))
             return snap
+        except Exception:
+            continue
     return None
 
 
@@ -763,7 +768,9 @@ def main():
         # Le foto scritte prima del 28 agosto 2026 non portano la propria seduta:
         # si ricava dall'istante di scrittura, altrimenti la pagina non saprebbe
         # che chiusura sta mostrando.
-        if prev_snapshot and not prev_snapshot.get("session_date"):
+        if not isinstance(prev_snapshot, dict):
+            prev_snapshot = None
+        elif not prev_snapshot.get("session_date"):
             prev_snapshot["session_date"] = session_of_capture(prev_snapshot.get("captured_at"))
     snapshot = load_live_close_movers(session_date, prev_snapshot, EDITIONS_DIR, edition_date)
     if snapshot:
