@@ -25,8 +25,19 @@ import json
 import os
 import sys
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 import yfinance as yf
+
+# Fuso della borsa: lo stato "aperto/chiuso" si calcola QUI, non in UTC. La
+# versione precedente confrontava l'ora UTC con 13:30-20:00 cablate, cioe' la
+# finestra dell'ora legale: da novembre a marzo (New York UTC-5) la borsa apriva
+# alle 14:30 UTC e il file diceva "chiusa" per la prima ora di seduta, poi
+# "aperta" per un'ora dopo la campana. Con il fuso vero il cambio d'ora si
+# gestisce da se', come fa gia' il browser nella pagina.
+NY_TZ = ZoneInfo("America/New_York")
+MARKET_OPEN_MIN = 9 * 60 + 30    # 09:30 ET
+MARKET_CLOSE_MIN = 16 * 60       # 16:00 ET
 
 # Simboli Yahoo dei quattro indici mostrati nella striscia LIVE.
 INDICES = [
@@ -160,6 +171,36 @@ def compute_movers(universe: list[dict]) -> dict | None:
     return {"gainers": gainers, "losers": losers, "universe": len(rows)}
 
 
+def us_market_open(now_utc: datetime) -> bool:
+    """Borsa USA aperta adesso? Calcolato in ora di New York, quindi giusto anche
+    d'inverno. Euristica solo per l'etichetta: i giorni di festa non sono nel
+    calendario, e lo stato che la pagina mostra lo ricalcola comunque il browser."""
+    ny = now_utc.astimezone(NY_TZ)
+    if ny.weekday() >= 5:
+        return False
+    mins = ny.hour * 60 + ny.minute
+    return MARKET_OPEN_MIN <= mins < MARKET_CLOSE_MIN
+
+
+def payload_unchanged(path: str, data: dict) -> bool:
+    """I dati sono identici a quelli gia' su disco, a parte l'orario di scrittura?
+
+    Serve a non riscrivere il file per niente. Il campo "updated" cambia a ogni
+    run per definizione, quindi il workflow vedeva SEMPRE una modifica e
+    committava a ogni giro: a mercati chiusi voleva dire decine di commit con gli
+    stessi numeri, e altrettante ripubblicazioni di GitHub Pages (che ha un tetto
+    indicativo di 10 build all'ora, condiviso con il job dell'edizione).
+    Confrontando tutto TRANNE "updated" il controllo diventa vero.
+    """
+    try:
+        with open(path, encoding="utf-8") as f:
+            old = json.load(f)
+    except (FileNotFoundError, ValueError):
+        return False
+    strip = lambda d: {k: v for k, v in d.items() if k != "updated"}
+    return strip(old) == strip(data)
+
+
 def main():
     out_dir = sys.argv[1] if len(sys.argv) > 1 else "."
     indices = []
@@ -169,11 +210,10 @@ def main():
             indices.append({"key": idx["key"], "label": idx["label"], "pct": q["pct"], "last": q["last"]})
             print(f"  {idx['label']}: {q['pct']:+.2f}%")
 
-    # Borsa USA aperta? 13:30–20:00 UTC nei giorni feriali (9:30–16:00 ET, ora
-    # legale). Euristica solo per l'etichetta della striscia, non per i dati.
+    # Borsa USA aperta? Calcolato in ora di New York (vedi us_market_open):
+    # euristica per l'etichetta della striscia, non per i dati.
     now = datetime.now(timezone.utc)
-    weekday = now.weekday() < 5
-    market_open = weekday and (now.hour * 60 + now.minute) >= 13 * 60 + 30 and now.hour < 20
+    market_open = us_market_open(now)
 
     data = {
         "updated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -188,6 +228,17 @@ def main():
 
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, "live.json")
+
+    # A mercati CHIUSI, se i numeri sono gli stessi, il file non si tocca: cosi'
+    # il workflow non trova nulla da committare e GitHub Pages non ripubblica per
+    # niente. A mercati APERTI si riscrive sempre, anche a numeri identici: li'
+    # l'orario di "updated" e' un'informazione (la pagina lo usa per dire da
+    # quanto i dati sono fermi, e per non etichettare "ora" una lista vecchia).
+    if not market_open and payload_unchanged(path, data):
+        print(f"Dati identici a mercati chiusi: {path} lasciato invariato "
+              f"(nessun commit, nessuna ripubblicazione).")
+        return
+
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"Scritto {path} ({len(indices)}/4 indici, mercato {'aperto' if market_open else 'chiuso'}"

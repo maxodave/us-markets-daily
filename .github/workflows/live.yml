@@ -4,50 +4,70 @@ name: Quotazioni LIVE
 # momento) per la vista "LIVE" del sito. Il browser non puo' leggere Yahoo (CORS),
 # quindi i dati li raccoglie qui un job e la pagina legge il file (stessa origine).
 #
-# PERCHE' UN JOB CHE CICLA, e non piu' un cron "*/15". GitHub Actions NON rispetta
-# gli schedule frequenti: li ritarda di parecchi minuti e ne SALTA in blocco,
-# specie i primi della giornata e gli slot :00. Verificato: col cron "*/15" il
-# 19/08/2026 il primo run e' partito solo alle 13:49 UTC (saltati 13:00/13:15/13:30,
-# cioe' l'apertura), e nei giorni "buoni" il ritmo reale era di 20-45 min, non 15.
-# Per chi guarda la pagina, i mover restavano fermi per mezz'ora: "LIVE non si
-# aggiorna". La cura non e' un cron piu' fitto (GitHub lo collassa lo stesso): e'
-# far partire un job che poi cicla DA SOLO, scaricando e pubblicando ogni 15 minuti
-# fino a fine finestra. Cosi' il passo dei 15 minuti lo garantisce il job, non lo
-# scheduler. Il repo e' PUBBLICO: i minuti Actions sono illimitati, un job lungo non
-# costa nulla.
+# ---------------------------------------------------------------------------
+# TRE COSE CHE ROMPEVANO LA VISTA LIVE, E COME SONO RISOLTE (28 agosto 2026)
+# ---------------------------------------------------------------------------
 #
-# UN JOB NON BASTA A COPRIRE TUTTA LA SEDUTA, e un avvio solo non basta a garantirlo.
-# Il limite di GitHub e' 6 ore per job, mentre la finestra utile (pre-apertura ->
-# dopo la campana, in entrambi i regimi orari) supera le 8 ore. Percio' DUE
-# meccanismi insieme:
-#   1) il job cicla al suo interno ogni 15 minuti (la cadenza NON dipende dallo
-#      scheduler di GitHub, che i cron fitti li ritarda e li collassa);
-#   2) gli avvii sono TANTI (ogni 30 min) perche' GitHub ne salta: e' la lezione del
-#      27/08/2026, quando con soli tre avvii al giorno non ne parti' nessuno e la
-#      pagina LIVE resto' ferma alla chiusura precedente per tutta la seduta.
-# "concurrency" con cancel-in-progress: false serializza il tutto: mentre un job
-# cicla, gli avvii successivi restano in coda (al massimo uno, gli altri vengono
-# soppiantati) e nessuno fa lavoro doppio; quando il job in corso finisce o viene
-# ucciso al limite di tempo, quello in coda riprende il testimone.
-# La finestra di FINE e' fissa alle 21:50 UTC: dopo la campana (20:00 estate /
-# 21:00 inverno) restano ancora giri che catturano i valori di CHIUSURA, che la
-# pagina lascia poi come "ultima chiusura" fino alla seduta dopo.
+# 1) IL JOB ZOMBIE DELLA NOTTE. La fine della finestra era cablata alle 21:50 UTC
+#    "di oggi", indipendentemente da QUANDO il job partiva. GitHub consegna gli
+#    schedule anche con ore di ritardo: il 28/08/2026 uno slot della sera prima e'
+#    arrivato alle 01:00 UTC, il job ha visto "fine alle 21:50 di oggi" e ha
+#    ciclato tutta la notte a mercati chiusi — 24 fetch da 1.232 titoli, 24 commit
+#    con gli stessi numeri, 24 build di Pages — finche' il timeout non l'ha ucciso
+#    alle 06:55. E per tutte quelle ore ha tenuto occupato il gruppo "concurrency",
+#    quindi quando la borsa ha aperto alle 13:30 non poteva partire nessuno: alle
+#    15:25 UTC, a mercato aperto da due ore, il sito mostrava ancora i dati di
+#    06:44. CURA: un CANCELLO IN INGRESSO. Il job calcola dove si trova nella
+#    giornata di NEW YORK e, se e' fuori dalla finestra utile, esce in venti
+#    secondi senza ciclare e senza occupare il gruppo.
 #
-# Nel weekend non gira: sab/dom non ci sono avvii (1-5 = lun-ven). La striscia mostra
-# comunque "MARKETS CLOSED" perche' lo stato lo calcola il browser in ora di New York.
+# 2) LA FINESTRA CABLATA IN UTC SBAGLIA DI UN'ORA MEZZ'ANNO. 21:50 UTC sono le
+#    17:50 di New York d'estate e le 16:50 d'inverno: due finestre diverse per lo
+#    stesso numero. Ora inizio e fine si calcolano in ora di New York (09:00 ->
+#    16:25 ET), che gestisce da se' il cambio dell'ora legale — come fa gia' il
+#    browser nella pagina. Effetto collaterale utile: d'estate si risparmiano
+#    quasi due ore di runner al giorno che prima giravano a borsa chiusa.
+#
+# 3) GLI SCHEDULE A ":00" E ":30" SONO QUELLI CHE GITHUB SALTA DI PIU'. Il cron
+#    era "*/30", cioe' esattamente i due minuti piu' congestionati dell'ora — e
+#    GitHub stesso documenta di evitarli. Verificato sui run reali: dei 18 slot
+#    giornalieri ne nascevano circa TRE, sempre con 35-40 minuti di ritardo, e il
+#    28/08 nessuno. Ora gli slot sono 40, ai minuti 7/22/37/52, cioe' fuori dai
+#    picchi. Non e' una garanzia (lo scheduler di GitHub non ne da'), e' un numero
+#    molto piu' alto di occasioni collocate dove la coda e' piu' corta.
+#
+# COME SI GARANTISCE IL PASSO DEI 15 MINUTI. Non dallo scheduler: il job, una
+# volta partito, CICLA DA SOLO ogni 15 minuti fino a fine finestra. Lo scheduler
+# serve solo ad accenderlo. Percio' basta che UNO slot su 40 arrivi.
+#
+# PERCHE' 15 MINUTI E NON 5. Il limite non e' Yahoo (nessuna chiave, nessuna
+# quota: il fetch dei 1.232 titoli dura ~30 secondi) e non sono i minuti Actions
+# (repo pubblico, illimitati). Il limite vero e' GITHUB PAGES: ogni commit fa
+# ripubblicare il sito, e Pages ha un tetto indicativo di 10 build all'ora. A 15
+# minuti sono 4 build/ora e restano sei slot per il job dell'edizione; a 5 minuti
+# sarebbero 12 e Pages inizierebbe a rifiutare. La latenza percepita si taglia
+# invece nella PAGINA, che chiede live.json con un parametro anti-cache (vedi
+# templates/app.js): senza quello la CDN di GitHub serviva per altri 10 minuti la
+# copia vecchia, e i 15 minuti reali diventavano 25 sullo schermo.
+#
+# CATENA FACOLTATIVA (secret LIVE_CHAIN_TOKEN). Se esiste, alla fine di ogni
+# segmento il job accende da se' il successivo via API, e la copertura della
+# seduta non dipende piu' dallo scheduler dopo il primo avvio. Senza il secret
+# tutto continua a funzionare come descritto sopra: il job fa un segmento lungo e
+# gli slot successivi fanno da rete. Il GITHUB_TOKEN automatico NON puo' servire
+# a questo: GitHub gli vieta di far partire altri workflow, per evitare i loop.
+#
+# Nel weekend non gira: sab/dom non ci sono avvii (1-5 = lun-ven), e comunque il
+# cancello in ingresso chiuderebbe. La striscia mostra "MARKETS CLOSED" perche'
+# lo stato lo calcola il browser in ora di New York.
 on:
   schedule:
-    # OGNI 30 MINUTI, e non tre soli avvii al giorno. Il job cicla da solo (vedi
-    # sotto), quindi in teoria basterebbe un avvio; in pratica GitHub SALTA gli
-    # schedule, e con tre occasioni al giorno un salto costa ore di dati fermi —
-    # e' successo il 27/08/2026: nessuno dei tre avvii e' partito e la pagina LIVE
-    # e' rimasta ferma alla chiusura del giorno prima per tutta la seduta. (Lo
-    # stesso giorno l'edizione, schedulata alle 21:30, e' partita alle 00:59.)
-    # Con 18 occasioni un salto non si vede: il "concurrency" qui sotto serializza,
-    # quindi gli avvii che trovano un ciclo gia' in corso non fanno lavoro doppio —
-    # restano in coda e vengono soppiantati, e uno di loro riprende il testimone
-    # se il ciclo in corso muore.
-    - cron: "*/30 13-21 * * 1-5"
+    # 40 occasioni al giorno ai minuti 7/22/37/52 — fuori dai picchi di carico di
+    # GitHub (":00" e ":30" erano il motivo per cui ne partivano tre su diciotto).
+    # Ore 12-21 UTC: coprono la seduta in entrambi i regimi orari (09:00-16:25 ET
+    # sono 13:00-20:25 UTC d'estate, 14:00-21:25 d'inverno) con un'ora di margine
+    # prima dell'apertura. Chi nasce fuori finestra esce subito, non costa nulla.
+    - cron: "7,22,37,52 12-21 * * 1-5"
   workflow_dispatch:
 
 permissions:
@@ -55,6 +75,8 @@ permissions:
 
 # Un solo job LIVE alla volta: gli avvii ridondanti si mettono in coda dietro a
 # quello che sta gia' ciclando, non si accavallano (niente push in conflitto).
+# Ora il gruppo si libera in fretta anche in caso di guaio, perche' un job che
+# parte fuori orario non entra nel ciclo (vedi il cancello in ingresso).
 concurrency:
   group: live-quotes
   cancel-in-progress: false
@@ -62,34 +84,78 @@ concurrency:
 jobs:
   quotes:
     runs-on: ubuntu-latest
-    # Sotto il limite GitHub di 360'. Se un job viene ucciso qui, l'avvio in coda
-    # (o il cron successivo) riprende il ciclo: la copertura non si interrompe.
-    timeout-minutes: 355
+    # Sotto il limite GitHub di 360'. Il job si ferma comunque da se' prima: la
+    # durata vera la decide il segmento calcolato nello step, non questo tetto.
+    timeout-minutes: 350
     env:
       TZ: Europe/Rome
+      # Facoltativo (vedi testata). Se il secret non esiste arriva vuoto e la
+      # catena resta spenta: il job fa un segmento lungo, come prima.
+      LIVE_CHAIN_TOKEN: ${{ secrets.LIVE_CHAIN_TOKEN }}
     steps:
+      # Il cancello in ingresso viene PRIMA di checkout e pip: un avvio fuori
+      # orario deve costare secondi, non minuti di runner.
+      - name: Cancello in ingresso (siamo dentro la seduta di New York?)
+        id: gate
+        run: |
+          # Tutto in ora di NEW YORK: gestisce da se' il cambio dell'ora legale.
+          DOW=$(TZ=America/New_York date +%u)             # 1=lun .. 7=dom
+          NOW=$(( 10#$(TZ=America/New_York date +%H) * 60 + 10#$(TZ=America/New_York date +%M) ))
+          OPEN=$((  9 * 60 ))        # 09:00 ET — mezz'ora prima della campana
+          CLOSE=$(( 16 * 60 + 25 ))  # 16:25 ET — dopo la campana, per i valori di chiusura
+          echo "Ora di New York: $(TZ=America/New_York date '+%a %H:%M %Z')."
+
+          if [ "$DOW" -gt 5 ]; then
+            echo "Weekend a New York: niente seduta, esco."
+            echo "run=no" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          if [ "$NOW" -lt "$OPEN" ] || [ "$NOW" -ge "$CLOSE" ]; then
+            echo "Fuori dalla finestra 09:00-16:25 ET: esco senza ciclare."
+            echo "(E' il caso che il 28/08/2026 aveva fatto ciclare un job tutta la notte.)"
+            echo "run=no" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+
+          # Fine finestra in epoch, ricalcolata dall'ora di New York di OGGI.
+          END=$(TZ=America/New_York date -d 'today 16:25' +%s)
+          echo "run=yes" >> "$GITHUB_OUTPUT"
+          echo "end=$END" >> "$GITHUB_OUTPUT"
+          echo "Ciclo fino alle $(TZ=America/New_York date -d "@$END" '+%H:%M %Z')."
+
       - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'yes'
       - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'yes'
         with:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+        if: steps.gate.outputs.run == 'yes'
 
       - name: Ciclo di quotazioni ogni 15 minuti fino a fine finestra
+        if: steps.gate.outputs.run == 'yes'
+        env:
+          END: ${{ steps.gate.outputs.end }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Fine finestra: 21:50 UTC di oggi. Copre la chiusura in estate (20:00 UTC)
-          # e in inverno (21:00 UTC) con qualche run di margine dopo la campana.
-          END=$(date -u -d 'today 21:50' +%s)
-          echo "Ciclo LIVE fino alle $(date -u -d "@$END" '+%H:%M UTC')."
+          # Lunghezza del segmento. Con la catena accesa segmenti brevi: se un job
+          # muore, il successivo riprende in pochi minuti invece che in ore. Senza
+          # catena un segmento lungo, perche' li' l'unica rete sono gli slot cron.
+          if [ -n "${LIVE_CHAIN_TOKEN:-}" ]; then SEG=$(( 75 * 60 )); else SEG=$(( 330 * 60 )); fi
+          STOP=$(( $(date -u +%s) + SEG ))
+          [ "$STOP" -gt "$END" ] && STOP="$END"
+          echo "Segmento fino alle $(date -u -d "@$STOP" '+%H:%M UTC') (finestra fino alle $(date -u -d "@$END" '+%H:%M UTC'))."
 
-          while [ "$(date -u +%s)" -lt "$END" ]; do
+          while [ "$(date -u +%s)" -lt "$STOP" ]; do
             python pipeline/fetch_live_quotes.py . || echo "fetch fallito, riprovo al giro dopo"
             git add live.json
+            # Ora questo ramo funziona davvero: fetch_live_quotes.py non riscrive
+            # il file quando i dati sono identici e la borsa e' chiusa, quindi non
+            # si generano piu' commit e build di Pages a vuoto (prima il solo
+            # campo "updated" cambiava sempre e ogni giro committava).
             if git diff --cached --quiet; then
-              echo "Quotazioni invariate."
+              echo "Quotazioni invariate: nessun commit."
             else
               git commit -q -m "Live quotes $(date -u '+%Y-%m-%d %H:%M UTC')"
               # Un altro job (daily.yml, o l'avvio in coda che parte al cambio) puo'
@@ -98,8 +164,21 @@ jobs:
               git pull -q --rebase --autostash || true
               git push -q || echo "push fallito, riprovo al giro dopo"
             fi
-            # Non superare la fine della finestra con un'ultima attesa inutile.
-            [ "$(( $(date -u +%s) + 900 ))" -ge "$END" ] && break
+            # Non superare la fine del segmento con un'ultima attesa inutile.
+            [ "$(( $(date -u +%s) + 900 ))" -ge "$STOP" ] && break
             sleep 900
           done
-          echo "Finestra LIVE conclusa."
+
+          # Passaggio del testimone, se il segreto c'e' e la seduta non e' finita.
+          # Margine di 10 minuti: sotto quella soglia non vale la pena accendere un
+          # job che farebbe un solo giro.
+          if [ -n "${LIVE_CHAIN_TOKEN:-}" ] && [ "$(( $(date -u +%s) + 600 ))" -lt "$END" ]; then
+            echo "Accendo il segmento successivo (catena)."
+            curl -sS -o /dev/null -w 'HTTP %{http_code}\n' -X POST \
+              -H "Authorization: Bearer ${LIVE_CHAIN_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/live.yml/dispatches" \
+              -d '{"ref":"main"}' || echo "dispatch fallito: restano gli slot cron come rete."
+          fi
+          echo "Segmento concluso."

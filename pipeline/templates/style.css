@@ -299,6 +299,11 @@
 
   .live-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 8px 0 30px; }
   .live-strip .li-head { grid-column: 1/-1; display: flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  /* Dati fermi da oltre 20 minuti A MERCATI APERTI: si dice, invece di mostrare
+     un orario nudo che il lettore non sa interpretare. Arancione come la scritta
+     "closed", non rosso: non e' un errore, e' un ritardo che si sta recuperando. */
+  .live-strip .li-head.stale { color: #ff8a3d; }
+  .live-strip .li-head.stale .live-dot { background: #ff8a3d; box-shadow: 0 0 8px #ff8a3d; }
 
   /* Segno stato mercato (verde aperto / arancione chiuso), come la scritta weekend. */
   .live-status { grid-column: 1/-1; display: flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; padding: 12px 16px; border-radius: 12px; border: 1px solid; }

@@ -958,11 +958,26 @@ renderEditions();
       var why = (!s.weekday || forceWeekend) ? "closed for the weekend" : "closed &middot; showing the last close";
       return '<div class="live-status closed"><span class="ls-dot"></span>U.S. markets ' + why + ' &middot; reopens ' + nextUsOpenLabel() + '</div>';
     }
+    // Eta' dei dati in minuti, o null se non si sa. La si mostra accanto all'ora:
+    // meglio "updated 14:32 · 8 min ago" che un orario nudo, che a colpo d'occhio
+    // non dice se la pagina e' viva o ferma da ieri.
+    function ageMin(d) {
+      if (!d || !d.updated) return null;
+      var t = Date.parse(d.updated);
+      if (!isFinite(t)) return null;
+      return Math.max(0, Math.round((Date.now() - t) / 60000));
+    }
     function paint() {
       var d = latest, items = (d && d.indices) || [];
       var when = ""; try { if (d && d.updated) when = new Date(d.updated).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }); } catch (e) {}
+      var a = ageMin(d), open = usMarketState().open;
+      // "STALE" solo a mercati aperti: a borsa chiusa un file di ore prima e'
+      // l'ultima chiusura, cioe' il dato giusto, e non va marchiato come vecchio.
+      var stale = open && a !== null && a > 20;
+      var age = a === null ? "" : (a < 1 ? " &middot; just now" : " &middot; " + a + " min ago");
       var idx = items.length
-        ? '<div class="li-head"><span class="live-dot"></span>Index levels' + (when ? (' &middot; updated ' + when) : '') + '</div>' +
+        ? '<div class="li-head' + (stale ? ' stale' : '') + '"><span class="live-dot"></span>Index levels' +
+            (when ? (' &middot; updated ' + when + age) : '') + (stale ? ' &middot; catching up' : '') + '</div>' +
           items.map(function (i) { var cls = i.pct > 0 ? "up" : (i.pct < 0 ? "down" : "flat"), sign = i.pct > 0 ? "+" : ""; return '<div class="live-idx"><div class="li-name">' + i.label + '</div><div class="li-pct ' + cls + '">' + sign + Number(i.pct).toFixed(2) + '%</div></div>'; }).join("")
         : "";
       strip.innerHTML = statusHtml() + idx;
@@ -971,10 +986,51 @@ renderEditions();
       renderTicker(latest);
       paintLiveMovers(latest);
     }
-    function load() { fetch("live.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { latest = d; paint(); }).catch(paint); }
-    load();
-    setInterval(load, 5 * 60 * 1000);   // ricarica i dati ogni 5 min (json minuscolo)
-    setInterval(paint, 60 * 1000);      // ridisegna al minuto: cattura il passaggio aperto<->chiuso
+
+    /* --- il poller. Tre difetti risolti qui, tutti responsabili del "la vista
+           LIVE si blocca appena apro il sito":
+
+       1) PARAMETRO ANTI-CACHE. Prima era fetch("live.json", {cache:"no-store"}).
+          "no-store" salta la cache del BROWSER, non quella della CDN davanti a
+          GitHub Pages, che serve i file con Cache-Control: max-age=600. Cioe':
+          il job pubblicava dati nuovi e per altri dieci minuti la pagina
+          riceveva comunque i vecchi, con l'orario vecchio. Un URL diverso a ogni
+          giro (?t=...) e' una chiave di cache diversa, quindi la CDN va a
+          prendere l'originale: la latenza percepita scende dai 25 minuti del
+          caso peggiore ai ~15 reali del job.
+
+       2) RICARICA AL RISVEGLIO. C'era solo un setInterval. I browser (Safari su
+          iPhone in testa) congelano i timer nelle schede in secondo piano e nelle
+          pagine messe via: tornando sul sito si vedevano i dati di quando lo si
+          era lasciato, per un massimo di cinque minuti, senza che nulla si
+          muovesse. Ora si ricarica quando la pagina torna visibile, quando la
+          finestra riprende il fuoco e quando la rete torna — con un
+          antirimbalzo di 20 secondi, cosi' passare da una scheda all'altra non
+          diventa una raffica di richieste.
+
+       3) RITMO ADEGUATO E RIPROVA. A mercati aperti si chiede ogni 90 secondi
+          (live.json sono 2,6 KB: e' niente) invece di ogni 5 minuti, cosi' un
+          dato nuovo si vede quasi subito; a mercati chiusi ogni 10 minuti, che
+          basta. E se una richiesta fallisce si riprova dopo 25 secondi invece di
+          aspettare il giro intero. --- */
+    var lastTry = 0, MIN_GAP = 20 * 1000;
+    function load(force) {
+      var now = Date.now();
+      if (!force && now - lastTry < MIN_GAP) return;
+      lastTry = now;
+      fetch("live.json?t=" + now, { cache: "no-store" })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) { if (d) latest = d; paint(); })
+        .catch(function () { paint(); setTimeout(function () { load(true); }, 25 * 1000); });
+    }
+    function wanted() { return usMarketState().open ? 90 * 1000 : 10 * 60 * 1000; }
+    load(true);
+    // Un solo battito al secondo di grana grossa: ridisegna sempre (cosi' l'eta'
+    // e il passaggio aperto<->chiuso restano veri) e ricarica quando e' ora.
+    setInterval(function () { paint(); if (Date.now() - lastTry >= wanted()) load(true); }, 30 * 1000);
+    document.addEventListener("visibilitychange", function () { if (!document.hidden) load(); });
+    window.addEventListener("focus", function () { load(); });
+    window.addEventListener("online", function () { load(true); });
   })();
 
   /* Avviso "seduta chiusa": al secondo, per il conto alla rovescia. Il disegno
