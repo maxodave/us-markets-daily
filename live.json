@@ -1,135 +1,135 @@
 {
-  "updated": "2026-08-28T06:43:27Z",
-  "market_open": false,
+  "updated": "2026-08-28T15:35:06Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.72,
-      "last": 7730.99
+      "pct": 0.42,
+      "last": 7762.89
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.43,
-      "last": 29641.56
+      "pct": 0.23,
+      "last": 29709.17
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.2,
-      "last": 53569.44
+      "pct": 0.34,
+      "last": 53742.35
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.21,
-      "last": 52265.0
+      "pct": 0.84,
+      "last": 52698.13
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": 34.95
+        "symbol": "ESTC",
+        "name": "Elastic N.V.",
+        "pct": 18.64
       },
       {
-        "symbol": "OKTA",
-        "name": "Okta, Inc.",
-        "pct": 28.63
+        "symbol": "SOLS",
+        "name": "Solstice Advanced Materials Inc.",
+        "pct": 14.71
       },
       {
-        "symbol": "CRM",
-        "name": "Salesforce, Inc.",
-        "pct": 22.58
+        "symbol": "GAP",
+        "name": "Gap, Inc. (The)",
+        "pct": 12.99
       },
       {
-        "symbol": "CRWD",
-        "name": "CrowdStrike Holdings, Inc.",
-        "pct": 20.5
+        "symbol": "AFRM",
+        "name": "Affirm Holdings, Inc.",
+        "pct": 7.7
       },
       {
-        "symbol": "VEEV",
-        "name": "Veeva Systems Inc.",
-        "pct": 15.2
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "pct": 5.48
       },
       {
-        "symbol": "SNPS",
-        "name": "Synopsys, Inc.",
-        "pct": 13.39
+        "symbol": "WDAY",
+        "name": "Workday, Inc.",
+        "pct": 5.42
       },
       {
-        "symbol": "BRUN",
-        "name": "Boost Run Inc.",
-        "pct": 13.3
+        "symbol": "BBWI",
+        "name": "Bath & Body Works, Inc.",
+        "pct": 4.96
       },
       {
-        "symbol": "FIG",
-        "name": "Figma, Inc.",
-        "pct": 13.28
+        "symbol": "TEAM",
+        "name": "Atlassian Corporation",
+        "pct": 4.93
       },
       {
-        "symbol": "PANW",
-        "name": "Palo Alto Networks, Inc.",
-        "pct": 12.83
+        "symbol": "NOW",
+        "name": "ServiceNow, Inc.",
+        "pct": 4.87
       },
       {
-        "symbol": "SAIL",
-        "name": "SailPoint, Inc.",
-        "pct": 12.24
+        "symbol": "WAY",
+        "name": "Waystar Holding Corp.",
+        "pct": 4.87
       }
     ],
     "losers": [
       {
-        "symbol": "BBW",
-        "name": "Build-A-Bear Workshop, Inc.",
-        "pct": -27.26
+        "symbol": "VISN",
+        "name": "Vistance Networks, Inc.",
+        "pct": -45.87
       },
       {
-        "symbol": "WEN",
-        "name": "Wendy's Company (The)",
-        "pct": -13.5
+        "symbol": "DAIC",
+        "name": "CID HoldCo, Inc.",
+        "pct": -15.97
       },
       {
-        "symbol": "HQY",
-        "name": "HealthEquity, Inc.",
-        "pct": -10.56
+        "symbol": "PYPL",
+        "name": "PayPal Holdings, Inc.",
+        "pct": -11.44
       },
       {
-        "symbol": "HRL",
-        "name": "Hormel Foods Corporation",
-        "pct": -10.25
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -10.92
       },
       {
-        "symbol": "PAY",
-        "name": "Paymentus Holdings, Inc.",
-        "pct": -9.69
+        "symbol": "UMAC",
+        "name": "Unusual Machines, Inc.",
+        "pct": -10.46
       },
       {
-        "symbol": "P",
-        "name": "Everpure, Inc.",
-        "pct": -8.87
+        "symbol": "RBRK",
+        "name": "Rubrik, Inc.",
+        "pct": -9.85
       },
       {
-        "symbol": "BURL",
-        "name": "Burlington Stores, Inc.",
-        "pct": -7.64
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": -9.8
       },
       {
-        "symbol": "SFM",
-        "name": "Sprouts Farmers Market, Inc.",
-        "pct": -6.67
+        "symbol": "BRUN",
+        "name": "Boost Run Inc.",
+        "pct": -9.61
       },
       {
-        "symbol": "SPHR",
-        "name": "Sphere Entertainment Co.",
-        "pct": -6.39
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": -9.11
       },
       {
-        "symbol": "CELH",
-        "name": "Celsius Holdings, Inc.",
-        "pct": -6.36
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": -8.39
       }
     ],
     "universe": 1232
