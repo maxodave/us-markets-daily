@@ -1,0 +1,3618 @@
+{
+  "edition_date": "2026-08-30",
+  "edition_date_it": "30 agosto 2026",
+  "edition_date_en": "August 30, 2026",
+  "session_date": "2026-08-28",
+  "session_date_it": "28 agosto 2026",
+  "session_date_en": "August 28, 2026",
+  "edition_kind": "weekend_recap",
+  "headline": "Mercati chiusi: le notizie di sabato in sintesi, con Solana +1,81% dalla chiusura di venerdi'",
+  "headline_en": "Markets closed: Saturday's news in brief, with Solana +1.81% since Friday's close",
+  "auto_report": {
+    "stats": {
+      "n_up": 228,
+      "n_down": 273,
+      "n_flat": 2,
+      "n_total": 503,
+      "avg_pct": -0.34,
+      "best_sectors": [
+        {
+          "sector": "Communication Services",
+          "avg_pct": 1.09
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "avg_pct": 0.83
+        },
+        {
+          "sector": "Energy",
+          "avg_pct": 0.44
+        }
+      ],
+      "worst_sectors": [
+        {
+          "sector": "Information Technology",
+          "avg_pct": -1.77
+        },
+        {
+          "sector": "Utilities",
+          "avg_pct": -0.98
+        },
+        {
+          "sector": "Industrials",
+          "avg_pct": -0.84
+        }
+      ]
+    },
+    "paragraphs": [
+      "Nella seduta del 28 agosto 2026 l'S&P 500 ha chiuso con 228 societa' in rialzo, 273 in ribasso e 2 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di -0,34%.",
+      "Settori con la variazione media migliore: Communication Services (+1,09%); Consumer Discretionary (+0,83%); Energy (+0,44%). Settori piu' debolli: Information Technology (-1,77%); Utilities (-0,98%); Industrials (-0,84%).",
+      "In cima alla seduta: Workday, Inc. (WDAY, +5,76%); Domino's (DPZ, +5,40%); Lululemon Athletica (LULU, +5,05%). In fondo: PayPal (PYPL, -12,71%); Marvell Technology (MRVL, -10,28%); PG&E Corporation (PCG, -7,52%)."
+    ],
+    "gainers": [
+      {
+        "symbol": "WDAY",
+        "name": "Workday, Inc.",
+        "sector": "Information Technology",
+        "pct_change": 5.76,
+        "last_close": 204.72,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "DPZ",
+        "name": "Domino's",
+        "sector": "Consumer Discretionary",
+        "pct_change": 5.4,
+        "last_close": 350.0,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "LULU",
+        "name": "Lululemon Athletica",
+        "sector": "Consumer Discretionary",
+        "pct_change": 5.05,
+        "last_close": 120.81,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "NOW",
+        "name": "ServiceNow",
+        "sector": "Information Technology",
+        "pct_change": 4.54,
+        "last_close": 144.71,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "SLB",
+        "name": "Schlumberger",
+        "sector": "Energy",
+        "pct_change": 4.22,
+        "last_close": 57.33,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon",
+        "sector": "Consumer Discretionary",
+        "pct_change": 3.97,
+        "last_close": 266.43,
+        "indices": [
+          "sp500",
+          "dow",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CHTR",
+        "name": "Charter Communications",
+        "sector": "Communication Services",
+        "pct_change": 3.57,
+        "last_close": 153.62,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "BG",
+        "name": "Bunge Global",
+        "sector": "Consumer Staples",
+        "pct_change": 3.5,
+        "last_close": 115.48,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "EXPE",
+        "name": "Expedia Group",
+        "sector": "Consumer Discretionary",
+        "pct_change": 3.3,
+        "last_close": 329.44,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "EBAY",
+        "name": "eBay Inc.",
+        "sector": "Consumer Discretionary",
+        "pct_change": 3.28,
+        "last_close": 105.62,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "PYPL",
+        "name": "PayPal",
+        "sector": "Financials",
+        "pct_change": -12.71,
+        "last_close": 53.66,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology",
+        "sector": "Information Technology",
+        "pct_change": -10.28,
+        "last_close": 216.62,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "PCG",
+        "name": "PG&E Corporation",
+        "sector": "Utilities",
+        "pct_change": -7.52,
+        "last_close": 16.6,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "GNRC",
+        "name": "Generac",
+        "sector": "Industrials",
+        "pct_change": -6.84,
+        "last_close": 183.8,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum",
+        "sector": "Information Technology",
+        "pct_change": -6.39,
+        "last_close": 895.0,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "COIN",
+        "name": "Coinbase",
+        "sector": "Financials",
+        "pct_change": -6.33,
+        "last_close": 178.64,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "FIX",
+        "name": "Comfort Systems USA",
+        "sector": "Industrials",
+        "pct_change": -5.96,
+        "last_close": 1518.73,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "sector": "Information Technology",
+        "pct_change": -5.48,
+        "last_close": 279.2,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CIEN",
+        "name": "Ciena",
+        "sector": "Information Technology",
+        "pct_change": -5.35,
+        "last_close": 378.44,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "LRCX",
+        "name": "Lam Research",
+        "sector": "Information Technology",
+        "pct_change": -5.24,
+        "last_close": 301.9,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      }
+    ]
+  },
+  "auto_report_by_index": {
+    "sp500": {
+      "stats": {
+        "n_up": 228,
+        "n_down": 273,
+        "n_flat": 2,
+        "n_total": 503,
+        "avg_pct": -0.34,
+        "best_sectors": [
+          {
+            "sector": "Communication Services",
+            "avg_pct": 1.09
+          },
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": 0.83
+          },
+          {
+            "sector": "Energy",
+            "avg_pct": 0.44
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Information Technology",
+            "avg_pct": -1.77
+          },
+          {
+            "sector": "Utilities",
+            "avg_pct": -0.98
+          },
+          {
+            "sector": "Industrials",
+            "avg_pct": -0.84
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "WDAY",
+          "name": "Workday, Inc.",
+          "sector": "Information Technology",
+          "pct_change": 5.76,
+          "last_close": 204.72,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DPZ",
+          "name": "Domino's",
+          "sector": "Consumer Discretionary",
+          "pct_change": 5.4,
+          "last_close": 350.0,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LULU",
+          "name": "Lululemon Athletica",
+          "sector": "Consumer Discretionary",
+          "pct_change": 5.05,
+          "last_close": 120.81,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NOW",
+          "name": "ServiceNow",
+          "sector": "Information Technology",
+          "pct_change": 4.54,
+          "last_close": 144.71,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SLB",
+          "name": "Schlumberger",
+          "sector": "Energy",
+          "pct_change": 4.22,
+          "last_close": 57.33,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon",
+          "sector": "Consumer Discretionary",
+          "pct_change": 3.97,
+          "last_close": 266.43,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CHTR",
+          "name": "Charter Communications",
+          "sector": "Communication Services",
+          "pct_change": 3.57,
+          "last_close": 153.62,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BG",
+          "name": "Bunge Global",
+          "sector": "Consumer Staples",
+          "pct_change": 3.5,
+          "last_close": 115.48,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EXPE",
+          "name": "Expedia Group",
+          "sector": "Consumer Discretionary",
+          "pct_change": 3.3,
+          "last_close": 329.44,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EBAY",
+          "name": "eBay Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": 3.28,
+          "last_close": 105.62,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "PYPL",
+          "name": "PayPal",
+          "sector": "Financials",
+          "pct_change": -12.71,
+          "last_close": 53.66,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MRVL",
+          "name": "Marvell Technology",
+          "sector": "Information Technology",
+          "pct_change": -10.28,
+          "last_close": 216.62,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PCG",
+          "name": "PG&E Corporation",
+          "sector": "Utilities",
+          "pct_change": -7.52,
+          "last_close": 16.6,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GNRC",
+          "name": "Generac",
+          "sector": "Industrials",
+          "pct_change": -6.84,
+          "last_close": 183.8,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LITE",
+          "name": "Lumentum",
+          "sector": "Information Technology",
+          "pct_change": -6.39,
+          "last_close": 895.0,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "COIN",
+          "name": "Coinbase",
+          "sector": "Financials",
+          "pct_change": -6.33,
+          "last_close": 178.64,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FIX",
+          "name": "Comfort Systems USA",
+          "sector": "Industrials",
+          "pct_change": -5.96,
+          "last_close": 1518.73,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "COHR",
+          "name": "Coherent Corp.",
+          "sector": "Information Technology",
+          "pct_change": -5.48,
+          "last_close": 279.2,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CIEN",
+          "name": "Ciena",
+          "sector": "Information Technology",
+          "pct_change": -5.35,
+          "last_close": 378.44,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research",
+          "sector": "Information Technology",
+          "pct_change": -5.24,
+          "last_close": 301.9,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the August 28, 2026 session the S&P 500 closed with 228 stocks higher, 273 lower and 2 unchanged, out of 503 tracked. The average move was -0.34%.",
+          "Best-performing sectors by average move: Communication Services (+1.09%); Consumer Discretionary (+0.83%); Energy (+0.44%). Weakest: Information Technology (-1.77%); Utilities (-0.98%); Industrials (-0.84%).",
+          "Leading the session: Workday, Inc. (WDAY, +5.76%); Domino's (DPZ, +5.40%); Lululemon Athletica (LULU, +5.05%). At the bottom: PayPal (PYPL, -12.71%); Marvell Technology (MRVL, -10.28%); PG&E Corporation (PCG, -7.52%)."
+        ],
+        "it": [
+          "Nella seduta del 28 agosto 2026 l'S&P 500 ha chiuso con 228 societa' in rialzo, 273 in ribasso e 2 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di -0,34%.",
+          "Settori con la variazione media migliore: Communication Services (+1,09%); Consumer Discretionary (+0,83%); Energy (+0,44%). Settori piu' debolli: Information Technology (-1,77%); Utilities (-0,98%); Industrials (-0,84%).",
+          "In cima alla seduta: Workday, Inc. (WDAY, +5,76%); Domino's (DPZ, +5,40%); Lululemon Athletica (LULU, +5,05%). In fondo: PayPal (PYPL, -12,71%); Marvell Technology (MRVL, -10,28%); PG&E Corporation (PCG, -7,52%)."
+        ]
+      }
+    },
+    "dow": {
+      "stats": {
+        "n_up": 17,
+        "n_down": 13,
+        "n_flat": 0,
+        "n_total": 30,
+        "avg_pct": 0.17,
+        "best_sectors": [
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": 2.34
+          },
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": 0.52
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": 0.13
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Industrials",
+            "avg_pct": -1.48
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": -0.5
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": -0.38
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "AMZN",
+          "name": "Amazon",
+          "sector": "Consumer Discretionary",
+          "pct_change": 3.97,
+          "last_close": 266.43,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NKE",
+          "name": "Nike, Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": 3.02,
+          "last_close": 39.6,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MCD",
+          "name": "McDonald's",
+          "sector": "Consumer Discretionary",
+          "pct_change": 1.9,
+          "last_close": 265.0,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc. (Class A)",
+          "sector": "Communication Services",
+          "pct_change": 1.74,
+          "last_close": 346.59,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft",
+          "sector": "Information Technology",
+          "pct_change": 1.68,
+          "last_close": 513.53,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc.",
+          "sector": "Information Technology",
+          "pct_change": 1.63,
+          "last_close": 319.7,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CRM",
+          "name": "Salesforce",
+          "sector": "Information Technology",
+          "pct_change": 1.57,
+          "last_close": 256.0,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DIS",
+          "name": "Walt Disney Company (The)",
+          "sector": "Communication Services",
+          "pct_change": 1.2,
+          "last_close": 108.1,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CVX",
+          "name": "Chevron Corporation",
+          "sector": "Energy",
+          "pct_change": 1.05,
+          "last_close": 201.86,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "JPM",
+          "name": "JPMorgan Chase",
+          "sector": "Financials",
+          "pct_change": 0.96,
+          "last_close": 357.62,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "NVDA",
+          "name": "Nvidia",
+          "sector": "Information Technology",
+          "pct_change": -4.57,
+          "last_close": 217.55,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MMM",
+          "name": "3M",
+          "sector": "Industrials",
+          "pct_change": -2.51,
+          "last_close": 174.34,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CAT",
+          "name": "Caterpillar Inc.",
+          "sector": "Industrials",
+          "pct_change": -2.05,
+          "last_close": 800.25,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco",
+          "sector": "Information Technology",
+          "pct_change": -1.98,
+          "last_close": 109.93,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IBM",
+          "name": "IBM",
+          "sector": "Information Technology",
+          "pct_change": -1.34,
+          "last_close": 235.59,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HON",
+          "name": "Honeywell Technologies",
+          "sector": "Industrials",
+          "pct_change": -1.34,
+          "last_close": 217.43,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMGN",
+          "name": "Amgen",
+          "sector": "Health Care",
+          "pct_change": -1.05,
+          "last_close": 432.42,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MRK",
+          "name": "Merck & Co.",
+          "sector": "Health Care",
+          "pct_change": -0.8,
+          "last_close": 148.35,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GS",
+          "name": "Goldman Sachs",
+          "sector": "Financials",
+          "pct_change": -0.66,
+          "last_close": 1033.99,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group",
+          "sector": "Health Care",
+          "pct_change": -0.53,
+          "last_close": 392.95,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the August 28, 2026 session the Dow Jones closed with 17 stocks higher, 13 lower, out of 30 tracked. The average move was +0.17%.",
+          "Best-performing sectors by average move: Consumer Discretionary (+2.34%); Consumer Staples (+0.52%); Financials (+0.13%). Weakest: Industrials (-1.48%); Information Technology (-0.50%); Health Care (-0.38%).",
+          "Leading the session: Amazon (AMZN, +3.97%); Nike, Inc. (NKE, +3.02%); McDonald's (MCD, +1.90%). At the bottom: Nvidia (NVDA, -4.57%); 3M (MMM, -2.51%); Caterpillar Inc. (CAT, -2.05%)."
+        ],
+        "it": [
+          "Nella seduta del 28 agosto 2026 il Dow Jones ha chiuso con 17 societa' in rialzo, 13 in ribasso, su 30 titoli monitorati. La variazione media dell'indice e' stata di +0,17%.",
+          "Settori con la variazione media migliore: Consumer Discretionary (+2,34%); Consumer Staples (+0,52%); Financials (+0,13%). Settori piu' debolli: Industrials (-1,48%); Information Technology (-0,50%); Health Care (-0,38%).",
+          "In cima alla seduta: Amazon (AMZN, +3,97%); Nike, Inc. (NKE, +3,02%); McDonald's (MCD, +1,90%). In fondo: Nvidia (NVDA, -4,57%); 3M (MMM, -2,51%); Caterpillar Inc. (CAT, -2,05%)."
+        ]
+      }
+    },
+    "nasdaq100": {
+      "stats": {
+        "n_up": 43,
+        "n_down": 58,
+        "n_flat": 1,
+        "n_total": 102,
+        "avg_pct": -0.96,
+        "best_sectors": [
+          {
+            "sector": "Communication Services",
+            "avg_pct": 1.51
+          },
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": 1.04
+          },
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": 0.96
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Technology",
+            "avg_pct": -2.92
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": -2.18
+          },
+          {
+            "sector": "Utilities",
+            "avg_pct": -0.83
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "WDAY",
+          "name": "Workday, Inc.",
+          "sector": "Information Technology",
+          "pct_change": 5.76,
+          "last_close": 204.72,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon",
+          "sector": "Consumer Discretionary",
+          "pct_change": 3.97,
+          "last_close": 266.43,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INTU",
+          "name": "Intuit",
+          "sector": "Information Technology",
+          "pct_change": 2.89,
+          "last_close": 358.06,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ABNB",
+          "name": "Airbnb",
+          "sector": "Consumer Discretionary",
+          "pct_change": 2.73,
+          "last_close": 189.43,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CMCSA",
+          "name": "Comcast",
+          "sector": "Communication Services",
+          "pct_change": 2.46,
+          "last_close": 27.06,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NFLX",
+          "name": "Netflix",
+          "sector": "Communication Services",
+          "pct_change": 2.35,
+          "last_close": 81.72,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "KHC",
+          "name": "Kraft Heinz",
+          "sector": "Consumer Staples",
+          "pct_change": 2.27,
+          "last_close": 25.7,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DASH",
+          "name": "DoorDash",
+          "sector": "Consumer Discretionary",
+          "pct_change": 2.09,
+          "last_close": 236.74,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TMUS",
+          "name": "T-Mobile US",
+          "sector": "Communication Services",
+          "pct_change": 2.04,
+          "last_close": 181.37,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MELI",
+          "name": "Mercado Libre",
+          "sector": "Consumer Discretionary",
+          "pct_change": 1.84,
+          "last_close": 1966.25,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "PYPL",
+          "name": "PayPal",
+          "sector": "Financials",
+          "pct_change": -12.71,
+          "last_close": 53.66,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MRVL",
+          "name": "Marvell Technology",
+          "sector": "Information Technology",
+          "pct_change": -10.28,
+          "last_close": 216.62,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MSTR",
+          "name": "MicroStrategy",
+          "sector": "Technology",
+          "pct_change": -7.34,
+          "last_close": 127.31,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LITE",
+          "name": "Lumentum",
+          "sector": "Information Technology",
+          "pct_change": -6.39,
+          "last_close": 895.0,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ARM",
+          "name": "Arm Holdings",
+          "sector": "Technology",
+          "pct_change": -6.33,
+          "last_close": 239.05,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research",
+          "sector": "Information Technology",
+          "pct_change": -5.24,
+          "last_close": 301.9,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ALAB",
+          "name": "Astera Labs",
+          "sector": "Technology",
+          "pct_change": -4.81,
+          "last_close": 289.47,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SNPS",
+          "name": "Synopsys",
+          "sector": "Information Technology",
+          "pct_change": -4.79,
+          "last_close": 442.61,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "RKLB",
+          "name": "Rocket Lab",
+          "sector": "Industrials",
+          "pct_change": -4.65,
+          "last_close": 64.39,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TER",
+          "name": "Teradyne",
+          "sector": "Information Technology",
+          "pct_change": -4.59,
+          "last_close": 354.97,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the August 28, 2026 session the Nasdaq-100 closed with 43 stocks higher, 58 lower and 1 unchanged, out of 102 tracked. The average move was -0.96%.",
+          "Best-performing sectors by average move: Communication Services (+1.51%); Consumer Discretionary (+1.04%); Consumer Staples (+0.96%). Weakest: Technology (-2.92%); Information Technology (-2.18%); Utilities (-0.83%).",
+          "Leading the session: Workday, Inc. (WDAY, +5.76%); Amazon (AMZN, +3.97%); Intuit (INTU, +2.89%). At the bottom: PayPal (PYPL, -12.71%); Marvell Technology (MRVL, -10.28%); MicroStrategy (MSTR, -7.34%)."
+        ],
+        "it": [
+          "Nella seduta del 28 agosto 2026 il Nasdaq-100 ha chiuso con 43 societa' in rialzo, 58 in ribasso e 1 invariate, su 102 titoli monitorati. La variazione media dell'indice e' stata di -0,96%.",
+          "Settori con la variazione media migliore: Communication Services (+1,51%); Consumer Discretionary (+1,04%); Consumer Staples (+0,96%). Settori piu' debolli: Technology (-2,92%); Information Technology (-2,18%); Utilities (-0,83%).",
+          "In cima alla seduta: Workday, Inc. (WDAY, +5,76%); Amazon (AMZN, +3,97%); Intuit (INTU, +2,89%). In fondo: PayPal (PYPL, -12,71%); Marvell Technology (MRVL, -10,28%); MicroStrategy (MSTR, -7,34%)."
+        ]
+      }
+    },
+    "ftsemib": {
+      "stats": {
+        "n_up": 6,
+        "n_down": 33,
+        "n_flat": 1,
+        "n_total": 40,
+        "avg_pct": -0.79,
+        "best_sectors": [
+          {
+            "sector": "Health Care",
+            "avg_pct": 0.52
+          },
+          {
+            "sector": "Industrial Goods and Services",
+            "avg_pct": 0.44
+          },
+          {
+            "sector": "Energy",
+            "avg_pct": -0.66
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Utilities",
+            "avg_pct": -2.19
+          },
+          {
+            "sector": "Banks",
+            "avg_pct": -1.98
+          },
+          {
+            "sector": "Financial Services",
+            "avg_pct": -1.0
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "STMMI.MI",
+          "name": "STMicroelectronics",
+          "sector": "Technology",
+          "pct_change": 2.92,
+          "last_close": 43.58,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STLAM.MI",
+          "name": "Stellantis",
+          "sector": "Automobiles and Parts",
+          "pct_change": 2.58,
+          "last_close": 4.58,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DIA.MI",
+          "name": "Diasorin",
+          "sector": "Health Care",
+          "pct_change": 1.77,
+          "last_close": 77.0,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LDO.MI",
+          "name": "Leonardo",
+          "sector": "Industrial Goods and Services",
+          "pct_change": 1.72,
+          "last_close": 55.05,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PRY.MI",
+          "name": "Prysmian",
+          "sector": "Industrial Goods and Services",
+          "pct_change": 1.6,
+          "last_close": 123.6,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LTMC.MI",
+          "name": "Lottomatica Group",
+          "sector": "Gambling",
+          "pct_change": 0.52,
+          "last_close": 25.01,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "REC.MI",
+          "name": "Recordati",
+          "sector": "Health Care",
+          "pct_change": 0.0,
+          "last_close": 52.65,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IVG.MI",
+          "name": "Iveco",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -0.04,
+          "last_close": 13.96,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INW.MI",
+          "name": "INWIT",
+          "sector": "Telecommunications",
+          "pct_change": -0.08,
+          "last_close": 6.14,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "RACE.MI",
+          "name": "Ferrari",
+          "sector": "Automobiles and Parts",
+          "pct_change": -0.1,
+          "last_close": 355.8,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "HER.MI",
+          "name": "Hera",
+          "sector": "Utilities",
+          "pct_change": -3.32,
+          "last_close": 3.79,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UCG.MI",
+          "name": "UniCredit",
+          "sector": "Banks",
+          "pct_change": -3.17,
+          "last_close": 83.42,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BAMI.MI",
+          "name": "Banco BPM",
+          "sector": "Banks",
+          "pct_change": -2.12,
+          "last_close": 15.93,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRN.MI",
+          "name": "Terna",
+          "sector": "Utilities",
+          "pct_change": -2.1,
+          "last_close": 9.69,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BZU.MI",
+          "name": "Buzzi",
+          "sector": "Construction and Materials",
+          "pct_change": -2.08,
+          "last_close": 40.99,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MB.MI",
+          "name": "Mediobanca",
+          "sector": "Banks",
+          "pct_change": -2.07,
+          "last_close": 27.38,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "A2A.MI",
+          "name": "A2A",
+          "sector": "Utilities",
+          "pct_change": -2.04,
+          "last_close": 2.31,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BMPS.MI",
+          "name": "Banca Monte dei Paschi di Siena",
+          "sector": "Banks",
+          "pct_change": -1.98,
+          "last_close": 11.37,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IG.MI",
+          "name": "Italgas",
+          "sector": "Utilities",
+          "pct_change": -1.97,
+          "last_close": 8.67,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CPR.MI",
+          "name": "Campari",
+          "sector": "Food, Beverage and Tobacco",
+          "pct_change": -1.79,
+          "last_close": 5.83,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the August 28, 2026 session the FTSE MIB closed with 6 stocks higher, 33 lower and 1 unchanged, out of 40 tracked. The average move was -0.79%.",
+          "Best-performing sectors by average move: Health Care (+0.52%); Industrial Goods and Services (+0.44%); Energy (-0.66%). Weakest: Utilities (-2.19%); Banks (-1.98%); Financial Services (-1.00%).",
+          "Leading the session: STMicroelectronics (STMMI.MI, +2.92%); Stellantis (STLAM.MI, +2.58%); Diasorin (DIA.MI, +1.77%). At the bottom: Hera (HER.MI, -3.32%); UniCredit (UCG.MI, -3.17%); Banco BPM (BAMI.MI, -2.12%)."
+        ],
+        "it": [
+          "Nella seduta del 28 agosto 2026 il FTSE MIB ha chiuso con 6 societa' in rialzo, 33 in ribasso e 1 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di -0,79%.",
+          "Settori con la variazione media migliore: Health Care (+0,52%); Industrial Goods and Services (+0,44%); Energy (-0,66%). Settori piu' debolli: Utilities (-2,19%); Banks (-1,98%); Financial Services (-1,00%).",
+          "In cima alla seduta: STMicroelectronics (STMMI.MI, +2,92%); Stellantis (STLAM.MI, +2,58%); Diasorin (DIA.MI, +1,77%). In fondo: Hera (HER.MI, -3,32%); UniCredit (UCG.MI, -3,17%); Banco BPM (BAMI.MI, -2,12%)."
+        ]
+      }
+    },
+    "combined": {
+      "stats": {
+        "n_up": 234,
+        "n_down": 282,
+        "n_flat": 2,
+        "n_total": 518,
+        "avg_pct": -0.38,
+        "best_sectors": [
+          {
+            "sector": "Communication Services",
+            "avg_pct": 1.09
+          },
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": 0.85
+          },
+          {
+            "sector": "Energy",
+            "avg_pct": 0.44
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Technology",
+            "avg_pct": -2.92
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": -1.77
+          },
+          {
+            "sector": "Utilities",
+            "avg_pct": -0.98
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "WDAY",
+          "name": "Workday, Inc.",
+          "sector": "Information Technology",
+          "pct_change": 5.76,
+          "last_close": 204.72,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DPZ",
+          "name": "Domino's",
+          "sector": "Consumer Discretionary",
+          "pct_change": 5.4,
+          "last_close": 350.0,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LULU",
+          "name": "Lululemon Athletica",
+          "sector": "Consumer Discretionary",
+          "pct_change": 5.05,
+          "last_close": 120.81,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NOW",
+          "name": "ServiceNow",
+          "sector": "Information Technology",
+          "pct_change": 4.54,
+          "last_close": 144.71,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SLB",
+          "name": "Schlumberger",
+          "sector": "Energy",
+          "pct_change": 4.22,
+          "last_close": 57.33,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon",
+          "sector": "Consumer Discretionary",
+          "pct_change": 3.97,
+          "last_close": 266.43,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CHTR",
+          "name": "Charter Communications",
+          "sector": "Communication Services",
+          "pct_change": 3.57,
+          "last_close": 153.62,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BG",
+          "name": "Bunge Global",
+          "sector": "Consumer Staples",
+          "pct_change": 3.5,
+          "last_close": 115.48,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EXPE",
+          "name": "Expedia Group",
+          "sector": "Consumer Discretionary",
+          "pct_change": 3.3,
+          "last_close": 329.44,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EBAY",
+          "name": "eBay Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": 3.28,
+          "last_close": 105.62,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "PYPL",
+          "name": "PayPal",
+          "sector": "Financials",
+          "pct_change": -12.71,
+          "last_close": 53.66,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MRVL",
+          "name": "Marvell Technology",
+          "sector": "Information Technology",
+          "pct_change": -10.28,
+          "last_close": 216.62,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PCG",
+          "name": "PG&E Corporation",
+          "sector": "Utilities",
+          "pct_change": -7.52,
+          "last_close": 16.6,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MSTR",
+          "name": "MicroStrategy",
+          "sector": "Technology",
+          "pct_change": -7.34,
+          "last_close": 127.31,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GNRC",
+          "name": "Generac",
+          "sector": "Industrials",
+          "pct_change": -6.84,
+          "last_close": 183.8,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LITE",
+          "name": "Lumentum",
+          "sector": "Information Technology",
+          "pct_change": -6.39,
+          "last_close": 895.0,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ARM",
+          "name": "Arm Holdings",
+          "sector": "Technology",
+          "pct_change": -6.33,
+          "last_close": 239.05,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "COIN",
+          "name": "Coinbase",
+          "sector": "Financials",
+          "pct_change": -6.33,
+          "last_close": 178.64,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FIX",
+          "name": "Comfort Systems USA",
+          "sector": "Industrials",
+          "pct_change": -5.96,
+          "last_close": 1518.73,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "COHR",
+          "name": "Coherent Corp.",
+          "sector": "Information Technology",
+          "pct_change": -5.48,
+          "last_close": 279.2,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the August 28, 2026 session the combined three U.S. indices closed with 234 stocks higher, 282 lower and 2 unchanged, out of 518 tracked. The average move was -0.38%.",
+          "Best-performing sectors by average move: Communication Services (+1.09%); Consumer Discretionary (+0.85%); Energy (+0.44%). Weakest: Technology (-2.92%); Information Technology (-1.77%); Utilities (-0.98%).",
+          "Leading the session: Workday, Inc. (WDAY, +5.76%); Domino's (DPZ, +5.40%); Lululemon Athletica (LULU, +5.05%). At the bottom: PayPal (PYPL, -12.71%); Marvell Technology (MRVL, -10.28%); PG&E Corporation (PCG, -7.52%)."
+        ],
+        "it": [
+          "Nella seduta del 28 agosto 2026 l'insieme dei tre indici USA ha chiuso con 234 societa' in rialzo, 282 in ribasso e 2 invariate, su 518 titoli monitorati. La variazione media dell'indice e' stata di -0,38%.",
+          "Settori con la variazione media migliore: Communication Services (+1,09%); Consumer Discretionary (+0,85%); Energy (+0,44%). Settori piu' debolli: Technology (-2,92%); Information Technology (-1,77%); Utilities (-0,98%).",
+          "In cima alla seduta: Workday, Inc. (WDAY, +5,76%); Domino's (DPZ, +5,40%); Lululemon Athletica (LULU, +5,05%). In fondo: PayPal (PYPL, -12,71%); Marvell Technology (MRVL, -10,28%); PG&E Corporation (PCG, -7,52%)."
+        ]
+      }
+    }
+  },
+  "manual_commentary_html": null,
+  "manual_commentary_html_en": null,
+  "manual_highlights": [],
+  "feed": [
+    {
+      "title": "Trump says US is taking partial control of Venezuela's vast oil reserves",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Fri, 28 Aug 2026 22:55:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDBRX1E5WWItYWoycXJDSUZhMWJaZUthYmJUcTFqcTA3MGJLZnVPS1dQcWZyeW1FbW9wYnRBNS1OSlVyM0VXN3BIV01IVl8tMmdjQzByaGxIcmVQSnRDSjRiTXdtdEkza1hkdDJQcGNzYXY4OGkzOGZpS1pFMUtyaVFXenBXalpHUTNnZGhZUl92bklLcUg5OVhVMWkzaWxvYWN6S05oN0w3dw?oc=5",
+      "summary": "Trump says US is taking partial control of Venezuela's vast oil reserves &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "Op-ed: Dolly Parton was underestimated for decades. That became one of her greatest strengths",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 20:22:50 GMT",
+      "link": "https://www.cnbc.com/2026/08/29/dolly-parton-success-business-lessons.html",
+      "summary": "In a candid 2015 interview, Dolly Parton told CNBC's Tania Bryer about depression, ambition and the business decisions that defined her career.",
+      "image": "https://image.cnbcfm.com/api/v1/image/103684706-GettyImages-105810271.jpg?v=1532564104&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "National Park Service backs Trump’s 250-foot arch despite ‘adverse effects’ on historic sites",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 18:23:57 GMT",
+      "link": "https://www.cnbc.com/2026/08/29/trump-arch-national-park-service-report.html",
+      "summary": "The park service is backing the arch, despite finding that it would adversely affect historic sightlines and other visual relationships among nearby landmarks.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108332979-17836232572026-07-09t182239z_1433587302_rc2hamas5xv4_rtrmadp_0_usa-trump-arch.jpeg?v=1783623291&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Trump administration weighs Yosemite land swap for private developer’s access road",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 18:21:49 GMT",
+      "link": "https://www.cnbc.com/2026/08/29/trump-yosemite-land-swap-kingsbarn.html",
+      "summary": "The Trump administration is considering a Yosemite land exchange that could give a developer more direct park access.",
+      "image": "https://image.cnbcfm.com/api/v1/image/107232756-1682691899277-gettyimages-1485969252-mt_27943_afs5soil.jpeg?v=1713459800&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 15:31:00 GMT",
+      "link": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
+      "summary": "“His argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.”",
+      "image": "https://images.mktw.net/im-48497737"
+    },
+    {
+      "title": "Goodyear burning rubber and cash as turnaround plan continues",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 13:56:58 GMT",
+      "link": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html",
+      "summary": "The tire maker has an ongoing turnaround plan as the company tries to restructure its business, refinance and pay down years of debt.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108354746-1787772909822-Goodyear_CEO_Mark_Stewart.png?v=1787838205&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Why would someone lock up money by rolling it into a 401(k)?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 13:00:00 GMT",
+      "link": "https://www.marketwatch.com/story/why-would-someone-lock-up-money-by-rolling-it-into-a-401-k-2c742e90?mod=mw_rss_topstories",
+      "summary": "When done right, rollovers can be a great tool.",
+      "image": "https://images.mktw.net/im-26719314"
+    },
+    {
+      "title": "5 affordable cities to retire in the U.S. right now",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 12:50:00 GMT",
+      "link": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
+      "summary": "You don’t have to leave the country to find an affordable place that matches your retirement vision.",
+      "image": "https://images.mktw.net/im-81114874"
+    },
+    {
+      "title": "Tim Cook wasn’t a ‘product guy’ — so he re-engineered Apple instead",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 12:30:00 GMT",
+      "link": "https://www.marketwatch.com/story/tim-cook-wasnt-a-product-guy-so-he-re-engineered-apple-instead-03ca53f4?mod=mw_rss_topstories",
+      "summary": "Dismissed as “not a product guy,” the outgoing CEO proved that supply-chain mastery could take Apple to new heights.",
+      "image": "https://images.mktw.net/im-40700898"
+    },
+    {
+      "title": "Dozens killed in Russian strike on ammunition depot near Kyiv",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 11:38:48 GMT",
+      "link": "https://www.ft.com/content/40eaeba7-9514-4e6b-9bd3-4a9381618c84",
+      "summary": "Lengthy air raids by Moscow’s jet-powered drones have triggered 27 alerts since Thursday in one of the longest attacks of the war",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F53ac0111-4a93-46bc-89ea-d14af6c9bdbc.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Swiss wealth managers urge delay to ownership register after Liechtenstein hack",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 11:00:02 GMT",
+      "link": "https://www.ft.com/content/4822389d-5bb2-4e31-a627-bcda849630c8?syn-25a6b1a6=1",
+      "summary": "Bankers also raised cyber security concerns over list of ultimate owners of more than 500,000 companies and other entities",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F7ef0bcc4-c6f6-4772-943a-405d2ccaf0b9.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Risk of a new age of financial repression is rising",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 04:00:40 GMT",
+      "link": "https://www.ft.com/content/ba4b940e-4a44-473b-9846-eaba9434b65f?syn-25a6b1a6=1",
+      "summary": "The idea of pushing US government bonds down the throats of investors is being taken increasingly seriously",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F55870f25-7937-4bc5-86d6-3c5fb169a7f7.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Zero-sum thinking will fuel resentment and scarcity",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 04:00:40 GMT",
+      "link": "https://www.ft.com/content/492134e9-49eb-4f13-b70a-b2b595ed0e2a?syn-25a6b1a6=1",
+      "summary": "The assumption that one group must lose for another to gain has become worryingly widespread",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F1a0e289a-7f8c-46c9-8bbf-e610291082bb.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Supercars Fuel a New Hybrid Boom",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 14:56:16 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-29/supercars-fuel-a-new-hybrid-boom-video",
+      "summary": "Hybrids are enjoying a resurgence as slower EV adoption and continued demand for combustion engines reshape the auto industry, with the technology increasingly appearing in high-performance and luxury cars. Co-host of Bloomberg's \"Hot Pursuit!\" Hannah Elliott explains to Christin",
+      "image": null
+    },
+    {
+      "title": "A $2,000 Sweater Reveals Fashion’s True Cost",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 14:54:05 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-29/a-2-000-sweater-reveals-fashion-s-true-cost-video",
+      "summary": "Content creator Macy Gilliam spent 90-hours over four months and about $2,000 making a sweater from scratch, starting with wool from a sheep at New York City’s Queens County Farm Museum. Gilliam joins Christina Ruffini on Bloomberg This Weekend where she explains that the project",
+      "image": null
+    },
+    {
+      "title": "Can the US Defy Fiscal Gravity?",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 14:13:00 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-29/can-the-us-defy-fiscal-gravity-video",
+      "summary": "David Bianco of DWS says long-term Treasury yields and real rates have climbed to some of their highest levels in nearly 25 years, but he argues inflation is not the main driver. The bigger issues are structural: US deficits above 6% of GDP, a rising total debt-to-GDP ratio, and ",
+      "image": null
+    },
+    {
+      "title": "$700 Cash Grants Transform Lives in Malawi",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 14:04:58 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-29/-700-cash-grants-transform-lives-in-malawi-video",
+      "summary": "The nonprofit GiveDirectly, with a large backing from Canva, is providing eligible adults in two Malawi districts with about $700 each, roughly equivalent to the country’s annual income per person, with virtually no restrictions on how the money is spent. Bloomberg News Senior Af",
+      "image": null
+    },
+    {
+      "title": "OpenAI to cut off AI models for SpaceX-owned Cursor, escalating feud with Musk",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 07:05:19 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRUdlVXhBU0dadjVHRG10TFFYU2wwWHdyenlGSGZkUVUtcHV2YVdrN25KS3c0cEdrWHhEY054X3c4SUszUjdDUVRXdzJwSkc2N2ZXeXFweHI5MjgtQmlZQjFiYU1TZ2p5cTB5SUE5MWttbHRJYlQ3eDlzUlFXR0JhOEFfYjd2QzF6MExhRnVnTzQ1TnA3a3FfR0tqYVVwVC1YcXZN?oc=5",
+      "summary": "OpenAI to cut off AI models for SpaceX-owned Cursor, escalating feud with Musk &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "Treasury Bars Some Reporters From G20 Finance Meeting",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 23:20:50 +0000",
+      "link": "https://www.nytimes.com/2026/08/29/business/reporters-denied-g20-meeting.html",
+      "summary": "Specific reporters from The New York Times, The Wall Street Journal and Bloomberg were not granted credentials to cover the meeting of financial leaders next week in Asheville, N.C.",
+      "image": "https://static01.nyt.com/images/2026/08/29/multimedia/29BIZ-G20-CREDENTIALS-hjgq/29BIZ-G20-CREDENTIALS-hjgq-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Trump’s Venezuelan Oil Deal Relies on a Powerful and Divisive Partner",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 22:47:18 +0000",
+      "link": "https://www.nytimes.com/2026/08/29/business/energy-environment/venezuela-alejandro-betancourt-oil-trump.html",
+      "summary": "The administration will work with a private Venezuelan oil company that has close ties to the country’s government.",
+      "image": "https://static01.nyt.com/images/2026/08/29/multimedia/29biz-venezuela-betancourt-topart-zgcw/29biz-venezuela-betancourt-topart-zgcw-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Solar Has Crossed a Critical Economic Tipping Point",
+      "source": "Yahoo Finance",
+      "category": "mercati",
+      "published": "2026-08-29T21:00:00Z",
+      "link": "https://finance.yahoo.com/energy/articles/solar-crossed-critical-economic-tipping-210000010.html",
+      "summary": "",
+      "image": "https://media.zenfs.com/en/oilprice.com/a42fee646842ebe243f90e5beb962237.jpg"
+    },
+    {
+      "title": "Johnson & Johnson Stock: Is JNJ Outperforming the Consumer Staples Sector?",
+      "source": "Yahoo Finance",
+      "category": "mercati",
+      "published": "2026-08-29T17:12:12Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-stock-jnj-outperforming-171212270.html",
+      "summary": "",
+      "image": "https://media.zenfs.com/en/barchart_com_477/4046d451b7529b9980d89581fd8c0e8f.jpg"
+    },
+    {
+      "title": "Is Costco Stock Underperforming the Dow?",
+      "source": "Yahoo Finance",
+      "category": "mercati",
+      "published": "2026-08-29T16:54:46Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-underperforming-dow-165446351.html",
+      "summary": "",
+      "image": "https://media.zenfs.com/en/barchart_com_477/b13efc5f7beffd1e0b8a8dfd184a00c9.jpg"
+    },
+    {
+      "title": "Trump Says U.S. Struck Deal for Control of More Than 65 Billion Barrels of Venezuela’s Oil",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 16:53:10 +0000",
+      "link": "https://www.nytimes.com/2026/08/28/business/trump-venezuela-oil-deal.html",
+      "summary": "The president said an agreement between the countries covered more than 65 billion barrels of reserves. A U.S. official said it would involve a partnership with a private company.",
+      "image": "https://static01.nyt.com/images/2026/01/08/multimedia/28biz-trump-venezuela/28biz-trump-venezuela-mediumSquareAt3X-v2.jpg"
+    },
+    {
+      "title": "Private Equity’s Zombie Problem Is A Challenge For Banks",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 12:48:55 -0400",
+      "link": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/08/29/private-equitys-zombie-problem-is-a-challenge-for-banks/",
+      "summary": "Private equity's growing exit backlog is transforming from an investor issue into a significant banking system concern, potentially impacting the wider economy",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a93075b750ae2d0c56c0a31/0x0.jpg"
+    },
+    {
+      "title": "Is Oracle Stock Underperforming the S&P 500?",
+      "source": "Yahoo Finance",
+      "category": "mercati",
+      "published": "2026-08-29T16:44:53Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stock-underperforming-p-500-164453386.html",
+      "summary": "",
+      "image": "https://media.zenfs.com/en/barchart_com_477/e6270eaced21baa42d87300c42cfa807.jpg"
+    },
+    {
+      "title": "Jun Ji-Hyun, Yeon Sang-Ho Talk ‘Colony,’ K-Zombies And Wild Car Stunts",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 18:33:32 -0400",
+      "link": "https://www.forbes.com/sites/reginakim/2026/08/29/jun-ji-hyun-yeon-sang-ho-talk-colony-k-zombies-and-wild-car-stunts/",
+      "summary": "‘Colony’ star Jun Ji-hyun and director Yeon Sang-ho discuss their new zombie film, its wild action scenes and K-zombies. 'Colony' is Jun’s big-screen return in 11 years.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a933a88692a30a2f78f5019/0x0.jpg"
+    },
+    {
+      "title": "The Intricacies Of Artificial General Intelligence And Curing Disease",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 17:47:19 -0400",
+      "link": "https://www.forbes.com/sites/saibala/2026/08/29/the-intricacies-of-artificial-general-intelligence-and-curing-disease/",
+      "summary": "Artificial general intelligence (AGI) may enable human-level reasoning and critical thinking across multiple cognitive domains.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a934ee855bfeaed51cbb297/0x0.jpg"
+    },
+    {
+      "title": "NYT ‘Connections’ #1176 Hints And Answers For Sunday, August 30",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 15:32:05 -0400",
+      "link": "https://www.forbes.com/sites/erikkain/2026/08/29/nyt-connections-1176-hints-and-answers-for-sunday-august-30/",
+      "summary": "Looking for today's NYT Connections hints? Some help and the answers for today's game are right here to help keep your streak alive.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6897b0fa9d5fa5836ab3a53d/0x0.jpg?width=960"
+    },
+    {
+      "title": "Thievery or Innovation? The Music Industry Grapples With A.I.",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 29 Aug 2026 17:02:38 +0000",
+      "link": "https://www.nytimes.com/2026/08/29/business/dealbook/ai-generated-music.html",
+      "summary": "Some labels have sued A.I. music generators like Suno. Others have partnered with them. At least one has done both.",
+      "image": "https://static01.nyt.com/images/2026/08/29/multimedia/29DB-AI-MUSIC-SWAP-vtbk/29DB-AI-MUSIC-SWAP-vtbk-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Cgia, per le famiglie 20.592 euro di tasse ma il 95,7% 'invisibili'",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 29 Aug 2026 10:22:29 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/08/29/cgia-per-le-famiglie-20.592-euro-di-tasse-ma-il-957-invisibili_54ba835b-4d6d-430d-9e07-02e98982ab6b.html",
+      "summary": "Italia quinta in Europa per pressione fiscale, peggio di Germania e Spagna",
+      "image": null
+    },
+    {
+      "title": "Psilocybin Might Make Your Brain Live in the Moment",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 29 Aug 2026 09:00:00 +0000",
+      "link": "https://www.wired.com/story/psilocybin-might-make-your-brain-live-in-the-moment/",
+      "summary": "Psychedelics are often associated with disconnecting from reality, but a recent neuroimaging study found that psilocybin can actually make our brain activity more connected to the world around us.",
+      "image": "https://media.wired.com/photos/6a919be132e307274e3f30e1/master/pass/1398820822"
+    },
+    {
+      "title": "Stablecoins not credible for payments at scale, BIS chief says",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Sat, 29 Aug 2026 08:01:04 +0000",
+      "link": "https://cointelegraph.com/news/stablecoins-not-credible-payments-scale-bis-chief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "BIS chief Pablo Hernández de Cos said stablecoins lack credibility for payments at scale, while a new FSI study highlights sharp differences in issuer rules.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M166CFV826H6EC9FT9NRRV7E/hi-stablecoin-has-been-listed-an-exchange-traded-note-in-europe.jpg"
+    },
+    {
+      "title": "Motorola Coupon Code for September 2026",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 29 Aug 2026 05:00:00 +0000",
+      "link": "https://www.wired.com/story/motorola-coupon-code/",
+      "summary": "Upgrade your smartphone for less with the latest Motorola promo codes, free shipping offers, and exclusive seasonal discounts.",
+      "image": "https://media.wired.com/photos/67b63b9a4816461befb48207/master/pass/WIRED-Coupons-R2_12.png"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Fri, 28 Aug 2026 22:29:13 +0000",
+      "link": "https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/",
+      "summary": "The unexpected interruption came hours before the president wrote a congratulatory post on Truth Social about the company’s most recent earnings report.",
+      "image": "https://media.wired.com/photos/6a9205e11fef496705b5c9f7/master/pass/Jensen-Took-Call-From-Trump-Business-2212801537.jpg"
+    },
+    {
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 29 Aug 2026 13:00:00 +0000",
+      "link": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "image": null
+    },
+    {
+      "title": "Is the best way to watch a movie on a pair of sunglasses?",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Fri, 28 Aug 2026 22:42:48 +0000",
+      "link": "https://techcrunch.com/2026/08/28/is-the-best-way-to-watch-a-movie-on-a-pair-of-sunglasses/",
+      "summary": "Are XREAL's smart glasses the way of the future for home entertainment?",
+      "image": null
+    },
+    {
+      "title": "Agentic Decentralized Finance Forum to Advance Singapore’s Next Digital Economy",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Sat, 29 Aug 2026 07:00:00 +0000",
+      "link": "https://cryptonomist.ch/2026/08/29/agentic-decentralized-finance-forum-to-advance-singapores-next-digital-economy/",
+      "summary": "Executive forum and strategic regional partnerships bring together leaders in AI, digital finance and blockchain to accelerate cross-border innovation As artificial intelligence reshapes industries and digital assets move into the financial mainstream, Singapore is well positione",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/08/finance.png"
+    },
+    {
+      "title": "Movimenti portafogli Bitcoin inattivi: 40 milioni di dollari in 10 giorni",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Sat, 29 Aug 2026 05:45:34 +0000",
+      "link": "https://cryptonomist.ch/2026/08/29/movimenti-portafogli-bitcoin-inattivi/",
+      "summary": "Sei portafogli rimasti immobili fin dal 2011, 2012 e 2014 si sono svegliati nell&#8217;arco di dieci giorni, muovendo complessivamente 553,59 BTC per un valore di circa 40 milioni di dollari. I movimenti portafogli Bitcoin inattivi registrati tra il 16 e il 26 agosto 2026 rilanci",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/08/movimenti-portafogli-bitcoin-inattivi.jpeg"
+    },
+    {
+      "title": "Ripple fissa al 2028 la sicurezza quantistica XRP: ecco il piano",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Sat, 29 Aug 2026 05:49:13 +0000",
+      "link": "https://cryptonomist.ch/2026/08/29/sicurezza-quantistica-xrp-ripple/",
+      "summary": "C&#8217;è una data che gli ingegneri di Ripple hanno imparato a temere e a pianificare in anticipo: il cosiddetto &#8220;Q-Day&#8221;, il momento in cui un computer quantistico sufficientemente potente potrebbe smontare le protezioni matematiche che oggi custodiscono le chiavi pr",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/08/sicurezza-quantistica-xrp-ripple.jpeg"
+    }
+  ],
+  "generated_at": "2026-08-30 01:34:02",
+  "markets_brief": {
+    "items": [
+      {
+        "title": "Oil deal with US is denounced by both sides of Venezuelan politics",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/b3c98ca2-fe67-459d-89ff-4728993110b7?syn-25a6b1a6=1"
+      },
+      {
+        "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html"
+      },
+      {
+        "title": "Warsh puts Fed on collision course with Trump ahead of midterms",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/69452aea-cee0-47de-be8a-dc790fed3db1?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Where are all the new jobs? Hiring slows again — and it probably won’t speed up soon.",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/where-are-all-the-new-jobs-hiring-slows-again-and-it-probably-wont-speed-up-soon-66920f1d?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Corporate earnings have been growing at a blistering pace. Here’s why that’s not likely to last.",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/corporate-earnings-have-been-growing-at-a-blistering-pace-heres-why-thats-not-likely-to-last-28810eac?mod=mw_rss_topstories"
+      }
+    ],
+    "prose_html": "<p>Il mercato del lavoro mostra segni di debolezza persistente, con l&#x27;assunzione che rallenta nuovamente e pochi segnali di una ripresa imminente, anche se gli utili aziendali hanno registrato un&#x27;impennata rapida: una divergenza che suggerisce che la crescita dei profitti potrebbe non essere duratura. Nel frattempo, le tensioni politiche si stanno intensificando: il governatore della Federal Reserve Kevin Warsh sta mettendo la banca centrale in rotta di collisione con l&#x27;amministrazione Trump in vista delle elezioni di metà mandato, mentre un accordo petrolifero che coinvolge gli Stati Uniti e il Venezuela affronta l&#x27;opposizione da entrambi i lati della politica venezuelana, aggiungendo incertezza geopolitica ai mercati energetici.</p>",
+    "prose_html_en": "<p>The labor market is showing signs of sustained weakness, with hiring slowing again and few signs of a near-term rebound, even as corporate earnings have surged at a rapid clip—a divergence that suggests profit growth may not be durable. Meanwhile, policy tensions are mounting: Federal Reserve Governor Kevin Warsh is setting the central bank on a collision course with the Trump administration ahead of midterm elections, while an oil deal involving the US and Venezuela faces opposition from both sides of Venezuelan politics, adding geopolitical uncertainty to energy markets.</p>"
+  },
+  "live_close_movers": {
+    "captured_at": "2026-08-28T20:21:06Z",
+    "session_date": "2026-08-28",
+    "universe": 1232,
+    "gainers": [
+      {
+        "symbol": "ESTC",
+        "name": "Elastic N.V.",
+        "pct": 19.31
+      },
+      {
+        "symbol": "GAP",
+        "name": "Gap, Inc. (The)",
+        "pct": 12.94
+      },
+      {
+        "symbol": "SOLS",
+        "name": "Solstice Advanced Materials Inc.",
+        "pct": 12.76
+      },
+      {
+        "symbol": "FLUT",
+        "name": "Flutter Entertainment plc",
+        "pct": 7.13
+      },
+      {
+        "symbol": "WDAY",
+        "name": "Workday, Inc.",
+        "pct": 5.76
+      },
+      {
+        "symbol": "WEN",
+        "name": "Wendy's Company (The)",
+        "pct": 5.75
+      },
+      {
+        "symbol": "DPZ",
+        "name": "Domino's Pizza Inc",
+        "pct": 5.4
+      },
+      {
+        "symbol": "LULU",
+        "name": "lululemon athletica inc.",
+        "pct": 5.05
+      },
+      {
+        "symbol": "BBW",
+        "name": "Build-A-Bear Workshop, Inc.",
+        "pct": 4.96
+      },
+      {
+        "symbol": "DAR",
+        "name": "Darling Ingredients Inc.",
+        "pct": 4.77
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "VISN",
+        "name": "Vistance Networks, Inc.",
+        "pct": -47.89
+      },
+      {
+        "symbol": "DAIC",
+        "name": "CID HoldCo, Inc.",
+        "pct": -19.44
+      },
+      {
+        "symbol": "BRUN",
+        "name": "Boost Run Inc.",
+        "pct": -17.27
+      },
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": -16.23
+      },
+      {
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": -13.15
+      },
+      {
+        "symbol": "RBRK",
+        "name": "Rubrik, Inc.",
+        "pct": -13.05
+      },
+      {
+        "symbol": "PYPL",
+        "name": "PayPal Holdings, Inc.",
+        "pct": -12.71
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -12.53
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -12.39
+      },
+      {
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -11.55
+      }
+    ]
+  },
+  "weekend_report": {
+    "kind": "weekend_recap",
+    "covers_date": "2026-08-29",
+    "covers_date_it": "29 agosto 2026",
+    "covers_date_en": "August 29, 2026",
+    "window_hours": 26,
+    "n_items": 104,
+    "n_digest": 24,
+    "n_sources": 15,
+    "sections": [
+      {
+        "key": "mercati",
+        "label": {
+          "en": "Markets and macro",
+          "it": "Mercati e macro"
+        },
+        "n_available": 69,
+        "items": [
+          {
+            "title": "Oil deal with US is denounced by both sides of Venezuelan politics",
+            "source": "Financial Times",
+            "category": "mercati",
+            "link": "https://www.ft.com/content/b3c98ca2-fe67-459d-89ff-4728993110b7?syn-25a6b1a6=1",
+            "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F7d2bbc30-69b0-4818-a366-8515fdfd425a.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+            "summary": "Opposition said agreement with Trump administration was potentially illegal while government hardliners cast it as a betrayal",
+            "published": "Sat, 29 Aug 2026 22:38:56 GMT"
+          },
+          {
+            "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
+            "source": "CNBC",
+            "category": "mercati",
+            "link": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108299329-17774844982026-04-29t174052z_1503926160_rc21zka40miz_rtrmadp_0_musk-openai-court.jpeg?v=1777484582&amp;w=1920&amp;h=1080",
+            "summary": "OpenAI plans to end model access through Cursor on Nov. 12, citing concerns after SpaceX’s $60 billion acquisition of the coding startup.",
+            "published": "Sat, 29 Aug 2026 19:06:22 GMT"
+          },
+          {
+            "title": "Warsh puts Fed on collision course with Trump ahead of midterms",
+            "source": "Financial Times",
+            "category": "mercati",
+            "link": "https://www.ft.com/content/69452aea-cee0-47de-be8a-dc790fed3db1?syn-25a6b1a6=1",
+            "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4fbd7e3c-b838-4da5-9dd5-ee28e50c4235.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+            "summary": "US central bank chair’s Jackson Hole hint that rates may rise runs counter to the reduction in borrowing costs the US president desires",
+            "published": "Sat, 29 Aug 2026 12:57:12 GMT"
+          },
+          {
+            "title": "Where are all the new jobs? Hiring slows again — and it probably won’t speed up soon.",
+            "source": "MarketWatch",
+            "category": "mercati",
+            "link": "https://www.marketwatch.com/story/where-are-all-the-new-jobs-hiring-slows-again-and-it-probably-wont-speed-up-soon-66920f1d?mod=mw_rss_topstories",
+            "image": "https://images.mktw.net/im-04504407",
+            "summary": "The U.S. labor market seemed to be on upswing after a surge in new employment early this year — but a summer slowdown in hiring and fewer help-wanted ads suggest it won’t get any easier to find a job.",
+            "published": "Sat, 29 Aug 2026 12:00:00 GMT"
+          },
+          {
+            "title": "Corporate earnings have been growing at a blistering pace. Here’s why that’s not likely to last.",
+            "source": "MarketWatch",
+            "category": "mercati",
+            "link": "https://www.marketwatch.com/story/corporate-earnings-have-been-growing-at-a-blistering-pace-heres-why-thats-not-likely-to-last-28810eac?mod=mw_rss_topstories",
+            "image": "https://images.mktw.net/im-70440695",
+            "summary": "The recent blistering pace of earnings growth is unsustainable.",
+            "published": "Sat, 29 Aug 2026 11:30:00 GMT"
+          },
+          {
+            "title": "India's HDFC Bank CEO Jagdishan to step down in October",
+            "source": "Reuters",
+            "category": "mercati",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTjQ0ZEltU3JVMEN5SGdYRUpKRk5oaWlCbjZXb2hBbFljdURWWmxNOHE5cURZU1YtNWVhSnN6WDJCdVBOOGxaZ2JBSjlZQTBYYU1ITnJma1h0RVBQTU1tTHVWOFljQURVeW5zamEyMHdLX2FEdHdjR1FFOTdfUmFLTm91dWJtVHROZ0RuOFMyUGwxLXZZSGtHMmxnWDQ?oc=5",
+            "image": null,
+            "summary": "India's HDFC Bank CEO Jagdishan to step down in October &nbsp;&nbsp; Reuters",
+            "published": "Sat, 29 Aug 2026 14:01:47 GMT"
+          }
+        ]
+      },
+      {
+        "key": "crypto",
+        "label": {
+          "en": "Crypto",
+          "it": "Crypto"
+        },
+        "n_available": 10,
+        "items": [
+          {
+            "title": "Tokenized stock transfer volume jumps 415% in 30 days to $29.5B",
+            "source": "Cointelegraph",
+            "category": "crypto",
+            "link": "https://cointelegraph.com/markets/tokenized-stock-transfer-volume-jumps-416-in-30-days-to-295b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "image": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M174Y6XQHY999NVSQCZY6B3V/hi-cryptocurrency-vs-stocks-breaking-news-1.png",
+            "summary": "Tokenized equities saw a sharp rise in onchain activity as active addresses and holders more than doubled over the past month.",
+            "published": "Sat, 29 Aug 2026 16:27:28 +0000"
+          },
+          {
+            "title": "BitGo Buys NYDIG's Institutional Trading Arm to Beef Up Derivatives and Financing",
+            "source": "Decrypt",
+            "category": "crypto",
+            "link": "https://decrypt.co/376864/bitgo-buys-nydig-institutional-trading-arm",
+            "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/bitgo-nyse-decrypt-style-gID_7.jpg",
+            "summary": "The roughly $42.5 million cash-and-stock deal adds derivatives, structured products and capital-markets capabilities, while letting NYDIG focus on its power and data-center business.",
+            "published": "Sat, 29 Aug 2026 13:31:04 +0000"
+          },
+          {
+            "title": "Here’s what happened in crypto today",
+            "source": "Cointelegraph",
+            "category": "crypto",
+            "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
+            "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+            "published": "Sat, 29 Aug 2026 12:39:59 +0000"
+          },
+          {
+            "title": "Trump-promoted brand touts GOLD before token collapse",
+            "source": "Cointelegraph",
+            "category": "crypto",
+            "link": "https://cointelegraph.com/news/trump-linked-account-list-gold-token-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "image": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M16D9NH0P7JYVR3ND526E5F5/trumps-influence-on-crypto.jpg",
+            "summary": "Real Trump Coins promoted GOLD before deleting related X posts, while team-linked wallets sold 224.5 million tokens as its market value fell about 99%.",
+            "published": "Sat, 29 Aug 2026 10:53:41 +0000"
+          },
+          {
+            "title": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
+            "source": "Cointelegraph",
+            "category": "crypto",
+            "link": "https://cointelegraph.com/markets/bitcoin-etf-end-9-day-inflow-streak-btc-below-78k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "image": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M162QNJPWZZW5MZ2NTH7GFQ2/hi-what-is-a-bitcoin-node-a-beginners-guide-on-blockchain-nodes-etf3-1.jpg",
+            "summary": "US spot Bitcoin ETFs posted $201.8 million in net outflows Friday, led by ARK 21Shares, as total fund assets slipped back below $100 billion.",
+            "published": "Sat, 29 Aug 2026 06:47:12 +0000"
+          },
+          {
+            "title": "Layer 1 blockchain Fogo halts mainnet after attacker receives 400 million FOGO tokens, 10% of circulating supply",
+            "source": "The Block",
+            "category": "crypto",
+            "link": "https://www.theblock.co/news/defi/2026-08-29-layer-1-blockchain-fogo-halts-mainnet-after-attacker-receives-400-million-fogo-tokens-10-of-circulating-supply-413064",
+            "image": "https://www.tbstat.com/wp/uploads/2021/09/20210917_Hack_General-1200x675.jpg",
+            "summary": "The affected tokens make up about 4% of FOGO's genesis supply and were worth about $3 million at the time of the incident.",
+            "published": "Sat, 29 Aug 2026 21:16:51 +0000"
+          }
+        ]
+      },
+      {
+        "key": "tech",
+        "label": {
+          "en": "Tech",
+          "it": "Tech"
+        },
+        "n_available": 11,
+        "items": [
+          {
+            "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+            "source": "TechCrunch",
+            "category": "tech",
+            "link": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+            "image": "https://techcrunch.com/wp-content/uploads/2026/08/Vijay-Pande.png?resize=1200,800",
+            "summary": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expensive, and why he thi",
+            "published": "Sat, 29 Aug 2026 17:36:47 +0000"
+          },
+          {
+            "title": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+            "source": "TechCrunch",
+            "category": "tech",
+            "link": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/",
+            "image": null,
+            "summary": "Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots. And they're all Chinese automakers.",
+            "published": "Fri, 28 Aug 2026 23:24:27 +0000"
+          },
+          {
+            "title": "Hollywood celebs are getting into microdrama apps",
+            "source": "TechCrunch",
+            "category": "tech",
+            "link": "https://techcrunch.com/2026/08/29/hollywood-celebs-are-getting-into-microdrama-apps/",
+            "image": "https://techcrunch.com/wp-content/uploads/2023/12/shutterstock_movie_director.jpg?resize=1200,717",
+            "summary": "Several Hollywood celebs are ditching the massive eight-figure checks and exotic movie sets for a rising format: microdramas.",
+            "published": "Sat, 29 Aug 2026 16:10:00 +0000"
+          },
+          {
+            "title": "The Theragun Sense makes everyday recovery surprisingly easy",
+            "source": "TechCrunch",
+            "category": "tech",
+            "link": "https://techcrunch.com/2026/08/29/the-theragun-sense-makes-everyday-recovery-surprisingly-easy/",
+            "image": "https://techcrunch.com/wp-content/uploads/2026/08/theragun-sense.png?resize=1200,788",
+            "summary": "As my 20s are set to come to an end later this year, I’ve officially reached the age where sleeping in the wrong position or stretching just a little too far can cause aches and pains. I’ve always been somewhat skeptical of massage guns, mostly because I’ve tried a few off-brand ",
+            "published": "Sat, 29 Aug 2026 14:00:00 +0000"
+          },
+          {
+            "title": "The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn",
+            "source": "Wired",
+            "category": "tech",
+            "link": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
+            "image": "https://media.wired.com/photos/6a921e363b3f20c2f80986f3/master/pass/Security-News-This-Week-The-AI-Cybersecurity-Apocalypse-Is-Coming.jpg",
+            "summary": "Plus: Hackers target over 100 US water systems, ICE puts in an order for robot dogs, and you’ll never guess what “MrChildPorn” was arrested for.",
+            "published": "Sat, 29 Aug 2026 10:30:00 +0000"
+          },
+          {
+            "title": "How to Run a Chatbot on Your Own Computer",
+            "source": "Wired",
+            "category": "tech",
+            "link": "https://www.wired.com/story/how-to-run-your-own-local-llm/",
+            "image": "https://media.wired.com/photos/6a915ae02fa9a47ca7d480c1/master/pass/RunAChatbot.jpg",
+            "summary": "Installing a large language model on your personal computer gives you a handy digital assistant that won’t compromise your data privacy.",
+            "published": "Sat, 29 Aug 2026 10:00:00 +0000"
+          }
+        ]
+      },
+      {
+        "key": "italia",
+        "label": {
+          "en": "Italy",
+          "it": "Italia"
+        },
+        "n_available": 6,
+        "items": [
+          {
+            "title": "Codacons: 'Caos controesodo tra cantieri, traffico bloccato e stangata sui carburanti'",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/08/29/caos-controesodo-tra-cantieri-traffico-bloccato-e-stangata-carburanti_a1daa0aa-bb2c-4721-8a75-b34c8a1b7e0a.html",
+            "image": null,
+            "summary": "Ma c'è una novità: il rimborso dei pedaggi per ritardi da cantieri e blocco del traffico",
+            "published": "Sat, 29 Aug 2026 12:23:58 +0200"
+          },
+          {
+            "title": "In Europa uno su sei fuma o svapa quotidianamente. Italia in linea",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/08/29/in-europa-uno-su-sei-fuma-o-svapa-quotidianamente.-italia-in-linea_356e2e4e-d754-4e8d-b733-ec461331a1c9.html",
+            "image": null,
+            "summary": "In arrivo la nuova direttiva Ue osteggiata dagli operatori",
+            "published": "Sat, 29 Aug 2026 12:23:32 +0200"
+          },
+          {
+            "title": "Dopo aeroporti è risiko dei binari, Fs e Virgin sfidano Eurostar. Italo in Germania",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/08/29/dopo-aeroporti-e-risiko-dei-binari-fs-e-virgin-sfidano-eurostar.-italo-in-germania_8c12991b-90fc-4bc8-9406-ec728f9e4894.html",
+            "image": null,
+            "summary": "Ferrovie punta a collegare Londra e Parigi dal 2029",
+            "published": "Sat, 29 Aug 2026 11:23:56 +0200"
+          },
+          {
+            "title": "Per le famiglie 20.592 euro di tasse ma il 95,7% sono 'invisibili'",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/pmi/2026/08/29/cgia-per-le-famiglie-20.592-euro-di-tasse-ma-il-957-invisibili_ce34aff6-987f-4734-81a1-3ee029557740.html",
+            "image": null,
+            "summary": "Italia quinta in Europa per pressione fiscale, peggio di Germania e Spagna",
+            "published": "Sat, 29 Aug 2026 10:37:46 +0200"
+          },
+          {
+            "title": "Volano le vacanze a settembre, 10 milioni in viaggio",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/08/29/volano-le-vacanze-a-settembre-10-milioni-in-viaggio_d08a8809-696b-421b-883d-a2fc37b6a586.html",
+            "image": null,
+            "summary": "Confturismo, 71% resa in Italia, Toscana, Campania ed Emilia Romagna le mete preferite",
+            "published": "Sat, 29 Aug 2026 09:49:40 +0200"
+          },
+          {
+            "title": "Canale di Panama, record di 5,3 milioni di dollari per un transito",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/08/29/canale-di-panama-record-di-53-milioni-di-dollari-per-un-transito_54b76ea3-5db8-41b7-aac9-18a60e3627e8.html",
+            "image": null,
+            "summary": "Cifra sborsata all'asta per anticipare i limiti alla navigazione",
+            "published": "Sat, 29 Aug 2026 03:25:23 +0200"
+          }
+        ]
+      }
+    ],
+    "feed_leftover": [
+      {
+        "title": "Iran trade falls as Supreme Leader Khamenei urges less reliance on the U.S. dollar",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 12:08:08 GMT",
+        "link": "https://www.cnbc.com/2026/08/29/iran-trade-sanctions-dollar-oil-exports.html",
+        "summary": "Iran's president says sanctions are hitting imports and exports, as its supreme leader urges less reliance on the U.S. dollar.",
+        "image": null,
+        "_rank": 0
+      },
+      {
+        "title": "Buffett remains active at 96, but Berkshire's shares aren't doing much",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 11:53:36 GMT",
+        "link": "https://www.cnbc.com/2026/08/29/buffett-remains-active-at-96-but-berkshires-shares-arent-doing-much.html",
+        "summary": "Warren Buffett will be celebrating his 96th birthday on Sunday, but Berkshire Hathaway investors aren't celebrating the stock's anemic performance.",
+        "image": null,
+        "_rank": 1
+      },
+      {
+        "title": "Alex Gerko earned a record £895mn from trading firm XTX in 2025",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 10:12:58 GMT",
+        "link": "https://www.ft.com/content/c1c79d47-31c0-4e4e-85b6-57527e31d78f?syn-25a6b1a6=1",
+        "summary": "Payout to one of the UK’s richest people is 31 per cent higher than the year before",
+        "image": null,
+        "_rank": 2
+      },
+      {
+        "title": "Meta’s $18 billion settlement puts TikTok and YouTube on notice. Who's next on the firing line?",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 05:00:01 GMT",
+        "link": "https://www.cnbc.com/2026/08/29/meta-settlement-tiktok-youtube-snap-teen-safety.html",
+        "summary": "\"Meta is seeking to ensure its competitors will face the same rules,\" one business professor told CNBC after Meta called on rivals to protect children online.",
+        "image": null,
+        "_rank": 3
+      },
+      {
+        "title": "Glencore threatened with $1.4bn lawsuit from embattled trader Radiant",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 04:00:40 GMT",
+        "link": "https://www.ft.com/content/359d4ea5-59b6-425f-ac66-c9836cec04f9?syn-25a6b1a6=1",
+        "summary": "Singapore-based iron ore company Radiant has been battling liquidity squeeze",
+        "image": null,
+        "_rank": 4
+      },
+      {
+        "title": "FT stock picking game results: the unexpected triumph of fundamentals",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 04:00:13 GMT",
+        "link": "https://www.ft.com/content/38a05881-ebfc-47ac-b326-96142edd1bb7?syn-25a6b1a6=1",
+        "summary": "No one ever won a stock picking game by choosing good companies. Or did they?",
+        "image": null,
+        "_rank": 5
+      },
+      {
+        "title": "Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Fri, 28 Aug 2026 23:42:26 GMT",
+        "link": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html",
+        "summary": "The U.S. struck a deal with Venezuela to get majority control of more than 65 billion barrels of oil reserves, Trump said in a social media post.",
+        "image": null,
+        "_rank": 6
+      },
+      {
+        "title": "Trump says US is taking partial control of Venezuela's vast oil reserves",
+        "source": "Reuters",
+        "category": "mercati",
+        "published": "Fri, 28 Aug 2026 22:55:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDBRX1E5WWItYWoycXJDSUZhMWJaZUthYmJUcTFqcTA3MGJLZnVPS1dQcWZyeW1FbW9wYnRBNS1OSlVyM0VXN3BIV01IVl8tMmdjQzByaGxIcmVQSnRDSjRiTXdtdEkza1hkdDJQcGNzYXY4OGkzOGZpS1pFMUtyaVFXenBXalpHUTNnZGhZUl92bklLcUg5OVhVMWkzaWxvYWN6S05oN0w3dw?oc=5",
+        "summary": "Trump says US is taking partial control of Venezuela's vast oil reserves &nbsp;&nbsp; Reuters",
+        "image": null
+      },
+      {
+        "title": "Op-ed: Dolly Parton was underestimated for decades. That became one of her greatest strengths",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 20:22:50 GMT",
+        "link": "https://www.cnbc.com/2026/08/29/dolly-parton-success-business-lessons.html",
+        "summary": "In a candid 2015 interview, Dolly Parton told CNBC's Tania Bryer about depression, ambition and the business decisions that defined her career.",
+        "image": "https://image.cnbcfm.com/api/v1/image/103684706-GettyImages-105810271.jpg?v=1532564104&amp;w=1920&amp;h=1080"
+      },
+      {
+        "title": "National Park Service backs Trump’s 250-foot arch despite ‘adverse effects’ on historic sites",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 18:23:57 GMT",
+        "link": "https://www.cnbc.com/2026/08/29/trump-arch-national-park-service-report.html",
+        "summary": "The park service is backing the arch, despite finding that it would adversely affect historic sightlines and other visual relationships among nearby landmarks.",
+        "image": "https://image.cnbcfm.com/api/v1/image/108332979-17836232572026-07-09t182239z_1433587302_rc2hamas5xv4_rtrmadp_0_usa-trump-arch.jpeg?v=1783623291&amp;w=1920&amp;h=1080"
+      },
+      {
+        "title": "Trump administration weighs Yosemite land swap for private developer’s access road",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 18:21:49 GMT",
+        "link": "https://www.cnbc.com/2026/08/29/trump-yosemite-land-swap-kingsbarn.html",
+        "summary": "The Trump administration is considering a Yosemite land exchange that could give a developer more direct park access.",
+        "image": "https://image.cnbcfm.com/api/v1/image/107232756-1682691899277-gettyimages-1485969252-mt_27943_afs5soil.jpeg?v=1713459800&amp;w=1920&amp;h=1080"
+      },
+      {
+        "title": "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 15:31:00 GMT",
+        "link": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
+        "summary": "“His argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.”",
+        "image": "https://images.mktw.net/im-48497737"
+      },
+      {
+        "title": "Goodyear burning rubber and cash as turnaround plan continues",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 13:56:58 GMT",
+        "link": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html",
+        "summary": "The tire maker has an ongoing turnaround plan as the company tries to restructure its business, refinance and pay down years of debt.",
+        "image": "https://image.cnbcfm.com/api/v1/image/108354746-1787772909822-Goodyear_CEO_Mark_Stewart.png?v=1787838205&amp;w=1920&amp;h=1080"
+      },
+      {
+        "title": "Why would someone lock up money by rolling it into a 401(k)?",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 13:00:00 GMT",
+        "link": "https://www.marketwatch.com/story/why-would-someone-lock-up-money-by-rolling-it-into-a-401-k-2c742e90?mod=mw_rss_topstories",
+        "summary": "When done right, rollovers can be a great tool.",
+        "image": "https://images.mktw.net/im-26719314"
+      },
+      {
+        "title": "5 affordable cities to retire in the U.S. right now",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 12:50:00 GMT",
+        "link": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
+        "summary": "You don’t have to leave the country to find an affordable place that matches your retirement vision.",
+        "image": "https://images.mktw.net/im-81114874"
+      },
+      {
+        "title": "Tim Cook wasn’t a ‘product guy’ — so he re-engineered Apple instead",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 12:30:00 GMT",
+        "link": "https://www.marketwatch.com/story/tim-cook-wasnt-a-product-guy-so-he-re-engineered-apple-instead-03ca53f4?mod=mw_rss_topstories",
+        "summary": "Dismissed as “not a product guy,” the outgoing CEO proved that supply-chain mastery could take Apple to new heights.",
+        "image": "https://images.mktw.net/im-40700898"
+      },
+      {
+        "title": "I’m managing a pathological liar who never does her work. How do I deal with her?",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 12:00:00 GMT",
+        "link": "https://www.marketwatch.com/story/im-managing-a-pathological-liar-who-never-does-her-work-how-do-i-deal-with-her-e3c06081?mod=mw_rss_topstories",
+        "summary": "“I want to send the message that she’d better keep my name out of her mouth.”",
+        "image": "https://images.mktw.net/im-89770129",
+        "_rank": 16
+      },
+      {
+        "title": "Dozens killed in Russian strike on ammunition depot near Kyiv",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 11:38:48 GMT",
+        "link": "https://www.ft.com/content/40eaeba7-9514-4e6b-9bd3-4a9381618c84",
+        "summary": "Lengthy air raids by Moscow’s jet-powered drones have triggered 27 alerts since Thursday in one of the longest attacks of the war",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F53ac0111-4a93-46bc-89ea-d14af6c9bdbc.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 11:16:00 GMT",
+        "link": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
+        "summary": "“I’m curious what would happen if the account owner were to die suddenly at the same time as the 98% beneficiary.”",
+        "image": "https://images.mktw.net/im-87399340",
+        "_rank": 18
+      },
+      {
+        "title": "Swiss wealth managers urge delay to ownership register after Liechtenstein hack",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 11:00:02 GMT",
+        "link": "https://www.ft.com/content/4822389d-5bb2-4e31-a627-bcda849630c8?syn-25a6b1a6=1",
+        "summary": "Bankers also raised cyber security concerns over list of ultimate owners of more than 500,000 companies and other entities",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F7ef0bcc4-c6f6-4772-943a-405d2ccaf0b9.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "Risk of a new age of financial repression is rising",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 04:00:40 GMT",
+        "link": "https://www.ft.com/content/ba4b940e-4a44-473b-9846-eaba9434b65f?syn-25a6b1a6=1",
+        "summary": "The idea of pushing US government bonds down the throats of investors is being taken increasingly seriously",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F55870f25-7937-4bc5-86d6-3c5fb169a7f7.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "Zero-sum thinking will fuel resentment and scarcity",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 04:00:40 GMT",
+        "link": "https://www.ft.com/content/492134e9-49eb-4f13-b70a-b2b595ed0e2a?syn-25a6b1a6=1",
+        "summary": "The assumption that one group must lose for another to gain has become worryingly widespread",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F1a0e289a-7f8c-46c9-8bbf-e610291082bb.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "How finance redeemed itself",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 04:00:32 GMT",
+        "link": "https://www.ft.com/content/63981a46-5849-4c1b-b5df-bfacd85c9d93?syn-25a6b1a6=1",
+        "summary": "And what tech, the new black sheep, can learn from it",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ffc3147cb-f7cb-487f-8da7-52d297aa8769.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+        "_rank": 22
+      },
+      {
+        "title": "Airbus seeks US space unit sale as it shifts to European-built satellites",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 04:00:32 GMT",
+        "link": "https://www.ft.com/content/130a5c43-f7cd-4317-95b8-fe7bc446ec51?syn-25a6b1a6=1",
+        "summary": "Potential disposal comes after company announced deal with Leonardo and Thales",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa743a4f5-f621-451a-9978-fbb061d55ef1.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+        "_rank": 23
+      },
+      {
+        "title": "Nasa to launch $4.3bn space telescope to scan universe",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 04:00:32 GMT",
+        "link": "https://www.ft.com/content/cb0e3db3-0d28-423e-9313-0615bf749e1b?syn-25a6b1a6=1",
+        "summary": "Roman Space Telescope is expected to help explain dark matter while discovering thousands of planets beyond our solar system",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdf9af8ac-5b30-4e87-be1f-b35f59f58b6f.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+        "_rank": 24
+      },
+      {
+        "title": "Did AI write this? It’s getting harder to tell",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 04:00:13 GMT",
+        "link": "https://www.ft.com/content/f100c90b-c138-4125-aaa7-853b77690db9?syn-25a6b1a6=1",
+        "summary": "Detection software offers quick answers, but the risk of false positives and the stigma of being accused are leading to societal mistrust in the written word",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F250f9ea0-2baf-4cef-a745-929665654edb.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+        "_rank": 25
+      },
+      {
+        "title": "Supercars Fuel a New Hybrid Boom",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 14:56:16 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/supercars-fuel-a-new-hybrid-boom-video",
+        "summary": "Hybrids are enjoying a resurgence as slower EV adoption and continued demand for combustion engines reshape the auto industry, with the technology increasingly appearing in high-performance and luxury cars. Co-host of Bloomberg's \"Hot Pursuit!\" Hannah Elliott explains to Christin",
+        "image": null
+      },
+      {
+        "title": "A $2,000 Sweater Reveals Fashion’s True Cost",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 14:54:05 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/a-2-000-sweater-reveals-fashion-s-true-cost-video",
+        "summary": "Content creator Macy Gilliam spent 90-hours over four months and about $2,000 making a sweater from scratch, starting with wool from a sheep at New York City’s Queens County Farm Museum. Gilliam joins Christina Ruffini on Bloomberg This Weekend where she explains that the project",
+        "image": null
+      },
+      {
+        "title": "Can the US Defy Fiscal Gravity?",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 14:13:00 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/can-the-us-defy-fiscal-gravity-video",
+        "summary": "David Bianco of DWS says long-term Treasury yields and real rates have climbed to some of their highest levels in nearly 25 years, but he argues inflation is not the main driver. The bigger issues are structural: US deficits above 6% of GDP, a rising total debt-to-GDP ratio, and ",
+        "image": null
+      },
+      {
+        "title": "$700 Cash Grants Transform Lives in Malawi",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 14:04:58 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/-700-cash-grants-transform-lives-in-malawi-video",
+        "summary": "The nonprofit GiveDirectly, with a large backing from Canva, is providing eligible adults in two Malawi districts with about $700 each, roughly equivalent to the country’s annual income per person, with virtually no restrictions on how the money is spent. Bloomberg News Senior Af",
+        "image": null
+      },
+      {
+        "title": "Russia Tests Ukraine and NATO With Escalation",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 13:41:58 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/russia-tests-ukraine-and-nato-with-escalation-video",
+        "summary": "Russia is intensifying missile and drone attacks on Ukraine as Kyiv faces shortages of Patriot interceptors, raising concerns about its ability to defend against ballistic missiles heading into winter. Joining Bloomberg This Weekend are Bloomberg Economics Geoeconomics Analyst Al",
+        "image": null,
+        "_rank": 30
+      },
+      {
+        "title": "Op-ed: Salesforce just revealed the next battleground in AI — and it's not the models",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 13:00:01 GMT",
+        "link": "https://www.cnbc.com/2026/08/29/op-ed-salesforce-revealed-next-battleground-in-ai-its-not-models.html",
+        "summary": "For the past year, markets have vaporized roughly $2 trillion in software value by asking the wrong question about AI.",
+        "image": null,
+        "_rank": 31
+      },
+      {
+        "title": "Nepal Rescuers Race to Find Thousands Missing",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 12:41:42 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/nepal-rescuers-race-to-find-thousands-missing-video",
+        "summary": "Rescue and recovery operations are continuing in Nepal after a glacial collapse triggered catastrophic flooding near the border with China, killing more than 600 people and leaving thousands missing. Bloomberg News Senior Reporter Dan Strumpf joins Christina Ruffini and Bailey Li",
+        "image": null,
+        "_rank": 32
+      },
+      {
+        "title": "By The Way: Headlines You Should See",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 12:34:28 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/by-the-way-headlines-you-should-see-video",
+        "summary": "Competitive subway speedrunning, fewer novels in schools, and an AI themed Bar: Nathan Hager, Christina Ruffini, and Bailey Lipschultz go over eye catching headlines from this week on Bloomberg This Weekend. (Source: Bloomberg)",
+        "image": null,
+        "_rank": 33
+      },
+      {
+        "title": "Iran War Exposes Limits of US Military Endurance",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 12:22:14 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/iran-war-exposes-limits-of-us-military-endurance-video",
+        "summary": "Six months into the US conflict with Iran, oil flows from the Persian Gulf have recovered to about 40% of prewar levels, but risks remain as the Strait of Hormuz stays constrained and the Navy faces mounting pressure on personnel, equipment and finances. Bloomberg News Economic S",
+        "image": null,
+        "_rank": 34
+      },
+      {
+        "title": "Three Finance Ministers on Avoiding Debt Crises",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 12:12:46 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/three-finance-ministers-on-avoiding-debt-crises-video",
+        "summary": "US public debt just crossed $40 trillion, but the country is hardly the only one facing fiscal troubles. Nations around the world took on record debt during Covid, and many have struggled to bring spending back under control. Chrystia Freeland, who faced this problem herself as C",
+        "image": null,
+        "_rank": 35
+      },
+      {
+        "title": "Trump deportations take a bite out of an unexpected industry: US fast food",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 10:00:02 GMT",
+        "link": "https://www.ft.com/content/0d24c0e8-eb65-4009-a236-f2dbf1eaa416",
+        "summary": "A sector that relies on population increases for sales growth struggles with new reality of fewer mouths to feed",
+        "image": null,
+        "_rank": 36
+      },
+      {
+        "title": "OpenAI to cut off AI models for SpaceX-owned Cursor, escalating feud with Musk",
+        "source": "Reuters",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 07:05:19 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRUdlVXhBU0dadjVHRG10TFFYU2wwWHdyenlGSGZkUVUtcHV2YVdrN25KS3c0cEdrWHhEY054X3c4SUszUjdDUVRXdzJwSkc2N2ZXeXFweHI5MjgtQmlZQjFiYU1TZ2p5cTB5SUE5MWttbHRJYlQ3eDlzUlFXR0JhOEFfYjd2QzF6MExhRnVnTzQ1TnA3a3FfR0tqYVVwVC1YcXZN?oc=5",
+        "summary": "OpenAI to cut off AI models for SpaceX-owned Cursor, escalating feud with Musk &nbsp;&nbsp; Reuters",
+        "image": null
+      },
+      {
+        "title": "The end of cheap food has costs far beyond the grocery store",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 04:00:40 GMT",
+        "link": "https://www.ft.com/content/c2609ef8-1592-4c04-a3b6-37437627ff8e?syn-25a6b1a6=1",
+        "summary": "Research estimates that climate-related shocks could add between 0.9 and 3.2 percentage points to the annual rate of food inflation around the globe by 2035",
+        "image": null,
+        "_rank": 38
+      },
+      {
+        "title": "Fancy lattes whip up their own mini investment boom",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 04:00:32 GMT",
+        "link": "https://www.ft.com/content/5516fa6b-1cbf-4b50-944b-57b42cbcac93?syn-25a6b1a6=1",
+        "summary": "Premium coffee stores are doing a roaring trade along with the companies that supply the machines and beans",
+        "image": null,
+        "_rank": 39
+      },
+      {
+        "title": "The Chinese brand that wants to lead Europe’s trail-running pack",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 01:00:07 GMT",
+        "link": "https://www.ft.com/content/e8e3d7b1-2955-4b55-aa76-cb3f18aacc8c?syn-25a6b1a6=1",
+        "summary": "Baggio Zhong’s Kailas is making an overseas push with its Fuga label",
+        "image": null,
+        "_rank": 40
+      },
+      {
+        "title": "Walmart to pay $50mn to settle opioid lawsuit with US justice department",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Fri, 28 Aug 2026 22:27:20 GMT",
+        "link": "https://www.ft.com/content/d0a485ea-af87-4834-aa9a-3611028a7b6e?syn-25a6b1a6=1",
+        "summary": "Retailer resolves case with DoJ over allegations it fuelled Americans’ addiction to painkillers",
+        "image": null,
+        "_rank": 41
+      },
+      {
+        "title": "Treasury Bars Some Reporters From G20 Finance Meeting",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 23:20:50 +0000",
+        "link": "https://www.nytimes.com/2026/08/29/business/reporters-denied-g20-meeting.html",
+        "summary": "Specific reporters from The New York Times, The Wall Street Journal and Bloomberg were not granted credentials to cover the meeting of financial leaders next week in Asheville, N.C.",
+        "image": "https://static01.nyt.com/images/2026/08/29/multimedia/29BIZ-G20-CREDENTIALS-hjgq/29BIZ-G20-CREDENTIALS-hjgq-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Trump’s Venezuelan Oil Deal Relies on a Powerful and Divisive Partner",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 22:47:18 +0000",
+        "link": "https://www.nytimes.com/2026/08/29/business/energy-environment/venezuela-alejandro-betancourt-oil-trump.html",
+        "summary": "The administration will work with a private Venezuelan oil company that has close ties to the country’s government.",
+        "image": "https://static01.nyt.com/images/2026/08/29/multimedia/29biz-venezuela-betancourt-topart-zgcw/29biz-venezuela-betancourt-topart-zgcw-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Solar Has Crossed a Critical Economic Tipping Point",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-08-29T21:00:00Z",
+        "link": "https://finance.yahoo.com/energy/articles/solar-crossed-critical-economic-tipping-210000010.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/oilprice.com/a42fee646842ebe243f90e5beb962237.jpg"
+      },
+      {
+        "title": "Johnson & Johnson Stock: Is JNJ Outperforming the Consumer Staples Sector?",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-08-29T17:12:12Z",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-stock-jnj-outperforming-171212270.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/barchart_com_477/4046d451b7529b9980d89581fd8c0e8f.jpg"
+      },
+      {
+        "title": "Is Costco Stock Underperforming the Dow?",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-08-29T16:54:46Z",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-underperforming-dow-165446351.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/barchart_com_477/b13efc5f7beffd1e0b8a8dfd184a00c9.jpg"
+      },
+      {
+        "title": "Trump Says U.S. Struck Deal for Control of More Than 65 Billion Barrels of Venezuela’s Oil",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 16:53:10 +0000",
+        "link": "https://www.nytimes.com/2026/08/28/business/trump-venezuela-oil-deal.html",
+        "summary": "The president said an agreement between the countries covered more than 65 billion barrels of reserves. A U.S. official said it would involve a partnership with a private company.",
+        "image": "https://static01.nyt.com/images/2026/01/08/multimedia/28biz-trump-venezuela/28biz-trump-venezuela-mediumSquareAt3X-v2.jpg"
+      },
+      {
+        "title": "Private Equity’s Zombie Problem Is A Challenge For Banks",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 12:48:55 -0400",
+        "link": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/08/29/private-equitys-zombie-problem-is-a-challenge-for-banks/",
+        "summary": "Private equity's growing exit backlog is transforming from an investor issue into a significant banking system concern, potentially impacting the wider economy",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6a93075b750ae2d0c56c0a31/0x0.jpg"
+      },
+      {
+        "title": "Is Oracle Stock Underperforming the S&P 500?",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-08-29T16:44:53Z",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stock-underperforming-p-500-164453386.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/barchart_com_477/e6270eaced21baa42d87300c42cfa807.jpg"
+      },
+      {
+        "title": "A $2 Billion Reason to Buy UPS Stock",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-08-29T16:13:56Z",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/2-billion-reason-buy-ups-161356676.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/barchart_com_477/6487c728bf850bbd5da84e7248350dc1.jpg",
+        "_rank": 50
+      },
+      {
+        "title": "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-08-29T10:00:00Z",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-29-2026-lock-in-up-to-430-apy-with-a-16--or-18-month-cd-100000220.html",
+        "summary": "",
+        "image": "https://s.yimg.com/os/creatr-uploaded-images/2024-07/c47af0d0-4f64-11ef-a7fe-afb55aa695d3",
+        "_rank": 51
+      },
+      {
+        "title": "Jun Ji-Hyun, Yeon Sang-Ho Talk ‘Colony,’ K-Zombies And Wild Car Stunts",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 18:33:32 -0400",
+        "link": "https://www.forbes.com/sites/reginakim/2026/08/29/jun-ji-hyun-yeon-sang-ho-talk-colony-k-zombies-and-wild-car-stunts/",
+        "summary": "‘Colony’ star Jun Ji-hyun and director Yeon Sang-ho discuss their new zombie film, its wild action scenes and K-zombies. 'Colony' is Jun’s big-screen return in 11 years.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6a933a88692a30a2f78f5019/0x0.jpg"
+      },
+      {
+        "title": "The Intricacies Of Artificial General Intelligence And Curing Disease",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 17:47:19 -0400",
+        "link": "https://www.forbes.com/sites/saibala/2026/08/29/the-intricacies-of-artificial-general-intelligence-and-curing-disease/",
+        "summary": "Artificial general intelligence (AGI) may enable human-level reasoning and critical thinking across multiple cognitive domains.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6a934ee855bfeaed51cbb297/0x0.jpg"
+      },
+      {
+        "title": "NYT ‘Connections’ #1176 Hints And Answers For Sunday, August 30",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 15:32:05 -0400",
+        "link": "https://www.forbes.com/sites/erikkain/2026/08/29/nyt-connections-1176-hints-and-answers-for-sunday-august-30/",
+        "summary": "Looking for today's NYT Connections hints? Some help and the answers for today's game are right here to help keep your streak alive.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6897b0fa9d5fa5836ab3a53d/0x0.jpg?width=960"
+      },
+      {
+        "title": "Tom Cruise Is Bringing Cole Trickle Back To NASCAR",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 15:19:09 -0400",
+        "link": "https://www.forbes.com/sites/gregengle/2026/08/29/tom-cruise-is-bringing-cole-trickle-back-to-nascar/",
+        "summary": "After decades of rumors and wishful thinking, Cole Trickle is back. Tom Cruise will star in a Days of Thunder sequel headed for theaters in 2028.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6a932ee60b4deea5add4a727/0x0.jpg",
+        "_rank": 55
+      },
+      {
+        "title": "Sanctuary AI Built A Robot Body. Now It’s Also Selling A Robot Brain",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 14:11:59 -0400",
+        "link": "https://www.forbes.com/sites/johnkoetsier/2026/08/29/sanctuary-ai-built-a-robot-body-now-its-also-selling-a-robot-brain/",
+        "summary": "Body or brain? When you're building a humanoid robot, you have to build both. But sometimes, as Sanctuary AI found out, you don't have to ship both at the same time.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6a931e1b17fb15fa68ab09d2/0x0.jpg",
+        "_rank": 56
+      },
+      {
+        "title": "Far-Right Provocateur Milo Yiannopoulos Deported By ICE",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 13:58:13 -0400",
+        "link": "https://www.forbes.com/sites/antoniopequenoiv/2026/08/29/far-right-commentator-milo-yiannopoulos-in-custody-after-ducking-immigration-hearing-dhs-says/",
+        "summary": "Yiannopoulos has become increasingly critical of the Trump administration after backing it during President Donald Trump’s first term.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6a931d83c652e13604348728/0x0.jpg?width=960&precrop=2205%2C1239%2Cx0%2Cy0",
+        "_rank": 57
+      },
+      {
+        "title": "Thievery or Innovation? The Music Industry Grapples With A.I.",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 17:02:38 +0000",
+        "link": "https://www.nytimes.com/2026/08/29/business/dealbook/ai-generated-music.html",
+        "summary": "Some labels have sued A.I. music generators like Suno. Others have partnered with them. At least one has done both.",
+        "image": "https://static01.nyt.com/images/2026/08/29/multimedia/29DB-AI-MUSIC-SWAP-vtbk/29DB-AI-MUSIC-SWAP-vtbk-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Teleprompter Operator Who Bet on Trump Speeches Is Ordered to Pay Fine",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 14:57:13 +0000",
+        "link": "https://www.nytimes.com/2026/08/29/us/politics/teleprompter-trump-speech-kalshi-perez-bet.html",
+        "summary": "Gabriel Perez had access to the president’s speeches before they were delivered and was accused of placing unlawful wagers on words that would be spoken.",
+        "image": "https://static01.nyt.com/images/2026/08/29/multimedia/29dc-teleprompter-topart-kqbh/29dc-teleprompter-topart-kqbh-mediumSquareAt3X.jpg",
+        "_rank": 59
+      },
+      {
+        "title": "High Debt and Rising Prices Catch Up to Trump, as Midterms Near",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 14:54:48 +0000",
+        "link": "https://www.nytimes.com/2026/08/29/us/politics/trump-economy-inflation.html",
+        "summary": "To win in 2024, the president promised an economic course correction. Almost two years later, his agenda has made that fight even harder.",
+        "image": "https://static01.nyt.com/images/2026/08/27/multimedia/00dc-trump-econ-bhwg/00dc-trump-econ-bhwg-mediumSquareAt3X.jpg",
+        "_rank": 60
+      },
+      {
+        "title": "Catastrophic Flood Exposes the Risks of Nepal’s Hydropower Bet",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 09:23:10 +0000",
+        "link": "https://www.nytimes.com/2026/08/29/business/nepal-hydropower-flood.html",
+        "summary": "The loss of power-generating capacity has raised questions about an ambitious expansion of renewable energy in one of the world’s most hazard-prone mountain regions.",
+        "image": "https://static01.nyt.com/images/2026/08/29/multimedia/29Biz-Nepal-Hydropower-01-zclb/29Biz-Nepal-Hydropower-01-zclb-mediumSquareAt3X.jpg",
+        "_rank": 61
+      },
+      {
+        "title": "As Deadly Flash Flooding Batters Nepal, Some Fear ‘the Entire Himalayas Are Melting’",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 09:04:15 +0000",
+        "link": "https://www.nytimes.com/2026/08/29/travel/flash-flood-nepal-global-warming-himalayas.html",
+        "summary": "A glacier unleashed a deadly flood earlier this week. For local trekking guides and climbers, the mountains were already changing.",
+        "image": "https://static01.nyt.com/images/2026/08/29/multimedia/29trav-flood-nepal-trekkers-01-hftg/29trav-flood-nepal-trekkers-01-hftg-mediumSquareAt3X.jpg",
+        "_rank": 62
+      },
+      {
+        "title": "“The Invisible Hand of Maria Edgeworth”: An Economist, Erased",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 09:02:29 +0000",
+        "link": "https://www.nytimes.com/2026/08/29/business/she-popularized-economics-then-she-was-erased-from-history-why.html",
+        "summary": "Maria Edgeworth sneaked economic theory into her best-selling novels. Two centuries later, a new book finally gives her the credit she deserves.",
+        "image": "https://static01.nyt.com/images/2026/08/30/business/30Edgeworth-cover-illo/30Edworth-cover-illo-mediumSquareAt3X.jpg",
+        "_rank": 63
+      },
+      {
+        "title": "Walmart to Pay $50 Million to Settle Opioid Lawsuit, US Says",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 29 Aug 2026 01:08:50 +0000",
+        "link": "https://www.nytimes.com/2026/08/28/us/walmart-opioid-lawsuit-settlement.html",
+        "summary": "The resolution is part of an effort to hold retailers and pharmacists accountable for what the government says were their roles in the opioid epidemic.",
+        "image": "https://static01.nyt.com/images/2026/08/28/multimedia/28xp-walmart-jlch/28xp-walmart-jlch-mediumSquareAt3X.jpg",
+        "_rank": 64
+      },
+      {
+        "title": "Cgia, per le famiglie 20.592 euro di tasse ma il 95,7% 'invisibili'",
+        "source": "ANSA Economia",
+        "category": "italia",
+        "published": "Sat, 29 Aug 2026 10:22:29 +0200",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/08/29/cgia-per-le-famiglie-20.592-euro-di-tasse-ma-il-957-invisibili_54ba835b-4d6d-430d-9e07-02e98982ab6b.html",
+        "summary": "Italia quinta in Europa per pressione fiscale, peggio di Germania e Spagna",
+        "image": null
+      },
+      {
+        "title": "Psilocybin Might Make Your Brain Live in the Moment",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 29 Aug 2026 09:00:00 +0000",
+        "link": "https://www.wired.com/story/psilocybin-might-make-your-brain-live-in-the-moment/",
+        "summary": "Psychedelics are often associated with disconnecting from reality, but a recent neuroimaging study found that psilocybin can actually make our brain activity more connected to the world around us.",
+        "image": "https://media.wired.com/photos/6a919be132e307274e3f30e1/master/pass/1398820822"
+      },
+      {
+        "title": "Stablecoins not credible for payments at scale, BIS chief says",
+        "source": "Cointelegraph",
+        "category": "crypto",
+        "published": "Sat, 29 Aug 2026 08:01:04 +0000",
+        "link": "https://cointelegraph.com/news/stablecoins-not-credible-payments-scale-bis-chief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "summary": "BIS chief Pablo Hernández de Cos said stablecoins lack credibility for payments at scale, while a new FSI study highlights sharp differences in issuer rules.",
+        "image": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M166CFV826H6EC9FT9NRRV7E/hi-stablecoin-has-been-listed-an-exchange-traded-note-in-europe.jpg"
+      },
+      {
+        "title": "Motorola Coupon Code for September 2026",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 29 Aug 2026 05:00:00 +0000",
+        "link": "https://www.wired.com/story/motorola-coupon-code/",
+        "summary": "Upgrade your smartphone for less with the latest Motorola promo codes, free shipping offers, and exclusive seasonal discounts.",
+        "image": "https://media.wired.com/photos/67b63b9a4816461befb48207/master/pass/WIRED-Coupons-R2_12.png"
+      },
+      {
+        "title": "Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Fri, 28 Aug 2026 22:29:13 +0000",
+        "link": "https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/",
+        "summary": "The unexpected interruption came hours before the president wrote a congratulatory post on Truth Social about the company’s most recent earnings report.",
+        "image": "https://media.wired.com/photos/6a9205e11fef496705b5c9f7/master/pass/Jensen-Took-Call-From-Trump-Business-2212801537.jpg"
+      },
+      {
+        "title": "Nvidia’s AI advantage is moving beyond the GPU",
+        "source": "TechCrunch",
+        "category": "tech",
+        "published": "Sat, 29 Aug 2026 13:00:00 +0000",
+        "link": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+        "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+        "image": null
+      },
+      {
+        "title": "Is the best way to watch a movie on a pair of sunglasses?",
+        "source": "TechCrunch",
+        "category": "tech",
+        "published": "Fri, 28 Aug 2026 22:42:48 +0000",
+        "link": "https://techcrunch.com/2026/08/28/is-the-best-way-to-watch-a-movie-on-a-pair-of-sunglasses/",
+        "summary": "Are XREAL's smart glasses the way of the future for home entertainment?",
+        "image": null
+      },
+      {
+        "title": "Agentic Decentralized Finance Forum to Advance Singapore’s Next Digital Economy",
+        "source": "The Cryptonomist",
+        "category": "crypto",
+        "published": "Sat, 29 Aug 2026 07:00:00 +0000",
+        "link": "https://cryptonomist.ch/2026/08/29/agentic-decentralized-finance-forum-to-advance-singapores-next-digital-economy/",
+        "summary": "Executive forum and strategic regional partnerships bring together leaders in AI, digital finance and blockchain to accelerate cross-border innovation As artificial intelligence reshapes industries and digital assets move into the financial mainstream, Singapore is well positione",
+        "image": "https://cryptonomist.ch/wp-content/uploads/2026/08/finance.png"
+      },
+      {
+        "title": "Movimenti portafogli Bitcoin inattivi: 40 milioni di dollari in 10 giorni",
+        "source": "The Cryptonomist",
+        "category": "crypto",
+        "published": "Sat, 29 Aug 2026 05:45:34 +0000",
+        "link": "https://cryptonomist.ch/2026/08/29/movimenti-portafogli-bitcoin-inattivi/",
+        "summary": "Sei portafogli rimasti immobili fin dal 2011, 2012 e 2014 si sono svegliati nell&#8217;arco di dieci giorni, muovendo complessivamente 553,59 BTC per un valore di circa 40 milioni di dollari. I movimenti portafogli Bitcoin inattivi registrati tra il 16 e il 26 agosto 2026 rilanci",
+        "image": "https://cryptonomist.ch/wp-content/uploads/2026/08/movimenti-portafogli-bitcoin-inattivi.jpeg"
+      },
+      {
+        "title": "Ripple fissa al 2028 la sicurezza quantistica XRP: ecco il piano",
+        "source": "The Cryptonomist",
+        "category": "crypto",
+        "published": "Sat, 29 Aug 2026 05:49:13 +0000",
+        "link": "https://cryptonomist.ch/2026/08/29/sicurezza-quantistica-xrp-ripple/",
+        "summary": "C&#8217;è una data che gli ingegneri di Ripple hanno imparato a temere e a pianificare in anticipo: il cosiddetto &#8220;Q-Day&#8221;, il momento in cui un computer quantistico sufficientemente potente potrebbe smontare le protezioni matematiche che oggi custodiscono le chiavi pr",
+        "image": "https://cryptonomist.ch/wp-content/uploads/2026/08/sicurezza-quantistica-xrp-ripple.jpeg"
+      }
+    ],
+    "lead_headlines": [
+      {
+        "title": "Oil deal with US is denounced by both sides of Venezuelan politics",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/b3c98ca2-fe67-459d-89ff-4728993110b7?syn-25a6b1a6=1"
+      },
+      {
+        "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html"
+      },
+      {
+        "title": "Warsh puts Fed on collision course with Trump ahead of midterms",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/69452aea-cee0-47de-be8a-dc790fed3db1?syn-25a6b1a6=1"
+      }
+    ],
+    "watchlist": [
+      {
+        "title": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+        "source": "Forbes",
+        "link": "https://www.forbes.com/sites/erikkain/2026/08/29/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/"
+      },
+      {
+        "title": "Warsh Sets the Tone for Fed’s Road Ahead",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/warsh-sets-the-tone-for-fed-s-road-ahead-video"
+      },
+      {
+        "title": "AI Is Driving Up Prices As Much As Tariffs, Fed Analysis Reveals",
+        "source": "Forbes",
+        "link": "https://www.forbes.com/sites/maryroeloffs/2026/08/29/ai-is-driving-up-prices-as-much-as-tariffs-fed-analysis-reveals/"
+      },
+      {
+        "title": "Mortgage and refinance interest rates today, Saturday, August 29, 2026: Fixed rates move slightly higher into the weekend",
+        "source": "Yahoo Finance",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-29-2026-fixed-rates-move-slightly-higher-into-the-weekend-114438775.html"
+      },
+      {
+        "title": "Ad agosto l'inflazione in Ue e in Italia attesa ai massimi da 3 anni",
+        "source": "ANSA Economia",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/08/29/ad-agosto-linflazione-in-ue-e-in-italia-attesa-ai-massimi-da-3-anni_38cbc36d-f3a5-45b9-866b-ced3272c8d4d.html"
+      }
+    ],
+    "niche_signals": [],
+    "signals": {
+      "reference_session": "2026-08-28",
+      "fetched_at": "2026-08-29 23:33:38 UTC",
+      "noteworthy_pct": 1.0,
+      "groups": [
+        {
+          "key": "crypto",
+          "label": {
+            "en": "Crypto (trades 24/7)",
+            "it": "Crypto (aperto 24/7)"
+          },
+          "instruments": [
+            {
+              "symbol": "BTC-USD",
+              "name_en": "Bitcoin",
+              "name_it": "Bitcoin",
+              "group": "crypto",
+              "last": 78261.42,
+              "pct_change": 1.11,
+              "reference_close": 77399.99,
+              "as_of_utc": "2026-08-29 23:00 UTC"
+            },
+            {
+              "symbol": "ETH-USD",
+              "name_en": "Ethereum",
+              "name_it": "Ethereum",
+              "group": "crypto",
+              "last": 2455.53,
+              "pct_change": 1.15,
+              "reference_close": 2427.71,
+              "as_of_utc": "2026-08-29 23:00 UTC"
+            },
+            {
+              "symbol": "SOL-USD",
+              "name_en": "Solana",
+              "name_it": "Solana",
+              "group": "crypto",
+              "last": 105.74,
+              "pct_change": 1.81,
+              "reference_close": 103.86,
+              "as_of_utc": "2026-08-29 23:00 UTC"
+            },
+            {
+              "symbol": "XRP-USD",
+              "name_en": "XRP",
+              "name_it": "XRP",
+              "group": "crypto",
+              "last": 1.3964,
+              "pct_change": 1.19,
+              "reference_close": 1.38,
+              "as_of_utc": "2026-08-29 23:00 UTC"
+            }
+          ]
+        },
+        {
+          "key": "fx",
+          "label": {
+            "en": "Currencies",
+            "it": "Valute"
+          },
+          "instruments": [
+            {
+              "symbol": "EURUSD=X",
+              "name_en": "Euro / US dollar",
+              "name_it": "Euro / dollaro",
+              "group": "fx",
+              "last": 1.1587,
+              "pct_change": 0.01,
+              "reference_close": 1.1586,
+              "as_of_utc": "2026-08-28 21:00 UTC"
+            }
+          ]
+        }
+      ]
+    },
+    "signals_noteworthy": [
+      {
+        "symbol": "SOL-USD",
+        "name_en": "Solana",
+        "name_it": "Solana",
+        "group": "crypto",
+        "last": 105.74,
+        "pct_change": 1.81,
+        "reference_close": 103.86,
+        "as_of_utc": "2026-08-29 23:00 UTC"
+      },
+      {
+        "symbol": "XRP-USD",
+        "name_en": "XRP",
+        "name_it": "XRP",
+        "group": "crypto",
+        "last": 1.3964,
+        "pct_change": 1.19,
+        "reference_close": 1.38,
+        "as_of_utc": "2026-08-29 23:00 UTC"
+      },
+      {
+        "symbol": "ETH-USD",
+        "name_en": "Ethereum",
+        "name_it": "Ethereum",
+        "group": "crypto",
+        "last": 2455.53,
+        "pct_change": 1.15,
+        "reference_close": 2427.71,
+        "as_of_utc": "2026-08-29 23:00 UTC"
+      },
+      {
+        "symbol": "BTC-USD",
+        "name_en": "Bitcoin",
+        "name_it": "Bitcoin",
+        "group": "crypto",
+        "last": 78261.42,
+        "pct_change": 1.11,
+        "reference_close": 77399.99,
+        "as_of_utc": "2026-08-29 23:00 UTC"
+      }
+    ],
+    "paragraphs": {
+      "en": [
+        "US markets were closed on Saturday, August 29, 2026, so there is no new session to report: the last one, August 28, 2026, was covered in the previous edition and its numbers are not repeated here. This edition reads instead the 104 stories published since then by 15 outlets we track, and brings forward the 24 that matter most.",
+        "Leading the weekend coverage: Financial Times reports: “Oil deal with US is denounced by both sides of Venezuelan politics”; CNBC reports: “OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX”; Financial Times reports: “Warsh puts Fed on collision course with Trump ahead of midterms”.",
+        "By theme: Markets and macro (69), Crypto (10), Tech (11), Italy (6).",
+        "What did trade while the exchanges were shut, measured from Friday's US close: Solana +1.81%; XRP +1.19%; Ethereum +1.15%; Bitcoin +1.11%. These are the only market moves in this edition — they are quotes, not forecasts."
+      ],
+      "it": [
+        "I mercati americani erano chiusi sabato 29 agosto 2026: non c'e' una seduta nuova da raccontare — l'ultima, 28 agosto 2026, e' gia' stata coperta dall'edizione precedente e i suoi numeri qui non vengono ripetuti. Questa edizione legge invece le 104 notizie uscite da allora su 15 testate seguite, e porta in primo piano le 24 piu' rilevanti.",
+        "In evidenza nel fine settimana: Financial Times riporta: «Oil deal with US is denounced by both sides of Venezuelan politics»; CNBC riporta: «OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX»; Financial Times riporta: «Warsh puts Fed on collision course with Trump ahead of midterms».",
+        "Per tema: Mercati e macro (69), Crypto (10), Tech (11), Italia (6).",
+        "Cosa ha scambiato a borse chiuse, misurato dalla chiusura americana di venerdi': Solana +1,81%; XRP +1,19%; Ethereum +1,15%; Bitcoin +1,11%. Sono gli unici movimenti di mercato di questa edizione: quotazioni, non previsioni."
+      ]
+    },
+    "headline": {
+      "en": "Markets closed: Saturday's news in brief, with Solana +1.81% since Friday's close",
+      "it": "Mercati chiusi: le notizie di sabato in sintesi, con Solana +1,81% dalla chiusura di venerdi'"
+    }
+  },
+  "weekend_commentary_html": "<p>Nel fine settimana chiuso, gli sviluppi politici e aziendali hanno dominato il ciclo delle notizie su più fronti. Il presidente della Federal Reserve Warsh ha segnalato un impegno continuo nella lotta all&#x27;inflazione, una posizione che si è ripercossa sui mercati obbligazionari e ha fissato il tono del dibattito sul percorso della banca centrale in vista delle elezioni di metà mandato. Dal lato aziendale, OpenAI ha annunciato che avrebbe interrotto l&#x27;accesso ai modelli per Cursor in seguito all&#x27;acquisizione dell&#x27;editor di codice da parte di SpaceX di Elon Musk, segnando un cambiamento significativo nelle partnership dell&#x27;IA. Separatamente, la HDFC Bank dell&#x27;India ha annunciato che l&#x27;amministratore delegato Jagdishan si dimetterà a ottobre, una transizione di leadership in una delle più grandi istituzioni finanziarie dell&#x27;Asia. Anche le preoccupazioni macroeconomiche sono emerse: le assunzioni si sono rallentate di nuovo con poche prospettive di accelerazione nel breve termine, mentre la crescita degli utili aziendali—che si è accelerata notevolmente—affronta ostacoli che potrebbero limitarne la sostenibilità. Gli sviluppi geopolitici hanno aggiunto un altro strato, con un accordo petrolifero statunitense che coinvolge il Venezuela che attira critiche da entrambi i lati della politica venezuelana, e le pressioni tariffarie che continuano a propagarsi attraverso i flussi commerciali globali.</p><p>I mercati delle criptovalute hanno mostrato una forza modesta nel fine settimana. Bitcoin è salito dell&#x27;1,11 percento dalla chiusura statunitense precedente, mentre Ethereum ha guadagnato l&#x27;1,15 percento e Solana si è mosso dell&#x27;1,81 percento. XRP ha aggiunto l&#x27;1,19 percento. L&#x27;euro si è mantenuto quasi piatto rispetto al dollaro, muovendosi dello 0,01 percento. All&#x27;interno dell&#x27;ecosistema cripto, l&#x27;attività istituzionale ha continuato: il volume dei trasferimenti di azioni tokenizzate è salito del 415 percento in trenta giorni raggiungendo 29,5 miliardi di dollari, e BitGo ha annunciato l&#x27;acquisizione del braccio di trading istituzionale di NYDIG per espandere le sue capacità di derivati e finanziamento. Gli ETF su Bitcoin hanno concluso una serie di nove giorni di afflussi mentre il prezzo è sceso al di sotto di 78.000 dollari. Il settore ha affrontato anche ostacoli, incluso un arresto della mainnet sulla blockchain Layer 1 Fogo dopo che un attaccante ha ottenuto 400 milioni di token FOGO rappresentando il 10 percento dell&#x27;offerta circolante.</p><p>La settimana a venire porta diversi punti focali per i partecipanti al mercato. Le comunicazioni della Federal Reserve rimarranno al centro dell&#x27;attenzione poiché i recenti commenti di Warsh sull&#x27;inflazione continuano a plasmare le aspettative intorno alla politica monetaria. I tassi ipotecari si sono mossi leggermente al rialzo nel fine settimana, uno sviluppo legato alla più ampia reazione del mercato obbligazionario ai messaggi della Fed. I dati sull&#x27;inflazione incombono come elemento di osservazione chiave, con i dati di agosto sia per l&#x27;Unione Europea che per l&#x27;Italia attesi ai massimi di tre anni. Sul fronte tecnologico, il ruolo dell&#x27;intelligenza artificiale nel guidare le pressioni sui prezzi è diventato oggetto di analisi della Federal Reserve, insieme alla sua interazione con l&#x27;inflazione guidata dai dazi. Questi sviluppi preparano il terreno per il modo in cui i mercati interpreteranno i dati economici in arrivo e i segnali politici quando il trading riprenderà.</p>",
+  "weekend_commentary_html_en": "<p>Over the closed weekend, policy and corporate developments dominated the news cycle across multiple fronts. Federal Reserve Chair Warsh signaled a continued commitment to fighting inflation, a stance that reverberated through bond markets and set the tone for debate over the central bank&#x27;s path ahead of midterm elections. On the corporate side, OpenAI announced it would end model access to Cursor following the code editor&#x27;s acquisition by Elon Musk&#x27;s SpaceX, marking a significant shift in AI partnerships. Separately, India&#x27;s HDFC Bank announced that CEO Jagdishan would step down in October, a leadership transition in one of Asia&#x27;s largest financial institutions. Macroeconomic concerns also surfaced: hiring has slowed again with little prospect of near-term acceleration, while corporate earnings growth—which has accelerated sharply—faces headwinds that may limit its sustainability. Geopolitical developments added another layer, with a US oil deal involving Venezuela drawing criticism from both sides of Venezuelan politics, and tariff pressures continuing to ripple through global trade flows.</p><p>Cryptocurrency markets showed modest strength over the weekend. Bitcoin rose 1.11 percent since the last US close, while Ethereum gained 1.15 percent and Solana moved up 1.81 percent. XRP added 1.19 percent. The euro held nearly flat against the dollar, moving just 0.01 percent. Across the crypto ecosystem, institutional activity continued: tokenized stock transfer volume surged 415 percent over thirty days to reach 29.5 billion dollars, and BitGo announced the acquisition of NYDIG&#x27;s institutional trading arm to expand its derivatives and financing capabilities. Bitcoin exchange-traded funds ended a nine-day inflow streak as the price dipped below 78,000 dollars. The sector also faced headwinds, including a mainnet halt on Layer 1 blockchain Fogo after an attacker obtained 400 million FOGO tokens representing 10 percent of circulating supply.</p><p>The coming week brings several focal points for market participants. Federal Reserve communications will remain in focus as Warsh&#x27;s recent remarks on inflation continue to shape expectations around monetary policy. Mortgage rates have moved slightly higher into the weekend, a development tied to the broader bond market reaction to Fed messaging. Inflation data looms as a key watch item, with August readings for both the European Union and Italy expected to reach three-year highs. On the technology front, artificial intelligence&#x27;s role in driving price pressures has become a subject of Federal Reserve analysis, alongside its interaction with tariff-driven inflation. These developments set the stage for how markets will interpret incoming economic data and policy signals when trading resumes.</p>",
+  "covers_date_it": "29 agosto 2026",
+  "covers_date_en": "August 29, 2026"
+}
