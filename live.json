@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-31T19:06:53Z",
+  "updated": "2026-08-31T19:23:16Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.45,
-      "last": 7675.14
+      "pct": -0.39,
+      "last": 7680.11
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.27,
-      "last": 29355.24
+      "pct": -0.18,
+      "last": 29379.42
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.62,
-      "last": 53216.15
+      "last": 53213.64
     },
     {
       "key": "ftsemib",
@@ -26,112 +26,5 @@
       "pct": -0.09,
       "last": 52612.69
     }
-  ],
-  "movers": {
-    "gainers": [
-      {
-        "symbol": "ASST",
-        "name": "Strive, Inc.",
-        "pct": 11.73
-      },
-      {
-        "symbol": "CRCL",
-        "name": "Circle Internet Group, Inc.",
-        "pct": 8.7
-      },
-      {
-        "symbol": "XE",
-        "name": "X-Energy, Inc.",
-        "pct": 7.03
-      },
-      {
-        "symbol": "RBLX",
-        "name": "Roblox Corporation",
-        "pct": 6.0
-      },
-      {
-        "symbol": "COIN",
-        "name": "Coinbase Global, Inc.",
-        "pct": 5.7
-      },
-      {
-        "symbol": "ELF",
-        "name": "e.l.f. Beauty, Inc.",
-        "pct": 4.92
-      },
-      {
-        "symbol": "TSLA",
-        "name": "Tesla, Inc.",
-        "pct": 4.91
-      },
-      {
-        "symbol": "BMNR",
-        "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 4.85
-      },
-      {
-        "symbol": "HTFL",
-        "name": "Heartflow, Inc.",
-        "pct": 4.42
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": 4.31
-      }
-    ],
-    "losers": [
-      {
-        "symbol": "EIX",
-        "name": "Edison International",
-        "pct": -22.93
-      },
-      {
-        "symbol": "AON",
-        "name": "Aon plc",
-        "pct": -8.58
-      },
-      {
-        "symbol": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "pct": -8.36
-      },
-      {
-        "symbol": "PINS",
-        "name": "Pinterest, Inc.",
-        "pct": -7.35
-      },
-      {
-        "symbol": "BURL",
-        "name": "Burlington Stores, Inc.",
-        "pct": -5.91
-      },
-      {
-        "symbol": "W",
-        "name": "Wayfair Inc.",
-        "pct": -5.56
-      },
-      {
-        "symbol": "DAVE",
-        "name": "Dave Inc.",
-        "pct": -5.12
-      },
-      {
-        "symbol": "GAP",
-        "name": "Gap, Inc. (The)",
-        "pct": -5.0
-      },
-      {
-        "symbol": "CLX",
-        "name": "Clorox Company (The)",
-        "pct": -4.64
-      },
-      {
-        "symbol": "FIG",
-        "name": "Figma, Inc.",
-        "pct": -4.58
-      }
-    ],
-    "universe": 794
-  }
+  ]
 }
