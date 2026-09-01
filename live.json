@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-01T16:34:44Z",
+  "updated": "2026-09-01T16:50:46Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.68,
-      "last": 7633.75
+      "pct": -0.66,
+      "last": 7635.61
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.23,
-      "last": 29094.9
+      "pct": -1.17,
+      "last": 29111.73
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.82,
-      "last": 52748.45
+      "last": 52751.73
     },
     {
       "key": "ftsemib",
@@ -32,69 +32,64 @@
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "pct": 25.03
+        "pct": 26.14
       },
       {
         "symbol": "WETO",
         "name": "Wetour Robotics Limited",
-        "pct": 12.23
+        "pct": 14.79
       },
       {
         "symbol": "MMED",
         "name": "MiniMed Group, Inc.",
-        "pct": 10.69
+        "pct": 10.49
       },
       {
         "symbol": "MOVE",
         "name": "Corvex, Inc.",
-        "pct": 7.22
-      },
-      {
-        "symbol": "NVAX",
-        "name": "Novavax, Inc.",
-        "pct": 6.2
-      },
-      {
-        "symbol": "SGRY",
-        "name": "Surgery Partners, Inc.",
-        "pct": 6.05
+        "pct": 8.4
       },
       {
         "symbol": "DUOL",
         "name": "Duolingo, Inc.",
-        "pct": 6.02
+        "pct": 5.88
       },
       {
         "symbol": "NVS",
         "name": "Novartis AG",
-        "pct": 5.82
+        "pct": 5.8
+      },
+      {
+        "symbol": "SGRY",
+        "name": "Surgery Partners, Inc.",
+        "pct": 5.69
+      },
+      {
+        "symbol": "NVAX",
+        "name": "Novavax, Inc.",
+        "pct": 5.44
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 5.3
       },
       {
         "symbol": "HLF",
         "name": "Herbalife Ltd.",
         "pct": 5.1
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": 4.89
       }
     ],
     "losers": [
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": -21.73
+        "pct": -21.57
       },
       {
         "symbol": "AXON",
         "name": "Axon Enterprise, Inc.",
-        "pct": -9.45
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -8.6
+        "pct": -9.62
       },
       {
         "symbol": "NTSK",
@@ -102,36 +97,41 @@
         "pct": -8.59
       },
       {
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -7.72
+      },
+      {
         "symbol": "FROG",
         "name": "JFrog Ltd.",
-        "pct": -7.96
+        "pct": -7.68
       },
       {
         "symbol": "WYFI",
         "name": "WhiteFiber, Inc.",
-        "pct": -7.77
+        "pct": -7.61
       },
       {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": -7.55
+        "symbol": "CRWD",
+        "name": "CrowdStrike Holdings, Inc.",
+        "pct": -7.4
       },
       {
         "symbol": "ONDS",
         "name": "Ondas Inc",
-        "pct": -7.45
-      },
-      {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": -7.43
+        "pct": -7.18
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -7.41
+        "pct": -7.09
+      },
+      {
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": -6.98
       }
     ],
-    "universe": 1344
+    "universe": 1343
   }
 }
