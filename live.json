@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-01T18:43:04Z",
+  "updated": "2026-09-01T18:59:16Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.91,
-      "last": 7616.41
+      "pct": -0.8,
+      "last": 7624.46
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.62,
-      "last": 28979.47
+      "pct": -1.45,
+      "last": 29028.69
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.89,
-      "last": 52714.99
+      "pct": -0.84,
+      "last": 52740.93
     },
     {
       "key": "ftsemib",
@@ -32,106 +32,106 @@
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "pct": 29.26
+        "pct": 29.0
       },
       {
         "symbol": "MOVE",
         "name": "Corvex, Inc.",
-        "pct": 11.83
+        "pct": 12.24
       },
       {
         "symbol": "MMED",
         "name": "MiniMed Group, Inc.",
-        "pct": 10.02
-      },
-      {
-        "symbol": "NVAX",
-        "name": "Novavax, Inc.",
-        "pct": 7.36
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": 6.54
-      },
-      {
-        "symbol": "WETO",
-        "name": "Wetour Robotics Limited",
-        "pct": 6.3
-      },
-      {
-        "symbol": "NVS",
-        "name": "Novartis AG",
-        "pct": 6.11
-      },
-      {
-        "symbol": "SGRY",
-        "name": "Surgery Partners, Inc.",
-        "pct": 6.08
-      },
-      {
-        "symbol": "DUOL",
-        "name": "Duolingo, Inc.",
-        "pct": 5.97
+        "pct": 12.02
       },
       {
         "symbol": "EIX",
         "name": "Edison International",
-        "pct": 5.63
+        "pct": 9.36
+      },
+      {
+        "symbol": "NVAX",
+        "name": "Novavax, Inc.",
+        "pct": 8.06
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 7.91
+      },
+      {
+        "symbol": "WETO",
+        "name": "Wetour Robotics Limited",
+        "pct": 7.21
+      },
+      {
+        "symbol": "PCG",
+        "name": "Pacific Gas & Electric Co.",
+        "pct": 6.63
+      },
+      {
+        "symbol": "NVS",
+        "name": "Novartis AG",
+        "pct": 6.19
+      },
+      {
+        "symbol": "DUOL",
+        "name": "Duolingo, Inc.",
+        "pct": 6.18
       }
     ],
     "losers": [
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": -20.83
-      },
-      {
-        "symbol": "SN",
-        "name": "SharkNinja, Inc.",
-        "pct": -9.33
-      },
-      {
-        "symbol": "BMNR",
-        "name": "BitMine Immersion Technologies, Inc.",
-        "pct": -8.71
+        "pct": -21.57
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": -8.53
+        "pct": -9.18
       },
       {
-        "symbol": "FROG",
-        "name": "JFrog Ltd.",
-        "pct": -8.46
+        "symbol": "SN",
+        "name": "SharkNinja, Inc.",
+        "pct": -8.48
+      },
+      {
+        "symbol": "BMNR",
+        "name": "BitMine Immersion Technologies, Inc.",
+        "pct": -7.98
       },
       {
         "symbol": "WYFI",
         "name": "WhiteFiber, Inc.",
-        "pct": -8.43
+        "pct": -7.93
+      },
+      {
+        "symbol": "FROG",
+        "name": "JFrog Ltd.",
+        "pct": -7.9
       },
       {
         "symbol": "ONDS",
         "name": "Ondas Inc",
-        "pct": -8.03
+        "pct": -7.9
+      },
+      {
+        "symbol": "AXON",
+        "name": "Axon Enterprise, Inc.",
+        "pct": -7.66
       },
       {
         "symbol": "NTSK",
         "name": "Netskope, Inc.",
-        "pct": -7.81
+        "pct": -7.58
       },
       {
-        "symbol": "WHR",
-        "name": "Whirlpool Corporation",
-        "pct": -7.76
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -7.72
+        "symbol": "HRI",
+        "name": "Herc Holdings Inc.",
+        "pct": -7.54
       }
     ],
-    "universe": 1343
+    "universe": 1344
   }
 }
