@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-01T19:31:55Z",
+  "updated": "2026-09-01T19:48:08Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.78,
-      "last": 7625.97
+      "pct": -0.73,
+      "last": 7630.37
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.38,
-      "last": 29050.42
+      "pct": -1.28,
+      "last": 29080.87
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.82,
-      "last": 52748.17
+      "last": 52752.43
     },
     {
       "key": "ftsemib",
@@ -32,27 +32,32 @@
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "pct": 28.93
+        "pct": 28.87
       },
       {
         "symbol": "MOVE",
         "name": "Corvex, Inc.",
-        "pct": 14.52
+        "pct": 15.36
       },
       {
         "symbol": "MMED",
         "name": "MiniMed Group, Inc.",
-        "pct": 10.51
-      },
-      {
-        "symbol": "EIX",
-        "name": "Edison International",
-        "pct": 9.43
+        "pct": 10.34
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 8.54
+        "pct": 9.25
+      },
+      {
+        "symbol": "EIX",
+        "name": "Edison International",
+        "pct": 8.52
+      },
+      {
+        "symbol": "WETO",
+        "name": "Wetour Robotics Limited",
+        "pct": 7.66
       },
       {
         "symbol": "NVAX",
@@ -60,56 +65,56 @@
         "pct": 7.52
       },
       {
-        "symbol": "PCG",
-        "name": "Pacific Gas & Electric Co.",
-        "pct": 7.27
-      },
-      {
         "symbol": "DUOL",
         "name": "Duolingo, Inc.",
-        "pct": 6.98
+        "pct": 6.88
       },
       {
         "symbol": "HP",
         "name": "Helmerich & Payne, Inc.",
-        "pct": 6.25
+        "pct": 6.61
       },
       {
         "symbol": "NVS",
         "name": "Novartis AG",
-        "pct": 6.15
+        "pct": 6.02
       }
     ],
     "losers": [
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": -23.73
-      },
-      {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": -9.18
+        "pct": -23.79
       },
       {
         "symbol": "SN",
         "name": "SharkNinja, Inc.",
-        "pct": -8.87
+        "pct": -9.14
       },
       {
-        "symbol": "FROG",
-        "name": "JFrog Ltd.",
-        "pct": -8.31
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -8.56
       },
       {
         "symbol": "AXON",
         "name": "Axon Enterprise, Inc.",
-        "pct": -8.08
+        "pct": -8.47
       },
       {
-        "symbol": "CDNS",
-        "name": "Cadence Design Systems, Inc.",
-        "pct": -7.85
+        "symbol": "ONDS",
+        "name": "Ondas Inc",
+        "pct": -8.23
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -7.87
+      },
+      {
+        "symbol": "FROG",
+        "name": "JFrog Ltd.",
+        "pct": -7.78
       },
       {
         "symbol": "BMNR",
@@ -117,19 +122,14 @@
         "pct": -7.76
       },
       {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": -7.72
+        "symbol": "CDNS",
+        "name": "Cadence Design Systems, Inc.",
+        "pct": -7.7
       },
       {
-        "symbol": "ONDS",
-        "name": "Ondas Inc",
-        "pct": -7.71
-      },
-      {
-        "symbol": "WYFI",
-        "name": "WhiteFiber, Inc.",
-        "pct": -7.61
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": -7.67
       }
     ],
     "universe": 1344
