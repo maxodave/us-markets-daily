@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-02T18:39:59Z",
+  "updated": "2026-09-02T18:55:54Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.42,
-      "last": 7664.89
+      "pct": 0.43,
+      "last": 7665.38
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.06,
-      "last": 29095.35
+      "pct": 0.08,
+      "last": 29099.97
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.4,
-      "last": 52982.73
+      "pct": 0.46,
+      "last": 53014.62
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": 58.88
+        "pct": 57.06
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": 13.1
+        "pct": 13.67
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": 10.62
-      },
-      {
-        "symbol": "ALMS",
-        "name": "Alumis Inc.",
-        "pct": 9.45
+        "pct": 11.55
       },
       {
         "symbol": "GTLB",
         "name": "GitLab Inc.",
-        "pct": 9.38
+        "pct": 9.76
       },
       {
-        "symbol": "CNH",
-        "name": "CNH Industrial N.V.",
-        "pct": 8.52
-      },
-      {
-        "symbol": "EXK",
-        "name": "Endeavour Silver Corporation",
-        "pct": 8.35
-      },
-      {
-        "symbol": "CHTR",
-        "name": "Charter Communications, Inc.",
-        "pct": 8.24
+        "symbol": "ALMS",
+        "name": "Alumis Inc.",
+        "pct": 9.5
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 8.14
+        "pct": 8.42
+      },
+      {
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "pct": 8.28
       },
       {
         "symbol": "RDDT",
         "name": "Reddit, Inc.",
-        "pct": 8.11
+        "pct": 8.04
+      },
+      {
+        "symbol": "ALNY",
+        "name": "Alnylam Pharmaceuticals, Inc.",
+        "pct": 7.88
+      },
+      {
+        "symbol": "CNH",
+        "name": "CNH Industrial N.V.",
+        "pct": 7.88
       }
     ],
     "losers": [
       {
         "symbol": "WETO",
         "name": "Wetour Robotics Limited",
-        "pct": -33.84
+        "pct": -33.5
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": -20.55
+        "pct": -20.12
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": -18.44
+        "pct": -17.36
       },
       {
         "symbol": "MDB",
         "name": "MongoDB, Inc.",
-        "pct": -13.86
+        "pct": -14.09
       },
       {
         "symbol": "PANW",
         "name": "Palo Alto Networks, Inc.",
-        "pct": -10.82
-      },
-      {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": -8.51
-      },
-      {
-        "symbol": "DDOG",
-        "name": "Datadog, Inc.",
-        "pct": -6.63
+        "pct": -10.65
       },
       {
         "symbol": "CRWD",
         "name": "CrowdStrike Holdings, Inc.",
-        "pct": -6.59
+        "pct": -6.53
+      },
+      {
+        "symbol": "DDOG",
+        "name": "Datadog, Inc.",
+        "pct": -6.5
       },
       {
         "symbol": "S",
         "name": "SentinelOne, Inc.",
-        "pct": -6.57
+        "pct": -6.49
+      },
+      {
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -6.48
       },
       {
         "symbol": "EIX",
         "name": "Edison International",
-        "pct": -6.52
+        "pct": -6.43
       }
     ],
     "universe": 1284
