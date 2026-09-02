@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-02T18:24:04Z",
+  "updated": "2026-09-02T18:39:59Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.5,
-      "last": 7670.46
+      "pct": 0.42,
+      "last": 7664.89
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.15,
-      "last": 29119.97
+      "pct": 0.06,
+      "last": 29095.35
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.46,
-      "last": 53017.82
+      "pct": 0.4,
+      "last": 52982.73
     },
     {
       "key": "ftsemib",
@@ -32,22 +32,17 @@
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": 58.5
+        "pct": 58.88
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": 11.9
+        "pct": 13.1
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": 11.38
-      },
-      {
-        "symbol": "GTLB",
-        "name": "GitLab Inc.",
-        "pct": 9.91
+        "pct": 10.62
       },
       {
         "symbol": "ALMS",
@@ -55,81 +50,86 @@
         "pct": 9.45
       },
       {
-        "symbol": "KSS",
-        "name": "Kohl's Corporation",
-        "pct": 8.62
+        "symbol": "GTLB",
+        "name": "GitLab Inc.",
+        "pct": 9.38
       },
       {
         "symbol": "CNH",
         "name": "CNH Industrial N.V.",
-        "pct": 8.56
-      },
-      {
-        "symbol": "RDDT",
-        "name": "Reddit, Inc.",
-        "pct": 8.46
-      },
-      {
-        "symbol": "RUN",
-        "name": "Sunrun Inc.",
-        "pct": 8.42
+        "pct": 8.52
       },
       {
         "symbol": "EXK",
         "name": "Endeavour Silver Corporation",
         "pct": 8.35
+      },
+      {
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "pct": 8.24
+      },
+      {
+        "symbol": "KSS",
+        "name": "Kohl's Corporation",
+        "pct": 8.14
+      },
+      {
+        "symbol": "RDDT",
+        "name": "Reddit, Inc.",
+        "pct": 8.11
       }
     ],
     "losers": [
       {
         "symbol": "WETO",
         "name": "Wetour Robotics Limited",
-        "pct": -34.51
+        "pct": -33.84
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": -20.06
+        "pct": -20.55
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": -17.48
+        "pct": -18.44
       },
       {
         "symbol": "MDB",
         "name": "MongoDB, Inc.",
-        "pct": -12.57
+        "pct": -13.86
       },
       {
         "symbol": "PANW",
         "name": "Palo Alto Networks, Inc.",
-        "pct": -10.26
+        "pct": -10.82
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "pct": -8.05
-      },
-      {
-        "symbol": "KVYO",
-        "name": "Klaviyo, Inc. Series A",
-        "pct": -5.96
+        "pct": -8.51
       },
       {
         "symbol": "DDOG",
         "name": "Datadog, Inc.",
-        "pct": -5.88
+        "pct": -6.63
+      },
+      {
+        "symbol": "CRWD",
+        "name": "CrowdStrike Holdings, Inc.",
+        "pct": -6.59
+      },
+      {
+        "symbol": "S",
+        "name": "SentinelOne, Inc.",
+        "pct": -6.57
       },
       {
         "symbol": "EIX",
         "name": "Edison International",
-        "pct": -5.87
-      },
-      {
-        "symbol": "ERAS",
-        "name": "Erasca, Inc.",
-        "pct": -5.73
+        "pct": -6.52
       }
     ],
     "universe": 1284
