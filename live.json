@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-02T18:55:54Z",
+  "updated": "2026-09-02T19:12:04Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.43,
-      "last": 7665.38
+      "pct": 0.48,
+      "last": 7669.48
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.08,
-      "last": 29099.97
+      "pct": 0.14,
+      "last": 29117.53
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.46,
-      "last": 53014.62
+      "pct": 0.52,
+      "last": 53046.15
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": 57.06
+        "pct": 56.98
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": 13.67
+        "pct": 14.17
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": 11.55
+        "pct": 12.67
       },
       {
         "symbol": "GTLB",
         "name": "GitLab Inc.",
-        "pct": 9.76
+        "pct": 10.91
+      },
+      {
+        "symbol": "VRNS",
+        "name": "Varonis Systems, Inc.",
+        "pct": 10.1
       },
       {
         "symbol": "ALMS",
         "name": "Alumis Inc.",
-        "pct": 9.5
-      },
-      {
-        "symbol": "KSS",
-        "name": "Kohl's Corporation",
-        "pct": 8.42
-      },
-      {
-        "symbol": "CHTR",
-        "name": "Charter Communications, Inc.",
-        "pct": 8.28
+        "pct": 8.98
       },
       {
         "symbol": "RDDT",
         "name": "Reddit, Inc.",
-        "pct": 8.04
+        "pct": 8.65
+      },
+      {
+        "symbol": "SRPT",
+        "name": "Sarepta Therapeutics, Inc.",
+        "pct": 8.42
       },
       {
         "symbol": "ALNY",
         "name": "Alnylam Pharmaceuticals, Inc.",
-        "pct": 7.88
+        "pct": 8.35
       },
       {
-        "symbol": "CNH",
-        "name": "CNH Industrial N.V.",
-        "pct": 7.88
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "pct": 8.31
       }
     ],
     "losers": [
       {
         "symbol": "WETO",
         "name": "Wetour Robotics Limited",
-        "pct": -33.5
+        "pct": -33.16
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": -20.12
+        "pct": -20.03
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": -17.36
+        "pct": -16.77
       },
       {
         "symbol": "MDB",
         "name": "MongoDB, Inc.",
-        "pct": -14.09
+        "pct": -13.81
       },
       {
         "symbol": "PANW",
         "name": "Palo Alto Networks, Inc.",
-        "pct": -10.65
-      },
-      {
-        "symbol": "CRWD",
-        "name": "CrowdStrike Holdings, Inc.",
-        "pct": -6.53
-      },
-      {
-        "symbol": "DDOG",
-        "name": "Datadog, Inc.",
-        "pct": -6.5
-      },
-      {
-        "symbol": "S",
-        "name": "SentinelOne, Inc.",
-        "pct": -6.49
-      },
-      {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": -6.48
+        "pct": -9.84
       },
       {
         "symbol": "EIX",
         "name": "Edison International",
-        "pct": -6.43
+        "pct": -6.65
+      },
+      {
+        "symbol": "DDOG",
+        "name": "Datadog, Inc.",
+        "pct": -6.1
+      },
+      {
+        "symbol": "PLTR",
+        "name": "Palantir Technologies Inc.",
+        "pct": -6.09
+      },
+      {
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -6.03
+      },
+      {
+        "symbol": "KVYO",
+        "name": "Klaviyo, Inc. Series A",
+        "pct": -5.81
       }
     ],
     "universe": 1284
