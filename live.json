@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-02T16:31:23Z",
+  "updated": "2026-09-02T16:48:04Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.44,
-      "last": 7665.86
+      "pct": 0.42,
+      "last": 7664.33
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.11,
-      "last": 29109.72
+      "pct": 0.06,
+      "last": 29093.86
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.36,
-      "last": 52961.49
+      "pct": 0.4,
+      "last": 52987.17
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": 63.15
+        "pct": 73.35
       },
       {
         "symbol": "GTLB",
         "name": "GitLab Inc.",
-        "pct": 12.55
-      },
-      {
-        "symbol": "ALMS",
-        "name": "Alumis Inc.",
-        "pct": 10.72
+        "pct": 12.29
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": 9.46
+        "pct": 9.34
+      },
+      {
+        "symbol": "ALMS",
+        "name": "Alumis Inc.",
+        "pct": 9.03
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 8.45
-      },
-      {
-        "symbol": "DELL",
-        "name": "Dell Technologies Inc.",
-        "pct": 7.82
-      },
-      {
-        "symbol": "SIRI",
-        "name": "SiriusXM Holdings Inc.",
-        "pct": 7.73
+        "pct": 8.28
       },
       {
         "symbol": "ALNY",
         "name": "Alnylam Pharmaceuticals, Inc.",
-        "pct": 7.65
+        "pct": 8.2
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": 7.76
+      },
+      {
+        "symbol": "SIRI",
+        "name": "SiriusXM Holdings Inc.",
+        "pct": 7.64
       },
       {
         "symbol": "CHTR",
         "name": "Charter Communications, Inc.",
-        "pct": 7.53
+        "pct": 7.61
       },
       {
-        "symbol": "FOUR",
-        "name": "Shift4 Payments, Inc.",
-        "pct": 7.44
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions, Inc.",
+        "pct": 7.61
       }
     ],
     "losers": [
       {
         "symbol": "WETO",
         "name": "Wetour Robotics Limited",
-        "pct": -32.83
+        "pct": -33.25
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": -18.78
+        "pct": -19.66
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": -17.22
+        "pct": -17.3
       },
       {
         "symbol": "MDB",
         "name": "MongoDB, Inc.",
-        "pct": -11.98
-      },
-      {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": -10.58
+        "pct": -12.4
       },
       {
         "symbol": "PANW",
         "name": "Palo Alto Networks, Inc.",
-        "pct": -10.43
+        "pct": -10.32
+      },
+      {
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -10.13
       },
       {
         "symbol": "PCG",
         "name": "Pacific Gas & Electric Co.",
-        "pct": -7.11
+        "pct": -6.83
       },
       {
         "symbol": "PLTR",
         "name": "Palantir Technologies Inc.",
-        "pct": -7.0
-      },
-      {
-        "symbol": "TENB",
-        "name": "Tenable Holdings, Inc.",
-        "pct": -6.91
+        "pct": -6.68
       },
       {
         "symbol": "EIX",
         "name": "Edison International",
-        "pct": -5.94
+        "pct": -6.09
+      },
+      {
+        "symbol": "FTNT",
+        "name": "Fortinet, Inc.",
+        "pct": -5.82
       }
     ],
     "universe": 1284
