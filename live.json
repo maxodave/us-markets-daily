@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-01T20:20:46Z",
-  "market_open": false,
+  "updated": "2026-09-02T16:31:23Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.71,
-      "last": 7631.47
+      "pct": 0.44,
+      "last": 7665.86
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.29,
-      "last": 29077.22
+      "pct": 0.11,
+      "last": 29109.72
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.79,
-      "last": 52766.88
+      "pct": 0.36,
+      "last": 52961.49
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.37,
-      "last": 51915.18
+      "pct": -0.27,
+      "last": 51792.1
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": 28.41
+        "symbol": "BIAF",
+        "name": "bioAffinity Technologies, Inc.",
+        "pct": 63.15
       },
       {
-        "symbol": "MOVE",
-        "name": "Corvex, Inc.",
-        "pct": 16.99
+        "symbol": "GTLB",
+        "name": "GitLab Inc.",
+        "pct": 12.55
       },
       {
-        "symbol": "MMED",
-        "name": "MiniMed Group, Inc.",
-        "pct": 10.66
+        "symbol": "ALMS",
+        "name": "Alumis Inc.",
+        "pct": 10.72
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": 9.93
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": 9.46
       },
       {
-        "symbol": "EIX",
-        "name": "Edison International",
-        "pct": 8.93
+        "symbol": "KSS",
+        "name": "Kohl's Corporation",
+        "pct": 8.45
       },
       {
-        "symbol": "WETO",
-        "name": "Wetour Robotics Limited",
-        "pct": 8.39
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": 7.82
       },
       {
-        "symbol": "NVAX",
-        "name": "Novavax, Inc.",
-        "pct": 8.0
+        "symbol": "SIRI",
+        "name": "SiriusXM Holdings Inc.",
+        "pct": 7.73
       },
       {
-        "symbol": "DUOL",
-        "name": "Duolingo, Inc.",
-        "pct": 7.02
+        "symbol": "ALNY",
+        "name": "Alnylam Pharmaceuticals, Inc.",
+        "pct": 7.65
       },
       {
-        "symbol": "BWXT",
-        "name": "BWX Technologies, Inc.",
-        "pct": 6.07
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "pct": 7.53
       },
       {
-        "symbol": "NVS",
-        "name": "Novartis AG",
-        "pct": 6.04
+        "symbol": "FOUR",
+        "name": "Shift4 Payments, Inc.",
+        "pct": 7.44
       }
     ],
     "losers": [
       {
-        "symbol": "AEHL",
-        "name": "Antelope Enterprise Holdings Limited",
-        "pct": -22.96
-      },
-      {
-        "symbol": "SN",
-        "name": "SharkNinja, Inc.",
-        "pct": -9.13
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": -8.86
+        "symbol": "WETO",
+        "name": "Wetour Robotics Limited",
+        "pct": -32.83
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": -8.65
+        "pct": -18.78
       },
       {
-        "symbol": "AXON",
-        "name": "Axon Enterprise, Inc.",
-        "pct": -8.52
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": -17.22
       },
       {
-        "symbol": "FROG",
-        "name": "JFrog Ltd.",
-        "pct": -8.28
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "pct": -11.98
       },
       {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": -8.23
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -10.58
       },
       {
-        "symbol": "FIGR",
-        "name": "Figure Technology Solutions, Inc.",
-        "pct": -8.15
+        "symbol": "PANW",
+        "name": "Palo Alto Networks, Inc.",
+        "pct": -10.43
       },
       {
-        "symbol": "ONDS",
-        "name": "Ondas Inc",
-        "pct": -8.03
+        "symbol": "PCG",
+        "name": "Pacific Gas & Electric Co.",
+        "pct": -7.11
       },
       {
-        "symbol": "BMNR",
-        "name": "BitMine Immersion Technologies, Inc.",
-        "pct": -7.7
+        "symbol": "PLTR",
+        "name": "Palantir Technologies Inc.",
+        "pct": -7.0
+      },
+      {
+        "symbol": "TENB",
+        "name": "Tenable Holdings, Inc.",
+        "pct": -6.91
+      },
+      {
+        "symbol": "EIX",
+        "name": "Edison International",
+        "pct": -5.94
       }
     ],
-    "universe": 1344
+    "universe": 1284
   }
 }
