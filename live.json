@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-03T20:02:05Z",
+  "updated": "2026-09-03T20:17:45Z",
   "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": 1.06,
-      "last": 7747.59
+      "last": 7747.71
     },
     {
       "key": "nasdaq100",
@@ -18,7 +18,7 @@
       "key": "dow",
       "label": "Dow Jones",
       "pct": 1.18,
-      "last": 53685.52
+      "last": 53686.11
     },
     {
       "key": "ftsemib",
@@ -45,24 +45,24 @@
         "pct": 17.33
       },
       {
-        "symbol": "SNOW",
-        "name": "Snowflake Inc.",
-        "pct": 16.58
-      },
-      {
         "symbol": "HOOD",
         "name": "Robinhood Markets, Inc.",
         "pct": 16.57
       },
       {
+        "symbol": "SNOW",
+        "name": "Snowflake Inc.",
+        "pct": 16.55
+      },
+      {
         "symbol": "CRCL",
         "name": "Circle Internet Group, Inc.",
-        "pct": 16.43
+        "pct": 16.46
       },
       {
         "symbol": "BMNR",
         "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 14.66
+        "pct": 14.7
       },
       {
         "symbol": "CIFR",
@@ -94,17 +94,17 @@
       {
         "symbol": "VSXY",
         "name": "Victorias Secret & Co.",
-        "pct": -13.18
+        "pct": -13.17
       },
       {
         "symbol": "CIEN",
         "name": "Ciena Corporation",
-        "pct": -10.88
+        "pct": -10.36
       },
       {
         "symbol": "CXM",
         "name": "Sprinklr, Inc.",
-        "pct": -10.36
+        "pct": -10.22
       },
       {
         "symbol": "PL",
@@ -114,12 +114,7 @@
       {
         "symbol": "TSN",
         "name": "Tyson Foods, Inc.",
-        "pct": -7.25
-      },
-      {
-        "symbol": "AMR",
-        "name": "Alpha Metallurgical Resources, Inc.",
-        "pct": -6.96
+        "pct": -7.26
       },
       {
         "symbol": "CPB",
@@ -127,9 +122,14 @@
         "pct": -6.96
       },
       {
+        "symbol": "AMR",
+        "name": "Alpha Metallurgical Resources, Inc.",
+        "pct": -6.91
+      },
+      {
         "symbol": "TTC",
         "name": "Toro Company (The)",
-        "pct": -6.89
+        "pct": -6.84
       }
     ],
     "universe": 1299
