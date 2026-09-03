@@ -976,10 +976,21 @@ renderEditions();
   (function live() {
     var strip = document.getElementById("liveStrip"); if (!strip) return;
     var latest = null;
-    function statusHtml() {
+    /* Il segno di stato NON deve dire "live" quando i dati sono vecchi. Era il
+       difetto piu' sgradevole del 3 settembre 2026: la borsa era aperta, il segno
+       verde diceva "U.S. markets open · live" — vero, perche' lo stato del mercato
+       lo calcola il browser e il mercato ERA aperto — mentre i numeri sotto erano
+       la chiusura del giorno prima, perche' il job di GitHub non era ancora
+       partito. L'eta' dei dati c'era, ma una riga sotto e in corpo piccolo: chi
+       guarda legge il bollino verde e si fida. Ora, a mercati aperti e dati fermi
+       da oltre venti minuti, e' il bollino stesso a cambiare colore e parole. */
+    function statusHtml(stale) {
       var s = usMarketState();
       var closed = !s.open || forceClosed || forceWeekend;
-      if (!closed) return '<div class="live-status open"><span class="ls-dot"></span>U.S. markets open &middot; live</div>';
+      if (!closed) {
+        if (stale) return '<div class="live-status stale"><span class="ls-dot"></span>U.S. markets open &middot; quotes catching up</div>';
+        return '<div class="live-status open"><span class="ls-dot"></span>U.S. markets open &middot; live</div>';
+      }
       var why = (!s.weekday || forceWeekend) ? "closed for the weekend" : "closed &middot; showing the last close";
       return '<div class="live-status closed"><span class="ls-dot"></span>U.S. markets ' + why + ' &middot; reopens ' + nextUsOpenLabel() + '</div>';
     }
@@ -1005,7 +1016,7 @@ renderEditions();
             (when ? (' &middot; updated ' + when + age) : '') + (stale ? ' &middot; catching up' : '') + '</div>' +
           items.map(function (i) { var cls = i.pct > 0 ? "up" : (i.pct < 0 ? "down" : "flat"), sign = i.pct > 0 ? "+" : ""; return '<div class="live-idx"><div class="li-name">' + i.label + '</div><div class="li-pct ' + cls + '">' + sign + Number(i.pct).toFixed(2) + '%</div></div>'; }).join("")
         : "";
-      strip.innerHTML = statusHtml() + idx;
+      strip.innerHTML = statusHtml(stale) + idx;
       strip.hidden = false;
       // Stessa fonte per striscione e lista LIVE: cambiano insieme a ogni refresh.
       renderTicker(latest);
