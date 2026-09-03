@@ -28,13 +28,35 @@ name: Quotazioni LIVE
 #    browser nella pagina. Effetto collaterale utile: d'estate si risparmiano
 #    quasi due ore di runner al giorno che prima giravano a borsa chiusa.
 #
-# 3) GLI SCHEDULE A ":00" E ":30" SONO QUELLI CHE GITHUB SALTA DI PIU'. Il cron
-#    era "*/30", cioe' esattamente i due minuti piu' congestionati dell'ora — e
-#    GitHub stesso documenta di evitarli. Verificato sui run reali: dei 18 slot
-#    giornalieri ne nascevano circa TRE, sempre con 35-40 minuti di ritardo, e il
-#    28/08 nessuno. Ora gli slot sono 40, ai minuti 7/22/37/52, cioe' fuori dai
-#    picchi. Non e' una garanzia (lo scheduler di GitHub non ne da'), e' un numero
-#    molto piu' alto di occasioni collocate dove la coda e' piu' corta.
+# 3) QUANDO PARTE IL PRIMO JOB DELLA GIORNATA. Qui il 28/08/2026 si e' ragionato
+#    male, e i dati lo hanno smentito in cinque giorni. L'idea era: "GitHub salta
+#    gli schedule, quindi metto piu' occasioni (40, ai minuti 7/22/37/52, fuori
+#    dai minuti di punta) e almeno una arrivera' presto". Misurato sul primo
+#    avvio reale di ogni giornata:
+#
+#      cron "*/15 13-21"  (36 slot, dalle 13:00)  ->  13:33, 13:49 UTC
+#      cron "*/30 13-21"  (18 slot, dalle 13:00)  ->  14:01, 14:04, 14:06, 14:09
+#      cron "7,22,37,52 12-21" (40 slot, da 12:07) -> 16:21, 16:30, 16:34, 19:06
+#
+#    Cioe': il cron piu' fitto e "meglio collocato" ha fatto partire il primo job
+#    DUE ORE E VENTI PIU' TARDI. Non e' il numero di occasioni a decidere, e non
+#    sono i minuti: con la terza configurazione GitHub scartava in blocco tutti
+#    gli slot dalle 12:07 alle 15:52 (sedici di fila, ogni giorno) e cominciava a
+#    consegnare solo dalle 16:07. Con le prime due ne scartava uno o due. Il
+#    perche' sta dentro lo scheduler di GitHub e non e' osservabile da qui.
+#    Percio' la regola qui e' UNA SOLA: si torna alla forma che ha dato i primi
+#    avvii piu' precoci ("*/15" dalle 13:00) e non si prova piu' a indovinare la
+#    coda di GitHub. Se un giorno si cambia questo cron, si misura il primo avvio
+#    per una settimana prima di dire che e' un miglioramento.
+#
+# 4) IL PRIMO AVVIO NON DIPENDE PIU' DA UN SOLO WORKFLOW. Anche nella versione
+#    migliore il primo job arrivava alle 13:33-13:49, cioe' fino a venti minuti
+#    dopo l'apertura. La quota di consegne sembra essere PER WORKFLOW, quindi ora
+#    esiste un secondo file — live_open.yml — con pochissimi slot, puntati solo
+#    sull'apertura, che non fa altro che CHIAMARE questo workflow (da qui
+#    "workflow_call" qui sotto: la logica resta in un posto solo). Due workflow =
+#    due quote di consegna per lo stesso lavoro, e il gruppo "concurrency" e' lo
+#    stesso, quindi non possono lavorare in doppio.
 #
 # COME SI GARANTISCE IL PASSO DEI 15 MINUTI. Non dallo scheduler: il job, una
 # volta partito, CICLA DA SOLO ogni 15 minuti fino a fine finestra. Lo scheduler
@@ -62,12 +84,14 @@ name: Quotazioni LIVE
 # lo stato lo calcola il browser in ora di New York.
 on:
   schedule:
-    # 40 occasioni al giorno ai minuti 7/22/37/52 — fuori dai picchi di carico di
-    # GitHub (":00" e ":30" erano il motivo per cui ne partivano tre su diciotto).
-    # Ore 12-21 UTC: coprono la seduta in entrambi i regimi orari (09:00-16:25 ET
-    # sono 13:00-20:25 UTC d'estate, 14:00-21:25 d'inverno) con un'ora di margine
-    # prima dell'apertura. Chi nasce fuori finestra esce subito, non costa nulla.
-    - cron: "7,22,37,52 12-21 * * 1-5"
+    # LA FORMA CHE HA DATO I PRIMI AVVII PIU' PRECOCI (13:33 / 13:49 UTC): ogni
+    # quarto d'ora dalle 13:00 alle 21:xx UTC, giorni feriali. Copre la seduta in
+    # entrambi i regimi orari (09:00-16:25 di New York = 13:00-20:25 UTC d'estate,
+    # 14:00-21:25 d'inverno). Non toccare senza misurare — vedi il punto 3 sopra.
+    - cron: "*/15 13-21 * * 1-5"
+  # Chiamato da live_open.yml, che ha una quota di consegne sua e punta solo
+  # sull'apertura. La logica resta tutta qui: quel file e' tre righe.
+  workflow_call:
   workflow_dispatch:
 
 permissions:
@@ -101,7 +125,13 @@ jobs:
           # Tutto in ora di NEW YORK: gestisce da se' il cambio dell'ora legale.
           DOW=$(TZ=America/New_York date +%u)             # 1=lun .. 7=dom
           NOW=$(( 10#$(TZ=America/New_York date +%H) * 60 + 10#$(TZ=America/New_York date +%M) ))
-          OPEN=$((  9 * 60 ))        # 09:00 ET — mezz'ora prima della campana
+          # EARLY (08:00) e' la soglia di INGRESSO, OPEN (09:00) quella di lavoro:
+          # un job consegnato fra le due non viene buttato, ASPETTA. Serve perche'
+          # d'inverno gli slot delle 13:0x UTC cadono alle 08:0x di New York, e
+          # prima venivano rifiutati: si sprecava proprio la consegna piu' vicina
+          # all'apertura. Un'ora di attesa al massimo, su un repo pubblico e' gratis.
+          EARLY=$((  8 * 60 ))       # 08:00 ET — si entra e si aspetta
+          OPEN=$((   9 * 60 ))       # 09:00 ET — mezz'ora prima della campana
           CLOSE=$(( 16 * 60 + 25 ))  # 16:25 ET — dopo la campana, per i valori di chiusura
           echo "Ora di New York: $(TZ=America/New_York date '+%a %H:%M %Z')."
 
@@ -109,16 +139,21 @@ jobs:
             echo "Weekend a New York: niente seduta, esco."
             echo "run=no" >> "$GITHUB_OUTPUT"; exit 0
           fi
-          if [ "$NOW" -lt "$OPEN" ] || [ "$NOW" -ge "$CLOSE" ]; then
-            echo "Fuori dalla finestra 09:00-16:25 ET: esco senza ciclare."
+          if [ "$NOW" -lt "$EARLY" ] || [ "$NOW" -ge "$CLOSE" ]; then
+            echo "Fuori dalla finestra 08:00-16:25 ET: esco senza ciclare."
             echo "(E' il caso che il 28/08/2026 aveva fatto ciclare un job tutta la notte.)"
             echo "run=no" >> "$GITHUB_OUTPUT"; exit 0
           fi
 
-          # Fine finestra in epoch, ricalcolata dall'ora di New York di OGGI.
+          # Inizio e fine finestra in epoch, ricalcolati dall'ora di New York di OGGI.
+          START=$(TZ=America/New_York date -d 'today 09:00' +%s)
           END=$(TZ=America/New_York date -d 'today 16:25' +%s)
           echo "run=yes" >> "$GITHUB_OUTPUT"
+          echo "start=$START" >> "$GITHUB_OUTPUT"
           echo "end=$END" >> "$GITHUB_OUTPUT"
+          if [ "$NOW" -lt "$OPEN" ]; then
+            echo "Consegnato in anticipo: aspetto le $(TZ=America/New_York date -d "@$START" '+%H:%M %Z') e poi ciclo."
+          fi
           echo "Ciclo fino alle $(TZ=America/New_York date -d "@$END" '+%H:%M %Z')."
 
       - uses: actions/checkout@v4
@@ -134,10 +169,23 @@ jobs:
       - name: Ciclo di quotazioni ogni 15 minuti fino a fine finestra
         if: steps.gate.outputs.run == 'yes'
         env:
+          START: ${{ steps.gate.outputs.start }}
           END: ${{ steps.gate.outputs.end }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Attesa dell'apertura, se la consegna e' arrivata in anticipo (vedi
+          # EARLY nel cancello). Al massimo un'ora: sotto le 08:00 di New York il
+          # cancello non lascia nemmeno entrare.
+          WAIT=$(( ${START:-0} - $(date -u +%s) ))
+          # Tetto a un'ora: se per qualsiasi motivo START arrivasse sballato, il
+          # job non deve restare parcheggiato invece di quotare.
+          [ "$WAIT" -gt 3600 ] && WAIT=3600
+          if [ "$WAIT" -gt 0 ]; then
+            echo "Aspetto ${WAIT}s l'apertura della finestra."
+            sleep "$WAIT"
+          fi
 
           # Lunghezza del segmento. Con la catena accesa segmenti brevi: se un job
           # muore, il successivo riprende in pochi minuti invece che in ore. Senza

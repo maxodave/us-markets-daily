@@ -1,0 +1,45 @@
+name: Quotazioni LIVE — apertura
+
+# UN SOLO SCOPO: che alle 09:30 di New York la vista LIVE sia gia' viva.
+#
+# PERCHE' ESISTE UN SECONDO FILE. Il lavoro e' tutto in live.yml, che una volta
+# partito cicla da solo fino a fine seduta: il problema non e' mai stato il
+# lavoro, e' l'ACCENSIONE. Misurato sul primo avvio reale di ogni giornata,
+# GitHub consegna gli schedule di live.yml con ritardi che vanno da venti minuti
+# a tre ore, e per giorni interi scarta in blocco tutti gli slot del mattino
+# (dal 31/08 al 03/09/2026 il primo job e' partito alle 19:06, 16:34, 16:30 e
+# 16:21 UTC, con la borsa aperta dalle 13:30: quasi tre ore di pagina ferma ogni
+# giorno, con i mover del giorno prima). Aumentare gli slot dentro live.yml e'
+# stato provato e ha peggiorato le cose.
+#
+# La quota di consegne sembra essere PER WORKFLOW. Quindi qui c'e' un workflow
+# separato, con POCHISSIMI slot e tutti attorno all'apertura: ha una sua coda e
+# una sua occasione di essere consegnato. Non duplica nulla — chiama live.yml
+# come workflow riutilizzabile, quindi la logica (cancello in ora di New York,
+# ciclo ogni 15 minuti, catena facoltativa) resta scritta in un posto solo.
+#
+# NON PUO' FAR LAVORO DOPPIO: live.yml dichiara "concurrency: live-quotes", e il
+# gruppo e' lo stesso anche quando il workflow viene chiamato da qui. Se un ciclo
+# e' gia' in corso, questo si mette in coda dietro e non pubblica in parallelo.
+#
+# QUESTO NON E' UNA GARANZIA, ed e' giusto scriverlo: lo scheduler di GitHub non
+# promette niente sulla puntualita'. E' una seconda possibilita' dove prima ce
+# n'era una sola. La garanzia vera resta il secret LIVE_CHAIN_TOKEN (vedi README,
+# "Prossimi passi"), che richiede un token personale creato a mano.
+on:
+  schedule:
+    # Quattro soli slot, tutti a cavallo dell'apertura, in entrambi i regimi
+    # orari: 13:00/13:20 UTC sono le 09:00/09:20 di New York d'estate, 14:00/14:20
+    # d'inverno. Chi arriva prima delle 09:00 di New York non viene buttato:
+    # aspetta l'apertura (vedi EARLY nel cancello di live.yml).
+    - cron: "0,20 13 * * 1-5"
+    - cron: "0,20 14 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apertura:
+    uses: ./.github/workflows/live.yml
+    secrets: inherit
