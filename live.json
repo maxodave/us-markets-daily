@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-04T15:15:33Z",
+  "updated": "2026-09-04T15:32:57Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.43,
-      "last": 7714.81
+      "pct": -0.53,
+      "last": 7707.02
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.08,
-      "last": 29505.13
+      "pct": -0.09,
+      "last": 29456.19
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.67,
-      "last": 53326.92
+      "pct": -0.71,
+      "last": 53304.58
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.21,
-      "last": 52108.69
+      "pct": -0.19,
+      "last": 52119.92
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": 27.31
+        "pct": 27.07
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": 13.42
-      },
-      {
-        "symbol": "ALAB",
-        "name": "Astera Labs, Inc.",
-        "pct": 12.5
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": 11.91
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 10.39
+        "pct": 12.68
       },
       {
         "symbol": "CHPT",
         "name": "ChargePoint Holdings, Inc.",
-        "pct": 8.99
+        "pct": 12.22
       },
       {
-        "symbol": "SNDK",
-        "name": "Sandisk Corporation",
-        "pct": 8.75
+        "symbol": "ALAB",
+        "name": "Astera Labs, Inc.",
+        "pct": 11.8
       },
       {
-        "symbol": "GOLD",
-        "name": "Gold.com, Inc.",
-        "pct": 8.14
-      },
-      {
-        "symbol": "KLAC",
-        "name": "KLA Corporation",
-        "pct": 8.05
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": 10.53
       },
       {
         "symbol": "CLYM",
         "name": "Climb Bio, Inc.",
-        "pct": 7.98
+        "pct": 9.15
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 9.03
+      },
+      {
+        "symbol": "SNDK",
+        "name": "Sandisk Corporation",
+        "pct": 8.66
+      },
+      {
+        "symbol": "GOLD",
+        "name": "Gold.com, Inc.",
+        "pct": 7.59
+      },
+      {
+        "symbol": "KLAC",
+        "name": "KLA Corporation",
+        "pct": 7.25
       }
     ],
     "losers": [
       {
         "symbol": "GWRE",
         "name": "Guidewire Software, Inc.",
-        "pct": -21.04
+        "pct": -22.04
       },
       {
         "symbol": "LULU",
         "name": "lululemon athletica inc.",
-        "pct": -18.74
+        "pct": -17.75
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": -17.47
-      },
-      {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": -14.88
+        "pct": -17.69
       },
       {
         "symbol": "PATH",
         "name": "UiPath, Inc.",
-        "pct": -14.13
+        "pct": -16.0
       },
       {
         "symbol": "ASAN",
         "name": "Asana, Inc.",
-        "pct": -13.97
+        "pct": -14.22
+      },
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": -11.63
       },
       {
         "symbol": "ADSK",
         "name": "Autodesk, Inc.",
-        "pct": -8.7
+        "pct": -8.92
       },
       {
         "symbol": "TRU",
         "name": "TransUnion",
-        "pct": -8.17
+        "pct": -8.09
       },
       {
         "symbol": "EFX",
         "name": "Equifax, Inc.",
-        "pct": -8.17
+        "pct": -7.69
       },
       {
         "symbol": "SNPS",
         "name": "Synopsys, Inc.",
-        "pct": -7.8
+        "pct": -6.89
       }
     ],
     "universe": 1276
