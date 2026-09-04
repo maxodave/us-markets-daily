@@ -256,8 +256,100 @@
   @media (prefers-color-scheme: light) { .vignette, .grain, #stars { opacity: 0; } }
 
   /* Viste: si mostra un solo pannello per volta (default = edition). */
+  /* ====== viste ======
+     Tre valori di body[data-view]: live, edition, daybyday. Le prime due si
+     escludono a vicenda; la terza spegne entrambe. ATTENZIONE: non basta
+     aggiungere un valore nuovo — servono le sue regole, altrimenti nessuna delle
+     due righe qui sotto scatta e la pagina mostra tutti i pannelli insieme. */
   body[data-view="edition"] .only-live { display: none; }
   body[data-view="live"] .only-edition { display: none; }
+  /* Modalita' cattura (?shot): l'immagine deve mostrare la GIORNATA, non l'eroe
+     che e' identico ogni giorno. Il nastro dei prezzi sparisce perche' e' fisso
+     in basso e coprirebbe una riga di contenuto in ogni scattato. */
+  body.shot-mode #hero,
+  body.shot-mode .ticker-bar { display: none !important; }
+  body.shot-mode .wrap { padding-top: 76px; }   /* misurato sullo scatto: 96 lasciava una fascia vuota */
+
+  .only-daybyday { display: none; }
+  body[data-view="daybyday"] .only-daybyday { display: block; }
+  body[data-view="daybyday"] .only-live,
+  body[data-view="daybyday"] .only-edition { display: none; }
+
+  /* ====== Day by day: serie in corso + diario visivo ====== */
+  .dbd-head { border-top: 2px solid var(--text); padding-top: 18px; margin-bottom: 22px; }
+  .dbd-title { font-size: 1.35rem; font-weight: 800; text-transform: uppercase; line-height: 1; letter-spacing: -.005em; }
+  .dbd-sub { color: var(--muted); font-size: .82rem; margin-top: 8px; max-width: 86ch; line-height: 1.55; }
+  .dbd-section-head { font-family: var(--mono); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--muted); margin: 40px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+
+  /* I due contatori grandi: quante societa' salgono da almeno un giorno e quante
+     scendono. E' la risposta alla domanda diretta, prima di ogni classifica. */
+  .st-counters { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px;
+    background: var(--border); border: 1px solid var(--border); margin-bottom: 26px; }
+  .st-count { background: var(--panel); padding: 16px 18px; }
+  .st-count .v { font-size: 1.9rem; font-weight: 700; line-height: 1.05; font-variant-numeric: tabular-nums; }
+  .st-count.up .v { color: var(--green-5); }
+  .st-count.down .v { color: var(--red-5); }
+  .st-count .k { font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-top: 5px; }
+
+  /* Distribuzione per lunghezza della serie: una barra per "1 giorno", "2
+     giorni"... La barra e' proporzionale al gruppo piu' numeroso della PROPRIA
+     colonna, non del totale: le due colonne rispondono a domande separate. */
+  .st-dist { display: flex; flex-direction: column; gap: 6px; margin-bottom: 4px; }
+  .st-row { display: grid; grid-template-columns: 68px minmax(0, 1fr) 46px; align-items: center; gap: 10px; }
+  .st-lab { font-family: var(--mono); font-size: .7rem; color: var(--muted); text-align: right; }
+  .st-bar { height: 14px; border-radius: 3px; min-width: 2px; }
+  .st-bar.up { background: linear-gradient(90deg, var(--green-2), var(--green-4)); }
+  .st-bar.down { background: linear-gradient(90deg, var(--red-2), var(--red-4)); }
+  .st-n { font-family: var(--mono); font-size: .74rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+  .st-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 34px; }
+  @media (max-width: 780px) { .st-cols { grid-template-columns: minmax(0, 1fr); gap: 26px; } }
+  .st-col h4 { font-family: var(--mono); font-size: .7rem; letter-spacing: .09em; text-transform: uppercase; margin: 0 0 12px; }
+  .st-col.up h4 { color: var(--green-5); }
+  .st-col.down h4 { color: var(--red-5); }
+  .st-item { display: grid; grid-template-columns: 52px 56px minmax(0, 1fr) auto; align-items: baseline;
+    gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--border); font-size: .8rem; }
+  .st-item:last-child { border-bottom: none; }
+  .st-days { font-family: var(--mono); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .st-item.up .st-days { color: var(--green-5); }
+  .st-item.down .st-days { color: var(--red-5); }
+  .st-sym { font-family: var(--mono); font-weight: 700; }
+  /* Il nome si accorcia con i puntini, il badge NO: se stessero nello stesso
+     contenitore con ellipsis, su schermi stretti il badge sparirebbe insieme
+     alla coda del nome — cioe' si perderebbe l'unica indicazione che quella riga
+     e' di Milano e non di Wall Street. */
+  .st-name { color: var(--muted); min-width: 0; display: flex; align-items: baseline; gap: 0; }
+  .st-nm { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .st-cum { font-family: var(--mono); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .st-item.up .st-cum { color: var(--green-5); }
+  .st-item.down .st-cum { color: var(--red-5); }
+  /* Marca le righe di Milano: universe.json tiene insieme i tre indici USA e il
+     FTSE MIB, e una classifica che li mescola senza dirlo si legge male. */
+  .st-mib { font-size: .6rem; font-weight: 700; letter-spacing: .04em; color: var(--muted);
+    border: 1px solid var(--border); border-radius: 3px; padding: 0 4px; margin-left: 6px; }
+
+  /* Diario: una scheda per giornata. Griglia che si adatta, cosi' con o senza
+     screenshot le schede restano allineate. */
+  .dbd-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+  .dbd-card { border: 1px solid var(--border); background: var(--panel); border-radius: 12px; overflow: hidden;
+    display: flex; flex-direction: column; }
+  .dbd-shot { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top center;
+    background: var(--panel-2); border-bottom: 1px solid var(--border); }
+  /* Giornate senza screenshot: si dice, non si finge. Vedi renderDayByDay(). */
+  .dbd-noshot { aspect-ratio: 16 / 10; background: var(--panel-2); border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center; text-align: center; padding: 14px;
+    font-family: var(--mono); font-size: .64rem; line-height: 1.6; letter-spacing: .05em;
+    text-transform: uppercase; color: var(--muted); }
+  .dbd-body { padding: 13px 15px 15px; display: flex; flex-direction: column; gap: 7px; }
+  .dbd-date { font-family: var(--mono); font-size: .74rem; font-weight: 700; letter-spacing: .04em; }
+  .dbd-session { font-family: var(--mono); font-size: .64rem; color: var(--muted); letter-spacing: .04em; }
+  .dbd-nums { display: flex; gap: 12px; font-family: var(--mono); font-size: .72rem; font-variant-numeric: tabular-nums; }
+  .dbd-nums .u { color: var(--green-5); } .dbd-nums .d { color: var(--red-5); }
+  .dbd-nums .a { color: var(--muted); }
+  .dbd-kind { font-size: .6rem; text-transform: uppercase; letter-spacing: .06em; color: #ff8a3d;
+    border: 1px solid rgba(255,138,61,.45); border-radius: 3px; padding: 1px 5px; align-self: flex-start; }
+  .dbd-empty { color: var(--muted); font-size: .84rem; line-height: 1.6; max-width: 78ch; }
 
   /* Barra a tutta larghezza (edge-to-edge): niente max-width, cosi' sfondo e
      bordo attraversano l'intera pagina in orizzontale. */

@@ -63,6 +63,22 @@ def _flat_columns(df: pd.DataFrame) -> list[str]:
     return cols
 
 
+def clean_name(v) -> str:
+    """Il nome di una societa', ripulito dai residui del wikitesto.
+
+    Le tabelle di Wikipedia arrivano con qualche cella sporca: barre verticali
+    del markup dei link, riferimenti a note, spazi doppi. Trovato il 4 settembre
+    2026 con "ResMed|" — un carattere solo, ma finiva in chiaro sul sito ovunque
+    comparisse quel titolo (elenco dei mover, serie, post). Si ripulisce qui,
+    all'ingresso, cosi' vale per tutte le viste invece di essere corretto in
+    ciascuna.
+    """
+    t = str(v or "")
+    t = re.sub(r"\[.*?\]", "", t)          # note e riferimenti
+    t = t.replace("|", " ")                 # residui del markup dei link
+    return re.sub(r"\s+", " ", t).strip()
+
+
 def find_table(tables: list, required_cols: set) -> pd.DataFrame:
     """La pagina del Dow ha piu' tabelle (componenti + storico): si cerca quella giusta
     per nome delle colonne invece di assumere che sia la prima."""
@@ -183,7 +199,7 @@ def merge_constituents(
             if entry is None:
                 entry = {
                     "symbol": sym,
-                    "name": row["name"],
+                    "name": clean_name(row["name"]),
                     "sector": row.get("sector"),
                     "sub_industry": row.get("sub_industry"),
                     "yf_symbol": row["yf_symbol"],
@@ -281,7 +297,7 @@ def main():
         rows.append(
             {
                 "symbol": row["symbol"],
-                "name": row["name"],
+                "name": clean_name(row["name"]),
                 "sector": row["sector"],
                 "sub_industry": row["sub_industry"],
                 "indices": row["indices"],
@@ -330,7 +346,7 @@ def main():
         {
             "yf_symbol": r["yf_symbol"],
             "symbol": r["symbol"],
-            "name": r["name"],
+            "name": clean_name(r["name"]),
             "indices": r["indices"],
         }
         for _, r in constituents.iterrows()

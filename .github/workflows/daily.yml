@@ -119,6 +119,14 @@ jobs:
       - name: Edizione del giorno (con commento, se presente)
         run: python pipeline/build_edition.py --force
 
+      # Serie in corso per societa' (da quanti giorni di fila ogni titolo sale o
+      # scende), per la vista "Day by day". Deve girare PRIMA della pagina, che
+      # inserisce streaks.json al momento della build. Non fatale: se salta, la
+      # vista dice che le serie non ci sono ancora e il resto esce comunque.
+      - name: Serie in corso (Day by day)
+        run: python pipeline/fetch_streaks.py .
+        continue-on-error: true
+
       - name: Pagina pubblica
         run: python pipeline/build_public_page.py .
 
@@ -128,10 +136,88 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html editions universe.json universe_live.json
+          git add index.html editions universe.json universe_live.json streaks.json
           if git diff --cached --quiet; then
             echo "Nessuna modifica rispetto all'ultima pubblicazione."
           else
             git commit -m "Edizione del $(date '+%Y-%m-%d %H:%M %Z')"
+            git push
+          fi
+
+      # ---------------------------------------------------------------------
+      # LO SCATTO DELLA GIORNATA, per il diario della vista "Day by day".
+      #
+      # Va DOPO la pubblicazione, e sul sito ONLINE: fotografare index.html dal
+      # disco non funzionerebbe, perche' da "file://" il browser non puo' leggere
+      # live.json (stessa origine negata) e la pagina uscirebbe incompleta.
+      # Da qui l'attesa: GitHub Pages ci mette un minuto a ripubblicare, e senza
+      # quella pausa si fotograferebbe l'edizione di IERI.
+      #
+      # "?shot" toglie l'eroe a tutta altezza e forza la vista edizione (vedi
+      # templates/app.js): senza, ogni scheda del diario mostrerebbe la stessa
+      # immagine, perche' l'eroe non cambia mai.
+      #
+      # Si ridimensiona a 640px di larghezza: le schede del diario sono
+      # miniature, e un PNG da 1280 al giorno vorrebbe dire ~150 MB di repo
+      # all'anno per pixel che nessuno guarda. A 640 sono ~30 MB.
+      #
+      # Tutto lo step e' "continue-on-error": un diario senza lo scatto di un
+      # giorno e' un difetto piccolo, un'edizione non pubblicata no.
+      # ---------------------------------------------------------------------
+      - name: Scatto della giornata (diario)
+        continue-on-error: true
+        run: |
+          set -x
+          GIORNO=$(date '+%Y-%m-%d')
+          mkdir -p shots
+          echo "Aspetto che GitHub Pages ripubblichi..."
+          sleep 150
+
+          CHROME=""
+          for c in google-chrome google-chrome-stable chromium-browser chromium; do
+            command -v "$c" >/dev/null 2>&1 && { CHROME="$c"; break; }
+          done
+          if [ -z "$CHROME" ]; then
+            echo "Nessun browser sul runner: niente scatto per oggi."
+            exit 0
+          fi
+
+          "$CHROME" --headless=new --disable-gpu --no-sandbox --hide-scrollbars \
+            --window-size=1280,1500 --virtual-time-budget=20000 \
+            --screenshot="shots/$GIORNO.raw.png" \
+            "https://maxodave.github.io/us-markets-daily/?shot=1" || true
+
+          if [ ! -s "shots/$GIORNO.raw.png" ]; then
+            echo "Scatto non prodotto: niente da committare."
+            rm -f "shots/$GIORNO.raw.png"
+            exit 0
+          fi
+
+          # 480px e 128 colori: MISURATI, non scelti a occhio. Lo stesso scatto
+          # pesa 580 KB a 640px in 24 bit, 240 a 640px/128 colori, 134 a
+          # 480px/128. Le schede del diario sono larghe 260-400px, quindi 480
+          # basta anche su schermi a densita' doppia, e un file al giorno fa
+          # ~48 MB di repo all'anno invece di 210.
+          if command -v convert >/dev/null 2>&1; then
+            convert "shots/$GIORNO.raw.png" -resize 480x -colors 128 -strip \
+              -define png:compression-level=9 "shots/$GIORNO.png"
+            rm -f "shots/$GIORNO.raw.png"
+          else
+            mv "shots/$GIORNO.raw.png" "shots/$GIORNO.png"
+          fi
+          ls -la "shots/$GIORNO.png"
+
+          # La pagina legge l'elenco degli scatti al momento della build (vedi
+          # list_shots in build_public_page.py), quindi va rigenerata: altrimenti
+          # lo scatto di oggi esiste sul disco ma la scheda continua a dire che
+          # non c'e'.
+          python pipeline/build_public_page.py .
+
+          git add "shots/$GIORNO.png" index.html
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica."
+          else
+            git commit -m "Scatto del $GIORNO"
+            git pull -q --rebase --autostash || true
             git push
           fi

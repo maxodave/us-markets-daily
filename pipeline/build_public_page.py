@@ -31,6 +31,7 @@ import re
 import shutil
 import subprocess
 import sys
+from datetime import datetime
 
 # I template stanno accanto a QUESTO file, non nella cartella da cui si lancia lo
 # script: lo stesso build_public_page.py viene eseguito dalla cartella privata,
@@ -44,7 +45,13 @@ EDITIONS_DIR = "editions"
 # questo repo privato, creando un repository git annidato per errore.
 DEFAULT_OUT_DIR = os.path.expanduser("~/Sites/us-markets-daily")
 
-PLACEHOLDERS = ("__STYLE_CSS__", "__APP_JS__", "__EDITIONS_JSON__", "__FALLBACK_HTML__")
+PLACEHOLDERS = ("__STYLE_CSS__", "__APP_JS__", "__EDITIONS_JSON__", "__FALLBACK_HTML__",
+                "__STREAKS_JSON__", "__SHOTS_JSON__")
+# Serie in corso per societa' (fetch_streaks.py) e cartella degli screenshot
+# giornalieri. Entrambi FACOLTATIVI: se mancano, la vista "Day by day" dice
+# che non ci sono invece di rompersi, e il resto della pagina non se ne accorge.
+STREAKS_FILE = "streaks.json"
+SHOTS_DIR = "shots"
 
 # Campi che il JavaScript legge davvero (verificato su templates/app.js). Il resto
 # non viene incorporato nella pagina: erano oltre la metà del peso, e nessuna riga
@@ -93,6 +100,41 @@ def load_editions() -> list[dict]:
         editions.append(ed)
     editions.sort(key=lambda e: e["edition_date"], reverse=True)
     return editions
+
+
+def load_streaks() -> dict | None:
+    """Le serie in corso, se il file c'e'. None non e' un errore: la pagina lo
+    dice al lettore ("si scrivono una volta al giorno, dopo la chiusura")."""
+    try:
+        with open(STREAKS_FILE, encoding="utf-8") as f:
+            d = json.load(f)
+    except (FileNotFoundError, ValueError, OSError):
+        return None
+    return d if isinstance(d, dict) and d.get("up") and d.get("down") else None
+
+
+def list_shots() -> list[str]:
+    """Le date per cui esiste shots/YYYY-MM-DD.png.
+
+    La pagina non puo' sapere da sola quali immagini esistono: se provasse a
+    caricarle tutte, le giornate senza screenshot mostrerebbero l'icona di
+    immagine rotta. L'elenco lo fa la build, che il disco lo vede.
+    """
+    try:
+        nomi = os.listdir(SHOTS_DIR)
+    except (FileNotFoundError, NotADirectoryError, OSError):
+        return []
+    date = []
+    for n in nomi:
+        if not n.endswith(".png"):
+            continue
+        gg = n[: -len(".png")]
+        try:
+            datetime.strptime(gg, "%Y-%m-%d")
+        except ValueError:
+            continue          # file estraneo nella cartella: si ignora
+        date.append(gg)
+    return sorted(date)
 
 
 def slim_mover(m: dict) -> dict:
@@ -151,6 +193,18 @@ def slim_weekend_edition(ed: dict) -> dict:
     }
 
 
+def day_stats(ed: dict) -> dict | None:
+    """I tre numeri che riassumono una seduta: quante societa' su, quante giu', la
+    media. Si prende la vista "combined" (l'unione dei tre indici USA) e, se
+    l'edizione e' anteriore al multi-indice, il vecchio auto_report.
+    """
+    by = ed.get("auto_report_by_index") or {}
+    src = (by.get("combined") or by.get("sp500") or ed.get("auto_report") or {})
+    st = src.get("stats") or {}
+    tre = {k: st[k] for k in ("n_up", "n_down", "avg_pct") if st.get(k) is not None}
+    return tre or None
+
+
 def slim_editions(editions: list[dict]) -> list[dict]:
     """Tiene solo cio' che la pagina mostra.
 
@@ -162,7 +216,15 @@ def slim_editions(editions: list[dict]) -> list[dict]:
     out = []
     for i, ed in enumerate(editions):
         if i > 0:
-            out.append({k: ed[k] for k in ARCHIVE_FIELDS if k in ed})
+            riga = {k: ed[k] for k in ARCHIVE_FIELDS if k in ed}
+            # I tre numeri della giornata, per le schede del diario ("Day by day").
+            # Solo questi tre e non tutto auto_report: la potatura serve a non far
+            # crescere la pagina di un blocco al giorno per contenuti che
+            # nell'elenco d'archivio nessuno guarda.
+            st = day_stats(ed)
+            if st:
+                riga["day_stats"] = st
+            out.append(riga)
             continue
         if ed.get("edition_kind") == "weekend_recap" and ed.get("weekend_report"):
             out.append(slim_weekend_edition(ed))
@@ -339,6 +401,10 @@ def build(editions: list[dict]) -> str:
     # "<" scritto <: un titolo di giornale che contenesse "</script" chiuderebbe
     # il tag in anticipo e spegnerebbe la pagina.
     data = json.dumps(slim_editions(editions), ensure_ascii=False).replace("<", "\\u003c")
+    # Stesso trattamento dei dati delle edizioni: "<" va neutralizzato perche'
+    # una sequenza "</script>" dentro un nome chiuderebbe il blocco JS.
+    streaks_json = json.dumps(load_streaks(), ensure_ascii=False).replace("<", "\\u003c")
+    shots_json = json.dumps(list_shots(), ensure_ascii=False).replace("<", "\\u003c")
 
     # I dati per ultimi: se un titolo di giornale contenesse "__APP_JS__" non
     # verrebbe interpretato come segnaposto.
@@ -347,6 +413,8 @@ def build(editions: list[dict]) -> str:
             .replace("__APP_JS__", js)
             .replace("__FALLBACK_HTML__", fallback_html(editions))
             .replace("__EDITIONS_JSON__", data)
+            .replace("__STREAKS_JSON__", streaks_json)
+            .replace("__SHOTS_JSON__", shots_json)
     )
 
 

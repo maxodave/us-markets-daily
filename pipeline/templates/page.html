@@ -20,6 +20,7 @@ __STYLE_CSS__
     <button type="button" class="nav-link live-link" data-go="live"><span class="live-dot"></span>LIVE</button>
     <button type="button" class="nav-link" data-go="edition">Read today's edition</button>
     <button type="button" class="nav-link" data-go="archive">Archive</button>
+    <button type="button" class="nav-link" data-go="daybyday">Day by day</button>
     <!-- Volutamente SENZA data-go: i cicli su .nav-link[data-go] in app.js
          pilotano le due viste (live/edition), e questa terza voce non e' una
          vista — apre un overlay e lascia sotto la vista che c'era. -->
@@ -72,6 +73,14 @@ __STYLE_CSS__
   <div id="liveStrip" class="live-strip only-live" hidden></div>
   <div id="editionsContent">__FALLBACK_HTML__</div>
 
+  <!-- TERZA VISTA: "Day by day". Due cose in una pagina, per scelta dell'autore:
+       il diario visivo delle giornate (una scheda per seduta, con lo screenshot
+       quando c'e') e il resoconto delle SERIE, cioe' da quanti giorni di fila
+       ogni societa' sale o scende. La riempie renderDayByDay() in app.js dai dati
+       inseriti qui sotto; se quei dati mancano la sezione resta vuota e la nav
+       continua a funzionare. -->
+  <section class="daybyday only-daybyday" id="dayByDay" aria-label="Day by day"></section>
+
   <footer>
     <span id="footer-text">Images remain the property of their respective outlets, linked to the original source.</span>
   </footer>
@@ -87,14 +96,13 @@ __STYLE_CSS__
   <button class="btn ghost mc-close" id="mcCloseBtn" type="button">Back to the edition</button>
 </div>
 
-<!-- "Only for subscribers": terza pagina, realizzata come OVERLAY e non come terzo
-     valore di body[data-view]. Le due viste esistenti si escludono a vicenda con
-     body[data-view="edition"] .only-live e body[data-view="live"] .only-edition:
-     un terzo valore non farebbe scattare nessuna delle due regole e mostrerebbe
-     ENTRAMBI i pannelli insieme. Come overlay si sovrappone e basta — la vista
-     sotto resta intatta, e ne' la pipeline ne' i workflow su GitHub la vedono:
-     e' markup statico, nessun dato, nessun file generato. Stessa struttura
-     dell'avviso arancione del fine settimana, in viola. -->
+<!-- "Only for subscribers": OVERLAY, non una vista. Resta un overlay per scelta,
+     non per il limite che c'era prima: quando fu scritto, le regole di
+     body[data-view] coprivano solo live/edition e un terzo valore avrebbe
+     mostrato entrambi i pannelli insieme. Dal 4 settembre 2026 la terza vista
+     esiste per davvero ("Day by day") e le regole ci sono tutte — vedi
+     style.css, blocco "viste". Questa invece non ha contenuto ne' dati: come
+     overlay si sovrappone e basta, e la vista sotto resta intatta. -->
 <div class="subs-full" id="subsFull" role="dialog" aria-modal="true" aria-labelledby="subsFullTitle">
   <div class="subs-badge"><span class="dot"></span>Only for subscribers</div>
   <h2 id="subsFullTitle">WORK IN PROGRESS</h2>
@@ -143,6 +151,12 @@ window.addEventListener("error", function () {
 </script>
 <script>
 const EDITIONS = __EDITIONS_JSON__;
+// Serie in corso per societa' (fetch_streaks.py) e elenco degli screenshot
+// disponibili in shots/. Sono INSERITI dalla build, non chiesti a runtime:
+// cambiano una volta al giorno, quindi una richiesta in piu' non servirebbe a
+// niente e aggiungerebbe un modo di fallire.
+const STREAKS = __STREAKS_JSON__;
+const SHOTS = __SHOTS_JSON__;
 </script>
 <script>
 __APP_JS__

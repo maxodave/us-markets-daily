@@ -39,6 +39,26 @@ const I18N = {
     liveMoversClose: "last close",
     csTitle: "At the closing bell — whole US market",
     csSession: "session of",
+    dbdTitle: "Day by day",
+    dbdSub: "Two things the daily edition cannot answer. How long the current run is: how many companies have now closed up several sessions in a row, and how many have closed down. And a diary of every day published so far, with the screenshot of the site as it looked that day.",
+    dbdStreaksHead: "Current runs",
+    dbdUpCount: "companies rising",
+    dbdDownCount: "companies falling",
+    dbdFlatCount: "unchanged",
+    dbdUniverse: "companies measured",
+    dbdUpDist: "How many days up",
+    dbdDownDist: "How many days down",
+    dbdUpTop: "Longest run up",
+    dbdDownTop: "Longest run down",
+    dbdDay: "day",
+    dbdDays: "days",
+    dbdDayShort: "d",
+    dbdNoStreaks: "No run data for this session yet: it is written once a day, after the close.",
+    dbdDiaryHead: "The diary",
+    dbdNoDays: "No editions in the archive yet.",
+    dbdShotAlt: "Screenshot of the site on",
+    dbdNoShot: "no screenshot for this day",
+    dbdWeekend: "weekend recap",
     csOlder: "This is the most recent closing photo available: the LIVE list had none for the session above, so the last one is kept rather than leaving the table out — the date beside the title is the session it shows.",
     csNote: "Snapshot of the LIVE list taken when Wall Street closed: the entire liquid US market, not just the three indices above, so a name absent from the session ranking can appear here. Frozen until the next edition.",
     scTitle: "Session closed",
@@ -102,6 +122,26 @@ const I18N = {
     liveMoversClose: "ultima chiusura",
     csTitle: "Alla campana di chiusura — tutto il mercato USA",
     csSession: "seduta del",
+    dbdTitle: "Giorno per giorno",
+    dbdSub: "Due cose che l'edizione del giorno non puo' dire. Quanto dura la corsa in atto: quante societa' chiudono in rialzo da piu' sedute di fila e quante in ribasso. E il diario di tutte le giornate pubblicate finora, con lo screenshot del sito come era quel giorno.",
+    dbdStreaksHead: "Serie in corso",
+    dbdUpCount: "societa' in rialzo",
+    dbdDownCount: "societa' in ribasso",
+    dbdFlatCount: "invariate",
+    dbdUniverse: "societa' misurate",
+    dbdUpDist: "Da quanti giorni salgono",
+    dbdDownDist: "Da quanti giorni scendono",
+    dbdUpTop: "Serie di rialzi piu' lunghe",
+    dbdDownTop: "Serie di ribassi piu' lunghe",
+    dbdDay: "giorno",
+    dbdDays: "giorni",
+    dbdDayShort: "g",
+    dbdNoStreaks: "Per questa seduta le serie non ci sono ancora: si scrivono una volta al giorno, dopo la chiusura.",
+    dbdDiaryHead: "Il diario",
+    dbdNoDays: "Nessuna edizione in archivio.",
+    dbdShotAlt: "Screenshot del sito del",
+    dbdNoShot: "nessuno screenshot per questa giornata",
+    dbdWeekend: "riassunto weekend",
     csOlder: "Questa e' la foto di chiusura piu' recente disponibile: per la seduta qui sopra la lista LIVE non ne aveva una, quindi si tiene l'ultima invece di lasciare la tabella fuori — la data accanto al titolo e' la seduta che mostra.",
     csNote: "Foto della lista LIVE al momento della chiusura di Wall Street: tutto il mercato USA liquido, non solo i tre indici qui sopra, quindi un titolo assente dalla classifica di seduta puo' comparire qui. Resta ferma fino all'edizione successiva.",
     scTitle: "Seduta chiusa",
@@ -593,6 +633,112 @@ function liveCloseBox(ed, lang) {
     </div>`;
 }
 
+/* ====== "Day by day": diario delle giornate + serie in corso ==================
+   Due cose in una vista, per scelta dell'autore:
+
+   1) LE SERIE (streaks.json, scritto da fetch_streaks.py): da quanti giorni di
+      fila ogni societa' chiude in rialzo o in ribasso. Non e' la stessa domanda
+      dell'edizione, che racconta UNA seduta: qui conta la persistenza. Prima i
+      due conteggi grandi — quante societa' in serie positiva, quante in negativa
+      — poi la distribuzione per lunghezza, poi le due classifiche.
+
+   2) IL DIARIO: una scheda per giornata, dalla piu' recente, costruita
+      dall'archivio delle edizioni (che c'e' per tutte le giornate) con lo
+      SCREENSHOT quando esiste. Gli screenshot esistono solo dal giorno in cui la
+      cattura automatica e' entrata nella pipeline: per le giornate precedenti
+      nessuno li ha mai fatti, e la scheda lo DICE invece di mostrare un
+      segnaposto che sembri un'immagine mancante per errore. Inventarli
+      renderizzando oggi il vecchio archivio darebbe finte fotografie con
+      l'aspetto di oggi: sarebbe una ricostruzione spacciata per documento.
+   ============================================================================ */
+function renderDayByDay() {
+  const host = document.getElementById("dayByDay");
+  if (!host) return;
+  const t = I18N[lang] || I18N.en;
+  const shots = (typeof SHOTS !== "undefined" && SHOTS) ? SHOTS : [];
+  const eds = (typeof EDITIONS !== "undefined" && EDITIONS) ? EDITIONS : [];
+  const st = (typeof STREAKS !== "undefined" && STREAKS) ? STREAKS : null;
+
+  let html = `<div class="dbd-head">
+      <div class="dbd-title">${esc(t.dbdTitle)}</div>
+      <div class="dbd-sub">${esc(t.dbdSub)}</div>
+    </div>`;
+
+  /* --- le serie ------------------------------------------------------------ */
+  if (st && st.up && st.down) {
+    const dist = (grp, dir) => {
+      const keys = Object.keys(grp.by_length || {});
+      if (!keys.length) return "";
+      const max = Math.max(...keys.map(k => grp.by_length[k]));
+      return `<div class="st-dist">` + keys.map(k => {
+        const n = grp.by_length[k], w = max ? Math.max(2, Math.round(n / max * 100)) : 2;
+        return `<div class="st-row"><div class="st-lab">${esc(k)} ${esc(k === "1" ? t.dbdDay : t.dbdDays)}</div>`
+             + `<div class="st-bar ${dir}" style="width:${w}%"></div>`
+             + `<div class="st-n">${n}</div></div>`;
+      }).join("") + `</div>`;
+    };
+    const lista = (grp, dir) => (grp.top || []).map(r => {
+      const g = Math.abs(r.days), sign = r.cum_pct > 0 ? "+" : "";
+      const mib = (r.indices || []).indexOf("ftsemib") >= 0 ? `<span class="st-mib">MIB</span>` : "";
+      return `<div class="st-item ${dir}"><div class="st-days">${dir === "up" ? "+" : "\u2212"}${g}${esc(t.dbdDayShort)}</div>`
+           + `<div class="st-sym">${esc(r.symbol)}</div>`
+           + `<div class="st-name"><span class="st-nm">${esc(r.name || "")}</span>${mib}</div>`
+           + `<div class="st-cum">${sign}${Number(r.cum_pct).toFixed(2)}%</div></div>`;
+    }).join("");
+
+    html += `<div class="dbd-section-head">${esc(t.dbdStreaksHead)}${st.session_date ? " &middot; " + esc(t.csSession) + " " + esc(isoDateLabel(st.session_date, lang)) : ""}</div>
+      <div class="st-counters">
+        <div class="st-count up"><div class="v">${st.up.count}</div><div class="k">${esc(t.dbdUpCount)}</div></div>
+        <div class="st-count down"><div class="v">${st.down.count}</div><div class="k">${esc(t.dbdDownCount)}</div></div>
+        <div class="st-count"><div class="v">${(st.flat && st.flat.count) || 0}</div><div class="k">${esc(t.dbdFlatCount)}</div></div>
+        <div class="st-count"><div class="v">${st.universe || 0}</div><div class="k">${esc(t.dbdUniverse)}</div></div>
+      </div>
+      <div class="st-cols">
+        <div class="st-col up"><h4>${esc(t.dbdUpDist)}</h4>${dist(st.up, "up")}</div>
+        <div class="st-col down"><h4>${esc(t.dbdDownDist)}</h4>${dist(st.down, "down")}</div>
+      </div>
+      <div class="st-cols" style="margin-top:30px">
+        <div class="st-col up"><h4>${esc(t.dbdUpTop)}</h4>${lista(st.up, "up")}</div>
+        <div class="st-col down"><h4>${esc(t.dbdDownTop)}</h4>${lista(st.down, "down")}</div>
+      </div>`;
+  } else {
+    html += `<div class="dbd-section-head">${esc(t.dbdStreaksHead)}</div>
+      <div class="dbd-empty">${esc(t.dbdNoStreaks)}</div>`;
+  }
+
+  /* --- il diario ---------------------------------------------------------- */
+  html += `<div class="dbd-section-head">${esc(t.dbdDiaryHead)} (${eds.length})</div>`;
+  if (!eds.length) {
+    html += `<div class="dbd-empty">${esc(t.dbdNoDays)}</div>`;
+  } else {
+    html += `<div class="dbd-grid">` + eds.map(ed => {
+      const d = ed.edition_date || "";
+      const dateLab = (lang === "en" ? (ed.edition_date_en || ed.edition_date_it) : ed.edition_date_it) || d;
+      const sess = (lang === "en" ? (ed.session_date_en || ed.session_date_it) : ed.session_date_it) || "";
+      // L'edizione in testa conserva auto_report; le precedenti sono potate a
+      // "day_stats" (vedi slim_editions in build_public_page.py). Il diario deve
+      // leggere entrambe le forme, altrimenti solo la prima scheda ha i numeri.
+      const stats = ed.day_stats || (ed.auto_report && ed.auto_report.stats) || {};
+      const hasShot = shots.indexOf(d) >= 0;
+      const top = hasShot
+        ? `<img class="dbd-shot" src="shots/${esc(d)}.png" alt="${esc(t.dbdShotAlt)} ${esc(dateLab)}" loading="lazy" decoding="async">`
+        : `<div class="dbd-noshot">${esc(t.dbdNoShot)}</div>`;
+      const kind = ed.edition_kind === "weekend_recap" ? `<div class="dbd-kind">${esc(t.dbdWeekend)}</div>` : "";
+      const nums = (stats.n_up != null)
+        ? `<div class="dbd-nums"><span class="u">&#9650; ${stats.n_up}</span><span class="d">&#9660; ${stats.n_down}</span>`
+          + (stats.avg_pct != null ? `<span class="a">${fmtPct(stats.avg_pct, lang)}</span>` : "") + `</div>`
+        : "";
+      return `<div class="dbd-card">${top}<div class="dbd-body">
+          <div class="dbd-date">${esc(dateLab)}</div>
+          ${sess ? `<div class="dbd-session">${esc(t.csSession)} ${esc(sess)}</div>` : ""}
+          ${nums}${kind}
+        </div></div>`;
+    }).join("") + `</div>`;
+  }
+
+  host.innerHTML = html;
+}
+
 function renderEditions() {
   const el = document.getElementById("editionsContent");
   if (!EDITIONS.length) {
@@ -706,6 +852,7 @@ function renderEditions() {
         lang = chip.dataset.lang;
         localStorage.setItem("lang", lang);
         renderEditions();
+        renderDayByDay();   // stessa lingua anche nella terza vista
       });
     });
     // Le schede indice esistono solo nella vista di seduta: nel fine settimana
@@ -723,6 +870,7 @@ function renderEditions() {
 
 document.getElementById("gendate").textContent = EDITIONS.length ? EDITIONS[0].edition_date : "n/d";
 renderEditions();
+renderDayByDay();
 
 // ====== Layer cinematografico: hero, viste LIVE/edition, weekend, quotazioni ======
 // Solo presentazione e navigazione: nessun dato nuovo oltre a live.json (le
@@ -886,6 +1034,14 @@ renderEditions();
   /* --- stato del mercato USA, in ora di New York (gestisce da solo l'ora legale) --- */
   var forceClosed = /[?&]closed\b/.test(location.search);   // anteprima "mercato chiuso" feriale
   var forceWeekend = /[?&]weekend\b/.test(location.search);  // anteprima overlay weekend
+  /* "?shot" — la pagina come la vuole la CATTURA GIORNALIERA del diario (vedi la
+     vista "Day by day" e lo step di screenshot in daily.yml): via l'eroe a tutta
+     altezza e via il nastro dei prezzi, e vista forzata sull'edizione. Senza
+     questo ogni scheda del diario mostrerebbe la stessa immagine — l'eroe, che
+     non cambia mai — invece della giornata. Stessa forma dei due flag sopra:
+     nessun dato nuovo, solo presentazione. */
+  var forceShot = /[?&]shot\b/.test(location.search);
+  if (forceShot) document.body.classList.add("shot-mode");
   function usMarketState() {
     var parts = new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", weekday: "short", hour: "2-digit", minute: "2-digit", hour12: false }).formatToParts(new Date());
     var get = function (t) { var f = parts.find(function (x) { return x.type === t; }); return f ? f.value : ""; };
@@ -915,15 +1071,18 @@ renderEditions();
   // Vista d'ingresso: a mercati APERTI si apre su LIVE (il dato corrente), a mercati
   // CHIUSI sull'edizione (il resoconto della seduta). La nav resta libera di passare
   // all'altra vista, e la scelta manuale vale per la sessione.
-  var initialView = usMarketState().open ? "live" : "edition";
+  var initialView = forceShot ? "edition" : (usMarketState().open ? "live" : "edition");
   document.body.setAttribute("data-view", initialView);
 
   function scrollToEl(sel) { var el = typeof sel === "string" ? document.querySelector(sel) : sel; if (!el) return false; var y = el.getBoundingClientRect().top + window.pageYOffset - headerH() - 14; window.scrollTo({ top: y < 0 ? 0 : y, behavior: "smooth" }); return true; }
   function goLive() { setView("live"); if (!isWeekend) scrollToEl("#liveStrip") || scrollToEl(".only-live"); }
   function goEdition() { closeMcFull(); setView("edition"); scrollToEl(".edition") || scrollToEl("#editionsContent"); }
+  // Terza vista. closeMcFull() come per l'edizione: se l'overlay del fine
+  // settimana e' aperto va chiuso, altrimenti coprirebbe la pagina appena aperta.
+  function goDayByDay() { closeMcFull(); setView("daybyday"); scrollToEl("#dayByDay"); }
   function openArchive() { closeMcFull(); setView("edition"); var t = document.getElementById("archiveToggle"); if (t && !document.querySelector(".archive-item")) { t.click(); setTimeout(function () { var n = document.getElementById("archiveToggle"); scrollToEl(n ? n.closest(".section-head") : "#editionsContent"); }, 90); } else { var n2 = document.getElementById("archiveToggle"); scrollToEl(n2 ? n2.closest(".section-head") : "#editionsContent"); } }
 
-  document.querySelectorAll(".nav-link[data-go]").forEach(function (b) { b.addEventListener("click", function () { var g = b.dataset.go; if (g === "live") goLive(); else if (g === "edition") goEdition(); else if (g === "archive") openArchive(); }); });
+  document.querySelectorAll(".nav-link[data-go]").forEach(function (b) { b.addEventListener("click", function () { var g = b.dataset.go; if (g === "live") goLive(); else if (g === "edition") goEdition(); else if (g === "archive") openArchive(); else if (g === "daybyday") goDayByDay(); }); });
   var gl = document.getElementById("goLiveBtn"); if (gl) gl.addEventListener("click", goLive);
   var ge = document.getElementById("goEditionBtn"); if (ge) ge.addEventListener("click", goEdition);
   document.querySelectorAll(".nav-link[data-go]").forEach(function (b) { b.classList.toggle("active", b.dataset.go === initialView); });
