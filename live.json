@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-04T18:46:54Z",
+  "updated": "2026-09-04T18:57:33Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.4,
-      "last": 7716.99
+      "pct": -0.38,
+      "last": 7718.32
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.04,
-      "last": 29494.44
+      "pct": 0.08,
+      "last": 29507.04
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.48,
-      "last": 53428.87
+      "pct": -0.51,
+      "last": 53414.75
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": 36.39
+        "pct": 43.15
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": 11.24
+        "pct": 11.03
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": 10.98
+        "pct": 10.64
       },
       {
         "symbol": "ALAB",
         "name": "Astera Labs, Inc.",
-        "pct": 10.66
+        "pct": 10.63
       },
       {
         "symbol": "SNDK",
         "name": "Sandisk Corporation",
-        "pct": 10.63
+        "pct": 10.43
       },
       {
         "symbol": "GOLD",
         "name": "Gold.com, Inc.",
-        "pct": 10.51
+        "pct": 9.81
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 8.49
+        "pct": 8.97
       },
       {
-        "symbol": "AEHL",
-        "name": "Antelope Enterprise Holdings Limited",
-        "pct": 7.99
+        "symbol": "CHPT",
+        "name": "ChargePoint Holdings, Inc.",
+        "pct": 8.81
       },
       {
         "symbol": "TSEM",
         "name": "Tower Semiconductor Ltd.",
-        "pct": 7.73
+        "pct": 7.88
       },
       {
         "symbol": "TTMI",
         "name": "TTM Technologies, Inc.",
-        "pct": 7.32
+        "pct": 7.34
       }
     ],
     "losers": [
       {
         "symbol": "GWRE",
         "name": "Guidewire Software, Inc.",
-        "pct": -20.83
+        "pct": -20.45
       },
       {
         "symbol": "LULU",
         "name": "lululemon athletica inc.",
-        "pct": -17.47
-      },
-      {
-        "symbol": "FICO",
-        "name": "Fair Isaac Corporation",
-        "pct": -16.5
+        "pct": -17.43
       },
       {
         "symbol": "PATH",
         "name": "UiPath, Inc.",
-        "pct": -16.47
+        "pct": -16.16
+      },
+      {
+        "symbol": "FICO",
+        "name": "Fair Isaac Corporation",
+        "pct": -16.12
       },
       {
         "symbol": "ASAN",
         "name": "Asana, Inc.",
-        "pct": -14.22
+        "pct": -14.02
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -10.89
+        "pct": -11.63
       },
       {
         "symbol": "ADSK",
         "name": "Autodesk, Inc.",
-        "pct": -8.13
-      },
-      {
-        "symbol": "MNDY",
-        "name": "monday.com Ltd.",
-        "pct": -7.6
+        "pct": -7.9
       },
       {
         "symbol": "EFX",
         "name": "Equifax, Inc.",
-        "pct": -6.98
+        "pct": -7.47
       },
       {
-        "symbol": "WIX",
-        "name": "Wix.com Ltd.",
-        "pct": -6.58
+        "symbol": "MNDY",
+        "name": "monday.com Ltd.",
+        "pct": -7.39
+      },
+      {
+        "symbol": "TRU",
+        "name": "TransUnion",
+        "pct": -6.74
       }
     ],
     "universe": 1276
