@@ -113,6 +113,28 @@ __STYLE_CSS__
   <button class="btn ghost subs-close" id="subsCloseBtn" type="button">Back to the edition</button>
 </div>
 
+<!-- SCHERMO INTERO per lo scatto di una giornata. Overlay come .mc-full e
+     .subs-full (stessa convenzione: classe "open" per mostrarlo), ma con una
+     differenza: qui dentro c'e' un'IMMAGINE alta, quindi il palco scorre.
+     L'immagine grande (JPEG a 1280px) si carica SOLO quando si apre: metterla
+     nelle schede vorrebbe dire scaricare trenta file da 300 KB per vedere
+     trenta miniature larghe 300 pixel. Vedi openShot() in app.js. -->
+<div class="shot-full" id="shotFull" role="dialog" aria-modal="true" aria-labelledby="shotFullTitle">
+  <div class="sf-bar">
+    <div class="sf-title" id="shotFullTitle"></div>
+    <div class="sf-actions">
+      <button class="sf-btn" id="shotPrev" type="button" aria-label="Previous day">&#8592;</button>
+      <button class="sf-btn" id="shotNext" type="button" aria-label="Next day">&#8594;</button>
+      <a class="sf-btn" id="shotOpen" href="#" target="_blank" rel="noopener noreferrer" aria-label="Open the image in a new tab">&#8599;</a>
+      <button class="sf-btn sf-x" id="shotClose" type="button" aria-label="Close">&times;</button>
+    </div>
+  </div>
+  <div class="sf-stage" id="shotStage">
+    <img id="shotImg" alt="">
+  </div>
+  <div class="sf-hint" id="shotHint"></div>
+</div>
+
 <div class="modal-backdrop" id="subModal" role="dialog" aria-modal="true">
   <div class="modal">
     <button class="close" id="subClose" type="button" aria-label="Close">&times;</button>
@@ -157,6 +179,11 @@ const EDITIONS = __EDITIONS_JSON__;
 // niente e aggiungerebbe un modo di fallire.
 const STREAKS = __STREAKS_JSON__;
 const SHOTS = __SHOTS_JSON__;
+// I giorni per cui esiste anche la versione GRANDE (shots/full/<data>.jpg), che
+// il visore carica al clic. Elenco separato perche' le due immagini le produce
+// lo stesso step ma in due passi: se il ridimensionamento salta, la miniatura
+// c'e' e la grande no, e il visore deve saperlo invece di chiedere un 404.
+const SHOTS_FULL = __SHOTS_FULL_JSON__;
 </script>
 <script>
 __APP_JS__

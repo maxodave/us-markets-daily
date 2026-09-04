@@ -193,16 +193,29 @@ jobs:
             exit 0
           fi
 
-          # 480px e 128 colori: MISURATI, non scelti a occhio. Lo stesso scatto
-          # pesa 580 KB a 640px in 24 bit, 240 a 640px/128 colori, 134 a
-          # 480px/128. Le schede del diario sono larghe 260-400px, quindi 480
-          # basta anche su schermi a densita' doppia, e un file al giorno fa
-          # ~48 MB di repo all'anno invece di 210.
+          # DUE VERSIONI, e le misure che le hanno decise (stesso scatto):
+          #   miniatura  PNG  480px/128 colori  ->  134 KB   (scheda del diario)
+          #   grande     JPEG 1280px q82        ->  302 KB   (visore a schermo
+          #                                                   intero, al clic)
+          # Per la grande il JPEG non e' una scorciatoia: lo STESSO scatto a
+          # 1280px in PNG a 128 colori pesa 870 KB, quasi il triplo, per un
+          # risultato che a occhio non si distingue — verificato leggendo i
+          # numeri dell'edizione nell'immagine. La miniatura resta PNG perche' a
+          # 480px la palette vince.
+          # In tutto ~436 KB al giorno, cioe' ~110 MB di repo all'anno. Se un
+          # giorno pesasse troppo, la manopola e' la grande: 1100px q74 fa
+          # 208 KB (~75 MB/anno) e resta leggibile.
+          mkdir -p shots/full
           if command -v convert >/dev/null 2>&1; then
             convert "shots/$GIORNO.raw.png" -resize 480x -colors 128 -strip \
               -define png:compression-level=9 "shots/$GIORNO.png"
+            convert "shots/$GIORNO.raw.png" -resize 1280x -strip \
+              -interlace Plane -quality 82 "shots/full/$GIORNO.jpg"
             rm -f "shots/$GIORNO.raw.png"
           else
+            # Senza ImageMagick si salva almeno la miniatura (che qui e' lo
+            # scatto a grandezza naturale): meglio una scheda con un'immagine
+            # pesante che una scheda vuota.
             mv "shots/$GIORNO.raw.png" "shots/$GIORNO.png"
           fi
           ls -la "shots/$GIORNO.png"
@@ -214,6 +227,7 @@ jobs:
           python pipeline/build_public_page.py .
 
           git add "shots/$GIORNO.png" index.html
+          [ -f "shots/full/$GIORNO.jpg" ] && git add "shots/full/$GIORNO.jpg"
           if git diff --cached --quiet; then
             echo "Nessuna modifica."
           else

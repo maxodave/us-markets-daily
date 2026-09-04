@@ -46,12 +46,16 @@ EDITIONS_DIR = "editions"
 DEFAULT_OUT_DIR = os.path.expanduser("~/Sites/us-markets-daily")
 
 PLACEHOLDERS = ("__STYLE_CSS__", "__APP_JS__", "__EDITIONS_JSON__", "__FALLBACK_HTML__",
-                "__STREAKS_JSON__", "__SHOTS_JSON__")
+                "__STREAKS_JSON__", "__SHOTS_JSON__", "__SHOTS_FULL_JSON__")
 # Serie in corso per societa' (fetch_streaks.py) e cartella degli screenshot
 # giornalieri. Entrambi FACOLTATIVI: se mancano, la vista "Day by day" dice
 # che non ci sono invece di rompersi, e il resto della pagina non se ne accorge.
 STREAKS_FILE = "streaks.json"
 SHOTS_DIR = "shots"
+# La versione grande, che il visore carica al clic. Sottocartella e non suffisso
+# nel nome: cosi' list_shots() continua a leggere solo le miniature senza doverle
+# distinguere per nome, e le due raccolte restano separate a occhio nella cartella.
+SHOTS_FULL_DIR = os.path.join("shots", "full")
 
 # Campi che il JavaScript legge davvero (verificato su templates/app.js). Il resto
 # non viene incorporato nella pagina: erano oltre la metà del peso, e nessuna riga
@@ -100,6 +104,25 @@ def load_editions() -> list[dict]:
         editions.append(ed)
     editions.sort(key=lambda e: e["edition_date"], reverse=True)
     return editions
+
+
+def list_shots_full() -> list[str]:
+    """Le date per cui esiste shots/full/YYYY-MM-DD.jpg (la versione grande)."""
+    try:
+        nomi = os.listdir(SHOTS_FULL_DIR)
+    except (FileNotFoundError, NotADirectoryError, OSError):
+        return []
+    date = []
+    for n in nomi:
+        if not n.endswith(".jpg"):
+            continue
+        gg = n[: -len(".jpg")]
+        try:
+            datetime.strptime(gg, "%Y-%m-%d")
+        except ValueError:
+            continue
+        date.append(gg)
+    return sorted(date)
 
 
 def load_streaks() -> dict | None:
@@ -405,6 +428,7 @@ def build(editions: list[dict]) -> str:
     # una sequenza "</script>" dentro un nome chiuderebbe il blocco JS.
     streaks_json = json.dumps(load_streaks(), ensure_ascii=False).replace("<", "\\u003c")
     shots_json = json.dumps(list_shots(), ensure_ascii=False).replace("<", "\\u003c")
+    shots_full_json = json.dumps(list_shots_full(), ensure_ascii=False).replace("<", "\\u003c")
 
     # I dati per ultimi: se un titolo di giornale contenesse "__APP_JS__" non
     # verrebbe interpretato come segnaposto.
@@ -415,6 +439,7 @@ def build(editions: list[dict]) -> str:
             .replace("__EDITIONS_JSON__", data)
             .replace("__STREAKS_JSON__", streaks_json)
             .replace("__SHOTS_JSON__", shots_json)
+            .replace("__SHOTS_FULL_JSON__", shots_full_json)
     )
 
 

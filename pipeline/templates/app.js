@@ -59,6 +59,9 @@ const I18N = {
     dbdShotAlt: "Screenshot of the site on",
     dbdNoShot: "no screenshot for this day",
     dbdWeekend: "weekend recap",
+    dbdOpenShot: "Open the screenshot of",
+    sfHint: "Tap the image for actual size \u00b7 Esc to close",
+    sfHintNav: "Tap the image for actual size \u00b7 \u2190 \u2192 to browse \u00b7 Esc to close",
     csOlder: "This is the most recent closing photo available: the LIVE list had none for the session above, so the last one is kept rather than leaving the table out — the date beside the title is the session it shows.",
     csNote: "Snapshot of the LIVE list taken when Wall Street closed: the entire liquid US market, not just the three indices above, so a name absent from the session ranking can appear here. Frozen until the next edition.",
     scTitle: "Session closed",
@@ -142,6 +145,9 @@ const I18N = {
     dbdShotAlt: "Screenshot del sito del",
     dbdNoShot: "nessuno screenshot per questa giornata",
     dbdWeekend: "riassunto weekend",
+    dbdOpenShot: "Apri lo screenshot del",
+    sfHint: "Tocca l\u0027immagine per la grandezza vera \u00b7 Esc per chiudere",
+    sfHintNav: "Tocca l\u0027immagine per la grandezza vera \u00b7 \u2190 \u2192 per sfogliare \u00b7 Esc per chiudere",
     csOlder: "Questa e' la foto di chiusura piu' recente disponibile: per la seduta qui sopra la lista LIVE non ne aveva una, quindi si tiene l'ultima invece di lasciare la tabella fuori — la data accanto al titolo e' la seduta che mostra.",
     csNote: "Foto della lista LIVE al momento della chiusura di Wall Street: tutto il mercato USA liquido, non solo i tre indici qui sopra, quindi un titolo assente dalla classifica di seduta puo' comparire qui. Resta ferma fino all'edizione successiva.",
     scTitle: "Seduta chiusa",
@@ -651,6 +657,120 @@ function liveCloseBox(ed, lang) {
       renderizzando oggi il vecchio archivio darebbe finte fotografie con
       l'aspetto di oggi: sarebbe una ricostruzione spacciata per documento.
    ============================================================================ */
+/* ====== Lo scatto a schermo intero ===========================================
+   Cliccando una miniatura del diario si apre l'immagine grande. Tre cose che
+   sembrano dettagli e non lo sono:
+
+   - L'IMMAGINE GRANDE SI CARICA QUI, non nella scheda. Le miniature sono PNG da
+     134 KB a 480px; la versione leggibile e' un JPEG a 1280px da ~300 KB.
+     Metterla nelle schede vorrebbe dire scaricare trenta file da 300 KB per
+     mostrare trenta riquadri larghi 300 pixel. Si carica al clic, e solo quella.
+   - IL PALCO SCORRE invece di rimpicciolire l'immagine per farla stare tutta:
+     lo scatto e' 1280x1500, e su un portatile "tutta a schermo" vorrebbe dire
+     illeggibile — cioe' il contrario del motivo per cui si apre.
+   - SE LA GRANDE MANCA si mostra la miniatura ingrandita, non un errore. Puo'
+     succedere se lo step di ridimensionamento salta: meglio un'immagine sfocata
+     che un riquadro rotto. L'elenco SHOTS_FULL dice per quali giorni c'e'.
+   ============================================================================ */
+var shotViewer = (function () {
+  var box = document.getElementById("shotFull");
+  if (!box) return { open: function () {} };
+  var img = document.getElementById("shotImg");
+  var titolo = document.getElementById("shotFullTitle");
+  var hint = document.getElementById("shotHint");
+  var apri = document.getElementById("shotOpen");
+  var bPrev = document.getElementById("shotPrev");
+  var bNext = document.getElementById("shotNext");
+  var bClose = document.getElementById("shotClose");
+  var giorni = [];          // i giorni con uno scatto, dal piu' recente
+  var i = -1;
+  var tornaA = null;        // il bottone da cui si e' aperto, per il fuoco
+
+  function urlGrande(g) {
+    var full = (typeof SHOTS_FULL !== "undefined" && SHOTS_FULL) ? SHOTS_FULL : [];
+    return full.indexOf(g) >= 0 ? "shots/full/" + g + ".jpg" : "shots/" + g + ".png";
+  }
+  function etichetta(g) {
+    var t = I18N[lang] || I18N.en;
+    var ed = (typeof EDITIONS !== "undefined" ? EDITIONS : []).filter(function (e) { return e.edition_date === g; })[0];
+    var d = ed ? ((lang === "en" ? (ed.edition_date_en || ed.edition_date_it) : ed.edition_date_it) || g) : isoDateLabel(g, lang);
+    var sess = ed ? (lang === "en" ? (ed.session_date_en || ed.session_date_it) : ed.session_date_it) : "";
+    return d + (sess ? " \u00b7 " + t.csSession + " " + sess : "");
+  }
+  function mostra(n) {
+    if (n < 0 || n >= giorni.length) return;
+    i = n;
+    var g = giorni[i], t = I18N[lang] || I18N.en;
+    img.src = urlGrande(g);
+    img.alt = t.dbdShotAlt + " " + etichetta(g);
+    titolo.textContent = etichetta(g);
+    apri.href = urlGrande(g);
+    bPrev.disabled = i <= 0;
+    bNext.disabled = i >= giorni.length - 1;
+    hint.textContent = giorni.length > 1 ? t.sfHintNav : t.sfHint;
+    // Ogni giorno si riparte dall'alto: restando a meta' pagina, aprendo il
+    // giorno dopo si vedrebbe un pezzo di mezzo senza sapere di cosa.
+    var stage = document.getElementById("shotStage");
+    if (stage) { stage.classList.remove("zoom"); stage.scrollTop = 0; stage.scrollLeft = 0; }
+  }
+  function open(g, sorgente) {
+    var shots = (typeof SHOTS !== "undefined" && SHOTS) ? SHOTS : [];
+    giorni = shots.slice().sort().reverse();
+    var n = giorni.indexOf(g);
+    if (n < 0) return;
+    tornaA = sorgente || null;
+    box.classList.add("open");
+    document.body.classList.add("sf-open");
+    mostra(n);
+    bClose.focus();
+  }
+  function close() {
+    box.classList.remove("open");
+    document.body.classList.remove("sf-open");
+    var stage = document.getElementById("shotStage");
+    if (stage) stage.classList.remove("zoom");
+    // L'immagine si scarica: tenerne una da 300 KB in memoria per una schermata
+    // chiusa non serve, e al riapertura si ricarica dalla cache del browser.
+    img.removeAttribute("src");
+    if (tornaA && tornaA.focus) tornaA.focus();
+    tornaA = null;
+  }
+
+  // Tocco/clic sull'immagine: misura schermo <-> grandezza naturale. NON chiude,
+  // perche' chiudere per sbaglio mentre si cerca di leggere e' la cosa piu'
+  // fastidiosa di un visore. Per chiudere ci sono il fondo, la X e Esc.
+  img.addEventListener("click", function () {
+    var stage = document.getElementById("shotStage");
+    if (!stage) return;
+    stage.classList.toggle("zoom");
+    if (!stage.classList.contains("zoom")) { stage.scrollLeft = 0; }
+  });
+
+  bClose.addEventListener("click", close);
+  bPrev.addEventListener("click", function () { mostra(i - 1); });
+  bNext.addEventListener("click", function () { mostra(i + 1); });
+  // Clic sul fondo (non sull'immagine) = chiudi, come ci si aspetta da un visore.
+  box.addEventListener("click", function (e) {
+    if (e.target === box || e.target.id === "shotStage") close();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (!box.classList.contains("open")) return;
+    if (e.key === "Escape") { e.stopPropagation(); close(); }
+    else if (e.key === "ArrowLeft") mostra(i - 1);
+    else if (e.key === "ArrowRight") mostra(i + 1);
+  }, true);   // in cattura: l'Escape non deve arrivare anche al modale iscrizione
+
+  // Delega sul contenitore, non sui bottoni: renderDayByDay() riscrive tutto
+  // l'HTML al cambio lingua, e i listener appesi ai bottoni morirebbero.
+  var host = document.getElementById("dayByDay");
+  if (host) host.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest(".dbd-shotbtn");
+    if (b && b.dataset.day) open(b.dataset.day, b);
+  });
+
+  return { open: open, close: close };
+})();
+
 function renderDayByDay() {
   const host = document.getElementById("dayByDay");
   if (!host) return;
@@ -720,8 +840,12 @@ function renderDayByDay() {
       // leggere entrambe le forme, altrimenti solo la prima scheda ha i numeri.
       const stats = ed.day_stats || (ed.auto_report && ed.auto_report.stats) || {};
       const hasShot = shots.indexOf(d) >= 0;
+      // Un BOTTONE attorno alla miniatura, non un <img> con un onclick: cosi'
+      // ci arriva il tabulatore, Invio la apre e i lettori di schermo la
+      // annunciano. La grande la carica openShot() al momento del clic.
       const top = hasShot
-        ? `<img class="dbd-shot" src="shots/${esc(d)}.png" alt="${esc(t.dbdShotAlt)} ${esc(dateLab)}" loading="lazy" decoding="async">`
+        ? `<button type="button" class="dbd-shotbtn" data-day="${esc(d)}" aria-label="${esc(t.dbdOpenShot)} ${esc(dateLab)}">`
+          + `<img class="dbd-shot" src="shots/${esc(d)}.png" alt="${esc(t.dbdShotAlt)} ${esc(dateLab)}" loading="lazy" decoding="async"></button>`
         : `<div class="dbd-noshot">${esc(t.dbdNoShot)}</div>`;
       const kind = ed.edition_kind === "weekend_recap" ? `<div class="dbd-kind">${esc(t.dbdWeekend)}</div>` : "";
       const nums = (stats.n_up != null)
