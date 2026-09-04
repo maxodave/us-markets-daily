@@ -242,7 +242,13 @@ jobs:
           # muore, il successivo riprende in pochi minuti invece che in ore. Senza
           # catena un segmento lungo, perche' li' l'unica rete sono gli schedule,
           # che questo repo riceve tre o quattro volte al giorno (vedi punto 5).
-          if [ -n "${LIVE_CHAIN_TOKEN:-}" ]; then SEG=$(( 75 * 60 )); else SEG=$(( 330 * 60 )); fi
+          # SEGMENTO PIU' CORTO (150', era 330'). E' il compromesso fra le due cose
+          # che si contendono: una consegna sola deve coprire piu' ore possibile
+          # (giorni a Mac spento), ma occupare un runner mezza giornata e' cio' che
+          # ha fatto crollare le consegne da 19 a 3 al giorno (vedi punto 3). Con
+          # 150' una consegna copre due ore e mezza e il runner si libera. Se fra
+          # una settimana le consegne risalgono, si scende ancora.
+          if [ -n "${LIVE_CHAIN_TOKEN:-}" ]; then SEG=$(( 75 * 60 )); else SEG=$(( 150 * 60 )); fi
           STOP=$(( $(date -u +%s) + SEG ))
           [ "$STOP" -gt "$END" ] && STOP="$END"
           echo "Segmento fino alle $(date -u -d "@$STOP" '+%H:%M UTC') (finestra fino alle $(date -u -d "@$END" '+%H:%M UTC'))."
