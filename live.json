@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-03T20:17:45Z",
-  "market_open": false,
+  "updated": "2026-09-04T14:55:11Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.06,
-      "last": 7747.71
+      "pct": -0.46,
+      "last": 7711.87
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.16,
-      "last": 29482.32
+      "pct": 0.01,
+      "last": 29484.62
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.18,
-      "last": 53686.11
+      "pct": -0.69,
+      "last": 53319.57
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.81,
-      "last": 52245.47
+      "pct": -0.09,
+      "last": 52172.76
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "BIAF",
-        "name": "bioAffinity Technologies, Inc.",
-        "pct": 31.08
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": 11.85
       },
       {
-        "symbol": "MSTR",
-        "name": "Strategy Inc",
-        "pct": 17.56
+        "symbol": "ALAB",
+        "name": "Astera Labs, Inc.",
+        "pct": 11.53
       },
       {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": 17.33
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": 10.28
       },
       {
-        "symbol": "HOOD",
-        "name": "Robinhood Markets, Inc.",
-        "pct": 16.57
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 9.31
       },
       {
-        "symbol": "SNOW",
-        "name": "Snowflake Inc.",
-        "pct": 16.55
+        "symbol": "GOLD",
+        "name": "Gold.com, Inc.",
+        "pct": 8.85
       },
       {
-        "symbol": "CRCL",
-        "name": "Circle Internet Group, Inc.",
-        "pct": 16.46
+        "symbol": "SNDK",
+        "name": "Sandisk Corporation",
+        "pct": 8.13
       },
       {
-        "symbol": "BMNR",
-        "name": "BitMine Immersion Technologies, Inc.",
-        "pct": 14.7
+        "symbol": "KLAC",
+        "name": "KLA Corporation",
+        "pct": 6.99
       },
       {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": 14.43
+        "symbol": "TSEM",
+        "name": "Tower Semiconductor Ltd.",
+        "pct": 6.82
       },
       {
-        "symbol": "RIOT",
-        "name": "Riot Platforms, Inc.",
-        "pct": 13.44
+        "symbol": "CLYM",
+        "name": "Climb Bio, Inc.",
+        "pct": 6.82
       },
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": 12.81
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": 6.68
       }
     ],
     "losers": [
       {
-        "symbol": "RARE",
-        "name": "Ultragenyx Pharmaceutical Inc.",
-        "pct": -44.03
+        "symbol": "GWRE",
+        "name": "Guidewire Software, Inc.",
+        "pct": -21.7
       },
       {
-        "symbol": "SGLD",
-        "name": "Scorpio Gold Corporation",
-        "pct": -20.75
+        "symbol": "LULU",
+        "name": "lululemon athletica inc.",
+        "pct": -18.46
       },
       {
-        "symbol": "VSXY",
-        "name": "Victorias Secret & Co.",
-        "pct": -13.17
+        "symbol": "FICO",
+        "name": "Fair Isaac Corporation",
+        "pct": -17.59
       },
       {
-        "symbol": "CIEN",
-        "name": "Ciena Corporation",
-        "pct": -10.36
+        "symbol": "ASAN",
+        "name": "Asana, Inc.",
+        "pct": -16.01
       },
       {
-        "symbol": "CXM",
-        "name": "Sprinklr, Inc.",
-        "pct": -10.22
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": -14.25
       },
       {
-        "symbol": "PL",
-        "name": "Planet Labs PBC",
-        "pct": -8.2
+        "symbol": "PATH",
+        "name": "UiPath, Inc.",
+        "pct": -13.09
       },
       {
-        "symbol": "TSN",
-        "name": "Tyson Foods, Inc.",
-        "pct": -7.26
+        "symbol": "TRU",
+        "name": "TransUnion",
+        "pct": -9.45
       },
       {
-        "symbol": "CPB",
-        "name": "The Campbell's Company",
-        "pct": -6.96
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": -8.5
       },
       {
-        "symbol": "AMR",
-        "name": "Alpha Metallurgical Resources, Inc.",
-        "pct": -6.91
+        "symbol": "EFX",
+        "name": "Equifax, Inc.",
+        "pct": -8.16
       },
       {
-        "symbol": "TTC",
-        "name": "Toro Company (The)",
-        "pct": -6.84
+        "symbol": "ADSK",
+        "name": "Autodesk, Inc.",
+        "pct": -7.95
       }
     ],
-    "universe": 1299
+    "universe": 1276
   }
 }
