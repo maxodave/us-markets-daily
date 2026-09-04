@@ -28,56 +28,73 @@ name: Quotazioni LIVE
 #    browser nella pagina. Effetto collaterale utile: d'estate si risparmiano
 #    quasi due ore di runner al giorno che prima giravano a borsa chiusa.
 #
-# 3) QUANDO PARTE IL PRIMO JOB DELLA GIORNATA. Qui il 28/08/2026 si e' ragionato
-#    male, e i dati lo hanno smentito in cinque giorni. L'idea era: "GitHub salta
-#    gli schedule, quindi metto piu' occasioni (40, ai minuti 7/22/37/52, fuori
-#    dai minuti di punta) e almeno una arrivera' presto". Misurato sul primo
-#    avvio reale di ogni giornata:
+# 3) QUANDO PARTE IL PRIMO JOB DELLA GIORNATA — LA CAUSA VERA, TROVATA IL
+#    04/09/2026. Per cinque volte si e' cercata la colpa nella forma del cron, e
+#    per cinque volte non era li'. Il numero che conta non e' quanti slot si
+#    scrivono, e' QUANTI SCHEDULE GITHUB CONSEGNA A QUESTO REPO IN UN GIORNO.
+#    Contati con l'API, per giorno di borsa:
 #
-#      cron "*/15 13-21"  (36 slot, dalle 13:00)  ->  13:33, 13:49 UTC
-#      cron "*/30 13-21"  (18 slot, dalle 13:00)  ->  14:01, 14:04, 14:06, 14:09
-#      cron "7,22,37,52 12-21" (40 slot, da 12:07) -> 16:21, 16:30, 16:34, 19:06
+#      17 ago    9 consegne   prima alle 16:33 UTC
+#      18 ago   19 consegne   prima alle 13:33      <- job brevi, nessun ciclo
+#      -------- 19 agosto: entra il job che CICLA per ore --------
+#      19 ago    5 consegne   prima alle 13:49
+#      20 ago    4 consegne   prima alle 14:04
+#      21 ago    4 consegne   prima alle 14:01
+#      26 ago    3 consegne   prima alle 14:08
+#      02 set    4 consegne   prima alle 16:30
+#      03 set    4 consegne   prima alle 16:21
+#      04 set    0 consegne   (alle 14:53, con la borsa aperta dalle 13:30)
 #
-#    Cioe': il cron piu' fitto e "meglio collocato" ha fatto partire il primo job
-#    DUE ORE E VENTI PIU' TARDI. Non e' il numero di occasioni a decidere, e non
-#    sono i minuti: con la terza configurazione GitHub scartava in blocco tutti
-#    gli slot dalle 12:07 alle 15:52 (sedici di fila, ogni giorno) e cominciava a
-#    consegnare solo dalle 16:07. Con le prime due ne scartava uno o due. Il
-#    perche' sta dentro lo scheduler di GitHub e non e' osservabile da qui.
-#    Percio' la regola qui e' UNA SOLA: si torna alla forma che ha dato i primi
-#    avvii piu' precoci ("*/15" dalle 13:00) e non si prova piu' a indovinare la
-#    coda di GitHub. Se un giorno si cambia questo cron, si misura il primo avvio
-#    per una settimana prima di dire che e' un miglioramento.
+#    Il giorno PRIMA che nascesse il job che cicla: DICIANNOVE consegne, la prima
+#    tre minuti dopo l'apertura. Il giorno dopo: cinque. Da allora tre o quattro,
+#    e sempre piu' tardi. E' una quota PER REPOSITORY, non per workflow: la prova
+#    e' che il 04/09 sono stati scartati sia i tredici slot di live.yml sia i
+#    quattro di live_open.yml, che aveva un file suo proprio per avere una coda
+#    sua. (Quel file e' stato quindi rimosso: l'ipotesi su cui era nato e' falsa.)
 #
-# 4) IL PRIMO AVVIO NON DIPENDE PIU' DA UN SOLO WORKFLOW. Anche nella versione
-#    migliore il primo job arrivava alle 13:33-13:49, cioe' fino a venti minuti
-#    dopo l'apertura. La quota di consegne sembra essere PER WORKFLOW, quindi ora
-#    esiste un secondo file — live_open.yml — con pochissimi slot, puntati solo
-#    sull'apertura, che non fa altro che CHIAMARE questo workflow (da qui
-#    "workflow_call" qui sotto: la logica resta in un posto solo). Due workflow =
-#    due quote di consegna per lo stesso lavoro, e il gruppo "concurrency" e' lo
-#    stesso, quindi non possono lavorare in doppio.
+#    LA SPIEGAZIONE, e purtroppo l'ironia. Il job che cicla e' nato il 19 agosto
+#    per NON dipendere dallo scheduler di GitHub. Tiene occupato un runner per
+#    quattro ore di fila, ogni giorno (misurato: 237 e 227 minuti il 2 e 3
+#    settembre). Un sistema che deve distribuire runner gratuiti fra milioni di
+#    repo pubblici mette in fondo alla coda chi ne occupa uno per mezza giornata.
+#    Cioe': la cura ha creato la malattia, e ogni correzione successiva ha
+#    raddoppiato la dose invece di toglierla.
 #
-# COME SI GARANTISCE IL PASSO DEI 15 MINUTI. Non dallo scheduler: il job, una
-# volta partito, CICLA DA SOLO ogni 15 minuti fino a fine finestra. Lo scheduler
-# serve solo ad accenderlo. Percio' basta che UNO slot su 40 arrivi.
+# 4) LA CONSEGUENZA, E LA MODALITA' "once". Se il problema e' occupare i runner,
+#    la strada non e' un cron piu' furbo: e' NON occuparli. Da qui l'input "mode":
+#      - "loop"  (default, e cio' che usano gli schedule) — cicla fino a fine
+#        seduta. Serve nei giorni in cui il Mac e' spento: una consegna sola
+#        copre comunque delle ore, ed e' meglio di niente.
+#      - "once" — un solo giro, ~40 secondi, e il runner e' libero. E' la
+#        modalita' che usa il dispacciatore sul Mac (vedi il README, "L'accensione
+#        dal Mac"): un timer locale controlla se la pagina e' ferma e, se lo e',
+#        dispaccia un giro. Il Mac ha gia' un "gh" autenticato con lo scope
+#        "workflow", quindi non serve creare nessun token.
+#    Nei giorni con il Mac acceso si passa cosi' da ~4 ore di runner a ~30 minuti
+#    in tutto: e' anche il modo di dare allo scheduler la possibilita' di
+#    smettere di penalizzare il repo. Se fra una settimana le consegne tornano a
+#    essere molte, allora si potra' tornare a job brevi anche per gli schedule.
 #
-# PERCHE' 15 MINUTI E NON 5. Il limite non e' Yahoo (nessuna chiave, nessuna
-# quota: il fetch dei 1.232 titoli dura ~30 secondi) e non sono i minuti Actions
-# (repo pubblico, illimitati). Il limite vero e' GITHUB PAGES: ogni commit fa
-# ripubblicare il sito, e Pages ha un tetto indicativo di 10 build all'ora. A 15
-# minuti sono 4 build/ora e restano sei slot per il job dell'edizione; a 5 minuti
-# sarebbero 12 e Pages inizierebbe a rifiutare. La latenza percepita si taglia
-# invece nella PAGINA, che chiede live.json con un parametro anti-cache (vedi
-# templates/app.js): senza quello la CDN di GitHub serviva per altri 10 minuti la
-# copia vecchia, e i 15 minuti reali diventavano 25 sullo schermo.
+# COME SI GARANTISCE IL PASSO. In "loop" lo garantisce il job stesso, che non
+# dipende dallo scheduler dopo l'accensione. In "once" lo garantisce il timer sul
+# Mac. Lo scheduler di GitHub serve solo come rete quando il Mac e' spento, e va
+# considerato per quello che i dati dicono che e': tre o quattro consegne al
+# giorno, la prima verso le 16:20 UTC.
+#
+# PERCHE' 10 MINUTI E NON 5. Il limite non e' Yahoo (nessuna chiave, nessuna
+# quota: un giro dura ~40 secondi) e non sono i minuti Actions (repo pubblico,
+# illimitati). Il limite vero e' GITHUB PAGES: ogni commit fa ripubblicare il
+# sito, con un tetto indicativo di 10 build all'ora. A 10 minuti sono 6/ora e
+# restano quattro slot per il job dell'edizione; a 5 minuti sarebbero 12 e Pages
+# inizierebbe a rifiutare. La latenza percepita si taglia invece nella PAGINA,
+# che chiede live.json con un parametro anti-cache (vedi templates/app.js): senza
+# quello la CDN serviva per altri 10 minuti la copia vecchia.
 #
 # CATENA FACOLTATIVA (secret LIVE_CHAIN_TOKEN). Se esiste, alla fine di ogni
-# segmento il job accende da se' il successivo via API, e la copertura della
-# seduta non dipende piu' dallo scheduler dopo il primo avvio. Senza il secret
-# tutto continua a funzionare come descritto sopra: il job fa un segmento lungo e
-# gli slot successivi fanno da rete. Il GITHUB_TOKEN automatico NON puo' servire
-# a questo: GitHub gli vieta di far partire altri workflow, per evitare i loop.
+# segmento "loop" il job accende da se' il successivo via API. Utile, ma non
+# risolve l'ACCENSIONE del mattino: tiene vivo un ciclo, non lo accende. Il
+# GITHUB_TOKEN automatico non puo' servire a questo: GitHub gli vieta di far
+# partire altri workflow, per evitare i loop.
 #
 # Nel weekend non gira: sab/dom non ci sono avvii (1-5 = lun-ven), e comunque il
 # cancello in ingresso chiuderebbe. La striscia mostra "MARKETS CLOSED" perche'
@@ -89,10 +106,14 @@ on:
     # entrambi i regimi orari (09:00-16:25 di New York = 13:00-20:25 UTC d'estate,
     # 14:00-21:25 d'inverno). Non toccare senza misurare — vedi il punto 3 sopra.
     - cron: "*/15 13-21 * * 1-5"
-  # Chiamato da live_open.yml, che ha una quota di consegne sua e punta solo
-  # sull'apertura. La logica resta tutta qui: quel file e' tre righe.
-  workflow_call:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "loop = cicla fino a fine seduta (default, per gli schedule) · once = un solo giro e chiudi"
+        required: false
+        default: loop
+        type: choice
+        options: [loop, once]
 
 permissions:
   contents: write
@@ -166,21 +187,51 @@ jobs:
       - run: pip install -r requirements.txt
         if: steps.gate.outputs.run == 'yes'
 
-      - name: Ciclo di quotazioni ogni 15 minuti fino a fine finestra
+      - name: Quotazioni — un giro solo, oppure il ciclo fino a fine finestra
         if: steps.gate.outputs.run == 'yes'
         env:
           START: ${{ steps.gate.outputs.start }}
           END: ${{ steps.gate.outputs.end }}
+          # "once" = un solo giro e chiudi (lo usa il dispacciatore sul Mac, che sa
+          # gia' che la pagina e' ferma adesso). "loop" = cicla fino a fine seduta,
+          # ed e' il default: e' cio' che serve agli schedule, che arrivano rari.
+          MODE: ${{ inputs.mode || 'loop' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # Un giro: quota, e committa SOLO se i numeri sono cambiati davvero
+          # (fetch_live_quotes.py non riscrive il file a borsa chiusa con dati
+          # identici, quindi qui non si generano commit e build di Pages a vuoto).
+          giro() {
+            python pipeline/fetch_live_quotes.py . || { echo "fetch fallito"; return 0; }
+            git add live.json
+            if git diff --cached --quiet; then
+              echo "Quotazioni invariate: nessun commit."
+              return 0
+            fi
+            git commit -q -m "Live quotes $(date -u '+%Y-%m-%d %H:%M UTC')"
+            # Un altro job puo' aver spinto nel frattempo: riallinea prima di push,
+            # e se il push fallisce non fermare niente — il giro dopo recupera.
+            git pull -q --rebase --autostash || true
+            git push -q || echo "push fallito, riprovo al giro dopo"
+          }
+
+          if [ "$MODE" = "once" ]; then
+            # Nessuna attesa dell'apertura: chi dispaccia in questa modalita' ha
+            # gia' verificato che serve ORA. Un giro dura ~40 secondi, e questa e'
+            # la modalita' che NON tiene occupato un runner per ore — il motivo per
+            # cui esiste sta in testa al file, punto 5.
+            echo "Modalita' once: un solo giro."
+            giro
+            echo "Fatto."
+            exit 0
+          fi
+
+          # --- da qui in giu' solo la modalita' loop ---------------------------
           # Attesa dell'apertura, se la consegna e' arrivata in anticipo (vedi
-          # EARLY nel cancello). Al massimo un'ora: sotto le 08:00 di New York il
-          # cancello non lascia nemmeno entrare.
+          # EARLY nel cancello). Al massimo un'ora.
           WAIT=$(( ${START:-0} - $(date -u +%s) ))
-          # Tetto a un'ora: se per qualsiasi motivo START arrivasse sballato, il
-          # job non deve restare parcheggiato invece di quotare.
           [ "$WAIT" -gt 3600 ] && WAIT=3600
           if [ "$WAIT" -gt 0 ]; then
             echo "Aspetto ${WAIT}s l'apertura della finestra."
@@ -189,37 +240,26 @@ jobs:
 
           # Lunghezza del segmento. Con la catena accesa segmenti brevi: se un job
           # muore, il successivo riprende in pochi minuti invece che in ore. Senza
-          # catena un segmento lungo, perche' li' l'unica rete sono gli slot cron.
+          # catena un segmento lungo, perche' li' l'unica rete sono gli schedule,
+          # che questo repo riceve tre o quattro volte al giorno (vedi punto 5).
           if [ -n "${LIVE_CHAIN_TOKEN:-}" ]; then SEG=$(( 75 * 60 )); else SEG=$(( 330 * 60 )); fi
           STOP=$(( $(date -u +%s) + SEG ))
           [ "$STOP" -gt "$END" ] && STOP="$END"
           echo "Segmento fino alle $(date -u -d "@$STOP" '+%H:%M UTC') (finestra fino alle $(date -u -d "@$END" '+%H:%M UTC'))."
 
+          # PASSO DI 10 MINUTI (era 15). Il tetto non e' Yahoo (un giro dura ~40
+          # secondi, senza chiavi ne' quote) ma GitHub Pages, che ripubblica il
+          # sito a ogni commit con un limite indicativo di 10 build all'ora: a 10
+          # minuti sono 6 build/ora e restano quattro slot per il job
+          # dell'edizione. Se Pages iniziasse a rifiutare, si torna a 12 o 15.
+          PASSO=600
           while [ "$(date -u +%s)" -lt "$STOP" ]; do
-            python pipeline/fetch_live_quotes.py . || echo "fetch fallito, riprovo al giro dopo"
-            git add live.json
-            # Ora questo ramo funziona davvero: fetch_live_quotes.py non riscrive
-            # il file quando i dati sono identici e la borsa e' chiusa, quindi non
-            # si generano piu' commit e build di Pages a vuoto (prima il solo
-            # campo "updated" cambiava sempre e ogni giro committava).
-            if git diff --cached --quiet; then
-              echo "Quotazioni invariate: nessun commit."
-            else
-              git commit -q -m "Live quotes $(date -u '+%Y-%m-%d %H:%M UTC')"
-              # Un altro job (daily.yml, o l'avvio in coda che parte al cambio) puo'
-              # aver spinto nel frattempo: riallinea prima di push, e se il push
-              # fallisce non fermare il ciclo — il giro dopo recupera.
-              git pull -q --rebase --autostash || true
-              git push -q || echo "push fallito, riprovo al giro dopo"
-            fi
-            # Non superare la fine del segmento con un'ultima attesa inutile.
-            [ "$(( $(date -u +%s) + 900 ))" -ge "$STOP" ] && break
-            sleep 900
+            giro
+            [ "$(( $(date -u +%s) + PASSO ))" -ge "$STOP" ] && break
+            sleep "$PASSO"
           done
 
           # Passaggio del testimone, se il segreto c'e' e la seduta non e' finita.
-          # Margine di 10 minuti: sotto quella soglia non vale la pena accendere un
-          # job che farebbe un solo giro.
           if [ -n "${LIVE_CHAIN_TOKEN:-}" ] && [ "$(( $(date -u +%s) + 600 ))" -lt "$END" ]; then
             echo "Accendo il segmento successivo (catena)."
             curl -sS -o /dev/null -w 'HTTP %{http_code}\n' -X POST \
@@ -227,6 +267,6 @@ jobs:
               -H "Accept: application/vnd.github+json" \
               -H "X-GitHub-Api-Version: 2022-11-28" \
               "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/live.yml/dispatches" \
-              -d '{"ref":"main"}' || echo "dispatch fallito: restano gli slot cron come rete."
+              -d '{"ref":"main"}' || echo "dispatch fallito: restano gli schedule come rete."
           fi
           echo "Segmento concluso."
