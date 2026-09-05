@@ -1,15 +1,15 @@
 {
-  "updated": "2026-09-05T04:08:23Z",
+  "updated": "2026-09-05T10:27:40Z",
   "session_date": "2026-09-04",
   "universe": 558,
   "up": {
-    "count": 210,
+    "count": 200,
     "by_length": {
-      "1": 82,
-      "2": 60,
-      "3": 56,
+      "1": 69,
+      "2": 62,
+      "3": 58,
       "4": 6,
-      "5": 4,
+      "5": 3,
       "6": 1,
       "8+": 1
     },
@@ -58,15 +58,6 @@
         ],
         "days": 5,
         "cum_pct": 6.03
-      },
-      {
-        "symbol": "ENI.MI",
-        "name": "Eni",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 5,
-        "cum_pct": 5.06
       },
       {
         "symbol": "BBY",
@@ -150,19 +141,28 @@
         ],
         "days": 3,
         "cum_pct": 13.22
+      },
+      {
+        "symbol": "ORCL",
+        "name": "Oracle Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": 3,
+        "cum_pct": 12.35
       }
     ]
   },
   "down": {
-    "count": 347,
+    "count": 356,
     "by_length": {
-      "1": 237,
-      "2": 75,
-      "3": 18,
-      "4": 5,
-      "5": 7,
-      "6": 3,
-      "7": 1,
+      "1": 246,
+      "2": 78,
+      "3": 14,
+      "4": 4,
+      "5": 9,
+      "6": 2,
+      "7": 2,
       "8+": 1
     },
     "top": [
@@ -174,6 +174,15 @@
         ],
         "days": -9,
         "cum_pct": -9.49
+      },
+      {
+        "symbol": "AVIO.MI",
+        "name": "Avio",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -7,
+        "cum_pct": -8.12
       },
       {
         "symbol": "CHD",
@@ -205,13 +214,13 @@
         "cum_pct": -15.78
       },
       {
-        "symbol": "AVIO.MI",
-        "name": "Avio",
+        "symbol": "BC.MI",
+        "name": "Brunello Cucinelli",
         "indices": [
           "ftsemib"
         ],
-        "days": -6,
-        "cum_pct": -7.5
+        "days": -5,
+        "cum_pct": -9.07
       },
       {
         "symbol": "SYK",
@@ -251,6 +260,15 @@
         "cum_pct": -4.98
       },
       {
+        "symbol": "TRN.MI",
+        "name": "Terna",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -5,
+        "cum_pct": -3.56
+      },
+      {
         "symbol": "MCD",
         "name": "McDonald's",
         "indices": [
@@ -280,35 +298,17 @@
         "cum_pct": -2.91
       },
       {
-        "symbol": "BC.MI",
-        "name": "Brunello Cucinelli",
+        "symbol": "SPM.MI",
+        "name": "Saipem",
         "indices": [
           "ftsemib"
         ],
         "days": -4,
-        "cum_pct": -7.5
-      },
-      {
-        "symbol": "MTD",
-        "name": "Mettler Toledo",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -4.26
-      },
-      {
-        "symbol": "TPL",
-        "name": "Texas Pacific Land Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -3.18
+        "cum_pct": -4.67
       }
     ]
   },
   "flat": {
-    "count": 1
+    "count": 2
   }
 }
