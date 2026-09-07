@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T20:19:01Z",
+  "updated": "2026-09-07T13:07:01Z",
   "market_open": false,
   "indices": [
     {
@@ -23,16 +23,26 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.23,
-      "last": 52100.43
+      "pct": 0.07,
+      "last": 52141.46
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "AOUT",
+        "name": "American Outdoor Brands, Inc.",
+        "pct": 44.66
+      },
+      {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
         "pct": 19.48
+      },
+      {
+        "symbol": "TYRA",
+        "name": "Tyra Biosciences, Inc.",
+        "pct": 15.25
       },
       {
         "symbol": "AEHR",
@@ -65,19 +75,9 @@
         "pct": 9.68
       },
       {
-        "symbol": "AEHL",
-        "name": "Antelope Enterprise Holdings Limited",
-        "pct": 9.66
-      },
-      {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
         "pct": 9.22
-      },
-      {
-        "symbol": "TARS",
-        "name": "Tarsus Pharmaceuticals, Inc.",
-        "pct": 9.1
       }
     ],
     "losers": [
@@ -102,14 +102,14 @@
         "pct": -16.63
       },
       {
+        "symbol": "OXM",
+        "name": "Oxford Industries, Inc.",
+        "pct": -15.72
+      },
+      {
         "symbol": "ASAN",
         "name": "Asana, Inc.",
         "pct": -12.69
-      },
-      {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": -9.58
       },
       {
         "symbol": "ADSK",
@@ -132,6 +132,6 @@
         "pct": -6.43
       }
     ],
-    "universe": 1276
+    "universe": 1175
   }
 }
