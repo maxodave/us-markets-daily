@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-08T19:03:56Z",
+  "updated": "2026-09-08T19:15:06Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.46,
-      "last": 7682.46
+      "pct": -0.43,
+      "last": 7684.64
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.0,
-      "last": 29543.5
+      "pct": 0.01,
+      "last": 29548.41
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.14,
-      "last": 52797.44
+      "pct": -1.04,
+      "last": 52848.82
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.06,
-      "last": 52177.47
+      "pct": 0.04,
+      "last": 52230.0
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 20.6
+        "pct": 20.5
       },
       {
         "symbol": "ROIV",
         "name": "Roivant Sciences Ltd.",
-        "pct": 18.98
+        "pct": 17.49
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 18.29
-      },
-      {
-        "symbol": "FRMI",
-        "name": "Fermi Inc.",
-        "pct": 14.94
+        "pct": 16.31
       },
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "pct": 14.89
+        "pct": 15.72
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "pct": 14.56
+        "pct": 15.23
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 12.98
+        "symbol": "FRMI",
+        "name": "Fermi Inc.",
+        "pct": 13.96
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": 12.96
+        "pct": 12.78
       },
       {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": 12.8
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 12.59
       },
       {
         "symbol": "VIAV",
         "name": "Viavi Solutions Inc.",
-        "pct": 12.35
+        "pct": 12.39
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": 11.62
       }
     ],
     "losers": [
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -36.74
+        "pct": -36.94
       },
       {
         "symbol": "NVS",
         "name": "Novartis AG",
-        "pct": -14.04
-      },
-      {
-        "symbol": "AMGN",
-        "name": "Amgen Inc.",
-        "pct": -9.54
-      },
-      {
-        "symbol": "FOUR",
-        "name": "Shift4 Payments, Inc.",
-        "pct": -9.47
-      },
-      {
-        "symbol": "SYK",
-        "name": "Stryker Corporation",
-        "pct": -8.75
+        "pct": -14.12
       },
       {
         "symbol": "HWM",
         "name": "Howmet Aerospace Inc.",
-        "pct": -8.62
+        "pct": -9.53
       },
       {
-        "symbol": "PATH",
-        "name": "UiPath, Inc.",
-        "pct": -8.53
+        "symbol": "AMGN",
+        "name": "Amgen Inc.",
+        "pct": -9.42
+      },
+      {
+        "symbol": "FOUR",
+        "name": "Shift4 Payments, Inc.",
+        "pct": -8.97
+      },
+      {
+        "symbol": "SYK",
+        "name": "Stryker Corporation",
+        "pct": -8.79
       },
       {
         "symbol": "EXPE",
         "name": "Expedia Group, Inc.",
-        "pct": -8.12
+        "pct": -8.51
+      },
+      {
+        "symbol": "PATH",
+        "name": "UiPath, Inc.",
+        "pct": -8.16
+      },
+      {
+        "symbol": "RHI",
+        "name": "Robert Half Inc.",
+        "pct": -7.66
       },
       {
         "symbol": "GDDY",
         "name": "GoDaddy Inc.",
-        "pct": -7.96
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": -7.53
+        "pct": -7.64
       }
     ],
     "universe": 1187
