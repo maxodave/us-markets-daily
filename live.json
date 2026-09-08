@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-08T14:01:15Z",
+  "updated": "2026-09-08T14:18:52Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.37,
-      "last": 7689.36
+      "pct": -0.51,
+      "last": 7678.29
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.3,
-      "last": 29454.25
+      "pct": -0.33,
+      "last": 29446.87
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.93,
-      "last": 52910.09
+      "pct": -1.25,
+      "last": 52739.44
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.23,
-      "last": 52090.86
+      "pct": -0.3,
+      "last": 52053.02
     }
   ],
   "movers": {
@@ -32,79 +32,89 @@
       {
         "symbol": "ROIV",
         "name": "Roivant Sciences Ltd.",
-        "pct": 17.12
+        "pct": 16.88
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 14.16
+        "pct": 14.15
       },
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "pct": 12.08
+        "pct": 11.67
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 9.7
-      },
-      {
-        "symbol": "QBTS",
-        "name": "D-Wave Quantum Inc.",
-        "pct": 9.38
-      },
-      {
-        "symbol": "IONQ",
-        "name": "IonQ, Inc.",
-        "pct": 9.11
-      },
-      {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": 8.74
-      },
-      {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": 8.52
+        "pct": 11.24
       },
       {
         "symbol": "XE",
         "name": "X-Energy, Inc.",
-        "pct": 8.41
+        "pct": 10.45
       },
       {
         "symbol": "SEDG",
         "name": "SolarEdge Technologies, Inc.",
-        "pct": 7.89
+        "pct": 8.8
+      },
+      {
+        "symbol": "QBTS",
+        "name": "D-Wave Quantum Inc.",
+        "pct": 8.38
+      },
+      {
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": 8.33
+      },
+      {
+        "symbol": "FRMI",
+        "name": "Fermi Inc.",
+        "pct": 7.91
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": 7.73
       }
     ],
     "losers": [
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -41.99
+        "pct": -41.81
       },
       {
         "symbol": "NVS",
         "name": "Novartis AG",
-        "pct": -12.63
+        "pct": -13.31
       },
       {
         "symbol": "SRPT",
         "name": "Sarepta Therapeutics, Inc.",
-        "pct": -8.53
+        "pct": -9.78
       },
       {
         "symbol": "AMGN",
         "name": "Amgen Inc.",
-        "pct": -7.83
+        "pct": -8.47
+      },
+      {
+        "symbol": "HWM",
+        "name": "Howmet Aerospace Inc.",
+        "pct": -7.63
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
+        "pct": -7.41
       },
       {
         "symbol": "PATH",
         "name": "UiPath, Inc.",
-        "pct": -7.67
+        "pct": -6.98
       },
       {
         "symbol": "FOUR",
@@ -112,24 +122,14 @@
         "pct": -6.44
       },
       {
-        "symbol": "HWM",
-        "name": "Howmet Aerospace Inc.",
-        "pct": -6.16
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": -6.05
+        "symbol": "ZS",
+        "name": "Zscaler, Inc.",
+        "pct": -6.19
       },
       {
         "symbol": "BRZE",
         "name": "Braze, Inc.",
-        "pct": -5.91
-      },
-      {
-        "symbol": "RPRX",
-        "name": "Royalty Pharma plc",
-        "pct": -5.79
+        "pct": -6.16
       }
     ],
     "universe": 1187
