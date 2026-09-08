@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-08T13:39:33Z",
+  "updated": "2026-09-08T13:50:57Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.24,
-      "last": 7699.48
+      "pct": -0.38,
+      "last": 7688.26
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.05,
-      "last": 29558.32
+      "pct": -0.23,
+      "last": 29476.78
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.84,
-      "last": 52956.25
+      "pct": -0.9,
+      "last": 52925.44
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.17,
-      "last": 52121.79
+      "pct": -0.14,
+      "last": 52135.54
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 14.74
-      },
-      {
         "symbol": "ROIV",
         "name": "Roivant Sciences Ltd.",
-        "pct": 14.54
+        "pct": 16.4
+      },
+      {
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": 15.84
       },
       {
         "symbol": "IONQ",
         "name": "IonQ, Inc.",
-        "pct": 10.79
-      },
-      {
-        "symbol": "RGTI",
-        "name": "Rigetti Computing, Inc.",
-        "pct": 9.57
-      },
-      {
-        "symbol": "QBTS",
-        "name": "D-Wave Quantum Inc.",
-        "pct": 9.44
-      },
-      {
-        "symbol": "AOUT",
-        "name": "American Outdoor Brands, Inc.",
-        "pct": 8.43
-      },
-      {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": 8.4
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": 7.03
+        "pct": 10.25
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 6.7
+        "pct": 8.99
       },
       {
-        "symbol": "DK",
-        "name": "Delek US Holdings, Inc.",
-        "pct": 6.25
+        "symbol": "QBTS",
+        "name": "D-Wave Quantum Inc.",
+        "pct": 8.99
+      },
+      {
+        "symbol": "SMR",
+        "name": "NuScale Power Corporation",
+        "pct": 8.4
+      },
+      {
+        "symbol": "RGTI",
+        "name": "Rigetti Computing, Inc.",
+        "pct": 7.99
+      },
+      {
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": 7.74
+      },
+      {
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": 7.69
+      },
+      {
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": 7.56
       }
     ],
     "losers": [
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -39.67
+        "pct": -39.3
       },
       {
         "symbol": "NVS",
         "name": "Novartis AG",
-        "pct": -12.75
+        "pct": -12.78
       },
       {
         "symbol": "SRPT",
         "name": "Sarepta Therapeutics, Inc.",
-        "pct": -12.13
+        "pct": -11.93
       },
       {
         "symbol": "PATH",
         "name": "UiPath, Inc.",
-        "pct": -7.57
-      },
-      {
-        "symbol": "RPRX",
-        "name": "Royalty Pharma plc",
-        "pct": -7.4
+        "pct": -7.24
       },
       {
         "symbol": "AMGN",
         "name": "Amgen Inc.",
-        "pct": -7.29
+        "pct": -7.1
       },
       {
-        "symbol": "IONS",
-        "name": "Ionis Pharmaceuticals, Inc.",
-        "pct": -6.04
+        "symbol": "FOUR",
+        "name": "Shift4 Payments, Inc.",
+        "pct": -6.4
       },
       {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": -6.03
+        "symbol": "RPRX",
+        "name": "Royalty Pharma plc",
+        "pct": -6.3
       },
       {
         "symbol": "HWM",
         "name": "Howmet Aerospace Inc.",
-        "pct": -5.8
+        "pct": -6.29
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
+        "pct": -6.22
       },
       {
         "symbol": "DUOL",
         "name": "Duolingo, Inc.",
-        "pct": -5.54
+        "pct": -5.5
       }
     ],
-    "universe": 1185
+    "universe": 1187
   }
 }
