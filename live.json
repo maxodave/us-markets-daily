@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-08T13:23:07Z",
-  "market_open": false,
+  "updated": "2026-09-08T13:39:33Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.38,
-      "last": 7718.6
+      "pct": -0.24,
+      "last": 7699.48
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.21,
-      "last": 29544.15
+      "pct": 0.05,
+      "last": 29558.32
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.51,
-      "last": 53414.25
+      "pct": -0.84,
+      "last": 52956.25
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.16,
-      "last": 52123.44
+      "pct": -0.17,
+      "last": 52121.79
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": 14.74
+      },
+      {
+        "symbol": "ROIV",
+        "name": "Roivant Sciences Ltd.",
+        "pct": 14.54
+      },
+      {
+        "symbol": "IONQ",
+        "name": "IonQ, Inc.",
+        "pct": 10.79
+      },
+      {
+        "symbol": "RGTI",
+        "name": "Rigetti Computing, Inc.",
+        "pct": 9.57
+      },
+      {
+        "symbol": "QBTS",
+        "name": "D-Wave Quantum Inc.",
+        "pct": 9.44
+      },
+      {
         "symbol": "AOUT",
         "name": "American Outdoor Brands, Inc.",
-        "pct": 44.66
+        "pct": 8.43
       },
       {
-        "symbol": "BIAF",
-        "name": "bioAffinity Technologies, Inc.",
-        "pct": 19.48
-      },
-      {
-        "symbol": "TYRA",
-        "name": "Tyra Biosciences, Inc.",
-        "pct": 15.25
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": 8.4
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": 13.1
+        "pct": 7.03
       },
       {
-        "symbol": "SNDK",
-        "name": "Sandisk Corporation",
-        "pct": 11.9
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": 6.7
       },
       {
-        "symbol": "GOLD",
-        "name": "Gold.com, Inc.",
-        "pct": 11.21
-      },
-      {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": 10.3
-      },
-      {
-        "symbol": "ALAB",
-        "name": "Astera Labs, Inc.",
-        "pct": 9.75
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 9.68
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": 9.22
+        "symbol": "DK",
+        "name": "Delek US Holdings, Inc.",
+        "pct": 6.25
       }
     ],
     "losers": [
       {
-        "symbol": "GWRE",
-        "name": "Guidewire Software, Inc.",
-        "pct": -19.93
+        "symbol": "BIAF",
+        "name": "bioAffinity Technologies, Inc.",
+        "pct": -39.67
       },
       {
-        "symbol": "LULU",
-        "name": "lululemon athletica inc.",
-        "pct": -17.38
+        "symbol": "NVS",
+        "name": "Novartis AG",
+        "pct": -12.75
       },
       {
-        "symbol": "FICO",
-        "name": "Fair Isaac Corporation",
-        "pct": -16.68
+        "symbol": "SRPT",
+        "name": "Sarepta Therapeutics, Inc.",
+        "pct": -12.13
       },
       {
         "symbol": "PATH",
         "name": "UiPath, Inc.",
-        "pct": -16.63
+        "pct": -7.57
       },
       {
-        "symbol": "OXM",
-        "name": "Oxford Industries, Inc.",
-        "pct": -15.72
+        "symbol": "RPRX",
+        "name": "Royalty Pharma plc",
+        "pct": -7.4
       },
       {
-        "symbol": "ASAN",
-        "name": "Asana, Inc.",
-        "pct": -12.69
+        "symbol": "AMGN",
+        "name": "Amgen Inc.",
+        "pct": -7.29
       },
       {
-        "symbol": "ADSK",
-        "name": "Autodesk, Inc.",
-        "pct": -8.26
+        "symbol": "IONS",
+        "name": "Ionis Pharmaceuticals, Inc.",
+        "pct": -6.04
       },
       {
-        "symbol": "ETSY",
-        "name": "Etsy, Inc.",
-        "pct": -6.73
+        "symbol": "SHOP",
+        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
+        "pct": -6.03
       },
       {
-        "symbol": "ADBE",
-        "name": "Adobe Inc.",
-        "pct": -6.73
+        "symbol": "HWM",
+        "name": "Howmet Aerospace Inc.",
+        "pct": -5.8
       },
       {
-        "symbol": "MNDY",
-        "name": "monday.com Ltd.",
-        "pct": -6.43
+        "symbol": "DUOL",
+        "name": "Duolingo, Inc.",
+        "pct": -5.54
       }
     ],
-    "universe": 1187
+    "universe": 1185
   }
 }
