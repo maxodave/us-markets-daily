@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-08T17:46:02Z",
+  "updated": "2026-09-08T17:57:11Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.37,
-      "last": 7689.41
+      "pct": -0.35,
+      "last": 7690.79
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.13,
-      "last": 29581.93
+      "pct": 0.1,
+      "last": 29572.83
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.0,
-      "last": 52870.87
+      "pct": -0.95,
+      "last": 52897.51
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ROIV",
         "name": "Roivant Sciences Ltd.",
-        "pct": 20.88
+        "pct": 20.78
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 18.28
+        "pct": 18.6
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 16.27
+        "pct": 16.45
       },
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "pct": 15.05
+        "pct": 14.78
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": 14.87
-      },
-      {
-        "symbol": "FRMI",
-        "name": "Fermi Inc.",
         "pct": 14.77
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "pct": 13.03
+        "pct": 14.14
+      },
+      {
+        "symbol": "FRMI",
+        "name": "Fermi Inc.",
+        "pct": 13.72
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 12.49
+        "pct": 12.44
       },
       {
         "symbol": "LITE",
         "name": "Lumentum Holdings Inc.",
-        "pct": 11.91
+        "pct": 12.03
       },
       {
         "symbol": "VIAV",
         "name": "Viavi Solutions Inc.",
-        "pct": 11.3
+        "pct": 11.99
       }
     ],
     "losers": [
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -35.95
+        "pct": -35.2
       },
       {
         "symbol": "NVS",
         "name": "Novartis AG",
-        "pct": -13.97
+        "pct": -13.86
       },
       {
         "symbol": "AMGN",
         "name": "Amgen Inc.",
-        "pct": -9.18
-      },
-      {
-        "symbol": "SRPT",
-        "name": "Sarepta Therapeutics, Inc.",
-        "pct": -8.89
-      },
-      {
-        "symbol": "GWRE",
-        "name": "Guidewire Software, Inc.",
-        "pct": -8.17
+        "pct": -9.04
       },
       {
         "symbol": "FOUR",
         "name": "Shift4 Payments, Inc.",
-        "pct": -8.15
+        "pct": -8.38
       },
       {
         "symbol": "HWM",
         "name": "Howmet Aerospace Inc.",
-        "pct": -8.03
-      },
-      {
-        "symbol": "SYK",
-        "name": "Stryker Corporation",
-        "pct": -7.79
+        "pct": -8.08
       },
       {
         "symbol": "PATH",
         "name": "UiPath, Inc.",
-        "pct": -7.74
+        "pct": -8.06
+      },
+      {
+        "symbol": "GWRE",
+        "name": "Guidewire Software, Inc.",
+        "pct": -7.98
       },
       {
         "symbol": "GDDY",
         "name": "GoDaddy Inc.",
-        "pct": -7.72
+        "pct": -7.85
+      },
+      {
+        "symbol": "SRPT",
+        "name": "Sarepta Therapeutics, Inc.",
+        "pct": -7.69
+      },
+      {
+        "symbol": "EXPE",
+        "name": "Expedia Group, Inc.",
+        "pct": -7.35
       }
     ],
     "universe": 1187
