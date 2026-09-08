@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-08T14:41:08Z",
+  "updated": "2026-09-08T14:53:02Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.42,
-      "last": 7685.19
+      "pct": -0.36,
+      "last": 7689.86
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.2,
-      "last": 29486.31
+      "pct": -0.1,
+      "last": 29516.08
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.16,
-      "last": 52789.4
+      "pct": -1.08,
+      "last": 52831.8
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.4,
-      "last": 51998.37
+      "pct": -0.42,
+      "last": 51988.62
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ROIV",
         "name": "Roivant Sciences Ltd.",
-        "pct": 16.81
+        "pct": 16.83
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 14.83
-      },
-      {
-        "symbol": "SMR",
-        "name": "NuScale Power Corporation",
-        "pct": 12.11
+        "pct": 16.04
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 11.17
+        "pct": 13.44
       },
       {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": 9.51
+        "symbol": "SMR",
+        "name": "NuScale Power Corporation",
+        "pct": 12.68
       },
       {
         "symbol": "COHR",
         "name": "Coherent Corp.",
-        "pct": 9.18
+        "pct": 10.64
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": 9.13
-      },
-      {
-        "symbol": "QBTS",
-        "name": "D-Wave Quantum Inc.",
-        "pct": 8.93
+        "pct": 10.6
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 8.66
+        "pct": 10.42
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": 10.36
+      },
+      {
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": 9.88
       },
       {
         "symbol": "INFQ",
         "name": "Infleqtion, Inc.",
-        "pct": 8.52
+        "pct": 9.22
       }
     ],
     "losers": [
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -41.45
+        "pct": -42.71
       },
       {
         "symbol": "NVS",
         "name": "Novartis AG",
-        "pct": -13.19
+        "pct": -13.29
       },
       {
         "symbol": "SRPT",
         "name": "Sarepta Therapeutics, Inc.",
-        "pct": -10.24
+        "pct": -10.4
       },
       {
         "symbol": "AMGN",
         "name": "Amgen Inc.",
-        "pct": -9.27
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": -8.5
+        "pct": -9.01
       },
       {
         "symbol": "FOUR",
         "name": "Shift4 Payments, Inc.",
-        "pct": -7.47
+        "pct": -8.11
       },
       {
-        "symbol": "HWM",
-        "name": "Howmet Aerospace Inc.",
-        "pct": -7.17
+        "symbol": "SHOP",
+        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
+        "pct": -8.03
       },
       {
-        "symbol": "PATH",
-        "name": "UiPath, Inc.",
-        "pct": -7.01
-      },
-      {
-        "symbol": "BRZE",
-        "name": "Braze, Inc.",
-        "pct": -6.65
+        "symbol": "SYK",
+        "name": "Stryker Corporation",
+        "pct": -7.75
       },
       {
         "symbol": "GWRE",
         "name": "Guidewire Software, Inc.",
-        "pct": -6.61
+        "pct": -7.14
+      },
+      {
+        "symbol": "HWM",
+        "name": "Howmet Aerospace Inc.",
+        "pct": -7.04
+      },
+      {
+        "symbol": "BRZE",
+        "name": "Braze, Inc.",
+        "pct": -7.02
       }
     ],
     "universe": 1187
