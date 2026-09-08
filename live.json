@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-08T15:27:45Z",
+  "updated": "2026-09-08T15:59:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.28,
-      "last": 7695.85
+      "pct": -0.37,
+      "last": 7689.18
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.15,
-      "last": 29587.96
+      "pct": 0.12,
+      "last": 29579.38
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.98,
-      "last": 52881.91
+      "pct": -1.07,
+      "last": 52837.42
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.19,
-      "last": 52108.92
+      "pct": -0.06,
+      "last": 52177.47
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ROIV",
         "name": "Roivant Sciences Ltd.",
-        "pct": 19.61
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 16.7
+        "pct": 19.18
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 15.89
+        "pct": 18.73
+      },
+      {
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": 17.05
       },
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "pct": 14.18
+        "pct": 15.26
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": 13.87
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": 11.95
-      },
-      {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": 11.17
-      },
-      {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": 10.73
+        "pct": 15.25
       },
       {
         "symbol": "FRMI",
         "name": "Fermi Inc.",
-        "pct": 10.64
+        "pct": 13.09
       },
       {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": 9.6
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": 12.18
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": 12.09
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": 11.83
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 11.15
       }
     ],
     "losers": [
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -41.13
+        "pct": -41.19
       },
       {
         "symbol": "NVS",
         "name": "Novartis AG",
-        "pct": -13.46
-      },
-      {
-        "symbol": "SRPT",
-        "name": "Sarepta Therapeutics, Inc.",
-        "pct": -9.73
+        "pct": -13.86
       },
       {
         "symbol": "AMGN",
         "name": "Amgen Inc.",
-        "pct": -9.26
-      },
-      {
-        "symbol": "WIX",
-        "name": "Wix.com Ltd.",
-        "pct": -8.9
-      },
-      {
-        "symbol": "FOUR",
-        "name": "Shift4 Payments, Inc.",
-        "pct": -8.4
+        "pct": -9.63
       },
       {
         "symbol": "GWRE",
         "name": "Guidewire Software, Inc.",
-        "pct": -8.08
+        "pct": -8.59
       },
       {
         "symbol": "SYK",
         "name": "Stryker Corporation",
-        "pct": -8.06
+        "pct": -8.19
       },
       {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": -7.64
+        "symbol": "FOUR",
+        "name": "Shift4 Payments, Inc.",
+        "pct": -8.08
+      },
+      {
+        "symbol": "SRPT",
+        "name": "Sarepta Therapeutics, Inc.",
+        "pct": -7.91
+      },
+      {
+        "symbol": "WIX",
+        "name": "Wix.com Ltd.",
+        "pct": -7.43
       },
       {
         "symbol": "GDDY",
         "name": "GoDaddy Inc.",
-        "pct": -7.1
+        "pct": -7.25
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
+        "pct": -7.08
       }
     ],
     "universe": 1187
