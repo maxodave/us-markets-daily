@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-08T13:50:57Z",
+  "updated": "2026-09-08T14:01:15Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.38,
-      "last": 7688.26
+      "pct": -0.37,
+      "last": 7689.36
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.23,
-      "last": 29476.78
+      "pct": -0.3,
+      "last": 29454.25
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.9,
-      "last": 52925.44
+      "pct": -0.93,
+      "last": 52910.09
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.14,
-      "last": 52135.54
+      "pct": -0.23,
+      "last": 52090.86
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ROIV",
         "name": "Roivant Sciences Ltd.",
-        "pct": 16.4
+        "pct": 17.12
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 15.84
-      },
-      {
-        "symbol": "IONQ",
-        "name": "IonQ, Inc.",
-        "pct": 10.25
-      },
-      {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": 8.99
-      },
-      {
-        "symbol": "QBTS",
-        "name": "D-Wave Quantum Inc.",
-        "pct": 8.99
+        "pct": 14.16
       },
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "pct": 8.4
-      },
-      {
-        "symbol": "RGTI",
-        "name": "Rigetti Computing, Inc.",
-        "pct": 7.99
-      },
-      {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": 7.74
-      },
-      {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": 7.69
+        "pct": 12.08
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 7.56
+        "pct": 9.7
+      },
+      {
+        "symbol": "QBTS",
+        "name": "D-Wave Quantum Inc.",
+        "pct": 9.38
+      },
+      {
+        "symbol": "IONQ",
+        "name": "IonQ, Inc.",
+        "pct": 9.11
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": 8.74
+      },
+      {
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": 8.52
+      },
+      {
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "pct": 8.41
+      },
+      {
+        "symbol": "SEDG",
+        "name": "SolarEdge Technologies, Inc.",
+        "pct": 7.89
       }
     ],
     "losers": [
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -39.3
+        "pct": -41.99
       },
       {
         "symbol": "NVS",
         "name": "Novartis AG",
-        "pct": -12.78
+        "pct": -12.63
       },
       {
         "symbol": "SRPT",
         "name": "Sarepta Therapeutics, Inc.",
-        "pct": -11.93
-      },
-      {
-        "symbol": "PATH",
-        "name": "UiPath, Inc.",
-        "pct": -7.24
+        "pct": -8.53
       },
       {
         "symbol": "AMGN",
         "name": "Amgen Inc.",
-        "pct": -7.1
+        "pct": -7.83
+      },
+      {
+        "symbol": "PATH",
+        "name": "UiPath, Inc.",
+        "pct": -7.67
       },
       {
         "symbol": "FOUR",
         "name": "Shift4 Payments, Inc.",
-        "pct": -6.4
-      },
-      {
-        "symbol": "RPRX",
-        "name": "Royalty Pharma plc",
-        "pct": -6.3
+        "pct": -6.44
       },
       {
         "symbol": "HWM",
         "name": "Howmet Aerospace Inc.",
-        "pct": -6.29
+        "pct": -6.16
       },
       {
         "symbol": "SHOP",
         "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": -6.22
+        "pct": -6.05
       },
       {
-        "symbol": "DUOL",
-        "name": "Duolingo, Inc.",
-        "pct": -5.5
+        "symbol": "BRZE",
+        "name": "Braze, Inc.",
+        "pct": -5.91
+      },
+      {
+        "symbol": "RPRX",
+        "name": "Royalty Pharma plc",
+        "pct": -5.79
       }
     ],
     "universe": 1187
