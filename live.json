@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T20:19:27Z",
+  "updated": "2026-09-09T13:08:01Z",
   "market_open": false,
   "indices": [
     {
@@ -23,12 +23,22 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.06,
-      "last": 52177.47
+      "pct": -0.9,
+      "last": 51684.66
     }
   ],
   "movers": {
     "gainers": [
+      {
+        "symbol": "BNC",
+        "name": "CEA Industries Inc.",
+        "pct": 50.43
+      },
+      {
+        "symbol": "NUAI",
+        "name": "New Era Energy & Digital, Inc.",
+        "pct": 22.0
+      },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
@@ -68,23 +78,18 @@
         "symbol": "FRMI",
         "name": "Fermi Inc.",
         "pct": 11.52
-      },
-      {
-        "symbol": "VIAV",
-        "name": "Viavi Solutions Inc.",
-        "pct": 11.16
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": 11.04
       }
     ],
     "losers": [
       {
-        "symbol": "BIAF",
-        "name": "bioAffinity Technologies, Inc.",
-        "pct": -41.52
+        "symbol": "DYN",
+        "name": "Dyne Therapeutics, Inc.",
+        "pct": -16.35
+      },
+      {
+        "symbol": "SGML",
+        "name": "Sigma Lithium Corporation",
+        "pct": -15.82
       },
       {
         "symbol": "NVS",
@@ -102,6 +107,21 @@
         "pct": -10.08
       },
       {
+        "symbol": "APPN",
+        "name": "Appian Corporation",
+        "pct": -9.88
+      },
+      {
+        "symbol": "BEAM",
+        "name": "Beam Therapeutics Inc.",
+        "pct": -9.54
+      },
+      {
+        "symbol": "BCRX",
+        "name": "BioCryst Pharmaceuticals, Inc.",
+        "pct": -8.94
+      },
+      {
         "symbol": "SYK",
         "name": "Stryker Corporation",
         "pct": -8.81
@@ -110,28 +130,8 @@
         "symbol": "GDDY",
         "name": "GoDaddy Inc.",
         "pct": -8.32
-      },
-      {
-        "symbol": "MNDY",
-        "name": "monday.com Ltd.",
-        "pct": -8.13
-      },
-      {
-        "symbol": "FOUR",
-        "name": "Shift4 Payments, Inc.",
-        "pct": -7.95
-      },
-      {
-        "symbol": "RHI",
-        "name": "Robert Half Inc.",
-        "pct": -7.91
-      },
-      {
-        "symbol": "EXPE",
-        "name": "Expedia Group, Inc.",
-        "pct": -7.88
       }
     ],
-    "universe": 1187
+    "universe": 1329
   }
 }
