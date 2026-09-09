@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-09T13:35:30Z",
+  "updated": "2026-09-09T13:51:22Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.25,
-      "last": 7654.57
+      "pct": -0.29,
+      "last": 7651.1
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.21,
-      "last": 29446.82
+      "pct": -0.1,
+      "last": 29477.79
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.57,
-      "last": 52482.77
+      "pct": -0.73,
+      "last": 52400.96
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.84,
-      "last": 51716.11
+      "pct": -0.82,
+      "last": 51728.99
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "SIG",
         "name": "Signet Jewelers Limited",
-        "pct": 16.74
-      },
-      {
-        "symbol": "JMKE",
-        "name": "Jersey Mike's Subs Inc.",
-        "pct": 11.5
+        "pct": 19.37
       },
       {
         "symbol": "ASO",
         "name": "Academy Sports and Outdoors, Inc.",
-        "pct": 8.03
+        "pct": 12.22
       },
       {
-        "symbol": "SUNB",
-        "name": "Sunbelt Rentals Holdings, Inc.",
-        "pct": 7.66
+        "symbol": "TNGX",
+        "name": "Tango Therapeutics, Inc.",
+        "pct": 10.62
       },
       {
         "symbol": "INBX",
         "name": "Inhibrx Biosciences, Inc.",
-        "pct": 6.49
+        "pct": 9.69
       },
       {
-        "symbol": "SGML",
-        "name": "Sigma Lithium Corporation",
-        "pct": 6.04
+        "symbol": "SUNB",
+        "name": "Sunbelt Rentals Holdings, Inc.",
+        "pct": 8.57
       },
       {
         "symbol": "CHYM",
         "name": "Chime Financial, Inc.",
-        "pct": 5.42
+        "pct": 7.78
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": 6.93
+      },
+      {
+        "symbol": "JMKE",
+        "name": "Jersey Mike's Subs Inc.",
+        "pct": 6.59
+      },
+      {
+        "symbol": "SGML",
+        "name": "Sigma Lithium Corporation",
+        "pct": 6.28
       },
       {
         "symbol": "NET",
         "name": "Cloudflare, Inc.",
-        "pct": 5.36
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 5.18
-      },
-      {
-        "symbol": "FIGR",
-        "name": "Figure Technology Solutions, Inc.",
-        "pct": 4.9
+        "pct": 6.14
       }
     ],
     "losers": [
       {
         "symbol": "TTAN",
         "name": "ServiceTitan, Inc.",
-        "pct": -22.45
+        "pct": -26.94
       },
       {
         "symbol": "CASY",
         "name": "Caseys General Stores, Inc.",
-        "pct": -17.24
+        "pct": -18.54
       },
       {
         "symbol": "BRZE",
         "name": "Braze, Inc.",
-        "pct": -17.04
+        "pct": -16.2
+      },
+      {
+        "symbol": "BNC",
+        "name": "CEA Industries Inc.",
+        "pct": -7.64
       },
       {
         "symbol": "CHWY",
         "name": "Chewy, Inc.",
-        "pct": -8.38
+        "pct": -7.0
       },
       {
-        "symbol": "IOT",
-        "name": "Samsara Inc.",
-        "pct": -5.63
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "pct": -6.21
       },
       {
-        "symbol": "LYFT",
-        "name": "Lyft, Inc.",
-        "pct": -5.05
+        "symbol": "FLNC",
+        "name": "Fluence Energy, Inc.",
+        "pct": -5.71
       },
       {
-        "symbol": "MUSA",
-        "name": "Murphy USA Inc.",
-        "pct": -4.92
+        "symbol": "KVYO",
+        "name": "Klaviyo, Inc. Series A",
+        "pct": -5.48
       },
       {
-        "symbol": "BKNG",
-        "name": "Booking Holdings Inc.",
-        "pct": -4.74
+        "symbol": "KRMN",
+        "name": "Karman Holdings Inc.",
+        "pct": -5.29
       },
       {
-        "symbol": "CNM",
-        "name": "Core & Main, Inc.",
-        "pct": -4.69
-      },
-      {
-        "symbol": "BRKR",
-        "name": "Bruker Corporation",
-        "pct": -4.58
+        "symbol": "OSCR",
+        "name": "Oscar Health, Inc.",
+        "pct": -5.14
       }
     ],
-    "universe": 1326
+    "universe": 1329
   }
 }
