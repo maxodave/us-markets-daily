@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-09T19:48:15Z",
+  "updated": "2026-09-09T19:59:46Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.41,
-      "last": 7641.89
+      "pct": -0.49,
+      "last": 7635.95
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
       "pct": -0.32,
-      "last": 29413.87
+      "last": 29413.31
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.61,
-      "last": 52462.47
+      "pct": -0.76,
+      "last": 52385.27
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "SIG",
         "name": "Signet Jewelers Limited",
-        "pct": 22.87
+        "pct": 23.14
       },
       {
         "symbol": "ASO",
         "name": "Academy Sports and Outdoors, Inc.",
-        "pct": 13.81
+        "pct": 14.4
       },
       {
         "symbol": "NET",
         "name": "Cloudflare, Inc.",
-        "pct": 10.17
+        "pct": 10.54
       },
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": 9.28
-      },
-      {
-        "symbol": "CHYM",
-        "name": "Chime Financial, Inc.",
-        "pct": 7.59
-      },
-      {
-        "symbol": "JMKE",
-        "name": "Jersey Mike's Subs Inc.",
-        "pct": 7.4
-      },
-      {
-        "symbol": "GME",
-        "name": "GameStop Corporation",
-        "pct": 6.75
-      },
-      {
-        "symbol": "DDOG",
-        "name": "Datadog, Inc.",
-        "pct": 6.72
+        "pct": 8.4
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": 6.71
+        "pct": 7.53
       },
       {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": 6.54
+        "symbol": "JMKE",
+        "name": "Jersey Mike's Subs Inc.",
+        "pct": 7.49
+      },
+      {
+        "symbol": "DDOG",
+        "name": "Datadog, Inc.",
+        "pct": 7.16
+      },
+      {
+        "symbol": "CHYM",
+        "name": "Chime Financial, Inc.",
+        "pct": 6.9
+      },
+      {
+        "symbol": "META",
+        "name": "Meta Platforms, Inc.",
+        "pct": 6.45
+      },
+      {
+        "symbol": "SUNB",
+        "name": "Sunbelt Rentals Holdings, Inc.",
+        "pct": 6.1
       }
     ],
     "losers": [
       {
         "symbol": "TTAN",
         "name": "ServiceTitan, Inc.",
-        "pct": -30.04
+        "pct": -30.06
       },
       {
         "symbol": "BRZE",
         "name": "Braze, Inc.",
-        "pct": -21.84
-      },
-      {
-        "symbol": "CASY",
-        "name": "Caseys General Stores, Inc.",
-        "pct": -14.52
+        "pct": -21.73
       },
       {
         "symbol": "BNC",
         "name": "CEA Industries Inc.",
-        "pct": -13.52
+        "pct": -15.81
+      },
+      {
+        "symbol": "CASY",
+        "name": "Caseys General Stores, Inc.",
+        "pct": -14.24
       },
       {
         "symbol": "NAMS",
         "name": "NewAmsterdam Pharma Company N.V.",
-        "pct": -12.74
-      },
-      {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": -12.15
-      },
-      {
-        "symbol": "CHWY",
-        "name": "Chewy, Inc.",
-        "pct": -11.32
-      },
-      {
-        "symbol": "XE",
-        "name": "X-Energy, Inc.",
-        "pct": -10.31
-      },
-      {
-        "symbol": "VRT",
-        "name": "Vertiv Holdings, LLC",
-        "pct": -10.01
+        "pct": -11.08
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "pct": -9.5
+        "pct": -10.99
+      },
+      {
+        "symbol": "CHWY",
+        "name": "Chewy, Inc.",
+        "pct": -10.89
+      },
+      {
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "pct": -10.26
+      },
+      {
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "pct": -9.9
+      },
+      {
+        "symbol": "VRT",
+        "name": "Vertiv Holdings, LLC",
+        "pct": -9.81
       }
     ],
     "universe": 1329
