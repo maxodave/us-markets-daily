@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-09T14:08:50Z",
+  "updated": "2026-09-09T14:29:57Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.24,
-      "last": 7655.12
+      "pct": -0.26,
+      "last": 7653.9
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.13,
-      "last": 29544.93
+      "pct": -0.0,
+      "last": 29507.24
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.71,
-      "last": 52409.52
+      "pct": -0.58,
+      "last": 52479.94
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.74,
-      "last": 51768.36
+      "pct": -0.68,
+      "last": 51802.66
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "SIG",
         "name": "Signet Jewelers Limited",
-        "pct": 18.15
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": 12.25
-      },
-      {
-        "symbol": "INBX",
-        "name": "Inhibrx Biosciences, Inc.",
-        "pct": 10.19
-      },
-      {
-        "symbol": "SRPT",
-        "name": "Sarepta Therapeutics, Inc.",
-        "pct": 10.12
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": 9.98
-      },
-      {
-        "symbol": "TNGX",
-        "name": "Tango Therapeutics, Inc.",
-        "pct": 9.38
-      },
-      {
-        "symbol": "SUNB",
-        "name": "Sunbelt Rentals Holdings, Inc.",
-        "pct": 9.17
-      },
-      {
-        "symbol": "ASO",
-        "name": "Academy Sports and Outdoors, Inc.",
-        "pct": 9.05
-      },
-      {
-        "symbol": "NET",
-        "name": "Cloudflare, Inc.",
-        "pct": 7.72
+        "pct": 19.34
       },
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": 6.82
+        "pct": 10.66
+      },
+      {
+        "symbol": "INBX",
+        "name": "Inhibrx Biosciences, Inc.",
+        "pct": 9.95
+      },
+      {
+        "symbol": "SUNB",
+        "name": "Sunbelt Rentals Holdings, Inc.",
+        "pct": 9.28
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": 8.57
+      },
+      {
+        "symbol": "NET",
+        "name": "Cloudflare, Inc.",
+        "pct": 8.07
+      },
+      {
+        "symbol": "SRPT",
+        "name": "Sarepta Therapeutics, Inc.",
+        "pct": 7.97
+      },
+      {
+        "symbol": "ASO",
+        "name": "Academy Sports and Outdoors, Inc.",
+        "pct": 7.78
+      },
+      {
+        "symbol": "JMKE",
+        "name": "Jersey Mike's Subs Inc.",
+        "pct": 7.49
+      },
+      {
+        "symbol": "SGML",
+        "name": "Sigma Lithium Corporation",
+        "pct": 6.62
       }
     ],
     "losers": [
       {
         "symbol": "TTAN",
         "name": "ServiceTitan, Inc.",
-        "pct": -30.53
-      },
-      {
-        "symbol": "BRZE",
-        "name": "Braze, Inc.",
-        "pct": -17.82
+        "pct": -31.6
       },
       {
         "symbol": "CASY",
         "name": "Caseys General Stores, Inc.",
-        "pct": -16.35
+        "pct": -16.84
       },
       {
-        "symbol": "XE",
-        "name": "X-Energy, Inc.",
-        "pct": -8.02
-      },
-      {
-        "symbol": "OSCR",
-        "name": "Oscar Health, Inc.",
-        "pct": -7.79
-      },
-      {
-        "symbol": "BRKR",
-        "name": "Bruker Corporation",
-        "pct": -7.33
+        "symbol": "BRZE",
+        "name": "Braze, Inc.",
+        "pct": -16.03
       },
       {
         "symbol": "CHWY",
         "name": "Chewy, Inc.",
-        "pct": -7.26
+        "pct": -7.76
       },
       {
         "symbol": "BNC",
         "name": "CEA Industries Inc.",
-        "pct": -6.95
+        "pct": -6.86
       },
       {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": -5.98
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "pct": -6.58
       },
       {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": -5.17
+        "symbol": "BRKR",
+        "name": "Bruker Corporation",
+        "pct": -6.48
+      },
+      {
+        "symbol": "KRMN",
+        "name": "Karman Holdings Inc.",
+        "pct": -6.4
+      },
+      {
+        "symbol": "NAMS",
+        "name": "NewAmsterdam Pharma Company N.V.",
+        "pct": -6.11
+      },
+      {
+        "symbol": "ORA",
+        "name": "Ormat Technologies, Inc.",
+        "pct": -5.94
       }
     ],
     "universe": 1329
