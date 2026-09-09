@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-09T19:59:46Z",
-  "market_open": true,
+  "updated": "2026-09-09T20:10:58Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.49,
-      "last": 7635.95
+      "pct": -0.48,
+      "last": 7636.36
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.32,
-      "last": 29413.31
+      "pct": -0.29,
+      "last": 29421.55
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.76,
-      "last": 52385.27
+      "pct": -0.77,
+      "last": 52380.66
     },
     {
       "key": "ftsemib",
@@ -32,7 +32,7 @@
       {
         "symbol": "SIG",
         "name": "Signet Jewelers Limited",
-        "pct": 23.14
+        "pct": 23.9
       },
       {
         "symbol": "ASO",
@@ -42,12 +42,17 @@
       {
         "symbol": "NET",
         "name": "Cloudflare, Inc.",
-        "pct": 10.54
+        "pct": 10.49
       },
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": 8.4
+        "pct": 8.38
+      },
+      {
+        "symbol": "JMKE",
+        "name": "Jersey Mike's Subs Inc.",
+        "pct": 7.68
       },
       {
         "symbol": "MXL",
@@ -55,36 +60,31 @@
         "pct": 7.53
       },
       {
-        "symbol": "JMKE",
-        "name": "Jersey Mike's Subs Inc.",
-        "pct": 7.49
-      },
-      {
         "symbol": "DDOG",
         "name": "Datadog, Inc.",
-        "pct": 7.16
+        "pct": 7.15
       },
       {
         "symbol": "CHYM",
         "name": "Chime Financial, Inc.",
-        "pct": 6.9
+        "pct": 6.93
       },
       {
         "symbol": "META",
         "name": "Meta Platforms, Inc.",
-        "pct": 6.45
+        "pct": 6.55
       },
       {
         "symbol": "SUNB",
         "name": "Sunbelt Rentals Holdings, Inc.",
-        "pct": 6.1
+        "pct": 5.83
       }
     ],
     "losers": [
       {
         "symbol": "TTAN",
         "name": "ServiceTitan, Inc.",
-        "pct": -30.06
+        "pct": -29.98
       },
       {
         "symbol": "BRZE",
@@ -94,7 +94,7 @@
       {
         "symbol": "BNC",
         "name": "CEA Industries Inc.",
-        "pct": -15.81
+        "pct": -15.62
       },
       {
         "symbol": "CASY",
@@ -102,19 +102,19 @@
         "pct": -14.24
       },
       {
+        "symbol": "KRMN",
+        "name": "Karman Holdings Inc.",
+        "pct": -11.29
+      },
+      {
         "symbol": "NAMS",
         "name": "NewAmsterdam Pharma Company N.V.",
         "pct": -11.08
       },
       {
-        "symbol": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "pct": -10.99
-      },
-      {
         "symbol": "CHWY",
         "name": "Chewy, Inc.",
-        "pct": -10.89
+        "pct": -10.83
       },
       {
         "symbol": "UI",
@@ -124,12 +124,12 @@
       {
         "symbol": "XE",
         "name": "X-Energy, Inc.",
-        "pct": -9.9
+        "pct": -9.87
       },
       {
         "symbol": "VRT",
         "name": "Vertiv Holdings, LLC",
-        "pct": -9.81
+        "pct": -9.65
       }
     ],
     "universe": 1329
