@@ -1,17 +1,16 @@
 {
-  "updated": "2026-09-08T23:44:15Z",
-  "session_date": "2026-09-08",
+  "updated": "2026-09-09T23:37:31Z",
+  "session_date": "2026-09-09",
   "universe": 558,
   "up": {
-    "count": 170,
+    "count": 120,
     "by_length": {
-      "1": 86,
-      "2": 34,
-      "3": 23,
-      "4": 23,
-      "6": 2,
-      "7": 1,
-      "8+": 1
+      "1": 75,
+      "2": 18,
+      "3": 13,
+      "4": 7,
+      "5": 5,
+      "8+": 2
     },
     "top": [
       {
@@ -20,8 +19,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 9,
-        "cum_pct": 12.09
+        "days": 10,
+        "cum_pct": 12.56
       },
       {
         "symbol": "VLO",
@@ -29,26 +28,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 7,
-        "cum_pct": 10.46
-      },
-      {
-        "symbol": "VST",
-        "name": "Vistra Corp.",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 10.67
-      },
-      {
-        "symbol": "FIX",
-        "name": "Comfort Systems USA",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 8.54
+        "days": 8,
+        "cum_pct": 12.22
       },
       {
         "symbol": "DELL",
@@ -56,17 +37,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 25.62
-      },
-      {
-        "symbol": "NBIS",
-        "name": "Nebius Group",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 22.22
+        "days": 5,
+        "cum_pct": 25.94
       },
       {
         "symbol": "INTC",
@@ -75,26 +47,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 4,
-        "cum_pct": 17.42
-      },
-      {
-        "symbol": "ORCL",
-        "name": "Oracle Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 15.0
-      },
-      {
-        "symbol": "VRT",
-        "name": "Vertiv",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 13.62
+        "days": 5,
+        "cum_pct": 19.41
       },
       {
         "symbol": "ARM",
@@ -102,68 +56,115 @@
         "indices": [
           "nasdaq100"
         ],
-        "days": 4,
-        "cum_pct": 11.37
+        "days": 5,
+        "cum_pct": 12.52
       },
       {
-        "symbol": "KLAC",
-        "name": "KLA Corporation",
+        "symbol": "Q",
+        "name": "Qnity Electronics",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 8.64
+      },
+      {
+        "symbol": "ADI",
+        "name": "Analog Devices",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 2.98
+      },
+      {
+        "symbol": "GLW",
+        "name": "Corning Inc.",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 16.88
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology",
         "indices": [
           "sp500",
           "nasdaq100"
         ],
         "days": 4,
-        "cum_pct": 10.59
+        "cum_pct": 13.82
       },
       {
-        "symbol": "SMCI",
-        "name": "Supermicro",
+        "symbol": "PRY.MI",
+        "name": "Prysmian",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 4,
+        "cum_pct": 9.74
+      },
+      {
+        "symbol": "STMMI.MI",
+        "name": "STMicroelectronics",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 4,
+        "cum_pct": 6.46
+      },
+      {
+        "symbol": "URI",
+        "name": "United Rentals",
         "indices": [
           "sp500"
         ],
         "days": 4,
-        "cum_pct": 9.67
+        "cum_pct": 5.0
       },
       {
-        "symbol": "NRG",
-        "name": "NRG Energy",
+        "symbol": "UHS",
+        "name": "Universal Health Services",
         "indices": [
           "sp500"
         ],
         "days": 4,
-        "cum_pct": 9.25
+        "cum_pct": 4.95
       },
       {
-        "symbol": "ECHO",
-        "name": "EchoStar",
+        "symbol": "CHRW",
+        "name": "C.H. Robinson",
         "indices": [
           "sp500"
         ],
         "days": 4,
-        "cum_pct": 8.58
+        "cum_pct": 3.62
       },
       {
-        "symbol": "GEV",
-        "name": "GE Vernova",
+        "symbol": "LITE",
+        "name": "Lumentum",
         "indices": [
-          "sp500"
+          "sp500",
+          "nasdaq100"
         ],
-        "days": 4,
-        "cum_pct": 8.1
+        "days": 3,
+        "cum_pct": 16.71
       }
     ]
   },
   "down": {
-    "count": 386,
+    "count": 438,
     "by_length": {
       "1": 126,
-      "2": 183,
-      "3": 53,
-      "4": 10,
-      "5": 3,
-      "6": 6,
-      "7": 3,
-      "8+": 2
+      "2": 102,
+      "3": 148,
+      "4": 43,
+      "5": 7,
+      "6": 3,
+      "7": 6,
+      "8+": 3
     },
     "top": [
       {
@@ -172,8 +173,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -10,
-        "cum_pct": -9.73
+        "days": -11,
+        "cum_pct": -11.34
       },
       {
         "symbol": "CHD",
@@ -181,8 +182,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -8,
-        "cum_pct": -6.14
+        "days": -9,
+        "cum_pct": -7.46
       },
       {
         "symbol": "ADSK",
@@ -191,27 +192,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -7,
-        "cum_pct": -21.57
-      },
-      {
-        "symbol": "CDNS",
-        "name": "Cadence Design Systems",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -7,
-        "cum_pct": -18.25
-      },
-      {
-        "symbol": "AVIO.MI",
-        "name": "Avio",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -7,
-        "cum_pct": -8.12
+        "days": -8,
+        "cum_pct": -23.64
       },
       {
         "symbol": "SYK",
@@ -219,8 +201,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -16.41
+        "days": -7,
+        "cum_pct": -16.72
       },
       {
         "symbol": "GIS",
@@ -228,17 +210,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -9.29
-      },
-      {
-        "symbol": "RMD",
-        "name": "ResMed",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -8.02
+        "days": -7,
+        "cum_pct": -10.73
       },
       {
         "symbol": "MNST",
@@ -247,8 +220,17 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -6,
-        "cum_pct": -7.92
+        "days": -7,
+        "cum_pct": -8.58
+      },
+      {
+        "symbol": "RMD",
+        "name": "ResMed",
+        "indices": [
+          "sp500"
+        ],
+        "days": -7,
+        "cum_pct": -8.48
       },
       {
         "symbol": "COST",
@@ -257,8 +239,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -6,
-        "cum_pct": -3.73
+        "days": -7,
+        "cum_pct": -4.53
       },
       {
         "symbol": "INVH",
@@ -266,8 +248,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -3.49
+        "days": -7,
+        "cum_pct": -3.63
       },
       {
         "symbol": "BC.MI",
@@ -275,8 +257,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -5,
-        "cum_pct": -9.07
+        "days": -6,
+        "cum_pct": -9.9
       },
       {
         "symbol": "MTD",
@@ -284,8 +266,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -5.67
+        "days": -6,
+        "cum_pct": -8.17
       },
       {
         "symbol": "TRN.MI",
@@ -293,8 +275,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -5,
-        "cum_pct": -3.56
+        "days": -6,
+        "cum_pct": -4.56
       },
       {
         "symbol": "MRNA",
@@ -302,12 +284,30 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -9.04
+        "days": -5,
+        "cum_pct": -12.1
+      },
+      {
+        "symbol": "MSI",
+        "name": "Motorola Solutions",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -6.38
+      },
+      {
+        "symbol": "MKC",
+        "name": "McCormick & Company",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -5.12
       }
     ]
   },
   "flat": {
-    "count": 2
+    "count": 0
   }
 }
