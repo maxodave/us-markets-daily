@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-09T13:08:01Z",
-  "market_open": false,
+  "updated": "2026-09-09T13:35:30Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.58,
-      "last": 7673.52
+      "pct": -0.25,
+      "last": 7654.57
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.12,
-      "last": 29507.7
+      "pct": -0.21,
+      "last": 29446.82
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.18,
-      "last": 52786.07
+      "pct": -0.57,
+      "last": 52482.77
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.9,
-      "last": 51684.66
+      "pct": -0.84,
+      "last": 51716.11
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "BNC",
-        "name": "CEA Industries Inc.",
-        "pct": 50.43
+        "symbol": "SIG",
+        "name": "Signet Jewelers Limited",
+        "pct": 16.74
       },
       {
-        "symbol": "NUAI",
-        "name": "New Era Energy & Digital, Inc.",
-        "pct": 22.0
+        "symbol": "JMKE",
+        "name": "Jersey Mike's Subs Inc.",
+        "pct": 11.5
       },
       {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": 18.8
+        "symbol": "ASO",
+        "name": "Academy Sports and Outdoors, Inc.",
+        "pct": 8.03
       },
       {
-        "symbol": "ROIV",
-        "name": "Roivant Sciences Ltd.",
-        "pct": 18.75
+        "symbol": "SUNB",
+        "name": "Sunbelt Rentals Holdings, Inc.",
+        "pct": 7.66
       },
       {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 16.29
-      },
-      {
-        "symbol": "SMR",
-        "name": "NuScale Power Corporation",
-        "pct": 15.26
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 12.85
-      },
-      {
-        "symbol": "DOCN",
-        "name": "DigitalOcean Holdings, Inc.",
-        "pct": 12.64
-      },
-      {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": 11.72
-      },
-      {
-        "symbol": "FRMI",
-        "name": "Fermi Inc.",
-        "pct": 11.52
-      }
-    ],
-    "losers": [
-      {
-        "symbol": "DYN",
-        "name": "Dyne Therapeutics, Inc.",
-        "pct": -16.35
+        "symbol": "INBX",
+        "name": "Inhibrx Biosciences, Inc.",
+        "pct": 6.49
       },
       {
         "symbol": "SGML",
         "name": "Sigma Lithium Corporation",
-        "pct": -15.82
+        "pct": 6.04
       },
       {
-        "symbol": "NVS",
-        "name": "Novartis AG",
-        "pct": -13.93
+        "symbol": "CHYM",
+        "name": "Chime Financial, Inc.",
+        "pct": 5.42
       },
       {
-        "symbol": "HWM",
-        "name": "Howmet Aerospace Inc.",
-        "pct": -10.7
+        "symbol": "NET",
+        "name": "Cloudflare, Inc.",
+        "pct": 5.36
       },
       {
-        "symbol": "AMGN",
-        "name": "Amgen Inc.",
-        "pct": -10.08
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 5.18
       },
       {
-        "symbol": "APPN",
-        "name": "Appian Corporation",
-        "pct": -9.88
-      },
-      {
-        "symbol": "BEAM",
-        "name": "Beam Therapeutics Inc.",
-        "pct": -9.54
-      },
-      {
-        "symbol": "BCRX",
-        "name": "BioCryst Pharmaceuticals, Inc.",
-        "pct": -8.94
-      },
-      {
-        "symbol": "SYK",
-        "name": "Stryker Corporation",
-        "pct": -8.81
-      },
-      {
-        "symbol": "GDDY",
-        "name": "GoDaddy Inc.",
-        "pct": -8.32
+        "symbol": "FIGR",
+        "name": "Figure Technology Solutions, Inc.",
+        "pct": 4.9
       }
     ],
-    "universe": 1329
+    "losers": [
+      {
+        "symbol": "TTAN",
+        "name": "ServiceTitan, Inc.",
+        "pct": -22.45
+      },
+      {
+        "symbol": "CASY",
+        "name": "Caseys General Stores, Inc.",
+        "pct": -17.24
+      },
+      {
+        "symbol": "BRZE",
+        "name": "Braze, Inc.",
+        "pct": -17.04
+      },
+      {
+        "symbol": "CHWY",
+        "name": "Chewy, Inc.",
+        "pct": -8.38
+      },
+      {
+        "symbol": "IOT",
+        "name": "Samsara Inc.",
+        "pct": -5.63
+      },
+      {
+        "symbol": "LYFT",
+        "name": "Lyft, Inc.",
+        "pct": -5.05
+      },
+      {
+        "symbol": "MUSA",
+        "name": "Murphy USA Inc.",
+        "pct": -4.92
+      },
+      {
+        "symbol": "BKNG",
+        "name": "Booking Holdings Inc.",
+        "pct": -4.74
+      },
+      {
+        "symbol": "CNM",
+        "name": "Core & Main, Inc.",
+        "pct": -4.69
+      },
+      {
+        "symbol": "BRKR",
+        "name": "Bruker Corporation",
+        "pct": -4.58
+      }
+    ],
+    "universe": 1326
   }
 }
