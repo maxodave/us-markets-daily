@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-09T16:08:13Z",
+  "updated": "2026-09-09T16:25:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.53,
-      "last": 7633.11
+      "pct": -0.54,
+      "last": 7632.07
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.33,
-      "last": 29409.1
+      "pct": -0.42,
+      "last": 29384.57
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.81,
-      "last": 52358.92
+      "pct": -0.78,
+      "last": 52375.64
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "SIG",
         "name": "Signet Jewelers Limited",
-        "pct": 18.91
+        "pct": 19.11
       },
       {
         "symbol": "SUNB",
         "name": "Sunbelt Rentals Holdings, Inc.",
-        "pct": 10.96
+        "pct": 10.47
       },
       {
         "symbol": "NET",
         "name": "Cloudflare, Inc.",
-        "pct": 10.04
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": 9.79
-      },
-      {
-        "symbol": "AMBA",
-        "name": "Ambarella, Inc.",
-        "pct": 8.14
+        "pct": 9.42
       },
       {
         "symbol": "ASO",
         "name": "Academy Sports and Outdoors, Inc.",
-        "pct": 8.07
+        "pct": 9.04
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": 8.4
+      },
+      {
+        "symbol": "AMBA",
+        "name": "Ambarella, Inc.",
+        "pct": 7.96
       },
       {
         "symbol": "INBX",
         "name": "Inhibrx Biosciences, Inc.",
-        "pct": 7.88
+        "pct": 7.57
       },
       {
         "symbol": "JMKE",
         "name": "Jersey Mike's Subs Inc.",
-        "pct": 7.29
+        "pct": 7.07
       },
       {
         "symbol": "DDOG",
         "name": "Datadog, Inc.",
-        "pct": 6.82
+        "pct": 6.45
       },
       {
-        "symbol": "SRPT",
-        "name": "Sarepta Therapeutics, Inc.",
-        "pct": 6.21
+        "symbol": "META",
+        "name": "Meta Platforms, Inc.",
+        "pct": 6.39
       }
     ],
     "losers": [
       {
         "symbol": "TTAN",
         "name": "ServiceTitan, Inc.",
-        "pct": -29.31
+        "pct": -28.68
       },
       {
         "symbol": "BRZE",
         "name": "Braze, Inc.",
-        "pct": -19.08
+        "pct": -19.1
       },
       {
         "symbol": "CASY",
         "name": "Caseys General Stores, Inc.",
-        "pct": -14.62
+        "pct": -14.79
       },
       {
         "symbol": "BNC",
         "name": "CEA Industries Inc.",
-        "pct": -12.59
-      },
-      {
-        "symbol": "CHWY",
-        "name": "Chewy, Inc.",
-        "pct": -10.14
-      },
-      {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": -10.08
+        "pct": -12.76
       },
       {
         "symbol": "ORA",
         "name": "Ormat Technologies, Inc.",
-        "pct": -10.04
+        "pct": -10.27
+      },
+      {
+        "symbol": "CHWY",
+        "name": "Chewy, Inc.",
+        "pct": -10.12
+      },
+      {
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "pct": -10.06
       },
       {
         "symbol": "XE",
         "name": "X-Energy, Inc.",
-        "pct": -9.58
+        "pct": -9.97
       },
       {
         "symbol": "NAMS",
         "name": "NewAmsterdam Pharma Company N.V.",
-        "pct": -8.7
+        "pct": -8.93
       },
       {
         "symbol": "VRT",
         "name": "Vertiv Holdings, LLC",
-        "pct": -8.09
+        "pct": -8.8
       }
     ],
     "universe": 1329
