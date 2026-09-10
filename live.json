@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-10T14:15:41Z",
+  "updated": "2026-09-10T14:28:14Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.66,
-      "last": 7587.21
+      "pct": -0.46,
+      "last": 7602.32
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.04,
-      "last": 29116.27
+      "pct": -0.81,
+      "last": 29184.11
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.6,
-      "last": 52078.87
+      "pct": -0.39,
+      "last": 52187.68
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.01,
-      "last": 51810.71
+      "pct": 0.03,
+      "last": 51825.26
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "AVAV",
         "name": "AeroVironment, Inc.",
-        "pct": 8.69
+        "pct": 11.23
       },
       {
         "symbol": "ERAS",
         "name": "Erasca, Inc.",
-        "pct": 8.47
+        "pct": 8.44
       },
       {
         "symbol": "UI",
         "name": "Ubiquiti Inc.",
-        "pct": 7.22
+        "pct": 6.93
+      },
+      {
+        "symbol": "TYRA",
+        "name": "Tyra Biosciences, Inc.",
+        "pct": 6.18
       },
       {
         "symbol": "RDDT",
         "name": "Reddit, Inc.",
-        "pct": 5.21
+        "pct": 5.66
+      },
+      {
+        "symbol": "RDW",
+        "name": "Redwire Corporation",
+        "pct": 5.23
       },
       {
         "symbol": "CHTR",
         "name": "Charter Communications, Inc.",
-        "pct": 4.19
+        "pct": 4.83
       },
       {
-        "symbol": "ELV",
-        "name": "Elevance Health, Inc.",
-        "pct": 4.18
-      },
-      {
-        "symbol": "MOH",
-        "name": "Molina Healthcare Inc",
-        "pct": 4.13
-      },
-      {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": 4.11
-      },
-      {
-        "symbol": "CNC",
-        "name": "Centene Corporation",
-        "pct": 4.08
+        "symbol": "VSAT",
+        "name": "ViaSat, Inc.",
+        "pct": 4.78
       },
       {
         "symbol": "NXST",
         "name": "Nexstar Media Group, Inc.",
-        "pct": 3.63
+        "pct": 4.55
+      },
+      {
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "pct": 4.34
       }
     ],
     "losers": [
       {
         "symbol": "NAVN",
         "name": "Navan, Inc.",
-        "pct": -20.09
+        "pct": -18.27
       },
       {
         "symbol": "COO",
         "name": "The Cooper Companies, Inc.",
-        "pct": -14.24
+        "pct": -14.3
       },
       {
         "symbol": "AEO",
         "name": "American Eagle Outfitters, Inc.",
-        "pct": -12.4
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -8.31
-      },
-      {
-        "symbol": "HBM",
-        "name": "Hudbay Minerals Inc.",
-        "pct": -7.69
+        "pct": -12.17
       },
       {
         "symbol": "SEDG",
         "name": "SolarEdge Technologies, Inc.",
-        "pct": -7.64
-      },
-      {
-        "symbol": "TECK",
-        "name": "Teck Resources Ltd",
-        "pct": -7.59
+        "pct": -8.52
       },
       {
         "symbol": "FCX",
         "name": "Freeport-McMoRan, Inc.",
-        "pct": -7.59
+        "pct": -7.31
+      },
+      {
+        "symbol": "TECK",
+        "name": "Teck Resources Ltd",
+        "pct": -6.92
+      },
+      {
+        "symbol": "LECO",
+        "name": "Lincoln Electric Holdings, Inc.",
+        "pct": -6.61
+      },
+      {
+        "symbol": "HBM",
+        "name": "Hudbay Minerals Inc.",
+        "pct": -6.45
+      },
+      {
+        "symbol": "SCCO",
+        "name": "Southern Copper Corporation",
+        "pct": -6.04
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -7.33
-      },
-      {
-        "symbol": "CMPS",
-        "name": "COMPASS Pathways Plc - American Depository S",
-        "pct": -7.19
+        "pct": -5.87
       }
     ],
     "universe": 1298
