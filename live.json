@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-10T13:31:45Z",
+  "updated": "2026-09-10T13:35:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.6,
-      "last": 7591.85
+      "pct": -0.56,
+      "last": 7594.81
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.12,
-      "last": 29093.28
+      "pct": -1.09,
+      "last": 29101.23
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.53,
-      "last": 52112.46
+      "pct": -0.36,
+      "last": 52203.12
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.06,
-      "last": 51837.51
+      "pct": -0.0,
+      "last": 51807.28
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "AVAV",
-        "name": "AeroVironment, Inc.",
-        "pct": 7.24
-      },
-      {
         "symbol": "MOH",
         "name": "Molina Healthcare Inc",
-        "pct": 5.59
+        "pct": 5.75
       },
       {
-        "symbol": "ELV",
-        "name": "Elevance Health, Inc.",
-        "pct": 5.38
+        "symbol": "AVAV",
+        "name": "AeroVironment, Inc.",
+        "pct": 5.47
       },
       {
         "symbol": "CNC",
         "name": "Centene Corporation",
-        "pct": 4.89
+        "pct": 5.17
+      },
+      {
+        "symbol": "ELV",
+        "name": "Elevance Health, Inc.",
+        "pct": 5.15
       },
       {
         "symbol": "CALM",
         "name": "Cal-Maine Foods, Inc.",
-        "pct": 3.67
+        "pct": 3.28
       },
       {
-        "symbol": "CF",
-        "name": "CF Industries Holdings, Inc.",
-        "pct": 2.57
+        "symbol": "HLI",
+        "name": "Houlihan Lokey, Inc.",
+        "pct": 3.2
+      },
+      {
+        "symbol": "CASY",
+        "name": "Caseys General Stores, Inc.",
+        "pct": 3.07
+      },
+      {
+        "symbol": "RSI",
+        "name": "Rush Street Interactive, Inc.",
+        "pct": 3.07
+      },
+      {
+        "symbol": "CVI",
+        "name": "CVR Energy Inc.",
+        "pct": 2.99
       },
       {
         "symbol": "BG",
         "name": "Bunge Limited",
-        "pct": 2.49
-      },
-      {
-        "symbol": "LYB",
-        "name": "LyondellBasell Industries NV",
-        "pct": 2.46
-      },
-      {
-        "symbol": "WLK",
-        "name": "Westlake Corporation",
-        "pct": 2.42
-      },
-      {
-        "symbol": "ADM",
-        "name": "Archer-Daniels-Midland Company",
-        "pct": 2.35
+        "pct": 2.68
       }
     ],
     "losers": [
       {
         "symbol": "NAVN",
         "name": "Navan, Inc.",
-        "pct": -22.81
+        "pct": -21.77
       },
       {
         "symbol": "COO",
         "name": "The Cooper Companies, Inc.",
-        "pct": -18.13
+        "pct": -17.33
       },
       {
         "symbol": "AEO",
         "name": "American Eagle Outfitters, Inc.",
-        "pct": -15.1
+        "pct": -11.93
       },
       {
         "symbol": "HBM",
         "name": "Hudbay Minerals Inc.",
-        "pct": -8.5
-      },
-      {
-        "symbol": "TECK",
-        "name": "Teck Resources Ltd",
-        "pct": -7.85
+        "pct": -8.15
       },
       {
         "symbol": "FCX",
         "name": "Freeport-McMoRan, Inc.",
-        "pct": -7.41
+        "pct": -8.11
+      },
+      {
+        "symbol": "TECK",
+        "name": "Teck Resources Ltd",
+        "pct": -7.93
+      },
+      {
+        "symbol": "BIAF",
+        "name": "bioAffinity Technologies, Inc.",
+        "pct": -7.83
       },
       {
         "symbol": "SCCO",
         "name": "Southern Copper Corporation",
-        "pct": -7.33
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -7.15
+        "pct": -7.27
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -7.07
+        "pct": -6.75
       },
       {
-        "symbol": "M",
-        "name": "Macy's Inc",
-        "pct": -6.83
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": -5.78
       }
     ],
-    "universe": 1277
+    "universe": 1295
   }
 }
