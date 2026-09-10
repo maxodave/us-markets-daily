@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-10T13:10:37Z",
-  "market_open": false,
+  "updated": "2026-09-10T13:31:45Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.48,
-      "last": 7636.36
+      "pct": -0.6,
+      "last": 7591.85
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.29,
-      "last": 29421.55
+      "pct": -1.12,
+      "last": 29093.28
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.77,
-      "last": 52380.66
+      "pct": -0.53,
+      "last": 52112.46
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
       "pct": 0.06,
-      "last": 51840.35
+      "last": 51837.51
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "IRD",
-        "name": "Opus Genetics, Inc.",
-        "pct": 32.03
+        "symbol": "AVAV",
+        "name": "AeroVironment, Inc.",
+        "pct": 7.24
       },
       {
-        "symbol": "ODD",
-        "name": "ODDITY Tech Ltd.",
-        "pct": 26.53
+        "symbol": "MOH",
+        "name": "Molina Healthcare Inc",
+        "pct": 5.59
       },
       {
-        "symbol": "SIG",
-        "name": "Signet Jewelers Limited",
-        "pct": 23.96
+        "symbol": "ELV",
+        "name": "Elevance Health, Inc.",
+        "pct": 5.38
       },
       {
-        "symbol": "BIAF",
-        "name": "bioAffinity Technologies, Inc.",
-        "pct": 17.58
+        "symbol": "CNC",
+        "name": "Centene Corporation",
+        "pct": 4.89
       },
       {
-        "symbol": "ASO",
-        "name": "Academy Sports and Outdoors, Inc.",
-        "pct": 14.4
+        "symbol": "CALM",
+        "name": "Cal-Maine Foods, Inc.",
+        "pct": 3.67
       },
       {
-        "symbol": "BAND",
-        "name": "Bandwidth Inc.",
-        "pct": 11.94
+        "symbol": "CF",
+        "name": "CF Industries Holdings, Inc.",
+        "pct": 2.57
       },
       {
-        "symbol": "NET",
-        "name": "Cloudflare, Inc.",
-        "pct": 10.51
+        "symbol": "BG",
+        "name": "Bunge Limited",
+        "pct": 2.49
       },
       {
-        "symbol": "CSR",
-        "name": "D/B/A Centerspace",
-        "pct": 8.82
+        "symbol": "LYB",
+        "name": "LyondellBasell Industries NV",
+        "pct": 2.46
       },
       {
-        "symbol": "PLSE",
-        "name": "Pulse Biosciences, Inc",
-        "pct": 8.57
+        "symbol": "WLK",
+        "name": "Westlake Corporation",
+        "pct": 2.42
       },
       {
-        "symbol": "AMBA",
-        "name": "Ambarella, Inc.",
-        "pct": 8.38
+        "symbol": "ADM",
+        "name": "Archer-Daniels-Midland Company",
+        "pct": 2.35
       }
     ],
     "losers": [
       {
-        "symbol": "TTAN",
-        "name": "ServiceTitan, Inc.",
-        "pct": -29.98
+        "symbol": "NAVN",
+        "name": "Navan, Inc.",
+        "pct": -22.81
       },
       {
-        "symbol": "TBBK",
-        "name": "The Bancorp, Inc.",
-        "pct": -22.33
+        "symbol": "COO",
+        "name": "The Cooper Companies, Inc.",
+        "pct": -18.13
       },
       {
-        "symbol": "BRZE",
-        "name": "Braze, Inc.",
-        "pct": -21.73
+        "symbol": "AEO",
+        "name": "American Eagle Outfitters, Inc.",
+        "pct": -15.1
       },
       {
-        "symbol": "TYRA",
-        "name": "Tyra Biosciences, Inc.",
-        "pct": -17.66
+        "symbol": "HBM",
+        "name": "Hudbay Minerals Inc.",
+        "pct": -8.5
       },
       {
-        "symbol": "CASY",
-        "name": "Caseys General Stores, Inc.",
-        "pct": -14.24
+        "symbol": "TECK",
+        "name": "Teck Resources Ltd",
+        "pct": -7.85
       },
       {
-        "symbol": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "pct": -11.26
+        "symbol": "FCX",
+        "name": "Freeport-McMoRan, Inc.",
+        "pct": -7.41
       },
       {
-        "symbol": "NAMS",
-        "name": "NewAmsterdam Pharma Company N.V.",
-        "pct": -11.08
+        "symbol": "SCCO",
+        "name": "Southern Copper Corporation",
+        "pct": -7.33
       },
       {
-        "symbol": "CHWY",
-        "name": "Chewy, Inc.",
-        "pct": -10.83
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -7.15
       },
       {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": -10.33
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -7.07
       },
       {
-        "symbol": "BKV",
-        "name": "BKV Corporation",
-        "pct": -9.94
+        "symbol": "M",
+        "name": "Macy's Inc",
+        "pct": -6.83
       }
     ],
-    "universe": 1298
+    "universe": 1277
   }
 }
