@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-10T16:25:33Z",
+  "updated": "2026-09-10T16:35:32Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.59,
-      "last": 7592.94
+      "pct": -0.65,
+      "last": 7588.29
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.92,
-      "last": 29150.04
+      "pct": -1.02,
+      "last": 29120.55
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.64,
-      "last": 52053.87
+      "pct": -0.7,
+      "last": 52022.46
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "AVAV",
         "name": "AeroVironment, Inc.",
-        "pct": 10.43
+        "pct": 9.37
       },
       {
         "symbol": "SWKS",
         "name": "Skyworks Solutions, Inc.",
-        "pct": 8.54
+        "pct": 9.08
       },
       {
         "symbol": "PLSE",
         "name": "Pulse Biosciences, Inc",
-        "pct": 6.31
+        "pct": 6.52
       },
       {
         "symbol": "RDDT",
         "name": "Reddit, Inc.",
-        "pct": 6.26
-      },
-      {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": 5.98
+        "pct": 6.4
       },
       {
         "symbol": "QRVO",
         "name": "Qorvo, Inc.",
-        "pct": 5.95
+        "pct": 6.33
       },
       {
-        "symbol": "MDB",
-        "name": "MongoDB, Inc.",
-        "pct": 5.12
-      },
-      {
-        "symbol": "FOUR",
-        "name": "Shift4 Payments, Inc.",
-        "pct": 5.11
+        "symbol": "NTSK",
+        "name": "Netskope, Inc.",
+        "pct": 6.12
       },
       {
         "symbol": "DPC",
         "name": "DPC Holdings PLC",
-        "pct": 5.0
+        "pct": 5.47
+      },
+      {
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "pct": 5.2
+      },
+      {
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "pct": 4.86
       },
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": 4.65
+        "pct": 4.75
       }
     ],
     "losers": [
       {
         "symbol": "NAVN",
         "name": "Navan, Inc.",
-        "pct": -20.55
+        "pct": -21.01
       },
       {
         "symbol": "AEO",
         "name": "American Eagle Outfitters, Inc.",
-        "pct": -14.89
+        "pct": -15.19
       },
       {
         "symbol": "COO",
         "name": "The Cooper Companies, Inc.",
-        "pct": -13.62
+        "pct": -13.88
       },
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "pct": -8.59
+        "pct": -8.62
       },
       {
         "symbol": "LECO",
         "name": "Lincoln Electric Holdings, Inc.",
-        "pct": -8.31
+        "pct": -8.5
       },
       {
         "symbol": "LEU",
         "name": "Centrus Energy Corp.",
+        "pct": -8.4
+      },
+      {
+        "symbol": "HBM",
+        "name": "Hudbay Minerals Inc.",
         "pct": -7.88
       },
       {
         "symbol": "GOLD",
         "name": "Gold.com, Inc.",
-        "pct": -7.72
+        "pct": -7.79
       },
       {
         "symbol": "CMPS",
         "name": "COMPASS Pathways Plc - American Depository S",
-        "pct": -7.58
-      },
-      {
-        "symbol": "HBM",
-        "name": "Hudbay Minerals Inc.",
-        "pct": -7.55
+        "pct": -7.65
       },
       {
         "symbol": "CENX",
         "name": "Century Aluminum Company",
-        "pct": -7.05
+        "pct": -7.4
       }
     ],
     "universe": 1298
