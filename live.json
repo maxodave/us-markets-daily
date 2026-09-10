@@ -1,135 +1,135 @@
 {
-  "updated": "2026-09-10T13:54:54Z",
+  "updated": "2026-09-10T14:05:40Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.64,
-      "last": 7589.03
+      "pct": -0.69,
+      "last": 7584.86
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.1,
-      "last": 29097.27
+      "pct": -1.02,
+      "last": 29121.18
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.49,
-      "last": 52132.75
+      "pct": -0.65,
+      "last": 52053.02
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.07,
-      "last": 51844.12
+      "pct": 0.03,
+      "last": 51820.85
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": 6.61
-      },
-      {
         "symbol": "AVAV",
         "name": "AeroVironment, Inc.",
-        "pct": 6.07
+        "pct": 7.39
       },
       {
-        "symbol": "MOH",
-        "name": "Molina Healthcare Inc",
-        "pct": 5.39
-      },
-      {
-        "symbol": "ELV",
-        "name": "Elevance Health, Inc.",
-        "pct": 5.35
-      },
-      {
-        "symbol": "CNC",
-        "name": "Centene Corporation",
-        "pct": 5.1
-      },
-      {
-        "symbol": "PLSE",
-        "name": "Pulse Biosciences, Inc",
-        "pct": 4.84
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "pct": 6.36
       },
       {
         "symbol": "NTSK",
         "name": "Netskope, Inc.",
-        "pct": 4.43
+        "pct": 6.05
       },
       {
         "symbol": "CHTR",
         "name": "Charter Communications, Inc.",
-        "pct": 4.24
+        "pct": 4.19
       },
       {
-        "symbol": "IRD",
-        "name": "Opus Genetics, Inc.",
-        "pct": 4.01
+        "symbol": "ELV",
+        "name": "Elevance Health, Inc.",
+        "pct": 4.17
       },
       {
-        "symbol": "SPCX",
-        "name": "Space Exploration Technologies Corp.",
-        "pct": 3.86
+        "symbol": "RDDT",
+        "name": "Reddit, Inc.",
+        "pct": 3.95
+      },
+      {
+        "symbol": "MOH",
+        "name": "Molina Healthcare Inc",
+        "pct": 3.94
+      },
+      {
+        "symbol": "CNC",
+        "name": "Centene Corporation",
+        "pct": 3.82
+      },
+      {
+        "symbol": "LFST",
+        "name": "LifeStance Health Group, Inc.",
+        "pct": 3.8
+      },
+      {
+        "symbol": "RDW",
+        "name": "Redwire Corporation",
+        "pct": 3.64
       }
     ],
     "losers": [
       {
         "symbol": "NAVN",
         "name": "Navan, Inc.",
-        "pct": -21.09
+        "pct": -19.94
       },
       {
         "symbol": "COO",
         "name": "The Cooper Companies, Inc.",
-        "pct": -15.99
+        "pct": -14.95
       },
       {
         "symbol": "AEO",
         "name": "American Eagle Outfitters, Inc.",
-        "pct": -13.94
+        "pct": -12.79
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -8.61
-      },
-      {
-        "symbol": "FCX",
-        "name": "Freeport-McMoRan, Inc.",
-        "pct": -7.8
-      },
-      {
-        "symbol": "TECK",
-        "name": "Teck Resources Ltd",
-        "pct": -7.58
+        "pct": -8.34
       },
       {
         "symbol": "HBM",
         "name": "Hudbay Minerals Inc.",
-        "pct": -7.46
+        "pct": -7.39
+      },
+      {
+        "symbol": "FCX",
+        "name": "Freeport-McMoRan, Inc.",
+        "pct": -7.35
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -7.21
+      },
+      {
+        "symbol": "TECK",
+        "name": "Teck Resources Ltd",
+        "pct": -7.18
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -7.02
+        "pct": -6.86
       },
       {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": -6.89
-      },
-      {
-        "symbol": "SCCO",
-        "name": "Southern Copper Corporation",
-        "pct": -6.68
+        "symbol": "LEU",
+        "name": "Centrus Energy Corp.",
+        "pct": -6.61
       }
     ],
     "universe": 1298
