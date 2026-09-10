@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-10T14:05:40Z",
+  "updated": "2026-09-10T14:15:41Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.69,
-      "last": 7584.86
+      "pct": -0.66,
+      "last": 7587.21
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.02,
-      "last": 29121.18
+      "pct": -1.04,
+      "last": 29116.27
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.65,
-      "last": 52053.02
+      "pct": -0.6,
+      "last": 52078.87
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.03,
-      "last": 51820.85
+      "pct": 0.01,
+      "last": 51810.71
     }
   ],
   "movers": {
@@ -32,17 +32,22 @@
       {
         "symbol": "AVAV",
         "name": "AeroVironment, Inc.",
-        "pct": 7.39
+        "pct": 8.69
+      },
+      {
+        "symbol": "ERAS",
+        "name": "Erasca, Inc.",
+        "pct": 8.47
       },
       {
         "symbol": "UI",
         "name": "Ubiquiti Inc.",
-        "pct": 6.36
+        "pct": 7.22
       },
       {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": 6.05
+        "symbol": "RDDT",
+        "name": "Reddit, Inc.",
+        "pct": 5.21
       },
       {
         "symbol": "CHTR",
@@ -52,84 +57,79 @@
       {
         "symbol": "ELV",
         "name": "Elevance Health, Inc.",
-        "pct": 4.17
-      },
-      {
-        "symbol": "RDDT",
-        "name": "Reddit, Inc.",
-        "pct": 3.95
+        "pct": 4.18
       },
       {
         "symbol": "MOH",
         "name": "Molina Healthcare Inc",
-        "pct": 3.94
+        "pct": 4.13
+      },
+      {
+        "symbol": "NTSK",
+        "name": "Netskope, Inc.",
+        "pct": 4.11
       },
       {
         "symbol": "CNC",
         "name": "Centene Corporation",
-        "pct": 3.82
+        "pct": 4.08
       },
       {
-        "symbol": "LFST",
-        "name": "LifeStance Health Group, Inc.",
-        "pct": 3.8
-      },
-      {
-        "symbol": "RDW",
-        "name": "Redwire Corporation",
-        "pct": 3.64
+        "symbol": "NXST",
+        "name": "Nexstar Media Group, Inc.",
+        "pct": 3.63
       }
     ],
     "losers": [
       {
         "symbol": "NAVN",
         "name": "Navan, Inc.",
-        "pct": -19.94
+        "pct": -20.09
       },
       {
         "symbol": "COO",
         "name": "The Cooper Companies, Inc.",
-        "pct": -14.95
+        "pct": -14.24
       },
       {
         "symbol": "AEO",
         "name": "American Eagle Outfitters, Inc.",
-        "pct": -12.79
+        "pct": -12.4
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -8.34
+        "pct": -8.31
       },
       {
         "symbol": "HBM",
         "name": "Hudbay Minerals Inc.",
-        "pct": -7.39
+        "pct": -7.69
       },
       {
-        "symbol": "FCX",
-        "name": "Freeport-McMoRan, Inc.",
-        "pct": -7.35
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -7.21
+        "symbol": "SEDG",
+        "name": "SolarEdge Technologies, Inc.",
+        "pct": -7.64
       },
       {
         "symbol": "TECK",
         "name": "Teck Resources Ltd",
-        "pct": -7.18
+        "pct": -7.59
+      },
+      {
+        "symbol": "FCX",
+        "name": "Freeport-McMoRan, Inc.",
+        "pct": -7.59
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -6.86
+        "pct": -7.33
       },
       {
-        "symbol": "LEU",
-        "name": "Centrus Energy Corp.",
-        "pct": -6.61
+        "symbol": "CMPS",
+        "name": "COMPASS Pathways Plc - American Depository S",
+        "pct": -7.19
       }
     ],
     "universe": 1298
