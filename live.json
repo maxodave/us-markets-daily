@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-10T14:40:49Z",
+  "updated": "2026-09-10T14:50:28Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.4,
-      "last": 7606.87
+      "pct": -0.5,
+      "last": 7599.8
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.61,
-      "last": 29242.39
+      "pct": -0.77,
+      "last": 29195.55
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.44,
-      "last": 52161.42
+      "pct": -0.48,
+      "last": 52137.8
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.17,
-      "last": 51895.96
+      "pct": 0.07,
+      "last": 51846.05
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "AVAV",
         "name": "AeroVironment, Inc.",
-        "pct": 11.04
-      },
-      {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": 7.15
-      },
-      {
-        "symbol": "RDDT",
-        "name": "Reddit, Inc.",
-        "pct": 5.69
-      },
-      {
-        "symbol": "TYRA",
-        "name": "Tyra Biosciences, Inc.",
-        "pct": 4.95
-      },
-      {
-        "symbol": "RDW",
-        "name": "Redwire Corporation",
-        "pct": 4.95
+        "pct": 11.93
       },
       {
         "symbol": "ERAS",
         "name": "Erasca, Inc.",
-        "pct": 4.84
+        "pct": 7.07
       },
       {
-        "symbol": "DPC",
-        "name": "DPC Holdings PLC",
-        "pct": 4.72
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "pct": 6.59
       },
       {
-        "symbol": "VSAT",
-        "name": "ViaSat, Inc.",
-        "pct": 4.69
+        "symbol": "RDDT",
+        "name": "Reddit, Inc.",
+        "pct": 6.0
+      },
+      {
+        "symbol": "RDW",
+        "name": "Redwire Corporation",
+        "pct": 5.19
+      },
+      {
+        "symbol": "TYRA",
+        "name": "Tyra Biosciences, Inc.",
+        "pct": 5.13
+      },
+      {
+        "symbol": "SAIL",
+        "name": "SailPoint, Inc.",
+        "pct": 4.95
       },
       {
         "symbol": "NXST",
         "name": "Nexstar Media Group, Inc.",
-        "pct": 4.48
+        "pct": 4.74
       },
       {
-        "symbol": "CHTR",
-        "name": "Charter Communications, Inc.",
-        "pct": 4.41
+        "symbol": "DPC",
+        "name": "DPC Holdings PLC",
+        "pct": 4.73
+      },
+      {
+        "symbol": "PLSE",
+        "name": "Pulse Biosciences, Inc",
+        "pct": 4.49
       }
     ],
     "losers": [
       {
         "symbol": "NAVN",
         "name": "Navan, Inc.",
-        "pct": -19.58
-      },
-      {
-        "symbol": "COO",
-        "name": "The Cooper Companies, Inc.",
-        "pct": -13.93
+        "pct": -19.54
       },
       {
         "symbol": "AEO",
         "name": "American Eagle Outfitters, Inc.",
-        "pct": -13.71
+        "pct": -14.51
+      },
+      {
+        "symbol": "COO",
+        "name": "The Cooper Companies, Inc.",
+        "pct": -13.09
       },
       {
         "symbol": "FCX",
         "name": "Freeport-McMoRan, Inc.",
-        "pct": -7.2
-      },
-      {
-        "symbol": "TECK",
-        "name": "Teck Resources Ltd",
-        "pct": -6.95
-      },
-      {
-        "symbol": "SIG",
-        "name": "Signet Jewelers Limited",
-        "pct": -6.49
+        "pct": -7.74
       },
       {
         "symbol": "LECO",
         "name": "Lincoln Electric Holdings, Inc.",
-        "pct": -6.48
+        "pct": -7.1
       },
       {
-        "symbol": "BKR",
-        "name": "Baker Hughes Company",
-        "pct": -6.46
+        "symbol": "TECK",
+        "name": "Teck Resources Ltd",
+        "pct": -7.1
       },
       {
         "symbol": "HBM",
         "name": "Hudbay Minerals Inc.",
-        "pct": -6.42
+        "pct": -6.8
       },
       {
-        "symbol": "CMPS",
-        "name": "COMPASS Pathways Plc - American Depository S",
-        "pct": -6.11
+        "symbol": "SIG",
+        "name": "Signet Jewelers Limited",
+        "pct": -6.78
+      },
+      {
+        "symbol": "SCCO",
+        "name": "Southern Copper Corporation",
+        "pct": -6.56
+      },
+      {
+        "symbol": "GOLD",
+        "name": "Gold.com, Inc.",
+        "pct": -6.5
       }
     ],
     "universe": 1298
