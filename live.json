@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-10T15:00:58Z",
+  "updated": "2026-09-10T15:24:49Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": -0.42,
-      "last": 7605.41
+      "last": 7606.0
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.65,
-      "last": 29231.69
+      "pct": -0.73,
+      "last": 29207.03
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.51,
-      "last": 52126.18
+      "pct": -0.45,
+      "last": 52157.57
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.14,
-      "last": 51735.23
+      "pct": 0.1,
+      "last": 51861.16
     }
   ],
   "movers": {
@@ -35,101 +35,101 @@
         "pct": 10.47
       },
       {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": 6.86
-      },
-      {
-        "symbol": "ERAS",
-        "name": "Erasca, Inc.",
-        "pct": 6.05
-      },
-      {
         "symbol": "RDDT",
         "name": "Reddit, Inc.",
-        "pct": 5.94
-      },
-      {
-        "symbol": "DPC",
-        "name": "DPC Holdings PLC",
-        "pct": 5.08
-      },
-      {
-        "symbol": "PLSE",
-        "name": "Pulse Biosciences, Inc",
-        "pct": 4.68
-      },
-      {
-        "symbol": "SAIL",
-        "name": "SailPoint, Inc.",
-        "pct": 4.66
+        "pct": 5.63
       },
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": 4.46
+        "pct": 5.51
       },
       {
-        "symbol": "RDW",
-        "name": "Redwire Corporation",
-        "pct": 4.22
+        "symbol": "DPC",
+        "name": "DPC Holdings PLC",
+        "pct": 5.4
+      },
+      {
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "pct": 4.77
+      },
+      {
+        "symbol": "PLSE",
+        "name": "Pulse Biosciences, Inc",
+        "pct": 4.74
+      },
+      {
+        "symbol": "SAIL",
+        "name": "SailPoint, Inc.",
+        "pct": 4.49
+      },
+      {
+        "symbol": "ERAS",
+        "name": "Erasca, Inc.",
+        "pct": 4.46
       },
       {
         "symbol": "CVI",
         "name": "CVR Energy Inc.",
-        "pct": 4.13
+        "pct": 4.32
+      },
+      {
+        "symbol": "UI",
+        "name": "Ubiquiti Inc.",
+        "pct": 4.21
       }
     ],
     "losers": [
       {
         "symbol": "NAVN",
         "name": "Navan, Inc.",
-        "pct": -18.68
+        "pct": -20.78
       },
       {
         "symbol": "AEO",
         "name": "American Eagle Outfitters, Inc.",
-        "pct": -14.06
+        "pct": -14.45
       },
       {
         "symbol": "COO",
         "name": "The Cooper Companies, Inc.",
-        "pct": -13.76
+        "pct": -13.58
       },
       {
         "symbol": "LECO",
         "name": "Lincoln Electric Holdings, Inc.",
-        "pct": -7.59
+        "pct": -8.36
       },
       {
-        "symbol": "FCX",
-        "name": "Freeport-McMoRan, Inc.",
-        "pct": -7.15
-      },
-      {
-        "symbol": "HBM",
-        "name": "Hudbay Minerals Inc.",
-        "pct": -7.11
-      },
-      {
-        "symbol": "TECK",
-        "name": "Teck Resources Ltd",
-        "pct": -6.94
-      },
-      {
-        "symbol": "BKR",
-        "name": "Baker Hughes Company",
-        "pct": -6.55
-      },
-      {
-        "symbol": "SIG",
-        "name": "Signet Jewelers Limited",
-        "pct": -6.43
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": -7.42
       },
       {
         "symbol": "GOLD",
         "name": "Gold.com, Inc.",
-        "pct": -6.3
+        "pct": -7.24
+      },
+      {
+        "symbol": "HBM",
+        "name": "Hudbay Minerals Inc.",
+        "pct": -7.17
+      },
+      {
+        "symbol": "FCX",
+        "name": "Freeport-McMoRan, Inc.",
+        "pct": -7.12
+      },
+      {
+        "symbol": "TECK",
+        "name": "Teck Resources Ltd",
+        "pct": -6.78
+      },
+      {
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -6.7
       }
     ],
     "universe": 1298
