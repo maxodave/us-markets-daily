@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-10T14:30:27Z",
+  "updated": "2026-09-10T14:40:49Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.47,
-      "last": 7601.95
+      "pct": -0.4,
+      "last": 7606.87
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.77,
-      "last": 29196.23
+      "pct": -0.61,
+      "last": 29242.39
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.42,
-      "last": 52172.7
+      "pct": -0.44,
+      "last": 52161.42
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.03,
-      "last": 51790.12
+      "pct": 0.17,
+      "last": 51895.96
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "AVAV",
         "name": "AeroVironment, Inc.",
-        "pct": 10.51
-      },
-      {
-        "symbol": "ERAS",
-        "name": "Erasca, Inc.",
-        "pct": 7.55
+        "pct": 11.04
       },
       {
         "symbol": "UI",
         "name": "Ubiquiti Inc.",
-        "pct": 7.46
-      },
-      {
-        "symbol": "TYRA",
-        "name": "Tyra Biosciences, Inc.",
-        "pct": 5.79
+        "pct": 7.15
       },
       {
         "symbol": "RDDT",
         "name": "Reddit, Inc.",
-        "pct": 5.61
+        "pct": 5.69
+      },
+      {
+        "symbol": "TYRA",
+        "name": "Tyra Biosciences, Inc.",
+        "pct": 4.95
       },
       {
         "symbol": "RDW",
         "name": "Redwire Corporation",
-        "pct": 5.51
+        "pct": 4.95
       },
       {
-        "symbol": "CHTR",
-        "name": "Charter Communications, Inc.",
-        "pct": 4.68
+        "symbol": "ERAS",
+        "name": "Erasca, Inc.",
+        "pct": 4.84
       },
       {
-        "symbol": "NXST",
-        "name": "Nexstar Media Group, Inc.",
-        "pct": 4.55
+        "symbol": "DPC",
+        "name": "DPC Holdings PLC",
+        "pct": 4.72
       },
       {
         "symbol": "VSAT",
         "name": "ViaSat, Inc.",
-        "pct": 4.54
+        "pct": 4.69
       },
       {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": 4.43
+        "symbol": "NXST",
+        "name": "Nexstar Media Group, Inc.",
+        "pct": 4.48
+      },
+      {
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "pct": 4.41
       }
     ],
     "losers": [
       {
         "symbol": "NAVN",
         "name": "Navan, Inc.",
-        "pct": -18.0
+        "pct": -19.58
       },
       {
         "symbol": "COO",
         "name": "The Cooper Companies, Inc.",
-        "pct": -14.51
+        "pct": -13.93
       },
       {
         "symbol": "AEO",
         "name": "American Eagle Outfitters, Inc.",
-        "pct": -12.26
-      },
-      {
-        "symbol": "SEDG",
-        "name": "SolarEdge Technologies, Inc.",
-        "pct": -8.89
+        "pct": -13.71
       },
       {
         "symbol": "FCX",
         "name": "Freeport-McMoRan, Inc.",
-        "pct": -7.35
+        "pct": -7.2
       },
       {
         "symbol": "TECK",
         "name": "Teck Resources Ltd",
-        "pct": -7.01
-      },
-      {
-        "symbol": "LECO",
-        "name": "Lincoln Electric Holdings, Inc.",
-        "pct": -6.81
-      },
-      {
-        "symbol": "HBM",
-        "name": "Hudbay Minerals Inc.",
-        "pct": -6.68
-      },
-      {
-        "symbol": "LEU",
-        "name": "Centrus Energy Corp.",
-        "pct": -6.23
+        "pct": -6.95
       },
       {
         "symbol": "SIG",
         "name": "Signet Jewelers Limited",
-        "pct": -6.08
+        "pct": -6.49
+      },
+      {
+        "symbol": "LECO",
+        "name": "Lincoln Electric Holdings, Inc.",
+        "pct": -6.48
+      },
+      {
+        "symbol": "BKR",
+        "name": "Baker Hughes Company",
+        "pct": -6.46
+      },
+      {
+        "symbol": "HBM",
+        "name": "Hudbay Minerals Inc.",
+        "pct": -6.42
+      },
+      {
+        "symbol": "CMPS",
+        "name": "COMPASS Pathways Plc - American Depository S",
+        "pct": -6.11
       }
     ],
     "universe": 1298
