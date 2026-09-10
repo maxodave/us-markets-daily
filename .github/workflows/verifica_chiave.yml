@@ -1,0 +1,100 @@
+name: Verifica chiave Claude
+
+# COLLAUDO DELLA ANTHROPIC_API_KEY. Si lancia a mano (Actions -> Run workflow) e
+# dice in due minuti se la chiave funziona davvero. Non scrive niente nel repo:
+# nessun commit, nessuna edizione toccata, nessuna pubblicazione.
+#
+# PERCHE' SERVE UN WORKFLOW SOLO PER QUESTO. Perche' il job dell'edizione NON
+# puo' dirtelo: generate_commentary.py cattura ogni eccezione ed esce con codice
+# 0 — di proposito, perche' il commento e' un extra e una chiamata AI fallita non
+# deve mai impedire la pubblicazione. L'effetto collaterale e' che una chiave
+# rifiutata e una chiave assente si comportano allo stesso modo: step verde, job
+# verde, nessuna notifica. La chiave e' scaduta il 6 settembre 2026 e per CINQUE
+# giorni il sito e' uscito senza il commento discorsivo senza che nulla lo
+# segnalasse — il ripiego (il resoconto deterministico scritto da Python) e'
+# talmente completo che la pagina sembrava piena.
+#
+# Qui la logica e' rovesciata: questo workflow esiste per FALLIRE quando la
+# chiave non va. Legge l'uscita dello script e diventa ROSSO se trova un errore
+# di autenticazione o se il commento non e' stato scritto. E' l'unico posto del
+# progetto dove un fallimento e' l'informazione utile.
+#
+# Da lanciare: ogni volta che si rinnova la chiave, e ogni volta che sul sito
+# manca il blocco blu "Commento della giornata".
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read      # in sola lettura: questo workflow non deve poter scrivere
+
+jobs:
+  verifica:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Rome
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Il secret esiste?
+        run: |
+          if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
+            echo "::error::Il secret ANTHROPIC_API_KEY non esiste o e' vuoto."
+            echo "Impostalo in Settings -> Secrets and variables -> Actions."
+            exit 1
+          fi
+          # Mai il valore, solo la forma: lunghezza e prefisso bastano a
+          # distinguere "ho incollato la chiave" da "ho incollato altro".
+          echo "Secret presente: ${#ANTHROPIC_API_KEY} caratteri, inizia per '$(printf '%.7s' "$ANTHROPIC_API_KEY")'."
+
+      - name: Chiamata vera all'API, sull'edizione piu' recente
+        run: |
+          set -o pipefail
+          # Si usa lo script VERO, non una chiamata finta: cosi' il collaudo
+          # copre anche il nome del modello, la versione dell'SDK e la forma
+          # della risposta, che sono gli altri modi in cui questo passo si e'
+          # rotto in passato.
+          python pipeline/generate_commentary.py 2>&1 | tee /tmp/esito.txt
+
+          if grep -qi "authentication_error\|AuthenticationError\|API key is invalid" /tmp/esito.txt; then
+            echo "::error::La chiave e' RIFIUTATA dall'API (401). Rinnovala e riaggiorna il secret."
+            exit 1
+          fi
+          if grep -qi "ANTHROPIC_API_KEY non impostata" /tmp/esito.txt; then
+            echo "::error::Lo script non ha visto la chiave."
+            exit 1
+          fi
+          if grep -qi "credit balance\|rate_limit\|overloaded" /tmp/esito.txt; then
+            echo "::error::La chiave e' valida ma la chiamata non passa (credito o limiti). Vedi l'uscita sopra."
+            exit 1
+          fi
+
+          # La prova positiva: il file del commento esiste e contiene prosa.
+          # Senza questo controllo passerebbe anche un'uscita silenziosa.
+          python - <<'PY'
+          import json, os, sys
+          trovato = False
+          for f in ("market_summary.json", "weekend_summary.json"):
+              if not os.path.exists(f):
+                  continue
+              d = json.load(open(f, encoding="utf-8"))
+              prosa = d.get("summary_html_it") or d.get("summary_html_en")
+              if prosa and len(prosa) > 80:
+                  print(f"OK: {f} contiene il commento ({len(prosa)} caratteri, edizione/seduta {d.get('date') or d.get('edition_date')}).")
+                  trovato = True
+          if os.path.exists("markets_brief.json"):
+              d = json.load(open("markets_brief.json", encoding="utf-8"))
+              if (d.get("prose_html_it") or d.get("prose_html_en")):
+                  print("OK: markets_brief.json contiene la prosa di 'Top Mercati'.")
+                  trovato = True
+          if not trovato:
+              print("::error::Nessun errore evidente, ma nessun commento e' stato scritto. Guarda l'uscita dello script qui sopra.")
+              sys.exit(1)
+          print("")
+          print("CHIAVE FUNZIONANTE. Il prossimo job dell'edizione includera' il commento.")
+          PY
