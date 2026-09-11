@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-11T19:46:59Z",
+  "updated": "2026-09-11T19:57:34Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.92,
-      "last": 7661.68
+      "pct": 0.89,
+      "last": 7658.89
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.0,
-      "last": 29395.57
+      "pct": 0.97,
+      "last": 29384.63
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.0,
-      "last": 52583.22
+      "pct": 0.96,
+      "last": 52562.89
     },
     {
       "key": "ftsemib",
@@ -32,59 +32,59 @@
       {
         "symbol": "ACVA",
         "name": "ACV Auctions Inc.",
-        "pct": 44.32
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": 11.22
+        "pct": 44.18
       },
       {
         "symbol": "HPE",
         "name": "Hewlett Packard Enterprise Company",
-        "pct": 11.0
+        "pct": 12.24
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": 10.22
+        "pct": 11.85
       },
       {
         "symbol": "TNON",
         "name": "Tenon Medical, Inc.",
-        "pct": 9.99
+        "pct": 11.7
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 11.18
       },
       {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "pct": 9.94
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": 9.55
-      },
-      {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "pct": 8.94
+        "pct": 9.63
       },
       {
         "symbol": "BAND",
         "name": "Bandwidth Inc.",
-        "pct": 8.94
+        "pct": 9.37
       },
       {
-        "symbol": "CPRI",
-        "name": "Capri Holdings Limited",
-        "pct": 8.46
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "pct": 8.84
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": 8.83
+      },
+      {
+        "symbol": "NTAP",
+        "name": "NetApp, Inc.",
+        "pct": 8.53
       }
     ],
     "losers": [
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "pct": -14.12
+        "pct": -15.92
       },
       {
         "symbol": "SLS",
@@ -94,42 +94,42 @@
       {
         "symbol": "DBGI",
         "name": "Digital Brands Group, Inc.",
-        "pct": -12.81
+        "pct": -10.9
       },
       {
         "symbol": "OKLO",
         "name": "Oklo Inc.",
-        "pct": -9.1
+        "pct": -8.89
       },
       {
         "symbol": "LEU",
         "name": "Centrus Energy Corp.",
-        "pct": -7.72
+        "pct": -7.91
       },
       {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "pct": -6.36
+        "pct": -7.03
+      },
+      {
+        "symbol": "KAI",
+        "name": "Kadant Inc",
+        "pct": -6.81
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "pct": -6.26
+        "pct": -6.76
       },
       {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "pct": -6.16
+        "symbol": "TYRA",
+        "name": "Tyra Biosciences, Inc.",
+        "pct": -6.24
       },
       {
-        "symbol": "RCUS",
-        "name": "Arcus Biosciences, Inc.",
-        "pct": -6.0
-      },
-      {
-        "symbol": "XE",
-        "name": "X-Energy, Inc.",
-        "pct": -5.68
+        "symbol": "TENB",
+        "name": "Tenable Holdings, Inc.",
+        "pct": -5.95
       }
     ],
     "universe": 1285
