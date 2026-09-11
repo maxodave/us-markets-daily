@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-10T20:23:08Z",
-  "market_open": false,
+  "updated": "2026-09-11T16:59:21Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.58,
-      "last": 7591.7
+      "pct": 1.03,
+      "last": 7669.92
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.08,
-      "last": 29103.51
+      "pct": 1.08,
+      "last": 29416.61
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.6,
-      "last": 52064.1
+      "pct": 1.16,
+      "last": 52666.14
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.0,
-      "last": 51807.4
+      "pct": 1.26,
+      "last": 52512.03
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "SWKS",
-        "name": "Skyworks Solutions, Inc.",
-        "pct": 9.79
+        "symbol": "TNON",
+        "name": "Tenon Medical, Inc.",
+        "pct": 73.77
       },
       {
-        "symbol": "TYRA",
-        "name": "Tyra Biosciences, Inc.",
-        "pct": 6.95
+        "symbol": "ACVA",
+        "name": "ACV Auctions Inc.",
+        "pct": 44.53
       },
       {
-        "symbol": "QRVO",
-        "name": "Qorvo, Inc.",
-        "pct": 6.77
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 10.84
       },
       {
-        "symbol": "RDDT",
-        "name": "Reddit, Inc.",
-        "pct": 6.08
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": 10.56
       },
       {
-        "symbol": "ASO",
-        "name": "Academy Sports and Outdoors, Inc.",
-        "pct": 5.99
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": 10.35
       },
       {
-        "symbol": "IRD",
-        "name": "Opus Genetics, Inc.",
-        "pct": 5.93
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise Company",
+        "pct": 10.16
       },
       {
-        "symbol": "BAND",
-        "name": "Bandwidth Inc.",
-        "pct": 5.71
+        "symbol": "SBET",
+        "name": "Sharplink, Inc.",
+        "pct": 8.72
       },
       {
-        "symbol": "CRUS",
-        "name": "Cirrus Logic, Inc.",
-        "pct": 5.2
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": 8.66
       },
       {
-        "symbol": "MNDY",
-        "name": "monday.com Ltd.",
-        "pct": 5.01
+        "symbol": "CLSK",
+        "name": "CleanSpark, Inc.",
+        "pct": 8.32
       },
       {
-        "symbol": "CHTR",
-        "name": "Charter Communications, Inc.",
-        "pct": 4.98
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 8.08
       }
     ],
     "losers": [
       {
-        "symbol": "NAVN",
-        "name": "Navan, Inc.",
-        "pct": -21.75
+        "symbol": "DBGI",
+        "name": "Digital Brands Group, Inc.",
+        "pct": -14.58
       },
       {
-        "symbol": "COO",
-        "name": "The Cooper Companies, Inc.",
-        "pct": -14.67
-      },
-      {
-        "symbol": "AEO",
-        "name": "American Eagle Outfitters, Inc.",
-        "pct": -13.97
-      },
-      {
-        "symbol": "BIAF",
-        "name": "bioAffinity Technologies, Inc.",
-        "pct": -10.57
+        "symbol": "SMR",
+        "name": "NuScale Power Corporation",
+        "pct": -14.01
       },
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "pct": -9.6
+        "pct": -8.36
       },
       {
-        "symbol": "RELY",
-        "name": "Remitly Global, Inc.",
-        "pct": -8.89
+        "symbol": "OKLO",
+        "name": "Oklo Inc.",
+        "pct": -7.07
       },
       {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": -8.76
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": -6.56
       },
       {
         "symbol": "LEU",
         "name": "Centrus Energy Corp.",
-        "pct": -8.61
+        "pct": -6.26
       },
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": -8.48
+        "symbol": "QLYS",
+        "name": "Qualys, Inc.",
+        "pct": -5.92
+      },
+      {
+        "symbol": "RCUS",
+        "name": "Arcus Biosciences, Inc.",
+        "pct": -5.81
       },
       {
         "symbol": "XE",
         "name": "X-Energy, Inc.",
-        "pct": -8.26
+        "pct": -5.33
+      },
+      {
+        "symbol": "NTSK",
+        "name": "Netskope, Inc.",
+        "pct": -4.93
       }
     ],
-    "universe": 1298
+    "universe": 1285
   }
 }
