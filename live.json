@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-11T18:58:47Z",
+  "updated": "2026-09-11T19:09:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.96,
-      "last": 7664.64
+      "pct": 0.93,
+      "last": 7662.09
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.05,
-      "last": 29410.06
+      "pct": 1.01,
+      "last": 29397.78
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.02,
-      "last": 52593.86
+      "pct": 0.98,
+      "last": 52574.54
     },
     {
       "key": "ftsemib",
@@ -37,54 +37,54 @@
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 11.27
+        "pct": 11.09
       },
       {
         "symbol": "HPE",
         "name": "Hewlett Packard Enterprise Company",
-        "pct": 10.74
+        "pct": 10.87
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": 10.45
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": 9.4
+        "pct": 10.33
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": 9.22
+        "pct": 10.03
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": 9.88
       },
       {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "pct": 9.17
+        "pct": 9.33
+      },
+      {
+        "symbol": "TNON",
+        "name": "Tenon Medical, Inc.",
+        "pct": 8.68
       },
       {
         "symbol": "BAND",
         "name": "Bandwidth Inc.",
-        "pct": 8.54
+        "pct": 8.39
       },
       {
-        "symbol": "HPQ",
-        "name": "HP Inc.",
-        "pct": 8.25
-      },
-      {
-        "symbol": "FLEX",
-        "name": "Flex Ltd.",
-        "pct": 8.13
+        "symbol": "NTAP",
+        "name": "NetApp, Inc.",
+        "pct": 8.22
       }
     ],
     "losers": [
       {
         "symbol": "DBGI",
         "name": "Digital Brands Group, Inc.",
-        "pct": -15.32
+        "pct": -14.87
       },
       {
         "symbol": "SMR",
@@ -94,42 +94,42 @@
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -12.97
+        "pct": -13.34
       },
       {
         "symbol": "OKLO",
         "name": "Oklo Inc.",
-        "pct": -7.82
+        "pct": -7.8
       },
       {
         "symbol": "LEU",
         "name": "Centrus Energy Corp.",
-        "pct": -6.95
-      },
-      {
-        "symbol": "RCUS",
-        "name": "Arcus Biosciences, Inc.",
-        "pct": -6.31
+        "pct": -7.16
       },
       {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "pct": -6.31
+        "pct": -6.2
+      },
+      {
+        "symbol": "RCUS",
+        "name": "Arcus Biosciences, Inc.",
+        "pct": -6.0
       },
       {
         "symbol": "XE",
         "name": "X-Energy, Inc.",
-        "pct": -5.78
+        "pct": -5.9
       },
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "pct": -5.64
+        "pct": -5.82
       },
       {
-        "symbol": "TENB",
-        "name": "Tenable Holdings, Inc.",
-        "pct": -5.2
+        "symbol": "TYRA",
+        "name": "Tyra Biosciences, Inc.",
+        "pct": -5.71
       }
     ],
     "universe": 1285
