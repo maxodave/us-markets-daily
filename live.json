@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-11T18:15:37Z",
+  "updated": "2026-09-11T18:26:27Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.02,
-      "last": 7668.8
+      "pct": 1.0,
+      "last": 7667.32
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.08,
-      "last": 29417.17
+      "pct": 1.07,
+      "last": 29414.62
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.1,
-      "last": 52635.28
+      "pct": 1.05,
+      "last": 52611.21
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ACVA",
         "name": "ACV Auctions Inc.",
-        "pct": 44.6
-      },
-      {
-        "symbol": "TNON",
-        "name": "Tenon Medical, Inc.",
-        "pct": 12.64
+        "pct": 44.46
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 11.37
-      },
-      {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise Company",
-        "pct": 10.68
+        "pct": 11.27
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": 10.41
+        "pct": 10.79
+      },
+      {
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise Company",
+        "pct": 10.71
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": 8.95
-      },
-      {
-        "symbol": "FLEX",
-        "name": "Flex Ltd.",
-        "pct": 8.88
+        "pct": 9.61
       },
       {
         "symbol": "BAND",
         "name": "Bandwidth Inc.",
-        "pct": 8.72
+        "pct": 8.93
+      },
+      {
+        "symbol": "HTFL",
+        "name": "Heartflow, Inc.",
+        "pct": 8.57
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 8.56
+      },
+      {
+        "symbol": "FLEX",
+        "name": "Flex Ltd.",
+        "pct": 8.51
       },
       {
         "symbol": "CDW",
         "name": "CDW Corporation",
-        "pct": 8.5
-      },
-      {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "pct": 8.34
+        "pct": 8.36
       }
     ],
     "losers": [
       {
         "symbol": "DBGI",
         "name": "Digital Brands Group, Inc.",
-        "pct": -17.82
-      },
-      {
-        "symbol": "SMR",
-        "name": "NuScale Power Corporation",
-        "pct": -13.29
+        "pct": -19.44
       },
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -13.16
+        "pct": -13.49
+      },
+      {
+        "symbol": "SMR",
+        "name": "NuScale Power Corporation",
+        "pct": -12.98
       },
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "pct": -8.0
+        "pct": -7.79
       },
       {
         "symbol": "OKLO",
         "name": "Oklo Inc.",
-        "pct": -7.4
+        "pct": -7.31
       },
       {
         "symbol": "LEU",
         "name": "Centrus Energy Corp.",
-        "pct": -6.74
-      },
-      {
-        "symbol": "RCUS",
-        "name": "Arcus Biosciences, Inc.",
-        "pct": -6.31
+        "pct": -7.01
       },
       {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "pct": -5.64
+        "pct": -6.76
+      },
+      {
+        "symbol": "RCUS",
+        "name": "Arcus Biosciences, Inc.",
+        "pct": -6.23
       },
       {
         "symbol": "XE",
         "name": "X-Energy, Inc.",
-        "pct": -5.56
+        "pct": -5.65
       },
       {
         "symbol": "SEDG",
         "name": "SolarEdge Technologies, Inc.",
-        "pct": -4.98
+        "pct": -5.33
       }
     ],
     "universe": 1285
