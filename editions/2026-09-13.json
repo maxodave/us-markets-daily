@@ -1,0 +1,3528 @@
+{
+  "edition_date": "2026-09-13",
+  "edition_date_it": "13 settembre 2026",
+  "edition_date_en": "September 13, 2026",
+  "session_date": "2026-09-11",
+  "session_date_it": "11 settembre 2026",
+  "session_date_en": "September 11, 2026",
+  "edition_kind": "weekend_recap",
+  "headline": "Mercati chiusi: le notizie di sabato in sintesi",
+  "headline_en": "Markets closed: Saturday's news in brief",
+  "auto_report": {
+    "stats": {
+      "n_up": 335,
+      "n_down": 166,
+      "n_flat": 2,
+      "n_total": 503,
+      "avg_pct": 0.8,
+      "best_sectors": [
+        {
+          "sector": "Information Technology",
+          "avg_pct": 2.51
+        },
+        {
+          "sector": "Communication Services",
+          "avg_pct": 1.15
+        },
+        {
+          "sector": "Industrials",
+          "avg_pct": 1.01
+        }
+      ],
+      "worst_sectors": [
+        {
+          "sector": "Utilities",
+          "avg_pct": -0.36
+        },
+        {
+          "sector": "Energy",
+          "avg_pct": 0.05
+        },
+        {
+          "sector": "Consumer Staples",
+          "avg_pct": 0.08
+        }
+      ]
+    },
+    "paragraphs": [
+      "Nella seduta del 11 settembre 2026 l'S&P 500 ha chiuso con 335 societa' in rialzo, 166 in ribasso e 2 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di +0,80%.",
+      "Settori con la variazione media migliore: Information Technology (+2,51%); Communication Services (+1,15%); Industrials (+1,01%). Settori piu' debolli: Utilities (-0,36%); Energy (+0,05%); Consumer Staples (+0,08%).",
+      "In cima alla seduta: Hewlett Packard Enterprise (HPE, +12,44%); Dell Technologies (DELL, +11,98%); NetApp (NTAP, +8,54%). In fondo: Albemarle Corporation (ALB, -3,76%); Seagate Technology (STX, -3,73%); Sandisk (SNDK, -3,50%)."
+    ],
+    "gainers": [
+      {
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise",
+        "sector": "Information Technology",
+        "pct_change": 12.44,
+        "last_close": 62.09,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies",
+        "sector": "Information Technology",
+        "pct_change": 11.98,
+        "last_close": 567.29,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "NTAP",
+        "name": "NetApp",
+        "sector": "Information Technology",
+        "pct_change": 8.54,
+        "last_close": 199.28,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "ON",
+        "name": "ON Semiconductor",
+        "sector": "Information Technology",
+        "pct_change": 8.51,
+        "last_close": 76.14,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "HPQ",
+        "name": "HP Inc.",
+        "sector": "Information Technology",
+        "pct_change": 8.4,
+        "last_close": 35.48,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CDW",
+        "name": "CDW Corporation",
+        "sector": "Information Technology",
+        "pct_change": 7.85,
+        "last_close": 153.79,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "SMCI",
+        "name": "Supermicro",
+        "sector": "Information Technology",
+        "pct_change": 7.28,
+        "last_close": 40.1,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "FLEX",
+        "name": "Flex Ltd.",
+        "sector": "Information Technology",
+        "pct_change": 7.19,
+        "last_close": 115.78,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "FIX",
+        "name": "Comfort Systems USA",
+        "sector": "Industrials",
+        "pct_change": 6.29,
+        "last_close": 1690.82,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "ANET",
+        "name": "Arista Networks",
+        "sector": "Information Technology",
+        "pct_change": 5.61,
+        "last_close": 199.59,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "ALB",
+        "name": "Albemarle Corporation",
+        "sector": "Materials",
+        "pct_change": -3.76,
+        "last_close": 117.52,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "STX",
+        "name": "Seagate Technology",
+        "sector": "Information Technology",
+        "pct_change": -3.73,
+        "last_close": 830.17,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "SNDK",
+        "name": "Sandisk",
+        "sector": "Information Technology",
+        "pct_change": -3.5,
+        "last_close": 1633.35,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "WDC",
+        "name": "Western Digital",
+        "sector": "Information Technology",
+        "pct_change": -2.98,
+        "last_close": 447.18,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "EW",
+        "name": "Edwards Lifesciences",
+        "sector": "Health Care",
+        "pct_change": -2.77,
+        "last_close": 84.37,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CPRT",
+        "name": "Copart",
+        "sector": "Industrials",
+        "pct_change": -2.6,
+        "last_close": 29.95,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "UNH",
+        "name": "UnitedHealth Group",
+        "sector": "Health Care",
+        "pct_change": -2.37,
+        "last_close": 379.09,
+        "indices": [
+          "sp500",
+          "dow"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "PANW",
+        "name": "Palo Alto Networks",
+        "sector": "Information Technology",
+        "pct_change": -2.32,
+        "last_close": 330.65,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets",
+        "sector": "Financials",
+        "pct_change": -2.24,
+        "last_close": 281.04,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "EXE",
+        "name": "Expand Energy",
+        "sector": "Energy",
+        "pct_change": -2.11,
+        "last_close": 94.83,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      }
+    ]
+  },
+  "auto_report_by_index": {
+    "sp500": {
+      "stats": {
+        "n_up": 335,
+        "n_down": 166,
+        "n_flat": 2,
+        "n_total": 503,
+        "avg_pct": 0.8,
+        "best_sectors": [
+          {
+            "sector": "Information Technology",
+            "avg_pct": 2.51
+          },
+          {
+            "sector": "Communication Services",
+            "avg_pct": 1.15
+          },
+          {
+            "sector": "Industrials",
+            "avg_pct": 1.01
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Utilities",
+            "avg_pct": -0.36
+          },
+          {
+            "sector": "Energy",
+            "avg_pct": 0.05
+          },
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": 0.08
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "HPE",
+          "name": "Hewlett Packard Enterprise",
+          "sector": "Information Technology",
+          "pct_change": 12.44,
+          "last_close": 62.09,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DELL",
+          "name": "Dell Technologies",
+          "sector": "Information Technology",
+          "pct_change": 11.98,
+          "last_close": 567.29,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NTAP",
+          "name": "NetApp",
+          "sector": "Information Technology",
+          "pct_change": 8.54,
+          "last_close": 199.28,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ON",
+          "name": "ON Semiconductor",
+          "sector": "Information Technology",
+          "pct_change": 8.51,
+          "last_close": 76.14,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HPQ",
+          "name": "HP Inc.",
+          "sector": "Information Technology",
+          "pct_change": 8.4,
+          "last_close": 35.48,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CDW",
+          "name": "CDW Corporation",
+          "sector": "Information Technology",
+          "pct_change": 7.85,
+          "last_close": 153.79,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SMCI",
+          "name": "Supermicro",
+          "sector": "Information Technology",
+          "pct_change": 7.28,
+          "last_close": 40.1,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FLEX",
+          "name": "Flex Ltd.",
+          "sector": "Information Technology",
+          "pct_change": 7.19,
+          "last_close": 115.78,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FIX",
+          "name": "Comfort Systems USA",
+          "sector": "Industrials",
+          "pct_change": 6.29,
+          "last_close": 1690.82,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ANET",
+          "name": "Arista Networks",
+          "sector": "Information Technology",
+          "pct_change": 5.61,
+          "last_close": 199.59,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "ALB",
+          "name": "Albemarle Corporation",
+          "sector": "Materials",
+          "pct_change": -3.76,
+          "last_close": 117.52,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STX",
+          "name": "Seagate Technology",
+          "sector": "Information Technology",
+          "pct_change": -3.73,
+          "last_close": 830.17,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SNDK",
+          "name": "Sandisk",
+          "sector": "Information Technology",
+          "pct_change": -3.5,
+          "last_close": 1633.35,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "WDC",
+          "name": "Western Digital",
+          "sector": "Information Technology",
+          "pct_change": -2.98,
+          "last_close": 447.18,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EW",
+          "name": "Edwards Lifesciences",
+          "sector": "Health Care",
+          "pct_change": -2.77,
+          "last_close": 84.37,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CPRT",
+          "name": "Copart",
+          "sector": "Industrials",
+          "pct_change": -2.6,
+          "last_close": 29.95,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group",
+          "sector": "Health Care",
+          "pct_change": -2.37,
+          "last_close": 379.09,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PANW",
+          "name": "Palo Alto Networks",
+          "sector": "Information Technology",
+          "pct_change": -2.32,
+          "last_close": 330.65,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CBOE",
+          "name": "Cboe Global Markets",
+          "sector": "Financials",
+          "pct_change": -2.24,
+          "last_close": 281.04,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EXE",
+          "name": "Expand Energy",
+          "sector": "Energy",
+          "pct_change": -2.11,
+          "last_close": 94.83,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the September 11, 2026 session the S&P 500 closed with 335 stocks higher, 166 lower and 2 unchanged, out of 503 tracked. The average move was +0.80%.",
+          "Best-performing sectors by average move: Information Technology (+2.51%); Communication Services (+1.15%); Industrials (+1.01%). Weakest: Utilities (-0.36%); Energy (+0.05%); Consumer Staples (+0.08%).",
+          "Leading the session: Hewlett Packard Enterprise (HPE, +12.44%); Dell Technologies (DELL, +11.98%); NetApp (NTAP, +8.54%). At the bottom: Albemarle Corporation (ALB, -3.76%); Seagate Technology (STX, -3.73%); Sandisk (SNDK, -3.50%)."
+        ],
+        "it": [
+          "Nella seduta del 11 settembre 2026 l'S&P 500 ha chiuso con 335 societa' in rialzo, 166 in ribasso e 2 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di +0,80%.",
+          "Settori con la variazione media migliore: Information Technology (+2,51%); Communication Services (+1,15%); Industrials (+1,01%). Settori piu' debolli: Utilities (-0,36%); Energy (+0,05%); Consumer Staples (+0,08%).",
+          "In cima alla seduta: Hewlett Packard Enterprise (HPE, +12,44%); Dell Technologies (DELL, +11,98%); NetApp (NTAP, +8,54%). In fondo: Albemarle Corporation (ALB, -3,76%); Seagate Technology (STX, -3,73%); Sandisk (SNDK, -3,50%)."
+        ]
+      }
+    },
+    "dow": {
+      "stats": {
+        "n_up": 24,
+        "n_down": 6,
+        "n_flat": 0,
+        "n_total": 30,
+        "avg_pct": 1.05,
+        "best_sectors": [
+          {
+            "sector": "Information Technology",
+            "avg_pct": 2.11
+          },
+          {
+            "sector": "Industrials",
+            "avg_pct": 1.46
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": 1.18
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Health Care",
+            "avg_pct": -1.14
+          },
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": 0.8
+          },
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": 1.16
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "CSCO",
+          "name": "Cisco",
+          "sector": "Information Technology",
+          "pct_change": 4.37,
+          "last_close": 112.13,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IBM",
+          "name": "IBM",
+          "sector": "Information Technology",
+          "pct_change": 3.96,
+          "last_close": 243.29,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BA",
+          "name": "Boeing",
+          "sector": "Industrials",
+          "pct_change": 2.76,
+          "last_close": 210.45,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRV",
+          "name": "Travelers Companies (The)",
+          "sector": "Financials",
+          "pct_change": 2.08,
+          "last_close": 375.2,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon",
+          "sector": "Consumer Discretionary",
+          "pct_change": 1.94,
+          "last_close": 256.78,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CRM",
+          "name": "Salesforce",
+          "sector": "Information Technology",
+          "pct_change": 1.94,
+          "last_close": 247.72,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SHW",
+          "name": "Sherwin-Williams",
+          "sector": "Materials",
+          "pct_change": 1.85,
+          "last_close": 323.31,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc. (Class A)",
+          "sector": "Communication Services",
+          "pct_change": 1.77,
+          "last_close": 338.5,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc.",
+          "sector": "Information Technology",
+          "pct_change": 1.75,
+          "last_close": 332.27,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CAT",
+          "name": "Caterpillar Inc.",
+          "sector": "Industrials",
+          "pct_change": 1.69,
+          "last_close": 818.57,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group",
+          "sector": "Health Care",
+          "pct_change": -2.37,
+          "last_close": 379.09,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMGN",
+          "name": "Amgen",
+          "sector": "Health Care",
+          "pct_change": -1.34,
+          "last_close": 377.35,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MRK",
+          "name": "Merck & Co.",
+          "sector": "Health Care",
+          "pct_change": -0.54,
+          "last_close": 143.93,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "JNJ",
+          "name": "Johnson & Johnson",
+          "sector": "Health Care",
+          "pct_change": -0.29,
+          "last_close": 265.58,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MCD",
+          "name": "McDonald's",
+          "sector": "Consumer Discretionary",
+          "pct_change": -0.21,
+          "last_close": 252.53,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NVDA",
+          "name": "Nvidia",
+          "sector": "Information Technology",
+          "pct_change": -0.03,
+          "last_close": 218.29,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HON",
+          "name": "Honeywell Technologies",
+          "sector": "Industrials",
+          "pct_change": 0.09,
+          "last_close": 202.36,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NKE",
+          "name": "Nike, Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": 0.49,
+          "last_close": 36.8,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "KO",
+          "name": "Coca-Cola Company (The)",
+          "sector": "Consumer Staples",
+          "pct_change": 0.52,
+          "last_close": 88.29,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CVX",
+          "name": "Chevron Corporation",
+          "sector": "Energy",
+          "pct_change": 0.61,
+          "last_close": 214.06,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the September 11, 2026 session the Dow Jones closed with 24 stocks higher, 6 lower, out of 30 tracked. The average move was +1.05%.",
+          "Best-performing sectors by average move: Information Technology (+2.11%); Industrials (+1.46%); Financials (+1.18%). Weakest: Health Care (-1.14%); Consumer Discretionary (+0.80%); Consumer Staples (+1.16%).",
+          "Leading the session: Cisco (CSCO, +4.37%); IBM (IBM, +3.96%); Boeing (BA, +2.76%). At the bottom: UnitedHealth Group (UNH, -2.37%); Amgen (AMGN, -1.34%); Merck & Co. (MRK, -0.54%)."
+        ],
+        "it": [
+          "Nella seduta del 11 settembre 2026 il Dow Jones ha chiuso con 24 societa' in rialzo, 6 in ribasso, su 30 titoli monitorati. La variazione media dell'indice e' stata di +1,05%.",
+          "Settori con la variazione media migliore: Information Technology (+2,11%); Industrials (+1,46%); Financials (+1,18%). Settori piu' debolli: Health Care (-1,14%); Consumer Discretionary (+0,80%); Consumer Staples (+1,16%).",
+          "In cima alla seduta: Cisco (CSCO, +4,37%); IBM (IBM, +3,96%); Boeing (BA, +2,76%). In fondo: UnitedHealth Group (UNH, -2,37%); Amgen (AMGN, -1,34%); Merck & Co. (MRK, -0,54%)."
+        ]
+      }
+    },
+    "nasdaq100": {
+      "stats": {
+        "n_up": 65,
+        "n_down": 37,
+        "n_flat": 0,
+        "n_total": 102,
+        "avg_pct": 0.71,
+        "best_sectors": [
+          {
+            "sector": "Technology",
+            "avg_pct": 1.19
+          },
+          {
+            "sector": "Communication Services",
+            "avg_pct": 1.17
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": 1.02
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Health Care",
+            "avg_pct": -0.35
+          },
+          {
+            "sector": "Utilities",
+            "avg_pct": -0.24
+          },
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": 0.32
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "ADI",
+          "name": "Analog Devices",
+          "sector": "Information Technology",
+          "pct_change": 4.85,
+          "last_close": 378.78,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NXPI",
+          "name": "NXP Semiconductors",
+          "sector": "Information Technology",
+          "pct_change": 4.48,
+          "last_close": 236.62,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco",
+          "sector": "Information Technology",
+          "pct_change": 4.37,
+          "last_close": 112.13,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ARM",
+          "name": "Arm Holdings",
+          "sector": "Technology",
+          "pct_change": 4.17,
+          "last_close": 264.79,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MPWR",
+          "name": "Monolithic Power Systems",
+          "sector": "Information Technology",
+          "pct_change": 4.08,
+          "last_close": 1234.46,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MRVL",
+          "name": "Marvell Technology",
+          "sector": "Information Technology",
+          "pct_change": 4.03,
+          "last_close": 236.1,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TXN",
+          "name": "Texas Instruments",
+          "sector": "Information Technology",
+          "pct_change": 3.82,
+          "last_close": 268.7,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MCHP",
+          "name": "Microchip Technology",
+          "sector": "Information Technology",
+          "pct_change": 3.66,
+          "last_close": 74.2,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "APP",
+          "name": "AppLovin",
+          "sector": "Communication Services",
+          "pct_change": 3.01,
+          "last_close": 323.96,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HONA",
+          "name": "Honeywell Aerospace",
+          "sector": "Industrials",
+          "pct_change": 2.93,
+          "last_close": 158.26,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "STX",
+          "name": "Seagate Technology",
+          "sector": "Information Technology",
+          "pct_change": -3.73,
+          "last_close": 830.17,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SNDK",
+          "name": "Sandisk",
+          "sector": "Information Technology",
+          "pct_change": -3.5,
+          "last_close": 1633.35,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "WDC",
+          "name": "Western Digital",
+          "sector": "Information Technology",
+          "pct_change": -2.98,
+          "last_close": 447.18,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CPRT",
+          "name": "Copart",
+          "sector": "Industrials",
+          "pct_change": -2.6,
+          "last_close": 29.95,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PANW",
+          "name": "Palo Alto Networks",
+          "sector": "Information Technology",
+          "pct_change": -2.32,
+          "last_close": 330.65,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FTNT",
+          "name": "Fortinet",
+          "sector": "Information Technology",
+          "pct_change": -1.75,
+          "last_close": 156.07,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DXCM",
+          "name": "Dexcom",
+          "sector": "Health Care",
+          "pct_change": -1.75,
+          "last_close": 83.03,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NBIS",
+          "name": "Nebius Group",
+          "sector": "Technology",
+          "pct_change": -1.56,
+          "last_close": 224.55,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "REGN",
+          "name": "Regeneron Pharmaceuticals",
+          "sector": "Health Care",
+          "pct_change": -1.48,
+          "last_close": 781.49,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMGN",
+          "name": "Amgen",
+          "sector": "Health Care",
+          "pct_change": -1.34,
+          "last_close": 377.35,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the September 11, 2026 session the Nasdaq-100 closed with 65 stocks higher, 37 lower, out of 102 tracked. The average move was +0.71%.",
+          "Best-performing sectors by average move: Technology (+1.19%); Communication Services (+1.17%); Information Technology (+1.02%). Weakest: Health Care (-0.35%); Utilities (-0.24%); Consumer Staples (+0.32%).",
+          "Leading the session: Analog Devices (ADI, +4.85%); NXP Semiconductors (NXPI, +4.48%); Cisco (CSCO, +4.37%). At the bottom: Seagate Technology (STX, -3.73%); Sandisk (SNDK, -3.50%); Western Digital (WDC, -2.98%)."
+        ],
+        "it": [
+          "Nella seduta del 11 settembre 2026 il Nasdaq-100 ha chiuso con 65 societa' in rialzo, 37 in ribasso, su 102 titoli monitorati. La variazione media dell'indice e' stata di +0,71%.",
+          "Settori con la variazione media migliore: Technology (+1,19%); Communication Services (+1,17%); Information Technology (+1,02%). Settori piu' debolli: Health Care (-0,35%); Utilities (-0,24%); Consumer Staples (+0,32%).",
+          "In cima alla seduta: Analog Devices (ADI, +4,85%); NXP Semiconductors (NXPI, +4,48%); Cisco (CSCO, +4,37%). In fondo: Seagate Technology (STX, -3,73%); Sandisk (SNDK, -3,50%); Western Digital (WDC, -2,98%)."
+        ]
+      }
+    },
+    "ftsemib": {
+      "stats": {
+        "n_up": 31,
+        "n_down": 8,
+        "n_flat": 1,
+        "n_total": 40,
+        "avg_pct": 1.11,
+        "best_sectors": [
+          {
+            "sector": "Banks",
+            "avg_pct": 1.81
+          },
+          {
+            "sector": "Financial Services",
+            "avg_pct": 1.52
+          },
+          {
+            "sector": "Industrial Goods and Services",
+            "avg_pct": 1.18
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Energy",
+            "avg_pct": 0.07
+          },
+          {
+            "sector": "Utilities",
+            "avg_pct": 0.32
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": 0.41
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "AVIO.MI",
+          "name": "Avio",
+          "sector": "Aerospace",
+          "pct_change": 3.89,
+          "last_close": 29.1,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PRY.MI",
+          "name": "Prysmian",
+          "sector": "Industrial Goods and Services",
+          "pct_change": 2.95,
+          "last_close": 127.25,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INW.MI",
+          "name": "INWIT",
+          "sector": "Telecommunications",
+          "pct_change": 2.75,
+          "last_close": 6.53,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STLAM.MI",
+          "name": "Stellantis",
+          "sector": "Automobiles and Parts",
+          "pct_change": 2.72,
+          "last_close": 4.67,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ISP.MI",
+          "name": "Intesa Sanpaolo",
+          "sector": "Banks",
+          "pct_change": 2.55,
+          "last_close": 6.83,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MONC.MI",
+          "name": "Moncler",
+          "sector": "Consumer Products and Services",
+          "pct_change": 2.5,
+          "last_close": 44.69,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BMPS.MI",
+          "name": "Banca Monte dei Paschi di Siena",
+          "sector": "Banks",
+          "pct_change": 2.46,
+          "last_close": 11.98,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MB.MI",
+          "name": "Mediobanca",
+          "sector": "Banks",
+          "pct_change": 2.41,
+          "last_close": 28.9,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STMMI.MI",
+          "name": "STMicroelectronics",
+          "sector": "Technology",
+          "pct_change": 2.38,
+          "last_close": 44.67,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PST.MI",
+          "name": "Poste italiane",
+          "sector": "Financial Services",
+          "pct_change": 1.92,
+          "last_close": 26.06,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "SPM.MI",
+          "name": "Saipem",
+          "sector": "Energy",
+          "pct_change": -1.24,
+          "last_close": 4.31,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LTMC.MI",
+          "name": "Lottomatica Group",
+          "sector": "Gambling",
+          "pct_change": -0.62,
+          "last_close": 27.33,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CPR.MI",
+          "name": "Campari",
+          "sector": "Food, Beverage and Tobacco",
+          "pct_change": -0.38,
+          "last_close": 5.72,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DIA.MI",
+          "name": "Diasorin",
+          "sector": "Health Care",
+          "pct_change": -0.27,
+          "last_close": 73.4,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ENI.MI",
+          "name": "Eni",
+          "sector": "Energy",
+          "pct_change": -0.23,
+          "last_close": 24.0,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRN.MI",
+          "name": "Terna",
+          "sector": "Utilities",
+          "pct_change": -0.11,
+          "last_close": 9.2,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LDO.MI",
+          "name": "Leonardo",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -0.06,
+          "last_close": 50.0,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IVG.MI",
+          "name": "Iveco",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -0.04,
+          "last_close": 14.05,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "REC.MI",
+          "name": "Recordati",
+          "sector": "Health Care",
+          "pct_change": 0.0,
+          "last_close": 52.0,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IG.MI",
+          "name": "Italgas",
+          "sector": "Utilities",
+          "pct_change": 0.07,
+          "last_close": 8.28,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the September 11, 2026 session the FTSE MIB closed with 31 stocks higher, 8 lower and 1 unchanged, out of 40 tracked. The average move was +1.11%.",
+          "Best-performing sectors by average move: Banks (+1.81%); Financial Services (+1.52%); Industrial Goods and Services (+1.18%). Weakest: Energy (+0.07%); Utilities (+0.32%); Health Care (+0.41%).",
+          "Leading the session: Avio (AVIO.MI, +3.89%); Prysmian (PRY.MI, +2.95%); INWIT (INW.MI, +2.75%). At the bottom: Saipem (SPM.MI, -1.24%); Lottomatica Group (LTMC.MI, -0.62%); Campari (CPR.MI, -0.38%)."
+        ],
+        "it": [
+          "Nella seduta del 11 settembre 2026 il FTSE MIB ha chiuso con 31 societa' in rialzo, 8 in ribasso e 1 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di +1,11%.",
+          "Settori con la variazione media migliore: Banks (+1,81%); Financial Services (+1,52%); Industrial Goods and Services (+1,18%). Settori piu' debolli: Energy (+0,07%); Utilities (+0,32%); Health Care (+0,41%).",
+          "In cima alla seduta: Avio (AVIO.MI, +3,89%); Prysmian (PRY.MI, +2,95%); INWIT (INW.MI, +2,75%). In fondo: Saipem (SPM.MI, -1,24%); Lottomatica Group (LTMC.MI, -0,62%); Campari (CPR.MI, -0,38%)."
+        ]
+      }
+    },
+    "combined": {
+      "stats": {
+        "n_up": 345,
+        "n_down": 171,
+        "n_flat": 2,
+        "n_total": 518,
+        "avg_pct": 0.8,
+        "best_sectors": [
+          {
+            "sector": "Information Technology",
+            "avg_pct": 2.51
+          },
+          {
+            "sector": "Technology",
+            "avg_pct": 1.19
+          },
+          {
+            "sector": "Communication Services",
+            "avg_pct": 1.15
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Utilities",
+            "avg_pct": -0.36
+          },
+          {
+            "sector": "Energy",
+            "avg_pct": 0.05
+          },
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": 0.08
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "HPE",
+          "name": "Hewlett Packard Enterprise",
+          "sector": "Information Technology",
+          "pct_change": 12.44,
+          "last_close": 62.09,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DELL",
+          "name": "Dell Technologies",
+          "sector": "Information Technology",
+          "pct_change": 11.98,
+          "last_close": 567.29,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NTAP",
+          "name": "NetApp",
+          "sector": "Information Technology",
+          "pct_change": 8.54,
+          "last_close": 199.28,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ON",
+          "name": "ON Semiconductor",
+          "sector": "Information Technology",
+          "pct_change": 8.51,
+          "last_close": 76.14,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HPQ",
+          "name": "HP Inc.",
+          "sector": "Information Technology",
+          "pct_change": 8.4,
+          "last_close": 35.48,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CDW",
+          "name": "CDW Corporation",
+          "sector": "Information Technology",
+          "pct_change": 7.85,
+          "last_close": 153.79,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SMCI",
+          "name": "Supermicro",
+          "sector": "Information Technology",
+          "pct_change": 7.28,
+          "last_close": 40.1,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FLEX",
+          "name": "Flex Ltd.",
+          "sector": "Information Technology",
+          "pct_change": 7.19,
+          "last_close": 115.78,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FIX",
+          "name": "Comfort Systems USA",
+          "sector": "Industrials",
+          "pct_change": 6.29,
+          "last_close": 1690.82,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ANET",
+          "name": "Arista Networks",
+          "sector": "Information Technology",
+          "pct_change": 5.61,
+          "last_close": 199.59,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "ALB",
+          "name": "Albemarle Corporation",
+          "sector": "Materials",
+          "pct_change": -3.76,
+          "last_close": 117.52,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STX",
+          "name": "Seagate Technology",
+          "sector": "Information Technology",
+          "pct_change": -3.73,
+          "last_close": 830.17,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SNDK",
+          "name": "Sandisk",
+          "sector": "Information Technology",
+          "pct_change": -3.5,
+          "last_close": 1633.35,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "WDC",
+          "name": "Western Digital",
+          "sector": "Information Technology",
+          "pct_change": -2.98,
+          "last_close": 447.18,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EW",
+          "name": "Edwards Lifesciences",
+          "sector": "Health Care",
+          "pct_change": -2.77,
+          "last_close": 84.37,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CPRT",
+          "name": "Copart",
+          "sector": "Industrials",
+          "pct_change": -2.6,
+          "last_close": 29.95,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group",
+          "sector": "Health Care",
+          "pct_change": -2.37,
+          "last_close": 379.09,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PANW",
+          "name": "Palo Alto Networks",
+          "sector": "Information Technology",
+          "pct_change": -2.32,
+          "last_close": 330.65,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CBOE",
+          "name": "Cboe Global Markets",
+          "sector": "Financials",
+          "pct_change": -2.24,
+          "last_close": 281.04,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EXE",
+          "name": "Expand Energy",
+          "sector": "Energy",
+          "pct_change": -2.11,
+          "last_close": 94.83,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the September 11, 2026 session the combined three U.S. indices closed with 345 stocks higher, 171 lower and 2 unchanged, out of 518 tracked. The average move was +0.80%.",
+          "Best-performing sectors by average move: Information Technology (+2.51%); Technology (+1.19%); Communication Services (+1.15%). Weakest: Utilities (-0.36%); Energy (+0.05%); Consumer Staples (+0.08%).",
+          "Leading the session: Hewlett Packard Enterprise (HPE, +12.44%); Dell Technologies (DELL, +11.98%); NetApp (NTAP, +8.54%). At the bottom: Albemarle Corporation (ALB, -3.76%); Seagate Technology (STX, -3.73%); Sandisk (SNDK, -3.50%)."
+        ],
+        "it": [
+          "Nella seduta del 11 settembre 2026 l'insieme dei tre indici USA ha chiuso con 345 societa' in rialzo, 171 in ribasso e 2 invariate, su 518 titoli monitorati. La variazione media dell'indice e' stata di +0,80%.",
+          "Settori con la variazione media migliore: Information Technology (+2,51%); Technology (+1,19%); Communication Services (+1,15%). Settori piu' debolli: Utilities (-0,36%); Energy (+0,05%); Consumer Staples (+0,08%).",
+          "In cima alla seduta: Hewlett Packard Enterprise (HPE, +12,44%); Dell Technologies (DELL, +11,98%); NetApp (NTAP, +8,54%). In fondo: Albemarle Corporation (ALB, -3,76%); Seagate Technology (STX, -3,73%); Sandisk (SNDK, -3,50%)."
+        ]
+      }
+    }
+  },
+  "manual_commentary_html": null,
+  "manual_commentary_html_en": null,
+  "manual_highlights": [],
+  "feed": [
+    {
+      "title": "Oil's roundtrip back to $100. Why China could determine what happens next",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 12:40:05 GMT",
+      "link": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
+      "summary": "The U.S. crude oil price on Thursday topped $102 per barrel for its highest close since May.",
+      "image": null
+    },
+    {
+      "title": "Cramer: This market has eerie parallels with 2018. Here's what investors should do",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Fri, 11 Sep 2026 23:09:35 GMT",
+      "link": "https://www.cnbc.com/2026/09/11/cramer-market-eerie-parallels-2018-what-it-means-for-investors.html",
+      "summary": "CNBC's Jim Cramer sees parallels between today’s market and the fall of 2018, when rising rates and geopolitical tensions preceded a 20% S&amp;P 500 sell-off.",
+      "image": null
+    },
+    {
+      "title": "Why the AI race has its creators fearing human extinction",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 16:38:01 GMT",
+      "link": "https://www.ft.com/content/b7fe0fe0-0463-4f55-9590-0a7d08d8fe66?syn-25a6b1a6=1",
+      "summary": "Advances in autonomous agents and bitter rivalry between Anthropic and OpenAI have pushed once-fringe fears into the mainstream",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F764fb1e3-7fde-429a-94a8-20ca52ad9553.jpg?source=next-barrier-page&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1"
+    },
+    {
+      "title": "‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 15:00:00 GMT",
+      "link": "https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories",
+      "summary": "“Am I required to create three new inherited IRAs so that the firm can divide it equally?”",
+      "image": "https://images.mktw.net/im-51979575"
+    },
+    {
+      "title": "My 87-year-old mother wants to pay for my brother’s kids’ education. I don’t have children. How is that fair?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 14:01:00 GMT",
+      "link": "https://www.marketwatch.com/story/my-87-year-old-mother-wants-to-pay-for-my-brothers-kids-education-i-dont-have-children-is-that-fair-b647a4bd?mod=mw_rss_topstories",
+      "summary": "“Over the years, my mother and I have supplemented his income.”",
+      "image": "https://images.mktw.net/im-75945000"
+    },
+    {
+      "title": "I want to pay for every customer at my late husband’s favorite restaurant on his birthday. Could this backfire?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 13:00:00 GMT",
+      "link": "https://www.marketwatch.com/story/on-my-late-husbands-birthday-i-want-to-pay-for-every-customer-at-his-favorite-restaurant-is-this-a-good-idea-a2748ccc?mod=mw_rss_topstories",
+      "summary": "“I’m concerned that my card issuers might freeze or flag the cards when they suddenly see an extraordinary number of transactions.”",
+      "image": "https://images.mktw.net/im-85373003"
+    },
+    {
+      "title": "Trump says united Ireland ‘inevitable’ and ‘a very cool thing’",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 12:56:24 GMT",
+      "link": "https://www.ft.com/content/70bd4f6c-a5f4-4e59-b773-614f0a5efd58?syn-25a6b1a6=1",
+      "summary": "Off-the-cuff remarks from US president during a visit to Ireland anger pro-UK parties",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe550b8cd-0e20-4e94-9a69-7ebea389c5f1.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "We are setting up a generation to fail at school",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 04:00:42 GMT",
+      "link": "https://www.ft.com/content/724f8ecb-1e2b-4c7f-bbb6-14239abd50dd?syn-25a6b1a6=1",
+      "summary": "The disturbing global decline in test results rests on wrong-headed curriculum changes",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdef07bd4-a891-443b-9896-f62b2e472435.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "US limits air defence time slots for tankers sailing through Hormuz",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 04:00:22 GMT",
+      "link": "https://www.ft.com/content/d4b4105e-d91f-48bb-820e-64290e916f5e?syn-25a6b1a6=1",
+      "summary": "Shift to two specified times daily follows increase in Iranian attacks",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0db6d0ec-0737-4ff9-8d0b-9fb196e1a633.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "This investment is safe from both Trump and the Democrats — and it pays 4.7%",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Fri, 11 Sep 2026 22:06:00 GMT",
+      "link": "https://www.marketwatch.com/story/this-investment-is-safe-from-both-trump-and-the-democrats-and-it-pays-4-7-4b76c2f3?mod=mw_rss_topstories",
+      "summary": "There’s a safe haven hiding in plain sight.",
+      "image": "https://images.mktw.net/im-18511444"
+    },
+    {
+      "title": "Canadian boycott of US products pushes grocers to adapt, explore new supply sources",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 18:09:11 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYWtMYlBMQkZoRHN1bzl5cmZvZE1fd1ZIMzZiUFlVYU02SFFlSC05dlNCNDlJc29kOEpZU2gyT2lsWkdxb2R2eXdhWFNqRkg4MU1BZWpCYWlOSTMyTmtsRUdPWDJ6TEpuYUI0RmFRZzlwMGp4V0FYbFZRdGU2QUtaQ0JxcE5rZkVjNllYanEyZEsxZ2hsWFVHTHgyOEVOdWp0U2xuYlc5ZXhSdm80bExTZnByaHBER1JHNnhYS2dvMUtHSDVkYjNiUTVoMi05bUpqU21N?oc=5",
+      "summary": "Canadian boycott of US products pushes grocers to adapt, explore new supply sources &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 15:40:50 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-12/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+      "summary": "Pointed offers a strategic twist to the news quiz format, testing not just players’ knowledge of the news but also their confidence in their answers. Join Bloomberg's Lisa Mateo, Christina Ruffini, and Jeff Mason as they play and check out the quiz for yourself at Bloomberg.com (",
+      "image": null
+    },
+    {
+      "title": "Trump’s Foes Find Common Ground at Modi’s New Delhi Summit",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 15:31:39 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-12/trump-s-foes-find-common-ground-at-modi-s-new-delhi-summit",
+      "summary": "Leaders of emerging powers including Russia and Iran projected a united front at a weekend summit in New Delhi, with a joint statement that targeted a US-launched war in the Middle East, Washington’s tariff campaign and its sanctions policy.",
+      "image": null
+    },
+    {
+      "title": "Iran War Revives Lessons of Iraq for Fukuyama",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 15:30:36 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-12/iran-war-revives-lessons-of-iraq-for-fukuyama-video",
+      "summary": "Joining David Gura on Bloomberg This Weekend, Stanford Spogli Institute for International Studies Senior Fellow Francis Fukuyama says the Iran war risks repeating lessons from Iraq and Afghanistan, arguing that military power alone is unlikely to produce lasting political change.",
+      "image": null
+    },
+    {
+      "title": "Number of Vessels Redirected in US Blockade on Iran Reaches 100",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 15:11:22 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-12/number-of-vessels-redirected-in-us-blockade-on-iran-reaches-100",
+      "summary": "US forces have redirected 100 commercial vessels over the past 60 days since the blockade against Iran resumed, the Central Command says in an update on X.",
+      "image": null
+    },
+    {
+      "title": "Trump's America-first world is pushing other powers to hedge their bets",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 13:24:33 GMT",
+      "link": "https://www.cnbc.com/2026/09/12/brics-summit-xi-putin-modi-trump.html",
+      "summary": "Xi, Putin and Modi meet in New Delhi as U.S. tariffs, sanctions and the Iran war test whether BRICS members can find more common ground.",
+      "image": null
+    },
+    {
+      "title": "Tehran won’t surrender to the U.S., Iranian President Pezeshkian says, as India's Modi urges dialogue and peace",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 13:15:04 GMT",
+      "link": "https://www.cnbc.com/2026/09/12/iran-us-israel-war-india-brics.html",
+      "summary": "On his first visit to India, Iranian President Masoud Pezeshkian said he will not surrender to the U.S. and Israel, as New Delhi renewed its appeal for peace.",
+      "image": null
+    },
+    {
+      "title": "Ford to recall about 223,500 US vehicles over fuel tank issues",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 07:57:43 GMT",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcmtmVGN5eUltdWZYNEJjUzdtRDd2SjFQZ2xwOVp3cDJFRnlzWVpHZ2NNY0ZndWxhZ0Y3bGRjcnRXVnc5UWF6V1R4STJqNVNrbEVPU2lwd1FnYmFKQjlabXlPRHh6Vmw5WVlDN1dSTkx5WHJsYjUxWi1kTDdmVGxySHRJaVdVT2ZLRHFDQUpNZURtamJsZHNRaHF4VU9HbjVSdExVVVEzdmF2clRjSi1iXw?oc=5",
+      "summary": "Ford to recall about 223,500 US vehicles over fuel tank issues &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "India's Modi and China's Xi push business links, border peace as ties revive",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 06:15:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaFlybEpEZWtDbThQdk9OMFR0bFA0dmZtcUZLSEo2a0djT2xmanVSRlFRWVBRelg3dEUxTUJ1VW5zSWpFZDhGVzJHQWtxS2JkNm9XQUFFSUVTZjRDVTZ4RWd2YzZZZmZYNVAzOGdLWE9ZUzFBb0VKMXRTVXVtdjIyRFlORkZvaUc0ODBxcWRuVDhOTjc0WmdWamtZcmRPQmZoUi1jTmYxa0o4UUtD?oc=5",
+      "summary": "India's Modi and China's Xi push business links, border peace as ties revive &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "Oracle to spend $700 million more on restructuring costs as it ramps up AI spending",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Fri, 11 Sep 2026 23:48:03 GMT",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdWJSSTdqOGtkTkZWLU1xNDNtZEtldTd2QnU0Vy1iR0w1dGl1bVJEdXBDbWNxeWVZR1ZnemZRSEFVT1B0UVhqVEF1dEl4cUN1MkQ1U1N2SFFSRUpKeW5FT2pNUXF6ZUgtRmFBTDExR0MzVW85S1k1OWpzYmNhNHM3d2pwREVQOGVMWlAwZXFPcW1HOERNZzIydFhseWEyUFNWUUthSXdHaWlReVMtbU1LMDJB?oc=5",
+      "summary": "Oracle to spend $700 million more on restructuring costs as it ramps up AI spending &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "GE Aerospace (GE)’s $12 Billion CPP Acquisition Puts Its Growth Strategy to the Test",
+      "source": "Yahoo Finance",
+      "category": "mercati",
+      "published": "2026-09-12T22:38:33Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-ge-12-billion-223833187.html",
+      "summary": "",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/ad32e889e163b3a7c5fc1c720624cf38.jpg"
+    },
+    {
+      "title": "Block, Inc (XYZ)’s Bank Charter Push Signals Bigger Ambitions in Digital Assets",
+      "source": "Yahoo Finance",
+      "category": "mercati",
+      "published": "2026-09-12T22:09:30Z",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/block-inc-xyz-bank-charter-220930244.html",
+      "summary": "",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/b23bc011afed526f34fa19e618a33b80.jpg"
+    },
+    {
+      "title": "ACV Auctions (ACVA) Was This Week’s Top Stock — Here’s What Drove Gains",
+      "source": "Yahoo Finance",
+      "category": "mercati",
+      "published": "2026-09-12T22:06:05Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/acv-auctions-acva-week-top-220605819.html",
+      "summary": "",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/92277e300edeb2777fe21a4e5ac2924c.jpg"
+    },
+    {
+      "title": "Salesforce Inc. (CRM)’s Potential Listen Labs Acquisition Could Boost Its Agentic AI Strategy",
+      "source": "Yahoo Finance",
+      "category": "mercati",
+      "published": "2026-09-12T22:05:58Z",
+      "link": "https://finance.yahoo.com/technology/ai/articles/salesforce-inc-crm-potential-listen-220558304.html",
+      "summary": "",
+      "image": "https://media.zenfs.com/en/insidermonkey.com/a3d26eccf6d7cc00643dfb6f7e0dc19b.jpg"
+    },
+    {
+      "title": "USA Escapes Spain, Will Face France For FIBA World Cup Gold",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 16:46:23 -0400",
+      "link": "https://www.forbes.com/sites/allisonsmith/2026/09/12/usa-escapes-spain-will-face-france-for-fiba-world-cup-gold/",
+      "summary": "Team USA is headed to the FIBA World Cup final after a 76-66 win over Spain. Can the Americans beat France in a rematch of the 2024 Olympic final?",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6aa5a6bd11ae8052cc1208fe/0x0.jpg"
+    },
+    {
+      "title": "Malone Lam Convicted Of Masterminding  $245 Million Crypto Crime Ring",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 12:43:18 -0400",
+      "link": "https://www.forbes.com/sites/steveweisman/2026/09/12/malone-lam-convicted-of-masterminding--245-million-crypto-crime-ring/",
+      "summary": "Malone Lam convicted of operating a massive cryptocurrency crime ring that used social engineering and sophisticated money laundering to steal $245 million",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6aa57b255500fb70a6db7571/0x0.jpg"
+    },
+    {
+      "title": "After the I.P.O., a Billion-Dollar Bill for Employee Paydays",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 12:00:02 +0000",
+      "link": "https://www.nytimes.com/2026/09/12/business/dealbook/double-trigger-rsus.html",
+      "summary": "A compensation strategy at start-ups keeps expenses low until they go public. At that point, the companies may face billions of dollars in catch-up expenses.",
+      "image": "https://static01.nyt.com/images/2026/09/12/multimedia/12DB-EMPLOYEE-STOCK-gpmv/12DB-EMPLOYEE-STOCK-gpmv-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Inflation Complicates Trump’s Midterms Pitch to Voters",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 09:04:04 +0000",
+      "link": "https://www.nytimes.com/2026/09/12/us/politics/trump-inflation-midterms.html",
+      "summary": "Gas prices are high, mortgage rates are climbing and inflation remains well above target, complicating the president’s midterm appeal.",
+      "image": "https://static01.nyt.com/images/2026/09/12/multimedia/12DC-TRUMP-ECON-1-zgpl/12DC-TRUMP-ECON-1-zgpl-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "NYT Pips Answers For Sunday, September 13",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 18:00:35 -0400",
+      "link": "https://www.forbes.com/sites/erikkain/2026/09/12/nyt-pips-answers-sunday-september-13/",
+      "summary": "Looking for help with today's New York Times Pips? We'll walk you through today's puzzle and help you match dominoes to tiles.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/68ab7aaa205e351d8e7e68df/0x0.jpg?width=960"
+    },
+    {
+      "title": "How to Lure the Spendy and the Thrifty? Bring On the ‘Barbell.’",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 20:58:14 +0000",
+      "link": "https://www.nytimes.com/2026/09/12/business/barbell-pricing-restaurants.html",
+      "summary": "Restaurant chains are trying to draw in both kinds of consumers by offering low-cost and more-premium options at the same time.",
+      "image": "https://static01.nyt.com/images/2026/09/13/business/13shoptalk-illo/13shoptalk-illo-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "OpenAI Isn’t Going Public This Year, Sam Altman Says",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 16:31:29 -0400",
+      "link": "https://www.forbes.com/sites/maryroeloffs/2026/09/12/openai-isnt-going-public-this-year-sam-altman-says/",
+      "summary": "Wall Street was poised for a massive OpenAI IPO by the end of the year—but the CEO says that’s not happening.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/69fb8bba559d3c75e27c9de4/0x0.jpg?width=960"
+    },
+    {
+      "title": "Risks for Clicks: Why Online Influencers Push Shock Content",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 12 Sep 2026 17:19:11 +0000",
+      "link": "https://www.nytimes.com/2026/09/12/us/influencers-social-media-algorithm.html",
+      "summary": "A growing number of social media creators are pushing the boundaries of safety and good taste to feed algorithms and win followers.",
+      "image": "https://static01.nyt.com/images/2026/09/04/multimedia/00xp-influencer-TOP-fwpk/00xp-influencer-TOP-fwpk-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Trovata per la prima volta in Veneto la mosca orientale della frutta",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 12 Sep 2026 12:40:54 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/trovata-per-la-prima-volta-in-veneto-la-mosca-orientale-della-frutta_834107ae-561f-4a37-8848-09f5511ebc19.html",
+      "summary": "La Regione: 'No allarmismi, ma non sottovalutare il fenomeno'",
+      "image": null
+    },
+    {
+      "title": "Ex Ilva, \"fuoriuscita materiale schiumoso verso i canali\"",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 12 Sep 2026 11:55:55 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/ex-ilva-fuoriuscita-materiale-schiumoso-verso-i-canali_8173a464-ec8c-4d9e-bd79-042e434a7a2f.html",
+      "summary": "L'attivista Manna di Veraleaks ha allertato Arpa Puglia e Guardia costiera",
+      "image": null
+    },
+    {
+      "title": "Pozzo (Confindustria Udine), come per il sisma in Friuli siamo a passaggio epocale",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 12 Sep 2026 11:05:36 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/pozzo-confindustria-udine-come-per-il-sisma-in-friuli-siamo-a-passaggio-epocale_e2812b4e-058f-402e-9da8-e26de57dbfe7.html",
+      "summary": "'Serve Patto di corresponsabilità. Le difficoltà possono diventare opportunità'",
+      "image": null
+    },
+    {
+      "title": "‘I’m Really Terrified’: A Mathematician Grapples With AI’s Recent Breakthroughs",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 12 Sep 2026 10:00:00 +0000",
+      "link": "https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/",
+      "summary": "Steven Strogatz coauthored a book about how math is moving beyond human understanding. He spoke with WIRED about the seismic impact artificial intelligence has had on his life’s work.",
+      "image": "https://media.wired.com/photos/6aa416744de88ba2f8bc1a31/master/pass/Math-OpenAI-Steven.jpg"
+    },
+    {
+      "title": "You Don’t Have a Right to Safe Drinking Water, Trump-Appointed Judge Rules",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 12 Sep 2026 09:30:00 +0000",
+      "link": "https://www.wired.com/story/you-dont-have-right-to-safe-drinking-water-trump-appointed-judge-rules/",
+      "summary": "And if your tap water is undrinkable, you have no “constitutional right to truthful information” about it.",
+      "image": "https://media.wired.com/photos/6aa4488052c971537654b906/master/pass/GettyImages-1431034639.jpg"
+    },
+    {
+      "title": "Cyberattacks on Law Firms Nearly Double as Stolen Documents Hit the Dark Web",
+      "source": "Decrypt",
+      "category": "crypto",
+      "published": "Fri, 11 Sep 2026 21:45:05 +0000",
+      "link": "https://decrypt.co/378094/cyberattacks-law-firms-stolen-documents-dark-web",
+      "summary": "Greenberg Traurig said documents were posted to the dark web, while BakerHostetler recorded a near-doubling of law-firm incidents in 2025.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg"
+    },
+    {
+      "title": "Former Alameda CEO Caroline Ellison joins nonprofit charity Manifund",
+      "source": "The Block",
+      "category": "crypto",
+      "published": "Fri, 11 Sep 2026 21:37:02 +0000",
+      "link": "https://www.theblock.co/news/business/2026-09-11-former-alameda-ceo-caroline-ellison-joins-nonprofit-charity-manifund-414310",
+      "summary": "Former Alameda Research CEO Caroline Ellison has a new gig at the charity Manifund, its cofounder Austin Chen said Friday.",
+      "image": "https://www.tbstat.com/wp/uploads/2025/12/CE-1920x1080-1-1200x675.png"
+    },
+    {
+      "title": "Khosla Ventures is opening a New York office this fall — its first outpost outside Sand Hill Road",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Fri, 11 Sep 2026 21:19:05 +0000",
+      "link": "https://techcrunch.com/2026/09/11/khosla-ventures-is-opening-a-new-york-office-this-fall-its-first-outpost-outside-sand-hill-road/",
+      "summary": "\"It's actually allegedly being built out now,\" said Rabois, who has clearly dealt with a missed construction timeline or two.",
+      "image": null
+    }
+  ],
+  "generated_at": "2026-09-13 01:13:54",
+  "markets_brief": {
+    "items": [
+      {
+        "title": "Why OpenAI’s Sam Altman says an IPO isn’t in the cards this year",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/why-openais-sam-altman-says-an-ipo-isnt-in-the-cards-this-year-229de89c?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Wall Street Cheers Clarity on Fed Outlook—Even if It Means Higher Rates",
+        "source": "The Wall Street Journal",
+        "link": "https://www.wsj.com/finance/investing/wall-street-cheers-clarity-on-fed-outlookeven-if-it-means-higher-rates-2f80fd5f?mod=rss_markets_main"
+      },
+      {
+        "title": "Marvell is sitting on an incredibly ‘sticky’ business that could help it unlock a $30 billion opportunity",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/marvell-is-sitting-on-an-incredibly-sticky-business-that-could-help-it-unlock-a-30-billion-opportunity-caa6c83f?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Where to Find Growth Beyond AI. Start With These 8 Stocks.",
+        "source": "Barron's",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTXZ4SkoxUnJ5MHBOSUVBdTZ5aXYzejg1SFB6eHpOdk11bkNaQ2NOMjBuS3BxTzRiRG1HMm80ekFwSi1NVkdoS0IxUHB5WmQtTXktdHZZX3ZFNFc5cFdLdEcyeWFDWUF3UTJoM3dnTEFIalVLR2RlX2VBU1VqbkZHWWxVWHJCMUxUbnlQQ1EtTjIyMGs?oc=5"
+      },
+      {
+        "title": "RBI Said to Reject Tata Sons Request to Avoid An IPO",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-09-12/rbi-said-to-reject-tata-sons-request-to-avoid-a-public-listing"
+      }
+    ],
+    "prose_html": "<p>Sam Altman di OpenAI ha escluso un&#x27;IPO quest&#x27;anno, mentre Tata Sons ha subito il rifiuto della banca centrale indiana su una richiesta di evitare l&#x27;accesso al mercato, segnalando percorsi divergenti per le grandi società private. Nel frattempo, Wall Street ha trovato rassicurazione nella guida prospettica più chiara della Federal Reserve, con gli investitori che hanno accolto positivamente la trasparenza nonostante le implicazioni per tassi di interesse più elevati in futuro. Al di là del settore dell&#x27;IA che domina i titoli, l&#x27;attenzione del mercato si sta rivolgendo a opportunità di crescita altrove, con il produttore di semiconduttori Marvell posizionato per capitalizzare su un&#x27;opportunità sostanziale attraverso il suo modello di ricavi ricorrenti.</p>",
+    "prose_html_en": "<p>OpenAI&#x27;s Sam Altman ruled out an IPO this year, while Tata Sons faced rejection from India&#x27;s central bank on a request to avoid going public, signaling divergent paths for major private companies. Meanwhile, Wall Street found reassurance in the Federal Reserve&#x27;s clearer forward guidance, with investors welcoming the transparency despite implications for higher interest rates ahead. Beyond the AI sector dominating headlines, market attention is turning to growth opportunities elsewhere, with semiconductor player Marvell positioned to capitalize on a substantial opportunity through its recurring revenue model.</p>"
+  },
+  "live_close_movers": {
+    "captured_at": "2026-09-11T20:18:46Z",
+    "session_date": "2026-09-11",
+    "universe": 1285,
+    "gainers": [
+      {
+        "symbol": "ACVA",
+        "name": "ACV Auctions Inc.",
+        "pct": 44.18
+      },
+      {
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise Company",
+        "pct": 12.42
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": 11.94
+      },
+      {
+        "symbol": "TNON",
+        "name": "Tenon Medical, Inc.",
+        "pct": 11.89
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 11.15
+      },
+      {
+        "symbol": "BAND",
+        "name": "Bandwidth Inc.",
+        "pct": 10.17
+      },
+      {
+        "symbol": "HTFL",
+        "name": "Heartflow, Inc.",
+        "pct": 9.65
+      },
+      {
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "pct": 8.97
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": 8.83
+      },
+      {
+        "symbol": "NTAP",
+        "name": "NetApp, Inc.",
+        "pct": 8.54
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "SMR",
+        "name": "NuScale Power Corporation",
+        "pct": -15.67
+      },
+      {
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": -14.42
+      },
+      {
+        "symbol": "DBGI",
+        "name": "Digital Brands Group, Inc.",
+        "pct": -11.63
+      },
+      {
+        "symbol": "OKLO",
+        "name": "Oklo Inc.",
+        "pct": -9.18
+      },
+      {
+        "symbol": "LEU",
+        "name": "Centrus Energy Corp.",
+        "pct": -8.18
+      },
+      {
+        "symbol": "QLYS",
+        "name": "Qualys, Inc.",
+        "pct": -6.99
+      },
+      {
+        "symbol": "KAI",
+        "name": "Kadant Inc",
+        "pct": -6.96
+      },
+      {
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": -6.52
+      },
+      {
+        "symbol": "TYRA",
+        "name": "Tyra Biosciences, Inc.",
+        "pct": -6.41
+      },
+      {
+        "symbol": "DOCN",
+        "name": "DigitalOcean Holdings, Inc.",
+        "pct": -6.18
+      }
+    ]
+  },
+  "weekend_report": {
+    "kind": "weekend_recap",
+    "covers_date": "2026-09-12",
+    "covers_date_it": "12 settembre 2026",
+    "covers_date_en": "September 12, 2026",
+    "window_hours": 26,
+    "n_items": 99,
+    "n_digest": 24,
+    "n_sources": 16,
+    "sections": [
+      {
+        "key": "mercati",
+        "label": {
+          "en": "Markets and macro",
+          "it": "Mercati e macro"
+        },
+        "n_available": 66,
+        "items": [
+          {
+            "title": "Why OpenAI’s Sam Altman says an IPO isn’t in the cards this year",
+            "source": "MarketWatch",
+            "category": "mercati",
+            "link": "https://www.marketwatch.com/story/why-openais-sam-altman-says-an-ipo-isnt-in-the-cards-this-year-229de89c?mod=mw_rss_topstories",
+            "image": "https://images.mktw.net/im-59292817",
+            "summary": "Concerns about AI safety have ramped up, and OpenAI’s CEO says now would be an ‘ill-advised’ time for the ChatGPT creator to go public",
+            "published": "Sat, 12 Sep 2026 21:50:00 GMT"
+          },
+          {
+            "title": "Wall Street Cheers Clarity on Fed Outlook—Even if It Means Higher Rates",
+            "source": "The Wall Street Journal",
+            "category": "mercati",
+            "link": "https://www.wsj.com/finance/investing/wall-street-cheers-clarity-on-fed-outlookeven-if-it-means-higher-rates-2f80fd5f?mod=rss_markets_main",
+            "image": "https://images.wsj.net/im-12682423",
+            "summary": "Stocks rose and bonds steadied after Friday’s warm CPI report took ‘a lot of the guesswork’ out of next week’s Fed decision.",
+            "published": "Fri, 11 Sep 2026 21:36:00 GMT"
+          },
+          {
+            "title": "Marvell is sitting on an incredibly ‘sticky’ business that could help it unlock a $30 billion opportunity",
+            "source": "MarketWatch",
+            "category": "mercati",
+            "link": "https://www.marketwatch.com/story/marvell-is-sitting-on-an-incredibly-sticky-business-that-could-help-it-unlock-a-30-billion-opportunity-caa6c83f?mod=mw_rss_topstories",
+            "image": "https://images.mktw.net/im-08108156",
+            "summary": "Marvell is best known for making custom chips — but an analyst notes there’s arguably more potential in supporting components and optical networking.",
+            "published": "Fri, 11 Sep 2026 21:16:00 GMT"
+          },
+          {
+            "title": "Where to Find Growth Beyond AI. Start With These 8 Stocks.",
+            "source": "Barron's",
+            "category": "mercati",
+            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTXZ4SkoxUnJ5MHBOSUVBdTZ5aXYzejg1SFB6eHpOdk11bkNaQ2NOMjBuS3BxTzRiRG1HMm80ekFwSi1NVkdoS0IxUHB5WmQtTXktdHZZX3ZFNFc5cFdLdEcyeWFDWUF3UTJoM3dnTEFIalVLR2RlX2VBU1VqbkZHWWxVWHJCMUxUbnlQQ1EtTjIyMGs?oc=5",
+            "image": null,
+            "summary": "Where to Find Growth Beyond AI. Start With These 8 Stocks. &nbsp;&nbsp; Barron's",
+            "published": "Sat, 12 Sep 2026 14:02:37 GMT"
+          },
+          {
+            "title": "RBI Said to Reject Tata Sons Request to Avoid An IPO",
+            "source": "Bloomberg",
+            "category": "mercati",
+            "link": "https://www.bloomberg.com/news/articles/2026-09-12/rbi-said-to-reject-tata-sons-request-to-avoid-a-public-listing",
+            "image": null,
+            "summary": "India’s central bank rejected an application from Tata Sons Pvt. to surrender its status as a shadow lender, according to people familiar with the matter, signaling it expects the company to adhere with rules for such entities that include an initial public offering.",
+            "published": "Sat, 12 Sep 2026 13:33:43 GMT"
+          },
+          {
+            "title": "Buffett's confidence in troubled decade-old acquisition finally pays off",
+            "source": "CNBC",
+            "category": "mercati",
+            "link": "https://www.cnbc.com/2026/09/12/buffetts-confidence-in-troubled-decade-old-acquisition-finally-pays-off.html",
+            "image": null,
+            "summary": "Warren Buffett has said he paid too much for Precision Castparts in 2016. Now its complex metal castings are in high demand.",
+            "published": "Sat, 12 Sep 2026 13:20:04 GMT"
+          }
+        ]
+      },
+      {
+        "key": "crypto",
+        "label": {
+          "en": "Crypto",
+          "it": "Crypto"
+        },
+        "n_available": 8,
+        "items": [
+          {
+            "title": "CryptoQuant says bitcoin must clear resistance at $81,700 to confirm new bull market",
+            "source": "The Block",
+            "category": "crypto",
+            "link": "https://www.theblock.co/news/markets/2026-09-12-cryptoquant-bitcoin-resistance-support-levels-414519",
+            "image": "https://www.tbstat.com/wp/uploads/2026/04/20260410_Bitcoin_News-1200x675.jpg",
+            "summary": "Bitcoin's outlook remains bullish, but it needs to clear a significant range of resistance levels stretching to $88,700, CryptoQuant said.",
+            "published": "Sat, 12 Sep 2026 21:39:49 +0000"
+          },
+          {
+            "title": "Crypto Billionaires Hand Reform UK $97M in Record Donations",
+            "source": "Decrypt",
+            "category": "crypto",
+            "link": "https://decrypt.co/378107/crypto-billionaires-hand-reform-uk-97m-in-record-donations",
+            "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/nigel-farage-reform-uk-decrypt-style-03-gID_7.jpg",
+            "summary": "Ben Delo and Christopher Harborne each gave £36 million, and between them beat what every UK party raised last year.",
+            "published": "Sat, 12 Sep 2026 15:51:15 +0000"
+          },
+          {
+            "title": "Farage’s Reform UK gets $97M from two crypto billionaires",
+            "source": "Cointelegraph",
+            "category": "crypto",
+            "link": "https://cointelegraph.com/news/farages-reform-uk-gets-biggest-donation-ever-from-crypto-billionaire-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2BA6J7HTH44ZK3SGYTVPE4V/two-donors-cheques.png",
+            "summary": "Ben Delo, co-founder of BitMEX, donated almost $50 million to Nigel Farage’s Reform UK party, matched a day later by Christopher Harborne.",
+            "published": "Sat, 12 Sep 2026 15:50:14 +0000"
+          },
+          {
+            "title": "Nvidia considers $10B investment in potential record Anthropic IPO: Reuters",
+            "source": "Cointelegraph",
+            "category": "crypto",
+            "link": "https://cointelegraph.com/news/nvidia-considers-10b-investment-in-anthropic-record-ipo-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2B2TW953PW8GZE67G0P6MYC/nvidia-anthropic-ipo-artwork.png",
+            "summary": "Anthropic is said to be seeking to raise as much as $100 billion in the offering, which could value the AI company at about $2 trillion.",
+            "published": "Sat, 12 Sep 2026 15:12:40 +0000"
+          },
+          {
+            "title": "GTA Mod Adds Flock Cameras—And Lets Players Destroy Them",
+            "source": "Decrypt",
+            "category": "crypto",
+            "link": "https://decrypt.co/377997/gta-mod-flock-cameras-players-destroy",
+            "image": "https://cdn.decrypt.co/wp-content/uploads/2023/08/gta5-1-Cropped-gID_7.jpg",
+            "summary": "The surveillance mod on GTA V brings the privacy fight to Los Santos, where players can demolish the cameras tracking them.",
+            "published": "Sat, 12 Sep 2026 15:01:03 +0000"
+          },
+          {
+            "title": "ChatGPT Images 2.5 vs Nano Banana 2: Which One is Better?",
+            "source": "Decrypt",
+            "category": "crypto",
+            "link": "https://decrypt.co/377998/chatgpt-images-2-5-vs-nano-banana-2-review",
+            "image": "https://cdn.decrypt.co/wp-content/uploads/2026/09/ChatGPT-Images-Review-gID_7.jpg",
+            "summary": "OpenAI's new image model promises sharper detail and more precise editing. We ran it against Google's Nano Banana 2 across six categories to see how it compares.",
+            "published": "Sat, 12 Sep 2026 13:01:03 +0000"
+          }
+        ]
+      },
+      {
+        "key": "tech",
+        "label": {
+          "en": "Tech",
+          "it": "Tech"
+        },
+        "n_available": 9,
+        "items": [
+          {
+            "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+            "source": "TechCrunch",
+            "category": "tech",
+            "link": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+            "image": null,
+            "summary": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
+            "published": "Fri, 11 Sep 2026 22:58:17 +0000"
+          },
+          {
+            "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
+            "source": "TechCrunch",
+            "category": "tech",
+            "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
+            "image": "https://techcrunch.com/wp-content/uploads/2025/11/tesla-roadster-2.jpg?resize=1200,822",
+            "summary": "Tesla’s halo sports car was first announced in November 2017.",
+            "published": "Sat, 12 Sep 2026 19:21:19 +0000"
+          },
+          {
+            "title": "Revolut confirms customer data breach through fake government requests",
+            "source": "TechCrunch",
+            "category": "tech",
+            "link": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+            "image": "https://techcrunch.com/wp-content/uploads/2025/11/revolut.png?resize=1200,629",
+            "summary": "Revolut said it notified affected customers and alerted the relevant government agency, law enforcement, and financial regulators.",
+            "published": "Sat, 12 Sep 2026 14:40:00 +0000"
+          },
+          {
+            "title": "The Best 3-in-1 Apple Charging Stations After Testing 30+ Models",
+            "source": "Wired",
+            "category": "tech",
+            "link": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
+            "image": "https://media.wired.com/photos/685f456cde3ddb7f4c50fa01/master/pass/Update-%20The%20Best%203-in-1%20Apple%20Wireless%20Chargers.png",
+            "summary": "I tried all the top models to find the best 3-in-1 Apple charging stations, pads, and more. Keep your iPhone, Apple Watch, and AirPods topped up with these WIRED-tested docking systems.",
+            "published": "Sat, 12 Sep 2026 10:30:00 +0000"
+          },
+          {
+            "title": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
+            "source": "Wired",
+            "category": "tech",
+            "link": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/",
+            "image": "https://media.wired.com/photos/6aa46e54cc5cd3bf9174f66e/master/pass/SecurityRoundUp_09122026_v1-ezgif.com-video-to-gif-converter.gif",
+            "summary": "Plus: The US disrupts the internet’s biggest black market, a Conti ransomware hacker gets prison time, Meta fails to stop AI-generated videos of child abuse.",
+            "published": "Sat, 12 Sep 2026 10:30:00 +0000"
+          },
+          {
+            "title": "Branch Ergonomic Chair Pro (Sega Edition) Review: Comfy, Not Boring",
+            "source": "Wired",
+            "category": "tech",
+            "link": "https://www.wired.com/review/branch-ergonomic-chair-pro-sega-edition/",
+            "image": "https://media.wired.com/photos/6aa44e74dc225a8b7147e28f/master/pass/Review--Branch-Ergonomic-Chair-Pro-(Sega-Edition).jpg",
+            "summary": "Turns out that the best office chair is also the best gaming chair, now with aesthetics to match.",
+            "published": "Sat, 12 Sep 2026 10:00:00 +0000"
+          }
+        ]
+      },
+      {
+        "key": "italia",
+        "label": {
+          "en": "Italy",
+          "it": "Italia"
+        },
+        "n_available": 10,
+        "items": [
+          {
+            "title": "Compie 60 anni Zamperla, leader mondiale nelle attrazioni da parco",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/compie-60-anni-zamperla-leader-mondiale-nelle-attrazioni-da-parco_27d73fd6-1f5b-4620-b9a7-1ede97d51c1b.html",
+            "image": "https://www.ansa.it/webimages/img_1280x720/2026/9/12/ae350092d0575a069e113bddc3275646.jpg",
+            "summary": "Presentata in anteprima la nuova giostra 'Hypnosiz' di oltre 11 metri",
+            "published": "Sat, 12 Sep 2026 18:00:49 +0200"
+          },
+          {
+            "title": "Il Club dell'economia si amplia e rinnova, sedici nuovi ingressi fra i soci",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/il-club-delleconomia-si-amplia-e-rinnova-sedici-nuovi-ingressi-fra-i-soci_36d3e96c-0dbc-4056-b2d4-1294de38ab13.html",
+            "image": "https://www.ansa.it/webimages/img_1280x720/2026/9/12/66f75b4d73a66aa2e0805650b22a3270.jpg",
+            "summary": "Fra nuovi componenti anche ex ministro economia Franco",
+            "published": "Sat, 12 Sep 2026 17:10:34 +0200"
+          },
+          {
+            "title": "Labriola (Tim), servono regole continentali per lo spazio",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/labriola-tim-servono-regole-continentali-per-lo-spazio_949341ea-1085-4466-b5b9-dcb046779645.html",
+            "image": null,
+            "summary": "'Rischio saturazione entro il 2031 con le grandi costellazioni come Starlink e Amazon'",
+            "published": "Sat, 12 Sep 2026 14:52:54 +0200"
+          },
+          {
+            "title": "Medio Oriente: l'oleodotto Est-Ovest, un fragile filo per il greggio saudita",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/medio-oriente-loleodotto-est-ovest-un-fragile-filo-per-il-greggio-saudita_3a3f3d02-0baa-4ba3-af2a-4b18c80c2634.html",
+            "image": null,
+            "summary": "Capacità da 7 milioni di barili, ma con i raid e il blocco Houthi ora c'è il nodo Suez",
+            "published": "Sat, 12 Sep 2026 14:19:32 +0200"
+          },
+          {
+            "title": "Giorgetti,' affrontare nodo salari per attrarre i giovani'",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/giorgetti-affrontare-nodo-salari-per-attrarre-i-giovani_a36315ae-3c9a-497e-bb34-08b2ee34f6e9.html",
+            "image": null,
+            "summary": "E fare investimenti per aumentare produttivita' e salari",
+            "published": "Sat, 12 Sep 2026 14:19:09 +0200"
+          },
+          {
+            "title": "Via Maestra, 'manifestazione nazionale il 17 ottobre a Roma'",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/via-maestra-manifestazione-nazionale-il-17-ottobre-a-roma_85f1d114-72d2-484a-b0b7-9115e179ff6c.html",
+            "image": null,
+            "summary": "Nell'alleanza la Cgil, 'in piazza per Costituzione, fisco e lavoro'",
+            "published": "Sat, 12 Sep 2026 14:18:14 +0200"
+          }
+        ]
+      }
+    ],
+    "feed_leftover": [
+      {
+        "title": "Oil's roundtrip back to $100. Why China could determine what happens next",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 12:40:05 GMT",
+        "link": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
+        "summary": "The U.S. crude oil price on Thursday topped $102 per barrel for its highest close since May.",
+        "image": null
+      },
+      {
+        "title": "Canada seeks $1tn from investors looking for a haven from Trump",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 10:00:05 GMT",
+        "link": "https://www.ft.com/content/4dc6710b-7911-44c6-b57a-2fb47b6b04ed?syn-25a6b1a6=1",
+        "summary": "Prime Minister Mark Carney hosts a summit to put money behind his plan to decouple from an increasingly hostile US",
+        "image": null,
+        "_rank": 1
+      },
+      {
+        "title": "Windshield megadeal could fix Europe’s broken IPO window",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 04:00:33 GMT",
+        "link": "https://www.ft.com/content/0e25f645-4e80-4299-a6b6-c09c7d459871?syn-25a6b1a6=1",
+        "summary": "Belron is the sort of business that might help investors warm up to more deals",
+        "image": null,
+        "_rank": 2
+      },
+      {
+        "title": "High oil prices could force ECB to raise rates further, warns top policymaker",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 04:00:33 GMT",
+        "link": "https://www.ft.com/content/a83e620a-bb72-478a-ac77-10635ec653bd?syn-25a6b1a6=1",
+        "summary": "Austrian central bank governor Martin Kocher says risk of elevated inflation is higher than it was a few months ago",
+        "image": null,
+        "_rank": 3
+      },
+      {
+        "title": "Cramer: This market has eerie parallels with 2018. Here's what investors should do",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Fri, 11 Sep 2026 23:09:35 GMT",
+        "link": "https://www.cnbc.com/2026/09/11/cramer-market-eerie-parallels-2018-what-it-means-for-investors.html",
+        "summary": "CNBC's Jim Cramer sees parallels between today’s market and the fall of 2018, when rising rates and geopolitical tensions preceded a 20% S&amp;P 500 sell-off.",
+        "image": null
+      },
+      {
+        "title": "Why the AI race has its creators fearing human extinction",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 16:38:01 GMT",
+        "link": "https://www.ft.com/content/b7fe0fe0-0463-4f55-9590-0a7d08d8fe66?syn-25a6b1a6=1",
+        "summary": "Advances in autonomous agents and bitter rivalry between Anthropic and OpenAI have pushed once-fringe fears into the mainstream",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F764fb1e3-7fde-429a-94a8-20ca52ad9553.jpg?source=next-barrier-page&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1"
+      },
+      {
+        "title": "‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out?",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 15:00:00 GMT",
+        "link": "https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories",
+        "summary": "“Am I required to create three new inherited IRAs so that the firm can divide it equally?”",
+        "image": "https://images.mktw.net/im-51979575"
+      },
+      {
+        "title": "My 87-year-old mother wants to pay for my brother’s kids’ education. I don’t have children. How is that fair?",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 14:01:00 GMT",
+        "link": "https://www.marketwatch.com/story/my-87-year-old-mother-wants-to-pay-for-my-brothers-kids-education-i-dont-have-children-is-that-fair-b647a4bd?mod=mw_rss_topstories",
+        "summary": "“Over the years, my mother and I have supplemented his income.”",
+        "image": "https://images.mktw.net/im-75945000"
+      },
+      {
+        "title": "I want to pay for every customer at my late husband’s favorite restaurant on his birthday. Could this backfire?",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 13:00:00 GMT",
+        "link": "https://www.marketwatch.com/story/on-my-late-husbands-birthday-i-want-to-pay-for-every-customer-at-his-favorite-restaurant-is-this-a-good-idea-a2748ccc?mod=mw_rss_topstories",
+        "summary": "“I’m concerned that my card issuers might freeze or flag the cards when they suddenly see an extraordinary number of transactions.”",
+        "image": "https://images.mktw.net/im-85373003"
+      },
+      {
+        "title": "Trump says united Ireland ‘inevitable’ and ‘a very cool thing’",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 12:56:24 GMT",
+        "link": "https://www.ft.com/content/70bd4f6c-a5f4-4e59-b773-614f0a5efd58?syn-25a6b1a6=1",
+        "summary": "Off-the-cuff remarks from US president during a visit to Ireland anger pro-UK parties",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe550b8cd-0e20-4e94-9a69-7ebea389c5f1.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "We are setting up a generation to fail at school",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 04:00:42 GMT",
+        "link": "https://www.ft.com/content/724f8ecb-1e2b-4c7f-bbb6-14239abd50dd?syn-25a6b1a6=1",
+        "summary": "The disturbing global decline in test results rests on wrong-headed curriculum changes",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdef07bd4-a891-443b-9896-f62b2e472435.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "US limits air defence time slots for tankers sailing through Hormuz",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 04:00:22 GMT",
+        "link": "https://www.ft.com/content/d4b4105e-d91f-48bb-820e-64290e916f5e?syn-25a6b1a6=1",
+        "summary": "Shift to two specified times daily follows increase in Iranian attacks",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0db6d0ec-0737-4ff9-8d0b-9fb196e1a633.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "EU races to Le Pen-proof its agenda",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 04:00:13 GMT",
+        "link": "https://www.ft.com/content/94c2830e-cbec-43ed-b329-23a79060469a?syn-25a6b1a6=1",
+        "summary": "Diplomats say Paris has urged bloc to agree budget and climate measures before French presidential election in April",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F23d72682-8969-4caa-b99a-763608505f2b.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+        "_rank": 12
+      },
+      {
+        "title": "This investment is safe from both Trump and the Democrats — and it pays 4.7%",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Fri, 11 Sep 2026 22:06:00 GMT",
+        "link": "https://www.marketwatch.com/story/this-investment-is-safe-from-both-trump-and-the-democrats-and-it-pays-4-7-4b76c2f3?mod=mw_rss_topstories",
+        "summary": "There’s a safe haven hiding in plain sight.",
+        "image": "https://images.mktw.net/im-18511444"
+      },
+      {
+        "title": "Canadian boycott of US products pushes grocers to adapt, explore new supply sources",
+        "source": "Reuters",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 18:09:11 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYWtMYlBMQkZoRHN1bzl5cmZvZE1fd1ZIMzZiUFlVYU02SFFlSC05dlNCNDlJc29kOEpZU2gyT2lsWkdxb2R2eXdhWFNqRkg4MU1BZWpCYWlOSTMyTmtsRUdPWDJ6TEpuYUI0RmFRZzlwMGp4V0FYbFZRdGU2QUtaQ0JxcE5rZkVjNllYanEyZEsxZ2hsWFVHTHgyOEVOdWp0U2xuYlc5ZXhSdm80bExTZnByaHBER1JHNnhYS2dvMUtHSDVkYjNiUTVoMi05bUpqU21N?oc=5",
+        "summary": "Canadian boycott of US products pushes grocers to adapt, explore new supply sources &nbsp;&nbsp; Reuters",
+        "image": null
+      },
+      {
+        "title": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 15:40:50 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-09-12/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+        "summary": "Pointed offers a strategic twist to the news quiz format, testing not just players’ knowledge of the news but also their confidence in their answers. Join Bloomberg's Lisa Mateo, Christina Ruffini, and Jeff Mason as they play and check out the quiz for yourself at Bloomberg.com (",
+        "image": null
+      },
+      {
+        "title": "Trump’s Foes Find Common Ground at Modi’s New Delhi Summit",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 15:31:39 GMT",
+        "link": "https://www.bloomberg.com/news/articles/2026-09-12/trump-s-foes-find-common-ground-at-modi-s-new-delhi-summit",
+        "summary": "Leaders of emerging powers including Russia and Iran projected a united front at a weekend summit in New Delhi, with a joint statement that targeted a US-launched war in the Middle East, Washington’s tariff campaign and its sanctions policy.",
+        "image": null
+      },
+      {
+        "title": "Iran War Revives Lessons of Iraq for Fukuyama",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 15:30:36 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-09-12/iran-war-revives-lessons-of-iraq-for-fukuyama-video",
+        "summary": "Joining David Gura on Bloomberg This Weekend, Stanford Spogli Institute for International Studies Senior Fellow Francis Fukuyama says the Iran war risks repeating lessons from Iraq and Afghanistan, arguing that military power alone is unlikely to produce lasting political change.",
+        "image": null
+      },
+      {
+        "title": "Number of Vessels Redirected in US Blockade on Iran Reaches 100",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 15:11:22 GMT",
+        "link": "https://www.bloomberg.com/news/articles/2026-09-12/number-of-vessels-redirected-in-us-blockade-on-iran-reaches-100",
+        "summary": "US forces have redirected 100 commercial vessels over the past 60 days since the blockade against Iran resumed, the Central Command says in an update on X.",
+        "image": null
+      },
+      {
+        "title": "Iran Nuclear Blind Spot Deepens as IAEA Loses Access",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 14:57:05 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-09-12/iran-nuclear-blind-spot-deepens-as-iaea-loses-access-video",
+        "summary": "Former US Energy Secretary Ernest Moniz says the loss of IAEA access to Iran has created a serious monitoring gap that makes it increasingly difficult to determine the status of the country's nuclear program. Moniz also warns hosts David Gura and Christina Ruffini that tight glob",
+        "image": null,
+        "_rank": 19
+      },
+      {
+        "title": "Luxury Shoppers Put Value Ahead of Labels",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 14:37:35 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-09-12/luxury-shoppers-put-value-ahead-of-labels-video",
+        "summary": "Bloomberg Pursuits Global Luxury Editor editor Chris Rovzar says luxury shoppers are increasingly prioritizing price, quality and lasting value over labels, helping brands such as Coach and Ralph Lauren gain ground as parts of the broader luxury industry struggle. Joining David G",
+        "image": null,
+        "_rank": 20
+      },
+      {
+        "title": "AI Agents Test the Limits of Human Control",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 14:27:14 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-09-12/ai-agents-test-the-limits-of-human-control-video",
+        "summary": "Future of Life Institute Chair & Co-Founder Max Tegmark joins Bloomberg This Weekend and says recent incidents involving autonomous AI agents show that loss-of-control risks are no longer purely theoretical and warrant stronger safety requirements. OpenAI has acknowledged that it",
+        "image": null,
+        "_rank": 21
+      },
+      {
+        "title": "Trump's America-first world is pushing other powers to hedge their bets",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 13:24:33 GMT",
+        "link": "https://www.cnbc.com/2026/09/12/brics-summit-xi-putin-modi-trump.html",
+        "summary": "Xi, Putin and Modi meet in New Delhi as U.S. tariffs, sanctions and the Iran war test whether BRICS members can find more common ground.",
+        "image": null
+      },
+      {
+        "title": "Tehran won’t surrender to the U.S., Iranian President Pezeshkian says, as India's Modi urges dialogue and peace",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 13:15:04 GMT",
+        "link": "https://www.cnbc.com/2026/09/12/iran-us-israel-war-india-brics.html",
+        "summary": "On his first visit to India, Iranian President Masoud Pezeshkian said he will not surrender to the U.S. and Israel, as New Delhi renewed its appeal for peace.",
+        "image": null
+      },
+      {
+        "title": "Xi Resets Ties With Modi on First Visit to India in Seven Years",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 12:57:18 GMT",
+        "link": "https://www.bloomberg.com/news/articles/2026-09-12/xi-sits-down-with-modi-during-first-trip-to-india-in-seven-years",
+        "summary": "Chinese President Xi Jinping and Indian Prime Minister Narendra Modi moved closer to overcoming years of frictions over issues including an unresolved border dispute, holding a meeting in New Delhi that signaled a reset of ties between the world’s two most populous countries.",
+        "image": null,
+        "_rank": 24
+      },
+      {
+        "title": "Can China’s Icicle woo global shoppers in a luxury downturn?",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 12:00:05 GMT",
+        "link": "https://www.ft.com/content/e3b7bd04-175a-484d-be85-cbee70a71ecb?syn-25a6b1a6=1",
+        "summary": "Cashmere brand wants more stores in Europe and the US after being backed by Gucci owner Kering",
+        "image": null,
+        "_rank": 25
+      },
+      {
+        "title": "GM plans U.S. battery development as Trump's DOT attacks Ford for China ties",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 12:00:01 GMT",
+        "link": "https://www.cnbc.com/2026/09/12/gm-us-battery-development-ford-china-ties.html",
+        "summary": "Most battery cells currently rely on raw materials from China. GM is seeking to establish domestic supply chains both for EVs and energy storage.",
+        "image": null,
+        "_rank": 26
+      },
+      {
+        "title": "Saudi Arabia shuts East-West pipeline that bypasses Hormuz after attacks",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 10:50:57 GMT",
+        "link": "https://www.ft.com/content/3bafb3ae-ba94-44f0-984c-ec7c9f54a5e0?syn-25a6b1a6=1",
+        "summary": "Move is likely to put further momentum behind fast-rising oil prices",
+        "image": null,
+        "_rank": 27
+      },
+      {
+        "title": "LIV Golf’s bleak future shifts to the courtroom",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 08:00:04 GMT",
+        "link": "https://www.ft.com/content/d5584fd7-cc24-4d3e-813f-c65f041e2d0e?syn-25a6b1a6=1",
+        "summary": "Also in today’s newsletter: Hyrox gets a power boost",
+        "image": null,
+        "_rank": 28
+      },
+      {
+        "title": "Ford to recall about 223,500 US vehicles over fuel tank issues",
+        "source": "Reuters",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 07:57:43 GMT",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcmtmVGN5eUltdWZYNEJjUzdtRDd2SjFQZ2xwOVp3cDJFRnlzWVpHZ2NNY0ZndWxhZ0Y3bGRjcnRXVnc5UWF6V1R4STJqNVNrbEVPU2lwd1FnYmFKQjlabXlPRHh6Vmw5WVlDN1dSTkx5WHJsYjUxWi1kTDdmVGxySHRJaVdVT2ZLRHFDQUpNZURtamJsZHNRaHF4VU9HbjVSdExVVVEzdmF2clRjSi1iXw?oc=5",
+        "summary": "Ford to recall about 223,500 US vehicles over fuel tank issues &nbsp;&nbsp; Reuters",
+        "image": null
+      },
+      {
+        "title": "India's Modi and China's Xi push business links, border peace as ties revive",
+        "source": "Reuters",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 06:15:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaFlybEpEZWtDbThQdk9OMFR0bFA0dmZtcUZLSEo2a0djT2xmanVSRlFRWVBRelg3dEUxTUJ1VW5zSWpFZDhGVzJHQWtxS2JkNm9XQUFFSUVTZjRDVTZ4RWd2YzZZZmZYNVAzOGdLWE9ZUzFBb0VKMXRTVXVtdjIyRFlORkZvaUc0ODBxcWRuVDhOTjc0WmdWamtZcmRPQmZoUi1jTmYxa0o4UUtD?oc=5",
+        "summary": "India's Modi and China's Xi push business links, border peace as ties revive &nbsp;&nbsp; Reuters",
+        "image": null
+      },
+      {
+        "title": "South Korea arms itself to protect chip secrets from foreign spies",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 04:00:32 GMT",
+        "link": "https://www.ft.com/content/6fa49d3c-e7b9-4bcd-9eb1-b737ff0c552e",
+        "summary": "Seoul broadens its espionage legislation for the first time in more than seven decades",
+        "image": null,
+        "_rank": 31
+      },
+      {
+        "title": "St James’s Place looks to reassure advisers following departures",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 04:00:32 GMT",
+        "link": "https://www.ft.com/content/9040a3b5-c2a9-40ce-b7f2-c192453a7fd0?syn-25a6b1a6=1",
+        "summary": "The wealth manager will scrutinise growth plans and aim to boost adviser morale",
+        "image": null,
+        "_rank": 32
+      },
+      {
+        "title": "Oracle to spend $700 million more on restructuring costs as it ramps up AI spending",
+        "source": "Reuters",
+        "category": "mercati",
+        "published": "Fri, 11 Sep 2026 23:48:03 GMT",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdWJSSTdqOGtkTkZWLU1xNDNtZEtldTd2QnU0Vy1iR0w1dGl1bVJEdXBDbWNxeWVZR1ZnemZRSEFVT1B0UVhqVEF1dEl4cUN1MkQ1U1N2SFFSRUpKeW5FT2pNUXF6ZUgtRmFBTDExR0MzVW85S1k1OWpzYmNhNHM3d2pwREVQOGVMWlAwZXFPcW1HOERNZzIydFhseWEyUFNWUUthSXdHaWlReVMtbU1LMDJB?oc=5",
+        "summary": "Oracle to spend $700 million more on restructuring costs as it ramps up AI spending &nbsp;&nbsp; Reuters",
+        "image": null
+      },
+      {
+        "title": "In pictures: The U.S. commemorates the 25th anniversary of 9/11",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Fri, 11 Sep 2026 22:42:14 GMT",
+        "link": "https://www.cnbc.com/2026/09/11/us-commemorates-25th-anniversary-9/11-photos.html",
+        "summary": "On Sept. 11, 2001, hijackers flew planes into the World Trade Center and the Pentagon, killing thousands. Photos capture those marking the 25th anniversary.",
+        "image": null,
+        "_rank": 34
+      },
+      {
+        "title": "GE Aerospace (GE)’s $12 Billion CPP Acquisition Puts Its Growth Strategy to the Test",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-09-12T22:38:33Z",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-ge-12-billion-223833187.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/insidermonkey.com/ad32e889e163b3a7c5fc1c720624cf38.jpg"
+      },
+      {
+        "title": "Block, Inc (XYZ)’s Bank Charter Push Signals Bigger Ambitions in Digital Assets",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-09-12T22:09:30Z",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/block-inc-xyz-bank-charter-220930244.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/insidermonkey.com/b23bc011afed526f34fa19e618a33b80.jpg"
+      },
+      {
+        "title": "ACV Auctions (ACVA) Was This Week’s Top Stock — Here’s What Drove Gains",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-09-12T22:06:05Z",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/acv-auctions-acva-week-top-220605819.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/insidermonkey.com/92277e300edeb2777fe21a4e5ac2924c.jpg"
+      },
+      {
+        "title": "Salesforce Inc. (CRM)’s Potential Listen Labs Acquisition Could Boost Its Agentic AI Strategy",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-09-12T22:05:58Z",
+        "link": "https://finance.yahoo.com/technology/ai/articles/salesforce-inc-crm-potential-listen-220558304.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/insidermonkey.com/a3d26eccf6d7cc00643dfb6f7e0dc19b.jpg"
+      },
+      {
+        "title": "Palo Alto Networks (PANW)’s AI Growth Faces a Higher Valuation Bar",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-09-12T21:51:16Z",
+        "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-panw-ai-215116717.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/insidermonkey.com/dd449b00da2bef4568fb1128e93ab85c.jpg",
+        "_rank": 39
+      },
+      {
+        "title": "USA Escapes Spain, Will Face France For FIBA World Cup Gold",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 16:46:23 -0400",
+        "link": "https://www.forbes.com/sites/allisonsmith/2026/09/12/usa-escapes-spain-will-face-france-for-fiba-world-cup-gold/",
+        "summary": "Team USA is headed to the FIBA World Cup final after a 76-66 win over Spain. Can the Americans beat France in a rematch of the 2024 Olympic final?",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6aa5a6bd11ae8052cc1208fe/0x0.jpg"
+      },
+      {
+        "title": "Malone Lam Convicted Of Masterminding  $245 Million Crypto Crime Ring",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 12:43:18 -0400",
+        "link": "https://www.forbes.com/sites/steveweisman/2026/09/12/malone-lam-convicted-of-masterminding--245-million-crypto-crime-ring/",
+        "summary": "Malone Lam convicted of operating a massive cryptocurrency crime ring that used social engineering and sophisticated money laundering to steal $245 million",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6aa57b255500fb70a6db7571/0x0.jpg"
+      },
+      {
+        "title": "After the I.P.O., a Billion-Dollar Bill for Employee Paydays",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 12:00:02 +0000",
+        "link": "https://www.nytimes.com/2026/09/12/business/dealbook/double-trigger-rsus.html",
+        "summary": "A compensation strategy at start-ups keeps expenses low until they go public. At that point, the companies may face billions of dollars in catch-up expenses.",
+        "image": "https://static01.nyt.com/images/2026/09/12/multimedia/12DB-EMPLOYEE-STOCK-gpmv/12DB-EMPLOYEE-STOCK-gpmv-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Inflation Complicates Trump’s Midterms Pitch to Voters",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 09:04:04 +0000",
+        "link": "https://www.nytimes.com/2026/09/12/us/politics/trump-inflation-midterms.html",
+        "summary": "Gas prices are high, mortgage rates are climbing and inflation remains well above target, complicating the president’s midterm appeal.",
+        "image": "https://static01.nyt.com/images/2026/09/12/multimedia/12DC-TRUMP-ECON-1-zgpl/12DC-TRUMP-ECON-1-zgpl-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "American Tower Sees 2026 Growth Trough Before 5G, AI and 6G Catalysts Lift Demand",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-09-12T23:01:56Z",
+        "link": "https://finance.yahoo.com/technology/articles/american-tower-sees-2026-growth-230156550.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/marketbeat_955/3a79234cf1e37e0c395c64e6feb13729.jpg",
+        "_rank": 44
+      },
+      {
+        "title": "AI Agents Create Their Own Monitoring Problem. Datadog and Dynatrace Are Racing to Own It",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-09-12T22:56:26Z",
+        "link": "https://finance.yahoo.com/technology/ai/articles/ai-agents-create-own-monitoring-225626156.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/insidermonkey.com/17c3108472ab8ca1d6a190e8ddd07f26.jpg",
+        "_rank": 45
+      },
+      {
+        "title": "How Much Does a 61-Year-Old Need Invested to Collect $8,600 a Month for Life?",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-09-12T22:53:57Z",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/much-does-61-old-invested-225357243.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/24_7_wall_st__718/a0edcc38b39ea522e54a973f790f57a0.jpg",
+        "_rank": 46
+      },
+      {
+        "title": "U.S. Bancorp (USB)’s Dividend Increase Has More Behind It",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-09-12T22:16:00Z",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/u-bancorp-usb-dividend-increase-221600807.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/insidermonkey.com/7d01962c35d56e5d770d2ab0d313ba13.jpg",
+        "_rank": 47
+      },
+      {
+        "title": "Here is Why Piper Sandler Named Q2 Holdings (QTWO) Its Top Pick",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-09-12T22:13:04Z",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-piper-sandler-named-q2-221304680.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/insidermonkey.com/e4d48dee82a03eabe5c7338e6485e012.jpg",
+        "_rank": 48
+      },
+      {
+        "title": "Nvidia (NVDA)’s 2 GW Australia AI Push Could Deepen Its Infrastructure Advantage",
+        "source": "Yahoo Finance",
+        "category": "mercati",
+        "published": "2026-09-12T22:03:11Z",
+        "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-2-gw-australia-220311518.html",
+        "summary": "",
+        "image": "https://media.zenfs.com/en/insidermonkey.com/2731d6acd1e07d27dd0a8d0347e95b14.jpg",
+        "_rank": 49
+      },
+      {
+        "title": "NYT Pips Answers For Sunday, September 13",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 18:00:35 -0400",
+        "link": "https://www.forbes.com/sites/erikkain/2026/09/12/nyt-pips-answers-sunday-september-13/",
+        "summary": "Looking for help with today's New York Times Pips? We'll walk you through today's puzzle and help you match dominoes to tiles.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/68ab7aaa205e351d8e7e68df/0x0.jpg?width=960"
+      },
+      {
+        "title": "How to Lure the Spendy and the Thrifty? Bring On the ‘Barbell.’",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 20:58:14 +0000",
+        "link": "https://www.nytimes.com/2026/09/12/business/barbell-pricing-restaurants.html",
+        "summary": "Restaurant chains are trying to draw in both kinds of consumers by offering low-cost and more-premium options at the same time.",
+        "image": "https://static01.nyt.com/images/2026/09/13/business/13shoptalk-illo/13shoptalk-illo-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "OpenAI Isn’t Going Public This Year, Sam Altman Says",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 16:31:29 -0400",
+        "link": "https://www.forbes.com/sites/maryroeloffs/2026/09/12/openai-isnt-going-public-this-year-sam-altman-says/",
+        "summary": "Wall Street was poised for a massive OpenAI IPO by the end of the year—but the CEO says that’s not happening.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/69fb8bba559d3c75e27c9de4/0x0.jpg?width=960"
+      },
+      {
+        "title": "Starting Grid For The 2026 F1 Spanish Grand Prix At Madring",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 15:04:26 -0400",
+        "link": "https://www.forbes.com/sites/yaraelshebiny/2026/09/12/starting-grid-for-the-2026-f1-spanish-grand-prix-at-madring/",
+        "summary": "Lando Norris delivered a stunning final effort in Saturday's qualifying to take the first-ever pole position at the Madring. Here's the full starting grid for the Spanish Grand Prix with penalties applied.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6aa5a007ce46fd806c393546/0x0.jpg?width=960",
+        "_rank": 53
+      },
+      {
+        "title": "AVP Beach Volleyball Champions Brasher And Cruz Aim For LA28 Olympics",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 14:57:41 -0400",
+        "link": "https://www.forbes.com/sites/timgenske/2026/09/12/avp-beach-volleyball-champions-brasher-and-cruz-aim-for-la28-olympics/",
+        "summary": "After experiencing the pressure of the Paris Olympics, U.S. beach volleyball champions Taryn Brasher and Kristen Cruz are approaching LA28 with a different perspective",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6aa59d40f4eb50976bdc2c8c/0x0.jpg",
+        "_rank": 54
+      },
+      {
+        "title": "Risks for Clicks: Why Online Influencers Push Shock Content",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 17:19:11 +0000",
+        "link": "https://www.nytimes.com/2026/09/12/us/influencers-social-media-algorithm.html",
+        "summary": "A growing number of social media creators are pushing the boundaries of safety and good taste to feed algorithms and win followers.",
+        "image": "https://static01.nyt.com/images/2026/09/04/multimedia/00xp-influencer-TOP-fwpk/00xp-influencer-TOP-fwpk-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Billionaire Anthropic CEO Urges Competitors To Slow Down AI Development",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 11:29:38 -0400",
+        "link": "https://www.forbes.com/sites/maryroeloffs/2026/09/12/billionaire-anthropic-ceo-urges-competitors-to-slow-down-ai-development/",
+        "summary": "Amodei urged rivals to invite embedded external auditors into their offices and coordinate a slowdown in development of AI that would allow regulators to catch up.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6aa56e8d5500fb70a6db756f/0x0.jpg?width=960",
+        "_rank": 56
+      },
+      {
+        "title": "Trump Says He'd 'Love' To See Unified Ireland",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 10:23:14 -0400",
+        "link": "https://www.forbes.com/sites/maryroeloffs/2026/09/12/trump-says-hed-love-to-see-unified-ireland/",
+        "summary": "Trump broke a history of American leaders staying neutral on Ireland—putting him at odds with the UK's Prime Minister.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6aa55d5f6e5f5a45896aefb4/0x0.jpg?width=960",
+        "_rank": 57
+      },
+      {
+        "title": "Good And Bad News About The ‘Pluribus’ Season 2 Release Date",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 10:22:54 -0400",
+        "link": "https://www.forbes.com/sites/paultassi/2026/09/12/good-and-bad-news-about-the-pluribus-season-2-release-date/",
+        "summary": "There's a new update on the 'Pluribus' season 2 release date, due to some news from Vince Gilligan. There's good and bad news.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/69382fcad8827891509f39d5/0x0.jpg",
+        "_rank": 58
+      },
+      {
+        "title": "Want to Entice New Residents? Offer Cash, for a Start.",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 09:02:22 +0000",
+        "link": "https://www.nytimes.com/2026/09/12/business/economy/rural-america-moving-incentives.html",
+        "summary": "Relocation incentives have a mixed record of helping cities and towns stand out as people return to rural America.",
+        "image": "https://static01.nyt.com/images/2026/09/04/multimedia/00biz-moving-incentives-wljt/00biz-moving-incentives-wljt-mediumSquareAt3X.jpg",
+        "_rank": 59
+      },
+      {
+        "title": "India Wants to Buy Fewer Chinese Imports, but Keeps Needing More",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 12 Sep 2026 04:01:15 +0000",
+        "link": "https://www.nytimes.com/2026/09/12/business/india-china-trade.html",
+        "summary": "Trade between India and China has nearly doubled in five years, leaving New Delhi with a widening deficit and a difficult choice over how to build its industrial future.",
+        "image": "https://static01.nyt.com/images/2026/09/12/multimedia/12biz-india-china-trade--01-bfkp/12biz-india-china-trade--01-bfkp-mediumSquareAt3X.jpg",
+        "_rank": 60
+      },
+      {
+        "title": "Trovata per la prima volta in Veneto la mosca orientale della frutta",
+        "source": "ANSA Economia",
+        "category": "italia",
+        "published": "Sat, 12 Sep 2026 12:40:54 +0200",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/trovata-per-la-prima-volta-in-veneto-la-mosca-orientale-della-frutta_834107ae-561f-4a37-8848-09f5511ebc19.html",
+        "summary": "La Regione: 'No allarmismi, ma non sottovalutare il fenomeno'",
+        "image": null
+      },
+      {
+        "title": "Ex Ilva, \"fuoriuscita materiale schiumoso verso i canali\"",
+        "source": "ANSA Economia",
+        "category": "italia",
+        "published": "Sat, 12 Sep 2026 11:55:55 +0200",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/ex-ilva-fuoriuscita-materiale-schiumoso-verso-i-canali_8173a464-ec8c-4d9e-bd79-042e434a7a2f.html",
+        "summary": "L'attivista Manna di Veraleaks ha allertato Arpa Puglia e Guardia costiera",
+        "image": null
+      },
+      {
+        "title": "Pozzo (Confindustria Udine), come per il sisma in Friuli siamo a passaggio epocale",
+        "source": "ANSA Economia",
+        "category": "italia",
+        "published": "Sat, 12 Sep 2026 11:05:36 +0200",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/pozzo-confindustria-udine-come-per-il-sisma-in-friuli-siamo-a-passaggio-epocale_e2812b4e-058f-402e-9da8-e26de57dbfe7.html",
+        "summary": "'Serve Patto di corresponsabilità. Le difficoltà possono diventare opportunità'",
+        "image": null
+      },
+      {
+        "title": "Cgia Mestre, la Pa paga più velocemente i fornitori ma aumenta il debito",
+        "source": "ANSA Economia",
+        "category": "italia",
+        "published": "Sat, 12 Sep 2026 10:47:40 +0200",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/09/12/cgia-mestre-la-pa-paga-piu-velocemente-i-fornitori-ma-aumenta-il-debito_627e809a-5075-4d18-8247-23f9fb38f450.html",
+        "summary": "Si allungano i tempi di saldo delle grandi aziende verso le piccole",
+        "image": null,
+        "_rank": 64
+      },
+      {
+        "title": "‘I’m Really Terrified’: A Mathematician Grapples With AI’s Recent Breakthroughs",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 12 Sep 2026 10:00:00 +0000",
+        "link": "https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/",
+        "summary": "Steven Strogatz coauthored a book about how math is moving beyond human understanding. He spoke with WIRED about the seismic impact artificial intelligence has had on his life’s work.",
+        "image": "https://media.wired.com/photos/6aa416744de88ba2f8bc1a31/master/pass/Math-OpenAI-Steven.jpg"
+      },
+      {
+        "title": "You Don’t Have a Right to Safe Drinking Water, Trump-Appointed Judge Rules",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 12 Sep 2026 09:30:00 +0000",
+        "link": "https://www.wired.com/story/you-dont-have-right-to-safe-drinking-water-trump-appointed-judge-rules/",
+        "summary": "And if your tap water is undrinkable, you have no “constitutional right to truthful information” about it.",
+        "image": "https://media.wired.com/photos/6aa4488052c971537654b906/master/pass/GettyImages-1431034639.jpg"
+      },
+      {
+        "title": "Cyberattacks on Law Firms Nearly Double as Stolen Documents Hit the Dark Web",
+        "source": "Decrypt",
+        "category": "crypto",
+        "published": "Fri, 11 Sep 2026 21:45:05 +0000",
+        "link": "https://decrypt.co/378094/cyberattacks-law-firms-stolen-documents-dark-web",
+        "summary": "Greenberg Traurig said documents were posted to the dark web, while BakerHostetler recorded a near-doubling of law-firm incidents in 2025.",
+        "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg"
+      },
+      {
+        "title": "Former Alameda CEO Caroline Ellison joins nonprofit charity Manifund",
+        "source": "The Block",
+        "category": "crypto",
+        "published": "Fri, 11 Sep 2026 21:37:02 +0000",
+        "link": "https://www.theblock.co/news/business/2026-09-11-former-alameda-ceo-caroline-ellison-joins-nonprofit-charity-manifund-414310",
+        "summary": "Former Alameda Research CEO Caroline Ellison has a new gig at the charity Manifund, its cofounder Austin Chen said Friday.",
+        "image": "https://www.tbstat.com/wp/uploads/2025/12/CE-1920x1080-1-1200x675.png"
+      },
+      {
+        "title": "Khosla Ventures is opening a New York office this fall — its first outpost outside Sand Hill Road",
+        "source": "TechCrunch",
+        "category": "tech",
+        "published": "Fri, 11 Sep 2026 21:19:05 +0000",
+        "link": "https://techcrunch.com/2026/09/11/khosla-ventures-is-opening-a-new-york-office-this-fall-its-first-outpost-outside-sand-hill-road/",
+        "summary": "\"It's actually allegedly being built out now,\" said Rabois, who has clearly dealt with a missed construction timeline or two.",
+        "image": null
+      }
+    ],
+    "lead_headlines": [
+      {
+        "title": "Why OpenAI’s Sam Altman says an IPO isn’t in the cards this year",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/why-openais-sam-altman-says-an-ipo-isnt-in-the-cards-this-year-229de89c?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Wall Street Cheers Clarity on Fed Outlook—Even if It Means Higher Rates",
+        "source": "The Wall Street Journal",
+        "link": "https://www.wsj.com/finance/investing/wall-street-cheers-clarity-on-fed-outlookeven-if-it-means-higher-rates-2f80fd5f?mod=rss_markets_main"
+      },
+      {
+        "title": "Marvell is sitting on an incredibly ‘sticky’ business that could help it unlock a $30 billion opportunity",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/marvell-is-sitting-on-an-incredibly-sticky-business-that-could-help-it-unlock-a-30-billion-opportunity-caa6c83f?mod=mw_rss_topstories"
+      }
+    ],
+    "watchlist": [
+      {
+        "title": "The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/the-fed-could-raise-interest-rates-three-times-heres-where-the-market-could-face-the-stiffest-test-757872a1?mod=mw_rss_topstories"
+      },
+      {
+        "title": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+        "source": "Forbes",
+        "link": "https://www.forbes.com/sites/erikkain/2026/09/12/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/"
+      },
+      {
+        "title": "India’s central bank tells Tata Sons to take conglomerate public",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/6a173e7c-cfe8-4ab8-8c8f-b90871cc907e?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Energy Driven Inflation Complicates Fed Rate Call",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/videos/2026-09-12/energy-driven-inflation-complicates-fed-rate-call-video"
+      },
+      {
+        "title": "Inflation is outpacing wage growth again, squeezing Americans’ paychecks",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html"
+      }
+    ],
+    "niche_signals": [],
+    "signals": {
+      "reference_session": "2026-09-11",
+      "fetched_at": "2026-09-12 23:13:33 UTC",
+      "noteworthy_pct": 1.0,
+      "groups": [
+        {
+          "key": "crypto",
+          "label": {
+            "en": "Crypto (trades 24/7)",
+            "it": "Crypto (aperto 24/7)"
+          },
+          "instruments": [
+            {
+              "symbol": "BTC-USD",
+              "name_en": "Bitcoin",
+              "name_it": "Bitcoin",
+              "group": "crypto",
+              "last": 77259.22,
+              "pct_change": -0.06,
+              "reference_close": 77305.95,
+              "as_of_utc": "2026-09-12 23:00 UTC"
+            },
+            {
+              "symbol": "ETH-USD",
+              "name_en": "Ethereum",
+              "name_it": "Ethereum",
+              "group": "crypto",
+              "last": 2524.21,
+              "pct_change": -0.23,
+              "reference_close": 2530.06,
+              "as_of_utc": "2026-09-12 23:00 UTC"
+            },
+            {
+              "symbol": "SOL-USD",
+              "name_en": "Solana",
+              "name_it": "Solana",
+              "group": "crypto",
+              "last": 101.67,
+              "pct_change": -0.76,
+              "reference_close": 102.45,
+              "as_of_utc": "2026-09-12 23:00 UTC"
+            },
+            {
+              "symbol": "XRP-USD",
+              "name_en": "XRP",
+              "name_it": "XRP",
+              "group": "crypto",
+              "last": 1.3636,
+              "pct_change": 0.12,
+              "reference_close": 1.3619,
+              "as_of_utc": "2026-09-12 23:00 UTC"
+            }
+          ]
+        },
+        {
+          "key": "fx",
+          "label": {
+            "en": "Currencies",
+            "it": "Valute"
+          },
+          "instruments": [
+            {
+              "symbol": "EURUSD=X",
+              "name_en": "Euro / US dollar",
+              "name_it": "Euro / dollaro",
+              "group": "fx",
+              "last": 1.1602,
+              "pct_change": 0.02,
+              "reference_close": 1.16,
+              "as_of_utc": "2026-09-11 21:00 UTC"
+            }
+          ]
+        }
+      ]
+    },
+    "signals_noteworthy": [],
+    "paragraphs": {
+      "en": [
+        "US markets were closed on Saturday, September 12, 2026, so there is no new session to report: the last one, September 11, 2026, was covered in the previous edition and its numbers are not repeated here. This edition reads instead the 99 stories published since then by 16 outlets we track, and brings forward the 24 that matter most.",
+        "Leading the weekend coverage: MarketWatch reports: “Why OpenAI’s Sam Altman says an IPO isn’t in the cards this year”; The Wall Street Journal reports: “Wall Street Cheers Clarity on Fed Outlook—Even if It Means Higher Rates”; MarketWatch reports: “Marvell is sitting on an incredibly ‘sticky’ business that could help it unlock a $30 billion opportunity”.",
+        "By theme: Markets and macro (66), Crypto (8), Tech (9), Italy (10).",
+        "The markets that stay open over the weekend — crypto, futures, currencies — moved less than a percent from Friday's US close: a quiet weekend, on the numbers."
+      ],
+      "it": [
+        "I mercati americani erano chiusi sabato 12 settembre 2026: non c'e' una seduta nuova da raccontare — l'ultima, 11 settembre 2026, e' gia' stata coperta dall'edizione precedente e i suoi numeri qui non vengono ripetuti. Questa edizione legge invece le 99 notizie uscite da allora su 16 testate seguite, e porta in primo piano le 24 piu' rilevanti.",
+        "In evidenza nel fine settimana: MarketWatch riporta: «Why OpenAI’s Sam Altman says an IPO isn’t in the cards this year»; The Wall Street Journal riporta: «Wall Street Cheers Clarity on Fed Outlook—Even if It Means Higher Rates»; MarketWatch riporta: «Marvell is sitting on an incredibly ‘sticky’ business that could help it unlock a $30 billion opportunity».",
+        "Per tema: Mercati e macro (66), Crypto (8), Tech (9), Italia (10).",
+        "I mercati che restano aperti nel fine settimana — crypto, futures, valute — si sono mossi meno dell'un per cento dalla chiusura americana di venerdi': sui numeri, un weekend tranquillo."
+      ]
+    },
+    "headline": {
+      "en": "Markets closed: Saturday's news in brief",
+      "it": "Mercati chiusi: le notizie di sabato in sintesi"
+    }
+  },
+  "weekend_commentary_html": "<p>Nel fine settimana chiuso, i mercati finanziari e la tecnologia hanno dominato il ciclo delle notizie. Sul fronte macro, il Wall Street Journal ha riferito che Wall Street ha accolto con favore la chiarezza sulla prospettiva della Federal Reserve, anche se tale prospettiva segnala tassi di interesse più elevati in arrivo. La Fed è pronta a aumentare i tassi per la prima volta in anni, secondo i resoconti, con MarketWatch che nota che la banca centrale potrebbe muoversi tre volte. Nel settore tecnologico, Tesla ha annunciato che finalmente svelerà la Roadster di seconda generazione il 1° ottobre, mentre TechCrunch ha riferito che Mecka AI si è avvicinata a una valutazione di 500 milioni di dollari in un round di finanziamento guidato da Sequoia in mezzo a una corsa più ampia per i dati di addestramento dei robot. Separatamente, Revolut ha confermato una violazione dei dati dei clienti derivante da richieste governative false. Sul fronte aziendale, CNBC ha riferito che la fiducia di Warren Buffett in un&#x27;acquisizione problematica di un decennio fa ha finalmente dato i suoi frutti, mentre il Wall Street Journal ha divulgato che Johnson &amp; Johnson è in trattative per vendere la sua attività di anche e ginocchia ad Apollo per 20 miliardi di dollari. Larry Ellison ha abbandonato un piano per vendere fino a 7,5 miliardi di dollari di azioni Oracle, sempre secondo il Journal.</p><p>Il mercato delle criptovalute ha mostrato una debolezza modesta nel periodo chiuso. Bitcoin è sceso dello 0,06 percento dall&#x27;ultimo close statunitense, mentre Ethereum è diminuito dello 0,23 percento e Solana è sceso dello 0,76 percento. XRP ha guadagnato lo 0,12 percento. L&#x27;euro ha guadagnato lo 0,02 percento rispetto al dollaro. Questi movimenti sono stati piccoli su tutta la linea, senza oscillazioni drammatiche negli asset che vengono scambiati continuamente.</p><p>Le notizie politiche relative alle criptovalute hanno attirato una copertura significativa questo fine settimana. Il Wall Street Journal, Decrypt e Cointelegraph hanno tutti riferito che il Partito Reform del Regno Unito ha ricevuto un record di 97 milioni di dollari in donazioni da due miliardari delle criptovalute, segnando un&#x27;intersezione insolita tra asset digitali e politica elettorale. Separatamente, MarketWatch ha evidenziato Marvell come seduta su un&#x27;attività incredibilmente appiccicosa che potrebbe aiutarla a sbloccare un&#x27;opportunità di 30 miliardi di dollari, anche se questa analisi faceva parte di un commentario di mercato più ampio piuttosto che di notizie in tempo reale.</p><p>La prossima settimana di negoziazione porta diversi punti focali per gli investitori. La traiettoria dei tassi della Federal Reserve rimane centrale al posizionamento del mercato, con MarketWatch che segnala dove il mercato potrebbe affrontare la sua prova più difficile se la Fed aumenta i tassi tre volte come alcuni si aspettano. La banca centrale indiana ha detto a Tata Sons di quotare il conglomerato in borsa, secondo i resoconti della Financial Times, uno sviluppo che potrebbe rimodellare uno dei più grandi gruppi commerciali dell&#x27;Asia. L&#x27;inflazione guidata dall&#x27;energia sta complicando la decisione sui tassi della Fed, ha notato Bloomberg, mentre CNBC ha riferito che l&#x27;inflazione sta superando di nuovo la crescita dei salari, stringendo gli stipendi degli americani. Questi contrappesi—inasprimento monetario, ristrutturazione aziendale e pressione sul reddito reale—daranno forma al sentimento di negoziazione quando i mercati statunitensi riapriranno.</p>",
+  "weekend_commentary_html_en": "<p>Over the closed weekend, financial markets and technology dominated the news cycle. On the macro front, The Wall Street Journal reported that Wall Street has embraced clarity on the Federal Reserve&#x27;s outlook, even as that outlook signals higher interest rates ahead. The Fed is poised to raise rates for the first time in years, according to reporting, with MarketWatch noting that the central bank could move three times. In the technology sector, Tesla announced it will finally unveil the second generation Roadster on October 1, while TechCrunch reported that Mecka AI neared a 500 million dollar valuation in a Sequoia-led funding round amid a broader rush for robot training data. Separately, Revolut confirmed a customer data breach stemming from fake government requests. On the corporate front, CNBC reported that Warren Buffett&#x27;s confidence in a troubled decade-old acquisition has finally paid off, while The Wall Street Journal disclosed that Johnson &amp; Johnson is in talks to sell its hips-and-knees business to Apollo for 20 billion dollars. Larry Ellison scrapped a plan to sell up to 7.5 billion dollars worth of Oracle stock, also per the Journal.</p><p>The cryptocurrency market showed modest weakness over the closed period. Bitcoin fell 0.06 percent since the last US close, while Ethereum declined 0.23 percent and Solana dropped 0.76 percent. XRP edged up 0.12 percent. The euro gained 0.02 percent against the dollar. These moves were small across the board, with no dramatic swings in assets that trade around the clock.</p><p>Crypto-related political news drew significant coverage this weekend. The Wall Street Journal, Decrypt, and Cointelegraph all reported that the United Kingdom&#x27;s Reform Party received a record 97 million dollars in donations from two crypto billionaires, marking an unusual intersection of digital assets and electoral politics. Separately, MarketWatch highlighted Marvell as sitting on an incredibly sticky business that could help it unlock a 30 billion dollar opportunity, though this analysis was part of broader market commentary rather than breaking news.</p><p>The coming trading week brings several focal points for investors. The Federal Reserve&#x27;s rate trajectory remains central to market positioning, with MarketWatch flagging where the market could face its stiffest test if the Fed raises rates three times as some expect. India&#x27;s central bank has told Tata Sons to take the conglomerate public, according to Financial Times reporting, a development that could reshape one of Asia&#x27;s largest business groups. Energy-driven inflation is complicating the Fed&#x27;s rate decision, Bloomberg noted, while CNBC reported that inflation is outpacing wage growth again, squeezing Americans&#x27; paychecks. These cross-currents—monetary tightening, corporate restructuring, and real income pressure—will shape trading sentiment when the US markets reopen.</p>",
+  "covers_date_it": "12 settembre 2026",
+  "covers_date_en": "September 12, 2026"
+}
