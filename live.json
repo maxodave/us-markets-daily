@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-11T20:18:46Z",
-  "market_open": false,
+  "updated": "2026-09-14T18:30:29Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.86,
-      "last": 7656.98
+      "pct": -0.29,
+      "last": 7633.18
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.91,
-      "last": 29368.44
+      "pct": -0.43,
+      "last": 29241.73
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.98,
-      "last": 52573.29
+      "pct": -0.26,
+      "last": 52426.16
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.26,
-      "last": 52512.03
+      "pct": -1.56,
+      "last": 51628.77
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "ACVA",
-        "name": "ACV Auctions Inc.",
-        "pct": 44.18
+        "symbol": "S",
+        "name": "SentinelOne, Inc.",
+        "pct": 15.92
       },
       {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise Company",
-        "pct": 12.42
+        "symbol": "ZS",
+        "name": "Zscaler, Inc.",
+        "pct": 15.53
       },
       {
-        "symbol": "DELL",
-        "name": "Dell Technologies Inc.",
-        "pct": 11.94
-      },
-      {
-        "symbol": "TNON",
-        "name": "Tenon Medical, Inc.",
-        "pct": 11.89
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": 11.15
-      },
-      {
-        "symbol": "BAND",
-        "name": "Bandwidth Inc.",
-        "pct": 10.17
-      },
-      {
-        "symbol": "HTFL",
-        "name": "Heartflow, Inc.",
-        "pct": 9.65
-      },
-      {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "pct": 8.97
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": 8.83
-      },
-      {
-        "symbol": "NTAP",
-        "name": "NetApp, Inc.",
-        "pct": 8.54
-      }
-    ],
-    "losers": [
-      {
-        "symbol": "SMR",
-        "name": "NuScale Power Corporation",
-        "pct": -15.67
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -14.42
-      },
-      {
-        "symbol": "DBGI",
-        "name": "Digital Brands Group, Inc.",
-        "pct": -11.63
-      },
-      {
-        "symbol": "OKLO",
-        "name": "Oklo Inc.",
-        "pct": -9.18
-      },
-      {
-        "symbol": "LEU",
-        "name": "Centrus Energy Corp.",
-        "pct": -8.18
+        "symbol": "NTSK",
+        "name": "Netskope, Inc.",
+        "pct": 15.51
       },
       {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "pct": -6.99
+        "pct": 15.31
       },
       {
-        "symbol": "KAI",
-        "name": "Kadant Inc",
-        "pct": -6.96
+        "symbol": "SAIL",
+        "name": "SailPoint, Inc.",
+        "pct": 15.31
       },
       {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "pct": -6.52
+        "symbol": "CRWD",
+        "name": "CrowdStrike Holdings, Inc.",
+        "pct": 14.66
       },
       {
-        "symbol": "TYRA",
-        "name": "Tyra Biosciences, Inc.",
-        "pct": -6.41
+        "symbol": "RBRK",
+        "name": "Rubrik, Inc.",
+        "pct": 14.48
       },
       {
-        "symbol": "DOCN",
-        "name": "DigitalOcean Holdings, Inc.",
-        "pct": -6.18
+        "symbol": "TENB",
+        "name": "Tenable Holdings, Inc.",
+        "pct": 13.98
+      },
+      {
+        "symbol": "PANW",
+        "name": "Palo Alto Networks, Inc.",
+        "pct": 13.51
+      },
+      {
+        "symbol": "OKTA",
+        "name": "Okta, Inc.",
+        "pct": 12.96
       }
     ],
-    "universe": 1285
+    "losers": [
+      {
+        "symbol": "GLW",
+        "name": "Corning Incorporated",
+        "pct": -12.64
+      },
+      {
+        "symbol": "TER",
+        "name": "Teradyne, Inc.",
+        "pct": -12.17
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": -11.06
+      },
+      {
+        "symbol": "MTSI",
+        "name": "MACOM Technology Solutions Holdings, Inc.",
+        "pct": -10.97
+      },
+      {
+        "symbol": "SITM",
+        "name": "SiTime Corporation",
+        "pct": -10.94
+      },
+      {
+        "symbol": "AEIS",
+        "name": "Advanced Energy Industries, Inc.",
+        "pct": -10.41
+      },
+      {
+        "symbol": "VIAV",
+        "name": "Viavi Solutions Inc.",
+        "pct": -10.4
+      },
+      {
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -10.3
+      },
+      {
+        "symbol": "ALAB",
+        "name": "Astera Labs, Inc.",
+        "pct": -10.19
+      },
+      {
+        "symbol": "ONTO",
+        "name": "Onto Innovation Inc.",
+        "pct": -10.18
+      }
+    ],
+    "universe": 1258
   }
 }
