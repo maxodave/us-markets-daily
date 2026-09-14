@@ -75,11 +75,48 @@ name: Quotazioni LIVE
 #    smettere di penalizzare il repo. Se fra una settimana le consegne tornano a
 #    essere molte, allora si potra' tornare a job brevi anche per gli schedule.
 #
-# COME SI GARANTISCE IL PASSO. In "loop" lo garantisce il job stesso, che non
-# dipende dallo scheduler dopo l'accensione. In "once" lo garantisce il timer sul
-# Mac. Lo scheduler di GitHub serve solo come rete quando il Mac e' spento, e va
-# considerato per quello che i dati dicono che e': tre o quattro consegne al
-# giorno, la prima verso le 16:20 UTC.
+# 5) IL 14 SETTEMBRE 2026: LA PREVISIONE DEL PUNTO 4 ERA SBAGLIATA, E I NUMERI
+#    LO DICONO. Il punto 4 si chiudeva con "se fra una settimana le consegne
+#    tornano a essere molte, si potra' tornare a job brevi anche per gli
+#    schedule". Due settimane dopo le consegne non erano tornate: erano
+#    peggiorate. Contate con l'API, consegne al giorno e minuti di runner:
+#
+#      17 ago    9 consegne     5 min di runner    prima alle 16:33
+#      18 ago   19 consegne    25 min              prima alle 13:33  <- job brevi
+#      -------- 19 agosto: entra il job che CICLA --------
+#      19 ago    4 consegne   651 min              prima alle 13:49
+#      20-26 ago 3 consegne  ~630 min              prima alle ~14:05
+#      01-03 set 3 consegne  ~270 min              prima alle ~16:25
+#      04-11 set 3 consegne  186-440 min           prima alle ~17:00
+#      14 set    1 consegna                        prima alle 18:30
+#
+#    Accorciare il segmento da 330' a 150' non ha spostato niente: finche' il
+#    job cicla, le consegne restano tre e l'ora della prima slitta avanti di
+#    mese in mese. Il 14 settembre la borsa ha aperto alle 13:30 UTC e la vista
+#    LIVE si e' mossa per la prima volta alle 18:32: cinque ore di buco.
+#
+#    LA CONTROPROVA, nello stesso account e nello stesso giorno: il repo
+#    maxoquantic-scoring ha otto orari al giorno e job da due minuti, e riceve
+#    OTTO consegne su otto. Non e' l'account, non e' la chiave, non e' la forma
+#    del cron: e' che un repo occupa un runner dieci ore al giorno e l'altro
+#    sedici minuti.
+#
+#    DECISIONE. Gli schedule passano a "once" — un giro, due minuti, runner
+#    libero — e il passo scende a dieci minuti, perche' adesso ogni consegna
+#    vale un aggiornamento solo. Con due tetti che impediscono il ritorno della
+#    malattia: dieci minuti di durata massima per le corse da schedule, e un
+#    massimo di otto pubblicazioni all'ora contate sul ramo (vedi lo step).
+#    Il prezzo, detto prima di pagarlo: per qualche giorno la copertura puo'
+#    restare rada, finche' lo scheduler non si fida di nuovo. Il metro di
+#    giudizio e' quello del 18 agosto: consegne a doppia cifra e prima consegna
+#    vicina all'apertura.
+#
+# COME SI GARANTISCE IL PASSO. Da oggi lo garantiscono gli schedule, uno ogni
+# dieci minuti, e il timer sul Mac quando c'e' — non piu' il contrario. E' il
+# rovesciamento del punto 5: si smette di difendersi dallo scheduler e si torna
+# a meritarselo. La regola del progetto e' che il sito funzioni a Mac spento
+# (vedi il README), e un passo affidato a un portatile che dorme non la
+# rispetta.
 #
 # PERCHE' 10 MINUTI E NON 5. Il limite non e' Yahoo (nessuna chiave, nessuna
 # quota: un giro dura ~40 secondi) e non sono i minuti Actions (repo pubblico,
@@ -101,11 +138,13 @@ name: Quotazioni LIVE
 # lo stato lo calcola il browser in ora di New York.
 on:
   schedule:
-    # LA FORMA CHE HA DATO I PRIMI AVVII PIU' PRECOCI (13:33 / 13:49 UTC): ogni
-    # quarto d'ora dalle 13:00 alle 21:xx UTC, giorni feriali. Copre la seduta in
-    # entrambi i regimi orari (09:00-16:25 di New York = 13:00-20:25 UTC d'estate,
-    # 14:00-21:25 d'inverno). Non toccare senza misurare — vedi il punto 3 sopra.
-    - cron: "*/15 13-21 * * 1-5"
+    # Ogni dieci minuti dalle 13:00 alle 21:xx UTC, giorni feriali. Copre la
+    # seduta in entrambi i regimi orari (09:00-16:25 di New York = 13:00-20:25
+    # UTC d'estate, 14:00-21:25 d'inverno). Il passo e' dieci minuti perche' ora
+    # OGNI consegna vale un solo aggiornamento: non c'e' piu' un ciclo che copre
+    # le ore fra una consegna e l'altra. Sei build/ora al massimo, piu' il tetto
+    # nello step che tiene il conto per davvero.
+    - cron: "*/10 13-21 * * 1-5"
   workflow_dispatch:
     inputs:
       mode:
@@ -129,9 +168,12 @@ concurrency:
 jobs:
   quotes:
     runs-on: ubuntu-latest
-    # Sotto il limite GitHub di 360'. Il job si ferma comunque da se' prima: la
-    # durata vera la decide il segmento calcolato nello step, non questo tetto.
-    timeout-minutes: 350
+    # DUE TETTI, non uno. Una corsa da schedule non puo' durare piu' di dieci
+    # minuti: e' la garanzia che la malattia del punto 5 non possa tornare da
+    # sola, nemmeno se un giorno qualcuno rimettesse "loop" come default o se un
+    # giro restasse appeso. Le corse a mano possono ancora ciclare (350', sotto
+    # il limite GitHub di 360'), perche' quella e' una scelta presa li' per li'.
+    timeout-minutes: ${{ github.event_name == 'schedule' && 10 || 350 }}
     env:
       TZ: Europe/Rome
       # Facoltativo (vedi testata). Se il secret non esiste arriva vuoto e la
@@ -166,6 +208,16 @@ jobs:
             echo "run=no" >> "$GITHUB_OUTPUT"; exit 0
           fi
 
+          # L'attesa dell'apertura ha senso solo per chi poi cicla. In "once"
+          # aspettare vorrebbe dire tenere un runner fermo fino a un'ora per un
+          # giro da quaranta secondi: e' esattamente il consumo che ha fatto
+          # crollare le consegne. Si esce, e il giro lo fa lo slot dopo — che
+          # con il passo di dieci minuti e' a dieci minuti di distanza.
+          if [ "$NOW" -lt "$OPEN" ] && [ "${{ inputs.mode || 'once' }}" = "once" ]; then
+            echo "Consegnato prima delle 09:00 ET in modalita' once: esco, tocca allo slot successivo."
+            echo "run=no" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+
           # Inizio e fine finestra in epoch, ricalcolati dall'ora di New York di OGGI.
           START=$(TZ=America/New_York date -d 'today 09:00' +%s)
           END=$(TZ=America/New_York date -d 'today 16:25' +%s)
@@ -192,10 +244,11 @@ jobs:
         env:
           START: ${{ steps.gate.outputs.start }}
           END: ${{ steps.gate.outputs.end }}
-          # "once" = un solo giro e chiudi (lo usa il dispacciatore sul Mac, che sa
-          # gia' che la pagina e' ferma adesso). "loop" = cicla fino a fine seduta,
-          # ed e' il default: e' cio' che serve agli schedule, che arrivano rari.
-          MODE: ${{ inputs.mode || 'loop' }}
+          # "once" = un solo giro e chiudi, ~2 minuti di runner. E' il DEFAULT, e
+          # quindi cio' che fanno gli schedule: vedi il punto 5 in testa al file.
+          # "loop" resta, ma solo a mano da Actions, per i casi in cui serve
+          # coprire ore in fretta sapendo che si paga in consegne.
+          MODE: ${{ inputs.mode || 'once' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -203,11 +256,31 @@ jobs:
           # Un giro: quota, e committa SOLO se i numeri sono cambiati davvero
           # (fetch_live_quotes.py non riscrive il file a borsa chiusa con dati
           # identici, quindi qui non si generano commit e build di Pages a vuoto).
+          # TETTO DELLE PUBBLICAZIONI. Ogni push fa ricostruire il sito, e Pages ha
+          # un limite indicativo di dieci build all'ora. In condizioni normali il
+          # passo di dieci minuti ne fa sei e lascia spazio al job dell'edizione,
+          # ma le consegne arretrate arrivano a grappolo: cinque slot scartati
+          # che piovono insieme sono cinque build in pochi minuti. Qui si contano
+          # le pubblicazioni dell'ultima ora sul ramo vero (quindi anche quelle
+          # dell'edizione) e oltre il tetto si salta il commit: i dati non vanno
+          # persi, li riscrive il giro dopo.
+          TETTO_ORA=8
+          pubblicazioni_ultima_ora() {
+            git fetch -q origin main 2>/dev/null || true
+            git log --since="60 minutes ago" --oneline origin/main 2>/dev/null | wc -l | tr -d ' '
+          }
+
           giro() {
             python pipeline/fetch_live_quotes.py . || { echo "fetch fallito"; return 0; }
             git add live.json
             if git diff --cached --quiet; then
               echo "Quotazioni invariate: nessun commit."
+              return 0
+            fi
+            FATTE=$(pubblicazioni_ultima_ora)
+            if [ "${FATTE:-0}" -ge "$TETTO_ORA" ]; then
+              echo "Gia' $FATTE pubblicazioni nell'ultima ora (tetto $TETTO_ORA): salto il commit per non saturare Pages."
+              git reset -q HEAD live.json || true
               return 0
             fi
             git commit -q -m "Live quotes $(date -u '+%Y-%m-%d %H:%M UTC')"
@@ -238,16 +311,11 @@ jobs:
             sleep "$WAIT"
           fi
 
-          # Lunghezza del segmento. Con la catena accesa segmenti brevi: se un job
-          # muore, il successivo riprende in pochi minuti invece che in ore. Senza
-          # catena un segmento lungo, perche' li' l'unica rete sono gli schedule,
-          # che questo repo riceve tre o quattro volte al giorno (vedi punto 5).
-          # SEGMENTO PIU' CORTO (150', era 330'). E' il compromesso fra le due cose
-          # che si contendono: una consegna sola deve coprire piu' ore possibile
-          # (giorni a Mac spento), ma occupare un runner mezza giornata e' cio' che
-          # ha fatto crollare le consegne da 19 a 3 al giorno (vedi punto 3). Con
-          # 150' una consegna copre due ore e mezza e il runner si libera. Se fra
-          # una settimana le consegne risalgono, si scende ancora.
+          # Lunghezza del segmento. Qui ci si arriva solo a mano, da Actions: gli
+          # schedule fanno "once" (punto 5). Chi sceglie "loop" sa che sta
+          # comprando ore di copertura adesso e pagandole in consegne nei giorni
+          # dopo — e' il motivo per cui non e' piu' il default. Il segmento resta
+          # corto per limitare il danno: 150', o 75' se la catena e' accesa.
           if [ -n "${LIVE_CHAIN_TOKEN:-}" ]; then SEG=$(( 75 * 60 )); else SEG=$(( 150 * 60 )); fi
           STOP=$(( $(date -u +%s) + SEG ))
           [ "$STOP" -gt "$END" ] && STOP="$END"
