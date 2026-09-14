@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-14T18:42:19Z",
+  "updated": "2026-09-14T18:53:56Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.24,
-      "last": 7637.37
+      "pct": -0.25,
+      "last": 7636.58
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.37,
-      "last": 29261.01
+      "pct": -0.41,
+      "last": 29248.92
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.18,
-      "last": 52469.84
+      "pct": -0.15,
+      "last": 52483.44
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "S",
         "name": "SentinelOne, Inc.",
-        "pct": 16.27
-      },
-      {
-        "symbol": "QLYS",
-        "name": "Qualys, Inc.",
-        "pct": 16.06
+        "pct": 16.23
       },
       {
         "symbol": "NTSK",
         "name": "Netskope, Inc.",
-        "pct": 15.78
-      },
-      {
-        "symbol": "ZS",
-        "name": "Zscaler, Inc.",
-        "pct": 15.67
+        "pct": 16.09
       },
       {
         "symbol": "SAIL",
         "name": "SailPoint, Inc.",
-        "pct": 15.65
+        "pct": 15.69
       },
       {
-        "symbol": "CRWD",
-        "name": "CrowdStrike Holdings, Inc.",
-        "pct": 15.29
+        "symbol": "ZS",
+        "name": "Zscaler, Inc.",
+        "pct": 15.41
+      },
+      {
+        "symbol": "QLYS",
+        "name": "Qualys, Inc.",
+        "pct": 15.3
       },
       {
         "symbol": "RBRK",
         "name": "Rubrik, Inc.",
-        "pct": 14.51
+        "pct": 14.7
       },
       {
-        "symbol": "TENB",
-        "name": "Tenable Holdings, Inc.",
-        "pct": 14.31
+        "symbol": "CRWD",
+        "name": "CrowdStrike Holdings, Inc.",
+        "pct": 14.69
       },
       {
         "symbol": "PANW",
         "name": "Palo Alto Networks, Inc.",
-        "pct": 14.26
+        "pct": 13.9
+      },
+      {
+        "symbol": "TENB",
+        "name": "Tenable Holdings, Inc.",
+        "pct": 13.85
       },
       {
         "symbol": "OKTA",
         "name": "Okta, Inc.",
-        "pct": 13.4
+        "pct": 13.05
       }
     ],
     "losers": [
       {
         "symbol": "GLW",
         "name": "Corning Incorporated",
-        "pct": -12.67
+        "pct": -12.54
       },
       {
         "symbol": "TER",
         "name": "Teradyne, Inc.",
-        "pct": -11.63
-      },
-      {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": -11.03
+        "pct": -11.28
       },
       {
         "symbol": "SITM",
         "name": "SiTime Corporation",
-        "pct": -10.99
+        "pct": -11.14
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": -10.9
       },
       {
         "symbol": "MTSI",
         "name": "MACOM Technology Solutions Holdings, Inc.",
-        "pct": -10.53
-      },
-      {
-        "symbol": "INIO",
-        "name": "INNIO N.V.",
-        "pct": -10.29
-      },
-      {
-        "symbol": "AEIS",
-        "name": "Advanced Energy Industries, Inc.",
-        "pct": -10.26
+        "pct": -10.67
       },
       {
         "symbol": "VIAV",
         "name": "Viavi Solutions Inc.",
+        "pct": -10.59
+      },
+      {
+        "symbol": "AEIS",
+        "name": "Advanced Energy Industries, Inc.",
+        "pct": -10.44
+      },
+      {
+        "symbol": "BAND",
+        "name": "Bandwidth Inc.",
+        "pct": -10.41
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
         "pct": -10.19
       },
       {
-        "symbol": "ONTO",
-        "name": "Onto Innovation Inc.",
-        "pct": -10.14
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -10.05
+        "symbol": "INIO",
+        "name": "INNIO N.V.",
+        "pct": -10.15
       }
     ],
     "universe": 1258
