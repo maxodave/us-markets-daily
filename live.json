@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T20:15:31Z",
+  "updated": "2026-09-15T13:04:08Z",
   "market_open": false,
   "indices": [
     {
@@ -23,12 +23,22 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.56,
-      "last": 51628.77
+      "pct": 0.22,
+      "last": 51743.82
     }
   ],
   "movers": {
     "gainers": [
+      {
+        "symbol": "BMGL",
+        "name": "Basel Medical Group Ltd",
+        "pct": 55.9
+      },
+      {
+        "symbol": "ELMT",
+        "name": "The Elmet Group Co.",
+        "pct": 32.8
+      },
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
@@ -68,19 +78,19 @@
         "symbol": "CRWD",
         "name": "CrowdStrike Holdings, Inc.",
         "pct": 13.85
-      },
-      {
-        "symbol": "PANW",
-        "name": "Palo Alto Networks, Inc.",
-        "pct": 13.09
-      },
-      {
-        "symbol": "RBLX",
-        "name": "Roblox Corporation",
-        "pct": 12.73
       }
     ],
     "losers": [
+      {
+        "symbol": "XHLD",
+        "name": "TEN Holdings, Inc.",
+        "pct": -28.81
+      },
+      {
+        "symbol": "SWMR",
+        "name": "Swarmer, Inc",
+        "pct": -18.77
+      },
       {
         "symbol": "INIO",
         "name": "INNIO N.V.",
@@ -120,18 +130,8 @@
         "symbol": "VIAV",
         "name": "Viavi Solutions Inc.",
         "pct": -12.72
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -12.62
-      },
-      {
-        "symbol": "SITM",
-        "name": "SiTime Corporation",
-        "pct": -12.16
       }
     ],
-    "universe": 1258
+    "universe": 1311
   }
 }
