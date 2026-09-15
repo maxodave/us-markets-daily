@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-15T19:15:28Z",
+  "updated": "2026-09-15T19:25:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.5,
-      "last": 7582.62
+      "pct": -0.51,
+      "last": 7581.25
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.67,
-      "last": 28930.81
+      "pct": -0.69,
+      "last": 28925.88
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.7,
-      "last": 52056.07
+      "pct": -0.71,
+      "last": 52048.29
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions, Inc.",
         "pct": 11.91
       },
       {
-        "symbol": "SWKS",
-        "name": "Skyworks Solutions, Inc.",
-        "pct": 11.71
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "pct": 10.96
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 10.37
+        "pct": 10.24
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "pct": 10.28
+        "pct": 10.02
       },
       {
         "symbol": "TENB",
         "name": "Tenable Holdings, Inc.",
-        "pct": 10.11
+        "pct": 9.98
       },
       {
         "symbol": "CAI",
         "name": "Caris Life Sciences, Inc.",
-        "pct": 9.4
-      },
-      {
-        "symbol": "RVTY",
-        "name": "Revvity, Inc.",
-        "pct": 8.55
+        "pct": 9.95
       },
       {
         "symbol": "QRVO",
         "name": "Qorvo, Inc.",
-        "pct": 8.21
+        "pct": 8.41
       },
       {
-        "symbol": "WAY",
-        "name": "Waystar Holding Corp.",
-        "pct": 7.79
+        "symbol": "RVTY",
+        "name": "Revvity, Inc.",
+        "pct": 8.06
       },
       {
         "symbol": "CVI",
         "name": "CVR Energy Inc.",
-        "pct": 7.69
+        "pct": 7.8
+      },
+      {
+        "symbol": "RIG",
+        "name": "Transocean Ltd (Switzerland)",
+        "pct": 7.43
       }
     ],
     "losers": [
+      {
+        "symbol": "SWMR",
+        "name": "Swarmer, Inc",
+        "pct": -26.46
+      },
       {
         "symbol": "BMGL",
         "name": "Basel Medical Group Ltd",
         "pct": -25.77
       },
       {
-        "symbol": "SWMR",
-        "name": "Swarmer, Inc",
-        "pct": -25.3
-      },
-      {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -21.56
+        "pct": -22.49
       },
       {
         "symbol": "PLAY",
         "name": "Dave & Buster's Entertainment, Inc.",
-        "pct": -19.72
+        "pct": -19.54
       },
       {
         "symbol": "CRBP",
         "name": "Corbus Pharmaceuticals Holdings, Inc.",
-        "pct": -15.41
+        "pct": -15.78
       },
       {
         "symbol": "ARWR",
         "name": "Arrowhead Pharmaceuticals, Inc.",
-        "pct": -10.6
+        "pct": -11.86
       },
       {
         "symbol": "ASND",
         "name": "Ascendis Pharma A/S",
-        "pct": -10.42
-      },
-      {
-        "symbol": "AXON",
-        "name": "Axon Enterprise, Inc.",
-        "pct": -10.31
+        "pct": -10.78
       },
       {
         "symbol": "BOOT",
         "name": "Boot Barn Holdings, Inc.",
-        "pct": -10.23
+        "pct": -10.4
       },
       {
-        "symbol": "WING",
-        "name": "Wingstop Inc.",
-        "pct": -9.99
+        "symbol": "ELMT",
+        "name": "The Elmet Group Co.",
+        "pct": -10.19
+      },
+      {
+        "symbol": "AXON",
+        "name": "Axon Enterprise, Inc.",
+        "pct": -10.1
       }
     ],
     "universe": 1311
