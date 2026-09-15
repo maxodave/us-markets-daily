@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-15T16:06:03Z",
+  "updated": "2026-09-15T16:20:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.49,
-      "last": 7583.18
+      "pct": -0.5,
+      "last": 7582.46
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.55,
-      "last": 28968.31
+      "pct": -0.56,
+      "last": 28963.39
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.93,
-      "last": 51935.44
+      "pct": -0.94,
+      "last": 51930.46
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": 10.34
+        "pct": 11.59
       },
       {
         "symbol": "SWKS",
         "name": "Skyworks Solutions, Inc.",
-        "pct": 10.33
+        "pct": 10.53
       },
       {
         "symbol": "WAY",
         "name": "Waystar Holding Corp.",
-        "pct": 8.03
+        "pct": 8.35
       },
       {
-        "symbol": "QRVO",
-        "name": "Qorvo, Inc.",
-        "pct": 7.43
+        "symbol": "RIG",
+        "name": "Transocean Ltd (Switzerland)",
+        "pct": 8.07
       },
       {
         "symbol": "RVTY",
         "name": "Revvity, Inc.",
-        "pct": 7.25
+        "pct": 7.66
+      },
+      {
+        "symbol": "VAL",
+        "name": "Valaris Limited",
+        "pct": 7.54
+      },
+      {
+        "symbol": "QRVO",
+        "name": "Qorvo, Inc.",
+        "pct": 7.41
+      },
+      {
+        "symbol": "ILMN",
+        "name": "Illumina, Inc.",
+        "pct": 7.05
+      },
+      {
+        "symbol": "CAI",
+        "name": "Caris Life Sciences, Inc.",
+        "pct": 6.93
       },
       {
         "symbol": "TENB",
         "name": "Tenable Holdings, Inc.",
         "pct": 6.81
-      },
-      {
-        "symbol": "RIG",
-        "name": "Transocean Ltd (Switzerland)",
-        "pct": 6.46
-      },
-      {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "pct": 6.39
-      },
-      {
-        "symbol": "PBF",
-        "name": "PBF Energy Inc.",
-        "pct": 6.19
-      },
-      {
-        "symbol": "CAI",
-        "name": "Caris Life Sciences, Inc.",
-        "pct": 6.07
       }
     ],
     "losers": [
       {
         "symbol": "SWMR",
         "name": "Swarmer, Inc",
-        "pct": -24.56
-      },
-      {
-        "symbol": "BMGL",
-        "name": "Basel Medical Group Ltd",
-        "pct": -19.37
-      },
-      {
-        "symbol": "PLAY",
-        "name": "Dave & Buster's Entertainment, Inc.",
-        "pct": -18.42
+        "pct": -24.28
       },
       {
         "symbol": "CRBP",
         "name": "Corbus Pharmaceuticals Holdings, Inc.",
-        "pct": -18.19
+        "pct": -21.27
+      },
+      {
+        "symbol": "BMGL",
+        "name": "Basel Medical Group Ltd",
+        "pct": -19.64
+      },
+      {
+        "symbol": "PLAY",
+        "name": "Dave & Buster's Entertainment, Inc.",
+        "pct": -18.54
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -16.98
-      },
-      {
-        "symbol": "ASND",
-        "name": "Ascendis Pharma A/S",
-        "pct": -12.57
+        "pct": -18.28
       },
       {
         "symbol": "WING",
         "name": "Wingstop Inc.",
-        "pct": -10.11
+        "pct": -12.27
       },
       {
-        "symbol": "AXON",
-        "name": "Axon Enterprise, Inc.",
-        "pct": -9.58
-      },
-      {
-        "symbol": "ARWR",
-        "name": "Arrowhead Pharmaceuticals, Inc.",
-        "pct": -8.97
+        "symbol": "ASND",
+        "name": "Ascendis Pharma A/S",
+        "pct": -11.83
       },
       {
         "symbol": "ELMT",
         "name": "The Elmet Group Co.",
-        "pct": -8.6
+        "pct": -10.14
+      },
+      {
+        "symbol": "AXON",
+        "name": "Axon Enterprise, Inc.",
+        "pct": -9.57
+      },
+      {
+        "symbol": "ARWR",
+        "name": "Arrowhead Pharmaceuticals, Inc.",
+        "pct": -9.47
       }
     ],
     "universe": 1311
