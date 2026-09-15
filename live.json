@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-15T13:36:52Z",
+  "updated": "2026-09-15T13:54:22Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.14,
-      "last": 7609.5
+      "pct": -0.16,
+      "last": 7608.26
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.07,
-      "last": 29105.45
+      "pct": -0.03,
+      "last": 29119.73
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.55,
-      "last": 52134.57
+      "pct": -0.61,
+      "last": 52100.34
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.25,
-      "last": 51757.51
+      "pct": -0.04,
+      "last": 51609.61
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "WAY",
-        "name": "Waystar Holding Corp.",
-        "pct": 6.87
-      },
-      {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": 6.08
+        "pct": 12.4
       },
       {
         "symbol": "SWKS",
         "name": "Skyworks Solutions, Inc.",
-        "pct": 5.12
-      },
-      {
-        "symbol": "P",
-        "name": "Everpure, Inc.",
-        "pct": 5.11
-      },
-      {
-        "symbol": "DELL",
-        "name": "Dell Technologies Inc.",
-        "pct": 4.72
-      },
-      {
-        "symbol": "MUR",
-        "name": "Murphy Oil Corporation",
-        "pct": 4.31
-      },
-      {
-        "symbol": "DAVE",
-        "name": "Dave Inc.",
-        "pct": 4.16
+        "pct": 10.27
       },
       {
         "symbol": "XHLD",
         "name": "TEN Holdings, Inc.",
-        "pct": 4.15
+        "pct": 9.3
       },
       {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": 4.01
+        "symbol": "WAY",
+        "name": "Waystar Holding Corp.",
+        "pct": 8.57
       },
       {
         "symbol": "QRVO",
         "name": "Qorvo, Inc.",
-        "pct": 3.93
+        "pct": 7.65
+      },
+      {
+        "symbol": "BAND",
+        "name": "Bandwidth Inc.",
+        "pct": 6.46
+      },
+      {
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "pct": 6.15
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": 5.73
+      },
+      {
+        "symbol": "P",
+        "name": "Everpure, Inc.",
+        "pct": 5.64
+      },
+      {
+        "symbol": "CVI",
+        "name": "CVR Energy Inc.",
+        "pct": 5.42
       }
     ],
     "losers": [
       {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": -14.61
+        "symbol": "SWMR",
+        "name": "Swarmer, Inc",
+        "pct": -16.18
       },
       {
         "symbol": "BMGL",
         "name": "Basel Medical Group Ltd",
-        "pct": -11.06
-      },
-      {
-        "symbol": "PLAY",
-        "name": "Dave & Buster's Entertainment, Inc.",
-        "pct": -9.8
-      },
-      {
-        "symbol": "ASND",
-        "name": "Ascendis Pharma A/S",
-        "pct": -7.46
+        "pct": -13.59
       },
       {
         "symbol": "CRBP",
         "name": "Corbus Pharmaceuticals Holdings, Inc.",
-        "pct": -7.45
+        "pct": -13.37
       },
       {
-        "symbol": "SRRK",
-        "name": "Scholar Rock Holding Corporation",
-        "pct": -7.44
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": -12.87
       },
       {
-        "symbol": "CRCL",
-        "name": "Circle Internet Group, Inc.",
-        "pct": -7.05
+        "symbol": "ASND",
+        "name": "Ascendis Pharma A/S",
+        "pct": -11.19
+      },
+      {
+        "symbol": "PLAY",
+        "name": "Dave & Buster's Entertainment, Inc.",
+        "pct": -10.98
       },
       {
         "symbol": "AXON",
         "name": "Axon Enterprise, Inc.",
-        "pct": -6.79
+        "pct": -8.46
       },
       {
-        "symbol": "BMNR",
-        "name": "BitMine Immersion Technologies, Inc.",
-        "pct": -6.08
+        "symbol": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "pct": -8.37
       },
       {
-        "symbol": "SBET",
-        "name": "Sharplink, Inc.",
-        "pct": -6.07
+        "symbol": "SRRK",
+        "name": "Scholar Rock Holding Corporation",
+        "pct": -8.11
+      },
+      {
+        "symbol": "ELMT",
+        "name": "The Elmet Group Co.",
+        "pct": -6.74
       }
     ],
-    "universe": 1309
+    "universe": 1311
   }
 }
