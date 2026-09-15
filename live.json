@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-15T14:35:44Z",
+  "updated": "2026-09-15T14:45:44Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.45,
-      "last": 7586.33
+      "pct": -0.47,
+      "last": 7584.5
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.41,
-      "last": 29006.96
+      "pct": -0.49,
+      "last": 28983.32
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.95,
-      "last": 51921.5
+      "pct": -0.9,
+      "last": 51947.85
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.02,
-      "last": 51639.68
+      "pct": -0.08,
+      "last": 51588.8
     }
   ],
   "movers": {
@@ -32,51 +32,51 @@
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": 12.78
+        "pct": 12.08
       },
       {
         "symbol": "SWKS",
         "name": "Skyworks Solutions, Inc.",
-        "pct": 8.77
+        "pct": 9.18
       },
       {
         "symbol": "WAY",
         "name": "Waystar Holding Corp.",
-        "pct": 8.45
-      },
-      {
-        "symbol": "XHLD",
-        "name": "TEN Holdings, Inc.",
-        "pct": 8.07
+        "pct": 8.11
       },
       {
         "symbol": "RVTY",
         "name": "Revvity, Inc.",
-        "pct": 6.23
+        "pct": 7.08
+      },
+      {
+        "symbol": "XHLD",
+        "name": "TEN Holdings, Inc.",
+        "pct": 7.06
       },
       {
         "symbol": "QRVO",
         "name": "Qorvo, Inc.",
-        "pct": 6.03
-      },
-      {
-        "symbol": "RIG",
-        "name": "Transocean Ltd (Switzerland)",
-        "pct": 4.77
-      },
-      {
-        "symbol": "DAVE",
-        "name": "Dave Inc.",
-        "pct": 4.71
+        "pct": 6.58
       },
       {
         "symbol": "TXG",
         "name": "10x Genomics, Inc.",
-        "pct": 4.46
+        "pct": 4.79
       },
       {
-        "symbol": "MUR",
-        "name": "Murphy Oil Corporation",
+        "symbol": "DAVE",
+        "name": "Dave Inc.",
+        "pct": 4.63
+      },
+      {
+        "symbol": "BRKR",
+        "name": "Bruker Corporation",
+        "pct": 4.56
+      },
+      {
+        "symbol": "FRO",
+        "name": "Frontline Plc",
         "pct": 4.45
       }
     ],
@@ -84,52 +84,52 @@
       {
         "symbol": "SWMR",
         "name": "Swarmer, Inc",
-        "pct": -24.2
+        "pct": -24.61
       },
       {
         "symbol": "CRBP",
         "name": "Corbus Pharmaceuticals Holdings, Inc.",
-        "pct": -18.69
+        "pct": -20.54
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -18.62
+        "pct": -17.54
       },
       {
         "symbol": "BMGL",
         "name": "Basel Medical Group Ltd",
-        "pct": -15.4
+        "pct": -17.23
       },
       {
         "symbol": "PLAY",
         "name": "Dave & Buster's Entertainment, Inc.",
-        "pct": -14.88
+        "pct": -14.58
       },
       {
         "symbol": "ASND",
         "name": "Ascendis Pharma A/S",
+        "pct": -12.37
+      },
+      {
+        "symbol": "ELMT",
+        "name": "The Elmet Group Co.",
         "pct": -11.26
       },
       {
         "symbol": "AXON",
         "name": "Axon Enterprise, Inc.",
-        "pct": -10.04
-      },
-      {
-        "symbol": "ELMT",
-        "name": "The Elmet Group Co.",
-        "pct": -9.9
+        "pct": -11.01
       },
       {
         "symbol": "CRCL",
         "name": "Circle Internet Group, Inc.",
-        "pct": -8.61
+        "pct": -8.8
       },
       {
         "symbol": "ARWR",
         "name": "Arrowhead Pharmaceuticals, Inc.",
-        "pct": -7.3
+        "pct": -8.12
       }
     ],
     "universe": 1311
