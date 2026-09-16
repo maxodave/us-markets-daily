@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-16T13:03:39Z",
-  "market_open": false,
+  "updated": "2026-09-16T13:32:12Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.45,
-      "last": 7585.73
+      "pct": 0.24,
+      "last": 7603.97
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.65,
-      "last": 28937.84
+      "pct": 0.52,
+      "last": 29089.11
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.63,
-      "last": 52093.11
+      "pct": 0.05,
+      "last": 52117.43
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.72,
-      "last": 51931.94
+      "pct": 0.68,
+      "last": 51908.9
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "VEEA",
-        "name": "Veea Inc.",
-        "pct": 149.34
-      },
-      {
-        "symbol": "SWKS",
-        "name": "Skyworks Solutions, Inc.",
-        "pct": 13.55
-      },
-      {
-        "symbol": "SDGR",
-        "name": "Schrodinger, Inc.",
-        "pct": 12.05
-      },
-      {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "pct": 10.67
+        "symbol": "FTFT",
+        "name": "Future FinTech Group Inc.",
+        "pct": 42.51
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": 9.5
+        "pct": 9.38
       },
       {
-        "symbol": "CAI",
-        "name": "Caris Life Sciences, Inc.",
-        "pct": 9.4
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": 8.95
       },
       {
-        "symbol": "QRVO",
-        "name": "Qorvo, Inc.",
-        "pct": 9.34
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 7.54
       },
       {
-        "symbol": "RVTY",
-        "name": "Revvity, Inc.",
-        "pct": 9.11
+        "symbol": "ADPT",
+        "name": "Adaptive Biotechnologies Corporation",
+        "pct": 7.16
       },
       {
-        "symbol": "RIG",
-        "name": "Transocean Ltd (Switzerland)",
-        "pct": 8.99
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "pct": 5.76
       },
       {
-        "symbol": "TENB",
-        "name": "Tenable Holdings, Inc.",
-        "pct": 8.58
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "pct": 5.68
+      },
+      {
+        "symbol": "BRKR",
+        "name": "Bruker Corporation",
+        "pct": 5.39
+      },
+      {
+        "symbol": "TSEM",
+        "name": "Tower Semiconductor Ltd.",
+        "pct": 4.63
+      },
+      {
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": 4.58
       }
     ],
     "losers": [
       {
-        "symbol": "FTFT",
-        "name": "Future FinTech Group Inc.",
-        "pct": -28.61
+        "symbol": "JBHT",
+        "name": "J.B. Hunt Transport Services, Inc.",
+        "pct": -10.61
       },
       {
-        "symbol": "SWMR",
-        "name": "Swarmer, Inc",
-        "pct": -28.36
+        "symbol": "FANG",
+        "name": "Diamondback Energy, Inc.",
+        "pct": -6.51
       },
       {
-        "symbol": "ENVA",
-        "name": "Enova International, Inc.",
-        "pct": -23.43
+        "symbol": "VEEA",
+        "name": "Veea Inc.",
+        "pct": -4.55
       },
       {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": -19.86
+        "symbol": "APPF",
+        "name": "AppFolio, Inc.",
+        "pct": -4.35
       },
       {
-        "symbol": "PLAY",
-        "name": "Dave & Buster's Entertainment, Inc.",
-        "pct": -19.01
+        "symbol": "KNX",
+        "name": "Knight-Swift Transportation Holdings Inc.",
+        "pct": -4.34
       },
       {
-        "symbol": "ARWR",
-        "name": "Arrowhead Pharmaceuticals, Inc.",
-        "pct": -12.4
+        "symbol": "BULL",
+        "name": "Webull Corporation",
+        "pct": -4.04
       },
       {
-        "symbol": "WING",
-        "name": "Wingstop Inc.",
-        "pct": -12.09
+        "symbol": "BFLY",
+        "name": "Butterfly Network, Inc.",
+        "pct": -3.97
       },
       {
-        "symbol": "CRCL",
-        "name": "Circle Internet Group, Inc.",
-        "pct": -11.41
+        "symbol": "LSTR",
+        "name": "Landstar System, Inc.",
+        "pct": -3.64
       },
       {
-        "symbol": "CBRL",
-        "name": "Cracker Barrel Old Country Store, Inc.",
-        "pct": -10.65
+        "symbol": "WU",
+        "name": "Western Union Company (The)",
+        "pct": -3.5
       },
       {
-        "symbol": "BOOT",
-        "name": "Boot Barn Holdings, Inc.",
-        "pct": -10.13
+        "symbol": "YOU",
+        "name": "Clear Secure, Inc.",
+        "pct": -3.15
       }
     ],
-    "universe": 1351
+    "universe": 1330
   }
 }
