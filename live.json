@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-16T13:50:24Z",
+  "updated": "2026-09-16T14:22:54Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.34,
-      "last": 7611.39
+      "pct": 0.21,
+      "last": 7601.78
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
       "pct": 0.74,
-      "last": 29152.36
+      "last": 29152.37
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.12,
-      "last": 52027.96
+      "pct": -0.37,
+      "last": 51901.13
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.61,
-      "last": 51871.39
+      "pct": 0.65,
+      "last": 51893.91
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "FTFT",
         "name": "Future FinTech Group Inc.",
-        "pct": 53.62
+        "pct": 33.28
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": 11.79
+        "pct": 12.53
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 8.32
-      },
-      {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "pct": 8.0
+        "pct": 9.53
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "pct": 6.73
+        "pct": 8.55
       },
       {
-        "symbol": "TWST",
-        "name": "Twist Bioscience Corporation",
-        "pct": 6.38
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": 6.37
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "pct": 8.21
       },
       {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": 6.22
+        "pct": 7.69
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": 6.16
+        "pct": 6.97
+      },
+      {
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": 6.3
+      },
+      {
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": 6.3
       },
       {
         "symbol": "TGTX",
         "name": "TG Therapeutics, Inc.",
-        "pct": 6.07
+        "pct": 6.22
       }
     ],
     "losers": [
       {
         "symbol": "JBHT",
         "name": "J.B. Hunt Transport Services, Inc.",
-        "pct": -11.71
-      },
-      {
-        "symbol": "FANG",
-        "name": "Diamondback Energy, Inc.",
-        "pct": -7.33
-      },
-      {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": -6.94
+        "pct": -12.81
       },
       {
         "symbol": "TNON",
         "name": "Tenon Medical, Inc.",
-        "pct": -6.13
+        "pct": -11.46
       },
       {
         "symbol": "VEEA",
         "name": "Veea Inc.",
-        "pct": -5.78
+        "pct": -10.16
+      },
+      {
+        "symbol": "FANG",
+        "name": "Diamondback Energy, Inc.",
+        "pct": -8.0
+      },
+      {
+        "symbol": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "pct": -7.48
+      },
+      {
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": -7.38
       },
       {
         "symbol": "BULL",
         "name": "Webull Corporation",
-        "pct": -5.31
+        "pct": -6.0
       },
       {
         "symbol": "BFLY",
         "name": "Butterfly Network, Inc.",
-        "pct": -4.81
+        "pct": -5.96
       },
       {
         "symbol": "VNOM",
         "name": "Viper Energy, Inc.",
-        "pct": -4.7
+        "pct": -5.62
       },
       {
-        "symbol": "PLAY",
-        "name": "Dave & Buster's Entertainment, Inc.",
-        "pct": -4.66
-      },
-      {
-        "symbol": "PR",
-        "name": "Permian Resources Corporation",
-        "pct": -4.49
+        "symbol": "MGY",
+        "name": "Magnolia Oil & Gas Corporation",
+        "pct": -5.57
       }
     ],
     "universe": 1351
