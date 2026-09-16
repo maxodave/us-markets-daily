@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-16T14:53:24Z",
+  "updated": "2026-09-16T15:11:38Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.31,
-      "last": 7609.21
+      "pct": 0.43,
+      "last": 7617.97
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.76,
-      "last": 29158.09
+      "pct": 0.93,
+      "last": 29208.12
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.13,
-      "last": 52025.98
+      "pct": 0.03,
+      "last": 52107.49
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.72,
-      "last": 51931.05
+      "pct": 0.79,
+      "last": 51965.07
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "FTFT",
         "name": "Future FinTech Group Inc.",
-        "pct": 32.58
+        "pct": 33.01
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": 14.81
-      },
-      {
-        "symbol": "VEEA",
-        "name": "Veea Inc.",
-        "pct": 10.86
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 9.88
+        "pct": 15.74
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": 9.06
+        "pct": 11.93
+      },
+      {
+        "symbol": "VEEA",
+        "name": "Veea Inc.",
+        "pct": 11.82
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 10.07
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "pct": 8.38
+        "pct": 9.84
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": 8.12
+        "pct": 8.52
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 7.72
+        "pct": 8.41
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": 7.53
+        "pct": 7.82
       },
       {
         "symbol": "CORZ",
         "name": "Core Scientific, Inc.",
-        "pct": 6.86
+        "pct": 7.79
       }
     ],
     "losers": [
       {
         "symbol": "JBHT",
         "name": "J.B. Hunt Transport Services, Inc.",
-        "pct": -12.62
+        "pct": -13.39
       },
       {
         "symbol": "TNON",
         "name": "Tenon Medical, Inc.",
-        "pct": -9.29
+        "pct": -10.67
       },
       {
         "symbol": "FANG",
         "name": "Diamondback Energy, Inc.",
-        "pct": -8.78
+        "pct": -9.17
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -8.73
+        "pct": -8.97
       },
       {
         "symbol": "VNOM",
         "name": "Viper Energy, Inc.",
-        "pct": -6.59
-      },
-      {
-        "symbol": "BULL",
-        "name": "Webull Corporation",
-        "pct": -6.52
-      },
-      {
-        "symbol": "MGY",
-        "name": "Magnolia Oil & Gas Corporation",
-        "pct": -6.46
-      },
-      {
-        "symbol": "CRCL",
-        "name": "Circle Internet Group, Inc.",
-        "pct": -6.38
+        "pct": -7.5
       },
       {
         "symbol": "SM",
         "name": "SM Energy Company",
-        "pct": -6.08
+        "pct": -7.22
       },
       {
-        "symbol": "BFLY",
-        "name": "Butterfly Network, Inc.",
-        "pct": -5.9
+        "symbol": "MGY",
+        "name": "Magnolia Oil & Gas Corporation",
+        "pct": -6.97
+      },
+      {
+        "symbol": "APA",
+        "name": "APA Corporation",
+        "pct": -6.64
+      },
+      {
+        "symbol": "CHRD",
+        "name": "Chord Energy Corporation",
+        "pct": -6.61
+      },
+      {
+        "symbol": "PR",
+        "name": "Permian Resources Corporation",
+        "pct": -6.59
       }
     ],
     "universe": 1351
