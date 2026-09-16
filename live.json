@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-16T19:55:12Z",
-  "market_open": true,
+  "updated": "2026-09-16T20:13:31Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": -0.45,
-      "last": 7551.49
+      "last": 7551.81
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.05,
-      "last": 28924.48
+      "pct": 0.02,
+      "last": 28945.06
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.16,
-      "last": 51486.15
+      "pct": -1.21,
+      "last": 51461.9
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "FTFT",
         "name": "Future FinTech Group Inc.",
-        "pct": 22.74
+        "pct": 21.95
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 11.5
-      },
-      {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "pct": 11.19
+        "pct": 11.44
       },
       {
         "symbol": "ARQT",
         "name": "Arcutis Biotherapeutics, Inc.",
-        "pct": 11.06
+        "pct": 11.19
+      },
+      {
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "pct": 11.16
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "pct": 10.76
+        "pct": 11.03
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": 10.47
+        "pct": 10.8
       },
       {
         "symbol": "LITE",
         "name": "Lumentum Holdings Inc.",
-        "pct": 9.42
-      },
-      {
-        "symbol": "BRKR",
-        "name": "Bruker Corporation",
-        "pct": 9.2
+        "pct": 9.59
       },
       {
         "symbol": "SWMR",
         "name": "Swarmer, Inc",
-        "pct": 7.99
+        "pct": 8.98
+      },
+      {
+        "symbol": "BRKR",
+        "name": "Bruker Corporation",
+        "pct": 8.83
       },
       {
         "symbol": "FTAI",
         "name": "FTAI Aviation Ltd.",
-        "pct": 7.81
+        "pct": 7.59
       }
     ],
     "losers": [
       {
         "symbol": "TNON",
         "name": "Tenon Medical, Inc.",
-        "pct": -21.54
+        "pct": -22.73
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -15.48
+        "pct": -16.01
       },
       {
         "symbol": "JBHT",
         "name": "J.B. Hunt Transport Services, Inc.",
-        "pct": -13.26
+        "pct": -13.3
       },
       {
         "symbol": "BULL",
         "name": "Webull Corporation",
-        "pct": -11.32
+        "pct": -11.2
       },
       {
         "symbol": "BLSH",
         "name": "Bullish",
-        "pct": -8.97
+        "pct": -9.55
       },
       {
         "symbol": "ON",
         "name": "ON Semiconductor Corporation",
-        "pct": -8.89
-      },
-      {
-        "symbol": "SYNA",
-        "name": "Synaptics Incorporated",
-        "pct": -8.5
-      },
-      {
-        "symbol": "MTDR",
-        "name": "Matador Resources Company",
-        "pct": -8.33
+        "pct": -9.02
       },
       {
         "symbol": "MGY",
         "name": "Magnolia Oil & Gas Corporation",
-        "pct": -8.14
+        "pct": -8.62
+      },
+      {
+        "symbol": "MTDR",
+        "name": "Matador Resources Company",
+        "pct": -8.58
+      },
+      {
+        "symbol": "SYNA",
+        "name": "Synaptics Incorporated",
+        "pct": -8.3
       },
       {
         "symbol": "AR",
         "name": "Antero Resources Corporation",
-        "pct": -7.93
+        "pct": -8.11
       }
     ],
     "universe": 1351
