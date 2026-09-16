@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-16T14:33:14Z",
+  "updated": "2026-09-16T14:49:40Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.19,
-      "last": 7600.04
+      "pct": 0.3,
+      "last": 7607.98
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.68,
-      "last": 29135.29
+      "pct": 0.72,
+      "last": 29147.43
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.32,
-      "last": 51924.42
+      "pct": -0.15,
+      "last": 52011.93
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.67,
-      "last": 51904.16
+      "pct": 0.69,
+      "last": 51912.77
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "FTFT",
         "name": "Future FinTech Group Inc.",
-        "pct": 32.49
+        "pct": 30.49
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": 14.0
+        "pct": 14.41
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 9.36
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": 8.59
+        "pct": 9.97
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": 8.43
+        "pct": 8.79
       },
       {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": 7.29
+        "symbol": "VEEA",
+        "name": "Veea Inc.",
+        "pct": 8.76
       },
       {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 6.86
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 6.77
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": 8.4
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": 6.71
+        "pct": 7.93
+      },
+      {
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": 7.4
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": 7.39
       },
       {
         "symbol": "LITE",
         "name": "Lumentum Holdings Inc.",
-        "pct": 6.45
+        "pct": 6.76
       }
     ],
     "losers": [
       {
         "symbol": "JBHT",
         "name": "J.B. Hunt Transport Services, Inc.",
-        "pct": -12.87
-      },
-      {
-        "symbol": "TNON",
-        "name": "Tenon Medical, Inc.",
-        "pct": -9.39
+        "pct": -13.08
       },
       {
         "symbol": "FANG",
         "name": "Diamondback Energy, Inc.",
-        "pct": -8.22
+        "pct": -9.06
+      },
+      {
+        "symbol": "TNON",
+        "name": "Tenon Medical, Inc.",
+        "pct": -8.33
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -7.62
+        "pct": -7.86
       },
       {
         "symbol": "CRCL",
         "name": "Circle Internet Group, Inc.",
-        "pct": -7.6
-      },
-      {
-        "symbol": "BFLY",
-        "name": "Butterfly Network, Inc.",
-        "pct": -6.47
-      },
-      {
-        "symbol": "BULL",
-        "name": "Webull Corporation",
-        "pct": -6.29
+        "pct": -6.95
       },
       {
         "symbol": "VNOM",
         "name": "Viper Energy, Inc.",
-        "pct": -5.78
-      },
-      {
-        "symbol": "BLSH",
-        "name": "Bullish",
-        "pct": -5.64
+        "pct": -6.71
       },
       {
         "symbol": "MGY",
         "name": "Magnolia Oil & Gas Corporation",
-        "pct": -5.57
+        "pct": -6.62
+      },
+      {
+        "symbol": "BULL",
+        "name": "Webull Corporation",
+        "pct": -6.41
+      },
+      {
+        "symbol": "SM",
+        "name": "SM Energy Company",
+        "pct": -6.25
+      },
+      {
+        "symbol": "PR",
+        "name": "Permian Resources Corporation",
+        "pct": -6.1
       }
     ],
     "universe": 1351
