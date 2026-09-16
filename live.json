@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-16T13:32:12Z",
+  "updated": "2026-09-16T13:50:24Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.24,
-      "last": 7603.97
+      "pct": 0.34,
+      "last": 7611.39
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.52,
-      "last": 29089.11
+      "pct": 0.74,
+      "last": 29152.36
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.05,
-      "last": 52117.43
+      "pct": -0.12,
+      "last": 52027.96
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.68,
-      "last": 51908.9
+      "pct": 0.61,
+      "last": 51871.39
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "FTFT",
         "name": "Future FinTech Group Inc.",
-        "pct": 42.51
-      },
-      {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "pct": 9.38
+        "pct": 53.62
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": 8.95
+        "pct": 11.79
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 7.54
+        "pct": 8.32
       },
       {
-        "symbol": "ADPT",
-        "name": "Adaptive Biotechnologies Corporation",
-        "pct": 7.16
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "pct": 8.0
+      },
+      {
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": 6.73
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": 5.76
+        "pct": 6.38
       },
       {
-        "symbol": "INTC",
-        "name": "Intel Corporation",
-        "pct": 5.68
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": 6.37
       },
       {
-        "symbol": "BRKR",
-        "name": "Bruker Corporation",
-        "pct": 5.39
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 6.22
       },
       {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": 4.63
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": 6.16
       },
       {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": 4.58
+        "symbol": "TGTX",
+        "name": "TG Therapeutics, Inc.",
+        "pct": 6.07
       }
     ],
     "losers": [
       {
         "symbol": "JBHT",
         "name": "J.B. Hunt Transport Services, Inc.",
-        "pct": -10.61
+        "pct": -11.71
       },
       {
         "symbol": "FANG",
         "name": "Diamondback Energy, Inc.",
-        "pct": -6.51
+        "pct": -7.33
+      },
+      {
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": -6.94
+      },
+      {
+        "symbol": "TNON",
+        "name": "Tenon Medical, Inc.",
+        "pct": -6.13
       },
       {
         "symbol": "VEEA",
         "name": "Veea Inc.",
-        "pct": -4.55
-      },
-      {
-        "symbol": "APPF",
-        "name": "AppFolio, Inc.",
-        "pct": -4.35
-      },
-      {
-        "symbol": "KNX",
-        "name": "Knight-Swift Transportation Holdings Inc.",
-        "pct": -4.34
+        "pct": -5.78
       },
       {
         "symbol": "BULL",
         "name": "Webull Corporation",
-        "pct": -4.04
+        "pct": -5.31
       },
       {
         "symbol": "BFLY",
         "name": "Butterfly Network, Inc.",
-        "pct": -3.97
+        "pct": -4.81
       },
       {
-        "symbol": "LSTR",
-        "name": "Landstar System, Inc.",
-        "pct": -3.64
+        "symbol": "VNOM",
+        "name": "Viper Energy, Inc.",
+        "pct": -4.7
       },
       {
-        "symbol": "WU",
-        "name": "Western Union Company (The)",
-        "pct": -3.5
+        "symbol": "PLAY",
+        "name": "Dave & Buster's Entertainment, Inc.",
+        "pct": -4.66
       },
       {
-        "symbol": "YOU",
-        "name": "Clear Secure, Inc.",
-        "pct": -3.15
+        "symbol": "PR",
+        "name": "Permian Resources Corporation",
+        "pct": -4.49
       }
     ],
-    "universe": 1330
+    "universe": 1351
   }
 }
