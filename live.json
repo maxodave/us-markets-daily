@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-16T15:11:38Z",
+  "updated": "2026-09-16T15:34:10Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.43,
-      "last": 7617.97
+      "pct": 0.35,
+      "last": 7611.85
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.93,
-      "last": 29208.12
+      "pct": 0.83,
+      "last": 29178.4
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.03,
-      "last": 52107.49
+      "pct": -0.08,
+      "last": 52049.13
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.79,
-      "last": 51965.07
+      "pct": 0.96,
+      "last": 52053.93
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "FTFT",
         "name": "Future FinTech Group Inc.",
-        "pct": 33.01
+        "pct": 40.05
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": 15.74
+        "pct": 15.67
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": 11.93
-      },
-      {
-        "symbol": "VEEA",
-        "name": "Veea Inc.",
-        "pct": 11.82
+        "pct": 12.15
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 10.07
+        "pct": 11.14
+      },
+      {
+        "symbol": "VEEA",
+        "name": "Veea Inc.",
+        "pct": 11.03
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "pct": 9.84
+        "pct": 10.75
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": 8.52
+        "pct": 8.56
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 8.41
-      },
-      {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": 7.82
+        "pct": 8.3
       },
       {
         "symbol": "CORZ",
         "name": "Core Scientific, Inc.",
-        "pct": 7.79
+        "pct": 7.89
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": 7.73
       }
     ],
     "losers": [
       {
         "symbol": "JBHT",
         "name": "J.B. Hunt Transport Services, Inc.",
-        "pct": -13.39
-      },
-      {
-        "symbol": "TNON",
-        "name": "Tenon Medical, Inc.",
-        "pct": -10.67
-      },
-      {
-        "symbol": "FANG",
-        "name": "Diamondback Energy, Inc.",
-        "pct": -9.17
+        "pct": -12.96
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -8.97
+        "pct": -10.95
+      },
+      {
+        "symbol": "TNON",
+        "name": "Tenon Medical, Inc.",
+        "pct": -10.88
+      },
+      {
+        "symbol": "FANG",
+        "name": "Diamondback Energy, Inc.",
+        "pct": -8.82
+      },
+      {
+        "symbol": "BULL",
+        "name": "Webull Corporation",
+        "pct": -7.45
       },
       {
         "symbol": "VNOM",
         "name": "Viper Energy, Inc.",
-        "pct": -7.5
+        "pct": -7.06
       },
       {
         "symbol": "SM",
         "name": "SM Energy Company",
-        "pct": -7.22
+        "pct": -6.61
       },
       {
         "symbol": "MGY",
         "name": "Magnolia Oil & Gas Corporation",
-        "pct": -6.97
+        "pct": -6.32
       },
       {
-        "symbol": "APA",
-        "name": "APA Corporation",
-        "pct": -6.64
+        "symbol": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "pct": -6.32
       },
       {
-        "symbol": "CHRD",
-        "name": "Chord Energy Corporation",
-        "pct": -6.61
-      },
-      {
-        "symbol": "PR",
-        "name": "Permian Resources Corporation",
-        "pct": -6.59
+        "symbol": "MTDR",
+        "name": "Matador Resources Company",
+        "pct": -6.24
       }
     ],
     "universe": 1351
