@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-16T17:52:42Z",
+  "updated": "2026-09-16T18:14:40Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.29,
-      "last": 7607.79
+      "pct": 0.35,
+      "last": 7612.15
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.66,
-      "last": 29127.54
+      "pct": 0.77,
+      "last": 29160.68
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.05,
-      "last": 52120.25
+      "pct": -0.03,
+      "last": 52074.94
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "FTFT",
         "name": "Future FinTech Group Inc.",
-        "pct": 17.15
+        "pct": 19.6
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": 12.47
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": 11.46
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": 10.92
+        "pct": 14.38
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 10.68
+        "pct": 13.5
       },
       {
-        "symbol": "SWMR",
-        "name": "Swarmer, Inc",
-        "pct": 10.46
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": 13.19
       },
       {
-        "symbol": "BRKR",
-        "name": "Bruker Corporation",
-        "pct": 8.4
-      },
-      {
-        "symbol": "CPRI",
-        "name": "Capri Holdings Limited",
-        "pct": 8.36
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": 12.13
       },
       {
         "symbol": "LITE",
         "name": "Lumentum Holdings Inc.",
-        "pct": 8.0
+        "pct": 10.34
+      },
+      {
+        "symbol": "SWMR",
+        "name": "Swarmer, Inc",
+        "pct": 9.6
+      },
+      {
+        "symbol": "BRKR",
+        "name": "Bruker Corporation",
+        "pct": 9.27
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": 7.74
+        "pct": 8.77
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": 8.43
       }
     ],
     "losers": [
       {
         "symbol": "TNON",
         "name": "Tenon Medical, Inc.",
-        "pct": -15.81
+        "pct": -17.19
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -13.21
+        "pct": -14.85
       },
       {
         "symbol": "JBHT",
         "name": "J.B. Hunt Transport Services, Inc.",
-        "pct": -12.81
+        "pct": -12.28
       },
       {
         "symbol": "BULL",
         "name": "Webull Corporation",
-        "pct": -8.83
+        "pct": -9.3
       },
       {
         "symbol": "BLSH",
         "name": "Bullish",
-        "pct": -8.22
-      },
-      {
-        "symbol": "FANG",
-        "name": "Diamondback Energy, Inc.",
-        "pct": -7.72
-      },
-      {
-        "symbol": "MTDR",
-        "name": "Matador Resources Company",
-        "pct": -6.74
+        "pct": -8.72
       },
       {
         "symbol": "BFLY",
         "name": "Butterfly Network, Inc.",
-        "pct": -6.54
+        "pct": -7.24
       },
       {
-        "symbol": "SM",
-        "name": "SM Energy Company",
-        "pct": -6.49
+        "symbol": "FANG",
+        "name": "Diamondback Energy, Inc.",
+        "pct": -6.8
       },
       {
-        "symbol": "PR",
-        "name": "Permian Resources Corporation",
+        "symbol": "MTDR",
+        "name": "Matador Resources Company",
+        "pct": -6.79
+      },
+      {
+        "symbol": "CHYM",
+        "name": "Chime Financial, Inc.",
         "pct": -6.08
+      },
+      {
+        "symbol": "AR",
+        "name": "Antero Resources Corporation",
+        "pct": -6.0
       }
     ],
     "universe": 1351
