@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-16T16:35:15Z",
+  "updated": "2026-09-16T16:54:03Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": 0.31,
-      "last": 7608.9
+      "last": 7609.24
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
       "pct": 0.77,
-      "last": 29161.89
+      "last": 29161.49
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.08,
-      "last": 52049.08
+      "pct": -0.1,
+      "last": 52041.52
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "FTFT",
         "name": "Future FinTech Group Inc.",
-        "pct": 30.23
+        "pct": 20.3
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": 12.36
+        "pct": 12.5
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": 12.16
-      },
-      {
-        "symbol": "SWMR",
-        "name": "Swarmer, Inc",
-        "pct": 11.2
+        "pct": 11.56
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "pct": 11.12
+        "pct": 10.99
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 10.43
+        "pct": 10.83
+      },
+      {
+        "symbol": "SWMR",
+        "name": "Swarmer, Inc",
+        "pct": 10.03
       },
       {
         "symbol": "LITE",
         "name": "Lumentum Holdings Inc.",
-        "pct": 8.11
+        "pct": 8.75
       },
       {
-        "symbol": "ARQT",
-        "name": "Arcutis Biotherapeutics, Inc.",
-        "pct": 8.0
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": 8.68
       },
       {
         "symbol": "BRKR",
         "name": "Bruker Corporation",
-        "pct": 7.97
+        "pct": 8.12
       },
       {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": 7.4
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": 7.22
       }
     ],
     "losers": [
       {
         "symbol": "TNON",
         "name": "Tenon Medical, Inc.",
-        "pct": -14.03
+        "pct": -16.01
       },
       {
         "symbol": "JBHT",
         "name": "J.B. Hunt Transport Services, Inc.",
-        "pct": -12.81
+        "pct": -13.57
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -11.43
+        "pct": -12.3
       },
       {
         "symbol": "BULL",
         "name": "Webull Corporation",
-        "pct": -8.45
+        "pct": -8.43
       },
       {
         "symbol": "FANG",
         "name": "Diamondback Energy, Inc.",
-        "pct": -7.79
-      },
-      {
-        "symbol": "VNOM",
-        "name": "Viper Energy, Inc.",
-        "pct": -6.45
-      },
-      {
-        "symbol": "VERA",
-        "name": "Vera Therapeutics, Inc.",
-        "pct": -6.33
-      },
-      {
-        "symbol": "SM",
-        "name": "SM Energy Company",
-        "pct": -6.27
-      },
-      {
-        "symbol": "MTDR",
-        "name": "Matador Resources Company",
-        "pct": -6.23
+        "pct": -7.68
       },
       {
         "symbol": "BLSH",
         "name": "Bullish",
-        "pct": -6.22
+        "pct": -7.37
+      },
+      {
+        "symbol": "VNOM",
+        "name": "Viper Energy, Inc.",
+        "pct": -6.2
+      },
+      {
+        "symbol": "SM",
+        "name": "SM Energy Company",
+        "pct": -6.1
+      },
+      {
+        "symbol": "MTDR",
+        "name": "Matador Resources Company",
+        "pct": -6.06
+      },
+      {
+        "symbol": "VERA",
+        "name": "Vera Therapeutics, Inc.",
+        "pct": -6.03
       }
     ],
     "universe": 1351
