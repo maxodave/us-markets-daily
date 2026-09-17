@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-17T17:31:26Z",
+  "updated": "2026-09-17T17:50:40Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.02,
-      "last": 7630.38
+      "pct": 1.09,
+      "last": 7635.47
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.63,
-      "last": 29416.31
+      "pct": 1.68,
+      "last": 29430.17
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.58,
-      "last": 51775.73
+      "pct": 0.62,
+      "last": 51797.83
     },
     {
       "key": "ftsemib",
@@ -32,94 +32,89 @@
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": 65.98
-      },
-      {
-        "symbol": "GNRC",
-        "name": "Generac Holdlings Inc.",
-        "pct": 18.35
+        "pct": 63.02
       },
       {
         "symbol": "SDGR",
         "name": "Schrodinger, Inc.",
-        "pct": 17.26
+        "pct": 19.49
+      },
+      {
+        "symbol": "GNRC",
+        "name": "Generac Holdlings Inc.",
+        "pct": 18.79
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 17.06
-      },
-      {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "pct": 13.62
+        "pct": 17.08
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 13.29
+        "pct": 15.84
       },
       {
-        "symbol": "OKLO",
-        "name": "Oklo Inc.",
-        "pct": 12.7
+        "symbol": "TEM",
+        "name": "Tempus AI, Inc.",
+        "pct": 14.42
       },
       {
         "symbol": "XE",
         "name": "X-Energy, Inc.",
-        "pct": 11.87
+        "pct": 12.7
       },
       {
-        "symbol": "BLSH",
-        "name": "Bullish",
-        "pct": 10.86
+        "symbol": "OKLO",
+        "name": "Oklo Inc.",
+        "pct": 12.41
       },
       {
-        "symbol": "BRUN",
-        "name": "Boost Run Inc.",
-        "pct": 10.82
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "pct": 11.04
+      },
+      {
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": 10.54
       }
     ],
     "losers": [
       {
         "symbol": "MEDS",
         "name": "DataMeds AI, Inc.",
-        "pct": -25.37
+        "pct": -28.66
       },
       {
         "symbol": "FLNC",
         "name": "Fluence Energy, Inc.",
-        "pct": -14.64
+        "pct": -14.75
       },
       {
         "symbol": "AN",
         "name": "AutoNation, Inc.",
-        "pct": -9.46
-      },
-      {
-        "symbol": "FTFT",
-        "name": "Future FinTech Group Inc.",
-        "pct": -7.57
-      },
-      {
-        "symbol": "TTAN",
-        "name": "ServiceTitan, Inc.",
-        "pct": -6.51
-      },
-      {
-        "symbol": "ARQT",
-        "name": "Arcutis Biotherapeutics, Inc.",
-        "pct": -6.08
+        "pct": -9.04
       },
       {
         "symbol": "DKNG",
         "name": "DraftKings Inc.",
-        "pct": -6.04
+        "pct": -6.76
+      },
+      {
+        "symbol": "TTAN",
+        "name": "ServiceTitan, Inc.",
+        "pct": -6.7
       },
       {
         "symbol": "MTZ",
         "name": "MasTec, Inc.",
-        "pct": -5.59
+        "pct": -5.54
+      },
+      {
+        "symbol": "JXN",
+        "name": "Jackson Financial Inc.",
+        "pct": -5.43
       },
       {
         "symbol": "XRAY",
@@ -127,9 +122,14 @@
         "pct": -5.28
       },
       {
-        "symbol": "BBNX",
-        "name": "Beta Bionics, Inc.",
-        "pct": -5.0
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": -5.09
+      },
+      {
+        "symbol": "LAD",
+        "name": "Lithia Motors, Inc.",
+        "pct": -4.9
       }
     ],
     "universe": 1383
