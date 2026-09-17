@@ -1,36 +1,18 @@
 {
-  "updated": "2026-09-16T23:53:50Z",
-  "session_date": "2026-09-16",
+  "updated": "2026-09-17T23:43:24Z",
+  "session_date": "2026-09-17",
   "universe": 558,
   "up": {
-    "count": 195,
+    "count": 334,
     "by_length": {
-      "1": 136,
-      "2": 33,
-      "3": 10,
-      "4": 11,
-      "5": 4,
-      "6": 1
+      "1": 206,
+      "2": 88,
+      "3": 26,
+      "4": 5,
+      "5": 7,
+      "6": 2
     },
     "top": [
-      {
-        "symbol": "BRK.B",
-        "name": "Berkshire Hathaway",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 2.76
-      },
-      {
-        "symbol": "PSKY",
-        "name": "Paramount Skydance Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 8.95
-      },
       {
         "symbol": "PG",
         "name": "Procter & Gamble",
@@ -38,8 +20,8 @@
           "sp500",
           "dow"
         ],
-        "days": 5,
-        "cum_pct": 3.07
+        "days": 6,
+        "cum_pct": 3.44
       },
       {
         "symbol": "G.MI",
@@ -47,17 +29,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": 5,
-        "cum_pct": 2.61
-      },
-      {
-        "symbol": "GD",
-        "name": "General Dynamics",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 2.08
+        "days": 6,
+        "cum_pct": 3.17
       },
       {
         "symbol": "RVTY",
@@ -65,8 +38,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 20.5
+        "days": 5,
+        "cum_pct": 21.32
       },
       {
         "symbol": "ARE",
@@ -74,8 +47,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 7.99
+        "days": 5,
+        "cum_pct": 13.68
       },
       {
         "symbol": "TMO",
@@ -83,26 +56,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 7.5
-      },
-      {
-        "symbol": "DVA",
-        "name": "DaVita",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 6.91
-      },
-      {
-        "symbol": "LH",
-        "name": "Labcorp",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 5.72
+        "days": 5,
+        "cum_pct": 9.14
       },
       {
         "symbol": "MPC",
@@ -110,8 +65,17 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 5.48
+        "days": 5,
+        "cum_pct": 7.53
+      },
+      {
+        "symbol": "WAT",
+        "name": "Waters Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 6.99
       },
       {
         "symbol": "META",
@@ -120,49 +84,87 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 4,
-        "cum_pct": 4.49
+        "days": 5,
+        "cum_pct": 5.89
       },
       {
-        "symbol": "WAT",
-        "name": "Waters Corporation",
+        "symbol": "SJM",
+        "name": "J.M. Smucker Company (The)",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 2.21
+      },
+      {
+        "symbol": "PODD",
+        "name": "Insulet Corporation",
         "indices": [
           "sp500"
         ],
         "days": 4,
-        "cum_pct": 4.23
+        "cum_pct": 7.27
       },
       {
-        "symbol": "BALL",
-        "name": "Ball Corporation",
+        "symbol": "DDOG",
+        "name": "Datadog",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 6.69
+      },
+      {
+        "symbol": "DXCM",
+        "name": "Dexcom",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 5.9
+      },
+      {
+        "symbol": "LMT",
+        "name": "Lockheed Martin",
         "indices": [
           "sp500"
         ],
         "days": 4,
-        "cum_pct": 2.54
+        "cum_pct": 2.65
       },
       {
-        "symbol": "AVY",
-        "name": "Avery Dennison",
+        "symbol": "JNJ",
+        "name": "Johnson & Johnson",
+        "indices": [
+          "sp500",
+          "dow"
+        ],
+        "days": 4,
+        "cum_pct": 1.75
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 2.08
+        "days": 3,
+        "cum_pct": 11.06
       }
     ]
   },
   "down": {
-    "count": 360,
+    "count": 221,
     "by_length": {
-      "1": 107,
-      "2": 171,
-      "3": 58,
-      "4": 7,
+      "1": 67,
+      "2": 41,
+      "3": 90,
+      "4": 17,
       "5": 3,
-      "6": 8,
-      "7": 3,
-      "8+": 3
+      "7": 1,
+      "8+": 2
     },
     "top": [
       {
@@ -171,26 +173,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -8,
-        "cum_pct": -9.13
-      },
-      {
-        "symbol": "TROW",
-        "name": "T. Rowe Price",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -7.65
-      },
-      {
-        "symbol": "O",
-        "name": "Realty Income",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -7.43
+        "days": -9,
+        "cum_pct": -9.57
       },
       {
         "symbol": "LII",
@@ -198,82 +182,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -7.55
-      },
-      {
-        "symbol": "IR",
-        "name": "Ingersoll Rand",
-        "indices": [
-          "sp500"
-        ],
-        "days": -7,
-        "cum_pct": -6.44
-      },
-      {
-        "symbol": "BEN",
-        "name": "Franklin Resources",
-        "indices": [
-          "sp500"
-        ],
-        "days": -7,
-        "cum_pct": -5.79
-      },
-      {
-        "symbol": "ALB",
-        "name": "Albemarle Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -15.51
-      },
-      {
-        "symbol": "CEG",
-        "name": "Constellation Energy",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -6,
-        "cum_pct": -13.22
-      },
-      {
-        "symbol": "BKR",
-        "name": "Baker Hughes",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -6,
-        "cum_pct": -11.89
-      },
-      {
-        "symbol": "ETR",
-        "name": "Entergy",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -5.72
-      },
-      {
-        "symbol": "PEG",
-        "name": "Public Service Enterprise Group",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -5.19
-      },
-      {
-        "symbol": "NEE",
-        "name": "NextEra Energy",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -4.13
+        "days": -8,
+        "cum_pct": -8.05
       },
       {
         "symbol": "REG",
@@ -281,27 +191,118 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -3.52
+        "days": -7,
+        "cum_pct": -3.7
       },
       {
-        "symbol": "WEC",
-        "name": "WEC Energy Group",
+        "symbol": "EQT",
+        "name": "EQT Corporation",
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -3.44
+        "days": -5,
+        "cum_pct": -8.39
       },
       {
-        "symbol": "SNDK",
-        "name": "Sandisk",
+        "symbol": "MGM",
+        "name": "MGM Resorts",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -5.94
+      },
+      {
+        "symbol": "VTR",
+        "name": "Ventas",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -3.02
+      },
+      {
+        "symbol": "CMCSA",
+        "name": "Comcast",
         "indices": [
           "sp500",
           "nasdaq100"
         ],
-        "days": -5,
-        "cum_pct": -13.84
+        "days": -4,
+        "cum_pct": -9.09
+      },
+      {
+        "symbol": "CHTR",
+        "name": "Charter Communications",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -8.51
+      },
+      {
+        "symbol": "BA",
+        "name": "Boeing",
+        "indices": [
+          "sp500",
+          "dow"
+        ],
+        "days": -4,
+        "cum_pct": -6.39
+      },
+      {
+        "symbol": "HUM",
+        "name": "Humana",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -6.17
+      },
+      {
+        "symbol": "BNY",
+        "name": "BNY Mellon",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -5.93
+      },
+      {
+        "symbol": "CMI",
+        "name": "Cummins",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -5.9
+      },
+      {
+        "symbol": "TDG",
+        "name": "TransDigm Group",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -5.64
+      },
+      {
+        "symbol": "LVS",
+        "name": "Las Vegas Sands",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -5.04
+      },
+      {
+        "symbol": "BLDR",
+        "name": "Builders FirstSource",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -4.46
       }
     ]
   },
