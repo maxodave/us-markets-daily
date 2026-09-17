@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-17T14:32:30Z",
+  "updated": "2026-09-17T14:51:05Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.0,
-      "last": 7628.82
+      "pct": 0.92,
+      "last": 7622.61
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.62,
-      "last": 29415.08
+      "pct": 1.52,
+      "last": 29386.02
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.53,
-      "last": 51751.51
+      "pct": 0.45,
+      "last": 51708.25
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.78,
-      "last": 52410.74
+      "pct": 0.73,
+      "last": 52385.0
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": 53.19
+        "pct": 27.87
       },
       {
         "symbol": "GNRC",
         "name": "Generac Holdlings Inc.",
-        "pct": 18.62
+        "pct": 17.89
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 14.79
-      },
-      {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "pct": 14.43
-      },
-      {
-        "symbol": "TWST",
-        "name": "Twist Bioscience Corporation",
-        "pct": 14.14
+        "pct": 15.14
       },
       {
         "symbol": "SDGR",
         "name": "Schrodinger, Inc.",
-        "pct": 13.58
+        "pct": 15.11
+      },
+      {
+        "symbol": "TEM",
+        "name": "Tempus AI, Inc.",
+        "pct": 14.29
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 12.19
+        "pct": 13.35
       },
       {
         "symbol": "CRSP",
         "name": "CRISPR Therapeutics AG",
-        "pct": 11.99
+        "pct": 12.83
       },
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": 11.89
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "pct": 12.67
       },
       {
         "symbol": "ABCL",
         "name": "AbCellera Biologics Inc.",
-        "pct": 11.57
+        "pct": 11.74
+      },
+      {
+        "symbol": "NTLA",
+        "name": "Intellia Therapeutics, Inc.",
+        "pct": 11.58
       }
     ],
     "losers": [
       {
         "symbol": "MEDS",
         "name": "DataMeds AI, Inc.",
-        "pct": -20.02
+        "pct": -24.87
       },
       {
         "symbol": "FLNC",
         "name": "Fluence Energy, Inc.",
-        "pct": -17.12
+        "pct": -16.3
       },
       {
         "symbol": "FTFT",
         "name": "Future FinTech Group Inc.",
-        "pct": -8.04
-      },
-      {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": -5.31
-      },
-      {
-        "symbol": "ARQT",
-        "name": "Arcutis Biotherapeutics, Inc.",
-        "pct": -5.16
-      },
-      {
-        "symbol": "PSKY",
-        "name": "Paramount Skydance Corporation",
-        "pct": -5.07
-      },
-      {
-        "symbol": "RDDT",
-        "name": "Reddit, Inc.",
-        "pct": -4.57
-      },
-      {
-        "symbol": "XRAY",
-        "name": "DENTSPLY SIRONA Inc.",
-        "pct": -4.54
-      },
-      {
-        "symbol": "NVST",
-        "name": "Envista Holdings Corporation",
-        "pct": -4.51
+        "pct": -12.14
       },
       {
         "symbol": "MTZ",
         "name": "MasTec, Inc.",
-        "pct": -4.32
+        "pct": -6.27
+      },
+      {
+        "symbol": "PSKY",
+        "name": "Paramount Skydance Corporation",
+        "pct": -5.34
+      },
+      {
+        "symbol": "ARQT",
+        "name": "Arcutis Biotherapeutics, Inc.",
+        "pct": -4.82
+      },
+      {
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": -4.64
+      },
+      {
+        "symbol": "JXN",
+        "name": "Jackson Financial Inc.",
+        "pct": -4.47
+      },
+      {
+        "symbol": "XRAY",
+        "name": "DENTSPLY SIRONA Inc.",
+        "pct": -4.44
+      },
+      {
+        "symbol": "RDDT",
+        "name": "Reddit, Inc.",
+        "pct": -4.37
       }
     ],
     "universe": 1383
