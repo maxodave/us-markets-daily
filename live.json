@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-17T19:45:24Z",
-  "market_open": true,
+  "updated": "2026-09-17T20:04:07Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.17,
-      "last": 7641.89
+      "pct": 1.14,
+      "last": 7637.75
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.79,
-      "last": 29464.58
+      "pct": 1.73,
+      "last": 29446.98
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": 0.61,
-      "last": 51789.58
+      "last": 51778.18
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": 31.13
+        "pct": 33.3
       },
       {
         "symbol": "SDGR",
         "name": "Schrodinger, Inc.",
-        "pct": 24.29
+        "pct": 26.37
       },
       {
         "symbol": "GNRC",
         "name": "Generac Holdlings Inc.",
-        "pct": 18.79
+        "pct": 18.33
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 18.51
+        "pct": 17.66
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 15.09
+        "pct": 14.85
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 14.71
-      },
-      {
-        "symbol": "INIO",
-        "name": "INNIO N.V.",
-        "pct": 12.75
+        "pct": 14.26
       },
       {
         "symbol": "RARE",
         "name": "Ultragenyx Pharmaceutical Inc.",
-        "pct": 12.42
-      },
-      {
-        "symbol": "XE",
-        "name": "X-Energy, Inc.",
-        "pct": 12.32
+        "pct": 12.58
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": 12.28
+        "pct": 12.15
+      },
+      {
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "pct": 12.08
+      },
+      {
+        "symbol": "INIO",
+        "name": "INNIO N.V.",
+        "pct": 12.03
       }
     ],
     "losers": [
       {
         "symbol": "MEDS",
         "name": "DataMeds AI, Inc.",
-        "pct": -23.72
+        "pct": -23.56
       },
       {
         "symbol": "FLNC",
         "name": "Fluence Energy, Inc.",
-        "pct": -15.08
+        "pct": -15.36
       },
       {
         "symbol": "VEEA",
         "name": "Veea Inc.",
-        "pct": -13.61
+        "pct": -12.62
+      },
+      {
+        "symbol": "FTFT",
+        "name": "Future FinTech Group Inc.",
+        "pct": -10.64
       },
       {
         "symbol": "AN",
         "name": "AutoNation, Inc.",
-        "pct": -11.15
-      },
-      {
-        "symbol": "DKNG",
-        "name": "DraftKings Inc.",
-        "pct": -7.46
-      },
-      {
-        "symbol": "TTAN",
-        "name": "ServiceTitan, Inc.",
-        "pct": -7.45
+        "pct": -10.44
       },
       {
         "symbol": "MTZ",
         "name": "MasTec, Inc.",
-        "pct": -7.02
+        "pct": -7.92
+      },
+      {
+        "symbol": "DKNG",
+        "name": "DraftKings Inc.",
+        "pct": -7.64
       },
       {
         "symbol": "XRAY",
         "name": "DENTSPLY SIRONA Inc.",
-        "pct": -6.36
+        "pct": -7.54
       },
       {
-        "symbol": "LIFE",
-        "name": "Ethos Technologies Inc.",
-        "pct": -6.33
+        "symbol": "TTAN",
+        "name": "ServiceTitan, Inc.",
+        "pct": -7.53
       },
       {
-        "symbol": "JXN",
-        "name": "Jackson Financial Inc.",
-        "pct": -6.01
+        "symbol": "NSIT",
+        "name": "Insight Enterprises, Inc.",
+        "pct": -6.38
       }
     ],
     "universe": 1383
