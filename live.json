@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T20:25:15Z",
+  "updated": "2026-09-17T13:04:13Z",
   "market_open": false,
   "indices": [
     {
@@ -23,16 +23,36 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.79,
-      "last": 51969.12
+      "pct": 0.83,
+      "last": 52436.97
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "MEDS",
+        "name": "DataMeds AI, Inc.",
+        "pct": 274.69
+      },
+      {
+        "symbol": "AEHL",
+        "name": "Antelope Enterprise Holdings Limited",
+        "pct": 78.68
+      },
+      {
         "symbol": "FTFT",
         "name": "Future FinTech Group Inc.",
         "pct": 21.95
+      },
+      {
+        "symbol": "BBNX",
+        "name": "Beta Bionics, Inc.",
+        "pct": 15.34
+      },
+      {
+        "symbol": "BRUN",
+        "name": "Boost Run Inc.",
+        "pct": 11.72
       },
       {
         "symbol": "AXTI",
@@ -58,34 +78,9 @@
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
         "pct": 10.8
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": 9.59
-      },
-      {
-        "symbol": "SWMR",
-        "name": "Swarmer, Inc",
-        "pct": 8.98
-      },
-      {
-        "symbol": "BRKR",
-        "name": "Bruker Corporation",
-        "pct": 8.83
-      },
-      {
-        "symbol": "FTAI",
-        "name": "FTAI Aviation Ltd.",
-        "pct": 7.59
       }
     ],
     "losers": [
-      {
-        "symbol": "TNON",
-        "name": "Tenon Medical, Inc.",
-        "pct": -22.73
-      },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
@@ -100,6 +95,16 @@
         "symbol": "BULL",
         "name": "Webull Corporation",
         "pct": -11.2
+      },
+      {
+        "symbol": "RCAT",
+        "name": "Red Cat Holdings, Inc.",
+        "pct": -10.92
+      },
+      {
+        "symbol": "PLSE",
+        "name": "Pulse Biosciences, Inc",
+        "pct": -10.13
       },
       {
         "symbol": "BLSH",
@@ -125,13 +130,8 @@
         "symbol": "SYNA",
         "name": "Synaptics Incorporated",
         "pct": -8.3
-      },
-      {
-        "symbol": "AR",
-        "name": "Antero Resources Corporation",
-        "pct": -8.11
       }
     ],
-    "universe": 1351
+    "universe": 1383
   }
 }
