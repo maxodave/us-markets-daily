@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-17T14:51:05Z",
+  "updated": "2026-09-17T15:24:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.92,
-      "last": 7622.61
+      "pct": 0.93,
+      "last": 7623.66
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
       "pct": 1.52,
-      "last": 29386.02
+      "last": 29385.47
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.45,
-      "last": 51708.25
+      "pct": 0.48,
+      "last": 51722.4
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.73,
-      "last": 52385.0
+      "pct": 0.66,
+      "last": 52349.42
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": 27.87
+        "pct": 21.79
       },
       {
         "symbol": "GNRC",
         "name": "Generac Holdlings Inc.",
-        "pct": 17.89
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": 15.14
+        "pct": 18.61
       },
       {
         "symbol": "SDGR",
         "name": "Schrodinger, Inc.",
-        "pct": 15.11
+        "pct": 17.57
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 15.36
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 14.29
+        "pct": 13.43
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 13.35
+        "pct": 13.01
       },
       {
-        "symbol": "CRSP",
-        "name": "CRISPR Therapeutics AG",
-        "pct": 12.83
-      },
-      {
-        "symbol": "TWST",
-        "name": "Twist Bioscience Corporation",
-        "pct": 12.67
+        "symbol": "VERA",
+        "name": "Vera Therapeutics, Inc.",
+        "pct": 11.46
       },
       {
         "symbol": "ABCL",
         "name": "AbCellera Biologics Inc.",
-        "pct": 11.74
+        "pct": 11.31
       },
       {
-        "symbol": "NTLA",
-        "name": "Intellia Therapeutics, Inc.",
-        "pct": 11.58
+        "symbol": "BRUN",
+        "name": "Boost Run Inc.",
+        "pct": 11.08
+      },
+      {
+        "symbol": "CRSP",
+        "name": "CRISPR Therapeutics AG",
+        "pct": 10.96
       }
     ],
     "losers": [
       {
         "symbol": "MEDS",
         "name": "DataMeds AI, Inc.",
-        "pct": -24.87
+        "pct": -22.92
       },
       {
         "symbol": "FLNC",
         "name": "Fluence Energy, Inc.",
-        "pct": -16.3
+        "pct": -15.97
       },
       {
         "symbol": "FTFT",
         "name": "Future FinTech Group Inc.",
-        "pct": -12.14
-      },
-      {
-        "symbol": "MTZ",
-        "name": "MasTec, Inc.",
-        "pct": -6.27
-      },
-      {
-        "symbol": "PSKY",
-        "name": "Paramount Skydance Corporation",
-        "pct": -5.34
-      },
-      {
-        "symbol": "ARQT",
-        "name": "Arcutis Biotherapeutics, Inc.",
-        "pct": -4.82
-      },
-      {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": -4.64
+        "pct": -9.57
       },
       {
         "symbol": "JXN",
         "name": "Jackson Financial Inc.",
-        "pct": -4.47
+        "pct": -8.16
+      },
+      {
+        "symbol": "MTZ",
+        "name": "MasTec, Inc.",
+        "pct": -6.56
+      },
+      {
+        "symbol": "BBNX",
+        "name": "Beta Bionics, Inc.",
+        "pct": -6.45
+      },
+      {
+        "symbol": "ARQT",
+        "name": "Arcutis Biotherapeutics, Inc.",
+        "pct": -5.05
+      },
+      {
+        "symbol": "PSKY",
+        "name": "Paramount Skydance Corporation",
+        "pct": -5.03
+      },
+      {
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": -4.63
       },
       {
         "symbol": "XRAY",
         "name": "DENTSPLY SIRONA Inc.",
-        "pct": -4.44
-      },
-      {
-        "symbol": "RDDT",
-        "name": "Reddit, Inc.",
-        "pct": -4.37
+        "pct": -4.09
       }
     ],
     "universe": 1383
