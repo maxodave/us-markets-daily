@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-17T13:14:52Z",
-  "market_open": false,
+  "updated": "2026-09-17T13:31:02Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.45,
-      "last": 7551.81
+      "pct": 1.16,
+      "last": 7640.64
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.02,
-      "last": 28945.06
+      "pct": 1.58,
+      "last": 29403.69
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.21,
-      "last": 51461.9
+      "pct": 0.82,
+      "last": 51901.24
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.73,
-      "last": 52388.9
+      "pct": 0.7,
+      "last": 52369.2
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "MEDS",
-        "name": "DataMeds AI, Inc.",
-        "pct": 274.69
-      },
-      {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": 78.68
+        "pct": 46.58
       },
       {
-        "symbol": "FTFT",
-        "name": "Future FinTech Group Inc.",
-        "pct": 21.95
+        "symbol": "VEEA",
+        "name": "Veea Inc.",
+        "pct": 28.85
       },
       {
-        "symbol": "BBNX",
-        "name": "Beta Bionics, Inc.",
-        "pct": 15.34
+        "symbol": "GNRC",
+        "name": "Generac Holdlings Inc.",
+        "pct": 27.21
       },
       {
-        "symbol": "BRUN",
-        "name": "Boost Run Inc.",
-        "pct": 11.72
+        "symbol": "INIO",
+        "name": "INNIO N.V.",
+        "pct": 14.64
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 11.44
-      },
-      {
-        "symbol": "ARQT",
-        "name": "Arcutis Biotherapeutics, Inc.",
-        "pct": 11.19
-      },
-      {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "pct": 11.1
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": 11.03
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 13.38
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": 10.8
+        "pct": 9.66
+      },
+      {
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": 9.51
+      },
+      {
+        "symbol": "WULF",
+        "name": "TeraWulf Inc.",
+        "pct": 9.1
+      },
+      {
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": 8.37
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": 7.81
       }
     ],
     "losers": [
       {
+        "symbol": "FLNC",
+        "name": "Fluence Energy, Inc.",
+        "pct": -20.77
+      },
+      {
+        "symbol": "FTFT",
+        "name": "Future FinTech Group Inc.",
+        "pct": -8.79
+      },
+      {
+        "symbol": "ARQT",
+        "name": "Arcutis Biotherapeutics, Inc.",
+        "pct": -4.45
+      },
+      {
+        "symbol": "PEGA",
+        "name": "Pegasystems Inc.",
+        "pct": -4.18
+      },
+      {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -16.01
+        "pct": -4.02
       },
       {
-        "symbol": "JBHT",
-        "name": "J.B. Hunt Transport Services, Inc.",
-        "pct": -13.3
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": -3.9
       },
       {
-        "symbol": "BULL",
-        "name": "Webull Corporation",
-        "pct": -11.2
+        "symbol": "MNDY",
+        "name": "monday.com Ltd.",
+        "pct": -3.56
       },
       {
-        "symbol": "RCAT",
-        "name": "Red Cat Holdings, Inc.",
-        "pct": -10.92
+        "symbol": "RBRK",
+        "name": "Rubrik, Inc.",
+        "pct": -3.12
       },
       {
-        "symbol": "PLSE",
-        "name": "Pulse Biosciences, Inc",
-        "pct": -10.13
+        "symbol": "PANW",
+        "name": "Palo Alto Networks, Inc.",
+        "pct": -2.84
       },
       {
-        "symbol": "BLSH",
-        "name": "Bullish",
-        "pct": -9.53
-      },
-      {
-        "symbol": "ON",
-        "name": "ON Semiconductor Corporation",
-        "pct": -9.02
-      },
-      {
-        "symbol": "MTDR",
-        "name": "Matador Resources Company",
-        "pct": -8.61
-      },
-      {
-        "symbol": "MGY",
-        "name": "Magnolia Oil & Gas Corporation",
-        "pct": -8.58
-      },
-      {
-        "symbol": "SYNA",
-        "name": "Synaptics Incorporated",
-        "pct": -8.3
+        "symbol": "CRWD",
+        "name": "CrowdStrike Holdings, Inc.",
+        "pct": -2.65
       }
     ],
-    "universe": 1383
+    "universe": 1324
   }
 }
