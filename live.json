@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-17T13:59:03Z",
+  "updated": "2026-09-17T14:32:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.89,
-      "last": 7620.76
+      "pct": 1.0,
+      "last": 7628.82
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.47,
-      "last": 29371.97
+      "pct": 1.62,
+      "last": 29415.08
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.39,
-      "last": 51680.05
+      "pct": 0.53,
+      "last": 51751.51
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.7,
-      "last": 52372.42
+      "pct": 0.78,
+      "last": 52410.74
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": 33.03
+        "pct": 53.19
       },
       {
         "symbol": "GNRC",
         "name": "Generac Holdlings Inc.",
-        "pct": 21.83
+        "pct": 18.62
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 14.05
-      },
-      {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": 12.1
+        "pct": 14.79
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 10.36
-      },
-      {
-        "symbol": "XE",
-        "name": "X-Energy, Inc.",
-        "pct": 10.3
+        "pct": 14.43
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": 10.04
+        "pct": 14.14
       },
       {
-        "symbol": "SITM",
-        "name": "SiTime Corporation",
-        "pct": 9.78
+        "symbol": "SDGR",
+        "name": "Schrodinger, Inc.",
+        "pct": 13.58
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": 9.15
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": 12.19
       },
       {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": 9.15
+        "symbol": "CRSP",
+        "name": "CRISPR Therapeutics AG",
+        "pct": 11.99
+      },
+      {
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": 11.89
+      },
+      {
+        "symbol": "ABCL",
+        "name": "AbCellera Biologics Inc.",
+        "pct": 11.57
       }
     ],
     "losers": [
       {
         "symbol": "MEDS",
         "name": "DataMeds AI, Inc.",
-        "pct": -22.9
+        "pct": -20.02
       },
       {
         "symbol": "FLNC",
         "name": "Fluence Energy, Inc.",
-        "pct": -17.4
+        "pct": -17.12
       },
       {
         "symbol": "FTFT",
         "name": "Future FinTech Group Inc.",
-        "pct": -9.71
-      },
-      {
-        "symbol": "PEGA",
-        "name": "Pegasystems Inc.",
-        "pct": -4.7
+        "pct": -8.04
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": -4.31
-      },
-      {
-        "symbol": "RDDT",
-        "name": "Reddit, Inc.",
-        "pct": -4.19
+        "pct": -5.31
       },
       {
         "symbol": "ARQT",
         "name": "Arcutis Biotherapeutics, Inc.",
-        "pct": -4.14
+        "pct": -5.16
       },
       {
         "symbol": "PSKY",
         "name": "Paramount Skydance Corporation",
-        "pct": -3.9
+        "pct": -5.07
       },
       {
-        "symbol": "VXX",
-        "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -3.83
+        "symbol": "RDDT",
+        "name": "Reddit, Inc.",
+        "pct": -4.57
       },
       {
-        "symbol": "CART",
-        "name": "Maplebear Inc.",
-        "pct": -3.65
+        "symbol": "XRAY",
+        "name": "DENTSPLY SIRONA Inc.",
+        "pct": -4.54
+      },
+      {
+        "symbol": "NVST",
+        "name": "Envista Holdings Corporation",
+        "pct": -4.51
+      },
+      {
+        "symbol": "MTZ",
+        "name": "MasTec, Inc.",
+        "pct": -4.32
       }
     ],
     "universe": 1383
