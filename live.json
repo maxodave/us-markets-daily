@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-17T15:38:00Z",
+  "updated": "2026-09-17T15:55:27Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.03,
-      "last": 7630.94
+      "pct": 1.09,
+      "last": 7635.55
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.62,
-      "last": 29414.7
+      "pct": 1.69,
+      "last": 29433.04
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.58,
-      "last": 51776.93
+      "pct": 0.62,
+      "last": 51794.93
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.74,
-      "last": 52389.2
+      "pct": 0.73,
+      "last": 52385.5
     }
   ],
   "movers": {
@@ -32,64 +32,64 @@
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": 26.03
+        "pct": 37.09
       },
       {
         "symbol": "GNRC",
         "name": "Generac Holdlings Inc.",
-        "pct": 19.28
+        "pct": 19.38
       },
       {
         "symbol": "SDGR",
         "name": "Schrodinger, Inc.",
-        "pct": 17.89
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": 14.56
-      },
-      {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": 13.81
+        "pct": 16.74
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 13.56
+        "pct": 13.95
       },
       {
-        "symbol": "VERA",
-        "name": "Vera Therapeutics, Inc.",
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
         "pct": 13.55
       },
       {
-        "symbol": "ABCL",
-        "name": "AbCellera Biologics Inc.",
-        "pct": 12.55
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 12.97
       },
       {
-        "symbol": "CRSP",
-        "name": "CRISPR Therapeutics AG",
-        "pct": 12.03
+        "symbol": "BRUN",
+        "name": "Boost Run Inc.",
+        "pct": 12.01
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": 11.95
+        "pct": 11.55
+      },
+      {
+        "symbol": "OKLO",
+        "name": "Oklo Inc.",
+        "pct": 11.54
+      },
+      {
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "pct": 11.36
       }
     ],
     "losers": [
       {
         "symbol": "MEDS",
         "name": "DataMeds AI, Inc.",
-        "pct": -23.39
+        "pct": -24.55
       },
       {
         "symbol": "FLNC",
         "name": "Fluence Energy, Inc.",
-        "pct": -15.45
+        "pct": -14.03
       },
       {
         "symbol": "FTFT",
@@ -99,37 +99,37 @@
       {
         "symbol": "JXN",
         "name": "Jackson Financial Inc.",
-        "pct": -7.4
+        "pct": -7.74
       },
       {
         "symbol": "BBNX",
         "name": "Beta Bionics, Inc.",
-        "pct": -6.0
+        "pct": -6.18
       },
       {
-        "symbol": "MTZ",
-        "name": "MasTec, Inc.",
-        "pct": -5.79
+        "symbol": "AN",
+        "name": "AutoNation, Inc.",
+        "pct": -4.93
       },
       {
         "symbol": "ARQT",
         "name": "Arcutis Biotherapeutics, Inc.",
-        "pct": -4.92
+        "pct": -4.71
+      },
+      {
+        "symbol": "MTZ",
+        "name": "MasTec, Inc.",
+        "pct": -4.7
       },
       {
         "symbol": "LAD",
         "name": "Lithia Motors, Inc.",
-        "pct": -4.66
+        "pct": -4.34
       },
       {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": -4.28
-      },
-      {
-        "symbol": "CPRT",
-        "name": "Copart, Inc.",
-        "pct": -4.1
+        "symbol": "DCO",
+        "name": "Ducommun Incorporated",
+        "pct": -4.03
       }
     ],
     "universe": 1383
