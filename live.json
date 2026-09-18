@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-17T20:15:25Z",
-  "market_open": false,
+  "updated": "2026-09-18T16:58:49Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.14,
-      "last": 7637.76
+      "pct": -0.17,
+      "last": 7623.93
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.73,
-      "last": 29446.98
+      "pct": -0.03,
+      "last": 29439.08
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.61,
-      "last": 51778.04
+      "pct": -0.35,
+      "last": 51596.67
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.73,
-      "last": 52385.5
+      "pct": -1.61,
+      "last": 51545.25
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "AEHL",
-        "name": "Antelope Enterprise Holdings Limited",
-        "pct": 33.3
+        "symbol": "BIAF",
+        "name": "bioAffinity Technologies, Inc.",
+        "pct": 15.09
       },
       {
-        "symbol": "SDGR",
-        "name": "Schrodinger, Inc.",
-        "pct": 26.37
+        "symbol": "MSTR",
+        "name": "Strategy Inc",
+        "pct": 13.6
       },
       {
-        "symbol": "GNRC",
-        "name": "Generac Holdlings Inc.",
-        "pct": 18.34
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": 13.24
       },
       {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": 17.66
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": 12.23
       },
       {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "pct": 14.85
+        "symbol": "COIN",
+        "name": "Coinbase Global, Inc.",
+        "pct": 11.73
       },
       {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": 14.26
+        "symbol": "SBET",
+        "name": "Sharplink, Inc.",
+        "pct": 11.44
       },
       {
-        "symbol": "RARE",
-        "name": "Ultragenyx Pharmaceutical Inc.",
-        "pct": 12.58
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": 11.18
       },
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": 12.15
+        "symbol": "MARA",
+        "name": "MARA Holdings, Inc.",
+        "pct": 11.0
       },
       {
-        "symbol": "XE",
-        "name": "X-Energy, Inc.",
-        "pct": 12.08
+        "symbol": "PS",
+        "name": "Pershing Square Inc.",
+        "pct": 10.45
       },
       {
-        "symbol": "INIO",
-        "name": "INNIO N.V.",
-        "pct": 12.03
+        "symbol": "BLSH",
+        "name": "Bullish",
+        "pct": 9.2
       }
     ],
     "losers": [
       {
-        "symbol": "MEDS",
-        "name": "DataMeds AI, Inc.",
-        "pct": -23.56
+        "symbol": "XENE",
+        "name": "Xenon Pharmaceuticals Inc.",
+        "pct": -30.13
       },
       {
-        "symbol": "FLNC",
-        "name": "Fluence Energy, Inc.",
-        "pct": -15.36
+        "symbol": "DAIC",
+        "name": "CID HoldCo, Inc.",
+        "pct": -30.0
+      },
+      {
+        "symbol": "AEHL",
+        "name": "Antelope Enterprise Holdings Limited",
+        "pct": -23.19
       },
       {
         "symbol": "VEEA",
         "name": "Veea Inc.",
-        "pct": -12.62
+        "pct": -15.95
       },
       {
-        "symbol": "FTFT",
-        "name": "Future FinTech Group Inc.",
-        "pct": -10.64
+        "symbol": "AEMD",
+        "name": "Aethlon Medical, Inc.",
+        "pct": -9.87
       },
       {
-        "symbol": "AN",
-        "name": "AutoNation, Inc.",
-        "pct": -10.49
+        "symbol": "SMR",
+        "name": "NuScale Power Corporation",
+        "pct": -8.41
       },
       {
-        "symbol": "MTZ",
-        "name": "MasTec, Inc.",
-        "pct": -7.92
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": -7.32
       },
       {
-        "symbol": "DKNG",
-        "name": "DraftKings Inc.",
-        "pct": -7.64
+        "symbol": "RDW",
+        "name": "Redwire Corporation",
+        "pct": -6.84
       },
       {
-        "symbol": "XRAY",
-        "name": "DENTSPLY SIRONA Inc.",
-        "pct": -7.54
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": -6.65
       },
       {
-        "symbol": "TTAN",
-        "name": "ServiceTitan, Inc.",
-        "pct": -7.53
-      },
-      {
-        "symbol": "NSIT",
-        "name": "Insight Enterprises, Inc.",
-        "pct": -6.38
+        "symbol": "SYM",
+        "name": "Symbotic Inc.",
+        "pct": -6.41
       }
     ],
-    "universe": 1383
+    "universe": 1313
   }
 }
