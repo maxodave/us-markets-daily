@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-18T16:58:49Z",
+  "updated": "2026-09-18T19:31:07Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.17,
-      "last": 7623.93
+      "pct": 0.01,
+      "last": 7637.93
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.03,
-      "last": 29439.08
+      "pct": 0.3,
+      "last": 29536.23
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.35,
-      "last": 51596.67
+      "pct": -0.19,
+      "last": 51680.39
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "BIAF",
-        "name": "bioAffinity Technologies, Inc.",
-        "pct": 15.09
-      },
-      {
-        "symbol": "MSTR",
-        "name": "Strategy Inc",
-        "pct": 13.6
-      },
-      {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 13.24
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": 12.23
-      },
-      {
-        "symbol": "COIN",
-        "name": "Coinbase Global, Inc.",
-        "pct": 11.73
-      },
-      {
-        "symbol": "SBET",
-        "name": "Sharplink, Inc.",
-        "pct": 11.44
+        "pct": 35.02
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": 11.18
+        "pct": 17.02
+      },
+      {
+        "symbol": "MSTR",
+        "name": "Strategy Inc",
+        "pct": 15.55
       },
       {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
-        "pct": 11.0
+        "pct": 13.96
+      },
+      {
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": 13.88
+      },
+      {
+        "symbol": "BIAF",
+        "name": "bioAffinity Technologies, Inc.",
+        "pct": 13.26
       },
       {
         "symbol": "PS",
         "name": "Pershing Square Inc.",
-        "pct": 10.45
+        "pct": 12.37
       },
       {
-        "symbol": "BLSH",
-        "name": "Bullish",
-        "pct": 9.2
+        "symbol": "SBET",
+        "name": "Sharplink, Inc.",
+        "pct": 12.05
+      },
+      {
+        "symbol": "COIN",
+        "name": "Coinbase Global, Inc.",
+        "pct": 11.86
+      },
+      {
+        "symbol": "GLXY",
+        "name": "Galaxy Digital Inc.",
+        "pct": 10.35
       }
     ],
     "losers": [
       {
         "symbol": "XENE",
         "name": "Xenon Pharmaceuticals Inc.",
-        "pct": -30.13
+        "pct": -30.72
       },
       {
         "symbol": "DAIC",
         "name": "CID HoldCo, Inc.",
-        "pct": -30.0
+        "pct": -26.04
       },
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": -23.19
+        "pct": -24.21
       },
       {
         "symbol": "VEEA",
         "name": "Veea Inc.",
-        "pct": -15.95
+        "pct": -15.38
       },
       {
-        "symbol": "AEMD",
-        "name": "Aethlon Medical, Inc.",
-        "pct": -9.87
-      },
-      {
-        "symbol": "SMR",
-        "name": "NuScale Power Corporation",
-        "pct": -8.41
-      },
-      {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": -7.32
+        "symbol": "BTU",
+        "name": "Peabody Energy Corporation",
+        "pct": -7.21
       },
       {
         "symbol": "RDW",
         "name": "Redwire Corporation",
-        "pct": -6.84
+        "pct": -6.86
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": -6.65
+        "pct": -6.78
       },
       {
-        "symbol": "SYM",
-        "name": "Symbotic Inc.",
-        "pct": -6.41
+        "symbol": "NUE",
+        "name": "Nucor Corporation",
+        "pct": -6.39
+      },
+      {
+        "symbol": "ALKS",
+        "name": "Alkermes plc",
+        "pct": -6.3
+      },
+      {
+        "symbol": "FIVN",
+        "name": "Five9, Inc.",
+        "pct": -6.22
       }
     ],
     "universe": 1313
