@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-19T04:20:30Z",
+  "updated": "2026-09-19T10:45:49Z",
   "session_date": "2026-09-18",
   "universe": 558,
   "up": {
-    "count": 198,
+    "count": 178,
     "by_length": {
-      "1": 78,
-      "2": 77,
-      "3": 26,
-      "4": 14,
+      "1": 65,
+      "2": 66,
+      "3": 30,
+      "4": 15,
       "5": 1,
-      "6": 2
+      "6": 1
     },
     "top": [
       {
@@ -21,15 +21,6 @@
         ],
         "days": 6,
         "cum_pct": 8.27
-      },
-      {
-        "symbol": "G.MI",
-        "name": "Generali",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 6,
-        "cum_pct": 3.17
       },
       {
         "symbol": "DXCM",
@@ -146,6 +137,15 @@
         "cum_pct": 5.05
       },
       {
+        "symbol": "DIA.MI",
+        "name": "Diasorin",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 4,
+        "cum_pct": 4.39
+      },
+      {
         "symbol": "ADI",
         "name": "Analog Devices",
         "indices": [
@@ -158,12 +158,12 @@
     ]
   },
   "down": {
-    "count": 359,
+    "count": 379,
     "by_length": {
-      "1": 206,
-      "2": 44,
+      "1": 223,
+      "2": 46,
       "3": 27,
-      "4": 70,
+      "4": 71,
       "5": 8,
       "6": 3,
       "8+": 1

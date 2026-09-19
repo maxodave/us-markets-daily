@@ -1316,73 +1316,47 @@
     },
     "ftsemib": {
       "stats": {
-        "n_up": 34,
-        "n_down": 6,
+        "n_up": 14,
+        "n_down": 26,
         "n_flat": 0,
         "n_total": 40,
-        "avg_pct": 0.82,
+        "avg_pct": -0.38,
         "best_sectors": [
           {
-            "sector": "Utilities",
-            "avg_pct": 1.67
+            "sector": "Financial Services",
+            "avg_pct": 1.21
           },
           {
-            "sector": "Financial Services",
-            "avg_pct": 1.09
+            "sector": "Health Care",
+            "avg_pct": 0.24
           },
           {
             "sector": "Industrial Goods and Services",
-            "avg_pct": 0.83
+            "avg_pct": -0.05
           }
         ],
         "worst_sectors": [
           {
             "sector": "Banks",
-            "avg_pct": 0.42
+            "avg_pct": -1.05
           },
           {
             "sector": "Energy",
-            "avg_pct": 0.62
+            "avg_pct": -0.43
           },
           {
-            "sector": "Health Care",
-            "avg_pct": 0.66
+            "sector": "Utilities",
+            "avg_pct": -0.24
           }
         ]
       },
       "gainers": [
         {
-          "symbol": "PRY.MI",
-          "name": "Prysmian",
-          "sector": "Industrial Goods and Services",
-          "pct_change": 3.38,
-          "last_close": 122.2,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "LTMC.MI",
-          "name": "Lottomatica Group",
-          "sector": "Gambling",
-          "pct_change": 2.76,
-          "last_close": 27.59,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "IG.MI",
-          "name": "Italgas",
-          "sector": "Utilities",
-          "pct_change": 2.42,
-          "last_close": 8.37,
+          "symbol": "PST.MI",
+          "name": "Poste italiane",
+          "sector": "Financial Services",
+          "pct_change": 2.71,
+          "last_close": 26.89,
           "indices": [
             "ftsemib"
           ],
@@ -1394,21 +1368,8 @@
           "symbol": "BC.MI",
           "name": "Brunello Cucinelli",
           "sector": "Consumer Products and Services",
-          "pct_change": 2.22,
-          "last_close": 77.28,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "A2A.MI",
-          "name": "A2A",
-          "sector": "Utilities",
-          "pct_change": 2.04,
-          "last_close": 2.35,
+          "pct_change": 2.23,
+          "last_close": 79.0,
           "indices": [
             "ftsemib"
           ],
@@ -1420,8 +1381,8 @@
           "symbol": "STMMI.MI",
           "name": "STMicroelectronics",
           "sector": "Technology",
-          "pct_change": 2.02,
-          "last_close": 42.62,
+          "pct_change": 1.89,
+          "last_close": 43.43,
           "indices": [
             "ftsemib"
           ],
@@ -1430,11 +1391,11 @@
           "news_historical": []
         },
         {
-          "symbol": "AZM.MI",
-          "name": "Azimut",
-          "sector": "Financial Services",
-          "pct_change": 1.94,
-          "last_close": 38.91,
+          "symbol": "DIA.MI",
+          "name": "Diasorin",
+          "sector": "Health Care",
+          "pct_change": 1.78,
+          "last_close": 76.62,
           "indices": [
             "ftsemib"
           ],
@@ -1443,11 +1404,24 @@
           "news_historical": []
         },
         {
-          "symbol": "INW.MI",
-          "name": "INWIT",
+          "symbol": "FCT.MI",
+          "name": "Fincantieri",
+          "sector": "Shipbuilding",
+          "pct_change": 1.3,
+          "last_close": 12.43,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TIT.MI",
+          "name": "Telecom Italia",
           "sector": "Telecommunications",
-          "pct_change": 1.93,
-          "last_close": 6.59,
+          "pct_change": 1.28,
+          "last_close": 7.74,
           "indices": [
             "ftsemib"
           ],
@@ -1456,11 +1430,11 @@
           "news_historical": []
         },
         {
-          "symbol": "ENEL.MI",
-          "name": "Enel",
-          "sector": "Utilities",
-          "pct_change": 1.8,
-          "last_close": 8.9,
+          "symbol": "AVIO.MI",
+          "name": "Avio",
+          "sector": "Aerospace",
+          "pct_change": 1.09,
+          "last_close": 28.81,
           "indices": [
             "ftsemib"
           ],
@@ -1469,11 +1443,37 @@
           "news_historical": []
         },
         {
-          "symbol": "HER.MI",
-          "name": "Hera",
+          "symbol": "IG.MI",
+          "name": "Italgas",
           "sector": "Utilities",
-          "pct_change": 1.73,
-          "last_close": 3.64,
+          "pct_change": 0.96,
+          "last_close": 8.45,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SRG.MI",
+          "name": "Snam",
+          "sector": "Energy",
+          "pct_change": 0.9,
+          "last_close": 5.6,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRN.MI",
+          "name": "Terna",
+          "sector": "Utilities",
+          "pct_change": 0.65,
+          "last_close": 9.33,
           "indices": [
             "ftsemib"
           ],
@@ -1487,8 +1487,8 @@
           "symbol": "STLAM.MI",
           "name": "Stellantis",
           "sector": "Automobiles and Parts",
-          "pct_change": -3.33,
-          "last_close": 4.34,
+          "pct_change": -3.09,
+          "last_close": 4.2,
           "indices": [
             "ftsemib"
           ],
@@ -1497,11 +1497,11 @@
           "news_historical": []
         },
         {
-          "symbol": "NEXI.MI",
-          "name": "Nexi",
-          "sector": "Industrial Goods and Services",
-          "pct_change": -1.3,
-          "last_close": 4.16,
+          "symbol": "BZU.MI",
+          "name": "Buzzi",
+          "sector": "Construction and Materials",
+          "pct_change": -3.07,
+          "last_close": 37.3,
           "indices": [
             "ftsemib"
           ],
@@ -1510,37 +1510,37 @@
           "news_historical": []
         },
         {
-          "symbol": "ENI.MI",
-          "name": "Eni",
-          "sector": "Energy",
-          "pct_change": -0.8,
-          "last_close": 24.24,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "FCT.MI",
-          "name": "Fincantieri",
-          "sector": "Shipbuilding",
-          "pct_change": -0.61,
-          "last_close": 12.27,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "BMPS.MI",
-          "name": "Banca Monte dei Paschi di Siena",
+          "symbol": "BAMI.MI",
+          "name": "Banco BPM",
           "sector": "Banks",
-          "pct_change": -0.14,
-          "last_close": 11.79,
+          "pct_change": -2.45,
+          "last_close": 15.7,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNI.MI",
+          "name": "Unipol",
+          "sector": "Insurance",
+          "pct_change": -2.27,
+          "last_close": 27.59,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UCG.MI",
+          "name": "UniCredit",
+          "sector": "Banks",
+          "pct_change": -2.16,
+          "last_close": 81.13,
           "indices": [
             "ftsemib"
           ],
@@ -1552,8 +1552,8 @@
           "symbol": "CPR.MI",
           "name": "Campari",
           "sector": "Food, Beverage and Tobacco",
-          "pct_change": -0.1,
-          "last_close": 6.02,
+          "pct_change": -2.06,
+          "last_close": 5.9,
           "indices": [
             "ftsemib"
           ],
@@ -1562,11 +1562,11 @@
           "news_historical": []
         },
         {
-          "symbol": "IVG.MI",
-          "name": "Iveco",
-          "sector": "Industrial Goods and Services",
-          "pct_change": 0.18,
-          "last_close": 14.1,
+          "symbol": "LTMC.MI",
+          "name": "Lottomatica Group",
+          "sector": "Gambling",
+          "pct_change": -1.81,
+          "last_close": 27.09,
           "indices": [
             "ftsemib"
           ],
@@ -1575,37 +1575,37 @@
           "news_historical": []
         },
         {
-          "symbol": "REC.MI",
-          "name": "Recordati",
-          "sector": "Health Care",
-          "pct_change": 0.19,
-          "last_close": 52.75,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "AMP.MI",
-          "name": "Amplifon",
-          "sector": "Health Care",
-          "pct_change": 0.31,
-          "last_close": 11.51,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "TRN.MI",
-          "name": "Terna",
+          "symbol": "A2A.MI",
+          "name": "A2A",
           "sector": "Utilities",
-          "pct_change": 0.35,
-          "last_close": 9.27,
+          "pct_change": -1.4,
+          "last_close": 2.32,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "G.MI",
+          "name": "Generali",
+          "sector": "Insurance",
+          "pct_change": -1.31,
+          "last_close": 45.28,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ENI.MI",
+          "name": "Eni",
+          "sector": "Energy",
+          "pct_change": -1.18,
+          "last_close": 23.95,
           "indices": [
             "ftsemib"
           ],
@@ -1616,14 +1616,14 @@
       ],
       "paragraphs": {
         "en": [
-          "In the September 18, 2026 session the FTSE MIB closed with 34 stocks higher, 6 lower, out of 40 tracked. The average move was +0.82%.",
-          "Best-performing sectors by average move: Utilities (+1.67%); Financial Services (+1.09%); Industrial Goods and Services (+0.83%). Weakest: Banks (+0.42%); Energy (+0.62%); Health Care (+0.66%).",
-          "Leading the session: Prysmian (PRY.MI, +3.38%); Lottomatica Group (LTMC.MI, +2.76%); Italgas (IG.MI, +2.42%). At the bottom: Stellantis (STLAM.MI, -3.33%); Nexi (NEXI.MI, -1.30%); Eni (ENI.MI, -0.80%)."
+          "In the September 18, 2026 session the FTSE MIB closed with 14 stocks higher, 26 lower, out of 40 tracked. The average move was -0.38%.",
+          "Best-performing sectors by average move: Financial Services (+1.21%); Health Care (+0.24%); Industrial Goods and Services (-0.05%). Weakest: Banks (-1.05%); Energy (-0.43%); Utilities (-0.24%).",
+          "Leading the session: Poste italiane (PST.MI, +2.71%); Brunello Cucinelli (BC.MI, +2.23%); STMicroelectronics (STMMI.MI, +1.89%). At the bottom: Stellantis (STLAM.MI, -3.09%); Buzzi (BZU.MI, -3.07%); Banco BPM (BAMI.MI, -2.45%)."
         ],
         "it": [
-          "Nella seduta del 18 settembre 2026 il FTSE MIB ha chiuso con 34 societa' in rialzo, 6 in ribasso, su 40 titoli monitorati. La variazione media dell'indice e' stata di +0,82%.",
-          "Settori con la variazione media migliore: Utilities (+1,67%); Financial Services (+1,09%); Industrial Goods and Services (+0,83%). Settori piu' debolli: Banks (+0,42%); Energy (+0,62%); Health Care (+0,66%).",
-          "In cima alla seduta: Prysmian (PRY.MI, +3,38%); Lottomatica Group (LTMC.MI, +2,76%); Italgas (IG.MI, +2,42%). In fondo: Stellantis (STLAM.MI, -3,33%); Nexi (NEXI.MI, -1,30%); Eni (ENI.MI, -0,80%)."
+          "Nella seduta del 18 settembre 2026 il FTSE MIB ha chiuso con 14 societa' in rialzo, 26 in ribasso, su 40 titoli monitorati. La variazione media dell'indice e' stata di -0,38%.",
+          "Settori con la variazione media migliore: Financial Services (+1,21%); Health Care (+0,24%); Industrial Goods and Services (-0,05%). Settori piu' debolli: Banks (-1,05%); Energy (-0,43%); Utilities (-0,24%).",
+          "In cima alla seduta: Poste italiane (PST.MI, +2,71%); Brunello Cucinelli (BC.MI, +2,23%); STMicroelectronics (STMMI.MI, +1,89%). In fondo: Stellantis (STLAM.MI, -3,09%); Buzzi (BZU.MI, -3,07%); Banco BPM (BAMI.MI, -2,45%)."
         ]
       }
     },
@@ -1948,81 +1948,180 @@
       }
     }
   },
-  "manual_commentary_html": "<p>I titoli azionari statunitensi hanno chiuso con ampia debolezza il 18 settembre 2026, con l&#x27;S&amp;P 500 in calo dello 0,45 per cento con 156 titoli in rialzo e 346 in ribasso. Il Dow Jones è sceso dello 0,33 per cento, mentre il Nasdaq-100 ha controtendenza con un guadagno dello 0,31 per cento, sovraperformando il mercato più ampio. La seduta ha segnato una conclusione tranquilla a una settimana turbolenta, secondo il Wall Street Journal, con il mercato che ha voltato pagina ai turbamenti degli scambi come riportato da Reuters. La performance dei settori è stata nettamente divergente: i titoli tecnologici hanno guidato con un guadagno medio del 3,06 per cento, mentre i Materiali sono scesi dell&#x27;1,89 per cento, i Servizi di Comunicazione hanno perso l&#x27;1,58 per cento e i Servizi di Pubblica Utilità sono diminuiti dell&#x27;1,36 per cento.</p><p>I rialzisti si sono concentrati nei nomi dei semiconduttori e della tecnologia finanziaria. MicroStrategy è salito del 16,39 per cento, Coinbase ha avanzato dell&#x27;11,66 per cento e Sandisk è salito del 10,99 per cento. Robinhood Markets ha guadagnato il 9,12 per cento, mentre i produttori di apparecchiature per semiconduttori hanno dominato il rialzo: Coherent Corp. ha aggiunto il 7,22 per cento, Lam Research è salito del 6,98 per cento, Applied Materials è salito del 6,51 per cento e Teradyne ha guadagnato il 5,19 per cento. Seagate Technology ha anche avanzato del 6,93 per cento. Comfort Systems USA ha completato i principali rialzisti con un aumento del 4,92 per cento. I media tracciati non hanno segnalato catalizzatori aziendali specifici per questi movimenti.</p><p>I ribassi sono stati guidati dai nomi industriali e tecnologici. Nucor è sceso del 6,32 per cento e General Motors è sceso del 5,1 per cento, mentre Qualcomm è diminuito del 5,82 per cento. Alexandria Real Estate Equities ha perso il 5,4 per cento, Thomson Reuters è sceso del 5,12 per cento e Rocket Lab è diminuito del 4,79 per cento. Netflix è sceso del 4,67 per cento, Accenture è sceso del 4,73 per cento, CF Industries è sceso del 4,57 per cento e Fiserv è diminuito del 4,28 per cento. Come per i rialzisti, i media tracciati non hanno segnalato catalizzatori aziendali specifici per questi ribassi.</p>",
-  "manual_commentary_html_en": "<p>U.S. equities closed with broad weakness on September 18, 2026, as the S&amp;P 500 declined 0.45 percent with 156 stocks advancing and 346 declining. The Dow Jones fell 0.33 percent, while the Nasdaq-100 bucked the trend with a 0.31 percent gain, outperforming the broader market. The session marked a quiet finish to a volatile week, according to the Wall Street Journal, with the market turning the page on turbulent trading as reported by Reuters. Sector performance was sharply divergent: Technology stocks led with a 3.06 percent average gain, while Materials fell 1.89 percent, Communication Services dropped 1.58 percent, and Utilities declined 1.36 percent.</p><p>Gainers were concentrated in semiconductor and financial technology names. MicroStrategy surged 16.39 percent, Coinbase advanced 11.66 percent, and Sandisk rose 10.99 percent. Robinhood Markets gained 9.12 percent, while semiconductor equipment makers dominated the upside: Coherent Corp. added 7.22 percent, Lam Research rose 6.98 percent, Applied Materials climbed 6.51 percent, and Teradyne gained 5.19 percent. Seagate Technology also advanced 6.93 percent. Comfort Systems USA rounded out the top gainers with a 4.92 percent increase. Tracked outlets reported no specific company catalysts for these moves.</p><p>Declines were led by industrial and technology names. Nucor fell 6.32 percent and General Motors dropped 5.1 percent, while Qualcomm declined 5.82 percent. Alexandria Real Estate Equities lost 5.4 percent, Thomson Reuters fell 5.12 percent, and Rocket Lab declined 4.79 percent. Netflix slipped 4.67 percent, Accenture fell 4.73 percent, CF Industries dropped 4.57 percent, and Fiserv declined 4.28 percent. As with the gainers, tracked outlets reported no specific company catalysts for these declines.</p>",
+  "manual_commentary_html": "<p>I mercati azionari statunitensi hanno chiuso in territorio misto il 18 settembre 2026, con il mercato generale sotto pressione nonostante una forza selettiva nei titoli tecnologici e finanziari. La seduta si è svolta sullo sfondo di persistenti preoccupazioni inflazionistiche, poiché il Wall Street Journal ha riferito che &quot;quasi tutto sta diventando più caro&quot; a poche settimane dalle elezioni di metà mandato, mentre la Federal Reserve ha emesso il suo primo aumento dei tassi dal 2023, secondo il WSJ. L&#x27;oro e l&#x27;argento hanno registrato guadagni settimanali nonostante l&#x27;aumento dei tassi, suggerendo cautela degli investitori sulle prospettive economiche. L&#x27;S&amp;P 500 e il Nasdaq hanno avanzato nella giornata, secondo Reuters, ma l&#x27;ampiezza ha raccontato una storia diversa: 346 titoli sono scesi contro 156 che sono saliti nell&#x27;S&amp;P 500, con il titolo medio in calo dello 0,45 percento.</p><p>Il Nasdaq-100 ha sovraperformato il mercato più ampio, salendo dello 0,31 percento in media con 43 rialzisti contro 58 ribassisti, guidato dalla forza nei nomi dei semiconduttori e della tecnologia finanziaria. MicroStrategy ha guidato la seduta con un guadagno del 16,39 percento, mentre Coinbase è salita dell&#x27;11,66 percento e SanDisk ha avanzato del 10,99 percento. Robinhood Markets ha guadagnato il 9,12 percento. I fornitori di attrezzature per semiconduttori hanno anche rallentato: Lam Research è salita del 6,98 percento, Applied Materials ha guadagnato il 6,51 percento e Teradyne ha aggiunto il 5,19 percento. Coherent Corp. è salita del 7,22 percento e Seagate Technology ha guadagnato il 6,93 percento. Comfort Systems USA ha completato i rialzisti con un avanzamento del 4,92 percento. Gli outlet tracciati non hanno riferito catalizzatori aziendali specifici per questi movimenti.</p><p>Le perdite hanno dominato la seduta, con l&#x27;S&amp;P 500 in calo dello 0,45 percento in media poiché 346 titoli sono scesi. Nucor ha guidato i ribassi con un calo del 6,32 percento, seguito da Qualcomm in calo del 5,82 percento e Alexandria Real Estate Equities in calo del 5,4 percento. Thomson Reuters è scesa del 5,12 percento, General Motors è scesa del 5,1 percento e Rocket Lab è scesa del 4,79 percento. Accenture è scesa del 4,73 percento, Netflix è scesa del 4,67 percento, CF Industries è scesa del 4,57 percento e Fiserv ha perso il 4,28 percento. Il Dow Jones, con 19 ribassi contro 11 rialzisti, è sceso dello 0,33 percento in media. Gli outlet tracciati non hanno riferito catalizzatori aziendali specifici per questi ribassi.</p>",
+  "manual_commentary_html_en": "<p>U.S. equities closed mixed on September 18, 2026, with the broad market under pressure even as selective strength emerged in technology and financial stocks. The session unfolded against a backdrop of persistent inflation concerns, as the Wall Street Journal reported that &quot;almost everything is getting more expensive&quot; weeks before the midterms, while the Federal Reserve issued its first rate hike since 2023, according to WSJ. Gold and silver posted weekly gains despite the rate increase, suggesting investor caution about the economic outlook. The S&amp;P 500 and Nasdaq advanced on the day, per Reuters, but breadth told a different story: 346 stocks fell against 156 that rose in the S&amp;P 500, with the average stock down 0.45 percent.</p><p>The Nasdaq-100 outperformed the broader market, rising 0.31 percent on average with 43 gainers against 58 losers, driven by strength in semiconductor and financial technology names. MicroStrategy led the session with a 16.39 percent gain, while Coinbase climbed 11.66 percent and SanDisk advanced 10.99 percent. Robinhood Markets gained 9.12 percent. Semiconductor equipment suppliers also rallied: Lam Research rose 6.98 percent, Applied Materials gained 6.51 percent, and Teradyne added 5.19 percent. Coherent Corp. climbed 7.22 percent and Seagate Technology gained 6.93 percent. Comfort Systems USA rounded out the gainers with a 4.92 percent advance. Tracked outlets reported no specific company catalysts for these moves.</p><p>Losses dominated the session, with the S&amp;P 500 declining 0.45 percent on average as 346 stocks fell. Nucor led declines with a 6.32 percent drop, followed by Qualcomm down 5.82 percent and Alexandria Real Estate Equities down 5.4 percent. Thomson Reuters fell 5.12 percent, General Motors declined 5.1 percent, and Rocket Lab dropped 4.79 percent. Accenture fell 4.73 percent, Netflix declined 4.67 percent, CF Industries dropped 4.57 percent, and Fiserv lost 4.28 percent. The Dow Jones, with 19 decliners against 11 gainers, fell 0.33 percent on average. Tracked outlets reported no specific company catalysts for these declines.</p>",
   "manual_highlights": [],
   "feed": [
     {
-      "title": "Unpacking the real fiscal costs of immigration",
+      "title": "Spaziani (Confedilizia),in manovra chiediamo cedolare secca sui negozi",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 19 Sep 2026 12:36:26 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/09/19/spaziani-confediliziain-manovra-chiediamo-cedolare-secca-sui-negozi_64e1d380-bc0a-4b77-a22e-1fb34671b6d8.html",
+      "summary": "Sugli incentivi dibattito viziato dal superbonus, torniamo a ragionarci",
+      "image": "https://www.ansa.it/webimages/img_1280x720/2026/5/19/50a5c73708359157d474f3644e9c6886.jpg"
+    },
+    {
+      "title": "Trump says U.S. to build a 'large Military presence' in Greenland as part of a security deal with it and Denmark",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 19 Sep 2026 10:36:18 GMT",
+      "link": "https://www.cnbc.com/2026/09/18/trump-greenland-denmark-military-deal.html",
+      "summary": "Greenland has maintained it is not for sale, and the European Union earlier this year united to rebuke Trump over his push to acquire the island.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108331863-1783490022916-gettyimages-2267671378-AFP_A4HD2T3.jpeg?v=1783490104&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Tired of Cluttered Productivity Apps? This One’s Just a Text Document",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 19 Sep 2026 10:30:00 +0000",
+      "link": "https://www.wired.com/story/productivity-app-tasks-txt-is-just-a-text-document/",
+      "summary": "The totally free macOS app Tasks.txt makes up for missing features with sheer elegance.",
+      "image": "https://media.wired.com/photos/6aacfa7099aa97f60264424c/master/pass/091826-Productivity%20Doc.jpg"
+    },
+    {
+      "title": "Samsung Galaxy Watch9 Review: I Don’t Need Another Health Score",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 19 Sep 2026 10:08:00 +0000",
+      "link": "https://www.wired.com/review/samsung-galaxy-watch9/",
+      "summary": "Samsung’s latest smartwatch offers useful health tracking alongside a growing pile of metrics you may never use.",
+      "image": "https://media.wired.com/photos/6aadfb978ffbfab4b483f09a/master/pass/Review--Samsung-Galaxy-Watch9.jpg"
+    },
+    {
+      "title": "Carney takes his investment pitch from ‘Maple Davos’ to Strasbourg",
       "source": "Financial Times",
       "category": "mercati",
-      "published": "Sat, 19 Sep 2026 04:00:34 GMT",
-      "link": "https://www.ft.com/content/124c1cf0-4885-495c-a907-a5217d589f9d?syn-25a6b1a6=1",
-      "summary": "Low taxes on low earners mean the same immigrants cost the UK more than they would elsewhere",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F27460663-1206-4645-a8ba-baeac11394b1.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      "published": "Sat, 19 Sep 2026 10:00:04 GMT",
+      "link": "https://www.ft.com/content/4e7be0a6-a1fd-4161-9656-faff899e938f?syn-25a6b1a6=1",
+      "summary": "Canada’s prime minister appeals to Wall St and the EU in his effort to diversify the economy away from the US",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F583db471-53e9-48d8-b8f4-3a83f036a198.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
     },
     {
-      "title": "The Anglo-French moment",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 19 Sep 2026 04:00:33 GMT",
-      "link": "https://www.ft.com/content/b6c4501e-76fe-4559-a3c3-6ad7aa07eaa5?syn-25a6b1a6=1",
-      "summary": "And why it must endure",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8f7e0eee-b5c5-4537-aa9c-917abcb8c593.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "Erin Andrews Talks About Lessons From Her Cervical Cancer Journey",
+      "title": "Former Blue Jays Superstar Bo Bichette Sends Message On Mets Future",
       "source": "Forbes",
       "category": "mercati",
-      "published": "Fri, 18 Sep 2026 23:15:47 -0400",
-      "link": "https://www.forbes.com/sites/brucelee/2026/09/18/erin-andrews-talks-about-lessons-from-her-cervical-cancer-journey/",
-      "summary": "Longtime ESPN and FOX Sports sidelines sportscaster Erin Andrews was diagnosed with cervical cancer in September 2016. Here's how it's changed her life since.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6aadec5db1e44e4aaee62f1f/0x0.jpg"
+      "published": "Sat, 19 Sep 2026 06:00:00 -0400",
+      "link": "https://www.forbes.com/sites/peterchawaga/2026/09/19/former-blue-jays-superstar-bo-bichette-sends-message-on-mets-future/",
+      "summary": "The Toronto Blue Jays longtime star shortstop offered a clear response about the future after a disappointing season with the New York Mets.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a904d9a17a47b9dcaa3cf92/0x0.jpg"
     },
     {
-      "title": "U.S. Army Sergeants To Receive Merit-Based Promotions Under New Policy",
+      "title": "UFC Tonight: What Time Does The UFC 331 Fight Card Start?",
       "source": "Forbes",
       "category": "mercati",
-      "published": "Fri, 18 Sep 2026 22:35:05 -0400",
-      "link": "https://www.forbes.com/sites/petersuciu/2026/09/18/us-army-sergeants-to-receive-merit-based-promotions-under-new-policy/",
-      "summary": "NCOs serving in the rank of E-5 could get a bump after completing the Drill Sergeant Course, and E-7s could receive a similar “merit-based promotions”",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6aadf3eff006bd50518429cd/0x0.jpg"
+      "published": "Sat, 19 Sep 2026 06:00:00 -0400",
+      "link": "https://www.forbes.com/sites/trentreinsmith/2026/09/19/ufc-tonight-what-time-does-the-ufc-331-fight-card-start/",
+      "summary": "Everything you need to know to watch or stream tonight's UFC 331 fight card, which is headlined by a flyweight title fight between Joshua Van and Alexandre Pantoja",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6aadb48e92ef25a1581ee26c/0x0.jpg"
     },
     {
-      "title": "Paramount Weighs Some Concessions in Bid to Finalize Warner Bros. Merger",
+      "title": "Abi: 'Ad agosto accelerano prestiti a famiglie e imprese, tassi al 4,19%'",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 19 Sep 2026 11:59:13 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/09/19/abiad-agosto-accelerano-prestiti-a-famiglie-e-imprese-tassi-al-419_d25625fe-d033-4045-9935-c56be86c0a5e.html",
+      "summary": "In rialzo per le abitazioni, scendono per le imprese",
+      "image": "https://www.ansa.it/webimages/img_1280x720/2017/10/31/d16f30cbe4deefa24cb28694621f72c7.jpg"
+    },
+    {
+      "title": "Dtcpay welcomes SBI Group as strategic investor extending Series A to $25M",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Sat, 19 Sep 2026 09:56:47 +0000",
+      "link": "https://cointelegraph.com/news/dtcpay-welcomes-sbi-group-as-strategic-investor-extending-series-a-to-25m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Singapore-based payments company completes Series A funding round with Japanese investor SBI Group.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2WGWT0GG84MYZDZNJC1KDJN/hi-a5a7-sitting-on-coins1.png"
+    },
+    {
+      "title": "Don’t Count Out Corporate Bonds Just Because the Fed Is Raising Rates",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Sat, 19 Sep 2026 09:30:00 GMT",
+      "link": "https://www.wsj.com/finance/investing/dont-count-out-corporate-bonds-just-because-the-fed-is-raising-rates-de2e787a?mod=rss_markets_main",
+      "summary": "A healthy economy and reduced issuance by tech companies could support corporate debt.",
+      "image": "https://images.wsj.net/im-29929670"
+    },
+    {
+      "title": "A Borrower’s Timeline of the Public Service Loan Forgiveness Quagmire",
       "source": "The New York Times",
       "category": "mercati",
-      "published": "Sat, 19 Sep 2026 02:33:53 +0000",
-      "link": "https://www.nytimes.com/2026/09/18/business/paramount-warner-bros-settlement.html",
-      "summary": "Seeking to settle a lawsuit with 12 states, Paramount has discussed measures to protect the editorial independence of CNN and the divestiture of Comedy Central.",
-      "image": "https://static01.nyt.com/images/2026/09/18/multimedia/PARAMOUNT-warner-gclw/PARAMOUNT-warner-gclw-mediumSquareAt3X.jpg"
+      "published": "Sat, 19 Sep 2026 09:02:13 +0000",
+      "link": "https://www.nytimes.com/2026/09/19/business/public-service-loan-forgiveness-buybacks.html",
+      "summary": "One county lawyer’s repayment saga stretches nearly 20 years, though she’s tried 22 times over the past 20 months to erase her debt.",
+      "image": "https://static01.nyt.com/images/2026/09/19/multimedia/19Biz-PSLF-01-blfp/19Biz-PSLF-01-blfp-mediumSquareAt3X.jpg"
     },
     {
-      "title": "South Korea’s Justice Minister Nominee Withdraws After Reshuffle",
+      "title": "At DraftKings, AI Targets the Gamblers Likeliest to Lose",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 19 Sep 2026 09:00:18 +0000",
+      "link": "https://www.nytimes.com/2026/09/19/business/draftkings-ai.html",
+      "summary": "Data science helps determine who receives betting incentives, but the company has resisted using similar technology to protect gamblers at risk of addiction.",
+      "image": "https://static01.nyt.com/images/2026/07/17/business/00draftkings/00draftkings-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Europe’s Winter Power Surge Is Biggest Since Energy Crisis",
       "source": "Bloomberg",
       "category": "mercati",
-      "published": "Sat, 19 Sep 2026 02:31:18 GMT",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-19/south-korea-s-justice-minister-nominee-withdraws-after-reshuffle",
-      "summary": "South Korea’s nominee for justice minister has withdrawn from consideration for the role before being confirmed, the second ministerial nominee to pull out in a week after the president reshuffled his cabinet.",
+      "published": "Sat, 19 Sep 2026 09:00:00 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-19/europe-s-winter-power-surge-is-biggest-since-energy-crisis",
+      "summary": "As Europe heads into winter, electricity markets are flashing their strongest warning since the energy crisis.",
       "image": null
     },
     {
-      "title": "Flock Offers Employees Buyouts as Customers Flee",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Sat, 19 Sep 2026 02:22:54 +0000",
-      "link": "https://www.wired.com/story/flock-is-offering-voluntary-buyouts-to-employees/",
-      "summary": "As dozens of cities end contracts for its controversial license plate readers, Flock is rolling out a voluntary severance program, WIRED has learned.",
-      "image": "https://media.wired.com/photos/6aade6510dbdc43ec89970ee/master/pass/2265184841"
+      "title": "A Goldman M&A Banker Helped Bring the Olympics to Los Angeles",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 19 Sep 2026 08:00:22 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-19/a-goldman-m-a-banker-helped-bring-the-olympics-to-los-angeles",
+      "summary": "Gene Sykes on the TMT bubble and more.",
+      "image": null
     },
     {
-      "title": "Google's Gemini becomes latest AI model to break out and hack computer systems",
+      "title": "On takes aim at ailing Nike with Mbappé transfer coup",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 19 Sep 2026 08:00:04 GMT",
+      "link": "https://www.ft.com/content/40222e79-3ee7-4388-8362-7d06c7f71f69?syn-25a6b1a6=1",
+      "summary": "Also in today’s newsletter: Clearlake wins the Chelsea civil war",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fca4a81e3-a223-4cc1-9e11-d9ad4dcbd91d.jpg?source=next-barrier-page&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1"
+    },
+    {
+      "title": "Hong Kong jails former banker over $1.6B false credit, cryptocurrency bribes: Report",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Sat, 19 Sep 2026 07:50:58 +0000",
+      "link": "https://cointelegraph.com/news/hong-kong-jails-former-banker-over-16b-false-credit-cryptocurrency-bribes-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Former banking official gets four years in prison over false letters of credit and accepting $470,000 in cryptocurrency bribes.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2WA562VCY2PY1P3DW1N862B/hi-time-to-switch-license-hong-kong.png"
+    },
+    {
+      "title": "Miglior exchange crypto in Italia nel 2026: cosa scegliere per il trading sistematico",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Sat, 19 Sep 2026 07:00:00 +0000",
+      "link": "https://cryptonomist.ch/2026/09/19/miglior-exchange-crypto-in-italia-nel-2026-cosa-scegliere-per-il-trading-sistematico/",
+      "summary": "Scegliere un exchange crypto nel 2026 è diventato più complesso rispetto a qualche anno fa. Per un investitore occasionale possono essere sufficienti un&#8217;interfaccia semplice, costi contenuti e la possibilità di acquistare Bitcoin o Ethereum con un bonifico in euro. Per un t",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/05/mexc-exchange.jpeg"
+    },
+    {
+      "title": "A new arms race is unfolding on the ocean floor",
       "source": "CNBC",
       "category": "mercati",
-      "published": "Sat, 19 Sep 2026 01:41:49 GMT",
-      "link": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
-      "summary": "The disclosure comes as scrutiny over misbehaving artificial intelligence intensifies in Washington and Silicon Valley.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108338205-1784672318255-gettyimages-2286486173-ALPHABET_EARNS.jpeg?v=1784672362&amp;w=1920&amp;h=1080"
+      "published": "Sat, 19 Sep 2026 05:00:01 GMT",
+      "link": "https://www.cnbc.com/2026/09/19/underwater-war-sea-drones-defense-tech.html",
+      "summary": "Countries and companies are investing in technologies for underwater use amid concerns about the vulnerability of critical infrastructure on the ocean floor.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108364780-1789725919735-gettyimages-2291095776-terrain_wire_01_00000.jpeg?v=1789725936&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Defence firm Anduril says US delay on Taiwan arms sales affecting its business",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sat, 19 Sep 2026 04:26:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUS1zbnlmMUNZQU8teS1FUnNoOE1EMVNycDNJUVcyQ25QRGpyQk9WaVZPRG8zbzJCWlJSS3RDNHlqWmgzZkJibklPaVpGanBMQWc4LUFrN2s3NC1ieGpFVEMwY0w0eHhZckJ5NGNSZzQ3QnJPel9LeGdWclh0allIZDFHVTVta3k5Z1pwVlEzRlZSQzduNF9zNXhVaVlDQnFFX2VlTExZNnVrODVJUE9RbkJGZ0hzaV9MN1hkU3FxU0I?oc=5",
+      "summary": "Defence firm Anduril says US delay on Taiwan arms sales affecting its business &nbsp;&nbsp; Reuters",
+      "image": null
     },
     {
       "title": "India forces caller-ID apps to feed spam reports to telcos",
@@ -2031,7 +2130,7 @@
       "published": "Sat, 19 Sep 2026 01:00:00 +0000",
       "link": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
       "summary": "Truecaller says the one-way sharing requirement would hand a commercially valuable proprietary asset to telecom operators.",
-      "image": "https://techcrunch.com/wp-content/uploads/2023/10/india-internet-users-getty.jpg?w=1200"
+      "image": null
     },
     {
       "title": "A New Buffett Takes On the Task of Preserving Berkshire Hathaway’s Culture",
@@ -2043,40 +2142,13 @@
       "image": "https://images.wsj.net/im-94051181"
     },
     {
-      "title": "Trump Says He Has Banned CNN, MS NOW and Politico From White House",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Sat, 19 Sep 2026 00:31:59 +0000",
-      "link": "https://www.nytimes.com/2026/09/18/business/media/trump-cnn-ms-now-politico-white-house-ban.html",
-      "summary": "The president cited reporting from the outlets that he deemed “fake news.” It was unclear how such a ban would be enforced or defended in court.",
-      "image": "https://static01.nyt.com/images/2026/09/18/multimedia/18biz-trump-ban-mwtl/18biz-trump-ban-mwtl-mediumSquareAt3X.jpg"
-    },
-    {
-      "title": "Mark Walter’s Lieutenants Give Prosecutors Firsthand Accounts",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Sat, 19 Sep 2026 00:16:34 GMT",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-19/mark-walter-s-lieutenants-give-prosecutors-firsthand-accounts",
-      "summary": "Federal prosecutors have collected statements from some of billionaire Mark Walter’s most senior executives as authorities probe dealings at his insurance companies and the investment firm he runs, Guggenheim Partners LLC, according to people with knowledge of the matter.",
-      "image": null
-    },
-    {
       "title": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
       "source": "TechCrunch",
       "category": "tech",
       "published": "Sat, 19 Sep 2026 00:12:07 +0000",
       "link": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
       "summary": "In one particularly odd interview, Norwood seems to malfunction and begin speaking Chinese.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/03/Screenshot-2026-03-11-at-3.22.19-PM.png?resize=1200,672"
-    },
-    {
-      "title": "Trump says he's banning MS NOW, CNN and Politico from White House",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Fri, 18 Sep 2026 23:43:21 GMT",
-      "link": "https://www.cnbc.com/2026/09/18/trump-white-house-ban-msnow-cnn-politico.html",
-      "summary": "Trump, who often accuses mainstream media outlets of writing \"fake news,\" said on Truth Social that those outlets shouldn't be allowed to \"FICTION and LIES.\"",
-      "image": "https://image.cnbcfm.com/api/v1/image/108268043-1771613065227-gettyimages-2262139690-AFP_98EB9D2.jpeg?v=1771613089&amp;w=1920&amp;h=1080"
+      "image": null
     },
     {
       "title": "I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?",
@@ -2088,24 +2160,6 @@
       "image": "https://images.mktw.net/im-68469739"
     },
     {
-      "title": "Lakers Buyers Lay Out Plans to Reach $30 Billion Valuation in Pitch to Investors",
-      "source": "The Wall Street Journal",
-      "category": "mercati",
-      "published": "Fri, 18 Sep 2026 23:30:00 GMT",
-      "link": "https://www.wsj.com/finance/lakers-buyers-lay-out-plans-to-reach-30-billion-valuation-in-pitch-to-investors-66945709?mod=rss_markets_main",
-      "summary": "A group led by Bob Iger and Joshua Kushner estimate team revenue will more than double to at least $1.6 billion in a decade.",
-      "image": "https://images.wsj.net/im-03008531"
-    },
-    {
-      "title": "S&P 500, Nasdaq advance, turning the page on a tumultuous week",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Fri, 18 Sep 2026 23:10:24 GMT",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2p6dkpCd0xfbVRBMnhySFRVbm5OSElMZXRXc0NpaGhoRmw2MzNfSUstaC1RVFFnUU1DNUM0MEpHTmxhbHJxOC1Ec2lMWU0xMFVaSVdsZGdVSi1JaWpDX093SHhBdlBkdFdGZnFpd05yYW9LRXk2NkdOMnRWSzJ2dkhuTFpDN01LM1JvNjhyamFZM2dLRFRzM24xSUZwRGVBakhwM3N3em1ycFBuWVg2UVB2OTQ?oc=5",
-      "summary": "S&amp;P 500, Nasdaq advance, turning the page on a tumultuous week &nbsp;&nbsp; Reuters",
-      "image": null
-    },
-    {
       "title": "‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?",
       "source": "MarketWatch",
       "category": "mercati",
@@ -2115,12 +2169,12 @@
       "image": "https://images.mktw.net/im-59442466"
     },
     {
-      "title": "US, China discuss cutting tariffs on US LNG ahead of Xi visit",
+      "title": "Anthropic, Accenture to invest $2 billion in AI model evaluation as safety concerns rise",
       "source": "Reuters",
       "category": "mercati",
-      "published": "Fri, 18 Sep 2026 22:51:03 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeHd3M3c3TzBSSEFYVUtqd1dwYVE2MHNkYzh2NlBzZkZCTzkyM0FaMTFobVo4Q19HSldIeGREU3BWSmNlTFJfLVNObVdYbFN3bFZrd2o0cl95WkZFM25lY1otSVB5Zl9YcVRCMDdaeE8zbUoxTWVrTU9pVnlZTWR3b1czakd1ZUFqM0RscUxta1ZrbkwwY0FUYUg4NFluNEtzclRBbzdITE15dw?oc=5",
-      "summary": "US, China discuss cutting tariffs on US LNG ahead of Xi visit &nbsp;&nbsp; Reuters",
+      "published": "Fri, 18 Sep 2026 22:38:11 GMT",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX1ltbFppd1NjUUhaSTZ4TUs2bzFNY0lfaTd5bG5mVmw1X3NiV2lsWTNJQ0pyUWJ0SHhOZjBmd0x4b0pMOWlpSDd2VGEweDFTTnU4YW1QTFJhNG00ZXFUSHN1OENaeVFaWXZwbTlsTEI4RGphekZtRTIzclZ1ak5wcXhDU05TX1VHVFBJUnBUQVZmZjhjTHFqNXNqREhGajRFZ3lsaW5tWmxrSWNzNWNhR1ZVbkZ2S2ppRkFlWXlKOA?oc=5",
+      "summary": "Anthropic, Accenture to invest $2 billion in AI model evaluation as safety concerns rise &nbsp;&nbsp; Reuters",
       "image": null
     },
     {
@@ -2133,33 +2187,6 @@
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Coinbase_flag-gID_7.png"
     },
     {
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "published": "Fri, 18 Sep 2026 21:00:00 +0000",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-    },
-    {
-      "title": "Coinbase files to bring single-stock perpetual futures to US market",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "published": "Fri, 18 Sep 2026 19:53:54 +0000",
-      "link": "https://cointelegraph.com/news/coinbase-files-to-bring-single-stock-perpetual-futures-to-us-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Coinbase wants to bring 24/5 perpetual futures trading to individual US stocks, with its proposed contracts now awaiting regulatory approval.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2V02EPZ2W43H6167S8HZBPZ/hi-uk-compliance-deadline-is-upcoming-coinbase.png"
-    },
-    {
-      "title": "Apple Watch Ultra 4 Review: The Series 12 Is Closing the Gap",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 18 Sep 2026 19:36:48 +0000",
-      "link": "https://www.wired.com/review/apple-watch-ultra-4/",
-      "summary": "The Ultra 4 gets smarter about health tracking and lasts longer between charges. But for most people, the Series 12 gets close enough.",
-      "image": "https://media.wired.com/photos/6aad91660b25c8351b67323b/master/pass/2293832250"
-    },
-    {
       "title": "Zcash Is Running—Devs Want to Make It Faster",
       "source": "Decrypt",
       "category": "crypto",
@@ -2167,15 +2194,6 @@
       "link": "https://decrypt.co/378667/zcash-upgrade-make-private-payments-3x-faster",
       "summary": "A new upgrade would cut Zcash block time from 75 seconds to 25, while quietly rewriting how the network pays for its own security after 2031.",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/zcash-decrypt-style-03-gID_7.jpg"
-    },
-    {
-      "title": "Il petrolio chiude in calo a New York a 100,30 dollari",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Fri, 18 Sep 2026 20:46:20 +0200",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/09/18/il-petrolio-chiude-in-calo-a-new-york-a-10030-dollari_0d9192ca-6fa1-4f01-9221-d378691ad062.html",
-      "summary": "Quotazioni perdono l'1,58%",
-      "image": null
     },
     {
       "title": "Xenon Stock Craters 30% on Drug Trial Setback. Its Failure Could Be This Biotech’s Gain.",
@@ -2196,15 +2214,6 @@
       "image": null
     },
     {
-      "title": "Cva, attribuite deleghe ad amministratore delegato Gianfilippo Mancini",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Fri, 18 Sep 2026 19:21:00 +0200",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/09/18/cva-attribuite-deleghe-ad-amministratore-delegato-gianfilippo-mancini_2aa8aaca-d3ac-4b25-99b1-2445aae965a2.html",
-      "summary": "Costituiti tre comitati consultivi",
-      "image": null
-    },
-    {
       "title": "S&P 500, è una bolla degli utili? Goldman Sachs spiega cosa può succedere",
       "source": "Wall Street Italia",
       "category": "italia",
@@ -2221,15 +2230,6 @@
       "link": "https://www.theblock.co/news/markets/2026-09-18-bitcoin-reclaims-80000-solana-hyperliquid-rally-crypto-markets-shrug-off-clarity-setback-415523",
       "summary": "The moves comes as the SEC and CFTC advance crypto-related rulemaking despite the Clarity Act stalling in the Senate.",
       "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2022/03/20220329_Crypto_Liquidity_And_Sanctions.jpg"
-    },
-    {
-      "title": "Grayscale’s Zcash ETF plans 3-for-1 split after $233 million inflow surge",
-      "source": "The Block",
-      "category": "crypto",
-      "published": "Fri, 18 Sep 2026 15:09:09 +0000",
-      "link": "https://www.theblock.co/news/markets/2026-09-18-grayscales-zcash-etf-plans-3-for-1-split-233-million-inflow-surge-415520",
-      "summary": "The Grayscale Zcash ETF (ZCSH) nears $890 million in assets as ZEC’s rally pushes mining competition to record highs.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2025/12/20251202_ZCash_News.jpg"
     },
     {
       "title": "Controversia dati training AI: emergono documenti interni sul crollo del 93% dei click al NYT",
@@ -2295,13 +2295,13 @@
       "image": "http://i2.cdn.turner.com/money/dam/assets/170203124414-apple-iphone-120x90.jpg"
     },
     {
-      "title": "Hilton Director Chris Carr Sells 439 Shares",
+      "title": "ExxonMobil Is Reportedly Nearing a Deal to Invest in Venezuela's Oil Fields. Is XOM Stock a Buy?",
       "source": "Yahoo Finance",
       "category": "mercati",
-      "published": "2026-09-17T21:20:01Z",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/hilton-director-chris-carr-sells-212001856.html",
+      "published": "2026-09-18T09:19:23Z",
+      "link": "https://finance.yahoo.com/energy/articles/exxonmobil-reportedly-nearing-deal-invest-091923841.html",
       "summary": "",
-      "image": "https://media.zenfs.com/en/motleyfool.com/6df4b60a8ec56b07e8006b55fcfdc96a.png"
+      "image": "https://media.zenfs.com/en/motleyfool.com/a82dbeef94b6b94bc2141692b620d154.jpg"
     },
     {
       "title": "Cognitive resilience helps to predict Alzheimer’s dementia",
@@ -2313,37 +2313,37 @@
       "image": null
     }
   ],
-  "generated_at": "2026-09-19 06:20:07",
+  "generated_at": "2026-09-19 12:45:24",
   "markets_brief": {
     "items": [
       {
-        "title": "Unpacking the real fiscal costs of immigration",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/124c1cf0-4885-495c-a907-a5217d589f9d?syn-25a6b1a6=1"
+        "title": "Trump says U.S. to build a 'large Military presence' in Greenland as part of a security deal with it and Denmark",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/09/18/trump-greenland-denmark-military-deal.html"
       },
       {
-        "title": "The Anglo-French moment",
+        "title": "Carney takes his investment pitch from ‘Maple Davos’ to Strasbourg",
         "source": "Financial Times",
-        "link": "https://www.ft.com/content/b6c4501e-76fe-4559-a3c3-6ad7aa07eaa5?syn-25a6b1a6=1"
+        "link": "https://www.ft.com/content/4e7be0a6-a1fd-4161-9656-faff899e938f?syn-25a6b1a6=1"
       },
       {
-        "title": "I’ve covered wine for 50 years. Here are 50 ways it changed",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/b4317f3f-ba01-4547-bf69-98628d7ebe7b"
-      },
-      {
-        "title": "Erin Andrews Talks About Lessons From Her Cervical Cancer Journey",
+        "title": "Former Blue Jays Superstar Bo Bichette Sends Message On Mets Future",
         "source": "Forbes",
-        "link": "https://www.forbes.com/sites/brucelee/2026/09/18/erin-andrews-talks-about-lessons-from-her-cervical-cancer-journey/"
+        "link": "https://www.forbes.com/sites/peterchawaga/2026/09/19/former-blue-jays-superstar-bo-bichette-sends-message-on-mets-future/"
       },
       {
-        "title": "U.S. Army Sergeants To Receive Merit-Based Promotions Under New Policy",
+        "title": "UFC Tonight: What Time Does The UFC 331 Fight Card Start?",
         "source": "Forbes",
-        "link": "https://www.forbes.com/sites/petersuciu/2026/09/18/us-army-sergeants-to-receive-merit-based-promotions-under-new-policy/"
+        "link": "https://www.forbes.com/sites/trentreinsmith/2026/09/19/ufc-tonight-what-time-does-the-ufc-331-fight-card-start/"
+      },
+      {
+        "title": "Don’t Count Out Corporate Bonds Just Because the Fed Is Raising Rates",
+        "source": "The Wall Street Journal",
+        "link": "https://www.wsj.com/finance/investing/dont-count-out-corporate-bonds-just-because-the-fed-is-raising-rates-de2e787a?mod=rss_markets_main"
       }
     ],
-    "prose_html": "<p>Financial Times analizza le implicazioni fiscali della politica migratoria, un tema di crescente rilevanza economica mentre i governi valutano la dinamica del mercato del lavoro rispetto alla spesa pubblica. Separatamente, la testata esamina le relazioni anglo-francesi, segnalando una rinnovata attenzione all&#x27;allineamento politico ed economico europeo.</p>",
-    "prose_html_en": "<p>Financial Times examines the fiscal implications of immigration policy, a topic of growing economic relevance as governments weigh labor market dynamics against public spending. Separately, the outlet explores Anglo-French relations, signaling renewed attention to European political and economic alignment.</p>"
+    "prose_html": "<p>Trump ha annunciato piani per stabilire una significativa presenza militare americana in Groenlandia come parte di un accordo di sicurezza con la Groenlandia e la Danimarca, segnalando un cambiamento nella strategia geopolitica. Nel frattempo, i mercati obbligazionari aziendali mostrano resilienza nonostante il ciclo di rialzi dei tassi della Fed, suggerendo che gli investitori non dovrebbero scartare le opportunità a reddito fisso nell&#x27;ambiente attuale.</p>",
+    "prose_html_en": "<p>Trump announced plans for the U.S. to establish a large military presence in Greenland as part of a security arrangement with Greenland and Denmark, signaling a shift in geopolitical strategy. Meanwhile, corporate bond markets are showing resilience despite the Fed&#x27;s rate-hiking cycle, suggesting investors should not dismiss fixed-income opportunities in the current environment.</p>"
   },
   "live_close_movers": {
     "captured_at": "2026-09-17T20:15:25Z",
