@@ -1,0 +1,2457 @@
+{
+  "edition_date": "2026-09-21",
+  "edition_date_it": "21 settembre 2026",
+  "edition_date_en": "September 21, 2026",
+  "session_date": "2026-09-18",
+  "session_date_it": "18 settembre 2026",
+  "session_date_en": "September 18, 2026",
+  "edition_kind": "session",
+  "headline": "Seduta in prevalenza negativa a Wall Street: Coinbase +11,66% guida i rialzi",
+  "headline_en": "Broadly negative session on Wall Street: Coinbase +11.66% leads gainers",
+  "auto_report": {
+    "stats": {
+      "n_up": 156,
+      "n_down": 346,
+      "n_flat": 1,
+      "n_total": 503,
+      "avg_pct": -0.45,
+      "best_sectors": [
+        {
+          "sector": "Information Technology",
+          "avg_pct": 0.34
+        },
+        {
+          "sector": "Financials",
+          "avg_pct": 0.21
+        },
+        {
+          "sector": "Industrials",
+          "avg_pct": 0.03
+        }
+      ],
+      "worst_sectors": [
+        {
+          "sector": "Materials",
+          "avg_pct": -1.89
+        },
+        {
+          "sector": "Communication Services",
+          "avg_pct": -1.55
+        },
+        {
+          "sector": "Utilities",
+          "avg_pct": -1.36
+        }
+      ]
+    },
+    "paragraphs": [
+      "Nella seduta del 18 settembre 2026 l'S&P 500 ha chiuso con 156 societa' in rialzo, 346 in ribasso e 1 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di -0,45%.",
+      "Settori con la variazione media migliore: Information Technology (+0,34%); Financials (+0,21%); Industrials (+0,03%). Settori piu' debolli: Materials (-1,89%); Communication Services (-1,55%); Utilities (-1,36%).",
+      "In cima alla seduta: Coinbase (COIN, +11,66%); Sandisk (SNDK, +10,99%); Robinhood Markets (HOOD, +9,12%). In fondo: Nucor (NUE, -6,32%); Qualcomm (QCOM, -5,82%); Alexandria Real Estate Equities (ARE, -5,40%)."
+    ],
+    "gainers": [
+      {
+        "symbol": "COIN",
+        "name": "Coinbase",
+        "sector": "Financials",
+        "pct_change": 11.66,
+        "last_close": 194.25,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "SNDK",
+        "name": "Sandisk",
+        "sector": "Information Technology",
+        "pct_change": 10.99,
+        "last_close": 1791.82,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "HOOD",
+        "name": "Robinhood Markets",
+        "sector": "Financials",
+        "pct_change": 9.12,
+        "last_close": 119.82,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "sector": "Information Technology",
+        "pct_change": 7.22,
+        "last_close": 317.36,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "LRCX",
+        "name": "Lam Research",
+        "sector": "Information Technology",
+        "pct_change": 6.98,
+        "last_close": 288.11,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "STX",
+        "name": "Seagate Technology",
+        "sector": "Information Technology",
+        "pct_change": 6.93,
+        "last_close": 858.79,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "AMAT",
+        "name": "Applied Materials",
+        "sector": "Information Technology",
+        "pct_change": 6.51,
+        "last_close": 444.57,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "TER",
+        "name": "Teradyne",
+        "sector": "Information Technology",
+        "pct_change": 5.19,
+        "last_close": 371.47,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "FIX",
+        "name": "Comfort Systems USA",
+        "sector": "Industrials",
+        "pct_change": 4.92,
+        "last_close": 1651.37,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "KLAC",
+        "name": "KLA Corporation",
+        "sector": "Information Technology",
+        "pct_change": 4.74,
+        "last_close": 176.99,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "NUE",
+        "name": "Nucor",
+        "sector": "Materials",
+        "pct_change": -6.32,
+        "last_close": 248.38,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "QCOM",
+        "name": "Qualcomm",
+        "sector": "Information Technology",
+        "pct_change": -5.82,
+        "last_close": 177.72,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "ARE",
+        "name": "Alexandria Real Estate Equities",
+        "sector": "Real Estate",
+        "pct_change": -5.4,
+        "last_close": 53.3,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy",
+        "sector": "Industrials",
+        "pct_change": -5.39,
+        "last_close": 265.63,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "GM",
+        "name": "General Motors",
+        "sector": "Consumer Discretionary",
+        "pct_change": -5.1,
+        "last_close": 82.2,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "ACN",
+        "name": "Accenture",
+        "sector": "Information Technology",
+        "pct_change": -4.73,
+        "last_close": 181.29,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "NFLX",
+        "name": "Netflix",
+        "sector": "Communication Services",
+        "pct_change": -4.67,
+        "last_close": 71.79,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CF",
+        "name": "CF Industries",
+        "sector": "Materials",
+        "pct_change": -4.57,
+        "last_close": 127.7,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "FISV",
+        "name": "Fiserv",
+        "sector": "Financials",
+        "pct_change": -4.28,
+        "last_close": 47.19,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "APP",
+        "name": "AppLovin",
+        "sector": "Communication Services",
+        "pct_change": -4.21,
+        "last_close": 308.06,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      }
+    ]
+  },
+  "auto_report_by_index": {
+    "sp500": {
+      "stats": {
+        "n_up": 156,
+        "n_down": 346,
+        "n_flat": 1,
+        "n_total": 503,
+        "avg_pct": -0.45,
+        "best_sectors": [
+          {
+            "sector": "Information Technology",
+            "avg_pct": 0.34
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": 0.21
+          },
+          {
+            "sector": "Industrials",
+            "avg_pct": 0.03
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Materials",
+            "avg_pct": -1.89
+          },
+          {
+            "sector": "Communication Services",
+            "avg_pct": -1.55
+          },
+          {
+            "sector": "Utilities",
+            "avg_pct": -1.36
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "COIN",
+          "name": "Coinbase",
+          "sector": "Financials",
+          "pct_change": 11.66,
+          "last_close": 194.25,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SNDK",
+          "name": "Sandisk",
+          "sector": "Information Technology",
+          "pct_change": 10.99,
+          "last_close": 1791.82,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HOOD",
+          "name": "Robinhood Markets",
+          "sector": "Financials",
+          "pct_change": 9.12,
+          "last_close": 119.82,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "COHR",
+          "name": "Coherent Corp.",
+          "sector": "Information Technology",
+          "pct_change": 7.22,
+          "last_close": 317.36,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research",
+          "sector": "Information Technology",
+          "pct_change": 6.98,
+          "last_close": 288.11,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STX",
+          "name": "Seagate Technology",
+          "sector": "Information Technology",
+          "pct_change": 6.93,
+          "last_close": 858.79,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMAT",
+          "name": "Applied Materials",
+          "sector": "Information Technology",
+          "pct_change": 6.51,
+          "last_close": 444.57,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TER",
+          "name": "Teradyne",
+          "sector": "Information Technology",
+          "pct_change": 5.19,
+          "last_close": 371.47,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FIX",
+          "name": "Comfort Systems USA",
+          "sector": "Industrials",
+          "pct_change": 4.92,
+          "last_close": 1651.37,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "KLAC",
+          "name": "KLA Corporation",
+          "sector": "Information Technology",
+          "pct_change": 4.74,
+          "last_close": 176.99,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "NUE",
+          "name": "Nucor",
+          "sector": "Materials",
+          "pct_change": -6.32,
+          "last_close": 248.38,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "QCOM",
+          "name": "Qualcomm",
+          "sector": "Information Technology",
+          "pct_change": -5.82,
+          "last_close": 177.72,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ARE",
+          "name": "Alexandria Real Estate Equities",
+          "sector": "Real Estate",
+          "pct_change": -5.4,
+          "last_close": 53.3,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BE",
+          "name": "Bloom Energy",
+          "sector": "Industrials",
+          "pct_change": -5.39,
+          "last_close": 265.63,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GM",
+          "name": "General Motors",
+          "sector": "Consumer Discretionary",
+          "pct_change": -5.1,
+          "last_close": 82.2,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ACN",
+          "name": "Accenture",
+          "sector": "Information Technology",
+          "pct_change": -4.73,
+          "last_close": 181.29,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NFLX",
+          "name": "Netflix",
+          "sector": "Communication Services",
+          "pct_change": -4.67,
+          "last_close": 71.79,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CF",
+          "name": "CF Industries",
+          "sector": "Materials",
+          "pct_change": -4.57,
+          "last_close": 127.7,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FISV",
+          "name": "Fiserv",
+          "sector": "Financials",
+          "pct_change": -4.28,
+          "last_close": 47.19,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "APP",
+          "name": "AppLovin",
+          "sector": "Communication Services",
+          "pct_change": -4.21,
+          "last_close": 308.06,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the September 18, 2026 session the S&P 500 closed with 156 stocks higher, 346 lower and 1 unchanged, out of 503 tracked. The average move was -0.45%.",
+          "Best-performing sectors by average move: Information Technology (+0.34%); Financials (+0.21%); Industrials (+0.03%). Weakest: Materials (-1.89%); Communication Services (-1.55%); Utilities (-1.36%).",
+          "Leading the session: Coinbase (COIN, +11.66%); Sandisk (SNDK, +10.99%); Robinhood Markets (HOOD, +9.12%). At the bottom: Nucor (NUE, -6.32%); Qualcomm (QCOM, -5.82%); Alexandria Real Estate Equities (ARE, -5.40%)."
+        ],
+        "it": [
+          "Nella seduta del 18 settembre 2026 l'S&P 500 ha chiuso con 156 societa' in rialzo, 346 in ribasso e 1 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di -0,45%.",
+          "Settori con la variazione media migliore: Information Technology (+0,34%); Financials (+0,21%); Industrials (+0,03%). Settori piu' debolli: Materials (-1,89%); Communication Services (-1,55%); Utilities (-1,36%).",
+          "In cima alla seduta: Coinbase (COIN, +11,66%); Sandisk (SNDK, +10,99%); Robinhood Markets (HOOD, +9,12%). In fondo: Nucor (NUE, -6,32%); Qualcomm (QCOM, -5,82%); Alexandria Real Estate Equities (ARE, -5,40%)."
+        ]
+      }
+    },
+    "dow": {
+      "stats": {
+        "n_up": 11,
+        "n_down": 19,
+        "n_flat": 0,
+        "n_total": 30,
+        "avg_pct": -0.33,
+        "best_sectors": [
+          {
+            "sector": "Industrials",
+            "avg_pct": 0.66
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": 0.43
+          },
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": -0.21
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Information Technology",
+            "avg_pct": -0.98
+          },
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": -0.57
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": -0.5
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "AMGN",
+          "name": "Amgen",
+          "sector": "Health Care",
+          "pct_change": 1.55,
+          "last_close": 385.65,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NVDA",
+          "name": "Nvidia",
+          "sector": "Information Technology",
+          "pct_change": 1.34,
+          "last_close": 222.27,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CAT",
+          "name": "Caterpillar Inc.",
+          "sector": "Industrials",
+          "pct_change": 1.3,
+          "last_close": 808.99,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon",
+          "sector": "Consumer Discretionary",
+          "pct_change": 1.0,
+          "last_close": 253.71,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MMM",
+          "name": "3M",
+          "sector": "Industrials",
+          "pct_change": 0.72,
+          "last_close": 165.89,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc. (Class A)",
+          "sector": "Communication Services",
+          "pct_change": 0.64,
+          "last_close": 349.54,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BA",
+          "name": "Boeing",
+          "sector": "Industrials",
+          "pct_change": 0.61,
+          "last_close": 198.2,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group",
+          "sector": "Health Care",
+          "pct_change": 0.45,
+          "last_close": 376.9,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "KO",
+          "name": "Coca-Cola Company (The)",
+          "sector": "Consumer Staples",
+          "pct_change": 0.22,
+          "last_close": 88.25,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AXP",
+          "name": "American Express",
+          "sector": "Financials",
+          "pct_change": 0.13,
+          "last_close": 311.56,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "IBM",
+          "name": "IBM",
+          "sector": "Information Technology",
+          "pct_change": -3.45,
+          "last_close": 229.55,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DIS",
+          "name": "Walt Disney Company (The)",
+          "sector": "Communication Services",
+          "pct_change": -2.54,
+          "last_close": 102.67,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NKE",
+          "name": "Nike, Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": -2.34,
+          "last_close": 35.51,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CRM",
+          "name": "Salesforce",
+          "sector": "Information Technology",
+          "pct_change": -2.03,
+          "last_close": 237.92,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRV",
+          "name": "Travelers Companies (The)",
+          "sector": "Financials",
+          "pct_change": -1.28,
+          "last_close": 374.62,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GS",
+          "name": "Goldman Sachs",
+          "sector": "Financials",
+          "pct_change": -1.0,
+          "last_close": 942.0,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CVX",
+          "name": "Chevron Corporation",
+          "sector": "Energy",
+          "pct_change": -0.97,
+          "last_close": 209.51,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HD",
+          "name": "Home Depot (The)",
+          "sector": "Consumer Discretionary",
+          "pct_change": -0.84,
+          "last_close": 299.98,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft",
+          "sector": "Information Technology",
+          "pct_change": -0.8,
+          "last_close": 493.78,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PG",
+          "name": "Procter & Gamble",
+          "sector": "Consumer Staples",
+          "pct_change": -0.79,
+          "last_close": 146.39,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the September 18, 2026 session the Dow Jones closed with 11 stocks higher, 19 lower, out of 30 tracked. The average move was -0.33%.",
+          "Best-performing sectors by average move: Industrials (+0.66%); Health Care (+0.43%); Consumer Staples (-0.21%). Weakest: Information Technology (-0.98%); Consumer Discretionary (-0.57%); Financials (-0.50%).",
+          "Leading the session: Amgen (AMGN, +1.55%); Nvidia (NVDA, +1.34%); Caterpillar Inc. (CAT, +1.30%). At the bottom: IBM (IBM, -3.45%); Walt Disney Company (The) (DIS, -2.54%); Nike, Inc. (NKE, -2.34%)."
+        ],
+        "it": [
+          "Nella seduta del 18 settembre 2026 il Dow Jones ha chiuso con 11 societa' in rialzo, 19 in ribasso, su 30 titoli monitorati. La variazione media dell'indice e' stata di -0,33%.",
+          "Settori con la variazione media migliore: Industrials (+0,66%); Health Care (+0,43%); Consumer Staples (-0,21%). Settori piu' debolli: Information Technology (-0,98%); Consumer Discretionary (-0,57%); Financials (-0,50%).",
+          "In cima alla seduta: Amgen (AMGN, +1,55%); Nvidia (NVDA, +1,34%); Caterpillar Inc. (CAT, +1,30%). In fondo: IBM (IBM, -3,45%); Walt Disney Company (The) (DIS, -2,54%); Nike, Inc. (NKE, -2,34%)."
+        ]
+      }
+    },
+    "nasdaq100": {
+      "stats": {
+        "n_up": 43,
+        "n_down": 58,
+        "n_flat": 0,
+        "n_total": 101,
+        "avg_pct": 0.31,
+        "best_sectors": [
+          {
+            "sector": "Technology",
+            "avg_pct": 3.06
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": 1.49
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": 0.13
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Utilities",
+            "avg_pct": -1.89
+          },
+          {
+            "sector": "Communication Services",
+            "avg_pct": -1.57
+          },
+          {
+            "sector": "Industrials",
+            "avg_pct": -1.07
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "MSTR",
+          "name": "MicroStrategy",
+          "sector": "Technology",
+          "pct_change": 16.39,
+          "last_close": 153.92,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SNDK",
+          "name": "Sandisk",
+          "sector": "Information Technology",
+          "pct_change": 10.99,
+          "last_close": 1791.82,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research",
+          "sector": "Information Technology",
+          "pct_change": 6.98,
+          "last_close": 288.11,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STX",
+          "name": "Seagate Technology",
+          "sector": "Information Technology",
+          "pct_change": 6.93,
+          "last_close": 858.79,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMAT",
+          "name": "Applied Materials",
+          "sector": "Information Technology",
+          "pct_change": 6.51,
+          "last_close": 444.57,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TER",
+          "name": "Teradyne",
+          "sector": "Information Technology",
+          "pct_change": 5.19,
+          "last_close": 371.47,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "KLAC",
+          "name": "KLA Corporation",
+          "sector": "Information Technology",
+          "pct_change": 4.74,
+          "last_close": 176.99,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LITE",
+          "name": "Lumentum",
+          "sector": "Information Technology",
+          "pct_change": 4.17,
+          "last_close": 930.91,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "WDC",
+          "name": "Western Digital",
+          "sector": "Information Technology",
+          "pct_change": 4.13,
+          "last_close": 441.36,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MPWR",
+          "name": "Monolithic Power Systems",
+          "sector": "Information Technology",
+          "pct_change": 4.12,
+          "last_close": 1217.8,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "QCOM",
+          "name": "Qualcomm",
+          "sector": "Information Technology",
+          "pct_change": -5.82,
+          "last_close": 177.72,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRI",
+          "name": "Thomson Reuters",
+          "sector": "Technology",
+          "pct_change": -5.12,
+          "last_close": 94.39,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "RKLB",
+          "name": "Rocket Lab",
+          "sector": "Industrials",
+          "pct_change": -4.79,
+          "last_close": 64.57,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NFLX",
+          "name": "Netflix",
+          "sector": "Communication Services",
+          "pct_change": -4.67,
+          "last_close": 71.79,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "APP",
+          "name": "AppLovin",
+          "sector": "Communication Services",
+          "pct_change": -4.21,
+          "last_close": 308.06,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CRWD",
+          "name": "CrowdStrike",
+          "sector": "Information Technology",
+          "pct_change": -3.28,
+          "last_close": 237.65,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INTU",
+          "name": "Intuit",
+          "sector": "Information Technology",
+          "pct_change": -3.17,
+          "last_close": 303.19,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CEG",
+          "name": "Constellation Energy",
+          "sector": "Utilities",
+          "pct_change": -3.08,
+          "last_close": 254.71,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PANW",
+          "name": "Palo Alto Networks",
+          "sector": "Information Technology",
+          "pct_change": -3.06,
+          "last_close": 363.58,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PEP",
+          "name": "PepsiCo",
+          "sector": "Consumer Staples",
+          "pct_change": -2.93,
+          "last_close": 129.75,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the September 18, 2026 session the Nasdaq-100 closed with 43 stocks higher, 58 lower, out of 101 tracked. The average move was +0.31%.",
+          "Best-performing sectors by average move: Technology (+3.06%); Information Technology (+1.49%); Health Care (+0.13%). Weakest: Utilities (-1.89%); Communication Services (-1.57%); Industrials (-1.07%).",
+          "Leading the session: MicroStrategy (MSTR, +16.39%); Sandisk (SNDK, +10.99%); Lam Research (LRCX, +6.98%). At the bottom: Qualcomm (QCOM, -5.82%); Thomson Reuters (TRI, -5.12%); Rocket Lab (RKLB, -4.79%)."
+        ],
+        "it": [
+          "Nella seduta del 18 settembre 2026 il Nasdaq-100 ha chiuso con 43 societa' in rialzo, 58 in ribasso, su 101 titoli monitorati. La variazione media dell'indice e' stata di +0,31%.",
+          "Settori con la variazione media migliore: Technology (+3,06%); Information Technology (+1,49%); Health Care (+0,13%). Settori piu' debolli: Utilities (-1,89%); Communication Services (-1,57%); Industrials (-1,07%).",
+          "In cima alla seduta: MicroStrategy (MSTR, +16,39%); Sandisk (SNDK, +10,99%); Lam Research (LRCX, +6,98%). In fondo: Qualcomm (QCOM, -5,82%); Thomson Reuters (TRI, -5,12%); Rocket Lab (RKLB, -4,79%)."
+        ]
+      }
+    },
+    "ftsemib": {
+      "stats": {
+        "n_up": 29,
+        "n_down": 11,
+        "n_flat": 0,
+        "n_total": 40,
+        "avg_pct": 0.6,
+        "best_sectors": [
+          {
+            "sector": "Financial Services",
+            "avg_pct": 1.68
+          },
+          {
+            "sector": "Utilities",
+            "avg_pct": 1.38
+          },
+          {
+            "sector": "Industrial Goods and Services",
+            "avg_pct": 1.0
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Banks",
+            "avg_pct": 0.27
+          },
+          {
+            "sector": "Energy",
+            "avg_pct": 0.62
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": 0.66
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "PRY.MI",
+          "name": "Prysmian",
+          "sector": "Industrial Goods and Services",
+          "pct_change": 3.38,
+          "last_close": 122.2,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PST.MI",
+          "name": "Poste italiane",
+          "sector": "Financial Services",
+          "pct_change": 2.71,
+          "last_close": 26.89,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BC.MI",
+          "name": "Brunello Cucinelli",
+          "sector": "Consumer Products and Services",
+          "pct_change": 2.23,
+          "last_close": 79.0,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "A2A.MI",
+          "name": "A2A",
+          "sector": "Utilities",
+          "pct_change": 2.04,
+          "last_close": 2.35,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STMMI.MI",
+          "name": "STMicroelectronics",
+          "sector": "Technology",
+          "pct_change": 2.02,
+          "last_close": 42.62,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AZM.MI",
+          "name": "Azimut",
+          "sector": "Financial Services",
+          "pct_change": 1.94,
+          "last_close": 38.91,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ENEL.MI",
+          "name": "Enel",
+          "sector": "Utilities",
+          "pct_change": 1.8,
+          "last_close": 8.9,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HER.MI",
+          "name": "Hera",
+          "sector": "Utilities",
+          "pct_change": 1.73,
+          "last_close": 3.64,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DIA.MI",
+          "name": "Diasorin",
+          "sector": "Health Care",
+          "pct_change": 1.48,
+          "last_close": 75.28,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SPM.MI",
+          "name": "Saipem",
+          "sector": "Energy",
+          "pct_change": 1.4,
+          "last_close": 4.28,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "STLAM.MI",
+          "name": "Stellantis",
+          "sector": "Automobiles and Parts",
+          "pct_change": -3.33,
+          "last_close": 4.34,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LTMC.MI",
+          "name": "Lottomatica Group",
+          "sector": "Gambling",
+          "pct_change": -1.81,
+          "last_close": 27.09,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MONC.MI",
+          "name": "Moncler",
+          "sector": "Consumer Products and Services",
+          "pct_change": -1.14,
+          "last_close": 43.25,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INW.MI",
+          "name": "INWIT",
+          "sector": "Telecommunications",
+          "pct_change": -1.14,
+          "last_close": 6.51,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "RACE.MI",
+          "name": "Ferrari",
+          "sector": "Automobiles and Parts",
+          "pct_change": -0.9,
+          "last_close": 353.75,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ENI.MI",
+          "name": "Eni",
+          "sector": "Energy",
+          "pct_change": -0.8,
+          "last_close": 24.24,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FBK.MI",
+          "name": "FinecoBank",
+          "sector": "Banks",
+          "pct_change": -0.7,
+          "last_close": 22.79,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NEXI.MI",
+          "name": "Nexi",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -0.41,
+          "last_close": 4.15,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BMPS.MI",
+          "name": "Banca Monte dei Paschi di Siena",
+          "sector": "Banks",
+          "pct_change": -0.14,
+          "last_close": 11.79,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CPR.MI",
+          "name": "Campari",
+          "sector": "Food, Beverage and Tobacco",
+          "pct_change": -0.1,
+          "last_close": 6.02,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the September 18, 2026 session the FTSE MIB closed with 29 stocks higher, 11 lower, out of 40 tracked. The average move was +0.60%.",
+          "Best-performing sectors by average move: Financial Services (+1.68%); Utilities (+1.38%); Industrial Goods and Services (+1.00%). Weakest: Banks (+0.27%); Energy (+0.62%); Health Care (+0.66%).",
+          "Leading the session: Prysmian (PRY.MI, +3.38%); Poste italiane (PST.MI, +2.71%); Brunello Cucinelli (BC.MI, +2.23%). At the bottom: Stellantis (STLAM.MI, -3.33%); Lottomatica Group (LTMC.MI, -1.81%); Moncler (MONC.MI, -1.14%)."
+        ],
+        "it": [
+          "Nella seduta del 18 settembre 2026 il FTSE MIB ha chiuso con 29 societa' in rialzo, 11 in ribasso, su 40 titoli monitorati. La variazione media dell'indice e' stata di +0,60%.",
+          "Settori con la variazione media migliore: Financial Services (+1,68%); Utilities (+1,38%); Industrial Goods and Services (+1,00%). Settori piu' debolli: Banks (+0,27%); Energy (+0,62%); Health Care (+0,66%).",
+          "In cima alla seduta: Prysmian (PRY.MI, +3,38%); Poste italiane (PST.MI, +2,71%); Brunello Cucinelli (BC.MI, +2,23%). In fondo: Stellantis (STLAM.MI, -3,33%); Lottomatica Group (LTMC.MI, -1,81%); Moncler (MONC.MI, -1,14%)."
+        ]
+      }
+    },
+    "combined": {
+      "stats": {
+        "n_up": 164,
+        "n_down": 353,
+        "n_flat": 1,
+        "n_total": 518,
+        "avg_pct": -0.4,
+        "best_sectors": [
+          {
+            "sector": "Technology",
+            "avg_pct": 3.06
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": 0.34
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": 0.21
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Materials",
+            "avg_pct": -1.89
+          },
+          {
+            "sector": "Communication Services",
+            "avg_pct": -1.55
+          },
+          {
+            "sector": "Utilities",
+            "avg_pct": -1.36
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "MSTR",
+          "name": "MicroStrategy",
+          "sector": "Technology",
+          "pct_change": 16.39,
+          "last_close": 153.92,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "COIN",
+          "name": "Coinbase",
+          "sector": "Financials",
+          "pct_change": 11.66,
+          "last_close": 194.25,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SNDK",
+          "name": "Sandisk",
+          "sector": "Information Technology",
+          "pct_change": 10.99,
+          "last_close": 1791.82,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HOOD",
+          "name": "Robinhood Markets",
+          "sector": "Financials",
+          "pct_change": 9.12,
+          "last_close": 119.82,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "COHR",
+          "name": "Coherent Corp.",
+          "sector": "Information Technology",
+          "pct_change": 7.22,
+          "last_close": 317.36,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research",
+          "sector": "Information Technology",
+          "pct_change": 6.98,
+          "last_close": 288.11,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STX",
+          "name": "Seagate Technology",
+          "sector": "Information Technology",
+          "pct_change": 6.93,
+          "last_close": 858.79,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMAT",
+          "name": "Applied Materials",
+          "sector": "Information Technology",
+          "pct_change": 6.51,
+          "last_close": 444.57,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TER",
+          "name": "Teradyne",
+          "sector": "Information Technology",
+          "pct_change": 5.19,
+          "last_close": 371.47,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FIX",
+          "name": "Comfort Systems USA",
+          "sector": "Industrials",
+          "pct_change": 4.92,
+          "last_close": 1651.37,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "NUE",
+          "name": "Nucor",
+          "sector": "Materials",
+          "pct_change": -6.32,
+          "last_close": 248.38,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "QCOM",
+          "name": "Qualcomm",
+          "sector": "Information Technology",
+          "pct_change": -5.82,
+          "last_close": 177.72,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ARE",
+          "name": "Alexandria Real Estate Equities",
+          "sector": "Real Estate",
+          "pct_change": -5.4,
+          "last_close": 53.3,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BE",
+          "name": "Bloom Energy",
+          "sector": "Industrials",
+          "pct_change": -5.39,
+          "last_close": 265.63,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRI",
+          "name": "Thomson Reuters",
+          "sector": "Technology",
+          "pct_change": -5.12,
+          "last_close": 94.39,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GM",
+          "name": "General Motors",
+          "sector": "Consumer Discretionary",
+          "pct_change": -5.1,
+          "last_close": 82.2,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "RKLB",
+          "name": "Rocket Lab",
+          "sector": "Industrials",
+          "pct_change": -4.79,
+          "last_close": 64.57,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ACN",
+          "name": "Accenture",
+          "sector": "Information Technology",
+          "pct_change": -4.73,
+          "last_close": 181.29,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NFLX",
+          "name": "Netflix",
+          "sector": "Communication Services",
+          "pct_change": -4.67,
+          "last_close": 71.79,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CF",
+          "name": "CF Industries",
+          "sector": "Materials",
+          "pct_change": -4.57,
+          "last_close": 127.7,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the September 18, 2026 session the combined three U.S. indices closed with 164 stocks higher, 353 lower and 1 unchanged, out of 518 tracked. The average move was -0.40%.",
+          "Best-performing sectors by average move: Technology (+3.06%); Information Technology (+0.34%); Financials (+0.21%). Weakest: Materials (-1.89%); Communication Services (-1.55%); Utilities (-1.36%).",
+          "Leading the session: MicroStrategy (MSTR, +16.39%); Coinbase (COIN, +11.66%); Sandisk (SNDK, +10.99%). At the bottom: Nucor (NUE, -6.32%); Qualcomm (QCOM, -5.82%); Alexandria Real Estate Equities (ARE, -5.40%)."
+        ],
+        "it": [
+          "Nella seduta del 18 settembre 2026 l'insieme dei tre indici USA ha chiuso con 164 societa' in rialzo, 353 in ribasso e 1 invariate, su 518 titoli monitorati. La variazione media dell'indice e' stata di -0,40%.",
+          "Settori con la variazione media migliore: Technology (+3,06%); Information Technology (+0,34%); Financials (+0,21%). Settori piu' debolli: Materials (-1,89%); Communication Services (-1,55%); Utilities (-1,36%).",
+          "In cima alla seduta: MicroStrategy (MSTR, +16,39%); Coinbase (COIN, +11,66%); Sandisk (SNDK, +10,99%). In fondo: Nucor (NUE, -6,32%); Qualcomm (QCOM, -5,82%); Alexandria Real Estate Equities (ARE, -5,40%)."
+        ]
+      }
+    }
+  },
+  "manual_commentary_html": "<p>I titoli azionari statunitensi sono scesi il 18 settembre 2026, con l&#x27;S&amp;P 500 in calo dello 0,45 percento e il Nasdaq-100 sostanzialmente piatto a più 0,31 percento, riflettendo una divergenza tra i due indici. L&#x27;ampiezza del mercato è stata decisamente negativa: 346 titoli sono scesi contro 156 rialzisti nell&#x27;S&amp;P 500, mentre il Dow Jones ha visto 19 cali contro 11 rialzi. La seduta si è svolta sullo sfondo di tassi di interesse elevati e incertezza geopolitica, con Wall Street che si prepara all&#x27;emissione di circa mille miliardi di dollari di debito statunitense a breve termine mentre i costi di finanziamento salgono, secondo il Financial Times. Nel frattempo, Bloomberg ha riferito che le preoccupazioni relative al rischio dell&#x27;IA stanno rendendo nervosi i fondi da miliardi di dollari, e la copertura del WSJ ha evidenziato l&#x27;annuncio di Trump di una &quot;AI Force&quot; in seguito all&#x27;allarme dell&#x27;industria.</p><p>I titoli tecnologici hanno guidato i rialzi della giornata, con il settore che ha registrato un guadagno medio del 3,06 percento. MicroStrategy è salito del 16,39 percento, mentre Coinbase ha guadagnato l&#x27;11,66 percento e Sandisk è salito del 10,99 percento. Anche i titoli dei semiconduttori e delle apparecchiature hanno avanzato: Lam Research ha guadagnato il 6,98 percento, Applied Materials è salito del 6,51 percento, Seagate Technology è salito del 6,93 percento e Teradyne ha aggiunto il 5,19 percento. Robinhood Markets ha guadagnato il 9,12 percento e Coherent Corp. è avanzato del 7,22 percento. Comfort Systems USA ha completato i principali rialzisti con un aumento del 4,92 percento. In particolare, le fonti monitorate non hanno segnalato alcun catalizzatore specifico dell&#x27;azienda per nessuno di questi movimenti.</p><p>I cali sono stati ampi e significativi, con i settori Materials e Communication Services che hanno registrato le peggiori performance a meno 1,89 percento e meno 1,55 percento rispettivamente. Nucor è sceso del 6,32 percento, mentre Qualcomm è sceso del 5,82 percento e Alexandria Real Estate Equities è sceso del 5,40 percento. Bloom Energy e General Motors sono scesi rispettivamente del 5,39 e del 5,10 percento, mentre Thomson Reuters, Rocket Lab e Accenture hanno registrato perdite del 5,12, 4,79 e 4,73 percento. Netflix è sceso del 4,67 percento e CF Industries è sceso del 4,57 percento. Come per i rialzisti, le fonti monitorate non hanno segnalato alcun catalizzatore specifico dell&#x27;azienda per nessuno di questi cali.</p>",
+  "manual_commentary_html_en": "<p>US equities fell on September 18, 2026, with the S&amp;P 500 declining 0.45 percent and the Nasdaq-100 holding near flat at plus 0.31 percent, reflecting a divergence between the two indices. Breadth was decidedly negative across the market: 346 stocks fell against 156 gainers in the S&amp;P 500, while the Dow Jones saw 19 declines against 11 advances. The session unfolded against a backdrop of elevated interest rates and geopolitical uncertainty, with Wall Street preparing for approximately one trillion dollars in short-term US debt issuance as borrowing costs climb, according to Financial Times. Meanwhile, Bloomberg reported that AI risk concerns are making billion-dollar funds nervous, and WSJ coverage highlighted Trump&#x27;s announcement of an &quot;AI Force&quot; following industry alarm.</p><p>Technology stocks led the day&#x27;s gainers, with the sector averaging a 3.06 percent gain. MicroStrategy surged 16.39 percent, while Coinbase jumped 11.66 percent and Sandisk rose 10.99 percent. Semiconductor and equipment stocks also advanced: Lam Research gained 6.98 percent, Applied Materials rose 6.51 percent, Seagate Technology climbed 6.93 percent, and Teradyne added 5.19 percent. Robinhood Markets gained 9.12 percent and Coherent Corp. advanced 7.22 percent. Comfort Systems USA rounded out the top gainers with a 4.92 percent increase. Notably, tracked outlets reported no specific company catalyst for any of these moves.</p><p>Declines were broad and significant, with Materials and Communication Services sectors posting the worst performance at minus 1.89 percent and minus 1.55 percent respectively. Nucor fell 6.32 percent, while Qualcomm dropped 5.82 percent and Alexandria Real Estate Equities declined 5.40 percent. Bloom Energy and General Motors each fell 5.39 and 5.10 percent respectively, while Thomson Reuters, Rocket Lab, and Accenture posted losses of 5.12, 4.79, and 4.73 percent. Netflix declined 4.67 percent and CF Industries fell 4.57 percent. As with the gainers, tracked outlets reported no specific company catalyst for any of these declines.</p>",
+  "manual_highlights": [],
+  "feed": [
+    {
+      "title": "Insurance Australia Says Greensill Settlement Isn’t Finalized",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 23:11:41 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-20/insurance-australia-says-greensill-settlement-isn-t-finalized",
+      "summary": "Insurance Australia Group Ltd. said a settlement of proceedings brought by Credit Suisse entities over Greensill trade credit insurance policies hasn’t been finalized.",
+      "image": null
+    },
+    {
+      "title": "Black Sea Shipping Turmoil Hits Wheat Market, Amplifies Inflation Risks",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 23:01:01 GMT",
+      "link": "https://www.bloomberg.com/news/features/2026-09-20/black-sea-shipping-turmoil-hits-wheat-market-amplifies-inflation-risks",
+      "summary": "As the world&nbsp;focuses on the oil market, the war in Ukraine is snarling vital grain shipments&nbsp;and forcing buyers to scramble for supplies from elsewhere.",
+      "image": null
+    },
+    {
+      "title": "Even Without Shohei, The Dodgers Hitters Look Ready For October",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 18:36:44 -0400",
+      "link": "https://www.forbes.com/sites/danfreedman/2026/09/20/even-without-shohei-the-dodgers-hitters-look-ready-for-october/",
+      "summary": "A weak Dodgers offense this season, is picking up behind Mookie Betts, Kyle Tucker, Teoscar Hernandez, and Will Smith, who are trying to make up for the injured Shohei.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6ab05eb6d467fd2d26bd2c01/0x0.jpg?width=960"
+    },
+    {
+      "title": "BTS, NMIXX, CORTIS Take Top Honors At 2026 The Fact Music Awards",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 17:50:07 -0400",
+      "link": "https://www.forbes.com/sites/jeffbenjamin/2026/09/20/bts-nmixx-cortis-take-top-honors-at-2026-the-fact-music-awards/",
+      "summary": "ATEEZ, NMIXX, RIIZE and CORTIS won the four Daesangs at the 2026 The Fact Music Awards, BTS led all acts with four. Kim Soohyun also made a controversial appearance.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6ab0546374a788f89e21f731/0x0.jpg?width=960"
+    },
+    {
+      "title": "German chancellor Merz vows to stay on despite ‘disaster’ in regional elections",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 21:47:35 GMT",
+      "link": "https://www.ft.com/content/d74ce82a-2a15-404a-ae3a-3921e887bab3?syn-25a6b1a6=1",
+      "summary": "Partial results suggest CDU is set to fail to secure parliamentary representation in Mecklenburg-Vorpommern",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8d2cfe2c-bd62-4c09-97bb-106b2950ef98.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sun, 20 Sep 2026 21:41:08 +0000",
+      "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+      "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/TCD26_6Days-16X9-Dark.png?resize=1200,675"
+    },
+    {
+      "title": "Crypto Blew Its Big Moment—and the Blame Game Has Begun",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 21:35:00 GMT",
+      "link": "https://www.wsj.com/finance/currencies/crypto-blew-its-big-momentand-the-blame-game-has-begun-dff66a10?mod=rss_markets_main",
+      "summary": "Coinbase CEO Brian Armstrong was at the center of a protracted fight over the role of digital assets in mainstream finance.",
+      "image": "https://images.wsj.net/im-33523433"
+    },
+    {
+      "title": "Germany’s Merz stands his ground but for how long?",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 20:58:21 GMT",
+      "link": "https://www.ft.com/content/a4901983-10a2-488d-8725-66177d6f9ea2?syn-25a6b1a6=1",
+      "summary": "Lessons from elsewhere in Europe suggest once leaders become deeply unpopular, they almost never recover",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb5f4288b-323b-4da9-9030-7e53710382f6.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "This Strategic Metals Stock Surges on $450 Million Pentagon Deal",
+      "source": "Barron's",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 20:54:36 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTHVhaHg0emRQalNSa2c2THpSVV9NRHE5UEJUN3BSUG9uSHRLUDZpdkpQSW1MZ1pqVW9rcTZhWWRGSS1Db0hXNnRXYmdzWjlWQWExTHhQZV9Vam1lM1lyX2Qzb2RiV0VWRW9ZNGdLNmhMUjgyZURaeUJSRXZzUkM0aTNR?oc=5",
+      "summary": "This Strategic Metals Stock Surges on $450 Million Pentagon Deal &nbsp;&nbsp; Barron's",
+      "image": null
+    },
+    {
+      "title": "Proposta Trump AI Force: solo chi ha un alto QI potrà guidarla?",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Sun, 20 Sep 2026 20:50:49 +0000",
+      "link": "https://cryptonomist.ch/2026/09/20/proposta-trump-ai-force/",
+      "summary": "Donald Trump è tornato a parlare di intelligenza artificiale con un annuncio che ha acceso subito il dibattito a Washington. La proposta Trump AI Force prevede la creazione di un nuovo corpo dedicato al monitoraggio della tecnologia, guidato da un misterioso &#8220;AI czar&#8221;",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/09/proposta-trump-ai-force.jpeg"
+    },
+    {
+      "title": "Exploit al contratto SingularityNET: Fetch.ai sospende bridge e conversioni FET",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Sun, 20 Sep 2026 20:47:55 +0000",
+      "link": "https://cryptonomist.ch/2026/09/20/exploit-contratto-singularitynet/",
+      "summary": "Un attacco informatico ha colpito i contratti smart di SingularityNET lo scorso 19 settembre, innescando una serie di misure precauzionali a catena tra i due progetti crypto legati dall&#8217;infrastruttura di conversione token. Fetch.ai ha confermato tramite un post su X che l&#",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/09/exploit-contratto-singularitynet.jpeg"
+    },
+    {
+      "title": "World model companies are keeping a lot of secrets",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sun, 20 Sep 2026 20:29:07 +0000",
+      "link": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+      "summary": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/ALLIN_16-09-AM_melanieolmsteadphotographe-635.jpg?w=1024"
+    },
+    {
+      "title": "ZetaChain votes to shut down Layer 1 network and move ZETA to Solana",
+      "source": "The Block",
+      "category": "crypto",
+      "published": "Sun, 20 Sep 2026 20:11:49 +0000",
+      "link": "https://www.theblock.co/news/defi/2026-09-20-zetachain-votes-to-shut-down-layer-1-network-and-move-zeta-to-solana-415878",
+      "summary": "The team plans to focus instead on Anuma, its private AI app, though the migration will still take one more vote.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/09/ChatGPT-Image-Sep-20-2026-04_06_27-PM.jpg"
+    },
+    {
+      "title": "Netflix, Nucor, On Holding, Xenon, Accenture, Coinbase, and More Stocks That Explain Today’s Market",
+      "source": "Barron's",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 20:05:58 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44NlhRaVVMNTlLOHByQVRxNlVIR19HQU95MF9KaWJyTmwtWXl2TnZUU2R2T2RVZV8zMENhV3I4UC1VMU5DOUQza3k2aExyaWdWdVJpZTBfUjM3ZlpscGdiRkZFZXo?oc=5",
+      "summary": "Netflix, Nucor, On Holding, Xenon, Accenture, Coinbase, and More Stocks That Explain Today’s Market &nbsp;&nbsp; Barron's",
+      "image": null
+    },
+    {
+      "title": "Trump to meet with NYC Mayor Zohran Mamdani on Monday ahead of UN General Assembly",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 19:06:16 GMT",
+      "link": "https://www.cnbc.com/2026/09/20/trump-mamdani-gracie-mansion-meeting.html",
+      "summary": "The mayor's press office said the meeting will take place at Gracie Mansion and \"will focus on issues affecting New York City and New Yorkers.\"",
+      "image": "https://image.cnbcfm.com/api/v1/image/108230204-17637585472025-11-21t205337z_1143851817_rc271ia6cvye_rtrmadp_0_usa-trump-mamdani.jpeg?v=1763758583&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "I have $125,000 in credit-card debt. Will $17,000 a month in income, including disability, affect my bankruptcy?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 17:30:00 GMT",
+      "link": "https://www.marketwatch.com/story/i-am-drowning-in-debt-i-have-125-000-in-credit-card-debt-will-9-000-in-disability-income-affect-my-bankruptcy-f897c131?mod=mw_rss_topstories",
+      "summary": "“I racked up this debt to cover my living expenses for two years without an income stream.”",
+      "image": "https://images.mktw.net/im-58969241"
+    },
+    {
+      "title": "Fed's Kashkari says inflation is still too high in 'all aspects' of US economy, in Fox News interview",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 17:09:32 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc1hVd3hZZmFPOEVudnRhdFpDczA0Qkg4TmxpeDFYN1NuWnFkYVNSLTdrRU42dGdXV21YcmlsM1RVREw1amRxQWV5aWVZZTRPRy1paTNiT2o3M0syblIxdkMtR2xKLVgzUEstZ01CcXRKd0dNbUpLZUxkV1hhS0cwcDZYRXdmYjJrTTc4RERBQWNyeXdHb0ZoVjhPMkQzVDJodDBoc3c0RTc4ckFJeGJ6WDlLTDVzM05rN3k5VWNXVVFlTWM?oc=5",
+      "summary": "Fed's Kashkari says inflation is still too high in 'all aspects' of US economy, in Fox News interview &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "Bessent meets China Vice Premier He Lifeng ahead of Trump-Xi summit",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 16:56:14 GMT",
+      "link": "https://www.cnbc.com/2026/09/20/bessent-he-lifeng-trump-xi-summit.html",
+      "summary": "Scott Bessent and China’s He Lifeng are holding talks on trade, AI and critical minerals ahead of Trump and Xi’s Sept. 24 summit.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108365418-17899186212026-09-20t050008z_1903970492_rc2z5ka0leoe_rtrmadp_0_usa-china.jpeg?v=1789918650&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Dopo elezione Trump green bond dimezzati, ma rendimenti crescono",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sun, 20 Sep 2026 18:34:15 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/09/20/dopo-elezione-trump-green-bond-dimezzati-ma-rendimenti-crescono_ca12c7f0-3c35-4527-9646-a09a6bade914.html",
+      "summary": "Titoli verdi rappresentano solo lo 0,6% del mercato obbligazionario Usa",
+      "image": "https://www.ansa.it/webimages/img_1280x720/2026/8/6/743051d37b5fed4bcd804a6ade99cbd0.jpg"
+    },
+    {
+      "title": "Il governo accelera sull'energia, 'anche a rischio infrazione Ue'",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sun, 20 Sep 2026 18:32:10 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/09/20/il-governo-accelera-sullenergia-anche-a-rischio-infrazione-ue_f5834ddd-aa75-47fc-aa90-51835a43133a.html",
+      "summary": "Elettricità futura, 4mila progetti pronti ma bloccati. Mercoledì in aula il nucleare",
+      "image": "https://www.ansa.it/webimages/img_1280x720/2026/9/11/96d962c1348ec6f0a545f133d316cd50.jpg"
+    },
+    {
+      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 16:30:00 GMT",
+      "link": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+      "summary": "“I also own my home and an SUV outright, with no outstanding debt.”",
+      "image": "https://images.mktw.net/im-31098244"
+    },
+    {
+      "title": "Polymarket faced $10 million fraud attempt as its CEO pushed growth over compliance concerns: WSJ",
+      "source": "The Block",
+      "category": "crypto",
+      "published": "Sun, 20 Sep 2026 16:07:19 +0000",
+      "link": "https://www.theblock.co/news/regulation/2026-09-20-polymarket-faced-10-million-fraud-attempt-as-its-ceo-pushed-growth-over-compliance-concerns-wsj-415875",
+      "summary": "In a separate attack, hackers compromised nearly 500 users' accounts using stolen personal information, according to the report.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2020/10/20201007_Polymarket-Daily.png"
+    },
+    {
+      "title": "Visa Moves to Close Meme Coin Credit Card Rewards Loophole",
+      "source": "Decrypt",
+      "category": "crypto",
+      "published": "Sun, 20 Sep 2026 16:01:03 +0000",
+      "link": "https://decrypt.co/378697/visa-close-meme-coin-credit-card-rewards-loophole",
+      "summary": "After banks lost their push for tighter stablecoin rules in the failed Clarity Act, JP Morgan scored a narrower win as Visa moves to stop meme coin purchases from being coded as ordinary \"digital media\" and earning card rewards.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/visa-logo2-gID_7.jpg"
+    },
+    {
+      "title": "QatarEnergy says Hormuz crisis may delay some expansion projects",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 15:22:38 GMT",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlRJLXJYMEJSYjF0SVZUN2lOWDFTRnFJaHQ3T25wWmVzOEpfRkFzS09Ya19mMmt5X1FDNkJvWFZmS0dTUnZJLWV2ZzhrdDFfUjBRQzRTcnU1c0V4UXhLMzJmTGlUamVsZVB2Rl9XZU9FYWI3cmdlbk9LS1NrSU5xOVRPWWd2bVppb3Rhem5CS1NNOFloRllua3hBU3d4Z01VTWRFYmtGZ1loM24tQlRhZFdsSHlqU1E?oc=5",
+      "summary": "QatarEnergy says Hormuz crisis may delay some expansion projects &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "5 Takeaways From Ari Emanuel’s Memoir",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 14:30:06 +0000",
+      "link": "https://www.nytimes.com/2026/09/20/business/media/ari-emanuel-memoir-hollywood.html",
+      "summary": "“Roll the Calls,” the new book by the Hollywood mogul, is an entertaining and expletive-filled read that surprisingly pulls some punches.",
+      "image": "https://static01.nyt.com/images/2026/09/20/multimedia/20biz-emanuel-takeaways-mtqf/20biz-emanuel-takeaways-mtqf-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years",
+      "source": "Decrypt",
+      "category": "crypto",
+      "published": "Sun, 20 Sep 2026 14:01:03 +0000",
+      "link": "https://decrypt.co/378695/holding-anything-but-bitcoin-losing-bet",
+      "summary": "A Glassnode and Bybit report frames the divergence as the defining feature of this cycle, with froth pooling in the market's riskiest corners even as Bitcoin does the heavy lifting.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png"
+    },
+    {
+      "title": "Trump says US will form ‘AI Force’ and appoint AI czar: Reports",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Sun, 20 Sep 2026 12:00:52 +0000",
+      "link": "https://cointelegraph.com/news/trump-says-us-will-form-ai-force-and-appoint-ai-czar-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Trump posted on Truth Social that his new project would manage the fast-growing sector without adding regulations that could slow innovation.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2ZAWJ1EP2F4S5Q51BS1BF79/make-ai-great1.jpg"
+    },
+    {
+      "title": "Thermacell LIV 2.0 Review: Taking My Yard Back",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sun, 20 Sep 2026 11:07:00 +0000",
+      "link": "https://www.wired.com/review/thermacell-liv-smart-mosquito-repellent-system-2/",
+      "summary": "Thermacell LIV 2.0 is expensive and imperfect, but it outperforms nearly every mosquito-control method I’ve tried.",
+      "image": "https://media.wired.com/photos/6aae0145c68108fad4b9bc12/master/pass/Review--Thermacell-LIV-Smart-Mosquito-Repellent-System-2.0.jpg"
+    },
+    {
+      "title": "Welcome to Dogs Anonymous, the Online Support Group for People With Difficult Dogs",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sun, 20 Sep 2026 11:00:00 +0000",
+      "link": "https://www.wired.com/story/inside-dogs-anonymous-the-online-support-group-for-people-with-difficult-dogs/",
+      "summary": "“This is a place where you can come and say, I fucking hate my dog today,” a Dogs Anonymous cofounder tells WIRED. “And there are people who are going to be like, yeah, that was me last Tuesday.”",
+      "image": "https://media.wired.com/photos/6aa8645f9bc29761b67d49dc/master/pass/Inside-Support-Group-Bad-Dogs-Culture.jpg"
+    },
+    {
+      "title": "What to Do If You’re Laid Off and Too Young for Medicare",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 10:52:40 +0000",
+      "link": "https://www.nytimes.com/2026/09/20/business/jobless-health-insurance.html",
+      "summary": "At best, older, laid-off workers will struggle to find health insurance that bridges the years before they qualify for Medicare at age 65.",
+      "image": "https://static01.nyt.com/images/2026/09/20/business/13retiring-illo/13retiring-illo-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Why It’s So Hard to Work Out What the Bond Market Is Telling Us",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 09:30:00 GMT",
+      "link": "https://www.wsj.com/finance/investing/why-its-so-hard-to-work-out-what-the-bond-market-is-telling-us-aeac2d3a?mod=rss_markets_main",
+      "summary": "Did bond yields rise because the economy is strong or because America’s credibility is on the line?",
+      "image": "https://images.wsj.net/im-93732985"
+    },
+    {
+      "title": "Grayscale’s Zcash ETF files for 3-for-1 forward share split",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Sun, 20 Sep 2026 09:14:27 +0000",
+      "link": "https://cointelegraph.com/news/grayscales-zcash-etf-files-for-3-for-1-forward-share-split?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "At the close of trading on Sept. 28, shareholders will receive two extra shares for each one they hold.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2Z0TBMW51CTC0HJ1PNB0RV6/hi-how-zcash-went-from-low-profile-token-to-the-most-searched-asset-in-november1.png"
+    },
+    {
+      "title": "House prices survived the last interest-rate rise. Will they this time?",
+      "source": "The Economist",
+      "category": "mercati",
+      "published": "Sun, 20 Sep 2026 09:05:41 +0000",
+      "link": "https://www.economist.com/finance-and-economics/2026/09/20/house-prices-survived-the-last-interest-rate-rise-will-they-this-time",
+      "summary": "Supports that shored up the housing market when borrowing costs last rose are gone",
+      "image": null
+    },
+    {
+      "title": "S&P 500, è una bolla degli utili? Goldman Sachs spiega cosa può succedere",
+      "source": "Wall Street Italia",
+      "category": "italia",
+      "published": "Fri, 18 Sep 2026 16:10:56 +0000",
+      "link": "https://www.wallstreetitalia.com/sp-500-e-una-bolla-degli-utili-goldman-sachs-spiega-cosa-puo-succedere/",
+      "summary": "Gli utili dell’S&#038;P 500 sono cresciuti del 51% nel secondo trimestre. Goldman Sachs prevede un rallentamento, ma non un crollo, con l’AI al centro dello scenario.",
+      "image": null
+    },
+    {
+      "title": "Oro: perchè Goldman Sachs vede target 2027 a 5.400$",
+      "source": "FinanzaOnline",
+      "category": "italia",
+      "published": "Fri, 18 Sep 2026 14:48:31 +0000",
+      "link": "https://www.finanzaonline.com/notizie/oro-perche-goldman-sachs-vede-target-2027-a-5-400",
+      "summary": "Goldman Sachs conferma la previsione di 5.400 dollari l'oncia per fine 2027 nonostante il rialzo della Fed di mercoledì e nonostante gli economisti della banca Usa prevedano ora un ulteriore rialzo in ottobre.",
+      "image": null
+    },
+    {
+      "title": "The Download: AI’s extinction risk and bioweapons threat",
+      "source": "MIT Technology Review",
+      "category": "scienza",
+      "published": "Fri, 18 Sep 2026 12:10:00 +0000",
+      "link": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Could AI really kill us all? Your questions, answered On Wednesday, MIT Technology Review hosted a live Roundtables event that ask",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/12/MM10211_240711_05211.jpg?w=840"
+    },
+    {
+      "title": "The GDP-per-person slowdown threatens global living standards",
+      "source": "The Economist",
+      "category": "mercati",
+      "published": "Thu, 17 Sep 2026 10:30:49 +0000",
+      "link": "https://www.economist.com/finance-and-economics/2026/09/17/the-gdp-per-person-slowdown-threatens-global-living-standards",
+      "summary": "Brazil, China, Germany and Russia have recently joined an unfortunate club",
+      "image": null
+    },
+    {
+      "title": "Le migliori tende da campeggio tra modelli ultraleggeri, familiari e gonfiabili",
+      "source": "Wired Italia",
+      "category": "tech",
+      "published": "Wed, 01 Jul 2026 07:00:00 +0000",
+      "link": "https://www.wired.it/gallery/migliori-tende-campeggio/",
+      "summary": "Dalle tende ultraleggere da trekking ai modelli familiari con vere e proprie stanze, passando per soluzioni gonfiabili e a montaggio rapido",
+      "image": "https://media-assets.wired.it/photos/6a194670a7792b1bc7faf331/master/pass/tende%20da%20campeggio%20giugno%202026.jpg"
+    },
+    {
+      "title": "Will the next iPhone charge wirelessly?",
+      "source": "CNN",
+      "category": "mercati",
+      "published": "Mon, 13 Feb 2017 14:42:14 EST",
+      "link": "http://money.cnn.com/2017/02/13/technology/apple-wireless-charging/index.html?section=money_news_international",
+      "summary": "The days of plugging in an iPhone to charge won't last forever.",
+      "image": "http://i2.cdn.turner.com/money/dam/assets/170203124414-apple-iphone-120x90.jpg"
+    },
+    {
+      "title": "80-year-old discount fashion chain closing 120 stores",
+      "source": "Yahoo Finance",
+      "category": "mercati",
+      "published": "2026-09-19T23:02:22Z",
+      "link": "https://finance.yahoo.com/small-business/articles/tj-maxx-rival-closing-120-181700076.html",
+      "summary": "",
+      "image": "https://media.zenfs.com/en/thestreet_881/faf099340e9370972313dad23d2c51a5.jpg"
+    }
+  ],
+  "generated_at": "2026-09-21 01:25:44",
+  "markets_brief": {
+    "items": [
+      {
+        "title": "Insurance Australia Says Greensill Settlement Isn’t Finalized",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-09-20/insurance-australia-says-greensill-settlement-isn-t-finalized"
+      },
+      {
+        "title": "Black Sea Shipping Turmoil Hits Wheat Market, Amplifies Inflation Risks",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/features/2026-09-20/black-sea-shipping-turmoil-hits-wheat-market-amplifies-inflation-risks"
+      },
+      {
+        "title": "Ex-Banker Eyeing Top WHO Job Says Agency Can Tap Outside Money",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-09-20/ex-banker-eyeing-top-who-job-says-agency-can-tap-outside-money"
+      },
+      {
+        "title": "Australia’s Labor Government Extends Slide in Opinion Polls",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-09-20/australia-s-labor-government-extends-slide-in-opinion-polls"
+      },
+      {
+        "title": "Even Without Shohei, The Dodgers Hitters Look Ready For October",
+        "source": "Forbes",
+        "link": "https://www.forbes.com/sites/danfreedman/2026/09/20/even-without-shohei-the-dodgers-hitters-look-ready-for-october/"
+      }
+    ],
+    "prose_html": "<p>I disordini nei trasporti nel Mar Nero stanno turbando i mercati delle materie prime e aumentando le pressioni inflazionistiche, mentre Insurance Australia ha segnalato persistente incertezza attorno al suo accordo Greensill. Sul fronte politico, il governo laburista australiano continua a perdere consenso nei sondaggi d&#x27;opinione, e un ex banchiere candidato alla guida dell&#x27;OMS sostiene che l&#x27;agenzia dovrebbe perseguire fonti di finanziamento alternative.</p>",
+    "prose_html_en": "<p>Shipping disruptions in the Black Sea are roiling commodity markets and adding to inflation pressures, while Insurance Australia flagged ongoing uncertainty around its Greensill settlement. In political news, Australia&#x27;s Labor government continues losing ground in opinion polls, and a former banker vying for the WHO&#x27;s top role is advocating for the agency to pursue alternative funding sources.</p>"
+  },
+  "live_close_movers": {
+    "captured_at": "2026-09-17T20:15:25Z",
+    "session_date": "2026-09-17",
+    "universe": 1383,
+    "gainers": [
+      {
+        "symbol": "AEHL",
+        "name": "Antelope Enterprise Holdings Limited",
+        "pct": 33.3
+      },
+      {
+        "symbol": "SDGR",
+        "name": "Schrodinger, Inc.",
+        "pct": 26.37
+      },
+      {
+        "symbol": "GNRC",
+        "name": "Generac Holdlings Inc.",
+        "pct": 18.34
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 17.66
+      },
+      {
+        "symbol": "TEM",
+        "name": "Tempus AI, Inc.",
+        "pct": 14.85
+      },
+      {
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": 14.26
+      },
+      {
+        "symbol": "RARE",
+        "name": "Ultragenyx Pharmaceutical Inc.",
+        "pct": 12.58
+      },
+      {
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": 12.15
+      },
+      {
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "pct": 12.08
+      },
+      {
+        "symbol": "INIO",
+        "name": "INNIO N.V.",
+        "pct": 12.03
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "MEDS",
+        "name": "DataMeds AI, Inc.",
+        "pct": -23.56
+      },
+      {
+        "symbol": "FLNC",
+        "name": "Fluence Energy, Inc.",
+        "pct": -15.36
+      },
+      {
+        "symbol": "VEEA",
+        "name": "Veea Inc.",
+        "pct": -12.62
+      },
+      {
+        "symbol": "FTFT",
+        "name": "Future FinTech Group Inc.",
+        "pct": -10.64
+      },
+      {
+        "symbol": "AN",
+        "name": "AutoNation, Inc.",
+        "pct": -10.49
+      },
+      {
+        "symbol": "MTZ",
+        "name": "MasTec, Inc.",
+        "pct": -7.92
+      },
+      {
+        "symbol": "DKNG",
+        "name": "DraftKings Inc.",
+        "pct": -7.64
+      },
+      {
+        "symbol": "XRAY",
+        "name": "DENTSPLY SIRONA Inc.",
+        "pct": -7.54
+      },
+      {
+        "symbol": "TTAN",
+        "name": "ServiceTitan, Inc.",
+        "pct": -7.53
+      },
+      {
+        "symbol": "NSIT",
+        "name": "Insight Enterprises, Inc.",
+        "pct": -6.38
+      }
+    ]
+  }
+}

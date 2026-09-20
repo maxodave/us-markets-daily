@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-20T20:41:31Z",
+  "updated": "2026-09-20T23:26:26Z",
   "session_date": "2026-09-18",
   "universe": 558,
   "up": {
-    "count": 191,
+    "count": 193,
     "by_length": {
       "1": 74,
-      "2": 73,
+      "2": 74,
       "3": 27,
-      "4": 14,
+      "4": 15,
       "5": 1,
       "6": 2
     },
@@ -90,6 +90,15 @@
         "cum_pct": 11.62
       },
       {
+        "symbol": "P",
+        "name": "Everpure",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 11.05
+      },
+      {
         "symbol": "CIEN",
         "name": "Ciena",
         "indices": [
@@ -144,25 +153,15 @@
         ],
         "days": 4,
         "cum_pct": 5.05
-      },
-      {
-        "symbol": "ADI",
-        "name": "Analog Devices",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 4.07
       }
     ]
   },
   "down": {
-    "count": 366,
+    "count": 364,
     "by_length": {
       "1": 212,
       "2": 45,
-      "3": 27,
+      "3": 25,
       "4": 70,
       "5": 8,
       "6": 3,
