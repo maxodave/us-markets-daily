@@ -589,6 +589,71 @@
   .subs-full .subs-actions .btn:hover { border-color: var(--cat-scienza); color: var(--cat-scienza); }
   .subs-full .subs-close { margin-top: 34px; }
 
+  /* --- Area abbonati: vetrina, accesso e strumento ---------------------------
+     L'overlay nasce centrato (align-items/justify-content: center) e con un
+     contenuto corto va benissimo. Con la tabella dentro diventa piu' alto dello
+     schermo, e un flex centrato che sborda taglia la PARTE ALTA, quella che non
+     si raggiunge scrollando. Per questo il contenuto sta in un figlio con
+     margin:auto: centrato quando ci sta, scorrevole quando non ci sta. */
+  .subs-full { overflow-y: auto; }
+  .subs-scroll { margin: auto; width: 100%; max-width: 1180px; display: flex;
+    flex-direction: column; align-items: center; }
+  .subs-body { width: 100%; margin-top: 18px; }
+
+  /* I tre piani. Niente prezzi scritti qui ne' nel markup: li porta /piani,
+     che li legge da Stripe. Un prezzo scritto nel sito e uno su Stripe prima o
+     poi divergono, e quello sbagliato e' sempre quello che legge il cliente. */
+  .piani { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px;
+    margin: 26px auto 0; max-width: 780px; text-align: left; }
+  @media (max-width: 720px) { .piani { grid-template-columns: minmax(0, 1fr); } }
+  .piano { border: 1px solid var(--border-strong); border-radius: 12px; padding: 20px 18px;
+    background: rgba(255,255,255,.02); display: flex; flex-direction: column; gap: 4px; }
+  .piano:hover { border-color: var(--cat-scienza); }
+  .piano .p-nome { font-family: var(--mono); font-size: .72rem; letter-spacing: .18em;
+    text-transform: uppercase; color: var(--cat-scienza); }
+  .piano .p-prezzo { font-family: var(--mono); font-size: 1.9rem; font-weight: 800; margin-top: 8px; }
+  .piano .p-cadenza { font-family: var(--mono); font-size: .7rem; color: var(--muted);
+    text-transform: uppercase; letter-spacing: .08em; }
+  .piano .btn { margin-top: 16px; justify-content: center; }
+  .piano .btn:hover { border-color: var(--cat-scienza); color: var(--cat-scienza); }
+
+  .subs-riga { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;
+    align-items: center; margin-top: 26px; }
+  .subs-link { background: none; border: 0; padding: 0; cursor: pointer; font: inherit;
+    font-size: .84rem; color: var(--muted); text-decoration: underline; text-underline-offset: 3px; }
+  .subs-link:hover { color: var(--cat-scienza); }
+  .subs-msg { font-family: var(--mono); font-size: .78rem; margin-top: 14px; min-height: 1.2em; }
+  .subs-msg.ko { color: var(--red-5); }
+  .subs-msg.ok { color: var(--green-5); }
+  .subs-form { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 18px; }
+  .subs-form input { font: inherit; font-size: .9rem; padding: 12px 14px; min-width: 260px;
+    background: var(--panel); border: 1px solid var(--border-strong); border-radius: 10px; color: var(--text); }
+
+  /* Lo strumento vero, visibile solo a sessione valida. */
+  .mq-barra { display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline;
+    justify-content: space-between; width: 100%; border-bottom: 1px solid var(--border);
+    padding-bottom: 12px; margin-bottom: 4px; text-align: left; }
+  .mq-chi { font-family: var(--mono); font-size: .74rem; color: var(--muted);
+    letter-spacing: .04em; }
+  .mq-chi b { color: var(--text); font-weight: 600; }
+  .mq-tabella { width: 100%; border-collapse: collapse; font-size: .82rem; text-align: left; }
+  .mq-tabella th { font-family: var(--mono); font-size: .66rem; text-transform: uppercase;
+    letter-spacing: .08em; color: var(--muted); font-weight: 600; padding: 10px 8px;
+    border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--bg); }
+  .mq-tabella td { padding: 9px 8px; border-bottom: 1px solid var(--border); }
+  .mq-tabella tr:hover td { background: rgba(255,255,255,.03); }
+  .mq-tabella .num { font-family: var(--mono); text-align: right; white-space: nowrap; }
+  .mq-tabella .sym { font-family: var(--mono); font-weight: 700; }
+  .mq-tabella .soc { color: var(--muted); }
+  .mq-punteggio { font-family: var(--mono); font-weight: 700; text-align: right; }
+  .mq-tabella .mq-su { color: var(--green-5); }
+  .mq-tabella .mq-giu { color: var(--red-5); }
+  /* Il segno dei dati incompleti. Una riga costruita su meta' bilancio non deve
+     sembrare solida come le altre: il punteggio c'e' lo stesso, ma dichiarato. */
+  .mq-parziale { color: var(--cat-crypto); cursor: help; font-family: var(--mono); }
+  .mq-nota { font-size: .72rem; color: var(--muted); margin-top: 14px; line-height: 1.5;
+    text-align: left; max-width: 90ch; }
+
   .modal-backdrop { position: fixed; inset: 0; z-index: 130; background: rgba(3,4,8,.74); backdrop-filter: blur(6px); display: flex; align-items: center; justify-content: center; padding: 20px; opacity: 0; pointer-events: none; transition: opacity .25s ease; }
   .modal-backdrop.open { opacity: 1; pointer-events: auto; }
   .modal { position: relative; background: var(--panel-solid); border: 1px solid var(--border-strong); border-radius: 16px; box-shadow: 0 18px 50px rgba(0,0,0,.5); max-width: 420px; width: 100%; padding: 30px 28px; transform: translateY(14px); transition: transform .25s ease; }

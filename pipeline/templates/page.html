@@ -104,13 +104,24 @@ __STYLE_CSS__
      style.css, blocco "viste". Questa invece non ha contenuto ne' dati: come
      overlay si sovrappone e basta, e la vista sotto resta intatta. -->
 <div class="subs-full" id="subsFull" role="dialog" aria-modal="true" aria-labelledby="subsFullTitle">
-  <div class="subs-badge"><span class="dot"></span>Only for subscribers</div>
-  <h2 id="subsFullTitle">WORK IN PROGRESS</h2>
-  <div class="subs-note">This area is being built. Subscribe on LinkedIn or Substack for future news.</div>
-  <div class="subs-actions">
-    <a class="btn ghost" href="https://maximedaverio.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Subscribe on Substack</a>
+  <div class="subs-scroll">
+    <div class="subs-badge"><span class="dot"></span>Only for subscribers</div>
+    <h2 id="subsFullTitle">MAXOQUANTIC</h2>
+
+    <!-- QUI DENTRO NON C'E' UN SOLO NUMERO DEL PRODOTTO, ED E' LA REGOLA PIU'
+         IMPORTANTE DI QUESTA PAGINA. index.html e' statico su GitHub Pages: viene
+         servito identico a chiunque lo chieda, quindi tutto cio' che e' scritto
+         nel markup e' gia' sul computer di chi non ha pagato, anche se coperto da
+         un display:none. I punteggi arrivano a pagina aperta, da una richiesta
+         autenticata al Worker, e non toccano mai il repo pubblico.
+         Il corpo lo costruisce app.js DOPO aver chiesto al Worker chi sta
+         guardando: prima di quella risposta non c'e' niente da vedere. -->
+    <div class="subs-body" id="subsBody">
+      <div class="subs-note">Checking your access&hellip;</div>
+    </div>
+
+    <button class="btn ghost subs-close" id="subsCloseBtn" type="button">Back to the edition</button>
   </div>
-  <button class="btn ghost subs-close" id="subsCloseBtn" type="button">Back to the edition</button>
 </div>
 
 <!-- SCHERMO INTERO per lo scatto di una giornata. Overlay come .mc-full e

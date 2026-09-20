@@ -1232,14 +1232,317 @@ renderDayByDay();
   var mcClose = document.getElementById("mcCloseBtn"); if (mcClose) mcClose.addEventListener("click", function () { closeMcFull(); goEdition(); });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeMcFull(); });
 
-  /* --- overlay "Only for subscribers": la terza pagina. Deliberatamente NON passa
-         da setView() ne' tocca body[data-view]: apre e chiude solo se stesso, quindi
-         la vista sotto (LIVE o edizione) resta esattamente dov'era e nessuna delle
-         due puo' rompersi. Nessun dato, nessun file: e' markup statico, invisibile
-         alla pipeline e ai workflow su GitHub. --- */
+  /* --- Area abbonati: il cancello di Maxoquantic. ----------------------------
+
+     COSA PROTEGGE, E COSA NO. Questa pagina e' statica su GitHub Pages: viene
+     servita identica a chiunque, e nessun controllo scritto qui dentro puo'
+     impedire niente, perche' gira sul computer del lettore e il lettore lo puo'
+     cambiare. Quello che protegge davvero il prodotto e' che i punteggi NON
+     SONO IN QUESTA PAGINA: arrivano da una richiesta autenticata al Worker, che
+     risponde solo a chi risulta pagante nel momento in cui chiede. Il codice qui
+     sotto e' l'interfaccia di quel cancello, non il cancello.
+
+     NIENTE COOKIE. Il sito sta su maxodave.github.io e il Worker su un altro
+     dominio: per Safari un cookie del Worker e' di terze parti e viene buttato.
+     Un accesso a cookie funzionerebbe su Chrome e si romperebbe su iPhone, cioe'
+     proprio dove la gente legge. Quindi token in localStorage, spedito
+     nell'header Authorization.
+
+     Non passa da setView() ne' tocca body[data-view]: apre e chiude solo se
+     stesso, quindi la vista sotto (LIVE o edizione) resta dov'era. --- */
   var subsFull = document.getElementById("subsFull");
-  function openSubsFull() { if (!subsFull) return; closeMcFull(); subsFull.classList.add("open"); }
+  var subsBody = document.getElementById("subsBody");
+
+  /* L'indirizzo del Worker non e' un segreto, e va bene che si veda: cio' che
+     protegge l'area non e' l'indirizzo, e' la firma del token. */
+  var CASSA_VERA = "https://abbonamenti.pim-daverio.workers.dev";
+
+  /* Aggancio per le prove in locale, e solo per quelle. Il Worker vero accetta
+     richieste unicamente da maxodave.github.io — giustamente — quindi una copia
+     del sito aperta su 127.0.0.1 non potrebbe parlarci e si vedrebbero solo
+     schermate d'errore. L'alternativa sarebbe allargare l'origine consentita
+     del Worker per il tempo di una prova: un buco che resta aperto il giorno in
+     cui ci si dimentica di richiuderlo. Meglio questa riga, che sul sito
+     pubblico non puo' fare assolutamente niente: fuori da localhost il valore
+     non viene nemmeno letto. */
+  var CASSA = CASSA_VERA;
+  if (location.hostname === "127.0.0.1" || location.hostname === "localhost") {
+    // ?cassa=... la imposta una volta e resta: cosi' la copia di prova si apre
+    // con un indirizzo solo, senza passare dalla console del browser.
+    var q = new URLSearchParams(location.search).get("cassa");
+    try {
+      if (q) localStorage.setItem("maxoquantic.cassa", q);
+      CASSA = localStorage.getItem("maxoquantic.cassa") || CASSA_VERA;
+    } catch (e) {}
+  }
+  var CHIAVE_ACCESSO = "maxoquantic.accesso";
+
+  function leggiToken() { try { return localStorage.getItem(CHIAVE_ACCESSO) || ""; } catch (e) { return ""; } }
+  function salvaToken(t) { try { localStorage.setItem(CHIAVE_ACCESSO, t); } catch (e) {} }
+  function scordaToken() { try { localStorage.removeItem(CHIAVE_ACCESSO); } catch (e) {} }
+
+  function scrivi(html) { if (subsBody) subsBody.innerHTML = html; }
+  function messaggio(testo, classe) {
+    var m = document.getElementById("subsMsg");
+    if (m) { m.textContent = testo; m.className = "subs-msg " + (classe || ""); }
+  }
+
+  function chiediAllaCassa(percorso, opzioni) {
+    var o = opzioni || {};
+    var t = leggiToken();
+    o.headers = o.headers || {};
+    if (t) o.headers.Authorization = "Bearer " + t;
+    return fetch(CASSA + percorso, o).then(function (r) {
+      return r.json().then(function (d) { d.__http = r.status; return d; },
+                           function () { return { __http: r.status }; });
+    });
+  }
+
+  function openSubsFull() {
+    if (!subsFull) return;
+    closeMcFull();
+    subsFull.classList.add("open");
+    verificaAccesso();
+  }
   function closeSubsFull() { if (subsFull) subsFull.classList.remove("open"); }
+
+  /* Si richiede lo stato A OGNI APERTURA, non una volta per sessione. Il token
+     dura trenta giorni: fidarsi solo di lui vorrebbe dire che una disdetta ha
+     effetto fra trenta giorni invece che subito. Costa una richiesta e vale la
+     differenza fra un abbonamento e un lasciapassare. */
+  function verificaAccesso() {
+    scrivi('<div class="subs-note">Checking your access&hellip;</div>');
+    if (!leggiToken()) return mostraVetrina();
+    chiediAllaCassa("/stato").then(function (r) {
+      if (r && r.attivo) return mostraStrumento(r);
+      scordaToken();
+      mostraVetrina("Your access is not active any more. Pick a plan to come back in.");
+    }).catch(function () {
+      scrivi('<div class="subs-note">Cannot reach the subscription service right now. ' +
+             'Your access is not lost &mdash; try again in a moment.</div>');
+    });
+  }
+
+  /* --- la vetrina: i tre piani ------------------------------------------- */
+  function mostraVetrina(avviso) {
+    scrivi(
+      '<div class="subs-note">Daily fundamental scores for the 150 most traded U.S. stocks, ' +
+        'rebuilt after every close. Choose how long you want in.</div>' +
+      '<div class="piani" id="piani"><div class="subs-note">Loading plans&hellip;</div></div>' +
+      '<div class="subs-riga">' +
+        '<button type="button" class="subs-link" id="giaAbbonato">Already a subscriber? Sign in</button>' +
+      '</div>' +
+      '<div class="subs-msg" id="subsMsg"></div>'
+    );
+    if (avviso) messaggio(avviso, "");
+    var g = document.getElementById("giaAbbonato");
+    if (g) g.addEventListener("click", mostraAccesso);
+
+    /* I prezzi NON sono scritti qui: li chiede al Worker, che li legge da
+       Stripe. Scritti in due posti prima o poi divergono, e quello sbagliato
+       sarebbe sempre quello letto dal cliente. */
+    fetch(CASSA + "/piani").then(function (r) { return r.json(); }).then(function (d) {
+      var piani = (d && d.piani) || [];
+      var box = document.getElementById("piani");
+      if (!box) return;
+      if (!piani.length) { box.innerHTML = '<div class="subs-note">Plans are not available right now.</div>'; return; }
+      box.innerHTML = piani.map(function (p) {
+        return '<div class="piano">' +
+          '<div class="p-nome">' + esc(p.etichetta || p.piano) + '</div>' +
+          '<div class="p-prezzo">' + esc(prezzoLeggibile(p.importo, p.valuta)) + '</div>' +
+          '<div class="p-cadenza">' + esc(cadenza(p.intervallo)) + '</div>' +
+          '<button type="button" class="btn ghost" data-piano="' + esc(p.piano) + '">Choose</button>' +
+          '</div>';
+      }).join("");
+      /* Un listener sul contenitore, non sui bottoni: se la vetrina viene
+         ridisegnata, i listener appesi ai bottoni morirebbero con loro. */
+      box.addEventListener("click", function (e) {
+        var b = e.target.closest("button[data-piano]");
+        if (b) vaiAPagare(b.getAttribute("data-piano"), b);
+      });
+    }).catch(function () {
+      var box = document.getElementById("piani");
+      if (box) box.innerHTML = '<div class="subs-note">Cannot load the plans right now.</div>';
+    });
+  }
+
+  function prezzoLeggibile(centesimi, valuta) {
+    var v = Number(centesimi);
+    if (!isFinite(v)) return "—";
+    try {
+      return new Intl.NumberFormat("en-US", { style: "currency", currency: String(valuta || "eur").toUpperCase(),
+        minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(v / 100);
+    } catch (e) { return (v / 100) + " " + String(valuta || "").toUpperCase(); }
+  }
+  function cadenza(i) {
+    return i === "week" ? "every week" : i === "month" ? "every month" : i === "year" ? "every year" : "";
+  }
+
+  function vaiAPagare(piano, bottone) {
+    bottone.disabled = true;
+    bottone.textContent = "Opening checkout…";
+    fetch(CASSA + "/checkout", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ piano: piano }),
+    }).then(function (r) { return r.json(); }).then(function (d) {
+      /* La carta non passa da qui: si va sul dominio di Stripe, che e' l'unico
+         posto in cui quel numero viene digitato. Questo sito non lo vede, non
+         lo tocca e non potrebbe conservarlo nemmeno volendo. */
+      if (d && d.url) { location.href = d.url; return; }
+      throw new Error("nessun indirizzo di pagamento");
+    }).catch(function () {
+      bottone.disabled = false;
+      bottone.textContent = "Choose";
+      messaggio("Could not open the payment page. Please try again.", "ko");
+    });
+  }
+
+  /* --- rientrare da un altro dispositivo ---------------------------------- */
+  function mostraAccesso() {
+    scrivi(
+      '<div class="subs-note">Enter the email you paid with. We send a link that signs you in &mdash; ' +
+        'there is no password to remember, and none to lose.</div>' +
+      '<form class="subs-form" id="formAccesso" novalidate>' +
+        '<input type="email" id="emailAccesso" placeholder="you@example.com" autocomplete="email" required>' +
+        '<button class="btn ghost" type="submit">Send the link</button>' +
+      '</form>' +
+      '<div class="subs-riga"><button type="button" class="subs-link" id="tornaPiani">Back to the plans</button></div>' +
+      '<div class="subs-msg" id="subsMsg"></div>'
+    );
+    document.getElementById("tornaPiani").addEventListener("click", function () { mostraVetrina(); });
+    document.getElementById("formAccesso").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var email = (document.getElementById("emailAccesso").value || "").trim();
+      if (!email) return messaggio("Enter your email address.", "ko");
+      messaggio("Sending…", "");
+      fetch(CASSA + "/accesso", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email }),
+      }).then(function (r) { return r.json().then(function (d) { d.__http = r.status; return d; }); })
+        .then(function (d) {
+          if (d.__http === 200) {
+            /* La risposta e' identica che l'indirizzo esista o no: dire "questo
+               indirizzo non risulta" trasformerebbe questo campo in un modo per
+               scoprire chi e' abbonato provando indirizzi a caso. */
+            return messaggio("If that address has an active subscription, the link is on its way.", "ok");
+          }
+          if (d.__http === 503) {
+            /* Meglio dirlo che fingere: se l'invio non e' configurato, una
+               rassicurazione falsa lascerebbe qualcuno ad aspettare un'email
+               che non partira' mai. */
+            return messaggio("Email sign-in is not switched on yet. Use the browser you paid with, or write to us.", "ko");
+          }
+          messaggio("Something went wrong. Please try again.", "ko");
+        }).catch(function () { messaggio("Cannot reach the service right now.", "ko"); });
+    });
+  }
+
+  /* --- lo strumento, per chi e' dentro ------------------------------------ */
+  function mostraStrumento(stato) {
+    scrivi(
+      '<div class="mq-barra">' +
+        '<div class="mq-chi">Signed in as <b>' + esc(stato.email || "") + '</b>' +
+          (stato.scade ? ' &middot; access until ' + esc(giornoLeggibile(stato.scade)) : '') + '</div>' +
+        '<button type="button" class="subs-link" id="esciAbbonato">Sign out</button>' +
+      '</div>' +
+      '<div class="subs-note" id="mqStato">Loading the latest scores&hellip;</div>'
+    );
+    document.getElementById("esciAbbonato").addEventListener("click", esciDaAbbonato);
+
+    chiediAllaCassa("/dati").then(function (d) {
+      if (d && d.__http === 200 && d.rows) return disegnaMaxoquantic(d);
+      var s = document.getElementById("mqStato");
+      if (!s) return;
+      s.textContent = d && d.__http === 503
+        ? "The scores have not been published yet. They are rebuilt after every U.S. close."
+        : "Could not load the scores. Your access is fine — try again in a moment.";
+    }).catch(function () {
+      var s = document.getElementById("mqStato");
+      if (s) s.textContent = "Could not reach the data service. Try again in a moment.";
+    });
+  }
+
+  /* Uscire deve voler dire uscire. Si butta il token E si cancella dalla pagina
+     tutto cio' che era arrivato dal Worker: lasciare la tabella a video dopo il
+     logout, su un portatile condiviso, vanificherebbe il cancello. */
+  function esciDaAbbonato() {
+    scordaToken();
+    mostraVetrina("Signed out. The scores are no longer on this device.");
+  }
+
+  function disegnaMaxoquantic(d) {
+    var righe = d.rows || [];
+    var seduta = (d.meta && d.meta.sessione && d.meta.sessione.data) || "";
+    var intestazioni = '<tr><th class="num">#</th><th>Ticker</th><th>Company</th><th>Sector</th>' +
+      '<th class="num">Price</th><th class="num">Day</th><th class="num">Score</th></tr>';
+    var corpo = righe.map(function (r, i) {
+      var pct = Number(r.change_pct);
+      var classe = !isFinite(pct) ? "" : pct >= 0 ? " mq-su" : " mq-giu";
+      /* esc() su ogni campo: nome e settore arrivano da Yahoo, quindi da fuori.
+         Sono dati, non markup, e vanno trattati cosi' anche se oggi sono
+         innocui — il giorno in cui uno contenesse un tag, sarebbe tardi. */
+      return '<tr>' +
+        '<td class="num">' + (Number(r.rank) || i + 1) + '</td>' +
+        '<td class="sym">' + esc(r.symbol) + '</td>' +
+        '<td class="soc">' + esc(r.name) + '</td>' +
+        '<td class="soc">' + esc(r.sector || "—") + '</td>' +
+        '<td class="num">' + esc(numero(r.price, 2)) + '</td>' +
+        '<td class="num' + classe + '">' + esc(percentuale(pct)) + '</td>' +
+        '<td class="mq-punteggio">' + esc(numero(r.score, 1)) +
+          (r.reliable === false ? ' <span class="mq-parziale" title="Built on incomplete fundamentals">◊</span>' : '') +
+        '</td></tr>';
+    }).join("");
+
+    var s = document.getElementById("mqStato");
+    if (!s) return;
+    s.outerHTML =
+      '<table class="mq-tabella"><thead>' + intestazioni + '</thead><tbody>' + corpo + '</tbody></table>' +
+      '<div class="mq-nota">' +
+        righe.length + ' most traded U.S. stocks by dollar volume' +
+        (seduta ? ', scored on the close of ' + esc(seduta) : '') + '. ' +
+        'The <span class="mq-parziale">◊</span> mark means the score was built on incomplete fundamentals. ' +
+        'Relative score within this universe, for information only &mdash; not investment advice, ' +
+        'and not a recommendation to buy or sell.' +
+      '</div>';
+  }
+
+  function numero(v, decimali) {
+    var n = Number(v);
+    return isFinite(n) ? n.toFixed(decimali) : "—";
+  }
+  function percentuale(v) {
+    return isFinite(v) ? (v >= 0 ? "+" : "") + (v * 100).toFixed(2) + "%" : "—";
+  }
+  function giornoLeggibile(epoch) {
+    var d = new Date(Number(epoch) * 1000);
+    return isFinite(d.getTime()) ? d.toISOString().slice(0, 10) : "";
+  }
+
+  /* --- il ritorno dal pagamento ------------------------------------------- */
+  /* Stripe rimanda qui con "#accesso=ok&t=...". Il token viaggia nel FRAMMENTO
+     e non nella query: il frammento non viene spedito al server, quindi non
+     finisce nei log di GitHub Pages ne' nei Referer verso terzi. Appena letto
+     lo togliamo dalla barra degli indirizzi, cosi' non resta in cronologia. */
+  (function raccogliRitorno() {
+    var h = location.hash || "";
+    if (h.indexOf("accesso=") < 0) return;
+    var p = new URLSearchParams(h.slice(1));
+    var esito = p.get("accesso"), t = p.get("t");
+    if (esito === "ok" && t) salvaToken(t);
+    history.replaceState(null, "", location.pathname + location.search);
+    if (esito === "ok" && t) openSubsFull();
+    else if (esito) {
+      openSubsFull();
+      setTimeout(function () {
+        messaggio(esito === "scaduto"
+          ? "That sign-in link had already been used, or it expired."
+          : "Something went wrong with the payment. You have not been charged twice — check your email for a receipt.", "ko");
+      }, 400);
+    }
+  })();
+
   var subsBtn = document.getElementById("subsOnlyBtn");
   if (subsBtn) subsBtn.addEventListener("click", openSubsFull);
   var subsCloseBtn = document.getElementById("subsCloseBtn");
