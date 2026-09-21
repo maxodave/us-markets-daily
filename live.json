@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-21T19:50:42Z",
-  "market_open": true,
+  "updated": "2026-09-21T20:00:44Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.53,
-      "last": 7767.6
+      "pct": 1.49,
+      "last": 7764.8
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 2.85,
-      "last": 30490.26
+      "pct": 2.83,
+      "last": 30482.35
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.75,
-      "last": 52072.78
+      "pct": 0.71,
+      "last": 52050.26
     },
     {
       "key": "ftsemib",
@@ -32,52 +32,52 @@
       {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
-        "pct": 33.9
+        "pct": 33.68
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": 24.68
+        "pct": 23.99
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 23.16
+        "pct": 23.65
       },
       {
         "symbol": "GRPN",
         "name": "Groupon, Inc.",
-        "pct": 14.68
-      },
-      {
-        "symbol": "YSS",
-        "name": "York Space Systems Inc.",
-        "pct": 14.27
-      },
-      {
-        "symbol": "FIVN",
-        "name": "Five9, Inc.",
-        "pct": 14.2
+        "pct": 15.57
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": 14.1
+        "pct": 14.92
+      },
+      {
+        "symbol": "YSS",
+        "name": "York Space Systems Inc.",
+        "pct": 14.15
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 13.54
+        "pct": 14.14
+      },
+      {
+        "symbol": "FIVN",
+        "name": "Five9, Inc.",
+        "pct": 13.98
       },
       {
         "symbol": "XXI",
         "name": "Twenty One Capital, Inc.",
-        "pct": 13.17
+        "pct": 13.6
       },
       {
-        "symbol": "ALAB",
-        "name": "Astera Labs, Inc.",
-        "pct": 12.82
+        "symbol": "LUNR",
+        "name": "Intuitive Machines, Inc.",
+        "pct": 12.93
       }
     ],
     "losers": [
@@ -89,47 +89,47 @@
       {
         "symbol": "SCTX",
         "name": "Scribe Therapeutics Inc.",
-        "pct": -14.7
+        "pct": -15.0
       },
       {
         "symbol": "BRVE",
         "name": "Braveheart Bio, Inc.",
-        "pct": -13.94
+        "pct": -14.32
       },
       {
         "symbol": "PBLS",
         "name": "Parabilis Medicines, Inc.",
-        "pct": -12.7
+        "pct": -11.5
       },
       {
         "symbol": "APMD",
         "name": "Apnimed, Inc.",
-        "pct": -11.41
-      },
-      {
-        "symbol": "GMRS",
-        "name": "GMR Solutions Inc.",
-        "pct": -8.06
+        "pct": -9.59
       },
       {
         "symbol": "CXW",
         "name": "CoreCivic, Inc.",
-        "pct": -8.03
+        "pct": -7.98
       },
       {
         "symbol": "NVO",
         "name": "Novo Nordisk A/S",
-        "pct": -7.99
+        "pct": -7.92
+      },
+      {
+        "symbol": "GMRS",
+        "name": "GMR Solutions Inc.",
+        "pct": -7.85
       },
       {
         "symbol": "COAG",
         "name": "Hemab Therapeutics Holdings, Inc.",
-        "pct": -7.43
+        "pct": -7.82
       },
       {
-        "symbol": "LIME",
-        "name": "Neutron Holdings, Inc.",
-        "pct": -7.09
+        "symbol": "RSI",
+        "name": "Rush Street Interactive, Inc.",
+        "pct": -7.38
       }
     ],
     "universe": 1821
