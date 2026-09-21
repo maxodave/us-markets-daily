@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-18T19:31:07Z",
+  "updated": "2026-09-21T17:40:29Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.01,
-      "last": 7637.93
+      "pct": 1.35,
+      "last": 7753.91
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.3,
-      "last": 29536.23
+      "pct": 2.48,
+      "last": 30378.52
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.19,
-      "last": 51680.39
+      "pct": 0.57,
+      "last": 51977.28
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.61,
-      "last": 51545.25
+      "pct": 1.67,
+      "last": 52371.54
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "GRAL",
+        "name": "GRAIL, Inc.",
+        "pct": 32.78
+      },
+      {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 35.02
+        "pct": 26.59
       },
       {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": 17.02
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": 13.41
       },
       {
-        "symbol": "MSTR",
-        "name": "Strategy Inc",
-        "pct": 15.55
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 13.31
       },
       {
-        "symbol": "MARA",
-        "name": "MARA Holdings, Inc.",
-        "pct": 13.96
+        "symbol": "YSS",
+        "name": "York Space Systems Inc.",
+        "pct": 12.98
       },
       {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": 13.88
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "pct": 12.13
       },
       {
-        "symbol": "BIAF",
-        "name": "bioAffinity Technologies, Inc.",
-        "pct": 13.26
+        "symbol": "LUNR",
+        "name": "Intuitive Machines, Inc.",
+        "pct": 11.93
       },
       {
-        "symbol": "PS",
-        "name": "Pershing Square Inc.",
-        "pct": 12.37
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 11.63
       },
       {
-        "symbol": "SBET",
-        "name": "Sharplink, Inc.",
-        "pct": 12.05
+        "symbol": "DOCN",
+        "name": "DigitalOcean Holdings, Inc.",
+        "pct": 11.53
       },
       {
-        "symbol": "COIN",
-        "name": "Coinbase Global, Inc.",
-        "pct": 11.86
-      },
-      {
-        "symbol": "GLXY",
-        "name": "Galaxy Digital Inc.",
-        "pct": 10.35
+        "symbol": "HELP",
+        "name": "Cybin Inc.",
+        "pct": 11.4
       }
     ],
     "losers": [
       {
-        "symbol": "XENE",
-        "name": "Xenon Pharmaceuticals Inc.",
-        "pct": -30.72
+        "symbol": "APMD",
+        "name": "Apnimed, Inc.",
+        "pct": -16.72
       },
       {
-        "symbol": "DAIC",
-        "name": "CID HoldCo, Inc.",
-        "pct": -26.04
-      },
-      {
-        "symbol": "AEHL",
-        "name": "Antelope Enterprise Holdings Limited",
-        "pct": -24.21
-      },
-      {
-        "symbol": "VEEA",
-        "name": "Veea Inc.",
+        "symbol": "PBLS",
+        "name": "Parabilis Medicines, Inc.",
         "pct": -15.38
       },
       {
-        "symbol": "BTU",
-        "name": "Peabody Energy Corporation",
+        "symbol": "SCTX",
+        "name": "Scribe Therapeutics Inc.",
+        "pct": -14.58
+      },
+      {
+        "symbol": "BRVE",
+        "name": "Braveheart Bio, Inc.",
+        "pct": -13.66
+      },
+      {
+        "symbol": "BIAF",
+        "name": "bioAffinity Technologies, Inc.",
+        "pct": -13.36
+      },
+      {
+        "symbol": "COAG",
+        "name": "Hemab Therapeutics Holdings, Inc.",
+        "pct": -8.36
+      },
+      {
+        "symbol": "NVO",
+        "name": "Novo Nordisk A/S",
+        "pct": -8.23
+      },
+      {
+        "symbol": "LIME",
+        "name": "Neutron Holdings, Inc.",
+        "pct": -7.4
+      },
+      {
+        "symbol": "SSMR",
+        "name": "Sunshine Silver Mining & Refining Company",
+        "pct": -7.39
+      },
+      {
+        "symbol": "CXW",
+        "name": "CoreCivic, Inc.",
         "pct": -7.21
-      },
-      {
-        "symbol": "RDW",
-        "name": "Redwire Corporation",
-        "pct": -6.86
-      },
-      {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": -6.78
-      },
-      {
-        "symbol": "NUE",
-        "name": "Nucor Corporation",
-        "pct": -6.39
-      },
-      {
-        "symbol": "ALKS",
-        "name": "Alkermes plc",
-        "pct": -6.3
-      },
-      {
-        "symbol": "FIVN",
-        "name": "Five9, Inc.",
-        "pct": -6.22
       }
     ],
-    "universe": 1313
+    "universe": 1821
   }
 }
