@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-21T18:10:28Z",
+  "updated": "2026-09-21T18:20:28Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.47,
-      "last": 7763.18
+      "pct": 1.48,
+      "last": 7763.59
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 2.63,
-      "last": 30424.14
+      "pct": 2.67,
+      "last": 30434.56
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": 0.67,
-      "last": 52030.21
+      "last": 52028.9
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
-        "pct": 35.75
+        "pct": 37.06
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 26.1
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": 14.23
+        "pct": 26.3
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 14.11
+        "pct": 13.76
       },
       {
         "symbol": "YSS",
         "name": "York Space Systems Inc.",
-        "pct": 13.63
+        "pct": 13.67
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": 13.58
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 13.21
-      },
-      {
-        "symbol": "DOCN",
-        "name": "DigitalOcean Holdings, Inc.",
-        "pct": 12.32
-      },
-      {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "pct": 12.18
-      },
-      {
-        "symbol": "INTC",
-        "name": "Intel Corporation",
-        "pct": 11.74
+        "pct": 12.78
       },
       {
         "symbol": "HELP",
         "name": "Cybin Inc.",
-        "pct": 11.64
+        "pct": 12.29
+      },
+      {
+        "symbol": "DOCN",
+        "name": "DigitalOcean Holdings, Inc.",
+        "pct": 12.11
+      },
+      {
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "pct": 11.92
+      },
+      {
+        "symbol": "ALAB",
+        "name": "Astera Labs, Inc.",
+        "pct": 11.7
       }
     ],
     "losers": [
       {
-        "symbol": "APMD",
-        "name": "Apnimed, Inc.",
-        "pct": -16.57
-      },
-      {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -16.38
+        "pct": -18.13
       },
       {
         "symbol": "PBLS",
         "name": "Parabilis Medicines, Inc.",
-        "pct": -15.55
+        "pct": -14.59
       },
       {
-        "symbol": "BRVE",
-        "name": "Braveheart Bio, Inc.",
-        "pct": -14.35
+        "symbol": "APMD",
+        "name": "Apnimed, Inc.",
+        "pct": -13.87
       },
       {
         "symbol": "SCTX",
         "name": "Scribe Therapeutics Inc.",
-        "pct": -13.61
+        "pct": -13.71
       },
       {
-        "symbol": "SSMR",
-        "name": "Sunshine Silver Mining & Refining Company",
-        "pct": -8.38
+        "symbol": "BRVE",
+        "name": "Braveheart Bio, Inc.",
+        "pct": -13.7
       },
       {
         "symbol": "NVO",
         "name": "Novo Nordisk A/S",
-        "pct": -8.2
+        "pct": -8.25
       },
       {
-        "symbol": "LIME",
-        "name": "Neutron Holdings, Inc.",
-        "pct": -7.53
+        "symbol": "SSMR",
+        "name": "Sunshine Silver Mining & Refining Company",
+        "pct": -7.8
       },
       {
         "symbol": "CXW",
         "name": "CoreCivic, Inc.",
-        "pct": -7.15
+        "pct": -7.61
       },
       {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": -6.22
+        "symbol": "LIME",
+        "name": "Neutron Holdings, Inc.",
+        "pct": -7.58
+      },
+      {
+        "symbol": "PS",
+        "name": "Pershing Square Inc.",
+        "pct": -6.28
       }
     ],
     "universe": 1821
