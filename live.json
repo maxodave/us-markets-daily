@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-21T18:30:31Z",
+  "updated": "2026-09-21T18:40:31Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": 1.55,
-      "last": 7768.74
+      "last": 7769.21
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 2.72,
-      "last": 30449.63
+      "pct": 2.74,
+      "last": 30455.7
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.76,
-      "last": 52073.34
+      "pct": 0.75,
+      "last": 52070.97
     },
     {
       "key": "ftsemib",
@@ -32,7 +32,7 @@
       {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
-        "pct": 34.68
+        "pct": 34.91
       },
       {
         "symbol": "USDE",
@@ -40,9 +40,9 @@
         "pct": 26.49
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": 14.1
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": 14.59
       },
       {
         "symbol": "YSS",
@@ -50,86 +50,86 @@
         "pct": 14.04
       },
       {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": 13.66
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": 13.08
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 12.81
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 13.14
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": 13.09
-      },
-      {
-        "symbol": "HELP",
-        "name": "Cybin Inc.",
-        "pct": 12.53
-      },
-      {
-        "symbol": "META",
-        "name": "Meta Platforms, Inc.",
-        "pct": 12.3
+        "pct": 12.76
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "pct": 12.09
+        "pct": 12.58
+      },
+      {
+        "symbol": "HELP",
+        "name": "Cybin Inc.",
+        "pct": 12.45
+      },
+      {
+        "symbol": "META",
+        "name": "Meta Platforms, Inc.",
+        "pct": 12.41
       }
     ],
     "losers": [
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -19.06
-      },
-      {
-        "symbol": "SCTX",
-        "name": "Scribe Therapeutics Inc.",
-        "pct": -14.06
+        "pct": -19.01
       },
       {
         "symbol": "APMD",
         "name": "Apnimed, Inc.",
-        "pct": -13.28
+        "pct": -14.33
+      },
+      {
+        "symbol": "SCTX",
+        "name": "Scribe Therapeutics Inc.",
+        "pct": -14.21
       },
       {
         "symbol": "PBLS",
         "name": "Parabilis Medicines, Inc.",
-        "pct": -13.28
+        "pct": -13.1
       },
       {
         "symbol": "BRVE",
         "name": "Braveheart Bio, Inc.",
-        "pct": -13.25
+        "pct": -12.88
       },
       {
         "symbol": "NVO",
         "name": "Novo Nordisk A/S",
-        "pct": -8.08
-      },
-      {
-        "symbol": "CXW",
-        "name": "CoreCivic, Inc.",
-        "pct": -8.06
-      },
-      {
-        "symbol": "LIME",
-        "name": "Neutron Holdings, Inc.",
-        "pct": -7.85
+        "pct": -8.14
       },
       {
         "symbol": "COAG",
         "name": "Hemab Therapeutics Holdings, Inc.",
-        "pct": -6.82
+        "pct": -7.89
       },
       {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": -6.5
+        "symbol": "CXW",
+        "name": "CoreCivic, Inc.",
+        "pct": -7.85
+      },
+      {
+        "symbol": "LIME",
+        "name": "Neutron Holdings, Inc.",
+        "pct": -7.5
+      },
+      {
+        "symbol": "RSI",
+        "name": "Rush Street Interactive, Inc.",
+        "pct": -6.35
       }
     ],
     "universe": 1821
