@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-22T19:44:59Z",
-  "market_open": true,
+  "updated": "2026-09-22T20:18:30Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.13,
-      "last": 7774.69
+      "pct": -0.0,
+      "last": 7764.64
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.84,
-      "last": 30737.99
+      "pct": 0.82,
+      "last": 30732.4
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.2,
-      "last": 51947.9
+      "pct": -0.36,
+      "last": 51863.69
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": 35.34
+        "pct": 35.67
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 19.33
+        "pct": 19.85
       },
       {
         "symbol": "INOD",
         "name": "Innodata Inc.",
-        "pct": 15.19
+        "pct": 14.61
       },
       {
         "symbol": "TNGX",
         "name": "Tango Therapeutics, Inc.",
-        "pct": 14.73
+        "pct": 14.33
       },
       {
         "symbol": "GT",
         "name": "The Goodyear Tire & Rubber Company",
-        "pct": 9.46
+        "pct": 9.36
       },
       {
-        "symbol": "DKS",
-        "name": "Dick's Sporting Goods Inc",
-        "pct": 8.63
+        "symbol": "CUE",
+        "name": "Cue Biopharma, Inc.",
+        "pct": 9.3
       },
       {
-        "symbol": "ONON",
-        "name": "On Holding AG",
-        "pct": 8.58
+        "symbol": "TTAN",
+        "name": "ServiceTitan, Inc.",
+        "pct": 8.9
       },
       {
         "symbol": "RMBS",
         "name": "Rambus, Inc.",
-        "pct": 8.52
+        "pct": 8.54
+      },
+      {
+        "symbol": "DKS",
+        "name": "Dick's Sporting Goods Inc",
+        "pct": 8.34
       },
       {
         "symbol": "MPWR",
         "name": "Monolithic Power Systems, Inc.",
-        "pct": 8.05
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": 8.04
+        "pct": 8.06
       }
     ],
     "losers": [
       {
         "symbol": "VEEE",
         "name": "Twin Vee PowerCats Co.",
-        "pct": -13.63
+        "pct": -13.05
       },
       {
         "symbol": "PLNT",
         "name": "Planet Fitness, Inc.",
-        "pct": -10.49
-      },
-      {
-        "symbol": "NKTR",
-        "name": "Nektar Therapeutics",
-        "pct": -9.77
+        "pct": -9.46
       },
       {
         "symbol": "NUAI",
         "name": "New Era Energy & Digital, Inc.",
-        "pct": -9.61
+        "pct": -8.82
       },
       {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "pct": -7.49
-      },
-      {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "pct": -7.46
-      },
-      {
-        "symbol": "LPLA",
-        "name": "LPL Financial Holdings Inc.",
-        "pct": -7.21
+        "symbol": "NKTR",
+        "name": "Nektar Therapeutics",
+        "pct": -8.78
       },
       {
         "symbol": "CRML",
         "name": "Critical Metals Corp.",
-        "pct": -6.43
+        "pct": -8.47
+      },
+      {
+        "symbol": "LPLA",
+        "name": "LPL Financial Holdings Inc.",
+        "pct": -7.45
+      },
+      {
+        "symbol": "NYT",
+        "name": "New York Times Company (The)",
+        "pct": -7.2
+      },
+      {
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": -7.19
+      },
+      {
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "pct": -6.8
       },
       {
         "symbol": "TRMD",
         "name": "TORM plc",
-        "pct": -6.38
-      },
-      {
-        "symbol": "ECO",
-        "name": "Okeanis Eco Tankers Corp.",
-        "pct": -6.16
+        "pct": -6.71
       }
     ],
     "universe": 1309
