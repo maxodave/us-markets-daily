@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-22T13:21:33Z",
-  "market_open": false,
+  "updated": "2026-09-22T13:38:43Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.49,
-      "last": 7764.7
+      "pct": 0.22,
+      "last": 7781.46
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 2.83,
-      "last": 30482.35
+      "pct": 0.38,
+      "last": 30598.6
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.71,
-      "last": 52048.83
+      "pct": 0.17,
+      "last": 52139.82
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.19,
-      "last": 52243.7
+      "pct": -0.11,
+      "last": 52284.86
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "VEEE",
-        "name": "Twin Vee PowerCats Co.",
-        "pct": 100.93
+        "symbol": "VKTX",
+        "name": "Viking Therapeutics, Inc.",
+        "pct": 29.59
       },
       {
-        "symbol": "CRML",
-        "name": "Critical Metals Corp.",
-        "pct": 38.63
+        "symbol": "CUE",
+        "name": "Cue Biopharma, Inc.",
+        "pct": 13.35
       },
       {
-        "symbol": "PRTH",
-        "name": "Priority Technology Holdings, Inc.",
-        "pct": 33.79
-      },
-      {
-        "symbol": "GRAL",
-        "name": "GRAIL, Inc.",
-        "pct": 33.68
-      },
-      {
-        "symbol": "NUAI",
-        "name": "New Era Energy & Digital, Inc.",
-        "pct": 30.55
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": 24.31
+        "symbol": "ONON",
+        "name": "On Holding AG",
+        "pct": 12.59
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 23.65
+        "pct": 9.52
       },
       {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": 14.92
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 8.6
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 14.14
+        "symbol": "SHOP",
+        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
+        "pct": 7.95
       },
       {
-        "symbol": "FIVN",
-        "name": "Five9, Inc.",
-        "pct": 13.98
+        "symbol": "EGO",
+        "name": "Eldorado Gold Corporation",
+        "pct": 6.75
+      },
+      {
+        "symbol": "CPRI",
+        "name": "Capri Holdings Limited",
+        "pct": 6.43
+      },
+      {
+        "symbol": "TWLO",
+        "name": "Twilio Inc.",
+        "pct": 5.99
+      },
+      {
+        "symbol": "CE",
+        "name": "Celanese Corporation",
+        "pct": 5.57
       }
     ],
     "losers": [
       {
-        "symbol": "CUE",
-        "name": "Cue Biopharma, Inc.",
-        "pct": -23.7
+        "symbol": "VEEE",
+        "name": "Twin Vee PowerCats Co.",
+        "pct": -12.76
       },
       {
-        "symbol": "PBLS",
-        "name": "Parabilis Medicines, Inc.",
-        "pct": -11.5
+        "symbol": "NUAI",
+        "name": "New Era Energy & Digital, Inc.",
+        "pct": -8.1
       },
       {
-        "symbol": "TPB",
-        "name": "Turning Point Brands, Inc.",
-        "pct": -10.02
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": -7.91
       },
       {
-        "symbol": "CXW",
-        "name": "CoreCivic, Inc.",
-        "pct": -8.0
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": -6.2
       },
       {
-        "symbol": "NVO",
-        "name": "Novo Nordisk A/S",
-        "pct": -7.96
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -6.07
       },
       {
-        "symbol": "RSI",
-        "name": "Rush Street Interactive, Inc.",
-        "pct": -7.42
+        "symbol": "TRMD",
+        "name": "TORM plc",
+        "pct": -5.87
       },
       {
-        "symbol": "MHK",
-        "name": "Mohawk Industries, Inc.",
-        "pct": -7.0
+        "symbol": "CRML",
+        "name": "Critical Metals Corp.",
+        "pct": -5.79
       },
       {
-        "symbol": "BBT",
-        "name": "Beacon Financial Corporation",
-        "pct": -6.75
+        "symbol": "INSW",
+        "name": "International Seaways, Inc.",
+        "pct": -5.27
       },
       {
-        "symbol": "PBF",
-        "name": "PBF Energy Inc.",
-        "pct": -6.1
+        "symbol": "DHT",
+        "name": "DHT Holdings, Inc.",
+        "pct": -4.81
       },
       {
-        "symbol": "SM",
-        "name": "SM Energy Company",
-        "pct": -6.0
+        "symbol": "NAT",
+        "name": "Nordic American Tankers Limited",
+        "pct": -4.74
       }
     ],
-    "universe": 1309
+    "universe": 1306
   }
 }
