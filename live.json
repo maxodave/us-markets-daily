@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-22T14:00:37Z",
+  "updated": "2026-09-22T14:15:33Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.07,
-      "last": 7769.65
+      "pct": 0.13,
+      "last": 7774.56
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.52,
-      "last": 30639.87
+      "pct": 0.61,
+      "last": 30668.18
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.14,
-      "last": 51980.87
+      "pct": -0.27,
+      "last": 51912.05
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.18,
-      "last": 52249.12
+      "pct": -0.09,
+      "last": 52296.0
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": 34.75
+        "pct": 27.53
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 13.11
+        "pct": 13.89
       },
       {
         "symbol": "ONON",
         "name": "On Holding AG",
-        "pct": 12.78
+        "pct": 13.07
       },
       {
         "symbol": "CPRI",
         "name": "Capri Holdings Limited",
-        "pct": 11.88
+        "pct": 11.32
       },
       {
         "symbol": "SHOP",
         "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": 7.59
-      },
-      {
-        "symbol": "SNDK",
-        "name": "Sandisk Corporation",
-        "pct": 7.48
-      },
-      {
-        "symbol": "FIVN",
-        "name": "Five9, Inc.",
-        "pct": 6.48
+        "pct": 8.83
       },
       {
         "symbol": "CE",
         "name": "Celanese Corporation",
-        "pct": 6.39
+        "pct": 8.81
+      },
+      {
+        "symbol": "DKS",
+        "name": "Dick's Sporting Goods Inc",
+        "pct": 7.07
       },
       {
         "symbol": "PSKY",
         "name": "Paramount Skydance Corporation",
-        "pct": 6.26
+        "pct": 6.86
       },
       {
-        "symbol": "STX",
-        "name": "Seagate Technology Holdings PLC",
-        "pct": 6.11
+        "symbol": "MANE",
+        "name": "Veradermics, Incorporated",
+        "pct": 6.73
+      },
+      {
+        "symbol": "GT",
+        "name": "The Goodyear Tire & Rubber Company",
+        "pct": 6.57
       }
     ],
     "losers": [
       {
         "symbol": "VEEE",
         "name": "Twin Vee PowerCats Co.",
-        "pct": -16.62
-      },
-      {
-        "symbol": "CRML",
-        "name": "Critical Metals Corp.",
-        "pct": -8.13
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -7.67
-      },
-      {
-        "symbol": "NUAI",
-        "name": "New Era Energy & Digital, Inc.",
-        "pct": -6.08
-      },
-      {
-        "symbol": "ECO",
-        "name": "Okeanis Eco Tankers Corp.",
-        "pct": -5.99
+        "pct": -16.88
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": -5.39
+        "pct": -8.95
       },
       {
-        "symbol": "TRMD",
-        "name": "TORM plc",
-        "pct": -5.12
-      },
-      {
-        "symbol": "NYT",
-        "name": "New York Times Company (The)",
-        "pct": -4.88
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -8.0
       },
       {
         "symbol": "LPLA",
         "name": "LPL Financial Holdings Inc.",
-        "pct": -4.33
+        "pct": -6.83
       },
       {
-        "symbol": "VLO",
-        "name": "Valero Energy Corporation",
-        "pct": -4.31
+        "symbol": "NUAI",
+        "name": "New Era Energy & Digital, Inc.",
+        "pct": -5.82
+      },
+      {
+        "symbol": "CRML",
+        "name": "Critical Metals Corp.",
+        "pct": -5.73
+      },
+      {
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": -5.48
+      },
+      {
+        "symbol": "SCHW",
+        "name": "Charles Schwab Corporation (The)",
+        "pct": -5.12
+      },
+      {
+        "symbol": "P",
+        "name": "Everpure, Inc.",
+        "pct": -4.99
+      },
+      {
+        "symbol": "TRMD",
+        "name": "TORM plc",
+        "pct": -4.98
       }
     ],
     "universe": 1309
