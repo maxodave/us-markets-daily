@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-22T13:38:43Z",
+  "updated": "2026-09-22T13:49:23Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.22,
-      "last": 7781.46
+      "pct": 0.14,
+      "last": 7774.79
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.38,
-      "last": 30598.6
+      "pct": 0.44,
+      "last": 30615.06
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.17,
-      "last": 52139.82
+      "pct": 0.0,
+      "last": 52055.4
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.11,
-      "last": 52284.86
+      "pct": -0.19,
+      "last": 52242.41
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": 29.59
-      },
-      {
-        "symbol": "CUE",
-        "name": "Cue Biopharma, Inc.",
-        "pct": 13.35
+        "pct": 34.77
       },
       {
         "symbol": "ONON",
         "name": "On Holding AG",
-        "pct": 12.59
-      },
-      {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": 9.52
+        "pct": 13.87
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 8.6
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": 7.95
-      },
-      {
-        "symbol": "EGO",
-        "name": "Eldorado Gold Corporation",
-        "pct": 6.75
+        "pct": 10.45
       },
       {
         "symbol": "CPRI",
         "name": "Capri Holdings Limited",
-        "pct": 6.43
+        "pct": 10.44
       },
       {
-        "symbol": "TWLO",
-        "name": "Twilio Inc.",
-        "pct": 5.99
+        "symbol": "SHOP",
+        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
+        "pct": 8.37
       },
       {
         "symbol": "CE",
         "name": "Celanese Corporation",
-        "pct": 5.57
+        "pct": 7.75
+      },
+      {
+        "symbol": "EGO",
+        "name": "Eldorado Gold Corporation",
+        "pct": 6.74
+      },
+      {
+        "symbol": "EAT",
+        "name": "Brinker International, Inc.",
+        "pct": 6.49
+      },
+      {
+        "symbol": "SNDK",
+        "name": "Sandisk Corporation",
+        "pct": 6.24
+      },
+      {
+        "symbol": "LEN",
+        "name": "Lennar Corporation",
+        "pct": 5.58
       }
     ],
     "losers": [
       {
         "symbol": "VEEE",
         "name": "Twin Vee PowerCats Co.",
-        "pct": -12.76
+        "pct": -12.5
       },
       {
         "symbol": "NUAI",
         "name": "New Era Energy & Digital, Inc.",
-        "pct": -8.1
-      },
-      {
-        "symbol": "ECO",
-        "name": "Okeanis Eco Tankers Corp.",
-        "pct": -7.91
-      },
-      {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "pct": -6.2
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -6.07
-      },
-      {
-        "symbol": "TRMD",
-        "name": "TORM plc",
-        "pct": -5.87
+        "pct": -7.58
       },
       {
         "symbol": "CRML",
         "name": "Critical Metals Corp.",
-        "pct": -5.79
+        "pct": -7.41
       },
       {
-        "symbol": "INSW",
-        "name": "International Seaways, Inc.",
-        "pct": -5.27
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": -7.34
       },
       {
-        "symbol": "DHT",
-        "name": "DHT Holdings, Inc.",
-        "pct": -4.81
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": -5.6
       },
       {
-        "symbol": "NAT",
-        "name": "Nordic American Tankers Limited",
-        "pct": -4.74
+        "symbol": "P",
+        "name": "Everpure, Inc.",
+        "pct": -5.06
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -4.63
+      },
+      {
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": -4.24
+      },
+      {
+        "symbol": "TRMD",
+        "name": "TORM plc",
+        "pct": -4.07
+      },
+      {
+        "symbol": "NYT",
+        "name": "New York Times Company (The)",
+        "pct": -4.07
       }
     ],
-    "universe": 1306
+    "universe": 1309
   }
 }
