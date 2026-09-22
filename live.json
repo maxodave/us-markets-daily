@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-22T15:00:33Z",
+  "updated": "2026-09-22T15:10:34Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.0,
-      "last": 7764.16
+      "pct": 0.01,
+      "last": 7764.77
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.45,
-      "last": 30619.74
+      "pct": 0.46,
+      "last": 30623.98
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.45,
-      "last": 51821.45
+      "pct": -0.47,
+      "last": 51810.95
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.37,
-      "last": 52150.38
+      "pct": -0.33,
+      "last": 52168.72
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": 26.17
+        "pct": 24.73
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 12.61
+        "pct": 12.64
       },
       {
         "symbol": "ONON",
         "name": "On Holding AG",
-        "pct": 12.53
+        "pct": 11.51
       },
       {
         "symbol": "CPRI",
         "name": "Capri Holdings Limited",
-        "pct": 9.92
+        "pct": 9.22
       },
       {
         "symbol": "CE",
         "name": "Celanese Corporation",
-        "pct": 9.54
+        "pct": 8.74
       },
       {
-        "symbol": "RMBS",
-        "name": "Rambus, Inc.",
-        "pct": 7.84
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 7.95
       },
       {
         "symbol": "TNGX",
         "name": "Tango Therapeutics, Inc.",
-        "pct": 7.39
-      },
-      {
-        "symbol": "MPWR",
-        "name": "Monolithic Power Systems, Inc.",
-        "pct": 7.18
+        "pct": 7.73
       },
       {
         "symbol": "SHOP",
         "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": 6.94
+        "pct": 7.7
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 6.93
+        "pct": 6.87
+      },
+      {
+        "symbol": "DKS",
+        "name": "Dick's Sporting Goods Inc",
+        "pct": 6.84
       }
     ],
     "losers": [
       {
         "symbol": "VEEE",
         "name": "Twin Vee PowerCats Co.",
-        "pct": -16.59
+        "pct": -15.41
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": -8.95
+        "pct": -8.9
       },
       {
         "symbol": "LPLA",
         "name": "LPL Financial Holdings Inc.",
-        "pct": -8.09
+        "pct": -8.63
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -7.93
+        "pct": -7.26
       },
       {
         "symbol": "NYT",
         "name": "New York Times Company (The)",
-        "pct": -6.95
+        "pct": -7.25
       },
       {
         "symbol": "SCHW",
         "name": "Charles Schwab Corporation (The)",
-        "pct": -6.65
+        "pct": -6.77
       },
       {
         "symbol": "PLNT",
         "name": "Planet Fitness, Inc.",
-        "pct": -5.78
+        "pct": -6.25
       },
       {
-        "symbol": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "pct": -5.7
+        "symbol": "NUAI",
+        "name": "New Era Energy & Digital, Inc.",
+        "pct": -5.56
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -5.6
+        "symbol": "RYAN",
+        "name": "Ryan Specialty Holdings, Inc.",
+        "pct": -5.52
       },
       {
-        "symbol": "CRML",
-        "name": "Critical Metals Corp.",
-        "pct": -5.47
+        "symbol": "AMP",
+        "name": "Ameriprise Financial, Inc.",
+        "pct": -5.43
       }
     ],
     "universe": 1309
