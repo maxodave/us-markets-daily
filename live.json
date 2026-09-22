@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-22T14:15:33Z",
+  "updated": "2026-09-22T14:28:31Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.13,
-      "last": 7774.56
+      "pct": 0.05,
+      "last": 7768.13
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.61,
-      "last": 30668.18
+      "pct": 0.6,
+      "last": 30666.22
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.27,
-      "last": 51912.05
+      "pct": -0.47,
+      "last": 51807.99
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.09,
-      "last": 52296.0
+      "pct": -0.14,
+      "last": 52271.72
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": 27.53
+        "pct": 25.58
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 13.89
+        "pct": 13.73
       },
       {
         "symbol": "ONON",
         "name": "On Holding AG",
-        "pct": 13.07
+        "pct": 13.21
       },
       {
         "symbol": "CPRI",
         "name": "Capri Holdings Limited",
-        "pct": 11.32
+        "pct": 10.2
       },
       {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": 8.83
+        "symbol": "RMBS",
+        "name": "Rambus, Inc.",
+        "pct": 9.63
       },
       {
         "symbol": "CE",
         "name": "Celanese Corporation",
-        "pct": 8.81
+        "pct": 9.24
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
+        "pct": 7.47
       },
       {
         "symbol": "DKS",
         "name": "Dick's Sporting Goods Inc",
-        "pct": 7.07
+        "pct": 6.41
       },
       {
-        "symbol": "PSKY",
-        "name": "Paramount Skydance Corporation",
-        "pct": 6.86
+        "symbol": "SNDK",
+        "name": "Sandisk Corporation",
+        "pct": 6.31
       },
       {
-        "symbol": "MANE",
-        "name": "Veradermics, Incorporated",
-        "pct": 6.73
-      },
-      {
-        "symbol": "GT",
-        "name": "The Goodyear Tire & Rubber Company",
-        "pct": 6.57
+        "symbol": "TNGX",
+        "name": "Tango Therapeutics, Inc.",
+        "pct": 6.31
       }
     ],
     "losers": [
       {
         "symbol": "VEEE",
         "name": "Twin Vee PowerCats Co.",
-        "pct": -16.88
+        "pct": -17.75
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": -8.95
+        "pct": -9.19
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -8.0
+        "pct": -8.37
       },
       {
         "symbol": "LPLA",
         "name": "LPL Financial Holdings Inc.",
-        "pct": -6.83
-      },
-      {
-        "symbol": "NUAI",
-        "name": "New Era Energy & Digital, Inc.",
-        "pct": -5.82
+        "pct": -8.17
       },
       {
         "symbol": "CRML",
         "name": "Critical Metals Corp.",
-        "pct": -5.73
-      },
-      {
-        "symbol": "ECO",
-        "name": "Okeanis Eco Tankers Corp.",
-        "pct": -5.48
+        "pct": -6.27
       },
       {
         "symbol": "SCHW",
         "name": "Charles Schwab Corporation (The)",
-        "pct": -5.12
+        "pct": -5.89
       },
       {
-        "symbol": "P",
-        "name": "Everpure, Inc.",
-        "pct": -4.99
+        "symbol": "NYT",
+        "name": "New York Times Company (The)",
+        "pct": -5.4
       },
       {
-        "symbol": "TRMD",
-        "name": "TORM plc",
-        "pct": -4.98
+        "symbol": "DBX",
+        "name": "Dropbox, Inc.",
+        "pct": -5.39
+      },
+      {
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": -5.3
+      },
+      {
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": -5.18
       }
     ],
     "universe": 1309
