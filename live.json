@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T20:20:28Z",
+  "updated": "2026-09-22T13:03:48Z",
   "market_open": false,
   "indices": [
     {
@@ -23,16 +23,36 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.67,
-      "last": 52371.54
+      "pct": -0.23,
+      "last": 52223.59
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "VEEE",
+        "name": "Twin Vee PowerCats Co.",
+        "pct": 100.93
+      },
+      {
+        "symbol": "CRML",
+        "name": "Critical Metals Corp.",
+        "pct": 38.63
+      },
+      {
+        "symbol": "PRTH",
+        "name": "Priority Technology Holdings, Inc.",
+        "pct": 33.79
+      },
+      {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
         "pct": 33.68
+      },
+      {
+        "symbol": "NUAI",
+        "name": "New Era Energy & Digital, Inc.",
+        "pct": 30.55
       },
       {
         "symbol": "SECZ",
@@ -45,19 +65,9 @@
         "pct": 23.65
       },
       {
-        "symbol": "GRPN",
-        "name": "Groupon, Inc.",
-        "pct": 15.57
-      },
-      {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
         "pct": 14.92
-      },
-      {
-        "symbol": "YSS",
-        "name": "York Space Systems Inc.",
-        "pct": 14.15
       },
       {
         "symbol": "AXTI",
@@ -68,33 +78,13 @@
         "symbol": "FIVN",
         "name": "Five9, Inc.",
         "pct": 13.98
-      },
-      {
-        "symbol": "XXI",
-        "name": "Twenty One Capital, Inc.",
-        "pct": 13.77
-      },
-      {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "pct": 12.93
       }
     ],
     "losers": [
       {
-        "symbol": "BIAF",
-        "name": "bioAffinity Technologies, Inc.",
-        "pct": -18.35
-      },
-      {
-        "symbol": "SCTX",
-        "name": "Scribe Therapeutics Inc.",
-        "pct": -15.0
-      },
-      {
-        "symbol": "BRVE",
-        "name": "Braveheart Bio, Inc.",
-        "pct": -14.32
+        "symbol": "CUE",
+        "name": "Cue Biopharma, Inc.",
+        "pct": -23.7
       },
       {
         "symbol": "PBLS",
@@ -102,9 +92,9 @@
         "pct": -11.5
       },
       {
-        "symbol": "APMD",
-        "name": "Apnimed, Inc.",
-        "pct": -9.59
+        "symbol": "TPB",
+        "name": "Turning Point Brands, Inc.",
+        "pct": -10.02
       },
       {
         "symbol": "CXW",
@@ -117,21 +107,31 @@
         "pct": -7.96
       },
       {
-        "symbol": "GMRS",
-        "name": "GMR Solutions Inc.",
-        "pct": -7.82
-      },
-      {
-        "symbol": "COAG",
-        "name": "Hemab Therapeutics Holdings, Inc.",
-        "pct": -7.82
-      },
-      {
         "symbol": "RSI",
         "name": "Rush Street Interactive, Inc.",
         "pct": -7.42
+      },
+      {
+        "symbol": "MHK",
+        "name": "Mohawk Industries, Inc.",
+        "pct": -7.0
+      },
+      {
+        "symbol": "BBT",
+        "name": "Beacon Financial Corporation",
+        "pct": -6.75
+      },
+      {
+        "symbol": "PBF",
+        "name": "PBF Energy Inc.",
+        "pct": -6.1
+      },
+      {
+        "symbol": "SM",
+        "name": "SM Energy Company",
+        "pct": -6.0
       }
     ],
-    "universe": 1821
+    "universe": 1308
   }
 }
