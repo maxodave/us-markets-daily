@@ -636,23 +636,11 @@
   .mq-chi { font-family: var(--mono); font-size: .74rem; color: var(--muted);
     letter-spacing: .04em; }
   .mq-chi b { color: var(--text); font-weight: 600; }
-  .mq-tabella { width: 100%; border-collapse: collapse; font-size: .82rem; text-align: left; }
-  .mq-tabella th { font-family: var(--mono); font-size: .66rem; text-transform: uppercase;
-    letter-spacing: .08em; color: var(--muted); font-weight: 600; padding: 10px 8px;
-    border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--bg); }
-  .mq-tabella td { padding: 9px 8px; border-bottom: 1px solid var(--border); }
-  .mq-tabella tr:hover td { background: rgba(255,255,255,.03); }
-  .mq-tabella .num { font-family: var(--mono); text-align: right; white-space: nowrap; }
-  .mq-tabella .sym { font-family: var(--mono); font-weight: 700; }
-  .mq-tabella .soc { color: var(--muted); }
-  .mq-punteggio { font-family: var(--mono); font-weight: 700; text-align: right; }
-  .mq-tabella .mq-su { color: var(--green-5); }
-  .mq-tabella .mq-giu { color: var(--red-5); }
-  /* Il segno dei dati incompleti. Una riga costruita su meta' bilancio non deve
-     sembrare solida come le altre: il punteggio c'e' lo stesso, ma dichiarato. */
-  .mq-parziale { color: var(--cat-crypto); cursor: help; font-family: var(--mono); }
-  .mq-nota { font-size: .72rem; color: var(--muted); margin-top: 14px; line-height: 1.5;
-    text-align: left; max-width: 90ch; }
+  /* Il telaio dello strumento. Alto quanto basta perche' la tabella dentro
+     abbia il suo spazio, senza che la pagina di fuori debba scorrere due volte:
+     scorre il telaio, non l'overlay. */
+  .mq-telaio { width: 100%; height: min(78vh, 900px); min-height: 460px; border: 1px solid var(--border);
+    border-radius: 12px; margin-top: 14px; background: var(--panel); display: block; }
 
   .modal-backdrop { position: fixed; inset: 0; z-index: 130; background: rgba(3,4,8,.74); backdrop-filter: blur(6px); display: flex; align-items: center; justify-content: center; padding: 20px; opacity: 0; pointer-events: none; transition: opacity .25s ease; }
   .modal-backdrop.open { opacity: 1; pointer-events: auto; }

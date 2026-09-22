@@ -1447,74 +1447,31 @@ renderDayByDay();
           (stato.scade ? ' &middot; access until ' + esc(giornoLeggibile(stato.scade)) : '') + '</div>' +
         '<button type="button" class="subs-link" id="esciAbbonato">Sign out</button>' +
       '</div>' +
-      '<div class="subs-note" id="mqStato">Loading the latest scores&hellip;</div>'
+      /* Lo strumento sta in un TELAIO, non incollato dentro questa pagina, ed e'
+         una scelta ragionata. screener.html e' una pagina completa con un suo
+         foglio di stile di centinaia di regole: fonderla qui vorrebbe dire far
+         convivere due sistemi grafici nello stesso documento — due definizioni
+         di .card, di .btn, di body — e poi rifare quella conciliazione a ogni
+         modifica dello strumento, che e' ancora in lavorazione. Nel telaio resta
+         esattamente com'e' e continua a essere sviluppata per conto suo.
+
+         Stessa origine del sito, quindi il gettone se lo legge da sola: non
+         glielo passiamo per indirizzo (finirebbe in cronologia) ne' per
+         messaggio (codice in piu' per niente). */
+      '<iframe class="mq-telaio" id="mqTelaio" src="maxoquantic.html" title="Maxoquantic Scoring"></iframe>'
     );
     document.getElementById("esciAbbonato").addEventListener("click", esciDaAbbonato);
-
-    chiediAllaCassa("/dati").then(function (d) {
-      if (d && d.__http === 200 && d.rows) return disegnaMaxoquantic(d);
-      var s = document.getElementById("mqStato");
-      if (!s) return;
-      s.textContent = d && d.__http === 503
-        ? "The scores have not been published yet. They are rebuilt after every U.S. close."
-        : "Could not load the scores. Your access is fine — try again in a moment.";
-    }).catch(function () {
-      var s = document.getElementById("mqStato");
-      if (s) s.textContent = "Could not reach the data service. Try again in a moment.";
-    });
   }
 
-  /* Uscire deve voler dire uscire. Si butta il token E si cancella dalla pagina
-     tutto cio' che era arrivato dal Worker: lasciare la tabella a video dopo il
-     logout, su un portatile condiviso, vanificherebbe il cancello. */
+  /* Uscire deve voler dire uscire. Si butta il gettone E si smonta il telaio:
+     mostraVetrina() riscrive il corpo del pannello, quindi l'iframe sparisce
+     dal documento con dentro tutto cio' che aveva scaricato. Lasciarlo a video
+     dopo il logout, su un portatile condiviso, vanificherebbe il cancello. */
   function esciDaAbbonato() {
     scordaToken();
-    mostraVetrina("Signed out. The scores are no longer on this device.");
+    mostraVetrina("Signed out. The tool is no longer loaded on this device.");
   }
 
-  function disegnaMaxoquantic(d) {
-    var righe = d.rows || [];
-    var seduta = (d.meta && d.meta.sessione && d.meta.sessione.data) || "";
-    var intestazioni = '<tr><th class="num">#</th><th>Ticker</th><th>Company</th><th>Sector</th>' +
-      '<th class="num">Price</th><th class="num">Day</th><th class="num">Score</th></tr>';
-    var corpo = righe.map(function (r, i) {
-      var pct = Number(r.change_pct);
-      var classe = !isFinite(pct) ? "" : pct >= 0 ? " mq-su" : " mq-giu";
-      /* esc() su ogni campo: nome e settore arrivano da Yahoo, quindi da fuori.
-         Sono dati, non markup, e vanno trattati cosi' anche se oggi sono
-         innocui — il giorno in cui uno contenesse un tag, sarebbe tardi. */
-      return '<tr>' +
-        '<td class="num">' + (Number(r.rank) || i + 1) + '</td>' +
-        '<td class="sym">' + esc(r.symbol) + '</td>' +
-        '<td class="soc">' + esc(r.name) + '</td>' +
-        '<td class="soc">' + esc(r.sector || "—") + '</td>' +
-        '<td class="num">' + esc(numero(r.price, 2)) + '</td>' +
-        '<td class="num' + classe + '">' + esc(percentuale(pct)) + '</td>' +
-        '<td class="mq-punteggio">' + esc(numero(r.score, 1)) +
-          (r.reliable === false ? ' <span class="mq-parziale" title="Built on incomplete fundamentals">◊</span>' : '') +
-        '</td></tr>';
-    }).join("");
-
-    var s = document.getElementById("mqStato");
-    if (!s) return;
-    s.outerHTML =
-      '<table class="mq-tabella"><thead>' + intestazioni + '</thead><tbody>' + corpo + '</tbody></table>' +
-      '<div class="mq-nota">' +
-        righe.length + ' most traded U.S. stocks by dollar volume' +
-        (seduta ? ', scored on the close of ' + esc(seduta) : '') + '. ' +
-        'The <span class="mq-parziale">◊</span> mark means the score was built on incomplete fundamentals. ' +
-        'Relative score within this universe, for information only &mdash; not investment advice, ' +
-        'and not a recommendation to buy or sell.' +
-      '</div>';
-  }
-
-  function numero(v, decimali) {
-    var n = Number(v);
-    return isFinite(n) ? n.toFixed(decimali) : "—";
-  }
-  function percentuale(v) {
-    return isFinite(v) ? (v >= 0 ? "+" : "") + (v * 100).toFixed(2) + "%" : "—";
-  }
   function giornoLeggibile(epoch) {
     var d = new Date(Number(epoch) * 1000);
     return isFinite(d.getTime()) ? d.toISOString().slice(0, 10) : "";
