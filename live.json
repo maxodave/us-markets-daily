@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-22T13:49:23Z",
+  "updated": "2026-09-22T14:00:37Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.14,
-      "last": 7774.79
+      "pct": 0.07,
+      "last": 7769.65
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.44,
-      "last": 30615.06
+      "pct": 0.52,
+      "last": 30639.87
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.0,
-      "last": 52055.4
+      "pct": -0.14,
+      "last": 51980.87
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.19,
-      "last": 52242.41
+      "pct": -0.18,
+      "last": 52249.12
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": 34.77
-      },
-      {
-        "symbol": "ONON",
-        "name": "On Holding AG",
-        "pct": 13.87
+        "pct": 34.75
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 10.45
+        "pct": 13.11
+      },
+      {
+        "symbol": "ONON",
+        "name": "On Holding AG",
+        "pct": 12.78
       },
       {
         "symbol": "CPRI",
         "name": "Capri Holdings Limited",
-        "pct": 10.44
+        "pct": 11.88
       },
       {
         "symbol": "SHOP",
         "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": 8.37
-      },
-      {
-        "symbol": "CE",
-        "name": "Celanese Corporation",
-        "pct": 7.75
-      },
-      {
-        "symbol": "EGO",
-        "name": "Eldorado Gold Corporation",
-        "pct": 6.74
-      },
-      {
-        "symbol": "EAT",
-        "name": "Brinker International, Inc.",
-        "pct": 6.49
+        "pct": 7.59
       },
       {
         "symbol": "SNDK",
         "name": "Sandisk Corporation",
-        "pct": 6.24
+        "pct": 7.48
       },
       {
-        "symbol": "LEN",
-        "name": "Lennar Corporation",
-        "pct": 5.58
+        "symbol": "FIVN",
+        "name": "Five9, Inc.",
+        "pct": 6.48
+      },
+      {
+        "symbol": "CE",
+        "name": "Celanese Corporation",
+        "pct": 6.39
+      },
+      {
+        "symbol": "PSKY",
+        "name": "Paramount Skydance Corporation",
+        "pct": 6.26
+      },
+      {
+        "symbol": "STX",
+        "name": "Seagate Technology Holdings PLC",
+        "pct": 6.11
       }
     ],
     "losers": [
       {
         "symbol": "VEEE",
         "name": "Twin Vee PowerCats Co.",
-        "pct": -12.5
-      },
-      {
-        "symbol": "NUAI",
-        "name": "New Era Energy & Digital, Inc.",
-        "pct": -7.58
+        "pct": -16.62
       },
       {
         "symbol": "CRML",
         "name": "Critical Metals Corp.",
-        "pct": -7.41
+        "pct": -8.13
       },
       {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "pct": -7.34
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -7.67
+      },
+      {
+        "symbol": "NUAI",
+        "name": "New Era Energy & Digital, Inc.",
+        "pct": -6.08
       },
       {
         "symbol": "ECO",
         "name": "Okeanis Eco Tankers Corp.",
-        "pct": -5.6
+        "pct": -5.99
       },
       {
-        "symbol": "P",
-        "name": "Everpure, Inc.",
-        "pct": -5.06
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -4.63
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -4.24
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": -5.39
       },
       {
         "symbol": "TRMD",
         "name": "TORM plc",
-        "pct": -4.07
+        "pct": -5.12
       },
       {
         "symbol": "NYT",
         "name": "New York Times Company (The)",
-        "pct": -4.07
+        "pct": -4.88
+      },
+      {
+        "symbol": "LPLA",
+        "name": "LPL Financial Holdings Inc.",
+        "pct": -4.33
+      },
+      {
+        "symbol": "VLO",
+        "name": "Valero Energy Corporation",
+        "pct": -4.31
       }
     ],
     "universe": 1309
