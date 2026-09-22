@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-22T15:10:34Z",
+  "updated": "2026-09-22T15:20:28Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": 0.01,
-      "last": 7764.77
+      "last": 7765.14
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.46,
-      "last": 30623.98
+      "pct": 0.5,
+      "last": 30634.89
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.47,
-      "last": 51810.95
+      "last": 51806.87
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.33,
-      "last": 52168.72
+      "pct": -0.34,
+      "last": 52165.87
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": 24.73
+        "pct": 24.44
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 12.64
+        "pct": 12.67
       },
       {
         "symbol": "ONON",
         "name": "On Holding AG",
-        "pct": 11.51
+        "pct": 10.41
       },
       {
         "symbol": "CPRI",
         "name": "Capri Holdings Limited",
-        "pct": 9.22
+        "pct": 8.67
+      },
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": 8.21
       },
       {
         "symbol": "CE",
         "name": "Celanese Corporation",
-        "pct": 8.74
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": 7.95
+        "pct": 8.07
       },
       {
         "symbol": "TNGX",
         "name": "Tango Therapeutics, Inc.",
-        "pct": 7.73
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": 7.7
+        "pct": 7.99
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 6.87
+        "pct": 7.64
       },
       {
-        "symbol": "DKS",
-        "name": "Dick's Sporting Goods Inc",
-        "pct": 6.84
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 7.08
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
+        "pct": 6.72
       }
     ],
     "losers": [
       {
         "symbol": "VEEE",
         "name": "Twin Vee PowerCats Co.",
-        "pct": -15.41
-      },
-      {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "pct": -8.9
+        "pct": -18.16
       },
       {
         "symbol": "LPLA",
         "name": "LPL Financial Holdings Inc.",
-        "pct": -8.63
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -7.26
+        "pct": -9.09
       },
       {
         "symbol": "NYT",
         "name": "New York Times Company (The)",
-        "pct": -7.25
+        "pct": -8.44
       },
       {
-        "symbol": "SCHW",
-        "name": "Charles Schwab Corporation (The)",
-        "pct": -6.77
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": -8.35
       },
       {
         "symbol": "PLNT",
         "name": "Planet Fitness, Inc.",
-        "pct": -6.25
+        "pct": -7.69
       },
       {
-        "symbol": "NUAI",
-        "name": "New Era Energy & Digital, Inc.",
-        "pct": -5.56
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -6.93
       },
       {
-        "symbol": "RYAN",
-        "name": "Ryan Specialty Holdings, Inc.",
-        "pct": -5.52
+        "symbol": "SCHW",
+        "name": "Charles Schwab Corporation (The)",
+        "pct": -6.83
       },
       {
         "symbol": "AMP",
         "name": "Ameriprise Financial, Inc.",
-        "pct": -5.43
+        "pct": -6.32
+      },
+      {
+        "symbol": "ASAN",
+        "name": "Asana, Inc.",
+        "pct": -6.13
+      },
+      {
+        "symbol": "NUAI",
+        "name": "New Era Energy & Digital, Inc.",
+        "pct": -6.12
       }
     ],
     "universe": 1309
