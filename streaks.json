@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-20T23:26:26Z",
+  "updated": "2026-09-22T00:22:50Z",
   "session_date": "2026-09-18",
   "universe": 558,
   "up": {
-    "count": 193,
+    "count": 170,
     "by_length": {
-      "1": 74,
-      "2": 74,
-      "3": 27,
-      "4": 15,
-      "5": 1,
-      "6": 2
+      "1": 65,
+      "2": 61,
+      "3": 24,
+      "4": 17,
+      "5": 2,
+      "6": 1
     },
     "top": [
       {
@@ -23,15 +23,6 @@
         "cum_pct": 8.27
       },
       {
-        "symbol": "G.MI",
-        "name": "Generali",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 6,
-        "cum_pct": 3.17
-      },
-      {
         "symbol": "DXCM",
         "name": "Dexcom",
         "indices": [
@@ -40,6 +31,15 @@
         ],
         "days": 5,
         "cum_pct": 7.61
+      },
+      {
+        "symbol": "DIA.MI",
+        "name": "Diasorin",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 5,
+        "cum_pct": 4.39
       },
       {
         "symbol": "COHR",
@@ -157,12 +157,12 @@
     ]
   },
   "down": {
-    "count": 364,
+    "count": 386,
     "by_length": {
-      "1": 212,
-      "2": 45,
+      "1": 231,
+      "2": 47,
       "3": 25,
-      "4": 70,
+      "4": 71,
       "5": 8,
       "6": 3,
       "8+": 1
@@ -309,6 +309,6 @@
     ]
   },
   "flat": {
-    "count": 1
+    "count": 2
   }
 }
