@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-22T15:50:35Z",
+  "updated": "2026-09-22T16:00:38Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.06,
-      "last": 7759.61
+      "pct": -0.02,
+      "last": 7762.73
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.43,
-      "last": 30612.55
+      "pct": 0.44,
+      "last": 30617.42
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.57,
-      "last": 51754.64
+      "pct": -0.54,
+      "last": 51770.67
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": 26.67
+        "pct": 27.63
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 13.21
+        "pct": 14.16
       },
       {
         "symbol": "ONON",
         "name": "On Holding AG",
-        "pct": 10.69
-      },
-      {
-        "symbol": "CE",
-        "name": "Celanese Corporation",
-        "pct": 7.7
-      },
-      {
-        "symbol": "TNGX",
-        "name": "Tango Therapeutics, Inc.",
-        "pct": 7.48
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": 7.45
+        "pct": 12.04
       },
       {
         "symbol": "RMBS",
         "name": "Rambus, Inc.",
-        "pct": 7.23
-      },
-      {
-        "symbol": "RARE",
-        "name": "Ultragenyx Pharmaceutical Inc.",
-        "pct": 7.1
-      },
-      {
-        "symbol": "ALAB",
-        "name": "Astera Labs, Inc.",
-        "pct": 7.03
+        "pct": 8.24
       },
       {
         "symbol": "MPWR",
         "name": "Monolithic Power Systems, Inc.",
-        "pct": 6.89
+        "pct": 8.08
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
+        "pct": 7.79
+      },
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": 7.51
+      },
+      {
+        "symbol": "DKS",
+        "name": "Dick's Sporting Goods Inc",
+        "pct": 7.32
+      },
+      {
+        "symbol": "ALAB",
+        "name": "Astera Labs, Inc.",
+        "pct": 7.13
+      },
+      {
+        "symbol": "TNGX",
+        "name": "Tango Therapeutics, Inc.",
+        "pct": 7.08
       }
     ],
     "losers": [
       {
         "symbol": "VEEE",
         "name": "Twin Vee PowerCats Co.",
-        "pct": -15.43
+        "pct": -14.21
       },
       {
         "symbol": "NYT",
         "name": "New York Times Company (The)",
-        "pct": -9.47
-      },
-      {
-        "symbol": "PLNT",
-        "name": "Planet Fitness, Inc.",
-        "pct": -8.82
+        "pct": -9.55
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": -8.62
-      },
-      {
-        "symbol": "LPLA",
-        "name": "LPL Financial Holdings Inc.",
-        "pct": -7.64
+        "pct": -8.53
       },
       {
         "symbol": "CRML",
         "name": "Critical Metals Corp.",
-        "pct": -7.61
+        "pct": -8.15
+      },
+      {
+        "symbol": "PLNT",
+        "name": "Planet Fitness, Inc.",
+        "pct": -7.73
       },
       {
         "symbol": "RYAN",
         "name": "Ryan Specialty Holdings, Inc.",
-        "pct": -6.99
-      },
-      {
-        "symbol": "ASAN",
-        "name": "Asana, Inc.",
-        "pct": -6.76
+        "pct": -7.15
       },
       {
         "symbol": "GEN",
         "name": "Gen Digital Inc.",
-        "pct": -6.48
+        "pct": -6.81
       },
       {
         "symbol": "NUAI",
         "name": "New Era Energy & Digital, Inc.",
-        "pct": -6.21
+        "pct": -6.73
+      },
+      {
+        "symbol": "LPLA",
+        "name": "LPL Financial Holdings Inc.",
+        "pct": -6.62
+      },
+      {
+        "symbol": "ASAN",
+        "name": "Asana, Inc.",
+        "pct": -6.5
       }
     ],
     "universe": 1309
