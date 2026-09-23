@@ -1,37 +1,18 @@
 {
-  "updated": "2026-09-22T23:52:02Z",
-  "session_date": "2026-09-22",
+  "updated": "2026-09-23T23:59:32Z",
+  "session_date": "2026-09-23",
   "universe": 558,
   "up": {
-    "count": 299,
+    "count": 214,
     "by_length": {
-      "1": 116,
-      "2": 104,
-      "3": 20,
-      "4": 25,
-      "5": 22,
-      "6": 12
+      "1": 85,
+      "2": 72,
+      "3": 17,
+      "4": 20,
+      "5": 10,
+      "6": 10
     },
     "top": [
-      {
-        "symbol": "ARM",
-        "name": "Arm Holdings",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": 6,
-        "cum_pct": 39.41
-      },
-      {
-        "symbol": "AMD",
-        "name": "Advanced Micro Devices",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 6,
-        "cum_pct": 26.42
-      },
       {
         "symbol": "TER",
         "name": "Teradyne",
@@ -40,26 +21,17 @@
           "nasdaq100"
         ],
         "days": 6,
-        "cum_pct": 21.11
+        "cum_pct": 18.21
       },
       {
-        "symbol": "MRVL",
-        "name": "Marvell Technology",
+        "symbol": "WDC",
+        "name": "Western Digital",
         "indices": [
           "sp500",
           "nasdaq100"
         ],
         "days": 6,
-        "cum_pct": 19.9
-      },
-      {
-        "symbol": "CIEN",
-        "name": "Ciena",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 15.3
+        "cum_pct": 14.98
       },
       {
         "symbol": "A",
@@ -68,7 +40,17 @@
           "sp500"
         ],
         "days": 6,
-        "cum_pct": 13.94
+        "cum_pct": 12.62
+      },
+      {
+        "symbol": "PLTR",
+        "name": "Palantir Technologies",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 6,
+        "cum_pct": 11.14
       },
       {
         "symbol": "ASML",
@@ -77,18 +59,7 @@
           "nasdaq100"
         ],
         "days": 6,
-        "cum_pct": 10.97
-      },
-      {
-        "symbol": "NVDA",
-        "name": "Nvidia",
-        "indices": [
-          "sp500",
-          "dow",
-          "nasdaq100"
-        ],
-        "days": 6,
-        "cum_pct": 8.49
+        "cum_pct": 10.76
       },
       {
         "symbol": "ADI",
@@ -98,7 +69,7 @@
           "nasdaq100"
         ],
         "days": 6,
-        "cum_pct": 8.13
+        "cum_pct": 6.71
       },
       {
         "symbol": "JCI",
@@ -107,16 +78,25 @@
           "sp500"
         ],
         "days": 6,
-        "cum_pct": 6.3
+        "cum_pct": 5.91
       },
       {
-        "symbol": "DIA.MI",
-        "name": "Diasorin",
+        "symbol": "HUBB",
+        "name": "Hubbell Incorporated",
+        "indices": [
+          "sp500"
+        ],
+        "days": 6,
+        "cum_pct": 5.74
+      },
+      {
+        "symbol": "IG.MI",
+        "name": "Italgas",
         "indices": [
           "ftsemib"
         ],
         "days": 6,
-        "cum_pct": 6.24
+        "cum_pct": 5.67
       },
       {
         "symbol": "TDY",
@@ -125,26 +105,7 @@
           "sp500"
         ],
         "days": 6,
-        "cum_pct": 2.62
-      },
-      {
-        "symbol": "ALAB",
-        "name": "Astera Labs",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 43.92
-      },
-      {
-        "symbol": "MPWR",
-        "name": "Monolithic Power Systems",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 20.85
+        "cum_pct": 4.01
       },
       {
         "symbol": "STX",
@@ -154,22 +115,71 @@
           "nasdaq100"
         ],
         "days": 5,
-        "cum_pct": 19.18
+        "cum_pct": 19.7
+      },
+      {
+        "symbol": "MPWR",
+        "name": "Monolithic Power Systems",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 18.64
+      },
+      {
+        "symbol": "AMAT",
+        "name": "Applied Materials",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 14.2
+      },
+      {
+        "symbol": "CDNS",
+        "name": "Cadence Design Systems",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 12.82
+      },
+      {
+        "symbol": "KEYS",
+        "name": "Keysight Technologies",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 12.76
       }
     ]
   },
   "down": {
-    "count": 258,
+    "count": 342,
     "by_length": {
-      "1": 129,
-      "2": 28,
-      "3": 56,
-      "4": 9,
-      "5": 9,
+      "1": 192,
+      "2": 44,
+      "3": 58,
+      "4": 13,
+      "5": 7,
       "6": 25,
-      "7": 2
+      "7": 2,
+      "8+": 1
     },
     "top": [
+      {
+        "symbol": "REG",
+        "name": "Regency Centers",
+        "indices": [
+          "sp500"
+        ],
+        "days": -10,
+        "cum_pct": -4.21
+      },
       {
         "symbol": "CHTR",
         "name": "Charter Communications",
@@ -177,7 +187,7 @@
           "sp500"
         ],
         "days": -7,
-        "cum_pct": -19.56
+        "cum_pct": -20.0
       },
       {
         "symbol": "FISV",
@@ -186,16 +196,7 @@
           "sp500"
         ],
         "days": -7,
-        "cum_pct": -10.62
-      },
-      {
-        "symbol": "CMG",
-        "name": "Chipotle Mexican Grill",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -11.88
+        "cum_pct": -10.92
       },
       {
         "symbol": "ALL",
@@ -204,17 +205,62 @@
           "sp500"
         ],
         "days": -6,
-        "cum_pct": -11.21
+        "cum_pct": -12.7
       },
       {
-        "symbol": "CRM",
-        "name": "Salesforce",
+        "symbol": "PAYX",
+        "name": "Paychex",
         "indices": [
           "sp500",
-          "dow"
+          "nasdaq100"
         ],
         "days": -6,
-        "cum_pct": -10.08
+        "cum_pct": -11.83
+      },
+      {
+        "symbol": "ERIE",
+        "name": "Erie Indemnity",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -11.07
+      },
+      {
+        "symbol": "CVS",
+        "name": "CVS Health",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -10.14
+      },
+      {
+        "symbol": "EFX",
+        "name": "Equifax",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -9.85
+      },
+      {
+        "symbol": "BRO",
+        "name": "Brown & Brown",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -9.7
+      },
+      {
+        "symbol": "AON",
+        "name": "Aon plc",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -9.61
       },
       {
         "symbol": "IT",
@@ -223,7 +269,25 @@
           "sp500"
         ],
         "days": -6,
-        "cum_pct": -9.3
+        "cum_pct": -9.41
+      },
+      {
+        "symbol": "AJG",
+        "name": "Arthur J. Gallagher & Co.",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -9.34
+      },
+      {
+        "symbol": "FIS",
+        "name": "Fidelity National Information Services",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -9.19
       },
       {
         "symbol": "CPRT",
@@ -233,84 +297,21 @@
           "nasdaq100"
         ],
         "days": -6,
-        "cum_pct": -9.25
+        "cum_pct": -9.03
       },
       {
-        "symbol": "AJG",
-        "name": "Arthur J. Gallagher & Co.",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -9.02
-      },
-      {
-        "symbol": "CVS",
-        "name": "CVS Health",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -8.84
-      },
-      {
-        "symbol": "BRO",
-        "name": "Brown & Brown",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -8.62
-      },
-      {
-        "symbol": "FIS",
-        "name": "Fidelity National Information Services",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -8.43
-      },
-      {
-        "symbol": "AON",
-        "name": "Aon plc",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -8.17
-      },
-      {
-        "symbol": "TYL",
-        "name": "Tyler Technologies",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -7.92
-      },
-      {
-        "symbol": "ROP",
-        "name": "Roper Technologies",
+        "symbol": "PCAR",
+        "name": "Paccar",
         "indices": [
           "sp500",
           "nasdaq100"
         ],
         "days": -6,
-        "cum_pct": -7.8
-      },
-      {
-        "symbol": "ERIE",
-        "name": "Erie Indemnity",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -7.68
+        "cum_pct": -8.77
       }
     ]
   },
   "flat": {
-    "count": 1
+    "count": 2
   }
 }
