@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-24T14:21:11Z",
+  "updated": "2026-09-24T14:55:20Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.23,
-      "last": 7690.8
+      "pct": -0.4,
+      "last": 7677.48
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.52,
-      "last": 30312.5
+      "pct": -0.66,
+      "last": 30269.69
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.32,
-      "last": 51357.91
+      "pct": -0.54,
+      "last": 51243.83
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.33,
-      "last": 51853.0
+      "pct": -0.54,
+      "last": 51746.52
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": 36.73
+        "pct": 35.57
       },
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "pct": 15.74
+        "pct": 17.75
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": 11.2
+        "pct": 11.31
       },
       {
-        "symbol": "VCYT",
-        "name": "Veracyte, Inc.",
-        "pct": 9.49
+        "symbol": "GDDY",
+        "name": "GoDaddy Inc.",
+        "pct": 10.19
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": 8.39
+        "pct": 9.12
+      },
+      {
+        "symbol": "WIX",
+        "name": "Wix.com Ltd.",
+        "pct": 8.35
       },
       {
         "symbol": "QMCO",
         "name": "Quantum Corporation",
-        "pct": 7.55
+        "pct": 8.12
       },
       {
         "symbol": "CDNA",
         "name": "CareDx, Inc.",
-        "pct": 7.21
+        "pct": 7.11
       },
       {
         "symbol": "TXG",
         "name": "10x Genomics, Inc.",
-        "pct": 6.64
+        "pct": 6.76
       },
       {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "pct": 5.71
-      },
-      {
-        "symbol": "CRL",
-        "name": "Charles River Laboratories International, In",
-        "pct": 5.2
+        "symbol": "CXW",
+        "name": "CoreCivic, Inc.",
+        "pct": 6.63
       }
     ],
     "losers": [
       {
         "symbol": "WHLR",
         "name": "Wheeler Real Estate Investment Trust, Inc.",
-        "pct": -45.53
-      },
-      {
-        "symbol": "IPDN",
-        "name": "Professional Diversity Network, Inc.",
-        "pct": -35.34
+        "pct": -43.17
       },
       {
         "symbol": "ARTL",
         "name": "Artelo Biosciences, Inc.",
-        "pct": -32.15
+        "pct": -34.34
+      },
+      {
+        "symbol": "IPDN",
+        "name": "Professional Diversity Network, Inc.",
+        "pct": -33.95
       },
       {
         "symbol": "JAGX",
         "name": "Jaguar Health, Inc.",
-        "pct": -24.13
-      },
-      {
-        "symbol": "VKTX",
-        "name": "Viking Therapeutics, Inc.",
-        "pct": -14.33
+        "pct": -21.04
       },
       {
         "symbol": "SNX",
         "name": "TD SYNNEX Corporation",
-        "pct": -13.2
+        "pct": -14.96
+      },
+      {
+        "symbol": "VKTX",
+        "name": "Viking Therapeutics, Inc.",
+        "pct": -14.06
       },
       {
         "symbol": "KGC",
         "name": "Kinross Gold Corporation",
-        "pct": -10.26
+        "pct": -10.79
       },
       {
         "symbol": "MGM",
         "name": "MGM Resorts International",
-        "pct": -9.63
+        "pct": -9.55
       },
       {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": -7.42
+        "symbol": "ACMR",
+        "name": "ACM Research, Inc.",
+        "pct": -7.67
       },
       {
-        "symbol": "DK",
-        "name": "Delek US Holdings, Inc.",
-        "pct": -6.59
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": -7.53
       }
     ],
     "universe": 1312
