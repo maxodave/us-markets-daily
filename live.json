@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-24T17:24:15Z",
+  "updated": "2026-09-24T17:42:45Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.01,
-      "last": 7707.63
+      "pct": -0.11,
+      "last": 7700.2
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.03,
-      "last": 30462.6
+      "pct": -0.13,
+      "last": 30430.12
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.31,
-      "last": 51362.93
+      "pct": -0.43,
+      "last": 51303.74
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": 34.31
+        "pct": 34.05
       },
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "pct": 15.38
+        "pct": 15.18
       },
       {
         "symbol": "CDNA",
         "name": "CareDx, Inc.",
-        "pct": 14.48
+        "pct": 14.13
       },
       {
         "symbol": "QMCO",
         "name": "Quantum Corporation",
-        "pct": 14.18
-      },
-      {
-        "symbol": "TWST",
-        "name": "Twist Bioscience Corporation",
-        "pct": 11.41
+        "pct": 13.79
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 10.92
+        "pct": 11.71
+      },
+      {
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "pct": 10.81
       },
       {
         "symbol": "LIFE",
         "name": "Ethos Technologies Inc.",
-        "pct": 10.29
-      },
-      {
-        "symbol": "CRML",
-        "name": "Critical Metals Corp.",
-        "pct": 9.26
-      },
-      {
-        "symbol": "TXG",
-        "name": "10x Genomics, Inc.",
-        "pct": 8.93
+        "pct": 10.68
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": 8.7
+        "pct": 9.17
+      },
+      {
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "pct": 8.82
+      },
+      {
+        "symbol": "CRML",
+        "name": "Critical Metals Corp.",
+        "pct": 8.48
       }
     ],
     "losers": [
       {
         "symbol": "WHLR",
         "name": "Wheeler Real Estate Investment Trust, Inc.",
-        "pct": -37.5
+        "pct": -37.65
       },
       {
         "symbol": "ARTL",
         "name": "Artelo Biosciences, Inc.",
-        "pct": -34.08
+        "pct": -33.73
       },
       {
         "symbol": "IPDN",
         "name": "Professional Diversity Network, Inc.",
-        "pct": -31.27
+        "pct": -29.52
       },
       {
         "symbol": "JAGX",
         "name": "Jaguar Health, Inc.",
-        "pct": -18.63
+        "pct": -16.52
       },
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": -13.6
+        "pct": -13.71
       },
       {
         "symbol": "KGC",
         "name": "Kinross Gold Corporation",
-        "pct": -12.06
+        "pct": -12.24
       },
       {
         "symbol": "MGM",
         "name": "MGM Resorts International",
-        "pct": -11.04
+        "pct": -11.01
       },
       {
         "symbol": "SNX",
         "name": "TD SYNNEX Corporation",
-        "pct": -10.63
-      },
-      {
-        "symbol": "GEN",
-        "name": "Gen Digital Inc.",
-        "pct": -8.98
+        "pct": -10.03
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": -8.63
+        "pct": -9.76
+      },
+      {
+        "symbol": "GEN",
+        "name": "Gen Digital Inc.",
+        "pct": -9.19
       }
     ],
     "universe": 1312
