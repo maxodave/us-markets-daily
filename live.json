@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-24T13:36:39Z",
+  "updated": "2026-09-24T14:02:47Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.37,
-      "last": 7679.73
+      "pct": -0.28,
+      "last": 7686.62
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.58,
-      "last": 30292.11
+      "pct": -0.54,
+      "last": 30304.27
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.31,
-      "last": 51363.79
+      "pct": -0.32,
+      "last": 51359.86
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
       "pct": -0.25,
-      "last": 51894.65
+      "last": 51898.56
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": 14.31
+        "symbol": "GRML",
+        "name": "Greenland Mines Ltd",
+        "pct": 28.42
       },
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "pct": 13.82
-      },
-      {
-        "symbol": "GRML",
-        "name": "Greenland Mines Ltd",
-        "pct": 12.7
+        "pct": 18.41
       },
       {
         "symbol": "QMCO",
         "name": "Quantum Corporation",
-        "pct": 6.06
+        "pct": 10.55
       },
       {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "pct": 6.02
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "pct": 6.7
       },
       {
-        "symbol": "DUOL",
-        "name": "Duolingo, Inc.",
-        "pct": 3.65
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": 6.11
       },
       {
         "symbol": "CDNA",
         "name": "CareDx, Inc.",
-        "pct": 3.46
+        "pct": 5.65
       },
       {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 3.34
+        "symbol": "CRL",
+        "name": "Charles River Laboratories International, In",
+        "pct": 5.42
       },
       {
-        "symbol": "DG",
-        "name": "Dollar General Corporation",
-        "pct": 3.32
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": 5.16
       },
       {
-        "symbol": "KR",
-        "name": "Kroger Company (The)",
-        "pct": 3.3
+        "symbol": "VCYT",
+        "name": "Veracyte, Inc.",
+        "pct": 4.86
+      },
+      {
+        "symbol": "KNF",
+        "name": "Knife Riv Holding Co.",
+        "pct": 4.47
       }
     ],
     "losers": [
       {
-        "symbol": "ARTL",
-        "name": "Artelo Biosciences, Inc.",
-        "pct": -30.49
-      },
-      {
         "symbol": "WHLR",
         "name": "Wheeler Real Estate Investment Trust, Inc.",
-        "pct": -24.08
+        "pct": -43.01
+      },
+      {
+        "symbol": "ARTL",
+        "name": "Artelo Biosciences, Inc.",
+        "pct": -33.86
       },
       {
         "symbol": "IPDN",
         "name": "Professional Diversity Network, Inc.",
-        "pct": -21.96
+        "pct": -32.93
       },
       {
         "symbol": "JAGX",
         "name": "Jaguar Health, Inc.",
-        "pct": -20.31
+        "pct": -25.03
       },
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": -14.19
-      },
-      {
-        "symbol": "SNX",
-        "name": "TD SYNNEX Corporation",
-        "pct": -10.47
-      },
-      {
-        "symbol": "MGM",
-        "name": "MGM Resorts International",
-        "pct": -10.36
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": -10.11
+        "pct": -14.07
       },
       {
         "symbol": "KGC",
         "name": "Kinross Gold Corporation",
-        "pct": -8.8
+        "pct": -10.23
       },
       {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": -6.89
+        "symbol": "SNX",
+        "name": "TD SYNNEX Corporation",
+        "pct": -10.05
+      },
+      {
+        "symbol": "MGM",
+        "name": "MGM Resorts International",
+        "pct": -9.87
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -7.81
+      },
+      {
+        "symbol": "ORCL",
+        "name": "Oracle Corporation",
+        "pct": -7.13
       }
     ],
-    "universe": 1308
+    "universe": 1312
   }
 }
