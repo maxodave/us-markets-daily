@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-24T19:18:00Z",
+  "updated": "2026-09-24T19:42:02Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.04,
-      "last": 7705.36
+      "pct": -0.01,
+      "last": 7707.62
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.02,
-      "last": 30464.59
+      "pct": 0.01,
+      "last": 30473.33
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.38,
-      "last": 51327.7
+      "pct": -0.29,
+      "last": 51373.26
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": 33.51
+        "pct": 33.33
       },
       {
         "symbol": "QMCO",
         "name": "Quantum Corporation",
-        "pct": 16.38
-      },
-      {
-        "symbol": "CDNA",
-        "name": "CareDx, Inc.",
-        "pct": 14.62
-      },
-      {
-        "symbol": "WRBY",
-        "name": "Warby Parker Inc.",
-        "pct": 14.45
+        "pct": 16.94
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": 13.98
+        "pct": 15.48
+      },
+      {
+        "symbol": "CDNA",
+        "name": "CareDx, Inc.",
+        "pct": 13.53
       },
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "pct": 13.18
+        "pct": 13.11
       },
       {
         "symbol": "TXG",
         "name": "10x Genomics, Inc.",
-        "pct": 12.88
+        "pct": 11.86
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": 10.55
+        "pct": 11.42
+      },
+      {
+        "symbol": "WRBY",
+        "name": "Warby Parker Inc.",
+        "pct": 11.09
       },
       {
         "symbol": "VCYT",
         "name": "Veracyte, Inc.",
-        "pct": 10.5
+        "pct": 10.78
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": 9.19
+        "pct": 8.67
       }
     ],
     "losers": [
       {
-        "symbol": "WHLR",
-        "name": "Wheeler Real Estate Investment Trust, Inc.",
-        "pct": -33.18
-      },
-      {
         "symbol": "ARTL",
         "name": "Artelo Biosciences, Inc.",
-        "pct": -29.96
+        "pct": -30.78
+      },
+      {
+        "symbol": "WHLR",
+        "name": "Wheeler Real Estate Investment Trust, Inc.",
+        "pct": -30.51
       },
       {
         "symbol": "IPDN",
         "name": "Professional Diversity Network, Inc.",
-        "pct": -28.75
+        "pct": -27.58
       },
       {
         "symbol": "JAGX",
         "name": "Jaguar Health, Inc.",
-        "pct": -24.8
-      },
-      {
-        "symbol": "KGC",
-        "name": "Kinross Gold Corporation",
-        "pct": -12.83
+        "pct": -21.89
       },
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": -11.27
+        "pct": -11.93
+      },
+      {
+        "symbol": "KGC",
+        "name": "Kinross Gold Corporation",
+        "pct": -11.78
       },
       {
         "symbol": "MGM",
         "name": "MGM Resorts International",
-        "pct": -10.87
+        "pct": -10.49
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -10.12
       },
       {
         "symbol": "FSLR",
         "name": "First Solar, Inc.",
-        "pct": -10.57
+        "pct": -10.09
       },
       {
         "symbol": "GEN",
         "name": "Gen Digital Inc.",
-        "pct": -10.39
-      },
-      {
-        "symbol": "EQPT",
-        "name": "EquipmentShare.com Inc",
-        "pct": -9.79
+        "pct": -9.78
       }
     ],
     "universe": 1312
