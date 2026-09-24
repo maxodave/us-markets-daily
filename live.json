@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-24T14:02:47Z",
+  "updated": "2026-09-24T14:21:11Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.28,
-      "last": 7686.62
+      "pct": -0.23,
+      "last": 7690.8
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.54,
-      "last": 30304.27
+      "pct": -0.52,
+      "last": 30312.5
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.32,
-      "last": 51359.86
+      "last": 51357.91
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.25,
-      "last": 51898.56
+      "pct": -0.33,
+      "last": 51853.0
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": 28.42
+        "pct": 36.73
       },
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "pct": 18.41
-      },
-      {
-        "symbol": "QMCO",
-        "name": "Quantum Corporation",
-        "pct": 10.55
+        "pct": 15.74
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": 6.7
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": 6.11
-      },
-      {
-        "symbol": "CDNA",
-        "name": "CareDx, Inc.",
-        "pct": 5.65
-      },
-      {
-        "symbol": "CRL",
-        "name": "Charles River Laboratories International, In",
-        "pct": 5.42
-      },
-      {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "pct": 5.16
+        "pct": 11.2
       },
       {
         "symbol": "VCYT",
         "name": "Veracyte, Inc.",
-        "pct": 4.86
+        "pct": 9.49
       },
       {
-        "symbol": "KNF",
-        "name": "Knife Riv Holding Co.",
-        "pct": 4.47
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": 8.39
+      },
+      {
+        "symbol": "QMCO",
+        "name": "Quantum Corporation",
+        "pct": 7.55
+      },
+      {
+        "symbol": "CDNA",
+        "name": "CareDx, Inc.",
+        "pct": 7.21
+      },
+      {
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "pct": 6.64
+      },
+      {
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": 5.71
+      },
+      {
+        "symbol": "CRL",
+        "name": "Charles River Laboratories International, In",
+        "pct": 5.2
       }
     ],
     "losers": [
       {
         "symbol": "WHLR",
         "name": "Wheeler Real Estate Investment Trust, Inc.",
-        "pct": -43.01
-      },
-      {
-        "symbol": "ARTL",
-        "name": "Artelo Biosciences, Inc.",
-        "pct": -33.86
+        "pct": -45.53
       },
       {
         "symbol": "IPDN",
         "name": "Professional Diversity Network, Inc.",
-        "pct": -32.93
+        "pct": -35.34
+      },
+      {
+        "symbol": "ARTL",
+        "name": "Artelo Biosciences, Inc.",
+        "pct": -32.15
       },
       {
         "symbol": "JAGX",
         "name": "Jaguar Health, Inc.",
-        "pct": -25.03
+        "pct": -24.13
       },
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": -14.07
-      },
-      {
-        "symbol": "KGC",
-        "name": "Kinross Gold Corporation",
-        "pct": -10.23
+        "pct": -14.33
       },
       {
         "symbol": "SNX",
         "name": "TD SYNNEX Corporation",
-        "pct": -10.05
+        "pct": -13.2
+      },
+      {
+        "symbol": "KGC",
+        "name": "Kinross Gold Corporation",
+        "pct": -10.26
       },
       {
         "symbol": "MGM",
         "name": "MGM Resorts International",
-        "pct": -9.87
+        "pct": -9.63
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": -7.81
+        "pct": -7.42
       },
       {
-        "symbol": "ORCL",
-        "name": "Oracle Corporation",
-        "pct": -7.13
+        "symbol": "DK",
+        "name": "Delek US Holdings, Inc.",
+        "pct": -6.59
       }
     ],
     "universe": 1312
