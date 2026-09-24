@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-24T19:42:02Z",
-  "market_open": true,
+  "updated": "2026-09-24T20:13:06Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.01,
-      "last": 7707.62
+      "pct": -0.02,
+      "last": 7704.13
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.01,
-      "last": 30473.33
+      "pct": 0.03,
+      "last": 30478.86
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.29,
-      "last": 51373.26
+      "pct": -0.31,
+      "last": 51349.98
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": 33.33
-      },
-      {
-        "symbol": "QMCO",
-        "name": "Quantum Corporation",
-        "pct": 16.94
+        "pct": 33.07
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": 15.48
-      },
-      {
-        "symbol": "CDNA",
-        "name": "CareDx, Inc.",
-        "pct": 13.53
-      },
-      {
-        "symbol": "P",
-        "name": "Everpure, Inc.",
-        "pct": 13.11
-      },
-      {
-        "symbol": "TXG",
-        "name": "10x Genomics, Inc.",
-        "pct": 11.86
+        "pct": 16.11
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": 11.42
+        "pct": 14.9
+      },
+      {
+        "symbol": "QMCO",
+        "name": "Quantum Corporation",
+        "pct": 13.55
+      },
+      {
+        "symbol": "CDNA",
+        "name": "CareDx, Inc.",
+        "pct": 13.0
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 11.09
+        "pct": 12.32
+      },
+      {
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "pct": 11.23
+      },
+      {
+        "symbol": "P",
+        "name": "Everpure, Inc.",
+        "pct": 11.11
       },
       {
         "symbol": "VCYT",
         "name": "Veracyte, Inc.",
-        "pct": 10.78
+        "pct": 10.77
       },
       {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "pct": 8.67
+        "symbol": "CBRL",
+        "name": "Cracker Barrel Old Country Store, Inc.",
+        "pct": 9.09
       }
     ],
     "losers": [
       {
-        "symbol": "ARTL",
-        "name": "Artelo Biosciences, Inc.",
-        "pct": -30.78
-      },
-      {
         "symbol": "WHLR",
         "name": "Wheeler Real Estate Investment Trust, Inc.",
-        "pct": -30.51
+        "pct": -31.25
+      },
+      {
+        "symbol": "ARTL",
+        "name": "Artelo Biosciences, Inc.",
+        "pct": -29.27
       },
       {
         "symbol": "IPDN",
         "name": "Professional Diversity Network, Inc.",
-        "pct": -27.58
+        "pct": -23.06
       },
       {
         "symbol": "JAGX",
         "name": "Jaguar Health, Inc.",
-        "pct": -21.89
-      },
-      {
-        "symbol": "VKTX",
-        "name": "Viking Therapeutics, Inc.",
-        "pct": -11.93
-      },
-      {
-        "symbol": "KGC",
-        "name": "Kinross Gold Corporation",
-        "pct": -11.78
-      },
-      {
-        "symbol": "MGM",
-        "name": "MGM Resorts International",
-        "pct": -10.49
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": -10.12
-      },
-      {
-        "symbol": "FSLR",
-        "name": "First Solar, Inc.",
-        "pct": -10.09
+        "pct": -20.76
       },
       {
         "symbol": "GEN",
         "name": "Gen Digital Inc.",
-        "pct": -9.78
+        "pct": -12.05
+      },
+      {
+        "symbol": "VKTX",
+        "name": "Viking Therapeutics, Inc.",
+        "pct": -11.76
+      },
+      {
+        "symbol": "KGC",
+        "name": "Kinross Gold Corporation",
+        "pct": -11.66
+      },
+      {
+        "symbol": "MGM",
+        "name": "MGM Resorts International",
+        "pct": -11.01
+      },
+      {
+        "symbol": "FSLR",
+        "name": "First Solar, Inc.",
+        "pct": -10.32
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -10.02
       }
     ],
     "universe": 1312
