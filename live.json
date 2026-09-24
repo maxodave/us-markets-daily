@@ -1,30 +1,137 @@
 {
-  "updated": "2026-09-24T13:12:58Z",
-  "market_open": false,
+  "updated": "2026-09-24T13:36:39Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.75,
-      "last": 7706.03
+      "pct": -0.37,
+      "last": 7679.73
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.85,
-      "last": 30470.29
+      "pct": -0.58,
+      "last": 30292.11
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.68,
-      "last": 51511.59
+      "pct": -0.31,
+      "last": 51363.79
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.3,
-      "last": 51868.65
+      "pct": -0.25,
+      "last": 51894.65
     }
-  ]
+  ],
+  "movers": {
+    "gainers": [
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": 14.31
+      },
+      {
+        "symbol": "P",
+        "name": "Everpure, Inc.",
+        "pct": 13.82
+      },
+      {
+        "symbol": "GRML",
+        "name": "Greenland Mines Ltd",
+        "pct": 12.7
+      },
+      {
+        "symbol": "QMCO",
+        "name": "Quantum Corporation",
+        "pct": 6.06
+      },
+      {
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": 6.02
+      },
+      {
+        "symbol": "DUOL",
+        "name": "Duolingo, Inc.",
+        "pct": 3.65
+      },
+      {
+        "symbol": "CDNA",
+        "name": "CareDx, Inc.",
+        "pct": 3.46
+      },
+      {
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": 3.34
+      },
+      {
+        "symbol": "DG",
+        "name": "Dollar General Corporation",
+        "pct": 3.32
+      },
+      {
+        "symbol": "KR",
+        "name": "Kroger Company (The)",
+        "pct": 3.3
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "ARTL",
+        "name": "Artelo Biosciences, Inc.",
+        "pct": -30.49
+      },
+      {
+        "symbol": "WHLR",
+        "name": "Wheeler Real Estate Investment Trust, Inc.",
+        "pct": -24.08
+      },
+      {
+        "symbol": "IPDN",
+        "name": "Professional Diversity Network, Inc.",
+        "pct": -21.96
+      },
+      {
+        "symbol": "JAGX",
+        "name": "Jaguar Health, Inc.",
+        "pct": -20.31
+      },
+      {
+        "symbol": "VKTX",
+        "name": "Viking Therapeutics, Inc.",
+        "pct": -14.19
+      },
+      {
+        "symbol": "SNX",
+        "name": "TD SYNNEX Corporation",
+        "pct": -10.47
+      },
+      {
+        "symbol": "MGM",
+        "name": "MGM Resorts International",
+        "pct": -10.36
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -10.11
+      },
+      {
+        "symbol": "KGC",
+        "name": "Kinross Gold Corporation",
+        "pct": -8.8
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": -6.89
+      }
+    ],
+    "universe": 1308
+  }
 }
