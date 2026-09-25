@@ -1,58 +1,58 @@
 {
-  "updated": "2026-09-25T14:33:32Z",
+  "updated": "2026-09-25T14:46:50Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.05,
-      "last": 7707.5
+      "pct": 0.08,
+      "last": 7710.16
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.02,
-      "last": 30486.46
+      "pct": 0.05,
+      "last": 30495.5
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.26,
-      "last": 51481.44
+      "pct": 0.29,
+      "last": 51499.67
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.19,
-      "last": 51680.03
+      "pct": 0.2,
+      "last": 51687.09
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "QMCO",
-        "name": "Quantum Corporation",
-        "pct": 10.21
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": 10.16
       },
       {
         "symbol": "PPLI",
         "name": "People Incorporated",
-        "pct": 9.06
-      },
-      {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "pct": 8.63
+        "pct": 8.99
       },
       {
         "symbol": "GENI",
         "name": "Genius Sports Limited",
-        "pct": 7.76
+        "pct": 8.79
+      },
+      {
+        "symbol": "QMCO",
+        "name": "Quantum Corporation",
+        "pct": 8.68
       },
       {
         "symbol": "AKAM",
         "name": "Akamai Technologies, Inc.",
-        "pct": 7.7
+        "pct": 8.13
       },
       {
         "symbol": "GRML",
@@ -60,76 +60,76 @@
         "pct": 7.32
       },
       {
-        "symbol": "VIAV",
-        "name": "Viavi Solutions Inc.",
-        "pct": 7.0
-      },
-      {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": 6.94
+        "pct": 7.24
+      },
+      {
+        "symbol": "TSEM",
+        "name": "Tower Semiconductor Ltd.",
+        "pct": 6.68
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 6.82
+        "pct": 6.25
       },
       {
-        "symbol": "DDOG",
-        "name": "Datadog, Inc.",
-        "pct": 6.75
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": 6.02
       }
     ],
     "losers": [
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -8.47
+        "pct": -9.32
       },
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "pct": -8.29
+        "pct": -9.02
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": -8.27
-      },
-      {
-        "symbol": "CXW",
-        "name": "CoreCivic, Inc.",
-        "pct": -8.21
-      },
-      {
-        "symbol": "GME",
-        "name": "GameStop Corporation",
-        "pct": -6.95
+        "pct": -8.16
       },
       {
         "symbol": "TWLO",
         "name": "Twilio Inc.",
-        "pct": -6.69
+        "pct": -7.43
       },
       {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -5.7
+        "symbol": "CXW",
+        "name": "CoreCivic, Inc.",
+        "pct": -7.31
+      },
+      {
+        "symbol": "GME",
+        "name": "GameStop Corporation",
+        "pct": -6.97
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -5.32
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -5.31
+        "pct": -5.1
       },
       {
-        "symbol": "MARA",
-        "name": "MARA Holdings, Inc.",
-        "pct": -5.15
+        "symbol": "BB",
+        "name": "BlackBerry Limited",
+        "pct": -5.1
       },
       {
-        "symbol": "CLSK",
-        "name": "CleanSpark, Inc.",
-        "pct": -5.01
+        "symbol": "SRZN",
+        "name": "Surrozen, Inc.",
+        "pct": -4.98
       }
     ],
     "universe": 1340
