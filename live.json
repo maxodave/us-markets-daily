@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-25T15:11:36Z",
+  "updated": "2026-09-25T15:34:32Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.17,
-      "last": 7717.01
+      "pct": 0.27,
+      "last": 7724.92
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.23,
-      "last": 30549.05
+      "pct": 0.29,
+      "last": 30565.88
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.26,
-      "last": 51483.22
+      "pct": 0.44,
+      "last": 51577.64
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.46,
-      "last": 51819.9
+      "pct": 0.38,
+      "last": 51779.53
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "QMCO",
         "name": "Quantum Corporation",
-        "pct": 10.5
-      },
-      {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "pct": 10.0
-      },
-      {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": 9.49
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": 9.17
+        "pct": 10.78
       },
       {
         "symbol": "PPLI",
         "name": "People Incorporated",
-        "pct": 9.06
+        "pct": 10.37
+      },
+      {
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": 10.16
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": 9.92
       },
       {
         "symbol": "GENI",
         "name": "Genius Sports Limited",
-        "pct": 8.19
+        "pct": 9.05
       },
       {
-        "symbol": "AKAM",
-        "name": "Akamai Technologies, Inc.",
-        "pct": 7.89
-      },
-      {
-        "symbol": "HUM",
-        "name": "Humana Inc.",
-        "pct": 7.27
-      },
-      {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": 6.46
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": 8.8
       },
       {
         "symbol": "TSEM",
         "name": "Tower Semiconductor Ltd.",
-        "pct": 6.45
+        "pct": 8.36
+      },
+      {
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "pct": 7.97
+      },
+      {
+        "symbol": "GRML",
+        "name": "Greenland Mines Ltd",
+        "pct": 7.12
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": 6.8
       }
     ],
     "losers": [
       {
         "symbol": "SRZN",
         "name": "Surrozen, Inc.",
-        "pct": -10.2
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -8.91
-      },
-      {
-        "symbol": "ZS",
-        "name": "Zscaler, Inc.",
-        "pct": -8.45
-      },
-      {
-        "symbol": "CXW",
-        "name": "CoreCivic, Inc.",
-        "pct": -8.02
+        "pct": -9.92
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": -7.63
+        "pct": -9.12
       },
       {
-        "symbol": "GME",
-        "name": "GameStop Corporation",
-        "pct": -6.69
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -8.71
+      },
+      {
+        "symbol": "ZS",
+        "name": "Zscaler, Inc.",
+        "pct": -8.63
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -6.42
+        "pct": -6.79
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "pct": -6.32
+        "pct": -6.28
+      },
+      {
+        "symbol": "GME",
+        "name": "GameStop Corporation",
+        "pct": -6.02
       },
       {
         "symbol": "TWLO",
         "name": "Twilio Inc.",
-        "pct": -6.31
+        "pct": -5.98
       },
       {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -5.2
+        "symbol": "BB",
+        "name": "BlackBerry Limited",
+        "pct": -5.61
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -5.34
       }
     ],
     "universe": 1340
