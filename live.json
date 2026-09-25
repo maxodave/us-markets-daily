@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T20:13:06Z",
+  "updated": "2026-09-25T13:08:04Z",
   "market_open": false,
   "indices": [
     {
@@ -23,12 +23,17 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.93,
-      "last": 51543.45
+      "pct": 0.76,
+      "last": 51975.22
     }
   ],
   "movers": {
     "gainers": [
+      {
+        "symbol": "SRZN",
+        "name": "Surrozen, Inc.",
+        "pct": 108.42
+      },
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
@@ -40,9 +45,14 @@
         "pct": 16.11
       },
       {
+        "symbol": "GRAL",
+        "name": "GRAIL, Inc.",
+        "pct": 15.38
+      },
+      {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": 14.9
+        "pct": 15.11
       },
       {
         "symbol": "QMCO",
@@ -57,7 +67,7 @@
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 12.32
+        "pct": 12.51
       },
       {
         "symbol": "TXG",
@@ -67,44 +77,24 @@
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "pct": 11.11
-      },
-      {
-        "symbol": "VCYT",
-        "name": "Veracyte, Inc.",
-        "pct": 10.77
-      },
-      {
-        "symbol": "CBRL",
-        "name": "Cracker Barrel Old Country Store, Inc.",
-        "pct": 9.09
+        "pct": 11.15
       }
     ],
     "losers": [
       {
-        "symbol": "WHLR",
-        "name": "Wheeler Real Estate Investment Trust, Inc.",
-        "pct": -31.25
-      },
-      {
-        "symbol": "ARTL",
-        "name": "Artelo Biosciences, Inc.",
-        "pct": -29.27
-      },
-      {
-        "symbol": "IPDN",
-        "name": "Professional Diversity Network, Inc.",
-        "pct": -23.06
-      },
-      {
-        "symbol": "JAGX",
-        "name": "Jaguar Health, Inc.",
-        "pct": -20.76
+        "symbol": "ACAD",
+        "name": "ACADIA Pharmaceuticals Inc.",
+        "pct": -12.78
       },
       {
         "symbol": "GEN",
         "name": "Gen Digital Inc.",
         "pct": -12.05
+      },
+      {
+        "symbol": "GIL",
+        "name": "Gildan Activewear, Inc. Class A Sub. Vot.",
+        "pct": -12.04
       },
       {
         "symbol": "VKTX",
@@ -114,12 +104,17 @@
       {
         "symbol": "KGC",
         "name": "Kinross Gold Corporation",
-        "pct": -11.66
+        "pct": -11.59
       },
       {
         "symbol": "MGM",
         "name": "MGM Resorts International",
-        "pct": -11.01
+        "pct": -10.99
+      },
+      {
+        "symbol": "QURE",
+        "name": "uniQure N.V.",
+        "pct": -10.38
       },
       {
         "symbol": "FSLR",
@@ -130,8 +125,13 @@
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
         "pct": -10.02
+      },
+      {
+        "symbol": "SNX",
+        "name": "TD SYNNEX Corporation",
+        "pct": -9.87
       }
     ],
-    "universe": 1312
+    "universe": 1340
   }
 }
