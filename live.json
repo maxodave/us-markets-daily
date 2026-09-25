@@ -1,100 +1,90 @@
 {
-  "updated": "2026-09-25T15:52:44Z",
+  "updated": "2026-09-25T16:09:24Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.05,
-      "last": 7707.4
+      "pct": 0.51,
+      "last": 7743.06
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.02,
-      "last": 30472.44
+      "pct": 0.52,
+      "last": 30637.84
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.27,
-      "last": 51489.66
+      "pct": 0.86,
+      "last": 51791.0
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.56,
-      "last": 51868.99
+      "pct": 0.55,
+      "last": 51866.93
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "PPLI",
-        "name": "People Incorporated",
-        "pct": 10.52
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": 11.83
       },
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "pct": 10.24
+        "pct": 11.57
+      },
+      {
+        "symbol": "PPLI",
+        "name": "People Incorporated",
+        "pct": 10.66
       },
       {
         "symbol": "QMCO",
         "name": "Quantum Corporation",
-        "pct": 10.21
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": 10.11
+        "pct": 9.83
       },
       {
         "symbol": "GENI",
         "name": "Genius Sports Limited",
-        "pct": 8.97
-      },
-      {
-        "symbol": "HUM",
-        "name": "Humana Inc.",
-        "pct": 7.66
-      },
-      {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": 7.37
-      },
-      {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": 7.29
+        "pct": 9.66
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 7.02
+        "pct": 9.35
+      },
+      {
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": 8.47
+      },
+      {
+        "symbol": "FLY",
+        "name": "Firefly Aerospace Inc.",
+        "pct": 8.36
       },
       {
         "symbol": "VIAV",
         "name": "Viavi Solutions Inc.",
-        "pct": 6.63
+        "pct": 8.06
+      },
+      {
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "pct": 7.84
       }
     ],
     "losers": [
       {
-        "symbol": "SRZN",
-        "name": "Surrozen, Inc.",
-        "pct": -12.07
-      },
-      {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": -9.87
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -9.2
+        "pct": -9.16
       },
       {
         "symbol": "ZS",
@@ -102,34 +92,44 @@
         "pct": -9.1
       },
       {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": -7.45
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -7.53
       },
       {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": -7.37
+        "symbol": "SRZN",
+        "name": "Surrozen, Inc.",
+        "pct": -7.36
       },
       {
         "symbol": "TWLO",
         "name": "Twilio Inc.",
-        "pct": -7.17
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
         "pct": -7.0
       },
       {
         "symbol": "BB",
         "name": "BlackBerry Limited",
-        "pct": -6.53
+        "pct": -6.24
+      },
+      {
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -6.01
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -5.74
       },
       {
         "symbol": "GME",
         "name": "GameStop Corporation",
-        "pct": -5.92
+        "pct": -5.72
+      },
+      {
+        "symbol": "WIX",
+        "name": "Wix.com Ltd.",
+        "pct": -5.13
       }
     ],
     "universe": 1340
