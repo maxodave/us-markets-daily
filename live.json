@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-25T19:27:00Z",
+  "updated": "2026-09-25T19:45:32Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.38,
-      "last": 7733.02
+      "pct": 0.56,
+      "last": 7746.9
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.34,
-      "last": 30583.14
+      "pct": 0.49,
+      "last": 30626.98
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.78,
-      "last": 51751.71
+      "pct": 0.98,
+      "last": 51854.09
     },
     {
       "key": "ftsemib",
@@ -32,12 +32,12 @@
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 20.32
+        "pct": 21.1
       },
       {
         "symbol": "PPLI",
         "name": "People Incorporated",
-        "pct": 12.22
+        "pct": 12.02
       },
       {
         "symbol": "ALM",
@@ -47,89 +47,89 @@
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": 10.5
-      },
-      {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": 8.95
+        "pct": 10.03
       },
       {
         "symbol": "GENI",
         "name": "Genius Sports Limited",
-        "pct": 8.88
+        "pct": 9.91
       },
       {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": 8.26
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": 9.45
       },
       {
         "symbol": "VIAV",
         "name": "Viavi Solutions Inc.",
-        "pct": 8.04
+        "pct": 8.68
       },
       {
-        "symbol": "QMCO",
-        "name": "Quantum Corporation",
-        "pct": 7.24
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": 7.78
       },
       {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": 6.42
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": 7.76
+      },
+      {
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": 7.63
       }
     ],
     "losers": [
       {
         "symbol": "SRZN",
         "name": "Surrozen, Inc.",
-        "pct": -12.68
-      },
-      {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": -9.75
+        "pct": -11.43
       },
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "pct": -9.31
-      },
-      {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": -9.01
-      },
-      {
-        "symbol": "TWLO",
-        "name": "Twilio Inc.",
-        "pct": -8.09
+        "pct": -9.37
       },
       {
         "symbol": "CNXC",
         "name": "Concentrix Corporation",
-        "pct": -7.66
+        "pct": -9.05
       },
       {
-        "symbol": "GEN",
-        "name": "Gen Digital Inc.",
-        "pct": -6.52
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": -8.84
+      },
+      {
+        "symbol": "TWLO",
+        "name": "Twilio Inc.",
+        "pct": -8.51
+      },
+      {
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -8.35
       },
       {
         "symbol": "BB",
         "name": "BlackBerry Limited",
-        "pct": -6.47
-      },
-      {
-        "symbol": "S",
-        "name": "SentinelOne, Inc.",
-        "pct": -6.44
+        "pct": -7.21
       },
       {
         "symbol": "ACAD",
         "name": "ACADIA Pharmaceuticals Inc.",
-        "pct": -6.42
+        "pct": -6.76
+      },
+      {
+        "symbol": "S",
+        "name": "SentinelOne, Inc.",
+        "pct": -6.61
+      },
+      {
+        "symbol": "GME",
+        "name": "GameStop Corporation",
+        "pct": -6.55
       }
     ],
     "universe": 1340
