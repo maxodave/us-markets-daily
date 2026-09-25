@@ -1,135 +1,135 @@
 {
-  "updated": "2026-09-25T15:34:32Z",
+  "updated": "2026-09-25T15:52:44Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.27,
-      "last": 7724.92
+      "pct": 0.05,
+      "last": 7707.4
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.29,
-      "last": 30565.88
+      "pct": -0.02,
+      "last": 30472.44
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.44,
-      "last": 51577.64
+      "pct": 0.27,
+      "last": 51489.66
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.38,
-      "last": 51779.53
+      "pct": 0.56,
+      "last": 51868.99
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "QMCO",
-        "name": "Quantum Corporation",
-        "pct": 10.78
-      },
-      {
         "symbol": "PPLI",
         "name": "People Incorporated",
-        "pct": 10.37
+        "pct": 10.52
       },
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "pct": 10.16
+        "pct": 10.24
+      },
+      {
+        "symbol": "QMCO",
+        "name": "Quantum Corporation",
+        "pct": 10.21
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": 9.92
+        "pct": 10.11
       },
       {
         "symbol": "GENI",
         "name": "Genius Sports Limited",
-        "pct": 9.05
-      },
-      {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": 8.8
-      },
-      {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": 8.36
+        "pct": 8.97
       },
       {
         "symbol": "HUM",
         "name": "Humana Inc.",
-        "pct": 7.97
+        "pct": 7.66
       },
       {
-        "symbol": "GRML",
-        "name": "Greenland Mines Ltd",
-        "pct": 7.12
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": 7.37
+      },
+      {
+        "symbol": "TSEM",
+        "name": "Tower Semiconductor Ltd.",
+        "pct": 7.29
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 6.8
+        "pct": 7.02
+      },
+      {
+        "symbol": "VIAV",
+        "name": "Viavi Solutions Inc.",
+        "pct": 6.63
       }
     ],
     "losers": [
       {
         "symbol": "SRZN",
         "name": "Surrozen, Inc.",
-        "pct": -9.92
+        "pct": -12.07
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": -9.12
+        "pct": -9.87
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -8.71
+        "pct": -9.2
       },
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "pct": -8.63
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": -6.79
+        "pct": -9.1
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "pct": -6.28
+        "pct": -7.45
       },
       {
-        "symbol": "GME",
-        "name": "GameStop Corporation",
-        "pct": -6.02
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": -7.37
       },
       {
         "symbol": "TWLO",
         "name": "Twilio Inc.",
-        "pct": -5.98
-      },
-      {
-        "symbol": "BB",
-        "name": "BlackBerry Limited",
-        "pct": -5.61
+        "pct": -7.17
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": -5.34
+        "pct": -7.0
+      },
+      {
+        "symbol": "BB",
+        "name": "BlackBerry Limited",
+        "pct": -6.53
+      },
+      {
+        "symbol": "GME",
+        "name": "GameStop Corporation",
+        "pct": -5.92
       }
     ],
     "universe": 1340
