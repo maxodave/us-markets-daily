@@ -1,135 +1,135 @@
 {
-  "updated": "2026-09-25T14:46:50Z",
+  "updated": "2026-09-25T15:11:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.08,
-      "last": 7710.16
+      "pct": 0.17,
+      "last": 7717.01
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.05,
-      "last": 30495.5
+      "pct": 0.23,
+      "last": 30549.05
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.29,
-      "last": 51499.67
+      "pct": 0.26,
+      "last": 51483.22
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.2,
-      "last": 51687.09
+      "pct": 0.46,
+      "last": 51819.9
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "pct": 10.16
-      },
-      {
-        "symbol": "PPLI",
-        "name": "People Incorporated",
-        "pct": 8.99
-      },
-      {
-        "symbol": "GENI",
-        "name": "Genius Sports Limited",
-        "pct": 8.79
-      },
-      {
         "symbol": "QMCO",
         "name": "Quantum Corporation",
-        "pct": 8.68
+        "pct": 10.5
       },
       {
-        "symbol": "AKAM",
-        "name": "Akamai Technologies, Inc.",
-        "pct": 8.13
-      },
-      {
-        "symbol": "GRML",
-        "name": "Greenland Mines Ltd",
-        "pct": 7.32
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": 7.24
-      },
-      {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": 6.68
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": 10.0
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 6.25
+        "pct": 9.49
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": 9.17
+      },
+      {
+        "symbol": "PPLI",
+        "name": "People Incorporated",
+        "pct": 9.06
+      },
+      {
+        "symbol": "GENI",
+        "name": "Genius Sports Limited",
+        "pct": 8.19
+      },
+      {
+        "symbol": "AKAM",
+        "name": "Akamai Technologies, Inc.",
+        "pct": 7.89
+      },
+      {
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "pct": 7.27
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 6.02
+        "pct": 6.46
+      },
+      {
+        "symbol": "TSEM",
+        "name": "Tower Semiconductor Ltd.",
+        "pct": 6.45
       }
     ],
     "losers": [
       {
+        "symbol": "SRZN",
+        "name": "Surrozen, Inc.",
+        "pct": -10.2
+      },
+      {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -9.32
+        "pct": -8.91
       },
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "pct": -9.02
-      },
-      {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": -8.16
-      },
-      {
-        "symbol": "TWLO",
-        "name": "Twilio Inc.",
-        "pct": -7.43
+        "pct": -8.45
       },
       {
         "symbol": "CXW",
         "name": "CoreCivic, Inc.",
-        "pct": -7.31
+        "pct": -8.02
+      },
+      {
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": -7.63
       },
       {
         "symbol": "GME",
         "name": "GameStop Corporation",
-        "pct": -6.97
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": -5.32
+        "pct": -6.69
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -5.1
+        "pct": -6.42
       },
       {
-        "symbol": "BB",
-        "name": "BlackBerry Limited",
-        "pct": -5.1
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -6.32
       },
       {
-        "symbol": "SRZN",
-        "name": "Surrozen, Inc.",
-        "pct": -4.98
+        "symbol": "TWLO",
+        "name": "Twilio Inc.",
+        "pct": -6.31
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -5.2
       }
     ],
     "universe": 1340
