@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-25T16:52:22Z",
+  "updated": "2026-09-25T17:05:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.43,
-      "last": 7737.2
+      "pct": 0.48,
+      "last": 7740.78
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.43,
-      "last": 30609.83
+      "pct": 0.5,
+      "last": 30632.23
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": 0.79,
-      "last": 51754.68
+      "last": 51755.29
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 18.78
+        "pct": 18.6
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": 10.93
-      },
-      {
-        "symbol": "PPLI",
-        "name": "People Incorporated",
-        "pct": 10.72
+        "pct": 11.42
       },
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "pct": 10.56
+        "pct": 10.97
       },
       {
-        "symbol": "GENI",
-        "name": "Genius Sports Limited",
-        "pct": 10.09
-      },
-      {
-        "symbol": "FLY",
-        "name": "Firefly Aerospace Inc.",
-        "pct": 10.09
+        "symbol": "PPLI",
+        "name": "People Incorporated",
+        "pct": 10.55
       },
       {
         "symbol": "QMCO",
         "name": "Quantum Corporation",
-        "pct": 9.6
+        "pct": 10.0
       },
       {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": 9.06
+        "symbol": "VIAV",
+        "name": "Viavi Solutions Inc.",
+        "pct": 9.48
+      },
+      {
+        "symbol": "GENI",
+        "name": "Genius Sports Limited",
+        "pct": 9.3
+      },
+      {
+        "symbol": "FLY",
+        "name": "Firefly Aerospace Inc.",
+        "pct": 9.29
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 8.7
+        "pct": 9.25
       },
       {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": 8.47
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": 8.54
       }
     ],
     "losers": [
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "pct": -9.09
+        "pct": -9.04
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": -8.8
-      },
-      {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": -7.42
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -7.29
-      },
-      {
-        "symbol": "BB",
-        "name": "BlackBerry Limited",
-        "pct": -6.93
-      },
-      {
-        "symbol": "ACAD",
-        "name": "ACADIA Pharmaceuticals Inc.",
-        "pct": -6.83
-      },
-      {
-        "symbol": "TWLO",
-        "name": "Twilio Inc.",
-        "pct": -6.75
+        "pct": -8.94
       },
       {
         "symbol": "SRZN",
         "name": "Surrozen, Inc.",
-        "pct": -6.68
+        "pct": -8.88
+      },
+      {
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -7.3
+      },
+      {
+        "symbol": "TWLO",
+        "name": "Twilio Inc.",
+        "pct": -7.09
+      },
+      {
+        "symbol": "BB",
+        "name": "BlackBerry Limited",
+        "pct": -6.75
+      },
+      {
+        "symbol": "ACAD",
+        "name": "ACADIA Pharmaceuticals Inc.",
+        "pct": -6.11
       },
       {
         "symbol": "CNXC",
         "name": "Concentrix Corporation",
-        "pct": -6.43
+        "pct": -6.02
       },
       {
-        "symbol": "GME",
-        "name": "GameStop Corporation",
-        "pct": -5.46
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -5.57
+      },
+      {
+        "symbol": "BKV",
+        "name": "BKV Corporation",
+        "pct": -5.55
       }
     ],
     "universe": 1340
