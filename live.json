@@ -1,135 +1,135 @@
 {
-  "updated": "2026-09-25T13:51:08Z",
+  "updated": "2026-09-25T14:33:32Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.29,
-      "last": 7726.08
+      "pct": 0.05,
+      "last": 7707.5
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.41,
-      "last": 30604.66
+      "pct": 0.02,
+      "last": 30486.46
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.45,
-      "last": 51581.86
+      "pct": 0.26,
+      "last": 51481.44
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.59,
-      "last": 51887.58
+      "pct": 0.19,
+      "last": 51680.03
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "AKAM",
-        "name": "Akamai Technologies, Inc.",
-        "pct": 9.13
-      },
-      {
-        "symbol": "VIAV",
-        "name": "Viavi Solutions Inc.",
-        "pct": 8.84
+        "symbol": "QMCO",
+        "name": "Quantum Corporation",
+        "pct": 10.21
       },
       {
         "symbol": "PPLI",
         "name": "People Incorporated",
-        "pct": 8.71
-      },
-      {
-        "symbol": "DDOG",
-        "name": "Datadog, Inc.",
-        "pct": 8.52
-      },
-      {
-        "symbol": "GENI",
-        "name": "Genius Sports Limited",
-        "pct": 8.16
+        "pct": 9.06
       },
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "pct": 7.82
+        "pct": 8.63
       },
       {
-        "symbol": "SNX",
-        "name": "TD SYNNEX Corporation",
-        "pct": 6.8
+        "symbol": "GENI",
+        "name": "Genius Sports Limited",
+        "pct": 7.76
       },
       {
-        "symbol": "AAON",
-        "name": "AAON, Inc.",
-        "pct": 6.15
+        "symbol": "AKAM",
+        "name": "Akamai Technologies, Inc.",
+        "pct": 7.7
       },
       {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": 5.99
+        "symbol": "GRML",
+        "name": "Greenland Mines Ltd",
+        "pct": 7.32
       },
       {
-        "symbol": "BETA",
-        "name": "Beta Technologies, Inc.",
-        "pct": 5.62
+        "symbol": "VIAV",
+        "name": "Viavi Solutions Inc.",
+        "pct": 7.0
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": 6.94
+      },
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": 6.82
+      },
+      {
+        "symbol": "DDOG",
+        "name": "Datadog, Inc.",
+        "pct": 6.75
       }
     ],
     "losers": [
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": -8.73
-      },
-      {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -7.65
+        "pct": -8.47
       },
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "pct": -6.1
+        "pct": -8.29
       },
       {
-        "symbol": "CRML",
-        "name": "Critical Metals Corp.",
-        "pct": -4.22
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": -8.27
       },
       {
-        "symbol": "CRCL",
-        "name": "Circle Internet Group, Inc.",
-        "pct": -4.2
+        "symbol": "CXW",
+        "name": "CoreCivic, Inc.",
+        "pct": -8.21
       },
       {
         "symbol": "GME",
         "name": "GameStop Corporation",
-        "pct": -4.12
+        "pct": -6.95
+      },
+      {
+        "symbol": "TWLO",
+        "name": "Twilio Inc.",
+        "pct": -6.69
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -5.7
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -3.95
-      },
-      {
-        "symbol": "WIX",
-        "name": "Wix.com Ltd.",
-        "pct": -3.93
-      },
-      {
-        "symbol": "PGY",
-        "name": "Pagaya Technologies Ltd.",
-        "pct": -3.87
+        "pct": -5.31
       },
       {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
-        "pct": -3.79
+        "pct": -5.15
+      },
+      {
+        "symbol": "CLSK",
+        "name": "CleanSpark, Inc.",
+        "pct": -5.01
       }
     ],
     "universe": 1340
