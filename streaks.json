@@ -1,17 +1,17 @@
 {
-  "updated": "2026-09-26T00:06:08Z",
-  "session_date": "2026-09-24",
+  "updated": "2026-09-26T04:41:46Z",
+  "session_date": "2026-09-25",
   "universe": 558,
   "up": {
-    "count": 192,
+    "count": 344,
     "by_length": {
-      "1": 128,
-      "2": 34,
-      "3": 8,
-      "4": 10,
-      "5": 3,
-      "6": 4,
-      "7": 5
+      "1": 225,
+      "2": 93,
+      "3": 10,
+      "5": 6,
+      "6": 2,
+      "7": 5,
+      "8+": 3
     },
     "top": [
       {
@@ -21,8 +21,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 7,
-        "cum_pct": 17.54
+        "days": 8,
+        "cum_pct": 19.04
       },
       {
         "symbol": "SNPS",
@@ -31,8 +31,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 7,
-        "cum_pct": 15.56
+        "days": 8,
+        "cum_pct": 15.79
       },
       {
         "symbol": "KEYS",
@@ -40,18 +40,35 @@
         "indices": [
           "sp500"
         ],
-        "days": 7,
-        "cum_pct": 14.1
+        "days": 8,
+        "cum_pct": 15.57
       },
       {
-        "symbol": "PLTR",
-        "name": "Palantir Technologies",
+        "symbol": "EMR",
+        "name": "Emerson Electric",
         "indices": [
-          "sp500",
-          "nasdaq100"
+          "sp500"
         ],
         "days": 7,
-        "cum_pct": 11.61
+        "cum_pct": 8.5
+      },
+      {
+        "symbol": "AME",
+        "name": "Ametek",
+        "indices": [
+          "sp500"
+        ],
+        "days": 7,
+        "cum_pct": 7.99
+      },
+      {
+        "symbol": "PH",
+        "name": "Parker Hannifin",
+        "indices": [
+          "sp500"
+        ],
+        "days": 7,
+        "cum_pct": 6.48
       },
       {
         "symbol": "HUBB",
@@ -63,49 +80,13 @@
         "cum_pct": 6.24
       },
       {
-        "symbol": "EMR",
-        "name": "Emerson Electric",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 7.07
-      },
-      {
-        "symbol": "AME",
-        "name": "Ametek",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 6.7
-      },
-      {
-        "symbol": "PH",
-        "name": "Parker Hannifin",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 6.12
-      },
-      {
         "symbol": "PFE",
         "name": "Pfizer",
         "indices": [
           "sp500"
         ],
-        "days": 6,
-        "cum_pct": 3.46
-      },
-      {
-        "symbol": "CRWV",
-        "name": "CoreWeave",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 12.83
+        "days": 7,
+        "cum_pct": 4.41
       },
       {
         "symbol": "ROK",
@@ -113,8 +94,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 5.58
+        "days": 6,
+        "cum_pct": 5.88
       },
       {
         "symbol": "GEV",
@@ -122,8 +103,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 3.26
+        "days": 6,
+        "cum_pct": 3.54
       },
       {
         "symbol": "DDOG",
@@ -132,40 +113,60 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 4,
-        "cum_pct": 11.74
+        "days": 5,
+        "cum_pct": 16.62
       },
       {
-        "symbol": "MTD",
-        "name": "Mettler Toledo",
+        "symbol": "DHR",
+        "name": "Danaher Corporation",
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 9.11
+        "days": 5,
+        "cum_pct": 5.99
       },
       {
-        "symbol": "GRMN",
-        "name": "Garmin",
+        "symbol": "NDSN",
+        "name": "Nordson Corporation",
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 7.66
+        "days": 5,
+        "cum_pct": 4.56
+      },
+      {
+        "symbol": "ROST",
+        "name": "Ross Stores",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 4.2
+      },
+      {
+        "symbol": "VRTX",
+        "name": "Vertex Pharmaceuticals",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 3.51
       }
     ]
   },
   "down": {
-    "count": 364,
+    "count": 211,
     "by_length": {
-      "1": 127,
-      "2": 126,
-      "3": 50,
-      "4": 6,
-      "5": 33,
-      "6": 6,
-      "7": 2,
-      "8+": 14
+      "1": 84,
+      "2": 59,
+      "3": 38,
+      "4": 13,
+      "5": 3,
+      "6": 9,
+      "7": 1,
+      "8+": 4
     },
     "top": [
       {
@@ -175,72 +176,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -8,
-        "cum_pct": -14.28
-      },
-      {
-        "symbol": "ERIE",
-        "name": "Erie Indemnity",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -13.75
-      },
-      {
-        "symbol": "BRO",
-        "name": "Brown & Brown",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -11.71
-      },
-      {
-        "symbol": "AON",
-        "name": "Aon plc",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -11.38
-      },
-      {
-        "symbol": "CVS",
-        "name": "CVS Health",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -10.99
-      },
-      {
-        "symbol": "AJG",
-        "name": "Arthur J. Gallagher & Co.",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -10.33
-      },
-      {
-        "symbol": "PCAR",
-        "name": "Paccar",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -8,
-        "cum_pct": -9.92
-      },
-      {
-        "symbol": "WTW",
-        "name": "Willis Towers Watson",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -9.29
+        "days": -9,
+        "cum_pct": -14.46
       },
       {
         "symbol": "HIG",
@@ -248,8 +185,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -8,
-        "cum_pct": -8.65
+        "days": -9,
+        "cum_pct": -9.71
       },
       {
         "symbol": "STZ",
@@ -257,17 +194,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -8,
-        "cum_pct": -8.63
-      },
-      {
-        "symbol": "CI",
-        "name": "Cigna",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -8.46
+        "days": -9,
+        "cum_pct": -9.1
       },
       {
         "symbol": "RSG",
@@ -275,40 +203,111 @@
         "indices": [
           "sp500"
         ],
-        "days": -8,
-        "cum_pct": -5.81
+        "days": -9,
+        "cum_pct": -6.09
       },
       {
-        "symbol": "CINF",
-        "name": "Cincinnati Financial",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -5.63
-      },
-      {
-        "symbol": "ADP",
-        "name": "Automatic Data Processing",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -8,
-        "cum_pct": -4.89
-      },
-      {
-        "symbol": "CSGP",
-        "name": "CoStar Group",
+        "symbol": "LHX",
+        "name": "L3Harris",
         "indices": [
           "sp500"
         ],
         "days": -7,
-        "cum_pct": -11.72
+        "cum_pct": -5.2
+      },
+      {
+        "symbol": "ADM",
+        "name": "Archer Daniels Midland",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -7.91
+      },
+      {
+        "symbol": "CNC",
+        "name": "Centene Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -7.87
+      },
+      {
+        "symbol": "ES",
+        "name": "Eversource Energy",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -7.71
+      },
+      {
+        "symbol": "PSX",
+        "name": "Phillips 66",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -6.73
+      },
+      {
+        "symbol": "AWK",
+        "name": "American Water Works",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -5.3
+      },
+      {
+        "symbol": "WRB",
+        "name": "W. R. Berkley Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -4.68
+      },
+      {
+        "symbol": "SO",
+        "name": "Southern Company",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -4.47
+      },
+      {
+        "symbol": "ELV",
+        "name": "Elevance Health",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -4.39
+      },
+      {
+        "symbol": "CB",
+        "name": "Chubb Limited",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -2.49
+      },
+      {
+        "symbol": "HRL",
+        "name": "Hormel Foods",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -5.38
       }
     ]
   },
   "flat": {
-    "count": 2
+    "count": 3
   }
 }
