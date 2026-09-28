@@ -1,135 +1,135 @@
 {
-  "updated": "2026-09-25T19:45:32Z",
+  "updated": "2026-09-28T17:40:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.56,
-      "last": 7746.9
+      "pct": -0.54,
+      "last": 7700.68
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.49,
-      "last": 30626.98
+      "pct": -0.85,
+      "last": 30348.11
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.98,
-      "last": 51854.09
+      "pct": -0.45,
+      "last": 51597.71
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.55,
-      "last": 51866.93
+      "pct": -0.09,
+      "last": 51759.9
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": 21.1
+        "symbol": "VSXY",
+        "name": "Victorias Secret & Co.",
+        "pct": 7.53
       },
       {
-        "symbol": "PPLI",
-        "name": "People Incorporated",
-        "pct": 12.02
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": 6.46
       },
       {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "pct": 11.85
+        "symbol": "DFTX",
+        "name": "Definium Therapeutics, Inc.",
+        "pct": 6.19
       },
       {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": 10.03
+        "symbol": "AEO",
+        "name": "American Eagle Outfitters, Inc.",
+        "pct": 5.85
       },
       {
-        "symbol": "GENI",
-        "name": "Genius Sports Limited",
-        "pct": 9.91
-      },
-      {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": 9.45
-      },
-      {
-        "symbol": "VIAV",
-        "name": "Viavi Solutions Inc.",
-        "pct": 8.68
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": 7.78
-      },
-      {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": 7.76
-      },
-      {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": 7.63
-      }
-    ],
-    "losers": [
-      {
-        "symbol": "SRZN",
-        "name": "Surrozen, Inc.",
-        "pct": -11.43
-      },
-      {
-        "symbol": "ZS",
-        "name": "Zscaler, Inc.",
-        "pct": -9.37
-      },
-      {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": -9.05
-      },
-      {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": -8.84
-      },
-      {
-        "symbol": "TWLO",
-        "name": "Twilio Inc.",
-        "pct": -8.51
-      },
-      {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": -8.35
+        "symbol": "VOYG",
+        "name": "Voyager Technologies, Inc.",
+        "pct": 5.81
       },
       {
         "symbol": "BB",
         "name": "BlackBerry Limited",
-        "pct": -7.21
+        "pct": 5.72
       },
       {
-        "symbol": "ACAD",
-        "name": "ACADIA Pharmaceuticals Inc.",
-        "pct": -6.76
+        "symbol": "GAP",
+        "name": "Gap, Inc. (The)",
+        "pct": 5.57
       },
       {
-        "symbol": "S",
-        "name": "SentinelOne, Inc.",
-        "pct": -6.61
+        "symbol": "PTCT",
+        "name": "PTC Therapeutics, Inc.",
+        "pct": 5.31
       },
       {
-        "symbol": "GME",
-        "name": "GameStop Corporation",
-        "pct": -6.55
+        "symbol": "TFX",
+        "name": "Teleflex Incorporated",
+        "pct": 4.83
+      },
+      {
+        "symbol": "BURL",
+        "name": "Burlington Stores, Inc.",
+        "pct": 4.55
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "GRML",
+        "name": "Greenland Mines Ltd",
+        "pct": -18.52
+      },
+      {
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "pct": -17.12
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": -8.93
+      },
+      {
+        "symbol": "NU",
+        "name": "Nu Holdings Ltd.",
+        "pct": -8.76
+      },
+      {
+        "symbol": "MOD",
+        "name": "Modine Manufacturing Company",
+        "pct": -8.62
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": -8.22
+      },
+      {
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": -8.2
+      },
+      {
+        "symbol": "CLF",
+        "name": "Cleveland-Cliffs Inc.",
+        "pct": -8.17
+      },
+      {
+        "symbol": "RBLX",
+        "name": "Roblox Corporation",
+        "pct": -8.07
+      },
+      {
+        "symbol": "CVNA",
+        "name": "Carvana Co.",
+        "pct": -8.01
       }
     ],
     "universe": 1340
