@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-28T18:05:25Z",
+  "updated": "2026-09-28T18:25:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.5,
-      "last": 7703.25
+      "pct": -0.57,
+      "last": 7698.37
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.82,
-      "last": 30358.22
+      "pct": -0.89,
+      "last": 30336.41
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.42,
-      "last": 51608.64
+      "pct": -0.52,
+      "last": 51561.15
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
+        "symbol": "ABCL",
+        "name": "AbCellera Biologics Inc.",
+        "pct": 9.76
+      },
+      {
         "symbol": "VSXY",
         "name": "Victorias Secret & Co.",
-        "pct": 8.08
+        "pct": 8.54
       },
       {
         "symbol": "BB",
         "name": "BlackBerry Limited",
-        "pct": 6.82
+        "pct": 7.89
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": 6.63
+        "pct": 7.12
       },
       {
         "symbol": "DFTX",
         "name": "Definium Therapeutics, Inc.",
-        "pct": 6.58
+        "pct": 6.47
       },
       {
         "symbol": "GAP",
         "name": "Gap, Inc. (The)",
-        "pct": 6.21
-      },
-      {
-        "symbol": "AEO",
-        "name": "American Eagle Outfitters, Inc.",
-        "pct": 6.0
+        "pct": 6.31
       },
       {
         "symbol": "VOYG",
         "name": "Voyager Technologies, Inc.",
-        "pct": 5.84
+        "pct": 5.68
+      },
+      {
+        "symbol": "AEO",
+        "name": "American Eagle Outfitters, Inc.",
+        "pct": 5.58
       },
       {
         "symbol": "GIL",
         "name": "Gildan Activewear, Inc. Class A Sub. Vot.",
-        "pct": 5.44
-      },
-      {
-        "symbol": "ABCL",
-        "name": "AbCellera Biologics Inc.",
-        "pct": 5.43
+        "pct": 5.2
       },
       {
         "symbol": "PTCT",
         "name": "PTC Therapeutics, Inc.",
-        "pct": 5.12
+        "pct": 5.06
       }
     ],
     "losers": [
       {
-        "symbol": "MDB",
-        "name": "MongoDB, Inc.",
-        "pct": -17.14
-      },
-      {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": -16.44
+        "pct": -17.67
+      },
+      {
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "pct": -16.95
       },
       {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": -9.67
+        "pct": -9.94
       },
       {
         "symbol": "CLF",
         "name": "Cleveland-Cliffs Inc.",
-        "pct": -9.07
-      },
-      {
-        "symbol": "NU",
-        "name": "Nu Holdings Ltd.",
-        "pct": -8.83
+        "pct": -9.11
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": -8.41
+        "pct": -9.0
+      },
+      {
+        "symbol": "NU",
+        "name": "Nu Holdings Ltd.",
+        "pct": -8.9
       },
       {
         "symbol": "AUR",
         "name": "Aurora Innovation, Inc.",
-        "pct": -8.36
-      },
-      {
-        "symbol": "CVNA",
-        "name": "Carvana Co.",
-        "pct": -8.15
+        "pct": -8.86
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": -8.04
+        "pct": -8.32
       },
       {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": -7.75
+        "symbol": "RBLX",
+        "name": "Roblox Corporation",
+        "pct": -7.88
+      },
+      {
+        "symbol": "CVNA",
+        "name": "Carvana Co.",
+        "pct": -7.38
       }
     ],
     "universe": 1340
