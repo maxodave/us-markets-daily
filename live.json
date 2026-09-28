@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-28T17:40:36Z",
+  "updated": "2026-09-28T17:50:43Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.54,
-      "last": 7700.68
+      "pct": -0.51,
+      "last": 7702.95
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.85,
-      "last": 30348.11
+      "pct": -0.83,
+      "last": 30352.95
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.45,
-      "last": 51597.71
+      "pct": -0.42,
+      "last": 51612.18
     },
     {
       "key": "ftsemib",
@@ -32,27 +32,32 @@
       {
         "symbol": "VSXY",
         "name": "Victorias Secret & Co.",
-        "pct": 7.53
-      },
-      {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "pct": 6.46
+        "pct": 7.28
       },
       {
         "symbol": "DFTX",
         "name": "Definium Therapeutics, Inc.",
-        "pct": 6.19
+        "pct": 6.57
+      },
+      {
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": 6.09
       },
       {
         "symbol": "AEO",
         "name": "American Eagle Outfitters, Inc.",
-        "pct": 5.85
+        "pct": 6.0
+      },
+      {
+        "symbol": "GAP",
+        "name": "Gap, Inc. (The)",
+        "pct": 5.95
       },
       {
         "symbol": "VOYG",
         "name": "Voyager Technologies, Inc.",
-        "pct": 5.81
+        "pct": 5.74
       },
       {
         "symbol": "BB",
@@ -60,76 +65,71 @@
         "pct": 5.72
       },
       {
-        "symbol": "GAP",
-        "name": "Gap, Inc. (The)",
-        "pct": 5.57
-      },
-      {
         "symbol": "PTCT",
         "name": "PTC Therapeutics, Inc.",
-        "pct": 5.31
+        "pct": 5.15
       },
       {
         "symbol": "TFX",
         "name": "Teleflex Incorporated",
-        "pct": 4.83
+        "pct": 4.9
       },
       {
-        "symbol": "BURL",
-        "name": "Burlington Stores, Inc.",
-        "pct": 4.55
+        "symbol": "PANW",
+        "name": "Palo Alto Networks, Inc.",
+        "pct": 4.58
       }
     ],
     "losers": [
       {
-        "symbol": "GRML",
-        "name": "Greenland Mines Ltd",
-        "pct": -18.52
-      },
-      {
         "symbol": "MDB",
         "name": "MongoDB, Inc.",
-        "pct": -17.12
+        "pct": -17.34
       },
       {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": -8.93
-      },
-      {
-        "symbol": "NU",
-        "name": "Nu Holdings Ltd.",
-        "pct": -8.76
-      },
-      {
-        "symbol": "MOD",
-        "name": "Modine Manufacturing Company",
-        "pct": -8.62
-      },
-      {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": -8.22
-      },
-      {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": -8.2
+        "symbol": "GRML",
+        "name": "Greenland Mines Ltd",
+        "pct": -17.16
       },
       {
         "symbol": "CLF",
         "name": "Cleveland-Cliffs Inc.",
-        "pct": -8.17
+        "pct": -8.99
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": -8.94
+      },
+      {
+        "symbol": "MOD",
+        "name": "Modine Manufacturing Company",
+        "pct": -8.84
+      },
+      {
+        "symbol": "NU",
+        "name": "Nu Holdings Ltd.",
+        "pct": -8.79
       },
       {
         "symbol": "RBLX",
         "name": "Roblox Corporation",
-        "pct": -8.07
+        "pct": -8.18
       },
       {
-        "symbol": "CVNA",
-        "name": "Carvana Co.",
-        "pct": -8.01
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": -8.16
+      },
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": -8.06
+      },
+      {
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": -8.05
       }
     ],
     "universe": 1340
