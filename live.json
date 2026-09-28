@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-28T19:06:20Z",
+  "updated": "2026-09-28T19:24:44Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.6,
-      "last": 7695.81
+      "pct": -0.69,
+      "last": 7688.81
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.89,
-      "last": 30334.42
+      "pct": -0.98,
+      "last": 30309.1
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.58,
-      "last": 51526.82
+      "pct": -0.66,
+      "last": 51487.1
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ABCL",
         "name": "AbCellera Biologics Inc.",
-        "pct": 10.79
+        "pct": 10.98
       },
       {
         "symbol": "BB",
         "name": "BlackBerry Limited",
-        "pct": 8.89
+        "pct": 8.34
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": 7.92
+        "pct": 8.24
       },
       {
         "symbol": "VSXY",
         "name": "Victorias Secret & Co.",
-        "pct": 7.86
-      },
-      {
-        "symbol": "NKTR",
-        "name": "Nektar Therapeutics",
-        "pct": 7.1
+        "pct": 7.74
       },
       {
         "symbol": "DFTX",
         "name": "Definium Therapeutics, Inc.",
-        "pct": 6.83
+        "pct": 7.3
       },
       {
-        "symbol": "VOYG",
-        "name": "Voyager Technologies, Inc.",
-        "pct": 6.0
+        "symbol": "NKTR",
+        "name": "Nektar Therapeutics",
+        "pct": 6.34
       },
       {
         "symbol": "GAP",
         "name": "Gap, Inc. (The)",
-        "pct": 5.98
+        "pct": 5.93
       },
       {
-        "symbol": "IONS",
-        "name": "Ionis Pharmaceuticals, Inc.",
-        "pct": 5.26
+        "symbol": "BURL",
+        "name": "Burlington Stores, Inc.",
+        "pct": 5.76
       },
       {
         "symbol": "PTCT",
         "name": "PTC Therapeutics, Inc.",
-        "pct": 5.22
+        "pct": 5.25
+      },
+      {
+        "symbol": "VOYG",
+        "name": "Voyager Technologies, Inc.",
+        "pct": 5.15
       }
     ],
     "losers": [
+      {
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "pct": -16.84
+      },
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
         "pct": -16.51
       },
       {
-        "symbol": "MDB",
-        "name": "MongoDB, Inc.",
-        "pct": -16.45
-      },
-      {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": -10.08
+        "pct": -10.58
       },
       {
         "symbol": "AUR",
         "name": "Aurora Innovation, Inc.",
-        "pct": -9.77
+        "pct": -10.26
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": -9.12
-      },
-      {
-        "symbol": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "pct": -8.74
+        "pct": -9.57
       },
       {
         "symbol": "RBLX",
         "name": "Roblox Corporation",
-        "pct": -8.3
+        "pct": -8.16
       },
       {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": -7.95
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": -8.12
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": -7.76
+        "pct": -8.01
+      },
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": -7.97
       },
       {
         "symbol": "CNXC",
         "name": "Concentrix Corporation",
-        "pct": -7.72
+        "pct": -7.87
       }
     ],
     "universe": 1340
