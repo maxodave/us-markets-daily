@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-29T14:10:35Z",
+  "updated": "2026-09-29T14:20:55Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": -0.06,
-      "last": 7680.24
+      "last": 7679.65
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.22,
-      "last": 30343.17
+      "pct": 0.28,
+      "last": 30361.39
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.22,
-      "last": 51372.37
+      "pct": -0.23,
+      "last": 51365.39
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.25,
-      "last": 51973.16
+      "pct": 0.22,
+      "last": 51959.98
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 26.71
-      },
-      {
-        "symbol": "MSGY",
-        "name": "Masonglory Limited",
-        "pct": 13.4
-      },
-      {
-        "symbol": "CCL",
-        "name": "Carnival Corporation Ltd.",
-        "pct": 12.49
+        "pct": 25.3
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 11.84
+        "pct": 12.92
+      },
+      {
+        "symbol": "CCL",
+        "name": "Carnival Corporation Ltd.",
+        "pct": 12.78
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 9.6
+        "pct": 9.09
       },
       {
         "symbol": "KMX",
         "name": "CarMax Inc",
-        "pct": 9.5
-      },
-      {
-        "symbol": "SG",
-        "name": "Sweetgreen, Inc.",
-        "pct": 7.77
+        "pct": 8.84
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 7.34
+        "pct": 8.01
       },
       {
         "symbol": "PRIM",
         "name": "Primoris Services Corporation",
-        "pct": 7.0
+        "pct": 7.44
       },
       {
-        "symbol": "RCL",
-        "name": "Royal Caribbean Cruises Ltd.",
-        "pct": 6.74
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": 7.09
+      },
+      {
+        "symbol": "AGX",
+        "name": "Argan, Inc.",
+        "pct": 6.98
+      },
+      {
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": 6.88
       }
     ],
     "losers": [
       {
         "symbol": "QURE",
         "name": "uniQure N.V.",
-        "pct": -35.49
+        "pct": -36.33
       },
       {
         "symbol": "NCI",
         "name": "Neo-Concept International Group Holdings Lim",
-        "pct": -31.09
+        "pct": -32.77
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": -22.08
+        "pct": -23.11
       },
       {
         "symbol": "XHLD",
         "name": "TEN Holdings, Inc.",
-        "pct": -18.98
+        "pct": -20.46
       },
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": -9.54
-      },
-      {
-        "symbol": "AIR",
-        "name": "AAR Corp.",
-        "pct": -8.55
-      },
-      {
-        "symbol": "NEOG",
-        "name": "Neogen Corporation",
-        "pct": -5.54
+        "pct": -11.65
       },
       {
         "symbol": "GLND",
         "name": "Greenland Energy Company",
-        "pct": -5.01
+        "pct": -8.91
+      },
+      {
+        "symbol": "AIR",
+        "name": "AAR Corp.",
+        "pct": -7.67
+      },
+      {
+        "symbol": "NEOG",
+        "name": "Neogen Corporation",
+        "pct": -5.17
       },
       {
         "symbol": "PIPR",
         "name": "Piper Sandler Companies",
-        "pct": -4.1
+        "pct": -4.91
       },
       {
-        "symbol": "BUD",
-        "name": "Anheuser-Busch Inbev SA Sponsored ADR (Belgi",
-        "pct": -4.01
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": -4.56
       }
     ],
     "universe": 1310
