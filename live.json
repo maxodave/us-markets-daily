@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-29T17:27:42Z",
+  "updated": "2026-09-29T18:29:27Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.33,
-      "last": 7659.42
+      "pct": -0.19,
+      "last": 7669.54
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.07,
-      "last": 30298.19
+      "pct": 0.19,
+      "last": 30334.84
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.58,
-      "last": 51185.9
+      "pct": -0.41,
+      "last": 51273.8
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 37.85
-      },
-      {
         "symbol": "MSGY",
         "name": "Masonglory Limited",
-        "pct": 26.04
+        "pct": 37.39
       },
       {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": 12.75
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": 35.12
       },
       {
         "symbol": "CCL",
         "name": "Carnival Corporation Ltd.",
-        "pct": 12.65
+        "pct": 12.92
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": 12.3
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 9.27
+        "pct": 10.5
       },
       {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": 7.5
+        "symbol": "MGNI",
+        "name": "Magnite, Inc.",
+        "pct": 7.71
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 7.15
-      },
-      {
-        "symbol": "SG",
-        "name": "Sweetgreen, Inc.",
-        "pct": 6.92
-      },
-      {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": 6.44
+        "symbol": "AGX",
+        "name": "Argan, Inc.",
+        "pct": 7.2
       },
       {
         "symbol": "RCL",
         "name": "Royal Caribbean Cruises Ltd.",
-        "pct": 6.15
+        "pct": 7.04
+      },
+      {
+        "symbol": "SG",
+        "name": "Sweetgreen, Inc.",
+        "pct": 7.04
+      },
+      {
+        "symbol": "ABCL",
+        "name": "AbCellera Biologics Inc.",
+        "pct": 6.82
       }
     ],
     "losers": [
       {
         "symbol": "QURE",
         "name": "uniQure N.V.",
-        "pct": -39.07
+        "pct": -36.51
       },
       {
         "symbol": "NCI",
         "name": "Neo-Concept International Group Holdings Lim",
-        "pct": -30.25
+        "pct": -31.25
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": -25.86
+        "pct": -27.28
       },
       {
         "symbol": "XHLD",
         "name": "TEN Holdings, Inc.",
-        "pct": -22.16
+        "pct": -23.31
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -7.76
-      },
-      {
-        "symbol": "MNDY",
-        "name": "monday.com Ltd.",
-        "pct": -7.45
-      },
-      {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": -7.14
+        "pct": -7.61
       },
       {
         "symbol": "ASAN",
         "name": "Asana, Inc.",
-        "pct": -6.89
+        "pct": -7.28
       },
       {
-        "symbol": "PIPR",
-        "name": "Piper Sandler Companies",
-        "pct": -6.53
+        "symbol": "GRML",
+        "name": "Greenland Mines Ltd",
+        "pct": -7.26
+      },
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": -7.06
       },
       {
         "symbol": "AIR",
         "name": "AAR Corp.",
-        "pct": -6.51
+        "pct": -6.86
+      },
+      {
+        "symbol": "PIPR",
+        "name": "Piper Sandler Companies",
+        "pct": -6.3
       }
     ],
     "universe": 1310
