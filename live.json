@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-29T19:55:31Z",
-  "market_open": true,
+  "updated": "2026-09-29T20:05:33Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.19,
-      "last": 7670.15
+      "pct": -0.17,
+      "last": 7670.84
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.17,
-      "last": 30329.07
+      "pct": 0.21,
+      "last": 30339.33
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.24,
-      "last": 51360.62
+      "pct": -0.26,
+      "last": 51349.92
     },
     {
       "key": "ftsemib",
@@ -32,27 +32,27 @@
       {
         "symbol": "MSGY",
         "name": "Masonglory Limited",
-        "pct": 42.22
+        "pct": 41.85
       },
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 32.48
+        "pct": 31.48
       },
       {
         "symbol": "CCL",
         "name": "Carnival Corporation Ltd.",
-        "pct": 13.84
+        "pct": 13.53
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 11.31
+        "pct": 11.48
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 11.11
+        "pct": 10.81
       },
       {
         "symbol": "MGNI",
@@ -62,74 +62,74 @@
       {
         "symbol": "RCL",
         "name": "Royal Caribbean Cruises Ltd.",
-        "pct": 7.44
+        "pct": 7.48
       },
       {
-        "symbol": "RARE",
-        "name": "Ultragenyx Pharmaceutical Inc.",
-        "pct": 6.9
+        "symbol": "WING",
+        "name": "Wingstop Inc.",
+        "pct": 6.7
+      },
+      {
+        "symbol": "ABCL",
+        "name": "AbCellera Biologics Inc.",
+        "pct": 6.47
       },
       {
         "symbol": "AGX",
         "name": "Argan, Inc.",
-        "pct": 6.78
-      },
-      {
-        "symbol": "SG",
-        "name": "Sweetgreen, Inc.",
-        "pct": 6.49
+        "pct": 6.41
       }
     ],
     "losers": [
       {
         "symbol": "NCI",
         "name": "Neo-Concept International Group Holdings Lim",
-        "pct": -39.5
+        "pct": -47.06
       },
       {
         "symbol": "QURE",
         "name": "uniQure N.V.",
-        "pct": -37.66
+        "pct": -37.33
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": -27.2
+        "pct": -26.64
       },
       {
         "symbol": "XHLD",
         "name": "TEN Holdings, Inc.",
-        "pct": -24.59
+        "pct": -24.01
       },
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": -12.49
+        "pct": -12.45
       },
       {
         "symbol": "PIPR",
         "name": "Piper Sandler Companies",
-        "pct": -9.36
+        "pct": -9.65
       },
       {
         "symbol": "VOYG",
         "name": "Voyager Technologies, Inc.",
-        "pct": -7.96
+        "pct": -7.56
       },
       {
         "symbol": "DKNG",
         "name": "DraftKings Inc.",
-        "pct": -7.21
+        "pct": -7.42
       },
       {
         "symbol": "NEOG",
         "name": "Neogen Corporation",
-        "pct": -6.71
+        "pct": -7.22
       },
       {
         "symbol": "AIR",
         "name": "AAR Corp.",
-        "pct": -6.23
+        "pct": -7.18
       }
     ],
     "universe": 1310
