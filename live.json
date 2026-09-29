@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-29T14:55:36Z",
+  "updated": "2026-09-29T15:05:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.0,
-      "last": 7684.74
+      "pct": -0.17,
+      "last": 7671.61
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.47,
-      "last": 30420.12
+      "pct": 0.26,
+      "last": 30354.33
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.33,
-      "last": 51315.56
+      "pct": -0.48,
+      "last": 51238.43
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.3,
-      "last": 52000.43
+      "pct": 0.19,
+      "last": 51944.42
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 26.8
+        "pct": 26.89
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 13.17
-      },
-      {
-        "symbol": "CCL",
-        "name": "Carnival Corporation Ltd.",
-        "pct": 12.71
+        "pct": 13.05
       },
       {
         "symbol": "MSGY",
         "name": "Masonglory Limited",
-        "pct": 10.38
+        "pct": 12.47
+      },
+      {
+        "symbol": "CCL",
+        "name": "Carnival Corporation Ltd.",
+        "pct": 12.4
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 9.89
+        "pct": 10.67
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 9.3
-      },
-      {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": 8.0
-      },
-      {
-        "symbol": "QMCO",
-        "name": "Quantum Corporation",
-        "pct": 7.96
+        "pct": 9.37
       },
       {
         "symbol": "PRIM",
         "name": "Primoris Services Corporation",
-        "pct": 7.89
+        "pct": 8.79
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": 7.6
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 7.74
+        "pct": 7.43
+      },
+      {
+        "symbol": "KMX",
+        "name": "CarMax Inc",
+        "pct": 7.31
       }
     ],
     "losers": [
       {
         "symbol": "QURE",
         "name": "uniQure N.V.",
-        "pct": -40.9
+        "pct": -39.66
       },
       {
         "symbol": "NCI",
         "name": "Neo-Concept International Group Holdings Lim",
-        "pct": -27.61
+        "pct": -27.45
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": -27.38
+        "pct": -26.24
       },
       {
         "symbol": "XHLD",
         "name": "TEN Holdings, Inc.",
-        "pct": -20.5
+        "pct": -21.0
       },
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": -16.3
-      },
-      {
-        "symbol": "AIR",
-        "name": "AAR Corp.",
-        "pct": -7.42
+        "pct": -16.88
       },
       {
         "symbol": "GLND",
         "name": "Greenland Energy Company",
-        "pct": -6.79
+        "pct": -10.61
+      },
+      {
+        "symbol": "AIR",
+        "name": "AAR Corp.",
+        "pct": -7.55
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -5.53
+        "pct": -6.42
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -5.33
+        "pct": -6.16
       },
       {
-        "symbol": "TRU",
-        "name": "TransUnion",
-        "pct": -4.8
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": -4.93
       }
     ],
     "universe": 1310
