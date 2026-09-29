@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-29T13:30:47Z",
+  "updated": "2026-09-29T13:48:01Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.08,
-      "last": 7690.95
+      "pct": -0.06,
+      "last": 7680.22
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.43,
-      "last": 30407.33
+      "pct": 0.1,
+      "last": 30306.83
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.09,
-      "last": 51440.09
+      "pct": -0.13,
+      "last": 51416.97
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.43,
-      "last": 52069.2
+      "pct": 0.09,
+      "last": 51890.13
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "MSGY",
         "name": "Masonglory Limited",
-        "pct": 35.46
+        "pct": 24.12
       },
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 19.5
-      },
-      {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": 15.25
+        "pct": 23.75
       },
       {
         "symbol": "CCL",
         "name": "Carnival Corporation Ltd.",
-        "pct": 9.21
+        "pct": 11.79
       },
       {
-        "symbol": "CBOE",
-        "name": "Cboe Global Markets, Inc.",
-        "pct": 9.21
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": 9.55
       },
       {
-        "symbol": "KMX",
-        "name": "CarMax Inc",
-        "pct": 9.09
+        "symbol": "PRIM",
+        "name": "Primoris Services Corporation",
+        "pct": 9.28
       },
       {
-        "symbol": "NVTS",
-        "name": "Navitas Semiconductor Corporation",
-        "pct": 7.42
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 7.89
+      },
+      {
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": 7.88
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 6.38
+        "pct": 7.25
       },
       {
-        "symbol": "RCL",
-        "name": "Royal Caribbean Cruises Ltd.",
-        "pct": 6.29
+        "symbol": "KMX",
+        "name": "CarMax Inc",
+        "pct": 7.16
       },
       {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": 5.82
+        "symbol": "AGX",
+        "name": "Argan, Inc.",
+        "pct": 6.84
       }
     ],
     "losers": [
       {
-        "symbol": "NCI",
-        "name": "Neo-Concept International Group Holdings Lim",
-        "pct": -41.6
-      },
-      {
         "symbol": "QURE",
         "name": "uniQure N.V.",
-        "pct": -41.19
+        "pct": -38.17
+      },
+      {
+        "symbol": "NCI",
+        "name": "Neo-Concept International Group Holdings Lim",
+        "pct": -29.41
       },
       {
         "symbol": "XHLD",
         "name": "TEN Holdings, Inc.",
-        "pct": -28.42
+        "pct": -27.16
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": -19.55
+        "pct": -20.61
+      },
+      {
+        "symbol": "AIR",
+        "name": "AAR Corp.",
+        "pct": -8.62
       },
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": -12.41
+        "pct": -8.57
       },
       {
-        "symbol": "GLND",
-        "name": "Greenland Energy Company",
-        "pct": -11.23
+        "symbol": "KOD",
+        "name": "Kodiak Sciences Inc",
+        "pct": -5.28
       },
       {
-        "symbol": "BUD",
-        "name": "Anheuser-Busch Inbev SA Sponsored ADR (Belgi",
-        "pct": -3.74
+        "symbol": "BB",
+        "name": "BlackBerry Limited",
+        "pct": -4.38
       },
       {
-        "symbol": "R",
-        "name": "Ryder System, Inc.",
-        "pct": -3.16
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": -4.09
       },
       {
-        "symbol": "SOBO",
-        "name": "South Bow Corporation",
-        "pct": -2.71
-      },
-      {
-        "symbol": "EQNR",
-        "name": "Equinor ASA",
-        "pct": -2.6
+        "symbol": "EFX",
+        "name": "Equifax, Inc.",
+        "pct": -4.05
       }
     ],
-    "universe": 1246
+    "universe": 1310
   }
 }
