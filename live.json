@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-28T20:01:27Z",
+  "updated": "2026-09-29T13:12:47Z",
   "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": -0.77,
-      "last": 7683.93
+      "last": 7683.69
     },
     {
       "key": "nasdaq100",
@@ -18,21 +18,31 @@
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.67,
-      "last": 51481.72
+      "last": 51481.51
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.09,
-      "last": 51759.9
+      "pct": 0.44,
+      "last": 52075.65
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "KOD",
+        "name": "Kodiak Sciences Inc",
+        "pct": 177.96
+      },
+      {
         "symbol": "ABCL",
         "name": "AbCellera Biologics Inc.",
         "pct": 9.61
+      },
+      {
+        "symbol": "HHH",
+        "name": "Howard Hughes Holdings Inc.",
+        "pct": 8.07
       },
       {
         "symbol": "LQDA",
@@ -62,29 +72,44 @@
       {
         "symbol": "VOYG",
         "name": "Voyager Technologies, Inc.",
-        "pct": 5.82
+        "pct": 5.84
       },
       {
         "symbol": "PTCT",
         "name": "PTC Therapeutics, Inc.",
         "pct": 5.23
-      },
-      {
-        "symbol": "GAP",
-        "name": "Gap, Inc. (The)",
-        "pct": 5.22
-      },
-      {
-        "symbol": "EQPT",
-        "name": "EquipmentShare.com Inc",
-        "pct": 4.96
       }
     ],
     "losers": [
       {
+        "symbol": "XHLD",
+        "name": "TEN Holdings, Inc.",
+        "pct": -92.45
+      },
+      {
+        "symbol": "NCI",
+        "name": "Neo-Concept International Group Holdings Lim",
+        "pct": -83.75
+      },
+      {
+        "symbol": "MSGY",
+        "name": "Masonglory Limited",
+        "pct": -61.21
+      },
+      {
+        "symbol": "OCUL",
+        "name": "Ocular Therapeutix, Inc.",
+        "pct": -20.67
+      },
+      {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
         "pct": -19.17
+      },
+      {
+        "symbol": "GLND",
+        "name": "Greenland Energy Company",
+        "pct": -18.95
       },
       {
         "symbol": "MDB",
@@ -99,39 +124,14 @@
       {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": -11.49
+        "pct": -11.63
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": -10.04
-      },
-      {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": -9.8
-      },
-      {
-        "symbol": "RBLX",
-        "name": "Roblox Corporation",
-        "pct": -9.8
-      },
-      {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": -8.95
-      },
-      {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": -8.67
-      },
-      {
-        "symbol": "FIGR",
-        "name": "Figure Technology Solutions, Inc.",
-        "pct": -8.06
+        "pct": -10.01
       }
     ],
-    "universe": 1340
+    "universe": 1310
   }
 }
