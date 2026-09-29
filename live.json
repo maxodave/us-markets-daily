@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-29T13:12:47Z",
-  "market_open": false,
+  "updated": "2026-09-29T13:30:47Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.77,
-      "last": 7683.69
+      "pct": 0.08,
+      "last": 7690.95
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.08,
-      "last": 30276.81
+      "pct": 0.43,
+      "last": 30407.33
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.67,
-      "last": 51481.51
+      "pct": -0.09,
+      "last": 51440.09
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.44,
-      "last": 52075.65
+      "pct": 0.43,
+      "last": 52069.2
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "KOD",
-        "name": "Kodiak Sciences Inc",
-        "pct": 177.96
+        "symbol": "MSGY",
+        "name": "Masonglory Limited",
+        "pct": 35.46
       },
       {
-        "symbol": "ABCL",
-        "name": "AbCellera Biologics Inc.",
-        "pct": 9.61
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": 19.5
       },
       {
-        "symbol": "HHH",
-        "name": "Howard Hughes Holdings Inc.",
-        "pct": 8.07
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": 15.25
       },
       {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "pct": 7.66
+        "symbol": "CCL",
+        "name": "Carnival Corporation Ltd.",
+        "pct": 9.21
       },
       {
-        "symbol": "BB",
-        "name": "BlackBerry Limited",
-        "pct": 7.19
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets, Inc.",
+        "pct": 9.21
       },
       {
-        "symbol": "VSXY",
-        "name": "Victorias Secret & Co.",
-        "pct": 6.49
+        "symbol": "KMX",
+        "name": "CarMax Inc",
+        "pct": 9.09
       },
       {
-        "symbol": "DFTX",
-        "name": "Definium Therapeutics, Inc.",
-        "pct": 6.19
+        "symbol": "NVTS",
+        "name": "Navitas Semiconductor Corporation",
+        "pct": 7.42
       },
       {
-        "symbol": "NKTR",
-        "name": "Nektar Therapeutics",
-        "pct": 5.85
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": 6.38
       },
       {
-        "symbol": "VOYG",
-        "name": "Voyager Technologies, Inc.",
-        "pct": 5.84
+        "symbol": "RCL",
+        "name": "Royal Caribbean Cruises Ltd.",
+        "pct": 6.29
       },
       {
-        "symbol": "PTCT",
-        "name": "PTC Therapeutics, Inc.",
-        "pct": 5.23
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": 5.82
       }
     ],
     "losers": [
       {
-        "symbol": "XHLD",
-        "name": "TEN Holdings, Inc.",
-        "pct": -92.45
-      },
-      {
         "symbol": "NCI",
         "name": "Neo-Concept International Group Holdings Lim",
-        "pct": -83.75
+        "pct": -41.6
       },
       {
-        "symbol": "MSGY",
-        "name": "Masonglory Limited",
-        "pct": -61.21
+        "symbol": "QURE",
+        "name": "uniQure N.V.",
+        "pct": -41.19
       },
       {
-        "symbol": "OCUL",
-        "name": "Ocular Therapeutix, Inc.",
-        "pct": -20.67
+        "symbol": "XHLD",
+        "name": "TEN Holdings, Inc.",
+        "pct": -28.42
+      },
+      {
+        "symbol": "FICO",
+        "name": "Fair Isaac Corporation",
+        "pct": -19.55
       },
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": -19.17
+        "pct": -12.41
       },
       {
         "symbol": "GLND",
         "name": "Greenland Energy Company",
-        "pct": -18.95
+        "pct": -11.23
       },
       {
-        "symbol": "MDB",
-        "name": "MongoDB, Inc.",
-        "pct": -18.46
+        "symbol": "BUD",
+        "name": "Anheuser-Busch Inbev SA Sponsored ADR (Belgi",
+        "pct": -3.74
       },
       {
-        "symbol": "AUR",
-        "name": "Aurora Innovation, Inc.",
-        "pct": -12.42
+        "symbol": "R",
+        "name": "Ryder System, Inc.",
+        "pct": -3.16
       },
       {
-        "symbol": "MOD",
-        "name": "Modine Manufacturing Company",
-        "pct": -11.63
+        "symbol": "SOBO",
+        "name": "South Bow Corporation",
+        "pct": -2.71
       },
       {
-        "symbol": "NU",
-        "name": "Nu Holdings Ltd.",
-        "pct": -10.01
+        "symbol": "EQNR",
+        "name": "Equinor ASA",
+        "pct": -2.6
       }
     ],
-    "universe": 1310
+    "universe": 1246
   }
 }
