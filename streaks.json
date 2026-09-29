@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-27T23:55:08Z",
+  "updated": "2026-09-29T01:21:13Z",
   "session_date": "2026-09-25",
   "universe": 558,
   "up": {
-    "count": 361,
+    "count": 360,
     "by_length": {
       "1": 241,
       "2": 93,
@@ -11,7 +11,7 @@
       "5": 6,
       "6": 2,
       "7": 4,
-      "8+": 4
+      "8+": 3
     },
     "top": [
       {
@@ -42,15 +42,6 @@
         ],
         "days": 8,
         "cum_pct": 15.57
-      },
-      {
-        "symbol": "HUBB",
-        "name": "Hubbell Incorporated",
-        "indices": [
-          "sp500"
-        ],
-        "days": 8,
-        "cum_pct": 6.41
       },
       {
         "symbol": "EMR",
@@ -153,13 +144,22 @@
         ],
         "days": 5,
         "cum_pct": 3.51
+      },
+      {
+        "symbol": "VLTO",
+        "name": "Veralto",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 2.8
       }
     ]
   },
   "down": {
-    "count": 195,
+    "count": 196,
     "by_length": {
-      "1": 73,
+      "1": 74,
       "2": 55,
       "3": 35,
       "4": 15,
