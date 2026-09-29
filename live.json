@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-29T16:28:12Z",
+  "updated": "2026-09-29T16:50:34Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.27,
-      "last": 7664.09
+      "pct": -0.32,
+      "last": 7660.21
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.12,
-      "last": 30313.93
+      "pct": 0.0,
+      "last": 30278.01
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.58,
-      "last": 51185.32
+      "last": 51186.73
     },
     {
       "key": "ftsemib",
@@ -32,79 +32,84 @@
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 34.62
+        "pct": 34.38
       },
       {
         "symbol": "MSGY",
         "name": "Masonglory Limited",
-        "pct": 19.49
+        "pct": 25.88
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 13.31
+        "pct": 13.17
       },
       {
         "symbol": "CCL",
         "name": "Carnival Corporation Ltd.",
-        "pct": 12.62
+        "pct": 12.44
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 11.48
+        "pct": 10.38
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 8.62
-      },
-      {
-        "symbol": "TTAN",
-        "name": "ServiceTitan, Inc.",
-        "pct": 7.28
-      },
-      {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": 7.19
-      },
-      {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": 7.1
+        "pct": 7.78
       },
       {
         "symbol": "SG",
         "name": "Sweetgreen, Inc.",
-        "pct": 7.04
+        "pct": 6.92
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": 6.86
+      },
+      {
+        "symbol": "PRIM",
+        "name": "Primoris Services Corporation",
+        "pct": 6.47
+      },
+      {
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": 6.38
       }
     ],
     "losers": [
       {
         "symbol": "QURE",
         "name": "uniQure N.V.",
-        "pct": -36.54
+        "pct": -37.56
       },
       {
         "symbol": "NCI",
         "name": "Neo-Concept International Group Holdings Lim",
-        "pct": -28.12
+        "pct": -29.2
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": -26.3
+        "pct": -27.31
       },
       {
         "symbol": "XHLD",
         "name": "TEN Holdings, Inc.",
-        "pct": -21.87
+        "pct": -19.72
       },
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": -11.05
+        "pct": -10.38
+      },
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -8.6
       },
       {
         "symbol": "GLND",
@@ -112,24 +117,19 @@
         "pct": -7.91
       },
       {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -7.88
-      },
-      {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": -6.36
+        "pct": -6.94
       },
       {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "pct": -5.99
+        "symbol": "NEOG",
+        "name": "Neogen Corporation",
+        "pct": -5.61
       },
       {
-        "symbol": "AIR",
-        "name": "AAR Corp.",
-        "pct": -5.4
+        "symbol": "PIPR",
+        "name": "Piper Sandler Companies",
+        "pct": -5.54
       }
     ],
     "universe": 1310
