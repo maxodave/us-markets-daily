@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-29T19:25:33Z",
+  "updated": "2026-09-29T19:35:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.12,
-      "last": 7674.96
+      "pct": -0.13,
+      "last": 7674.79
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.26,
-      "last": 30354.17
+      "pct": 0.25,
+      "last": 30351.96
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.24,
-      "last": 51361.57
+      "pct": -0.26,
+      "last": 51352.31
     },
     {
       "key": "ftsemib",
@@ -30,24 +30,19 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 36.35
-      },
-      {
         "symbol": "MSGY",
         "name": "Masonglory Limited",
-        "pct": 35.37
+        "pct": 40.58
+      },
+      {
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": 35.08
       },
       {
         "symbol": "CCL",
         "name": "Carnival Corporation Ltd.",
-        "pct": 13.79
-      },
-      {
-        "symbol": "MGNI",
-        "name": "Magnite, Inc.",
-        "pct": 10.94
+        "pct": 13.91
       },
       {
         "symbol": "BE",
@@ -57,79 +52,84 @@
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 10.34
+        "pct": 10.54
+      },
+      {
+        "symbol": "MGNI",
+        "name": "Magnite, Inc.",
+        "pct": 9.96
       },
       {
         "symbol": "SG",
         "name": "Sweetgreen, Inc.",
-        "pct": 7.83
+        "pct": 7.71
       },
       {
         "symbol": "RCL",
         "name": "Royal Caribbean Cruises Ltd.",
-        "pct": 7.38
+        "pct": 7.68
       },
       {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": 7.27
+        "symbol": "AGX",
+        "name": "Argan, Inc.",
+        "pct": 7.0
       },
       {
         "symbol": "ABCL",
         "name": "AbCellera Biologics Inc.",
-        "pct": 7.22
+        "pct": 6.97
       }
     ],
     "losers": [
       {
         "symbol": "NCI",
         "name": "Neo-Concept International Group Holdings Lim",
-        "pct": -37.39
+        "pct": -39.5
       },
       {
         "symbol": "QURE",
         "name": "uniQure N.V.",
-        "pct": -36.58
+        "pct": -37.33
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": -27.75
+        "pct": -27.29
       },
       {
         "symbol": "XHLD",
         "name": "TEN Holdings, Inc.",
-        "pct": -22.94
+        "pct": -25.71
       },
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": -9.45
+        "pct": -10.13
       },
       {
         "symbol": "PIPR",
         "name": "Piper Sandler Companies",
-        "pct": -8.85
-      },
-      {
-        "symbol": "AIR",
-        "name": "AAR Corp.",
-        "pct": -7.22
-      },
-      {
-        "symbol": "DKNG",
-        "name": "DraftKings Inc.",
-        "pct": -6.92
+        "pct": -8.44
       },
       {
         "symbol": "VOYG",
         "name": "Voyager Technologies, Inc.",
-        "pct": -6.3
+        "pct": -7.29
       },
       {
-        "symbol": "HRI",
-        "name": "Herc Holdings Inc.",
-        "pct": -6.05
+        "symbol": "AIR",
+        "name": "AAR Corp.",
+        "pct": -7.24
+      },
+      {
+        "symbol": "DKNG",
+        "name": "DraftKings Inc.",
+        "pct": -6.88
+      },
+      {
+        "symbol": "NEOG",
+        "name": "Neogen Corporation",
+        "pct": -6.56
       }
     ],
     "universe": 1310
