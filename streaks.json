@@ -1,17 +1,16 @@
 {
-  "updated": "2026-09-29T01:21:13Z",
-  "session_date": "2026-09-25",
-  "universe": 558,
+  "updated": "2026-09-30T00:49:23Z",
+  "session_date": "2026-09-28",
+  "universe": 557,
   "up": {
-    "count": 360,
+    "count": 189,
     "by_length": {
-      "1": 241,
-      "2": 93,
-      "3": 11,
-      "5": 6,
-      "6": 2,
-      "7": 4,
-      "8+": 3
+      "1": 74,
+      "2": 70,
+      "3": 32,
+      "4": 4,
+      "6": 5,
+      "8+": 4
     },
     "top": [
       {
@@ -21,27 +20,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 8,
-        "cum_pct": 19.04
-      },
-      {
-        "symbol": "SNPS",
-        "name": "Synopsys",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 8,
-        "cum_pct": 15.79
-      },
-      {
-        "symbol": "KEYS",
-        "name": "Keysight Technologies",
-        "indices": [
-          "sp500"
-        ],
-        "days": 8,
-        "cum_pct": 15.57
+        "days": 9,
+        "cum_pct": 19.25
       },
       {
         "symbol": "EMR",
@@ -49,8 +29,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 7,
-        "cum_pct": 8.5
+        "days": 8,
+        "cum_pct": 9.3
       },
       {
         "symbol": "AME",
@@ -58,17 +38,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 7,
-        "cum_pct": 7.99
-      },
-      {
-        "symbol": "PH",
-        "name": "Parker Hannifin",
-        "indices": [
-          "sp500"
-        ],
-        "days": 7,
-        "cum_pct": 6.48
+        "days": 8,
+        "cum_pct": 8.39
       },
       {
         "symbol": "PFE",
@@ -76,26 +47,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 7,
-        "cum_pct": 4.41
-      },
-      {
-        "symbol": "ROK",
-        "name": "Rockwell Automation",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 5.88
-      },
-      {
-        "symbol": "GEV",
-        "name": "GE Vernova",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 3.54
+        "days": 8,
+        "cum_pct": 4.59
       },
       {
         "symbol": "DDOG",
@@ -104,8 +57,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 5,
-        "cum_pct": 16.62
+        "days": 6,
+        "cum_pct": 16.87
       },
       {
         "symbol": "DHR",
@@ -113,8 +66,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 5.99
+        "days": 6,
+        "cum_pct": 7.33
       },
       {
         "symbol": "NDSN",
@@ -122,8 +75,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 4.56
+        "days": 6,
+        "cum_pct": 6.34
       },
       {
         "symbol": "ROST",
@@ -132,8 +85,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 5,
-        "cum_pct": 4.2
+        "days": 6,
+        "cum_pct": 4.62
       },
       {
         "symbol": "VRTX",
@@ -142,31 +95,76 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 5,
-        "cum_pct": 3.51
+        "days": 6,
+        "cum_pct": 3.8
       },
       {
-        "symbol": "VLTO",
-        "name": "Veralto",
+        "symbol": "NTAP",
+        "name": "NetApp",
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 2.8
+        "days": 4,
+        "cum_pct": 5.96
+      },
+      {
+        "symbol": "DIA.MI",
+        "name": "Diasorin",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 4,
+        "cum_pct": 4.07
+      },
+      {
+        "symbol": "MA",
+        "name": "Mastercard",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 2.23
+      },
+      {
+        "symbol": "REC.MI",
+        "name": "Recordati",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 4,
+        "cum_pct": 0.66
+      },
+      {
+        "symbol": "P",
+        "name": "Everpure",
+        "indices": [
+          "sp500"
+        ],
+        "days": 3,
+        "cum_pct": 18.01
+      },
+      {
+        "symbol": "VTRS",
+        "name": "Viatris",
+        "indices": [
+          "sp500"
+        ],
+        "days": 3,
+        "cum_pct": 6.72
       }
     ]
   },
   "down": {
-    "count": 196,
+    "count": 364,
     "by_length": {
-      "1": 74,
-      "2": 55,
-      "3": 35,
-      "4": 15,
-      "5": 3,
-      "6": 9,
-      "7": 1,
-      "8+": 4
+      "1": 241,
+      "2": 41,
+      "3": 34,
+      "4": 23,
+      "5": 15,
+      "6": 1,
+      "7": 7,
+      "8+": 2
     },
     "top": [
       {
@@ -176,17 +174,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -9,
-        "cum_pct": -14.46
-      },
-      {
-        "symbol": "HIG",
-        "name": "Hartford (The)",
-        "indices": [
-          "sp500"
-        ],
-        "days": -9,
-        "cum_pct": -9.71
+        "days": -10,
+        "cum_pct": -16.21
       },
       {
         "symbol": "STZ",
@@ -194,26 +183,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -9,
-        "cum_pct": -9.1
-      },
-      {
-        "symbol": "RSG",
-        "name": "Republic Services",
-        "indices": [
-          "sp500"
-        ],
-        "days": -9,
-        "cum_pct": -6.09
-      },
-      {
-        "symbol": "LHX",
-        "name": "L3Harris",
-        "indices": [
-          "sp500"
-        ],
-        "days": -7,
-        "cum_pct": -5.2
+        "days": -10,
+        "cum_pct": -9.66
       },
       {
         "symbol": "ADM",
@@ -221,17 +192,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -7.91
-      },
-      {
-        "symbol": "CNC",
-        "name": "Centene Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -7.87
+        "days": -7,
+        "cum_pct": -8.75
       },
       {
         "symbol": "ES",
@@ -239,8 +201,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -7.71
+        "days": -7,
+        "cum_pct": -8.28
       },
       {
         "symbol": "PSX",
@@ -248,8 +210,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -6.73
+        "days": -7,
+        "cum_pct": -7.53
       },
       {
         "symbol": "AWK",
@@ -257,17 +219,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -5.3
-      },
-      {
-        "symbol": "WRB",
-        "name": "W. R. Berkley Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -4.68
+        "days": -7,
+        "cum_pct": -6.73
       },
       {
         "symbol": "SO",
@@ -275,8 +228,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -4.47
+        "days": -7,
+        "cum_pct": -5.08
       },
       {
         "symbol": "ELV",
@@ -284,8 +237,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -4.39
+        "days": -7,
+        "cum_pct": -4.75
       },
       {
         "symbol": "CB",
@@ -293,21 +246,67 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -2.49
+        "days": -7,
+        "cum_pct": -3.08
       },
       {
-        "symbol": "HRL",
-        "name": "Hormel Foods",
+        "symbol": "GL",
+        "name": "Globe Life",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -3.88
+      },
+      {
+        "symbol": "GEN",
+        "name": "Gen Digital",
         "indices": [
           "sp500"
         ],
         "days": -5,
-        "cum_pct": -5.38
+        "cum_pct": -28.47
+      },
+      {
+        "symbol": "INTU",
+        "name": "Intuit",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -5,
+        "cum_pct": -11.42
+      },
+      {
+        "symbol": "TIT.MI",
+        "name": "Telecom Italia",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -5,
+        "cum_pct": -8.49
+      },
+      {
+        "symbol": "VRSN",
+        "name": "Verisign",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -8.47
+      },
+      {
+        "symbol": "SCHW",
+        "name": "Charles Schwab Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -8.03
       }
     ]
   },
   "flat": {
-    "count": 2
+    "count": 4
   }
 }
