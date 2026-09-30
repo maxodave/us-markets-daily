@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-30T19:50:28Z",
-  "market_open": true,
+  "updated": "2026-09-30T20:01:07Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.05,
-      "last": 7675.85
+      "pct": -0.25,
+      "last": 7652.03
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.59,
-      "last": 30518.95
+      "pct": 0.23,
+      "last": 30408.5
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.67,
-      "last": 51016.98
+      "pct": -0.86,
+      "last": 50908.79
     },
     {
       "key": "ftsemib",
@@ -32,7 +32,7 @@
       {
         "symbol": "FORM",
         "name": "FormFactor, Inc.",
-        "pct": 9.53
+        "pct": 9.59
       },
       {
         "symbol": "ZETA",
@@ -42,94 +42,94 @@
       {
         "symbol": "FROG",
         "name": "JFrog Ltd.",
-        "pct": 7.62
+        "pct": 7.38
       },
       {
         "symbol": "ACMR",
         "name": "ACM Research, Inc.",
-        "pct": 7.19
+        "pct": 7.02
       },
       {
         "symbol": "DOCS",
         "name": "Doximity, Inc.",
-        "pct": 7.18
-      },
-      {
-        "symbol": "GEN",
-        "name": "Gen Digital Inc.",
-        "pct": 6.57
-      },
-      {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "pct": 6.41
-      },
-      {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": 5.74
+        "pct": 6.86
       },
       {
         "symbol": "IDT",
         "name": "IDT Corporation",
-        "pct": 5.23
+        "pct": 5.84
       },
       {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 5.14
+        "symbol": "GEN",
+        "name": "Gen Digital Inc.",
+        "pct": 5.61
+      },
+      {
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets, Inc.",
+        "pct": 5.09
+      },
+      {
+        "symbol": "SYRE",
+        "name": "Spyre Therapeutics, Inc.",
+        "pct": 5.09
+      },
+      {
+        "symbol": "QLYS",
+        "name": "Qualys, Inc.",
+        "pct": 4.96
       }
     ],
     "losers": [
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": -57.35
-      },
-      {
-        "symbol": "BLLN",
-        "name": "BillionToOne, Inc.",
-        "pct": -10.3
+        "pct": -57.19
       },
       {
         "symbol": "JBL",
         "name": "Jabil Inc.",
-        "pct": -9.28
+        "pct": -10.04
+      },
+      {
+        "symbol": "BLLN",
+        "name": "BillionToOne, Inc.",
+        "pct": -9.93
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -8.41
+        "pct": -8.87
       },
       {
         "symbol": "MTG",
         "name": "MGIC Investment Corporation",
-        "pct": -8.16
+        "pct": -8.53
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -8.02
-      },
-      {
-        "symbol": "GENI",
-        "name": "Genius Sports Limited",
-        "pct": -6.89
-      },
-      {
-        "symbol": "NLY",
-        "name": "Annaly Capital Management Inc.",
-        "pct": -6.77
+        "pct": -7.58
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -6.4
+        "pct": -7.28
       },
       {
-        "symbol": "FNF",
-        "name": "Fidelity National Financial, Inc.",
-        "pct": -6.07
+        "symbol": "GENI",
+        "name": "Genius Sports Limited",
+        "pct": -7.18
+      },
+      {
+        "symbol": "NLY",
+        "name": "Annaly Capital Management Inc.",
+        "pct": -7.04
+      },
+      {
+        "symbol": "KMX",
+        "name": "CarMax Inc",
+        "pct": -6.96
       }
     ],
     "universe": 1311
