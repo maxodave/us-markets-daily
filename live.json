@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-30T18:30:38Z",
+  "updated": "2026-09-30T18:40:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.32,
-      "last": 7696.47
+      "pct": 0.33,
+      "last": 7697.22
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.73,
-      "last": 30559.54
+      "pct": 0.71,
+      "last": 30555.01
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.39,
-      "last": 51157.56
+      "pct": -0.37,
+      "last": 51169.3
     },
     {
       "key": "ftsemib",
@@ -32,89 +32,84 @@
       {
         "symbol": "ZETA",
         "name": "Zeta Global Holdings Corp.",
-        "pct": 9.72
+        "pct": 9.39
       },
       {
         "symbol": "FORM",
         "name": "FormFactor, Inc.",
-        "pct": 7.71
-      },
-      {
-        "symbol": "PARR",
-        "name": "Par Pacific Holdings, Inc.",
-        "pct": 7.57
+        "pct": 8.16
       },
       {
         "symbol": "ACMR",
         "name": "ACM Research, Inc.",
-        "pct": 6.85
+        "pct": 7.8
       },
       {
-        "symbol": "DOCS",
-        "name": "Doximity, Inc.",
-        "pct": 6.84
-      },
-      {
-        "symbol": "DK",
-        "name": "Delek US Holdings, Inc.",
-        "pct": 6.66
-      },
-      {
-        "symbol": "PBF",
-        "name": "PBF Energy Inc.",
-        "pct": 6.56
+        "symbol": "PARR",
+        "name": "Par Pacific Holdings, Inc.",
+        "pct": 7.65
       },
       {
         "symbol": "GEN",
         "name": "Gen Digital Inc.",
-        "pct": 6.52
+        "pct": 6.83
+      },
+      {
+        "symbol": "DOCS",
+        "name": "Doximity, Inc.",
+        "pct": 6.71
+      },
+      {
+        "symbol": "DK",
+        "name": "Delek US Holdings, Inc.",
+        "pct": 6.6
+      },
+      {
+        "symbol": "PBF",
+        "name": "PBF Energy Inc.",
+        "pct": 6.49
       },
       {
         "symbol": "MP",
         "name": "MP Materials Corp.",
-        "pct": 5.97
+        "pct": 6.11
       },
       {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "pct": 5.93
+        "symbol": "QLYS",
+        "name": "Qualys, Inc.",
+        "pct": 6.09
       }
     ],
     "losers": [
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": -48.46
+        "pct": -47.97
       },
       {
         "symbol": "JBL",
         "name": "Jabil Inc.",
-        "pct": -10.59
+        "pct": -10.38
       },
       {
         "symbol": "BLLN",
         "name": "BillionToOne, Inc.",
-        "pct": -8.28
+        "pct": -8.69
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -7.95
+        "pct": -8.09
       },
       {
         "symbol": "MTG",
         "name": "MGIC Investment Corporation",
-        "pct": -7.08
+        "pct": -8.0
       },
       {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -6.88
-      },
-      {
-        "symbol": "SANM",
-        "name": "Sanmina Corporation",
-        "pct": -6.19
+        "symbol": "FNF",
+        "name": "Fidelity National Financial, Inc.",
+        "pct": -6.71
       },
       {
         "symbol": "NLY",
@@ -122,14 +117,19 @@
         "pct": -5.88
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": -5.74
+        "symbol": "SANM",
+        "name": "Sanmina Corporation",
+        "pct": -5.87
       },
       {
-        "symbol": "FNF",
-        "name": "Fidelity National Financial, Inc.",
-        "pct": -5.69
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -5.65
+      },
+      {
+        "symbol": "STWD",
+        "name": "STARWOOD PROPERTY TRUST, INC. Starwood Prope",
+        "pct": -5.47
       }
     ],
     "universe": 1311
