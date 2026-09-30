@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-30T16:25:00Z",
+  "updated": "2026-09-30T16:51:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.53,
-      "last": 7712.62
+      "pct": 0.48,
+      "last": 7708.73
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.84,
-      "last": 30594.63
+      "pct": 0.78,
+      "last": 30577.17
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.09,
-      "last": 51312.39
+      "pct": -0.12,
+      "last": 51297.84
     },
     {
       "key": "ftsemib",
@@ -30,54 +30,54 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": 9.61
+        "symbol": "ZETA",
+        "name": "Zeta Global Holdings Corp.",
+        "pct": 9.15
       },
       {
-        "symbol": "GRAL",
-        "name": "GRAIL, Inc.",
-        "pct": 8.47
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": 8.95
       },
       {
         "symbol": "FORM",
         "name": "FormFactor, Inc.",
-        "pct": 8.32
-      },
-      {
-        "symbol": "ZETA",
-        "name": "Zeta Global Holdings Corp.",
-        "pct": 8.15
-      },
-      {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": 7.02
-      },
-      {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": 6.77
+        "pct": 8.08
       },
       {
         "symbol": "GEN",
         "name": "Gen Digital Inc.",
-        "pct": 6.67
+        "pct": 6.83
       },
       {
-        "symbol": "PARR",
-        "name": "Par Pacific Holdings, Inc.",
-        "pct": 6.33
+        "symbol": "HIMS",
+        "name": "Hims & Hers Health, Inc.",
+        "pct": 6.72
+      },
+      {
+        "symbol": "BB",
+        "name": "BlackBerry Limited",
+        "pct": 6.48
+      },
+      {
+        "symbol": "DOCS",
+        "name": "Doximity, Inc.",
+        "pct": 6.47
+      },
+      {
+        "symbol": "FLY",
+        "name": "Firefly Aerospace Inc.",
+        "pct": 6.43
       },
       {
         "symbol": "TENB",
         "name": "Tenable Holdings, Inc.",
-        "pct": 6.3
+        "pct": 6.39
       },
       {
-        "symbol": "GRML",
-        "name": "Greenland Mines Ltd",
-        "pct": 6.22
+        "symbol": "MP",
+        "name": "MP Materials Corp.",
+        "pct": 6.2
       }
     ],
     "losers": [
@@ -89,47 +89,47 @@
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -7.38
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": -7.17
+        "pct": -7.95
       },
       {
         "symbol": "JBL",
         "name": "Jabil Inc.",
-        "pct": -6.66
+        "pct": -7.68
       },
       {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -5.99
-      },
-      {
-        "symbol": "NLY",
-        "name": "Annaly Capital Management Inc.",
-        "pct": -5.88
-      },
-      {
-        "symbol": "SANM",
-        "name": "Sanmina Corporation",
-        "pct": -5.51
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": -7.54
       },
       {
         "symbol": "BLLN",
         "name": "BillionToOne, Inc.",
-        "pct": -5.42
+        "pct": -6.65
       },
       {
-        "symbol": "CEG",
-        "name": "Constellation Energy Corporation",
-        "pct": -5.11
+        "symbol": "SANM",
+        "name": "Sanmina Corporation",
+        "pct": -5.86
       },
       {
-        "symbol": "STWD",
-        "name": "STARWOOD PROPERTY TRUST, INC. Starwood Prope",
-        "pct": -4.98
+        "symbol": "NLY",
+        "name": "Annaly Capital Management Inc.",
+        "pct": -5.73
+      },
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -5.46
+      },
+      {
+        "symbol": "MTG",
+        "name": "MGIC Investment Corporation",
+        "pct": -5.06
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -5.06
       }
     ],
     "universe": 1311
