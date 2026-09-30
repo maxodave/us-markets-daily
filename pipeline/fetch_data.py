@@ -17,10 +17,12 @@ fallback, perche' la pagina Wikipedia del Nasdaq-100 non pubblica il GICS.
 Uso:
     python3 fetch_data.py
 """
+import datetime as dt
 import json
 import re
 import sys
 import time
+import zoneinfo
 from io import StringIO
 
 import pandas as pd
@@ -43,6 +45,15 @@ CHUNK_SIZE = 80
 OUT_FILE = "data.json"
 # Elenco snello dei costituenti (simbolo Yahoo + indici) per il job LIVE. Vedi main().
 UNIVERSE_FILE = "universe.json"
+
+# Il guardiano della seduta (30 settembre 2026). Vedi guardiano_seduta().
+QUOTE_URL = "https://query1.finance.yahoo.com/v7/finance/quote"
+QUOTE_FIELDS = "regularMarketPrice,regularMarketPreviousClose,regularMarketTime,exchangeTimezoneName"
+QUOTE_BATCH = 50
+# Tre fondi che replicano i tre indici: scambiano ogni giorno in cui scambia Wall
+# Street, quindi la data della loro ultima chiusura E' l'ultima seduta. Nessun
+# calendario delle festivita' da tenere aggiornato a mano.
+RIFERIMENTO_SEDUTA = ("SPY", "QQQ", "DIA")
 
 
 def _flat_columns(df: pd.DataFrame) -> list[str]:
@@ -262,6 +273,161 @@ def fetch_prices(yf_symbols: list[str]) -> dict:
     return results
 
 
+def moda_delle_date(prices: dict) -> tuple[str | None, dict]:
+    """La data condivisa dal maggior numero di titoli (a parita', la piu' recente),
+    e il conteggio completo. E' la stessa regola che main() usa per session_date."""
+    counts: dict[str, int] = {}
+    for p in prices.values():
+        counts[p["date"]] = counts.get(p["date"], 0) + 1
+    if not counts:
+        return None, counts
+    return max(counts, key=lambda d: (counts[d], d)), counts
+
+
+def _conteggio(counts: dict) -> str:
+    return " · ".join(f"{d}: {n}" for d, n in sorted(counts.items(), reverse=True))
+
+
+def fetch_quotes(yf_symbols: list[str]) -> dict:
+    """Ultimo prezzo, chiusura precedente e DATA di ciascun titolo, dall'endpoint
+    delle quotazioni di Yahoo — non dalla storia giornaliera che usa fetch_prices().
+
+    Ritorna {yf_symbol: {'price':.., 'prev':.., 'date': 'YYYY-MM-DD'}}, dove 'date' e'
+    il giorno di regularMarketTime nel fuso della SUA borsa (New York per Wall
+    Street, Roma per il FTSE MIB), come le date della storia giornaliera.
+
+    Perche' questo endpoint e non fast_info. fast_info.last_price, che usa il job
+    LIVE, e' ricavato dalla stessa storia giornaliera (yfinance: _get_1y_prices):
+    avrebbe lo stesso difetto che il guardiano deve coprire. Il LIVE non se ne
+    accorge solo perche' non gira mai dopo le 16:25 di New York.
+
+    Una richiesta ogni QUOTE_BATCH simboli; un blocco che fallisce si riprova una
+    volta e poi si salta. Mai un'eccezione verso l'alto: se questa fonte non
+    risponde, il guardiano non puo' giudicare e lo dice, ma non ferma il giro.
+    """
+    try:
+        from yfinance.data import YfData  # gestisce cookie e "crumb" di Yahoo
+        dati = YfData()
+    except Exception as e:
+        print(f"  ! quotazioni non disponibili ({type(e).__name__}: {e})", file=sys.stderr)
+        return {}
+
+    out: dict[str, dict] = {}
+    for chunk in chunked(yf_symbols, QUOTE_BATCH):
+        for tentativo in (1, 2):
+            try:
+                r = dati.get(url=QUOTE_URL, params={"symbols": ",".join(chunk), "fields": QUOTE_FIELDS})
+                risultati = r.json().get("quoteResponse", {}).get("result", [])
+                break
+            except Exception as e:
+                risultati = []
+                if tentativo == 2:
+                    print(f"  ! blocco quotazioni saltato ({type(e).__name__}: {e})", file=sys.stderr)
+                else:
+                    time.sleep(3)
+        for q in risultati:
+            price, prev, t = q.get("regularMarketPrice"), q.get("regularMarketPreviousClose"), q.get("regularMarketTime")
+            if not (price and prev and t):
+                continue
+            sym = q.get("symbol", "")
+            tz = q.get("exchangeTimezoneName") or ("Europe/Rome" if sym.endswith(".MI") else "America/New_York")
+            try:
+                giorno = dt.datetime.fromtimestamp(int(t), zoneinfo.ZoneInfo(tz)).date()
+            except Exception:
+                continue
+            out[sym] = {"price": float(price), "prev": float(prev), "date": str(giorno)}
+        time.sleep(0.5)
+    return out
+
+
+def guardiano_seduta(prices: dict, yf_symbols: list[str]) -> dict:
+    """Impedisce all'edizione di raccontare una seduta piu' vecchia dell'ultima.
+
+    IL GUASTO (visto fra il 21 e il 29 settembre 2026, 7 giri su 7). Se il job
+    parte dopo le ~20:05 di New York, la storia giornaliera di Yahoo termina UNA
+    SEDUTA PRIMA: la barra del giorno appena chiuso non c'e'. La moda delle date la
+    prende per buona, e l'edizione racconta la seduta precedente — con numeri veri
+    e data vera, solo non l'ultima. Prima di quell'ora il dato e' giusto:
+
+        giri fra le 19:44 e le 20:04 di New York   4 su 4 giusti
+        giri fra le 20:14 e le 21:11 di New York   3 su 3 una seduta indietro
+
+    Capita a giorni alterni perche' GitHub consegna lo schedule delle 21:30 UTC
+    con 2-4 ore di ritardo, cioe' esattamente a cavallo di quell'ora. E NON
+    lasciava traccia: il registro di un giro giusto e quello di uno sbagliato erano
+    identici riga per riga. Quando un giro tardivo e' seguito da uno puntuale, una
+    seduta si perde per sempre: e' successo a lunedi' 21 settembre.
+
+    COSA FA. Chiede all'endpoint delle quotazioni (fetch_quotes) la data
+    dell'ultima chiusura di SPY/QQQ/DIA: quella e' la seduta da raccontare. Poi:
+      - se la storia giornaliera arriva a quella seduta, non tocca niente;
+      - se e' indietro, prende prezzo e chiusura precedente dalle quotazioni per
+        ogni titolo rimasto indietro, e ricalcola la variazione;
+      - se anche dopo e' indietro, il giro SI FERMA con un errore. Un'edizione
+        che manca si vede, in rosso su GitHub; una seduta sbagliata no — e'
+        esattamente il modo in cui questo guasto e' rimasto invisibile per giorni.
+    Se le quotazioni non rispondono il guardiano non puo' giudicare: lo scrive, e
+    lascia il giro com'era prima che esistesse.
+
+    In ogni caso scrive le date trovate: il prossimo guasto di questo tipo si vede
+    nel registro senza dover contare a mano.
+    """
+    moda, counts = moda_delle_date(prices)
+    print(f"Date delle ultime chiusure (storia giornaliera): {_conteggio(counts) or 'nessuna'}")
+
+    quotes = fetch_quotes(list(RIFERIMENTO_SEDUTA) + list(yf_symbols))
+    attese = [quotes[s]["date"] for s in RIFERIMENTO_SEDUTA if s in quotes]
+    if not attese:
+        print("Guardiano: quotazioni di riferimento non disponibili, nessun controllo sulla seduta.")
+        return prices
+    attesa = max(attese)
+    print(f"Seduta di riferimento (quotazioni {'/'.join(RIFERIMENTO_SEDUTA)}): {attesa}")
+
+    if moda is not None and moda >= attesa:
+        print(f"Guardiano: seduta {moda}, coincide con il riferimento.")
+        return prices
+
+    print(f"Guardiano: la storia giornaliera e' indietro ({moda} contro {attesa}): "
+          f"riparo con le quotazioni.")
+    # La chiusura precedente si prende dalla STORIA GIORNALIERA quando si puo', non
+    # dalle quotazioni. Il giorno dello stacco del dividendo l'endpoint delle
+    # quotazioni la rettifica (sottrae il dividendo): misurato il 30 settembre 2026,
+    # 12 titoli su 558 — quasi tutti fondi immobiliari a fine trimestre, con la
+    # differenza pari al centesimo al dividendo trimestrale. La storia giornaliera
+    # (auto_adjust=False) da' invece la chiusura vera, ed e' quella che fetch_prices
+    # usa in tutte le altre notti. Quando la storia e' indietro di UNA seduta — il
+    # guasto tipico — la sua ultima chiusura E' la chiusura precedente: usarla tiene
+    # identico il metodo fra una notte riparata e una no. Solo se la storia manca, o
+    # e' indietro di piu' di una seduta, si ripiega sulla chiusura delle quotazioni.
+    seduta_prima = moda
+    riparati = 0
+    for sym in yf_symbols:
+        q = quotes.get(sym)
+        p = prices.get(sym)
+        if not q or q["date"] > attesa:
+            continue
+        if p is not None and p["date"] >= q["date"]:
+            continue
+        prev = p["last_close"] if (p is not None and p["date"] == seduta_prima) else q["prev"]
+        prices[sym] = {
+            "prev_close": round(prev, 2),
+            "last_close": round(q["price"], 2),
+            "pct_change": round((q["price"] - prev) / prev * 100, 2),
+            "date": q["date"],
+        }
+        riparati += 1
+
+    moda, counts = moda_delle_date(prices)
+    print(f"  riparati {riparati} titoli su {len(yf_symbols)} · dopo: {_conteggio(counts)}")
+    if moda is None or moda < attesa:
+        print(f"\nFERMO: anche dopo la riparazione la seduta e' {moda}, l'ultima e' {attesa}.", file=sys.stderr)
+        print("Non scrivo un'edizione che racconterebbe la seduta sbagliata: il sito resta",
+              "com'e' e il prossimo giro riprova.", file=sys.stderr)
+        sys.exit(1)
+    print(f"Guardiano: seduta {moda}, ora coincide con il riferimento.")
+    return prices
+
+
 def bucket_for(pct: float) -> str:
     if pct <= -5:
         return "-10% / -5%"
@@ -286,6 +452,9 @@ def main():
     # Un solo fetch prezzi sull'unione: i titoli in piu' indici non vengono scaricati
     # due volte, e i ~545-560 titoli unici restano ben dentro il chunking esistente.
     prices = fetch_prices(constituents["yf_symbol"].tolist())
+    # Prima di scegliere la seduta, controlla che la storia giornaliera arrivi
+    # davvero all'ultima: dopo le ~20:05 di New York si ferma una seduta prima.
+    prices = guardiano_seduta(prices, constituents["yf_symbol"].tolist())
 
     rows = []
     missing = []
