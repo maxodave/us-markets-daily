@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-30T16:07:50Z",
+  "updated": "2026-09-30T16:25:00Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.59,
-      "last": 7716.8
+      "pct": 0.53,
+      "last": 7712.62
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.88,
-      "last": 30605.93
+      "pct": 0.84,
+      "last": 30594.63
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.01,
-      "last": 51352.02
+      "pct": -0.09,
+      "last": 51312.39
     },
     {
       "key": "ftsemib",
@@ -30,54 +30,54 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "FORM",
-        "name": "FormFactor, Inc.",
-        "pct": 9.25
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": 9.61
       },
       {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
-        "pct": 9.25
+        "pct": 8.47
       },
       {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": 7.8
+        "symbol": "FORM",
+        "name": "FormFactor, Inc.",
+        "pct": 8.32
       },
       {
         "symbol": "ZETA",
         "name": "Zeta Global Holdings Corp.",
-        "pct": 6.89
-      },
-      {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": 6.81
+        "pct": 8.15
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
+        "pct": 7.02
+      },
+      {
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
         "pct": 6.77
       },
       {
         "symbol": "GEN",
         "name": "Gen Digital Inc.",
-        "pct": 6.47
+        "pct": 6.67
       },
       {
-        "symbol": "CBOE",
-        "name": "Cboe Global Markets, Inc.",
-        "pct": 6.27
-      },
-      {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise Company",
-        "pct": 6.2
+        "symbol": "PARR",
+        "name": "Par Pacific Holdings, Inc.",
+        "pct": 6.33
       },
       {
         "symbol": "TENB",
         "name": "Tenable Holdings, Inc.",
-        "pct": 5.92
+        "pct": 6.3
+      },
+      {
+        "symbol": "GRML",
+        "name": "Greenland Mines Ltd",
+        "pct": 6.22
       }
     ],
     "losers": [
@@ -89,47 +89,47 @@
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -7.05
-      },
-      {
-        "symbol": "JBL",
-        "name": "Jabil Inc.",
-        "pct": -6.97
+        "pct": -7.38
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": -6.73
+        "pct": -7.17
+      },
+      {
+        "symbol": "JBL",
+        "name": "Jabil Inc.",
+        "pct": -6.66
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -6.14
-      },
-      {
-        "symbol": "SANM",
-        "name": "Sanmina Corporation",
-        "pct": -6.05
+        "pct": -5.99
       },
       {
         "symbol": "NLY",
         "name": "Annaly Capital Management Inc.",
-        "pct": -5.97
+        "pct": -5.88
+      },
+      {
+        "symbol": "SANM",
+        "name": "Sanmina Corporation",
+        "pct": -5.51
       },
       {
         "symbol": "BLLN",
         "name": "BillionToOne, Inc.",
-        "pct": -5.82
+        "pct": -5.42
       },
       {
-        "symbol": "KMX",
-        "name": "CarMax Inc",
-        "pct": -5.07
+        "symbol": "CEG",
+        "name": "Constellation Energy Corporation",
+        "pct": -5.11
       },
       {
         "symbol": "STWD",
         "name": "STARWOOD PROPERTY TRUST, INC. Starwood Prope",
-        "pct": -4.91
+        "pct": -4.98
       }
     ],
     "universe": 1311
