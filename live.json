@@ -1,135 +1,135 @@
 {
-  "updated": "2026-09-30T14:22:29Z",
+  "updated": "2026-09-30T14:49:02Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.59,
-      "last": 7717.49
+      "pct": 0.54,
+      "last": 7712.97
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.8,
-      "last": 30581.01
+      "pct": 0.73,
+      "last": 30560.8
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.17,
-      "last": 51447.21
+      "pct": 0.06,
+      "last": 51387.54
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.49,
-      "last": 51480.19
+      "pct": -0.56,
+      "last": 51440.37
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "GRAL",
+        "name": "GRAIL, Inc.",
+        "pct": 9.1
+      },
+      {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 9.41
+        "pct": 8.5
       },
       {
         "symbol": "FORM",
         "name": "FormFactor, Inc.",
-        "pct": 7.84
-      },
-      {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": 7.17
-      },
-      {
-        "symbol": "MDB",
-        "name": "MongoDB, Inc.",
-        "pct": 7.13
-      },
-      {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "pct": 6.87
+        "pct": 8.47
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": 6.38
+        "pct": 6.41
       },
       {
         "symbol": "MP",
         "name": "MP Materials Corp.",
-        "pct": 6.24
+        "pct": 6.38
+      },
+      {
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "pct": 5.98
+      },
+      {
+        "symbol": "GEN",
+        "name": "Gen Digital Inc.",
+        "pct": 5.88
+      },
+      {
+        "symbol": "SYRE",
+        "name": "Spyre Therapeutics, Inc.",
+        "pct": 5.83
+      },
+      {
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise Company",
+        "pct": 5.69
       },
       {
         "symbol": "ENPH",
         "name": "Enphase Energy, Inc.",
-        "pct": 5.87
-      },
-      {
-        "symbol": "GRAL",
-        "name": "GRAIL, Inc.",
-        "pct": 5.32
-      },
-      {
-        "symbol": "FLY",
-        "name": "Firefly Aerospace Inc.",
-        "pct": 5.27
+        "pct": 5.37
       }
     ],
     "losers": [
       {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -7.92
-      },
-      {
-        "symbol": "FNV",
-        "name": "Franco-Nevada Corporation",
-        "pct": -6.81
+        "symbol": "JBL",
+        "name": "Jabil Inc.",
+        "pct": -7.28
       },
       {
         "symbol": "BLLN",
         "name": "BillionToOne, Inc.",
-        "pct": -6.55
+        "pct": -7.23
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": -6.54
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -7.07
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -6.3
+        "pct": -6.08
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": -5.98
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -6.18
-      },
-      {
-        "symbol": "JBL",
-        "name": "Jabil Inc.",
-        "pct": -6.18
+        "pct": -5.82
       },
       {
         "symbol": "SANM",
         "name": "Sanmina Corporation",
-        "pct": -4.77
+        "pct": -5.8
       },
       {
-        "symbol": "NOC",
-        "name": "Northrop Grumman Corporation",
-        "pct": -4.45
+        "symbol": "NLY",
+        "name": "Annaly Capital Management Inc.",
+        "pct": -4.85
       },
       {
-        "symbol": "INSP",
-        "name": "Inspire Medical Systems, Inc.",
-        "pct": -4.41
+        "symbol": "FNV",
+        "name": "Franco-Nevada Corporation",
+        "pct": -4.6
+      },
+      {
+        "symbol": "KMX",
+        "name": "CarMax Inc",
+        "pct": -4.58
       }
     ],
     "universe": 1311
