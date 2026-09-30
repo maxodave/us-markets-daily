@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-30T13:31:28Z",
+  "updated": "2026-09-30T13:49:40Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.28,
-      "last": 7693.63
+      "pct": 0.36,
+      "last": 7699.42
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.46,
-      "last": 30477.5
+      "pct": 0.55,
+      "last": 30506.3
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.06,
-      "last": 51387.6
+      "pct": 0.02,
+      "last": 51369.41
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.44,
-      "last": 51502.97
+      "pct": -0.63,
+      "last": 51406.28
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "CELC",
-        "name": "Celcuity Inc.",
-        "pct": 11.17
+        "symbol": "SYRE",
+        "name": "Spyre Therapeutics, Inc.",
+        "pct": 9.34
+      },
+      {
+        "symbol": "QURE",
+        "name": "uniQure N.V.",
+        "pct": 7.75
+      },
+      {
+        "symbol": "FORM",
+        "name": "FormFactor, Inc.",
+        "pct": 7.68
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 9.14
-      },
-      {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "pct": 7.55
-      },
-      {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise Company",
-        "pct": 6.51
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 6.12
-      },
-      {
-        "symbol": "MSTR",
-        "name": "Strategy Inc",
-        "pct": 5.48
-      },
-      {
-        "symbol": "GLXY",
-        "name": "Galaxy Digital Inc.",
-        "pct": 5.01
-      },
-      {
-        "symbol": "TXG",
-        "name": "10x Genomics, Inc.",
-        "pct": 4.86
+        "pct": 7.51
       },
       {
         "symbol": "FLY",
         "name": "Firefly Aerospace Inc.",
-        "pct": 4.83
+        "pct": 5.64
       },
       {
-        "symbol": "GME",
-        "name": "GameStop Corporation",
-        "pct": 4.65
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "pct": 5.32
+      },
+      {
+        "symbol": "DOCS",
+        "name": "Doximity, Inc.",
+        "pct": 4.86
+      },
+      {
+        "symbol": "MNDY",
+        "name": "monday.com Ltd.",
+        "pct": 4.68
+      },
+      {
+        "symbol": "PBF",
+        "name": "PBF Energy Inc.",
+        "pct": 4.62
+      },
+      {
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets, Inc.",
+        "pct": 4.57
       }
     ],
     "losers": [
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": -8.33
+        "pct": -8.25
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -8.03
+        "pct": -7.2
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -7.03
       },
       {
         "symbol": "CALM",
         "name": "Cal-Maine Foods, Inc.",
-        "pct": -6.26
+        "pct": -5.53
       },
       {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": -5.47
+        "symbol": "CEG",
+        "name": "Constellation Energy Corporation",
+        "pct": -5.37
       },
       {
-        "symbol": "NOC",
-        "name": "Northrop Grumman Corporation",
+        "symbol": "KMX",
+        "name": "CarMax Inc",
+        "pct": -4.68
+      },
+      {
+        "symbol": "BJ",
+        "name": "BJ's Wholesale Club Holdings, Inc.",
+        "pct": -4.17
+      },
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
         "pct": -3.91
-      },
-      {
-        "symbol": "MAT",
-        "name": "Mattel, Inc.",
-        "pct": -3.4
       },
       {
         "symbol": "NLY",
         "name": "Annaly Capital Management Inc.",
-        "pct": -3.37
+        "pct": -3.91
       },
       {
-        "symbol": "JBL",
-        "name": "Jabil Inc.",
-        "pct": -3.28
-      },
-      {
-        "symbol": "BLLN",
-        "name": "BillionToOne, Inc.",
-        "pct": -2.89
-      },
-      {
-        "symbol": "STWD",
-        "name": "STARWOOD PROPERTY TRUST, INC. Starwood Prope",
-        "pct": -2.89
+        "symbol": "NOC",
+        "name": "Northrop Grumman Corporation",
+        "pct": -3.85
       }
     ],
-    "universe": 1281
+    "universe": 1311
   }
 }
