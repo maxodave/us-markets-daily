@@ -1,135 +1,135 @@
 {
-  "updated": "2026-09-30T15:05:07Z",
+  "updated": "2026-09-30T15:50:07Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.55,
-      "last": 7714.0
+      "pct": 0.63,
+      "last": 7720.53
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.74,
-      "last": 30565.06
+      "pct": 0.94,
+      "last": 30625.14
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.1,
-      "last": 51411.21
+      "pct": -0.02,
+      "last": 51351.23
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.66,
-      "last": 51389.79
+      "pct": -0.65,
+      "last": 51398.17
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "FORM",
-        "name": "FormFactor, Inc.",
-        "pct": 9.48
-      },
-      {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
-        "pct": 9.19
+        "pct": 9.95
+      },
+      {
+        "symbol": "FORM",
+        "name": "FormFactor, Inc.",
+        "pct": 9.28
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 7.83
-      },
-      {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise Company",
-        "pct": 7.38
-      },
-      {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": 7.08
+        "pct": 8.16
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": 6.67
+        "pct": 7.74
       },
       {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "pct": 6.59
+        "symbol": "ZETA",
+        "name": "Zeta Global Holdings Corp.",
+        "pct": 7.08
       },
       {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": 6.57
-      },
-      {
-        "symbol": "MP",
-        "name": "MP Materials Corp.",
-        "pct": 6.19
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": 6.71
       },
       {
         "symbol": "GEN",
         "name": "Gen Digital Inc.",
-        "pct": 6.16
+        "pct": 6.62
+      },
+      {
+        "symbol": "PARR",
+        "name": "Par Pacific Holdings, Inc.",
+        "pct": 6.35
+      },
+      {
+        "symbol": "SYRE",
+        "name": "Spyre Therapeutics, Inc.",
+        "pct": 6.3
+      },
+      {
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": 6.23
       }
     ],
     "losers": [
       {
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": -24.71
+      },
+      {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": -7.59
-      },
-      {
-        "symbol": "JBL",
-        "name": "Jabil Inc.",
-        "pct": -7.13
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -6.38
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -6.2
+        "pct": -7.16
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -6.06
+        "pct": -6.65
       },
       {
-        "symbol": "SANM",
-        "name": "Sanmina Corporation",
-        "pct": -5.78
+        "symbol": "JBL",
+        "name": "Jabil Inc.",
+        "pct": -5.98
       },
       {
-        "symbol": "CAG",
-        "name": "ConAgra Brands, Inc.",
-        "pct": -5.73
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -5.93
       },
       {
         "symbol": "BLLN",
         "name": "BillionToOne, Inc.",
-        "pct": -5.54
+        "pct": -5.83
       },
       {
         "symbol": "NLY",
         "name": "Annaly Capital Management Inc.",
-        "pct": -5.19
+        "pct": -5.83
       },
       {
-        "symbol": "MAT",
-        "name": "Mattel, Inc.",
-        "pct": -4.92
+        "symbol": "SANM",
+        "name": "Sanmina Corporation",
+        "pct": -5.51
+      },
+      {
+        "symbol": "STWD",
+        "name": "STARWOOD PROPERTY TRUST, INC. Starwood Prope",
+        "pct": -4.84
+      },
+      {
+        "symbol": "CAG",
+        "name": "ConAgra Brands, Inc.",
+        "pct": -4.74
       }
     ],
     "universe": 1311
