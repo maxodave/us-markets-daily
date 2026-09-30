@@ -1,137 +1,137 @@
 {
-  "updated": "2026-09-30T13:21:45Z",
-  "market_open": false,
+  "updated": "2026-09-30T13:31:28Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.17,
-      "last": 7670.84
+      "pct": 0.28,
+      "last": 7693.63
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.21,
-      "last": 30339.33
+      "pct": 0.46,
+      "last": 30477.5
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.26,
-      "last": 51349.92
+      "pct": 0.06,
+      "last": 51387.6
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.2,
-      "last": 51628.55
+      "pct": -0.44,
+      "last": 51502.97
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 31.48
+        "symbol": "CELC",
+        "name": "Celcuity Inc.",
+        "pct": 11.17
       },
       {
-        "symbol": "CCL",
-        "name": "Carnival Corporation Ltd.",
-        "pct": 13.41
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": 9.14
       },
       {
-        "symbol": "PWP",
-        "name": "Perella Weinberg Partners",
-        "pct": 11.82
+        "symbol": "SYRE",
+        "name": "Spyre Therapeutics, Inc.",
+        "pct": 7.55
       },
       {
-        "symbol": "WRBY",
-        "name": "Warby Parker Inc.",
-        "pct": 11.39
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise Company",
+        "pct": 6.51
       },
       {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": 10.8
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 6.12
       },
       {
-        "symbol": "MGNI",
-        "name": "Magnite, Inc.",
-        "pct": 9.7
+        "symbol": "MSTR",
+        "name": "Strategy Inc",
+        "pct": 5.48
       },
       {
-        "symbol": "IDT",
-        "name": "IDT Corporation",
-        "pct": 8.63
+        "symbol": "GLXY",
+        "name": "Galaxy Digital Inc.",
+        "pct": 5.01
       },
       {
-        "symbol": "RCL",
-        "name": "Royal Caribbean Cruises Ltd.",
-        "pct": 7.45
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "pct": 4.86
       },
       {
-        "symbol": "WING",
-        "name": "Wingstop Inc.",
-        "pct": 6.7
+        "symbol": "FLY",
+        "name": "Firefly Aerospace Inc.",
+        "pct": 4.83
       },
       {
-        "symbol": "AGX",
-        "name": "Argan, Inc.",
-        "pct": 6.53
+        "symbol": "GME",
+        "name": "GameStop Corporation",
+        "pct": 4.65
       }
     ],
     "losers": [
       {
-        "symbol": "QURE",
-        "name": "uniQure N.V.",
-        "pct": -37.33
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": -8.33
       },
       {
-        "symbol": "FICO",
-        "name": "Fair Isaac Corporation",
-        "pct": -26.52
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": -8.03
       },
       {
-        "symbol": "GRML",
-        "name": "Greenland Mines Ltd",
-        "pct": -12.45
+        "symbol": "CALM",
+        "name": "Cal-Maine Foods, Inc.",
+        "pct": -6.26
       },
       {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "pct": -11.8
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": -5.47
       },
       {
-        "symbol": "PIPR",
-        "name": "Piper Sandler Companies",
-        "pct": -9.72
+        "symbol": "NOC",
+        "name": "Northrop Grumman Corporation",
+        "pct": -3.91
       },
       {
-        "symbol": "IMMX",
-        "name": "Immix Biopharma, Inc.",
-        "pct": -8.11
+        "symbol": "MAT",
+        "name": "Mattel, Inc.",
+        "pct": -3.4
       },
       {
-        "symbol": "DKNG",
-        "name": "DraftKings Inc.",
-        "pct": -7.42
+        "symbol": "NLY",
+        "name": "Annaly Capital Management Inc.",
+        "pct": -3.37
       },
       {
-        "symbol": "VOYG",
-        "name": "Voyager Technologies, Inc.",
-        "pct": -7.35
+        "symbol": "JBL",
+        "name": "Jabil Inc.",
+        "pct": -3.28
       },
       {
-        "symbol": "AIR",
-        "name": "AAR Corp.",
-        "pct": -7.25
+        "symbol": "BLLN",
+        "name": "BillionToOne, Inc.",
+        "pct": -2.89
       },
       {
-        "symbol": "NEOG",
-        "name": "Neogen Corporation",
-        "pct": -7.22
+        "symbol": "STWD",
+        "name": "STARWOOD PROPERTY TRUST, INC. Starwood Prope",
+        "pct": -2.89
       }
     ],
-    "universe": 1312
+    "universe": 1281
   }
 }
