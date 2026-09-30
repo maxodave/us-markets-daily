@@ -1,135 +1,135 @@
 {
-  "updated": "2026-09-30T14:49:02Z",
+  "updated": "2026-09-30T15:05:07Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.54,
-      "last": 7712.97
+      "pct": 0.55,
+      "last": 7714.0
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.73,
-      "last": 30560.8
+      "pct": 0.74,
+      "last": 30565.06
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.06,
-      "last": 51387.54
+      "pct": 0.1,
+      "last": 51411.21
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.56,
-      "last": 51440.37
+      "pct": -0.66,
+      "last": 51389.79
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "FORM",
+        "name": "FormFactor, Inc.",
+        "pct": 9.48
+      },
+      {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
-        "pct": 9.1
+        "pct": 9.19
       },
       {
         "symbol": "USDE",
         "name": "StablecoinX Inc.",
-        "pct": 8.5
-      },
-      {
-        "symbol": "FORM",
-        "name": "FormFactor, Inc.",
-        "pct": 8.47
-      },
-      {
-        "symbol": "HIMS",
-        "name": "Hims & Hers Health, Inc.",
-        "pct": 6.41
-      },
-      {
-        "symbol": "MP",
-        "name": "MP Materials Corp.",
-        "pct": 6.38
-      },
-      {
-        "symbol": "MDB",
-        "name": "MongoDB, Inc.",
-        "pct": 5.98
-      },
-      {
-        "symbol": "GEN",
-        "name": "Gen Digital Inc.",
-        "pct": 5.88
-      },
-      {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "pct": 5.83
+        "pct": 7.83
       },
       {
         "symbol": "HPE",
         "name": "Hewlett Packard Enterprise Company",
-        "pct": 5.69
+        "pct": 7.38
       },
       {
-        "symbol": "ENPH",
-        "name": "Enphase Energy, Inc.",
-        "pct": 5.37
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": 7.08
+      },
+      {
+        "symbol": "HIMS",
+        "name": "Hims & Hers Health, Inc.",
+        "pct": 6.67
+      },
+      {
+        "symbol": "SYRE",
+        "name": "Spyre Therapeutics, Inc.",
+        "pct": 6.59
+      },
+      {
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": 6.57
+      },
+      {
+        "symbol": "MP",
+        "name": "MP Materials Corp.",
+        "pct": 6.19
+      },
+      {
+        "symbol": "GEN",
+        "name": "Gen Digital Inc.",
+        "pct": 6.16
       }
     ],
     "losers": [
       {
-        "symbol": "JBL",
-        "name": "Jabil Inc.",
-        "pct": -7.28
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": -7.59
       },
       {
-        "symbol": "BLLN",
-        "name": "BillionToOne, Inc.",
-        "pct": -7.23
+        "symbol": "JBL",
+        "name": "Jabil Inc.",
+        "pct": -7.13
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -7.07
-      },
-      {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": -6.08
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": -5.98
+        "pct": -6.38
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -5.82
+        "pct": -6.2
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": -6.06
       },
       {
         "symbol": "SANM",
         "name": "Sanmina Corporation",
-        "pct": -5.8
+        "pct": -5.78
+      },
+      {
+        "symbol": "CAG",
+        "name": "ConAgra Brands, Inc.",
+        "pct": -5.73
+      },
+      {
+        "symbol": "BLLN",
+        "name": "BillionToOne, Inc.",
+        "pct": -5.54
       },
       {
         "symbol": "NLY",
         "name": "Annaly Capital Management Inc.",
-        "pct": -4.85
+        "pct": -5.19
       },
       {
-        "symbol": "FNV",
-        "name": "Franco-Nevada Corporation",
-        "pct": -4.6
-      },
-      {
-        "symbol": "KMX",
-        "name": "CarMax Inc",
-        "pct": -4.58
+        "symbol": "MAT",
+        "name": "Mattel, Inc.",
+        "pct": -4.92
       }
     ],
     "universe": 1311
