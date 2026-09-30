@@ -371,21 +371,41 @@ def guardiano_seduta(prices: dict, yf_symbols: list[str]) -> dict:
 
     In ogni caso scrive le date trovate: il prossimo guasto di questo tipo si vede
     nel registro senza dover contare a mano.
+
+    Restituisce (prices, esito): esito e' il verdetto, che main() salva in
+    universe.json sotto "guardiano". Nel caso FERMO non c'e' verdetto scritto: il
+    giro esce prima, e lo si vede dall'esito rosso della corsa su GitHub.
     """
     moda, counts = moda_delle_date(prices)
     print(f"Date delle ultime chiusure (storia giornaliera): {_conteggio(counts) or 'nessuna'}")
+    adesso = dt.datetime.now(dt.timezone.utc)
+    # Il verdetto finisce in universe.json, che daily.yml committa ogni notte: e'
+    # l'unico modo di vederlo senza il registro di Actions, che GitHub da' solo a
+    # chi e' autenticato (HTTP 403 altrimenti). Cioe' leggibile dal telefono.
+    esito = {
+        "controllato_alle": adesso.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "ora_new_york": adesso.astimezone(zoneinfo.ZoneInfo("America/New_York")).strftime("%a %d %H:%M"),
+        "date_storia": counts,
+        "riferimento": None,
+        "azione": None,
+        "riparati": 0,
+        "seduta": moda,
+    }
 
     quotes = fetch_quotes(list(RIFERIMENTO_SEDUTA) + list(yf_symbols))
     attese = [quotes[s]["date"] for s in RIFERIMENTO_SEDUTA if s in quotes]
     if not attese:
         print("Guardiano: quotazioni di riferimento non disponibili, nessun controllo sulla seduta.")
-        return prices
+        esito["azione"] = "quotazioni_mute"
+        return prices, esito
     attesa = max(attese)
+    esito["riferimento"] = attesa
     print(f"Seduta di riferimento (quotazioni {'/'.join(RIFERIMENTO_SEDUTA)}): {attesa}")
 
     if moda is not None and moda >= attesa:
         print(f"Guardiano: seduta {moda}, coincide con il riferimento.")
-        return prices
+        esito["azione"] = "coincide"
+        return prices, esito
 
     print(f"Guardiano: la storia giornaliera e' indietro ({moda} contro {attesa}): "
           f"riparo con le quotazioni.")
@@ -425,7 +445,8 @@ def guardiano_seduta(prices: dict, yf_symbols: list[str]) -> dict:
               "com'e' e il prossimo giro riprova.", file=sys.stderr)
         sys.exit(1)
     print(f"Guardiano: seduta {moda}, ora coincide con il riferimento.")
-    return prices
+    esito.update(azione="riparato", riparati=riparati, seduta=moda, date_dopo=counts)
+    return prices, esito
 
 
 def bucket_for(pct: float) -> str:
@@ -454,7 +475,7 @@ def main():
     prices = fetch_prices(constituents["yf_symbol"].tolist())
     # Prima di scegliere la seduta, controlla che la storia giornaliera arrivi
     # davvero all'ultima: dopo le ~20:05 di New York si ferma una seduta prima.
-    prices = guardiano_seduta(prices, constituents["yf_symbol"].tolist())
+    prices, guardiano = guardiano_seduta(prices, constituents["yf_symbol"].tolist())
 
     rows = []
     missing = []
@@ -521,7 +542,8 @@ def main():
         for _, r in constituents.iterrows()
     ]
     with open(UNIVERSE_FILE, "w") as f:
-        json.dump({"generated_at": session_date, "companies": universe}, f, indent=2, ensure_ascii=False)
+        json.dump({"generated_at": session_date, "guardiano": guardiano, "companies": universe},
+                  f, indent=2, ensure_ascii=False)
     print(f"Universo LIVE salvato in {UNIVERSE_FILE} ({len(universe)} simboli).")
 
     print(f"\nCompletato: {len(rows)} societa' salvate in {OUT_FILE}")
