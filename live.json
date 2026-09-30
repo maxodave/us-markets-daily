@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-30T17:15:36Z",
+  "updated": "2026-09-30T17:25:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.4,
-      "last": 7702.92
+      "pct": 0.35,
+      "last": 7698.38
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.7,
-      "last": 30550.61
+      "pct": 0.62,
+      "last": 30525.95
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.22,
-      "last": 51243.66
+      "pct": -0.29,
+      "last": 51212.42
     },
     {
       "key": "ftsemib",
@@ -32,52 +32,52 @@
       {
         "symbol": "ZETA",
         "name": "Zeta Global Holdings Corp.",
-        "pct": 8.49
-      },
-      {
-        "symbol": "USDE",
-        "name": "StablecoinX Inc.",
-        "pct": 8.13
+        "pct": 8.21
       },
       {
         "symbol": "FORM",
         "name": "FormFactor, Inc.",
-        "pct": 8.04
+        "pct": 7.9
+      },
+      {
+        "symbol": "USDE",
+        "name": "StablecoinX Inc.",
+        "pct": 7.89
       },
       {
         "symbol": "GEN",
         "name": "Gen Digital Inc.",
-        "pct": 6.98
+        "pct": 6.74
       },
       {
         "symbol": "DOCS",
         "name": "Doximity, Inc.",
-        "pct": 6.41
+        "pct": 6.3
       },
       {
-        "symbol": "HIMS",
-        "name": "Hims & Hers Health, Inc.",
-        "pct": 6.16
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise Company",
+        "pct": 6.15
       },
       {
         "symbol": "PARR",
         "name": "Par Pacific Holdings, Inc.",
-        "pct": 6.09
+        "pct": 6.08
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": 6.07
+        "pct": 6.0
       },
       {
-        "symbol": "TENB",
-        "name": "Tenable Holdings, Inc.",
-        "pct": 5.9
+        "symbol": "HIMS",
+        "name": "Hims & Hers Health, Inc.",
+        "pct": 5.96
       },
       {
-        "symbol": "ACMR",
-        "name": "ACM Research, Inc.",
-        "pct": 5.89
+        "symbol": "MP",
+        "name": "MP Materials Corp.",
+        "pct": 5.84
       }
     ],
     "losers": [
@@ -87,49 +87,49 @@
         "pct": -24.71
       },
       {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": -8.09
-      },
-      {
         "symbol": "JBL",
         "name": "Jabil Inc.",
-        "pct": -7.87
+        "pct": -8.21
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": -8.02
       },
       {
         "symbol": "BLLN",
         "name": "BillionToOne, Inc.",
-        "pct": -7.03
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": -6.61
+        "pct": -7.22
       },
       {
         "symbol": "SANM",
         "name": "Sanmina Corporation",
-        "pct": -5.9
+        "pct": -6.47
       },
       {
-        "symbol": "NLY",
-        "name": "Annaly Capital Management Inc.",
-        "pct": -5.83
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": -6.39
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -5.81
+        "pct": -6.06
+      },
+      {
+        "symbol": "NLY",
+        "name": "Annaly Capital Management Inc.",
+        "pct": -5.93
       },
       {
         "symbol": "INSP",
         "name": "Inspire Medical Systems, Inc.",
-        "pct": -5.15
+        "pct": -5.67
       },
       {
-        "symbol": "STWD",
-        "name": "STARWOOD PROPERTY TRUST, INC. Starwood Prope",
-        "pct": -5.08
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -5.35
       }
     ],
     "universe": 1311
