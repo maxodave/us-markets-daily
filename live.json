@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-01T15:21:49Z",
+  "updated": "2026-10-01T15:34:26Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.23,
-      "last": 7635.68
+      "pct": -0.33,
+      "last": 7628.02
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.11,
-      "last": 30373.73
+      "pct": -0.26,
+      "last": 30330.83
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.59,
-      "last": 50625.82
+      "pct": -0.64,
+      "last": 50598.7
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -2.01,
-      "last": 50371.66
+      "pct": -2.03,
+      "last": 50363.8
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ACN",
         "name": "Accenture plc",
-        "pct": 18.63
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": 11.17
+        "pct": 18.2
       },
       {
         "symbol": "COHR",
         "name": "Coherent Corp.",
-        "pct": 10.13
-      },
-      {
-        "symbol": "SNPS",
-        "name": "Synopsys, Inc.",
-        "pct": 9.97
+        "pct": 10.63
       },
       {
         "symbol": "LITE",
         "name": "Lumentum Holdings Inc.",
-        "pct": 9.91
+        "pct": 9.87
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 9.71
+      },
+      {
+        "symbol": "SNPS",
+        "name": "Synopsys, Inc.",
+        "pct": 9.29
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": 9.32
+        "pct": 8.79
       },
       {
         "symbol": "CNXC",
         "name": "Concentrix Corporation",
-        "pct": 8.18
+        "pct": 8.1
       },
       {
         "symbol": "TSEM",
         "name": "Tower Semiconductor Ltd.",
-        "pct": 7.6
-      },
-      {
-        "symbol": "EPAM",
-        "name": "EPAM Systems, Inc.",
-        "pct": 7.05
+        "pct": 7.07
       },
       {
         "symbol": "CTSH",
         "name": "Cognizant Technology Solutions Corporation",
-        "pct": 7.03
+        "pct": 6.43
+      },
+      {
+        "symbol": "EPAM",
+        "name": "EPAM Systems, Inc.",
+        "pct": 6.26
       }
     ],
     "losers": [
       {
         "symbol": "CTVA",
         "name": "Corteva, Inc.",
-        "pct": -84.23
+        "pct": -84.36
       },
       {
         "symbol": "NKTR",
         "name": "Nektar Therapeutics",
-        "pct": -18.08
+        "pct": -19.74
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": -13.95
+        "pct": -14.61
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -9.23
+        "pct": -9.89
       },
       {
         "symbol": "UMAC",
         "name": "Unusual Machines, Inc.",
-        "pct": -7.56
-      },
-      {
-        "symbol": "SPHR",
-        "name": "Sphere Entertainment Co.",
-        "pct": -6.66
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -6.1
-      },
-      {
-        "symbol": "SRZN",
-        "name": "Surrozen, Inc.",
-        "pct": -6.03
-      },
-      {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": -6.0
+        "pct": -8.99
       },
       {
         "symbol": "CARG",
         "name": "CarGurus, Inc.",
-        "pct": -5.91
+        "pct": -7.83
+      },
+      {
+        "symbol": "SPHR",
+        "name": "Sphere Entertainment Co.",
+        "pct": -7.31
+      },
+      {
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": -6.68
+      },
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -6.48
+      },
+      {
+        "symbol": "CAPR",
+        "name": "Capricor Therapeutics, Inc.",
+        "pct": -6.23
       }
     ],
     "universe": 1382
