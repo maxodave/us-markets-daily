@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-01T17:45:36Z",
+  "updated": "2026-10-01T17:55:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.32,
-      "last": 7677.76
+      "pct": 0.16,
+      "last": 7665.58
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.59,
-      "last": 30587.35
+      "pct": 0.43,
+      "last": 30538.4
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.05,
-      "last": 50949.51
+      "pct": -0.09,
+      "last": 50878.33
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ACN",
         "name": "Accenture plc",
-        "pct": 18.25
+        "pct": 18.08
       },
       {
         "symbol": "SNPS",
         "name": "Synopsys, Inc.",
-        "pct": 13.52
-      },
-      {
-        "symbol": "INOD",
-        "name": "Innodata Inc.",
-        "pct": 13.15
+        "pct": 13.38
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": 13.14
+        "pct": 12.66
+      },
+      {
+        "symbol": "INOD",
+        "name": "Innodata Inc.",
+        "pct": 12.41
       },
       {
         "symbol": "CNXC",
         "name": "Concentrix Corporation",
-        "pct": 12.44
-      },
-      {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": 11.07
+        "pct": 11.86
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 10.68
+        "pct": 10.59
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": 10.56
       },
       {
         "symbol": "GWRE",
         "name": "Guidewire Software, Inc.",
-        "pct": 10.14
+        "pct": 9.59
       },
       {
         "symbol": "KD",
         "name": "Kyndryl Holdings, Inc.",
-        "pct": 9.77
+        "pct": 9.55
       },
       {
         "symbol": "EPAM",
         "name": "EPAM Systems, Inc.",
-        "pct": 9.03
+        "pct": 8.38
       }
     ],
     "losers": [
       {
         "symbol": "CTVA",
         "name": "Corteva, Inc.",
-        "pct": -84.46
+        "pct": -84.49
       },
       {
         "symbol": "NKTR",
         "name": "Nektar Therapeutics",
-        "pct": -20.35
+        "pct": -21.67
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": -13.58
+        "pct": -12.52
       },
       {
         "symbol": "ACCV",
         "name": "Accelevation Holdings Corp.",
-        "pct": -11.31
+        "pct": -11.44
       },
       {
         "symbol": "UMAC",
         "name": "Unusual Machines, Inc.",
-        "pct": -8.21
+        "pct": -9.84
       },
       {
         "symbol": "PSKY",
         "name": "Paramount Skydance Corporation",
-        "pct": -6.63
+        "pct": -7.21
       },
       {
         "symbol": "RGEN",
         "name": "Repligen Corporation",
-        "pct": -6.58
-      },
-      {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "pct": -6.43
-      },
-      {
-        "symbol": "CAI",
-        "name": "Caris Life Sciences, Inc.",
-        "pct": -6.37
+        "pct": -7.19
       },
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -6.26
+        "pct": -7.15
+      },
+      {
+        "symbol": "TEM",
+        "name": "Tempus AI, Inc.",
+        "pct": -6.73
+      },
+      {
+        "symbol": "CAI",
+        "name": "Caris Life Sciences, Inc.",
+        "pct": -6.55
       }
     ],
     "universe": 1382
