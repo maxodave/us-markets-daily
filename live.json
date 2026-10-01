@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-01T14:12:22Z",
+  "updated": "2026-10-01T14:25:42Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.18,
-      "last": 7639.9
+      "pct": -0.24,
+      "last": 7635.36
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.02,
-      "last": 30402.32
+      "pct": -0.18,
+      "last": 30354.81
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.45,
-      "last": 50694.64
+      "last": 50694.82
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.59,
-      "last": 50587.62
+      "pct": -1.69,
+      "last": 50536.97
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ACN",
         "name": "Accenture plc",
-        "pct": 23.97
+        "pct": 22.38
       },
       {
         "symbol": "SNPS",
         "name": "Synopsys, Inc.",
-        "pct": 12.8
-      },
-      {
-        "symbol": "CTSH",
-        "name": "Cognizant Technology Solutions Corporation",
-        "pct": 12.16
-      },
-      {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": 11.98
-      },
-      {
-        "symbol": "FICO",
-        "name": "Fair Isaac Corporation",
-        "pct": 10.23
+        "pct": 11.71
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 9.85
+        "pct": 11.43
+      },
+      {
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": 11.02
+      },
+      {
+        "symbol": "CTSH",
+        "name": "Cognizant Technology Solutions Corporation",
+        "pct": 10.81
       },
       {
         "symbol": "EPAM",
         "name": "EPAM Systems, Inc.",
-        "pct": 9.71
+        "pct": 8.94
       },
       {
-        "symbol": "GWRE",
-        "name": "Guidewire Software, Inc.",
-        "pct": 7.74
+        "symbol": "FICO",
+        "name": "Fair Isaac Corporation",
+        "pct": 8.32
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": 7.46
       },
       {
         "symbol": "KD",
         "name": "Kyndryl Holdings, Inc.",
-        "pct": 7.42
+        "pct": 7.06
       },
       {
-        "symbol": "IT",
-        "name": "Gartner, Inc.",
-        "pct": 7.16
+        "symbol": "GWRE",
+        "name": "Guidewire Software, Inc.",
+        "pct": 6.99
       }
     ],
     "losers": [
       {
         "symbol": "CTVA",
         "name": "Corteva, Inc.",
-        "pct": -83.81
+        "pct": -84.33
       },
       {
         "symbol": "NKTR",
         "name": "Nektar Therapeutics",
-        "pct": -16.91
+        "pct": -18.84
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": -13.95
+        "pct": -15.07
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -7.33
+        "pct": -7.62
       },
       {
-        "symbol": "NUAI",
-        "name": "New Era Energy & Digital, Inc.",
-        "pct": -5.95
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -6.65
       },
       {
         "symbol": "SEDG",
         "name": "SolarEdge Technologies, Inc.",
-        "pct": -5.55
+        "pct": -6.28
       },
       {
-        "symbol": "MOS",
-        "name": "Mosaic Company (The)",
-        "pct": -5.54
+        "symbol": "NUAI",
+        "name": "New Era Energy & Digital, Inc.",
+        "pct": -6.1
       },
       {
-        "symbol": "SRZN",
-        "name": "Surrozen, Inc.",
-        "pct": -5.34
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -5.29
+      },
+      {
+        "symbol": "CLSK",
+        "name": "CleanSpark, Inc.",
+        "pct": -4.97
       },
       {
         "symbol": "RIOT",
         "name": "Riot Platforms, Inc.",
-        "pct": -5.11
-      },
-      {
-        "symbol": "AYI",
-        "name": "Acuity Inc.",
-        "pct": -5.08
+        "pct": -4.96
       }
     ],
     "universe": 1382
