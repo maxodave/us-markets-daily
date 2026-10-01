@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-01T14:25:42Z",
+  "updated": "2026-10-01T14:43:04Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.24,
-      "last": 7635.36
+      "pct": -0.12,
+      "last": 7644.41
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.18,
-      "last": 30354.81
+      "pct": 0.06,
+      "last": 30426.11
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.45,
-      "last": 50694.82
+      "pct": -0.41,
+      "last": 50715.68
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.69,
-      "last": 50536.97
+      "pct": -1.83,
+      "last": 50465.5
     }
   ],
   "movers": {
@@ -32,103 +32,103 @@
       {
         "symbol": "ACN",
         "name": "Accenture plc",
-        "pct": 22.38
-      },
-      {
-        "symbol": "SNPS",
-        "name": "Synopsys, Inc.",
-        "pct": 11.71
+        "pct": 20.24
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 11.43
+        "pct": 11.86
       },
       {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": 11.02
-      },
-      {
-        "symbol": "CTSH",
-        "name": "Cognizant Technology Solutions Corporation",
-        "pct": 10.81
-      },
-      {
-        "symbol": "EPAM",
-        "name": "EPAM Systems, Inc.",
-        "pct": 8.94
+        "symbol": "SNPS",
+        "name": "Synopsys, Inc.",
+        "pct": 10.63
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": 8.32
+        "pct": 9.62
+      },
+      {
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": 9.38
       },
       {
         "symbol": "COHR",
         "name": "Coherent Corp.",
-        "pct": 7.46
+        "pct": 8.91
       },
       {
-        "symbol": "KD",
-        "name": "Kyndryl Holdings, Inc.",
-        "pct": 7.06
+        "symbol": "CTSH",
+        "name": "Cognizant Technology Solutions Corporation",
+        "pct": 8.65
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": 8.17
+      },
+      {
+        "symbol": "EPAM",
+        "name": "EPAM Systems, Inc.",
+        "pct": 7.02
       },
       {
         "symbol": "GWRE",
         "name": "Guidewire Software, Inc.",
-        "pct": 6.99
+        "pct": 6.89
       }
     ],
     "losers": [
       {
         "symbol": "CTVA",
         "name": "Corteva, Inc.",
-        "pct": -84.33
+        "pct": -84.08
       },
       {
         "symbol": "NKTR",
         "name": "Nektar Therapeutics",
-        "pct": -18.84
+        "pct": -18.48
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": -15.07
+        "pct": -15.02
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -7.62
+        "pct": -6.6
       },
       {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -6.65
+        "symbol": "SRZN",
+        "name": "Surrozen, Inc.",
+        "pct": -6.56
       },
       {
         "symbol": "SEDG",
         "name": "SolarEdge Technologies, Inc.",
-        "pct": -6.28
+        "pct": -5.27
+      },
+      {
+        "symbol": "PSKY",
+        "name": "Paramount Skydance Corporation",
+        "pct": -5.18
+      },
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -5.07
       },
       {
         "symbol": "NUAI",
         "name": "New Era Energy & Digital, Inc.",
-        "pct": -6.1
+        "pct": -4.99
       },
       {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -5.29
-      },
-      {
-        "symbol": "CLSK",
-        "name": "CleanSpark, Inc.",
-        "pct": -4.97
-      },
-      {
-        "symbol": "RIOT",
-        "name": "Riot Platforms, Inc.",
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
         "pct": -4.96
       }
     ],
