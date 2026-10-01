@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-01T16:30:03Z",
+  "updated": "2026-10-01T17:05:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.15,
-      "last": 7641.93
+      "pct": -0.07,
+      "last": 7648.38
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.2,
-      "last": 30348.29
+      "pct": -0.08,
+      "last": 30383.25
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.21,
-      "last": 50818.7
+      "pct": -0.16,
+      "last": 50843.22
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ACN",
         "name": "Accenture plc",
-        "pct": 18.35
+        "pct": 18.59
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": 12.22
-      },
-      {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": 11.01
-      },
-      {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": 10.8
+        "pct": 12.6
       },
       {
         "symbol": "SNPS",
         "name": "Synopsys, Inc.",
-        "pct": 9.73
+        "pct": 10.78
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": 10.78
+      },
+      {
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": 10.66
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 9.52
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": 8.47
+        "pct": 9.39
       },
       {
         "symbol": "GWRE",
         "name": "Guidewire Software, Inc.",
-        "pct": 8.34
+        "pct": 8.67
       },
       {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": 7.79
+        "symbol": "EPAM",
+        "name": "EPAM Systems, Inc.",
+        "pct": 8.16
       },
       {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": 7.2
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": 7.69
+      },
+      {
+        "symbol": "INOD",
+        "name": "Innodata Inc.",
+        "pct": 7.12
       }
     ],
     "losers": [
       {
         "symbol": "CTVA",
         "name": "Corteva, Inc.",
-        "pct": -84.38
+        "pct": -84.29
       },
       {
         "symbol": "NKTR",
         "name": "Nektar Therapeutics",
-        "pct": -20.75
+        "pct": -20.76
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": -13.4
+        "pct": -13.78
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -10.61
-      },
-      {
-        "symbol": "UMAC",
-        "name": "Unusual Machines, Inc.",
-        "pct": -8.11
-      },
-      {
-        "symbol": "PSKY",
-        "name": "Paramount Skydance Corporation",
-        "pct": -7.45
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -7.13
-      },
-      {
-        "symbol": "RIOT",
-        "name": "Riot Platforms, Inc.",
-        "pct": -6.82
-      },
-      {
-        "symbol": "CARG",
-        "name": "CarGurus, Inc.",
-        "pct": -6.77
+        "pct": -9.45
       },
       {
         "symbol": "ACCV",
         "name": "Accelevation Holdings Corp.",
-        "pct": -6.73
+        "pct": -9.22
+      },
+      {
+        "symbol": "UMAC",
+        "name": "Unusual Machines, Inc.",
+        "pct": -8.31
+      },
+      {
+        "symbol": "PSKY",
+        "name": "Paramount Skydance Corporation",
+        "pct": -7.89
+      },
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -7.23
+      },
+      {
+        "symbol": "SPHR",
+        "name": "Sphere Entertainment Co.",
+        "pct": -6.43
+      },
+      {
+        "symbol": "RGEN",
+        "name": "Repligen Corporation",
+        "pct": -6.12
       }
     ],
     "universe": 1382
