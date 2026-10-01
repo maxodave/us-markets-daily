@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T20:15:37Z",
+  "updated": "2026-10-01T13:09:43Z",
   "market_open": false,
   "indices": [
     {
@@ -23,12 +23,22 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.7,
-      "last": 51371.98
+      "pct": -0.84,
+      "last": 50977.77
     }
   ],
   "movers": {
     "gainers": [
+      {
+        "symbol": "ROG",
+        "name": "Rogers Corporation",
+        "pct": 10.73
+      },
+      {
+        "symbol": "CAPR",
+        "name": "Capricor Therapeutics, Inc.",
+        "pct": 10.5
+      },
       {
         "symbol": "FORM",
         "name": "FormFactor, Inc.",
@@ -37,7 +47,12 @@
       {
         "symbol": "ZETA",
         "name": "Zeta Global Holdings Corp.",
-        "pct": 9.03
+        "pct": 9.01
+      },
+      {
+        "symbol": "BRZE",
+        "name": "Braze, Inc.",
+        "pct": 8.42
       },
       {
         "symbol": "FROG",
@@ -45,39 +60,24 @@
         "pct": 7.38
       },
       {
+        "symbol": "DNA",
+        "name": "Ginkgo Bioworks Holdings, Inc.",
+        "pct": 7.27
+      },
+      {
         "symbol": "ACMR",
         "name": "ACM Research, Inc.",
         "pct": 7.02
       },
       {
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": 6.95
+      },
+      {
         "symbol": "DOCS",
         "name": "Doximity, Inc.",
         "pct": 6.86
-      },
-      {
-        "symbol": "IDT",
-        "name": "IDT Corporation",
-        "pct": 5.84
-      },
-      {
-        "symbol": "GEN",
-        "name": "Gen Digital Inc.",
-        "pct": 5.61
-      },
-      {
-        "symbol": "CBOE",
-        "name": "Cboe Global Markets, Inc.",
-        "pct": 5.17
-      },
-      {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "pct": 5.09
-      },
-      {
-        "symbol": "QLYS",
-        "name": "Qualys, Inc.",
-        "pct": 4.96
       }
     ],
     "losers": [
@@ -87,9 +87,19 @@
         "pct": -57.19
       },
       {
+        "symbol": "ETON",
+        "name": "Eton Pharmaceuticals, Inc.",
+        "pct": -13.01
+      },
+      {
+        "symbol": "TRLV",
+        "name": "Trulieve Cannabis Corp. Subordinate Voting S",
+        "pct": -12.17
+      },
+      {
         "symbol": "JBL",
         "name": "Jabil Inc.",
-        "pct": -10.09
+        "pct": -10.03
       },
       {
         "symbol": "BLLN",
@@ -107,31 +117,21 @@
         "pct": -8.53
       },
       {
+        "symbol": "ESNT",
+        "name": "Essent Group Ltd.",
+        "pct": -8.43
+      },
+      {
+        "symbol": "NMIH",
+        "name": "NMI Holdings Inc",
+        "pct": -8.37
+      },
+      {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
         "pct": -7.89
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -7.28
-      },
-      {
-        "symbol": "GENI",
-        "name": "Genius Sports Limited",
-        "pct": -7.13
-      },
-      {
-        "symbol": "NLY",
-        "name": "Annaly Capital Management Inc.",
-        "pct": -7.04
-      },
-      {
-        "symbol": "KMX",
-        "name": "CarMax Inc",
-        "pct": -6.99
       }
     ],
-    "universe": 1311
+    "universe": 1381
   }
 }
