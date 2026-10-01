@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-01T13:53:37Z",
+  "updated": "2026-10-01T14:12:22Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.16,
-      "last": 7665.77
+      "pct": -0.18,
+      "last": 7639.9
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.28,
-      "last": 30493.38
+      "pct": -0.02,
+      "last": 30402.32
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.05,
-      "last": 50898.99
+      "pct": -0.45,
+      "last": 50694.64
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.28,
-      "last": 50751.25
+      "pct": -1.59,
+      "last": 50587.62
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ACN",
         "name": "Accenture plc",
-        "pct": 21.49
+        "pct": 23.97
       },
       {
         "symbol": "SNPS",
         "name": "Synopsys, Inc.",
-        "pct": 11.43
-      },
-      {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": 11.42
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": 10.18
+        "pct": 12.8
       },
       {
         "symbol": "CTSH",
         "name": "Cognizant Technology Solutions Corporation",
-        "pct": 9.77
+        "pct": 12.16
+      },
+      {
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": 11.98
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": 9.22
+        "pct": 10.23
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 9.85
       },
       {
         "symbol": "EPAM",
         "name": "EPAM Systems, Inc.",
-        "pct": 7.7
+        "pct": 9.71
+      },
+      {
+        "symbol": "GWRE",
+        "name": "Guidewire Software, Inc.",
+        "pct": 7.74
+      },
+      {
+        "symbol": "KD",
+        "name": "Kyndryl Holdings, Inc.",
+        "pct": 7.42
       },
       {
         "symbol": "IT",
         "name": "Gartner, Inc.",
-        "pct": 6.65
-      },
-      {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": 6.24
-      },
-      {
-        "symbol": "CDNS",
-        "name": "Cadence Design Systems, Inc.",
-        "pct": 6.03
+        "pct": 7.16
       }
     ],
     "losers": [
       {
         "symbol": "CTVA",
         "name": "Corteva, Inc.",
-        "pct": -83.29
-      },
-      {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "pct": -17.48
+        "pct": -83.81
       },
       {
         "symbol": "NKTR",
         "name": "Nektar Therapeutics",
-        "pct": -14.92
+        "pct": -16.91
       },
       {
-        "symbol": "SEDG",
-        "name": "SolarEdge Technologies, Inc.",
-        "pct": -5.05
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": -13.95
       },
       {
-        "symbol": "SRZN",
-        "name": "Surrozen, Inc.",
-        "pct": -4.83
-      },
-      {
-        "symbol": "CAPR",
-        "name": "Capricor Therapeutics, Inc.",
-        "pct": -4.75
-      },
-      {
-        "symbol": "CALM",
-        "name": "Cal-Maine Foods, Inc.",
-        "pct": -4.75
-      },
-      {
-        "symbol": "ORA",
-        "name": "Ormat Technologies, Inc.",
-        "pct": -4.5
-      },
-      {
-        "symbol": "MP",
-        "name": "MP Materials Corp.",
-        "pct": -4.5
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -7.33
       },
       {
         "symbol": "NUAI",
         "name": "New Era Energy & Digital, Inc.",
-        "pct": -4.46
+        "pct": -5.95
+      },
+      {
+        "symbol": "SEDG",
+        "name": "SolarEdge Technologies, Inc.",
+        "pct": -5.55
+      },
+      {
+        "symbol": "MOS",
+        "name": "Mosaic Company (The)",
+        "pct": -5.54
+      },
+      {
+        "symbol": "SRZN",
+        "name": "Surrozen, Inc.",
+        "pct": -5.34
+      },
+      {
+        "symbol": "RIOT",
+        "name": "Riot Platforms, Inc.",
+        "pct": -5.11
+      },
+      {
+        "symbol": "AYI",
+        "name": "Acuity Inc.",
+        "pct": -5.08
       }
     ],
     "universe": 1382
