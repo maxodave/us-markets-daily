@@ -1,15 +1,16 @@
 {
-  "updated": "2026-10-01T00:51:23Z",
-  "session_date": "2026-09-29",
+  "updated": "2026-10-02T01:10:05Z",
+  "session_date": "2026-09-30",
   "universe": 558,
   "up": {
-    "count": 223,
+    "count": 135,
     "by_length": {
-      "1": 155,
-      "2": 27,
-      "3": 35,
+      "1": 84,
+      "2": 38,
+      "3": 6,
       "4": 5,
-      "5": 1
+      "5": 1,
+      "6": 1
     },
     "top": [
       {
@@ -18,8 +19,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 8.43
+        "days": 6,
+        "cum_pct": 8.9
       },
       {
         "symbol": "P",
@@ -27,175 +28,154 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 18.6
+        "days": 5,
+        "cum_pct": 19.27
       },
       {
-        "symbol": "WAT",
-        "name": "Waters Corporation",
+        "symbol": "PPL",
+        "name": "PPL Corporation",
         "indices": [
           "sp500"
         ],
         "days": 4,
-        "cum_pct": 5.4
+        "cum_pct": 2.88
       },
       {
-        "symbol": "HLT",
-        "name": "Hilton Worldwide",
+        "symbol": "Q",
+        "name": "Qnity Electronics",
         "indices": [
           "sp500"
         ],
         "days": 4,
-        "cum_pct": 5.28
+        "cum_pct": 2.8
       },
       {
-        "symbol": "EXPE",
-        "name": "Expedia Group",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 2.81
-      },
-      {
-        "symbol": "TRV",
-        "name": "Travelers Companies (The)",
-        "indices": [
-          "sp500",
-          "dow"
-        ],
-        "days": 4,
-        "cum_pct": 0.78
-      },
-      {
-        "symbol": "AMAT",
-        "name": "Applied Materials",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 3,
-        "cum_pct": 7.96
-      },
-      {
-        "symbol": "ASML",
-        "name": "ASML Holding",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": 3,
-        "cum_pct": 6.5
-      },
-      {
-        "symbol": "KLAC",
-        "name": "KLA Corporation",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 3,
-        "cum_pct": 5.03
-      },
-      {
-        "symbol": "STMMI.MI",
-        "name": "STMicroelectronics",
+        "symbol": "BZU.MI",
+        "name": "Buzzi",
         "indices": [
           "ftsemib"
         ],
-        "days": 3,
-        "cum_pct": 4.74
+        "days": 4,
+        "cum_pct": 2.26
       },
       {
-        "symbol": "AMGN",
-        "name": "Amgen",
+        "symbol": "IVG.MI",
+        "name": "Iveco",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 4,
+        "cum_pct": 1.42
+      },
+      {
+        "symbol": "LIN",
+        "name": "Linde plc",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 1.39
+      },
+      {
+        "symbol": "CRWD",
+        "name": "CrowdStrike",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 3,
+        "cum_pct": 5.01
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify",
+        "indices": [
+          "nasdaq100"
+        ],
+        "days": 3,
+        "cum_pct": 4.25
+      },
+      {
+        "symbol": "TTWO",
+        "name": "Take-Two Interactive",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 3,
+        "cum_pct": 3.01
+      },
+      {
+        "symbol": "CMG",
+        "name": "Chipotle Mexican Grill",
+        "indices": [
+          "sp500"
+        ],
+        "days": 3,
+        "cum_pct": 1.98
+      },
+      {
+        "symbol": "ILMN",
+        "name": "Illumina, Inc.",
+        "indices": [
+          "sp500"
+        ],
+        "days": 3,
+        "cum_pct": 1.36
+      },
+      {
+        "symbol": "CSCO",
+        "name": "Cisco",
         "indices": [
           "sp500",
           "dow",
           "nasdaq100"
         ],
         "days": 3,
-        "cum_pct": 4.33
+        "cum_pct": 0.87
       },
       {
-        "symbol": "PGR",
-        "name": "Progressive Corporation",
+        "symbol": "RCL",
+        "name": "Royal Caribbean Group",
         "indices": [
           "sp500"
         ],
-        "days": 3,
-        "cum_pct": 4.13
+        "days": 2,
+        "cum_pct": 9.59
       },
       {
-        "symbol": "ADI",
-        "name": "Analog Devices",
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets",
         "indices": [
-          "sp500",
-          "nasdaq100"
+          "sp500"
         ],
-        "days": 3,
-        "cum_pct": 4.08
-      },
-      {
-        "symbol": "TXN",
-        "name": "Texas Instruments",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 3,
-        "cum_pct": 4.08
-      },
-      {
-        "symbol": "TER",
-        "name": "Teradyne",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 3,
-        "cum_pct": 3.95
+        "days": 2,
+        "cum_pct": 8.7
       }
     ]
   },
   "down": {
-    "count": 329,
+    "count": 422,
     "by_length": {
-      "1": 122,
-      "2": 131,
-      "3": 29,
-      "4": 21,
-      "5": 12,
+      "1": 176,
+      "2": 89,
+      "3": 105,
+      "4": 20,
+      "5": 14,
       "6": 9,
-      "7": 1,
-      "8+": 4
+      "7": 6,
+      "8+": 3
     },
     "top": [
-      {
-        "symbol": "STZ",
-        "name": "Constellation Brands",
-        "indices": [
-          "sp500"
-        ],
-        "days": -11,
-        "cum_pct": -9.78
-      },
       {
         "symbol": "ADM",
         "name": "Archer Daniels Midland",
         "indices": [
           "sp500"
         ],
-        "days": -8,
-        "cum_pct": -9.86
-      },
-      {
-        "symbol": "PSX",
-        "name": "Phillips 66",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -8.01
+        "days": -9,
+        "cum_pct": -9.89
       },
       {
         "symbol": "ELV",
@@ -203,8 +183,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -8,
-        "cum_pct": -5.2
+        "days": -9,
+        "cum_pct": -6.14
       },
       {
         "symbol": "GL",
@@ -212,18 +192,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -4.23
-      },
-      {
-        "symbol": "INTU",
-        "name": "Intuit",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -6,
-        "cum_pct": -11.87
+        "days": -8,
+        "cum_pct": -4.48
       },
       {
         "symbol": "TIT.MI",
@@ -231,35 +201,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -6,
-        "cum_pct": -11.84
-      },
-      {
-        "symbol": "VRSN",
-        "name": "Verisign",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -9.2
-      },
-      {
-        "symbol": "MSTR",
-        "name": "MicroStrategy",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": -6,
-        "cum_pct": -8.21
-      },
-      {
-        "symbol": "IBKR",
-        "name": "Interactive Brokers",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -7.54
+        "days": -7,
+        "cum_pct": -14.12
       },
       {
         "symbol": "APP",
@@ -268,8 +211,17 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -6,
-        "cum_pct": -7.42
+        "days": -7,
+        "cum_pct": -12.04
+      },
+      {
+        "symbol": "MSTR",
+        "name": "MicroStrategy",
+        "indices": [
+          "nasdaq100"
+        ],
+        "days": -7,
+        "cum_pct": -9.15
       },
       {
         "symbol": "MS",
@@ -277,8 +229,17 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -6.48
+        "days": -7,
+        "cum_pct": -8.75
+      },
+      {
+        "symbol": "IBKR",
+        "name": "Interactive Brokers",
+        "indices": [
+          "sp500"
+        ],
+        "days": -7,
+        "cum_pct": -8.36
       },
       {
         "symbol": "DLR",
@@ -286,17 +247,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -5.24
-      },
-      {
-        "symbol": "FOXA",
-        "name": "Fox Corporation (Class A)",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -3.57
+        "days": -7,
+        "cum_pct": -5.8
       },
       {
         "symbol": "MGM",
@@ -304,12 +256,57 @@
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -18.97
+        "days": -6,
+        "cum_pct": -20.18
+      },
+      {
+        "symbol": "EFX",
+        "name": "Equifax",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -14.11
+      },
+      {
+        "symbol": "CDW",
+        "name": "CDW Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -13.07
+      },
+      {
+        "symbol": "ARE",
+        "name": "Alexandria Real Estate Equities",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -11.87
+      },
+      {
+        "symbol": "WY",
+        "name": "Weyerhaeuser",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -11.56
+      },
+      {
+        "symbol": "HOOD",
+        "name": "Robinhood Markets",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -9.46
       }
     ]
   },
   "flat": {
-    "count": 6
+    "count": 1
   }
 }
