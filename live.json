@@ -1,137 +1,137 @@
 {
-  "updated": "2026-10-01T19:55:35Z",
+  "updated": "2026-10-02T18:15:16Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.21,
-      "last": 7669.29
+      "pct": 0.67,
+      "last": 7720.03
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.36,
-      "last": 30516.52
+      "pct": 0.95,
+      "last": 30792.71
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.06,
-      "last": 50955.44
+      "pct": 0.4,
+      "last": 51142.6
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -2.27,
-      "last": 50237.86
+      "pct": 0.21,
+      "last": 50483.21
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "MAT",
-        "name": "Mattel, Inc.",
-        "pct": 18.76
+        "symbol": "SYNA",
+        "name": "Synaptics Incorporated",
+        "pct": 13.74
       },
       {
-        "symbol": "ACN",
-        "name": "Accenture plc",
-        "pct": 15.54
-      },
-      {
-        "symbol": "SNPS",
-        "name": "Synopsys, Inc.",
-        "pct": 12.87
-      },
-      {
-        "symbol": "FICO",
-        "name": "Fair Isaac Corporation",
-        "pct": 12.66
-      },
-      {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": 10.61
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": 13.48
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": 10.55
+        "pct": 13.06
       },
       {
-        "symbol": "INOD",
-        "name": "Innodata Inc.",
-        "pct": 9.72
+        "symbol": "VSH",
+        "name": "Vishay Intertechnology, Inc.",
+        "pct": 12.71
       },
       {
-        "symbol": "GWRE",
-        "name": "Guidewire Software, Inc.",
+        "symbol": "PENG",
+        "name": "Penguin Solutions, Inc.",
+        "pct": 11.4
+      },
+      {
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": 9.11
+      },
+      {
+        "symbol": "INIO",
+        "name": "INNIO N.V.",
         "pct": 8.86
       },
       {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": 8.16
+        "symbol": "ALGM",
+        "name": "Allegro MicroSystems, Inc.",
+        "pct": 8.75
       },
       {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": 8.01
+        "symbol": "PL",
+        "name": "Planet Labs PBC",
+        "pct": 8.52
+      },
+      {
+        "symbol": "ACLS",
+        "name": "Axcelis Technologies, Inc.",
+        "pct": 7.95
       }
     ],
     "losers": [
       {
-        "symbol": "CTVA",
-        "name": "Corteva, Inc.",
-        "pct": -84.14
+        "symbol": "WCT",
+        "name": "Wellchange Holdings Company Limited",
+        "pct": -24.93
+      },
+      {
+        "symbol": "STX",
+        "name": "Seagate Technology Holdings PLC",
+        "pct": -10.89
+      },
+      {
+        "symbol": "WDC",
+        "name": "Western Digital Corporation",
+        "pct": -9.57
+      },
+      {
+        "symbol": "KOD",
+        "name": "Kodiak Sciences Inc",
+        "pct": -7.75
+      },
+      {
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": -7.15
       },
       {
         "symbol": "NKTR",
         "name": "Nektar Therapeutics",
-        "pct": -22.13
+        "pct": -6.79
       },
       {
-        "symbol": "UMAC",
-        "name": "Unusual Machines, Inc.",
-        "pct": -10.76
+        "symbol": "UCTT",
+        "name": "Ultra Clean Holdings, Inc.",
+        "pct": -6.7
       },
       {
-        "symbol": "PSKY",
-        "name": "Paramount Skydance Corporation",
-        "pct": -9.15
+        "symbol": "MOD",
+        "name": "Modine Manufacturing Company",
+        "pct": -6.46
       },
       {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -8.29
+        "symbol": "ACN",
+        "name": "Accenture plc",
+        "pct": -6.15
       },
       {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -8.19
-      },
-      {
-        "symbol": "ACCV",
-        "name": "Accelevation Holdings Corp.",
-        "pct": -8.08
-      },
-      {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "pct": -8.05
-      },
-      {
-        "symbol": "RGEN",
-        "name": "Repligen Corporation",
-        "pct": -7.54
-      },
-      {
-        "symbol": "CAI",
-        "name": "Caris Life Sciences, Inc.",
-        "pct": -7.1
+        "symbol": "AXGN",
+        "name": "Axogen, Inc.",
+        "pct": -5.62
       }
     ],
-    "universe": 1382
+    "universe": 1373
   }
 }
