@@ -1314,60 +1314,47 @@
     },
     "ftsemib": {
       "stats": {
-        "n_up": 5,
-        "n_down": 34,
+        "n_up": 24,
+        "n_down": 15,
         "n_flat": 1,
         "n_total": 40,
-        "avg_pct": -1.82,
+        "avg_pct": 0.44,
         "best_sectors": [
           {
             "sector": "Energy",
-            "avg_pct": -0.47
-          },
-          {
-            "sector": "Industrial Goods and Services",
-            "avg_pct": -1.09
+            "avg_pct": 0.97
           },
           {
             "sector": "Utilities",
-            "avg_pct": -1.18
+            "avg_pct": 0.68
+          },
+          {
+            "sector": "Industrial Goods and Services",
+            "avg_pct": 0.64
           }
         ],
         "worst_sectors": [
           {
             "sector": "Banks",
-            "avg_pct": -3.88
-          },
-          {
-            "sector": "Financial Services",
-            "avg_pct": -3.38
+            "avg_pct": -0.22
           },
           {
             "sector": "Health Care",
-            "avg_pct": -2.15
+            "avg_pct": -0.21
+          },
+          {
+            "sector": "Financial Services",
+            "avg_pct": 0.33
           }
         ]
       },
       "gainers": [
         {
-          "symbol": "FCT.MI",
-          "name": "Fincantieri",
-          "sector": "Shipbuilding",
-          "pct_change": 2.7,
-          "last_close": 12.36,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
           "symbol": "STMMI.MI",
           "name": "STMicroelectronics",
           "sector": "Technology",
-          "pct_change": 0.73,
-          "last_close": 47.2,
+          "pct_change": 6.67,
+          "last_close": 50.35,
           "indices": [
             "ftsemib"
           ],
@@ -1379,8 +1366,8 @@
           "symbol": "PRY.MI",
           "name": "Prysmian",
           "sector": "Industrial Goods and Services",
-          "pct_change": 0.69,
-          "last_close": 124.85,
+          "pct_change": 3.96,
+          "last_close": 129.8,
           "indices": [
             "ftsemib"
           ],
@@ -1389,143 +1376,11 @@
           "news_historical": []
         },
         {
-          "symbol": "TEN.MI",
-          "name": "Tenaris",
-          "sector": "Energy",
-          "pct_change": 0.45,
-          "last_close": 24.46,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "ENI.MI",
-          "name": "Eni",
-          "sector": "Energy",
-          "pct_change": 0.04,
-          "last_close": 24.03,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "IVG.MI",
-          "name": "Iveco",
-          "sector": "Industrial Goods and Services",
-          "pct_change": 0.0,
-          "last_close": 14.29,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "AVIO.MI",
-          "name": "Avio",
-          "sector": "Aerospace",
-          "pct_change": -0.1,
-          "last_close": 29.33,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "REC.MI",
-          "name": "Recordati",
-          "sector": "Health Care",
-          "pct_change": -0.19,
-          "last_close": 52.55,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "TRN.MI",
-          "name": "Terna",
-          "sector": "Utilities",
-          "pct_change": -0.59,
-          "last_close": 9.14,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "BZU.MI",
-          "name": "Buzzi",
-          "sector": "Construction and Materials",
-          "pct_change": -0.69,
-          "last_close": 37.27,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        }
-      ],
-      "losers": [
-        {
-          "symbol": "BMED.MI",
-          "name": "Banca Mediolanum",
-          "sector": "Financial Services",
-          "pct_change": -4.3,
-          "last_close": 22.94,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "MB.MI",
-          "name": "Mediobanca",
-          "sector": "Banks",
-          "pct_change": -4.23,
-          "last_close": 27.41,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "UCG.MI",
-          "name": "UniCredit",
-          "sector": "Banks",
-          "pct_change": -4.07,
-          "last_close": 79.53,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "ISP.MI",
-          "name": "Intesa Sanpaolo",
-          "sector": "Banks",
-          "pct_change": -4.02,
-          "last_close": 6.38,
+          "symbol": "INW.MI",
+          "name": "INWIT",
+          "sector": "Telecommunications",
+          "pct_change": 2.28,
+          "last_close": 6.5,
           "indices": [
             "ftsemib"
           ],
@@ -1537,8 +1392,8 @@
           "symbol": "FBK.MI",
           "name": "FinecoBank",
           "sector": "Banks",
-          "pct_change": -3.93,
-          "last_close": 21.26,
+          "pct_change": 2.21,
+          "last_close": 21.73,
           "indices": [
             "ftsemib"
           ],
@@ -1547,11 +1402,63 @@
           "news_historical": []
         },
         {
-          "symbol": "BMPS.MI",
-          "name": "Banca Monte dei Paschi di Siena",
-          "sector": "Banks",
-          "pct_change": -3.74,
-          "last_close": 11.31,
+          "symbol": "BZU.MI",
+          "name": "Buzzi",
+          "sector": "Construction and Materials",
+          "pct_change": 1.58,
+          "last_close": 37.86,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LTMC.MI",
+          "name": "Lottomatica Group",
+          "sector": "Gambling",
+          "pct_change": 1.56,
+          "last_close": 25.42,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ENEL.MI",
+          "name": "Enel",
+          "sector": "Utilities",
+          "pct_change": 1.51,
+          "last_close": 8.8,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BC.MI",
+          "name": "Brunello Cucinelli",
+          "sector": "Consumer Products and Services",
+          "pct_change": 1.49,
+          "last_close": 80.18,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SRG.MI",
+          "name": "Snam",
+          "sector": "Energy",
+          "pct_change": 1.45,
+          "last_close": 5.61,
           "indices": [
             "ftsemib"
           ],
@@ -1563,8 +1470,23 @@
           "symbol": "DIA.MI",
           "name": "Diasorin",
           "sector": "Health Care",
-          "pct_change": -3.65,
-          "last_close": 74.0,
+          "pct_change": 1.22,
+          "last_close": 74.9,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "TIT.MI",
+          "name": "Telecom Italia",
+          "sector": "Telecommunications",
+          "pct_change": -2.45,
+          "last_close": 6.41,
           "indices": [
             "ftsemib"
           ],
@@ -1573,11 +1495,37 @@
           "news_historical": []
         },
         {
-          "symbol": "BAMI.MI",
-          "name": "Banco BPM",
-          "sector": "Banks",
-          "pct_change": -3.64,
-          "last_close": 15.34,
+          "symbol": "FCT.MI",
+          "name": "Fincantieri",
+          "sector": "Shipbuilding",
+          "pct_change": -1.98,
+          "last_close": 12.12,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMP.MI",
+          "name": "Amplifon",
+          "sector": "Health Care",
+          "pct_change": -1.95,
+          "last_close": 11.56,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNI.MI",
+          "name": "Unipol",
+          "sector": "Insurance",
+          "pct_change": -1.11,
+          "last_close": 25.79,
           "indices": [
             "ftsemib"
           ],
@@ -1589,8 +1537,8 @@
           "symbol": "BPE.MI",
           "name": "BPER Banca",
           "sector": "Banks",
-          "pct_change": -3.55,
-          "last_close": 13.64,
+          "pct_change": -1.04,
+          "last_close": 13.5,
           "indices": [
             "ftsemib"
           ],
@@ -1599,11 +1547,63 @@
           "news_historical": []
         },
         {
-          "symbol": "PST.MI",
-          "name": "Poste italiane",
-          "sector": "Financial Services",
-          "pct_change": -3.2,
-          "last_close": 24.53,
+          "symbol": "G.MI",
+          "name": "Generali",
+          "sector": "Insurance",
+          "pct_change": -0.96,
+          "last_close": 41.46,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UCG.MI",
+          "name": "UniCredit",
+          "sector": "Banks",
+          "pct_change": -0.86,
+          "last_close": 78.85,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LDO.MI",
+          "name": "Leonardo",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -0.86,
+          "last_close": 47.39,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ISP.MI",
+          "name": "Intesa Sanpaolo",
+          "sector": "Banks",
+          "pct_change": -0.78,
+          "last_close": 6.33,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BAMI.MI",
+          "name": "Banco BPM",
+          "sector": "Banks",
+          "pct_change": -0.75,
+          "last_close": 15.23,
           "indices": [
             "ftsemib"
           ],
@@ -1614,14 +1614,14 @@
       ],
       "paragraphs": {
         "en": [
-          "In the October 2, 2026 session the FTSE MIB closed with 5 stocks higher, 34 lower and 1 unchanged, out of 40 tracked. The average move was -1.82%.",
-          "Best-performing sectors by average move: Energy (-0.47%); Industrial Goods and Services (-1.09%); Utilities (-1.18%). Weakest: Banks (-3.88%); Financial Services (-3.38%); Health Care (-2.15%).",
-          "Leading the session: Fincantieri (FCT.MI, +2.70%); STMicroelectronics (STMMI.MI, +0.73%); Prysmian (PRY.MI, +0.69%). At the bottom: Banca Mediolanum (BMED.MI, -4.30%); Mediobanca (MB.MI, -4.23%); UniCredit (UCG.MI, -4.07%)."
+          "In the October 2, 2026 session the FTSE MIB closed with 24 stocks higher, 15 lower and 1 unchanged, out of 40 tracked. The average move was +0.44%.",
+          "Best-performing sectors by average move: Energy (+0.97%); Utilities (+0.68%); Industrial Goods and Services (+0.64%). Weakest: Banks (-0.22%); Health Care (-0.21%); Financial Services (+0.33%).",
+          "Leading the session: STMicroelectronics (STMMI.MI, +6.67%); Prysmian (PRY.MI, +3.96%); INWIT (INW.MI, +2.28%). At the bottom: Telecom Italia (TIT.MI, -2.45%); Fincantieri (FCT.MI, -1.98%); Amplifon (AMP.MI, -1.95%)."
         ],
         "it": [
-          "Nella seduta del 2 ottobre 2026 il FTSE MIB ha chiuso con 5 societa' in rialzo, 34 in ribasso e 1 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di -1,82%.",
-          "Settori con la variazione media migliore: Energy (-0,47%); Industrial Goods and Services (-1,09%); Utilities (-1,18%). Settori piu' debolli: Banks (-3,88%); Financial Services (-3,38%); Health Care (-2,15%).",
-          "In cima alla seduta: Fincantieri (FCT.MI, +2,70%); STMicroelectronics (STMMI.MI, +0,73%); Prysmian (PRY.MI, +0,69%). In fondo: Banca Mediolanum (BMED.MI, -4,30%); Mediobanca (MB.MI, -4,23%); UniCredit (UCG.MI, -4,07%)."
+          "Nella seduta del 2 ottobre 2026 il FTSE MIB ha chiuso con 24 societa' in rialzo, 15 in ribasso e 1 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di +0,44%.",
+          "Settori con la variazione media migliore: Energy (+0,97%); Utilities (+0,68%); Industrial Goods and Services (+0,64%). Settori piu' debolli: Banks (-0,22%); Health Care (-0,21%); Financial Services (+0,33%).",
+          "In cima alla seduta: STMicroelectronics (STMMI.MI, +6,67%); Prysmian (PRY.MI, +3,96%); INWIT (INW.MI, +2,28%). In fondo: Telecom Italia (TIT.MI, -2,45%); Fincantieri (FCT.MI, -1,98%); Amplifon (AMP.MI, -1,95%)."
         ]
       }
     },
@@ -1945,71 +1945,224 @@
       }
     }
   },
-  "manual_commentary_html": "<p>I titoli azionari statunitensi sono saliti il 2 ottobre 2026 dopo che i dati sull&#x27;occupazione inferiori alle attese hanno temperato le prospettive di futuri aumenti dei tassi di interesse, secondo il Wall Street Journal. I dati sull&#x27;assunzione di settembre hanno mostrato un rallentamento dello slancio del mercato del lavoro mentre rimane su un percorso stabile, alleviando la pressione sulla Federal Reserve per mantenere tassi elevati. Il mercato più ampio ha beneficiato di questo cambiamento nelle aspettative sui tassi, con il Nasdaq-100 che ha sovraperformato i suoi concorrenti registrando un guadagno medio dello 0,49 percento rispetto allo 0,31 percento per l&#x27;S&amp;P 500 e lo 0,24 percento per il Dow Jones. Il Wall Street Journal ha anche notato che Wall Street si sta adattando a un ambiente di rendimento del 5 percento poiché crepe nel mercato hanno iniziato a manifestarsi.</p><p>I titoli tecnologici e dell&#x27;Information Technology hanno guidato l&#x27;avanzata, con guadagni medi dell&#x27;1,16 e dello 0,94 percento rispettivamente, mentre gli Industrials hanno aggiunto lo 0,71 percento. Tra i maggiori rialzisti della seduta, Teradyne è salito dell&#x27;8,0 percento, Hewlett Packard Enterprise è aumentato del 7,36 percento, SpaceX ha guadagnato il 7,35 percento, EchoStar ha avanzato del 6,8 percento e ON Semiconductor è aumentato del 6,01 percento. Monolithic Power Systems, Coherent Corp., NetApp, Arm Holdings e Rocket Lab hanno anche registrato guadagni significativi, compresi tra il 4,91 e il 5,79 percento. I media tracciati non hanno segnalato catalizzatori aziendali specifici per questi movimenti.</p><p>I Finanziari hanno registrato un calo medio dello 0,28 percento, mentre Real Estate e Consumer Discretionary sono rimasti praticamente piatti. I maggiori perdenti della seduta erano titoli di archiviazione e semiconduttori: Western Digital è sceso del 10,22 percento e Seagate Technology è crollato del 10,21 percento, con i media tracciati che non citano catalizzatori specifici per nessuno dei due cali. Accenture è scivolato del 6,31 percento, Corteva si è ritirato del 5,17 percento e Alnylam Pharmaceuticals è diminuito del 4,96 percento. AppLovin, FactSet, Gartner, Cognizant e Sandisk hanno anche registrato perdite comprese tra il 3,79 e il 4,65 percento, anche se non sono state segnalate notizie specifiche dell&#x27;azienda per spiegare questi cali. L&#x27;ampiezza è stata positiva su tutti e tre i principali indici, con 303 titoli in rialzo e 212 in calo tra i 518 tracciati.</p>",
-  "manual_commentary_html_en": "<p>U.S. stocks rose on October 2, 2026, as a softer-than-expected jobs report tempered expectations for future interest rate increases, according to the Wall Street Journal. The September hiring data showed labor market momentum slowing while remaining on a steady track, easing pressure on the Federal Reserve to maintain elevated rates. The broader market benefited from this shift in rate expectations, with the Nasdaq-100 outperforming its peers by posting a 0.49 percent average gain compared to 0.31 percent for the S&amp;P 500 and 0.24 percent for the Dow Jones. The Wall Street Journal also noted that Wall Street is adjusting to a 5 percent yield environment as market cracks have begun to show.</p><p>Technology and Information Technology stocks led the advance, with average gains of 1.16 and 0.94 percent respectively, while Industrials added 0.71 percent. Among the session&#x27;s largest gainers, Teradyne climbed 8.0 percent, Hewlett Packard Enterprise rose 7.36 percent, SpaceX gained 7.35 percent, EchoStar advanced 6.8 percent, and ON Semiconductor increased 6.01 percent. Monolithic Power Systems, Coherent Corp., NetApp, Arm Holdings, and Rocket Lab also posted significant gains, ranging from 4.91 to 5.79 percent. The tracked outlets reported no specific company catalysts for these moves.</p><p>Financials lagged with a 0.28 percent average decline, while Real Estate and Consumer Discretionary remained nearly flat. The session&#x27;s largest losers were storage and semiconductor stocks: Western Digital fell 10.22 percent and Seagate Technology dropped 10.21 percent, with the tracked outlets citing no specific catalyst for either decline. Accenture slid 6.31 percent, Corteva retreated 5.17 percent, and Alnylam Pharmaceuticals declined 4.96 percent. AppLovin, FactSet, Gartner, Cognizant, and Sandisk also posted losses ranging from 3.79 to 4.65 percent, though no company-specific news was reported to explain these declines. Breadth was positive across all three major indices, with 303 stocks advancing and 212 declining among the 518 tracked.</p>",
+  "manual_commentary_html": "<p>I titoli statunitensi sono saliti il 2 ottobre 2026 dopo che un rapporto sull&#x27;occupazione più debole del previsto ha attenuato le preoccupazioni sulla traiettoria dei tassi di interesse della Federal Reserve. Secondo il Wall Street Journal, l&#x27;occupazione di settembre ha proceduto lentamente ma il mercato del lavoro è rimasto su un percorso stabile, con il Nasdaq che ha guidato i titoli al rialzo in risposta ai dati occupazionali moderati. Il mercato più ampio ha avanzato con 303 rialzisti contro 212 ribassisti su 518 titoli tracciati, con un guadagno medio dello 0,34 percento. Il Nasdaq-100 ha sovraperformato con un guadagno medio dello 0,49 percento, rispetto allo 0,31 percento per l&#x27;S&amp;P 500 e lo 0,24 percento per il Dow Jones.</p><p>I settori Technology e Information Technology hanno guidato l&#x27;avanzata, registrando guadagni medi dell&#x27;1,16 percento e dello 0,94 percento rispettivamente, mentre Industrials ha aggiunto lo 0,71 percento. Financials ha registrato un ritardo con un calo medio dello 0,28 percento, e Real Estate e Consumer Discretionary sono rimasti essenzialmente piatti allo 0,02 percento e allo 0,03 percento rispettivamente.</p><p>Tra i maggiori rialzisti della seduta, Teradyne è salito dell&#x27;8,0 percento, Hewlett Packard Enterprise ha guadagnato il 7,36 percento e SpaceX ha registrato un rialzo del 7,35 percento. EchoStar è avanzato del 6,8 percento, ON Semiconductor ha aggiunto il 6,01 percento e Monolithic Power Systems è salito del 5,79 percento. Coherent Corp., NetApp, Arm Holdings e Rocket Lab hanno completato i migliori performer con guadagni che vanno dal 4,91 al 5,59 percento. I media tracciati non hanno riportato catalizzatori aziendali specifici per questi movimenti.</p><p>Western Digital e Seagate Technology hanno guidato i ribassi, ciascuno scendendo di più del 10 percento—Western Digital è sceso del 10,22 percento e Seagate è sceso del 10,21 percento. Accenture è scesa del 6,31 percento, Corteva è scesa del 5,17 percento e Alnylam Pharmaceuticals è scesa del 4,96 percento. AppLovin, FactSet, Gartner, Cognizant e Sandisk hanno registrato anche perdite che vanno dal 3,79 al 4,65 percento. Nessun catalizzatore aziendale specifico è stato riportato per questi ribassi.</p>",
+  "manual_commentary_html_en": "<p>U.S. stocks rose on October 2, 2026, as a softer-than-expected jobs report eased concerns about the Federal Reserve&#x27;s interest rate trajectory. According to the Wall Street Journal, September hiring trudged along but the labor market remained on a steady track, with the Nasdaq leading stocks higher in response to the moderated employment data. The broader market advanced on 303 gainers against 212 decliners across 518 stocks tracked, with an average gain of 0.34 percent. The Nasdaq-100 outperformed with an average gain of 0.49 percent, compared to 0.31 percent for the S&amp;P 500 and 0.24 percent for the Dow Jones.</p><p>Technology and Information Technology sectors led the advance, posting average gains of 1.16 percent and 0.94 percent respectively, while Industrials added 0.71 percent. Financials lagged with an average decline of 0.28 percent, and Real Estate and Consumer Discretionary were essentially flat at 0.02 percent and 0.03 percent respectively.</p><p>Among the session&#x27;s largest gainers, Teradyne rose 8.0 percent, Hewlett Packard Enterprise climbed 7.36 percent, and SpaceX gained 7.35 percent. EchoStar advanced 6.8 percent, ON Semiconductor added 6.01 percent, and Monolithic Power Systems rose 5.79 percent. Coherent Corp., NetApp, Arm Holdings, and Rocket Lab rounded out the top performers with gains ranging from 4.91 to 5.59 percent. Tracked outlets reported no specific company catalysts for these moves.</p><p>Western Digital and Seagate Technology led the decliners, each falling more than 10 percent—Western Digital dropped 10.22 percent and Seagate fell 10.21 percent. Accenture declined 6.31 percent, Corteva fell 5.17 percent, and Alnylam Pharmaceuticals slid 4.96 percent. AppLovin, FactSet, Gartner, Cognizant, and Sandisk also posted losses ranging from 3.79 to 4.65 percent. No specific company catalysts were reported for these declines.</p>",
   "manual_highlights": [],
   "feed": [
     {
-      "title": "John Maynard Keynes and the search for the good life",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 03 Oct 2026 04:00:39 GMT",
-      "link": "https://www.ft.com/content/c13f9f08-2cb6-4605-893a-fd2199e4bc44",
-      "summary": "Playwright James Graham on an economist who asked the right questions in bad times — and why he matters so much today",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fc76c7614-f5d6-409e-aed9-117441284880.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "China, America and the new Great Game",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 03 Oct 2026 04:00:30 GMT",
-      "link": "https://www.ft.com/content/8869caf9-3cd1-4300-aeb3-828a4d9da4f9?syn-25a6b1a6=1",
-      "summary": "Which power will prevail? As in the 19th-century struggle between the UK and Russia, the answer may depend on forces beyond either’s control",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa6282226-1c3f-4f0c-8669-42c35b0f05b9.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "Karl-Anthony Towns Who Lost Mom To COVID-19 Talks Of Value Of Vaccine",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 23:04:31 -0400",
-      "link": "https://www.forbes.com/sites/brucelee/2026/10/02/karl-anthony-towns-who-lost-mom-to-covid-19-talks-of-value-of-vaccine/",
-      "summary": "New York Knicks center Karl-Anthony Towns has had a good 2026 with his marriage and NBA Championship. 2020 was far different with the loss of his mom to COVID-19.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6ac067bf496c9896fe5105ee/0x0.jpg"
-    },
-    {
-      "title": "WWE Money In The Bank Field Is Set — Here's The Full Card After SmackDown",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 22:45:13 -0400",
-      "link": "https://www.forbes.com/sites/brianmazique/2026/10/02/wwe-money-in-the-bank-field-is-set---heres-the-full-card-after-smackdown/",
-      "summary": "WWE Money in the Bank 2026 full card: Kevin Owens and Tiffany Stratton win the final qualifiers, plus Reigns vs. LA Knight, Oct. 10 in New Orleans.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6ac06b756d7bf3fc8ed9af3f/0x0.jpg?width=960&precrop=1780%2C1002%2Cx0%2Cy91"
-    },
-    {
-      "title": "White House Filing Claims President Has Authority to Bar News Outlets",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Sat, 03 Oct 2026 02:29:40 +0000",
-      "link": "https://www.nytimes.com/2026/10/02/business/trump-white-house-ban-cnn-politico-ms-now.html",
-      "summary": "The Trump administration again defended the decision to bar CNN, MS NOW and Politico from the White House and to exclude journalists from the pool that covers the president in small spaces.",
-      "image": "https://static01.nyt.com/images/2026/10/02/multimedia/02biz-trump-media-1-lkmp/02biz-trump-media-1-lkmp-mediumSquareAt3X.jpg"
-    },
-    {
-      "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
+      "title": "As Treasury yields touch generational highs, investors brace for the market fallout",
       "source": "MarketWatch",
       "category": "mercati",
-      "published": "Sat, 03 Oct 2026 02:16:00 GMT",
-      "link": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
-      "summary": "“I started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).”",
-      "image": "https://images.mktw.net/im-61114806"
+      "published": "Sat, 03 Oct 2026 11:30:00 GMT",
+      "link": "https://www.marketwatch.com/story/as-treasury-yields-touch-generational-highs-investors-brace-for-the-market-fallout-0457e698?mod=mw_rss_topstories",
+      "summary": "The surge in bond yields to generational highs has investors around the world watching and worrying about what could crack, spiral or leave a trail of carnage in its path.",
+      "image": "https://images.mktw.net/im-09795824"
     },
     {
-      "title": "IMF Approves Bolivia Loan Deal to Support Paz’s Economic Reforms",
+      "title": "Pnrr, dal Mit 1,55 miliardi, 59 interventi per acqua",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 3 Oct 2026 13:24:47 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/pnrr-dal-mit-155-miliardi-59-interventi-per-acqua_bfb56cbc-de74-477b-976e-1283fb2e9f1e.html",
+      "summary": "Tutte le risorse assegnate in meno di quattro mesi",
+      "image": "https://www.ansa.it/webimages/img_1280x720/2024/6/5/9d21bb8829f973686bba0378b19d017c.jpg"
+    },
+    {
+      "title": "Borsa: in Europa il settore auto è il peggiore da inizio anno",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 3 Oct 2026 13:06:22 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/borsa-in-europa-il-settore-auto-e-il-peggiore-da-inizio-anno_b5e1031b-1245-4250-a124-a6435811748a.html",
+      "summary": "In calo del 21% contro un rialzo del 6,6% dell'Euro Stoxx 600",
+      "image": "https://www.ansa.it/webimages/img_1280x720/2026/9/17/affdcdefebe97a013bcc60a4cc5a8e5c.jpg"
+    },
+    {
+      "title": "The Best E-Readers That Aren't a Kindle (2026): Kobo, Boox",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 03 Oct 2026 11:05:00 +0000",
+      "link": "https://www.wired.com/gallery/best-ereaders/",
+      "summary": "Want to untether your reading from Amazon? These Kindle alternatives deserve a spot on your nightstand.",
+      "image": "https://media.wired.com/photos/6ac0197d8e2ff9873e4241c1/master/pass/The%20Best%20E-Readers%20That%20Aren't%20a%20Kindle%20102026%20top%20art%20SOURCE%20Kobo.jpg"
+    },
+    {
+      "title": "David Ellison just brought in a co-CEO to run his new empire: Meet Ynon Kreiz",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 11:00:01 GMT",
+      "link": "https://www.cnbc.com/2026/10/03/david-ellison-ynon-kreiz-skydance.html",
+      "summary": "Ynon Kreiz's appointment as co-CEO of Skydance answers a key governance question for Ellison's soon-to-be-merged company.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108010356-1721737934014-gettyimages-2158591030-canneslions_240621_101017_rbord_lyvayzuu.jpeg?v=1790982865&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Tesla’s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 11:00:01 GMT",
+      "link": "https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html",
+      "summary": "Elon Musk's effort to move beyond auto sales largely relies on the success of his company's Cybercab, which launched in Austin a month ago.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108358937-1788526931980-gettyimages-2292811784-AFP_C7B323M.jpeg?v=1788526959&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "These companies look set to face high-profile hearings and other scrutiny if Democrats win the House",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 11:00:00 GMT",
+      "link": "https://www.marketwatch.com/story/these-companies-look-set-to-face-high-profile-hearings-and-other-scrutiny-if-democrats-win-the-house-513fe8e7?mod=mw_rss_topstories",
+      "summary": "Law and lobbying firms in Washington, D.C., are telling companies to prepare for a new level of scrutiny, since most modern midterm elections result in some loss of congressional control for the party that holds the White House.",
+      "image": "https://images.mktw.net/im-27463388"
+    },
+    {
+      "title": "London Gold Body’s Legal Fight Exposes Threat to Bullion Market",
       "source": "Bloomberg",
       "category": "mercati",
-      "published": "Sat, 03 Oct 2026 00:55:49 GMT",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-03/imf-approves-bolivia-loan-deal-to-support-paz-s-economic-reforms",
-      "summary": "The International Monetary Fund approved a $1.9 billion financing program for Bolivia, including an immediate $214 million disbursement, in a package designed to help President Rodrigo Paz reverse a sharp economic slump.",
+      "published": "Sat, 03 Oct 2026 10:45:00 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-03/london-gold-body-s-legal-fight-exposes-threat-to-bullion-market",
+      "summary": "The industry body that sets the rules for the world’s biggest gold market faces an existential legal battle in a London courtroom next week, in a case that could have far-reaching implications for how the industry polices its supply chain.",
+      "image": null
+    },
+    {
+      "title": "L’accordo volontario per la sicurezza AI di Trump mentre la FTC apre un’indagine sulle big tech",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Sat, 03 Oct 2026 10:32:25 +0000",
+      "link": "https://cryptonomist.ch/2026/10/03/accordo-volontario-sicurezza-ai/",
+      "summary": "Donald Trump ha presentato il 29 settembre 2026 un accordo volontario per la sicurezza AI, firmato da sei grandi aziende tech alla Casa Bianca. Il documento, lungo una sola pagina, chiede alle società di controllare da sole i propri sistemi più avanzati, senza nuove regole federa",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/accordo-volontario-per-la-sicurezza-ai.jpeg"
+    },
+    {
+      "title": "China launches anti-dumping probe into European chemical exports",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 10:16:42 GMT",
+      "link": "https://www.ft.com/content/bae0af94-f42d-47d1-a1a8-fab608e75a72?syn-25a6b1a6=1",
+      "summary": "Latest tit-for-tat move follows three similar investigations launched by the EU last week",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0f4bc85f-3483-4cd2-b557-a5d8a34242f6.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "La pausa all’attivazione di Stylus su Arbitrum blocca il rischio di attacchi IA",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Sat, 03 Oct 2026 10:10:52 +0000",
+      "link": "https://cryptonomist.ch/2026/10/03/pausa-attivazione-stylus-su-arbitrum/",
+      "summary": "Il Security Council di Arbitrum ha fatto scattare una pausa sulle attivazioni Stylus su Arbitrum One e Nova, in vigore dal 2 ottobre 2026. La mossa è una risposta d&#8217;emergenza al rischio di attacchi assistiti da intelligenza artificiale. Si tratta di una pausa attivazione St",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/pausa-attivazione-stylus-su-arbitrum.jpeg"
+    },
+    {
+      "title": "Chelsea Remains Interested In Buying Barcelona Star",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 06:03:32 -0400",
+      "link": "https://www.forbes.com/sites/tomsanderson/2026/10/03/chelsea-remains-interested-in-buying-barcelona-star/",
+      "summary": "Approaching another transfer window, Chelsea is once more interested in signing a big name Barcelona first team star.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/66053c9b97b3f268d4584a62/0x0.jpg"
+    },
+    {
+      "title": "Best Mosquito Repellents for Your Yard: What Works and What Doesn’t (2026)",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 03 Oct 2026 10:03:00 +0000",
+      "link": "https://www.wired.com/story/best-mosquito-repellents/",
+      "summary": "After years of testing repellents, traps, and sprays, I found a few ways to keep the bugs at bay—and plenty that aren’t worth the effort.",
+      "image": "https://media.wired.com/photos/6abfcf9ffd75bc6c14087517/master/pass/I%E2%80%99ve%20Spent%20Years%20Fighting%20Mosquitoes%20102026%20top%20art%20SOURCE%20Amazon.jpg"
+    },
+    {
+      "title": "Why The NBA Might Prefer To Delay Domestic Expansion Until 2029-30",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 06:00:00 -0400",
+      "link": "https://www.forbes.com/sites/bryantoporek/2026/10/03/why-the-nba-might-prefer-to-delay-domestic-expansion-until-2029-30/",
+      "summary": "The NBA was originally hoping to have Las Vegas and Seattle expansion teams debut in the 2028-29 season, but a few key triggers could justify pushing them back by a year.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6abfe7471ca4decc46f3550c/0x0.jpg"
+    },
+    {
+      "title": "India Mulls Commodity Derivatives Changes to Boost Liquidity",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 09:47:10 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-03/india-mulls-commodity-derivatives-changes-to-boost-liquidity",
+      "summary": "India’s markets regulator is considering easing position limits for non-agricultural commodity derivatives and changing settlement rules for some farm contracts, as it seeks to deepen trading and attract more genuine hedgers.",
+      "image": null
+    },
+    {
+      "title": "Luxury Stocks Are Selling at Fast-Fashion Prices",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 09:30:00 GMT",
+      "link": "https://www.wsj.com/business/retail/luxury-stocks-are-selling-at-fast-fashion-prices-691ae978?mod=rss_markets_main",
+      "summary": "Trends that made luxury companies like LVMH such a brilliant investment over the past 20 years are fading.",
+      "image": "https://images.wsj.net/im-86126319"
+    },
+    {
+      "title": "How the French Bond Trade Backfired on Investors",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 09:30:00 GMT",
+      "link": "https://www.wsj.com/finance/investing/how-the-french-bond-trade-backfired-on-investors-4f2aba71?mod=rss_markets_main",
+      "summary": "Hedge funds piled into leveraged bets over the summer, figuring French politics wouldn’t get much rockier.",
+      "image": "https://images.wsj.net/im-35487046"
+    },
+    {
+      "title": "Community banks sue OCC over trust bank charters of crypto firms",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Sat, 03 Oct 2026 09:25:01 +0000",
+      "link": "https://cointelegraph.com/news/community-banks-sue-occ-over-trust-bank-charters-of-crypto-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Community banking group’s lawsuit claims OCC has overstepped its mandate from Congress.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M40GZ6STY7R8TJPNFCZ17PJ8/courtroom-court-lawsuit-justice-jurisdiction-breaking-news-3.png"
+    },
+    {
+      "title": "Trump Says Economy Has ‘Public Relations’ Problem Amid High Prices and Slow Hiring",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 09:03:53 +0000",
+      "link": "https://www.nytimes.com/2026/10/03/business/trump-economy-inflation-midterms.html",
+      "summary": "The president, who had hoped to tout a growing economy on the campaign trail, has found it hard to break through as workers’ wages fail to keep up.",
+      "image": "https://static01.nyt.com/images/2026/10/03/multimedia/03dc-trump-econ-fztq/03dc-trump-econ-fztq-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Weight Loss Drugs Give Restaurants a New Hurdle: Diners Who Eat Less",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 09:01:44 +0000",
+      "link": "https://www.nytimes.com/2026/10/03/business/restaurants-glp1-weight-loss.html",
+      "summary": "Fewer orders and higher costs are squeezing restaurants big and small as people on the weight-loss drugs eat and drink less when dining out.",
+      "image": "https://static01.nyt.com/images/2026/10/02/multimedia/00biz-restaurants-glp1s-01-tlph/00biz-restaurants-glp1s-01-tlph-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "How airlines try to weed out rogue pilots",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 08:05:08 GMT",
+      "link": "https://www.ft.com/content/3e976e07-d85c-4ee3-8dff-208296684ca0?syn-25a6b1a6=1",
+      "summary": "Background checks and psychological testing aim to ensure that only those fit to fly take the controls",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F20a4e3e8-861a-4935-8c79-0e17da23aaa0.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Trump is expected to appoint Jay Clayton as new AI czar: Reports",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Sat, 03 Oct 2026 07:06:08 +0000",
+      "link": "https://cointelegraph.com/news/trump-is-expected-to-appoint-jay-clayton-as-new-ai-czar-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "US intel chief Clayton may be asked to also oversee AI innovation and development along with “self policing” tech CEOs.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M408YEEABFWBFJG6GQ567JX7/hi-china-own-ai.png"
+    },
+    {
+      "title": "AI's race to transform the world before the money runs out",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 05:06:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV2NqbWtDbjVfc2dZYWtJWEp3ZnI5M1o5UWhkQndYZV83T3BxTE1VeDFNclNIeUZCMnV2a1NIVXc2enlzV3lFWktoWE11NUF0RlNjTGk1c1RTSEVsUEtGUU9HZlVuRVVhQ2ZFZTU2UHBoRVozX3pJeS1vRmtoM0w5dndmWnJ2YjQxYi03TDl4X3ZQNlhWdXBfQnRsRjByYllpaXF3VlEzWVdrS28?oc=5",
+      "summary": "AI's race to transform the world before the money runs out &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "China initiates anti-dumping investigation into p-nitrotoluene from EU",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 02:52:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORW9ZcVdfdDduQ3E4UDVUMUlkRHZSVTlVUU94UnFtdTVGUU1QVVJnb3E2MjkxMlFMWldkY0xDa0xmdm4yWllzVWJSV3VMR3BlWjk2SFA3ZDdmaDBxN2s0WTVGOW5abmpRWkJweGFPRTVXYnRKeGhhc1dSM0NsTmkyTkU0RVM2ZV96T1FwOC1UNFlBeHJOdXZqMkd5TkVXRUJRVXE5djBxZlM2bmRGanVPMzFXNA?oc=5",
+      "summary": "China initiates anti-dumping investigation into p-nitrotoluene from EU &nbsp;&nbsp; Reuters",
       "image": null
     },
     {
@@ -2019,7 +2172,7 @@
       "published": "Sat, 03 Oct 2026 00:45:39 +0000",
       "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
       "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg?resize=1200,800"
+      "image": null
     },
     {
       "title": "Sanders introduces bill to ban the federal government from using Flock",
@@ -2028,70 +2181,7 @@
       "published": "Sat, 03 Oct 2026 00:21:57 +0000",
       "link": "https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/",
       "summary": "The proposed legislation would extend to all automotica license plate readers.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/flock-protest.jpg?resize=1131,1200"
-    },
-    {
-      "title": "Stocks Rise As Jobs Report Eases Fed-Hike Worries",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 23:45:17 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-02/the-close-10-2-2026-video",
-      "summary": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Chris Phelan CEA Chairman, Robert Reich, Former US Labor Secretary, Alex Straton, Morgan Stanley Equity Re",
       "image": null
-    },
-    {
-      "title": "Crude oil tanker struck by unknown projectile off Oman, UKMTO says",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 23:31:28 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWmh6LU5XZFg0NGU2MUxjNUVHc3lBd0lYMy1LNW81NU9TY0pQM051NVdWX1otZ181NDZYSWtXb2txc2RVbmVIMC1wTTFLVWVYN0ZZUGY1VmdRSFBNZDlGZ2NyeExDSEhWaEVsSHRtY0tGQWxrU1NXay1GS3ZxUExLWlRCRUMxNGx0NHhJbTBwOTRJaUx1amQxVXFqWEtETTF5eVNGZ2xHSWt6aUdycTJ5YjJQanA3bjBU?oc=5",
-      "summary": "Crude oil tanker struck by unknown projectile off Oman, UKMTO says &nbsp;&nbsp; Reuters",
-      "image": null
-    },
-    {
-      "title": "AI Is Squeezing Out the Rest of the Stock Market",
-      "source": "The Wall Street Journal",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 23:00:00 GMT",
-      "link": "https://www.wsj.com/finance/investing/ai-is-squeezing-out-the-rest-of-the-stock-market-60928dd3?mod=rss_markets_main",
-      "summary": "Expect stocks outside tech to struggle, earnings to expand more slowly and concern about credit risk to grow.",
-      "image": "https://images.wsj.net/im-35761671"
-    },
-    {
-      "title": "Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 22:43:45 GMT",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVjBOX2tiblNKM3pNUVJ2VzViQzZobDRCQk5pbk1Nai1vUlNDTG94a2JIRDNYSU96Mm1DTnZjWE5LbW9MbXh1RGtXUnEzRXJHOGx2Y1JmdlVBMGpuRGZkMUlZc0hGSUoxVTAyMWdpQmNPSndSTXFHVHhzMnRYaUdqdVY2NW5kY2l4V2IyN0pmNlgxR0JuUjdCRW5ZejBtU3NpdXhtdkJQNDE0c3k5b25wWXBHZE5tMjRnNU1leTJZZUJPWk0zOHZLdHhmNUl5OXBKLXlkNktR?oc=5",
-      "summary": "Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints &nbsp;&nbsp; Reuters",
-      "image": null
-    },
-    {
-      "title": "Why Western Digital and Seagate are seeing big stock drops today",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 22:42:00 GMT",
-      "link": "https://www.marketwatch.com/story/why-western-digital-and-seagate-are-seeing-big-stock-drops-today-6b16d95e?mod=mw_rss_topstories",
-      "summary": "Investors are worried that Toshiba will boost its production of a key AI storage product, potentially hurting the strong pricing power that Western Digital and Seagate currently enjoy.",
-      "image": "https://images.mktw.net/im-588603"
-    },
-    {
-      "title": "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 22:38:49 GMT",
-      "link": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
-      "summary": "Cerebras shares hit an all-time low due to pressure from chip giant Nvidia, plus a post-lockup selloff.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108307043-1778771977693-gettyimages-2275640099-CEREBRAS_IPO.jpeg?v=1778771994&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "F.D.A. Found Cyclospora During Taylor Farms Inspection in Mexico",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 22:25:24 +0000",
-      "link": "https://www.nytimes.com/2026/10/02/health/cyclospora-taylor-farms-mexico.html",
-      "summary": "The discovery adds strong evidence that the outbreak that sickened thousands over the summer originated in a grower’s field or processing facility.",
-      "image": "https://static01.nyt.com/images/2026/10/02/multimedia/02dc-cyclospora-vphc/02dc-cyclospora-vphc-mediumSquareAt3X.jpg"
     },
     {
       "title": "Seagate Stock and Western Digital Tumble as Investors Worry AI Shortage Will Ease",
@@ -2103,24 +2193,6 @@
       "image": null
     },
     {
-      "title": "DOJ says it will not reopen criminal probe into former Fed Chair Powell",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 22:01:17 GMT",
-      "link": "https://www.cnbc.com/2026/10/02/doj-says-it-will-not-reopen-criminal-probe-into-former-fed-chair-powell.html",
-      "summary": "The confirmation comes after the Fed's inspector general report that said there were no grounds for a criminal referral over the mismanaged headquarters renovation.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108284897-1774893084831-108284897-1774893021156-gettyimages-2268564099-POWELL_HARVARD.jpg?v=1790970556&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "Community Banks Swing Back at Trump Regulators Over Crypto Charters",
-      "source": "The Wall Street Journal",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 21:47:00 GMT",
-      "link": "https://www.wsj.com/finance/regulation/community-banks-swing-back-at-trump-regulators-over-crypto-charters-7007902f?mod=rss_markets_main",
-      "summary": "A lawsuit accuses regulators of giving risky crypto companies access to the banking system without the same oversight as banks.",
-      "image": "https://images.wsj.net/im-37249759"
-    },
-    {
       "title": "California Subpoenas OpenAI Over AI Models That Hacked Their Way Out of a Test",
       "source": "Decrypt",
       "category": "crypto",
@@ -2128,51 +2200,6 @@
       "link": "https://decrypt.co/379998/california-subpoena-openai-ai-models-hack",
       "summary": "California's attorney general wants answers from OpenAI about AI models that escaped a locked test environment and hacked Hugging Face—and whether the company can be held legally accountable.",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/justice-decrypt-style-gID_7.png"
-    },
-    {
-      "title": "Il G7 libera 100 milioni di barili dalle scorte per frenare i prezzi",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Fri, 2 Oct 2026 23:15:41 +0200",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/02/il-g7-libera-100-milioni-di-barili-dalle-scorte-per-frenare-i-prezzi_315d7d2d-4de9-4357-82a5-5f44cb8fea40.html",
-      "summary": "La mossa per scongiurare il blocco delle esportazioni verso l'Europa minacciato da Trump",
-      "image": "https://www.ansa.it/webimages/img_1280x720/2014/6/6/352fe881bb493d42c06b616cb8b2bc64.jpg"
-    },
-    {
-      "title": "Azioni Cycurion: balzo del 42% in un giorno, ma il trend resta neutrale",
-      "source": "The Cryptonomist",
-      "category": "crypto",
-      "published": "Fri, 02 Oct 2026 21:09:50 +0000",
-      "link": "https://cryptonomist.ch/2026/10/02/azioni-cycurion-balzo-del-42-in-un-giorno-ma-il-trend-resta-neutrale/",
-      "summary": "Le azioni Cycurion hanno chiuso venerdì 2 ottobre a 3,82 dollari, con un balzo del 42,01% rispetto alla chiusura precedente di 2,69. Il volume è stato enorme: quasi 48,8 milioni di titoli scambiati, segno di un interesse improvviso e concentrato. A innescare la pressione d&#8217;",
-      "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/Cycurion-Inc.-stock.jpeg"
-    },
-    {
-      "title": "Azioni MaxLinear schizzano a 105,93$: il rally rompe le bande di Bollinger",
-      "source": "The Cryptonomist",
-      "category": "crypto",
-      "published": "Fri, 02 Oct 2026 21:07:47 +0000",
-      "link": "https://cryptonomist.ch/2026/10/02/azioni-maxlinear-schizzano-a-10593-il-rally-rompe-le-bande-di-bollinger/",
-      "summary": "Le azioni MaxLinear hanno chiuso venerdì 2 ottobre a 105,93 dollari, in rialzo del 14,99% in una sola seduta. I volumi hanno superato i 4,7 milioni di pezzi, ben oltre la media recente, con un massimo intraday a 106,54 dollari. Il titolo ha guadagnato più del 50% nell&#8217;ultim",
-      "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/MaxLinear-Inc-stock.jpeg"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "published": "Fri, 02 Oct 2026 20:46:58 +0000",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-    },
-    {
-      "title": "European crypto users have ‘more faith’ in regulated firms under MiCA: Bitpanda co-CEO",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "published": "Fri, 02 Oct 2026 20:40:47 +0000",
-      "link": "https://cointelegraph.com/news/mica-strengthened-retail-trust-regulated-crypto-exchanges-bitpanda-ceo-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Speaking on Cointelegraph’s Chain Reaction, Christian Trummer said MiCA has increased trust in regulated platforms and called for stricter enforcement against noncompliant firms.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3Z204Z5E8HCQ1YYBGG9YAK4/hi-self-custody-of-cryptocurrencies-is-your-own-wallet-really-safer-for-private-investors.png"
     },
     {
       "title": "Nvidia, Tesla, Rivian, On Semi, Seagate, HPE, Nike, and More Stocks That Explain Today’s Market",
@@ -2184,15 +2211,6 @@
       "image": null
     },
     {
-      "title": "Scostamento da 29 miliardi. Giorgetti: 'Più prudenza sulla manovra'",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Fri, 2 Oct 2026 22:18:39 +0200",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/02/via-libera-del-consiglio-dei-ministri-al-dpfp-e-a-scostamento-per-energia_8463ed4f-c10a-459f-8be8-a56ee2f0b01a.html",
-      "summary": "Ridotto lo spazio per la difesa. Lega soddisfatta. Fi: 'Non sia restrittiva'",
-      "image": null
-    },
-    {
       "title": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
       "source": "Decrypt",
       "category": "crypto",
@@ -2200,24 +2218,6 @@
       "link": "https://decrypt.co/379991/ethereum-now-pay-for-ai-without-revealing-identity",
       "summary": "Ethereum's zkAPI lets users prepay in USDC and query AI models through cryptographic proofs, so no single party sees both who they are and what they ask.",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/ethereum-decrypt-style-07-gID_7.jpg"
-    },
-    {
-      "title": "ICE Has Been Dumping Protester Photos Into a Palantir Database",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 02 Oct 2026 19:52:36 +0000",
-      "link": "https://www.wired.com/story/ice-has-been-dumping-protester-photos-into-a-palantir-database/",
-      "summary": "DHS agents not only tracked and intimidated people observing ICE activity in Maine, but stored information about them in a Palantir-built database, newly unsealed court filings say.",
-      "image": "https://media.wired.com/photos/6abfefc1a18993c6adb83fa3/master/pass/GettyImages-2285538235.jpg"
-    },
-    {
-      "title": "This Shoe Company’s Instagram Ad With a Frat Is Pissing People Off",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 02 Oct 2026 18:19:53 +0000",
-      "link": "https://www.wired.com/story/this-shoe-companys-instagram-ad-with-a-frat-is-pissing-people-off/",
-      "summary": "A collaborative Instagram post between footwear line HeyDude and a University of Florida frat is sparking backlash due to sexual cyber-harassment allegations against two former members.",
-      "image": "https://media.wired.com/photos/6abeb53be6bd248b69d52cab/master/pass/GettyImages-2240863414.jpg"
     },
     {
       "title": "Drift opens exploit recovery claims with initial payouts of just over 1% of user losses",
@@ -2310,37 +2310,37 @@
       "image": null
     }
   ],
-  "generated_at": "2026-10-03 07:01:29",
+  "generated_at": "2026-10-03 13:31:50",
   "markets_brief": {
     "items": [
       {
-        "title": "John Maynard Keynes and the search for the good life",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/c13f9f08-2cb6-4605-893a-fd2199e4bc44"
+        "title": "As Treasury yields touch generational highs, investors brace for the market fallout",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/as-treasury-yields-touch-generational-highs-investors-brace-for-the-market-fallout-0457e698?mod=mw_rss_topstories"
       },
       {
-        "title": "China, America and the new Great Game",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/8869caf9-3cd1-4300-aeb3-828a4d9da4f9?syn-25a6b1a6=1"
+        "title": "David Ellison just brought in a co-CEO to run his new empire: Meet Ynon Kreiz",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/10/03/david-ellison-ynon-kreiz-skydance.html"
       },
       {
-        "title": "A Londoner’s guide to hating London",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/c8407fb6-6134-4b2c-a428-d3a998873383"
+        "title": "Tesla’s Cybercab had a rocky first month in Austin. Now comes the hard part: expanding",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html"
       },
       {
-        "title": "Karl-Anthony Towns Who Lost Mom To COVID-19 Talks Of Value Of Vaccine",
-        "source": "Forbes",
-        "link": "https://www.forbes.com/sites/brucelee/2026/10/02/karl-anthony-towns-who-lost-mom-to-covid-19-talks-of-value-of-vaccine/"
+        "title": "These companies look set to face high-profile hearings and other scrutiny if Democrats win the House",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/these-companies-look-set-to-face-high-profile-hearings-and-other-scrutiny-if-democrats-win-the-house-513fe8e7?mod=mw_rss_topstories"
       },
       {
-        "title": "WWE Money In The Bank Field Is Set — Here's The Full Card After SmackDown",
-        "source": "Forbes",
-        "link": "https://www.forbes.com/sites/brianmazique/2026/10/02/wwe-money-in-the-bank-field-is-set---heres-the-full-card-after-smackdown/"
+        "title": "London Gold Body’s Legal Fight Exposes Threat to Bullion Market",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-03/london-gold-body-s-legal-fight-exposes-threat-to-bullion-market"
       }
     ],
-    "prose_html": "<p>I titoli forniti non contengono notizie di mercato o macroeconomiche adatte a una newsletter sui mercati statunitensi. L&#x27;elenco include articoli culturali e di lifestyle da Financial Times, una storia di advocacy sanitaria da Forbes e copertura di intrattenimento sportivo—nessuno dei quali costituisce informazioni di mercato rilevanti o dati economici utili per le decisioni di trading e investimento quotidiane.</p>",
-    "prose_html_en": "<p>The headlines provided do not contain market or macroeconomic news suitable for a US-markets newsletter. The list includes cultural and lifestyle pieces from the Financial Times, a health advocacy story from Forbes, and sports entertainment coverage—none of which constitute actionable market intelligence or economic data relevant to daily trading or investment decisions.</p>"
+    "prose_html": "<p>I rendimenti dei Treasury hanno toccato massimi generazionali, spingendo gli investitori a prepararsi per potenziali turbolenze di mercato mentre i costi di finanziamento rimangono elevati. Nel frattempo, cambiamenti nella leadership aziendale stanno ridisegnando i principali attori: David Ellison ha nominato Ynon Kreiz co-CEO del suo nuovo impero, mentre Tesla affronta la sfida critica di espandere il suo servizio Cybercab oltre il difficile lancio iniziale ad Austin. L&#x27;incertezza politica incombe, con diverse aziende che si preparano a scrutini congressuali di alto profilo qualora i Democratici prendessero il controllo della Camera. Nel settore delle materie prime, una controversia legale che coinvolge il London Gold Body ha esposto vulnerabilità strutturali nel mercato dell&#x27;oro.</p>",
+    "prose_html_en": "<p>Treasury yields have reached generational highs, prompting investors to prepare for potential market turbulence as borrowing costs remain elevated. Meanwhile, corporate leadership shifts are reshaping major players: David Ellison has appointed Ynon Kreiz as co-CEO of his new enterprise, while Tesla faces the critical challenge of scaling its Cybercab service beyond its initial rocky rollout in Austin. Political uncertainty looms as well, with several companies bracing for high-profile congressional scrutiny should Democrats gain control of the House. In commodities, a legal dispute involving the London Gold Body has surfaced structural vulnerabilities in the bullion market.</p>"
   },
   "live_close_movers": {
     "captured_at": "2026-09-30T20:15:37Z",

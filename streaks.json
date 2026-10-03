@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-03T05:01:55Z",
+  "updated": "2026-10-03T11:32:08Z",
   "session_date": "2026-10-02",
   "universe": 558,
   "up": {
-    "count": 308,
+    "count": 327,
     "by_length": {
-      "1": 140,
-      "2": 134,
-      "3": 15,
+      "1": 156,
+      "2": 136,
+      "3": 16,
       "4": 12,
       "5": 4,
       "6": 1,
@@ -158,15 +158,15 @@
     ]
   },
   "down": {
-    "count": 246,
+    "count": 227,
     "by_length": {
-      "1": 150,
-      "2": 25,
-      "3": 21,
-      "4": 26,
-      "5": 15,
+      "1": 139,
+      "2": 19,
+      "3": 19,
+      "4": 23,
+      "5": 19,
       "6": 3,
-      "7": 2,
+      "7": 1,
       "8+": 4
     },
     "top": [
@@ -186,8 +186,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -8,
-        "cum_pct": -15.48
+        "days": -9,
+        "cum_pct": -17.55
       },
       {
         "symbol": "WY",
@@ -206,15 +206,6 @@
         ],
         "days": -8,
         "cum_pct": -8.94
-      },
-      {
-        "symbol": "LTMC.MI",
-        "name": "Lottomatica Group",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -7,
-        "cum_pct": -10.06
       },
       {
         "symbol": "LMT",
@@ -289,6 +280,15 @@
         "cum_pct": -8.34
       },
       {
+        "symbol": "BAMI.MI",
+        "name": "Banco BPM",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -5,
+        "cum_pct": -7.16
+      },
+      {
         "symbol": "LVS",
         "name": "Las Vegas Sands",
         "indices": [
@@ -298,13 +298,13 @@
         "cum_pct": -7.08
       },
       {
-        "symbol": "KKR",
-        "name": "KKR & Co.",
+        "symbol": "ISP.MI",
+        "name": "Intesa Sanpaolo",
         "indices": [
-          "sp500"
+          "ftsemib"
         ],
         "days": -5,
-        "cum_pct": -6.6
+        "cum_pct": -6.78
       }
     ]
   },
