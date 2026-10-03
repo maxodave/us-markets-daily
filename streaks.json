@@ -1,16 +1,17 @@
 {
-  "updated": "2026-10-02T01:10:05Z",
-  "session_date": "2026-09-30",
+  "updated": "2026-10-03T00:42:23Z",
+  "session_date": "2026-10-01",
   "universe": 558,
   "up": {
-    "count": 135,
+    "count": 308,
     "by_length": {
-      "1": 84,
-      "2": 38,
-      "3": 6,
-      "4": 5,
+      "1": 236,
+      "2": 41,
+      "3": 24,
+      "4": 4,
       "5": 1,
-      "6": 1
+      "6": 1,
+      "7": 1
     },
     "top": [
       {
@@ -19,8 +20,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 6,
-        "cum_pct": 8.9
+        "days": 7,
+        "cum_pct": 11.48
       },
       {
         "symbol": "P",
@@ -28,17 +29,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 19.27
-      },
-      {
-        "symbol": "PPL",
-        "name": "PPL Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 2.88
+        "days": 6,
+        "cum_pct": 22.33
       },
       {
         "symbol": "Q",
@@ -46,36 +38,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 2.8
-      },
-      {
-        "symbol": "BZU.MI",
-        "name": "Buzzi",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 4,
-        "cum_pct": 2.26
-      },
-      {
-        "symbol": "IVG.MI",
-        "name": "Iveco",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 4,
-        "cum_pct": 1.42
-      },
-      {
-        "symbol": "LIN",
-        "name": "Linde plc",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 1.39
+        "days": 5,
+        "cum_pct": 5.02
       },
       {
         "symbol": "CRWD",
@@ -84,8 +48,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 3,
-        "cum_pct": 5.01
+        "days": 4,
+        "cum_pct": 5.54
       },
       {
         "symbol": "SHOP",
@@ -93,18 +57,8 @@
         "indices": [
           "nasdaq100"
         ],
-        "days": 3,
-        "cum_pct": 4.25
-      },
-      {
-        "symbol": "TTWO",
-        "name": "Take-Two Interactive",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 3,
-        "cum_pct": 3.01
+        "days": 4,
+        "cum_pct": 4.81
       },
       {
         "symbol": "CMG",
@@ -112,17 +66,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 3,
-        "cum_pct": 1.98
-      },
-      {
-        "symbol": "ILMN",
-        "name": "Illumina, Inc.",
-        "indices": [
-          "sp500"
-        ],
-        "days": 3,
-        "cum_pct": 1.36
+        "days": 4,
+        "cum_pct": 3.16
       },
       {
         "symbol": "CSCO",
@@ -132,8 +77,17 @@
           "dow",
           "nasdaq100"
         ],
+        "days": 4,
+        "cum_pct": 1.93
+      },
+      {
+        "symbol": "ACN",
+        "name": "Accenture",
+        "indices": [
+          "sp500"
+        ],
         "days": 3,
-        "cum_pct": 0.87
+        "cum_pct": 21.68
       },
       {
         "symbol": "RCL",
@@ -141,8 +95,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 2,
-        "cum_pct": 9.59
+        "days": 3,
+        "cum_pct": 11.29
       },
       {
         "symbol": "CBOE",
@@ -150,50 +104,79 @@
         "indices": [
           "sp500"
         ],
-        "days": 2,
-        "cum_pct": 8.7
+        "days": 3,
+        "cum_pct": 9.45
+      },
+      {
+        "symbol": "LRCX",
+        "name": "Lam Research",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 3,
+        "cum_pct": 8.15
+      },
+      {
+        "symbol": "MPC",
+        "name": "Marathon Petroleum",
+        "indices": [
+          "sp500"
+        ],
+        "days": 3,
+        "cum_pct": 7.89
+      },
+      {
+        "symbol": "CTSH",
+        "name": "Cognizant",
+        "indices": [
+          "sp500"
+        ],
+        "days": 3,
+        "cum_pct": 7.28
+      },
+      {
+        "symbol": "HII",
+        "name": "Huntington Ingalls Industries",
+        "indices": [
+          "sp500"
+        ],
+        "days": 3,
+        "cum_pct": 6.72
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 3,
+        "cum_pct": 6.42
       }
     ]
   },
   "down": {
-    "count": 422,
+    "count": 246,
     "by_length": {
-      "1": 176,
-      "2": 89,
-      "3": 105,
-      "4": 20,
-      "5": 14,
-      "6": 9,
+      "1": 60,
+      "2": 64,
+      "3": 52,
+      "4": 51,
+      "5": 6,
+      "6": 3,
       "7": 6,
-      "8+": 3
+      "8+": 4
     },
     "top": [
-      {
-        "symbol": "ADM",
-        "name": "Archer Daniels Midland",
-        "indices": [
-          "sp500"
-        ],
-        "days": -9,
-        "cum_pct": -9.89
-      },
       {
         "symbol": "ELV",
         "name": "Elevance Health",
         "indices": [
           "sp500"
         ],
-        "days": -9,
-        "cum_pct": -6.14
-      },
-      {
-        "symbol": "GL",
-        "name": "Globe Life",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -4.48
+        "days": -10,
+        "cum_pct": -7.87
       },
       {
         "symbol": "TIT.MI",
@@ -201,8 +184,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -7,
-        "cum_pct": -14.12
+        "days": -8,
+        "cum_pct": -15.48
       },
       {
         "symbol": "APP",
@@ -211,17 +194,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -7,
-        "cum_pct": -12.04
-      },
-      {
-        "symbol": "MSTR",
-        "name": "MicroStrategy",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": -7,
-        "cum_pct": -9.15
+        "days": -8,
+        "cum_pct": -14.8
       },
       {
         "symbol": "MS",
@@ -229,26 +203,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -8.75
-      },
-      {
-        "symbol": "IBKR",
-        "name": "Interactive Brokers",
-        "indices": [
-          "sp500"
-        ],
-        "days": -7,
-        "cum_pct": -8.36
-      },
-      {
-        "symbol": "DLR",
-        "name": "Digital Realty",
-        "indices": [
-          "sp500"
-        ],
-        "days": -7,
-        "cum_pct": -5.8
+        "days": -8,
+        "cum_pct": -8.79
       },
       {
         "symbol": "MGM",
@@ -256,35 +212,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -20.18
-      },
-      {
-        "symbol": "EFX",
-        "name": "Equifax",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -14.11
-      },
-      {
-        "symbol": "CDW",
-        "name": "CDW Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -13.07
-      },
-      {
-        "symbol": "ARE",
-        "name": "Alexandria Real Estate Equities",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -11.87
+        "days": -7,
+        "cum_pct": -21.67
       },
       {
         "symbol": "WY",
@@ -292,8 +221,17 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -11.56
+        "days": -7,
+        "cum_pct": -13.7
+      },
+      {
+        "symbol": "ARE",
+        "name": "Alexandria Real Estate Equities",
+        "indices": [
+          "sp500"
+        ],
+        "days": -7,
+        "cum_pct": -12.66
       },
       {
         "symbol": "HOOD",
@@ -301,12 +239,76 @@
         "indices": [
           "sp500"
         ],
+        "days": -7,
+        "cum_pct": -10.54
+      },
+      {
+        "symbol": "LTMC.MI",
+        "name": "Lottomatica Group",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -7,
+        "cum_pct": -10.06
+      },
+      {
+        "symbol": "LULU",
+        "name": "Lululemon Athletica",
+        "indices": [
+          "sp500"
+        ],
+        "days": -7,
+        "cum_pct": -7.59
+      },
+      {
+        "symbol": "MDLZ",
+        "name": "Mondelez International",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
         "days": -6,
-        "cum_pct": -9.46
+        "cum_pct": -5.99
+      },
+      {
+        "symbol": "DE",
+        "name": "Deere & Company",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -5.95
+      },
+      {
+        "symbol": "LMT",
+        "name": "Lockheed Martin",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -3.66
+      },
+      {
+        "symbol": "KHC",
+        "name": "Kraft Heinz",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -5.87
+      },
+      {
+        "symbol": "T",
+        "name": "AT&T",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -4.52
       }
     ]
   },
   "flat": {
-    "count": 1
+    "count": 4
   }
 }
