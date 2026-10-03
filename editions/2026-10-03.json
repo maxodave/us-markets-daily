@@ -1314,47 +1314,60 @@
     },
     "ftsemib": {
       "stats": {
-        "n_up": 24,
-        "n_down": 15,
+        "n_up": 5,
+        "n_down": 34,
         "n_flat": 1,
         "n_total": 40,
-        "avg_pct": 0.44,
+        "avg_pct": -1.82,
         "best_sectors": [
           {
             "sector": "Energy",
-            "avg_pct": 0.96
-          },
-          {
-            "sector": "Utilities",
-            "avg_pct": 0.69
+            "avg_pct": -0.47
           },
           {
             "sector": "Industrial Goods and Services",
-            "avg_pct": 0.65
+            "avg_pct": -1.09
+          },
+          {
+            "sector": "Utilities",
+            "avg_pct": -1.18
           }
         ],
         "worst_sectors": [
           {
             "sector": "Banks",
-            "avg_pct": -0.22
-          },
-          {
-            "sector": "Health Care",
-            "avg_pct": -0.2
+            "avg_pct": -3.88
           },
           {
             "sector": "Financial Services",
-            "avg_pct": 0.33
+            "avg_pct": -3.38
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": -2.15
           }
         ]
       },
       "gainers": [
         {
+          "symbol": "FCT.MI",
+          "name": "Fincantieri",
+          "sector": "Shipbuilding",
+          "pct_change": 2.7,
+          "last_close": 12.36,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
           "symbol": "STMMI.MI",
           "name": "STMicroelectronics",
           "sector": "Technology",
-          "pct_change": 6.67,
-          "last_close": 50.35,
+          "pct_change": 0.73,
+          "last_close": 47.2,
           "indices": [
             "ftsemib"
           ],
@@ -1366,8 +1379,8 @@
           "symbol": "PRY.MI",
           "name": "Prysmian",
           "sector": "Industrial Goods and Services",
-          "pct_change": 3.96,
-          "last_close": 129.8,
+          "pct_change": 0.69,
+          "last_close": 124.85,
           "indices": [
             "ftsemib"
           ],
@@ -1376,11 +1389,11 @@
           "news_historical": []
         },
         {
-          "symbol": "FBK.MI",
-          "name": "FinecoBank",
-          "sector": "Banks",
-          "pct_change": 2.21,
-          "last_close": 21.73,
+          "symbol": "TEN.MI",
+          "name": "Tenaris",
+          "sector": "Energy",
+          "pct_change": 0.45,
+          "last_close": 24.46,
           "indices": [
             "ftsemib"
           ],
@@ -1389,11 +1402,63 @@
           "news_historical": []
         },
         {
-          "symbol": "INW.MI",
-          "name": "INWIT",
-          "sector": "Telecommunications",
-          "pct_change": 2.2,
-          "last_close": 6.5,
+          "symbol": "ENI.MI",
+          "name": "Eni",
+          "sector": "Energy",
+          "pct_change": 0.04,
+          "last_close": 24.03,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IVG.MI",
+          "name": "Iveco",
+          "sector": "Industrial Goods and Services",
+          "pct_change": 0.0,
+          "last_close": 14.29,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AVIO.MI",
+          "name": "Avio",
+          "sector": "Aerospace",
+          "pct_change": -0.1,
+          "last_close": 29.33,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "REC.MI",
+          "name": "Recordati",
+          "sector": "Health Care",
+          "pct_change": -0.19,
+          "last_close": 52.55,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRN.MI",
+          "name": "Terna",
+          "sector": "Utilities",
+          "pct_change": -0.59,
+          "last_close": 9.14,
           "indices": [
             "ftsemib"
           ],
@@ -1405,73 +1470,8 @@
           "symbol": "BZU.MI",
           "name": "Buzzi",
           "sector": "Construction and Materials",
-          "pct_change": 1.58,
-          "last_close": 37.86,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "LTMC.MI",
-          "name": "Lottomatica Group",
-          "sector": "Gambling",
-          "pct_change": 1.56,
-          "last_close": 25.42,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "SRG.MI",
-          "name": "Snam",
-          "sector": "Energy",
-          "pct_change": 1.52,
-          "last_close": 5.61,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "BC.MI",
-          "name": "Brunello Cucinelli",
-          "sector": "Consumer Products and Services",
-          "pct_change": 1.49,
-          "last_close": 80.18,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "ENEL.MI",
-          "name": "Enel",
-          "sector": "Utilities",
-          "pct_change": 1.49,
-          "last_close": 8.8,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "DIA.MI",
-          "name": "Diasorin",
-          "sector": "Health Care",
-          "pct_change": 1.22,
-          "last_close": 74.9,
+          "pct_change": -0.69,
+          "last_close": 37.27,
           "indices": [
             "ftsemib"
           ],
@@ -1482,11 +1482,11 @@
       ],
       "losers": [
         {
-          "symbol": "TIT.MI",
-          "name": "Telecom Italia",
-          "sector": "Telecommunications",
-          "pct_change": -2.42,
-          "last_close": 6.41,
+          "symbol": "BMED.MI",
+          "name": "Banca Mediolanum",
+          "sector": "Financial Services",
+          "pct_change": -4.3,
+          "last_close": 22.94,
           "indices": [
             "ftsemib"
           ],
@@ -1495,63 +1495,11 @@
           "news_historical": []
         },
         {
-          "symbol": "FCT.MI",
-          "name": "Fincantieri",
-          "sector": "Shipbuilding",
-          "pct_change": -1.94,
-          "last_close": 12.12,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "AMP.MI",
-          "name": "Amplifon",
-          "sector": "Health Care",
-          "pct_change": -1.91,
-          "last_close": 11.55,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "UNI.MI",
-          "name": "Unipol",
-          "sector": "Insurance",
-          "pct_change": -1.11,
-          "last_close": 25.79,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "BPE.MI",
-          "name": "BPER Banca",
+          "symbol": "MB.MI",
+          "name": "Mediobanca",
           "sector": "Banks",
-          "pct_change": -1.01,
-          "last_close": 13.5,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "G.MI",
-          "name": "Generali",
-          "sector": "Insurance",
-          "pct_change": -0.96,
-          "last_close": 41.46,
+          "pct_change": -4.23,
+          "last_close": 27.41,
           "indices": [
             "ftsemib"
           ],
@@ -1563,21 +1511,8 @@
           "symbol": "UCG.MI",
           "name": "UniCredit",
           "sector": "Banks",
-          "pct_change": -0.86,
-          "last_close": 78.85,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "LDO.MI",
-          "name": "Leonardo",
-          "sector": "Industrial Goods and Services",
-          "pct_change": -0.86,
-          "last_close": 47.39,
+          "pct_change": -4.07,
+          "last_close": 79.53,
           "indices": [
             "ftsemib"
           ],
@@ -1589,8 +1524,47 @@
           "symbol": "ISP.MI",
           "name": "Intesa Sanpaolo",
           "sector": "Banks",
-          "pct_change": -0.82,
-          "last_close": 6.33,
+          "pct_change": -4.02,
+          "last_close": 6.38,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FBK.MI",
+          "name": "FinecoBank",
+          "sector": "Banks",
+          "pct_change": -3.93,
+          "last_close": 21.26,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BMPS.MI",
+          "name": "Banca Monte dei Paschi di Siena",
+          "sector": "Banks",
+          "pct_change": -3.74,
+          "last_close": 11.31,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DIA.MI",
+          "name": "Diasorin",
+          "sector": "Health Care",
+          "pct_change": -3.65,
+          "last_close": 74.0,
           "indices": [
             "ftsemib"
           ],
@@ -1602,8 +1576,34 @@
           "symbol": "BAMI.MI",
           "name": "Banco BPM",
           "sector": "Banks",
-          "pct_change": -0.75,
-          "last_close": 15.22,
+          "pct_change": -3.64,
+          "last_close": 15.34,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BPE.MI",
+          "name": "BPER Banca",
+          "sector": "Banks",
+          "pct_change": -3.55,
+          "last_close": 13.64,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PST.MI",
+          "name": "Poste italiane",
+          "sector": "Financial Services",
+          "pct_change": -3.2,
+          "last_close": 24.53,
           "indices": [
             "ftsemib"
           ],
@@ -1614,14 +1614,14 @@
       ],
       "paragraphs": {
         "en": [
-          "In the October 2, 2026 session the FTSE MIB closed with 24 stocks higher, 15 lower and 1 unchanged, out of 40 tracked. The average move was +0.44%.",
-          "Best-performing sectors by average move: Energy (+0.96%); Utilities (+0.69%); Industrial Goods and Services (+0.65%). Weakest: Banks (-0.22%); Health Care (-0.20%); Financial Services (+0.33%).",
-          "Leading the session: STMicroelectronics (STMMI.MI, +6.67%); Prysmian (PRY.MI, +3.96%); FinecoBank (FBK.MI, +2.21%). At the bottom: Telecom Italia (TIT.MI, -2.42%); Fincantieri (FCT.MI, -1.94%); Amplifon (AMP.MI, -1.91%)."
+          "In the October 2, 2026 session the FTSE MIB closed with 5 stocks higher, 34 lower and 1 unchanged, out of 40 tracked. The average move was -1.82%.",
+          "Best-performing sectors by average move: Energy (-0.47%); Industrial Goods and Services (-1.09%); Utilities (-1.18%). Weakest: Banks (-3.88%); Financial Services (-3.38%); Health Care (-2.15%).",
+          "Leading the session: Fincantieri (FCT.MI, +2.70%); STMicroelectronics (STMMI.MI, +0.73%); Prysmian (PRY.MI, +0.69%). At the bottom: Banca Mediolanum (BMED.MI, -4.30%); Mediobanca (MB.MI, -4.23%); UniCredit (UCG.MI, -4.07%)."
         ],
         "it": [
-          "Nella seduta del 2 ottobre 2026 il FTSE MIB ha chiuso con 24 societa' in rialzo, 15 in ribasso e 1 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di +0,44%.",
-          "Settori con la variazione media migliore: Energy (+0,96%); Utilities (+0,69%); Industrial Goods and Services (+0,65%). Settori piu' debolli: Banks (-0,22%); Health Care (-0,20%); Financial Services (+0,33%).",
-          "In cima alla seduta: STMicroelectronics (STMMI.MI, +6,67%); Prysmian (PRY.MI, +3,96%); FinecoBank (FBK.MI, +2,21%). In fondo: Telecom Italia (TIT.MI, -2,42%); Fincantieri (FCT.MI, -1,94%); Amplifon (AMP.MI, -1,91%)."
+          "Nella seduta del 2 ottobre 2026 il FTSE MIB ha chiuso con 5 societa' in rialzo, 34 in ribasso e 1 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di -1,82%.",
+          "Settori con la variazione media migliore: Energy (-0,47%); Industrial Goods and Services (-1,09%); Utilities (-1,18%). Settori piu' debolli: Banks (-3,88%); Financial Services (-3,38%); Health Care (-2,15%).",
+          "In cima alla seduta: Fincantieri (FCT.MI, +2,70%); STMicroelectronics (STMMI.MI, +0,73%); Prysmian (PRY.MI, +0,69%). In fondo: Banca Mediolanum (BMED.MI, -4,30%); Mediobanca (MB.MI, -4,23%); UniCredit (UCG.MI, -4,07%)."
         ]
       }
     },
@@ -1945,10 +1945,82 @@
       }
     }
   },
-  "manual_commentary_html": "<p>I titoli statunitensi hanno avanzato il 2 ottobre 2026, poiché un rapporto sull&#x27;occupazione più debole del previsto ha temperato le aspettative su futuri aumenti dei tassi di interesse. La seduta ha registrato ampia forza nel mercato, con 303 titoli in rialzo contro 212 in ribasso su un campione di 518 titoli. Il Nasdaq-100 ha sovraperformato con un guadagno medio dello 0,49 percento, rispetto allo 0,31 percento per l&#x27;S&amp;P 500 e allo 0,24 percento per il Dow Jones. I settori Tecnologia e Information Technology hanno guidato l&#x27;avanzata, registrando guadagni medi dell&#x27;1,16 percento e dello 0,94 percento rispettivamente, mentre gli Industrials hanno aggiunto lo 0,71 percento. L&#x27;accordo del G-7 di rilasciare 100 milioni di barili di gasolio e greggio ha fornito ulteriore contesto per i mercati energetici, secondo il Wall Street Journal.</p><p>I rialzisti sono stati guidati da nomi nel settore dei semiconduttori e dell&#x27;hardware tecnologico. Teradyne è salito dell&#x27;8,0 percento, Hewlett Packard Enterprise è aumentato del 7,36 percento e SpaceX è salito del 7,35 percento, sebbene i media tracciati non abbiano segnalato catalizzatori specifici per nessuno di questi movimenti. ON Semiconductor ha guadagnato il 6,01 percento, Monolithic Power Systems ha avanzato il 5,79 percento, Coherent Corp. ha aggiunto il 5,59 percento e NetApp è salito del 5,22 percento. Arm Holdings e Rocket Lab hanno anche registrato solidi guadagni del 5,18 percento e del 4,91 percento rispettivamente. EchoStar ha completato i migliori performer con un avanzamento del 6,8 percento.</p><p>I titoli di storage e software hanno subito le perdite più pesanti della seduta. Western Digital e Seagate Technology sono entrambi scesi bruscamente, in calo del 10,22 percento e del 10,21 percento rispettivamente, senza catalizzatori specifici segnalati dai media tracciati. Accenture è sceso del 6,31 percento, mentre Alnylam Pharmaceuticals, AppLovin, FactSet, Gartner, Cognizant e Sandisk hanno tutti registrato cali compresi tra il 3,79 percento e il 4,96 percento. Corteva è sceso del 5,17 percento. La debolezza nei titoli di storage e software ha contrastato con la forza nei titoli di semiconduttori e attrezzature hardware, suggerendo una rotazione all&#x27;interno del complesso tecnologico.</p>",
-  "manual_commentary_html_en": "<p>U.S. stocks advanced on October 2, 2026, as a softer jobs report tempered expectations for future interest rate increases. The session saw broad strength across the market, with 303 stocks advancing against 212 decliners across a 518-stock sample. The Nasdaq-100 outperformed with a 0.49 percent average gain, compared to 0.31 percent for the S&amp;P 500 and 0.24 percent for the Dow Jones. Technology and Information Technology sectors led the advance, posting average gains of 1.16 percent and 0.94 percent respectively, while Industrials added 0.71 percent. The G-7&#x27;s agreement to release 100 million barrels of diesel and crude also provided context for energy markets, according to the Wall Street Journal.</p><p>Gainers were led by semiconductor and technology hardware names. Teradyne jumped 8.0 percent, Hewlett Packard Enterprise rose 7.36 percent, and SpaceX climbed 7.35 percent, though tracked outlets reported no specific company catalysts for any of these moves. ON Semiconductor gained 6.01 percent, Monolithic Power Systems advanced 5.79 percent, Coherent Corp. added 5.59 percent, and NetApp rose 5.22 percent. Arm Holdings and Rocket Lab also posted solid gains of 5.18 percent and 4.91 percent respectively. EchoStar rounded out the top performers with a 6.8 percent advance.</p><p>Storage and software stocks bore the session&#x27;s heaviest losses. Western Digital and Seagate Technology both fell sharply, declining 10.22 percent and 10.21 percent respectively, with no specific company catalysts reported by tracked outlets. Accenture dropped 6.31 percent, while Alnylam Pharmaceuticals, AppLovin, FactSet, Gartner, Cognizant, and Sandisk all posted declines ranging from 3.79 percent to 4.96 percent. Corteva fell 5.17 percent. The weakness in storage and software-adjacent names contrasted with the strength in semiconductor and hardware equipment stocks, suggesting a rotation within the technology complex.</p>",
+  "manual_commentary_html": "<p>I titoli azionari statunitensi sono saliti il 2 ottobre 2026 dopo che i dati sull&#x27;occupazione inferiori alle attese hanno temperato le prospettive di futuri aumenti dei tassi di interesse, secondo il Wall Street Journal. I dati sull&#x27;assunzione di settembre hanno mostrato un rallentamento dello slancio del mercato del lavoro mentre rimane su un percorso stabile, alleviando la pressione sulla Federal Reserve per mantenere tassi elevati. Il mercato più ampio ha beneficiato di questo cambiamento nelle aspettative sui tassi, con il Nasdaq-100 che ha sovraperformato i suoi concorrenti registrando un guadagno medio dello 0,49 percento rispetto allo 0,31 percento per l&#x27;S&amp;P 500 e lo 0,24 percento per il Dow Jones. Il Wall Street Journal ha anche notato che Wall Street si sta adattando a un ambiente di rendimento del 5 percento poiché crepe nel mercato hanno iniziato a manifestarsi.</p><p>I titoli tecnologici e dell&#x27;Information Technology hanno guidato l&#x27;avanzata, con guadagni medi dell&#x27;1,16 e dello 0,94 percento rispettivamente, mentre gli Industrials hanno aggiunto lo 0,71 percento. Tra i maggiori rialzisti della seduta, Teradyne è salito dell&#x27;8,0 percento, Hewlett Packard Enterprise è aumentato del 7,36 percento, SpaceX ha guadagnato il 7,35 percento, EchoStar ha avanzato del 6,8 percento e ON Semiconductor è aumentato del 6,01 percento. Monolithic Power Systems, Coherent Corp., NetApp, Arm Holdings e Rocket Lab hanno anche registrato guadagni significativi, compresi tra il 4,91 e il 5,79 percento. I media tracciati non hanno segnalato catalizzatori aziendali specifici per questi movimenti.</p><p>I Finanziari hanno registrato un calo medio dello 0,28 percento, mentre Real Estate e Consumer Discretionary sono rimasti praticamente piatti. I maggiori perdenti della seduta erano titoli di archiviazione e semiconduttori: Western Digital è sceso del 10,22 percento e Seagate Technology è crollato del 10,21 percento, con i media tracciati che non citano catalizzatori specifici per nessuno dei due cali. Accenture è scivolato del 6,31 percento, Corteva si è ritirato del 5,17 percento e Alnylam Pharmaceuticals è diminuito del 4,96 percento. AppLovin, FactSet, Gartner, Cognizant e Sandisk hanno anche registrato perdite comprese tra il 3,79 e il 4,65 percento, anche se non sono state segnalate notizie specifiche dell&#x27;azienda per spiegare questi cali. L&#x27;ampiezza è stata positiva su tutti e tre i principali indici, con 303 titoli in rialzo e 212 in calo tra i 518 tracciati.</p>",
+  "manual_commentary_html_en": "<p>U.S. stocks rose on October 2, 2026, as a softer-than-expected jobs report tempered expectations for future interest rate increases, according to the Wall Street Journal. The September hiring data showed labor market momentum slowing while remaining on a steady track, easing pressure on the Federal Reserve to maintain elevated rates. The broader market benefited from this shift in rate expectations, with the Nasdaq-100 outperforming its peers by posting a 0.49 percent average gain compared to 0.31 percent for the S&amp;P 500 and 0.24 percent for the Dow Jones. The Wall Street Journal also noted that Wall Street is adjusting to a 5 percent yield environment as market cracks have begun to show.</p><p>Technology and Information Technology stocks led the advance, with average gains of 1.16 and 0.94 percent respectively, while Industrials added 0.71 percent. Among the session&#x27;s largest gainers, Teradyne climbed 8.0 percent, Hewlett Packard Enterprise rose 7.36 percent, SpaceX gained 7.35 percent, EchoStar advanced 6.8 percent, and ON Semiconductor increased 6.01 percent. Monolithic Power Systems, Coherent Corp., NetApp, Arm Holdings, and Rocket Lab also posted significant gains, ranging from 4.91 to 5.79 percent. The tracked outlets reported no specific company catalysts for these moves.</p><p>Financials lagged with a 0.28 percent average decline, while Real Estate and Consumer Discretionary remained nearly flat. The session&#x27;s largest losers were storage and semiconductor stocks: Western Digital fell 10.22 percent and Seagate Technology dropped 10.21 percent, with the tracked outlets citing no specific catalyst for either decline. Accenture slid 6.31 percent, Corteva retreated 5.17 percent, and Alnylam Pharmaceuticals declined 4.96 percent. AppLovin, FactSet, Gartner, Cognizant, and Sandisk also posted losses ranging from 3.79 to 4.65 percent, though no company-specific news was reported to explain these declines. Breadth was positive across all three major indices, with 303 stocks advancing and 212 declining among the 518 tracked.</p>",
   "manual_highlights": [],
   "feed": [
+    {
+      "title": "John Maynard Keynes and the search for the good life",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 04:00:39 GMT",
+      "link": "https://www.ft.com/content/c13f9f08-2cb6-4605-893a-fd2199e4bc44",
+      "summary": "Playwright James Graham on an economist who asked the right questions in bad times — and why he matters so much today",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fc76c7614-f5d6-409e-aed9-117441284880.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "China, America and the new Great Game",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 04:00:30 GMT",
+      "link": "https://www.ft.com/content/8869caf9-3cd1-4300-aeb3-828a4d9da4f9?syn-25a6b1a6=1",
+      "summary": "Which power will prevail? As in the 19th-century struggle between the UK and Russia, the answer may depend on forces beyond either’s control",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa6282226-1c3f-4f0c-8669-42c35b0f05b9.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Karl-Anthony Towns Who Lost Mom To COVID-19 Talks Of Value Of Vaccine",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 02 Oct 2026 23:04:31 -0400",
+      "link": "https://www.forbes.com/sites/brucelee/2026/10/02/karl-anthony-towns-who-lost-mom-to-covid-19-talks-of-value-of-vaccine/",
+      "summary": "New York Knicks center Karl-Anthony Towns has had a good 2026 with his marriage and NBA Championship. 2020 was far different with the loss of his mom to COVID-19.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6ac067bf496c9896fe5105ee/0x0.jpg"
+    },
+    {
+      "title": "WWE Money In The Bank Field Is Set — Here's The Full Card After SmackDown",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 02 Oct 2026 22:45:13 -0400",
+      "link": "https://www.forbes.com/sites/brianmazique/2026/10/02/wwe-money-in-the-bank-field-is-set---heres-the-full-card-after-smackdown/",
+      "summary": "WWE Money in the Bank 2026 full card: Kevin Owens and Tiffany Stratton win the final qualifiers, plus Reigns vs. LA Knight, Oct. 10 in New Orleans.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6ac06b756d7bf3fc8ed9af3f/0x0.jpg?width=960&precrop=1780%2C1002%2Cx0%2Cy91"
+    },
+    {
+      "title": "White House Filing Claims President Has Authority to Bar News Outlets",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 02:29:40 +0000",
+      "link": "https://www.nytimes.com/2026/10/02/business/trump-white-house-ban-cnn-politico-ms-now.html",
+      "summary": "The Trump administration again defended the decision to bar CNN, MS NOW and Politico from the White House and to exclude journalists from the pool that covers the president in small spaces.",
+      "image": "https://static01.nyt.com/images/2026/10/02/multimedia/02biz-trump-media-1-lkmp/02biz-trump-media-1-lkmp-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 02:16:00 GMT",
+      "link": "https://www.marketwatch.com/story/i-dont-want-to-die-on-the-sales-floor-im-67-and-earn-19-50-an-hour-at-a-big-box-store-when-can-i-finally-retire-369abcf9?mod=mw_rss_topstories",
+      "summary": "“I started taking Social Security at 66 and receive $2,410 a month. I have $214,000 in my 401(k).”",
+      "image": "https://images.mktw.net/im-61114806"
+    },
+    {
+      "title": "IMF Approves Bolivia Loan Deal to Support Paz’s Economic Reforms",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 00:55:49 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-03/imf-approves-bolivia-loan-deal-to-support-paz-s-economic-reforms",
+      "summary": "The International Monetary Fund approved a $1.9 billion financing program for Bolivia, including an immediate $214 million disbursement, in a package designed to help President Rodrigo Paz reverse a sharp economic slump.",
+      "image": null
+    },
+    {
+      "title": "Meta wants your next gadget to be Muse-infused",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 03 Oct 2026 00:45:39 +0000",
+      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg?resize=1200,800"
+    },
     {
       "title": "Sanders introduces bill to ban the federal government from using Flock",
       "source": "TechCrunch",
@@ -1968,30 +2040,12 @@
       "image": null
     },
     {
-      "title": "One Fighter Missed For UFC 332 — Here's The Final Card After Weigh-Ins",
-      "source": "Forbes",
+      "title": "Crude oil tanker struck by unknown projectile off Oman, UKMTO says",
+      "source": "Reuters",
       "category": "mercati",
-      "published": "Fri, 02 Oct 2026 19:41:08 -0400",
-      "link": "https://www.forbes.com/sites/brianmazique/2026/10/02/one-fighter-missed-for-ufc-332---heres-the-final-card-after-weigh-ins/",
-      "summary": "UFC 332 final card and weigh-in results: Silva vs. Wang for the women's flyweight title, Ribovics misses weight. Start times, Paramount+ and CBS info.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6ac0405c2748e7bf2c451bdb/0x0.jpg?width=960&precrop=2600%2C1461%2Cx0%2Cy0"
-    },
-    {
-      "title": "NYT Pips Answers And Walkthrough For Saturday, October 3",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 19:37:30 -0400",
-      "link": "https://www.forbes.com/sites/erikkain/2026/10/02/nyt-pips-answers-and-walkthrough-for-saturday-october-3/",
-      "summary": "Looking for help with today's New York Times Pips? We'll walk you through today's puzzle and help you match dominoes to tiles.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6ab58dac7c924a7cc293822f/0x0.jpg?width=960"
-    },
-    {
-      "title": "Wall Street Week | Your Brain on AI, Rare Earth Race, College Enrollment Cliff",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 23:12:45 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-02/wall-street-week-rare-earth-race-enrollment-cliff-video",
-      "summary": "This week, National Economic Council Director Kevin Hassett says AI’s productivity boost may be much larger than official economic data currently indicate. And, AI companies are largely in agreement that the technology needs guardrails, but the ethical implications of AI could al",
+      "published": "Fri, 02 Oct 2026 23:31:28 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWmh6LU5XZFg0NGU2MUxjNUVHc3lBd0lYMy1LNW81NU9TY0pQM051NVdWX1otZ181NDZYSWtXb2txc2RVbmVIMC1wTTFLVWVYN0ZZUGY1VmdRSFBNZDlGZ2NyeExDSEhWaEVsSHRtY0tGQWxrU1NXay1GS3ZxUExLWlRCRUMxNGx0NHhJbTBwOTRJaUx1amQxVXFqWEtETTF5eVNGZ2xHSWt6aUdycTJ5YjJQanA3bjBU?oc=5",
+      "summary": "Crude oil tanker struck by unknown projectile off Oman, UKMTO says &nbsp;&nbsp; Reuters",
       "image": null
     },
     {
@@ -2002,6 +2056,15 @@
       "link": "https://www.wsj.com/finance/investing/ai-is-squeezing-out-the-rest-of-the-stock-market-60928dd3?mod=rss_markets_main",
       "summary": "Expect stocks outside tech to struggle, earnings to expand more slowly and concern about credit risk to grow.",
       "image": "https://images.wsj.net/im-35761671"
+    },
+    {
+      "title": "Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Fri, 02 Oct 2026 22:43:45 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVjBOX2tiblNKM3pNUVJ2VzViQzZobDRCQk5pbk1Nai1vUlNDTG94a2JIRDNYSU96Mm1DTnZjWE5LbW9MbXh1RGtXUnEzRXJHOGx2Y1JmdlVBMGpuRGZkMUlZc0hGSUoxVTAyMWdpQmNPSndSTXFHVHhzMnRYaUdqdVY2NW5kY2l4V2IyN0pmNlgxR0JuUjdCRW5ZejBtU3NpdXhtdkJQNDE0c3k5b25wWXBHZE5tMjRnNU1leTJZZUJPWk0zOHZLdHhmNUl5OXBKLXlkNktR?oc=5",
+      "summary": "Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints &nbsp;&nbsp; Reuters",
+      "image": null
     },
     {
       "title": "Why Western Digital and Seagate are seeing big stock drops today",
@@ -2022,15 +2085,6 @@
       "image": "https://image.cnbcfm.com/api/v1/image/108307043-1778771977693-gettyimages-2275640099-CEREBRAS_IPO.jpeg?v=1778771994&amp;w=1920&amp;h=1080"
     },
     {
-      "title": "Tesla sold a lot more EVs than Wall Street expected, and the stock is surging",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 22:29:00 GMT",
-      "link": "https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53?mod=mw_rss_topstories",
-      "summary": "EV giant Tesla had the best three-month period for vehicle sales this year, but it was less than a year ago.",
-      "image": "https://images.mktw.net/im-14505735"
-    },
-    {
       "title": "F.D.A. Found Cyclospora During Taylor Farms Inspection in Mexico",
       "source": "The New York Times",
       "category": "mercati",
@@ -2045,7 +2099,7 @@
       "category": "mercati",
       "published": "Fri, 02 Oct 2026 22:11:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVG16eVVkaVVmY3d5aGhXUmFQSVpCcDZqbi1SWExsTktyUU94TTVFWEtNWGxQU2N4a2xXdXJ0OUxXalNHTjhuVmxJUnJQVUZiMllaSVZGUkhvTjBURWExNnJ1ZHI2MzBjdkNTQXp3eFFSYnYxS2pWWDJEdkZpQXhUb1dtYk05UEhMQUJKNVd1RFM?oc=5",
-      "summary": "Seagate Stock and Western Digital Tumble as Investors Worry AI Shortage Will Ease &nbsp;&nbsp; barrons.com",
+      "summary": "Seagate Stock and Western Digital Tumble as Investors Worry AI Shortage Will Ease &nbsp;&nbsp; Barron's",
       "image": null
     },
     {
@@ -2094,15 +2148,6 @@
       "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/Cycurion-Inc.-stock.jpeg"
     },
     {
-      "title": "Sean Parker is rebuilding Stability AI around music",
-      "source": "TechCrunch",
-      "category": "tech",
-      "published": "Fri, 02 Oct 2026 21:09:14 +0000",
-      "link": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
-      "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Sean-Parker.jpg?w=1024"
-    },
-    {
       "title": "Azioni MaxLinear schizzano a 105,93$: il rally rompe le bande di Bollinger",
       "source": "The Cryptonomist",
       "category": "crypto",
@@ -2110,15 +2155,6 @@
       "link": "https://cryptonomist.ch/2026/10/02/azioni-maxlinear-schizzano-a-10593-il-rally-rompe-le-bande-di-bollinger/",
       "summary": "Le azioni MaxLinear hanno chiuso venerdì 2 ottobre a 105,93 dollari, in rialzo del 14,99% in una sola seduta. I volumi hanno superato i 4,7 milioni di pezzi, ben oltre la media recente, con un massimo intraday a 106,54 dollari. Il titolo ha guadagnato più del 50% nell&#8217;ultim",
       "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/MaxLinear-Inc-stock.jpeg"
-    },
-    {
-      "title": "US justice department will not reopen criminal probe of Fed’s Jay Powell",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 21:03:19 GMT",
-      "link": "https://www.ft.com/content/887e90a5-8456-4eba-9ed0-205c873d4846?syn-25a6b1a6=1",
-      "summary": "US attorney-general Todd Blanche says not having ‘any oversight’ of the central bank’s $2.5bn renovation project ‘isn’t necessarily a crime’",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F1772d042-726e-4904-b093-c79ecfeedcd9.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
     },
     {
       "title": "Here’s what happened in crypto today",
@@ -2139,21 +2175,12 @@
       "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M3Z204Z5E8HCQ1YYBGG9YAK4/hi-self-custody-of-cryptocurrencies-is-your-own-wallet-really-safer-for-private-investors.png"
     },
     {
-      "title": "US backs down from fuel export ban threat as G7 agrees to release 100mn barrels",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 20:31:49 GMT",
-      "link": "https://www.ft.com/content/97200b07-755c-40ce-a50b-b51666bd4b7e?syn-25a6b1a6=1",
-      "summary": "Donald Trump calls decision by European nations to release diesel from strategic reserves a ‘great thing’",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff0f5d2d7-3779-4a66-88c7-bccdf4abde39.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
       "title": "Nvidia, Tesla, Rivian, On Semi, Seagate, HPE, Nike, and More Stocks That Explain Today’s Market",
       "source": "Barron's",
       "category": "mercati",
       "published": "Fri, 02 Oct 2026 20:20:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mNkFMUU9BdlVkRFlrYk5BbnhXVl9ydGZMZl84a1FyV3BUQVRzbVoxZVpxTGt5WnFBQml2c09OY1lqZmswbmZ4WVRxb3pra1p1eE1RRkNacUV1YWMybEZoWkdwREE?oc=5",
-      "summary": "Nvidia, Tesla, Rivian, On Semi, Seagate, HPE, Nike, and More Stocks That Explain Today’s Market &nbsp;&nbsp; barrons.com",
+      "summary": "Nvidia, Tesla, Rivian, On Semi, Seagate, HPE, Nike, and More Stocks That Explain Today’s Market &nbsp;&nbsp; Barron's",
       "image": null
     },
     {
@@ -2163,7 +2190,7 @@
       "published": "Fri, 2 Oct 2026 22:18:39 +0200",
       "link": "https://www.ansa.it/sito/notizie/economia/2026/10/02/via-libera-del-consiglio-dei-ministri-al-dpfp-e-a-scostamento-per-energia_8463ed4f-c10a-459f-8be8-a56ee2f0b01a.html",
       "summary": "Ridotto lo spazio per la difesa. Lega soddisfatta. Fi: 'Non sia restrittiva'",
-      "image": "https://www.ansa.it/webimages/img_1280x720/2026/10/2/881975519653a326e43cf7a8d11bd878.jpg"
+      "image": null
     },
     {
       "title": "Ethereum Now Lets You Pay for AI Without Revealing Who You Are",
@@ -2173,15 +2200,6 @@
       "link": "https://decrypt.co/379991/ethereum-now-pay-for-ai-without-revealing-identity",
       "summary": "Ethereum's zkAPI lets users prepay in USDC and query AI models through cryptographic proofs, so no single party sees both who they are and what they ask.",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/ethereum-decrypt-style-07-gID_7.jpg"
-    },
-    {
-      "title": "Mash-Up of Paramount and Warner Bros. Will Be Called Skydance",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 19:56:28 +0000",
-      "link": "https://www.nytimes.com/2026/10/02/business/media/skydance-paramount-warner-bros.html",
-      "summary": "David Ellison, the tech scion who will run the combined company, borrowed the name of his original entertainment company that reflects his love of aviation. On Friday, the C.E.O.s of Warner Bros. were told they would not stay on once the companies merged.",
-      "image": "https://static01.nyt.com/images/2026/10/02/multimedia/Biz-Paramount-Skydance-1-vqhb/Biz-Paramount-Skydance-1-vqhb-mediumSquareAt3X.jpg"
     },
     {
       "title": "ICE Has Been Dumping Protester Photos Into a Palantir Database",
@@ -2198,7 +2216,7 @@
       "category": "tech",
       "published": "Fri, 02 Oct 2026 18:19:53 +0000",
       "link": "https://www.wired.com/story/this-shoe-companys-instagram-ad-with-a-frat-is-pissing-people-off/",
-      "summary": "A collaborative Instagram post between footwear line HEYDUDE and a University of Florida frat is sparking backlash due to sexual cyberharassment allegations against two former members.",
+      "summary": "A collaborative Instagram post between footwear line HeyDude and a University of Florida frat is sparking backlash due to sexual cyber-harassment allegations against two former members.",
       "image": "https://media.wired.com/photos/6abeb53be6bd248b69d52cab/master/pass/GettyImages-2240863414.jpg"
     },
     {
@@ -2247,24 +2265,6 @@
       "image": null
     },
     {
-      "title": "Tesla's car business back on growth path as deliveries beat forecasts",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Fri, 02 Oct 2026 14:49:43 GMT",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSVZuUmY4NVU2bWVoZVVneFFNWmdiZDZIcmZZTW9rcEx4WEpGZXdUX0pwczJMbWRSLWdROTJiNjRqSHQ3dm1jUGdsU0c3QTB5YlJjajJ3c0JmS3dLcTVpTFUzbzY0ZWhLMkVyckRONF8tdmhwcTRndmRYR1VDdjdYREhfeEJkeUUza2h2NTFmUEVDWG9iYjBhR2w0WXV5TzhUbmRMMjdyWkZwUnU0ZGYxbmt6dTRBb3VVMEJOT1Rn?oc=5",
-      "summary": "Tesla's car business back on growth path as deliveries beat forecasts &nbsp;&nbsp; Reuters",
-      "image": null
-    },
-    {
-      "title": "Ottobre può essere decisivo per Wall Street: riflettori sui conti dei big tech",
-      "source": "Wall Street Italia",
-      "category": "italia",
-      "published": "Fri, 02 Oct 2026 14:34:44 +0000",
-      "link": "https://www.wallstreetitalia.com/ottobre-puo-essere-decisivo-per-wall-street-riflettori-sui-conti-dei-big-tech/",
-      "summary": "La stagione delle trimestrali arriva in un momento nel quale gli investitori stanno cercando di valutare quanto sia sostenibile la forte crescita associata all'intelligenza artificiale e quanto spazio ci sia ancora per ulteriori investimenti nelle infrastrutture necessarie a sost",
-      "image": null
-    },
-    {
       "title": "Governments want to hold America’s shares more than its debts",
       "source": "The Economist",
       "category": "mercati",
@@ -2310,37 +2310,37 @@
       "image": null
     }
   ],
-  "generated_at": "2026-10-03 02:41:48",
+  "generated_at": "2026-10-03 07:01:29",
   "markets_brief": {
     "items": [
       {
-        "title": "Stocks Rise As Jobs Report Eases Fed-Hike Worries",
-        "source": "Bloomberg",
-        "link": "https://www.bloomberg.com/news/videos/2026-10-02/the-close-10-2-2026-video"
+        "title": "John Maynard Keynes and the search for the good life",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/c13f9f08-2cb6-4605-893a-fd2199e4bc44"
       },
       {
-        "title": "One Fighter Missed For UFC 332 — Here's The Final Card After Weigh-Ins",
-        "source": "Forbes",
-        "link": "https://www.forbes.com/sites/brianmazique/2026/10/02/one-fighter-missed-for-ufc-332---heres-the-final-card-after-weigh-ins/"
+        "title": "China, America and the new Great Game",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/8869caf9-3cd1-4300-aeb3-828a4d9da4f9?syn-25a6b1a6=1"
       },
       {
-        "title": "NYT Pips Answers And Walkthrough For Saturday, October 3",
-        "source": "Forbes",
-        "link": "https://www.forbes.com/sites/erikkain/2026/10/02/nyt-pips-answers-and-walkthrough-for-saturday-october-3/"
+        "title": "A Londoner’s guide to hating London",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/c8407fb6-6134-4b2c-a428-d3a998873383"
       },
       {
-        "title": "Rays’ ALDS Game 1 Starter Drew Rasmussen Coming Off Impressive Second Half",
+        "title": "Karl-Anthony Towns Who Lost Mom To COVID-19 Talks Of Value Of Vaccine",
         "source": "Forbes",
-        "link": "https://www.forbes.com/sites/tomlayberger/2026/10/02/rays-alds-game-1-starter-drew-rasmussen-coming-off-impressive-second-half/"
+        "link": "https://www.forbes.com/sites/brucelee/2026/10/02/karl-anthony-towns-who-lost-mom-to-covid-19-talks-of-value-of-vaccine/"
       },
       {
-        "title": "‘Burnt Out’ Conor Benn Makes Huge Career Decision After Loss To Ryan Garcia",
+        "title": "WWE Money In The Bank Field Is Set — Here's The Full Card After SmackDown",
         "source": "Forbes",
-        "link": "https://www.forbes.com/sites/brianmazique/2026/10/02/burnt-out-conor-benn-makes-huge-career-decision-after-loss-to-ryan-garcia/"
+        "link": "https://www.forbes.com/sites/brianmazique/2026/10/02/wwe-money-in-the-bank-field-is-set---heres-the-full-card-after-smackdown/"
       }
     ],
-    "prose_html": "<p>Le azioni hanno registrato rialzi dopo la pubblicazione di un rapporto sull&#x27;occupazione che ha attenuato le preoccupazioni su ulteriori aumenti dei tassi della Federal Reserve, suggerendo che la banca centrale potrebbe essere vicina alla fine del suo ciclo di stretta monetaria. I dati hanno fornito sollievo agli investitori che si erano preparati a una politica monetaria più aggressiva.</p>",
-    "prose_html_en": "<p>Equities advanced as a jobs report eased concerns about further Federal Reserve rate increases, suggesting the central bank may be nearing the end of its tightening cycle. The data provided relief to investors who had been bracing for more aggressive monetary policy.</p>"
+    "prose_html": "<p>I titoli forniti non contengono notizie di mercato o macroeconomiche adatte a una newsletter sui mercati statunitensi. L&#x27;elenco include articoli culturali e di lifestyle da Financial Times, una storia di advocacy sanitaria da Forbes e copertura di intrattenimento sportivo—nessuno dei quali costituisce informazioni di mercato rilevanti o dati economici utili per le decisioni di trading e investimento quotidiane.</p>",
+    "prose_html_en": "<p>The headlines provided do not contain market or macroeconomic news suitable for a US-markets newsletter. The list includes cultural and lifestyle pieces from the Financial Times, a health advocacy story from Forbes, and sports entertainment coverage—none of which constitute actionable market intelligence or economic data relevant to daily trading or investment decisions.</p>"
   },
   "live_close_movers": {
     "captured_at": "2026-09-30T20:15:37Z",
