@@ -1,0 +1,3629 @@
+{
+  "edition_date": "2026-10-04",
+  "edition_date_it": "4 ottobre 2026",
+  "edition_date_en": "October 4, 2026",
+  "session_date": "2026-10-02",
+  "session_date_it": "2 ottobre 2026",
+  "session_date_en": "October 2, 2026",
+  "edition_kind": "weekend_recap",
+  "headline": "Mercati chiusi: le notizie di sabato in sintesi, con Solana +1,54% dalla chiusura di venerdi'",
+  "headline_en": "Markets closed: Saturday's news in brief, with Solana +1.54% since Friday's close",
+  "auto_report": {
+    "stats": {
+      "n_up": 293,
+      "n_down": 206,
+      "n_flat": 3,
+      "n_total": 502,
+      "avg_pct": 0.31,
+      "best_sectors": [
+        {
+          "sector": "Information Technology",
+          "avg_pct": 0.98
+        },
+        {
+          "sector": "Industrials",
+          "avg_pct": 0.65
+        },
+        {
+          "sector": "Energy",
+          "avg_pct": 0.41
+        }
+      ],
+      "worst_sectors": [
+        {
+          "sector": "Financials",
+          "avg_pct": -0.28
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "avg_pct": 0.02
+        },
+        {
+          "sector": "Real Estate",
+          "avg_pct": 0.02
+        }
+      ]
+    },
+    "paragraphs": [
+      "Nella seduta del 2 ottobre 2026 l'S&P 500 ha chiuso con 293 societa' in rialzo, 206 in ribasso e 3 invariate, su 502 titoli monitorati. La variazione media dell'indice e' stata di +0,31%.",
+      "Settori con la variazione media migliore: Information Technology (+0,98%); Industrials (+0,65%); Energy (+0,41%). Settori piu' debolli: Financials (-0,28%); Consumer Discretionary (+0,02%); Real Estate (+0,02%).",
+      "In cima alla seduta: Teradyne (TER, +8,00%); Hewlett Packard Enterprise (HPE, +7,36%); EchoStar (ECHO, +6,80%). In fondo: Western Digital (WDC, -10,22%); Seagate Technology (STX, -10,21%); Accenture (ACN, -6,31%)."
+    ],
+    "gainers": [
+      {
+        "symbol": "TER",
+        "name": "Teradyne",
+        "sector": "Information Technology",
+        "pct_change": 8.0,
+        "last_close": 449.04,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise",
+        "sector": "Information Technology",
+        "pct_change": 7.36,
+        "last_close": 69.33,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "ECHO",
+        "name": "EchoStar",
+        "sector": "Communication Services",
+        "pct_change": 6.8,
+        "last_close": 94.25,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "ON",
+        "name": "ON Semiconductor",
+        "sector": "Information Technology",
+        "pct_change": 6.01,
+        "last_close": 84.89,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "MPWR",
+        "name": "Monolithic Power Systems",
+        "sector": "Information Technology",
+        "pct_change": 5.79,
+        "last_close": 1439.73,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "sector": "Information Technology",
+        "pct_change": 5.59,
+        "last_close": 337.04,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "NTAP",
+        "name": "NetApp",
+        "sector": "Information Technology",
+        "pct_change": 5.22,
+        "last_close": 226.27,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "sector": "Consumer Discretionary",
+        "pct_change": 4.65,
+        "last_close": 370.59,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "URI",
+        "name": "United Rentals",
+        "sector": "Industrials",
+        "pct_change": 4.54,
+        "last_close": 1081.04,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "P",
+        "name": "Everpure",
+        "sector": "Information Technology",
+        "pct_change": 4.48,
+        "last_close": 140.14,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "WDC",
+        "name": "Western Digital",
+        "sector": "Information Technology",
+        "pct_change": -10.22,
+        "last_close": 415.29,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "STX",
+        "name": "Seagate Technology",
+        "sector": "Information Technology",
+        "pct_change": -10.21,
+        "last_close": 848.99,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "ACN",
+        "name": "Accenture",
+        "sector": "Information Technology",
+        "pct_change": -6.31,
+        "last_close": 198.9,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CTVA",
+        "name": "Corteva",
+        "sector": "Materials",
+        "pct_change": -5.17,
+        "last_close": 11.92,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "APP",
+        "name": "AppLovin",
+        "sector": "Communication Services",
+        "pct_change": -4.65,
+        "last_close": 268.22,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "FDS",
+        "name": "FactSet",
+        "sector": "Financials",
+        "pct_change": -4.18,
+        "last_close": 266.0,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "IT",
+        "name": "Gartner",
+        "sector": "Information Technology",
+        "pct_change": -4.15,
+        "last_close": 184.8,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CTSH",
+        "name": "Cognizant",
+        "sector": "Information Technology",
+        "pct_change": -3.89,
+        "last_close": 58.51,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "SNDK",
+        "name": "Sandisk",
+        "sector": "Information Technology",
+        "pct_change": -3.79,
+        "last_close": 1719.99,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "NKE",
+        "name": "Nike, Inc.",
+        "sector": "Consumer Discretionary",
+        "pct_change": -3.64,
+        "last_close": 33.87,
+        "indices": [
+          "sp500",
+          "dow"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      }
+    ]
+  },
+  "auto_report_by_index": {
+    "sp500": {
+      "stats": {
+        "n_up": 293,
+        "n_down": 206,
+        "n_flat": 3,
+        "n_total": 502,
+        "avg_pct": 0.31,
+        "best_sectors": [
+          {
+            "sector": "Information Technology",
+            "avg_pct": 0.98
+          },
+          {
+            "sector": "Industrials",
+            "avg_pct": 0.65
+          },
+          {
+            "sector": "Energy",
+            "avg_pct": 0.41
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Financials",
+            "avg_pct": -0.28
+          },
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": 0.02
+          },
+          {
+            "sector": "Real Estate",
+            "avg_pct": 0.02
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "TER",
+          "name": "Teradyne",
+          "sector": "Information Technology",
+          "pct_change": 8.0,
+          "last_close": 449.04,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HPE",
+          "name": "Hewlett Packard Enterprise",
+          "sector": "Information Technology",
+          "pct_change": 7.36,
+          "last_close": 69.33,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ECHO",
+          "name": "EchoStar",
+          "sector": "Communication Services",
+          "pct_change": 6.8,
+          "last_close": 94.25,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ON",
+          "name": "ON Semiconductor",
+          "sector": "Information Technology",
+          "pct_change": 6.01,
+          "last_close": 84.89,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MPWR",
+          "name": "Monolithic Power Systems",
+          "sector": "Information Technology",
+          "pct_change": 5.79,
+          "last_close": 1439.73,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "COHR",
+          "name": "Coherent Corp.",
+          "sector": "Information Technology",
+          "pct_change": 5.59,
+          "last_close": 337.04,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NTAP",
+          "name": "NetApp",
+          "sector": "Information Technology",
+          "pct_change": 5.22,
+          "last_close": 226.27,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla, Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": 4.65,
+          "last_close": 370.59,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "URI",
+          "name": "United Rentals",
+          "sector": "Industrials",
+          "pct_change": 4.54,
+          "last_close": 1081.04,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "P",
+          "name": "Everpure",
+          "sector": "Information Technology",
+          "pct_change": 4.48,
+          "last_close": 140.14,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "WDC",
+          "name": "Western Digital",
+          "sector": "Information Technology",
+          "pct_change": -10.22,
+          "last_close": 415.29,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STX",
+          "name": "Seagate Technology",
+          "sector": "Information Technology",
+          "pct_change": -10.21,
+          "last_close": 848.99,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ACN",
+          "name": "Accenture",
+          "sector": "Information Technology",
+          "pct_change": -6.31,
+          "last_close": 198.9,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CTVA",
+          "name": "Corteva",
+          "sector": "Materials",
+          "pct_change": -5.17,
+          "last_close": 11.92,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "APP",
+          "name": "AppLovin",
+          "sector": "Communication Services",
+          "pct_change": -4.65,
+          "last_close": 268.22,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FDS",
+          "name": "FactSet",
+          "sector": "Financials",
+          "pct_change": -4.18,
+          "last_close": 266.0,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IT",
+          "name": "Gartner",
+          "sector": "Information Technology",
+          "pct_change": -4.15,
+          "last_close": 184.8,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CTSH",
+          "name": "Cognizant",
+          "sector": "Information Technology",
+          "pct_change": -3.89,
+          "last_close": 58.51,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SNDK",
+          "name": "Sandisk",
+          "sector": "Information Technology",
+          "pct_change": -3.79,
+          "last_close": 1719.99,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NKE",
+          "name": "Nike, Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": -3.64,
+          "last_close": 33.87,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the October 2, 2026 session the S&P 500 closed with 293 stocks higher, 206 lower and 3 unchanged, out of 502 tracked. The average move was +0.31%.",
+          "Best-performing sectors by average move: Information Technology (+0.98%); Industrials (+0.65%); Energy (+0.41%). Weakest: Financials (-0.28%); Consumer Discretionary (+0.02%); Real Estate (+0.02%).",
+          "Leading the session: Teradyne (TER, +8.00%); Hewlett Packard Enterprise (HPE, +7.36%); EchoStar (ECHO, +6.80%). At the bottom: Western Digital (WDC, -10.22%); Seagate Technology (STX, -10.21%); Accenture (ACN, -6.31%)."
+        ],
+        "it": [
+          "Nella seduta del 2 ottobre 2026 l'S&P 500 ha chiuso con 293 societa' in rialzo, 206 in ribasso e 3 invariate, su 502 titoli monitorati. La variazione media dell'indice e' stata di +0,31%.",
+          "Settori con la variazione media migliore: Information Technology (+0,98%); Industrials (+0,65%); Energy (+0,41%). Settori piu' debolli: Financials (-0,28%); Consumer Discretionary (+0,02%); Real Estate (+0,02%).",
+          "In cima alla seduta: Teradyne (TER, +8,00%); Hewlett Packard Enterprise (HPE, +7,36%); EchoStar (ECHO, +6,80%). In fondo: Western Digital (WDC, -10,22%); Seagate Technology (STX, -10,21%); Accenture (ACN, -6,31%)."
+        ]
+      }
+    },
+    "dow": {
+      "stats": {
+        "n_up": 18,
+        "n_down": 11,
+        "n_flat": 1,
+        "n_total": 30,
+        "avg_pct": 0.24,
+        "best_sectors": [
+          {
+            "sector": "Information Technology",
+            "avg_pct": 0.71
+          },
+          {
+            "sector": "Industrials",
+            "avg_pct": 0.6
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": 0.11
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": -0.54
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": 0.03
+          },
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": 0.05
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "CSCO",
+          "name": "Cisco",
+          "sector": "Information Technology",
+          "pct_change": 3.16,
+          "last_close": 112.2,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CAT",
+          "name": "Caterpillar Inc.",
+          "sector": "Industrials",
+          "pct_change": 2.31,
+          "last_close": 845.42,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNH",
+          "name": "UnitedHealth Group",
+          "sector": "Health Care",
+          "pct_change": 1.83,
+          "last_close": 371.9,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc. (Class A)",
+          "sector": "Communication Services",
+          "pct_change": 1.56,
+          "last_close": 343.5,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NVDA",
+          "name": "Nvidia",
+          "sector": "Information Technology",
+          "pct_change": 1.34,
+          "last_close": 233.95,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon",
+          "sector": "Consumer Discretionary",
+          "pct_change": 1.33,
+          "last_close": 251.52,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc.",
+          "sector": "Information Technology",
+          "pct_change": 1.02,
+          "last_close": 333.69,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft",
+          "sector": "Information Technology",
+          "pct_change": 0.92,
+          "last_close": 517.53,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DIS",
+          "name": "Walt Disney Company (The)",
+          "sector": "Communication Services",
+          "pct_change": 0.85,
+          "last_close": 102.19,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BA",
+          "name": "Boeing",
+          "sector": "Industrials",
+          "pct_change": 0.67,
+          "last_close": 193.56,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "NKE",
+          "name": "Nike, Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": -3.64,
+          "last_close": 33.87,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IBM",
+          "name": "IBM",
+          "sector": "Information Technology",
+          "pct_change": -1.32,
+          "last_close": 222.64,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMGN",
+          "name": "Amgen",
+          "sector": "Health Care",
+          "pct_change": -1.04,
+          "last_close": 403.04,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "JNJ",
+          "name": "Johnson & Johnson",
+          "sector": "Health Care",
+          "pct_change": -1.02,
+          "last_close": 256.03,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CRM",
+          "name": "Salesforce",
+          "sector": "Information Technology",
+          "pct_change": -0.84,
+          "last_close": 234.69,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MMM",
+          "name": "3M",
+          "sector": "Industrials",
+          "pct_change": -0.69,
+          "last_close": 161.89,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "KO",
+          "name": "Coca-Cola Company (The)",
+          "sector": "Consumer Staples",
+          "pct_change": -0.52,
+          "last_close": 85.65,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SHW",
+          "name": "Sherwin-Williams",
+          "sector": "Materials",
+          "pct_change": -0.4,
+          "last_close": 319.51,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRV",
+          "name": "Travelers Companies (The)",
+          "sector": "Financials",
+          "pct_change": -0.35,
+          "last_close": 360.38,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "JPM",
+          "name": "JPMorgan Chase",
+          "sector": "Financials",
+          "pct_change": -0.24,
+          "last_close": 332.38,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the October 2, 2026 session the Dow Jones closed with 18 stocks higher, 11 lower and 1 unchanged, out of 30 tracked. The average move was +0.24%.",
+          "Best-performing sectors by average move: Information Technology (+0.71%); Industrials (+0.60%); Financials (+0.11%). Weakest: Consumer Discretionary (-0.54%); Health Care (+0.03%); Consumer Staples (+0.05%).",
+          "Leading the session: Cisco (CSCO, +3.16%); Caterpillar Inc. (CAT, +2.31%); UnitedHealth Group (UNH, +1.83%). At the bottom: Nike, Inc. (NKE, -3.64%); IBM (IBM, -1.32%); Amgen (AMGN, -1.04%)."
+        ],
+        "it": [
+          "Nella seduta del 2 ottobre 2026 il Dow Jones ha chiuso con 18 societa' in rialzo, 11 in ribasso e 1 invariate, su 30 titoli monitorati. La variazione media dell'indice e' stata di +0,24%.",
+          "Settori con la variazione media migliore: Information Technology (+0,71%); Industrials (+0,60%); Financials (+0,11%). Settori piu' debolli: Consumer Discretionary (-0,54%); Health Care (+0,03%); Consumer Staples (+0,05%).",
+          "In cima alla seduta: Cisco (CSCO, +3,16%); Caterpillar Inc. (CAT, +2,31%); UnitedHealth Group (UNH, +1,83%). In fondo: Nike, Inc. (NKE, -3,64%); IBM (IBM, -1,32%); Amgen (AMGN, -1,04%)."
+        ]
+      }
+    },
+    "nasdaq100": {
+      "stats": {
+        "n_up": 59,
+        "n_down": 40,
+        "n_flat": 1,
+        "n_total": 100,
+        "avg_pct": 0.51,
+        "best_sectors": [
+          {
+            "sector": "Technology",
+            "avg_pct": 1.16
+          },
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": 0.94
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": 0.83
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Health Care",
+            "avg_pct": -1.22
+          },
+          {
+            "sector": "Communication Services",
+            "avg_pct": -0.25
+          },
+          {
+            "sector": "Industrials",
+            "avg_pct": 0.21
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "TER",
+          "name": "Teradyne",
+          "sector": "Information Technology",
+          "pct_change": 8.0,
+          "last_close": 449.04,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SPCX",
+          "name": "SpaceX",
+          "sector": "Telecommunications",
+          "pct_change": 7.35,
+          "last_close": 158.96,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MPWR",
+          "name": "Monolithic Power Systems",
+          "sector": "Information Technology",
+          "pct_change": 5.79,
+          "last_close": 1439.73,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ARM",
+          "name": "Arm Holdings",
+          "sector": "Technology",
+          "pct_change": 5.18,
+          "last_close": 307.49,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "RKLB",
+          "name": "Rocket Lab",
+          "sector": "Industrials",
+          "pct_change": 4.91,
+          "last_close": 73.92,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla, Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": 4.65,
+          "last_close": 370.59,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NBIS",
+          "name": "Nebius Group",
+          "sector": "Technology",
+          "pct_change": 4.53,
+          "last_close": 242.81,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TXN",
+          "name": "Texas Instruments",
+          "sector": "Information Technology",
+          "pct_change": 4.44,
+          "last_close": 293.8,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DASH",
+          "name": "DoorDash",
+          "sector": "Consumer Discretionary",
+          "pct_change": 3.83,
+          "last_close": 189.15,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LITE",
+          "name": "Lumentum",
+          "sector": "Information Technology",
+          "pct_change": 3.79,
+          "last_close": 1085.42,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "WDC",
+          "name": "Western Digital",
+          "sector": "Information Technology",
+          "pct_change": -10.22,
+          "last_close": 415.29,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STX",
+          "name": "Seagate Technology",
+          "sector": "Information Technology",
+          "pct_change": -10.21,
+          "last_close": 848.99,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ALNY",
+          "name": "Alnylam Pharmaceuticals",
+          "sector": "Health Care",
+          "pct_change": -4.96,
+          "last_close": 219.72,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "APP",
+          "name": "AppLovin",
+          "sector": "Communication Services",
+          "pct_change": -4.65,
+          "last_close": 268.22,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SNDK",
+          "name": "Sandisk",
+          "sector": "Information Technology",
+          "pct_change": -3.79,
+          "last_close": 1719.99,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ROST",
+          "name": "Ross Stores",
+          "sector": "Consumer Discretionary",
+          "pct_change": -2.38,
+          "last_close": 228.54,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ADP",
+          "name": "Automatic Data Processing",
+          "sector": "Industrials",
+          "pct_change": -2.38,
+          "last_close": 257.68,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ISRG",
+          "name": "Intuitive Surgical",
+          "sector": "Health Care",
+          "pct_change": -2.32,
+          "last_close": 391.95,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ROP",
+          "name": "Roper Technologies",
+          "sector": "Information Technology",
+          "pct_change": -2.28,
+          "last_close": 354.32,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AXON",
+          "name": "Axon Enterprise",
+          "sector": "Industrials",
+          "pct_change": -2.1,
+          "last_close": 413.35,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the October 2, 2026 session the Nasdaq-100 closed with 59 stocks higher, 40 lower and 1 unchanged, out of 100 tracked. The average move was +0.51%.",
+          "Best-performing sectors by average move: Technology (+1.16%); Consumer Discretionary (+0.94%); Information Technology (+0.83%). Weakest: Health Care (-1.22%); Communication Services (-0.25%); Industrials (+0.21%).",
+          "Leading the session: Teradyne (TER, +8.00%); SpaceX (SPCX, +7.35%); Monolithic Power Systems (MPWR, +5.79%). At the bottom: Western Digital (WDC, -10.22%); Seagate Technology (STX, -10.21%); Alnylam Pharmaceuticals (ALNY, -4.96%)."
+        ],
+        "it": [
+          "Nella seduta del 2 ottobre 2026 il Nasdaq-100 ha chiuso con 59 societa' in rialzo, 40 in ribasso e 1 invariate, su 100 titoli monitorati. La variazione media dell'indice e' stata di +0,51%.",
+          "Settori con la variazione media migliore: Technology (+1,16%); Consumer Discretionary (+0,94%); Information Technology (+0,83%). Settori piu' debolli: Health Care (-1,22%); Communication Services (-0,25%); Industrials (+0,21%).",
+          "In cima alla seduta: Teradyne (TER, +8,00%); SpaceX (SPCX, +7,35%); Monolithic Power Systems (MPWR, +5,79%). In fondo: Western Digital (WDC, -10,22%); Seagate Technology (STX, -10,21%); Alnylam Pharmaceuticals (ALNY, -4,96%)."
+        ]
+      }
+    },
+    "ftsemib": {
+      "stats": {
+        "n_up": 24,
+        "n_down": 15,
+        "n_flat": 1,
+        "n_total": 40,
+        "avg_pct": 0.44,
+        "best_sectors": [
+          {
+            "sector": "Energy",
+            "avg_pct": 0.97
+          },
+          {
+            "sector": "Utilities",
+            "avg_pct": 0.68
+          },
+          {
+            "sector": "Industrial Goods and Services",
+            "avg_pct": 0.64
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Banks",
+            "avg_pct": -0.22
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": -0.21
+          },
+          {
+            "sector": "Financial Services",
+            "avg_pct": 0.33
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "STMMI.MI",
+          "name": "STMicroelectronics",
+          "sector": "Technology",
+          "pct_change": 6.67,
+          "last_close": 50.35,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PRY.MI",
+          "name": "Prysmian",
+          "sector": "Industrial Goods and Services",
+          "pct_change": 3.96,
+          "last_close": 129.8,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INW.MI",
+          "name": "INWIT",
+          "sector": "Telecommunications",
+          "pct_change": 2.28,
+          "last_close": 6.5,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FBK.MI",
+          "name": "FinecoBank",
+          "sector": "Banks",
+          "pct_change": 2.21,
+          "last_close": 21.73,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BZU.MI",
+          "name": "Buzzi",
+          "sector": "Construction and Materials",
+          "pct_change": 1.58,
+          "last_close": 37.86,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LTMC.MI",
+          "name": "Lottomatica Group",
+          "sector": "Gambling",
+          "pct_change": 1.56,
+          "last_close": 25.42,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ENEL.MI",
+          "name": "Enel",
+          "sector": "Utilities",
+          "pct_change": 1.51,
+          "last_close": 8.8,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BC.MI",
+          "name": "Brunello Cucinelli",
+          "sector": "Consumer Products and Services",
+          "pct_change": 1.49,
+          "last_close": 80.18,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SRG.MI",
+          "name": "Snam",
+          "sector": "Energy",
+          "pct_change": 1.45,
+          "last_close": 5.61,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DIA.MI",
+          "name": "Diasorin",
+          "sector": "Health Care",
+          "pct_change": 1.22,
+          "last_close": 74.9,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "TIT.MI",
+          "name": "Telecom Italia",
+          "sector": "Telecommunications",
+          "pct_change": -2.45,
+          "last_close": 6.41,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FCT.MI",
+          "name": "Fincantieri",
+          "sector": "Shipbuilding",
+          "pct_change": -1.98,
+          "last_close": 12.12,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMP.MI",
+          "name": "Amplifon",
+          "sector": "Health Care",
+          "pct_change": -1.95,
+          "last_close": 11.56,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNI.MI",
+          "name": "Unipol",
+          "sector": "Insurance",
+          "pct_change": -1.11,
+          "last_close": 25.79,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BPE.MI",
+          "name": "BPER Banca",
+          "sector": "Banks",
+          "pct_change": -1.04,
+          "last_close": 13.5,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "G.MI",
+          "name": "Generali",
+          "sector": "Insurance",
+          "pct_change": -0.96,
+          "last_close": 41.46,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UCG.MI",
+          "name": "UniCredit",
+          "sector": "Banks",
+          "pct_change": -0.86,
+          "last_close": 78.85,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LDO.MI",
+          "name": "Leonardo",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -0.86,
+          "last_close": 47.39,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ISP.MI",
+          "name": "Intesa Sanpaolo",
+          "sector": "Banks",
+          "pct_change": -0.78,
+          "last_close": 6.33,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BAMI.MI",
+          "name": "Banco BPM",
+          "sector": "Banks",
+          "pct_change": -0.75,
+          "last_close": 15.23,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the October 2, 2026 session the FTSE MIB closed with 24 stocks higher, 15 lower and 1 unchanged, out of 40 tracked. The average move was +0.44%.",
+          "Best-performing sectors by average move: Energy (+0.97%); Utilities (+0.68%); Industrial Goods and Services (+0.64%). Weakest: Banks (-0.22%); Health Care (-0.21%); Financial Services (+0.33%).",
+          "Leading the session: STMicroelectronics (STMMI.MI, +6.67%); Prysmian (PRY.MI, +3.96%); INWIT (INW.MI, +2.28%). At the bottom: Telecom Italia (TIT.MI, -2.45%); Fincantieri (FCT.MI, -1.98%); Amplifon (AMP.MI, -1.95%)."
+        ],
+        "it": [
+          "Nella seduta del 2 ottobre 2026 il FTSE MIB ha chiuso con 24 societa' in rialzo, 15 in ribasso e 1 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di +0,44%.",
+          "Settori con la variazione media migliore: Energy (+0,97%); Utilities (+0,68%); Industrial Goods and Services (+0,64%). Settori piu' debolli: Banks (-0,22%); Health Care (-0,21%); Financial Services (+0,33%).",
+          "In cima alla seduta: STMicroelectronics (STMMI.MI, +6,67%); Prysmian (PRY.MI, +3,96%); INWIT (INW.MI, +2,28%). In fondo: Telecom Italia (TIT.MI, -2,45%); Fincantieri (FCT.MI, -1,98%); Amplifon (AMP.MI, -1,95%)."
+        ]
+      }
+    },
+    "combined": {
+      "stats": {
+        "n_up": 303,
+        "n_down": 211,
+        "n_flat": 3,
+        "n_total": 517,
+        "avg_pct": 0.34,
+        "best_sectors": [
+          {
+            "sector": "Technology",
+            "avg_pct": 1.16
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": 0.98
+          },
+          {
+            "sector": "Industrials",
+            "avg_pct": 0.71
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Financials",
+            "avg_pct": -0.28
+          },
+          {
+            "sector": "Real Estate",
+            "avg_pct": 0.02
+          },
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": 0.03
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "TER",
+          "name": "Teradyne",
+          "sector": "Information Technology",
+          "pct_change": 8.0,
+          "last_close": 449.04,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HPE",
+          "name": "Hewlett Packard Enterprise",
+          "sector": "Information Technology",
+          "pct_change": 7.36,
+          "last_close": 69.33,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SPCX",
+          "name": "SpaceX",
+          "sector": "Telecommunications",
+          "pct_change": 7.35,
+          "last_close": 158.96,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ECHO",
+          "name": "EchoStar",
+          "sector": "Communication Services",
+          "pct_change": 6.8,
+          "last_close": 94.25,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ON",
+          "name": "ON Semiconductor",
+          "sector": "Information Technology",
+          "pct_change": 6.01,
+          "last_close": 84.89,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MPWR",
+          "name": "Monolithic Power Systems",
+          "sector": "Information Technology",
+          "pct_change": 5.79,
+          "last_close": 1439.73,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "COHR",
+          "name": "Coherent Corp.",
+          "sector": "Information Technology",
+          "pct_change": 5.59,
+          "last_close": 337.04,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NTAP",
+          "name": "NetApp",
+          "sector": "Information Technology",
+          "pct_change": 5.22,
+          "last_close": 226.27,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ARM",
+          "name": "Arm Holdings",
+          "sector": "Technology",
+          "pct_change": 5.18,
+          "last_close": 307.49,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "RKLB",
+          "name": "Rocket Lab",
+          "sector": "Industrials",
+          "pct_change": 4.91,
+          "last_close": 73.92,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "WDC",
+          "name": "Western Digital",
+          "sector": "Information Technology",
+          "pct_change": -10.22,
+          "last_close": 415.29,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STX",
+          "name": "Seagate Technology",
+          "sector": "Information Technology",
+          "pct_change": -10.21,
+          "last_close": 848.99,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ACN",
+          "name": "Accenture",
+          "sector": "Information Technology",
+          "pct_change": -6.31,
+          "last_close": 198.9,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CTVA",
+          "name": "Corteva",
+          "sector": "Materials",
+          "pct_change": -5.17,
+          "last_close": 11.92,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ALNY",
+          "name": "Alnylam Pharmaceuticals",
+          "sector": "Health Care",
+          "pct_change": -4.96,
+          "last_close": 219.72,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "APP",
+          "name": "AppLovin",
+          "sector": "Communication Services",
+          "pct_change": -4.65,
+          "last_close": 268.22,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FDS",
+          "name": "FactSet",
+          "sector": "Financials",
+          "pct_change": -4.18,
+          "last_close": 266.0,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IT",
+          "name": "Gartner",
+          "sector": "Information Technology",
+          "pct_change": -4.15,
+          "last_close": 184.8,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CTSH",
+          "name": "Cognizant",
+          "sector": "Information Technology",
+          "pct_change": -3.89,
+          "last_close": 58.51,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SNDK",
+          "name": "Sandisk",
+          "sector": "Information Technology",
+          "pct_change": -3.79,
+          "last_close": 1719.99,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the October 2, 2026 session the combined three U.S. indices closed with 303 stocks higher, 211 lower and 3 unchanged, out of 517 tracked. The average move was +0.34%.",
+          "Best-performing sectors by average move: Technology (+1.16%); Information Technology (+0.98%); Industrials (+0.71%). Weakest: Financials (-0.28%); Real Estate (+0.02%); Consumer Discretionary (+0.03%).",
+          "Leading the session: Teradyne (TER, +8.00%); Hewlett Packard Enterprise (HPE, +7.36%); SpaceX (SPCX, +7.35%). At the bottom: Western Digital (WDC, -10.22%); Seagate Technology (STX, -10.21%); Accenture (ACN, -6.31%)."
+        ],
+        "it": [
+          "Nella seduta del 2 ottobre 2026 l'insieme dei tre indici USA ha chiuso con 303 societa' in rialzo, 211 in ribasso e 3 invariate, su 517 titoli monitorati. La variazione media dell'indice e' stata di +0,34%.",
+          "Settori con la variazione media migliore: Technology (+1,16%); Information Technology (+0,98%); Industrials (+0,71%). Settori piu' debolli: Financials (-0,28%); Real Estate (+0,02%); Consumer Discretionary (+0,03%).",
+          "In cima alla seduta: Teradyne (TER, +8,00%); Hewlett Packard Enterprise (HPE, +7,36%); SpaceX (SPCX, +7,35%). In fondo: Western Digital (WDC, -10,22%); Seagate Technology (STX, -10,21%); Accenture (ACN, -6,31%)."
+        ]
+      }
+    }
+  },
+  "manual_commentary_html": null,
+  "manual_commentary_html_en": null,
+  "manual_highlights": [],
+  "feed": [
+    {
+      "title": "Meet the Gen-Z High Rollers Dominating the Prediction Markets",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 09:30:00 GMT",
+      "link": "https://www.wsj.com/finance/kalshi-prediction-traders-profiles-2130f3b0?mod=rss_markets_main",
+      "summary": "Upstart trading firms loom large on platforms such as Kalshi and Polymarket. They are starting to raise capital.",
+      "image": "https://images.wsj.net/im-12858367"
+    },
+    {
+      "title": "AI Is Squeezing Out the Rest of the Stock Market",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Fri, 02 Oct 2026 23:00:00 GMT",
+      "link": "https://www.wsj.com/finance/investing/ai-is-squeezing-out-the-rest-of-the-stock-market-60928dd3?mod=rss_markets_main",
+      "summary": "Expect stocks outside tech to struggle, earnings to expand more slowly and concern about credit risk to grow.",
+      "image": "https://images.wsj.net/im-35761671"
+    },
+    {
+      "title": "Fake Jobs Put Job Seekers at Risk of Identity Theft",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 15:15:35 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-03/fake-jobs-put-job-seekers-at-risk-of-identity-theft-video",
+      "summary": "Fraud investigator Jay Jones, known online as “The Profiler,” tells Bloomberg This Weekend that AI is helping scammers create increasingly convincing fake recruiters and job listings that can lead victims to surrender money and sensitive personal information. Speaking with hosts ",
+      "image": null
+    },
+    {
+      "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 13:12:27 GMT",
+      "link": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
+      "summary": "With the first round of Brazil's presidential election taking place Sunday, Wall Street is gearing up with starkly different market predictions.",
+      "image": null
+    },
+    {
+      "title": "Berkshire buys more Lennar shares, but pace of purchases slows",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 12:55:31 GMT",
+      "link": "https://www.cnbc.com/2026/10/03/berkshire-buys-more-lennar-shares-but-pace-of-purchases-slows.html",
+      "summary": "Berkshire Hathaway added to its bet on Lennar this week, raising its stake in the homebuilder to 11.2%, although the pace of its buying appears to be slowing.",
+      "image": null
+    },
+    {
+      "title": "Crude oil tanker struck by unknown projectile off Oman, UKMTO says",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Fri, 02 Oct 2026 23:31:28 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWmh6LU5XZFg0NGU2MUxjNUVHc3lBd0lYMy1LNW81NU9TY0pQM051NVdWX1otZ181NDZYSWtXb2txc2RVbmVIMC1wTTFLVWVYN0ZZUGY1VmdRSFBNZDlGZ2NyeExDSEhWaEVsSHRtY0tGQWxrU1NXay1GS3ZxUExLWlRCRUMxNGx0NHhJbTBwOTRJaUx1amQxVXFqWEtETTF5eVNGZ2xHSWt6aUdycTJ5YjJQanA3bjBU?oc=5",
+      "summary": "Crude oil tanker struck by unknown projectile off Oman, UKMTO says &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "Seagate Stock and Western Digital Tumble as Investors Worry AI Shortage Will Ease",
+      "source": "Barron's",
+      "category": "mercati",
+      "published": "Fri, 02 Oct 2026 22:11:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVG16eVVkaVVmY3d5aGhXUmFQSVpCcDZqbi1SWExsTktyUU94TTVFWEtNWGxQU2N4a2xXdXJ0OUxXalNHTjhuVmxJUnJQVUZiMllaSVZGUkhvTjBURWExNnJ1ZHI2MzBjdkNTQXp3eFFSYnYxS2pWWDJEdkZpQXhUb1dtYk05UEhMQUJKNVd1RFM?oc=5",
+      "summary": "Seagate Stock and Western Digital Tumble as Investors Worry AI Shortage Will Ease &nbsp;&nbsp; Barron's",
+      "image": null
+    },
+    {
+      "title": "Trump taps Director of National Intelligence Jay Clayton as AI czar: WSJ reports",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 23:37:23 GMT",
+      "link": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html",
+      "summary": "Director of National Intelligence Jay Clayton will lead the administration's AI policy, The Wall Street Journal reported on Saturday.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108371732-1790941993880-gettyimages-2286019756-clayton_senate_324_071526.jpeg?v=1790942014&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 18:30:00 GMT",
+      "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
+      "summary": "“The only debts were utility and credit-card bills, which we will pay off.”",
+      "image": "https://images.mktw.net/im-91750928"
+    },
+    {
+      "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 16:00:00 GMT",
+      "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
+      "summary": "“Generally, the advice I’ve read says not to sell because I have a low-interest-rate mortgage.”",
+      "image": "https://images.mktw.net/im-02929527"
+    },
+    {
+      "title": "The No. 1 mistake beginners make with travel cards, according to The Points Guy",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 15:42:00 GMT",
+      "link": "https://www.marketwatch.com/story/the-no-1-mistake-beginners-make-with-travel-cards-according-to-the-points-guy-3502e859?mod=mw_rss_topstories",
+      "summary": "The Points Guy’s Brian Kelly gave me a crash course in annual fees and redemptions to offset rising travel costs",
+      "image": "https://images.mktw.net/im-41556362"
+    },
+    {
+      "title": "The town where 94% voted for Lula — and some now waver",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 11:00:00 GMT",
+      "link": "https://www.ft.com/content/e884e8f3-ad16-48a9-af41-29d3122f7d76?syn-25a6b1a6=1",
+      "summary": "Despite his hallowed status, some voters are growing disaffected with Brazil’s president in Guaribas, the cradle of his flagship Bolsa Família welfare programme",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0747a10d-5882-4473-8470-415768d8ae0d.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "China launches anti-dumping probe into European chemical exports",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 10:16:42 GMT",
+      "link": "https://www.ft.com/content/bae0af94-f42d-47d1-a1a8-fab608e75a72?syn-25a6b1a6=1",
+      "summary": "Latest tit-for-tat move follows three similar investigations launched by the EU last week",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0f4bc85f-3483-4cd2-b557-a5d8a34242f6.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "How airlines try to weed out rogue pilots",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 08:05:08 GMT",
+      "link": "https://www.ft.com/content/3e976e07-d85c-4ee3-8dff-208296684ca0?syn-25a6b1a6=1",
+      "summary": "Background checks and psychological testing aim to ensure that only those fit to fly take the controls",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F20a4e3e8-861a-4935-8c79-0e17da23aaa0.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "The right and wrong lessons to learn from Spain’s housing crisis",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 04:00:48 GMT",
+      "link": "https://www.ft.com/content/437ca3f0-9db4-4511-a441-ab7763d8f65c?syn-25a6b1a6=1",
+      "summary": "Evictions and spiralling rents are the symptom, not the underlying disease",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F70672460-19f1-47c3-84d2-9f131a1daa09.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Mexico Says Its Troops Sent to Border in Conjunction With US",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 23:24:07 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-03/mexico-says-its-troops-sent-to-border-in-conjunction-with-us",
+      "summary": "The US and Mexico have jointly deployed military personnel in a border area in Texas as part of “mirror operations,” the Mexican government said Saturday.",
+      "image": null
+    },
+    {
+      "title": "Lula, Bolsonaro in Dead Heat as Brazil Prepares to Vote",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 22:35:24 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-03/lula-bolsonaro-in-dead-heat-as-brazil-prepares-to-vote",
+      "summary": "President Luiz Inácio Lula da Silva and right-wing challenger Flávio Bolsonaro remain locked in a tight race as Brazil prepares to vote in Sunday’s election, according to a pair of new polls.",
+      "image": null
+    },
+    {
+      "title": "Tiny Hotels Are Luxury Travel’s Next Big Thing",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 16:35:28 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-03/tiny-hotels-are-luxury-travel-s-next-big-thing-video",
+      "summary": "Bloomberg Pursuits reporter Sarah Rappaport tells Bloomberg This Weekend that luxury travelers are increasingly seeking tiny hotels with as few as one to six rooms, combining the privacy of a villa with personalized high-end hotel service. Speaking with hosts David Gura and Chris",
+      "image": null
+    },
+    {
+      "title": "Novig credits Sydney Sweeney-backed campaign for platform’s surge in growth",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 13:30:48 GMT",
+      "link": "https://www.cnbc.com/2026/10/03/novig-credits-sydney-sweeney-backed-campaign-for-platforms-surge-in-growth.html",
+      "summary": "Novig's \"Just Sports\" campaign drew backlash from some female athletes but also brought in a rush of trading volume.",
+      "image": null
+    },
+    {
+      "title": "China initiates anti-dumping investigation into p-nitrotoluene from EU",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 02:52:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORW9ZcVdfdDduQ3E4UDVUMUlkRHZSVTlVUU94UnFtdTVGUU1QVVJnb3E2MjkxMlFMWldkY0xDa0xmdm4yWllzVWJSV3VMR3BlWjk2SFA3ZDdmaDBxN2s0WTVGOW5abmpRWkJweGFPRTVXYnRKeGhhc1dSM0NsTmkyTkU0RVM2ZV96T1FwOC1UNFlBeHJOdXZqMkd5TkVXRUJRVXE5djBxZlM2bmRGanVPMzFXNA?oc=5",
+      "summary": "China initiates anti-dumping investigation into p-nitrotoluene from EU &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "‘Digger,’ Warner Bros.’ Last Release Before Merger, Is a Major Flop",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 23:44:35 +0000",
+      "link": "https://www.nytimes.com/2026/10/03/business/media/digger-tom-cruise-box-office.html",
+      "summary": "The film, starring Tom Cruise, grossed an estimated $8 million in its opening weekend. That could put the movie on track to lose at least $125 million.",
+      "image": "https://static01.nyt.com/images/2026/10/04/multimedia/04biz-boxoffice-diggers-1-gvcm/04biz-boxoffice-diggers-1-gvcm-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Trump Says Economy Has ‘Public Relations’ Problem Amid High Prices and Slow Hiring",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 09:03:53 +0000",
+      "link": "https://www.nytimes.com/2026/10/03/business/trump-economy-inflation-midterms.html",
+      "summary": "The president, who had hoped to tout a growing economy on the campaign trail, has found it hard to break through as workers’ wages fail to keep up.",
+      "image": "https://static01.nyt.com/images/2026/10/03/multimedia/03dc-trump-econ-fztq/03dc-trump-econ-fztq-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "NYT Pips Answers And Walkthrough For Sunday, October 4",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 18:58:12 -0400",
+      "link": "https://www.forbes.com/sites/erikkain/2026/10/03/nyt-pips-answers-and-walkthrough-for-sunday-october-4/",
+      "summary": "Looking for help with today's New York Times Pips? We'll walk you through today's puzzle and help you match dominoes to tiles.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6ab58dac7c924a7cc293822f/0x0.jpg?width=960"
+    },
+    {
+      "title": "NYT Strands Answers Today: Hints & Clues For Sunday, October 4 (Grab Your Tokens)",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 18:44:55 -0400",
+      "link": "https://www.forbes.com/sites/erikkain/2026/10/03/nyt-strands-sunday-october-4-answers-grab-your-tokens/",
+      "summary": "Looking for help with today's NYT Strands puzzle? Here's an extra hint to help you uncover the right words, as well as all of today's answers and Spangram.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/661994c1a11cd45a738c205f/0x0.jpg?width=960"
+    },
+    {
+      "title": "Jon Moxley In Action, And Kofi Kingston Wrestles His First AEW Singles Match",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 18:07:08 -0400",
+      "link": "https://www.forbes.com/sites/brianmazique/2026/10/03/jon-moxley-in-action-and-kofi-kingston-wrestles-his-first-aew-singles-match/",
+      "summary": "AEW Collision start time, card and how to watch for Oct. 3: Jon Moxley vs. Jake Doyle, Kofi vs. Lee Moriarty, on TNT and HBO Max at 8 p.m. ET.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6ac17ac0ea7fe952ab1ec998/0x0.jpg?width=960&precrop=2698%2C1518%2Cx0%2Cy139"
+    },
+    {
+      "title": "How NBA Arenas And Real Estate Are Driving Franchise Values",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 13:37:58 -0400",
+      "link": "https://www.forbes.com/sites/kevin-sweeney/2026/10/03/how-nba-arenas-and-real-estate-are-driving-franchise-values/",
+      "summary": "NBA owners are increasingly looking beyond basketball, using arenas and surrounding developments to create valuable entertainment and commercial ecosystems.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6ac13b550a54c01ad9719c45/0x0.jpg"
+    },
+    {
+      "title": "White House Filing Claims President Has Authority to Bar News Outlets",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 03 Oct 2026 02:29:40 +0000",
+      "link": "https://www.nytimes.com/2026/10/02/business/trump-white-house-ban-cnn-politico-ms-now.html",
+      "summary": "The Trump administration again defended the decision to bar CNN, MS NOW and Politico from the White House and to exclude journalists from the pool that covers the president in small spaces.",
+      "image": "https://static01.nyt.com/images/2026/10/02/multimedia/02biz-trump-media-1-lkmp/02biz-trump-media-1-lkmp-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "F.D.A. Found Cyclospora During Taylor Farms Inspection in Mexico",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Fri, 02 Oct 2026 22:25:24 +0000",
+      "link": "https://www.nytimes.com/2026/10/02/health/cyclospora-taylor-farms-mexico.html",
+      "summary": "The discovery adds strong evidence that the outbreak that sickened thousands over the summer originated in a grower’s field or processing facility.",
+      "image": "https://static01.nyt.com/images/2026/10/02/multimedia/02dc-cyclospora-vphc/02dc-cyclospora-vphc-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Pnrr, dal Mit 1,55 miliardi, 59 interventi per acqua",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 3 Oct 2026 13:24:47 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/pnrr-dal-mit-155-miliardi-59-interventi-per-acqua_bfb56cbc-de74-477b-976e-1283fb2e9f1e.html",
+      "summary": "Tutte le risorse assegnate in meno di quattro mesi",
+      "image": null
+    },
+    {
+      "title": "Borsa: in Europa il settore auto è il peggiore da inizio anno",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 3 Oct 2026 13:06:22 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/borsa-in-europa-il-settore-auto-e-il-peggiore-da-inizio-anno_b5e1031b-1245-4250-a124-a6435811748a.html",
+      "summary": "In calo del 21% contro un rialzo del 6,6% dell'Euro Stoxx 600",
+      "image": null
+    },
+    {
+      "title": "Urso, 'giovedì tavolo con società raffinazione per capire come aumentare produzione'",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 3 Oct 2026 12:05:49 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/urso-visita-stabilimenti-isab-a-priolo-tutelata-la-prima-raffineria-ditalia_47b1a14f-ad6d-4953-be6f-1f63e9e0a5fe.html",
+      "summary": "Incontro con società insieme a Pichetto",
+      "image": null
+    },
+    {
+      "title": "Mimit, oltre 10mila distributori hanno aderito a price cap carburanti",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 3 Oct 2026 11:51:49 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/mimit-oltre-10mila-distributori-hanno-aderito-a-price-cap-carburanti_c4488638-d85b-4156-a391-82cfdba965d9.html",
+      "summary": "Benzina sotto i 2 euro al litro e gasolio sotto i 2,20 nel 52% dei punti vendita rete",
+      "image": null
+    },
+    {
+      "title": "Best Mosquito Repellents for Your Yard: What Works and What Doesn’t (2026)",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 03 Oct 2026 10:03:00 +0000",
+      "link": "https://www.wired.com/story/best-mosquito-repellents/",
+      "summary": "After years of testing repellents, traps, and sprays, I found a few ways to keep the bugs at bay—and plenty that aren’t worth the effort.",
+      "image": "https://media.wired.com/photos/6abfcf9ffd75bc6c14087517/master/pass/I%E2%80%99ve%20Spent%20Years%20Fighting%20Mosquitoes%20102026%20top%20art%20SOURCE%20Amazon.jpg"
+    },
+    {
+      "title": "A Decade-Long Experiment Is Unlocking the Mysteries of the Ocean’s ‘Deep Reefs’",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 03 Oct 2026 09:00:00 +0000",
+      "link": "https://www.wired.com/story/inside-decade-long-experiment-to-understand-oceans-mysterious-deep-reefs/",
+      "summary": "Scientists left structures up to 100 meters under the surface. Here’s what they found when they retrieved them 10 years later.",
+      "image": "https://media.wired.com/photos/6abf7988fd75bc6c14087434/master/pass/7d3bd2cd-5a0e-48eb-a36f-9d7b95b305df%20%C2%A9%20Luiz%20Rocha%20.JPG"
+    },
+    {
+      "title": "20% Off Brooks Promo Code | October 2026",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 03 Oct 2026 05:00:00 +0000",
+      "link": "https://www.wired.com/story/brooks-promo-code/",
+      "summary": "Enjoy 20% off your first order with a Brooks coupon code, plus top discounts and deals on our favorite Brooks running shoes.",
+      "image": "https://media.wired.com/photos/66ea076ee8502211cd1d9a42/master/pass/WIRED-Coupons-13.jpg"
+    },
+    {
+      "title": "Meta wants your next gadget to be Muse-infused",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 03 Oct 2026 00:45:39 +0000",
+      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+      "image": null
+    },
+    {
+      "title": "Sanders introduces bill to ban the federal government from using Flock",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 03 Oct 2026 00:21:57 +0000",
+      "link": "https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/",
+      "summary": "The proposed legislation would extend to all automotica license plate readers.",
+      "image": null
+    },
+    {
+      "title": "BlackRock e Ondo tokenizzano i portafogli d’investimento, mercato da 9.800 miliardi",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Sat, 03 Oct 2026 13:27:44 +0000",
+      "link": "https://cryptonomist.ch/2026/10/03/portafogli-investimento-tokenizzati/",
+      "summary": "BlackRock e Ondo Finance hanno lanciato tre strategie d&#8217;investimento sotto forma di token su blockchain, aprendo una nuova fase per i portafogli d&#8217;investimento tokenizzati. Invece di comprare e ribilanciare più asset separati, chi investe può ora detenere un solo toke",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/portafogli-d-investimento-tokenizzati.jpeg"
+    },
+    {
+      "title": "L’indagine AI sull’hackeraggio Bitget da 387 milioni passa da 20 ore a 10 minuti",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Sat, 03 Oct 2026 12:22:07 +0000",
+      "link": "https://cryptonomist.ch/2026/10/03/indagine-ai-hackeraggio-bitget-da-387-milioni/",
+      "summary": "Un&#8217;indagine AI su un hackeraggio da 387 milioni di dollari, quello subito dall&#8217;exchange Bitget. Secondo un report di Chainalysis datato 1° ottobre, ripreso da crypto.news, uno strumento di AI sviluppato internamente ha ridotto da oltre 20 ore a meno di 10 minuti un&#8",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/indagine-ai-su-hackeraggio-bitget-da-387-milioni.jpeg"
+    },
+    {
+      "title": "L’accordo volontario per la sicurezza AI di Trump mentre la FTC apre un’indagine sulle big tech",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Sat, 03 Oct 2026 10:32:25 +0000",
+      "link": "https://cryptonomist.ch/2026/10/03/accordo-volontario-sicurezza-ai/",
+      "summary": "Donald Trump ha presentato il 29 settembre 2026 un accordo volontario per la sicurezza AI, firmato da sei grandi aziende tech alla Casa Bianca. Il documento, lungo una sola pagina, chiede alle società di controllare da sole i propri sistemi più avanzati, senza nuove regole federa",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/accordo-volontario-per-la-sicurezza-ai.jpeg"
+    }
+  ],
+  "generated_at": "2026-10-04 02:00:30",
+  "markets_brief": {
+    "items": [
+      {
+        "title": "These bond strategies can help you get a safe 5% return on your cash",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/these-bond-strategies-can-help-you-get-a-safe-5-return-on-your-cash-5fa45ccd?mod=mw_rss_topstories"
+      },
+      {
+        "title": "A tough job market is pushing more young Americans to make a big bet: on themselves",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/a-tough-job-market-is-pushing-more-young-americans-to-make-a-big-bet-on-themselves-1aaddeca?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Switching jobs to get higher pay works best in these industries",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/the-best-industry-to-change-jobs-to-get-paid-more-money-and-the-worst-ae33a3a7?mod=mw_rss_topstories"
+      },
+      {
+        "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories"
+      },
+      {
+        "title": "The Treasury Department started Trump accounts for 60 million kids — but families still have to take this step if they want one",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/the-treasury-department-started-trump-accounts-for-60-million-kids-but-families-still-have-to-take-this-step-if-they-want-one-003d9282?mod=mw_rss_topstories"
+      }
+    ],
+    "prose_html": "<p>Un mercato del lavoro sempre più rigido sta trasformando il modo in cui gli americani affrontano il lavoro e il risparmio. Con il cambio di lavoro che emerge come un percorso praticabile verso salari più alti in determinati settori, i lavoratori più giovani stanno sempre più scommettendo su se stessi piuttosto che aspettare un avanzamento tradizionale. Nel frattempo, i risparmiatori stanno trovando nuove opportunità nelle strategie a reddito fisso, con approcci obbligazionari che ora offrono rendimenti competitivi del cinque percento sui depositi di liquidità. Sul fronte politico, il Dipartimento del Tesoro ha avviato conti per milioni di bambini, anche se le famiglie devono compiere ulteriori passi per attivarli.</p>",
+    "prose_html_en": "<p>A tightening labor market is reshaping how Americans approach work and savings. With job switching emerging as a viable path to higher pay in certain sectors, younger workers are increasingly betting on themselves rather than waiting for traditional advancement. Meanwhile, savers are finding new opportunities in fixed-income strategies, with bond approaches now offering competitive five-percent returns on cash holdings. On the policy front, the Treasury Department has initiated accounts for millions of children, though families must take additional steps to activate them.</p>"
+  },
+  "live_close_movers": {
+    "captured_at": "2026-09-30T20:15:37Z",
+    "session_date": "2026-09-30",
+    "universe": 1311,
+    "gainers": [
+      {
+        "symbol": "FORM",
+        "name": "FormFactor, Inc.",
+        "pct": 9.59
+      },
+      {
+        "symbol": "ZETA",
+        "name": "Zeta Global Holdings Corp.",
+        "pct": 9.03
+      },
+      {
+        "symbol": "FROG",
+        "name": "JFrog Ltd.",
+        "pct": 7.38
+      },
+      {
+        "symbol": "ACMR",
+        "name": "ACM Research, Inc.",
+        "pct": 7.02
+      },
+      {
+        "symbol": "DOCS",
+        "name": "Doximity, Inc.",
+        "pct": 6.86
+      },
+      {
+        "symbol": "IDT",
+        "name": "IDT Corporation",
+        "pct": 5.84
+      },
+      {
+        "symbol": "GEN",
+        "name": "Gen Digital Inc.",
+        "pct": 5.61
+      },
+      {
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets, Inc.",
+        "pct": 5.17
+      },
+      {
+        "symbol": "SYRE",
+        "name": "Spyre Therapeutics, Inc.",
+        "pct": 5.09
+      },
+      {
+        "symbol": "QLYS",
+        "name": "Qualys, Inc.",
+        "pct": 4.96
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": -57.19
+      },
+      {
+        "symbol": "JBL",
+        "name": "Jabil Inc.",
+        "pct": -10.09
+      },
+      {
+        "symbol": "BLLN",
+        "name": "BillionToOne, Inc.",
+        "pct": -9.93
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": -8.87
+      },
+      {
+        "symbol": "MTG",
+        "name": "MGIC Investment Corporation",
+        "pct": -8.53
+      },
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -7.89
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -7.28
+      },
+      {
+        "symbol": "GENI",
+        "name": "Genius Sports Limited",
+        "pct": -7.13
+      },
+      {
+        "symbol": "NLY",
+        "name": "Annaly Capital Management Inc.",
+        "pct": -7.04
+      },
+      {
+        "symbol": "KMX",
+        "name": "CarMax Inc",
+        "pct": -6.99
+      }
+    ]
+  },
+  "weekend_report": {
+    "kind": "weekend_recap",
+    "covers_date": "2026-10-03",
+    "covers_date_it": "3 ottobre 2026",
+    "covers_date_en": "October 3, 2026",
+    "window_hours": 26,
+    "n_items": 100,
+    "n_digest": 24,
+    "n_sources": 15,
+    "sections": [
+      {
+        "key": "mercati",
+        "label": {
+          "en": "Markets and macro",
+          "it": "Mercati e macro"
+        },
+        "n_available": 58,
+        "items": [
+          {
+            "title": "These bond strategies can help you get a safe 5% return on your cash",
+            "source": "MarketWatch",
+            "category": "mercati",
+            "link": "https://www.marketwatch.com/story/these-bond-strategies-can-help-you-get-a-safe-5-return-on-your-cash-5fa45ccd?mod=mw_rss_topstories",
+            "image": "https://images.mktw.net/im-29477851",
+            "summary": "With U.S. Treasury yields on the rise, financial planners say they’re seeing a growing interest in bonds, especially among investors looking to secure fixed income in retirement.",
+            "published": "Sat, 03 Oct 2026 18:49:00 GMT"
+          },
+          {
+            "title": "A tough job market is pushing more young Americans to make a big bet: on themselves",
+            "source": "MarketWatch",
+            "category": "mercati",
+            "link": "https://www.marketwatch.com/story/a-tough-job-market-is-pushing-more-young-americans-to-make-a-big-bet-on-themselves-1aaddeca?mod=mw_rss_topstories",
+            "image": "https://images.mktw.net/im-69217223",
+            "summary": "There has been a rise in entrepreneurship among young Americans as the entry-level labor market has become tougher to join.",
+            "published": "Sat, 03 Oct 2026 17:24:00 GMT"
+          },
+          {
+            "title": "Switching jobs to get higher pay works best in these industries",
+            "source": "MarketWatch",
+            "category": "mercati",
+            "link": "https://www.marketwatch.com/story/the-best-industry-to-change-jobs-to-get-paid-more-money-and-the-worst-ae33a3a7?mod=mw_rss_topstories",
+            "image": "https://images.mktw.net/im-43794673",
+            "summary": "Finding a new job is one way to get a pay increase at a time when inflation has been outpacing wage growth.",
+            "published": "Sat, 03 Oct 2026 16:42:00 GMT"
+          },
+          {
+            "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
+            "source": "MarketWatch",
+            "category": "mercati",
+            "link": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
+            "image": "https://images.mktw.net/im-88944109",
+            "summary": "“When my paycheck lands, it takes a detour through bitcoin.”",
+            "published": "Sat, 03 Oct 2026 15:30:00 GMT"
+          },
+          {
+            "title": "The Treasury Department started Trump accounts for 60 million kids — but families still have to take this step if they want one",
+            "source": "MarketWatch",
+            "category": "mercati",
+            "link": "https://www.marketwatch.com/story/the-treasury-department-started-trump-accounts-for-60-million-kids-but-families-still-have-to-take-this-step-if-they-want-one-003d9282?mod=mw_rss_topstories",
+            "image": "https://images.mktw.net/im-23210654",
+            "summary": "Here’s what parents seeking the $1,000 seed money for their child need to know.",
+            "published": "Sat, 03 Oct 2026 15:06:00 GMT"
+          },
+          {
+            "title": "How the French Bond Trade Backfired on Investors",
+            "source": "The Wall Street Journal",
+            "category": "mercati",
+            "link": "https://www.wsj.com/finance/investing/how-the-french-bond-trade-backfired-on-investors-4f2aba71?mod=rss_markets_main",
+            "image": "https://images.wsj.net/im-35487046",
+            "summary": "Hedge funds piled into leveraged bets over the summer, figuring French politics wouldn’t get much rockier.",
+            "published": "Sat, 03 Oct 2026 09:30:00 GMT"
+          }
+        ]
+      },
+      {
+        "key": "crypto",
+        "label": {
+          "en": "Crypto",
+          "it": "Crypto"
+        },
+        "n_available": 12,
+        "items": [
+          {
+            "title": "Community banks sue OCC over trust bank charters of crypto firms",
+            "source": "Cointelegraph",
+            "category": "crypto",
+            "link": "https://cointelegraph.com/news/community-banks-sue-occ-over-trust-bank-charters-of-crypto-firms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M40GZ6STY7R8TJPNFCZ17PJ8/courtroom-court-lawsuit-justice-jurisdiction-breaking-news-3.png",
+            "summary": "Community banking group’s lawsuit claims OCC has overstepped its mandate from Congress.",
+            "published": "Sat, 03 Oct 2026 09:25:01 +0000"
+          },
+          {
+            "title": "Trump Is Hosting Yet Another Meme Coin Dinner: Here Are the Details",
+            "source": "Decrypt",
+            "category": "crypto",
+            "link": "https://decrypt.co/380002/trump-third-meme-coin-dinner-details",
+            "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-10-gID_7.png",
+            "summary": "The TRUMP meme coin project is inviting its top 185 holders to a Nov. 22 gala dinner with President Trump two weeks after ethics disputes over his crypto interests helped stall the Clarity Act in the Senate.",
+            "published": "Sat, 03 Oct 2026 15:01:03 +0000"
+          },
+          {
+            "title": "The Pope Has Thoughts on AI Art—And They're Not Flattering",
+            "source": "Decrypt",
+            "category": "crypto",
+            "link": "https://decrypt.co/379983/pope-leo-human-art-ai-creation",
+            "image": "https://cdn.decrypt.co/wp-content/uploads/2025/11/pope-leo-xiv-decrypt-style-gID_7.jpg",
+            "summary": "The pontiff says algorithms \"lack the spark of humanity,\" and the Vatican wants to renew an alliance with artists and cultural institutions to protect it.",
+            "published": "Sat, 03 Oct 2026 13:01:04 +0000"
+          },
+          {
+            "title": "Trump is expected to appoint Jay Clayton as new AI czar: Reports",
+            "source": "Cointelegraph",
+            "category": "crypto",
+            "link": "https://cointelegraph.com/news/trump-is-expected-to-appoint-jay-clayton-as-new-ai-czar-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M408YEEABFWBFJG6GQ567JX7/hi-china-own-ai.png",
+            "summary": "US intel chief Clayton may be asked to also oversee AI innovation and development along with “self policing” tech CEOs.",
+            "published": "Sat, 03 Oct 2026 07:06:08 +0000"
+          },
+          {
+            "title": "Grecia, arresti per truffa crypto: 9 militari nello schema da 8 milioni",
+            "source": "The Cryptonomist",
+            "category": "crypto",
+            "link": "https://cryptonomist.ch/2026/10/03/arresti-truffa-crypto-grecia/",
+            "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/arresti-per-truffa-crypto-in-grecia.jpeg",
+            "summary": "Le autorità greche hanno arrestato 17 persone accusate di aver gestito una piattaforma di investimenti in criptovalute che avrebbe raccolto oltre 8 milioni di dollari da almeno 10.000 partecipanti. Gli arresti per truffa crypto in Grecia, rendicontati dalla Hellenic Police il 2 o",
+            "published": "Sat, 03 Oct 2026 11:42:52 +0000"
+          },
+          {
+            "title": "Dalla connettività al valore: le banche ripensano l’infrastruttura dei pagamenti",
+            "source": "The Cryptonomist",
+            "category": "crypto",
+            "link": "https://cryptonomist.ch/2026/10/03/valore-dell-infrastruttura-pagamenti/",
+            "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/valore-dell-infrastruttura-pagamenti.jpeg",
+            "summary": "Le banche non vogliono più limitarsi a garantire l&#8217;accesso alle reti di pagamento: puntano a trasformare quell&#8217;infrastruttura in una leva di guadagno concreta. È questo il tema al centro di un webinar organizzato da Finextra in collaborazione con Bottomline, dal titol",
+            "published": "Sat, 03 Oct 2026 13:42:06 +0000"
+          }
+        ]
+      },
+      {
+        "key": "tech",
+        "label": {
+          "en": "Tech",
+          "it": "Tech"
+        },
+        "n_available": 12,
+        "items": [
+          {
+            "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+            "source": "TechCrunch",
+            "category": "tech",
+            "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+            "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+            "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+            "published": "Sat, 03 Oct 2026 16:30:01 +0000"
+          },
+          {
+            "title": "Jack Dorsey’s Bitchat disappears from app stores in India after government order",
+            "source": "TechCrunch",
+            "category": "tech",
+            "link": "https://techcrunch.com/2026/10/03/jack-dorseys-bitchat-disappears-from-app-stores-in-india-after-government-order/",
+            "image": "https://techcrunch.com/wp-content/uploads/2026/10/bitchat-unavailable-india-techcrunch.jpg?resize=1200,800",
+            "summary": "Bitchat has become largely unavailable in India as a result of the restrictions.",
+            "published": "Sat, 03 Oct 2026 15:02:01 +0000"
+          },
+          {
+            "title": "Vessev built an electric ferry that almost flies",
+            "source": "TechCrunch",
+            "category": "tech",
+            "link": "https://techcrunch.com/2026/10/03/vessev-built-an-electric-ferry-that-almost-flies/",
+            "image": "https://techcrunch.com/wp-content/uploads/2026/09/Vessev_VS–9–NYCDrone-02.jpeg?resize=1200,675",
+            "summary": "Vessev hopes its electric hydrofoil ferry will change the way people and cities think about boats.",
+            "published": "Sat, 03 Oct 2026 14:42:00 +0000"
+          },
+          {
+            "title": "All the AI agents that can live in your text messages",
+            "source": "TechCrunch",
+            "category": "tech",
+            "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+            "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
+            "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+            "published": "Sat, 03 Oct 2026 14:00:00 +0000"
+          },
+          {
+            "title": "Spotify billionaire’s body scan startup has come to America",
+            "source": "TechCrunch",
+            "category": "tech",
+            "link": "https://techcrunch.com/2026/10/03/spotify-billionaires-body-scan-startup-has-come-to-america/",
+            "image": "https://techcrunch.com/wp-content/uploads/2024/09/Neko-Health-Marylebone-3.jpg?resize=1200,900",
+            "summary": "Farooq Abbasi, an investor in Neko Health, talked to Equity about the hot health tech company and what's next for it.",
+            "published": "Sat, 03 Oct 2026 14:00:00 +0000"
+          },
+          {
+            "title": "The Best E-Readers That Aren't a Kindle (2026): Kobo, Boox",
+            "source": "Wired",
+            "category": "tech",
+            "link": "https://www.wired.com/gallery/best-ereaders/",
+            "image": "https://media.wired.com/photos/6ac0197d8e2ff9873e4241c1/master/pass/The%20Best%20E-Readers%20That%20Aren't%20a%20Kindle%20102026%20top%20art%20SOURCE%20Kobo.jpg",
+            "summary": "Want to untether your reading from Amazon? These Kindle alternatives deserve a spot on your nightstand.",
+            "published": "Sat, 03 Oct 2026 11:05:00 +0000"
+          }
+        ]
+      },
+      {
+        "key": "italia",
+        "label": {
+          "en": "Italy",
+          "it": "Italia"
+        },
+        "n_available": 10,
+        "items": [
+          {
+            "title": "Intesa aumenta di 0,25 euro il corrispettivo cash dell'Opas su Mps",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/intesa-aumenta-di-025-euro-il-corrispettivo-cash-dellopas-su-mps_915339f2-111b-44d1-bdac-f54577aa67f4.html",
+            "image": "https://www.ansa.it/webimages/img_1280x720/2026/6/7/64f41f8e2b0a5935a348616d8f11bff0.jpg",
+            "summary": "Se l'offerta andrà avanti controvalore monetario complessivo sarà pari a 31,4 miliardi",
+            "published": "Sat, 3 Oct 2026 20:04:41 +0200"
+          },
+          {
+            "title": "C'è tempo fino al 2 novembre per gli sbadati del 730",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/ce-tempo-fino-al-2-novembre-per-gli-sbadati-del-730_a227d412-8d5e-4c73-997e-85d6278b8a96.html",
+            "image": "https://www.ansa.it/webimages/img_1280x720/2024/9/23/34cc4a93f71ffcc64527052dd9948f92.jpg",
+            "summary": "FiscoOggi, per i modelli sbagliati o ancora non presentati",
+            "published": "Sat, 3 Oct 2026 18:41:25 +0200"
+          },
+          {
+            "title": "Urso chiama le società di raffinazione. Price cap per 10mila distributori",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/oltre-10mila-i-distributori-che-hanno-aderito-al-price-cap_d589a273-bd43-4b9a-bb4f-8ad19633e300.html",
+            "image": "https://www.ansa.it/webimages/img_1280x720/2026/8/7/69ab1fdcf6da3a6d249c479edd0b58af.jpg",
+            "summary": "\"Risultato oltre le previsioni, ora lavorare per aumentare la produzione\"",
+            "published": "Sat, 3 Oct 2026 17:31:42 +0200"
+          },
+          {
+            "title": "Zanetti (Confindustria), 175mila posti di lavoro nell'economia del mare entro 2030",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/zanetti-confindustria-175mila-posti-di-lavoro-nelleconomia-del-mare-entro-2030_fdbea8f9-043c-4a4e-abb6-8ca920cd4c27.html",
+            "image": null,
+            "summary": "'Nella cantieristica il 43% delle posizioni ricercate resta scoperto'",
+            "published": "Sat, 3 Oct 2026 14:48:15 +0200"
+          },
+          {
+            "title": "Codacons, in 6 giorni benzina e gasolio scendono in autostrada di quasi 19 cent",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/codacons-in-6-giorni-benzina-e-gasolio-scendono-in-autotrada-di-quasi-19-cent_546f3ce0-95a2-4097-96c1-71d60371c04d.html",
+            "image": null,
+            "summary": "Risparmi da 9,4 euro a pieno. ma ampi margini per ulteriore riduzione dei listini",
+            "published": "Sat, 3 Oct 2026 14:48:13 +0200"
+          },
+          {
+            "title": "Aghion, 'il Pil non è un fine in sé, non misura la qualità della vita'",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/aghion-il-pil-non-e-un-fine-in-se-non-misura-la-qualita-della-vita_85725e55-4cc0-4472-867a-fcee2f19f9c2.html",
+            "image": null,
+            "summary": "'Che ci siano dei ricchi non è un problema, l'importante è che non ci siano poveri'",
+            "published": "Sat, 3 Oct 2026 14:47:33 +0200"
+          }
+        ]
+      }
+    ],
+    "feed_leftover": [
+      {
+        "title": "Meet the Gen-Z High Rollers Dominating the Prediction Markets",
+        "source": "The Wall Street Journal",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 09:30:00 GMT",
+        "link": "https://www.wsj.com/finance/kalshi-prediction-traders-profiles-2130f3b0?mod=rss_markets_main",
+        "summary": "Upstart trading firms loom large on platforms such as Kalshi and Polymarket. They are starting to raise capital.",
+        "image": "https://images.wsj.net/im-12858367"
+      },
+      {
+        "title": "AI Is Squeezing Out the Rest of the Stock Market",
+        "source": "The Wall Street Journal",
+        "category": "mercati",
+        "published": "Fri, 02 Oct 2026 23:00:00 GMT",
+        "link": "https://www.wsj.com/finance/investing/ai-is-squeezing-out-the-rest-of-the-stock-market-60928dd3?mod=rss_markets_main",
+        "summary": "Expect stocks outside tech to struggle, earnings to expand more slowly and concern about credit risk to grow.",
+        "image": "https://images.wsj.net/im-35761671"
+      },
+      {
+        "title": "Fake Jobs Put Job Seekers at Risk of Identity Theft",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 15:15:35 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-03/fake-jobs-put-job-seekers-at-risk-of-identity-theft-video",
+        "summary": "Fraud investigator Jay Jones, known online as “The Profiler,” tells Bloomberg This Weekend that AI is helping scammers create increasingly convincing fake recruiters and job listings that can lead victims to surrender money and sensitive personal information. Speaking with hosts ",
+        "image": null
+      },
+      {
+        "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 13:12:27 GMT",
+        "link": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
+        "summary": "With the first round of Brazil's presidential election taking place Sunday, Wall Street is gearing up with starkly different market predictions.",
+        "image": null
+      },
+      {
+        "title": "Berkshire buys more Lennar shares, but pace of purchases slows",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 12:55:31 GMT",
+        "link": "https://www.cnbc.com/2026/10/03/berkshire-buys-more-lennar-shares-but-pace-of-purchases-slows.html",
+        "summary": "Berkshire Hathaway added to its bet on Lennar this week, raising its stake in the homebuilder to 11.2%, although the pace of its buying appears to be slowing.",
+        "image": null
+      },
+      {
+        "title": "Protests from the City about bank tax ring hollow",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 04:00:29 GMT",
+        "link": "https://www.ft.com/content/b50f39c6-4484-4c06-89cb-2884f9e58bd7",
+        "summary": "No one likes to pay more — people or corporations — but this is a time of national need",
+        "image": null,
+        "_rank": 5
+      },
+      {
+        "title": "Polymarket’s Alpha traders",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 04:00:29 GMT",
+        "link": "https://www.ft.com/content/ac1f4db2-54fe-4a36-b3db-bb96675231f5",
+        "summary": "In a private group chat, an elite crew of prediction-market bettors turn elections, wars and disasters into ‘free money on the floor’",
+        "image": null,
+        "_rank": 6
+      },
+      {
+        "title": "Crude oil tanker struck by unknown projectile off Oman, UKMTO says",
+        "source": "Reuters",
+        "category": "mercati",
+        "published": "Fri, 02 Oct 2026 23:31:28 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWmh6LU5XZFg0NGU2MUxjNUVHc3lBd0lYMy1LNW81NU9TY0pQM051NVdWX1otZ181NDZYSWtXb2txc2RVbmVIMC1wTTFLVWVYN0ZZUGY1VmdRSFBNZDlGZ2NyeExDSEhWaEVsSHRtY0tGQWxrU1NXay1GS3ZxUExLWlRCRUMxNGx0NHhJbTBwOTRJaUx1amQxVXFqWEtETTF5eVNGZ2xHSWt6aUdycTJ5YjJQanA3bjBU?oc=5",
+        "summary": "Crude oil tanker struck by unknown projectile off Oman, UKMTO says &nbsp;&nbsp; Reuters",
+        "image": null
+      },
+      {
+        "title": "Seagate Stock and Western Digital Tumble as Investors Worry AI Shortage Will Ease",
+        "source": "Barron's",
+        "category": "mercati",
+        "published": "Fri, 02 Oct 2026 22:11:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVG16eVVkaVVmY3d5aGhXUmFQSVpCcDZqbi1SWExsTktyUU94TTVFWEtNWGxQU2N4a2xXdXJ0OUxXalNHTjhuVmxJUnJQVUZiMllaSVZGUkhvTjBURWExNnJ1ZHI2MzBjdkNTQXp3eFFSYnYxS2pWWDJEdkZpQXhUb1dtYk05UEhMQUJKNVd1RFM?oc=5",
+        "summary": "Seagate Stock and Western Digital Tumble as Investors Worry AI Shortage Will Ease &nbsp;&nbsp; Barron's",
+        "image": null
+      },
+      {
+        "title": "Trump taps Director of National Intelligence Jay Clayton as AI czar: WSJ reports",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 23:37:23 GMT",
+        "link": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html",
+        "summary": "Director of National Intelligence Jay Clayton will lead the administration's AI policy, The Wall Street Journal reported on Saturday.",
+        "image": "https://image.cnbcfm.com/api/v1/image/108371732-1790941993880-gettyimages-2286019756-clayton_senate_324_071526.jpeg?v=1790942014&amp;w=1920&amp;h=1080"
+      },
+      {
+        "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 18:30:00 GMT",
+        "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
+        "summary": "“The only debts were utility and credit-card bills, which we will pay off.”",
+        "image": "https://images.mktw.net/im-91750928"
+      },
+      {
+        "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 16:00:00 GMT",
+        "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
+        "summary": "“Generally, the advice I’ve read says not to sell because I have a low-interest-rate mortgage.”",
+        "image": "https://images.mktw.net/im-02929527"
+      },
+      {
+        "title": "The No. 1 mistake beginners make with travel cards, according to The Points Guy",
+        "source": "MarketWatch",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 15:42:00 GMT",
+        "link": "https://www.marketwatch.com/story/the-no-1-mistake-beginners-make-with-travel-cards-according-to-the-points-guy-3502e859?mod=mw_rss_topstories",
+        "summary": "The Points Guy’s Brian Kelly gave me a crash course in annual fees and redemptions to offset rising travel costs",
+        "image": "https://images.mktw.net/im-41556362"
+      },
+      {
+        "title": "The town where 94% voted for Lula — and some now waver",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 11:00:00 GMT",
+        "link": "https://www.ft.com/content/e884e8f3-ad16-48a9-af41-29d3122f7d76?syn-25a6b1a6=1",
+        "summary": "Despite his hallowed status, some voters are growing disaffected with Brazil’s president in Guaribas, the cradle of his flagship Bolsa Família welfare programme",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0747a10d-5882-4473-8470-415768d8ae0d.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "China launches anti-dumping probe into European chemical exports",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 10:16:42 GMT",
+        "link": "https://www.ft.com/content/bae0af94-f42d-47d1-a1a8-fab608e75a72?syn-25a6b1a6=1",
+        "summary": "Latest tit-for-tat move follows three similar investigations launched by the EU last week",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0f4bc85f-3483-4cd2-b557-a5d8a34242f6.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "How airlines try to weed out rogue pilots",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 08:05:08 GMT",
+        "link": "https://www.ft.com/content/3e976e07-d85c-4ee3-8dff-208296684ca0?syn-25a6b1a6=1",
+        "summary": "Background checks and psychological testing aim to ensure that only those fit to fly take the controls",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F20a4e3e8-861a-4935-8c79-0e17da23aaa0.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "The right and wrong lessons to learn from Spain’s housing crisis",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 04:00:48 GMT",
+        "link": "https://www.ft.com/content/437ca3f0-9db4-4511-a441-ab7763d8f65c?syn-25a6b1a6=1",
+        "summary": "Evictions and spiralling rents are the symptom, not the underlying disease",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F70672460-19f1-47c3-84d2-9f131a1daa09.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "China, America and the new Great Game",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 04:00:30 GMT",
+        "link": "https://www.ft.com/content/8869caf9-3cd1-4300-aeb3-828a4d9da4f9?syn-25a6b1a6=1",
+        "summary": "Which power will prevail? As in the 19th-century struggle between the UK and Russia, the answer may depend on forces beyond either’s control",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa6282226-1c3f-4f0c-8669-42c35b0f05b9.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+        "_rank": 17
+      },
+      {
+        "title": "A Londoner’s guide to hating London",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 04:00:10 GMT",
+        "link": "https://www.ft.com/content/c8407fb6-6134-4b2c-a428-d3a998873383",
+        "summary": "Complaining about the capital is a national pastime — for good reason",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb8b93cef-1398-42a5-b0b7-1e52de46489c.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+        "_rank": 18
+      },
+      {
+        "title": "Mexico Says Its Troops Sent to Border in Conjunction With US",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 23:24:07 GMT",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-03/mexico-says-its-troops-sent-to-border-in-conjunction-with-us",
+        "summary": "The US and Mexico have jointly deployed military personnel in a border area in Texas as part of “mirror operations,” the Mexican government said Saturday.",
+        "image": null
+      },
+      {
+        "title": "Lula, Bolsonaro in Dead Heat as Brazil Prepares to Vote",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 22:35:24 GMT",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-03/lula-bolsonaro-in-dead-heat-as-brazil-prepares-to-vote",
+        "summary": "President Luiz Inácio Lula da Silva and right-wing challenger Flávio Bolsonaro remain locked in a tight race as Brazil prepares to vote in Sunday’s election, according to a pair of new polls.",
+        "image": null
+      },
+      {
+        "title": "Tiny Hotels Are Luxury Travel’s Next Big Thing",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 16:35:28 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-03/tiny-hotels-are-luxury-travel-s-next-big-thing-video",
+        "summary": "Bloomberg Pursuits reporter Sarah Rappaport tells Bloomberg This Weekend that luxury travelers are increasingly seeking tiny hotels with as few as one to six rooms, combining the privacy of a villa with personalized high-end hotel service. Speaking with hosts David Gura and Chris",
+        "image": null
+      },
+      {
+        "title": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 16:28:40 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-03/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+        "summary": "Pointed offers a strategic twist to the news quiz format, testing not just players’ knowledge of the news but also their confidence in their answers. Join Bloomberg's Lisa Mateo, Christina Ruffini and David Gura as they play and check out the quiz for yourself at Bloomberg.com (S",
+        "image": null,
+        "_rank": 22
+      },
+      {
+        "title": "By The Way: Headlines You May Have Missed",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 16:27:47 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-03/by-the-way-headlines-you-may-have-missed",
+        "summary": "People starting to speak like AI chatbots, AI anxiety spilling into therapists' offices, NYC's AI office boom a bust for young job hunters and Tinder rolls out group dating for younger users. Join Lisa Mateo, David Gura and Christina Ruffini for a roundup of headlines you may hav",
+        "image": null,
+        "_rank": 23
+      },
+      {
+        "title": "US Military Buildup Raises Iran Escalation Risk",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 15:25:03 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-03/us-military-buildup-raises-iran-escalation-risk-video",
+        "summary": "Washington Institute research director Dana Stroul tells Bloomberg This Weekend that the US military buildup in the Middle East, including a third aircraft carrier, is expanding President Donald Trump’s options as diplomacy with Iran remains stalled and Washington weighs its appr",
+        "image": null,
+        "_rank": 24
+      },
+      {
+        "title": "Egypt Flagged Hamas Threat Before Oct. 7",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 15:09:17 GMT",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-03/egypt-flagged-hamas-threat-before-oct-7-video",
+        "summary": "Atlantic Staff Writer Vivian Salama tells Bloomberg This Weekend that Egypt’s then-intelligence chief Abbas Kamel made an unusual 67-minute trip to Israel less than two weeks before the Oct. 7, 2023, attack to warn Israeli officials that intelligence indicated Hamas was mobilizin",
+        "image": null,
+        "_rank": 25
+      },
+      {
+        "title": "Novig credits Sydney Sweeney-backed campaign for platform’s surge in growth",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 13:30:48 GMT",
+        "link": "https://www.cnbc.com/2026/10/03/novig-credits-sydney-sweeney-backed-campaign-for-platforms-surge-in-growth.html",
+        "summary": "Novig's \"Just Sports\" campaign drew backlash from some female athletes but also brought in a rush of trading volume.",
+        "image": null
+      },
+      {
+        "title": "America’s data center fight is a preview of what's to come for the rest of the world",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 12:39:29 GMT",
+        "link": "https://www.cnbc.com/2026/10/03/data-center-backlash-europe-asia-africa.html",
+        "summary": "America’s fight over data centers is going global. Communities across Europe and Asia are pushing back over the rising costs of the AI infrastructure boom.",
+        "image": null,
+        "_rank": 27
+      },
+      {
+        "title": "FlyDubai plane attack by co-pilot was an attempted 'terrorist' act, UAE says",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 12:34:59 GMT",
+        "link": "https://www.cnbc.com/2026/10/03/flydubai-co-pilot-attacked-pilot-with-axe-uae-says.html",
+        "summary": "The FlyDubai co-pilot attacked the pilot inside the cockpit with a crash axe and attempted to take control of the aircraft, the UAE prosecutor general said.",
+        "image": null,
+        "_rank": 28
+      },
+      {
+        "title": "Private capital is reshaping Hollywood moviemaking",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 12:00:01 GMT",
+        "link": "https://www.cnbc.com/2026/10/03/private-capital-hollywood-film-financing.html",
+        "summary": "As Hollywood's financing structures diversify, private capital is increasingly funding the big screen and changing the types of movies that are being made.",
+        "image": null,
+        "_rank": 29
+      },
+      {
+        "title": "High-tech vehicles are driving up auto repair costs for shops and consumers",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 12:00:01 GMT",
+        "link": "https://www.cnbc.com/2026/10/03/vehicle-repair-costs.html",
+        "summary": "Investments in ADAS calibration equipment, computers and software subscriptions can drive up the cost of even a windshield replacement or an oil change.",
+        "image": null,
+        "_rank": 30
+      },
+      {
+        "title": "Pakistan, India Trade Accusations Over Deaths at Border",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 11:50:43 GMT",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-03/pakistan-summons-indian-diplomat-over-civilian-deaths-at-border",
+        "summary": "Pakistan said it summoned India’s chargé d’affaires on Saturday to protest against the killing of two Pakistani civilians by India’s Border Security Force.",
+        "image": null,
+        "_rank": 31
+      },
+      {
+        "title": "David Ellison just brought in a co-CEO to run his new empire: Meet Ynon Kreiz",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 11:00:01 GMT",
+        "link": "https://www.cnbc.com/2026/10/03/david-ellison-ynon-kreiz-skydance.html",
+        "summary": "Ynon Kreiz's appointment as co-CEO of Skydance answers a key governance question for Ellison's soon-to-be-merged company.",
+        "image": null,
+        "_rank": 32
+      },
+      {
+        "title": "Manchester City’s fightback begins",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 08:00:10 GMT",
+        "link": "https://www.ft.com/content/5703d3c2-26f5-4472-91be-bf8cfdc11a75?syn-25a6b1a6=1",
+        "summary": "Also in today’s newsletter: NFL fatigue in London",
+        "image": null,
+        "_rank": 33
+      },
+      {
+        "title": "UAE Probe Labels FlyDubai Cockpit Ax Attack a Terrorist Act",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 07:06:28 GMT",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-03/uae-says-flydubai-co-pilot-planned-terrorist-operation",
+        "summary": "A United Arab Emirates investigation of the near-catastrophic FlyDubai flight said the co-pilot attempted “to carry out a terrorist act” as more details emerged about what happened in the cockpit.",
+        "image": null,
+        "_rank": 34
+      },
+      {
+        "title": "Zelenskyy asked Trump to block Russia and China’s Starlink rival",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 04:00:39 GMT",
+        "link": "https://www.ft.com/content/5501a0c6-7d1e-4c1f-acc7-3b928e1f664a?syn-25a6b1a6=1",
+        "summary": "Ukraine’s president says he requested his US counterpart to impose sanctions on companies involved in developing ‘Rassvet’",
+        "image": null,
+        "_rank": 35
+      },
+      {
+        "title": "The ever-shrinking case for expanding Heathrow",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 04:00:39 GMT",
+        "link": "https://www.ft.com/content/864aeb96-e36a-4cea-b914-7996b763dbe4?syn-25a6b1a6=1",
+        "summary": "Need for giant airport hubs is being challenged by rise of long-range narrow-body planes that go to places their bigger predecessors couldn’t",
+        "image": null,
+        "_rank": 36
+      },
+      {
+        "title": "Record 12,000 complaints made against Lasting Powers of Attorney",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 04:00:39 GMT",
+        "link": "https://www.ft.com/content/65860150-c590-425a-822d-c1d015a4d44e",
+        "summary": "Rising claims of alleged financial misconduct reflect anxiety over potential inheritances",
+        "image": null,
+        "_rank": 37
+      },
+      {
+        "title": "Dethroning FICO won’t much help US homeowners",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 04:00:29 GMT",
+        "link": "https://www.ft.com/content/a752a765-8b64-41a5-b051-5237957e13c1?syn-25a6b1a6=1",
+        "summary": "Housing tsar Bill Pulte wants more competition among consumer credit agencies, but borrowers may just seek the most lenient",
+        "image": null,
+        "_rank": 38
+      },
+      {
+        "title": "SkyNet satellite battle tests UK pledge to ‘buy British’",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 04:00:29 GMT",
+        "link": "https://www.ft.com/content/cc8ac63c-9b03-4efc-b9e5-b90f513ba565?syn-25a6b1a6=1",
+        "summary": "Decision looms on contract worth up to £2bn as Airbus and Lockheed Martin vie to build next generation of military satellites",
+        "image": null,
+        "_rank": 39
+      },
+      {
+        "title": "China initiates anti-dumping investigation into p-nitrotoluene from EU",
+        "source": "Reuters",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 02:52:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORW9ZcVdfdDduQ3E4UDVUMUlkRHZSVTlVUU94UnFtdTVGUU1QVVJnb3E2MjkxMlFMWldkY0xDa0xmdm4yWllzVWJSV3VMR3BlWjk2SFA3ZDdmaDBxN2s0WTVGOW5abmpRWkJweGFPRTVXYnRKeGhhc1dSM0NsTmkyTkU0RVM2ZV96T1FwOC1UNFlBeHJOdXZqMkd5TkVXRUJRVXE5djBxZlM2bmRGanVPMzFXNA?oc=5",
+        "summary": "China initiates anti-dumping investigation into p-nitrotoluene from EU &nbsp;&nbsp; Reuters",
+        "image": null
+      },
+      {
+        "title": "‘Digger,’ Warner Bros.’ Last Release Before Merger, Is a Major Flop",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 23:44:35 +0000",
+        "link": "https://www.nytimes.com/2026/10/03/business/media/digger-tom-cruise-box-office.html",
+        "summary": "The film, starring Tom Cruise, grossed an estimated $8 million in its opening weekend. That could put the movie on track to lose at least $125 million.",
+        "image": "https://static01.nyt.com/images/2026/10/04/multimedia/04biz-boxoffice-diggers-1-gvcm/04biz-boxoffice-diggers-1-gvcm-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Trump Says Economy Has ‘Public Relations’ Problem Amid High Prices and Slow Hiring",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 09:03:53 +0000",
+        "link": "https://www.nytimes.com/2026/10/03/business/trump-economy-inflation-midterms.html",
+        "summary": "The president, who had hoped to tout a growing economy on the campaign trail, has found it hard to break through as workers’ wages fail to keep up.",
+        "image": "https://static01.nyt.com/images/2026/10/03/multimedia/03dc-trump-econ-fztq/03dc-trump-econ-fztq-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "NYT Pips Answers And Walkthrough For Sunday, October 4",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 18:58:12 -0400",
+        "link": "https://www.forbes.com/sites/erikkain/2026/10/03/nyt-pips-answers-and-walkthrough-for-sunday-october-4/",
+        "summary": "Looking for help with today's New York Times Pips? We'll walk you through today's puzzle and help you match dominoes to tiles.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6ab58dac7c924a7cc293822f/0x0.jpg?width=960"
+      },
+      {
+        "title": "NYT Strands Answers Today: Hints & Clues For Sunday, October 4 (Grab Your Tokens)",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 18:44:55 -0400",
+        "link": "https://www.forbes.com/sites/erikkain/2026/10/03/nyt-strands-sunday-october-4-answers-grab-your-tokens/",
+        "summary": "Looking for help with today's NYT Strands puzzle? Here's an extra hint to help you uncover the right words, as well as all of today's answers and Spangram.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/661994c1a11cd45a738c205f/0x0.jpg?width=960"
+      },
+      {
+        "title": "Jon Moxley In Action, And Kofi Kingston Wrestles His First AEW Singles Match",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 18:07:08 -0400",
+        "link": "https://www.forbes.com/sites/brianmazique/2026/10/03/jon-moxley-in-action-and-kofi-kingston-wrestles-his-first-aew-singles-match/",
+        "summary": "AEW Collision start time, card and how to watch for Oct. 3: Jon Moxley vs. Jake Doyle, Kofi vs. Lee Moriarty, on TNT and HBO Max at 8 p.m. ET.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6ac17ac0ea7fe952ab1ec998/0x0.jpg?width=960&precrop=2698%2C1518%2Cx0%2Cy139"
+      },
+      {
+        "title": "How NBA Arenas And Real Estate Are Driving Franchise Values",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 13:37:58 -0400",
+        "link": "https://www.forbes.com/sites/kevin-sweeney/2026/10/03/how-nba-arenas-and-real-estate-are-driving-franchise-values/",
+        "summary": "NBA owners are increasingly looking beyond basketball, using arenas and surrounding developments to create valuable entertainment and commercial ecosystems.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6ac13b550a54c01ad9719c45/0x0.jpg"
+      },
+      {
+        "title": "US Air Force Bomb Disposal Personnel Will Now Wear Rust Colored Berets",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 13:21:45 -0400",
+        "link": "https://www.forbes.com/sites/petersuciu/2026/10/03/us-air-force-bomb-disposal-personnel-will-now-wear-rust-colored-berets/",
+        "summary": "Explosive Ordnance Disposal airmen will be authorized to wear a “rust-colored” berets, as the color is historically associated with explosive hazards",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6ac1377137a69d4a17f5ed09/0x0.jpg",
+        "_rank": 47
+      },
+      {
+        "title": "Amazon Prime Day Scams: How To Spot And Avoid Them",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 12:02:49 -0400",
+        "link": "https://www.forbes.com/sites/steveweisman/2026/10/03/amazon-prime-day-scams-how-to-spot-and-avoid-them/",
+        "summary": "Amazon Prime Day attracts shoppers and scammers. Learn how to recognize fake Amazon orders, phishing emails, smishing texts, vishing calls and Prime renewal scams.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6ac122b5b7d9f3f053b9b83f/0x0.jpg",
+        "_rank": 48
+      },
+      {
+        "title": "Private Credit And Equity Face Warnings On AI Lending Concentration",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 11:29:37 -0400",
+        "link": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/10/03/private-credit-and-equity-face-warnings-on-ai-lending-concentration/",
+        "summary": "Carlyle executives caution direct lenders against repeating structural software-as-a-service errors as they fund the artificial intelligence infrastructure buildout.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6ac11bb1bc7f24f376f403ba/0x0.jpg",
+        "_rank": 49
+      },
+      {
+        "title": "NYT ‘Connections’ #1211 Hints And Answers For Sunday, October 4",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 11:11:16 -0400",
+        "link": "https://www.forbes.com/sites/erikkain/2026/10/03/nyt-connections-1211-hints-and-answers-for-sunday-october-4/",
+        "summary": "Looking for today's NYT Connections hints? Some help and the answers for today's game are right here to help keep your streak alive.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6897b0fa9d5fa5836ab3a53d/0x0.jpg?width=960",
+        "_rank": 50
+      },
+      {
+        "title": "Harry Styles Has More Than Doubled His Tour",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 11:00:00 -0400",
+        "link": "https://www.forbes.com/sites/hughmcintyre/2026/10/03/harry-styles-has-more-than-doubled-his-tour/",
+        "summary": "Harry Styles has more than doubled his Together, Together Tour, expanding from 50 shows in seven cities to 107 concerts across 18 markets.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6a1646da85aea482008f5edb/0x0.jpg?width=960&precrop=974%2C547%2Cx125%2Cy368",
+        "_rank": 51
+      },
+      {
+        "title": "White House Filing Claims President Has Authority to Bar News Outlets",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 02:29:40 +0000",
+        "link": "https://www.nytimes.com/2026/10/02/business/trump-white-house-ban-cnn-politico-ms-now.html",
+        "summary": "The Trump administration again defended the decision to bar CNN, MS NOW and Politico from the White House and to exclude journalists from the pool that covers the president in small spaces.",
+        "image": "https://static01.nyt.com/images/2026/10/02/multimedia/02biz-trump-media-1-lkmp/02biz-trump-media-1-lkmp-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "F.D.A. Found Cyclospora During Taylor Farms Inspection in Mexico",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Fri, 02 Oct 2026 22:25:24 +0000",
+        "link": "https://www.nytimes.com/2026/10/02/health/cyclospora-taylor-farms-mexico.html",
+        "summary": "The discovery adds strong evidence that the outbreak that sickened thousands over the summer originated in a grower’s field or processing facility.",
+        "image": "https://static01.nyt.com/images/2026/10/02/multimedia/02dc-cyclospora-vphc/02dc-cyclospora-vphc-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "F.D.A. Classifies Salad Dressing Recall to Highest Health Risk",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sat, 03 Oct 2026 21:01:02 +0000",
+        "link": "https://www.nytimes.com/2026/10/03/health/fda-recall-salata-salad-dressing-salmonella.html",
+        "summary": "Salata Dressings initiated the recall of its Jalapeño Avocado Dressing in August over concerns about possible salmonella contamination.",
+        "image": null,
+        "_rank": 54
+      },
+      {
+        "title": "Pnrr, dal Mit 1,55 miliardi, 59 interventi per acqua",
+        "source": "ANSA Economia",
+        "category": "italia",
+        "published": "Sat, 3 Oct 2026 13:24:47 +0200",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/pnrr-dal-mit-155-miliardi-59-interventi-per-acqua_bfb56cbc-de74-477b-976e-1283fb2e9f1e.html",
+        "summary": "Tutte le risorse assegnate in meno di quattro mesi",
+        "image": null
+      },
+      {
+        "title": "Borsa: in Europa il settore auto è il peggiore da inizio anno",
+        "source": "ANSA Economia",
+        "category": "italia",
+        "published": "Sat, 3 Oct 2026 13:06:22 +0200",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/borsa-in-europa-il-settore-auto-e-il-peggiore-da-inizio-anno_b5e1031b-1245-4250-a124-a6435811748a.html",
+        "summary": "In calo del 21% contro un rialzo del 6,6% dell'Euro Stoxx 600",
+        "image": null
+      },
+      {
+        "title": "Urso, 'giovedì tavolo con società raffinazione per capire come aumentare produzione'",
+        "source": "ANSA Economia",
+        "category": "italia",
+        "published": "Sat, 3 Oct 2026 12:05:49 +0200",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/urso-visita-stabilimenti-isab-a-priolo-tutelata-la-prima-raffineria-ditalia_47b1a14f-ad6d-4953-be6f-1f63e9e0a5fe.html",
+        "summary": "Incontro con società insieme a Pichetto",
+        "image": null
+      },
+      {
+        "title": "Mimit, oltre 10mila distributori hanno aderito a price cap carburanti",
+        "source": "ANSA Economia",
+        "category": "italia",
+        "published": "Sat, 3 Oct 2026 11:51:49 +0200",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/03/mimit-oltre-10mila-distributori-hanno-aderito-a-price-cap-carburanti_c4488638-d85b-4156-a391-82cfdba965d9.html",
+        "summary": "Benzina sotto i 2 euro al litro e gasolio sotto i 2,20 nel 52% dei punti vendita rete",
+        "image": null
+      },
+      {
+        "title": "Best Mosquito Repellents for Your Yard: What Works and What Doesn’t (2026)",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 03 Oct 2026 10:03:00 +0000",
+        "link": "https://www.wired.com/story/best-mosquito-repellents/",
+        "summary": "After years of testing repellents, traps, and sprays, I found a few ways to keep the bugs at bay—and plenty that aren’t worth the effort.",
+        "image": "https://media.wired.com/photos/6abfcf9ffd75bc6c14087517/master/pass/I%E2%80%99ve%20Spent%20Years%20Fighting%20Mosquitoes%20102026%20top%20art%20SOURCE%20Amazon.jpg"
+      },
+      {
+        "title": "A Decade-Long Experiment Is Unlocking the Mysteries of the Ocean’s ‘Deep Reefs’",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 03 Oct 2026 09:00:00 +0000",
+        "link": "https://www.wired.com/story/inside-decade-long-experiment-to-understand-oceans-mysterious-deep-reefs/",
+        "summary": "Scientists left structures up to 100 meters under the surface. Here’s what they found when they retrieved them 10 years later.",
+        "image": "https://media.wired.com/photos/6abf7988fd75bc6c14087434/master/pass/7d3bd2cd-5a0e-48eb-a36f-9d7b95b305df%20%C2%A9%20Luiz%20Rocha%20.JPG"
+      },
+      {
+        "title": "20% Off Brooks Promo Code | October 2026",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 03 Oct 2026 05:00:00 +0000",
+        "link": "https://www.wired.com/story/brooks-promo-code/",
+        "summary": "Enjoy 20% off your first order with a Brooks coupon code, plus top discounts and deals on our favorite Brooks running shoes.",
+        "image": "https://media.wired.com/photos/66ea076ee8502211cd1d9a42/master/pass/WIRED-Coupons-13.jpg"
+      },
+      {
+        "title": "50% Off DoorDash Promo Code | October 2026",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 03 Oct 2026 05:00:00 +0000",
+        "link": "https://www.wired.com/story/doordash-promo-code/",
+        "summary": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
+        "image": "https://media.wired.com/photos/66ea0770c0b39dc87b71207a/master/pass/WIRED-Coupons-10.jpg",
+        "_rank": 62
+      },
+      {
+        "title": "Surfshark Promo Codes: 87% Off | October 2026",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 03 Oct 2026 05:00:00 +0000",
+        "link": "https://www.wired.com/story/surfshark-coupon/",
+        "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED.",
+        "image": "https://media.wired.com/photos/66ea076e56fd4954a7f91e0c/master/pass/WIRED-Coupons-17.jpg",
+        "_rank": 63
+      },
+      {
+        "title": "Klook Promo Code: 25% Off October 2026",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 03 Oct 2026 05:00:00 +0000",
+        "link": "https://www.wired.com/story/klook-promo-code/",
+        "summary": "Maximize your travel budget with our expert guide to finding Klook coupons, app-exclusive deals, and payment discounts on tours, hotels, and transport.",
+        "image": "https://media.wired.com/photos/67b63b909468ebbf8f0cbc77/master/pass/WIRED-Coupons-R2_8.png",
+        "_rank": 64
+      },
+      {
+        "title": "Hoka Coupon Codes: 30% Off in October 2026",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 03 Oct 2026 05:00:00 +0000",
+        "link": "https://www.wired.com/story/hoka-coupon-code/",
+        "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for October 2026.",
+        "image": "https://media.wired.com/photos/66ea076ea8e714f02ce0d63e/master/pass/WIRED-Coupons-15.jpg",
+        "_rank": 65
+      },
+      {
+        "title": "Chewy Promo Codes: $20 Off October 2026",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 03 Oct 2026 05:00:00 +0000",
+        "link": "https://www.wired.com/story/chewy-promo-code/",
+        "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order of $49, 50% off pet food, and more October 2026 discounts.",
+        "image": "https://media.wired.com/photos/66ea077015aa1d8092e99428/master/pass/WIRED-Coupons-6.jpg",
+        "_rank": 66
+      },
+      {
+        "title": "Meta wants your next gadget to be Muse-infused",
+        "source": "TechCrunch",
+        "category": "tech",
+        "published": "Sat, 03 Oct 2026 00:45:39 +0000",
+        "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+        "summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+        "image": null
+      },
+      {
+        "title": "Sanders introduces bill to ban the federal government from using Flock",
+        "source": "TechCrunch",
+        "category": "tech",
+        "published": "Sat, 03 Oct 2026 00:21:57 +0000",
+        "link": "https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/",
+        "summary": "The proposed legislation would extend to all automotica license plate readers.",
+        "image": null
+      },
+      {
+        "title": "BlackRock e Ondo tokenizzano i portafogli d’investimento, mercato da 9.800 miliardi",
+        "source": "The Cryptonomist",
+        "category": "crypto",
+        "published": "Sat, 03 Oct 2026 13:27:44 +0000",
+        "link": "https://cryptonomist.ch/2026/10/03/portafogli-investimento-tokenizzati/",
+        "summary": "BlackRock e Ondo Finance hanno lanciato tre strategie d&#8217;investimento sotto forma di token su blockchain, aprendo una nuova fase per i portafogli d&#8217;investimento tokenizzati. Invece di comprare e ribilanciare più asset separati, chi investe può ora detenere un solo toke",
+        "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/portafogli-d-investimento-tokenizzati.jpeg"
+      },
+      {
+        "title": "L’indagine AI sull’hackeraggio Bitget da 387 milioni passa da 20 ore a 10 minuti",
+        "source": "The Cryptonomist",
+        "category": "crypto",
+        "published": "Sat, 03 Oct 2026 12:22:07 +0000",
+        "link": "https://cryptonomist.ch/2026/10/03/indagine-ai-hackeraggio-bitget-da-387-milioni/",
+        "summary": "Un&#8217;indagine AI su un hackeraggio da 387 milioni di dollari, quello subito dall&#8217;exchange Bitget. Secondo un report di Chainalysis datato 1° ottobre, ripreso da crypto.news, uno strumento di AI sviluppato internamente ha ridotto da oltre 20 ore a meno di 10 minuti un&#8",
+        "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/indagine-ai-su-hackeraggio-bitget-da-387-milioni.jpeg"
+      },
+      {
+        "title": "L’accordo volontario per la sicurezza AI di Trump mentre la FTC apre un’indagine sulle big tech",
+        "source": "The Cryptonomist",
+        "category": "crypto",
+        "published": "Sat, 03 Oct 2026 10:32:25 +0000",
+        "link": "https://cryptonomist.ch/2026/10/03/accordo-volontario-sicurezza-ai/",
+        "summary": "Donald Trump ha presentato il 29 settembre 2026 un accordo volontario per la sicurezza AI, firmato da sei grandi aziende tech alla Casa Bianca. Il documento, lungo una sola pagina, chiede alle società di controllare da sole i propri sistemi più avanzati, senza nuove regole federa",
+        "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/accordo-volontario-per-la-sicurezza-ai.jpeg"
+      },
+      {
+        "title": "La pausa all’attivazione di Stylus su Arbitrum blocca il rischio di attacchi IA",
+        "source": "The Cryptonomist",
+        "category": "crypto",
+        "published": "Sat, 03 Oct 2026 10:10:52 +0000",
+        "link": "https://cryptonomist.ch/2026/10/03/pausa-attivazione-stylus-su-arbitrum/",
+        "summary": "Il Security Council di Arbitrum ha fatto scattare una pausa sulle attivazioni Stylus su Arbitrum One e Nova, in vigore dal 2 ottobre 2026. La mossa è una risposta d&#8217;emergenza al rischio di attacchi assistiti da intelligenza artificiale. Si tratta di una pausa attivazione St",
+        "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/pausa-attivazione-stylus-su-arbitrum.jpeg",
+        "_rank": 72
+      },
+      {
+        "title": "Ethereum Foundation porta online i pagamenti privati API a consumo con zkAPI",
+        "source": "The Cryptonomist",
+        "category": "crypto",
+        "published": "Sat, 03 Oct 2026 09:51:29 +0000",
+        "link": "https://cryptonomist.ch/2026/10/03/pagamenti-privati-api-a-consumo/",
+        "summary": "Un nuovo sistema di pagamento è sbarcato in silenzio sulla mainnet di Ethereum, pensato per i pagamenti privati API a consumo senza legare le richieste a un&#8217;identità fissa. L&#8217;Ethereum Foundation e l&#8217;Open Anonymity Project hanno annunciato il 1° ottobre 2026 il l",
+        "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/pagamenti-privati-api-a-consumo.jpeg",
+        "_rank": 73
+      },
+      {
+        "title": "Attacco a Bybit: la pausa prelievi suggerita da CZ di Binance non è stata seguita",
+        "source": "The Cryptonomist",
+        "category": "crypto",
+        "published": "Sat, 03 Oct 2026 09:49:46 +0000",
+        "link": "https://cryptonomist.ch/2026/10/03/pausa-prelievi-binance-cz/",
+        "summary": "Fermare i prelievi durante un attacco hacker o lasciarli attivi e sperare che il peggio sia passato? È il dilemma che CZ, fondatore di Binance, ha raccontato in un&#8217;intervista al podcast When Shift Happens, condotto da KevinWSHPod, ricostruendo cosa è successo dopo l&#8217;a",
+        "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/pausa-prelievi-binance-cz.jpeg",
+        "_rank": 74
+      }
+    ],
+    "lead_headlines": [
+      {
+        "title": "These bond strategies can help you get a safe 5% return on your cash",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/these-bond-strategies-can-help-you-get-a-safe-5-return-on-your-cash-5fa45ccd?mod=mw_rss_topstories"
+      },
+      {
+        "title": "A tough job market is pushing more young Americans to make a big bet: on themselves",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/a-tough-job-market-is-pushing-more-young-americans-to-make-a-big-bet-on-themselves-1aaddeca?mod=mw_rss_topstories"
+      },
+      {
+        "title": "Switching jobs to get higher pay works best in these industries",
+        "source": "MarketWatch",
+        "link": "https://www.marketwatch.com/story/the-best-industry-to-change-jobs-to-get-paid-more-money-and-the-worst-ae33a3a7?mod=mw_rss_topstories"
+      }
+    ],
+    "watchlist": [
+      {
+        "title": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+        "source": "Forbes",
+        "link": "https://www.forbes.com/sites/erikkain/2026/10/03/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/"
+      }
+    ],
+    "niche_signals": [
+      {
+        "symbol": "DASH",
+        "name": "DoorDash",
+        "score": 8.0,
+        "move_pct_mentioned": 50.0,
+        "title": "50% Off DoorDash Promo Code | October 2026",
+        "source": "Wired",
+        "link": "https://www.wired.com/story/doordash-promo-code/",
+        "category": "tech"
+      },
+      {
+        "symbol": "LEN",
+        "name": "Lennar",
+        "score": 5.2,
+        "move_pct_mentioned": 11.2,
+        "title": "Berkshire buys more Lennar shares, but pace of purchases slows",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/10/03/berkshire-buys-more-lennar-shares-but-pace-of-purchases-slows.html",
+        "category": "mercati"
+      }
+    ],
+    "signals": {
+      "reference_session": "2026-10-02",
+      "fetched_at": "2026-10-04 00:00:05 UTC",
+      "noteworthy_pct": 1.0,
+      "groups": [
+        {
+          "key": "crypto",
+          "label": {
+            "en": "Crypto (trades 24/7)",
+            "it": "Crypto (aperto 24/7)"
+          },
+          "instruments": [
+            {
+              "symbol": "BTC-USD",
+              "name_en": "Bitcoin",
+              "name_it": "Bitcoin",
+              "group": "crypto",
+              "last": 84742.23,
+              "pct_change": 0.37,
+              "reference_close": 84430.55,
+              "as_of_utc": "2026-10-04 00:00 UTC"
+            },
+            {
+              "symbol": "ETH-USD",
+              "name_en": "Ethereum",
+              "name_it": "Ethereum",
+              "group": "crypto",
+              "last": 2686.94,
+              "pct_change": 0.97,
+              "reference_close": 2661.21,
+              "as_of_utc": "2026-10-04 00:00 UTC"
+            },
+            {
+              "symbol": "SOL-USD",
+              "name_en": "Solana",
+              "name_it": "Solana",
+              "group": "crypto",
+              "last": 119.58,
+              "pct_change": 1.54,
+              "reference_close": 117.77,
+              "as_of_utc": "2026-10-04 00:00 UTC"
+            },
+            {
+              "symbol": "XRP-USD",
+              "name_en": "XRP",
+              "name_it": "XRP",
+              "group": "crypto",
+              "last": 1.4867,
+              "pct_change": 0.99,
+              "reference_close": 1.4721,
+              "as_of_utc": "2026-10-03 23:00 UTC"
+            }
+          ]
+        },
+        {
+          "key": "futures",
+          "label": {
+            "en": "Index futures",
+            "it": "Futures sugli indici"
+          },
+          "instruments": [
+            {
+              "symbol": "ES=F",
+              "name_en": "S&P 500 futures",
+              "name_it": "Futures S&P 500",
+              "group": "futures",
+              "last": 7777.25,
+              "pct_change": 0.0,
+              "reference_close": 7777.25,
+              "as_of_utc": "2026-10-02 21:00 UTC"
+            }
+          ]
+        },
+        {
+          "key": "commodities",
+          "label": {
+            "en": "Commodities",
+            "it": "Materie prime"
+          },
+          "instruments": [
+            {
+              "symbol": "CL=F",
+              "name_en": "WTI crude oil",
+              "name_it": "Petrolio WTI",
+              "group": "commodities",
+              "last": 91.11,
+              "pct_change": 0.0,
+              "reference_close": 91.11,
+              "as_of_utc": "2026-10-02 21:00 UTC"
+            }
+          ]
+        },
+        {
+          "key": "fx",
+          "label": {
+            "en": "Currencies",
+            "it": "Valute"
+          },
+          "instruments": [
+            {
+              "symbol": "EURUSD=X",
+              "name_en": "Euro / US dollar",
+              "name_it": "Euro / dollaro",
+              "group": "fx",
+              "last": 1.1257,
+              "pct_change": 0.01,
+              "reference_close": 1.1256,
+              "as_of_utc": "2026-10-02 21:00 UTC"
+            }
+          ]
+        }
+      ]
+    },
+    "signals_noteworthy": [
+      {
+        "symbol": "SOL-USD",
+        "name_en": "Solana",
+        "name_it": "Solana",
+        "group": "crypto",
+        "last": 119.58,
+        "pct_change": 1.54,
+        "reference_close": 117.77,
+        "as_of_utc": "2026-10-04 00:00 UTC"
+      }
+    ],
+    "paragraphs": {
+      "en": [
+        "US markets were closed on Saturday, October 3, 2026, so there is no new session to report: the last one, October 2, 2026, was covered in the previous edition and its numbers are not repeated here. This edition reads instead the 100 stories published since then by 15 outlets we track, and brings forward the 24 that matter most.",
+        "Leading the weekend coverage: MarketWatch reports: “These bond strategies can help you get a safe 5% return on your cash”; MarketWatch reports: “A tough job market is pushing more young Americans to make a big bet: on themselves”; MarketWatch reports: “Switching jobs to get higher pay works best in these industries”.",
+        "By theme: Markets and macro (58), Crypto (12), Tech (12), Italy (10).",
+        "What did trade while the exchanges were shut, measured from Friday's US close: Solana +1.54%. These are the only market moves in this edition — they are quotes, not forecasts.",
+        "Named in this weekend's coverage, scored only for how intensely the outlets themselves wrote about it — not a forecast of Monday's move: DoorDash (DASH, 8.0/10) — Wired: “50% Off DoorDash Promo Code | October 2026”; Lennar (LEN, 5.2/10) — CNBC: “Berkshire buys more Lennar shares, but pace of purchases slows”."
+      ],
+      "it": [
+        "I mercati americani erano chiusi sabato 3 ottobre 2026: non c'e' una seduta nuova da raccontare — l'ultima, 2 ottobre 2026, e' gia' stata coperta dall'edizione precedente e i suoi numeri qui non vengono ripetuti. Questa edizione legge invece le 100 notizie uscite da allora su 15 testate seguite, e porta in primo piano le 24 piu' rilevanti.",
+        "In evidenza nel fine settimana: MarketWatch riporta: «These bond strategies can help you get a safe 5% return on your cash»; MarketWatch riporta: «A tough job market is pushing more young Americans to make a big bet: on themselves»; MarketWatch riporta: «Switching jobs to get higher pay works best in these industries».",
+        "Per tema: Mercati e macro (58), Crypto (12), Tech (12), Italia (10).",
+        "Cosa ha scambiato a borse chiuse, misurato dalla chiusura americana di venerdi': Solana +1,54%. Sono gli unici movimenti di mercato di questa edizione: quotazioni, non previsioni.",
+        "Nominate nella copertura del weekend, con un punteggio che misura solo quanto intensamente ne hanno scritto le testate — non una previsione per lunedi': DoorDash (DASH, 8.0/10) — Wired: «50% Off DoorDash Promo Code | October 2026»; Lennar (LEN, 5.2/10) — CNBC: «Berkshire buys more Lennar shares, but pace of purchases slows»."
+      ]
+    },
+    "headline": {
+      "en": "Markets closed: Saturday's news in brief, with Solana +1.54% since Friday's close",
+      "it": "Mercati chiusi: le notizie di sabato in sintesi, con Solana +1,54% dalla chiusura di venerdi'"
+    }
+  },
+  "weekend_commentary_html": "<p>Nel fine settimana chiuso, la copertura mediatica si è concentrata su tre temi distinti. Nei mercati e nella macroeconomia, i media hanno esaminato strategie obbligazionarie che offrono rendimenti del cinque percento sulla liquidità, mentre le storie sul mercato del lavoro hanno evidenziato come il cambio di lavoro guida i guadagni salariali in determinati settori e come un ambiente di assunzione difficile sta spingendo i lavoratori più giovani verso l&#x27;imprenditorialità. L&#x27;iniziativa del Dipartimento del Tesoro di aprire conti di risparmio per sessanta milioni di bambini ha attirato l&#x27;attenzione, sebbene le famiglie debbano compiere ulteriori passi per attivarli. Separatamente, gli investitori hanno assimilato le lezioni da un&#x27;operazione obbligazionaria francese che si è ritorta contro, e i commentatori hanno affrontato il ruolo del bitcoin nella strategia di investimento personale.</p><p>Le storie di criptovalute e politica hanno dominato il secondo tema. Le banche comunitarie hanno intentato causa contro l&#x27;Ufficio del Controllore della Valuta riguardante le carte bancarie fiduciarie per le aziende di criptovalute. Trump ha ospitato un&#x27;altra cena su meme coin, mentre l&#x27;amministrazione entrante ha segnalato piani per nominare Jay Clayton come czar dell&#x27;IA. Le azioni di applicazione normativa sono apparse in Grecia, dove nove militari hanno affrontato arresti in uno schema di frode di criptovalute da otto milioni di dollari. L&#x27;infrastruttura bancaria e la connettività dei pagamenti hanno attirato anche l&#x27;attenzione delle istituzioni finanziarie che ripensano i loro sistemi.</p><p>Le notizie del settore tecnologico hanno incluso le dimissioni di un dipendente della sicurezza di OpenAI che cita una cultura aziendale rotta, la scomparsa dell&#x27;app Bitchat di Jack Dorsey dai negozi di app indiani in seguito a un ordine governativo, e lanci di prodotti che vanno da un traghetto elettrico ad agenti IA incorporati nella messaggistica di testo. Una startup di scansione corporea sostenuta da un miliardario di Spotify è entrata nel mercato americano, e la copertura ha rivisto alternative di lettori di e-book a Kindle. I rapporti economici italiani hanno coperto l&#x27;offerta in contanti aumentata di Intesa per la sua offerta pubblica di acquisto di MPS, i cali dei prezzi dei carburanti sulle autostrade italiane e i massimali governativi sui prezzi della distribuzione di carburante, insieme alle proiezioni di occupazione nelle industrie marittime.</p><p>Nel fine settimana, le criptovalute hanno mostrato guadagni modesti: Bitcoin è salito dello 0,37 percento, Ethereum dello 0,97 percento, Solana dell&#x27;1,54 percento e XRP dello 0,99 percento, tutti misurati dall&#x27;ultima chiusura statunitense. I futures dell&#x27;S&amp;P 500 e il petrolio greggio WTI sono rimasti piatti, mentre l&#x27;euro è salito dello 0,01 percento rispetto al dollaro. I movimenti in questi mercati sono stati piccoli.</p><p>DoorDash ha attirato un&#x27;intensità di copertura con un punteggio di 8,0 su 10 nel rapporto di Wired sui codici promozionali, sebbene questo punteggio rifletta la profondità della copertura mediatica, non una previsione di prezzo o una previsione per lunedì. Lennar è apparso con un punteggio di 5,2 su 10 nel rapporto di CNBC secondo cui Berkshire Hathaway ha continuato ad acquistare azioni ma a un ritmo più lento, di nuovo una misura dell&#x27;intensità della copertura piuttosto che un segnale direzionale.</p><p>La sessione imminente porta la settimana di negoziazione regolare. Gli investitori monitoreranno i rapporti sugli utili, i rilasci di dati economici e gli sviluppi politici mentre il mercato si riaprirà, sebbene nessun evento programmato specifico per lunedì appaia nel materiale di anteprima disponibile.</p>",
+  "weekend_commentary_html_en": "<p>Over the closed weekend, coverage centered on three distinct themes. In markets and macro, outlets examined bond strategies offering five percent returns on cash, while labor-market stories highlighted how job-switching drives wage gains in certain sectors and how a tough hiring environment is pushing younger workers toward entrepreneurship. The Treasury Department&#x27;s initiative to open savings accounts for sixty million children drew attention, though families must take additional steps to activate them. Separately, investors absorbed lessons from a French bond trade that backfired, and commentary addressed the role of bitcoin in personal investment strategy.</p><p>Crypto and policy stories dominated the second theme. Community banks filed suit against the Office of the Comptroller of the Currency over trust bank charters for crypto firms. Trump hosted another meme coin dinner, while the incoming administration signaled plans to appoint Jay Clayton as AI czar. Regulatory enforcement actions appeared in Greece, where nine military personnel faced arrest in an eight-million-dollar crypto fraud scheme. Banking infrastructure and payment connectivity also drew attention from financial institutions rethinking their systems.</p><p>Tech sector news included an OpenAI safety employee&#x27;s resignation citing a broken company culture, the disappearance of Jack Dorsey&#x27;s Bitchat app from Indian app stores following a government order, and product launches ranging from an electric ferry to AI agents embedded in text messaging. A body-scan startup backed by a Spotify billionaire entered the American market, and coverage reviewed e-reader alternatives to Kindle. Italian economic reporting covered Intesa&#x27;s increased cash offer for its MPS takeover bid, fuel price declines on Italian highways, and government price caps on fuel distribution, alongside labor projections in maritime industries.</p><p>Over the weekend, cryptocurrencies showed modest gains: Bitcoin rose 0.37 percent, Ethereum 0.97 percent, Solana 1.54 percent, and XRP 0.99 percent, all measured from the last US close. S&amp;P 500 futures and WTI crude oil remained flat, while the euro edged up 0.01 percent against the dollar. The moves across these markets were small.</p><p>DoorDash drew coverage intensity with a score of 8.0 out of 10 in Wired&#x27;s reporting on promotional codes, though this score reflects outlet coverage depth, not a price forecast or Monday prediction. Lennar appeared with a score of 5.2 out of 10 in CNBC&#x27;s reporting that Berkshire Hathaway continued buying shares but at a slower pace, again a measure of coverage intensity rather than a directional signal.</p><p>The coming session brings the regular trading week. Investors will monitor earnings reports, economic data releases, and policy developments as the market reopens, though no specific scheduled events for Monday appear in the available preview material.</p>",
+  "covers_date_it": "3 ottobre 2026",
+  "covers_date_en": "October 3, 2026"
+}
