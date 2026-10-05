@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-05T13:56:03Z",
+  "updated": "2026-10-05T14:12:29Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.16,
-      "last": 7735.5
+      "pct": 0.32,
+      "last": 7748.35
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.39,
-      "last": 30927.09
+      "pct": 0.4,
+      "last": 30930.01
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.53,
-      "last": 50905.2
+      "pct": -0.25,
+      "last": 51049.34
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.39,
-      "last": 50584.07
+      "pct": 0.26,
+      "last": 50519.07
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "PCVX",
         "name": "Vaxcyte, Inc.",
-        "pct": 46.81
+        "pct": 40.93
       },
       {
         "symbol": "PTC",
         "name": "PTC Inc.",
-        "pct": 35.21
+        "pct": 34.8
       },
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": 28.65
+        "pct": 33.28
       },
       {
         "symbol": "RXO",
         "name": "RXO, Inc.",
-        "pct": 23.82
+        "pct": 22.5
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": 12.41
+        "pct": 14.6
       },
       {
         "symbol": "PBR",
         "name": "Petroleo Brasileiro S.A. Petrobras ADS",
-        "pct": 10.23
-      },
-      {
-        "symbol": "BSY",
-        "name": "Bentley Systems, Incorporated",
-        "pct": 8.07
-      },
-      {
-        "symbol": "MELI",
-        "name": "MercadoLibre, Inc.",
-        "pct": 7.9
-      },
-      {
-        "symbol": "PCOR",
-        "name": "Procore Technologies, Inc.",
-        "pct": 7.71
+        "pct": 10.97
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": 7.33
+        "pct": 8.73
+      },
+      {
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": 8.66
+      },
+      {
+        "symbol": "PCOR",
+        "name": "Procore Technologies, Inc.",
+        "pct": 8.28
+      },
+      {
+        "symbol": "BBWI",
+        "name": "Bath & Body Works, Inc.",
+        "pct": 7.85
       }
     ],
     "losers": [
       {
         "symbol": "SDEV",
         "name": "Stablecoin Development Corporation",
-        "pct": -25.53
-      },
-      {
-        "symbol": "MRP",
-        "name": "Millrose Properties, Inc.",
-        "pct": -10.85
-      },
-      {
-        "symbol": "SPHR",
-        "name": "Sphere Entertainment Co.",
-        "pct": -10.78
+        "pct": -27.93
       },
       {
         "symbol": "CHRW",
         "name": "C.H. Robinson Worldwide, Inc.",
-        "pct": -9.57
+        "pct": -11.93
       },
       {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": -8.72
+        "symbol": "SPHR",
+        "name": "Sphere Entertainment Co.",
+        "pct": -10.8
+      },
+      {
+        "symbol": "MRP",
+        "name": "Millrose Properties, Inc.",
+        "pct": -8.84
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -8.42
+        "pct": -7.62
+      },
+      {
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -7.19
+      },
+      {
+        "symbol": "INSM",
+        "name": "Insmed Incorporated",
+        "pct": -7.18
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": -8.0
-      },
-      {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": -6.33
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -5.51
+        "pct": -6.53
       },
       {
         "symbol": "EAT",
         "name": "Brinker International, Inc.",
-        "pct": -5.49
+        "pct": -6.2
+      },
+      {
+        "symbol": "CMG",
+        "name": "Chipotle Mexican Grill, Inc.",
+        "pct": -5.79
       }
     ],
     "universe": 1331
