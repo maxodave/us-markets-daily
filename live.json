@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-05T15:13:09Z",
+  "updated": "2026-10-05T16:13:38Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.38,
-      "last": 7753.09
+      "pct": 0.49,
+      "last": 7761.4
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.52,
-      "last": 30967.88
+      "pct": 0.53,
+      "last": 30972.63
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.22,
-      "last": 51065.76
+      "pct": 0.01,
+      "last": 51180.75
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.84,
-      "last": 50812.64
+      "pct": 0.85,
+      "last": 50818.38
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "PTC",
         "name": "PTC Inc.",
-        "pct": 34.23
-      },
-      {
-        "symbol": "PCVX",
-        "name": "Vaxcyte, Inc.",
-        "pct": 33.68
+        "pct": 33.69
       },
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": 32.65
+        "pct": 33.44
+      },
+      {
+        "symbol": "PCVX",
+        "name": "Vaxcyte, Inc.",
+        "pct": 31.98
       },
       {
         "symbol": "RXO",
         "name": "RXO, Inc.",
-        "pct": 20.77
-      },
-      {
-        "symbol": "NU",
-        "name": "Nu Holdings Ltd.",
-        "pct": 13.44
+        "pct": 20.87
       },
       {
         "symbol": "PBR",
         "name": "Petroleo Brasileiro S.A. Petrobras ADS",
-        "pct": 13.28
+        "pct": 13.6
       },
       {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": 10.5
+        "symbol": "NU",
+        "name": "Nu Holdings Ltd.",
+        "pct": 12.62
       },
       {
         "symbol": "BSY",
         "name": "Bentley Systems, Incorporated",
-        "pct": 8.1
+        "pct": 9.09
       },
       {
-        "symbol": "PCOR",
-        "name": "Procore Technologies, Inc.",
-        "pct": 8.09
+        "symbol": "BBWI",
+        "name": "Bath & Body Works, Inc.",
+        "pct": 8.8
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": 8.59
       },
       {
         "symbol": "RIG",
         "name": "Transocean Ltd (Switzerland)",
-        "pct": 7.93
+        "pct": 8.32
       }
     ],
     "losers": [
       {
         "symbol": "SDEV",
         "name": "Stablecoin Development Corporation",
-        "pct": -39.71
+        "pct": -40.51
       },
       {
         "symbol": "CHRW",
         "name": "C.H. Robinson Worldwide, Inc.",
-        "pct": -14.61
-      },
-      {
-        "symbol": "XRPN",
-        "name": "Armada Acquisition Corp. II",
-        "pct": -12.2
+        "pct": -14.08
       },
       {
         "symbol": "SPHR",
         "name": "Sphere Entertainment Co.",
-        "pct": -11.75
+        "pct": -11.74
       },
       {
         "symbol": "MRP",
         "name": "Millrose Properties, Inc.",
-        "pct": -10.08
+        "pct": -9.65
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "pct": -8.44
+        "pct": -7.92
       },
       {
-        "symbol": "INSM",
-        "name": "Insmed Incorporated",
-        "pct": -7.05
-      },
-      {
-        "symbol": "ERAS",
-        "name": "Erasca, Inc.",
-        "pct": -5.94
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -7.74
       },
       {
         "symbol": "PGEN",
         "name": "Precigen, Inc.",
-        "pct": -5.91
+        "pct": -7.08
       },
       {
-        "symbol": "RARE",
-        "name": "Ultragenyx Pharmaceutical Inc.",
-        "pct": -5.65
+        "symbol": "INSM",
+        "name": "Insmed Incorporated",
+        "pct": -6.21
+      },
+      {
+        "symbol": "XRPN",
+        "name": "Armada Acquisition Corp. II",
+        "pct": -5.4
+      },
+      {
+        "symbol": "LEN",
+        "name": "Lennar Corporation",
+        "pct": -5.15
       }
     ],
     "universe": 1331
