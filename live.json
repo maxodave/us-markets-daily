@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-05T18:50:33Z",
+  "updated": "2026-10-05T19:00:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.73,
-      "last": 7780.02
+      "pct": 0.8,
+      "last": 7785.34
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.82,
-      "last": 31059.64
+      "pct": 0.85,
+      "last": 31070.11
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.28,
-      "last": 51318.51
+      "pct": 0.34,
+      "last": 51352.46
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "PTC",
         "name": "PTC Inc.",
-        "pct": 33.67
+        "pct": 33.65
       },
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": 33.51
+        "pct": 33.47
       },
       {
         "symbol": "PCVX",
         "name": "Vaxcyte, Inc.",
-        "pct": 30.05
+        "pct": 28.0
       },
       {
         "symbol": "RXO",
         "name": "RXO, Inc.",
-        "pct": 22.67
-      },
-      {
-        "symbol": "NU",
-        "name": "Nu Holdings Ltd.",
-        "pct": 13.48
+        "pct": 22.8
       },
       {
         "symbol": "PBR",
         "name": "Petroleo Brasileiro S.A. Petrobras ADS",
-        "pct": 13.42
+        "pct": 13.86
+      },
+      {
+        "symbol": "NU",
+        "name": "Nu Holdings Ltd.",
+        "pct": 13.63
       },
       {
         "symbol": "CLF",
         "name": "Cleveland-Cliffs Inc.",
-        "pct": 10.47
+        "pct": 10.56
       },
       {
         "symbol": "MELI",
         "name": "MercadoLibre, Inc.",
-        "pct": 10.15
+        "pct": 10.13
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": 8.99
+        "pct": 8.78
       },
       {
-        "symbol": "AZTA",
-        "name": "Azenta, Inc.",
-        "pct": 8.53
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": 8.7
       }
     ],
     "losers": [
       {
         "symbol": "SDEV",
         "name": "Stablecoin Development Corporation",
-        "pct": -54.64
+        "pct": -53.88
       },
       {
         "symbol": "SPHR",
         "name": "Sphere Entertainment Co.",
-        "pct": -12.65
-      },
-      {
-        "symbol": "CHRW",
-        "name": "C.H. Robinson Worldwide, Inc.",
-        "pct": -10.91
+        "pct": -12.87
       },
       {
         "symbol": "PGEN",
         "name": "Precigen, Inc.",
-        "pct": -10.83
+        "pct": -10.95
       },
       {
-        "symbol": "MRP",
-        "name": "Millrose Properties, Inc.",
-        "pct": -9.28
+        "symbol": "CHRW",
+        "name": "C.H. Robinson Worldwide, Inc.",
+        "pct": -10.8
       },
       {
         "symbol": "ACMR",
         "name": "ACM Research, Inc.",
-        "pct": -9.25
+        "pct": -9.29
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -9.24
+        "pct": -9.01
       },
       {
-        "symbol": "XRPN",
-        "name": "Armada Acquisition Corp. II",
-        "pct": -8.35
+        "symbol": "MRP",
+        "name": "Millrose Properties, Inc.",
+        "pct": -8.9
+      },
+      {
+        "symbol": "SRRK",
+        "name": "Scholar Rock Holding Corporation",
+        "pct": -8.43
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "pct": -7.82
+        "pct": -7.47
       },
       {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -7.74
+        "symbol": "XRPN",
+        "name": "Armada Acquisition Corp. II",
+        "pct": -7.39
       }
     ],
     "universe": 1331
