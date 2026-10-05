@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-05T16:36:58Z",
+  "updated": "2026-10-05T16:58:41Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.57,
-      "last": 7767.54
+      "pct": 0.61,
+      "last": 7770.45
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.62,
-      "last": 31000.24
+      "pct": 0.63,
+      "last": 31002.58
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.14,
-      "last": 51246.99
+      "pct": 0.17,
+      "last": 51261.77
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "PTC",
         "name": "PTC Inc.",
-        "pct": 33.88
+        "pct": 33.76
       },
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": 32.91
+        "pct": 33.33
       },
       {
         "symbol": "PCVX",
         "name": "Vaxcyte, Inc.",
-        "pct": 29.31
+        "pct": 29.75
       },
       {
         "symbol": "RXO",
         "name": "RXO, Inc.",
-        "pct": 21.9
-      },
-      {
-        "symbol": "PBR",
-        "name": "Petroleo Brasileiro S.A. Petrobras ADS",
-        "pct": 14.04
+        "pct": 21.86
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": 13.21
+        "pct": 13.33
       },
       {
-        "symbol": "BBWI",
-        "name": "Bath & Body Works, Inc.",
-        "pct": 8.72
-      },
-      {
-        "symbol": "BSY",
-        "name": "Bentley Systems, Incorporated",
-        "pct": 8.7
+        "symbol": "PBR",
+        "name": "Petroleo Brasileiro S.A. Petrobras ADS",
+        "pct": 12.22
       },
       {
         "symbol": "CLF",
         "name": "Cleveland-Cliffs Inc.",
-        "pct": 8.17
+        "pct": 8.52
       },
       {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": 8.14
+        "symbol": "MELI",
+        "name": "MercadoLibre, Inc.",
+        "pct": 8.51
+      },
+      {
+        "symbol": "BBWI",
+        "name": "Bath & Body Works, Inc.",
+        "pct": 8.31
+      },
+      {
+        "symbol": "BSY",
+        "name": "Bentley Systems, Incorporated",
+        "pct": 8.23
       }
     ],
     "losers": [
       {
         "symbol": "SDEV",
         "name": "Stablecoin Development Corporation",
-        "pct": -41.71
+        "pct": -48.26
       },
       {
         "symbol": "SPHR",
         "name": "Sphere Entertainment Co.",
-        "pct": -12.62
+        "pct": -12.4
       },
       {
         "symbol": "CHRW",
         "name": "C.H. Robinson Worldwide, Inc.",
-        "pct": -12.38
-      },
-      {
-        "symbol": "MRP",
-        "name": "Millrose Properties, Inc.",
-        "pct": -9.24
+        "pct": -12.27
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -8.62
+        "pct": -9.01
+      },
+      {
+        "symbol": "MRP",
+        "name": "Millrose Properties, Inc.",
+        "pct": -8.37
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "pct": -7.89
+        "pct": -7.99
       },
       {
         "symbol": "PGEN",
         "name": "Precigen, Inc.",
-        "pct": -7.38
-      },
-      {
-        "symbol": "INSM",
-        "name": "Insmed Incorporated",
-        "pct": -6.11
+        "pct": -7.32
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -5.96
+        "pct": -7.1
       },
       {
         "symbol": "ACMR",
         "name": "ACM Research, Inc.",
-        "pct": -5.46
+        "pct": -6.82
+      },
+      {
+        "symbol": "INSM",
+        "name": "Insmed Incorporated",
+        "pct": -6.24
       }
     ],
     "universe": 1331
