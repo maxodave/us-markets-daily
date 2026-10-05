@@ -1,137 +1,137 @@
 {
-  "updated": "2026-10-02T18:15:16Z",
-  "market_open": true,
+  "updated": "2026-10-05T13:07:36Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.67,
-      "last": 7720.03
+      "pct": 0.73,
+      "last": 7722.72
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.95,
-      "last": 30792.71
+      "pct": 1.0,
+      "last": 30807.93
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.4,
-      "last": 51142.6
+      "pct": 0.49,
+      "last": 51176.96
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.21,
-      "last": 50483.21
+      "pct": 0.55,
+      "last": 50665.58
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "SYNA",
-        "name": "Synaptics Incorporated",
-        "pct": 13.74
+        "symbol": "SDEV",
+        "name": "Stablecoin Development Corporation",
+        "pct": 104.37
+      },
+      {
+        "symbol": "XRPN",
+        "name": "Armada Acquisition Corp. II",
+        "pct": 68.25
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": 13.48
+        "pct": 14.99
+      },
+      {
+        "symbol": "SYNA",
+        "name": "Synaptics Incorporated",
+        "pct": 14.08
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": 13.06
+        "pct": 13.19
       },
       {
-        "symbol": "VSH",
-        "name": "Vishay Intertechnology, Inc.",
-        "pct": 12.71
+        "symbol": "AZTA",
+        "name": "Azenta, Inc.",
+        "pct": 12.38
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": 11.4
+        "pct": 11.6
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": 9.11
+        "pct": 11.47
       },
       {
-        "symbol": "INIO",
-        "name": "INNIO N.V.",
-        "pct": 8.86
+        "symbol": "VSH",
+        "name": "Vishay Intertechnology, Inc.",
+        "pct": 11.41
       },
       {
-        "symbol": "ALGM",
-        "name": "Allegro MicroSystems, Inc.",
-        "pct": 8.75
-      },
-      {
-        "symbol": "PL",
-        "name": "Planet Labs PBC",
-        "pct": 8.52
-      },
-      {
-        "symbol": "ACLS",
-        "name": "Axcelis Technologies, Inc.",
-        "pct": 7.95
+        "symbol": "MTRN",
+        "name": "Materion Corporation",
+        "pct": 9.48
       }
     ],
     "losers": [
       {
-        "symbol": "WCT",
-        "name": "Wellchange Holdings Company Limited",
-        "pct": -24.93
+        "symbol": "WDC",
+        "name": "Western Digital Corporation",
+        "pct": -10.22
       },
       {
         "symbol": "STX",
         "name": "Seagate Technology Holdings PLC",
-        "pct": -10.89
+        "pct": -10.21
       },
       {
-        "symbol": "WDC",
-        "name": "Western Digital Corporation",
-        "pct": -9.57
-      },
-      {
-        "symbol": "KOD",
-        "name": "Kodiak Sciences Inc",
-        "pct": -7.75
-      },
-      {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": -7.15
-      },
-      {
-        "symbol": "NKTR",
-        "name": "Nektar Therapeutics",
-        "pct": -6.79
+        "symbol": "TH",
+        "name": "Target Hospitality Corp.",
+        "pct": -8.01
       },
       {
         "symbol": "UCTT",
         "name": "Ultra Clean Holdings, Inc.",
-        "pct": -6.7
+        "pct": -7.57
       },
       {
-        "symbol": "MOD",
-        "name": "Modine Manufacturing Company",
-        "pct": -6.46
+        "symbol": "NUVB",
+        "name": "Nuvation Bio Inc.",
+        "pct": -7.55
       },
       {
-        "symbol": "ACN",
-        "name": "Accenture plc",
-        "pct": -6.15
+        "symbol": "NKTR",
+        "name": "Nektar Therapeutics",
+        "pct": -7.26
+      },
+      {
+        "symbol": "THRM",
+        "name": "Gentherm Inc",
+        "pct": -6.93
+      },
+      {
+        "symbol": "MMYT",
+        "name": "MakeMyTrip Limited",
+        "pct": -6.55
       },
       {
         "symbol": "AXGN",
         "name": "Axogen, Inc.",
-        "pct": -5.62
+        "pct": -6.34
+      },
+      {
+        "symbol": "ACN",
+        "name": "Accenture plc",
+        "pct": -6.31
       }
     ],
-    "universe": 1373
+    "universe": 1332
   }
 }
