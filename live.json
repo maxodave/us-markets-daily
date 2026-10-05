@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-05T13:30:19Z",
+  "updated": "2026-10-05T13:56:03Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.07,
-      "last": 7729.15
+      "pct": 0.16,
+      "last": 7735.5
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.0,
-      "last": 30807.93
+      "pct": 0.39,
+      "last": 30927.09
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.14,
-      "last": 51106.63
+      "pct": -0.53,
+      "last": 50905.2
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.61,
-      "last": 50695.96
+      "pct": 0.39,
+      "last": 50584.07
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "PCVX",
         "name": "Vaxcyte, Inc.",
-        "pct": 52.27
+        "pct": 46.81
       },
       {
         "symbol": "PTC",
         "name": "PTC Inc.",
-        "pct": 35.81
-      },
-      {
-        "symbol": "SDEV",
-        "name": "Stablecoin Development Corporation",
-        "pct": 28.61
-      },
-      {
-        "symbol": "RXO",
-        "name": "RXO, Inc.",
-        "pct": 23.78
+        "pct": 35.21
       },
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": 23.44
+        "pct": 28.65
       },
       {
-        "symbol": "XRPN",
-        "name": "Armada Acquisition Corp. II",
-        "pct": 12.32
+        "symbol": "RXO",
+        "name": "RXO, Inc.",
+        "pct": 23.82
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": 11.5
+        "pct": 12.41
       },
       {
         "symbol": "PBR",
         "name": "Petroleo Brasileiro S.A. Petrobras ADS",
-        "pct": 11.18
+        "pct": 10.23
       },
       {
-        "symbol": "GGB",
-        "name": "Gerdau S.A.",
-        "pct": 7.98
+        "symbol": "BSY",
+        "name": "Bentley Systems, Incorporated",
+        "pct": 8.07
+      },
+      {
+        "symbol": "MELI",
+        "name": "MercadoLibre, Inc.",
+        "pct": 7.9
+      },
+      {
+        "symbol": "PCOR",
+        "name": "Procore Technologies, Inc.",
+        "pct": 7.71
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": 5.48
+        "pct": 7.33
       }
     ],
     "losers": [
       {
-        "symbol": "CHRW",
-        "name": "C.H. Robinson Worldwide, Inc.",
-        "pct": -10.65
+        "symbol": "SDEV",
+        "name": "Stablecoin Development Corporation",
+        "pct": -25.53
+      },
+      {
+        "symbol": "MRP",
+        "name": "Millrose Properties, Inc.",
+        "pct": -10.85
       },
       {
         "symbol": "SPHR",
         "name": "Sphere Entertainment Co.",
-        "pct": -7.03
+        "pct": -10.78
       },
       {
-        "symbol": "INSM",
-        "name": "Insmed Incorporated",
-        "pct": -4.48
+        "symbol": "CHRW",
+        "name": "C.H. Robinson Worldwide, Inc.",
+        "pct": -9.57
       },
       {
-        "symbol": "ACCV",
-        "name": "Accelevation Holdings Corp.",
-        "pct": -3.9
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -8.72
       },
       {
-        "symbol": "FLY",
-        "name": "Firefly Aerospace Inc.",
-        "pct": -3.52
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": -8.42
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": -3.12
+        "pct": -8.0
       },
       {
-        "symbol": "INTC",
-        "name": "Intel Corporation",
-        "pct": -3.09
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": -6.33
       },
       {
-        "symbol": "ABCL",
-        "name": "AbCellera Biologics Inc.",
-        "pct": -3.06
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -5.51
       },
       {
-        "symbol": "FER",
-        "name": "Ferrovial N.V.",
-        "pct": -2.97
-      },
-      {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "pct": -2.89
+        "symbol": "EAT",
+        "name": "Brinker International, Inc.",
+        "pct": -5.49
       }
     ],
-    "universe": 1226
+    "universe": 1331
   }
 }
