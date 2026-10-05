@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-05T18:24:32Z",
+  "updated": "2026-10-05T18:36:14Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.7,
-      "last": 7777.91
+      "pct": 0.75,
+      "last": 7781.4
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.79,
-      "last": 31050.85
+      "pct": 0.84,
+      "last": 31065.24
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.25,
-      "last": 51306.77
+      "pct": 0.31,
+      "last": 51337.29
     },
     {
       "key": "ftsemib",
@@ -32,69 +32,69 @@
       {
         "symbol": "PTC",
         "name": "PTC Inc.",
-        "pct": 33.77
+        "pct": 33.75
       },
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": 32.98
+        "pct": 33.23
       },
       {
         "symbol": "PCVX",
         "name": "Vaxcyte, Inc.",
-        "pct": 32.03
+        "pct": 28.81
       },
       {
         "symbol": "RXO",
         "name": "RXO, Inc.",
-        "pct": 23.25
-      },
-      {
-        "symbol": "PBR",
-        "name": "Petroleo Brasileiro S.A. Petrobras ADS",
-        "pct": 14.13
+        "pct": 22.95
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": 13.33
+        "pct": 13.48
+      },
+      {
+        "symbol": "PBR",
+        "name": "Petroleo Brasileiro S.A. Petrobras ADS",
+        "pct": 13.3
       },
       {
         "symbol": "CLF",
         "name": "Cleveland-Cliffs Inc.",
-        "pct": 10.55
+        "pct": 10.56
       },
       {
         "symbol": "MELI",
         "name": "MercadoLibre, Inc.",
-        "pct": 10.12
+        "pct": 10.07
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": 8.62
+        "pct": 9.19
       },
       {
-        "symbol": "BBWI",
-        "name": "Bath & Body Works, Inc.",
-        "pct": 8.47
+        "symbol": "BSY",
+        "name": "Bentley Systems, Incorporated",
+        "pct": 8.53
       }
     ],
     "losers": [
       {
         "symbol": "SDEV",
         "name": "Stablecoin Development Corporation",
-        "pct": -54.01
+        "pct": -53.75
       },
       {
         "symbol": "SPHR",
         "name": "Sphere Entertainment Co.",
-        "pct": -11.82
+        "pct": -12.1
       },
       {
         "symbol": "CHRW",
         "name": "C.H. Robinson Worldwide, Inc.",
-        "pct": -10.41
+        "pct": -10.82
       },
       {
         "symbol": "PGEN",
@@ -104,31 +104,31 @@
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -9.47
+        "pct": -10.01
       },
       {
         "symbol": "MRP",
         "name": "Millrose Properties, Inc.",
-        "pct": -9.02
-      },
-      {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": -8.1
+        "pct": -9.26
       },
       {
         "symbol": "ACMR",
         "name": "ACM Research, Inc.",
-        "pct": -7.66
+        "pct": -8.35
       },
       {
-        "symbol": "LEN",
-        "name": "Lennar Corporation",
-        "pct": -7.54
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -8.3
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
+        "pct": -7.89
+      },
+      {
+        "symbol": "LEN",
+        "name": "Lennar Corporation",
         "pct": -7.34
       }
     ],
