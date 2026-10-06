@@ -1,37 +1,28 @@
 {
-  "updated": "2026-10-05T00:10:27Z",
-  "session_date": "2026-10-02",
+  "updated": "2026-10-06T02:00:43Z",
+  "session_date": "2026-10-05",
   "universe": 558,
   "up": {
-    "count": 327,
+    "count": 349,
     "by_length": {
-      "1": 156,
-      "2": 136,
-      "3": 16,
-      "4": 12,
-      "5": 4,
-      "6": 1,
+      "1": 162,
+      "2": 91,
+      "3": 77,
+      "4": 8,
+      "5": 6,
+      "6": 3,
       "7": 1,
       "8+": 1
     },
     "top": [
-      {
-        "symbol": "NTAP",
-        "name": "NetApp",
-        "indices": [
-          "sp500"
-        ],
-        "days": 8,
-        "cum_pct": 17.29
-      },
       {
         "symbol": "P",
         "name": "Everpure",
         "indices": [
           "sp500"
         ],
-        "days": 7,
-        "cum_pct": 27.81
+        "days": 8,
+        "cum_pct": 31.22
       },
       {
         "symbol": "Q",
@@ -39,8 +30,17 @@
         "indices": [
           "sp500"
         ],
+        "days": 7,
+        "cum_pct": 7.54
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify",
+        "indices": [
+          "nasdaq100"
+        ],
         "days": 6,
-        "cum_pct": 7.5
+        "cum_pct": 12.56
       },
       {
         "symbol": "CRWD",
@@ -49,17 +49,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 5,
-        "cum_pct": 7.1
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 6.43
+        "days": 6,
+        "cum_pct": 8.15
       },
       {
         "symbol": "CSCO",
@@ -69,26 +60,8 @@
           "dow",
           "nasdaq100"
         ],
-        "days": 5,
-        "cum_pct": 5.15
-      },
-      {
-        "symbol": "CMG",
-        "name": "Chipotle Mexican Grill",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 3.29
-      },
-      {
-        "symbol": "RCL",
-        "name": "Royal Caribbean Group",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 14.49
+        "days": 6,
+        "cum_pct": 5.74
       },
       {
         "symbol": "ON",
@@ -96,18 +69,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 12.21
-      },
-      {
-        "symbol": "LRCX",
-        "name": "Lam Research",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 10.5
+        "days": 5,
+        "cum_pct": 13.59
       },
       {
         "symbol": "MPC",
@@ -115,27 +78,17 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 8.45
+        "days": 5,
+        "cum_pct": 11.31
       },
       {
-        "symbol": "MRVL",
-        "name": "Marvell Technology",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 8.09
-      },
-      {
-        "symbol": "KEYS",
-        "name": "Keysight Technologies",
+        "symbol": "GDDY",
+        "name": "GoDaddy",
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 6.92
+        "days": 5,
+        "cum_pct": 6.43
       },
       {
         "symbol": "ROK",
@@ -143,43 +96,80 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 5.36
+        "days": 5,
+        "cum_pct": 5.56
       },
       {
-        "symbol": "CRWV",
-        "name": "CoreWeave",
+        "symbol": "EIX",
+        "name": "Edison International",
         "indices": [
-          "nasdaq100"
+          "sp500"
         ],
-        "days": 4,
-        "cum_pct": 5.35
-      }
-    ]
-  },
-  "down": {
-    "count": 227,
-    "by_length": {
-      "1": 139,
-      "2": 19,
-      "3": 19,
-      "4": 23,
-      "5": 19,
-      "6": 3,
-      "7": 1,
-      "8+": 4
-    },
-    "top": [
+        "days": 5,
+        "cum_pct": 5.38
+      },
       {
-        "symbol": "APP",
-        "name": "AppLovin",
+        "symbol": "ES",
+        "name": "Eversource Energy",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 2.23
+      },
+      {
+        "symbol": "ADSK",
+        "name": "Autodesk",
         "indices": [
           "sp500",
           "nasdaq100"
         ],
-        "days": -9,
-        "cum_pct": -18.76
+        "days": 4,
+        "cum_pct": 9.05
       },
+      {
+        "symbol": "CDNS",
+        "name": "Cadence Design Systems",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 9.04
+      },
+      {
+        "symbol": "PSX",
+        "name": "Phillips 66",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 6.93
+      },
+      {
+        "symbol": "OXY",
+        "name": "Occidental Petroleum",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 6.13
+      }
+    ]
+  },
+  "down": {
+    "count": 205,
+    "by_length": {
+      "1": 122,
+      "2": 47,
+      "3": 6,
+      "4": 6,
+      "5": 14,
+      "6": 7,
+      "7": 1,
+      "8+": 2
+    },
+    "top": [
       {
         "symbol": "TIT.MI",
         "name": "Telecom Italia",
@@ -190,31 +180,13 @@
         "cum_pct": -17.55
       },
       {
-        "symbol": "WY",
-        "name": "Weyerhaeuser",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -14.25
-      },
-      {
         "symbol": "LULU",
         "name": "Lululemon Athletica",
         "indices": [
           "sp500"
         ],
-        "days": -8,
-        "cum_pct": -8.94
-      },
-      {
-        "symbol": "LMT",
-        "name": "Lockheed Martin",
-        "indices": [
-          "sp500"
-        ],
-        "days": -7,
-        "cum_pct": -3.67
+        "days": -9,
+        "cum_pct": -10.21
       },
       {
         "symbol": "KHC",
@@ -222,53 +194,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -7.0
-      },
-      {
-        "symbol": "GRMN",
-        "name": "Garmin",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -4.7
-      },
-      {
-        "symbol": "ICE",
-        "name": "Intercontinental Exchange",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -4.32
-      },
-      {
-        "symbol": "ALNY",
-        "name": "Alnylam Pharmaceuticals",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": -5,
-        "cum_pct": -14.16
-      },
-      {
-        "symbol": "GPN",
-        "name": "Global Payments",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -9.38
-      },
-      {
-        "symbol": "IP",
-        "name": "International Paper",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -8.71
+        "days": -7,
+        "cum_pct": -8.47
       },
       {
         "symbol": "SW",
@@ -276,8 +203,80 @@
         "indices": [
           "sp500"
         ],
+        "days": -6,
+        "cum_pct": -8.62
+      },
+      {
+        "symbol": "KKR",
+        "name": "KKR & Co.",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -6.94
+      },
+      {
+        "symbol": "NOC",
+        "name": "Northrop Grumman",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -6.74
+      },
+      {
+        "symbol": "NVR",
+        "name": "NVR, Inc.",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -5.2
+      },
+      {
+        "symbol": "LOW",
+        "name": "Lowe's",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -5.17
+      },
+      {
+        "symbol": "FRT",
+        "name": "Federal Realty Investment Trust",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -4.12
+      },
+      {
+        "symbol": "RTX",
+        "name": "RTX Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -2.68
+      },
+      {
+        "symbol": "INCY",
+        "name": "Incyte",
+        "indices": [
+          "sp500"
+        ],
         "days": -5,
-        "cum_pct": -8.34
+        "cum_pct": -8.56
+      },
+      {
+        "symbol": "BMY",
+        "name": "Bristol Myers Squibb",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -7.94
       },
       {
         "symbol": "BAMI.MI",
@@ -289,13 +288,14 @@
         "cum_pct": -7.16
       },
       {
-        "symbol": "LVS",
-        "name": "Las Vegas Sands",
+        "symbol": "JNJ",
+        "name": "Johnson & Johnson",
         "indices": [
-          "sp500"
+          "sp500",
+          "dow"
         ],
         "days": -5,
-        "cum_pct": -7.08
+        "cum_pct": -6.99
       },
       {
         "symbol": "ISP.MI",
