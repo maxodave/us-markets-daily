@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-06T02:00:43Z",
-  "session_date": "2026-10-05",
+  "updated": "2026-10-07T01:02:41Z",
+  "session_date": "2026-10-06",
   "universe": 558,
   "up": {
-    "count": 349,
+    "count": 373,
     "by_length": {
-      "1": 162,
-      "2": 91,
-      "3": 77,
-      "4": 8,
-      "5": 6,
-      "6": 3,
-      "7": 1,
+      "1": 154,
+      "2": 98,
+      "3": 58,
+      "4": 48,
+      "5": 7,
+      "6": 5,
+      "7": 2,
       "8+": 1
     },
     "top": [
@@ -25,6 +25,17 @@
         "cum_pct": 31.22
       },
       {
+        "symbol": "CSCO",
+        "name": "Cisco",
+        "indices": [
+          "sp500",
+          "dow",
+          "nasdaq100"
+        ],
+        "days": 7,
+        "cum_pct": 10.53
+      },
+      {
         "symbol": "Q",
         "name": "Qnity Electronics",
         "indices": [
@@ -32,6 +43,15 @@
         ],
         "days": 7,
         "cum_pct": 7.54
+      },
+      {
+        "symbol": "ON",
+        "name": "ON Semiconductor",
+        "indices": [
+          "sp500"
+        ],
+        "days": 6,
+        "cum_pct": 14.09
       },
       {
         "symbol": "SHOP",
@@ -53,33 +73,42 @@
         "cum_pct": 8.15
       },
       {
-        "symbol": "CSCO",
-        "name": "Cisco",
+        "symbol": "EIX",
+        "name": "Edison International",
         "indices": [
-          "sp500",
-          "dow",
-          "nasdaq100"
+          "sp500"
         ],
         "days": 6,
-        "cum_pct": 5.74
+        "cum_pct": 5.4
       },
       {
-        "symbol": "ON",
-        "name": "ON Semiconductor",
+        "symbol": "ES",
+        "name": "Eversource Energy",
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 13.59
+        "days": 6,
+        "cum_pct": 3.13
       },
       {
-        "symbol": "MPC",
-        "name": "Marathon Petroleum",
+        "symbol": "ADSK",
+        "name": "Autodesk",
         "indices": [
-          "sp500"
+          "sp500",
+          "nasdaq100"
         ],
         "days": 5,
-        "cum_pct": 11.31
+        "cum_pct": 13.83
+      },
+      {
+        "symbol": "CDNS",
+        "name": "Cadence Design Systems",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 10.91
       },
       {
         "symbol": "GDDY",
@@ -91,83 +120,56 @@
         "cum_pct": 6.43
       },
       {
-        "symbol": "ROK",
-        "name": "Rockwell Automation",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 5.56
-      },
-      {
-        "symbol": "EIX",
-        "name": "Edison International",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 5.38
-      },
-      {
-        "symbol": "ES",
-        "name": "Eversource Energy",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 2.23
-      },
-      {
-        "symbol": "ADSK",
-        "name": "Autodesk",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 9.05
-      },
-      {
-        "symbol": "CDNS",
-        "name": "Cadence Design Systems",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 9.04
-      },
-      {
-        "symbol": "PSX",
-        "name": "Phillips 66",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 6.93
-      },
-      {
         "symbol": "OXY",
         "name": "Occidental Petroleum",
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 6.13
+        "days": 5,
+        "cum_pct": 6.17
+      },
+      {
+        "symbol": "NVDA",
+        "name": "Nvidia",
+        "indices": [
+          "sp500",
+          "dow",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 5.29
+      },
+      {
+        "symbol": "VRSN",
+        "name": "Verisign",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 4.74
+      },
+      {
+        "symbol": "TDY",
+        "name": "Teledyne Technologies",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 2.75
       }
     ]
   },
   "down": {
-    "count": 205,
+    "count": 183,
     "by_length": {
-      "1": 122,
-      "2": 47,
-      "3": 6,
-      "4": 6,
-      "5": 14,
-      "6": 7,
-      "7": 1,
-      "8+": 2
+      "1": 130,
+      "2": 27,
+      "3": 14,
+      "4": 3,
+      "5": 1,
+      "6": 5,
+      "7": 2,
+      "8+": 1
     },
     "top": [
       {
@@ -176,17 +178,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -9,
-        "cum_pct": -17.55
-      },
-      {
-        "symbol": "LULU",
-        "name": "Lululemon Athletica",
-        "indices": [
-          "sp500"
-        ],
-        "days": -9,
-        "cum_pct": -10.21
+        "days": -10,
+        "cum_pct": -19.5
       },
       {
         "symbol": "KHC",
@@ -198,6 +191,24 @@
         "cum_pct": -8.47
       },
       {
+        "symbol": "RTX",
+        "name": "RTX Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": -7,
+        "cum_pct": -3.23
+      },
+      {
+        "symbol": "INCY",
+        "name": "Incyte",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -9.69
+      },
+      {
         "symbol": "SW",
         "name": "Smurfit Westrock",
         "indices": [
@@ -207,108 +218,105 @@
         "cum_pct": -8.62
       },
       {
-        "symbol": "KKR",
-        "name": "KKR & Co.",
+        "symbol": "GILD",
+        "name": "Gilead Sciences",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -6,
+        "cum_pct": -5.24
+      },
+      {
+        "symbol": "VRTX",
+        "name": "Vertex Pharmaceuticals",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -6,
+        "cum_pct": -4.81
+      },
+      {
+        "symbol": "BSX",
+        "name": "Boston Scientific",
         "indices": [
           "sp500"
         ],
         "days": -6,
-        "cum_pct": -6.94
+        "cum_pct": -4.35
       },
       {
-        "symbol": "NOC",
-        "name": "Northrop Grumman",
+        "symbol": "AMGN",
+        "name": "Amgen",
         "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -6.74
-      },
-      {
-        "symbol": "NVR",
-        "name": "NVR, Inc.",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -5.2
-      },
-      {
-        "symbol": "LOW",
-        "name": "Lowe's",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -5.17
-      },
-      {
-        "symbol": "FRT",
-        "name": "Federal Realty Investment Trust",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -4.12
-      },
-      {
-        "symbol": "RTX",
-        "name": "RTX Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -2.68
-      },
-      {
-        "symbol": "INCY",
-        "name": "Incyte",
-        "indices": [
-          "sp500"
+          "sp500",
+          "dow",
+          "nasdaq100"
         ],
         "days": -5,
-        "cum_pct": -8.56
+        "cum_pct": -4.97
       },
       {
-        "symbol": "BMY",
-        "name": "Bristol Myers Squibb",
+        "symbol": "INTC",
+        "name": "Intel",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -4,
+        "cum_pct": -6.43
+      },
+      {
+        "symbol": "BKNG",
+        "name": "Booking Holdings",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -4,
+        "cum_pct": -3.24
+      },
+      {
+        "symbol": "VICI",
+        "name": "Vici Properties",
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -7.94
+        "days": -4,
+        "cum_pct": -2.89
       },
       {
-        "symbol": "BAMI.MI",
-        "name": "Banco BPM",
+        "symbol": "ACN",
+        "name": "Accenture",
         "indices": [
-          "ftsemib"
+          "sp500"
         ],
-        "days": -5,
-        "cum_pct": -7.16
+        "days": -3,
+        "cum_pct": -8.9
       },
       {
-        "symbol": "JNJ",
-        "name": "Johnson & Johnson",
+        "symbol": "CTSH",
+        "name": "Cognizant",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -6.01
+      },
+      {
+        "symbol": "CRM",
+        "name": "Salesforce",
         "indices": [
           "sp500",
           "dow"
         ],
-        "days": -5,
-        "cum_pct": -6.99
-      },
-      {
-        "symbol": "ISP.MI",
-        "name": "Intesa Sanpaolo",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -5,
-        "cum_pct": -6.78
+        "days": -3,
+        "cum_pct": -4.94
       }
     ]
   },
   "flat": {
-    "count": 4
+    "count": 2
   }
 }
