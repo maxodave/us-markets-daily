@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-07T19:35:29Z",
+  "updated": "2026-10-07T19:45:27Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.28,
-      "last": 7798.26
+      "pct": -0.26,
+      "last": 7799.54
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.3,
-      "last": 31130.42
+      "pct": -0.25,
+      "last": 31145.42
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.67,
-      "last": 51178.19
+      "pct": -0.66,
+      "last": 51183.95
     },
     {
       "key": "ftsemib",
@@ -32,36 +32,31 @@
       {
         "symbol": "XRPN",
         "name": "Armada Acquisition Corp. II",
-        "pct": 36.8
-      },
-      {
-        "symbol": "MI",
-        "name": "NFT Limited Class A",
-        "pct": 28.46
+        "pct": 38.62
       },
       {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "pct": 20.14
+        "pct": 25.29
+      },
+      {
+        "symbol": "MI",
+        "name": "NFT Limited Class A",
+        "pct": 24.58
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": 13.73
+        "pct": 13.53
       },
       {
         "symbol": "AVBP",
         "name": "ArriVent BioPharma, Inc.",
-        "pct": 11.8
+        "pct": 11.73
       },
       {
         "symbol": "BKH",
         "name": "Black Hills Corporation",
-        "pct": 7.86
-      },
-      {
-        "symbol": "GKOS",
-        "name": "Glaukos Corporation",
         "pct": 7.17
       },
       {
@@ -70,66 +65,71 @@
         "pct": 5.99
       },
       {
-        "symbol": "NRG",
-        "name": "NRG Energy, Inc.",
-        "pct": 5.14
+        "symbol": "GKOS",
+        "name": "Glaukos Corporation",
+        "pct": 5.71
       },
       {
         "symbol": "TTAN",
         "name": "ServiceTitan, Inc.",
-        "pct": 5.14
+        "pct": 5.17
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 5.04
       }
     ],
     "losers": [
       {
         "symbol": "ALMR",
         "name": "Alamar Biosciences, Inc.",
-        "pct": -13.79
+        "pct": -11.97
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": -13.2
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -11.26
+        "pct": -11.67
       },
       {
         "symbol": "ABSI",
         "name": "Absci Corporation",
-        "pct": -11.05
+        "pct": -10.76
+      },
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -10.63
       },
       {
         "symbol": "IESC",
         "name": "IES Holdings, Inc.",
-        "pct": -9.9
+        "pct": -9.88
       },
       {
         "symbol": "FSM",
         "name": "Fortuna Mining Corp.",
-        "pct": -9.88
-      },
-      {
-        "symbol": "UUUU",
-        "name": "Energy Fuels Inc",
-        "pct": -8.88
+        "pct": -9.44
       },
       {
         "symbol": "AZTA",
         "name": "Azenta, Inc.",
-        "pct": -8.69
+        "pct": -9.07
       },
       {
-        "symbol": "XE",
-        "name": "X-Energy, Inc.",
-        "pct": -8.06
+        "symbol": "UUUU",
+        "name": "Energy Fuels Inc",
+        "pct": -8.53
+      },
+      {
+        "symbol": "CELC",
+        "name": "Celcuity Inc.",
+        "pct": -8.45
       },
       {
         "symbol": "BRUN",
         "name": "Boost Run Inc.",
-        "pct": -7.84
+        "pct": -8.11
       }
     ],
     "universe": 1309
