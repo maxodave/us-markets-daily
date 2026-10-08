@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-07T01:02:41Z",
+  "updated": "2026-10-08T01:19:03Z",
   "session_date": "2026-10-06",
-  "universe": 558,
+  "universe": 557,
   "up": {
-    "count": 373,
+    "count": 378,
     "by_length": {
-      "1": 154,
-      "2": 98,
-      "3": 58,
-      "4": 48,
+      "1": 158,
+      "2": 97,
+      "3": 55,
+      "4": 53,
       "5": 7,
-      "6": 5,
-      "7": 2,
-      "8+": 1
+      "6": 3,
+      "7": 3,
+      "8+": 2
     },
     "top": [
       {
@@ -21,8 +21,36 @@
         "indices": [
           "sp500"
         ],
+        "days": 9,
+        "cum_pct": 34.25
+      },
+      {
+        "symbol": "Q",
+        "name": "Qnity Electronics",
+        "indices": [
+          "sp500"
+        ],
         "days": 8,
-        "cum_pct": 31.22
+        "cum_pct": 9.26
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify",
+        "indices": [
+          "nasdaq100"
+        ],
+        "days": 7,
+        "cum_pct": 15.6
+      },
+      {
+        "symbol": "CRWD",
+        "name": "CrowdStrike",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 7,
+        "cum_pct": 10.6
       },
       {
         "symbol": "CSCO",
@@ -36,15 +64,6 @@
         "cum_pct": 10.53
       },
       {
-        "symbol": "Q",
-        "name": "Qnity Electronics",
-        "indices": [
-          "sp500"
-        ],
-        "days": 7,
-        "cum_pct": 7.54
-      },
-      {
         "symbol": "ON",
         "name": "ON Semiconductor",
         "indices": [
@@ -52,25 +71,6 @@
         ],
         "days": 6,
         "cum_pct": 14.09
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": 6,
-        "cum_pct": 12.56
-      },
-      {
-        "symbol": "CRWD",
-        "name": "CrowdStrike",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 6,
-        "cum_pct": 8.15
       },
       {
         "symbol": "EIX",
@@ -111,13 +111,13 @@
         "cum_pct": 10.91
       },
       {
-        "symbol": "GDDY",
-        "name": "GoDaddy",
+        "symbol": "PSX",
+        "name": "Phillips 66",
         "indices": [
           "sp500"
         ],
         "days": 5,
-        "cum_pct": 6.43
+        "cum_pct": 6.95
       },
       {
         "symbol": "OXY",
@@ -160,14 +160,14 @@
     ]
   },
   "down": {
-    "count": 183,
+    "count": 178,
     "by_length": {
-      "1": 130,
-      "2": 27,
+      "1": 125,
+      "2": 29,
       "3": 14,
-      "4": 3,
+      "4": 2,
       "5": 1,
-      "6": 5,
+      "6": 4,
       "7": 2,
       "8+": 1
     },
@@ -178,17 +178,17 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -10,
-        "cum_pct": -19.5
+        "days": -11,
+        "cum_pct": -22.44
       },
       {
-        "symbol": "KHC",
-        "name": "Kraft Heinz",
+        "symbol": "SW",
+        "name": "Smurfit Westrock",
         "indices": [
           "sp500"
         ],
         "days": -7,
-        "cum_pct": -8.47
+        "cum_pct": -8.66
       },
       {
         "symbol": "RTX",
@@ -207,15 +207,6 @@
         ],
         "days": -6,
         "cum_pct": -9.69
-      },
-      {
-        "symbol": "SW",
-        "name": "Smurfit Westrock",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -8.62
       },
       {
         "symbol": "GILD",
@@ -278,15 +269,6 @@
         "cum_pct": -3.24
       },
       {
-        "symbol": "VICI",
-        "name": "Vici Properties",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -2.89
-      },
-      {
         "symbol": "ACN",
         "name": "Accenture",
         "indices": [
@@ -294,6 +276,16 @@
         ],
         "days": -3,
         "cum_pct": -8.9
+      },
+      {
+        "symbol": "SNDK",
+        "name": "Sandisk",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -7.12
       },
       {
         "symbol": "CTSH",
@@ -313,10 +305,20 @@
         ],
         "days": -3,
         "cum_pct": -4.94
+      },
+      {
+        "symbol": "MU",
+        "name": "Micron Technology",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -4.72
       }
     ]
   },
   "flat": {
-    "count": 2
+    "count": 1
   }
 }

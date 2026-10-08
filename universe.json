@@ -1,16 +1,20 @@
 {
-  "generated_at": "2026-10-06",
+  "generated_at": "2026-10-07",
   "guardiano": {
-    "controllato_alle": "2026-10-07T00:58:09Z",
-    "ora_new_york": "Tue 06 20:58",
+    "controllato_alle": "2026-10-08T01:14:09Z",
+    "ora_new_york": "Wed 07 21:14",
     "date_storia": {
-      "2026-10-06": 440,
-      "2026-10-05": 117
+      "2026-10-06": 557
     },
-    "riferimento": "2026-10-06",
-    "azione": "coincide",
-    "riparati": 0,
-    "seduta": "2026-10-06"
+    "riferimento": "2026-10-07",
+    "azione": "riparato",
+    "riparati": 557,
+    "seduta": "2026-10-07",
+    "date_dopo": {
+      "2026-10-07": 556,
+      "2026-10-06": 1,
+      "2026-10-05": 1
+    }
   },
   "companies": [
     {
@@ -3994,8 +3998,7 @@
       "symbol": "WBD",
       "name": "Warner Bros. Discovery",
       "indices": [
-        "sp500",
-        "nasdaq100"
+        "sp500"
       ]
     },
     {
