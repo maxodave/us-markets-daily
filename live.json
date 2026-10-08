@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T20:20:31Z",
+  "updated": "2026-10-08T13:00:30Z",
   "market_open": false,
   "indices": [
     {
@@ -23,8 +23,8 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -2.45,
-      "last": 49972.25
+      "pct": -0.86,
+      "last": 49551.49
     }
   ],
   "movers": {
@@ -33,11 +33,6 @@
         "symbol": "XRPN",
         "name": "Armada Acquisition Corp. II",
         "pct": 30.26
-      },
-      {
-        "symbol": "MI",
-        "name": "NFT Limited Class A",
-        "pct": 25.2
       },
       {
         "symbol": "BSP",
@@ -55,6 +50,21 @@
         "pct": 11.93
       },
       {
+        "symbol": "BRZE",
+        "name": "Braze, Inc.",
+        "pct": 8.05
+      },
+      {
+        "symbol": "BKV",
+        "name": "BKV Corporation",
+        "pct": 7.39
+      },
+      {
+        "symbol": "NWE",
+        "name": "NorthWestern Energy Group, Inc.",
+        "pct": 7.33
+      },
+      {
         "symbol": "BKH",
         "name": "Black Hills Corporation",
         "pct": 7.21
@@ -65,36 +75,26 @@
         "pct": 6.55
       },
       {
-        "symbol": "SPOT",
-        "name": "Spotify Technology S.A.",
-        "pct": 5.08
-      },
-      {
-        "symbol": "KVYO",
-        "name": "Klaviyo, Inc. Series A",
-        "pct": 4.88
-      },
-      {
-        "symbol": "NRG",
-        "name": "NRG Energy, Inc.",
-        "pct": 4.84
+        "symbol": "PGNY",
+        "name": "Progyny, Inc.",
+        "pct": 6.33
       }
     ],
     "losers": [
       {
-        "symbol": "ALMR",
-        "name": "Alamar Biosciences, Inc.",
-        "pct": -13.92
+        "symbol": "BULL",
+        "name": "Webull Corporation",
+        "pct": -19.09
+      },
+      {
+        "symbol": "HESM",
+        "name": "Hess Midstream LP Class A Representing Limit",
+        "pct": -14.63
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": -11.07
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -10.24
+        "pct": -11.04
       },
       {
         "symbol": "ABSI",
@@ -132,6 +132,6 @@
         "pct": -8.46
       }
     ],
-    "universe": 1310
+    "universe": 1334
   }
 }
