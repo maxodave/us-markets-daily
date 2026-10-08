@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-08T16:20:37Z",
+  "updated": "2026-10-08T16:45:32Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.21,
-      "last": 7783.93
+      "pct": -0.31,
+      "last": 7776.19
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.5,
-      "last": 31003.32
+      "pct": -0.67,
+      "last": 30951.88
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.13,
-      "last": 51103.63
+      "pct": -0.18,
+      "last": 51074.62
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "HAE",
-        "name": "Haemonetics Corporation",
-        "pct": 15.76
-      },
-      {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 15.69
+        "pct": 17.17
       },
       {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "pct": 6.26
-      },
-      {
-        "symbol": "CMG",
-        "name": "Chipotle Mexican Grill, Inc.",
-        "pct": 5.87
-      },
-      {
-        "symbol": "SM",
-        "name": "SM Energy Company",
-        "pct": 5.72
+        "symbol": "HAE",
+        "name": "Haemonetics Corporation",
+        "pct": 16.22
       },
       {
         "symbol": "COCO",
         "name": "The Vita Coco Company, Inc.",
-        "pct": 5.71
+        "pct": 7.04
+      },
+      {
+        "symbol": "CMG",
+        "name": "Chipotle Mexican Grill, Inc.",
+        "pct": 6.78
+      },
+      {
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": 6.3
       },
       {
         "symbol": "SKYD",
         "name": "Skydance Corporation",
-        "pct": 5.29
-      },
-      {
-        "symbol": "APA",
-        "name": "APA Corporation",
-        "pct": 5.06
+        "pct": 5.83
       },
       {
         "symbol": "GDDY",
         "name": "GoDaddy Inc.",
-        "pct": 4.94
+        "pct": 5.36
       },
       {
-        "symbol": "MPC",
-        "name": "Marathon Petroleum Corporation",
-        "pct": 4.6
+        "symbol": "GME",
+        "name": "GameStop Corporation",
+        "pct": 4.64
+      },
+      {
+        "symbol": "DOCS",
+        "name": "Doximity, Inc.",
+        "pct": 4.64
+      },
+      {
+        "symbol": "FRO",
+        "name": "Frontline Plc",
+        "pct": 4.62
       }
     ],
     "losers": [
       {
         "symbol": "APUS",
         "name": "Apimeds Pharmaceuticals US, Inc.",
-        "pct": -19.13
-      },
-      {
-        "symbol": "NN",
-        "name": "NextNav Inc.",
-        "pct": -11.96
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -11.17
-      },
-      {
-        "symbol": "GKOS",
-        "name": "Glaukos Corporation",
-        "pct": -11.16
-      },
-      {
-        "symbol": "XRPN",
-        "name": "Armada Acquisition Corp. II",
-        "pct": -10.12
+        "pct": -19.29
       },
       {
         "symbol": "EQPT",
         "name": "EquipmentShare.com Inc",
-        "pct": -10.07
+        "pct": -13.19
       },
       {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "pct": -9.58
+        "symbol": "NN",
+        "name": "NextNav Inc.",
+        "pct": -12.39
       },
       {
-        "symbol": "RVMD",
-        "name": "Revolution Medicines, Inc.",
-        "pct": -9.09
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -11.95
+      },
+      {
+        "symbol": "GKOS",
+        "name": "Glaukos Corporation",
+        "pct": -10.89
       },
       {
         "symbol": "RIOT",
         "name": "Riot Platforms, Inc.",
-        "pct": -9.01
+        "pct": -10.06
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -8.14
+        "pct": -9.82
+      },
+      {
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "pct": -9.44
+      },
+      {
+        "symbol": "AAOI",
+        "name": "Applied Optoelectronics, Inc.",
+        "pct": -9.31
+      },
+      {
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -9.03
       }
     ],
     "universe": 1334
