@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-08T19:58:45Z",
-  "market_open": true,
+  "updated": "2026-10-08T20:14:29Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.43,
-      "last": 7766.58
+      "pct": -0.47,
+      "last": 7765.36
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.37,
-      "last": 30733.04
+      "pct": -1.39,
+      "last": 30725.81
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.12,
-      "last": 51230.04
+      "pct": 0.1,
+      "last": 51231.64
     },
     {
       "key": "ftsemib",
@@ -32,79 +32,74 @@
       {
         "symbol": "HAE",
         "name": "Haemonetics Corporation",
-        "pct": 17.59
+        "pct": 17.46
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 14.27
+        "pct": 14.13
       },
       {
         "symbol": "COCO",
         "name": "The Vita Coco Company, Inc.",
-        "pct": 10.58
+        "pct": 10.52
       },
       {
         "symbol": "ERAS",
         "name": "Erasca, Inc.",
-        "pct": 9.35
+        "pct": 9.49
       },
       {
         "symbol": "CSGP",
         "name": "CoStar Group, Inc.",
-        "pct": 8.04
-      },
-      {
-        "symbol": "FLUT",
-        "name": "Flutter Entertainment plc",
-        "pct": 7.98
+        "pct": 8.01
       },
       {
         "symbol": "NTLA",
         "name": "Intellia Therapeutics, Inc.",
-        "pct": 7.56
+        "pct": 7.6
+      },
+      {
+        "symbol": "FLUT",
+        "name": "Flutter Entertainment plc",
+        "pct": 7.57
       },
       {
         "symbol": "Z",
         "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 7.02
+        "pct": 6.93
       },
       {
         "symbol": "PBF",
         "name": "PBF Energy Inc.",
-        "pct": 6.84
+        "pct": 6.76
       },
       {
         "symbol": "FIGS",
         "name": "FIGS, Inc.",
-        "pct": 6.83
+        "pct": 6.54
       }
     ],
     "losers": [
       {
         "symbol": "APUS",
         "name": "Apimeds Pharmaceuticals US, Inc.",
-        "pct": -22.94
+        "pct": -21.84
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -13.51
+        "pct": -13.58
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -13.33
+        "pct": -13.45
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": -12.76
-      },
-      {
-        "symbol": "EQPT",
-        "name": "EquipmentShare.com Inc",
-        "pct": -12.27
+        "pct": -12.72
       },
       {
         "symbol": "BRUN",
@@ -112,24 +107,29 @@
         "pct": -12.0
       },
       {
+        "symbol": "EQPT",
+        "name": "EquipmentShare.com Inc",
+        "pct": -11.43
+      },
+      {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -10.77
+        "pct": -10.87
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -10.23
-      },
-      {
-        "symbol": "BAND",
-        "name": "Bandwidth Inc.",
-        "pct": -9.62
+        "pct": -10.19
       },
       {
         "symbol": "COHR",
         "name": "Coherent Corp.",
-        "pct": -9.43
+        "pct": -9.62
+      },
+      {
+        "symbol": "BAND",
+        "name": "Bandwidth Inc.",
+        "pct": -9.61
       }
     ],
     "universe": 1333
