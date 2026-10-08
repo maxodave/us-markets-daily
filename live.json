@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-08T16:00:54Z",
+  "updated": "2026-10-08T16:10:37Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.36,
-      "last": 7771.89
+      "pct": -0.33,
+      "last": 7774.41
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
       "pct": -0.67,
-      "last": 30951.76
+      "last": 30952.81
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.31,
-      "last": 51008.26
+      "pct": -0.28,
+      "last": 51026.8
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "HAE",
         "name": "Haemonetics Corporation",
-        "pct": 15.85
+        "pct": 16.01
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 15.34
+        "pct": 15.08
       },
       {
         "symbol": "COCO",
         "name": "The Vita Coco Company, Inc.",
-        "pct": 7.34
+        "pct": 6.4
       },
       {
         "symbol": "CMG",
         "name": "Chipotle Mexican Grill, Inc.",
-        "pct": 6.29
+        "pct": 5.95
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": 5.92
+        "pct": 5.7
+      },
+      {
+        "symbol": "SKYD",
+        "name": "Skydance Corporation",
+        "pct": 5.68
       },
       {
         "symbol": "SM",
         "name": "SM Energy Company",
-        "pct": 5.74
+        "pct": 5.67
       },
       {
         "symbol": "MPC",
         "name": "Marathon Petroleum Corporation",
-        "pct": 5.53
-      },
-      {
-        "symbol": "APA",
-        "name": "APA Corporation",
-        "pct": 4.99
+        "pct": 5.37
       },
       {
         "symbol": "FRO",
         "name": "Frontline Plc",
-        "pct": 4.86
+        "pct": 5.11
       },
       {
-        "symbol": "PBF",
-        "name": "PBF Energy Inc.",
-        "pct": 4.71
+        "symbol": "APA",
+        "name": "APA Corporation",
+        "pct": 5.07
       }
     ],
     "losers": [
       {
         "symbol": "APUS",
         "name": "Apimeds Pharmaceuticals US, Inc.",
-        "pct": -18.58
+        "pct": -17.87
       },
       {
         "symbol": "NN",
         "name": "NextNav Inc.",
-        "pct": -13.38
+        "pct": -12.39
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -11.61
+        "pct": -11.25
       },
       {
         "symbol": "GKOS",
         "name": "Glaukos Corporation",
-        "pct": -10.79
+        "pct": -10.67
       },
       {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "pct": -9.93
+        "pct": -9.79
+      },
+      {
+        "symbol": "XRPN",
+        "name": "Armada Acquisition Corp. II",
+        "pct": -9.39
       },
       {
         "symbol": "RIOT",
         "name": "Riot Platforms, Inc.",
-        "pct": -9.36
-      },
-      {
-        "symbol": "RVMD",
-        "name": "Revolution Medicines, Inc.",
-        "pct": -9.07
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -8.99
-      },
-      {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": -8.83
+        "pct": -9.12
       },
       {
         "symbol": "EQPT",
         "name": "EquipmentShare.com Inc",
-        "pct": -7.92
+        "pct": -8.82
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -8.71
+      },
+      {
+        "symbol": "RVMD",
+        "name": "Revolution Medicines, Inc.",
+        "pct": -8.46
       }
     ],
     "universe": 1334
