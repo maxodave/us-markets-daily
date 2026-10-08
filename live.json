@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-08T14:10:30Z",
+  "updated": "2026-10-08T14:20:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.19,
-      "last": 7785.74
+      "pct": -0.16,
+      "last": 7787.7
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.47,
-      "last": 31014.49
+      "pct": -0.34,
+      "last": 31053.89
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.03,
-      "last": 51181.63
+      "pct": -0.02,
+      "last": 51158.71
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.81,
-      "last": 49580.22
+      "pct": -0.72,
+      "last": 49622.64
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 18.12
+        "pct": 16.3
       },
       {
         "symbol": "HAE",
         "name": "Haemonetics Corporation",
-        "pct": 12.36
-      },
-      {
-        "symbol": "COCO",
-        "name": "The Vita Coco Company, Inc.",
-        "pct": 6.49
+        "pct": 12.57
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
+        "pct": 7.76
+      },
+      {
+        "symbol": "COCO",
+        "name": "The Vita Coco Company, Inc.",
         "pct": 6.26
       },
       {
         "symbol": "GFS",
         "name": "GlobalFoundries Inc.",
-        "pct": 5.96
+        "pct": 6.1
       },
       {
-        "symbol": "SKYD",
-        "name": "Skydance Corporation",
-        "pct": 5.12
-      },
-      {
-        "symbol": "NTLA",
-        "name": "Intellia Therapeutics, Inc.",
-        "pct": 4.87
+        "symbol": "CMG",
+        "name": "Chipotle Mexican Grill, Inc.",
+        "pct": 5.6
       },
       {
         "symbol": "FLUT",
         "name": "Flutter Entertainment plc",
-        "pct": 4.67
+        "pct": 5.08
       },
       {
-        "symbol": "FRO",
-        "name": "Frontline Plc",
-        "pct": 4.63
+        "symbol": "SKYD",
+        "name": "Skydance Corporation",
+        "pct": 5.01
       },
       {
-        "symbol": "ACN",
-        "name": "Accenture plc",
-        "pct": 4.44
+        "symbol": "BROS",
+        "name": "Dutch Bros Inc.",
+        "pct": 4.85
+      },
+      {
+        "symbol": "SM",
+        "name": "SM Energy Company",
+        "pct": 4.77
       }
     ],
     "losers": [
       {
         "symbol": "APUS",
         "name": "Apimeds Pharmaceuticals US, Inc.",
-        "pct": -16.43
+        "pct": -16.31
       },
       {
         "symbol": "GKOS",
         "name": "Glaukos Corporation",
-        "pct": -10.3
-      },
-      {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "pct": -9.11
-      },
-      {
-        "symbol": "XRPN",
-        "name": "Armada Acquisition Corp. II",
-        "pct": -8.84
+        "pct": -12.26
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -8.47
+        "pct": -8.73
       },
       {
         "symbol": "RVMD",
         "name": "Revolution Medicines, Inc.",
-        "pct": -8.33
+        "pct": -8.57
       },
       {
-        "symbol": "RIOT",
-        "name": "Riot Platforms, Inc.",
-        "pct": -6.23
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "pct": -8.45
+      },
+      {
+        "symbol": "BAND",
+        "name": "Bandwidth Inc.",
+        "pct": -6.53
+      },
+      {
+        "symbol": "EQPT",
+        "name": "EquipmentShare.com Inc",
+        "pct": -5.83
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -6.01
+        "pct": -5.8
       },
       {
-        "symbol": "CLSK",
-        "name": "CleanSpark, Inc.",
-        "pct": -5.95
+        "symbol": "RIOT",
+        "name": "Riot Platforms, Inc.",
+        "pct": -5.61
       },
       {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -5.93
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -5.59
       }
     ],
     "universe": 1334
