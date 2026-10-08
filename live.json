@@ -1,135 +1,135 @@
 {
-  "updated": "2026-10-08T13:10:25Z",
-  "market_open": false,
+  "updated": "2026-10-08T13:50:42Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.22,
-      "last": 7801.77
+      "pct": -0.25,
+      "last": 7780.43
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.21,
-      "last": 31160.08
+      "pct": -0.6,
+      "last": 30974.06
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.66,
-      "last": 51179.87
+      "pct": -0.01,
+      "last": 51162.25
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.79,
-      "last": 49590.55
+      "pct": -0.69,
+      "last": 49637.93
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "XRPN",
-        "name": "Armada Acquisition Corp. II",
-        "pct": 30.26
+        "symbol": "HAE",
+        "name": "Haemonetics Corporation",
+        "pct": 16.31
       },
       {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "pct": 24.19
+        "symbol": "MANE",
+        "name": "Veradermics, Incorporated",
+        "pct": 13.47
+      },
+      {
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": 6.14
+      },
+      {
+        "symbol": "NTLA",
+        "name": "Intellia Therapeutics, Inc.",
+        "pct": 5.21
+      },
+      {
+        "symbol": "FRO",
+        "name": "Frontline Plc",
+        "pct": 4.82
+      },
+      {
+        "symbol": "DHT",
+        "name": "DHT Holdings, Inc.",
+        "pct": 4.26
+      },
+      {
+        "symbol": "SM",
+        "name": "SM Energy Company",
+        "pct": 4.11
+      },
+      {
+        "symbol": "BP",
+        "name": "BP p.l.c.",
+        "pct": 4.04
+      },
+      {
+        "symbol": "STNG",
+        "name": "Scorpio Tankers Inc.",
+        "pct": 4.03
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": 13.08
-      },
-      {
-        "symbol": "AVBP",
-        "name": "ArriVent BioPharma, Inc.",
-        "pct": 11.93
-      },
-      {
-        "symbol": "BRZE",
-        "name": "Braze, Inc.",
-        "pct": 8.05
-      },
-      {
-        "symbol": "BKV",
-        "name": "BKV Corporation",
-        "pct": 7.39
-      },
-      {
-        "symbol": "NWE",
-        "name": "NorthWestern Energy Group, Inc.",
-        "pct": 7.33
-      },
-      {
-        "symbol": "BKH",
-        "name": "Black Hills Corporation",
-        "pct": 7.21
-      },
-      {
-        "symbol": "GKOS",
-        "name": "Glaukos Corporation",
-        "pct": 6.55
-      },
-      {
-        "symbol": "PGNY",
-        "name": "Progyny, Inc.",
-        "pct": 6.33
+        "pct": 3.95
       }
     ],
     "losers": [
       {
-        "symbol": "BULL",
-        "name": "Webull Corporation",
-        "pct": -19.09
+        "symbol": "APUS",
+        "name": "Apimeds Pharmaceuticals US, Inc.",
+        "pct": -18.72
       },
       {
-        "symbol": "HESM",
-        "name": "Hess Midstream LP Class A Representing Limit",
-        "pct": -14.63
+        "symbol": "XRPN",
+        "name": "Armada Acquisition Corp. II",
+        "pct": -13.67
       },
       {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": -11.04
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "pct": -11.21
       },
       {
-        "symbol": "ABSI",
-        "name": "Absci Corporation",
-        "pct": -10.22
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -7.87
       },
       {
-        "symbol": "IESC",
-        "name": "IES Holdings, Inc.",
-        "pct": -9.66
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "pct": -6.08
       },
       {
-        "symbol": "FSM",
-        "name": "Fortuna Mining Corp.",
-        "pct": -9.48
+        "symbol": "OLED",
+        "name": "Universal Display Corporation",
+        "pct": -5.89
       },
       {
-        "symbol": "BRUN",
-        "name": "Boost Run Inc.",
-        "pct": -9.36
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions, Inc.",
+        "pct": -5.43
       },
       {
-        "symbol": "UUUU",
-        "name": "Energy Fuels Inc",
-        "pct": -8.88
+        "symbol": "GKOS",
+        "name": "Glaukos Corporation",
+        "pct": -5.41
       },
       {
-        "symbol": "AZTA",
-        "name": "Azenta, Inc.",
-        "pct": -8.79
+        "symbol": "RIOT",
+        "name": "Riot Platforms, Inc.",
+        "pct": -5.37
       },
       {
-        "symbol": "BB",
-        "name": "BlackBerry Limited",
-        "pct": -8.46
+        "symbol": "ESAB",
+        "name": "ESAB Corporation",
+        "pct": -5.33
       }
     ],
     "universe": 1334
