@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-08T17:45:33Z",
+  "updated": "2026-10-08T17:55:38Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.58,
-      "last": 7755.01
+      "pct": -0.72,
+      "last": 7743.76
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.54,
-      "last": 30678.77
+      "pct": -1.66,
+      "last": 30643.43
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.06,
-      "last": 51200.83
+      "pct": -0.08,
+      "last": 51125.03
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "HAE",
         "name": "Haemonetics Corporation",
-        "pct": 16.79
+        "pct": 16.36
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 13.62
+        "pct": 12.94
       },
       {
         "symbol": "COCO",
         "name": "The Vita Coco Company, Inc.",
-        "pct": 8.08
-      },
-      {
-        "symbol": "CMG",
-        "name": "Chipotle Mexican Grill, Inc.",
-        "pct": 7.47
+        "pct": 8.8
       },
       {
         "symbol": "ERAS",
         "name": "Erasca, Inc.",
-        "pct": 6.87
+        "pct": 8.36
+      },
+      {
+        "symbol": "CMG",
+        "name": "Chipotle Mexican Grill, Inc.",
+        "pct": 7.39
       },
       {
         "symbol": "CSGP",
         "name": "CoStar Group, Inc.",
-        "pct": 6.61
-      },
-      {
-        "symbol": "GDDY",
-        "name": "GoDaddy Inc.",
-        "pct": 6.12
+        "pct": 6.43
       },
       {
         "symbol": "FLUT",
         "name": "Flutter Entertainment plc",
-        "pct": 6.11
+        "pct": 6.12
+      },
+      {
+        "symbol": "GDDY",
+        "name": "GoDaddy Inc.",
+        "pct": 5.71
+      },
+      {
+        "symbol": "SKYD",
+        "name": "Skydance Corporation",
+        "pct": 5.57
       },
       {
         "symbol": "FRO",
         "name": "Frontline Plc",
-        "pct": 5.55
-      },
-      {
-        "symbol": "SM",
-        "name": "SM Energy Company",
-        "pct": 5.45
+        "pct": 5.35
       }
     ],
     "losers": [
       {
         "symbol": "APUS",
         "name": "Apimeds Pharmaceuticals US, Inc.",
-        "pct": -23.9
+        "pct": -23.76
       },
       {
         "symbol": "EQPT",
         "name": "EquipmentShare.com Inc",
-        "pct": -17.53
+        "pct": -17.2
       },
       {
         "symbol": "NN",
         "name": "NextNav Inc.",
-        "pct": -14.16
+        "pct": -13.06
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -13.72
-      },
-      {
-        "symbol": "BRUN",
-        "name": "Boost Run Inc.",
-        "pct": -13.31
+        "pct": -12.98
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -12.63
+        "pct": -12.59
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -11.77
+        "pct": -11.91
       },
       {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": -10.87
+        "symbol": "BRUN",
+        "name": "Boost Run Inc.",
+        "pct": -11.45
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -10.65
+        "pct": -10.68
       },
       {
         "symbol": "RIOT",
         "name": "Riot Platforms, Inc.",
-        "pct": -10.28
+        "pct": -10.63
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -10.62
       }
     ],
     "universe": 1334
