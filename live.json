@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T20:14:29Z",
+  "updated": "2026-10-09T13:13:07Z",
   "market_open": false,
   "indices": [
     {
@@ -23,12 +23,17 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.37,
-      "last": 49297.88
+      "pct": 0.94,
+      "last": 49819.1
     }
   ],
   "movers": {
     "gainers": [
+      {
+        "symbol": "PCRX",
+        "name": "Pacira BioSciences, Inc.",
+        "pct": 44.4
+      },
       {
         "symbol": "HAE",
         "name": "Haemonetics Corporation",
@@ -38,6 +43,11 @@
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
         "pct": 14.13
+      },
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": 11.05
       },
       {
         "symbol": "COCO",
@@ -62,30 +72,15 @@
       {
         "symbol": "FLUT",
         "name": "Flutter Entertainment plc",
-        "pct": 7.57
+        "pct": 7.55
       },
       {
-        "symbol": "Z",
-        "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 6.93
-      },
-      {
-        "symbol": "PBF",
-        "name": "PBF Energy Inc.",
-        "pct": 6.76
-      },
-      {
-        "symbol": "FIGS",
-        "name": "FIGS, Inc.",
-        "pct": 6.54
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": 7.27
       }
     ],
     "losers": [
-      {
-        "symbol": "APUS",
-        "name": "Apimeds Pharmaceuticals US, Inc.",
-        "pct": -21.84
-      },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
@@ -124,14 +119,19 @@
       {
         "symbol": "COHR",
         "name": "Coherent Corp.",
-        "pct": -9.62
+        "pct": -9.63
       },
       {
         "symbol": "BAND",
         "name": "Bandwidth Inc.",
         "pct": -9.61
+      },
+      {
+        "symbol": "ALAB",
+        "name": "Astera Labs, Inc.",
+        "pct": -9.21
       }
     ],
-    "universe": 1333
+    "universe": 1404
   }
 }
