@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-09T19:16:44Z",
+  "updated": "2026-10-09T19:50:33Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.66,
-      "last": 7817.19
+      "pct": 0.61,
+      "last": 7813.34
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.53,
-      "last": 30890.17
+      "pct": 0.48,
+      "last": 30873.44
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.99,
-      "last": 51730.96
+      "pct": 0.93,
+      "last": 51703.48
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "NVAX",
         "name": "Novavax, Inc.",
-        "pct": 17.8
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": 17.6
+        "pct": 15.67
       },
       {
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
-        "pct": 13.27
+        "pct": 15.18
       },
       {
-        "symbol": "AUGO",
-        "name": "Aura Minerals Inc.",
-        "pct": 12.83
-      },
-      {
-        "symbol": "HUM",
-        "name": "Humana Inc.",
-        "pct": 12.15
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": 15.03
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 12.05
+        "pct": 12.54
       },
       {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 11.01
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "pct": 11.89
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": 10.55
+        "pct": 10.6
       },
       {
-        "symbol": "DFTX",
-        "name": "Definium Therapeutics, Inc.",
-        "pct": 10.53
+        "symbol": "AUGO",
+        "name": "Aura Minerals Inc.",
+        "pct": 10.28
       },
       {
         "symbol": "PCVX",
         "name": "Vaxcyte, Inc.",
-        "pct": 9.92
+        "pct": 9.82
+      },
+      {
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": 9.73
+      },
+      {
+        "symbol": "SEZL",
+        "name": "Sezzle Inc.",
+        "pct": 9.32
       }
     ],
     "losers": [
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -14.89
-      },
-      {
-        "symbol": "TMUS",
-        "name": "T-Mobile US, Inc.",
-        "pct": -12.8
+        "pct": -15.43
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -12.74
+        "pct": -13.75
+      },
+      {
+        "symbol": "TMUS",
+        "name": "T-Mobile US, Inc.",
+        "pct": -13.4
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": -12.44
+        "pct": -11.66
       },
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "pct": -11.28
+        "pct": -10.94
       },
       {
         "symbol": "VZ",
         "name": "Verizon Communications Inc.",
-        "pct": -10.43
+        "pct": -10.36
       },
       {
         "symbol": "TIGO",
         "name": "Millicom International Cellular S.A.",
-        "pct": -7.48
+        "pct": -9.14
       },
       {
         "symbol": "HPQ",
         "name": "HP Inc.",
-        "pct": -7.04
-      },
-      {
-        "symbol": "JOBY",
-        "name": "Joby Aviation, Inc.",
-        "pct": -6.78
+        "pct": -7.71
       },
       {
         "symbol": "PARR",
         "name": "Par Pacific Holdings, Inc.",
-        "pct": -6.12
+        "pct": -6.42
+      },
+      {
+        "symbol": "CNH",
+        "name": "CNH Industrial N.V.",
+        "pct": -5.77
       }
     ],
     "universe": 1404
