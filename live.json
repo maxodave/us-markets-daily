@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-09T13:43:57Z",
+  "updated": "2026-10-09T13:58:15Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.28,
-      "last": 7787.74
+      "pct": 0.25,
+      "last": 7785.29
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.35,
-      "last": 30832.94
+      "pct": 0.26,
+      "last": 30806.92
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": 0.25,
-      "last": 51351.64
+      "last": 51354.5
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.03,
-      "last": 49862.38
+      "pct": 1.02,
+      "last": 49859.11
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "HUM",
         "name": "Humana Inc.",
-        "pct": 16.41
+        "pct": 13.83
+      },
+      {
+        "symbol": "NVAX",
+        "name": "Novavax, Inc.",
+        "pct": 12.76
       },
       {
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
-        "pct": 12.16
+        "pct": 10.45
       },
       {
         "symbol": "NN",
         "name": "NextNav Inc.",
-        "pct": 11.03
-      },
-      {
-        "symbol": "AMT",
-        "name": "American Tower Corporation (REIT)",
-        "pct": 7.43
-      },
-      {
-        "symbol": "SBAC",
-        "name": "SBA Communications Corporation",
-        "pct": 7.01
-      },
-      {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": 6.41
-      },
-      {
-        "symbol": "AUGO",
-        "name": "Aura Minerals Inc.",
-        "pct": 6.34
+        "pct": 9.91
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": 6.21
+        "pct": 8.34
+      },
+      {
+        "symbol": "AUGO",
+        "name": "Aura Minerals Inc.",
+        "pct": 8.3
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 6.85
+      },
+      {
+        "symbol": "AMT",
+        "name": "American Tower Corporation (REIT)",
+        "pct": 6.67
+      },
+      {
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "pct": 6.61
       },
       {
         "symbol": "VSAT",
         "name": "ViaSat, Inc.",
-        "pct": 6.12
-      },
-      {
-        "symbol": "HELE",
-        "name": "Helen of Troy Limited",
-        "pct": 5.12
+        "pct": 6.22
       }
     ],
     "losers": [
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -20.67
-      },
-      {
-        "symbol": "BKD",
-        "name": "Brookdale Senior Living Inc.",
-        "pct": -9.41
-      },
-      {
-        "symbol": "TMUS",
-        "name": "T-Mobile US, Inc.",
-        "pct": -9.23
-      },
-      {
-        "symbol": "T",
-        "name": "AT&T Inc.",
-        "pct": -8.2
-      },
-      {
-        "symbol": "VZ",
-        "name": "Verizon Communications Inc.",
-        "pct": -7.78
-      },
-      {
-        "symbol": "SWKS",
-        "name": "Skyworks Solutions, Inc.",
-        "pct": -7.32
-      },
-      {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": -6.53
-      },
-      {
-        "symbol": "EQPT",
-        "name": "EquipmentShare.com Inc",
-        "pct": -6.1
+        "pct": -17.12
       },
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -6.03
+        "pct": -10.28
       },
       {
-        "symbol": "CRUS",
-        "name": "Cirrus Logic, Inc.",
-        "pct": -5.86
+        "symbol": "BKD",
+        "name": "Brookdale Senior Living Inc.",
+        "pct": -9.46
+      },
+      {
+        "symbol": "TMUS",
+        "name": "T-Mobile US, Inc.",
+        "pct": -8.96
+      },
+      {
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": -8.61
+      },
+      {
+        "symbol": "T",
+        "name": "AT&T Inc.",
+        "pct": -7.66
+      },
+      {
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions, Inc.",
+        "pct": -6.96
+      },
+      {
+        "symbol": "EQPT",
+        "name": "EquipmentShare.com Inc",
+        "pct": -6.86
+      },
+      {
+        "symbol": "VZ",
+        "name": "Verizon Communications Inc.",
+        "pct": -6.84
+      },
+      {
+        "symbol": "JOBY",
+        "name": "Joby Aviation, Inc.",
+        "pct": -6.52
       }
     ],
     "universe": 1404
