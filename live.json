@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-09T18:55:36Z",
+  "updated": "2026-10-09T19:16:44Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.63,
-      "last": 7814.85
+      "pct": 0.66,
+      "last": 7817.19
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.52,
-      "last": 30885.41
+      "pct": 0.53,
+      "last": 30890.17
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.97,
-      "last": 51720.79
+      "pct": 0.99,
+      "last": 51730.96
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": 18.88
-      },
-      {
         "symbol": "NVAX",
         "name": "Novavax, Inc.",
-        "pct": 18.39
+        "pct": 17.8
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": 17.6
       },
       {
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
-        "pct": 13.01
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": 12.53
+        "pct": 13.27
       },
       {
         "symbol": "AUGO",
         "name": "Aura Minerals Inc.",
-        "pct": 12.4
+        "pct": 12.83
       },
       {
         "symbol": "HUM",
         "name": "Humana Inc.",
-        "pct": 12.13
+        "pct": 12.15
       },
       {
-        "symbol": "DFTX",
-        "name": "Definium Therapeutics, Inc.",
-        "pct": 11.04
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": 12.05
       },
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 10.93
+        "pct": 11.01
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": 9.73
+        "pct": 10.55
       },
       {
-        "symbol": "SEZL",
-        "name": "Sezzle Inc.",
-        "pct": 9.45
+        "symbol": "DFTX",
+        "name": "Definium Therapeutics, Inc.",
+        "pct": 10.53
+      },
+      {
+        "symbol": "PCVX",
+        "name": "Vaxcyte, Inc.",
+        "pct": 9.92
       }
     ],
     "losers": [
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -14.36
-      },
-      {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": -12.6
+        "pct": -14.89
       },
       {
         "symbol": "TMUS",
         "name": "T-Mobile US, Inc.",
-        "pct": -12.38
+        "pct": -12.8
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -12.34
+        "pct": -12.74
+      },
+      {
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": -12.44
       },
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "pct": -10.92
+        "pct": -11.28
       },
       {
         "symbol": "VZ",
         "name": "Verizon Communications Inc.",
-        "pct": -10.51
-      },
-      {
-        "symbol": "LUMN",
-        "name": "Lumen Technologies, Inc.",
-        "pct": -7.37
+        "pct": -10.43
       },
       {
         "symbol": "TIGO",
         "name": "Millicom International Cellular S.A.",
-        "pct": -7.32
+        "pct": -7.48
       },
       {
         "symbol": "HPQ",
         "name": "HP Inc.",
-        "pct": -6.96
+        "pct": -7.04
       },
       {
         "symbol": "JOBY",
         "name": "Joby Aviation, Inc.",
-        "pct": -6.61
+        "pct": -6.78
+      },
+      {
+        "symbol": "PARR",
+        "name": "Par Pacific Holdings, Inc.",
+        "pct": -6.12
       }
     ],
     "universe": 1404
