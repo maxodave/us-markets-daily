@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-09T14:48:27Z",
+  "updated": "2026-10-09T14:59:16Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.33,
-      "last": 7791.01
+      "pct": 0.47,
+      "last": 7801.96
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.29,
-      "last": 30813.56
+      "pct": 0.44,
+      "last": 30862.37
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.37,
-      "last": 51412.82
+      "pct": 0.48,
+      "last": 51470.6
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.86,
-      "last": 49776.78
+      "pct": 0.75,
+      "last": 49724.93
     }
   ],
   "movers": {
@@ -32,79 +32,74 @@
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": 12.85
+        "pct": 13.58
       },
       {
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
-        "pct": 12.61
+        "pct": 12.34
       },
       {
         "symbol": "HUM",
         "name": "Humana Inc.",
-        "pct": 11.82
+        "pct": 11.58
       },
       {
         "symbol": "NN",
         "name": "NextNav Inc.",
-        "pct": 11.32
+        "pct": 10.86
       },
       {
         "symbol": "VSAT",
         "name": "ViaSat, Inc.",
-        "pct": 8.4
+        "pct": 9.64
       },
       {
         "symbol": "CCC",
         "name": "CCC Intelligent Solutions Holdings Inc.",
-        "pct": 8.14
-      },
-      {
-        "symbol": "AUGO",
-        "name": "Aura Minerals Inc.",
-        "pct": 7.84
-      },
-      {
-        "symbol": "AMT",
-        "name": "American Tower Corporation (REIT)",
-        "pct": 7.41
+        "pct": 8.45
       },
       {
         "symbol": "NVAX",
         "name": "Novavax, Inc.",
-        "pct": 7.31
+        "pct": 8.37
       },
       {
-        "symbol": "DFTX",
-        "name": "Definium Therapeutics, Inc.",
-        "pct": 7.3
+        "symbol": "AUGO",
+        "name": "Aura Minerals Inc.",
+        "pct": 8.15
+      },
+      {
+        "symbol": "PLNT",
+        "name": "Planet Fitness, Inc.",
+        "pct": 7.56
+      },
+      {
+        "symbol": "AMT",
+        "name": "American Tower Corporation (REIT)",
+        "pct": 7.37
       }
     ],
     "losers": [
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": -17.28
+        "pct": -17.45
       },
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -14.18
-      },
-      {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": -10.12
+        "pct": -13.7
       },
       {
         "symbol": "TMUS",
         "name": "T-Mobile US, Inc.",
-        "pct": -9.87
+        "pct": -10.36
       },
       {
-        "symbol": "BKD",
-        "name": "Brookdale Senior Living Inc.",
-        "pct": -8.4
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": -9.84
       },
       {
         "symbol": "JOBY",
@@ -112,24 +107,29 @@
         "pct": -8.26
       },
       {
-        "symbol": "T",
-        "name": "AT&T Inc.",
-        "pct": -7.42
-      },
-      {
         "symbol": "VZ",
         "name": "Verizon Communications Inc.",
-        "pct": -7.2
+        "pct": -7.97
+      },
+      {
+        "symbol": "T",
+        "name": "AT&T Inc.",
+        "pct": -7.86
+      },
+      {
+        "symbol": "BKD",
+        "name": "Brookdale Senior Living Inc.",
+        "pct": -7.67
       },
       {
         "symbol": "SWKS",
         "name": "Skyworks Solutions, Inc.",
-        "pct": -6.67
+        "pct": -6.76
       },
       {
-        "symbol": "HPQ",
-        "name": "HP Inc.",
-        "pct": -6.32
+        "symbol": "LUMN",
+        "name": "Lumen Technologies, Inc.",
+        "pct": -6.03
       }
     ],
     "universe": 1404
