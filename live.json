@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-09T17:14:38Z",
+  "updated": "2026-10-09T18:05:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.52,
-      "last": 7806.46
+      "pct": 0.56,
+      "last": 7808.82
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.39,
-      "last": 30846.46
+      "pct": 0.43,
+      "last": 30859.07
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.75,
-      "last": 51609.35
+      "pct": 0.85,
+      "last": 51658.79
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": 16.65
+        "pct": 17.79
       },
       {
         "symbol": "NVAX",
         "name": "Novavax, Inc.",
-        "pct": 13.49
+        "pct": 16.62
       },
       {
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
-        "pct": 12.82
-      },
-      {
-        "symbol": "HUM",
-        "name": "Humana Inc.",
-        "pct": 12.66
-      },
-      {
-        "symbol": "AUGO",
-        "name": "Aura Minerals Inc.",
-        "pct": 11.63
+        "pct": 12.83
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": 11.44
+        "pct": 12.36
+      },
+      {
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "pct": 12.32
+      },
+      {
+        "symbol": "AUGO",
+        "name": "Aura Minerals Inc.",
+        "pct": 12.32
       },
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 10.22
+        "pct": 10.67
       },
       {
-        "symbol": "DFTX",
-        "name": "Definium Therapeutics, Inc.",
-        "pct": 10.01
+        "symbol": "PLNT",
+        "name": "Planet Fitness, Inc.",
+        "pct": 9.04
+      },
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": 8.77
       },
       {
         "symbol": "ARQT",
         "name": "Arcutis Biotherapeutics, Inc.",
-        "pct": 9.64
-      },
-      {
-        "symbol": "PCVX",
-        "name": "Vaxcyte, Inc.",
-        "pct": 8.97
+        "pct": 8.74
       }
     ],
     "losers": [
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": -14.88
+        "pct": -13.74
       },
       {
         "symbol": "BIAF",
         "name": "bioAffinity Technologies, Inc.",
-        "pct": -14.36
-      },
-      {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": -13.26
+        "pct": -13.3
       },
       {
         "symbol": "TMUS",
         "name": "T-Mobile US, Inc.",
-        "pct": -13.16
+        "pct": -12.79
       },
       {
-        "symbol": "VZ",
-        "name": "Verizon Communications Inc.",
-        "pct": -10.9
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": -12.23
       },
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "pct": -10.88
+        "pct": -11.0
       },
       {
-        "symbol": "JOBY",
-        "name": "Joby Aviation, Inc.",
-        "pct": -8.61
+        "symbol": "VZ",
+        "name": "Verizon Communications Inc.",
+        "pct": -10.95
       },
       {
         "symbol": "TIGO",
         "name": "Millicom International Cellular S.A.",
-        "pct": -7.76
+        "pct": -7.19
       },
       {
-        "symbol": "LUMN",
-        "name": "Lumen Technologies, Inc.",
-        "pct": -7.28
+        "symbol": "JOBY",
+        "name": "Joby Aviation, Inc.",
+        "pct": -6.96
       },
       {
         "symbol": "HPQ",
         "name": "HP Inc.",
-        "pct": -6.06
+        "pct": -6.69
+      },
+      {
+        "symbol": "LUMN",
+        "name": "Lumen Technologies, Inc.",
+        "pct": -6.56
       }
     ],
     "universe": 1404
