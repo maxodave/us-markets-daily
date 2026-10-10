@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-10T05:32:51Z",
+  "updated": "2026-10-10T12:19:59Z",
   "session_date": "2026-10-09",
   "universe": 558,
   "up": {
-    "count": 343,
+    "count": 363,
     "by_length": {
-      "1": 143,
-      "2": 145,
-      "3": 19,
+      "1": 155,
+      "2": 151,
+      "3": 21,
       "4": 4,
       "5": 19,
       "6": 9,
@@ -155,12 +155,12 @@
     ]
   },
   "down": {
-    "count": 214,
+    "count": 194,
     "by_length": {
-      "1": 149,
-      "2": 29,
-      "3": 24,
-      "4": 6,
+      "1": 147,
+      "2": 13,
+      "3": 21,
+      "4": 7,
       "5": 5,
       "8+": 1
     },
@@ -171,8 +171,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -13,
-        "cum_pct": -27.66
+        "days": -14,
+        "cum_pct": -28.59
       },
       {
         "symbol": "ARM",
@@ -250,6 +250,15 @@
         "cum_pct": -6.01
       },
       {
+        "symbol": "UNI.MI",
+        "name": "Unipol",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -4,
+        "cum_pct": -5.29
+      },
+      {
         "symbol": "ROK",
         "name": "Rockwell Automation",
         "indices": [
@@ -287,22 +296,13 @@
         "cum_pct": -12.21
       },
       {
-        "symbol": "ON",
-        "name": "ON Semiconductor",
+        "symbol": "STMMI.MI",
+        "name": "STMicroelectronics",
         "indices": [
-          "sp500"
+          "ftsemib"
         ],
         "days": -3,
-        "cum_pct": -10.17
-      },
-      {
-        "symbol": "RKLB",
-        "name": "Rocket Lab",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": -3,
-        "cum_pct": -9.13
+        "cum_pct": -10.45
       }
     ]
   },
