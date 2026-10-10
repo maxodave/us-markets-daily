@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-09T01:26:37Z",
+  "updated": "2026-10-10T01:11:09Z",
   "session_date": "2026-10-08",
-  "universe": 558,
+  "universe": 557,
   "up": {
-    "count": 349,
+    "count": 354,
     "by_length": {
-      "1": 257,
-      "2": 34,
+      "1": 264,
+      "2": 33,
       "3": 10,
-      "4": 28,
+      "4": 27,
       "5": 12,
       "6": 6,
       "7": 2
@@ -156,11 +156,11 @@
     ]
   },
   "down": {
-    "count": 208,
+    "count": 201,
     "by_length": {
-      "1": 80,
-      "2": 89,
-      "3": 29,
+      "1": 60,
+      "2": 99,
+      "3": 32,
       "4": 8,
       "5": 1,
       "8+": 1
@@ -172,8 +172,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -12,
-        "cum_pct": -24.94
+        "days": -13,
+        "cum_pct": -27.66
       },
       {
         "symbol": "COO",
@@ -289,6 +289,15 @@
         "cum_pct": -8.62
       },
       {
+        "symbol": "FCT.MI",
+        "name": "Fincantieri",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -3,
+        "cum_pct": -7.92
+      },
+      {
         "symbol": "MPWR",
         "name": "Monolithic Power Systems",
         "indices": [
@@ -297,20 +306,10 @@
         ],
         "days": -3,
         "cum_pct": -7.44
-      },
-      {
-        "symbol": "MCHP",
-        "name": "Microchip Technology",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -3,
-        "cum_pct": -7.33
       }
     ]
   },
   "flat": {
-    "count": 1
+    "count": 2
   }
 }
