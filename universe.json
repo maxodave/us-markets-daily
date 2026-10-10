@@ -1,19 +1,16 @@
 {
   "generated_at": "2026-10-09",
   "guardiano": {
-    "controllato_alle": "2026-10-10T01:09:49Z",
-    "ora_new_york": "Fri 09 21:09",
+    "controllato_alle": "2026-10-10T05:31:45Z",
+    "ora_new_york": "Sat 10 01:31",
     "date_storia": {
-      "2026-10-08": 557,
-      "2026-10-09": 1
+      "2026-10-09": 518,
+      "2026-10-08": 40
     },
     "riferimento": "2026-10-09",
-    "azione": "riparato",
-    "riparati": 557,
-    "seduta": "2026-10-09",
-    "date_dopo": {
-      "2026-10-09": 558
-    }
+    "azione": "coincide",
+    "riparati": 0,
+    "seduta": "2026-10-09"
   },
   "companies": [
     {
@@ -2630,7 +2627,8 @@
       "symbol": "MRNA",
       "name": "Moderna",
       "indices": [
-        "sp500"
+        "sp500",
+        "nasdaq100"
       ]
     },
     {

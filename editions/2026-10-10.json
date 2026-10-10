@@ -70,7 +70,8 @@
         "pct_change": 14.21,
         "last_close": 225.0,
         "indices": [
-          "sp500"
+          "sp500",
+          "nasdaq100"
         ],
         "reason": null,
         "news": [],
@@ -376,7 +377,8 @@
           "pct_change": 14.21,
           "last_close": 225.0,
           "indices": [
-            "sp500"
+            "sp500",
+            "nasdaq100"
           ],
           "reason": null,
           "news": [],
@@ -977,15 +979,15 @@
     },
     "nasdaq100": {
       "stats": {
-        "n_up": 65,
+        "n_up": 66,
         "n_down": 35,
         "n_flat": 0,
-        "n_total": 100,
-        "avg_pct": 0.61,
+        "n_total": 101,
+        "avg_pct": 0.75,
         "best_sectors": [
           {
             "sector": "Health Care",
-            "avg_pct": 1.73
+            "avg_pct": 2.98
           },
           {
             "sector": "Utilities",
@@ -1012,6 +1014,20 @@
         ]
       },
       "gainers": [
+        {
+          "symbol": "MRNA",
+          "name": "Moderna",
+          "sector": "Health Care",
+          "pct_change": 14.21,
+          "last_close": 225.0,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
         {
           "symbol": "DDOG",
           "name": "Datadog",
@@ -1129,21 +1145,6 @@
           "pct_change": 3.63,
           "last_close": 232.68,
           "indices": [
-            "nasdaq100"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "AMZN",
-          "name": "Amazon",
-          "sector": "Consumer Discretionary",
-          "pct_change": 3.29,
-          "last_close": 262.43,
-          "indices": [
-            "sp500",
-            "dow",
             "nasdaq100"
           ],
           "reason": null,
@@ -1294,151 +1295,60 @@
       ],
       "paragraphs": {
         "en": [
-          "In the October 9, 2026 session the Nasdaq-100 closed with 65 stocks higher, 35 lower, out of 100 tracked. The average move was +0.61%.",
-          "Best-performing sectors by average move: Health Care (+1.73%); Utilities (+1.40%); Consumer Discretionary (+0.94%). Weakest: Communication Services (-1.91%); Consumer Staples (+0.07%); Industrials (+0.20%).",
-          "Leading the session: Datadog (DDOG, +7.11%); Lumentum (LITE, +5.22%); Palantir Technologies (PLTR, +5.17%). At the bottom: T-Mobile US (TMUS, -13.27%); Arm Holdings (ARM, -3.27%); Starbucks (SBUX, -2.64%)."
+          "In the October 9, 2026 session the Nasdaq-100 closed with 66 stocks higher, 35 lower, out of 101 tracked. The average move was +0.75%.",
+          "Best-performing sectors by average move: Health Care (+2.98%); Utilities (+1.40%); Consumer Discretionary (+0.94%). Weakest: Communication Services (-1.91%); Consumer Staples (+0.07%); Industrials (+0.20%).",
+          "Leading the session: Moderna (MRNA, +14.21%); Datadog (DDOG, +7.11%); Lumentum (LITE, +5.22%). At the bottom: T-Mobile US (TMUS, -13.27%); Arm Holdings (ARM, -3.27%); Starbucks (SBUX, -2.64%)."
         ],
         "it": [
-          "Nella seduta del 9 ottobre 2026 il Nasdaq-100 ha chiuso con 65 societa' in rialzo, 35 in ribasso, su 100 titoli monitorati. La variazione media dell'indice e' stata di +0,61%.",
-          "Settori con la variazione media migliore: Health Care (+1,73%); Utilities (+1,40%); Consumer Discretionary (+0,94%). Settori piu' debolli: Communication Services (-1,91%); Consumer Staples (+0,07%); Industrials (+0,20%).",
-          "In cima alla seduta: Datadog (DDOG, +7,11%); Lumentum (LITE, +5,22%); Palantir Technologies (PLTR, +5,17%). In fondo: T-Mobile US (TMUS, -13,27%); Arm Holdings (ARM, -3,27%); Starbucks (SBUX, -2,64%)."
+          "Nella seduta del 9 ottobre 2026 il Nasdaq-100 ha chiuso con 66 societa' in rialzo, 35 in ribasso, su 101 titoli monitorati. La variazione media dell'indice e' stata di +0,75%.",
+          "Settori con la variazione media migliore: Health Care (+2,98%); Utilities (+1,40%); Consumer Discretionary (+0,94%). Settori piu' debolli: Communication Services (-1,91%); Consumer Staples (+0,07%); Industrials (+0,20%).",
+          "In cima alla seduta: Moderna (MRNA, +14,21%); Datadog (DDOG, +7,11%); Lumentum (LITE, +5,22%). In fondo: T-Mobile US (TMUS, -13,27%); Arm Holdings (ARM, -3,27%); Starbucks (SBUX, -2,64%)."
         ]
       }
     },
     "ftsemib": {
       "stats": {
-        "n_up": 32,
-        "n_down": 6,
-        "n_flat": 2,
+        "n_up": 13,
+        "n_down": 26,
+        "n_flat": 1,
         "n_total": 40,
-        "avg_pct": 1.15,
+        "avg_pct": -0.86,
         "best_sectors": [
           {
-            "sector": "Health Care",
-            "avg_pct": 3.15
-          },
-          {
             "sector": "Energy",
-            "avg_pct": 1.74
+            "avg_pct": 1.39
           },
           {
-            "sector": "Industrial Goods and Services",
-            "avg_pct": 1.32
+            "sector": "Utilities",
+            "avg_pct": 0.86
+          },
+          {
+            "sector": "Financial Services",
+            "avg_pct": -0.33
           }
         ],
         "worst_sectors": [
           {
-            "sector": "Utilities",
-            "avg_pct": 0.21
-          },
-          {
-            "sector": "Financial Services",
-            "avg_pct": 0.73
-          },
-          {
             "sector": "Banks",
-            "avg_pct": 1.15
+            "avg_pct": -2.38
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": -0.72
+          },
+          {
+            "sector": "Industrial Goods and Services",
+            "avg_pct": -0.59
           }
         ]
       },
       "gainers": [
         {
-          "symbol": "FCT.MI",
-          "name": "Fincantieri",
-          "sector": "Shipbuilding",
-          "pct_change": 6.89,
-          "last_close": 12.48,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "AMP.MI",
-          "name": "Amplifon",
-          "sector": "Health Care",
-          "pct_change": 6.81,
-          "last_close": 12.86,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "INW.MI",
-          "name": "INWIT",
-          "sector": "Telecommunications",
-          "pct_change": 4.54,
-          "last_close": 7.03,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "SPM.MI",
-          "name": "Saipem",
+          "symbol": "ENI.MI",
+          "name": "Eni",
           "sector": "Energy",
-          "pct_change": 3.63,
-          "last_close": 4.57,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "DIA.MI",
-          "name": "Diasorin",
-          "sector": "Health Care",
-          "pct_change": 2.65,
-          "last_close": 77.42,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "BZU.MI",
-          "name": "Buzzi",
-          "sector": "Construction and Materials",
-          "pct_change": 2.39,
-          "last_close": 36.86,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "LDO.MI",
-          "name": "Leonardo",
-          "sector": "Industrial Goods and Services",
-          "pct_change": 2.21,
-          "last_close": 46.81,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "MB.MI",
-          "name": "Mediobanca",
-          "sector": "Banks",
-          "pct_change": 1.82,
-          "last_close": 25.24,
+          "pct_change": 2.66,
+          "last_close": 24.88,
           "indices": [
             "ftsemib"
           ],
@@ -1450,8 +1360,8 @@
           "symbol": "TEN.MI",
           "name": "Tenaris",
           "sector": "Energy",
-          "pct_change": 1.82,
-          "last_close": 25.71,
+          "pct_change": 1.32,
+          "last_close": 25.25,
           "indices": [
             "ftsemib"
           ],
@@ -1460,11 +1370,102 @@
           "news_historical": []
         },
         {
-          "symbol": "NEXI.MI",
-          "name": "Nexi",
+          "symbol": "A2A.MI",
+          "name": "A2A",
+          "sector": "Utilities",
+          "pct_change": 1.16,
+          "last_close": 2.27,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SRG.MI",
+          "name": "Snam",
+          "sector": "Energy",
+          "pct_change": 1.01,
+          "last_close": 5.6,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRN.MI",
+          "name": "Terna",
+          "sector": "Utilities",
+          "pct_change": 0.95,
+          "last_close": 9.13,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IG.MI",
+          "name": "Italgas",
+          "sector": "Utilities",
+          "pct_change": 0.94,
+          "last_close": 8.15,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AVIO.MI",
+          "name": "Avio",
+          "sector": "Aerospace",
+          "pct_change": 0.87,
+          "last_close": 29.0,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HER.MI",
+          "name": "Hera",
+          "sector": "Utilities",
+          "pct_change": 0.87,
+          "last_close": 3.46,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SPM.MI",
+          "name": "Saipem",
+          "sector": "Energy",
+          "pct_change": 0.57,
+          "last_close": 4.41,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IVG.MI",
+          "name": "Iveco",
           "sector": "Industrial Goods and Services",
-          "pct_change": 1.79,
-          "last_close": 4.2,
+          "pct_change": 0.49,
+          "last_close": 14.32,
           "indices": [
             "ftsemib"
           ],
@@ -1478,21 +1479,8 @@
           "symbol": "STMMI.MI",
           "name": "STMicroelectronics",
           "sector": "Technology",
-          "pct_change": -3.03,
-          "last_close": 46.55,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "AVIO.MI",
-          "name": "Avio",
-          "sector": "Aerospace",
-          "pct_change": -2.1,
-          "last_close": 28.39,
+          "pct_change": -3.75,
+          "last_close": 48.01,
           "indices": [
             "ftsemib"
           ],
@@ -1504,8 +1492,8 @@
           "symbol": "TIT.MI",
           "name": "Telecom Italia",
           "sector": "Telecommunications",
-          "pct_change": -1.19,
-          "last_close": 5.55,
+          "pct_change": -3.63,
+          "last_close": 5.62,
           "indices": [
             "ftsemib"
           ],
@@ -1514,63 +1502,11 @@
           "news_historical": []
         },
         {
-          "symbol": "HER.MI",
-          "name": "Hera",
-          "sector": "Utilities",
-          "pct_change": -0.23,
-          "last_close": 3.45,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "UNI.MI",
-          "name": "Unipol",
-          "sector": "Insurance",
-          "pct_change": -0.12,
-          "last_close": 25.4,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "A2A.MI",
-          "name": "A2A",
-          "sector": "Utilities",
-          "pct_change": -0.09,
-          "last_close": 2.27,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "TRN.MI",
-          "name": "Terna",
-          "sector": "Utilities",
-          "pct_change": 0.0,
-          "last_close": 9.13,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "REC.MI",
-          "name": "Recordati",
-          "sector": "Health Care",
-          "pct_change": 0.0,
-          "last_close": 53.0,
+          "symbol": "UCG.MI",
+          "name": "UniCredit",
+          "sector": "Banks",
+          "pct_change": -3.08,
+          "last_close": 75.33,
           "indices": [
             "ftsemib"
           ],
@@ -1582,7 +1518,7 @@
           "symbol": "STLAM.MI",
           "name": "Stellantis",
           "sector": "Automobiles and Parts",
-          "pct_change": 0.08,
+          "pct_change": -2.98,
           "last_close": 4.0,
           "indices": [
             "ftsemib"
@@ -1592,11 +1528,76 @@
           "news_historical": []
         },
         {
-          "symbol": "IG.MI",
-          "name": "Italgas",
-          "sector": "Utilities",
-          "pct_change": 0.15,
-          "last_close": 8.16,
+          "symbol": "ISP.MI",
+          "name": "Intesa Sanpaolo",
+          "sector": "Banks",
+          "pct_change": -2.95,
+          "last_close": 6.06,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BMPS.MI",
+          "name": "Banca Monte dei Paschi di Siena",
+          "sector": "Banks",
+          "pct_change": -2.88,
+          "last_close": 10.86,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BZU.MI",
+          "name": "Buzzi",
+          "sector": "Construction and Materials",
+          "pct_change": -2.86,
+          "last_close": 36.0,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNI.MI",
+          "name": "Unipol",
+          "sector": "Insurance",
+          "pct_change": -2.6,
+          "last_close": 25.43,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MB.MI",
+          "name": "Mediobanca",
+          "sector": "Banks",
+          "pct_change": -2.48,
+          "last_close": 24.79,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FCT.MI",
+          "name": "Fincantieri",
+          "sector": "Shipbuilding",
+          "pct_change": -2.38,
+          "last_close": 11.68,
           "indices": [
             "ftsemib"
           ],
@@ -1607,14 +1608,14 @@
       ],
       "paragraphs": {
         "en": [
-          "In the October 9, 2026 session the FTSE MIB closed with 32 stocks higher, 6 lower and 2 unchanged, out of 40 tracked. The average move was +1.15%.",
-          "Best-performing sectors by average move: Health Care (+3.15%); Energy (+1.74%); Industrial Goods and Services (+1.32%). Weakest: Utilities (+0.21%); Financial Services (+0.73%); Banks (+1.15%).",
-          "Leading the session: Fincantieri (FCT.MI, +6.89%); Amplifon (AMP.MI, +6.81%); INWIT (INW.MI, +4.54%). At the bottom: STMicroelectronics (STMMI.MI, -3.03%); Avio (AVIO.MI, -2.10%); Telecom Italia (TIT.MI, -1.19%)."
+          "In the October 9, 2026 session the FTSE MIB closed with 13 stocks higher, 26 lower and 1 unchanged, out of 40 tracked. The average move was -0.86%.",
+          "Best-performing sectors by average move: Energy (+1.39%); Utilities (+0.86%); Financial Services (-0.33%). Weakest: Banks (-2.38%); Health Care (-0.72%); Industrial Goods and Services (-0.59%).",
+          "Leading the session: Eni (ENI.MI, +2.66%); Tenaris (TEN.MI, +1.32%); A2A (A2A.MI, +1.16%). At the bottom: STMicroelectronics (STMMI.MI, -3.75%); Telecom Italia (TIT.MI, -3.63%); UniCredit (UCG.MI, -3.08%)."
         ],
         "it": [
-          "Nella seduta del 9 ottobre 2026 il FTSE MIB ha chiuso con 32 societa' in rialzo, 6 in ribasso e 2 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di +1,15%.",
-          "Settori con la variazione media migliore: Health Care (+3,15%); Energy (+1,74%); Industrial Goods and Services (+1,32%). Settori piu' debolli: Utilities (+0,21%); Financial Services (+0,73%); Banks (+1,15%).",
-          "In cima alla seduta: Fincantieri (FCT.MI, +6,89%); Amplifon (AMP.MI, +6,81%); INWIT (INW.MI, +4,54%). In fondo: STMicroelectronics (STMMI.MI, -3,03%); Avio (AVIO.MI, -2,10%); Telecom Italia (TIT.MI, -1,19%)."
+          "Nella seduta del 9 ottobre 2026 il FTSE MIB ha chiuso con 13 societa' in rialzo, 26 in ribasso e 1 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di -0,86%.",
+          "Settori con la variazione media migliore: Energy (+1,39%); Utilities (+0,86%); Financial Services (-0,33%). Settori piu' debolli: Banks (-2,38%); Health Care (-0,72%); Industrial Goods and Services (-0,59%).",
+          "In cima alla seduta: Eni (ENI.MI, +2,66%); Tenaris (TEN.MI, +1,32%); A2A (A2A.MI, +1,16%). In fondo: STMicroelectronics (STMMI.MI, -3,75%); Telecom Italia (TIT.MI, -3,63%); UniCredit (UCG.MI, -3,08%)."
         ]
       }
     },
@@ -1675,7 +1676,8 @@
           "pct_change": 14.21,
           "last_close": 225.0,
           "indices": [
-            "sp500"
+            "sp500",
+            "nasdaq100"
           ],
           "reason": null,
           "news": [],
@@ -1936,10 +1938,109 @@
       }
     }
   },
-  "manual_commentary_html": "<p>I titoli azionari statunitensi sono saliti il 9 ottobre mentre le tensioni geopolitiche si attenuavano e gli investitori digerivano uno scenario macro misto. Secondo i resoconti del WSJ, i timori di escalation con l&#x27;Iran si sono attenuati e i prezzi del petrolio si sono stabilizzati dopo che Trump ha apparentemente escluso attacchi all&#x27;Iran prima delle elezioni di metà mandato. Il mercato più ampio ha avanzato con 330 titoli in rialzo rispetto a 188 in ribasso su un campione di 518 titoli, mentre l&#x27;S&amp;P 500 ha visto 319 rialzisti e 184 ribassisti con un guadagno medio dello 0,47 percento. Il Dow Jones ha sovraperformato con un guadagno medio dello 0,71 percento, sebbene il Nasdaq-100 abbia anche registrato una buona ampiezza con una media dello 0,61 percento, suggerendo una partecipazione diffusa al rialzo.</p><p>Il Real Estate ha guidato i guadagni settoriali con un avanzamento medio dell&#x27;1,68 percento, seguito da Health Care all&#x27;1,58 percento e Information Technology allo 0,97 percento. Crown Castle è salito del 15,6 percento, mentre American Tower e SBA Communications hanno guadagnato rispettivamente il 9,3 percento e il 7,34 percento, senza che i media tracciati riportassero catalizzatori aziendali specifici per questi movimenti. Moderna è balzato del 14,21 percento e Humana ha guadagnato l&#x27;11,56 percento, anch&#x27;essi senza catalizzatori divulgati. I titoli tecnologici tra cui Datadog, Akamai Technologies, Ciena, Lumentum e Palantir Technologies hanno avanzato tra il 5,17 e il 7,11 percento nella seduta.</p><p>Communication Services è stato il peggior performer della seduta, in calo del 2,0 percento in media, trainato da forti perdite nel settore delle telecomunicazioni. T-Mobile US è sceso del 13,27 percento, AT&amp;T ha perso il 10,82 percento e Verizon è sceso del 10,14 percento, con MarketWatch che riporta come Wall Street ha valutato la crescente minaccia di SpaceX ai vettori wireless e il WSJ che nota come la mossa wireless di SpaceX stava mettendo in difficoltà le telecomunicazioni. Charter Communications è sceso del 5,74 percento. Energy e Consumer Staples hanno registrato modesti cali dello 0,24 percento e dello 0,07 percento rispettivamente, mentre Fair Isaac, Skyworks Solutions, Mosaic Company, Deere &amp; Company e Bunge Global sono ciascuno scesi tra il 4,72 e il 5,63 percento senza catalizzatori divulgati.</p>",
-  "manual_commentary_html_en": "<p>U.S. stocks rose on October 9 as geopolitical tensions eased and investors digested a mixed macro backdrop. According to WSJ reporting, Iran escalation fears subsided and oil prices steadied after Trump appeared to rule out Iran strikes before midterms. The broader market advanced with 330 stocks rising against 188 declining across a 518-stock sample, while the S&amp;P 500 saw 319 gainers and 184 decliners with an average gain of 0.47 percent. The Dow Jones outperformed with a 0.71 percent average gain, though the Nasdaq-100 also posted solid breadth at 0.61 percent average, suggesting broad participation in the rally.</p><p>Real Estate led sectoral gains with a 1.68 percent average advance, followed by Health Care at 1.58 percent and Information Technology at 0.97 percent. Crown Castle surged 15.6 percent, while American Tower and SBA Communications climbed 9.3 percent and 7.34 percent respectively, with tracked outlets reporting no specific company catalysts for these moves. Moderna jumped 14.21 percent and Humana gained 11.56 percent, also without disclosed catalysts. Technology names including Datadog, Akamai Technologies, Ciena, Lumentum, and Palantir Technologies advanced between 5.17 and 7.11 percent on the session.</p><p>Communication Services was the session&#x27;s worst performer, declining 2.0 percent on average, driven by sharp losses in the telecom sector. T-Mobile US fell 13.27 percent, AT&amp;T dropped 10.82 percent, and Verizon declined 10.14 percent, with MarketWatch reporting that Wall Street assessed the growing SpaceX threat to wireless carriers and WSJ noting that SpaceX&#x27;s wireless move was tripping up telecoms. Charter Communications fell 5.74 percent. Energy and Consumer Staples posted modest declines of 0.24 percent and 0.07 percent respectively, while Fair Isaac, Skyworks Solutions, Mosaic Company, Deere &amp; Company, and Bunge Global each fell between 4.72 and 5.63 percent without disclosed catalysts.</p>",
+  "manual_commentary_html": "<p>I titoli statunitensi sono saliti il 9 ottobre 2026 mentre le tensioni geopolitiche si attenuavano in seguito a notizie secondo cui i timori di escalation con l&#x27;Iran si erano ridimensionati, secondo il Wall Street Journal. La seduta ha beneficiato anche di un recupero più ampio del mercato mentre i rendimenti si stabilizzavano dopo la volatilità obbligazionaria recente. Secondo Reuters, Wall Street ha registrato guadagni settimanali con dati su utili e inflazione all&#x27;orizzonte. L&#x27;avanzata è stata ampia, con 330 titoli in rialzo contro 188 in calo nel campione di 518 titoli tracciati, anche se il Wall Street Journal ha notato che i titoli a piccola capitalizzazione sono stati colpiti duramente mentre i rendimenti aumentavano all&#x27;inizio della settimana.</p><p>Il settore immobiliare ha guidato la performance settoriale con un guadagno medio dell&#x27;1,68 percento, seguito da Health Care all&#x27;1,58 percento e Information Technology allo 0,97 percento. Il Dow Jones ha sovraperformato con un guadagno medio dello 0,71 percento, mentre il Nasdaq-100 è salito dello 0,75 percento e l&#x27;S&amp;P 500 ha guadagnato lo 0,47 percento. Tra i maggiori rialzisti, Crown Castle è salito del 15,6 percento, Moderna ha guadagnato il 14,21 percento e Humana ha registrato un aumento dell&#x27;11,56 percento. American Tower ha aggiunto il 9,3 percento, SBA Communications è salita del 7,34 percento e Datadog ha avanzato del 7,11 percento. Akamai Technologies, Ciena, Lumentum e Palantir Technologies hanno registrato anche guadagni compresi tra il 5,17 e il 6,0 percento. I media tracciati non hanno riportato catalizzatori aziendali specifici per questi movimenti.</p><p>Communication Services è stato il settore con le peggiori prestazioni, in calo del 2,0 percento in media, con Energy in calo dello 0,24 percento e Consumer Staples in calo dello 0,07 percento. La debolezza delle telecomunicazioni è stata marcata, poiché MarketWatch ha riportato che i titoli di AT&amp;T, Verizon e T-Mobile sono scesi mentre Wall Street valutava la crescente minaccia di SpaceX. T-Mobile US è sceso del 13,27 percento, AT&amp;T è sceso del 10,82 percento e Verizon è sceso del 10,14 percento. Il Wall Street Journal ha inoltre riportato separatamente che la mossa wireless di SpaceX stava mettendo in difficoltà le telecomunicazioni. Al di là delle comunicazioni, HP Inc. è sceso del 6,91 percento, Charter Communications è sceso del 5,74 percento e Fair Isaac è sceso del 5,63 percento. Skyworks Solutions, Mosaic Company, Deere &amp; Company e Bunge Global hanno registrato anche perdite comprese tra il 4,72 e il 5,45 percento, senza catalizzatori specifici citati dai media tracciati per la maggior parte di questi cali.</p>",
+  "manual_commentary_html_en": "<p>U.S. stocks rose on October 9, 2026, as geopolitical tensions eased following reports that Iran escalation fears had subsided, according to the Wall Street Journal. The session also benefited from a broader market recovery as yields stabilized after recent bond volatility. According to Reuters, Wall Street posted weekly gains with earnings and inflation data on the horizon. The advance was broad-based, with 330 stocks rising against 188 falling across the 518-stock sample tracked, though the Wall Street Journal noted that small-cap stocks were hit hard as yields surged earlier in the week.</p><p>Real Estate led sector performance with an average gain of 1.68 percent, followed by Health Care at 1.58 percent and Information Technology at 0.97 percent. The Dow Jones outperformed with an average gain of 0.71 percent, while the Nasdaq-100 rose 0.75 percent and the S&amp;P 500 advanced 0.47 percent. Among the largest gainers, Crown Castle surged 15.6 percent, Moderna climbed 14.21 percent, and Humana gained 11.56 percent. American Tower added 9.3 percent, SBA Communications rose 7.34 percent, and Datadog advanced 7.11 percent. Akamai Technologies, Ciena, Lumentum, and Palantir Technologies also posted gains ranging from 5.17 to 6.0 percent. Tracked outlets reported no specific company catalysts for these moves.</p><p>Communication Services was the worst-performing sector, declining 2.0 percent on average, with Energy down 0.24 percent and Consumer Staples down 0.07 percent. The telecom weakness was pronounced, as MarketWatch reported that AT&amp;T, Verizon, and T-Mobile shares fell as Wall Street assessed the growing SpaceX threat. T-Mobile US dropped 13.27 percent, AT&amp;T fell 10.82 percent, and Verizon declined 10.14 percent. The Wall Street Journal separately reported that SpaceX&#x27;s wireless move was tripping up telecoms. Beyond communications, HP Inc. fell 6.91 percent, Charter Communications declined 5.74 percent, and Fair Isaac dropped 5.63 percent. Skyworks Solutions, Mosaic Company, Deere &amp; Company, and Bunge Global also posted losses ranging from 4.72 to 5.45 percent, with no specific catalysts cited by tracked outlets for most of these declines.</p>",
   "manual_highlights": [],
   "feed": [
+    {
+      "title": "LG Promo Codes and Coupons for October 2026",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 10 Oct 2026 05:00:00 +0000",
+      "link": "https://www.wired.com/story/lg-promo-code/",
+      "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
+      "image": "https://media.wired.com/photos/67b63b985a505b018b67ed90/master/pass/WIRED-Coupons-R2_17.png"
+    },
+    {
+      "title": "30% Off Canon Promo Codes | October 2026",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 10 Oct 2026 05:00:00 +0000",
+      "link": "https://www.wired.com/story/canon-promo-code/",
+      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this October 2026.",
+      "image": "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/master/pass/WIRED-Coupons-3.jpg"
+    },
+    {
+      "title": "Russia targets Ukraine’s bridges as Vladimir Putin expands air war",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 10 Oct 2026 04:00:38 GMT",
+      "link": "https://www.ft.com/content/4e4ea744-6603-499b-baf7-83c74e4dc53e?syn-25a6b1a6=1",
+      "summary": "Moscow’s drones have hit two bridges in Kyiv and one in Zaporizhzhia over the past week",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fc8af912f-313d-420c-a99f-fcbf3275901e.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "The danger of pessimism fatigue",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 10 Oct 2026 04:00:37 GMT",
+      "link": "https://www.ft.com/content/8d948115-5843-4419-967e-f79e65718f55?syn-25a6b1a6=1",
+      "summary": "Too many have cried wolf about too many things and the public is now perilously nonchalant",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb0f87178-1254-43d1-8dac-70e436258f10.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "China Targets AI-Linked Jobs With New Employment Initiative",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 10 Oct 2026 03:43:38 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-10/china-targets-ai-linked-jobs-with-new-employment-initiative",
+      "summary": "China will launch an employment initiative aimed at adapting skills to the development of artificial intelligence, human-resources officials said at a State Council Information Office briefing on Saturday.",
+      "image": null
+    },
+    {
+      "title": "Taiwan’s Lai Urges Democracies to Unite After Trump-Xi Summit",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 10 Oct 2026 03:35:41 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-10/taiwan-s-lai-urges-democracies-to-unite-after-trump-xi-summit",
+      "summary": "Taiwan President Lai Ching-te called on democracies in the region to unite against threats to stability, as the island faces pressure from Beijing and concerns that Donald Trump’s rapprochement with China could come at Taiwan’s expense.",
+      "image": null
+    },
+    {
+      "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Should I be worried?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 10 Oct 2026 03:15:00 GMT",
+      "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+      "summary": "“I presume these are sophisticated investors taking a profit.”",
+      "image": "https://images.mktw.net/im-26618701"
+    },
+    {
+      "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 10 Oct 2026 03:10:06 +0000",
+      "link": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
+      "summary": "Elon Musk has accused Indian billionaire Mukesh Ambani of blocking competition.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2275575484.jpg?resize=1200,815"
+    },
+    {
+      "title": "Viola Davis Talks About Getting Shingles Not Once, But Twice",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 09 Oct 2026 22:49:55 -0400",
+      "link": "https://www.forbes.com/sites/brucelee/2026/10/09/viola-davis-talks-about-getting-shingles-not-once-but-twice/",
+      "summary": "Viola Davis opens up about how she got shingles and then a recurrence and how her experience with the varicella zoster virus changed her view of strength and her body.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6ac9a5749caecdf75b986093/0x0.jpg"
+    },
+    {
+      "title": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 10 Oct 2026 02:09:00 GMT",
+      "link": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html",
+      "summary": "Ukraine President Volodymyr Zelenskyy said in a searing statement that the U.S. easing sanctions on Moscow \"plays into Russia's hands.\"",
+      "image": "https://image.cnbcfm.com/api/v1/image/108383138-1791578438337-gettyimages-2299412573-kbd28628_mh3atstd.jpeg?v=1791578464&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "At Robinhood’s Mecca for Risk-Loving Traders, Everyone Has a Tale of Getting Rich",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Sat, 10 Oct 2026 02:00:00 GMT",
+      "link": "https://www.wsj.com/finance/at-robinhoods-mecca-for-risk-loving-traders-everyone-has-a-tale-of-getting-rich-f960d8c2?mod=rss_markets_main",
+      "summary": "The stock market is back at records. These everyday Americans are one reason why.",
+      "image": "https://images.wsj.net/im-38549856"
+    },
     {
       "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
       "source": "TechCrunch",
@@ -1959,15 +2060,6 @@
       "image": "https://images.mktw.net/im-91758975"
     },
     {
-      "title": "‘I feel like a loser’: I check my ETFs every day. They’re up one minute, down the next. Should I be worried?",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Sat, 10 Oct 2026 00:00:00 GMT",
-      "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
-      "summary": "“I presume these are sophisticated investors taking a profit.”",
-      "image": "https://images.mktw.net/im-26618701"
-    },
-    {
       "title": "Rock Song Copyright Dispute Rocks The Entertainment Industry",
       "source": "Forbes",
       "category": "mercati",
@@ -1975,42 +2067,6 @@
       "link": "https://www.forbes.com/sites/legalentertainment/2026/10/09/rock-song-copyright-dispute-rocks-the-entertainment-industry/",
       "summary": "Copyright Termination Suit Rocks Entertainment Industry - Supreme Court Asked to Weigh In",
       "image": "https://imageio.forbes.com/specials-images/imageserve/6ac975043f09745e39da6241/0x0.jpg?width=960&precrop=1428%2C670%2Cx0%2Cy140"
-    },
-    {
-      "title": "Trump Says Putin to Supply US With Diesel",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Fri, 09 Oct 2026 23:17:38 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-09/the-close-10-9-2026-video",
-      "summary": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are ProShares' Alessio De Longis, Flexport's Ryan Peterson, Raymond James & Associates' Inc Savanthi Syth, Cou",
-      "image": null
-    },
-    {
-      "title": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Fri, 09 Oct 2026 23:16:50 GMT",
-      "link": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html",
-      "summary": "Ukraine President Volodymyr Zelenskyy said in a searing statement that the U.S. easing sanctions on Moscow \"plays into Russia's hands.\"",
-      "image": "https://image.cnbcfm.com/api/v1/image/108383138-1791578438337-gettyimages-2299412573-kbd28628_mh3atstd.jpeg?v=1791578464&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "Wall Street Week | Michigan Manufacturing, AI Debt Investments, Baby Bonds, Canadian Coal Fight",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Fri, 09 Oct 2026 23:13:28 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-09/wall-street-week-baby-bonds-canadian-coal-fight-video",
-      "summary": "This week, Ford, JPMorgan and the state of Michigan team up to help domestic manufacturers turn new technology into factories and supply chains. And, hyperscalers and data centers are borrowing hundreds of billions of dollars to finance AI infrastructure, transforming the corpora",
-      "image": null
-    },
-    {
-      "title": "How Adele Lim Is The Heart Of 'Crazy Rich Asians' And Its Return",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 09 Oct 2026 19:12:58 -0400",
-      "link": "https://www.forbes.com/sites/laurasirikul/2026/10/09/how-adele-lim-is-the-heart-of-crazy-rich-asians-and-its-return/",
-      "summary": "'Crazy Rich Asians' screenwriter Adele Lim returns to the anticipated project - now an HBO Max TV series - as showrunner, EP, and writer — where she belongs.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6ac971633f09745e39da623f/0x0.jpg?width=960&precrop=2295%2C1291%2Cx0%2Cy34"
     },
     {
       "title": "Big Controversy Upends a Contest About Microscopic Videos",
@@ -2040,33 +2096,6 @@
       "image": "https://image.cnbcfm.com/api/v1/image/107109966-NUP_198430_00164r.jpg?v=1695081285&amp;w=1920&amp;h=1080"
     },
     {
-      "title": "JD Vance says he will not watch Pentagon’s livestreamed execution",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Fri, 09 Oct 2026 22:18:10 GMT",
-      "link": "https://www.ft.com/content/c3d9f370-153e-4846-aded-fbb7d200b365?syn-25a6b1a6=1",
-      "summary": "Split reveals an emerging schism in the Republican Party over a plan to broadcast the killing of the Fort Hood shooter",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fbd049095-1ac2-4723-bd38-1481b3f66434.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "Long live the mechanical keyboard",
-      "source": "TechCrunch",
-      "category": "tech",
-      "published": "Fri, 09 Oct 2026 22:08:24 +0000",
-      "link": "https://techcrunch.com/2026/10/09/long-live-the-mechanical-keyboard/",
-      "summary": "Keychron made a name for itself after launching on Kickstarter in 2017. Today, it offers the value K2 model as well as a variety of other versions, including one with an all-wood body.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/IMG_4970.jpeg?resize=1200,900"
-    },
-    {
-      "title": "Trump agrees deal with Putin for Russia to release diesel",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Fri, 09 Oct 2026 22:06:22 GMT",
-      "link": "https://www.ft.com/content/84ca76fd-0eed-4fb6-aea4-f72638a9d9c8?syn-25a6b1a6=1",
-      "summary": "Pact between Washington and Moscow comes just weeks before critical midterm elections in the US",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fff730046-c060-4625-ad4a-6368caabc114.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
       "title": "Kalshi Examines Bets on Trump’s Pick for New White House Press Secretary",
       "source": "The Wall Street Journal",
       "category": "mercati",
@@ -2074,15 +2103,6 @@
       "link": "https://www.wsj.com/finance/regulation/kalshi-probes-bets-on-trumps-pick-for-new-white-house-press-secretary-8b73a546?mod=rss_markets_main",
       "summary": "The prediction market is examining a series of trades that correctly predicted the appointment of Katie Zacharia, who wasn’t previously seen as a front-runner.",
       "image": "https://images.wsj.net/im-13348878"
-    },
-    {
-      "title": "As Yields Surged, Small-Cap Stocks Were Hit Hard",
-      "source": "The Wall Street Journal",
-      "category": "mercati",
-      "published": "Fri, 09 Oct 2026 21:45:00 GMT",
-      "link": "https://www.wsj.com/finance/stocks/as-yields-surged-small-cap-stocks-were-hit-hard-7470f7e4?mod=rss_markets_main",
-      "summary": "The Russell 2000, which tracks the shares of small companies, closed Friday on a five-week losing streak.",
-      "image": "https://images.wsj.net/im-10439618"
     },
     {
       "title": "Qualcomm and Arm jury to return next week after deliberations in contract dispute case",
@@ -2094,6 +2114,15 @@
       "image": null
     },
     {
+      "title": "India's TCS senior staff will miss out on variable pay for September quarter, memo shows",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Fri, 09 Oct 2026 20:41:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdWxHNzNJUF9FTlpsWm1aWU1SNDlZa2otRXVveFhzeHN3NXF0NnRfdUpVQTJBd25xZ2x3d0hld21TalhQT2o4V1E3WllFYV9qMFZQclFKNGlMeU85c3E2Y0VRbVhMYVRaQktuX2MyamN0VlFkTExmUjhyWXMzem4yWXk1bGRVMmNSRGtWa0M1aGgweEtfSFQycFItdHZBUmNNdHJsaWpSc3BwaTBieE15LTNuZXlZWFcwdnlFWFh5VGtSM2M1cHc?oc=5",
+      "summary": "India's TCS senior staff will miss out on variable pay for September quarter, memo shows &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
       "title": "US plans to seize $1B in crypto linked to Iran this week: Scott Bessent",
       "source": "Cointelegraph",
       "category": "crypto",
@@ -2101,15 +2130,6 @@
       "link": "https://cointelegraph.com/news/scott-bessent-us-seize-crypto-iran-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "summary": "The Treasury Department has announced several digital asset seizures related to sanctions on Iran as part of US sanctions.",
       "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4H3BG1JYYXKKGEB4KD8923P/hi-us-has-seized-iranian-crypto-1.jpg"
-    },
-    {
-      "title": "Tesla’s ‘Full Self-Driving’ Becomes ‘Assisted Driving’ in Europe",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 09 Oct 2026 20:18:15 +0000",
-      "link": "https://www.wired.com/story/tesla-full-self-driving-becomes-assisted-driving-in-europe/",
-      "summary": "The automaker has been criticized for misleading drivers with the feature’s name. Now it’s renaming it for European regulators.",
-      "image": "https://media.wired.com/photos/6ac9386f3122e744c08a4121/master/pass/GettyImages-1228358583.jpg"
     },
     {
       "title": "AT&T, Verizon, and T-Mobile Are Dropping on Starlink Fears. Analysts Say Buy.",
@@ -2146,15 +2166,6 @@
       "link": "https://decrypt.co/380621/openai-anthropic-quietly-rehearsing-ai-catastrophe",
       "summary": "Executives are war-gaming the political fallout of a major AI-driven cyberattack and preparing to brief Congress fast if and when necessary.",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-2-gID_7.png"
-    },
-    {
-      "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 09 Oct 2026 19:28:49 +0000",
-      "link": "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/",
-      "summary": "Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover art, back cover copy, and emails, as some execs push junior staff to champion the tech.",
-      "image": "https://media.wired.com/photos/6ac81c8de30ca6995f7d2b30/master/pass/Publishers-Using-AI-Staff-Pissed-Culture-962637114.jpg"
     },
     {
       "title": "Former FTX COO says Netflix’s ‘Altruists’ trailer ‘made me physically throw up’",
@@ -2247,15 +2258,6 @@
       "image": null
     },
     {
-      "title": "Lessor Avolon orders 250 Boeing, Airbus jets with option for 100 more",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Fri, 09 Oct 2026 13:29:19 GMT",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdko1U3lqODlKNXRDOHBrNndRT2J1RGVFVjhUY3QyM0g0MWt0RmtxTUVMdGtNYzJFNUI0eDZxQjJ2YkFQN1ZyZlZxLW9JbnlEUHZmUHdmQ1BJLVdwVE1Vb1phd05YX2VkX0RUWWlVR0hmNGxpcG1yY0lMajE2YUF3ZGdNc2JvWGhHVnl2eElUSlh5MDJvUm1KNjNvWU9ZSUpCc2gzVk9oaGdwSWVzMWNWLVlZZndNTVNad2dpNHd1SUNqMzdqTmc?oc=5",
-      "summary": "Lessor Avolon orders 250 Boeing, Airbus jets with option for 100 more &nbsp;&nbsp; Reuters",
-      "image": null
-    },
-    {
       "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
       "source": "MIT Technology Review",
       "category": "scienza",
@@ -2301,37 +2303,37 @@
       "image": null
     }
   ],
-  "generated_at": "2026-10-10 03:10:27",
+  "generated_at": "2026-10-10 07:32:21",
   "markets_brief": {
     "items": [
       {
-        "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
-        "source": "MarketWatch",
-        "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories"
+        "title": "Russia targets Ukraine’s bridges as Vladimir Putin expands air war",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/4e4ea744-6603-499b-baf7-83c74e4dc53e?syn-25a6b1a6=1"
       },
       {
-        "title": "‘I feel like a loser’: I check my ETFs every day. They’re up one minute, down the next. Should I be worried?",
-        "source": "MarketWatch",
-        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories"
+        "title": "The danger of pessimism fatigue",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/8d948115-5843-4419-967e-f79e65718f55?syn-25a6b1a6=1"
       },
       {
-        "title": "Rock Song Copyright Dispute Rocks The Entertainment Industry",
-        "source": "Forbes",
-        "link": "https://www.forbes.com/sites/legalentertainment/2026/10/09/rock-song-copyright-dispute-rocks-the-entertainment-industry/"
+        "title": "Napa Valley’s hangover",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/6ff0232c-f38a-4c70-8ca9-b0eed437f09b"
       },
       {
-        "title": "Trump Says Putin to Supply US With Diesel",
+        "title": "China Targets AI-Linked Jobs With New Employment Initiative",
         "source": "Bloomberg",
-        "link": "https://www.bloomberg.com/news/videos/2026-10-09/the-close-10-9-2026-video"
+        "link": "https://www.bloomberg.com/news/articles/2026-10-10/china-targets-ai-linked-jobs-with-new-employment-initiative"
       },
       {
-        "title": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
-        "source": "CNBC",
-        "link": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html"
+        "title": "Oil and gas production disrupted as Hurricane Isaias barrels towards Gulf",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/f7d90625-0d78-44b2-927f-d63f4dbc5e8d?syn-25a6b1a6=1"
       }
     ],
-    "prose_html": "<p>Gli sviluppi politici hanno dominato i mercati con l&#x27;annuncio di Trump di un potenziale accordo di fornitura di diesel con Putin, sebbene CNBC abbia riferito che l&#x27;accordo affronta accuse di conflitto con la legge sulle sanzioni alla Russia. L&#x27;annuncio sottolinea le tensioni in corso tra la politica energetica e i vincoli geopolitici.\n\nNel frattempo, il sentimento degli investitori ha riflesso la più ampia volatilità del mercato, con i trader al dettaglio che si confrontano con oscillazioni giornaliere nelle valutazioni degli ETF. Una controversia sui diritti d&#x27;autore nel settore dell&#x27;intrattenimento ha aggiunto incertezza specifica al settore, segnalando attriti continui in più industrie.</p>",
-    "prose_html_en": "<p>Political developments dominated markets as Trump announced a potential diesel supply agreement with Putin, though CNBC reported the deal faces accusations of conflicting with Russia sanctions law. The announcement underscores ongoing tensions between energy policy and geopolitical constraints.\n\nMeanwhile, investor sentiment reflected broader market volatility, with retail traders grappling with daily swings in ETF valuations. A copyright dispute in the entertainment sector added to sector-specific uncertainty, signaling continued friction across multiple industries.</p>"
+    "prose_html": "<p>Le tensioni geopolitiche e i disturbi meteorologici pesano sui mercati. La campagna aerea russa in escalation contro le infrastrutture ucraine, in particolare i ponti, sottolinea i rischi di conflitto persistenti nell&#x27;Europa orientale. Nel frattempo, l&#x27;uragano Isaias si sta dirigendo verso il Golfo del Messico, minacciando di interrompere la produzione di petrolio e gas in una regione critica per l&#x27;approvvigionamento energetico statunitense. Al di là degli shock immediati, persistono venti di sentimento negativo mentre gli investitori affrontano l&#x27;affaticamento da pessimismo, mentre la nuova iniziativa occupazionale della Cina rivolta ai posti di lavoro legati all&#x27;IA segnala cambiamenti strutturali più ampi nei mercati del lavoro mentre l&#x27;automazione rimodella l&#x27;economia globale.</p>",
+    "prose_html_en": "<p>Geopolitical tensions and weather disruptions are weighing on markets. Russia&#x27;s escalating air campaign against Ukrainian infrastructure, particularly bridges, underscores ongoing conflict risks in Eastern Europe. Meanwhile, Hurricane Isaias is bearing down on the Gulf of Mexico, threatening to disrupt oil and gas production in a region critical to US energy supply. Beyond immediate shocks, sentiment headwinds persist as investors grapple with pessimism fatigue, while China&#x27;s new employment initiative targeting AI-linked jobs signals broader structural shifts in labor markets as automation reshapes the global economy.</p>"
   },
   "live_close_movers": {
     "captured_at": "2026-10-09T20:08:17Z",

@@ -1,36 +1,28 @@
 {
-  "updated": "2026-10-10T01:11:09Z",
-  "session_date": "2026-10-08",
-  "universe": 557,
+  "updated": "2026-10-10T05:32:51Z",
+  "session_date": "2026-10-09",
+  "universe": 558,
   "up": {
-    "count": 354,
+    "count": 343,
     "by_length": {
-      "1": 264,
-      "2": 33,
-      "3": 10,
-      "4": 27,
-      "5": 12,
-      "6": 6,
-      "7": 2
+      "1": 143,
+      "2": 145,
+      "3": 19,
+      "4": 4,
+      "5": 19,
+      "6": 9,
+      "7": 3,
+      "8+": 1
     },
     "top": [
-      {
-        "symbol": "PSX",
-        "name": "Phillips 66",
-        "indices": [
-          "sp500"
-        ],
-        "days": 7,
-        "cum_pct": 11.64
-      },
       {
         "symbol": "VRSN",
         "name": "Verisign",
         "indices": [
           "sp500"
         ],
-        "days": 7,
-        "cum_pct": 6.41
+        "days": 8,
+        "cum_pct": 8.54
       },
       {
         "symbol": "PEG",
@@ -38,17 +30,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 6,
-        "cum_pct": 6.68
-      },
-      {
-        "symbol": "HIG",
-        "name": "Hartford (The)",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 5.82
+        "days": 7,
+        "cum_pct": 7.34
       },
       {
         "symbol": "V",
@@ -57,27 +40,8 @@
           "sp500",
           "dow"
         ],
-        "days": 6,
-        "cum_pct": 4.39
-      },
-      {
-        "symbol": "COST",
-        "name": "Costco",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 6,
-        "cum_pct": 4.13
-      },
-      {
-        "symbol": "COF",
-        "name": "Capital One",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 3.28
+        "days": 7,
+        "cum_pct": 7.27
       },
       {
         "symbol": "BRK.B",
@@ -85,8 +49,26 @@
         "indices": [
           "sp500"
         ],
+        "days": 7,
+        "cum_pct": 3.55
+      },
+      {
+        "symbol": "AMT",
+        "name": "American Tower",
+        "indices": [
+          "sp500"
+        ],
         "days": 6,
-        "cum_pct": 2.63
+        "cum_pct": 13.15
+      },
+      {
+        "symbol": "MA",
+        "name": "Mastercard",
+        "indices": [
+          "sp500"
+        ],
+        "days": 6,
+        "cum_pct": 7.12
       },
       {
         "symbol": "MO",
@@ -94,18 +76,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 6.68
-      },
-      {
-        "symbol": "TMUS",
-        "name": "T-Mobile US",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 5.92
+        "days": 6,
+        "cum_pct": 7.06
       },
       {
         "symbol": "DIS",
@@ -114,17 +86,8 @@
           "sp500",
           "dow"
         ],
-        "days": 5,
-        "cum_pct": 5.62
-      },
-      {
-        "symbol": "CI",
-        "name": "Cigna",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 4.88
+        "days": 6,
+        "cum_pct": 6.63
       },
       {
         "symbol": "ABBV",
@@ -132,8 +95,17 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 4.81
+        "days": 6,
+        "cum_pct": 6.36
+      },
+      {
+        "symbol": "CI",
+        "name": "Cigna",
+        "indices": [
+          "sp500"
+        ],
+        "days": 6,
+        "cum_pct": 5.4
       },
       {
         "symbol": "RSG",
@@ -141,28 +113,55 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 4.76
+        "days": 6,
+        "cum_pct": 4.78
       },
       {
-        "symbol": "MA",
-        "name": "Mastercard",
+        "symbol": "PPL",
+        "name": "PPL Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": 6,
+        "cum_pct": 4.55
+      },
+      {
+        "symbol": "CHD",
+        "name": "Church & Dwight",
+        "indices": [
+          "sp500"
+        ],
+        "days": 6,
+        "cum_pct": 4.25
+      },
+      {
+        "symbol": "PTC",
+        "name": "PTC Inc.",
         "indices": [
           "sp500"
         ],
         "days": 5,
-        "cum_pct": 4.5
+        "cum_pct": 35.01
+      },
+      {
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 12.13
       }
     ]
   },
   "down": {
-    "count": 201,
+    "count": 214,
     "by_length": {
-      "1": 60,
-      "2": 99,
-      "3": 32,
-      "4": 8,
-      "5": 1,
+      "1": 149,
+      "2": 29,
+      "3": 24,
+      "4": 6,
+      "5": 5,
       "8+": 1
     },
     "top": [
@@ -176,32 +175,13 @@
         "cum_pct": -27.66
       },
       {
-        "symbol": "COO",
-        "name": "Cooper Companies (The)",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -5.42
-      },
-      {
-        "symbol": "TER",
-        "name": "Teradyne",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -11.21
-      },
-      {
         "symbol": "ARM",
         "name": "Arm Holdings",
         "indices": [
           "nasdaq100"
         ],
-        "days": -4,
-        "cum_pct": -10.47
+        "days": -5,
+        "cum_pct": -13.4
       },
       {
         "symbol": "LRCX",
@@ -210,8 +190,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -4,
-        "cum_pct": -7.74
+        "days": -5,
+        "cum_pct": -8.24
       },
       {
         "symbol": "FER",
@@ -219,17 +199,8 @@
         "indices": [
           "nasdaq100"
         ],
-        "days": -4,
-        "cum_pct": -6.25
-      },
-      {
-        "symbol": "ASML",
-        "name": "ASML Holding",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -5.22
+        "days": -5,
+        "cum_pct": -6.51
       },
       {
         "symbol": "KLAC",
@@ -238,8 +209,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -4,
-        "cum_pct": -4.92
+        "days": -5,
+        "cum_pct": -5.47
       },
       {
         "symbol": "HRL",
@@ -247,69 +218,95 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -4.1
+        "days": -5,
+        "cum_pct": -5.23
       },
       {
-        "symbol": "BA",
-        "name": "Boeing",
+        "symbol": "MOS",
+        "name": "Mosaic Company (The)",
         "indices": [
-          "sp500",
-          "dow"
+          "sp500"
         ],
         "days": -4,
-        "cum_pct": -3.0
+        "cum_pct": -11.98
       },
       {
-        "symbol": "WDC",
-        "name": "Western Digital",
+        "symbol": "AMAT",
+        "name": "Applied Materials",
         "indices": [
           "sp500",
           "nasdaq100"
         ],
-        "days": -3,
-        "cum_pct": -10.94
+        "days": -4,
+        "cum_pct": -6.5
       },
       {
-        "symbol": "ILMN",
-        "name": "Illumina, Inc.",
+        "symbol": "GRMN",
+        "name": "Garmin",
         "indices": [
           "sp500"
         ],
-        "days": -3,
-        "cum_pct": -9.92
+        "days": -4,
+        "cum_pct": -6.01
       },
       {
-        "symbol": "COIN",
-        "name": "Coinbase",
+        "symbol": "ROK",
+        "name": "Rockwell Automation",
         "indices": [
           "sp500"
         ],
-        "days": -3,
-        "cum_pct": -8.62
+        "days": -4,
+        "cum_pct": -4.96
       },
       {
-        "symbol": "FCT.MI",
-        "name": "Fincantieri",
+        "symbol": "VRT",
+        "name": "Vertiv",
         "indices": [
-          "ftsemib"
+          "sp500"
         ],
-        "days": -3,
-        "cum_pct": -7.92
+        "days": -4,
+        "cum_pct": -4.27
       },
       {
-        "symbol": "MPWR",
-        "name": "Monolithic Power Systems",
+        "symbol": "META",
+        "name": "Meta Platforms",
         "indices": [
           "sp500",
           "nasdaq100"
         ],
+        "days": -4,
+        "cum_pct": -3.13
+      },
+      {
+        "symbol": "ALAB",
+        "name": "Astera Labs",
+        "indices": [
+          "nasdaq100"
+        ],
         "days": -3,
-        "cum_pct": -7.44
+        "cum_pct": -12.21
+      },
+      {
+        "symbol": "ON",
+        "name": "ON Semiconductor",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -10.17
+      },
+      {
+        "symbol": "RKLB",
+        "name": "Rocket Lab",
+        "indices": [
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -9.13
       }
     ]
   },
   "flat": {
-    "count": 2
+    "count": 1
   }
 }
