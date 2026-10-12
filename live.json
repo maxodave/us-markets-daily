@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-12T14:00:51Z",
+  "updated": "2026-10-12T14:10:41Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.02,
-      "last": 7813.29
+      "pct": -0.09,
+      "last": 7804.9
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.48,
-      "last": 30735.99
+      "pct": -0.76,
+      "last": 30649.18
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.3,
-      "last": 51809.04
+      "pct": 0.39,
+      "last": 51853.89
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.41,
-      "last": 49968.37
+      "pct": 0.44,
+      "last": 49984.41
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": 57.77
-      },
-      {
-        "symbol": "CCC",
-        "name": "CCC Intelligent Solutions Holdings Inc.",
-        "pct": 7.62
+        "pct": 92.03
       },
       {
         "symbol": "MANH",
         "name": "Manhattan Associates, Inc.",
-        "pct": 7.08
+        "pct": 7.61
+      },
+      {
+        "symbol": "CCC",
+        "name": "CCC Intelligent Solutions Holdings Inc.",
+        "pct": 7.41
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": 6.76
+        "pct": 7.16
       },
       {
         "symbol": "DHT",
         "name": "DHT Holdings, Inc.",
-        "pct": 6.76
+        "pct": 6.21
       },
       {
-        "symbol": "AI",
-        "name": "C3.ai, Inc.",
-        "pct": 6.33
+        "symbol": "FIGS",
+        "name": "FIGS, Inc.",
+        "pct": 5.96
       },
       {
-        "symbol": "ECO",
-        "name": "Okeanis Eco Tankers Corp.",
-        "pct": 5.79
-      },
-      {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
+        "symbol": "VSXY",
+        "name": "Victorias Secret & Co.",
         "pct": 5.7
       },
       {
         "symbol": "FRO",
         "name": "Frontline Plc",
-        "pct": 5.65
+        "pct": 5.58
       },
       {
-        "symbol": "XRPN",
-        "name": "Armada Acquisition Corp. II",
-        "pct": 5.56
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": 5.16
+      },
+      {
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": 4.87
       }
     ],
     "losers": [
       {
         "symbol": "VEEA",
         "name": "Veea Inc.",
-        "pct": -17.28
+        "pct": -17.46
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -10.06
-      },
-      {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": -8.48
-      },
-      {
-        "symbol": "SVC",
-        "name": "Service Properties Trust",
-        "pct": -7.43
+        "pct": -11.72
       },
       {
         "symbol": "IONQ",
         "name": "IonQ, Inc.",
-        "pct": -7.16
+        "pct": -9.3
       },
       {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": -6.97
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": -9.15
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -6.69
+        "pct": -8.81
       },
       {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": -6.66
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": -8.6
       },
       {
-        "symbol": "SNDK",
-        "name": "Sandisk Corporation",
-        "pct": -6.61
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": -8.15
+      },
+      {
+        "symbol": "SVC",
+        "name": "Service Properties Trust",
+        "pct": -7.83
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -7.66
       },
       {
         "symbol": "LITE",
         "name": "Lumentum Holdings Inc.",
-        "pct": -6.29
+        "pct": -7.23
       }
     ],
     "universe": 1215
