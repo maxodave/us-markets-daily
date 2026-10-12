@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T20:08:17Z",
+  "updated": "2026-10-12T13:00:41Z",
   "market_open": false,
   "indices": [
     {
@@ -23,12 +23,22 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.79,
-      "last": 49746.31
+      "pct": 0.73,
+      "last": 50124.9
     }
   ],
   "movers": {
     "gainers": [
+      {
+        "symbol": "WFF",
+        "name": "WF Holding Limited",
+        "pct": 499.51
+      },
+      {
+        "symbol": "VEEA",
+        "name": "Veea Inc.",
+        "pct": 47.29
+      },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
@@ -42,7 +52,17 @@
       {
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
-        "pct": 15.61
+        "pct": 15.6
+      },
+      {
+        "symbol": "SVC",
+        "name": "Service Properties Trust",
+        "pct": 14.95
+      },
+      {
+        "symbol": "DNA",
+        "name": "Ginkgo Bioworks Holdings, Inc.",
+        "pct": 14.64
       },
       {
         "symbol": "MRNA",
@@ -52,39 +72,24 @@
       {
         "symbol": "HUM",
         "name": "Humana Inc.",
-        "pct": 11.54
+        "pct": 11.56
       },
       {
         "symbol": "AUGO",
         "name": "Aura Minerals Inc.",
         "pct": 10.63
-      },
-      {
-        "symbol": "HIMS",
-        "name": "Hims & Hers Health, Inc.",
-        "pct": 10.16
-      },
-      {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": 9.84
-      },
-      {
-        "symbol": "PCVX",
-        "name": "Vaxcyte, Inc.",
-        "pct": 9.79
-      },
-      {
-        "symbol": "SEZL",
-        "name": "Sezzle Inc.",
-        "pct": 9.74
       }
     ],
     "losers": [
       {
-        "symbol": "BIAF",
-        "name": "bioAffinity Technologies, Inc.",
-        "pct": -16.22
+        "symbol": "XRPN",
+        "name": "Armada Acquisition Corp. II",
+        "pct": -29.38
+      },
+      {
+        "symbol": "CDNL",
+        "name": "Cardinal Infrastructure Group Inc.",
+        "pct": -15.72
       },
       {
         "symbol": "ALHC",
@@ -99,7 +104,7 @@
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "pct": -10.86
+        "pct": -10.82
       },
       {
         "symbol": "ASTS",
@@ -117,21 +122,16 @@
         "pct": -9.63
       },
       {
+        "symbol": "AVNT",
+        "name": "Avient Corporation",
+        "pct": -7.78
+      },
+      {
         "symbol": "BKD",
         "name": "Brookdale Senior Living Inc.",
         "pct": -7.07
-      },
-      {
-        "symbol": "HPQ",
-        "name": "HP Inc.",
-        "pct": -6.92
-      },
-      {
-        "symbol": "PARR",
-        "name": "Par Pacific Holdings, Inc.",
-        "pct": -6.57
       }
     ],
-    "universe": 1404
+    "universe": 1215
   }
 }
