@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-12T18:20:52Z",
+  "updated": "2026-10-12T18:38:31Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.15,
-      "last": 7800.07
+      "pct": -0.14,
+      "last": 7800.32
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.76,
-      "last": 30647.22
+      "pct": -0.77,
+      "last": 30643.98
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.31,
-      "last": 51811.57
+      "pct": 0.35,
+      "last": 51833.55
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": 135.48
+        "pct": 234.5
       },
       {
         "symbol": "FIGS",
         "name": "FIGS, Inc.",
-        "pct": 11.98
+        "pct": 13.21
       },
       {
         "symbol": "CCC",
         "name": "CCC Intelligent Solutions Holdings Inc.",
-        "pct": 9.8
+        "pct": 10.26
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": 9.65
+        "pct": 9.35
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": 8.08
-      },
-      {
-        "symbol": "MANH",
-        "name": "Manhattan Associates, Inc.",
-        "pct": 7.03
+        "pct": 7.75
       },
       {
         "symbol": "VSXY",
         "name": "Victorias Secret & Co.",
-        "pct": 7.0
+        "pct": 7.28
       },
       {
-        "symbol": "THRM",
-        "name": "Gentherm Inc",
-        "pct": 6.08
+        "symbol": "MANH",
+        "name": "Manhattan Associates, Inc.",
+        "pct": 6.88
       },
       {
         "symbol": "ECO",
         "name": "Okeanis Eco Tankers Corp.",
-        "pct": 5.94
+        "pct": 6.21
+      },
+      {
+        "symbol": "THRM",
+        "name": "Gentherm Inc",
+        "pct": 6.12
       },
       {
         "symbol": "DHT",
         "name": "DHT Holdings, Inc.",
-        "pct": 5.62
+        "pct": 5.64
       }
     ],
     "losers": [
       {
         "symbol": "SVC",
         "name": "Service Properties Trust",
-        "pct": -18.39
+        "pct": -18.6
       },
       {
         "symbol": "VEEA",
         "name": "Veea Inc.",
-        "pct": -15.79
+        "pct": -15.7
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -14.58
+        "pct": -14.97
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": -11.98
+        "pct": -11.87
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -11.82
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": -10.9
+        "pct": -11.6
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -10.65
-      },
-      {
-        "symbol": "DNA",
-        "name": "Ginkgo Bioworks Holdings, Inc.",
-        "pct": -10.31
-      },
-      {
-        "symbol": "CIEN",
-        "name": "Ciena Corporation",
-        "pct": -10.24
+        "pct": -10.99
       },
       {
         "symbol": "TTMI",
         "name": "TTM Technologies, Inc.",
-        "pct": -10.23
+        "pct": -10.75
+      },
+      {
+        "symbol": "DNA",
+        "name": "Ginkgo Bioworks Holdings, Inc.",
+        "pct": -10.73
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": -10.64
+      },
+      {
+        "symbol": "CIEN",
+        "name": "Ciena Corporation",
+        "pct": -10.51
       }
     ],
     "universe": 1215
