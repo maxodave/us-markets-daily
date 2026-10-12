@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-12T14:10:41Z",
+  "updated": "2026-10-12T14:20:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.09,
-      "last": 7804.9
+      "pct": -0.03,
+      "last": 7809.33
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.76,
-      "last": 30649.18
+      "pct": -0.59,
+      "last": 30702.18
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.39,
-      "last": 51853.89
+      "pct": 0.38,
+      "last": 51847.44
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
       "pct": 0.44,
-      "last": 49984.41
+      "last": 49981.07
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": 92.03
-      },
-      {
-        "symbol": "MANH",
-        "name": "Manhattan Associates, Inc.",
-        "pct": 7.61
+        "pct": 141.66
       },
       {
         "symbol": "CCC",
         "name": "CCC Intelligent Solutions Holdings Inc.",
-        "pct": 7.41
+        "pct": 9.69
       },
       {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": 7.16
-      },
-      {
-        "symbol": "DHT",
-        "name": "DHT Holdings, Inc.",
-        "pct": 6.21
+        "symbol": "MANH",
+        "name": "Manhattan Associates, Inc.",
+        "pct": 7.88
       },
       {
         "symbol": "FIGS",
         "name": "FIGS, Inc.",
-        "pct": 5.96
+        "pct": 7.54
       },
       {
-        "symbol": "VSXY",
-        "name": "Victorias Secret & Co.",
-        "pct": 5.7
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": 6.83
+      },
+      {
+        "symbol": "DHT",
+        "name": "DHT Holdings, Inc.",
+        "pct": 6.76
       },
       {
         "symbol": "FRO",
         "name": "Frontline Plc",
-        "pct": 5.58
+        "pct": 5.88
       },
       {
         "symbol": "ECO",
         "name": "Okeanis Eco Tankers Corp.",
-        "pct": 5.16
+        "pct": 5.58
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": 4.87
+        "pct": 5.45
+      },
+      {
+        "symbol": "VSXY",
+        "name": "Victorias Secret & Co.",
+        "pct": 5.32
       }
     ],
     "losers": [
       {
         "symbol": "VEEA",
         "name": "Veea Inc.",
-        "pct": -17.46
+        "pct": -20.55
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -11.72
-      },
-      {
-        "symbol": "IONQ",
-        "name": "IonQ, Inc.",
-        "pct": -9.3
+        "pct": -10.42
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -9.15
-      },
-      {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": -8.81
-      },
-      {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": -8.6
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": -8.15
+        "pct": -9.7
       },
       {
         "symbol": "SVC",
         "name": "Service Properties Trust",
-        "pct": -7.83
+        "pct": -9.24
+      },
+      {
+        "symbol": "IONQ",
+        "name": "IonQ, Inc.",
+        "pct": -9.06
+      },
+      {
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": -8.27
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": -8.07
+      },
+      {
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": -7.21
+      },
+      {
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": -6.7
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": -7.66
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": -7.23
+        "pct": -6.66
       }
     ],
     "universe": 1215
