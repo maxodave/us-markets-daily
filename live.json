@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-12T13:40:36Z",
+  "updated": "2026-10-12T13:50:34Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.11,
-      "last": 7819.79
+      "pct": 0.01,
+      "last": 7812.26
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.29,
-      "last": 30792.62
+      "pct": -0.45,
+      "last": 30745.43
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.25,
-      "last": 51782.97
+      "pct": 0.14,
+      "last": 51725.03
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.54,
-      "last": 50031.4
+      "pct": 0.39,
+      "last": 49957.27
     }
   ],
   "movers": {
@@ -35,103 +35,103 @@
         "pct": 23.52
       },
       {
-        "symbol": "AI",
-        "name": "C3.ai, Inc.",
-        "pct": 9.84
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": 8.38
       },
       {
         "symbol": "CCC",
         "name": "CCC Intelligent Solutions Holdings Inc.",
-        "pct": 8.62
+        "pct": 8.05
       },
       {
-        "symbol": "XRPN",
-        "name": "Armada Acquisition Corp. II",
-        "pct": 8.54
-      },
-      {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "pct": 7.41
-      },
-      {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": 6.27
+        "symbol": "AI",
+        "name": "C3.ai, Inc.",
+        "pct": 7.2
       },
       {
         "symbol": "MANH",
         "name": "Manhattan Associates, Inc.",
-        "pct": 6.14
-      },
-      {
-        "symbol": "ECO",
-        "name": "Okeanis Eco Tankers Corp.",
-        "pct": 5.62
+        "pct": 6.61
       },
       {
         "symbol": "DHT",
         "name": "DHT Holdings, Inc.",
-        "pct": 5.5
+        "pct": 6.37
+      },
+      {
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": 6.3
+      },
+      {
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": 5.87
+      },
+      {
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": 5.82
       },
       {
         "symbol": "FRO",
         "name": "Frontline Plc",
-        "pct": 4.85
+        "pct": 5.63
       }
     ],
     "losers": [
       {
         "symbol": "VEEA",
         "name": "Veea Inc.",
-        "pct": -16.14
-      },
-      {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": -6.99
-      },
-      {
-        "symbol": "DNA",
-        "name": "Ginkgo Bioworks Holdings, Inc.",
-        "pct": -6.62
+        "pct": -16.47
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -6.44
+        "pct": -8.06
       },
       {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "pct": -6.4
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": -7.97
+      },
+      {
+        "symbol": "IONQ",
+        "name": "IonQ, Inc.",
+        "pct": -6.32
       },
       {
         "symbol": "NVTS",
         "name": "Navitas Semiconductor Corporation",
+        "pct": -6.17
+      },
+      {
+        "symbol": "SNDK",
+        "name": "Sandisk Corporation",
+        "pct": -6.12
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": -5.95
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
         "pct": -5.84
       },
       {
-        "symbol": "FORM",
-        "name": "FormFactor, Inc.",
-        "pct": -5.49
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": -5.81
       },
       {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": -5.44
-      },
-      {
-        "symbol": "MMED",
-        "name": "MiniMed Group, Inc.",
-        "pct": -5.43
-      },
-      {
-        "symbol": "CIEN",
-        "name": "Ciena Corporation",
-        "pct": -5.38
+        "symbol": "SVC",
+        "name": "Service Properties Trust",
+        "pct": -5.8
       }
     ],
-    "universe": 1213
+    "universe": 1215
   }
 }
