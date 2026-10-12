@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-12T15:33:58Z",
+  "updated": "2026-10-12T15:45:33Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.06,
-      "last": 7806.84
+      "pct": 0.01,
+      "last": 7812.05
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.71,
-      "last": 30663.02
+      "pct": -0.57,
+      "last": 30708.29
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.46,
-      "last": 51891.74
+      "pct": 0.49,
+      "last": 51905.86
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.44,
-      "last": 49982.48
+      "pct": 0.48,
+      "last": 50002.13
     }
   ],
   "movers": {
@@ -32,7 +32,7 @@
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": 77.22
+        "pct": 52.89
       },
       {
         "symbol": "CCC",
@@ -42,94 +42,94 @@
       {
         "symbol": "FIGS",
         "name": "FIGS, Inc.",
-        "pct": 9.0
+        "pct": 9.63
       },
       {
         "symbol": "ALHC",
         "name": "Alignment Healthcare, Inc.",
-        "pct": 8.48
+        "pct": 9.11
       },
       {
         "symbol": "MANH",
         "name": "Manhattan Associates, Inc.",
-        "pct": 6.39
+        "pct": 6.27
       },
       {
-        "symbol": "DHT",
-        "name": "DHT Holdings, Inc.",
-        "pct": 5.64
+        "symbol": "FICO",
+        "name": "Fair Isaac Corporation",
+        "pct": 5.38
       },
       {
         "symbol": "ECO",
         "name": "Okeanis Eco Tankers Corp.",
-        "pct": 5.47
-      },
-      {
-        "symbol": "FRO",
-        "name": "Frontline Plc",
-        "pct": 5.33
+        "pct": 5.23
       },
       {
         "symbol": "EBAY",
         "name": "eBay Inc.",
-        "pct": 5.25
+        "pct": 5.21
       },
       {
-        "symbol": "VFC",
-        "name": "V.F. Corporation",
-        "pct": 4.47
+        "symbol": "DHT",
+        "name": "DHT Holdings, Inc.",
+        "pct": 5.19
+      },
+      {
+        "symbol": "FRO",
+        "name": "Frontline Plc",
+        "pct": 4.87
       }
     ],
     "losers": [
       {
         "symbol": "VEEA",
         "name": "Veea Inc.",
-        "pct": -21.5
+        "pct": -22.02
       },
       {
         "symbol": "SVC",
         "name": "Service Properties Trust",
-        "pct": -13.85
+        "pct": -14.06
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -11.4
-      },
-      {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": -10.76
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -10.06
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": -9.66
+        "pct": -11.12
       },
       {
         "symbol": "DNA",
         "name": "Ginkgo Bioworks Holdings, Inc.",
-        "pct": -9.59
+        "pct": -10.17
       },
       {
-        "symbol": "IONQ",
-        "name": "IonQ, Inc.",
-        "pct": -9.3
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": -10.1
       },
       {
-        "symbol": "CIEN",
-        "name": "Ciena Corporation",
-        "pct": -9.3
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -9.8
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": -9.26
+        "pct": -9.46
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": -9.23
+      },
+      {
+        "symbol": "IONQ",
+        "name": "IonQ, Inc.",
+        "pct": -9.16
+      },
+      {
+        "symbol": "CIEN",
+        "name": "Ciena Corporation",
+        "pct": -9.1
       }
     ],
     "universe": 1215
