@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-12T13:30:36Z",
+  "updated": "2026-10-12T13:40:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.08,
-      "last": 7817.9
+      "pct": 0.11,
+      "last": 7819.79
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.27,
-      "last": 30798.69
+      "pct": -0.29,
+      "last": 30792.62
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.21,
-      "last": 51759.21
+      "pct": 0.25,
+      "last": 51782.97
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.49,
-      "last": 50007.8
+      "pct": 0.54,
+      "last": 50031.4
     }
   ],
   "movers": {
@@ -32,7 +32,12 @@
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": 20.34
+        "pct": 23.52
+      },
+      {
+        "symbol": "AI",
+        "name": "C3.ai, Inc.",
+        "pct": 9.84
       },
       {
         "symbol": "CCC",
@@ -40,98 +45,93 @@
         "pct": 8.62
       },
       {
+        "symbol": "XRPN",
+        "name": "Armada Acquisition Corp. II",
+        "pct": 8.54
+      },
+      {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": 8.18
-      },
-      {
-        "symbol": "AI",
-        "name": "C3.ai, Inc.",
-        "pct": 7.46
-      },
-      {
-        "symbol": "DHT",
-        "name": "DHT Holdings, Inc.",
-        "pct": 5.82
-      },
-      {
-        "symbol": "ECO",
-        "name": "Okeanis Eco Tankers Corp.",
-        "pct": 5.61
+        "pct": 7.41
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": 5.29
+        "pct": 6.27
       },
       {
-        "symbol": "BIIB",
-        "name": "Biogen Inc.",
-        "pct": 5.15
+        "symbol": "MANH",
+        "name": "Manhattan Associates, Inc.",
+        "pct": 6.14
+      },
+      {
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": 5.62
+      },
+      {
+        "symbol": "DHT",
+        "name": "DHT Holdings, Inc.",
+        "pct": 5.5
       },
       {
         "symbol": "FRO",
         "name": "Frontline Plc",
-        "pct": 4.46
-      },
-      {
-        "symbol": "ZETA",
-        "name": "Zeta Global Holdings Corp.",
-        "pct": 3.82
+        "pct": 4.85
       }
     ],
     "losers": [
       {
         "symbol": "VEEA",
         "name": "Veea Inc.",
-        "pct": -15.26
-      },
-      {
-        "symbol": "DNA",
-        "name": "Ginkgo Bioworks Holdings, Inc.",
-        "pct": -6.15
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -6.09
+        "pct": -16.14
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -5.98
+        "pct": -6.99
       },
       {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "pct": -4.97
+        "symbol": "DNA",
+        "name": "Ginkgo Bioworks Holdings, Inc.",
+        "pct": -6.62
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -4.12
+        "pct": -6.44
       },
       {
-        "symbol": "ALB",
-        "name": "Albemarle Corporation",
-        "pct": -4.06
-      },
-      {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": -4.02
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -4.0
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": -6.4
       },
       {
         "symbol": "NVTS",
         "name": "Navitas Semiconductor Corporation",
-        "pct": -3.99
+        "pct": -5.84
+      },
+      {
+        "symbol": "FORM",
+        "name": "FormFactor, Inc.",
+        "pct": -5.49
+      },
+      {
+        "symbol": "AAOI",
+        "name": "Applied Optoelectronics, Inc.",
+        "pct": -5.44
+      },
+      {
+        "symbol": "MMED",
+        "name": "MiniMed Group, Inc.",
+        "pct": -5.43
+      },
+      {
+        "symbol": "CIEN",
+        "name": "Ciena Corporation",
+        "pct": -5.38
       }
     ],
-    "universe": 1131
+    "universe": 1213
   }
 }
