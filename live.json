@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-12T13:21:02Z",
-  "market_open": false,
+  "updated": "2026-10-12T13:30:36Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.59,
-      "last": 7811.54
+      "pct": 0.08,
+      "last": 7817.9
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.51,
-      "last": 30883.15
+      "pct": -0.27,
+      "last": 30798.69
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.83,
-      "last": 51654.95
+      "pct": 0.21,
+      "last": 51759.21
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.63,
-      "last": 50079.08
+      "pct": 0.49,
+      "last": 50007.8
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": 499.51
+        "pct": 20.34
       },
       {
-        "symbol": "VEEA",
-        "name": "Veea Inc.",
-        "pct": 47.29
+        "symbol": "CCC",
+        "name": "CCC Intelligent Solutions Holdings Inc.",
+        "pct": 8.62
       },
       {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": 15.86
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": 8.18
       },
       {
-        "symbol": "NVAX",
-        "name": "Novavax, Inc.",
-        "pct": 15.8
+        "symbol": "AI",
+        "name": "C3.ai, Inc.",
+        "pct": 7.46
       },
       {
-        "symbol": "CCI",
-        "name": "Crown Castle Inc.",
-        "pct": 15.6
+        "symbol": "DHT",
+        "name": "DHT Holdings, Inc.",
+        "pct": 5.82
       },
       {
-        "symbol": "SVC",
-        "name": "Service Properties Trust",
-        "pct": 14.95
-      },
-      {
-        "symbol": "DNA",
-        "name": "Ginkgo Bioworks Holdings, Inc.",
-        "pct": 14.64
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": 14.21
-      },
-      {
-        "symbol": "HUM",
-        "name": "Humana Inc.",
-        "pct": 11.56
-      },
-      {
-        "symbol": "AUGO",
-        "name": "Aura Minerals Inc.",
-        "pct": 10.63
-      }
-    ],
-    "losers": [
-      {
-        "symbol": "XRPN",
-        "name": "Armada Acquisition Corp. II",
-        "pct": -29.38
-      },
-      {
-        "symbol": "CDNL",
-        "name": "Cardinal Infrastructure Group Inc.",
-        "pct": -15.72
-      },
-      {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": -13.38
-      },
-      {
-        "symbol": "TMUS",
-        "name": "T-Mobile US, Inc.",
-        "pct": -13.27
-      },
-      {
-        "symbol": "T",
-        "name": "AT&T Inc.",
-        "pct": -10.82
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": 5.61
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": -10.48
+        "pct": 5.29
       },
       {
-        "symbol": "VZ",
-        "name": "Verizon Communications Inc.",
-        "pct": -10.14
+        "symbol": "BIIB",
+        "name": "Biogen Inc.",
+        "pct": 5.15
       },
       {
-        "symbol": "TIGO",
-        "name": "Millicom International Cellular S.A.",
-        "pct": -9.63
+        "symbol": "FRO",
+        "name": "Frontline Plc",
+        "pct": 4.46
       },
       {
-        "symbol": "AVNT",
-        "name": "Avient Corporation",
-        "pct": -7.78
-      },
-      {
-        "symbol": "BKD",
-        "name": "Brookdale Senior Living Inc.",
-        "pct": -7.07
+        "symbol": "ZETA",
+        "name": "Zeta Global Holdings Corp.",
+        "pct": 3.82
       }
     ],
-    "universe": 1215
+    "losers": [
+      {
+        "symbol": "VEEA",
+        "name": "Veea Inc.",
+        "pct": -15.26
+      },
+      {
+        "symbol": "DNA",
+        "name": "Ginkgo Bioworks Holdings, Inc.",
+        "pct": -6.15
+      },
+      {
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -6.09
+      },
+      {
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": -5.98
+      },
+      {
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": -4.97
+      },
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": -4.12
+      },
+      {
+        "symbol": "ALB",
+        "name": "Albemarle Corporation",
+        "pct": -4.06
+      },
+      {
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": -4.02
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -4.0
+      },
+      {
+        "symbol": "NVTS",
+        "name": "Navitas Semiconductor Corporation",
+        "pct": -3.99
+      }
+    ],
+    "universe": 1131
   }
 }
