@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T20:19:55Z",
+  "updated": "2026-10-13T13:01:04Z",
   "market_open": false,
   "indices": [
     {
@@ -23,8 +23,8 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.55,
-      "last": 50035.0
+      "pct": 0.25,
+      "last": 50128.54
     }
   ],
   "movers": {
@@ -33,6 +33,11 @@
         "symbol": "WFF",
         "name": "WF Holding Limited",
         "pct": 40.6
+      },
+      {
+        "symbol": "GRML",
+        "name": "Greenland Mines Ltd",
+        "pct": 16.44
       },
       {
         "symbol": "FIGS",
@@ -55,6 +60,11 @@
         "pct": 7.22
       },
       {
+        "symbol": "TRAX",
+        "name": "First Tracks Biotherapeutics, Inc.",
+        "pct": 6.91
+      },
+      {
         "symbol": "VSXY",
         "name": "Victorias Secret & Co.",
         "pct": 6.9
@@ -68,28 +78,13 @@
         "symbol": "MANH",
         "name": "Manhattan Associates, Inc.",
         "pct": 6.34
-      },
-      {
-        "symbol": "ECO",
-        "name": "Okeanis Eco Tankers Corp.",
-        "pct": 5.93
-      },
-      {
-        "symbol": "FRO",
-        "name": "Frontline Plc",
-        "pct": 5.51
       }
     ],
     "losers": [
       {
-        "symbol": "VEEA",
-        "name": "Veea Inc.",
-        "pct": -19.12
-      },
-      {
-        "symbol": "SVC",
-        "name": "Service Properties Trust",
-        "pct": -17.06
+        "symbol": "CTNM",
+        "name": "Contineum Therapeutics, Inc.",
+        "pct": -35.99
       },
       {
         "symbol": "SECZ",
@@ -122,16 +117,21 @@
         "pct": -9.78
       },
       {
+        "symbol": "QMCO",
+        "name": "Quantum Corporation",
+        "pct": -9.6
+      },
+      {
         "symbol": "AXTI",
         "name": "AXT Inc",
         "pct": -9.47
       },
       {
-        "symbol": "DNA",
-        "name": "Ginkgo Bioworks Holdings, Inc.",
-        "pct": -9.31
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": -9.21
       }
     ],
-    "universe": 1215
+    "universe": 1198
   }
 }
