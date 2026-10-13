@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-13T15:38:59Z",
+  "updated": "2026-10-13T16:45:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.27,
-      "last": 7786.54
+      "pct": -0.02,
+      "last": 7805.86
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.81,
-      "last": 30417.37
+      "pct": -0.33,
+      "last": 30562.51
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.25,
-      "last": 51724.06
+      "last": 51723.54
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.08,
-      "last": 50044.53
+      "pct": 0.11,
+      "last": 50057.18
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "PARR",
         "name": "Par Pacific Holdings, Inc.",
-        "pct": 6.98
+        "pct": 6.56
       },
       {
         "symbol": "PBF",
         "name": "PBF Energy Inc.",
-        "pct": 5.5
-      },
-      {
-        "symbol": "DXC",
-        "name": "DXC Technology Company",
-        "pct": 4.9
-      },
-      {
-        "symbol": "DK",
-        "name": "Delek US Holdings, Inc.",
-        "pct": 4.53
-      },
-      {
-        "symbol": "VG",
-        "name": "Venture Global, Inc.",
-        "pct": 4.46
+        "pct": 5.94
       },
       {
         "symbol": "CDNA",
         "name": "CareDx, Inc.",
-        "pct": 4.44
+        "pct": 5.32
       },
       {
-        "symbol": "CTSH",
-        "name": "Cognizant Technology Solutions Corporation",
-        "pct": 4.4
+        "symbol": "VG",
+        "name": "Venture Global, Inc.",
+        "pct": 4.8
+      },
+      {
+        "symbol": "DK",
+        "name": "Delek US Holdings, Inc.",
+        "pct": 4.32
+      },
+      {
+        "symbol": "IFF",
+        "name": "International Flavors & Fragrances, Inc.",
+        "pct": 3.99
       },
       {
         "symbol": "DINO",
         "name": "HF Sinclair Corporation",
-        "pct": 4.1
+        "pct": 3.93
+      },
+      {
+        "symbol": "VRNS",
+        "name": "Varonis Systems, Inc.",
+        "pct": 3.92
       },
       {
         "symbol": "LOGI",
         "name": "Logitech International S.A. - Registered Sha",
-        "pct": 3.99
+        "pct": 3.92
       },
       {
-        "symbol": "BP",
-        "name": "BP p.l.c.",
-        "pct": 3.98
+        "symbol": "ALHC",
+        "name": "Alignment Healthcare, Inc.",
+        "pct": 3.89
       }
     ],
     "losers": [
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": -76.85
+        "pct": -77.52
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -15.12
-      },
-      {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": -9.14
-      },
-      {
-        "symbol": "AMAT",
-        "name": "Applied Materials, Inc.",
-        "pct": -8.48
+        "pct": -10.81
       },
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": -8.14
-      },
-      {
-        "symbol": "FLEX",
-        "name": "Flex Ltd.",
-        "pct": -8.09
-      },
-      {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": -8.03
-      },
-      {
-        "symbol": "FN",
-        "name": "Fabrinet",
-        "pct": -7.97
-      },
-      {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": -7.58
+        "pct": -8.31
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": -7.47
+        "pct": -7.68
+      },
+      {
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": -7.21
+      },
+      {
+        "symbol": "FLEX",
+        "name": "Flex Ltd.",
+        "pct": -7.01
+      },
+      {
+        "symbol": "JNJ",
+        "name": "Johnson & Johnson",
+        "pct": -6.7
+      },
+      {
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": -6.48
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": -6.25
+      },
+      {
+        "symbol": "AMAT",
+        "name": "Applied Materials, Inc.",
+        "pct": -6.21
       }
     ],
     "universe": 1199
