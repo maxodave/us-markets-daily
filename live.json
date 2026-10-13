@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-13T15:01:33Z",
+  "updated": "2026-10-13T15:19:01Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.16,
-      "last": 7795.59
+      "pct": -0.13,
+      "last": 7797.84
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.59,
-      "last": 30484.55
+      "pct": -0.56,
+      "last": 30492.15
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.14,
-      "last": 51781.98
+      "pct": -0.13,
+      "last": 51786.03
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.08,
-      "last": 50041.23
+      "pct": 0.01,
+      "last": 50006.55
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "PARR",
         "name": "Par Pacific Holdings, Inc.",
-        "pct": 5.17
-      },
-      {
-        "symbol": "RSI",
-        "name": "Rush Street Interactive, Inc.",
-        "pct": 4.06
-      },
-      {
-        "symbol": "MDB",
-        "name": "MongoDB, Inc.",
-        "pct": 3.86
-      },
-      {
-        "symbol": "VG",
-        "name": "Venture Global, Inc.",
-        "pct": 3.85
-      },
-      {
-        "symbol": "BP",
-        "name": "BP p.l.c.",
-        "pct": 3.72
-      },
-      {
-        "symbol": "DXC",
-        "name": "DXC Technology Company",
-        "pct": 3.71
-      },
-      {
-        "symbol": "LOGI",
-        "name": "Logitech International S.A. - Registered Sha",
-        "pct": 3.67
-      },
-      {
-        "symbol": "G",
-        "name": "Genpact Limited",
-        "pct": 3.58
+        "pct": 5.83
       },
       {
         "symbol": "PBF",
         "name": "PBF Energy Inc.",
-        "pct": 3.52
+        "pct": 4.56
       },
       {
-        "symbol": "BCE",
-        "name": "BCE, Inc.",
-        "pct": 3.47
+        "symbol": "DXC",
+        "name": "DXC Technology Company",
+        "pct": 4.15
+      },
+      {
+        "symbol": "LOGI",
+        "name": "Logitech International S.A. - Registered Sha",
+        "pct": 4.08
+      },
+      {
+        "symbol": "BP",
+        "name": "BP p.l.c.",
+        "pct": 3.96
+      },
+      {
+        "symbol": "VG",
+        "name": "Venture Global, Inc.",
+        "pct": 3.92
+      },
+      {
+        "symbol": "CART",
+        "name": "Maplebear Inc.",
+        "pct": 3.83
+      },
+      {
+        "symbol": "AS",
+        "name": "Amer Sports, Inc.",
+        "pct": 3.81
+      },
+      {
+        "symbol": "TTD",
+        "name": "The Trade Desk, Inc.",
+        "pct": 3.77
+      },
+      {
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "pct": 3.69
       }
     ],
     "losers": [
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": -69.91
+        "pct": -75.62
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -14.5
+        "pct": -15.27
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": -9.54
-      },
-      {
-        "symbol": "GRML",
-        "name": "Greenland Mines Ltd",
-        "pct": -8.64
-      },
-      {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": -7.57
+        "pct": -8.67
       },
       {
         "symbol": "FCEL",
         "name": "FuelCell Energy, Inc.",
-        "pct": -6.96
+        "pct": -7.54
       },
       {
-        "symbol": "FLEX",
-        "name": "Flex Ltd.",
-        "pct": -6.5
+        "symbol": "GRML",
+        "name": "Greenland Mines Ltd",
+        "pct": -7.48
+      },
+      {
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": -7.27
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": -6.26
+        "pct": -6.58
       },
       {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": -6.15
+        "pct": -6.33
       },
       {
-        "symbol": "APLD",
-        "name": "Applied Digital Corporation",
-        "pct": -5.91
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -6.29
+      },
+      {
+        "symbol": "FLEX",
+        "name": "Flex Ltd.",
+        "pct": -6.28
       }
     ],
     "universe": 1199
