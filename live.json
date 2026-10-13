@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-13T19:26:17Z",
+  "updated": "2026-10-13T19:46:47Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.02,
-      "last": 7809.47
+      "pct": 0.01,
+      "last": 7808.94
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.36,
-      "last": 30553.39
+      "pct": -0.37,
+      "last": 30551.81
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.2,
-      "last": 51750.23
+      "pct": -0.26,
+      "last": 51719.61
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "PARR",
         "name": "Par Pacific Holdings, Inc.",
-        "pct": 6.99
+        "pct": 8.11
       },
       {
         "symbol": "PBF",
         "name": "PBF Energy Inc.",
-        "pct": 6.19
+        "pct": 7.33
       },
       {
         "symbol": "CDW",
         "name": "CDW Corporation",
-        "pct": 5.48
+        "pct": 5.73
       },
       {
         "symbol": "VG",
         "name": "Venture Global, Inc.",
-        "pct": 5.45
+        "pct": 5.56
       },
       {
-        "symbol": "CHTR",
-        "name": "Charter Communications, Inc.",
-        "pct": 5.06
-      },
-      {
-        "symbol": "NXT",
-        "name": "Nextpower Inc.",
-        "pct": 5.06
-      },
-      {
-        "symbol": "CDNA",
-        "name": "CareDx, Inc.",
-        "pct": 4.99
+        "symbol": "NVTS",
+        "name": "Navitas Semiconductor Corporation",
+        "pct": 5.46
       },
       {
         "symbol": "VRNS",
         "name": "Varonis Systems, Inc.",
-        "pct": 4.83
+        "pct": 5.2
       },
       {
-        "symbol": "QXO",
-        "name": "QXO, Inc.",
-        "pct": 4.75
+        "symbol": "NXT",
+        "name": "Nextpower Inc.",
+        "pct": 4.96
       },
       {
-        "symbol": "IFF",
-        "name": "International Flavors & Fragrances, Inc.",
-        "pct": 4.57
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": 4.95
+      },
+      {
+        "symbol": "CDNA",
+        "name": "CareDx, Inc.",
+        "pct": 4.85
+      },
+      {
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "pct": 4.65
       }
     ],
     "losers": [
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": -87.09
+        "pct": -88.25
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -9.67
-      },
-      {
-        "symbol": "GRML",
-        "name": "Greenland Mines Ltd",
-        "pct": -8.97
+        "pct": -11.88
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": -8.32
+        "pct": -9.49
+      },
+      {
+        "symbol": "GRML",
+        "name": "Greenland Mines Ltd",
+        "pct": -8.84
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": -7.84
+        "pct": -8.48
+      },
+      {
+        "symbol": "TNGX",
+        "name": "Tango Therapeutics, Inc.",
+        "pct": -7.82
       },
       {
         "symbol": "KOD",
         "name": "Kodiak Sciences Inc",
-        "pct": -7.48
+        "pct": -7.28
       },
       {
         "symbol": "AMAT",
         "name": "Applied Materials, Inc.",
-        "pct": -6.89
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": -6.88
-      },
-      {
-        "symbol": "FN",
-        "name": "Fabrinet",
-        "pct": -6.47
+        "pct": -7.08
       },
       {
         "symbol": "MIRM",
         "name": "Mirum Pharmaceuticals, Inc.",
-        "pct": -6.4
+        "pct": -6.98
+      },
+      {
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": -6.49
       }
     ],
     "universe": 1199
