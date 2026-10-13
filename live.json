@@ -1,137 +1,137 @@
 {
-  "updated": "2026-10-13T13:20:34Z",
-  "market_open": false,
+  "updated": "2026-10-13T13:36:41Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": -0.06,
-      "last": 7807.24
+      "last": 7803.38
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.71,
-      "last": 30664.7
+      "pct": -0.73,
+      "last": 30439.49
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.38,
-      "last": 51850.55
+      "pct": 0.53,
+      "last": 52127.34
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.19,
-      "last": 50095.16
+      "pct": 0.23,
+      "last": 50114.93
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "WFF",
-        "name": "WF Holding Limited",
-        "pct": 40.6
-      },
-      {
-        "symbol": "GRML",
-        "name": "Greenland Mines Ltd",
-        "pct": 16.44
-      },
-      {
         "symbol": "FIGS",
         "name": "FIGS, Inc.",
-        "pct": 12.42
+        "pct": 7.05
       },
       {
-        "symbol": "FICO",
-        "name": "Fair Isaac Corporation",
-        "pct": 10.85
+        "symbol": "VFC",
+        "name": "V.F. Corporation",
+        "pct": 5.92
       },
       {
-        "symbol": "CCC",
-        "name": "CCC Intelligent Solutions Holdings Inc.",
-        "pct": 8.12
-      },
-      {
-        "symbol": "ALHC",
-        "name": "Alignment Healthcare, Inc.",
-        "pct": 7.22
-      },
-      {
-        "symbol": "TRAX",
-        "name": "First Tracks Biotherapeutics, Inc.",
-        "pct": 6.91
+        "symbol": "OLLI",
+        "name": "Ollie's Bargain Outlet Holdings, Inc.",
+        "pct": 5.07
       },
       {
         "symbol": "VSXY",
         "name": "Victorias Secret & Co.",
-        "pct": 6.9
+        "pct": 4.12
       },
       {
-        "symbol": "DHT",
-        "name": "DHT Holdings, Inc.",
-        "pct": 6.41
+        "symbol": "CART",
+        "name": "Maplebear Inc.",
+        "pct": 3.89
       },
       {
-        "symbol": "MANH",
-        "name": "Manhattan Associates, Inc.",
-        "pct": 6.34
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": 3.79
+      },
+      {
+        "symbol": "EXPE",
+        "name": "Expedia Group, Inc.",
+        "pct": 3.71
+      },
+      {
+        "symbol": "VEEV",
+        "name": "Veeva Systems Inc.",
+        "pct": 3.48
+      },
+      {
+        "symbol": "CTNM",
+        "name": "Contineum Therapeutics, Inc.",
+        "pct": 3.42
+      },
+      {
+        "symbol": "MNDY",
+        "name": "monday.com Ltd.",
+        "pct": 3.4
       }
     ],
     "losers": [
       {
-        "symbol": "CTNM",
-        "name": "Contineum Therapeutics, Inc.",
-        "pct": -35.99
+        "symbol": "WFF",
+        "name": "WF Holding Limited",
+        "pct": -28.1
+      },
+      {
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -15.65
+      },
+      {
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": -7.17
+      },
+      {
+        "symbol": "GRML",
+        "name": "Greenland Mines Ltd",
+        "pct": -7.06
+      },
+      {
+        "symbol": "WDC",
+        "name": "Western Digital Corporation",
+        "pct": -6.8
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": -6.79
+      },
+      {
+        "symbol": "APLD",
+        "name": "Applied Digital Corporation",
+        "pct": -6.71
+      },
+      {
+        "symbol": "STX",
+        "name": "Seagate Technology Holdings PLC",
+        "pct": -6.44
       },
       {
         "symbol": "SECZ",
         "name": "Securitize Corp.",
-        "pct": -14.18
+        "pct": -6.07
       },
       {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": -10.69
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": -10.15
-      },
-      {
-        "symbol": "CIEN",
-        "name": "Ciena Corporation",
-        "pct": -9.95
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": -9.8
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": -9.78
-      },
-      {
-        "symbol": "QMCO",
-        "name": "Quantum Corporation",
-        "pct": -9.6
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -9.47
-      },
-      {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": -9.21
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -6.04
       }
     ],
-    "universe": 1199
+    "universe": 1198
   }
 }
