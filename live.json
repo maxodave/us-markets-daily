@@ -1,137 +1,137 @@
 {
-  "updated": "2026-10-13T13:36:41Z",
+  "updated": "2026-10-13T14:21:11Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.06,
-      "last": 7803.38
+      "pct": -0.1,
+      "last": 7799.92
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.73,
-      "last": 30439.49
+      "pct": -0.44,
+      "last": 30528.39
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.53,
-      "last": 52127.34
+      "pct": 0.04,
+      "last": 51876.12
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.23,
-      "last": 50114.93
+      "pct": -0.02,
+      "last": 49993.15
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "DXC",
+        "name": "DXC Technology Company",
+        "pct": 4.74
+      },
+      {
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "pct": 4.72
+      },
+      {
         "symbol": "FIGS",
         "name": "FIGS, Inc.",
-        "pct": 7.05
+        "pct": 4.62
       },
       {
-        "symbol": "VFC",
-        "name": "V.F. Corporation",
-        "pct": 5.92
+        "symbol": "SNAP",
+        "name": "Snap Inc.",
+        "pct": 4.52
       },
       {
-        "symbol": "OLLI",
-        "name": "Ollie's Bargain Outlet Holdings, Inc.",
-        "pct": 5.07
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": 4.31
       },
       {
-        "symbol": "VSXY",
-        "name": "Victorias Secret & Co.",
-        "pct": 4.12
+        "symbol": "PARR",
+        "name": "Par Pacific Holdings, Inc.",
+        "pct": 4.21
       },
       {
-        "symbol": "CART",
-        "name": "Maplebear Inc.",
-        "pct": 3.89
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": 3.86
       },
       {
-        "symbol": "ALM",
-        "name": "Almonty Industries Inc.",
-        "pct": 3.79
+        "symbol": "AS",
+        "name": "Amer Sports, Inc.",
+        "pct": 3.82
       },
       {
-        "symbol": "EXPE",
-        "name": "Expedia Group, Inc.",
-        "pct": 3.71
+        "symbol": "CTSH",
+        "name": "Cognizant Technology Solutions Corporation",
+        "pct": 3.72
       },
       {
-        "symbol": "VEEV",
-        "name": "Veeva Systems Inc.",
-        "pct": 3.48
-      },
-      {
-        "symbol": "CTNM",
-        "name": "Contineum Therapeutics, Inc.",
-        "pct": 3.42
-      },
-      {
-        "symbol": "MNDY",
-        "name": "monday.com Ltd.",
-        "pct": 3.4
+        "symbol": "ZS",
+        "name": "Zscaler, Inc.",
+        "pct": 3.65
       }
     ],
     "losers": [
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": -28.1
+        "pct": -63.85
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -15.65
+        "pct": -16.12
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": -7.17
+        "pct": -9.77
       },
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": -7.06
+        "pct": -8.55
       },
       {
-        "symbol": "WDC",
-        "name": "Western Digital Corporation",
-        "pct": -6.8
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": -6.19
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": -6.1
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": -6.79
+        "pct": -5.79
+      },
+      {
+        "symbol": "TRAX",
+        "name": "First Tracks Biotherapeutics, Inc.",
+        "pct": -5.7
       },
       {
         "symbol": "APLD",
         "name": "Applied Digital Corporation",
-        "pct": -6.71
+        "pct": -5.68
       },
       {
-        "symbol": "STX",
-        "name": "Seagate Technology Holdings PLC",
-        "pct": -6.44
-      },
-      {
-        "symbol": "SECZ",
-        "name": "Securitize Corp.",
-        "pct": -6.07
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -6.04
+        "symbol": "JNJ",
+        "name": "Johnson & Johnson",
+        "pct": -4.79
       }
     ],
-    "universe": 1198
+    "universe": 1199
   }
 }
