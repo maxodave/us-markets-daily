@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-13T15:19:01Z",
+  "updated": "2026-10-13T15:38:59Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.13,
-      "last": 7797.84
+      "pct": -0.27,
+      "last": 7786.54
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.56,
-      "last": 30492.15
+      "pct": -0.81,
+      "last": 30417.37
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.13,
-      "last": 51786.03
+      "pct": -0.25,
+      "last": 51724.06
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.01,
-      "last": 50006.55
+      "pct": 0.08,
+      "last": 50044.53
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "PARR",
         "name": "Par Pacific Holdings, Inc.",
-        "pct": 5.83
+        "pct": 6.98
       },
       {
         "symbol": "PBF",
         "name": "PBF Energy Inc.",
-        "pct": 4.56
+        "pct": 5.5
       },
       {
         "symbol": "DXC",
         "name": "DXC Technology Company",
-        "pct": 4.15
+        "pct": 4.9
       },
       {
-        "symbol": "LOGI",
-        "name": "Logitech International S.A. - Registered Sha",
-        "pct": 4.08
-      },
-      {
-        "symbol": "BP",
-        "name": "BP p.l.c.",
-        "pct": 3.96
+        "symbol": "DK",
+        "name": "Delek US Holdings, Inc.",
+        "pct": 4.53
       },
       {
         "symbol": "VG",
         "name": "Venture Global, Inc.",
-        "pct": 3.92
+        "pct": 4.46
       },
       {
-        "symbol": "CART",
-        "name": "Maplebear Inc.",
-        "pct": 3.83
+        "symbol": "CDNA",
+        "name": "CareDx, Inc.",
+        "pct": 4.44
       },
       {
-        "symbol": "AS",
-        "name": "Amer Sports, Inc.",
-        "pct": 3.81
+        "symbol": "CTSH",
+        "name": "Cognizant Technology Solutions Corporation",
+        "pct": 4.4
       },
       {
-        "symbol": "TTD",
-        "name": "The Trade Desk, Inc.",
-        "pct": 3.77
+        "symbol": "DINO",
+        "name": "HF Sinclair Corporation",
+        "pct": 4.1
       },
       {
-        "symbol": "MDB",
-        "name": "MongoDB, Inc.",
-        "pct": 3.69
+        "symbol": "LOGI",
+        "name": "Logitech International S.A. - Registered Sha",
+        "pct": 3.99
+      },
+      {
+        "symbol": "BP",
+        "name": "BP p.l.c.",
+        "pct": 3.98
       }
     ],
     "losers": [
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": -75.62
+        "pct": -76.85
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -15.27
+        "pct": -15.12
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": -8.67
+        "pct": -9.14
       },
       {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": -7.54
+        "symbol": "AMAT",
+        "name": "Applied Materials, Inc.",
+        "pct": -8.48
       },
       {
         "symbol": "GRML",
         "name": "Greenland Mines Ltd",
-        "pct": -7.48
-      },
-      {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": -7.27
-      },
-      {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": -6.58
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": -6.33
-      },
-      {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": -6.29
+        "pct": -8.14
       },
       {
         "symbol": "FLEX",
         "name": "Flex Ltd.",
-        "pct": -6.28
+        "pct": -8.09
+      },
+      {
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": -8.03
+      },
+      {
+        "symbol": "FN",
+        "name": "Fabrinet",
+        "pct": -7.97
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": -7.58
+      },
+      {
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": -7.47
       }
     ],
     "universe": 1199
