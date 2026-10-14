@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-14T13:49:29Z",
+  "updated": "2026-10-14T14:24:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.23,
-      "last": 7787.52
+      "pct": -0.63,
+      "last": 7756.19
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.46,
-      "last": 30429.04
+      "pct": -1.0,
+      "last": 30263.91
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.34,
-      "last": 51850.22
+      "pct": -0.01,
+      "last": 51667.07
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.32,
-      "last": 49876.0
+      "pct": -0.51,
+      "last": 49782.14
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "pct": 40.71
+        "pct": 34.07
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": 32.94
-      },
-      {
-        "symbol": "ESLT",
-        "name": "Elbit Systems Ltd.",
-        "pct": 6.64
+        "pct": 27.64
       },
       {
         "symbol": "HALO",
         "name": "Halozyme Therapeutics, Inc.",
-        "pct": 5.91
-      },
-      {
-        "symbol": "GFS",
-        "name": "GlobalFoundries Inc.",
-        "pct": 5.33
+        "pct": 6.5
       },
       {
         "symbol": "CAI",
         "name": "Caris Life Sciences, Inc.",
-        "pct": 4.33
+        "pct": 5.79
       },
       {
-        "symbol": "GTLB",
-        "name": "GitLab Inc.",
-        "pct": 4.18
+        "symbol": "GFS",
+        "name": "GlobalFoundries Inc.",
+        "pct": 4.52
       },
       {
-        "symbol": "RVMD",
-        "name": "Revolution Medicines, Inc.",
-        "pct": 3.88
+        "symbol": "ESLT",
+        "name": "Elbit Systems Ltd.",
+        "pct": 4.48
       },
       {
-        "symbol": "MDGL",
-        "name": "Madrigal Pharmaceuticals, Inc.",
-        "pct": 3.85
+        "symbol": "AXSM",
+        "name": "Axsome Therapeutics, Inc.",
+        "pct": 3.95
       },
       {
-        "symbol": "WIX",
-        "name": "Wix.com Ltd.",
-        "pct": 3.75
+        "symbol": "LLY",
+        "name": "Eli Lilly and Company",
+        "pct": 3.84
+      },
+      {
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets, Inc.",
+        "pct": 3.82
+      },
+      {
+        "symbol": "AZN",
+        "name": "AstraZeneca PLC",
+        "pct": 3.55
       }
     ],
     "losers": [
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": -29.01
+        "pct": -27.37
       },
       {
         "symbol": "SKYD",
         "name": "Skydance Corporation",
-        "pct": -22.87
+        "pct": -24.36
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": -12.43
-      },
-      {
-        "symbol": "PGR",
-        "name": "Progressive Corporation (The)",
-        "pct": -9.35
-      },
-      {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": -9.07
+        "pct": -13.79
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -8.36
+        "pct": -10.07
       },
       {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -7.66
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": -10.03
+      },
+      {
+        "symbol": "DOCN",
+        "name": "DigitalOcean Holdings, Inc.",
+        "pct": -9.92
+      },
+      {
+        "symbol": "WULF",
+        "name": "TeraWulf Inc.",
+        "pct": -9.54
       },
       {
         "symbol": "UUUU",
         "name": "Energy Fuels Inc",
-        "pct": -7.61
+        "pct": -9.49
       },
       {
-        "symbol": "BAC",
-        "name": "Bank of America Corporation",
-        "pct": -7.61
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -9.37
       },
       {
-        "symbol": "STT",
-        "name": "State Street Corporation",
-        "pct": -7.42
+        "symbol": "PGR",
+        "name": "Progressive Corporation (The)",
+        "pct": -9.29
       }
     ],
     "universe": 1274
