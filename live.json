@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-14T16:59:52Z",
+  "updated": "2026-10-14T17:12:44Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.99,
-      "last": 7728.42
+      "pct": -1.1,
+      "last": 7719.41
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.62,
-      "last": 30075.12
+      "pct": -1.77,
+      "last": 30028.4
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.31,
-      "last": 51510.56
+      "pct": -0.37,
+      "last": 51478.51
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
+        "symbol": "WFF",
+        "name": "WF Holding Limited",
+        "pct": 50.0
+      },
+      {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "pct": 46.25
+        "pct": 48.78
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": 26.65
-      },
-      {
-        "symbol": "WFF",
-        "name": "WF Holding Limited",
-        "pct": 25.47
-      },
-      {
-        "symbol": "NRIX",
-        "name": "Nurix Therapeutics, Inc.",
-        "pct": 7.86
+        "pct": 25.7
       },
       {
         "symbol": "HALO",
         "name": "Halozyme Therapeutics, Inc.",
-        "pct": 7.7
+        "pct": 8.12
+      },
+      {
+        "symbol": "NRIX",
+        "name": "Nurix Therapeutics, Inc.",
+        "pct": 7.98
       },
       {
         "symbol": "GFS",
         "name": "GlobalFoundries Inc.",
-        "pct": 6.32
-      },
-      {
-        "symbol": "ESLT",
-        "name": "Elbit Systems Ltd.",
-        "pct": 4.91
+        "pct": 5.28
       },
       {
         "symbol": "OLLI",
         "name": "Ollie's Bargain Outlet Holdings, Inc.",
-        "pct": 4.62
+        "pct": 4.77
       },
       {
-        "symbol": "CBOE",
-        "name": "Cboe Global Markets, Inc.",
-        "pct": 4.47
+        "symbol": "ESLT",
+        "name": "Elbit Systems Ltd.",
+        "pct": 4.7
+      },
+      {
+        "symbol": "AXSM",
+        "name": "Axsome Therapeutics, Inc.",
+        "pct": 4.5
       },
       {
         "symbol": "AZN",
         "name": "AstraZeneca PLC",
-        "pct": 4.1
+        "pct": 4.19
       }
     ],
     "losers": [
       {
         "symbol": "SKYD",
         "name": "Skydance Corporation",
-        "pct": -26.75
+        "pct": -26.55
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": -14.47
-      },
-      {
-        "symbol": "DOCN",
-        "name": "DigitalOcean Holdings, Inc.",
-        "pct": -12.29
+        "pct": -15.05
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -12.08
+        "pct": -12.92
+      },
+      {
+        "symbol": "DOCN",
+        "name": "DigitalOcean Holdings, Inc.",
+        "pct": -12.48
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -11.88
+        "pct": -12.2
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": -10.93
+        "pct": -11.4
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -10.8
-      },
-      {
-        "symbol": "AFRM",
-        "name": "Affirm Holdings, Inc.",
-        "pct": -10.76
+        "pct": -11.18
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -10.71
+        "pct": -10.89
       },
       {
-        "symbol": "WULF",
-        "name": "TeraWulf Inc.",
-        "pct": -10.18
+        "symbol": "AFRM",
+        "name": "Affirm Holdings, Inc.",
+        "pct": -10.82
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -10.42
       }
     ],
     "universe": 1274
