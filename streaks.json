@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-13T02:46:45Z",
+  "updated": "2026-10-14T00:36:58Z",
   "session_date": "2026-10-12",
   "universe": 558,
   "up": {
-    "count": 360,
+    "count": 357,
     "by_length": {
-      "1": 148,
-      "2": 75,
-      "3": 100,
-      "4": 13,
+      "1": 129,
+      "2": 85,
+      "3": 104,
+      "4": 15,
       "5": 2,
       "6": 12,
       "7": 8,
@@ -158,12 +158,12 @@
     ]
   },
   "down": {
-    "count": 194,
+    "count": 198,
     "by_length": {
-      "1": 129,
+      "1": 134,
       "2": 34,
-      "3": 11,
-      "4": 13,
+      "3": 9,
+      "4": 14,
       "5": 3,
       "6": 3,
       "8+": 1
@@ -175,8 +175,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -14,
-        "cum_pct": -28.59
+        "days": -15,
+        "cum_pct": -29.45
       },
       {
         "symbol": "ARM",
@@ -254,6 +254,15 @@
         "cum_pct": -12.46
       },
       {
+        "symbol": "STMMI.MI",
+        "name": "STMicroelectronics",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -4,
+        "cum_pct": -12.34
+      },
+      {
         "symbol": "ON",
         "name": "ON Semiconductor",
         "indices": [
@@ -299,21 +308,10 @@
         ],
         "days": -4,
         "cum_pct": -7.37
-      },
-      {
-        "symbol": "NVDA",
-        "name": "Nvidia",
-        "indices": [
-          "sp500",
-          "dow",
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -5.4
       }
     ]
   },
   "flat": {
-    "count": 4
+    "count": 3
   }
 }
