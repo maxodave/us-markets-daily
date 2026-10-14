@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-14T15:00:12Z",
+  "updated": "2026-10-14T15:10:26Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.69,
-      "last": 7751.66
+      "pct": -0.85,
+      "last": 7739.52
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.99,
-      "last": 30268.07
+      "pct": -1.31,
+      "last": 30169.32
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.11,
-      "last": 51614.54
+      "pct": -0.15,
+      "last": 51593.95
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.51,
-      "last": 49782.84
+      "pct": -0.64,
+      "last": 49719.01
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "pct": 38.7
+        "pct": 38.4
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": 25.7
+        "pct": 26.48
       },
       {
         "symbol": "HALO",
         "name": "Halozyme Therapeutics, Inc.",
-        "pct": 7.14
-      },
-      {
-        "symbol": "GFS",
-        "name": "GlobalFoundries Inc.",
-        "pct": 5.05
-      },
-      {
-        "symbol": "CAI",
-        "name": "Caris Life Sciences, Inc.",
-        "pct": 4.94
-      },
-      {
-        "symbol": "BLLN",
-        "name": "BillionToOne, Inc.",
-        "pct": 4.45
+        "pct": 7.33
       },
       {
         "symbol": "ESLT",
         "name": "Elbit Systems Ltd.",
-        "pct": 4.32
+        "pct": 4.29
       },
       {
         "symbol": "NRIX",
         "name": "Nurix Therapeutics, Inc.",
-        "pct": 3.91
+        "pct": 4.18
+      },
+      {
+        "symbol": "BLLN",
+        "name": "BillionToOne, Inc.",
+        "pct": 4.14
+      },
+      {
+        "symbol": "CAI",
+        "name": "Caris Life Sciences, Inc.",
+        "pct": 3.79
       },
       {
         "symbol": "AZN",
         "name": "AstraZeneca PLC",
-        "pct": 3.51
+        "pct": 3.77
       },
       {
         "symbol": "CBOE",
         "name": "Cboe Global Markets, Inc.",
-        "pct": 3.42
+        "pct": 3.73
+      },
+      {
+        "symbol": "TVTX",
+        "name": "Travere Therapeutics, Inc.",
+        "pct": 3.61
       }
     ],
     "losers": [
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": -38.68
+        "pct": -40.09
       },
       {
         "symbol": "SKYD",
         "name": "Skydance Corporation",
-        "pct": -26.81
+        "pct": -26.65
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": -13.37
-      },
-      {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": -10.33
+        "pct": -14.68
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "pct": -9.91
+        "pct": -12.26
       },
       {
-        "symbol": "UUUU",
-        "name": "Energy Fuels Inc",
-        "pct": -9.55
-      },
-      {
-        "symbol": "AFRM",
-        "name": "Affirm Holdings, Inc.",
-        "pct": -9.01
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -8.99
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": -11.55
       },
       {
         "symbol": "WULF",
         "name": "TeraWulf Inc.",
-        "pct": -8.78
+        "pct": -10.11
       },
       {
-        "symbol": "ASST",
-        "name": "Strive, Inc.",
-        "pct": -8.37
+        "symbol": "UUUU",
+        "name": "Energy Fuels Inc",
+        "pct": -10.03
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -10.02
+      },
+      {
+        "symbol": "AFRM",
+        "name": "Affirm Holdings, Inc.",
+        "pct": -9.84
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -9.28
       }
     ],
     "universe": 1274
