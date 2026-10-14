@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-14T16:05:34Z",
+  "updated": "2026-10-14T16:10:37Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": -0.95,
-      "last": 7731.71
+      "last": 7731.63
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
       "pct": -1.57,
-      "last": 30089.81
+      "last": 30089.39
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.13,
-      "last": 51606.57
+      "pct": -0.17,
+      "last": 51586.02
     },
     {
       "key": "ftsemib",
@@ -32,32 +32,27 @@
       {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "pct": 39.57
+        "pct": 39.7
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": 25.29
+        "pct": 25.33
       },
       {
         "symbol": "HALO",
         "name": "Halozyme Therapeutics, Inc.",
-        "pct": 7.47
+        "pct": 7.56
       },
       {
         "symbol": "NRIX",
         "name": "Nurix Therapeutics, Inc.",
-        "pct": 6.1
+        "pct": 5.78
       },
       {
         "symbol": "LLY",
         "name": "Eli Lilly and Company",
-        "pct": 4.1
-      },
-      {
-        "symbol": "CBOE",
-        "name": "Cboe Global Markets, Inc.",
-        "pct": 3.96
+        "pct": 4.17
       },
       {
         "symbol": "ESLT",
@@ -65,71 +60,76 @@
         "pct": 3.95
       },
       {
-        "symbol": "BLLN",
-        "name": "BillionToOne, Inc.",
-        "pct": 3.78
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets, Inc.",
+        "pct": 3.88
       },
       {
         "symbol": "AZN",
         "name": "AstraZeneca PLC",
-        "pct": 3.77
+        "pct": 3.85
       },
       {
         "symbol": "MRK",
         "name": "Merck & Company, Inc.",
-        "pct": 3.52
+        "pct": 3.82
+      },
+      {
+        "symbol": "BLLN",
+        "name": "BillionToOne, Inc.",
+        "pct": 3.75
       }
     ],
     "losers": [
       {
         "symbol": "WFF",
         "name": "WF Holding Limited",
-        "pct": -46.46
+        "pct": -44.34
       },
       {
         "symbol": "SKYD",
         "name": "Skydance Corporation",
-        "pct": -26.15
+        "pct": -26.0
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": -16.29
+        "pct": -16.08
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "pct": -14.71
+        "pct": -14.62
       },
       {
         "symbol": "WOLF",
         "name": "Wolfspeed, Inc.",
-        "pct": -13.02
+        "pct": -13.2
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -10.74
+        "pct": -11.4
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": -10.56
+        "pct": -10.52
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -10.45
+        "pct": -10.36
+      },
+      {
+        "symbol": "ASST",
+        "name": "Strive, Inc.",
+        "pct": -10.29
       },
       {
         "symbol": "AFRM",
         "name": "Affirm Holdings, Inc.",
-        "pct": -10.29
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -10.28
+        "pct": -10.19
       }
     ],
     "universe": 1274
