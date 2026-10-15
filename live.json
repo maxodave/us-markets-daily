@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-15T14:55:35Z",
+  "updated": "2026-10-15T15:05:37Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.04,
-      "last": 7718.61
+      "pct": 0.1,
+      "last": 7729.55
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.8,
-      "last": 29711.95
+      "pct": -0.53,
+      "last": 29790.99
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.82,
-      "last": 52055.71
+      "pct": 1.02,
+      "last": 52158.65
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.93,
-      "last": 49343.61
+      "pct": -0.79,
+      "last": 49409.15
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": 21.85
+        "pct": 22.98
       },
       {
         "symbol": "DFH",
         "name": "Dream Finders Homes, Inc.",
-        "pct": 8.96
+        "pct": 9.7
       },
       {
-        "symbol": "PAG",
-        "name": "Penske Automotive Group, Inc.",
-        "pct": 8.39
-      },
-      {
-        "symbol": "TRU",
-        "name": "TransUnion",
-        "pct": 7.5
+        "symbol": "KRMN",
+        "name": "Karman Holdings Inc.",
+        "pct": 8.91
       },
       {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": 7.34
+        "pct": 8.84
       },
       {
-        "symbol": "GWRE",
-        "name": "Guidewire Software, Inc.",
-        "pct": 7.24
+        "symbol": "PAG",
+        "name": "Penske Automotive Group, Inc.",
+        "pct": 8.45
       },
       {
-        "symbol": "Z",
-        "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 7.24
-      },
-      {
-        "symbol": "LAD",
-        "name": "Lithia Motors, Inc.",
-        "pct": 7.05
+        "symbol": "TRU",
+        "name": "TransUnion",
+        "pct": 8.34
       },
       {
         "symbol": "MNDY",
         "name": "monday.com Ltd.",
-        "pct": 7.0
+        "pct": 8.03
       },
       {
-        "symbol": "APPF",
-        "name": "AppFolio, Inc.",
-        "pct": 6.96
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "pct": 7.91
+      },
+      {
+        "symbol": "HUBS",
+        "name": "HubSpot, Inc.",
+        "pct": 7.71
+      },
+      {
+        "symbol": "Z",
+        "name": "Zillow Group, Inc. - Class C Capital Stock",
+        "pct": 7.71
       }
     ],
     "losers": [
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -11.2
+        "pct": -12.26
       },
       {
         "symbol": "RKLB",
         "name": "Rocket Lab Corporation",
-        "pct": -10.05
+        "pct": -9.48
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "pct": -8.94
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -8.87
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -8.79
+        "pct": -8.77
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": -8.53
+        "pct": -8.32
       },
       {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": -8.37
-      },
-      {
-        "symbol": "VIAV",
-        "name": "Viavi Solutions Inc.",
-        "pct": -8.16
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": -8.15
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -8.18
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": -7.99
+        "pct": -8.06
+      },
+      {
+        "symbol": "ACMR",
+        "name": "ACM Research, Inc.",
+        "pct": -7.82
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -7.81
+      },
+      {
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise Company",
+        "pct": -7.79
+      },
+      {
+        "symbol": "VG",
+        "name": "Venture Global, Inc.",
+        "pct": -7.72
       }
     ],
     "universe": 1335
