@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-15T15:55:32Z",
+  "updated": "2026-10-15T16:05:37Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.02,
-      "last": 7722.75
+      "pct": 0.06,
+      "last": 7726.25
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.65,
-      "last": 29756.61
+      "pct": -0.56,
+      "last": 29782.03
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.83,
-      "last": 52057.24
+      "pct": 0.86,
+      "last": 52074.28
     },
     {
       "key": "ftsemib",
@@ -35,101 +35,101 @@
         "pct": 13.34
       },
       {
-        "symbol": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "pct": 10.87
-      },
-      {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": 9.87
+        "pct": 10.41
+      },
+      {
+        "symbol": "KRMN",
+        "name": "Karman Holdings Inc.",
+        "pct": 10.35
       },
       {
         "symbol": "TRU",
         "name": "TransUnion",
-        "pct": 9.01
+        "pct": 9.18
       },
       {
         "symbol": "PAG",
         "name": "Penske Automotive Group, Inc.",
-        "pct": 8.49
-      },
-      {
-        "symbol": "ETSY",
-        "name": "Etsy, Inc.",
-        "pct": 8.25
+        "pct": 8.56
       },
       {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "pct": 7.93
+        "pct": 8.28
       },
       {
-        "symbol": "POOL",
-        "name": "Pool Corporation",
-        "pct": 7.79
-      },
-      {
-        "symbol": "MNDY",
-        "name": "monday.com Ltd.",
-        "pct": 7.53
+        "symbol": "ETSY",
+        "name": "Etsy, Inc.",
+        "pct": 8.02
       },
       {
         "symbol": "Z",
         "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 7.48
+        "pct": 7.55
+      },
+      {
+        "symbol": "VSTM",
+        "name": "Verastem, Inc.",
+        "pct": 7.52
+      },
+      {
+        "symbol": "POOL",
+        "name": "Pool Corporation",
+        "pct": 7.5
       }
     ],
     "losers": [
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -13.3
+        "pct": -14.15
       },
       {
         "symbol": "RKLB",
         "name": "Rocket Lab Corporation",
-        "pct": -10.16
+        "pct": -10.45
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -9.95
+        "pct": -10.21
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": -9.39
+        "pct": -9.57
       },
       {
         "symbol": "LBRT",
         "name": "Liberty Energy Inc.",
-        "pct": -9.27
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -8.67
+        "pct": -9.18
       },
       {
         "symbol": "SANM",
         "name": "Sanmina Corporation",
-        "pct": -8.6
+        "pct": -8.22
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -8.03
+      },
+      {
+        "symbol": "AEIS",
+        "name": "Advanced Energy Industries, Inc.",
+        "pct": -8.01
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -8.2
+        "pct": -7.88
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": -8.06
-      },
-      {
-        "symbol": "FORM",
-        "name": "FormFactor, Inc.",
-        "pct": -8.03
+        "pct": -7.72
       }
     ],
     "universe": 1335
