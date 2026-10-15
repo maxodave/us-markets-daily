@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-15T17:38:09Z",
+  "updated": "2026-10-15T17:56:57Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.18,
-      "last": 7735.6
+      "pct": 0.25,
+      "last": 7740.71
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.39,
-      "last": 29834.02
+      "pct": -0.33,
+      "last": 29852.53
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.95,
-      "last": 52118.66
+      "pct": 1.04,
+      "last": 52165.02
     },
     {
       "key": "ftsemib",
@@ -32,42 +32,37 @@
       {
         "symbol": "VSTM",
         "name": "Verastem, Inc.",
-        "pct": 23.22
+        "pct": 24.79
       },
       {
         "symbol": "DFH",
         "name": "Dream Finders Homes, Inc.",
-        "pct": 13.68
+        "pct": 15.22
       },
       {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": 10.67
-      },
-      {
-        "symbol": "CRML",
-        "name": "Critical Metals Corp.",
-        "pct": 10.22
+        "pct": 10.84
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "pct": 10.09
+        "pct": 10.12
       },
       {
         "symbol": "Z",
         "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 9.34
+        "pct": 10.04
       },
       {
         "symbol": "TRU",
         "name": "TransUnion",
-        "pct": 8.92
+        "pct": 8.84
       },
       {
-        "symbol": "COMP",
-        "name": "Compass, Inc.",
-        "pct": 8.85
+        "symbol": "BBWI",
+        "name": "Bath & Body Works, Inc.",
+        "pct": 8.84
       },
       {
         "symbol": "PAG",
@@ -75,61 +70,66 @@
         "pct": 8.66
       },
       {
-        "symbol": "ETSY",
-        "name": "Etsy, Inc.",
-        "pct": 8.45
+        "symbol": "COMP",
+        "name": "Compass, Inc.",
+        "pct": 8.5
+      },
+      {
+        "symbol": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "pct": 8.44
       }
     ],
     "losers": [
       {
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": -14.06
+      },
+      {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -13.03
+        "pct": -12.48
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": -10.87
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": -10.35
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -10.28
+        "pct": -10.4
       },
       {
         "symbol": "RKLB",
         "name": "Rocket Lab Corporation",
-        "pct": -9.89
+        "pct": -9.7
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -9.73
+        "pct": -9.37
       },
       {
         "symbol": "LBRT",
         "name": "Liberty Energy Inc.",
-        "pct": -9.1
+        "pct": -9.07
       },
       {
-        "symbol": "DELL",
-        "name": "Dell Technologies Inc.",
-        "pct": -8.63
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": -8.92
       },
       {
         "symbol": "MTSI",
         "name": "MACOM Technology Solutions Holdings, Inc.",
-        "pct": -8.08
+        "pct": -8.75
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": -8.4
       },
       {
         "symbol": "VIAV",
         "name": "Viavi Solutions Inc.",
-        "pct": -8.0
+        "pct": -8.18
       }
     ],
     "universe": 1335
