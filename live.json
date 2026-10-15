@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-15T16:05:37Z",
+  "updated": "2026-10-15T16:15:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.06,
-      "last": 7726.25
+      "pct": 0.01,
+      "last": 7722.6
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.56,
-      "last": 29782.03
+      "pct": -0.63,
+      "last": 29763.36
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.86,
-      "last": 52074.28
+      "pct": 0.77,
+      "last": 52029.96
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "DFH",
         "name": "Dream Finders Homes, Inc.",
-        "pct": 13.34
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 10.41
-      },
-      {
-        "symbol": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "pct": 10.35
-      },
-      {
-        "symbol": "TRU",
-        "name": "TransUnion",
-        "pct": 9.18
-      },
-      {
-        "symbol": "PAG",
-        "name": "Penske Automotive Group, Inc.",
-        "pct": 8.56
-      },
-      {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "pct": 8.28
-      },
-      {
-        "symbol": "ETSY",
-        "name": "Etsy, Inc.",
-        "pct": 8.02
-      },
-      {
-        "symbol": "Z",
-        "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 7.55
+        "pct": 15.57
       },
       {
         "symbol": "VSTM",
         "name": "Verastem, Inc.",
-        "pct": 7.52
+        "pct": 12.0
       },
       {
-        "symbol": "POOL",
-        "name": "Pool Corporation",
-        "pct": 7.5
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 10.04
+      },
+      {
+        "symbol": "KRMN",
+        "name": "Karman Holdings Inc.",
+        "pct": 9.95
+      },
+      {
+        "symbol": "AEHL",
+        "name": "Antelope Enterprise Holdings Limited",
+        "pct": 8.79
+      },
+      {
+        "symbol": "TRU",
+        "name": "TransUnion",
+        "pct": 8.61
+      },
+      {
+        "symbol": "PAG",
+        "name": "Penske Automotive Group, Inc.",
+        "pct": 8.47
+      },
+      {
+        "symbol": "ETSY",
+        "name": "Etsy, Inc.",
+        "pct": 7.99
+      },
+      {
+        "symbol": "Z",
+        "name": "Zillow Group, Inc. - Class C Capital Stock",
+        "pct": 7.7
+      },
+      {
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "pct": 7.61
       }
     ],
     "losers": [
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -14.15
-      },
-      {
-        "symbol": "RKLB",
-        "name": "Rocket Lab Corporation",
-        "pct": -10.45
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -10.21
+        "pct": -14.0
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": -9.57
+        "pct": -10.65
       },
       {
-        "symbol": "LBRT",
-        "name": "Liberty Energy Inc.",
-        "pct": -9.18
+        "symbol": "RKLB",
+        "name": "Rocket Lab Corporation",
+        "pct": -10.48
       },
       {
-        "symbol": "SANM",
-        "name": "Sanmina Corporation",
-        "pct": -8.22
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": -10.28
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -8.03
+        "pct": -9.27
       },
       {
-        "symbol": "AEIS",
-        "name": "Advanced Energy Industries, Inc.",
-        "pct": -8.01
+        "symbol": "LBRT",
+        "name": "Liberty Energy Inc.",
+        "pct": -9.13
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -7.88
+        "pct": -8.54
       },
       {
-        "symbol": "DELL",
-        "name": "Dell Technologies Inc.",
-        "pct": -7.72
+        "symbol": "SANM",
+        "name": "Sanmina Corporation",
+        "pct": -8.32
+      },
+      {
+        "symbol": "AEIS",
+        "name": "Advanced Energy Industries, Inc.",
+        "pct": -8.13
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -8.12
       }
     ],
     "universe": 1335
