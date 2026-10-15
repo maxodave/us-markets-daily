@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-15T17:05:33Z",
+  "updated": "2026-10-15T17:15:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.06,
-      "last": 7725.78
+      "pct": 0.11,
+      "last": 7729.72
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.63,
-      "last": 29761.04
+      "pct": -0.56,
+      "last": 29784.37
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.81,
-      "last": 52050.9
+      "pct": 0.86,
+      "last": 52074.31
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "VSTM",
         "name": "Verastem, Inc.",
-        "pct": 16.47
+        "pct": 18.09
       },
       {
         "symbol": "DFH",
         "name": "Dream Finders Homes, Inc.",
-        "pct": 14.22
+        "pct": 14.35
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "pct": 10.98
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 10.51
+        "pct": 11.15
       },
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": 10.32
+        "pct": 11.06
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 10.73
       },
       {
         "symbol": "Z",
         "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 8.82
+        "pct": 8.98
       },
       {
         "symbol": "TRU",
         "name": "TransUnion",
-        "pct": 8.73
+        "pct": 8.45
       },
       {
         "symbol": "PAG",
         "name": "Penske Automotive Group, Inc.",
-        "pct": 8.48
+        "pct": 8.44
       },
       {
         "symbol": "ETSY",
         "name": "Etsy, Inc.",
-        "pct": 7.95
+        "pct": 8.41
       },
       {
-        "symbol": "POOL",
-        "name": "Pool Corporation",
-        "pct": 7.87
+        "symbol": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "pct": 7.79
       }
     ],
     "losers": [
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -14.27
+        "pct": -13.94
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "pct": -14.19
+        "pct": -11.48
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": -11.65
+        "pct": -11.03
       },
       {
         "symbol": "RKLB",
         "name": "Rocket Lab Corporation",
-        "pct": -10.97
+        "pct": -10.8
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -10.93
-      },
-      {
-        "symbol": "MTSI",
-        "name": "MACOM Technology Solutions Holdings, Inc.",
-        "pct": -10.51
+        "pct": -10.27
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -10.11
+        "pct": -10.12
       },
       {
         "symbol": "LBRT",
         "name": "Liberty Energy Inc.",
-        "pct": -9.18
+        "pct": -9.21
+      },
+      {
+        "symbol": "MTSI",
+        "name": "MACOM Technology Solutions Holdings, Inc.",
+        "pct": -8.56
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": -8.65
+        "pct": -8.52
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": -8.46
+        "pct": -8.17
       }
     ],
     "universe": 1335
