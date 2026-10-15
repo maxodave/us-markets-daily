@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-15T15:45:30Z",
+  "updated": "2026-10-15T15:55:32Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.04,
-      "last": 7724.35
+      "pct": 0.02,
+      "last": 7722.75
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.67,
-      "last": 29750.28
+      "pct": -0.65,
+      "last": 29756.61
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.9,
-      "last": 52096.96
+      "pct": 0.83,
+      "last": 52057.24
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.73,
-      "last": 49440.89
+      "pct": -0.82,
+      "last": 49397.55
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "DFH",
         "name": "Dream Finders Homes, Inc.",
-        "pct": 13.07
+        "pct": 13.34
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "pct": 10.02
+        "pct": 10.87
       },
       {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": 9.78
+        "pct": 9.87
       },
       {
         "symbol": "TRU",
         "name": "TransUnion",
-        "pct": 8.47
+        "pct": 9.01
       },
       {
         "symbol": "PAG",
         "name": "Penske Automotive Group, Inc.",
-        "pct": 8.42
+        "pct": 8.49
       },
       {
         "symbol": "ETSY",
         "name": "Etsy, Inc.",
-        "pct": 8.16
+        "pct": 8.25
+      },
+      {
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "pct": 7.93
       },
       {
         "symbol": "POOL",
         "name": "Pool Corporation",
-        "pct": 7.84
-      },
-      {
-        "symbol": "Z",
-        "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 7.8
+        "pct": 7.79
       },
       {
         "symbol": "MNDY",
         "name": "monday.com Ltd.",
-        "pct": 7.72
+        "pct": 7.53
       },
       {
-        "symbol": "IP",
-        "name": "International Paper Company",
-        "pct": 7.43
+        "symbol": "Z",
+        "name": "Zillow Group, Inc. - Class C Capital Stock",
+        "pct": 7.48
       }
     ],
     "losers": [
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -13.48
+        "pct": -13.3
       },
       {
         "symbol": "RKLB",
         "name": "Rocket Lab Corporation",
-        "pct": -10.89
+        "pct": -10.16
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -9.77
+        "pct": -9.95
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": -9.31
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -8.85
+        "pct": -9.39
       },
       {
         "symbol": "LBRT",
         "name": "Liberty Energy Inc.",
-        "pct": -8.82
+        "pct": -9.27
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -8.67
       },
       {
         "symbol": "SANM",
         "name": "Sanmina Corporation",
-        "pct": -8.48
+        "pct": -8.6
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -8.2
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": -8.06
       },
       {
         "symbol": "FORM",
         "name": "FormFactor, Inc.",
-        "pct": -8.27
-      },
-      {
-        "symbol": "MTSI",
-        "name": "MACOM Technology Solutions Holdings, Inc.",
-        "pct": -8.24
-      },
-      {
-        "symbol": "COHU",
-        "name": "Cohu, Inc.",
-        "pct": -8.21
+        "pct": -8.03
       }
     ],
     "universe": 1335
