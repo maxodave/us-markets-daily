@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-15T18:12:12Z",
+  "updated": "2026-10-15T18:28:48Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.06,
-      "last": 7726.4
+      "pct": -0.01,
+      "last": 7720.7
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.58,
-      "last": 29775.88
+      "pct": -0.67,
+      "last": 29749.17
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.9,
-      "last": 52095.0
+      "pct": 0.87,
+      "last": 52077.86
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "VSTM",
         "name": "Verastem, Inc.",
-        "pct": 23.2
+        "pct": 20.88
       },
       {
         "symbol": "DFH",
         "name": "Dream Finders Homes, Inc.",
-        "pct": 13.75
+        "pct": 13.68
+      },
+      {
+        "symbol": "AEHL",
+        "name": "Antelope Enterprise Holdings Limited",
+        "pct": 11.75
       },
       {
         "symbol": "Z",
         "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 9.72
+        "pct": 10.57
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "pct": 9.65
-      },
-      {
-        "symbol": "CRML",
-        "name": "Critical Metals Corp.",
-        "pct": 9.35
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 8.99
+        "pct": 10.34
       },
       {
         "symbol": "BBWI",
         "name": "Bath & Body Works, Inc.",
-        "pct": 8.84
+        "pct": 9.31
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 9.05
+      },
+      {
+        "symbol": "COMP",
+        "name": "Compass, Inc.",
+        "pct": 8.9
       },
       {
         "symbol": "PAG",
         "name": "Penske Automotive Group, Inc.",
-        "pct": 8.67
+        "pct": 8.8
       },
       {
         "symbol": "TRU",
         "name": "TransUnion",
-        "pct": 8.54
-      },
-      {
-        "symbol": "MNDY",
-        "name": "monday.com Ltd.",
-        "pct": 8.53
+        "pct": 8.79
       }
     ],
     "losers": [
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -13.65
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": -13.63
+        "pct": -13.44
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": -11.36
+        "pct": -12.27
+      },
+      {
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": -11.83
       },
       {
         "symbol": "RKLB",
         "name": "Rocket Lab Corporation",
-        "pct": -9.78
+        "pct": -10.16
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -9.63
-      },
-      {
-        "symbol": "MTSI",
-        "name": "MACOM Technology Solutions Holdings, Inc.",
-        "pct": -9.3
+        "pct": -9.95
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": -9.28
+        "pct": -9.73
+      },
+      {
+        "symbol": "MTSI",
+        "name": "MACOM Technology Solutions Holdings, Inc.",
+        "pct": -9.49
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -9.07
-      },
-      {
-        "symbol": "VIAV",
-        "name": "Viavi Solutions Inc.",
-        "pct": -8.51
+        "pct": -9.4
       },
       {
         "symbol": "LBRT",
         "name": "Liberty Energy Inc.",
-        "pct": -8.44
+        "pct": -8.96
+      },
+      {
+        "symbol": "VIAV",
+        "name": "Viavi Solutions Inc.",
+        "pct": -8.66
       }
     ],
     "universe": 1335
