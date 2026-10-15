@@ -1,137 +1,137 @@
 {
-  "updated": "2026-10-14T20:15:36Z",
-  "market_open": false,
+  "updated": "2026-10-15T14:55:35Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.11,
-      "last": 7718.94
+      "pct": -0.04,
+      "last": 7718.61
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.02,
-      "last": 29950.82
+      "pct": -0.8,
+      "last": 29711.95
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.09,
-      "last": 51621.48
+      "pct": 0.82,
+      "last": 52055.71
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.57,
-      "last": 49753.84
+      "pct": -0.93,
+      "last": 49343.61
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "pct": 41.2
+        "symbol": "AEHL",
+        "name": "Antelope Enterprise Holdings Limited",
+        "pct": 21.85
       },
       {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "pct": 26.59
+        "symbol": "DFH",
+        "name": "Dream Finders Homes, Inc.",
+        "pct": 8.96
       },
       {
-        "symbol": "NRIX",
-        "name": "Nurix Therapeutics, Inc.",
+        "symbol": "PAG",
+        "name": "Penske Automotive Group, Inc.",
+        "pct": 8.39
+      },
+      {
+        "symbol": "TRU",
+        "name": "TransUnion",
+        "pct": 7.5
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 7.34
+      },
+      {
+        "symbol": "GWRE",
+        "name": "Guidewire Software, Inc.",
+        "pct": 7.24
+      },
+      {
+        "symbol": "Z",
+        "name": "Zillow Group, Inc. - Class C Capital Stock",
+        "pct": 7.24
+      },
+      {
+        "symbol": "LAD",
+        "name": "Lithia Motors, Inc.",
+        "pct": 7.05
+      },
+      {
+        "symbol": "MNDY",
+        "name": "monday.com Ltd.",
+        "pct": 7.0
+      },
+      {
+        "symbol": "APPF",
+        "name": "AppFolio, Inc.",
         "pct": 6.96
-      },
-      {
-        "symbol": "HALO",
-        "name": "Halozyme Therapeutics, Inc.",
-        "pct": 6.57
-      },
-      {
-        "symbol": "CHWY",
-        "name": "Chewy, Inc.",
-        "pct": 5.68
-      },
-      {
-        "symbol": "OLLI",
-        "name": "Ollie's Bargain Outlet Holdings, Inc.",
-        "pct": 5.42
-      },
-      {
-        "symbol": "BBWI",
-        "name": "Bath & Body Works, Inc.",
-        "pct": 5.28
-      },
-      {
-        "symbol": "ESLT",
-        "name": "Elbit Systems Ltd.",
-        "pct": 5.05
-      },
-      {
-        "symbol": "HRB",
-        "name": "H&R Block, Inc.",
-        "pct": 5.0
-      },
-      {
-        "symbol": "CHEF",
-        "name": "The Chefs' Warehouse, Inc.",
-        "pct": 4.83
       }
     ],
     "losers": [
       {
-        "symbol": "WFF",
-        "name": "WF Holding Limited",
-        "pct": -91.75
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": -11.2
       },
       {
-        "symbol": "SKYD",
-        "name": "Skydance Corporation",
-        "pct": -23.84
-      },
-      {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": -15.46
+        "symbol": "RKLB",
+        "name": "Rocket Lab Corporation",
+        "pct": -10.05
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "pct": -14.76
+        "pct": -8.94
       },
       {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": -13.93
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": -8.87
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -8.79
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -8.53
+      },
+      {
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": -8.37
+      },
+      {
+        "symbol": "VIAV",
+        "name": "Viavi Solutions Inc.",
+        "pct": -8.16
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -8.15
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": -13.57
-      },
-      {
-        "symbol": "WULF",
-        "name": "TeraWulf Inc.",
-        "pct": -12.64
-      },
-      {
-        "symbol": "CORZ",
-        "name": "Core Scientific, Inc.",
-        "pct": -12.44
-      },
-      {
-        "symbol": "FUN",
-        "name": "Six Flags Entertainment Corporation",
-        "pct": -12.35
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -12.35
+        "pct": -7.99
       }
     ],
-    "universe": 1274
+    "universe": 1335
   }
 }
