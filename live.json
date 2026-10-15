@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-15T16:55:37Z",
+  "updated": "2026-10-15T17:05:33Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.02,
-      "last": 7719.86
+      "pct": 0.06,
+      "last": 7725.78
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.74,
-      "last": 29727.91
+      "pct": -0.63,
+      "last": 29761.04
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.8,
-      "last": 52045.62
+      "pct": 0.81,
+      "last": 52050.9
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "DFH",
-        "name": "Dream Finders Homes, Inc.",
-        "pct": 14.15
-      },
-      {
         "symbol": "VSTM",
         "name": "Verastem, Inc.",
-        "pct": 13.04
+        "pct": 16.47
+      },
+      {
+        "symbol": "DFH",
+        "name": "Dream Finders Homes, Inc.",
+        "pct": 14.22
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "pct": 10.75
-      },
-      {
-        "symbol": "AEHL",
-        "name": "Antelope Enterprise Holdings Limited",
-        "pct": 10.7
+        "pct": 10.98
       },
       {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": 10.17
+        "pct": 10.51
+      },
+      {
+        "symbol": "AEHL",
+        "name": "Antelope Enterprise Holdings Limited",
+        "pct": 10.32
       },
       {
         "symbol": "Z",
         "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 8.68
-      },
-      {
-        "symbol": "PAG",
-        "name": "Penske Automotive Group, Inc.",
-        "pct": 8.58
+        "pct": 8.82
       },
       {
         "symbol": "TRU",
         "name": "TransUnion",
-        "pct": 8.52
+        "pct": 8.73
+      },
+      {
+        "symbol": "PAG",
+        "name": "Penske Automotive Group, Inc.",
+        "pct": 8.48
       },
       {
         "symbol": "ETSY",
         "name": "Etsy, Inc.",
-        "pct": 7.76
+        "pct": 7.95
       },
       {
-        "symbol": "IP",
-        "name": "International Paper Company",
-        "pct": 7.49
+        "symbol": "POOL",
+        "name": "Pool Corporation",
+        "pct": 7.87
       }
     ],
     "losers": [
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -14.07
-      },
-      {
-        "symbol": "PENG",
-        "name": "Penguin Solutions, Inc.",
-        "pct": -11.91
+        "pct": -14.27
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "pct": -11.82
+        "pct": -14.19
       },
       {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -11.33
+        "symbol": "PENG",
+        "name": "Penguin Solutions, Inc.",
+        "pct": -11.65
       },
       {
         "symbol": "RKLB",
         "name": "Rocket Lab Corporation",
-        "pct": -11.14
+        "pct": -10.97
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -10.0
-      },
-      {
-        "symbol": "LBRT",
-        "name": "Liberty Energy Inc.",
-        "pct": -9.54
-      },
-      {
-        "symbol": "DELL",
-        "name": "Dell Technologies Inc.",
-        "pct": -8.74
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": -10.93
       },
       {
         "symbol": "MTSI",
         "name": "MACOM Technology Solutions Holdings, Inc.",
-        "pct": -8.6
+        "pct": -10.51
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -10.11
+      },
+      {
+        "symbol": "LBRT",
+        "name": "Liberty Energy Inc.",
+        "pct": -9.18
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": -8.65
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": -8.49
+        "pct": -8.46
       }
     ],
     "universe": 1335
