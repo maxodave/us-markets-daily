@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-15T15:15:31Z",
+  "updated": "2026-10-15T15:25:31Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.22,
-      "last": 7738.15
+      "pct": 0.12,
+      "last": 7731.09
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.35,
-      "last": 29846.15
+      "pct": -0.47,
+      "last": 29809.52
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.06,
-      "last": 52178.77
+      "pct": 1.05,
+      "last": 52171.68
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.58,
-      "last": 49517.19
+      "pct": -0.67,
+      "last": 49470.61
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": 25.33
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 12.11
+        "pct": 16.01
       },
       {
         "symbol": "DFH",
         "name": "Dream Finders Homes, Inc.",
-        "pct": 10.92
+        "pct": 13.88
       },
       {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "pct": 9.03
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 10.17
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "pct": 8.97
+        "pct": 9.39
       },
       {
         "symbol": "PAG",
         "name": "Penske Automotive Group, Inc.",
-        "pct": 8.42
+        "pct": 8.4
       },
       {
         "symbol": "TRU",
         "name": "TransUnion",
-        "pct": 8.22
+        "pct": 8.29
       },
       {
         "symbol": "IP",
         "name": "International Paper Company",
-        "pct": 7.87
+        "pct": 8.2
       },
       {
-        "symbol": "COMP",
-        "name": "Compass, Inc.",
-        "pct": 7.71
+        "symbol": "MNDY",
+        "name": "monday.com Ltd.",
+        "pct": 8.15
       },
       {
         "symbol": "Z",
         "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 7.61
+        "pct": 8.05
+      },
+      {
+        "symbol": "COMP",
+        "name": "Compass, Inc.",
+        "pct": 7.88
       }
     ],
     "losers": [
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -12.22
+        "pct": -12.09
       },
       {
         "symbol": "RKLB",
         "name": "Rocket Lab Corporation",
-        "pct": -8.82
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -8.46
+        "pct": -9.24
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": -7.92
+        "pct": -8.71
       },
       {
         "symbol": "LBRT",
         "name": "Liberty Energy Inc.",
-        "pct": -7.88
+        "pct": -8.21
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": -7.37
+        "pct": -7.97
       },
       {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise Company",
-        "pct": -7.1
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -7.85
       },
       {
-        "symbol": "ACMR",
-        "name": "ACM Research, Inc.",
-        "pct": -6.99
+        "symbol": "COHU",
+        "name": "Cohu, Inc.",
+        "pct": -7.8
       },
       {
-        "symbol": "VG",
-        "name": "Venture Global, Inc.",
-        "pct": -6.82
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": -7.67
       },
       {
-        "symbol": "P",
-        "name": "Everpure, Inc.",
-        "pct": -6.64
+        "symbol": "FORM",
+        "name": "FormFactor, Inc.",
+        "pct": -7.53
+      },
+      {
+        "symbol": "CAMT",
+        "name": "Camtek Ltd.",
+        "pct": -7.31
       }
     ],
     "universe": 1335
