@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-16T17:12:10Z",
+  "updated": "2026-10-16T19:59:09Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.01,
-      "last": 7665.61
+      "pct": -1.08,
+      "last": 7660.61
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.06,
-      "last": 29319.95
+      "pct": -2.46,
+      "last": 29199.08
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.47,
-      "last": 51928.56
+      "pct": -0.34,
+      "last": 51999.11
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
+        "symbol": "CRGY",
+        "name": "Crescent Energy Company",
+        "pct": 9.95
+      },
+      {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 9.84
+        "pct": 7.99
       },
       {
         "symbol": "MTDR",
         "name": "Matador Resources Company",
-        "pct": 5.66
-      },
-      {
-        "symbol": "CRGY",
-        "name": "Crescent Energy Company",
-        "pct": 5.32
+        "pct": 7.01
       },
       {
         "symbol": "AR",
         "name": "Antero Resources Corporation",
-        "pct": 4.99
+        "pct": 5.95
       },
       {
-        "symbol": "FMX",
-        "name": "Fomento Economico Mexicano S.A.B. de C.V.",
-        "pct": 4.8
+        "symbol": "SM",
+        "name": "SM Energy Company",
+        "pct": 5.34
       },
       {
-        "symbol": "AA",
-        "name": "Alcoa Corporation",
-        "pct": 4.76
+        "symbol": "BRBR",
+        "name": "BellRing Brands, Inc.",
+        "pct": 5.12
       },
       {
-        "symbol": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "pct": 4.16
+        "symbol": "MUR",
+        "name": "Murphy Oil Corporation",
+        "pct": 4.74
+      },
+      {
+        "symbol": "TALO",
+        "name": "Talos Energy, Inc.",
+        "pct": 4.74
       },
       {
         "symbol": "OVV",
         "name": "Ovintiv Inc. (DE)",
-        "pct": 4.07
+        "pct": 4.73
       },
       {
-        "symbol": "TNDM",
-        "name": "Tandem Diabetes Care, Inc.",
-        "pct": 4.03
-      },
-      {
-        "symbol": "CENX",
-        "name": "Century Aluminum Company",
-        "pct": 3.96
+        "symbol": "EQNR",
+        "name": "Equinor ASA",
+        "pct": 4.53
       }
     ],
     "losers": [
       {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "pct": -13.63
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -12.92
-      },
-      {
-        "symbol": "NVAX",
-        "name": "Novavax, Inc.",
-        "pct": -12.6
-      },
-      {
-        "symbol": "TLK",
-        "name": "PT Telekomunikasi Indonesia, Tbk",
-        "pct": -12.25
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": -11.89
-      },
-      {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": -11.29
-      },
-      {
-        "symbol": "TWLO",
-        "name": "Twilio Inc.",
-        "pct": -11.27
-      },
-      {
-        "symbol": "DOCN",
-        "name": "DigitalOcean Holdings, Inc.",
-        "pct": -11.21
+        "pct": -15.67
       },
       {
         "symbol": "QMCO",
         "name": "Quantum Corporation",
-        "pct": -11.18
+        "pct": -14.53
+      },
+      {
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -14.18
+      },
+      {
+        "symbol": "TLK",
+        "name": "PT Telekomunikasi Indonesia, Tbk",
+        "pct": -13.73
       },
       {
         "symbol": "GRAL",
         "name": "GRAIL, Inc.",
-        "pct": -10.6
+        "pct": -13.13
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": -12.95
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -12.55
+      },
+      {
+        "symbol": "NVAX",
+        "name": "Novavax, Inc.",
+        "pct": -12.44
+      },
+      {
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": -12.02
+      },
+      {
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": -12.01
       }
     ],
     "universe": 1398
