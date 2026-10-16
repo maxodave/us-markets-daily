@@ -1,137 +1,137 @@
 {
-  "updated": "2026-10-16T13:16:06Z",
-  "market_open": false,
+  "updated": "2026-10-16T13:47:24Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.33,
-      "last": 7744.06
+      "pct": 0.04,
+      "last": 7747.36
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.05,
-      "last": 29935.6
+      "pct": -0.71,
+      "last": 29723.13
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.08,
-      "last": 52177.69
+      "pct": 0.61,
+      "last": 52494.37
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
       "pct": 0.76,
-      "last": 49821.23
+      "last": 49819.91
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "VSTM",
-        "name": "Verastem, Inc.",
-        "pct": 19.71
+        "symbol": "AA",
+        "name": "Alcoa Corporation",
+        "pct": 6.09
       },
       {
-        "symbol": "REAL",
-        "name": "The RealReal, Inc.",
-        "pct": 15.82
+        "symbol": "CAVA",
+        "name": "CAVA Group, Inc.",
+        "pct": 4.77
       },
       {
-        "symbol": "APPN",
-        "name": "Appian Corporation",
-        "pct": 13.97
+        "symbol": "CENX",
+        "name": "Century Aluminum Company",
+        "pct": 4.06
       },
       {
-        "symbol": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "pct": 12.48
+        "symbol": "CRGY",
+        "name": "Crescent Energy Company",
+        "pct": 4.02
       },
       {
-        "symbol": "KD",
-        "name": "Kyndryl Holdings, Inc.",
-        "pct": 11.87
+        "symbol": "SARO",
+        "name": "StandardAero, Inc.",
+        "pct": 4.0
       },
       {
-        "symbol": "Z",
-        "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 11.05
+        "symbol": "INDB",
+        "name": "Independent Bank Corp.",
+        "pct": 3.66
       },
       {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 11.05
+        "symbol": "FMX",
+        "name": "Fomento Economico Mexicano S.A.B. de C.V.",
+        "pct": 3.57
       },
       {
-        "symbol": "CRML",
-        "name": "Critical Metals Corp.",
-        "pct": 11.02
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": 3.52
       },
       {
-        "symbol": "TRU",
-        "name": "TransUnion",
-        "pct": 10.73
+        "symbol": "DKS",
+        "name": "Dick's Sporting Goods Inc",
+        "pct": 3.38
       },
       {
-        "symbol": "FIGR",
-        "name": "Figure Technology Solutions, Inc.",
-        "pct": 10.46
+        "symbol": "CBRL",
+        "name": "Cracker Barrel Old Country Store, Inc.",
+        "pct": 3.19
       }
     ],
     "losers": [
       {
-        "symbol": "FMC",
-        "name": "FMC Corporation",
-        "pct": -30.53
+        "symbol": "TLK",
+        "name": "PT Telekomunikasi Indonesia, Tbk",
+        "pct": -14.79
       },
       {
-        "symbol": "MAN",
-        "name": "ManpowerGroup",
-        "pct": -15.82
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": -10.36
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": -10.01
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": -10.41
       },
       {
         "symbol": "QMCO",
         "name": "Quantum Corporation",
-        "pct": -9.43
+        "pct": -8.07
       },
       {
-        "symbol": "PENG",
-        "name": "Penguin Solutions, Inc.",
-        "pct": -8.48
+        "symbol": "NVAX",
+        "name": "Novavax, Inc.",
+        "pct": -7.8
       },
       {
-        "symbol": "LBRT",
-        "name": "Liberty Energy Inc.",
-        "pct": -7.33
+        "symbol": "DOCN",
+        "name": "DigitalOcean Holdings, Inc.",
+        "pct": -7.12
       },
       {
-        "symbol": "TH",
-        "name": "Target Hospitality Corp.",
-        "pct": -7.18
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": -7.05
       },
       {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise Company",
-        "pct": -7.1
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -6.78
       },
       {
-        "symbol": "LSCC",
-        "name": "Lattice Semiconductor Corporation",
-        "pct": -6.88
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -6.38
+      },
+      {
+        "symbol": "VSTM",
+        "name": "Verastem, Inc.",
+        "pct": -5.89
+      },
+      {
+        "symbol": "NET",
+        "name": "Cloudflare, Inc.",
+        "pct": -5.29
       }
     ],
-    "universe": 1399
+    "universe": 1398
   }
 }
