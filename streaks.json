@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-15T23:54:43Z",
-  "session_date": "2026-10-15",
+  "updated": "2026-10-16T23:55:55Z",
+  "session_date": "2026-10-16",
   "universe": 558,
   "up": {
-    "count": 412,
+    "count": 270,
     "by_length": {
-      "1": 201,
-      "2": 94,
-      "3": 24,
-      "4": 43,
-      "5": 15,
-      "6": 24,
-      "7": 3,
-      "8+": 8
+      "1": 65,
+      "2": 76,
+      "3": 58,
+      "4": 8,
+      "5": 31,
+      "6": 8,
+      "7": 18,
+      "8+": 6
     },
     "top": [
       {
@@ -21,8 +21,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 10,
-        "cum_pct": 10.95
+        "days": 11,
+        "cum_pct": 11.87
       },
       {
         "symbol": "CHD",
@@ -30,27 +30,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 10,
-        "cum_pct": 9.53
-      },
-      {
-        "symbol": "DIS",
-        "name": "Walt Disney Company (The)",
-        "indices": [
-          "sp500",
-          "dow"
-        ],
-        "days": 10,
-        "cum_pct": 9.23
-      },
-      {
-        "symbol": "BALL",
-        "name": "Ball Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": 9,
-        "cum_pct": 11.41
+        "days": 11,
+        "cum_pct": 11.07
       },
       {
         "symbol": "ADP",
@@ -59,17 +40,17 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 9,
-        "cum_pct": 10.85
+        "days": 10,
+        "cum_pct": 12.12
       },
       {
-        "symbol": "COR",
-        "name": "Cencora",
+        "symbol": "BALL",
+        "name": "Ball Corporation",
         "indices": [
           "sp500"
         ],
-        "days": 9,
-        "cum_pct": 10.47
+        "days": 10,
+        "cum_pct": 12.12
       },
       {
         "symbol": "CTAS",
@@ -78,8 +59,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 9,
-        "cum_pct": 10.38
+        "days": 10,
+        "cum_pct": 10.71
       },
       {
         "symbol": "TRI",
@@ -87,62 +68,8 @@
         "indices": [
           "nasdaq100"
         ],
-        "days": 8,
-        "cum_pct": 11.14
-      },
-      {
-        "symbol": "EBAY",
-        "name": "eBay Inc.",
-        "indices": [
-          "sp500"
-        ],
-        "days": 7,
-        "cum_pct": 14.8
-      },
-      {
-        "symbol": "RMD",
-        "name": "ResMed",
-        "indices": [
-          "sp500"
-        ],
-        "days": 7,
-        "cum_pct": 9.76
-      },
-      {
-        "symbol": "JKHY",
-        "name": "Jack Henry & Associates",
-        "indices": [
-          "sp500"
-        ],
-        "days": 7,
-        "cum_pct": 8.34
-      },
-      {
-        "symbol": "EFX",
-        "name": "Equifax",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 13.22
-      },
-      {
-        "symbol": "MDT",
-        "name": "Medtronic",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 11.62
-      },
-      {
-        "symbol": "MCK",
-        "name": "McKesson",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 9.7
+        "days": 9,
+        "cum_pct": 12.29
       },
       {
         "symbol": "CCEP",
@@ -150,21 +77,95 @@
         "indices": [
           "nasdaq100"
         ],
-        "days": 6,
-        "cum_pct": 8.83
+        "days": 7,
+        "cum_pct": 11.44
+      },
+      {
+        "symbol": "MCK",
+        "name": "McKesson",
+        "indices": [
+          "sp500"
+        ],
+        "days": 7,
+        "cum_pct": 10.38
+      },
+      {
+        "symbol": "SJM",
+        "name": "J.M. Smucker Company (The)",
+        "indices": [
+          "sp500"
+        ],
+        "days": 7,
+        "cum_pct": 9.92
+      },
+      {
+        "symbol": "KO",
+        "name": "Coca-Cola Company (The)",
+        "indices": [
+          "sp500",
+          "dow"
+        ],
+        "days": 7,
+        "cum_pct": 9.42
+      },
+      {
+        "symbol": "MAR",
+        "name": "Marriott International",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 7,
+        "cum_pct": 8.85
+      },
+      {
+        "symbol": "APD",
+        "name": "Air Products",
+        "indices": [
+          "sp500"
+        ],
+        "days": 7,
+        "cum_pct": 7.72
+      },
+      {
+        "symbol": "FERG",
+        "name": "Ferguson Enterprises",
+        "indices": [
+          "sp500"
+        ],
+        "days": 7,
+        "cum_pct": 7.7
+      },
+      {
+        "symbol": "ED",
+        "name": "Consolidated Edison",
+        "indices": [
+          "sp500"
+        ],
+        "days": 7,
+        "cum_pct": 7.28
+      },
+      {
+        "symbol": "VTR",
+        "name": "Ventas",
+        "indices": [
+          "sp500"
+        ],
+        "days": 7,
+        "cum_pct": 7.27
       }
     ]
   },
   "down": {
-    "count": 146,
+    "count": 286,
     "by_length": {
-      "1": 56,
-      "2": 44,
-      "3": 12,
-      "4": 25,
-      "6": 3,
-      "7": 2,
-      "8+": 4
+      "1": 206,
+      "2": 14,
+      "3": 25,
+      "4": 7,
+      "5": 25,
+      "7": 3,
+      "8+": 6
     },
     "top": [
       {
@@ -174,8 +175,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -9,
-        "cum_pct": -20.15
+        "days": -10,
+        "cum_pct": -24.04
       },
       {
         "symbol": "KLAC",
@@ -184,8 +185,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -9,
-        "cum_pct": -15.67
+        "days": -10,
+        "cum_pct": -19.89
       },
       {
         "symbol": "AMAT",
@@ -194,8 +195,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -8,
-        "cum_pct": -20.7
+        "days": -9,
+        "cum_pct": -24.52
       },
       {
         "symbol": "VRT",
@@ -203,8 +204,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -8,
-        "cum_pct": -15.33
+        "days": -9,
+        "cum_pct": -18.61
       },
       {
         "symbol": "RKLB",
@@ -212,8 +213,8 @@
         "indices": [
           "nasdaq100"
         ],
-        "days": -7,
-        "cum_pct": -26.39
+        "days": -8,
+        "cum_pct": -32.27
       },
       {
         "symbol": "Q",
@@ -221,8 +222,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -10.49
+        "days": -8,
+        "cum_pct": -13.66
       },
       {
         "symbol": "SMCI",
@@ -230,8 +231,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -21.92
+        "days": -7,
+        "cum_pct": -29.62
       },
       {
         "symbol": "SNDK",
@@ -240,8 +241,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -6,
-        "cum_pct": -17.58
+        "days": -7,
+        "cum_pct": -23.23
       },
       {
         "symbol": "STMMI.MI",
@@ -249,8 +250,17 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -6,
-        "cum_pct": -17.21
+        "days": -7,
+        "cum_pct": -20.37
+      },
+      {
+        "symbol": "CIEN",
+        "name": "Ciena",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -26.02
       },
       {
         "symbol": "LITE",
@@ -259,17 +269,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -4,
-        "cum_pct": -21.19
-      },
-      {
-        "symbol": "CIEN",
-        "name": "Ciena",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -20.73
+        "days": -5,
+        "cum_pct": -25.31
       },
       {
         "symbol": "HPE",
@@ -277,17 +278,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -20.19
-      },
-      {
-        "symbol": "DELL",
-        "name": "Dell Technologies",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -19.22
+        "days": -5,
+        "cum_pct": -24.95
       },
       {
         "symbol": "FLEX",
@@ -295,8 +287,17 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -17.8
+        "days": -5,
+        "cum_pct": -24.51
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -22.92
       },
       {
         "symbol": "TER",
@@ -305,12 +306,12 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -4,
-        "cum_pct": -14.77
+        "days": -5,
+        "cum_pct": -19.29
       }
     ]
   },
   "flat": {
-    "count": 0
+    "count": 2
   }
 }
