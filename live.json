@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-16T16:54:35Z",
+  "updated": "2026-10-16T17:12:10Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.73,
-      "last": 7687.36
+      "pct": -1.01,
+      "last": 7665.61
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.75,
-      "last": 29413.12
+      "pct": -2.06,
+      "last": 29319.95
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.22,
-      "last": 52059.05
+      "pct": -0.47,
+      "last": 51928.56
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "MTDR",
-        "name": "Matador Resources Company",
-        "pct": 5.75
-      },
-      {
-        "symbol": "AA",
-        "name": "Alcoa Corporation",
-        "pct": 5.63
-      },
-      {
-        "symbol": "AR",
-        "name": "Antero Resources Corporation",
-        "pct": 5.16
-      },
-      {
-        "symbol": "FMX",
-        "name": "Fomento Economico Mexicano S.A.B. de C.V.",
-        "pct": 5.15
-      },
-      {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 4.98
+        "pct": 9.84
       },
       {
-        "symbol": "FMC",
-        "name": "FMC Corporation",
-        "pct": 4.89
+        "symbol": "MTDR",
+        "name": "Matador Resources Company",
+        "pct": 5.66
       },
       {
         "symbol": "CRGY",
         "name": "Crescent Energy Company",
-        "pct": 4.84
+        "pct": 5.32
       },
       {
-        "symbol": "CENX",
-        "name": "Century Aluminum Company",
-        "pct": 4.65
+        "symbol": "AR",
+        "name": "Antero Resources Corporation",
+        "pct": 4.99
+      },
+      {
+        "symbol": "FMX",
+        "name": "Fomento Economico Mexicano S.A.B. de C.V.",
+        "pct": 4.8
+      },
+      {
+        "symbol": "AA",
+        "name": "Alcoa Corporation",
+        "pct": 4.76
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "pct": 4.19
+        "pct": 4.16
       },
       {
         "symbol": "OVV",
         "name": "Ovintiv Inc. (DE)",
-        "pct": 4.02
+        "pct": 4.07
+      },
+      {
+        "symbol": "TNDM",
+        "name": "Tandem Diabetes Care, Inc.",
+        "pct": 4.03
+      },
+      {
+        "symbol": "CENX",
+        "name": "Century Aluminum Company",
+        "pct": 3.96
       }
     ],
     "losers": [
       {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "pct": -15.08
+        "pct": -13.63
       },
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -13.62
+        "pct": -12.92
       },
       {
         "symbol": "NVAX",
         "name": "Novavax, Inc.",
-        "pct": -12.44
+        "pct": -12.6
       },
       {
         "symbol": "TLK",
         "name": "PT Telekomunikasi Indonesia, Tbk",
-        "pct": -12.36
-      },
-      {
-        "symbol": "QMCO",
-        "name": "Quantum Corporation",
-        "pct": -11.79
-      },
-      {
-        "symbol": "TWLO",
-        "name": "Twilio Inc.",
-        "pct": -11.31
-      },
-      {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": -11.2
+        "pct": -12.25
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": -11.03
+        "pct": -11.89
+      },
+      {
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": -11.29
+      },
+      {
+        "symbol": "TWLO",
+        "name": "Twilio Inc.",
+        "pct": -11.27
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "pct": -10.72
+        "pct": -11.21
       },
       {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -10.41
+        "symbol": "QMCO",
+        "name": "Quantum Corporation",
+        "pct": -11.18
+      },
+      {
+        "symbol": "GRAL",
+        "name": "GRAIL, Inc.",
+        "pct": -10.6
       }
     ],
     "universe": 1398
