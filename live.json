@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-16T15:57:37Z",
+  "updated": "2026-10-16T16:14:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.49,
-      "last": 7705.74
+      "pct": -0.54,
+      "last": 7701.71
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.52,
-      "last": 29481.77
+      "pct": -1.55,
+      "last": 29472.49
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.11,
-      "last": 52234.26
+      "pct": 0.03,
+      "last": 52191.67
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "AA",
         "name": "Alcoa Corporation",
-        "pct": 6.67
+        "pct": 6.53
       },
       {
         "symbol": "CENX",
         "name": "Century Aluminum Company",
-        "pct": 5.89
+        "pct": 5.91
+      },
+      {
+        "symbol": "KRMN",
+        "name": "Karman Holdings Inc.",
+        "pct": 5.31
       },
       {
         "symbol": "FMX",
         "name": "Fomento Economico Mexicano S.A.B. de C.V.",
-        "pct": 5.18
-      },
-      {
-        "symbol": "FMC",
-        "name": "FMC Corporation",
-        "pct": 4.54
+        "pct": 4.82
       },
       {
         "symbol": "CAVA",
         "name": "CAVA Group, Inc.",
-        "pct": 4.52
+        "pct": 4.8
       },
       {
         "symbol": "MTDR",
         "name": "Matador Resources Company",
-        "pct": 4.5
+        "pct": 4.48
       },
       {
-        "symbol": "INDB",
-        "name": "Independent Bank Corp.",
-        "pct": 4.19
+        "symbol": "HONA",
+        "name": "Honeywell Aerospace Inc.",
+        "pct": 4.22
+      },
+      {
+        "symbol": "FMC",
+        "name": "FMC Corporation",
+        "pct": 4.09
+      },
+      {
+        "symbol": "DKS",
+        "name": "Dick's Sporting Goods Inc",
+        "pct": 4.03
       },
       {
         "symbol": "AR",
         "name": "Antero Resources Corporation",
-        "pct": 4.17
-      },
-      {
-        "symbol": "PLNT",
-        "name": "Planet Fitness, Inc.",
-        "pct": 4.06
-      },
-      {
-        "symbol": "CRGY",
-        "name": "Crescent Energy Company",
-        "pct": 3.92
+        "pct": 3.95
       }
     ],
     "losers": [
       {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "pct": -13.71
-      },
-      {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -12.61
-      },
-      {
-        "symbol": "TWLO",
-        "name": "Twilio Inc.",
-        "pct": -12.0
-      },
-      {
-        "symbol": "NVAX",
-        "name": "Novavax, Inc.",
-        "pct": -11.94
+        "pct": -12.65
       },
       {
         "symbol": "TLK",
         "name": "PT Telekomunikasi Indonesia, Tbk",
-        "pct": -11.78
+        "pct": -12.48
       },
       {
-        "symbol": "FROG",
-        "name": "JFrog Ltd.",
-        "pct": -10.43
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "pct": -12.44
       },
       {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": -10.33
+        "symbol": "NVAX",
+        "name": "Novavax, Inc.",
+        "pct": -12.29
       },
       {
-        "symbol": "OKTA",
-        "name": "Okta, Inc.",
-        "pct": -10.12
+        "symbol": "TWLO",
+        "name": "Twilio Inc.",
+        "pct": -10.52
       },
       {
-        "symbol": "QMCO",
-        "name": "Quantum Corporation",
-        "pct": -10.04
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": -10.5
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": -9.93
+        "pct": -9.85
+      },
+      {
+        "symbol": "DOCN",
+        "name": "DigitalOcean Holdings, Inc.",
+        "pct": -9.6
+      },
+      {
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": -9.36
+      },
+      {
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "pct": -9.34
       }
     ],
     "universe": 1398
