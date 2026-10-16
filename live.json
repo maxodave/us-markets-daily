@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-16T14:23:37Z",
+  "updated": "2026-10-16T14:52:29Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.05,
-      "last": 7740.28
+      "pct": 0.03,
+      "last": 7746.07
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.92,
-      "last": 29658.87
+      "pct": -0.81,
+      "last": 29694.49
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.42,
-      "last": 52396.95
+      "pct": 0.44,
+      "last": 52406.33
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.69,
-      "last": 49786.44
+      "pct": 0.83,
+      "last": 49851.8
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "AA",
         "name": "Alcoa Corporation",
-        "pct": 7.94
+        "pct": 8.9
       },
       {
         "symbol": "CENX",
         "name": "Century Aluminum Company",
-        "pct": 5.99
-      },
-      {
-        "symbol": "INDB",
-        "name": "Independent Bank Corp.",
-        "pct": 5.34
-      },
-      {
-        "symbol": "FMC",
-        "name": "FMC Corporation",
-        "pct": 4.8
+        "pct": 6.78
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "pct": 4.66
+        "pct": 5.62
       },
       {
-        "symbol": "FMX",
-        "name": "Fomento Economico Mexicano S.A.B. de C.V.",
-        "pct": 4.27
+        "symbol": "FMC",
+        "name": "FMC Corporation",
+        "pct": 4.72
+      },
+      {
+        "symbol": "SEDG",
+        "name": "SolarEdge Technologies, Inc.",
+        "pct": 4.61
+      },
+      {
+        "symbol": "CRGY",
+        "name": "Crescent Energy Company",
+        "pct": 4.44
+      },
+      {
+        "symbol": "INDB",
+        "name": "Independent Bank Corp.",
+        "pct": 4.13
       },
       {
         "symbol": "DKS",
         "name": "Dick's Sporting Goods Inc",
-        "pct": 4.17
+        "pct": 4.05
       },
       {
-        "symbol": "PK",
-        "name": "Park Hotels & Resorts Inc.",
-        "pct": 4.01
+        "symbol": "CDE",
+        "name": "Coeur Mining, Inc.",
+        "pct": 3.99
       },
       {
-        "symbol": "HST",
-        "name": "Host Hotels & Resorts, Inc.",
-        "pct": 3.86
-      },
-      {
-        "symbol": "KMX",
-        "name": "CarMax Inc",
-        "pct": 3.57
+        "symbol": "CLF",
+        "name": "Cleveland-Cliffs Inc.",
+        "pct": 3.95
       }
     ],
     "losers": [
       {
         "symbol": "TLK",
         "name": "PT Telekomunikasi Indonesia, Tbk",
-        "pct": -12.22
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": -10.3
+        "pct": -12.45
       },
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -9.88
+        "pct": -10.85
       },
       {
         "symbol": "NVAX",
         "name": "Novavax, Inc.",
-        "pct": -9.28
+        "pct": -10.8
       },
       {
-        "symbol": "QMCO",
-        "name": "Quantum Corporation",
-        "pct": -8.48
-      },
-      {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": -7.76
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": -9.06
       },
       {
         "symbol": "TWLO",
         "name": "Twilio Inc.",
-        "pct": -7.55
+        "pct": -8.5
       },
       {
-        "symbol": "DOCN",
-        "name": "DigitalOcean Holdings, Inc.",
-        "pct": -7.51
+        "symbol": "QMCO",
+        "name": "Quantum Corporation",
+        "pct": -8.12
+      },
+      {
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": -7.65
+      },
+      {
+        "symbol": "GRAL",
+        "name": "GRAIL, Inc.",
+        "pct": -7.53
+      },
+      {
+        "symbol": "OKTA",
+        "name": "Okta, Inc.",
+        "pct": -7.49
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -7.48
-      },
-      {
-        "symbol": "TWST",
-        "name": "Twist Bioscience Corporation",
-        "pct": -7.05
+        "pct": -7.22
       }
     ],
     "universe": 1398
