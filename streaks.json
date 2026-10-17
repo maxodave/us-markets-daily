@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-17T04:04:40Z",
+  "updated": "2026-10-17T10:31:31Z",
   "session_date": "2026-10-16",
   "universe": 558,
   "up": {
-    "count": 270,
+    "count": 285,
     "by_length": {
-      "1": 65,
-      "2": 76,
-      "3": 58,
-      "4": 8,
-      "5": 31,
-      "6": 8,
-      "7": 18,
-      "8+": 6
+      "1": 74,
+      "2": 79,
+      "3": 61,
+      "4": 7,
+      "5": 30,
+      "6": 6,
+      "7": 21,
+      "8+": 7
     },
     "top": [
       {
@@ -70,6 +70,15 @@
         ],
         "days": 9,
         "cum_pct": 12.29
+      },
+      {
+        "symbol": "ENI.MI",
+        "name": "Eni",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 8,
+        "cum_pct": 7.54
       },
       {
         "symbol": "CCEP",
@@ -144,28 +153,19 @@
         ],
         "days": 7,
         "cum_pct": 7.28
-      },
-      {
-        "symbol": "VTR",
-        "name": "Ventas",
-        "indices": [
-          "sp500"
-        ],
-        "days": 7,
-        "cum_pct": 7.27
       }
     ]
   },
   "down": {
-    "count": 286,
+    "count": 273,
     "by_length": {
-      "1": 206,
-      "2": 14,
-      "3": 25,
-      "4": 7,
-      "5": 25,
-      "7": 3,
-      "8+": 6
+      "1": 200,
+      "2": 9,
+      "3": 23,
+      "4": 6,
+      "5": 26,
+      "7": 2,
+      "8+": 7
     },
     "top": [
       {
@@ -217,6 +217,15 @@
         "cum_pct": -32.27
       },
       {
+        "symbol": "STMMI.MI",
+        "name": "STMicroelectronics",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -8,
+        "cum_pct": -20.84
+      },
+      {
         "symbol": "Q",
         "name": "Qnity Electronics",
         "indices": [
@@ -243,15 +252,6 @@
         ],
         "days": -7,
         "cum_pct": -23.23
-      },
-      {
-        "symbol": "STMMI.MI",
-        "name": "STMicroelectronics",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -7,
-        "cum_pct": -20.37
       },
       {
         "symbol": "CIEN",
@@ -312,6 +312,6 @@
     ]
   },
   "flat": {
-    "count": 2
+    "count": 0
   }
 }
