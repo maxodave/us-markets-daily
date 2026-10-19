@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-19T17:35:56Z",
+  "updated": "2026-10-19T17:48:23Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.53,
-      "last": 7699.24
+      "pct": 0.48,
+      "last": 7695.34
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.33,
-      "last": 29576.46
+      "pct": 1.2,
+      "last": 29538.9
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.01,
-      "last": 51996.02
+      "pct": 0.02,
+      "last": 51999.85
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "CLF",
         "name": "Cleveland-Cliffs Inc.",
-        "pct": 15.88
+        "pct": 15.14
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 11.74
+        "pct": 10.78
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 10.51
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": 9.77
+        "pct": 10.15
       },
       {
         "symbol": "FROG",
         "name": "JFrog Ltd.",
-        "pct": 8.98
+        "pct": 8.43
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": 8.24
       },
       {
         "symbol": "APLD",
         "name": "Applied Digital Corporation",
-        "pct": 8.89
+        "pct": 8.2
       },
       {
         "symbol": "DXC",
         "name": "DXC Technology Company",
-        "pct": 8.0
+        "pct": 7.67
       },
       {
         "symbol": "PRAX",
         "name": "Praxis Precision Medicines, Inc.",
-        "pct": 7.77
+        "pct": 7.2
+      },
+      {
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": 6.66
       },
       {
         "symbol": "SYRE",
         "name": "Spyre Therapeutics, Inc.",
-        "pct": 7.27
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 6.91
+        "pct": 6.63
       }
     ],
     "losers": [
       {
         "symbol": "IAM",
         "name": "Iambic Therapeutics, Inc.",
-        "pct": -28.27
+        "pct": -28.39
       },
       {
         "symbol": "ALM",
         "name": "Almonty Industries Inc.",
-        "pct": -9.82
+        "pct": -11.04
       },
       {
         "symbol": "RBA",
         "name": "RB Global, Inc.",
-        "pct": -7.18
-      },
-      {
-        "symbol": "FMC",
-        "name": "FMC Corporation",
-        "pct": -6.71
+        "pct": -6.57
       },
       {
         "symbol": "QXO",
         "name": "QXO, Inc.",
-        "pct": -6.35
-      },
-      {
-        "symbol": "ARR",
-        "name": "ARMOUR Residential REIT, Inc.",
-        "pct": -5.91
+        "pct": -6.22
       },
       {
         "symbol": "INSW",
         "name": "International Seaways, Inc.",
-        "pct": -5.9
+        "pct": -5.94
+      },
+      {
+        "symbol": "FMC",
+        "name": "FMC Corporation",
+        "pct": -5.92
       },
       {
         "symbol": "FIGR",
         "name": "Figure Technology Solutions, Inc.",
-        "pct": -5.51
+        "pct": -5.75
       },
       {
-        "symbol": "WHR",
-        "name": "Whirlpool Corporation",
-        "pct": -5.41
+        "symbol": "ARR",
+        "name": "ARMOUR Residential REIT, Inc.",
+        "pct": -5.68
       },
       {
-        "symbol": "HCC",
-        "name": "Warrior Met Coal, Inc.",
-        "pct": -5.11
+        "symbol": "AVEX",
+        "name": "AEVEX Corp.",
+        "pct": -5.6
+      },
+      {
+        "symbol": "LEU",
+        "name": "Centrus Energy Corp.",
+        "pct": -5.24
       }
     ],
     "universe": 1323
