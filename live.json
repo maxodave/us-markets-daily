@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T20:07:51Z",
+  "updated": "2026-10-20T13:11:30Z",
   "market_open": false,
   "indices": [
     {
@@ -12,7 +12,7 @@
       "key": "nasdaq100",
       "label": "Nasdaq-100",
       "pct": 1.17,
-      "last": 29529.34
+      "last": 29529.35
     },
     {
       "key": "dow",
@@ -23,21 +23,41 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.57,
-      "last": 49086.27
+      "pct": -0.83,
+      "last": 48655.97
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "SLN",
+        "name": "Silence Therapeutics Plc - American Deposito",
+        "pct": 125.58
+      },
+      {
+        "symbol": "IRON",
+        "name": "Disc Medicine, Inc.",
+        "pct": 38.86
+      },
+      {
         "symbol": "CLF",
         "name": "Cleveland-Cliffs Inc.",
-        "pct": 16.42
+        "pct": 16.34
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 12.32
+        "pct": 12.37
+      },
+      {
+        "symbol": "AGIO",
+        "name": "Agios Pharmaceuticals, Inc.",
+        "pct": 11.43
+      },
+      {
+        "symbol": "ARQT",
+        "name": "Arcutis Biotherapeutics, Inc.",
+        "pct": 10.65
       },
       {
         "symbol": "AXTI",
@@ -58,26 +78,6 @@
         "symbol": "PRAX",
         "name": "Praxis Precision Medicines, Inc.",
         "pct": 7.61
-      },
-      {
-        "symbol": "WRBY",
-        "name": "Warby Parker Inc.",
-        "pct": 7.03
-      },
-      {
-        "symbol": "RGR",
-        "name": "Sturm, Ruger & Company, Inc.",
-        "pct": 6.89
-      },
-      {
-        "symbol": "TNGX",
-        "name": "Tango Therapeutics, Inc.",
-        "pct": 6.76
-      },
-      {
-        "symbol": "APLD",
-        "name": "Applied Digital Corporation",
-        "pct": 6.65
       }
     ],
     "losers": [
@@ -92,9 +92,24 @@
         "pct": -10.17
       },
       {
+        "symbol": "OCUL",
+        "name": "Ocular Therapeutix, Inc.",
+        "pct": -8.44
+      },
+      {
+        "symbol": "DJT",
+        "name": "Trump Media & Technology Group Corp.",
+        "pct": -8.01
+      },
+      {
+        "symbol": "FOXF",
+        "name": "Fox Factory Holding Corp.",
+        "pct": -7.79
+      },
+      {
         "symbol": "ARR",
         "name": "ARMOUR Residential REIT, Inc.",
-        "pct": -6.86
+        "pct": -6.97
       },
       {
         "symbol": "QXO",
@@ -114,24 +129,9 @@
       {
         "symbol": "HCC",
         "name": "Warrior Met Coal, Inc.",
-        "pct": -5.6
-      },
-      {
-        "symbol": "AVEX",
-        "name": "AEVEX Corp.",
-        "pct": -5.6
-      },
-      {
-        "symbol": "TLK",
-        "name": "PT Telekomunikasi Indonesia, Tbk",
-        "pct": -5.39
-      },
-      {
-        "symbol": "RBA",
-        "name": "RB Global, Inc.",
-        "pct": -5.34
+        "pct": -5.51
       }
     ],
-    "universe": 1323
+    "universe": 1238
   }
 }
