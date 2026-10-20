@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-20T17:09:31Z",
+  "updated": "2026-10-20T17:29:02Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.25,
-      "last": 7711.35
+      "pct": 0.36,
+      "last": 7719.59
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.01,
-      "last": 29525.39
+      "pct": 0.14,
+      "last": 29569.69
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.88,
-      "last": 52430.75
+      "pct": 0.94,
+      "last": 52463.51
     },
     {
       "key": "ftsemib",
@@ -32,22 +32,22 @@
       {
         "symbol": "KVYO",
         "name": "Klaviyo, Inc. Series A",
-        "pct": 11.73
+        "pct": 12.04
       },
       {
         "symbol": "TLK",
         "name": "PT Telekomunikasi Indonesia, Tbk",
-        "pct": 11.29
-      },
-      {
-        "symbol": "RUN",
-        "name": "Sunrun Inc.",
-        "pct": 10.6
+        "pct": 11.2
       },
       {
         "symbol": "EFX",
         "name": "Equifax, Inc.",
-        "pct": 10.07
+        "pct": 10.05
+      },
+      {
+        "symbol": "RUN",
+        "name": "Sunrun Inc.",
+        "pct": 10.01
       },
       {
         "symbol": "SLS",
@@ -55,81 +55,81 @@
         "pct": 9.72
       },
       {
-        "symbol": "WHR",
-        "name": "Whirlpool Corporation",
-        "pct": 8.58
+        "symbol": "HAS",
+        "name": "Hasbro, Inc.",
+        "pct": 9.24
+      },
+      {
+        "symbol": "SYRE",
+        "name": "Spyre Therapeutics, Inc.",
+        "pct": 9.02
       },
       {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "pct": 8.35
-      },
-      {
-        "symbol": "HAS",
-        "name": "Hasbro, Inc.",
-        "pct": 8.1
+        "pct": 8.45
       },
       {
         "symbol": "EQPT",
         "name": "EquipmentShare.com Inc",
-        "pct": 8.1
+        "pct": 8.32
       },
       {
-        "symbol": "MNDY",
-        "name": "monday.com Ltd.",
-        "pct": 7.68
+        "symbol": "RCUS",
+        "name": "Arcus Biosciences, Inc.",
+        "pct": 8.22
       }
     ],
     "losers": [
       {
-        "symbol": "MLI",
-        "name": "Mueller Industries, Inc.",
-        "pct": -10.28
-      },
-      {
         "symbol": "TSEM",
         "name": "Tower Semiconductor Ltd.",
-        "pct": -9.9
+        "pct": -10.37
+      },
+      {
+        "symbol": "MLI",
+        "name": "Mueller Industries, Inc.",
+        "pct": -10.04
       },
       {
         "symbol": "GM",
         "name": "General Motors Company",
-        "pct": -8.42
+        "pct": -8.45
       },
       {
         "symbol": "HWM",
         "name": "Howmet Aerospace Inc.",
-        "pct": -5.73
-      },
-      {
-        "symbol": "BOOT",
-        "name": "Boot Barn Holdings, Inc.",
-        "pct": -4.73
-      },
-      {
-        "symbol": "FIX",
-        "name": "Comfort Systems USA, Inc.",
-        "pct": -4.63
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -4.53
+        "pct": -6.13
       },
       {
         "symbol": "DVA",
         "name": "DaVita Inc.",
-        "pct": -4.51
+        "pct": -5.15
+      },
+      {
+        "symbol": "BOOT",
+        "name": "Boot Barn Holdings, Inc.",
+        "pct": -4.9
+      },
+      {
+        "symbol": "FIX",
+        "name": "Comfort Systems USA, Inc.",
+        "pct": -4.84
       },
       {
         "symbol": "GE",
         "name": "GE Aerospace",
-        "pct": -4.3
+        "pct": -4.21
       },
       {
-        "symbol": "ATI",
-        "name": "ATI Inc.",
-        "pct": -3.99
+        "symbol": "PWR",
+        "name": "Quanta Services, Inc.",
+        "pct": -4.12
+      },
+      {
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": -4.06
       }
     ],
     "universe": 1236
