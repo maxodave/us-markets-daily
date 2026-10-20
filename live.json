@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-20T17:49:11Z",
+  "updated": "2026-10-20T17:59:50Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": 0.39,
-      "last": 7721.69
+      "last": 7722.26
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.14,
-      "last": 29569.8
+      "pct": 0.17,
+      "last": 29579.39
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.01,
-      "last": 52502.89
+      "pct": 1.0,
+      "last": 52494.71
     },
     {
       "key": "ftsemib",
@@ -32,106 +32,106 @@
       {
         "symbol": "KVYO",
         "name": "Klaviyo, Inc. Series A",
-        "pct": 12.1
-      },
-      {
-        "symbol": "TLK",
-        "name": "PT Telekomunikasi Indonesia, Tbk",
-        "pct": 11.24
-      },
-      {
-        "symbol": "EFX",
-        "name": "Equifax, Inc.",
-        "pct": 10.47
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 10.29
+        "pct": 12.44
       },
       {
         "symbol": "RUN",
         "name": "Sunrun Inc.",
-        "pct": 10.23
+        "pct": 11.25
       },
       {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "pct": 9.58
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": 11.25
+      },
+      {
+        "symbol": "TLK",
+        "name": "PT Telekomunikasi Indonesia, Tbk",
+        "pct": 11.05
+      },
+      {
+        "symbol": "EFX",
+        "name": "Equifax, Inc.",
+        "pct": 10.54
       },
       {
         "symbol": "HAS",
         "name": "Hasbro, Inc.",
-        "pct": 9.32
-      },
-      {
-        "symbol": "RCUS",
-        "name": "Arcus Biosciences, Inc.",
-        "pct": 9.21
+        "pct": 10.14
       },
       {
         "symbol": "EQPT",
         "name": "EquipmentShare.com Inc",
-        "pct": 9.18
+        "pct": 9.68
+      },
+      {
+        "symbol": "SYRE",
+        "name": "Spyre Therapeutics, Inc.",
+        "pct": 9.49
+      },
+      {
+        "symbol": "RCUS",
+        "name": "Arcus Biosciences, Inc.",
+        "pct": 9.35
       },
       {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "pct": 8.27
+        "pct": 8.45
       }
     ],
     "losers": [
       {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": -9.31
-      },
-      {
         "symbol": "MLI",
         "name": "Mueller Industries, Inc.",
-        "pct": -9.11
+        "pct": -8.5
       },
       {
         "symbol": "GM",
         "name": "General Motors Company",
-        "pct": -8.25
+        "pct": -8.3
       },
       {
-        "symbol": "HWM",
-        "name": "Howmet Aerospace Inc.",
-        "pct": -5.76
-      },
-      {
-        "symbol": "FIX",
-        "name": "Comfort Systems USA, Inc.",
-        "pct": -4.76
-      },
-      {
-        "symbol": "BOOT",
-        "name": "Boot Barn Holdings, Inc.",
-        "pct": -4.42
-      },
-      {
-        "symbol": "IAM",
-        "name": "Iambic Therapeutics, Inc.",
-        "pct": -4.28
-      },
-      {
-        "symbol": "PTEN",
-        "name": "Patterson-UTI Energy, Inc.",
-        "pct": -4.27
+        "symbol": "TSEM",
+        "name": "Tower Semiconductor Ltd.",
+        "pct": -8.05
       },
       {
         "symbol": "DVA",
         "name": "DaVita Inc.",
-        "pct": -4.1
+        "pct": -6.19
       },
       {
-        "symbol": "PWR",
-        "name": "Quanta Services, Inc.",
-        "pct": -3.94
+        "symbol": "HWM",
+        "name": "Howmet Aerospace Inc.",
+        "pct": -5.72
+      },
+      {
+        "symbol": "IAM",
+        "name": "Iambic Therapeutics, Inc.",
+        "pct": -5.32
+      },
+      {
+        "symbol": "FIX",
+        "name": "Comfort Systems USA, Inc.",
+        "pct": -4.66
+      },
+      {
+        "symbol": "BOOT",
+        "name": "Boot Barn Holdings, Inc.",
+        "pct": -4.48
+      },
+      {
+        "symbol": "PTEN",
+        "name": "Patterson-UTI Energy, Inc.",
+        "pct": -4.19
+      },
+      {
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": -3.7
       }
     ],
-    "universe": 1237
+    "universe": 1236
   }
 }
