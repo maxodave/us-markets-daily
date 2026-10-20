@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-20T17:59:50Z",
+  "updated": "2026-10-20T19:17:01Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.39,
-      "last": 7722.26
+      "pct": 0.26,
+      "last": 7711.84
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.17,
-      "last": 29579.39
+      "pct": -0.03,
+      "last": 29519.44
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.0,
-      "last": 52494.71
+      "pct": 0.86,
+      "last": 52423.72
     },
     {
       "key": "ftsemib",
@@ -30,108 +30,108 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "KVYO",
-        "name": "Klaviyo, Inc. Series A",
-        "pct": 12.44
-      },
-      {
-        "symbol": "RUN",
-        "name": "Sunrun Inc.",
-        "pct": 11.25
-      },
-      {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 11.25
+        "pct": 13.54
       },
       {
-        "symbol": "TLK",
-        "name": "PT Telekomunikasi Indonesia, Tbk",
-        "pct": 11.05
+        "symbol": "KVYO",
+        "name": "Klaviyo, Inc. Series A",
+        "pct": 12.76
       },
       {
         "symbol": "EFX",
         "name": "Equifax, Inc.",
-        "pct": 10.54
-      },
-      {
-        "symbol": "HAS",
-        "name": "Hasbro, Inc.",
-        "pct": 10.14
+        "pct": 11.51
       },
       {
         "symbol": "EQPT",
         "name": "EquipmentShare.com Inc",
-        "pct": 9.68
+        "pct": 11.47
       },
       {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "pct": 9.49
+        "symbol": "TLK",
+        "name": "PT Telekomunikasi Indonesia, Tbk",
+        "pct": 11.2
       },
       {
-        "symbol": "RCUS",
-        "name": "Arcus Biosciences, Inc.",
-        "pct": 9.35
+        "symbol": "HAS",
+        "name": "Hasbro, Inc.",
+        "pct": 10.87
+      },
+      {
+        "symbol": "RUN",
+        "name": "Sunrun Inc.",
+        "pct": 9.94
       },
       {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "pct": 8.45
+        "pct": 9.86
+      },
+      {
+        "symbol": "SPHR",
+        "name": "Sphere Entertainment Co.",
+        "pct": 9.36
+      },
+      {
+        "symbol": "RCUS",
+        "name": "Arcus Biosciences, Inc.",
+        "pct": 8.94
       }
     ],
     "losers": [
       {
         "symbol": "MLI",
         "name": "Mueller Industries, Inc.",
-        "pct": -8.5
+        "pct": -7.28
       },
       {
         "symbol": "GM",
         "name": "General Motors Company",
-        "pct": -8.3
-      },
-      {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": -8.05
+        "pct": -7.05
       },
       {
         "symbol": "DVA",
         "name": "DaVita Inc.",
-        "pct": -6.19
+        "pct": -6.81
       },
       {
-        "symbol": "HWM",
-        "name": "Howmet Aerospace Inc.",
-        "pct": -5.72
+        "symbol": "TSEM",
+        "name": "Tower Semiconductor Ltd.",
+        "pct": -6.78
       },
       {
-        "symbol": "IAM",
-        "name": "Iambic Therapeutics, Inc.",
-        "pct": -5.32
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -4.58
       },
       {
         "symbol": "FIX",
         "name": "Comfort Systems USA, Inc.",
-        "pct": -4.66
+        "pct": -4.57
       },
       {
-        "symbol": "BOOT",
-        "name": "Boot Barn Holdings, Inc.",
-        "pct": -4.48
+        "symbol": "GPC",
+        "name": "Genuine Parts Company",
+        "pct": -4.54
       },
       {
-        "symbol": "PTEN",
-        "name": "Patterson-UTI Energy, Inc.",
-        "pct": -4.19
+        "symbol": "HWM",
+        "name": "Howmet Aerospace Inc.",
+        "pct": -4.54
       },
       {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": -3.7
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "pct": -4.25
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -4.05
       }
     ],
-    "universe": 1236
+    "universe": 1237
   }
 }
