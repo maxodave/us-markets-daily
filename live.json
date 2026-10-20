@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-20T19:17:01Z",
-  "market_open": true,
+  "updated": "2026-10-20T20:17:51Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.26,
-      "last": 7711.84
+      "pct": 0.28,
+      "last": 7712.57
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.03,
-      "last": 29519.44
+      "pct": -0.13,
+      "last": 29490.28
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.86,
-      "last": 52423.72
+      "pct": 1.02,
+      "last": 52495.88
     },
     {
       "key": "ftsemib",
@@ -32,79 +32,84 @@
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 13.54
+        "pct": 14.2
       },
       {
         "symbol": "KVYO",
         "name": "Klaviyo, Inc. Series A",
-        "pct": 12.76
-      },
-      {
-        "symbol": "EFX",
-        "name": "Equifax, Inc.",
-        "pct": 11.51
+        "pct": 11.93
       },
       {
         "symbol": "EQPT",
         "name": "EquipmentShare.com Inc",
-        "pct": 11.47
+        "pct": 11.83
       },
       {
         "symbol": "TLK",
         "name": "PT Telekomunikasi Indonesia, Tbk",
-        "pct": 11.2
+        "pct": 11.39
+      },
+      {
+        "symbol": "EFX",
+        "name": "Equifax, Inc.",
+        "pct": 11.33
       },
       {
         "symbol": "HAS",
         "name": "Hasbro, Inc.",
-        "pct": 10.87
+        "pct": 11.2
       },
       {
         "symbol": "RUN",
         "name": "Sunrun Inc.",
-        "pct": 9.94
-      },
-      {
-        "symbol": "HTFL",
-        "name": "Heartflow, Inc.",
-        "pct": 9.86
+        "pct": 9.87
       },
       {
         "symbol": "SPHR",
         "name": "Sphere Entertainment Co.",
-        "pct": 9.36
+        "pct": 9.67
       },
       {
-        "symbol": "RCUS",
-        "name": "Arcus Biosciences, Inc.",
-        "pct": 8.94
+        "symbol": "HTFL",
+        "name": "Heartflow, Inc.",
+        "pct": 8.96
+      },
+      {
+        "symbol": "BB",
+        "name": "BlackBerry Limited",
+        "pct": 8.7
       }
     ],
     "losers": [
       {
-        "symbol": "MLI",
-        "name": "Mueller Industries, Inc.",
-        "pct": -7.28
+        "symbol": "TSEM",
+        "name": "Tower Semiconductor Ltd.",
+        "pct": -8.25
       },
       {
         "symbol": "GM",
         "name": "General Motors Company",
-        "pct": -7.05
+        "pct": -6.84
+      },
+      {
+        "symbol": "MLI",
+        "name": "Mueller Industries, Inc.",
+        "pct": -6.59
       },
       {
         "symbol": "DVA",
         "name": "DaVita Inc.",
-        "pct": -6.81
+        "pct": -6.23
       },
       {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": -6.78
+        "symbol": "GPC",
+        "name": "Genuine Parts Company",
+        "pct": -5.12
       },
       {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -4.58
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -4.67
       },
       {
         "symbol": "FIX",
@@ -112,26 +117,21 @@
         "pct": -4.57
       },
       {
-        "symbol": "GPC",
-        "name": "Genuine Parts Company",
-        "pct": -4.54
-      },
-      {
-        "symbol": "HWM",
-        "name": "Howmet Aerospace Inc.",
-        "pct": -4.54
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": -4.23
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": -4.25
+        "pct": -4.09
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": -4.05
+        "pct": -4.0
       }
     ],
-    "universe": 1237
+    "universe": 1236
   }
 }
