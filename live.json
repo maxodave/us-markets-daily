@@ -1,135 +1,135 @@
 {
-  "updated": "2026-10-20T14:08:12Z",
+  "updated": "2026-10-20T14:20:10Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.26,
-      "last": 7711.94
+      "pct": 0.41,
+      "last": 7723.26
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.02,
-      "last": 29524.88
+      "pct": 0.18,
+      "last": 29583.76
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.71,
-      "last": 52344.56
+      "pct": 0.83,
+      "last": 52408.09
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.46,
-      "last": 48836.57
+      "pct": -0.34,
+      "last": 48894.77
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "RCUS",
+        "name": "Arcus Biosciences, Inc.",
+        "pct": 10.97
+      },
+      {
         "symbol": "EFX",
         "name": "Equifax, Inc.",
-        "pct": 10.15
+        "pct": 10.05
       },
       {
         "symbol": "KVYO",
         "name": "Klaviyo, Inc. Series A",
-        "pct": 10.13
+        "pct": 9.56
       },
       {
         "symbol": "TLK",
         "name": "PT Telekomunikasi Indonesia, Tbk",
-        "pct": 8.76
-      },
-      {
-        "symbol": "ERAS",
-        "name": "Erasca, Inc.",
-        "pct": 7.56
-      },
-      {
-        "symbol": "RCUS",
-        "name": "Arcus Biosciences, Inc.",
-        "pct": 7.43
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": 7.34
+        "pct": 9.43
       },
       {
         "symbol": "NOC",
         "name": "Northrop Grumman Corporation",
-        "pct": 7.17
+        "pct": 6.74
       },
       {
-        "symbol": "SKYD",
-        "name": "Skydance Corporation",
-        "pct": 5.96
+        "symbol": "DFTX",
+        "name": "Definium Therapeutics, Inc.",
+        "pct": 6.51
+      },
+      {
+        "symbol": "BMNR",
+        "name": "BitMine Immersion Technologies, Inc.",
+        "pct": 6.42
+      },
+      {
+        "symbol": "DNTH",
+        "name": "Dianthus Therapeutics, Inc.",
+        "pct": 6.32
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 6.08
       },
       {
         "symbol": "MSCI",
         "name": "MSCI Inc.",
-        "pct": 5.95
-      },
-      {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "pct": 5.91
+        "pct": 5.99
       }
     ],
     "losers": [
       {
-        "symbol": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "pct": -6.89
-      },
-      {
         "symbol": "MLI",
         "name": "Mueller Industries, Inc.",
-        "pct": -6.79
+        "pct": -7.19
       },
       {
-        "symbol": "ELAN",
-        "name": "Elanco Animal Health Incorporated",
-        "pct": -5.87
+        "symbol": "CLF",
+        "name": "Cleveland-Cliffs Inc.",
+        "pct": -5.74
       },
       {
         "symbol": "GM",
         "name": "General Motors Company",
-        "pct": -5.64
-      },
-      {
-        "symbol": "BAX",
-        "name": "Baxter International Inc.",
-        "pct": -5.02
-      },
-      {
-        "symbol": "GE",
-        "name": "GE Aerospace",
-        "pct": -4.28
-      },
-      {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": -4.14
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -3.91
-      },
-      {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": -3.65
+        "pct": -5.5
       },
       {
         "symbol": "HWM",
         "name": "Howmet Aerospace Inc.",
-        "pct": -3.63
+        "pct": -4.32
+      },
+      {
+        "symbol": "CCK",
+        "name": "Crown Holdings, Inc.",
+        "pct": -3.93
+      },
+      {
+        "symbol": "BAX",
+        "name": "Baxter International Inc.",
+        "pct": -3.92
+      },
+      {
+        "symbol": "GE",
+        "name": "GE Aerospace",
+        "pct": -3.86
+      },
+      {
+        "symbol": "TSEM",
+        "name": "Tower Semiconductor Ltd.",
+        "pct": -3.76
+      },
+      {
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": -3.41
+      },
+      {
+        "symbol": "GPC",
+        "name": "Genuine Parts Company",
+        "pct": -3.25
       }
     ],
     "universe": 1236
