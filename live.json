@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-20T16:23:11Z",
+  "updated": "2026-10-20T16:58:51Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": 0.27,
-      "last": 7712.91
+      "last": 7712.83
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.02,
-      "last": 29533.99
+      "pct": -0.02,
+      "last": 29522.37
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.87,
-      "last": 52425.96
+      "pct": 0.91,
+      "last": 52449.18
     },
     {
       "key": "ftsemib",
@@ -30,108 +30,108 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "EFX",
-        "name": "Equifax, Inc.",
-        "pct": 11.28
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 10.49
+        "symbol": "KVYO",
+        "name": "Klaviyo, Inc. Series A",
+        "pct": 11.82
       },
       {
         "symbol": "TLK",
         "name": "PT Telekomunikasi Indonesia, Tbk",
-        "pct": 10.48
-      },
-      {
-        "symbol": "KVYO",
-        "name": "Klaviyo, Inc. Series A",
-        "pct": 10.02
+        "pct": 10.91
       },
       {
         "symbol": "RUN",
         "name": "Sunrun Inc.",
-        "pct": 8.42
+        "pct": 10.38
       },
       {
-        "symbol": "RCUS",
-        "name": "Arcus Biosciences, Inc.",
-        "pct": 8.4
+        "symbol": "EFX",
+        "name": "Equifax, Inc.",
+        "pct": 10.08
+      },
+      {
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": 9.96
       },
       {
         "symbol": "WHR",
         "name": "Whirlpool Corporation",
-        "pct": 7.94
+        "pct": 8.35
       },
       {
         "symbol": "EQPT",
         "name": "EquipmentShare.com Inc",
-        "pct": 7.81
+        "pct": 8.03
       },
       {
-        "symbol": "SYRE",
-        "name": "Spyre Therapeutics, Inc.",
-        "pct": 7.6
+        "symbol": "MNDY",
+        "name": "monday.com Ltd.",
+        "pct": 7.87
       },
       {
-        "symbol": "DOCS",
-        "name": "Doximity, Inc.",
-        "pct": 7.54
+        "symbol": "HTFL",
+        "name": "Heartflow, Inc.",
+        "pct": 7.77
+      },
+      {
+        "symbol": "HAS",
+        "name": "Hasbro, Inc.",
+        "pct": 7.56
       }
     ],
     "losers": [
       {
         "symbol": "MLI",
         "name": "Mueller Industries, Inc.",
-        "pct": -8.25
-      },
-      {
-        "symbol": "GM",
-        "name": "General Motors Company",
-        "pct": -7.9
+        "pct": -10.71
       },
       {
         "symbol": "TSEM",
         "name": "Tower Semiconductor Ltd.",
-        "pct": -7.87
+        "pct": -9.28
       },
       {
-        "symbol": "DVA",
-        "name": "DaVita Inc.",
-        "pct": -6.21
+        "symbol": "GM",
+        "name": "General Motors Company",
+        "pct": -8.01
       },
       {
         "symbol": "HWM",
         "name": "Howmet Aerospace Inc.",
-        "pct": -5.23
+        "pct": -5.52
       },
       {
         "symbol": "BOOT",
         "name": "Boot Barn Holdings, Inc.",
-        "pct": -4.87
-      },
-      {
-        "symbol": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "pct": -4.47
-      },
-      {
-        "symbol": "GE",
-        "name": "GE Aerospace",
-        "pct": -4.45
+        "pct": -4.94
       },
       {
         "symbol": "FIX",
         "name": "Comfort Systems USA, Inc.",
-        "pct": -4.18
+        "pct": -4.55
+      },
+      {
+        "symbol": "GE",
+        "name": "GE Aerospace",
+        "pct": -4.4
       },
       {
         "symbol": "BAX",
         "name": "Baxter International Inc.",
-        "pct": -3.88
+        "pct": -4.28
+      },
+      {
+        "symbol": "DVA",
+        "name": "DaVita Inc.",
+        "pct": -4.18
+      },
+      {
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": -3.94
       }
     ],
-    "universe": 1237
+    "universe": 1236
   }
 }
