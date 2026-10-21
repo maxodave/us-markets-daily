@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-21T14:20:07Z",
+  "updated": "2026-10-21T14:30:15Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.03,
-      "last": 7714.3
+      "pct": 0.1,
+      "last": 7719.61
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.5,
-      "last": 29637.2
+      "pct": 0.62,
+      "last": 29673.09
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.13,
-      "last": 52432.66
+      "pct": -0.07,
+      "last": 52465.3
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.09,
-      "last": 49601.44
+      "pct": 1.12,
+      "last": 49615.91
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "SMCI",
         "name": "Super Micro Computer, Inc.",
-        "pct": 10.63
+        "pct": 11.18
       },
       {
         "symbol": "SPCX",
         "name": "Space Exploration Technologies Corp.",
-        "pct": 10.26
+        "pct": 9.45
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 8.15
+        "pct": 9.06
       },
       {
         "symbol": "WFRD",
         "name": "Weatherford International plc",
-        "pct": 7.55
-      },
-      {
-        "symbol": "TNGX",
-        "name": "Tango Therapeutics, Inc.",
-        "pct": 7.13
-      },
-      {
-        "symbol": "ECHO",
-        "name": "EchoStar Corporation",
-        "pct": 6.92
+        "pct": 7.07
       },
       {
         "symbol": "NTSK",
         "name": "Netskope, Inc.",
-        "pct": 6.63
+        "pct": 7.06
+      },
+      {
+        "symbol": "TNGX",
+        "name": "Tango Therapeutics, Inc.",
+        "pct": 7.05
       },
       {
         "symbol": "DDOG",
         "name": "Datadog, Inc.",
-        "pct": 6.62
+        "pct": 6.76
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": 6.4
+        "pct": 6.72
       },
       {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "pct": 6.4
+        "symbol": "ECHO",
+        "name": "EchoStar Corporation",
+        "pct": 6.44
+      },
+      {
+        "symbol": "ANAB",
+        "name": "AnaptysBio, Inc.",
+        "pct": 6.44
       }
     ],
     "losers": [
       {
         "symbol": "RAPP",
         "name": "Rapport Therapeutics, Inc.",
-        "pct": -12.05
-      },
-      {
-        "symbol": "T",
-        "name": "AT&T Inc.",
-        "pct": -6.13
-      },
-      {
-        "symbol": "WING",
-        "name": "Wingstop Inc.",
-        "pct": -6.11
-      },
-      {
-        "symbol": "DY",
-        "name": "Dycom Industries, Inc.",
-        "pct": -5.53
+        "pct": -14.33
       },
       {
         "symbol": "MHO",
         "name": "M/I Homes, Inc.",
-        "pct": -5.36
+        "pct": -6.09
+      },
+      {
+        "symbol": "T",
+        "name": "AT&T Inc.",
+        "pct": -5.98
+      },
+      {
+        "symbol": "WING",
+        "name": "Wingstop Inc.",
+        "pct": -5.91
+      },
+      {
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "pct": -5.49
       },
       {
         "symbol": "CMG",
         "name": "Chipotle Mexican Grill, Inc.",
-        "pct": -4.67
+        "pct": -4.96
       },
       {
-        "symbol": "NFLX",
-        "name": "Netflix, Inc.",
-        "pct": -4.54
-      },
-      {
-        "symbol": "ERO",
-        "name": "Ero Copper Corp.",
-        "pct": -4.29
+        "symbol": "DY",
+        "name": "Dycom Industries, Inc.",
+        "pct": -4.89
       },
       {
         "symbol": "EAT",
         "name": "Brinker International, Inc.",
-        "pct": -4.07
+        "pct": -4.43
       },
       {
         "symbol": "PEGA",
         "name": "Pegasystems Inc.",
-        "pct": -4.07
+        "pct": -4.39
+      },
+      {
+        "symbol": "NFLX",
+        "name": "Netflix, Inc.",
+        "pct": -4.39
       }
     ],
     "universe": 1299
