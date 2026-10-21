@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-21T14:53:55Z",
+  "updated": "2026-10-21T14:59:13Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.29,
-      "last": 7733.82
+      "pct": 0.33,
+      "last": 7737.1
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.81,
-      "last": 29728.79
+      "pct": 0.86,
+      "last": 29742.55
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.04,
-      "last": 52520.01
+      "pct": 0.02,
+      "last": 52512.75
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.02,
-      "last": 49566.87
+      "pct": 1.03,
+      "last": 49569.63
     }
   ],
   "movers": {
@@ -32,22 +32,32 @@
       {
         "symbol": "SMCI",
         "name": "Super Micro Computer, Inc.",
-        "pct": 10.76
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 9.52
+        "pct": 10.96
       },
       {
         "symbol": "SPCX",
         "name": "Space Exploration Technologies Corp.",
-        "pct": 9.17
+        "pct": 9.0
       },
       {
         "symbol": "GLXY",
         "name": "Galaxy Digital Inc.",
-        "pct": 9.14
+        "pct": 8.44
+      },
+      {
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": 8.41
+      },
+      {
+        "symbol": "MANE",
+        "name": "Veradermics, Incorporated",
+        "pct": 7.94
+      },
+      {
+        "symbol": "ECHO",
+        "name": "EchoStar Corporation",
+        "pct": 7.34
       },
       {
         "symbol": "APLD",
@@ -55,81 +65,71 @@
         "pct": 7.22
       },
       {
-        "symbol": "ECHO",
-        "name": "EchoStar Corporation",
-        "pct": 7.07
-      },
-      {
-        "symbol": "MANE",
-        "name": "Veradermics, Incorporated",
-        "pct": 6.96
-      },
-      {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": 6.82
-      },
-      {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": 6.78
+        "pct": 6.68
       },
       {
         "symbol": "DDOG",
         "name": "Datadog, Inc.",
-        "pct": 6.58
+        "pct": 6.51
+      },
+      {
+        "symbol": "NTSK",
+        "name": "Netskope, Inc.",
+        "pct": 6.51
       }
     ],
     "losers": [
       {
         "symbol": "RAPP",
         "name": "Rapport Therapeutics, Inc.",
-        "pct": -11.68
+        "pct": -12.17
       },
       {
         "symbol": "WING",
         "name": "Wingstop Inc.",
-        "pct": -6.4
+        "pct": -6.56
       },
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "pct": -5.74
-      },
-      {
-        "symbol": "MHO",
-        "name": "M/I Homes, Inc.",
-        "pct": -5.06
-      },
-      {
-        "symbol": "NFLX",
-        "name": "Netflix, Inc.",
-        "pct": -4.98
-      },
-      {
-        "symbol": "CMG",
-        "name": "Chipotle Mexican Grill, Inc.",
-        "pct": -4.7
-      },
-      {
-        "symbol": "EAT",
-        "name": "Brinker International, Inc.",
-        "pct": -4.68
-      },
-      {
-        "symbol": "CHTR",
-        "name": "Charter Communications, Inc.",
-        "pct": -4.32
+        "pct": -5.87
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -4.24
+        "pct": -4.76
+      },
+      {
+        "symbol": "MHO",
+        "name": "M/I Homes, Inc.",
+        "pct": -4.75
+      },
+      {
+        "symbol": "EAT",
+        "name": "Brinker International, Inc.",
+        "pct": -4.44
+      },
+      {
+        "symbol": "NFLX",
+        "name": "Netflix, Inc.",
+        "pct": -4.39
+      },
+      {
+        "symbol": "DXCM",
+        "name": "DexCom, Inc.",
+        "pct": -4.34
       },
       {
         "symbol": "PEGA",
         "name": "Pegasystems Inc.",
-        "pct": -4.03
+        "pct": -4.33
+      },
+      {
+        "symbol": "CMG",
+        "name": "Chipotle Mexican Grill, Inc.",
+        "pct": -4.32
       }
     ],
     "universe": 1299
