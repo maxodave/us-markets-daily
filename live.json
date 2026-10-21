@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T20:17:51Z",
+  "updated": "2026-10-21T13:06:06Z",
   "market_open": false,
   "indices": [
     {
@@ -23,12 +23,22 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.02,
-      "last": 49071.37
+      "pct": 0.94,
+      "last": 49529.07
     }
   ],
   "movers": {
     "gainers": [
+      {
+        "symbol": "BRZE",
+        "name": "Braze, Inc.",
+        "pct": 51.7
+      },
+      {
+        "symbol": "LION",
+        "name": "Lionsgate Studios Corp",
+        "pct": 14.41
+      },
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
@@ -68,28 +78,33 @@
         "symbol": "SPHR",
         "name": "Sphere Entertainment Co.",
         "pct": 9.67
-      },
-      {
-        "symbol": "HTFL",
-        "name": "Heartflow, Inc.",
-        "pct": 8.96
-      },
-      {
-        "symbol": "BB",
-        "name": "BlackBerry Limited",
-        "pct": 8.7
       }
     ],
     "losers": [
+      {
+        "symbol": "DPC",
+        "name": "DPC Holdings PLC",
+        "pct": -8.91
+      },
       {
         "symbol": "TSEM",
         "name": "Tower Semiconductor Ltd.",
         "pct": -8.25
       },
       {
+        "symbol": "ANAB",
+        "name": "AnaptysBio, Inc.",
+        "pct": -7.74
+      },
+      {
         "symbol": "GM",
         "name": "General Motors Company",
         "pct": -6.84
+      },
+      {
+        "symbol": "LGN",
+        "name": "Legence Corp.",
+        "pct": -6.74
       },
       {
         "symbol": "MLI",
@@ -107,31 +122,16 @@
         "pct": -5.12
       },
       {
+        "symbol": "BTU",
+        "name": "Peabody Energy Corporation",
+        "pct": -4.71
+      },
+      {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
         "pct": -4.67
-      },
-      {
-        "symbol": "FIX",
-        "name": "Comfort Systems USA, Inc.",
-        "pct": -4.57
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": -4.23
-      },
-      {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "pct": -4.09
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": -4.0
       }
     ],
-    "universe": 1236
+    "universe": 1299
   }
 }
