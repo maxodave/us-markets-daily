@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-21T19:07:21Z",
+  "updated": "2026-10-21T19:23:17Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.41,
-      "last": 7743.69
+      "pct": 0.48,
+      "last": 7748.95
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.95,
-      "last": 29771.37
+      "pct": 1.06,
+      "last": 29802.96
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.3,
-      "last": 52655.47
+      "pct": 0.39,
+      "last": 52705.31
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 13.62
+        "pct": 14.17
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 10.4
-      },
-      {
-        "symbol": "APLD",
-        "name": "Applied Digital Corporation",
-        "pct": 9.61
+        "pct": 10.8
       },
       {
         "symbol": "SKYD",
         "name": "Skydance Corporation",
-        "pct": 9.05
+        "pct": 10.49
       },
       {
-        "symbol": "SMCI",
-        "name": "Super Micro Computer, Inc.",
-        "pct": 8.93
+        "symbol": "APLD",
+        "name": "Applied Digital Corporation",
+        "pct": 9.42
+      },
+      {
+        "symbol": "CRL",
+        "name": "Charles River Laboratories International, In",
+        "pct": 9.36
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 8.86
+        "pct": 8.95
+      },
+      {
+        "symbol": "SMCI",
+        "name": "Super Micro Computer, Inc.",
+        "pct": 8.76
       },
       {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": 8.21
-      },
-      {
-        "symbol": "GLXY",
-        "name": "Galaxy Digital Inc.",
-        "pct": 8.19
-      },
-      {
-        "symbol": "WFRD",
-        "name": "Weatherford International plc",
-        "pct": 8.12
+        "pct": 8.67
       },
       {
         "symbol": "NTSK",
         "name": "Netskope, Inc.",
-        "pct": 7.97
+        "pct": 8.4
+      },
+      {
+        "symbol": "LIFE",
+        "name": "Ethos Technologies Inc.",
+        "pct": 8.35
       }
     ],
     "losers": [
       {
         "symbol": "RCUS",
         "name": "Arcus Biosciences, Inc.",
-        "pct": -17.85
+        "pct": -18.36
       },
       {
         "symbol": "RAPP",
         "name": "Rapport Therapeutics, Inc.",
-        "pct": -12.92
+        "pct": -14.03
       },
       {
         "symbol": "LAD",
         "name": "Lithia Motors, Inc.",
-        "pct": -8.48
+        "pct": -8.42
       },
       {
         "symbol": "WING",
         "name": "Wingstop Inc.",
-        "pct": -8.43
+        "pct": -7.8
       },
       {
         "symbol": "MHO",
         "name": "M/I Homes, Inc.",
-        "pct": -7.23
+        "pct": -7.39
       },
       {
         "symbol": "CLMT",
         "name": "Calumet, Inc",
-        "pct": -6.16
-      },
-      {
-        "symbol": "BH",
-        "name": "Biglari Holdings Inc.",
-        "pct": -6.07
+        "pct": -6.87
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -5.93
+        "pct": -6.23
       },
       {
-        "symbol": "CELH",
-        "name": "Celsius Holdings, Inc.",
-        "pct": -5.89
+        "symbol": "WHR",
+        "name": "Whirlpool Corporation",
+        "pct": -6.17
       },
       {
-        "symbol": "CMG",
-        "name": "Chipotle Mexican Grill, Inc.",
-        "pct": -5.78
+        "symbol": "BH",
+        "name": "Biglari Holdings Inc.",
+        "pct": -6.14
+      },
+      {
+        "symbol": "KOD",
+        "name": "Kodiak Sciences Inc",
+        "pct": -6.0
       }
     ],
     "universe": 1299
