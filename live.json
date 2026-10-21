@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-21T16:40:49Z",
+  "updated": "2026-10-21T16:50:41Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.58,
-      "last": 7756.41
+      "pct": 0.6,
+      "last": 7757.59
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.3,
-      "last": 29873.76
+      "pct": 1.31,
+      "last": 29876.14
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.34,
-      "last": 52680.34
+      "pct": 0.37,
+      "last": 52691.87
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 11.35
-      },
-      {
-        "symbol": "SPCX",
-        "name": "Space Exploration Technologies Corp.",
-        "pct": 10.46
+        "pct": 12.0
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 10.4
+        "pct": 10.42
       },
       {
         "symbol": "SMCI",
         "name": "Super Micro Computer, Inc.",
-        "pct": 9.73
+        "pct": 9.84
+      },
+      {
+        "symbol": "SPCX",
+        "name": "Space Exploration Technologies Corp.",
+        "pct": 9.78
       },
       {
         "symbol": "GLXY",
         "name": "Galaxy Digital Inc.",
-        "pct": 9.71
-      },
-      {
-        "symbol": "MSTR",
-        "name": "Strategy Inc",
-        "pct": 8.72
-      },
-      {
-        "symbol": "ECHO",
-        "name": "EchoStar Corporation",
-        "pct": 8.59
-      },
-      {
-        "symbol": "EQPT",
-        "name": "EquipmentShare.com Inc",
-        "pct": 8.4
+        "pct": 9.64
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 8.3
+        "pct": 8.93
+      },
+      {
+        "symbol": "MSTR",
+        "name": "Strategy Inc",
+        "pct": 8.78
+      },
+      {
+        "symbol": "EQPT",
+        "name": "EquipmentShare.com Inc",
+        "pct": 8.27
+      },
+      {
+        "symbol": "ECHO",
+        "name": "EchoStar Corporation",
+        "pct": 8.13
       },
       {
         "symbol": "CRL",
         "name": "Charles River Laboratories International, In",
-        "pct": 8.0
+        "pct": 8.05
       }
     ],
     "losers": [
       {
         "symbol": "RAPP",
         "name": "Rapport Therapeutics, Inc.",
-        "pct": -12.58
+        "pct": -11.34
       },
       {
         "symbol": "RCUS",
         "name": "Arcus Biosciences, Inc.",
-        "pct": -11.81
+        "pct": -11.18
       },
       {
         "symbol": "TDS",
         "name": "Telephone and Data Systems, Inc.",
-        "pct": -7.29
+        "pct": -7.66
       },
       {
         "symbol": "WING",
         "name": "Wingstop Inc.",
-        "pct": -6.74
-      },
-      {
-        "symbol": "DXCM",
-        "name": "DexCom, Inc.",
-        "pct": -6.41
+        "pct": -7.22
       },
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "pct": -6.28
+        "pct": -6.17
+      },
+      {
+        "symbol": "DXCM",
+        "name": "DexCom, Inc.",
+        "pct": -6.06
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -5.24
-      },
-      {
-        "symbol": "CLMT",
-        "name": "Calumet, Inc",
-        "pct": -5.15
-      },
-      {
-        "symbol": "NFLX",
-        "name": "Netflix, Inc.",
-        "pct": -4.91
+        "pct": -5.74
       },
       {
         "symbol": "MHO",
         "name": "M/I Homes, Inc.",
-        "pct": -4.6
+        "pct": -5.3
+      },
+      {
+        "symbol": "CLMT",
+        "name": "Calumet, Inc",
+        "pct": -5.2
+      },
+      {
+        "symbol": "LAD",
+        "name": "Lithia Motors, Inc.",
+        "pct": -4.79
       }
     ],
     "universe": 1299
