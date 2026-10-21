@@ -1,135 +1,135 @@
 {
-  "updated": "2026-10-21T13:49:58Z",
+  "updated": "2026-10-21T14:06:11Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.33,
-      "last": 7737.3
+      "pct": 0.05,
+      "last": 7715.81
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.78,
-      "last": 29719.75
+      "pct": 0.57,
+      "last": 29658.5
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.19,
-      "last": 52602.04
+      "pct": -0.2,
+      "last": 52394.07
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.25,
-      "last": 49682.04
+      "pct": 1.05,
+      "last": 49582.16
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "SMCI",
-        "name": "Super Micro Computer, Inc.",
-        "pct": 13.55
-      },
-      {
         "symbol": "SPCX",
         "name": "Space Exploration Technologies Corp.",
-        "pct": 10.55
+        "pct": 11.69
       },
       {
-        "symbol": "FTAI",
-        "name": "FTAI Aviation Ltd.",
-        "pct": 7.88
-      },
-      {
-        "symbol": "TNGX",
-        "name": "Tango Therapeutics, Inc.",
-        "pct": 7.83
+        "symbol": "SMCI",
+        "name": "Super Micro Computer, Inc.",
+        "pct": 11.6
       },
       {
         "symbol": "LUNR",
         "name": "Intuitive Machines, Inc.",
-        "pct": 7.59
+        "pct": 7.69
       },
       {
         "symbol": "ECHO",
         "name": "EchoStar Corporation",
-        "pct": 6.66
+        "pct": 7.15
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 6.32
+        "pct": 7.04
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": 5.98
+        "pct": 6.89
+      },
+      {
+        "symbol": "FTAI",
+        "name": "FTAI Aviation Ltd.",
+        "pct": 6.35
+      },
+      {
+        "symbol": "ALM",
+        "name": "Almonty Industries Inc.",
+        "pct": 6.24
+      },
+      {
+        "symbol": "ROIV",
+        "name": "Roivant Sciences Ltd.",
+        "pct": 6.09
       },
       {
         "symbol": "VRT",
         "name": "Vertiv Holdings, LLC",
-        "pct": 5.74
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": 5.71
+        "pct": 5.9
       }
     ],
     "losers": [
       {
-        "symbol": "WING",
-        "name": "Wingstop Inc.",
-        "pct": -5.29
-      },
-      {
-        "symbol": "DY",
-        "name": "Dycom Industries, Inc.",
-        "pct": -4.63
-      },
-      {
         "symbol": "RAPP",
         "name": "Rapport Therapeutics, Inc.",
-        "pct": -4.56
+        "pct": -7.24
       },
       {
-        "symbol": "T",
-        "name": "AT&T Inc.",
-        "pct": -4.5
-      },
-      {
-        "symbol": "CMG",
-        "name": "Chipotle Mexican Grill, Inc.",
-        "pct": -4.23
-      },
-      {
-        "symbol": "SCCO",
-        "name": "Southern Copper Corporation",
-        "pct": -4.09
-      },
-      {
-        "symbol": "ERO",
-        "name": "Ero Copper Corp.",
-        "pct": -3.76
-      },
-      {
-        "symbol": "ELS",
-        "name": "Equity Lifestyle Properties, Inc.",
-        "pct": -3.68
-      },
-      {
-        "symbol": "FRPT",
-        "name": "Freshpet, Inc.",
-        "pct": -3.6
+        "symbol": "WING",
+        "name": "Wingstop Inc.",
+        "pct": -6.93
       },
       {
         "symbol": "MHO",
         "name": "M/I Homes, Inc.",
-        "pct": -3.33
+        "pct": -5.03
+      },
+      {
+        "symbol": "T",
+        "name": "AT&T Inc.",
+        "pct": -5.03
+      },
+      {
+        "symbol": "CMG",
+        "name": "Chipotle Mexican Grill, Inc.",
+        "pct": -5.01
+      },
+      {
+        "symbol": "ISRG",
+        "name": "Intuitive Surgical, Inc.",
+        "pct": -4.86
+      },
+      {
+        "symbol": "PEGA",
+        "name": "Pegasystems Inc.",
+        "pct": -4.55
+      },
+      {
+        "symbol": "BROS",
+        "name": "Dutch Bros Inc.",
+        "pct": -4.53
+      },
+      {
+        "symbol": "ELS",
+        "name": "Equity Lifestyle Properties, Inc.",
+        "pct": -4.32
+      },
+      {
+        "symbol": "ERO",
+        "name": "Ero Copper Corp.",
+        "pct": -4.29
       }
     ],
     "universe": 1299
