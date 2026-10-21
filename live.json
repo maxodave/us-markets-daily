@@ -1,135 +1,135 @@
 {
-  "updated": "2026-10-21T14:59:13Z",
+  "updated": "2026-10-21T15:17:39Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.33,
-      "last": 7737.1
+      "pct": 0.36,
+      "last": 7739.28
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.86,
-      "last": 29742.55
+      "pct": 0.95,
+      "last": 29769.83
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.02,
-      "last": 52512.75
+      "pct": 0.1,
+      "last": 52554.26
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.03,
-      "last": 49569.63
+      "pct": 0.97,
+      "last": 49540.3
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "SMCI",
-        "name": "Super Micro Computer, Inc.",
-        "pct": 10.96
-      },
-      {
         "symbol": "SPCX",
         "name": "Space Exploration Technologies Corp.",
-        "pct": 9.0
+        "pct": 9.42
+      },
+      {
+        "symbol": "SMCI",
+        "name": "Super Micro Computer, Inc.",
+        "pct": 9.4
       },
       {
         "symbol": "GLXY",
         "name": "Galaxy Digital Inc.",
-        "pct": 8.44
+        "pct": 8.12
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 8.41
+        "pct": 8.04
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 7.94
+        "pct": 7.87
       },
       {
         "symbol": "ECHO",
         "name": "EchoStar Corporation",
-        "pct": 7.34
+        "pct": 7.77
       },
       {
-        "symbol": "APLD",
-        "name": "Applied Digital Corporation",
-        "pct": 7.22
+        "symbol": "TNGX",
+        "name": "Tango Therapeutics, Inc.",
+        "pct": 7.64
       },
       {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": 6.68
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "pct": 7.58
       },
       {
         "symbol": "DDOG",
         "name": "Datadog, Inc.",
-        "pct": 6.51
+        "pct": 7.24
       },
       {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": 6.51
+        "symbol": "APLD",
+        "name": "Applied Digital Corporation",
+        "pct": 7.19
       }
     ],
     "losers": [
       {
         "symbol": "RAPP",
         "name": "Rapport Therapeutics, Inc.",
-        "pct": -12.17
+        "pct": -13.11
       },
       {
         "symbol": "WING",
         "name": "Wingstop Inc.",
-        "pct": -6.56
+        "pct": -6.77
       },
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "pct": -5.87
-      },
-      {
-        "symbol": "DY",
-        "name": "Dycom Industries, Inc.",
-        "pct": -4.76
-      },
-      {
-        "symbol": "MHO",
-        "name": "M/I Homes, Inc.",
-        "pct": -4.75
-      },
-      {
-        "symbol": "EAT",
-        "name": "Brinker International, Inc.",
-        "pct": -4.44
-      },
-      {
-        "symbol": "NFLX",
-        "name": "Netflix, Inc.",
-        "pct": -4.39
-      },
-      {
-        "symbol": "DXCM",
-        "name": "DexCom, Inc.",
-        "pct": -4.34
-      },
-      {
-        "symbol": "PEGA",
-        "name": "Pegasystems Inc.",
-        "pct": -4.33
+        "pct": -6.21
       },
       {
         "symbol": "CMG",
         "name": "Chipotle Mexican Grill, Inc.",
-        "pct": -4.32
+        "pct": -4.91
+      },
+      {
+        "symbol": "DY",
+        "name": "Dycom Industries, Inc.",
+        "pct": -4.88
+      },
+      {
+        "symbol": "RCUS",
+        "name": "Arcus Biosciences, Inc.",
+        "pct": -4.88
+      },
+      {
+        "symbol": "DXCM",
+        "name": "DexCom, Inc.",
+        "pct": -4.86
+      },
+      {
+        "symbol": "NFLX",
+        "name": "Netflix, Inc.",
+        "pct": -4.66
+      },
+      {
+        "symbol": "MHO",
+        "name": "M/I Homes, Inc.",
+        "pct": -4.35
+      },
+      {
+        "symbol": "EAT",
+        "name": "Brinker International, Inc.",
+        "pct": -4.17
       }
     ],
     "universe": 1299
