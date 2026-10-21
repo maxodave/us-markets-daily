@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-21T18:37:28Z",
+  "updated": "2026-10-21T18:51:17Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.74,
-      "last": 7768.78
+      "pct": 0.58,
+      "last": 7756.64
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.37,
-      "last": 29893.12
+      "pct": 1.15,
+      "last": 29828.6
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.6,
-      "last": 52815.96
+      "pct": 0.49,
+      "last": 52755.06
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 15.3
-      },
-      {
-        "symbol": "SKYD",
-        "name": "Skydance Corporation",
-        "pct": 10.92
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 10.9
+        "pct": 14.93
       },
       {
         "symbol": "APLD",
         "name": "Applied Digital Corporation",
-        "pct": 10.86
+        "pct": 10.32
       },
       {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 10.33
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": 10.1
       },
       {
         "symbol": "GLXY",
         "name": "Galaxy Digital Inc.",
-        "pct": 10.28
+        "pct": 9.71
+      },
+      {
+        "symbol": "SKYD",
+        "name": "Skydance Corporation",
+        "pct": 9.65
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 9.16
       },
       {
         "symbol": "CRL",
         "name": "Charles River Laboratories International, In",
-        "pct": 9.35
+        "pct": 9.05
       },
       {
         "symbol": "LIFE",
         "name": "Ethos Technologies Inc.",
-        "pct": 8.86
+        "pct": 8.91
       },
       {
         "symbol": "SMCI",
         "name": "Super Micro Computer, Inc.",
-        "pct": 8.85
+        "pct": 8.72
       },
       {
-        "symbol": "MSTR",
-        "name": "Strategy Inc",
-        "pct": 8.47
+        "symbol": "WFRD",
+        "name": "Weatherford International plc",
+        "pct": 8.68
       }
     ],
     "losers": [
       {
         "symbol": "RCUS",
         "name": "Arcus Biosciences, Inc.",
-        "pct": -18.42
+        "pct": -18.15
       },
       {
         "symbol": "RAPP",
         "name": "Rapport Therapeutics, Inc.",
-        "pct": -11.27
-      },
-      {
-        "symbol": "TDS",
-        "name": "Telephone and Data Systems, Inc.",
-        "pct": -8.37
-      },
-      {
-        "symbol": "LAD",
-        "name": "Lithia Motors, Inc.",
-        "pct": -7.14
+        "pct": -12.84
       },
       {
         "symbol": "WING",
         "name": "Wingstop Inc.",
-        "pct": -6.98
+        "pct": -7.68
       },
       {
-        "symbol": "CLMT",
-        "name": "Calumet, Inc",
-        "pct": -6.64
+        "symbol": "LAD",
+        "name": "Lithia Motors, Inc.",
+        "pct": -7.52
+      },
+      {
+        "symbol": "TDS",
+        "name": "Telephone and Data Systems, Inc.",
+        "pct": -6.72
       },
       {
         "symbol": "MHO",
         "name": "M/I Homes, Inc.",
-        "pct": -6.04
+        "pct": -6.61
+      },
+      {
+        "symbol": "CLMT",
+        "name": "Calumet, Inc",
+        "pct": -6.05
       },
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "pct": -5.87
-      },
-      {
-        "symbol": "BH",
-        "name": "Biglari Holdings Inc.",
-        "pct": -5.4
+        "pct": -6.0
       },
       {
         "symbol": "LRN",
         "name": "Stride, Inc.",
-        "pct": -5.31
+        "pct": -5.79
+      },
+      {
+        "symbol": "DY",
+        "name": "Dycom Industries, Inc.",
+        "pct": -5.7
       }
     ],
     "universe": 1299
