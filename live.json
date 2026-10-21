@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-21T15:17:39Z",
+  "updated": "2026-10-21T15:34:50Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.36,
-      "last": 7739.28
+      "pct": 0.45,
+      "last": 7746.16
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.95,
-      "last": 29769.83
+      "pct": 1.07,
+      "last": 29804.72
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.1,
-      "last": 52554.26
+      "pct": 0.22,
+      "last": 52617.29
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.97,
-      "last": 49540.3
+      "pct": 1.04,
+      "last": 49578.33
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "SPCX",
         "name": "Space Exploration Technologies Corp.",
-        "pct": 9.42
+        "pct": 9.89
       },
       {
         "symbol": "SMCI",
         "name": "Super Micro Computer, Inc.",
-        "pct": 9.4
-      },
-      {
-        "symbol": "GLXY",
-        "name": "Galaxy Digital Inc.",
-        "pct": 8.12
+        "pct": 9.07
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 8.04
+        "pct": 8.73
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": 7.87
-      },
-      {
-        "symbol": "ECHO",
-        "name": "EchoStar Corporation",
-        "pct": 7.77
-      },
-      {
-        "symbol": "TNGX",
-        "name": "Tango Therapeutics, Inc.",
-        "pct": 7.64
+        "pct": 8.57
       },
       {
         "symbol": "TXG",
         "name": "10x Genomics, Inc.",
-        "pct": 7.58
+        "pct": 8.28
       },
       {
-        "symbol": "DDOG",
-        "name": "Datadog, Inc.",
-        "pct": 7.24
+        "symbol": "ECHO",
+        "name": "EchoStar Corporation",
+        "pct": 7.88
+      },
+      {
+        "symbol": "MSTR",
+        "name": "Strategy Inc",
+        "pct": 7.78
+      },
+      {
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": 7.38
       },
       {
         "symbol": "APLD",
         "name": "Applied Digital Corporation",
-        "pct": 7.19
+        "pct": 7.22
+      },
+      {
+        "symbol": "DDOG",
+        "name": "Datadog, Inc.",
+        "pct": 7.14
       }
     ],
     "losers": [
       {
         "symbol": "RAPP",
         "name": "Rapport Therapeutics, Inc.",
-        "pct": -13.11
-      },
-      {
-        "symbol": "WING",
-        "name": "Wingstop Inc.",
-        "pct": -6.77
+        "pct": -9.01
       },
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "pct": -6.21
-      },
-      {
-        "symbol": "CMG",
-        "name": "Chipotle Mexican Grill, Inc.",
-        "pct": -4.91
-      },
-      {
-        "symbol": "DY",
-        "name": "Dycom Industries, Inc.",
-        "pct": -4.88
+        "pct": -6.43
       },
       {
         "symbol": "RCUS",
         "name": "Arcus Biosciences, Inc.",
-        "pct": -4.88
+        "pct": -6.27
+      },
+      {
+        "symbol": "WING",
+        "name": "Wingstop Inc.",
+        "pct": -6.06
       },
       {
         "symbol": "DXCM",
         "name": "DexCom, Inc.",
-        "pct": -4.86
+        "pct": -5.84
+      },
+      {
+        "symbol": "TDS",
+        "name": "Telephone and Data Systems, Inc.",
+        "pct": -4.84
+      },
+      {
+        "symbol": "DY",
+        "name": "Dycom Industries, Inc.",
+        "pct": -4.69
       },
       {
         "symbol": "NFLX",
         "name": "Netflix, Inc.",
-        "pct": -4.66
+        "pct": -4.67
+      },
+      {
+        "symbol": "CMG",
+        "name": "Chipotle Mexican Grill, Inc.",
+        "pct": -4.54
       },
       {
         "symbol": "MHO",
         "name": "M/I Homes, Inc.",
-        "pct": -4.35
-      },
-      {
-        "symbol": "EAT",
-        "name": "Brinker International, Inc.",
-        "pct": -4.17
+        "pct": -4.28
       }
     ],
     "universe": 1299
