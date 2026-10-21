@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-21T17:46:25Z",
+  "updated": "2026-10-21T17:56:02Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.69,
-      "last": 7764.72
+      "pct": 0.71,
+      "last": 7766.47
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
       "pct": 1.3,
-      "last": 29872.25
+      "last": 29874.67
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.5,
-      "last": 52764.77
+      "pct": 0.55,
+      "last": 52786.29
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 12.31
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 10.21
-      },
-      {
-        "symbol": "GLXY",
-        "name": "Galaxy Digital Inc.",
-        "pct": 9.96
+        "pct": 13.19
       },
       {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": 9.53
+        "pct": 10.19
       },
       {
-        "symbol": "SMCI",
-        "name": "Super Micro Computer, Inc.",
-        "pct": 9.41
+        "symbol": "GLXY",
+        "name": "Galaxy Digital Inc.",
+        "pct": 10.15
+      },
+      {
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": 9.91
       },
       {
         "symbol": "APLD",
         "name": "Applied Digital Corporation",
-        "pct": 9.23
+        "pct": 9.7
       },
       {
-        "symbol": "WFRD",
-        "name": "Weatherford International plc",
-        "pct": 8.6
+        "symbol": "SMCI",
+        "name": "Super Micro Computer, Inc.",
+        "pct": 9.45
       },
       {
         "symbol": "MSTR",
         "name": "Strategy Inc",
-        "pct": 8.16
+        "pct": 8.54
       },
       {
-        "symbol": "CRL",
-        "name": "Charles River Laboratories International, In",
-        "pct": 8.03
+        "symbol": "WFRD",
+        "name": "Weatherford International plc",
+        "pct": 8.32
       },
       {
-        "symbol": "DDOG",
-        "name": "Datadog, Inc.",
-        "pct": 7.93
+        "symbol": "NTSK",
+        "name": "Netskope, Inc.",
+        "pct": 8.32
+      },
+      {
+        "symbol": "WULF",
+        "name": "TeraWulf Inc.",
+        "pct": 8.24
       }
     ],
     "losers": [
       {
         "symbol": "RCUS",
         "name": "Arcus Biosciences, Inc.",
-        "pct": -13.43
+        "pct": -15.03
       },
       {
         "symbol": "RAPP",
         "name": "Rapport Therapeutics, Inc.",
-        "pct": -10.83
+        "pct": -11.17
       },
       {
         "symbol": "TDS",
         "name": "Telephone and Data Systems, Inc.",
-        "pct": -9.42
+        "pct": -9.1
       },
       {
         "symbol": "WING",
         "name": "Wingstop Inc.",
-        "pct": -7.14
-      },
-      {
-        "symbol": "T",
-        "name": "AT&T Inc.",
-        "pct": -6.43
+        "pct": -7.44
       },
       {
         "symbol": "LAD",
         "name": "Lithia Motors, Inc.",
-        "pct": -6.13
+        "pct": -6.5
+      },
+      {
+        "symbol": "T",
+        "name": "AT&T Inc.",
+        "pct": -6.02
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -5.86
-      },
-      {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "pct": -5.78
+        "pct": -5.92
       },
       {
         "symbol": "CLMT",
         "name": "Calumet, Inc",
-        "pct": -5.76
+        "pct": -5.78
       },
       {
         "symbol": "DXCM",
         "name": "DexCom, Inc.",
-        "pct": -5.55
+        "pct": -5.53
+      },
+      {
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "pct": -5.44
       }
     ],
     "universe": 1299
