@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-21T15:34:50Z",
+  "updated": "2026-10-21T16:09:10Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.45,
-      "last": 7746.16
+      "pct": 0.48,
+      "last": 7748.87
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.07,
-      "last": 29804.72
+      "pct": 1.15,
+      "last": 29830.45
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.22,
-      "last": 52617.29
+      "pct": 0.23,
+      "last": 52621.04
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.04,
-      "last": 49578.33
+      "pct": 1.18,
+      "last": 49643.69
     }
   ],
   "movers": {
@@ -32,59 +32,69 @@
       {
         "symbol": "SPCX",
         "name": "Space Exploration Technologies Corp.",
-        "pct": 9.89
-      },
-      {
-        "symbol": "SMCI",
-        "name": "Super Micro Computer, Inc.",
-        "pct": 9.07
+        "pct": 10.24
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 8.73
+        "pct": 9.52
       },
       {
-        "symbol": "MANE",
-        "name": "Veradermics, Incorporated",
-        "pct": 8.57
+        "symbol": "SMCI",
+        "name": "Super Micro Computer, Inc.",
+        "pct": 9.45
       },
       {
-        "symbol": "TXG",
-        "name": "10x Genomics, Inc.",
-        "pct": 8.28
+        "symbol": "ASST",
+        "name": "Strive, Inc.",
+        "pct": 8.92
       },
       {
         "symbol": "ECHO",
         "name": "EchoStar Corporation",
-        "pct": 7.88
+        "pct": 8.06
+      },
+      {
+        "symbol": "GLXY",
+        "name": "Galaxy Digital Inc.",
+        "pct": 8.01
+      },
+      {
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "pct": 7.79
+      },
+      {
+        "symbol": "EQPT",
+        "name": "EquipmentShare.com Inc",
+        "pct": 7.76
       },
       {
         "symbol": "MSTR",
         "name": "Strategy Inc",
-        "pct": 7.78
+        "pct": 7.51
       },
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": 7.38
-      },
-      {
-        "symbol": "APLD",
-        "name": "Applied Digital Corporation",
-        "pct": 7.22
-      },
-      {
-        "symbol": "DDOG",
-        "name": "Datadog, Inc.",
-        "pct": 7.14
+        "symbol": "ICLR",
+        "name": "ICON plc",
+        "pct": 7.45
       }
     ],
     "losers": [
       {
         "symbol": "RAPP",
         "name": "Rapport Therapeutics, Inc.",
-        "pct": -9.01
+        "pct": -11.08
+      },
+      {
+        "symbol": "RCUS",
+        "name": "Arcus Biosciences, Inc.",
+        "pct": -9.39
+      },
+      {
+        "symbol": "WING",
+        "name": "Wingstop Inc.",
+        "pct": -6.62
       },
       {
         "symbol": "T",
@@ -92,44 +102,34 @@
         "pct": -6.43
       },
       {
-        "symbol": "RCUS",
-        "name": "Arcus Biosciences, Inc.",
-        "pct": -6.27
-      },
-      {
-        "symbol": "WING",
-        "name": "Wingstop Inc.",
-        "pct": -6.06
-      },
-      {
         "symbol": "DXCM",
         "name": "DexCom, Inc.",
-        "pct": -5.84
+        "pct": -6.23
       },
       {
         "symbol": "TDS",
         "name": "Telephone and Data Systems, Inc.",
-        "pct": -4.84
+        "pct": -5.9
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -4.69
+        "pct": -4.96
       },
       {
         "symbol": "NFLX",
         "name": "Netflix, Inc.",
-        "pct": -4.67
-      },
-      {
-        "symbol": "CMG",
-        "name": "Chipotle Mexican Grill, Inc.",
-        "pct": -4.54
+        "pct": -4.91
       },
       {
         "symbol": "MHO",
         "name": "M/I Homes, Inc.",
-        "pct": -4.28
+        "pct": -4.63
+      },
+      {
+        "symbol": "KNSA",
+        "name": "Kiniksa Pharmaceuticals International, plc",
+        "pct": -4.56
       }
     ],
     "universe": 1299
