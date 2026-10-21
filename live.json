@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-21T19:57:33Z",
-  "market_open": true,
+  "updated": "2026-10-21T20:19:01Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.63,
-      "last": 7760.45
+      "pct": 0.58,
+      "last": 7757.17
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.2,
-      "last": 29843.09
+      "pct": 1.13,
+      "last": 29822.52
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.65,
-      "last": 52840.53
+      "pct": 0.69,
+      "last": 52856.09
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": 13.91
+        "pct": 13.64
       },
       {
         "symbol": "SKYD",
         "name": "Skydance Corporation",
-        "pct": 11.06
+        "pct": 10.85
       },
       {
         "symbol": "NTSK",
         "name": "Netskope, Inc.",
-        "pct": 10.54
-      },
-      {
-        "symbol": "CRL",
-        "name": "Charles River Laboratories International, In",
-        "pct": 9.7
+        "pct": 10.04
       },
       {
         "symbol": "SMCI",
         "name": "Super Micro Computer, Inc.",
-        "pct": 9.52
+        "pct": 9.55
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 9.19
+        "pct": 9.52
+      },
+      {
+        "symbol": "CRL",
+        "name": "Charles River Laboratories International, In",
+        "pct": 9.33
       },
       {
         "symbol": "APLD",
         "name": "Applied Digital Corporation",
-        "pct": 8.79
+        "pct": 8.54
       },
       {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": 8.58
+        "pct": 8.32
+      },
+      {
+        "symbol": "EQPT",
+        "name": "EquipmentShare.com Inc",
+        "pct": 8.01
       },
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "pct": 8.04
-      },
-      {
-        "symbol": "SPCX",
-        "name": "Space Exploration Technologies Corp.",
-        "pct": 8.02
+        "pct": 7.84
       }
     ],
     "losers": [
       {
         "symbol": "RCUS",
         "name": "Arcus Biosciences, Inc.",
-        "pct": -19.37
+        "pct": -19.58
       },
       {
         "symbol": "RAPP",
         "name": "Rapport Therapeutics, Inc.",
-        "pct": -15.02
+        "pct": -14.67
       },
       {
         "symbol": "LAD",
         "name": "Lithia Motors, Inc.",
-        "pct": -9.38
-      },
-      {
-        "symbol": "WING",
-        "name": "Wingstop Inc.",
-        "pct": -8.03
+        "pct": -10.15
       },
       {
         "symbol": "MHO",
         "name": "M/I Homes, Inc.",
-        "pct": -7.87
+        "pct": -8.08
       },
       {
-        "symbol": "DXCM",
-        "name": "DexCom, Inc.",
-        "pct": -6.47
-      },
-      {
-        "symbol": "BH",
-        "name": "Biglari Holdings Inc.",
-        "pct": -6.12
+        "symbol": "WING",
+        "name": "Wingstop Inc.",
+        "pct": -7.95
       },
       {
         "symbol": "T",
         "name": "AT&T Inc.",
-        "pct": -6.11
+        "pct": -6.45
       },
       {
-        "symbol": "DY",
-        "name": "Dycom Industries, Inc.",
-        "pct": -5.97
+        "symbol": "DXCM",
+        "name": "DexCom, Inc.",
+        "pct": -6.39
+      },
+      {
+        "symbol": "BH",
+        "name": "Biglari Holdings Inc.",
+        "pct": -6.31
       },
       {
         "symbol": "CLMT",
         "name": "Calumet, Inc",
-        "pct": -5.91
+        "pct": -6.17
+      },
+      {
+        "symbol": "DY",
+        "name": "Dycom Industries, Inc.",
+        "pct": -5.77
       }
     ],
     "universe": 1299
