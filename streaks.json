@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-21T00:08:42Z",
-  "session_date": "2026-10-19",
+  "updated": "2026-10-22T00:13:51Z",
+  "session_date": "2026-10-20",
   "universe": 558,
   "up": {
-    "count": 194,
+    "count": 434,
     "by_length": {
-      "1": 133,
-      "2": 13,
-      "3": 22,
-      "4": 11,
-      "5": 4,
-      "6": 5,
-      "7": 1,
-      "8+": 5
+      "1": 299,
+      "2": 88,
+      "3": 7,
+      "4": 20,
+      "5": 7,
+      "6": 4,
+      "7": 5,
+      "8+": 4
     },
     "top": [
       {
@@ -21,17 +21,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 11,
-        "cum_pct": 13.25
-      },
-      {
-        "symbol": "ENI.MI",
-        "name": "Eni",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 9,
-        "cum_pct": 8.29
+        "days": 12,
+        "cum_pct": 13.82
       },
       {
         "symbol": "MCK",
@@ -39,8 +30,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 8,
-        "cum_pct": 11.0
+        "days": 9,
+        "cum_pct": 13.16
       },
       {
         "symbol": "MAR",
@@ -49,8 +40,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 8,
-        "cum_pct": 9.59
+        "days": 9,
+        "cum_pct": 11.45
       },
       {
         "symbol": "SRG.MI",
@@ -58,18 +49,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": 8,
-        "cum_pct": 4.51
-      },
-      {
-        "symbol": "LIN",
-        "name": "Linde plc",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 7,
-        "cum_pct": 4.51
+        "days": 9,
+        "cum_pct": 5.34
       },
       {
         "symbol": "CTSH",
@@ -77,35 +58,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 6,
-        "cum_pct": 12.82
-      },
-      {
-        "symbol": "IFF",
-        "name": "International Flavors & Fragrances",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 7.58
-      },
-      {
-        "symbol": "MRSH",
-        "name": "Marsh McLennan",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 7.25
-      },
-      {
-        "symbol": "EG",
-        "name": "Everest Group",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 6.0
+        "days": 7,
+        "cum_pct": 15.17
       },
       {
         "symbol": "ROP",
@@ -114,17 +68,35 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 6,
-        "cum_pct": 5.33
+        "days": 7,
+        "cum_pct": 9.37
       },
       {
-        "symbol": "SWKS",
-        "name": "Skyworks Solutions",
+        "symbol": "MRSH",
+        "name": "Marsh McLennan",
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 7.4
+        "days": 7,
+        "cum_pct": 8.82
+      },
+      {
+        "symbol": "IFF",
+        "name": "International Flavors & Fragrances",
+        "indices": [
+          "sp500"
+        ],
+        "days": 7,
+        "cum_pct": 7.88
+      },
+      {
+        "symbol": "EG",
+        "name": "Everest Group",
+        "indices": [
+          "sp500"
+        ],
+        "days": 7,
+        "cum_pct": 6.74
       },
       {
         "symbol": "DOW",
@@ -132,8 +104,17 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 6.97
+        "days": 6,
+        "cum_pct": 9.14
+      },
+      {
+        "symbol": "SWKS",
+        "name": "Skyworks Solutions",
+        "indices": [
+          "sp500"
+        ],
+        "days": 6,
+        "cum_pct": 8.84
       },
       {
         "symbol": "HD",
@@ -142,8 +123,8 @@
           "sp500",
           "dow"
         ],
-        "days": 5,
-        "cum_pct": 6.63
+        "days": 6,
+        "cum_pct": 8.43
       },
       {
         "symbol": "AMCR",
@@ -151,20 +132,40 @@
         "indices": [
           "sp500"
         ],
+        "days": 6,
+        "cum_pct": 7.58
+      },
+      {
+        "symbol": "ACN",
+        "name": "Accenture",
+        "indices": [
+          "sp500"
+        ],
         "days": 5,
-        "cum_pct": 5.7
+        "cum_pct": 11.97
+      },
+      {
+        "symbol": "MNST",
+        "name": "Monster Beverage",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 8.61
       }
     ]
   },
   "down": {
-    "count": 359,
+    "count": 124,
     "by_length": {
-      "1": 221,
-      "2": 113,
-      "3": 6,
-      "4": 9,
-      "5": 2,
-      "6": 7,
+      "1": 58,
+      "2": 38,
+      "3": 11,
+      "4": 4,
+      "5": 5,
+      "6": 1,
+      "7": 6,
       "8+": 1
     },
     "top": [
@@ -174,8 +175,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -10,
-        "cum_pct": -18.74
+        "days": -11,
+        "cum_pct": -19.74
       },
       {
         "symbol": "FLEX",
@@ -183,17 +184,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -26.95
-      },
-      {
-        "symbol": "PRY.MI",
-        "name": "Prysmian",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -6,
-        "cum_pct": -13.07
+        "days": -7,
+        "cum_pct": -26.99
       },
       {
         "symbol": "PWR",
@@ -201,8 +193,17 @@
         "indices": [
           "sp500"
         ],
-        "days": -6,
-        "cum_pct": -12.4
+        "days": -7,
+        "cum_pct": -15.57
+      },
+      {
+        "symbol": "PRY.MI",
+        "name": "Prysmian",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -7,
+        "cum_pct": -15.34
       },
       {
         "symbol": "SNPS",
@@ -211,19 +212,17 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -6,
-        "cum_pct": -10.86
+        "days": -7,
+        "cum_pct": -12.23
       },
       {
-        "symbol": "CSCO",
-        "name": "Cisco",
+        "symbol": "EME",
+        "name": "Emcor",
         "indices": [
-          "sp500",
-          "dow",
-          "nasdaq100"
+          "sp500"
         ],
-        "days": -6,
-        "cum_pct": -10.04
+        "days": -7,
+        "cum_pct": -11.02
       },
       {
         "symbol": "CAT",
@@ -232,17 +231,8 @@
           "sp500",
           "dow"
         ],
-        "days": -6,
-        "cum_pct": -9.33
-      },
-      {
-        "symbol": "EME",
-        "name": "Emcor",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -9.2
+        "days": -7,
+        "cum_pct": -9.4
       },
       {
         "symbol": "BAMI.MI",
@@ -250,17 +240,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -5,
-        "cum_pct": -10.6
-      },
-      {
-        "symbol": "IR",
-        "name": "Ingersoll Rand",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -1.69
+        "days": -6,
+        "cum_pct": -11.84
       },
       {
         "symbol": "COHR",
@@ -268,8 +249,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -19.99
+        "days": -5,
+        "cum_pct": -20.06
       },
       {
         "symbol": "CEG",
@@ -278,8 +259,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -4,
-        "cum_pct": -11.02
+        "days": -5,
+        "cum_pct": -12.49
       },
       {
         "symbol": "GEV",
@@ -287,17 +268,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -9.52
-      },
-      {
-        "symbol": "FSLR",
-        "name": "First Solar",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -7.93
+        "days": -5,
+        "cum_pct": -11.33
       },
       {
         "symbol": "META",
@@ -306,12 +278,39 @@
           "sp500",
           "nasdaq100"
         ],
+        "days": -5,
+        "cum_pct": -8.95
+      },
+      {
+        "symbol": "MOS",
+        "name": "Mosaic Company (The)",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -6.88
+      },
+      {
+        "symbol": "BG",
+        "name": "Bunge Global",
+        "indices": [
+          "sp500"
+        ],
         "days": -4,
-        "cum_pct": -7.48
+        "cum_pct": -5.43
+      },
+      {
+        "symbol": "MONC.MI",
+        "name": "Moncler",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -4,
+        "cum_pct": -5.04
       }
     ]
   },
   "flat": {
-    "count": 5
+    "count": 0
   }
 }
