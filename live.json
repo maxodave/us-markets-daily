@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-22T15:03:31Z",
+  "updated": "2026-10-22T15:21:32Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.35,
-      "last": 7652.7
+      "pct": -1.17,
+      "last": 7666.77
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.4,
-      "last": 29099.63
+      "pct": -2.23,
+      "last": 29150.24
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.43,
-      "last": 52625.93
+      "pct": -0.21,
+      "last": 52739.48
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -2.35,
-      "last": 48463.93
+      "pct": -2.34,
+      "last": 48468.86
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "BMI",
         "name": "Badger Meter, Inc.",
-        "pct": 9.88
+        "pct": 11.44
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 8.89
+        "pct": 11.03
       },
       {
         "symbol": "ALLE",
         "name": "Allegion plc",
-        "pct": 8.85
+        "pct": 9.77
       },
       {
         "symbol": "POOL",
         "name": "Pool Corporation",
-        "pct": 8.61
+        "pct": 8.79
       },
       {
         "symbol": "SPOT",
         "name": "Spotify Technology S.A.",
-        "pct": 8.31
+        "pct": 8.77
       },
       {
         "symbol": "WCN",
         "name": "Waste Connections, Inc.",
-        "pct": 8.03
+        "pct": 8.28
+      },
+      {
+        "symbol": "RAPP",
+        "name": "Rapport Therapeutics, Inc.",
+        "pct": 7.74
+      },
+      {
+        "symbol": "LEN",
+        "name": "Lennar Corporation",
+        "pct": 7.34
       },
       {
         "symbol": "CSGP",
         "name": "CoStar Group, Inc.",
-        "pct": 7.05
+        "pct": 7.29
       },
       {
         "symbol": "QXO",
         "name": "QXO, Inc.",
-        "pct": 6.84
-      },
-      {
-        "symbol": "CSX",
-        "name": "CSX Corporation",
-        "pct": 6.77
-      },
-      {
-        "symbol": "RKT",
-        "name": "Rocket Companies, Inc.",
-        "pct": 6.48
+        "pct": 6.98
       }
     ],
     "losers": [
       {
         "symbol": "TTMI",
         "name": "TTM Technologies, Inc.",
-        "pct": -26.53
+        "pct": -26.39
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": -23.4
+        "pct": -23.16
       },
       {
         "symbol": "KALU",
         "name": "Kaiser Aluminum Corporation",
-        "pct": -21.62
+        "pct": -20.95
       },
       {
         "symbol": "CRS",
         "name": "Carpenter Technology Corporation",
-        "pct": -20.76
+        "pct": -20.73
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -15.76
+        "pct": -15.5
       },
       {
         "symbol": "FCFS",
         "name": "FirstCash Holdings, Inc.",
-        "pct": -15.02
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": -14.49
+        "pct": -15.25
       },
       {
         "symbol": "COHU",
         "name": "Cohu, Inc.",
-        "pct": -14.36
+        "pct": -14.11
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": -13.92
       },
       {
         "symbol": "GGG",
         "name": "Graco Inc.",
-        "pct": -13.86
+        "pct": -13.76
       },
       {
         "symbol": "VIAV",
         "name": "Viavi Solutions Inc.",
-        "pct": -13.79
+        "pct": -13.48
       }
     ],
     "universe": 1284
