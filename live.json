@@ -1,68 +1,63 @@
 {
-  "updated": "2026-10-22T14:21:15Z",
+  "updated": "2026-10-22T14:42:31Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.01,
-      "last": 7679.03
+      "pct": -1.38,
+      "last": 7650.49
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.87,
-      "last": 29259.36
+      "pct": -2.33,
+      "last": 29121.1
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.21,
-      "last": 52742.61
+      "pct": -0.61,
+      "last": 52528.95
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.63,
-      "last": 48817.65
+      "pct": -1.91,
+      "last": 48678.52
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "RAPP",
-        "name": "Rapport Therapeutics, Inc.",
-        "pct": 10.93
-      },
-      {
         "symbol": "BMI",
         "name": "Badger Meter, Inc.",
-        "pct": 9.97
+        "pct": 10.42
       },
       {
         "symbol": "POOL",
         "name": "Pool Corporation",
-        "pct": 8.98
-      },
-      {
-        "symbol": "SPOT",
-        "name": "Spotify Technology S.A.",
-        "pct": 8.87
-      },
-      {
-        "symbol": "R",
-        "name": "Ryder System, Inc.",
-        "pct": 8.04
+        "pct": 8.06
       },
       {
         "symbol": "ALLE",
         "name": "Allegion plc",
-        "pct": 7.73
+        "pct": 7.93
+      },
+      {
+        "symbol": "SPOT",
+        "name": "Spotify Technology S.A.",
+        "pct": 7.65
       },
       {
         "symbol": "WCN",
         "name": "Waste Connections, Inc.",
-        "pct": 7.19
+        "pct": 7.65
+      },
+      {
+        "symbol": "RAPP",
+        "name": "Rapport Therapeutics, Inc.",
+        "pct": 7.46
       },
       {
         "symbol": "KSS",
@@ -70,66 +65,71 @@
         "pct": 7.15
       },
       {
-        "symbol": "AVEX",
-        "name": "AEVEX Corp.",
-        "pct": 7.02
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": 6.61
       },
       {
         "symbol": "LMT",
         "name": "Lockheed Martin Corporation",
-        "pct": 6.89
+        "pct": 6.6
+      },
+      {
+        "symbol": "CELC",
+        "name": "Celcuity Inc.",
+        "pct": 6.34
       }
     ],
     "losers": [
       {
         "symbol": "TTMI",
         "name": "TTM Technologies, Inc.",
-        "pct": -24.0
-      },
-      {
-        "symbol": "CRS",
-        "name": "Carpenter Technology Corporation",
-        "pct": -20.5
+        "pct": -25.69
       },
       {
         "symbol": "KALU",
         "name": "Kaiser Aluminum Corporation",
-        "pct": -20.46
+        "pct": -22.44
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": -18.56
+        "pct": -20.47
+      },
+      {
+        "symbol": "CRS",
+        "name": "Carpenter Technology Corporation",
+        "pct": -19.43
       },
       {
         "symbol": "FCFS",
         "name": "FirstCash Holdings, Inc.",
-        "pct": -15.32
-      },
-      {
-        "symbol": "GGG",
-        "name": "Graco Inc.",
-        "pct": -13.03
+        "pct": -15.0
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -12.45
-      },
-      {
-        "symbol": "HXL",
-        "name": "Hexcel Corporation",
-        "pct": -11.88
+        "pct": -13.89
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -11.72
+        "pct": -13.85
       },
       {
-        "symbol": "VIAV",
-        "name": "Viavi Solutions Inc.",
-        "pct": -11.54
+        "symbol": "GGG",
+        "name": "Graco Inc.",
+        "pct": -13.63
+      },
+      {
+        "symbol": "MTRN",
+        "name": "Materion Corporation",
+        "pct": -11.97
+      },
+      {
+        "symbol": "HXL",
+        "name": "Hexcel Corporation",
+        "pct": -11.8
       }
     ],
     "universe": 1284
