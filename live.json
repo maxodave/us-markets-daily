@@ -1,135 +1,135 @@
 {
-  "updated": "2026-10-22T15:38:21Z",
+  "updated": "2026-10-22T15:53:08Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.24,
-      "last": 7660.92
+      "pct": -1.16,
+      "last": 7666.86
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.34,
-      "last": 29119.08
+      "pct": -2.28,
+      "last": 29135.36
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.22,
-      "last": 52737.17
+      "pct": -0.14,
+      "last": 52777.08
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -2.41,
-      "last": 48434.57
+      "pct": -2.51,
+      "last": 48383.66
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "BMI",
-        "name": "Badger Meter, Inc.",
-        "pct": 12.14
-      },
-      {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 12.05
+        "pct": 12.5
       },
       {
-        "symbol": "ALLE",
-        "name": "Allegion plc",
-        "pct": 9.7
-      },
-      {
-        "symbol": "POOL",
-        "name": "Pool Corporation",
-        "pct": 9.05
-      },
-      {
-        "symbol": "SPOT",
-        "name": "Spotify Technology S.A.",
-        "pct": 8.62
-      },
-      {
-        "symbol": "WCN",
-        "name": "Waste Connections, Inc.",
-        "pct": 8.54
-      },
-      {
-        "symbol": "MNDY",
-        "name": "monday.com Ltd.",
-        "pct": 7.94
+        "symbol": "BMI",
+        "name": "Badger Meter, Inc.",
+        "pct": 11.85
       },
       {
         "symbol": "Z",
         "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 7.75
+        "pct": 10.14
+      },
+      {
+        "symbol": "ALLE",
+        "name": "Allegion plc",
+        "pct": 9.98
+      },
+      {
+        "symbol": "MNDY",
+        "name": "monday.com Ltd.",
+        "pct": 9.58
+      },
+      {
+        "symbol": "POOL",
+        "name": "Pool Corporation",
+        "pct": 9.31
+      },
+      {
+        "symbol": "SPOT",
+        "name": "Spotify Technology S.A.",
+        "pct": 9.15
+      },
+      {
+        "symbol": "WCN",
+        "name": "Waste Connections, Inc.",
+        "pct": 8.97
       },
       {
         "symbol": "CSGP",
         "name": "CoStar Group, Inc.",
-        "pct": 7.61
+        "pct": 8.18
       },
       {
         "symbol": "CELC",
         "name": "Celcuity Inc.",
-        "pct": 7.4
+        "pct": 8.02
       }
     ],
     "losers": [
       {
         "symbol": "TTMI",
         "name": "TTM Technologies, Inc.",
-        "pct": -27.68
+        "pct": -27.15
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": -24.18
-      },
-      {
-        "symbol": "CRS",
-        "name": "Carpenter Technology Corporation",
-        "pct": -21.87
+        "pct": -23.99
       },
       {
         "symbol": "KALU",
         "name": "Kaiser Aluminum Corporation",
-        "pct": -21.68
+        "pct": -22.04
+      },
+      {
+        "symbol": "CRS",
+        "name": "Carpenter Technology Corporation",
+        "pct": -21.88
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -16.36
-      },
-      {
-        "symbol": "VIAV",
-        "name": "Viavi Solutions Inc.",
-        "pct": -14.35
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": -14.16
+        "pct": -15.34
       },
       {
         "symbol": "COHU",
         "name": "Cohu, Inc.",
-        "pct": -14.11
+        "pct": -14.98
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -13.81
+        "pct": -14.55
+      },
+      {
+        "symbol": "GGG",
+        "name": "Graco Inc.",
+        "pct": -14.25
       },
       {
         "symbol": "FCFS",
         "name": "FirstCash Holdings, Inc.",
-        "pct": -13.67
+        "pct": -13.94
+      },
+      {
+        "symbol": "VIAV",
+        "name": "Viavi Solutions Inc.",
+        "pct": -13.86
       }
     ],
     "universe": 1284
