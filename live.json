@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-22T18:40:40Z",
+  "updated": "2026-10-22T18:57:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.46,
-      "last": 7643.89
+      "pct": -1.43,
+      "last": 7645.96
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
       "pct": -3.01,
-      "last": 28918.52
+      "last": 28919.35
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.21,
-      "last": 52741.82
+      "pct": -0.2,
+      "last": 52746.28
     },
     {
       "key": "ftsemib",
@@ -32,12 +32,17 @@
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 11.01
+        "pct": 12.05
       },
       {
         "symbol": "POOL",
         "name": "Pool Corporation",
-        "pct": 10.8
+        "pct": 10.83
+      },
+      {
+        "symbol": "BMI",
+        "name": "Badger Meter, Inc.",
+        "pct": 10.65
       },
       {
         "symbol": "WCN",
@@ -47,89 +52,84 @@
       {
         "symbol": "SPOT",
         "name": "Spotify Technology S.A.",
-        "pct": 10.47
-      },
-      {
-        "symbol": "BMI",
-        "name": "Badger Meter, Inc.",
-        "pct": 10.23
-      },
-      {
-        "symbol": "AVEX",
-        "name": "AEVEX Corp.",
-        "pct": 10.12
-      },
-      {
-        "symbol": "ALLE",
-        "name": "Allegion plc",
-        "pct": 9.65
-      },
-      {
-        "symbol": "Z",
-        "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 9.58
+        "pct": 10.36
       },
       {
         "symbol": "ROP",
         "name": "Roper Technologies, Inc.",
-        "pct": 8.88
+        "pct": 9.64
+      },
+      {
+        "symbol": "ALLE",
+        "name": "Allegion plc",
+        "pct": 9.35
+      },
+      {
+        "symbol": "Z",
+        "name": "Zillow Group, Inc. - Class C Capital Stock",
+        "pct": 9.18
       },
       {
         "symbol": "AMN",
         "name": "AMN Healthcare Services Inc",
-        "pct": 8.64
+        "pct": 9.14
+      },
+      {
+        "symbol": "AVEX",
+        "name": "AEVEX Corp.",
+        "pct": 8.99
       }
     ],
     "losers": [
       {
         "symbol": "TTMI",
         "name": "TTM Technologies, Inc.",
-        "pct": -28.51
+        "pct": -28.38
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": -25.76
-      },
-      {
-        "symbol": "KALU",
-        "name": "Kaiser Aluminum Corporation",
-        "pct": -24.02
+        "pct": -26.02
       },
       {
         "symbol": "MRNA",
         "name": "Moderna, Inc.",
-        "pct": -23.97
+        "pct": -24.68
+      },
+      {
+        "symbol": "KALU",
+        "name": "Kaiser Aluminum Corporation",
+        "pct": -23.15
       },
       {
         "symbol": "CRS",
         "name": "Carpenter Technology Corporation",
-        "pct": -21.35
+        "pct": -20.55
       },
       {
         "symbol": "COHU",
         "name": "Cohu, Inc.",
-        "pct": -16.24
+        "pct": -16.97
+      },
+      {
+        "symbol": "CECO",
+        "name": "CECO Environmental Corp.",
+        "pct": -16.64
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": -16.12
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -15.73
+        "pct": -16.5
       },
       {
         "symbol": "GGG",
         "name": "Graco Inc.",
-        "pct": -15.57
+        "pct": -15.8
       },
       {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -15.38
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": -15.43
       }
     ],
     "universe": 1284
