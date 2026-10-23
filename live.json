@@ -1,135 +1,135 @@
 {
-  "updated": "2026-10-23T15:39:33Z",
+  "updated": "2026-10-23T16:34:13Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.15,
-      "last": 7651.88
+      "pct": -0.21,
+      "last": 7647.37
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.45,
-      "last": 29094.14
+      "pct": 0.41,
+      "last": 29083.02
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.97,
-      "last": 52348.91
+      "pct": -0.96,
+      "last": 52353.53
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.07,
-      "last": 48429.22
+      "pct": 0.34,
+      "last": 48558.86
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "SAIQ",
+        "name": "WISeSat.Space Holdings Corp.",
+        "pct": 20.27
+      },
+      {
         "symbol": "RHI",
         "name": "Robert Half Inc.",
-        "pct": 21.39
+        "pct": 20.12
+      },
+      {
+        "symbol": "THRM",
+        "name": "Gentherm Inc",
+        "pct": 9.73
       },
       {
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
-        "pct": 11.72
-      },
-      {
-        "symbol": "SAIQ",
-        "name": "WISeSat.Space Holdings Corp.",
-        "pct": 11.46
+        "pct": 9.36
       },
       {
         "symbol": "SAIL",
         "name": "SailPoint, Inc.",
-        "pct": 8.8
-      },
-      {
-        "symbol": "RNG",
-        "name": "RingCentral, Inc.",
-        "pct": 8.68
-      },
-      {
-        "symbol": "RITM",
-        "name": "Rithm Capital Corp.",
-        "pct": 8.64
-      },
-      {
-        "symbol": "FCNCA",
-        "name": "First Citizens BancShares, Inc.",
-        "pct": 8.51
-      },
-      {
-        "symbol": "NVEC",
-        "name": "NVE Corporation",
-        "pct": 8.39
+        "pct": 9.22
       },
       {
         "symbol": "NE",
         "name": "Noble Corporation plc A",
-        "pct": 7.58
+        "pct": 8.28
       },
       {
         "symbol": "NTSK",
         "name": "Netskope, Inc.",
-        "pct": 7.39
+        "pct": 8.18
+      },
+      {
+        "symbol": "FCNCA",
+        "name": "First Citizens BancShares, Inc.",
+        "pct": 8.15
+      },
+      {
+        "symbol": "WFRD",
+        "name": "Weatherford International plc",
+        "pct": 8.04
+      },
+      {
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": 7.83
       }
     ],
     "losers": [
       {
         "symbol": "LKQ",
         "name": "LKQ Corporation",
-        "pct": -20.47
+        "pct": -21.58
       },
       {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": -12.04
+        "symbol": "CORT",
+        "name": "Corcept Therapeutics Incorporated",
+        "pct": -13.01
       },
       {
         "symbol": "TNGX",
         "name": "Tango Therapeutics, Inc.",
-        "pct": -10.17
+        "pct": -12.84
       },
       {
-        "symbol": "AVTX",
-        "name": "Avalo Therapeutics, Inc.",
-        "pct": -9.8
-      },
-      {
-        "symbol": "FLG",
-        "name": "Flagstar Bank, N.A.",
-        "pct": -9.05
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": -11.98
       },
       {
         "symbol": "SLM",
         "name": "SLM Corporation",
-        "pct": -9.05
+        "pct": -9.4
+      },
+      {
+        "symbol": "FLG",
+        "name": "Flagstar Bank, N.A.",
+        "pct": -9.22
       },
       {
         "symbol": "VC",
         "name": "Visteon Corporation",
-        "pct": -8.48
+        "pct": -7.72
       },
       {
-        "symbol": "FIX",
-        "name": "Comfort Systems USA, Inc.",
-        "pct": -8.1
+        "symbol": "AVTX",
+        "name": "Avalo Therapeutics, Inc.",
+        "pct": -7.72
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": -7.65
       },
       {
         "symbol": "KNSL",
         "name": "Kinsale Capital Group, Inc.",
-        "pct": -8.02
-      },
-      {
-        "symbol": "SSNC",
-        "name": "SS&C Technologies Holdings, Inc.",
-        "pct": -6.82
+        "pct": -7.59
       }
     ],
     "universe": 1379
