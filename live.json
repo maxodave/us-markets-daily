@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-23T14:10:02Z",
+  "updated": "2026-10-23T14:26:53Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.43,
-      "last": 7630.83
+      "pct": -0.64,
+      "last": 7614.37
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.15,
-      "last": 29005.89
+      "pct": -0.08,
+      "last": 28940.99
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.14,
-      "last": 52257.45
+      "pct": -1.45,
+      "last": 52097.57
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.65,
-      "last": 48078.64
+      "pct": -0.46,
+      "last": 48175.13
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "SAIQ",
         "name": "WISeSat.Space Holdings Corp.",
-        "pct": 28.03
+        "pct": 25.0
       },
       {
         "symbol": "RHI",
         "name": "Robert Half Inc.",
-        "pct": 13.23
+        "pct": 12.96
       },
       {
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
-        "pct": 11.36
-      },
-      {
-        "symbol": "FCNCA",
-        "name": "First Citizens BancShares, Inc.",
-        "pct": 7.38
+        "pct": 12.41
       },
       {
         "symbol": "SBAC",
         "name": "SBA Communications Corporation",
-        "pct": 6.99
+        "pct": 8.37
       },
       {
         "symbol": "RNG",
         "name": "RingCentral, Inc.",
-        "pct": 6.43
+        "pct": 7.4
       },
       {
-        "symbol": "RITM",
-        "name": "Rithm Capital Corp.",
-        "pct": 6.16
+        "symbol": "FCNCA",
+        "name": "First Citizens BancShares, Inc.",
+        "pct": 7.13
       },
       {
         "symbol": "AMT",
         "name": "American Tower Corporation (REIT)",
-        "pct": 6.14
-      },
-      {
-        "symbol": "SIGI",
-        "name": "Selective Insurance Group, Inc.",
-        "pct": 6.0
+        "pct": 6.34
       },
       {
         "symbol": "NE",
         "name": "Noble Corporation plc A",
-        "pct": 5.6
+        "pct": 6.33
+      },
+      {
+        "symbol": "SIGI",
+        "name": "Selective Insurance Group, Inc.",
+        "pct": 6.1
+      },
+      {
+        "symbol": "RITM",
+        "name": "Rithm Capital Corp.",
+        "pct": 5.93
       }
     ],
     "losers": [
       {
         "symbol": "LKQ",
         "name": "LKQ Corporation",
-        "pct": -18.96
+        "pct": -20.94
       },
       {
         "symbol": "TNGX",
         "name": "Tango Therapeutics, Inc.",
-        "pct": -16.51
-      },
-      {
-        "symbol": "FIX",
-        "name": "Comfort Systems USA, Inc.",
-        "pct": -12.42
+        "pct": -18.3
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": -11.42
+        "pct": -11.43
+      },
+      {
+        "symbol": "FIX",
+        "name": "Comfort Systems USA, Inc.",
+        "pct": -11.05
       },
       {
         "symbol": "SLM",
         "name": "SLM Corporation",
-        "pct": -9.7
+        "pct": -9.74
+      },
+      {
+        "symbol": "FLG",
+        "name": "Flagstar Bank, N.A.",
+        "pct": -9.4
+      },
+      {
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": -8.37
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": -9.4
+        "pct": -7.98
       },
       {
         "symbol": "AVTX",
         "name": "Avalo Therapeutics, Inc.",
-        "pct": -8.46
+        "pct": -7.65
       },
       {
         "symbol": "VC",
         "name": "Visteon Corporation",
-        "pct": -7.45
-      },
-      {
-        "symbol": "STRL",
-        "name": "Sterling Infrastructure, Inc.",
-        "pct": -7.08
-      },
-      {
-        "symbol": "GNTX",
-        "name": "Gentex Corporation",
-        "pct": -6.97
+        "pct": -7.22
       }
     ],
     "universe": 1379
