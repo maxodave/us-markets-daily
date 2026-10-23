@@ -1,137 +1,137 @@
 {
-  "updated": "2026-10-22T19:29:43Z",
-  "market_open": true,
+  "updated": "2026-10-23T13:05:42Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.3,
-      "last": 7656.07
+      "pct": -1.21,
+      "last": 7663.43
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.84,
-      "last": 28970.62
+      "pct": -2.88,
+      "last": 28958.69
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.06,
-      "last": 52817.53
+      "pct": 0.03,
+      "last": 52867.98
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -2.51,
-      "last": 48383.66
+      "pct": -0.58,
+      "last": 48116.89
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "KSS",
-        "name": "Kohl's Corporation",
-        "pct": 13.2
+        "symbol": "BHVN",
+        "name": "Biohaven Ltd.",
+        "pct": 25.02
       },
       {
-        "symbol": "BMI",
-        "name": "Badger Meter, Inc.",
-        "pct": 11.82
-      },
-      {
-        "symbol": "AVEX",
-        "name": "AEVEX Corp.",
-        "pct": 11.67
+        "symbol": "MLTX",
+        "name": "MoonLake Immunotherapeutics",
+        "pct": 15.87
       },
       {
         "symbol": "POOL",
         "name": "Pool Corporation",
-        "pct": 11.66
+        "pct": 14.36
+      },
+      {
+        "symbol": "CNXC",
+        "name": "Concentrix Corporation",
+        "pct": 13.77
+      },
+      {
+        "symbol": "BMI",
+        "name": "Badger Meter, Inc.",
+        "pct": 13.48
+      },
+      {
+        "symbol": "AVEX",
+        "name": "AEVEX Corp.",
+        "pct": 13.22
+      },
+      {
+        "symbol": "KSS",
+        "name": "Kohl's Corporation",
+        "pct": 11.82
       },
       {
         "symbol": "SPOT",
         "name": "Spotify Technology S.A.",
-        "pct": 11.44
-      },
-      {
-        "symbol": "WCN",
-        "name": "Waste Connections, Inc.",
-        "pct": 10.58
+        "pct": 11.1
       },
       {
         "symbol": "ALLE",
         "name": "Allegion plc",
-        "pct": 10.23
-      },
-      {
-        "symbol": "ROP",
-        "name": "Roper Technologies, Inc.",
-        "pct": 10.21
+        "pct": 11.02
       },
       {
         "symbol": "R",
         "name": "Ryder System, Inc.",
-        "pct": 9.76
-      },
-      {
-        "symbol": "Z",
-        "name": "Zillow Group, Inc. - Class C Capital Stock",
-        "pct": 8.59
+        "pct": 10.49
       }
     ],
     "losers": [
       {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": -29.16
+        "symbol": "AVTX",
+        "name": "Avalo Therapeutics, Inc.",
+        "pct": -39.23
       },
       {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "pct": -27.02
+        "symbol": "NVEC",
+        "name": "NVE Corporation",
+        "pct": -33.68
+      },
+      {
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": -27.67
       },
       {
         "symbol": "KALU",
         "name": "Kaiser Aluminum Corporation",
-        "pct": -24.28
+        "pct": -25.31
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": -20.74
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "pct": -21.54
       },
       {
         "symbol": "CRS",
         "name": "Carpenter Technology Corporation",
-        "pct": -18.77
+        "pct": -20.62
       },
       {
-        "symbol": "CECO",
-        "name": "CECO Environmental Corp.",
-        "pct": -18.57
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "pct": -17.57
+      },
+      {
+        "symbol": "OII",
+        "name": "Oceaneering International, Inc.",
+        "pct": -16.94
       },
       {
         "symbol": "COHU",
         "name": "Cohu, Inc.",
-        "pct": -17.51
+        "pct": -16.33
       },
       {
-        "symbol": "GGG",
-        "name": "Graco Inc.",
-        "pct": -16.94
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": -15.85
-      },
-      {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": -15.61
+        "symbol": "MTSI",
+        "name": "MACOM Technology Solutions Holdings, Inc.",
+        "pct": -15.87
       }
     ],
-    "universe": 1284
+    "universe": 1380
   }
 }
