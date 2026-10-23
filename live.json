@@ -1,137 +1,137 @@
 {
-  "updated": "2026-10-23T13:05:42Z",
-  "market_open": false,
+  "updated": "2026-10-23T14:10:02Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.21,
-      "last": 7663.43
+      "pct": -0.43,
+      "last": 7630.83
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.88,
-      "last": 28958.69
+      "pct": 0.15,
+      "last": 29005.89
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.03,
-      "last": 52867.98
+      "pct": -1.14,
+      "last": 52257.45
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.58,
-      "last": 48116.89
+      "pct": -0.65,
+      "last": 48078.64
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "BHVN",
-        "name": "Biohaven Ltd.",
-        "pct": 25.02
+        "symbol": "SAIQ",
+        "name": "WISeSat.Space Holdings Corp.",
+        "pct": 28.03
       },
       {
-        "symbol": "MLTX",
-        "name": "MoonLake Immunotherapeutics",
-        "pct": 15.87
+        "symbol": "RHI",
+        "name": "Robert Half Inc.",
+        "pct": 13.23
       },
       {
-        "symbol": "POOL",
-        "name": "Pool Corporation",
-        "pct": 14.36
+        "symbol": "CCI",
+        "name": "Crown Castle Inc.",
+        "pct": 11.36
       },
       {
-        "symbol": "CNXC",
-        "name": "Concentrix Corporation",
-        "pct": 13.77
+        "symbol": "FCNCA",
+        "name": "First Citizens BancShares, Inc.",
+        "pct": 7.38
       },
       {
-        "symbol": "BMI",
-        "name": "Badger Meter, Inc.",
-        "pct": 13.48
+        "symbol": "SBAC",
+        "name": "SBA Communications Corporation",
+        "pct": 6.99
       },
       {
-        "symbol": "AVEX",
-        "name": "AEVEX Corp.",
-        "pct": 13.22
+        "symbol": "RNG",
+        "name": "RingCentral, Inc.",
+        "pct": 6.43
       },
       {
-        "symbol": "KSS",
-        "name": "Kohl's Corporation",
-        "pct": 11.82
+        "symbol": "RITM",
+        "name": "Rithm Capital Corp.",
+        "pct": 6.16
       },
       {
-        "symbol": "SPOT",
-        "name": "Spotify Technology S.A.",
-        "pct": 11.1
+        "symbol": "AMT",
+        "name": "American Tower Corporation (REIT)",
+        "pct": 6.14
       },
       {
-        "symbol": "ALLE",
-        "name": "Allegion plc",
-        "pct": 11.02
+        "symbol": "SIGI",
+        "name": "Selective Insurance Group, Inc.",
+        "pct": 6.0
       },
       {
-        "symbol": "R",
-        "name": "Ryder System, Inc.",
-        "pct": 10.49
+        "symbol": "NE",
+        "name": "Noble Corporation plc A",
+        "pct": 5.6
       }
     ],
     "losers": [
       {
+        "symbol": "LKQ",
+        "name": "LKQ Corporation",
+        "pct": -18.96
+      },
+      {
+        "symbol": "TNGX",
+        "name": "Tango Therapeutics, Inc.",
+        "pct": -16.51
+      },
+      {
+        "symbol": "FIX",
+        "name": "Comfort Systems USA, Inc.",
+        "pct": -12.42
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": -11.42
+      },
+      {
+        "symbol": "SLM",
+        "name": "SLM Corporation",
+        "pct": -9.7
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": -9.4
+      },
+      {
         "symbol": "AVTX",
         "name": "Avalo Therapeutics, Inc.",
-        "pct": -39.23
+        "pct": -8.46
       },
       {
-        "symbol": "NVEC",
-        "name": "NVE Corporation",
-        "pct": -33.68
+        "symbol": "VC",
+        "name": "Visteon Corporation",
+        "pct": -7.45
       },
       {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": -27.67
+        "symbol": "STRL",
+        "name": "Sterling Infrastructure, Inc.",
+        "pct": -7.08
       },
       {
-        "symbol": "KALU",
-        "name": "Kaiser Aluminum Corporation",
-        "pct": -25.31
-      },
-      {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "pct": -21.54
-      },
-      {
-        "symbol": "CRS",
-        "name": "Carpenter Technology Corporation",
-        "pct": -20.62
-      },
-      {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "pct": -17.57
-      },
-      {
-        "symbol": "OII",
-        "name": "Oceaneering International, Inc.",
-        "pct": -16.94
-      },
-      {
-        "symbol": "COHU",
-        "name": "Cohu, Inc.",
-        "pct": -16.33
-      },
-      {
-        "symbol": "MTSI",
-        "name": "MACOM Technology Solutions Holdings, Inc.",
-        "pct": -15.87
+        "symbol": "GNTX",
+        "name": "Gentex Corporation",
+        "pct": -6.97
       }
     ],
-    "universe": 1380
+    "universe": 1379
   }
 }
