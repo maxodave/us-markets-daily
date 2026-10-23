@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-23T19:46:56Z",
-  "market_open": true,
+  "updated": "2026-10-23T20:01:47Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.48,
-      "last": 7627.0
+      "pct": -0.52,
+      "last": 7623.62
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.01,
-      "last": 28965.0
+      "pct": -0.02,
+      "last": 28957.53
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.13,
-      "last": 52263.47
+      "pct": -1.22,
+      "last": 52214.21
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "RHI",
         "name": "Robert Half Inc.",
-        "pct": 24.63
+        "pct": 21.82
       },
       {
         "symbol": "SAIQ",
         "name": "WISeSat.Space Holdings Corp.",
-        "pct": 12.32
+        "pct": 15.91
       },
       {
         "symbol": "NTSK",
         "name": "Netskope, Inc.",
-        "pct": 9.53
+        "pct": 9.37
       },
       {
         "symbol": "THRM",
         "name": "Gentherm Inc",
-        "pct": 9.52
+        "pct": 9.37
       },
       {
-        "symbol": "FCNCA",
-        "name": "First Citizens BancShares, Inc.",
-        "pct": 9.38
+        "symbol": "VG",
+        "name": "Venture Global, Inc.",
+        "pct": 9.33
+      },
+      {
+        "symbol": "CART",
+        "name": "Maplebear Inc.",
+        "pct": 9.21
       },
       {
         "symbol": "CCI",
         "name": "Crown Castle Inc.",
-        "pct": 8.81
+        "pct": 9.11
       },
       {
-        "symbol": "NE",
-        "name": "Noble Corporation plc A",
-        "pct": 8.71
-      },
-      {
-        "symbol": "SAIL",
-        "name": "SailPoint, Inc.",
-        "pct": 8.25
+        "symbol": "BAND",
+        "name": "Bandwidth Inc.",
+        "pct": 9.09
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": 8.21
+        "pct": 8.73
       },
       {
-        "symbol": "RITM",
-        "name": "Rithm Capital Corp.",
-        "pct": 8.18
+        "symbol": "SAIL",
+        "name": "SailPoint, Inc.",
+        "pct": 8.62
       }
     ],
     "losers": [
       {
         "symbol": "LKQ",
         "name": "LKQ Corporation",
-        "pct": -21.83
+        "pct": -22.47
       },
       {
         "symbol": "CORT",
         "name": "Corcept Therapeutics Incorporated",
-        "pct": -19.12
+        "pct": -20.13
       },
       {
         "symbol": "TNGX",
         "name": "Tango Therapeutics, Inc.",
-        "pct": -16.54
+        "pct": -16.43
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": -11.07
-      },
-      {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": -9.49
+        "pct": -11.33
       },
       {
         "symbol": "SLM",
         "name": "SLM Corporation",
+        "pct": -10.78
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": -9.51
+      },
+      {
+        "symbol": "FLG",
+        "name": "Flagstar Bank, N.A.",
         "pct": -9.34
       },
       {
         "symbol": "FIX",
         "name": "Comfort Systems USA, Inc.",
-        "pct": -9.31
-      },
-      {
-        "symbol": "FLG",
-        "name": "Flagstar Bank, N.A.",
-        "pct": -8.7
+        "pct": -9.33
       },
       {
         "symbol": "GL",
         "name": "Globe Life Inc.",
-        "pct": -8.35
+        "pct": -8.08
       },
       {
-        "symbol": "OSCR",
-        "name": "Oscar Health, Inc.",
-        "pct": -7.8
+        "symbol": "T",
+        "name": "AT&T Inc.",
+        "pct": -7.94
       }
     ],
     "universe": 1379
