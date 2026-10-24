@@ -1307,192 +1307,47 @@
     },
     "ftsemib": {
       "stats": {
-        "n_up": 11,
-        "n_down": 27,
-        "n_flat": 2,
+        "n_up": 21,
+        "n_down": 18,
+        "n_flat": 1,
         "n_total": 40,
-        "avg_pct": -1.41,
+        "avg_pct": 0.03,
         "best_sectors": [
           {
-            "sector": "Health Care",
-            "avg_pct": 0.92
+            "sector": "Energy",
+            "avg_pct": 3.91
           },
           {
             "sector": "Utilities",
-            "avg_pct": -0.22
+            "avg_pct": 0.56
           },
           {
-            "sector": "Industrial Goods and Services",
-            "avg_pct": -2.07
+            "sector": "Banks",
+            "avg_pct": 0.28
           }
         ],
         "worst_sectors": [
           {
-            "sector": "Banks",
-            "avg_pct": -3.78
-          },
-          {
-            "sector": "Energy",
-            "avg_pct": -3.08
+            "sector": "Industrial Goods and Services",
+            "avg_pct": -0.48
           },
           {
             "sector": "Financial Services",
-            "avg_pct": -2.48
+            "avg_pct": -0.19
+          },
+          {
+            "sector": "Banks",
+            "avg_pct": 0.28
           }
         ]
       },
       "gainers": [
         {
-          "symbol": "MONC.MI",
-          "name": "Moncler",
-          "sector": "Consumer Products and Services",
-          "pct_change": 2.61,
-          "last_close": 44.06,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "CPR.MI",
-          "name": "Campari",
-          "sector": "Food, Beverage and Tobacco",
-          "pct_change": 2.44,
-          "last_close": 6.71,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "INW.MI",
-          "name": "INWIT",
-          "sector": "Telecommunications",
-          "pct_change": 2.36,
-          "last_close": 7.38,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "DIA.MI",
-          "name": "Diasorin",
-          "sector": "Health Care",
-          "pct_change": 1.89,
-          "last_close": 79.64,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "BC.MI",
-          "name": "Brunello Cucinelli",
-          "sector": "Consumer Products and Services",
-          "pct_change": 1.48,
-          "last_close": 86.44,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "AMP.MI",
-          "name": "Amplifon",
-          "sector": "Health Care",
-          "pct_change": 0.86,
-          "last_close": 12.9,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "AVIO.MI",
-          "name": "Avio",
-          "sector": "Aerospace",
-          "pct_change": 0.7,
-          "last_close": 30.08,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "LTMC.MI",
-          "name": "Lottomatica Group",
-          "sector": "Gambling",
-          "pct_change": 0.57,
-          "last_close": 24.83,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "TRN.MI",
-          "name": "Terna",
-          "sector": "Utilities",
-          "pct_change": 0.42,
-          "last_close": 9.48,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "LDO.MI",
-          "name": "Leonardo",
-          "sector": "Industrial Goods and Services",
-          "pct_change": 0.26,
-          "last_close": 48.33,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        }
-      ],
-      "losers": [
-        {
-          "symbol": "PRY.MI",
-          "name": "Prysmian",
-          "sector": "Industrial Goods and Services",
-          "pct_change": -7.61,
-          "last_close": 100.1,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "SPM.MI",
-          "name": "Saipem",
+          "symbol": "ENI.MI",
+          "name": "Eni",
           "sector": "Energy",
-          "pct_change": -6.0,
-          "last_close": 4.22,
+          "pct_change": 5.82,
+          "last_close": 27.65,
           "indices": [
             "ftsemib"
           ],
@@ -1504,8 +1359,8 @@
           "symbol": "TEN.MI",
           "name": "Tenaris",
           "sector": "Energy",
-          "pct_change": -5.05,
-          "last_close": 24.81,
+          "pct_change": 4.51,
+          "last_close": 25.93,
           "indices": [
             "ftsemib"
           ],
@@ -1514,11 +1369,11 @@
           "news_historical": []
         },
         {
-          "symbol": "STMMI.MI",
-          "name": "STMicroelectronics",
-          "sector": "Technology",
-          "pct_change": -4.98,
-          "last_close": 39.94,
+          "symbol": "SPM.MI",
+          "name": "Saipem",
+          "sector": "Energy",
+          "pct_change": 4.17,
+          "last_close": 4.39,
           "indices": [
             "ftsemib"
           ],
@@ -1527,11 +1382,11 @@
           "news_historical": []
         },
         {
-          "symbol": "UCG.MI",
-          "name": "UniCredit",
-          "sector": "Banks",
-          "pct_change": -4.73,
-          "last_close": 71.65,
+          "symbol": "AVIO.MI",
+          "name": "Avio",
+          "sector": "Aerospace",
+          "pct_change": 1.83,
+          "last_close": 30.63,
           "indices": [
             "ftsemib"
           ],
@@ -1540,11 +1395,63 @@
           "news_historical": []
         },
         {
-          "symbol": "BMPS.MI",
-          "name": "Banca Monte dei Paschi di Siena",
-          "sector": "Banks",
-          "pct_change": -4.36,
-          "last_close": 10.57,
+          "symbol": "REC.MI",
+          "name": "Recordati",
+          "sector": "Health Care",
+          "pct_change": 1.61,
+          "last_close": 53.8,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BZU.MI",
+          "name": "Buzzi",
+          "sector": "Construction and Materials",
+          "pct_change": 1.47,
+          "last_close": 39.43,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "A2A.MI",
+          "name": "A2A",
+          "sector": "Utilities",
+          "pct_change": 1.29,
+          "last_close": 2.44,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LTMC.MI",
+          "name": "Lottomatica Group",
+          "sector": "Gambling",
+          "pct_change": 1.25,
+          "last_close": 25.14,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SRG.MI",
+          "name": "Snam",
+          "sector": "Energy",
+          "pct_change": 1.12,
+          "last_close": 5.96,
           "indices": [
             "ftsemib"
           ],
@@ -1556,8 +1463,23 @@
           "symbol": "BAMI.MI",
           "name": "Banco BPM",
           "sector": "Banks",
-          "pct_change": -4.18,
-          "last_close": 12.94,
+          "pct_change": 1.08,
+          "last_close": 13.09,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "STLAM.MI",
+          "name": "Stellantis",
+          "sector": "Automobiles and Parts",
+          "pct_change": -6.29,
+          "last_close": 3.56,
           "indices": [
             "ftsemib"
           ],
@@ -1566,11 +1488,11 @@
           "news_historical": []
         },
         {
-          "symbol": "ISP.MI",
-          "name": "Intesa Sanpaolo",
-          "sector": "Banks",
-          "pct_change": -3.81,
-          "last_close": 5.84,
+          "symbol": "TPRO.MI",
+          "name": "Technoprobe",
+          "sector": "Technology",
+          "pct_change": -4.13,
+          "last_close": 23.68,
           "indices": [
             "ftsemib"
           ],
@@ -1579,11 +1501,11 @@
           "news_historical": []
         },
         {
-          "symbol": "FBK.MI",
-          "name": "FinecoBank",
-          "sector": "Banks",
-          "pct_change": -3.6,
-          "last_close": 20.63,
+          "symbol": "MONC.MI",
+          "name": "Moncler",
+          "sector": "Consumer Products and Services",
+          "pct_change": -3.18,
+          "last_close": 42.66,
           "indices": [
             "ftsemib"
           ],
@@ -1592,11 +1514,89 @@
           "news_historical": []
         },
         {
-          "symbol": "BPE.MI",
-          "name": "BPER Banca",
-          "sector": "Banks",
-          "pct_change": -3.33,
-          "last_close": 12.79,
+          "symbol": "BC.MI",
+          "name": "Brunello Cucinelli",
+          "sector": "Consumer Products and Services",
+          "pct_change": -2.01,
+          "last_close": 84.7,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMP.MI",
+          "name": "Amplifon",
+          "sector": "Health Care",
+          "pct_change": -1.51,
+          "last_close": 12.7,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "RACE.MI",
+          "name": "Ferrari",
+          "sector": "Automobiles and Parts",
+          "pct_change": -1.29,
+          "last_close": 349.5,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STMMI.MI",
+          "name": "STMicroelectronics",
+          "sector": "Technology",
+          "pct_change": -1.21,
+          "last_close": 39.45,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BMED.MI",
+          "name": "Banca Mediolanum",
+          "sector": "Financial Services",
+          "pct_change": -1.07,
+          "last_close": 22.1,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNI.MI",
+          "name": "Unipol",
+          "sector": "Insurance",
+          "pct_change": -1.05,
+          "last_close": 24.59,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PRY.MI",
+          "name": "Prysmian",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -1.02,
+          "last_close": 99.08,
           "indices": [
             "ftsemib"
           ],
@@ -1607,14 +1607,14 @@
       ],
       "paragraphs": {
         "en": [
-          "In the October 23, 2026 session the FTSE MIB closed with 11 stocks higher, 27 lower and 2 unchanged, out of 40 tracked. The average move was -1.41%.",
-          "Best-performing sectors by average move: Health Care (+0.92%); Utilities (-0.22%); Industrial Goods and Services (-2.07%). Weakest: Banks (-3.78%); Energy (-3.08%); Financial Services (-2.48%).",
-          "Leading the session: Moncler (MONC.MI, +2.61%); Campari (CPR.MI, +2.44%); INWIT (INW.MI, +2.36%). At the bottom: Prysmian (PRY.MI, -7.61%); Saipem (SPM.MI, -6.00%); Tenaris (TEN.MI, -5.05%)."
+          "In the October 23, 2026 session the FTSE MIB closed with 21 stocks higher, 18 lower and 1 unchanged, out of 40 tracked. The average move was +0.03%.",
+          "Best-performing sectors by average move: Energy (+3.91%); Utilities (+0.56%); Banks (+0.28%). Weakest: Industrial Goods and Services (-0.48%); Financial Services (-0.19%); Banks (+0.28%).",
+          "Leading the session: Eni (ENI.MI, +5.82%); Tenaris (TEN.MI, +4.51%); Saipem (SPM.MI, +4.17%). At the bottom: Stellantis (STLAM.MI, -6.29%); Technoprobe (TPRO.MI, -4.13%); Moncler (MONC.MI, -3.18%)."
         ],
         "it": [
-          "Nella seduta del 23 ottobre 2026 il FTSE MIB ha chiuso con 11 societa' in rialzo, 27 in ribasso e 2 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di -1,41%.",
-          "Settori con la variazione media migliore: Health Care (+0,92%); Utilities (-0,22%); Industrial Goods and Services (-2,07%). Settori piu' debolli: Banks (-3,78%); Energy (-3,08%); Financial Services (-2,48%).",
-          "In cima alla seduta: Moncler (MONC.MI, +2,61%); Campari (CPR.MI, +2,44%); INWIT (INW.MI, +2,36%). In fondo: Prysmian (PRY.MI, -7,61%); Saipem (SPM.MI, -6,00%); Tenaris (TEN.MI, -5,05%)."
+          "Nella seduta del 23 ottobre 2026 il FTSE MIB ha chiuso con 21 societa' in rialzo, 18 in ribasso e 1 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di +0,03%.",
+          "Settori con la variazione media migliore: Energy (+3,91%); Utilities (+0,56%); Banks (+0,28%). Settori piu' debolli: Industrial Goods and Services (-0,48%); Financial Services (-0,19%); Banks (+0,28%).",
+          "In cima alla seduta: Eni (ENI.MI, +5,82%); Tenaris (TEN.MI, +4,51%); Saipem (SPM.MI, +4,17%). In fondo: Stellantis (STLAM.MI, -6,29%); Technoprobe (TPRO.MI, -4,13%); Moncler (MONC.MI, -3,18%)."
         ]
       }
     },
@@ -1936,45 +1936,171 @@
       }
     }
   },
-  "manual_commentary_html": "<p>I mercati azionari statunitensi hanno chiuso in ribasso il 23 ottobre 2026, navigando una settimana caratterizzata da tensioni geopolitiche e cambiamenti nel sentimento degli investitori. Secondo Reuters, Wall Street ha chiuso in calo per concludere una settimana turbolenta, mentre il mercato più ampio rifletteva preoccupazioni crescenti sulla spesa in intelligenza artificiale e sull&#x27;escalation in Medio Oriente. I prezzi del petrolio sono saliti per i timori di un conflitto regionale, secondo il WSJ, fornendo sostegno ai titoli energetici anche mentre lo slancio del mercato più ampio vacillava. I rendimenti dei Treasury sono saliti tra segnali misti dal mercato obbligazionario, con il WSJ che riporta che i rendimenti obbligazionari dell&#x27;Eurozona sono scesi tra le preoccupazioni francesi, segnalando sentimenti divergenti tra le classi di attivi.</p><p>Il Nasdaq-100 ha sovraperformato su base relativa, scendendo dello 0,36 percento con 33 titoli in rialzo e 67 in ribasso, mentre l&#x27;S&amp;P 500 è sceso dello 0,78 percento con 135 titoli in rialzo e 367 in ribasso. Il Dow Jones si è rivelato il più debole, scivolando dell&#x27;1,08 percento con solo 6 titoli in rialzo contro 24 in ribasso. I titoli energetici hanno guidato la seduta, con il settore che ha registrato una media di guadagno del 2,68 percento, mentre la Tecnologia dell&#x27;Informazione ha aggiunto lo 0,41 percento. Il Real Estate è sceso dello 0,1 percento, la perdita più lieve tra i settori tracciati.</p><p>Crown Castle è salito del 9,06 percento, CrowdStrike è aumentato dell&#x27;8,25 percento e Palo Alto Networks è salito del 7,22 percento, tutti senza catalizzatori specifici dell&#x27;azienda segnalati. I nomi energetici hanno dominato la lista dei rialzisti: Schlumberger è avanzato del 7,08 percento, Halliburton ha guadagnato il 5,21 percento, APA Corporation è salito del 4,98 percento, Devon Energy ha aggiunto il 4,49 percento e Targa Resources è salito del 4,43 percento. Datadog ha guadagnato il 4,62 percento e Vylor è salito del 4,88 percento, mentre i media tracciati non hanno segnalato catalizzatori specifici dell&#x27;azienda per nessuno di questi movimenti.</p><p>I titoli Consumer Discretionary hanno subito le perdite più pesanti della seduta, con una media di calo del 2,15 percento, seguiti da Consumer Staples a meno 1,82 percento e Communication Services a meno 1,79 percento. Bloom Energy è sceso dell&#x27;11,24 percento, Comfort Systems USA è crollato del 9,26 percento e Globe Life è sceso dell&#x27;8,09 percento, senza motivi specifici dell&#x27;azienda segnalati. AT&amp;T è sceso del 7,96 percento e T-Mobile US è sceso del 7,71 percento. Deckers Brands, Lululemon Athletica e Dollar General sono ciascuno scesi tra il 4,6 e il 4,9 percento, mentre CBRE Group, MGM Resorts e altri titoli discretionary hanno completato i ribassi, tutti senza catalizzatori tracciati.</p>",
-  "manual_commentary_html_en": "<p>U.S. equities closed lower on October 23, 2026, as the market navigated a week marked by geopolitical tensions and shifting investor sentiment. According to Reuters, Wall Street closed lower to end a rocky week, while the broader tape reflected deepening concerns about artificial intelligence spending and Middle East escalation. Oil prices rose on fears of regional conflict, according to the WSJ, providing support to energy equities even as broader market momentum faltered. Treasury yields climbed amid mixed signals from the bond market, with the WSJ reporting that Eurozone bond yields fell amid French concerns, signaling divergent sentiment across asset classes.</p><p>The Nasdaq-100 outperformed on a relative basis, declining 0.36 percent with 33 gainers and 67 losers, while the S&amp;P 500 fell 0.78 percent with 135 gainers and 367 losers. The Dow Jones proved weakest, sliding 1.08 percent with only 6 gainers against 24 losers. Energy stocks led the session, with the sector averaging a gain of 2.68 percent, while Information Technology added 0.41 percent. Real Estate declined 0.1 percent, the mildest loss among tracked sectors.</p><p>Crown Castle gained 9.06 percent, CrowdStrike rose 8.25 percent, and Palo Alto Networks climbed 7.22 percent, all without reported company-specific catalysts. Energy names dominated the gainers list: Schlumberger advanced 7.08 percent, Halliburton gained 5.21 percent, APA Corporation rose 4.98 percent, Devon Energy added 4.49 percent, and Targa Resources climbed 4.43 percent. Datadog gained 4.62 percent and Vylor rose 4.88 percent, while tracked outlets reported no specific company catalysts for any of these moves.</p><p>Consumer Discretionary stocks bore the session&#x27;s heaviest losses, averaging a decline of 2.15 percent, followed by Consumer Staples at minus 1.82 percent and Communication Services at minus 1.79 percent. Bloom Energy fell 11.24 percent, Comfort Systems USA dropped 9.26 percent, and Globe Life declined 8.09 percent, with no reported company-specific reasons. AT&amp;T fell 7.96 percent and T-Mobile US declined 7.71 percent. Deckers Brands, Lululemon Athletica, and Dollar General each fell between 4.6 and 4.9 percent, while CBRE Group, MGM Resorts, and other discretionary names rounded out the decliners, all without tracked catalysts.</p>",
+  "manual_commentary_html": "<p>I titoli hanno chiuso in ribasso il 23 ottobre 2026, concludendo una settimana turbolenta con debolezza diffusa sul mercato. L&#x27;S&amp;P 500 è sceso dello 0,78 percento con 135 rialzisti e 367 ribassisti, mentre il Dow Jones è crollato dell&#x27;1,08 percento con soli 6 rialzisti contro 24 ribassisti, sottoperformando gli indici più ampi. Il Nasdaq-100 ha sovraperformato con un calo dello 0,36 percento, supportato da 33 rialzisti contro 67 ribassisti. Tra i 518 titoli tracciati, 140 hanno avanzato mentre 377 hanno declinato, per una perdita media dello 0,77 percento. Secondo i rapporti di WSJ e Reuters, i prezzi del petrolio sono saliti a causa dei timori di escalation del conflitto in Medio Oriente, e CNBC ha notato che la prossima settimana comporta rischi significativi per il mercato azionario mentre il commercio dell&#x27;IA continua a vacillare.</p><p>I titoli energetici hanno guidato la seduta, con una media di guadagno del 2,68 percento, con Schlumberger in aumento del 7,08 percento, Halliburton in rialzo del 5,21 percento, APA Corporation in avanzamento del 4,98 percento e Devon Energy in guadagno del 4,49 percento. Targa Resources ha aggiunto il 4,43 percento. I titoli Information Technology hanno registrato un modesto guadagno medio dello 0,41 percento, con CrowdStrike in rialzo dell&#x27;8,25 percento, Palo Alto Networks in aumento del 7,22 percento e Datadog in avanzamento del 4,62 percento. Crown Castle, una holding immobiliare, ha guadagnato il 9,06 percento, mentre Vylor ha aggiunto il 4,88 percento. I media tracciati non segnalano alcun catalizzatore aziendale specifico per nessuno di questi rialzisti.</p><p>I titoli Consumer Discretionary hanno subito i cali più ripidi, con una perdita media del 2,15 percento. Deckers Brands è sceso del 4,91 percento, Lululemon Athletica è crollato del 4,85 percento, MGM Resorts è declinato del 4,88 percento e Dollar General ha perso il 4,62 percento. Consumer Staples è sceso dell&#x27;1,82 percento in media, mentre Communication Services è crollato dell&#x27;1,79 percento, con AT&amp;T in calo del 7,96 percento e T-Mobile US in ribasso del 7,71 percento. Bloom Energy ha subito la perdita più grande della seduta, scendendo dell&#x27;11,24 percento, seguito da Comfort Systems USA in calo del 9,26 percento e Globe Life in declino dell&#x27;8,09 percento. CBRE Group è sceso del 6,05 percento. I media tracciati non segnalano alcun catalizzatore aziendale specifico per nessuno di questi ribassisti.</p>",
+  "manual_commentary_html_en": "<p>Stocks closed lower on October 23, 2026, ending a rocky week with broad-based weakness across the market. The S&amp;P 500 declined 0.78 percent with 135 gainers and 367 losers, while the Dow Jones fell 1.08 percent with only 6 gainers against 24 losers, underperforming the broader indices. The Nasdaq-100 outperformed with a 0.36 percent decline, supported by 33 gainers versus 67 losers. Across the 518 stocks tracked, 140 advanced while 377 declined, for an average loss of 0.77 percent. According to WSJ and Reuters reporting, oil prices rose on fears of Middle East conflict escalation, and CNBC noted that next week brings major risks for the stock market as the AI trade continues to falter.</p><p>Energy stocks led the session, averaging a gain of 2.68 percent, with Schlumberger climbing 7.08 percent, Halliburton rising 5.21 percent, APA Corporation advancing 4.98 percent, and Devon Energy gaining 4.49 percent. Targa Resources added 4.43 percent. Information Technology stocks managed a modest 0.41 percent average gain, with CrowdStrike up 8.25 percent, Palo Alto Networks rising 7.22 percent, and Datadog advancing 4.62 percent. Crown Castle, a Real Estate holding, gained 9.06 percent, while Vylor added 4.88 percent. The tracked outlets report no specific company catalyst for any of these gainers.</p><p>Consumer Discretionary stocks suffered the steepest declines, averaging a loss of 2.15 percent. Deckers Brands fell 4.91 percent, Lululemon Athletica dropped 4.85 percent, MGM Resorts declined 4.88 percent, and Dollar General lost 4.62 percent. Consumer Staples declined 1.82 percent on average, while Communication Services fell 1.79 percent, with AT&amp;T dropping 7.96 percent and T-Mobile US sliding 7.71 percent. Bloom Energy suffered the session&#x27;s largest loss, falling 11.24 percent, followed by Comfort Systems USA down 9.26 percent and Globe Life declining 8.09 percent. CBRE Group fell 6.05 percent. The tracked outlets report no specific company catalyst for any of these losers.</p>",
   "manual_highlights": [],
   "feed": [
     {
-      "title": "Gadi Eisenkot, can Israel’s ex-military chief beat Netanyahu?",
+      "title": "My Favorite Sofa Is Discounted for Joybird’s Semiannual Sale",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 24 Oct 2026 10:30:00 +0000",
+      "link": "https://www.wired.com/story/joybird-semi-annual-sale-2026/",
+      "summary": "The Joybird Eliot Sleeper, plus hundreds of other options, are up to 40 percent off during the brand’s Semiannual sale.",
+      "image": "https://media.wired.com/photos/6adba966042fe07bfaca19da/master/pass/Joybird%20Deals%20Post%20102026%20top%20art%20SOURCE%20Joybird.jpg"
+    },
+    {
+      "title": "12 Absolutely Banging Proper Watches Under $400",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 24 Oct 2026 10:15:00 +0000",
+      "link": "https://www.wired.com/story/best-watches-under-400-chosen-by-experts/",
+      "summary": "WIRED and its panel of watch experts hunted for real mechanical timepieces at rock-bottom prices and found a wealth of options. Here are our favorites.",
+      "image": "https://media.wired.com/photos/6ada00b2fb70c7875ccb3ecc/master/pass/Watches%20Under%20400.jpg"
+    },
+    {
+      "title": "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 10:00:01 GMT",
+      "link": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
+      "summary": "A new CNBC survey finds broad voter opposition to nearby AI data centers, creating a political challenge for Trump and Republicans ahead of the midterm election.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108410871-1792014847833-gettyimages-2300235422-aw1a8615_btpwzyqe.jpeg?v=1792014900&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Il prezzo della pasta scende, in due anni -23,7%",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 24 Oct 2026 11:59:39 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/il-prezzo-della-pasta-scende-in-due-anni-237_b3e33e4e-503d-462b-b999-9c6b6a180ead.html",
+      "summary": "Crc-Assoutenti, dopo i rincari per guerra in Ucraina listini in diminuzione anche nel 2026",
+      "image": "https://www.ansa.it/webimages/img_1280x720/2021/3/24/9a38ecac05d3c84ed10a2da7771cf70d.jpg"
+    },
+    {
+      "title": "Adusbef, Italia al top in Ue per tasse su gasolio, pesano il 48%",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 24 Oct 2026 11:52:06 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/adusbef-italia-al-top-in-ue-per-tasse-su-gasolio-pesano-il-48_804c3cf3-f520-4377-96a0-80f99d01121b.html",
+      "summary": "Per Iva e accise; ma siamo settimi per il prezzo. Il diesel più caro in Finlandia",
+      "image": "https://www.ansa.it/webimages/img_1280x720/2026/10/6/f0c7816b3fde25caa41472dac90bc01f.jpg"
+    },
+    {
+      "title": "Moderna Investors Should Brace for More Whiplash",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 09:30:00 GMT",
+      "link": "https://www.wsj.com/health/pharma/moderna-investors-should-brace-for-more-whiplash-5c32f32d?mod=rss_markets_main",
+      "summary": "Even after its latest sharp fall, the drugmaker’s stock price assumes wild successes.",
+      "image": "https://images.wsj.net/im-86157661"
+    },
+    {
+      "title": "France prepares for more protests with big police deployment",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 09:21:27 GMT",
+      "link": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
+      "summary": "Government puts 20% more officers on the streets for Saturday to boost security following last weekend’s riots",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff58acc33-9783-47f2-bc18-b26b80a275be.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Missy Elliott Honored With Icon Award, Presented By Janet Jackson At 2026 Gala Of The Stars Benefiting Dancers Against Cancer",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 05:04:32 -0400",
+      "link": "https://www.forbes.com/sites/dominiquefluker/2026/10/24/missy-elliott-honored-with-icon-award-presented-by-janet-jackson-at-2026-gala-of-the-stars-benefiting-dancers-against-cancer/",
+      "summary": "On October 22, Dancers Against Cancer (DAC) presented the 2026 Gala of the Stars, its annual benefit bringing together some of the most celebrated figures in music, dance, and entertainment to support dancers and families impacted by cancer.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6adc73489e3bf65cbd88c1a9/0x0.jpg"
+    },
+    {
+      "title": "Attention, Passengers: High Airfares May Be Here to Stay",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 09:02:37 +0000",
+      "link": "https://www.nytimes.com/2026/10/24/business/airlines-ticket-prices.html",
+      "summary": "Ticket prices jumped after fuel costs spiked because of the war with Iran, but airlines say even an end to the conflict will not bring fares back down quickly.",
+      "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26biz-airfares-mpfb/26biz-airfares-mpfb-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "5 Takeaways From Our Investigation of Trump’s Waivers for Polluters",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 09:01:26 +0000",
+      "link": "https://www.nytimes.com/2026/10/24/climate/takeaways-trump-waivers-chemical-pollution.html",
+      "summary": "Chemical plants and other industrial facilities had been required to curb their toxic emissions. A New York Times investigation shows how they got out of it.",
+      "image": "https://static01.nyt.com/images/2026/10/22/multimedia/00CLI-POLLUTION-EPA-TAKEAWAYS-glzb/00CLI-POLLUTION-EPA-TAKEAWAYS-glzb-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Mauritius Carrier Looks at Narrow-Body Jets in Fleet Overhaul",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 08:59:12 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-24/mauritius-carrier-looks-at-narrow-body-jets-in-fleet-overhaul",
+      "summary": "Mauritius’ state-owned carrier is planning to add single-aisle aircraft and review the planned acquisition of wide-body planes as part of a long-term strategy review.",
+      "image": null
+    },
+    {
+      "title": "Odd Lots: How to Run a Restaurant For Three Decades (Podcast)",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 08:00:00 GMT",
+      "link": "https://www.bloomberg.com/news/audio/2026-10-24/odd-lots-how-to-run-a-restaurant-for-three-decades-podcast",
+      "summary": "Richard Mott's first foray into hospitality was in the 1980s at the University of Chicago, where he started running a coffee shop in the basement of the business school when he was a grad student. By the time he graduated, he helped grow that single coffee shop into four location",
+      "image": null
+    },
+    {
+      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 08:00:00 GMT",
+      "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+      "summary": "“My late father bought our house for $250,000 in the 1990s.”",
+      "image": "https://images.mktw.net/im-92522168"
+    },
+    {
+      "title": "UFC Tonight: What Time Does The UFC 333 Fight Card Start?",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 04:00:00 -0400",
+      "link": "https://www.forbes.com/sites/trentreinsmith/2026/10/24/ufc-tonight-what-time-does-the-ufc-333-fight-card-start/",
+      "summary": "Everything you need to know about today's UFC 333 fight card, whish is headlined by two title fights.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6adbf334b99dabe2223b2cc8/0x0.jpg"
+    },
+    {
+      "title": "My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 07:00:00 GMT",
+      "link": "https://www.marketwatch.com/story/my-spouse-was-awarded-90-000-from-my-401-k-in-our-divorce-how-is-that-fair-dc839aa3?mod=mw_rss_topstories",
+      "summary": "“I retired in 2020 and subsequently went through a divorce a few years later.”",
+      "image": "https://images.mktw.net/im-78876477"
+    },
+    {
+      "title": "France's luxury stores board up windows ahead of fresh protests",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 06:53:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbVE0ZlA5bnVuVmxqWWR3cUpqbFlCTWxJUEpFbmt3ZnVDM2tVa0duYVZZcTN6NFk2RWJ0NjVRRkwyWkxkRnFHeFJ5Uk9EVUVxc2E5NEdVUEQ5elNvQUdYcXRSNHZYQzAtaFZUTVBiTUt1WGlqc2I2d2ZIODZXQlFKQXg5RkRzRm84dUhkaHJhdEtoaTluVDVIWV9GVkF4eHExNkt6U1pid1RaaUJ5aTVUX0xoXzZzMFNJcHhvbA?oc=5",
+      "summary": "France's luxury stores board up windows ahead of fresh protests &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 24 Oct 2026 06:41:14 GMT",
+      "link": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+      "summary": "Stock slumps, pulled IPOs and rising spreads on credit default swaps this week sets stage for hyperscaler earnings.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108198959-1757960794660-gettyimages-2207350795-mms21122_qsl76cdt.jpeg?v=1792794717&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Gadi Eisenkot, the Israeli ex-military chief challenging Netanyahu",
       "source": "Financial Times",
       "category": "mercati",
       "published": "Sat, 24 Oct 2026 04:00:33 GMT",
       "link": "https://www.ft.com/content/5e9fc2a9-975b-46eb-ab5a-11615ca40459?syn-25a6b1a6=1",
       "summary": "The grizzled 66-year-old who heads the centrist Yashar party is in a knife-edge race to oust the premier",
       "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff8a54ee0-4ecf-492f-84f5-bf678739fb34.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "France is in revolt. But the real storm is yet to come",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 24 Oct 2026 04:00:23 GMT",
-      "link": "https://www.ft.com/content/62b83fcf-efad-418d-ba6a-569344fa7ecb",
-      "summary": "As disorder engulfs Paris and Marine Le Pen waits in the wings, the country is running out of money, patience and answers",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F6b84df66-6d96-4b05-8c86-748c91e03c0c.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "Singapore Expands Haze Investigation to 10 Locally Based Firms",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Sat, 24 Oct 2026 03:20:42 GMT",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-24/singapore-expands-haze-investigation-to-10-locally-based-firms",
-      "summary": "Singapore expanded its investigation into haze-creating fires in Indonesia that have blanketed the city-state in smog, requesting information from 10 locally registered companies.",
-      "image": null
-    },
-    {
-      "title": "Iran Plots, Houthi Attacks Spur US Departure Orders in Mideast",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Sat, 24 Oct 2026 02:43:17 GMT",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-24/iran-plots-houthi-attacks-spurred-us-depature-orders-in-mideast",
-      "summary": "The US has ordered the departure of diplomatic personnel and adjusted staffing at embassies across the Middle East as a result of Iranian efforts to target Americans, as well as threats from Houthi militants in Yemen, according to an American official.",
-      "image": null
     },
     {
       "title": "JetBlue Creditors Hire Advisers as Airline’s Shares, Bonds Sink",
@@ -1986,40 +2112,13 @@
       "image": "https://images.wsj.net/im-85669502"
     },
     {
-      "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
-      "source": "CNBC",
+      "title": "UK's Healey to give two state-backed lenders £20 billion capital boost in budget",
+      "source": "Reuters",
       "category": "mercati",
-      "published": "Sat, 24 Oct 2026 01:57:24 GMT",
-      "link": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
-      "summary": "Stock slumps, pulled IPOs and rising spreads on credit default swaps this week sets stage for hyperscaler earnings.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108198959-1757960794660-gettyimages-2207350795-mms21122_qsl76cdt.jpeg?v=1792794717&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "‘You Can See Everything’ Eyes $19 Million In Second Weekend As Film Expands To Wide Release",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 23 Oct 2026 21:42:11 -0400",
-      "link": "https://www.forbes.com/sites/timlammers/2026/10/23/you-can-see-everything-eyes-19-million-in-second-weekend-as-film-expands-to-wide-release/",
-      "summary": "The Elizabeth Holmes documentary \"You Can See Everything,\" from Nathan Fielder and Lance Oppenheim, is projected to have another big weekend at the domestic box office.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6adc0b9d9815258ea4fbc489/0x0.jpg?width=960&precrop=1513%2C851%2Cx528%2Cy249"
-    },
-    {
-      "title": "Global Artist EL CAPITXN Steps Out From The Shadows And Onto The Stage",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 23 Oct 2026 21:12:03 -0400",
-      "link": "https://www.forbes.com/sites/laurasirikul/2026/10/23/global-artist-el-capitxn-steps-out-from-the-shadows-and-onto-the-stage/",
-      "summary": "Producer/artist EL CAPITXN lost his voice and felt he lost everything. Thanks to his friend AGUST D, EL decided to make music for himself, and talks about that journey.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6adbffbd04d7a3e79cf4837c/0x0.jpg"
-    },
-    {
-      "title": "France’s Avoids a Debt Downgrade From Moody’s, but Is Given a Warning",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Fri, 23 Oct 2026 23:23:10 +0000",
-      "link": "https://www.nytimes.com/2026/10/23/business/france-debt-moodys-protests.html",
-      "summary": "Moody’s held the country’s credit rating steady amid political uncertainty and a rise in borrowing costs that have worsened France’s debt situation.",
-      "image": "https://static01.nyt.com/images/2026/10/23/multimedia/23Biz-France-Debt-blzq/23Biz-France-Debt-blzq-mediumSquareAt3X.jpg"
+      "published": "Sat, 24 Oct 2026 00:54:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVlkwNlhJbDZMSlFaZnpESjFQMnk5aS0zaE1ZWm43RnVTbFhENWR5bUk4b0tldXZzU1BHbF9EbXBHaWtGSDZKZ2dMN2syS2p3bVdTallROTZhNFJ1MVpzSmdtZ3JtWC1oNnRBYzN2blp6cU9rR2xiYm1fdUdXWnRzZUZyUm9TQjQzWWp6VXhSV29mZld5WURwV0J2TlJMeG9zTkFaWTJ1VUJaOE4za090Qk1QYlRHa2ZUdnBZemgzU2tVRWs?oc=5",
+      "summary": "UK's Healey to give two state-backed lenders £20 billion capital boost in budget &nbsp;&nbsp; Reuters",
+      "image": null
     },
     {
       "title": "Startups don’t need to go viral to win customers",
@@ -2028,7 +2127,7 @@
       "published": "Fri, 23 Oct 2026 23:07:45 +0000",
       "link": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
       "summary": "At TechCrunch Disrupt last week, two founders and a VC discussed how to not just gain an early following but keep one.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55591670558_36cac514d1_k.jpg?resize=1200,800"
+      "image": null
     },
     {
       "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
@@ -2037,51 +2136,6 @@
       "published": "Fri, 23 Oct 2026 23:05:49 +0000",
       "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
       "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798"
-    },
-    {
-      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Fri, 23 Oct 2026 22:49:42 GMT",
-      "link": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
-      "summary": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108453365-1792793633822-gettyimages-2300178554-AA_17102026_2998635.jpeg?v=1792793674&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Fri, 23 Oct 2026 22:49:00 GMT",
-      "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-      "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
-      "image": "https://images.mktw.net/im-27247005"
-    },
-    {
-      "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Fri, 23 Oct 2026 22:00:00 GMT",
-      "link": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
-      "summary": "If market pressures keep building, Anthropic “could reasonably decide it is better to stay private and wait for a better opportunity,” one portfolio manager says.",
-      "image": "https://images.mktw.net/im-31670167"
-    },
-    {
-      "title": "North Korea's Kim calls for 'military revolution' as he urges stronger army units",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Fri, 23 Oct 2026 21:48:33 GMT",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTnRieGVUdFpZVEJlb0hWSjk0eFZYOWt3OVZZN2hOZXJSTXkzd01UczRIQldNY1BYYVpvYTdfNW9ydnZ3b1oyR1BUVDBUdUJHN1F3MjdIWW9mU29GVTBadjV4X1FLZ0pfUmFuMlRHOGM2TlVUTW14VUZycHhSQzZEbl9IQWJsWFJnUDdnLWlrS2R3QVlfZGJNWkg2bUtDUlo0QlNQbnBTOGIyU29SRUtGZTE1elZHX0FUZ2tvdVh1QlhyN0lDcVRwdHdpTnQycnc?oc=5",
-      "summary": "North Korea's Kim calls for 'military revolution' as he urges stronger army units &nbsp;&nbsp; Reuters",
-      "image": null
-    },
-    {
-      "title": "Senator says planned Meta commercial terms update could harm US businesses",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Fri, 23 Oct 2026 21:46:16 GMT",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOWpYZWs5b0ZUaHpWaTQ3NDloSHRpXy1KVFMzUFVtUENVd29FeDljcWdzb1FpWmJoWFJROUwtWjBFUEZpamdObTF4b2JKTGJpV0JTX1FDczRaTlg3QXFUMXlqQU13WEVHOEhLLS0tU1pydWt6NU9jaFNxMXIzMlRpdjNYaS1WZ3F5c3pTSlI2QTAwQkpmMHNyMWhXUGFtcEhNRWlIQS1MenpJRC0wRTYyampvNndTXzQ?oc=5",
-      "summary": "Senator says planned Meta commercial terms update could harm US businesses &nbsp;&nbsp; Reuters",
       "image": null
     },
     {
@@ -2103,15 +2157,6 @@
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Israel-Flag-DecryptStyle-gID_7.jpg"
     },
     {
-      "title": "Stocks Pulled in Two Directions, Fall to End Volatile Week",
-      "source": "The Wall Street Journal",
-      "category": "mercati",
-      "published": "Fri, 23 Oct 2026 21:10:00 GMT",
-      "link": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8?mod=rss_markets_main",
-      "summary": "Inflation and jitters over artificial intelligence are fighting for investors’ attention.",
-      "image": "https://images.wsj.net/im-95998240"
-    },
-    {
       "title": "IRS plans lower tax disclosure penalties, including for crypto: Forbes",
       "source": "Cointelegraph",
       "category": "crypto",
@@ -2128,15 +2173,6 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZXVEVi1XNG1MS3RSeDNSTGlnMGkyRTRpeXRMRUk5U2lYdzlPQktGSzY1N3ZBV1J4M2tKc2M1ZzdiMlJQZ2xhLUhUQzA4cllQbWpWbTQ1YVpQSlJuM3FEbmQ5SFBWcHNHcTQ0dEloTVdRck5LNEMzZ1RrUW5DWEp4LUNjbExLWXpsSVE?oc=5",
       "summary": "Bank of America May Need a New CEO &nbsp;&nbsp; Barron's",
       "image": null
-    },
-    {
-      "title": "Ahead of Tight Race, Trump Swaps Tariffs on Some Canadian Goods",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Fri, 23 Oct 2026 20:29:40 +0000",
-      "link": "https://www.nytimes.com/2026/10/23/business/trump-susan-collins-canada-tariffs.html",
-      "summary": "The move was announced by Senator Susan Collins, a Maine Republican who faces a tough re-election fight amid rising prices.",
-      "image": "https://static01.nyt.com/images/2026/10/23/multimedia/23dc-collins-tariffs-tkwm/23dc-collins-tariffs-tkwm-mediumSquareAt3X.jpg"
     },
     {
       "title": "Senate Democrat Probes Tether Payments to Ex-White House Crypto Adviser’s Firm",
@@ -2166,33 +2202,6 @@
       "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/MSTR-stock-today.jpeg"
     },
     {
-      "title": "Eni: 'Il tetto al prezzo per benzina e diesel proseguirà fino a fine anno'",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Fri, 23 Oct 2026 21:36:12 +0200",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/23/eni-il-tetto-al-prezzo-per-benzina-e-diesel-proseguira-fino-a-fine-anno_7f2ea08b-ce91-4f3c-90b8-ca8bf6e4c8aa.html",
-      "summary": "Descalzi: 'Monitoreremo il livello del price cap'. Meloni: 'Anche il Kuwait disponibile a una proroga'",
-      "image": null
-    },
-    {
-      "title": "Il petrolio chiude in rialzo a New York a 103,27 dollari",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Fri, 23 Oct 2026 20:51:37 +0200",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/23/il-petrolio-chiude-in-rialzo-a-new-york-a-10327-dollari_d64de21c-8823-4c9f-88a1-a00b2219cb0c.html",
-      "summary": "Quotazioni salgono del 3,82%",
-      "image": null
-    },
-    {
-      "title": "Revival Rugs Birthday Sale: 20 Percent Off Sitewide Through Sunday",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 23 Oct 2026 18:27:32 +0000",
-      "link": "https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/",
-      "summary": "The brand’s lovely selection of hand-knotted and handwoven wool rugs at reasonable prices make it a WIRED-staff favorite.",
-      "image": "https://media.wired.com/photos/6adba57525db5ec905073c5e/master/pass/New%20Revival%20Birthday%20Sale%20102026%20top%20art%20SOURCE%20Revival.jpg"
-    },
-    {
       "title": "Netanyahu seeking blockchain plan to prepare for possible sanctions",
       "source": "The Block",
       "category": "crypto",
@@ -2209,15 +2218,6 @@
       "link": "https://www.theblock.co/news/regulation/2026-10-23-sen-blumenthal-seeks-answers-tether-payments-firm-founded-ex-white-house-crypto-adviser-427785",
       "summary": "Sen. Blumenthal said he wants answers from Tether following reports that it paid millions to a firm started by a former WH crypto adviser.",
       "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/02/image-d3d3f946-f84d-4ec0-af8e-b8e8f8da2cab-4.jpg"
-    },
-    {
-      "title": "What’s the Best iPhone to Buy or Avoid Right Now? (2026)",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 23 Oct 2026 17:00:00 +0000",
-      "link": "https://www.wired.com/gallery/iphone-buying-guide/",
-      "summary": "The first folding iPhone Duo is here, alongside the 18 Pro and 18 Pro Max, but they’re not your only options. We have all the details on Apple’s smartphone lineup to help you find the right model.",
-      "image": "https://media.wired.com/photos/6adb8eb7c29fe197e204584d/master/pass/iPhone%20Buying%20Guide%20102026%20top%20art%20SOURCE%20Apple.jpg"
     },
     {
       "title": "American Express Plans to Cut 5% of Global Jobs. The Stock Is Falling on Earnings.",
@@ -2265,6 +2265,15 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2023/06/SoundofDataFinal1f-thumb.jpeg?w=840"
     },
     {
+      "title": "Kering affonda a Parigi: Gucci rallenta e la Cina frena il rilancio del gruppo",
+      "source": "FinanzaOnline",
+      "category": "italia",
+      "published": "Fri, 23 Oct 2026 10:13:28 +0000",
+      "link": "https://www.finanzaonline.com/notizie/kering-affonda-a-parigi-gucci-rallenta-e-la-cina-frena-il-rilancio-del-gruppo",
+      "summary": "Giornata di forti vendite a Piazza Affari e sulle principali borse europee per il comparto del lusso. A Parigi, il titolo Kering ha subito un pesante ribasso arrivando a cedere fino all'11% intraday, per poi chiudere con perdite marcate",
+      "image": null
+    },
+    {
       "title": "Sam Bankman-Fried says he has paid his debts",
       "source": "The Economist",
       "category": "mercati",
@@ -2290,48 +2299,39 @@
       "link": "http://money.cnn.com/2017/02/13/technology/apple-wireless-charging/index.html?section=money_news_international",
       "summary": "The days of plugging in an iPhone to charge won't last forever.",
       "image": "http://i2.cdn.turner.com/money/dam/assets/170203124414-apple-iphone-120x90.jpg"
-    },
-    {
-      "title": "Author Correction: DYNLL1 binds to MRE11 to limit DNA end resection in BRCA1-deficient cells",
-      "source": "Nature",
-      "category": "scienza",
-      "published": "",
-      "link": "https://www.nature.com/articles/s41586-026-11303-y",
-      "summary": "Nature, Published online: 23 October 2026; doi:10.1038/s41586-026-11303-y Author Correction: DYNLL1 binds to MRE11 to limit DNA end resection in BRCA1-deficient cells",
-      "image": null
     }
   ],
-  "generated_at": "2026-10-24 06:18:08",
+  "generated_at": "2026-10-24 12:45:16",
   "markets_brief": {
     "items": [
       {
-        "title": "UK mortgage market ‘failing to adapt to new patterns of work’",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/6a940d99-579a-481c-953e-a61cc23486e5?syn-25a6b1a6=1"
+        "title": "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html"
       },
       {
-        "title": "Gadi Eisenkot, can Israel’s ex-military chief beat Netanyahu?",
+        "title": "French government and corporate bond yields are converging",
         "source": "Financial Times",
-        "link": "https://www.ft.com/content/5e9fc2a9-975b-46eb-ab5a-11615ca40459?syn-25a6b1a6=1"
+        "link": "https://www.ft.com/content/473c0e0b-d4f7-449c-9192-648b82077222?syn-25a6b1a6=1"
       },
       {
-        "title": "Tobacco taxes work — even when they give smugglers a windfall",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/e41fe456-48c8-4bb1-8802-88b39f563d29?syn-25a6b1a6=1"
+        "title": "Moderna Investors Should Brace for More Whiplash",
+        "source": "The Wall Street Journal",
+        "link": "https://www.wsj.com/health/pharma/moderna-investors-should-brace-for-more-whiplash-5c32f32d?mod=rss_markets_main"
       },
       {
-        "title": "Patrick Dele Cole, journalist and diplomat, 1940-2026",
+        "title": "France prepares for more protests with big police deployment",
         "source": "Financial Times",
-        "link": "https://www.ft.com/content/2aef4c58-2d1c-48b2-8626-23384895a870?syn-25a6b1a6=1"
+        "link": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1"
       },
       {
-        "title": "China’s luxury brands are ready to elbow western rivals aside",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/995ede2d-c1de-4ba7-99e3-2e18d1c43c50?syn-25a6b1a6=1"
+        "title": "Missy Elliott Honored With Icon Award, Presented By Janet Jackson At 2026 Gala Of The Stars Benefiting Dancers Against Cancer",
+        "source": "Forbes",
+        "link": "https://www.forbes.com/sites/dominiquefluker/2026/10/24/missy-elliott-honored-with-icon-award-presented-by-janet-jackson-at-2026-gala-of-the-stars-benefiting-dancers-against-cancer/"
       }
     ],
-    "prose_html": "<p>I marchi di lusso cinesi si stanno posizionando per sfidare i competitor occidentali in un mercato globale in trasformazione. Nel frattempo, pressioni strutturali si stanno accumulando nelle economie sviluppate: il mercato dei mutui britannico fatica ad adattarsi ai nuovi modelli di lavoro, mentre le tasse sul tabacco continuano a dimostrarsi strumenti politici efficaci nonostante creino opportunità di contrabbando.</p>",
-    "prose_html_en": "<p>China&#x27;s luxury brands are positioning themselves to challenge Western competitors in a shifting global market. Meanwhile, structural pressures are mounting in developed economies: the UK mortgage market is struggling to adapt to evolving work patterns, while tobacco taxes continue to prove effective policy tools despite creating smuggling opportunities.</p>"
+    "prose_html": "<p>L&#x27;amministrazione Trump sta perseguendo un&#x27;espansione aggressiva dell&#x27;intelligenza artificiale, sebbene i sondaggi suggeriscano che i suoi stessi sostenitori nutrono dubbi sulle implicazioni più ampie dell&#x27;iniziativa. Nel frattempo, la Francia affronta pressioni fiscali crescenti poiché i rendimenti dei titoli di Stato e delle obbligazioni societarie convergono, segno di un inasprimento delle condizioni creditizie in mezzo all&#x27;incertezza politica. Il Financial Times riferisce che il governo francese si sta preparando per ulteriori proteste con un dispiegamento di polizia rafforzato, aggiungendo preoccupazioni sulla stabilità economica della regione. Nel biotech, gli investitori di Moderna si stanno preparando per una volatilità continua mentre l&#x27;azienda naviga le difficoltà di mercato.</p>",
+    "prose_html_en": "<p>The Trump administration is pursuing an aggressive artificial intelligence expansion, though polling suggests his own supporters harbor reservations about the initiative&#x27;s broader implications. Meanwhile, France faces mounting fiscal pressures as government and corporate bond yields converge, a sign of tightening credit conditions amid political uncertainty. The Financial Times reports the French government is preparing for additional protests with enhanced police deployment, adding to concerns about economic stability in the region. In biotech, Moderna investors are bracing for continued volatility as the company navigates market headwinds.</p>"
   },
   "live_close_movers": {
     "captured_at": "2026-10-23T20:15:57Z",

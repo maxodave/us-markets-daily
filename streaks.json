@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-24T04:18:40Z",
+  "updated": "2026-10-24T10:45:55Z",
   "session_date": "2026-10-23",
   "universe": 558,
   "up": {
-    "count": 151,
+    "count": 161,
     "by_length": {
-      "1": 85,
-      "2": 34,
-      "3": 6,
-      "4": 20,
+      "1": 96,
+      "2": 32,
+      "3": 5,
+      "4": 22,
       "5": 4,
       "8+": 2
     },
@@ -153,13 +153,13 @@
     ]
   },
   "down": {
-    "count": 404,
+    "count": 395,
     "by_length": {
-      "1": 302,
-      "2": 71,
-      "3": 20,
-      "4": 5,
-      "5": 3,
+      "1": 283,
+      "2": 81,
+      "3": 19,
+      "4": 4,
+      "5": 5,
       "6": 1,
       "8+": 2
     },
@@ -202,6 +202,15 @@
         "cum_pct": -15.86
       },
       {
+        "symbol": "STLAM.MI",
+        "name": "Stellantis",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -5,
+        "cum_pct": -10.82
+      },
+      {
         "symbol": "GE",
         "name": "GE Aerospace",
         "indices": [
@@ -218,6 +227,15 @@
         ],
         "days": -5,
         "cum_pct": -8.16
+      },
+      {
+        "symbol": "FCT.MI",
+        "name": "Fincantieri",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -5,
+        "cum_pct": -3.99
       },
       {
         "symbol": "LRCX",
@@ -251,22 +269,13 @@
         "cum_pct": -6.73
       },
       {
-        "symbol": "STLAM.MI",
-        "name": "Stellantis",
+        "symbol": "IVG.MI",
+        "name": "Iveco",
         "indices": [
           "ftsemib"
         ],
         "days": -4,
-        "cum_pct": -4.84
-      },
-      {
-        "symbol": "FCT.MI",
-        "name": "Fincantieri",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -4,
-        "cum_pct": -3.63
+        "cum_pct": -0.7
       },
       {
         "symbol": "CRWV",
@@ -294,19 +303,10 @@
         ],
         "days": -3,
         "cum_pct": -7.32
-      },
-      {
-        "symbol": "DECK",
-        "name": "Deckers Brands",
-        "indices": [
-          "sp500"
-        ],
-        "days": -3,
-        "cum_pct": -7.19
       }
     ]
   },
   "flat": {
-    "count": 3
+    "count": 2
   }
 }
