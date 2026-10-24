@@ -1,64 +1,26 @@
 {
-  "updated": "2026-10-24T00:05:09Z",
-  "session_date": "2026-10-22",
+  "updated": "2026-10-24T04:18:40Z",
+  "session_date": "2026-10-23",
   "universe": 558,
   "up": {
-    "count": 351,
+    "count": 151,
     "by_length": {
-      "1": 192,
-      "2": 19,
-      "3": 106,
-      "4": 21,
-      "5": 1,
-      "6": 6,
-      "7": 2,
-      "8+": 4
+      "1": 85,
+      "2": 34,
+      "3": 6,
+      "4": 20,
+      "5": 4,
+      "8+": 2
     },
     "top": [
-      {
-        "symbol": "CTSH",
-        "name": "Cognizant",
-        "indices": [
-          "sp500"
-        ],
-        "days": 9,
-        "cum_pct": 24.53
-      },
-      {
-        "symbol": "EG",
-        "name": "Everest Group",
-        "indices": [
-          "sp500"
-        ],
-        "days": 9,
-        "cum_pct": 10.64
-      },
-      {
-        "symbol": "AMCR",
-        "name": "Amcor",
-        "indices": [
-          "sp500"
-        ],
-        "days": 8,
-        "cum_pct": 11.3
-      },
       {
         "symbol": "SWKS",
         "name": "Skyworks Solutions",
         "indices": [
           "sp500"
         ],
-        "days": 8,
-        "cum_pct": 10.29
-      },
-      {
-        "symbol": "ACN",
-        "name": "Accenture",
-        "indices": [
-          "sp500"
-        ],
-        "days": 7,
-        "cum_pct": 21.16
+        "days": 9,
+        "cum_pct": 11.69
       },
       {
         "symbol": "LDOS",
@@ -66,103 +28,139 @@
         "indices": [
           "sp500"
         ],
-        "days": 7,
-        "cum_pct": 12.56
+        "days": 8,
+        "cum_pct": 13.68
       },
       {
-        "symbol": "MLM",
-        "name": "Martin Marietta Materials",
+        "symbol": "NOW",
+        "name": "ServiceNow",
         "indices": [
           "sp500"
         ],
-        "days": 6,
-        "cum_pct": 9.89
+        "days": 5,
+        "cum_pct": 11.97
       },
       {
-        "symbol": "PKG",
-        "name": "Packaging Corporation of America",
+        "symbol": "CDW",
+        "name": "CDW Corporation",
         "indices": [
           "sp500"
         ],
-        "days": 6,
-        "cum_pct": 8.24
+        "days": 5,
+        "cum_pct": 9.72
       },
       {
-        "symbol": "FITB",
-        "name": "Fifth Third Bancorp",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 7.23
-      },
-      {
-        "symbol": "V",
-        "name": "Visa Inc.",
+        "symbol": "IBM",
+        "name": "IBM",
         "indices": [
           "sp500",
           "dow"
         ],
-        "days": 6,
-        "cum_pct": 5.85
+        "days": 5,
+        "cum_pct": 9.23
       },
       {
-        "symbol": "TXT",
-        "name": "Textron",
+        "symbol": "VEEV",
+        "name": "Veeva Systems",
         "indices": [
           "sp500"
         ],
-        "days": 6,
-        "cum_pct": 5.75
+        "days": 5,
+        "cum_pct": 4.09
       },
       {
-        "symbol": "CARR",
-        "name": "Carrier Global",
+        "symbol": "HAS",
+        "name": "Hasbro",
         "indices": [
           "sp500"
         ],
-        "days": 6,
-        "cum_pct": 4.13
+        "days": 4,
+        "cum_pct": 19.24
       },
       {
-        "symbol": "PEP",
-        "name": "PepsiCo",
+        "symbol": "ALLE",
+        "name": "Allegion",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 15.14
+      },
+      {
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 11.08
+      },
+      {
+        "symbol": "LMT",
+        "name": "Lockheed Martin",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 10.21
+      },
+      {
+        "symbol": "AXON",
+        "name": "Axon Enterprise",
         "indices": [
           "sp500",
           "nasdaq100"
         ],
-        "days": 5,
-        "cum_pct": 8.14
+        "days": 4,
+        "cum_pct": 9.73
       },
       {
-        "symbol": "HPQ",
-        "name": "HP Inc.",
+        "symbol": "BBY",
+        "name": "Best Buy",
         "indices": [
           "sp500"
         ],
         "days": 4,
-        "cum_pct": 12.5
+        "cum_pct": 9.59
       },
       {
-        "symbol": "FDS",
-        "name": "FactSet",
+        "symbol": "SWK",
+        "name": "Stanley Black & Decker",
         "indices": [
           "sp500"
         ],
         "days": 4,
-        "cum_pct": 11.2
+        "cum_pct": 8.83
+      },
+      {
+        "symbol": "AKAM",
+        "name": "Akamai Technologies",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 7.2
+      },
+      {
+        "symbol": "DD",
+        "name": "DuPont",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 5.57
       }
     ]
   },
   "down": {
-    "count": 204,
+    "count": 404,
     "by_length": {
-      "1": 161,
-      "2": 27,
-      "3": 6,
-      "4": 6,
-      "5": 1,
-      "7": 1,
+      "1": 302,
+      "2": 71,
+      "3": 20,
+      "4": 5,
+      "5": 3,
+      "6": 1,
       "8+": 2
     },
     "top": [
@@ -172,8 +170,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -9,
-        "cum_pct": -36.0
+        "days": -10,
+        "cum_pct": -36.12
       },
       {
         "symbol": "EME",
@@ -181,17 +179,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -9,
-        "cum_pct": -16.35
-      },
-      {
-        "symbol": "MOS",
-        "name": "Mosaic Company (The)",
-        "indices": [
-          "sp500"
-        ],
-        "days": -7,
-        "cum_pct": -9.96
+        "days": -10,
+        "cum_pct": -17.96
       },
       {
         "symbol": "DXCM",
@@ -200,8 +189,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -5,
-        "cum_pct": -10.71
+        "days": -6,
+        "cum_pct": -11.14
       },
       {
         "symbol": "HWM",
@@ -209,8 +198,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -12.52
+        "days": -5,
+        "cum_pct": -15.86
       },
       {
         "symbol": "GE",
@@ -218,8 +207,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -6.47
+        "days": -5,
+        "cum_pct": -8.98
       },
       {
         "symbol": "TPR",
@@ -227,8 +216,39 @@
         "indices": [
           "sp500"
         ],
+        "days": -5,
+        "cum_pct": -8.16
+      },
+      {
+        "symbol": "LRCX",
+        "name": "Lam Research",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
         "days": -4,
-        "cum_pct": -5.21
+        "cum_pct": -15.47
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc. (Class A)",
+        "indices": [
+          "sp500",
+          "dow",
+          "nasdaq100"
+        ],
+        "days": -4,
+        "cum_pct": -6.96
+      },
+      {
+        "symbol": "GOOG",
+        "name": "Alphabet Inc. (Class C)",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -4,
+        "cum_pct": -6.73
       },
       {
         "symbol": "STLAM.MI",
@@ -249,63 +269,40 @@
         "cum_pct": -3.63
       },
       {
-        "symbol": "FANG",
-        "name": "Diamondback Energy",
+        "symbol": "CRWV",
+        "name": "CoreWeave",
         "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -3.34
-      },
-      {
-        "symbol": "LRCX",
-        "name": "Lam Research",
-        "indices": [
-          "sp500",
           "nasdaq100"
         ],
         "days": -3,
-        "cum_pct": -15.45
+        "cum_pct": -12.71
       },
       {
-        "symbol": "APH",
-        "name": "Amphenol",
+        "symbol": "GL",
+        "name": "Globe Life",
         "indices": [
           "sp500"
         ],
         "days": -3,
-        "cum_pct": -8.98
+        "cum_pct": -8.8
       },
       {
-        "symbol": "GOOGL",
-        "name": "Alphabet Inc. (Class A)",
-        "indices": [
-          "sp500",
-          "dow",
-          "nasdaq100"
-        ],
-        "days": -3,
-        "cum_pct": -5.8
-      },
-      {
-        "symbol": "GOOG",
-        "name": "Alphabet Inc. (Class C)",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -3,
-        "cum_pct": -5.7
-      },
-      {
-        "symbol": "DVN",
-        "name": "Devon Energy",
+        "symbol": "RDDT",
+        "name": "Reddit",
         "indices": [
           "sp500"
         ],
         "days": -3,
-        "cum_pct": -3.42
+        "cum_pct": -7.32
+      },
+      {
+        "symbol": "DECK",
+        "name": "Deckers Brands",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -7.19
       }
     ]
   },
