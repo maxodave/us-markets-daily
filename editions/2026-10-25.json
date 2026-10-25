@@ -6,14 +6,14 @@
   "session_date_it": "23 ottobre 2026",
   "session_date_en": "October 23, 2026",
   "edition_kind": "weekend_recap",
-  "headline": "Mercati chiusi: le notizie di sabato in sintesi, con Ethereum -1,55% dalla chiusura di venerdi'",
-  "headline_en": "Markets closed: Saturday's news in brief, with Ethereum -1.55% since Friday's close",
+  "headline": "Mercati chiusi: le notizie di sabato in sintesi, con Ethereum -3,08% dalla chiusura di venerdi'",
+  "headline_en": "Markets closed: Saturday's news in brief, with Ethereum -3.08% since Friday's close",
   "auto_report": {
     "stats": {
       "n_up": 135,
-      "n_down": 366,
+      "n_down": 367,
       "n_flat": 1,
-      "n_total": 502,
+      "n_total": 503,
       "avg_pct": -0.78,
       "best_sectors": [
         {
@@ -45,7 +45,7 @@
       ]
     },
     "paragraphs": [
-      "Nella seduta del 23 ottobre 2026 l'S&P 500 ha chiuso con 135 societa' in rialzo, 366 in ribasso e 1 invariate, su 502 titoli monitorati. La variazione media dell'indice e' stata di -0,78%.",
+      "Nella seduta del 23 ottobre 2026 l'S&P 500 ha chiuso con 135 societa' in rialzo, 367 in ribasso e 1 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di -0,78%.",
       "Settori con la variazione media migliore: Energy (+2,68%); Information Technology (+0,41%); Real Estate (-0,10%). Settori piu' debolli: Consumer Discretionary (-2,18%); Consumer Staples (-1,79%); Communication Services (-1,79%).",
       "In cima alla seduta: Crown Castle (CCI, +9,06%); CrowdStrike (CRWD, +8,25%); Palo Alto Networks (PANW, +7,22%). In fondo: Bloom Energy (BE, -11,24%); Comfort Systems USA (FIX, -9,26%); Globe Life (GL, -8,09%)."
     ],
@@ -322,9 +322,9 @@
     "sp500": {
       "stats": {
         "n_up": 135,
-        "n_down": 366,
+        "n_down": 367,
         "n_flat": 1,
-        "n_total": 502,
+        "n_total": 503,
         "avg_pct": -0.78,
         "best_sectors": [
           {
@@ -625,12 +625,12 @@
       ],
       "paragraphs": {
         "en": [
-          "In the October 23, 2026 session the S&P 500 closed with 135 stocks higher, 366 lower and 1 unchanged, out of 502 tracked. The average move was -0.78%.",
+          "In the October 23, 2026 session the S&P 500 closed with 135 stocks higher, 367 lower and 1 unchanged, out of 503 tracked. The average move was -0.78%.",
           "Best-performing sectors by average move: Energy (+2.68%); Information Technology (+0.41%); Real Estate (-0.10%). Weakest: Consumer Discretionary (-2.18%); Consumer Staples (-1.79%); Communication Services (-1.79%).",
           "Leading the session: Crown Castle (CCI, +9.06%); CrowdStrike (CRWD, +8.25%); Palo Alto Networks (PANW, +7.22%). At the bottom: Bloom Energy (BE, -11.24%); Comfort Systems USA (FIX, -9.26%); Globe Life (GL, -8.09%)."
         ],
         "it": [
-          "Nella seduta del 23 ottobre 2026 l'S&P 500 ha chiuso con 135 societa' in rialzo, 366 in ribasso e 1 invariate, su 502 titoli monitorati. La variazione media dell'indice e' stata di -0,78%.",
+          "Nella seduta del 23 ottobre 2026 l'S&P 500 ha chiuso con 135 societa' in rialzo, 367 in ribasso e 1 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di -0,78%.",
           "Settori con la variazione media migliore: Energy (+2,68%); Information Technology (+0,41%); Real Estate (-0,10%). Settori piu' debolli: Consumer Discretionary (-2,18%); Consumer Staples (-1,79%); Communication Services (-1,79%).",
           "In cima alla seduta: Crown Castle (CCI, +9,06%); CrowdStrike (CRWD, +8,25%); Palo Alto Networks (PANW, +7,22%). In fondo: Bloom Energy (BE, -11,24%); Comfort Systems USA (FIX, -9,26%); Globe Life (GL, -8,09%)."
         ]
@@ -639,10 +639,10 @@
     "dow": {
       "stats": {
         "n_up": 6,
-        "n_down": 23,
+        "n_down": 24,
         "n_flat": 0,
-        "n_total": 29,
-        "avg_pct": -1.06,
+        "n_total": 30,
+        "avg_pct": -1.08,
         "best_sectors": [
           {
             "sector": "Information Technology",
@@ -654,7 +654,7 @@
           },
           {
             "sector": "Health Care",
-            "avg_pct": -1.46
+            "avg_pct": -1.54
           }
         ],
         "worst_sectors": [
@@ -919,6 +919,21 @@
           "news_historical": []
         },
         {
+          "symbol": "AMGN",
+          "name": "Amgen",
+          "sector": "Health Care",
+          "pct_change": -1.79,
+          "last_close": 439.26,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
           "symbol": "TRV",
           "name": "Travelers Companies (The)",
           "sector": "Financials",
@@ -945,31 +960,17 @@
           "reason": null,
           "news": [],
           "news_historical": []
-        },
-        {
-          "symbol": "MCD",
-          "name": "McDonald's",
-          "sector": "Consumer Discretionary",
-          "pct_change": -1.65,
-          "last_close": 248.46,
-          "indices": [
-            "sp500",
-            "dow"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
         }
       ],
       "paragraphs": {
         "en": [
-          "In the October 23, 2026 session the Dow Jones closed with 6 stocks higher, 23 lower, out of 29 tracked. The average move was -1.06%.",
-          "Best-performing sectors by average move: Information Technology (+0.23%); Industrials (-0.47%); Health Care (-1.46%). Weakest: Consumer Staples (-2.18%); Financials (-2.04%); Consumer Discretionary (-1.92%).",
+          "In the October 23, 2026 session the Dow Jones closed with 6 stocks higher, 24 lower, out of 30 tracked. The average move was -1.08%.",
+          "Best-performing sectors by average move: Information Technology (+0.23%); Industrials (-0.47%); Health Care (-1.54%). Weakest: Consumer Staples (-2.18%); Financials (-2.04%); Consumer Discretionary (-1.92%).",
           "Leading the session: Chevron Corporation (CVX, +2.88%); Cisco (CSCO, +1.53%); Honeywell Technologies (HON, +1.30%). At the bottom: American Express (AXP, -3.68%); Procter & Gamble (PG, -2.76%); Coca-Cola Company (The) (KO, -2.76%)."
         ],
         "it": [
-          "Nella seduta del 23 ottobre 2026 il Dow Jones ha chiuso con 6 societa' in rialzo, 23 in ribasso, su 29 titoli monitorati. La variazione media dell'indice e' stata di -1,06%.",
-          "Settori con la variazione media migliore: Information Technology (+0,23%); Industrials (-0,47%); Health Care (-1,46%). Settori piu' debolli: Consumer Staples (-2,18%); Financials (-2,04%); Consumer Discretionary (-1,92%).",
+          "Nella seduta del 23 ottobre 2026 il Dow Jones ha chiuso con 6 societa' in rialzo, 24 in ribasso, su 30 titoli monitorati. La variazione media dell'indice e' stata di -1,08%.",
+          "Settori con la variazione media migliore: Information Technology (+0,23%); Industrials (-0,47%); Health Care (-1,54%). Settori piu' debolli: Consumer Staples (-2,18%); Financials (-2,04%); Consumer Discretionary (-1,92%).",
           "In cima alla seduta: Chevron Corporation (CVX, +2,88%); Cisco (CSCO, +1,53%); Honeywell Technologies (HON, +1,30%). In fondo: American Express (AXP, -3,68%); Procter & Gamble (PG, -2,76%); Coca-Cola Company (The) (KO, -2,76%)."
         ]
       }
@@ -977,10 +978,10 @@
     "nasdaq100": {
       "stats": {
         "n_up": 33,
-        "n_down": 66,
+        "n_down": 67,
         "n_flat": 1,
-        "n_total": 100,
-        "avg_pct": -0.35,
+        "n_total": 101,
+        "avg_pct": -0.36,
         "best_sectors": [
           {
             "sector": "Information Technology",
@@ -1293,12 +1294,12 @@
       ],
       "paragraphs": {
         "en": [
-          "In the October 23, 2026 session the Nasdaq-100 closed with 33 stocks higher, 66 lower and 1 unchanged, out of 100 tracked. The average move was -0.35%.",
+          "In the October 23, 2026 session the Nasdaq-100 closed with 33 stocks higher, 67 lower and 1 unchanged, out of 101 tracked. The average move was -0.36%.",
           "Best-performing sectors by average move: Information Technology (+0.71%); Technology (-0.26%); Industrials (-0.47%). Weakest: Communication Services (-2.12%); Consumer Staples (-1.94%); Consumer Discretionary (-1.93%).",
           "Leading the session: CrowdStrike (CRWD, +8.25%); Palo Alto Networks (PANW, +7.22%); Datadog (DDOG, +4.62%). At the bottom: T-Mobile US (TMUS, -7.71%); Old Dominion (ODFL, -3.79%); DoorDash (DASH, -3.53%)."
         ],
         "it": [
-          "Nella seduta del 23 ottobre 2026 il Nasdaq-100 ha chiuso con 33 societa' in rialzo, 66 in ribasso e 1 invariate, su 100 titoli monitorati. La variazione media dell'indice e' stata di -0,35%.",
+          "Nella seduta del 23 ottobre 2026 il Nasdaq-100 ha chiuso con 33 societa' in rialzo, 67 in ribasso e 1 invariate, su 101 titoli monitorati. La variazione media dell'indice e' stata di -0,36%.",
           "Settori con la variazione media migliore: Information Technology (+0,71%); Technology (-0,26%); Industrials (-0,47%). Settori piu' debolli: Communication Services (-2,12%); Consumer Staples (-1,94%); Consumer Discretionary (-1,93%).",
           "In cima alla seduta: CrowdStrike (CRWD, +8,25%); Palo Alto Networks (PANW, +7,22%); Datadog (DDOG, +4,62%). In fondo: T-Mobile US (TMUS, -7,71%); Old Dominion (ODFL, -3,79%); DoorDash (DASH, -3,53%)."
         ]
@@ -1620,10 +1621,10 @@
     "combined": {
       "stats": {
         "n_up": 140,
-        "n_down": 376,
+        "n_down": 377,
         "n_flat": 1,
-        "n_total": 517,
-        "avg_pct": -0.76,
+        "n_total": 518,
+        "avg_pct": -0.77,
         "best_sectors": [
           {
             "sector": "Energy",
@@ -1923,12 +1924,12 @@
       ],
       "paragraphs": {
         "en": [
-          "In the October 23, 2026 session the combined three U.S. indices closed with 140 stocks higher, 376 lower and 1 unchanged, out of 517 tracked. The average move was -0.76%.",
+          "In the October 23, 2026 session the combined three U.S. indices closed with 140 stocks higher, 377 lower and 1 unchanged, out of 518 tracked. The average move was -0.77%.",
           "Best-performing sectors by average move: Energy (+2.68%); Information Technology (+0.41%); Real Estate (-0.10%). Weakest: Consumer Discretionary (-2.15%); Consumer Staples (-1.82%); Communication Services (-1.79%).",
           "Leading the session: Crown Castle (CCI, +9.06%); CrowdStrike (CRWD, +8.25%); Palo Alto Networks (PANW, +7.22%). At the bottom: Bloom Energy (BE, -11.24%); Comfort Systems USA (FIX, -9.26%); Globe Life (GL, -8.09%)."
         ],
         "it": [
-          "Nella seduta del 23 ottobre 2026 l'insieme dei tre indici USA ha chiuso con 140 societa' in rialzo, 376 in ribasso e 1 invariate, su 517 titoli monitorati. La variazione media dell'indice e' stata di -0,76%.",
+          "Nella seduta del 23 ottobre 2026 l'insieme dei tre indici USA ha chiuso con 140 societa' in rialzo, 377 in ribasso e 1 invariate, su 518 titoli monitorati. La variazione media dell'indice e' stata di -0,77%.",
           "Settori con la variazione media migliore: Energy (+2,68%); Information Technology (+0,41%); Real Estate (-0,10%). Settori piu' debolli: Consumer Discretionary (-2,15%); Consumer Staples (-1,82%); Communication Services (-1,79%).",
           "In cima alla seduta: Crown Castle (CCI, +9,06%); CrowdStrike (CRWD, +8,25%); Palo Alto Networks (PANW, +7,22%). In fondo: Bloom Energy (BE, -11,24%); Comfort Systems USA (FIX, -9,26%); Globe Life (GL, -8,09%)."
         ]
@@ -1949,40 +1950,49 @@
       "image": null
     },
     {
-      "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Sat, 24 Oct 2026 06:23:02 GMT",
-      "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
-      "summary": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests.",
-      "image": null
-    },
-    {
-      "title": "Why 17 is not the magic number in industrial policy",
+      "title": "Luxury groups’ value drops by €250bn as Chinese consumer demand fades",
       "source": "Financial Times",
       "category": "mercati",
-      "published": "Sun, 25 Oct 2026 01:00:09 GMT",
-      "link": "https://www.ft.com/content/3e405824-a44a-4cb7-bc80-acc5bc3b5b59?syn-25a6b1a6=1",
-      "summary": "A lack of focus threatens to hobble Japanese premier Sanae Takaichi’s growth strategy",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fedd1c644-707a-4973-9d45-898d2cd25e52.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      "published": "Sun, 25 Oct 2026 05:00:10 GMT",
+      "link": "https://www.ft.com/content/1c3065cf-538f-433a-9749-0355a3642c7c?syn-25a6b1a6=1",
+      "summary": "Slowdown in China and cooling global stock markets are exacerbating a downturn for European sector",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F36910998-36b2-4b8d-89cc-c4d47a6b2a27.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
     },
     {
-      "title": "SoftBank-backed drone maker wants every farmer to ‘have their own robot’",
+      "title": "Bolsonaro and Lula face off in knife-edge Brazil election",
       "source": "Financial Times",
       "category": "mercati",
-      "published": "Sun, 25 Oct 2026 01:00:09 GMT",
-      "link": "https://www.ft.com/content/9fe60016-1520-4bfd-bcfc-f30caa0b1600?syn-25a6b1a6=1",
-      "summary": "Chinese start-up XAG believes pilotless crop sprayers are the answer to a dwindling workforce and rising temperatures",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F9f90272e-5b04-4f81-92a7-0b4259d0a158.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      "published": "Sun, 25 Oct 2026 05:00:10 GMT",
+      "link": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
+      "summary": "Rightwing challenger seeks to oust leftist president and bring Latin America’s largest country closer to Donald Trump",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F155ed377-6efc-48cd-b5a8-6005b826afe4.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
     },
     {
-      "title": "Co-operate to avoid being hostage to geopolitics, Australia tells ‘middle powers’",
+      "title": "The right’s obsession with ‘civil war’ in Britain",
       "source": "Financial Times",
       "category": "mercati",
-      "published": "Sun, 25 Oct 2026 01:00:09 GMT",
-      "link": "https://www.ft.com/content/653f5a48-94f5-4e92-86dd-7d118e8849a8?syn-25a6b1a6=1",
-      "summary": "Jim Chalmers argues economic security and bolstering supply chains would benefit consumers",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4dd5a27f-765e-49d7-a331-52431dc41926.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      "published": "Sun, 25 Oct 2026 05:00:02 GMT",
+      "link": "https://www.ft.com/content/3736714a-2058-4413-ac91-e8f10f33ad69?syn-25a6b1a6=1",
+      "summary": "Many of those stoking fears of bloody unrest don’t actually live in the country",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F6c0edf59-289c-42e1-a8e1-21811ae3f374.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "The Black Sea is now the world’s deadliest shipping route",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sun, 25 Oct 2026 05:00:02 GMT",
+      "link": "https://www.ft.com/content/8c874f60-0041-476d-9c53-8524c374443f?syn-25a6b1a6=1",
+      "summary": "Fatalities of commercial sailors caught in battle between Russia and Ukraine are outstripping deaths in the Gulf",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F2a0d23a0-337d-412e-8de3-e1a219fdc872.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "More than 1mn antiquities returned to countries of origin",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sun, 25 Oct 2026 05:00:02 GMT",
+      "link": "https://www.ft.com/content/82f2922f-8c73-4e00-9a71-7682a2c9af1a?syn-25a6b1a6=1",
+      "summary": "First comprehensive database of looted items returned by museums and collectors suggests articles worth at least $2bn have been repatriated since 1950",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F02be9965-92c4-45fe-bc4d-92b959ee4d1e.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
     },
     {
       "title": "The Cat-and-Mouse Game Between Premium Credit-Card Firms and Points Junkies",
@@ -1992,15 +2002,6 @@
       "link": "https://www.wsj.com/finance/banking/the-cat-and-mouse-game-between-premium-credit-card-firms-and-points-junkies-8ce2e30a?mod=rss_markets_main",
       "summary": "A subculture of people obsessed with reaping rewards is prompting banks to adjust to their evolving tactics.",
       "image": "https://images.wsj.net/im-61989903"
-    },
-    {
-      "title": "Ukraine military says Starlink service restrictions have been lifted",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 24 Oct 2026 21:30:37 GMT",
-      "link": "https://www.ft.com/content/5b5592f4-c59d-4eb1-af78-078dc32fcab8",
-      "summary": "Slowdown in drone communication system had hampered Kyiv’s ability to defend itself against Russian strikes",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F5377933b-e31c-4adf-9751-759591ed9473.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
     },
     {
       "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
@@ -2057,21 +2058,39 @@
       "image": "https://images.mktw.net/im-36620363"
     },
     {
-      "title": "Brazil Election: Lula Rallies Supporters for One Last Comeback",
+      "title": "Brookfield to Open Doha Office to Deepen Its Middle East Reach",
       "source": "Bloomberg",
       "category": "mercati",
-      "published": "Sun, 25 Oct 2026 02:02:19 GMT",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-25/brazil-election-lula-rallies-supporters-for-one-last-comeback",
-      "summary": "Luiz Inácio Lula da Silva wasn’t going down without a fight. And his fans weren’t ready to give up on him. Here, marching down Sao Paulo’s most iconic avenue, they were bearing witness to what may turn out to be the last rally by the most defining figure of Latin America’s left.",
+      "published": "Sun, 25 Oct 2026 08:47:01 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-25/brookfield-to-open-doha-office-to-deepen-its-middle-east-reach",
+      "summary": "Brookfield Asset Management Ltd. is opening an office in Qatar, deepening its presence in the Middle East where many countries are grappling with the economic fallout from the war.",
       "image": null
     },
     {
-      "title": "Saudi Arabia Suggests Riyadh Airport May Reopen on Sunday",
+      "title": "Goldman Cuts Kospi 12-Month Target by 25% as AI Trade Unravels",
       "source": "Bloomberg",
       "category": "mercati",
-      "published": "Sat, 24 Oct 2026 21:27:28 GMT",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-24/saudi-arabia-suggests-riyadh-airport-may-reopen-on-sunday",
-      "summary": "Saudi Arabia’s main airport was gearing up to reopen as early as Sunday after operations had been disrupted by a spate of attacks by Houthi rebels.",
+      "published": "Sun, 25 Oct 2026 07:44:43 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-25/goldman-cuts-kospi-12-month-target-by-25-as-ai-trade-unravels",
+      "summary": "Goldman Sachs Group Inc. strategists slashed their target for South Korea’s Kospi Index by 25%, after raising it repeatedly this year, as concerns over the artificial intelligence trade intensify.",
+      "image": null
+    },
+    {
+      "title": "Singapore’s Wong Vows More Support for Workers, Energy Security",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sun, 25 Oct 2026 05:40:56 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-25/singapore-s-wong-vows-more-support-for-workers-energy-security",
+      "summary": "Singapore Prime Minister Lawrence Wong pledged more support for workers and households, and said the government would step up efforts to secure energy supplies and attract investment as the city-state confronts growing global uncertainty.",
+      "image": null
+    },
+    {
+      "title": "BC Left-Wing Leader Loses to Conservatives in Vote He Called",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sun, 25 Oct 2026 04:08:12 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-25/bc-s-left-wing-leader-loses-to-conservatives-in-vote-he-called",
+      "summary": "British Columbia elected its first Conservative Party majority in 98 years, swinging Canada’s third most populous province to the political right.",
       "image": null
     },
     {
@@ -2084,166 +2103,148 @@
       "image": null
     },
     {
-      "title": "New Middle East Threats, Russian Diesel Coming to US",
-      "source": "Bloomberg",
+      "title": "Fewer people are flying as airfare soars. Here's why airlines aren't worried",
+      "source": "CNBC",
       "category": "mercati",
-      "published": "Sat, 24 Oct 2026 15:57:32 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-24/bloomberg-this-weekend-10-24-2026-video",
-      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by The New Yorker Staff Writer Gideon Lewis-Kraus, Linx Dating Founder & CEO Amy A",
+      "published": "Sat, 24 Oct 2026 15:53:30 GMT",
+      "link": "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html",
+      "summary": "Airlines are reporting fewer people flew in the third quarter as airfare surged on fuel costs, but executives say travelers are mostly swallowing higher fares.",
       "image": null
     },
     {
-      "title": "The Real Medical Detective Who Inspired Sherlock Holmes",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Sat, 24 Oct 2026 14:36:22 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-24/the-real-medical-detective-who-inspired-sherlock-holmes-video",
-      "summary": "Medical historian Lindsey Fitzharris tells Bloomberg This Weekend how Scottish surgeon Joseph Bell’s remarkable powers of observation inspired his student Arthur Conan Doyle to create Sherlock Holmes. Speaking with hosts Christina Ruffini and Lisa Mateo, Fitzharris discusses her ",
-      "image": null
-    },
-    {
-      "title": "Indonesia cuts pipeline gas exports to Singapore by about 9%",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Sat, 24 Oct 2026 13:30:35 GMT",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVVkTFlZc0hWcDVneTJjckZnXy1kYjhtX1BYaUlZR1JwTlBJMTRzbU1jWm1yQTVqQUZ5Rl92QndOdk1wTFhoUVZUTHU5NTQ1WjFXd1YwcHJZb21JWEw1MmJVUlZRTDc2VTEzU0VyNlVIeXN2cUNOVWlKV3h3dm9Ud21RQU9ZbmdnU2lFaVU5SDMyUG9pcEI5aGF1NEo1TGZCUkxuUjQ2YjdQX0Vj?oc=5",
-      "summary": "Indonesia cuts pipeline gas exports to Singapore by about 9% &nbsp;&nbsp; Reuters",
-      "image": null
-    },
-    {
-      "title": "Jordan king orders 'iron fist' response to deadly church attack",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Sat, 24 Oct 2026 06:17:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSldwN2ViWHdOeFFhai1heXdsT0ExOW9GNW1FYlpPQnhad0NzTE53N3p3ckRqSlJUTnE0eGNnOHZOb1dIZGdKbng5d2lxMHp0cHpGb1QyOXVsUjlQamVzOGlHVkJCRlBXSk0zaURFekgtSDA5X1praWRjek14NGlOMmdHZnAxd29LRFRJamRSdTZtV1lCbm1UUEh3V1EwOFFFaFUycTZDZHJucFJHS3BicDdMNWY2N1VHa19feDJoZTRkU1l3T0E?oc=5",
-      "summary": "Jordan king orders 'iron fist' response to deadly church attack &nbsp;&nbsp; Reuters",
-      "image": null
-    },
-    {
-      "title": "Concept Art Awards 2026 Honor Creators From Animation Legends To Stars Of The Future",
+      "title": "Billion-Dollar Ballers: Two New Athletes Hit $1 Billion In Career Earnings",
       "source": "Forbes",
       "category": "mercati",
-      "published": "Sat, 24 Oct 2026 23:30:02 -0400",
-      "link": "https://www.forbes.com/sites/robsalkowitz/2026/10/24/concept-art-awards-2026-honor-creators-from-animation-legends-to-stars-of-the-future/",
-      "summary": "The awards honor artists responsible for the visual spectacle of movies, animation and games.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6adc049a5f9d16f05120c48a/0x0.jpg?width=960&precrop=1388%2C780%2Cx142%2Cy172"
+      "published": "Sun, 25 Oct 2026 06:30:00 -0400",
+      "link": "https://www.forbes.com/sites/hanktucker/2026/10/25/highest-paid-athletes-of-all-time-list/",
+      "summary": "Nine athletes have crossed $1 billion in career income, with two more set to join them within the next year. See the sports stars on the all-time earnings list here.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6adbcef9b841b8974f5433c4/0x0.jpg?width=960&precrop=1919%2C1079%2Cx0%2Cy0"
     },
     {
-      "title": "Audi to Build Factory in Georgia, Trump Says",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Sun, 25 Oct 2026 02:17:33 +0000",
-      "link": "https://www.nytimes.com/2026/10/24/business/audi-factory-georgia-trump.html",
-      "summary": "The Volkswagen division, which imports all its cars from Europe or Mexico, has been hit hard by U.S. tariffs.",
-      "image": "https://static01.nyt.com/images/2026/10/24/multimedia/24biz-audi-factory-wmtq/24biz-audi-factory-wmtq-mediumSquareAt3X.jpg"
-    },
-    {
-      "title": "Messi Turns World Cup Heartbreak Into MLS Brilliance",
+      "title": "Phillies Cut Ties With 11-Year MLB Shortstop After Disappointing Season",
       "source": "Forbes",
       "category": "mercati",
-      "published": "Sat, 24 Oct 2026 21:55:53 -0400",
-      "link": "https://www.forbes.com/sites/clementelisi/2026/10/24/messi-turns-world-cup-heartbreak-into-mls-brilliance/",
-      "summary": "The Argentine has found a different stage on which to make history over the past three months and is once again leaving his mark on America's top soccer league.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6add0ca3f72db57260503180/0x0.jpg"
+      "published": "Sun, 25 Oct 2026 06:30:00 -0400",
+      "link": "https://www.forbes.com/sites/peterchawaga/2026/10/25/phillies-cut-ties-with-11-year-mlb-shortstop-after-disappointing-season/",
+      "summary": "The Philadelphia Phillies have made a harsh decision on a former World Series infielder after four years with the organization.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6931de9e3017aaab6469ee0a/0x0.jpg"
     },
     {
-      "title": "‘Marshals’ Season 2 Release Guide: Here’s When Episode 4 ‘Blast Radius’ Drops On CBS And Paramount+",
+      "title": "Blue Jays Send Discouraging Anthony Santander Message After Injury Setback",
       "source": "Forbes",
       "category": "mercati",
-      "published": "Sat, 24 Oct 2026 19:51:34 -0400",
-      "link": "https://www.forbes.com/sites/erikkain/2026/10/24/when-does-marshals-season-2-episode-4-air-cbs-paramount-plus/",
-      "summary": "What time does ‘Marshals’ Season 2 Episode 4, “Blast Radius,” air tonight? Here’s the October 25 CBS release time, Paramount+ streaming date and schedule.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6ac25f10e44b5f5f37f92a8a/0x0.jpg"
+      "published": "Sun, 25 Oct 2026 06:00:00 -0400",
+      "link": "https://www.forbes.com/sites/peterchawaga/2026/10/25/blue-jays-send-discouraging-anthony-santander-message-after-injury-setback/",
+      "summary": "The Toronto Blue Jays offered a harsh response on the future of their $92 million slugger.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6aa9ac33c51229ca04a5649d/0x0.jpg"
     },
     {
-      "title": "World All-Around Champion Skye Blakely’s Stardom Was Delayed, Not Denied",
+      "title": "Former ‘60 Minutes’ Boss to Join Video Journalism Start-Up",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sun, 25 Oct 2026 09:30:04 +0000",
+      "link": "https://www.nytimes.com/2026/10/25/business/media/bill-owens-60-minutes-emerson-collective.html",
+      "summary": "Bill Owens, who left the show after clashing with CBS executives, is joining Newpress, which publishes work from creators on YouTube.",
+      "image": "https://static01.nyt.com/images/2026/10/22/multimedia/22BIZ-NEWPRESS-czkv/22BIZ-NEWPRESS-czkv-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "My Co-Worker Is Losing It Over My Religion",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sun, 25 Oct 2026 09:01:59 +0000",
+      "link": "https://www.nytimes.com/2026/10/25/business/my-co-worker-is-losing-it-over-my-religion.html",
+      "summary": "Plus: Reader responses to a woman returning to the office after two decades of self-employment.",
+      "image": "https://static01.nyt.com/images/2026/10/25/multimedia/25bizsun-workfriend-illo-vgpc/25bizsun-workfriend-illo-vgpc-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Public Colleges Are Passing the $50,000-a-Year Mark. For Locals.",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sun, 25 Oct 2026 09:01:31 +0000",
+      "link": "https://www.nytimes.com/2026/10/25/business/california-colleges-costs.html",
+      "summary": "At the University of California campuses in Berkeley, Irvine and Santa Barbara, students get an unwitting education in navigating the housing market.",
+      "image": "https://static01.nyt.com/images/2026/10/24/multimedia/24Biz-UC-50-lede-lkcm/24Biz-UC-50-lede-lkcm-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "The Long Life of the ‘Snacking Occasion’",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sun, 25 Oct 2026 09:01:29 +0000",
+      "link": "https://www.nytimes.com/2026/10/25/business/the-long-life-of-the-snacking-occasiong-glp1.html",
+      "summary": "As eating habits shift, the food industry is promoting any opportunity to nibble.",
+      "image": "https://static01.nyt.com/images/2026/10/25/business/25shoptalk-snack-illo/25shoptalk-snack-illo-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "The World’s Best Bourbon—According To The 2026 San Francisco World Spirits Competition",
       "source": "Forbes",
       "category": "mercati",
-      "published": "Sat, 24 Oct 2026 18:26:50 -0400",
-      "link": "https://www.forbes.com/sites/carolineprice/2026/10/24/world-all-around-champion-skye-blakelys-stardom-was-delayed-not-denied/",
-      "summary": "From a ruptured Achilles tendon at the U.S. Olympic Trials to all-around gold in her fourth world gymnastics championships, Skye Blakely’s comeback has come full circle.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6add1ff32d542722ec980604/0x0.jpg?width=960&precrop=3991%2C2246%2Cx6%2Cy225"
+      "published": "Sun, 25 Oct 2026 04:34:00 -0400",
+      "link": "https://www.forbes.com/sites/bradjaphe/2026/10/25/the-worlds-best-bourbon-according-to-the-2026-san-francisco-world-spirits-competition/",
+      "summary": "For the third year in a row, the prestigious tasting panel has named this Kentucky brand the most awarded American whiskey maker on earth by the prestigious tasting panel",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6add1957a0a4747f9183bb3a/0x0.jpg"
     },
     {
-      "title": "Attention, Passengers: High Airfares May Be Here to Stay",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Sat, 24 Oct 2026 12:54:30 +0000",
-      "link": "https://www.nytimes.com/2026/10/24/business/airlines-ticket-prices.html",
-      "summary": "Ticket prices jumped after fuel costs spiked because of the war with Iran, but airlines say even an end to the conflict will not bring fares back down quickly.",
-      "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26biz-airfares-mpfb/26biz-airfares-mpfb-mediumSquareAt3X.jpg"
-    },
-    {
-      "title": "5 Takeaways From Our Investigation of Trump’s Waivers for Polluters",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Sat, 24 Oct 2026 12:50:46 +0000",
-      "link": "https://www.nytimes.com/2026/10/24/climate/takeaways-trump-waivers-chemical-pollution.html",
-      "summary": "Chemical plants and other industrial facilities had been required to curb their toxic emissions. A New York Times investigation shows how they got out of it.",
-      "image": "https://static01.nyt.com/images/2026/10/22/multimedia/00CLI-POLLUTION-EPA-TAKEAWAYS-glzb/00CLI-POLLUTION-EPA-TAKEAWAYS-glzb-mediumSquareAt3X.jpg"
-    },
-    {
-      "title": "C.E.O.s Say the A.I. Rollout Is Going Well. Employees Feel Differently.",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Sat, 24 Oct 2026 12:00:03 +0000",
-      "link": "https://www.nytimes.com/2026/10/24/business/dealbook/ceos-say-the-ai-rollout-is-going-well-employees-feel-differently.html",
-      "summary": "Surveys show workers and executives have different views on A.I.",
-      "image": "https://static01.nyt.com/images/2026/10/23/business/00db-ai-disconnect/00db-ai-disconnect-mediumSquareAt3X.jpg"
-    },
-    {
-      "title": "++ Eurostat, disuguaglianza redditi in Italia ai minimi da 2014 ma resta oltre media Ue ++",
+      "title": "Il prezzo della pasta scende, in due anni -23,7%",
       "source": "ANSA Economia",
       "category": "italia",
-      "published": "Sat, 24 Oct 2026 10:50:49 +0200",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/eurostat-disuguaglianza-redditi-in-italia-ai-minimi-da-2014-ma-resta-oltre-media-ue_1c1bff46-bdcc-4101-82ad-85a380f9b398.html",
-      "summary": "Indice al 31 a fronte del 29,2 in Ue. Per gli under 18 al 29,3; media al 28,6",
+      "published": "Sat, 24 Oct 2026 11:59:39 +0200",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/il-prezzo-della-pasta-scende-in-due-anni-237_b3e33e4e-503d-462b-b999-9c6b6a180ead.html",
+      "summary": "Crc-Assoutenti, dopo i rincari per guerra in Ucraina listini in diminuzione anche nel 2026",
       "image": null
     },
     {
-      "title": "Offerta asili nido cresce ma copertura non supera il 40%; al Sud resta al 19%",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Sat, 24 Oct 2026 10:38:22 +0200",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/offerta-asili-nido-cresce-ma-copertura-non-supera-il-40-al-sud-resta-al-19_8097c665-b670-4f98-8b33-6582e5aa394a.html",
-      "summary": "Cnel, la media è del 31,6%. Aumentati i finanziamenti, +68,9% in 20 anni",
+      "title": "Starlink seems to be working normally again in Ukraine",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 24 Oct 2026 20:46:34 +0000",
+      "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+      "summary": "Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/starlink.jpg?resize=1200,800"
+    },
+    {
+      "title": "Best Pet Camera of 2026: Furbo, Petcube, and Enabot",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 24 Oct 2026 11:03:00 +0000",
+      "link": "https://www.wired.com/gallery/best-pet-cameras/",
+      "summary": "Whether you’re near or far, keep an eye on your fur baby with our favorite pet cameras.",
+      "image": "https://media.wired.com/photos/6adb915b98f760e7b008b9de/master/pass/Pet%20Cameras%20Update%20102026%20top%20art%20SOURCE%20Amazon.jpg"
+    },
+    {
+      "title": "9 Unique Apps to Try on the iPhone Duo",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 24 Oct 2026 10:45:00 +0000",
+      "link": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
+      "summary": "Apple’s first folding phone is inspiring indie developers to create fun, quirky apps that take advantage of the screen and the hinge. Here are a few to try as you explore the Duo.",
+      "image": "https://media.wired.com/photos/6adb699efc34ba9fae2279b4/master/pass/Top%20Art%20SOURCE%20Julian%20Chokkattu.jpg"
+    },
+    {
+      "title": "My Favorite Sofa Is Discounted for Joybird’s Semiannual Sale",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 24 Oct 2026 10:30:00 +0000",
+      "link": "https://www.wired.com/story/joybird-semi-annual-sale-2026/",
+      "summary": "The Joybird Eliot Sleeper, plus hundreds of other options, are up to 40 percent off during the brand’s Semiannual sale.",
+      "image": "https://media.wired.com/photos/6adba966042fe07bfaca19da/master/pass/Joybird%20Deals%20Post%20102026%20top%20art%20SOURCE%20Joybird.jpg"
+    },
+    {
+      "title": "12 Absolutely Banging Proper Watches Under $400",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 24 Oct 2026 10:15:00 +0000",
+      "link": "https://www.wired.com/story/best-watches-under-400-chosen-by-experts/",
+      "summary": "WIRED and its panel of watch experts hunted for real mechanical timepieces at rock-bottom prices and found a wealth of options. Here are our favorites.",
+      "image": "https://media.wired.com/photos/6ada00b2fb70c7875ccb3ecc/master/pass/Watches%20Under%20400.jpg"
+    },
+    {
+      "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 24 Oct 2026 16:30:00 +0000",
+      "link": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+      "summary": "Instacart might sell itself to a larger competitor.",
       "image": null
-    },
-    {
-      "title": "Mimit, gasolio in lieve aumento, in autostrada a 2,301 euro al litro; scende benzina",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Sat, 24 Oct 2026 10:12:48 +0200",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/mimit-gasolio-in-lieve-aumento-in-autostrada-a-2301-euro-al-litro-scende-benzina_1eefc4d4-4784-4334-abc0-a2e40fa58d1e.html",
-      "summary": "Sulla rete stradale diesel a 2,261",
-      "image": null
-    },
-    {
-      "title": "The Qubitunes Soundstage Toy Is a Great Gift for Kids",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Sat, 24 Oct 2026 10:00:00 +0000",
-      "link": "https://www.wired.com/story/qubitunes-starter-kit-october-2026/",
-      "summary": "This screen-free soundstage starter kit opens a world of audio fun for kids aged 3 years and up.",
-      "image": "https://media.wired.com/photos/6adb9462163ba15a9a5f5353/master/pass/Deals%20Post%20Qubitunes%20102026%20top%20art%20SOURCE%20Amazon.jpg"
-    },
-    {
-      "title": "Best Laptops (2026): My Top Recommendations After Testing Hundreds",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Sat, 24 Oct 2026 10:00:00 +0000",
-      "link": "https://www.wired.com/story/best-laptops/",
-      "summary": "I’ve tested laptops for more than a decade, and here’s my advice for finding the right laptop for you.",
-      "image": "https://media.wired.com/photos/6adb93924c15513ff5ac298b/master/pass/Update%20Best%20Laptops%20102026%20top%20art%20SOURCE%20Best%20Buy-Walmart.jpg"
-    },
-    {
-      "title": "Ray-Ban Meta Audio Review: The Best Smart Glasses",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Sat, 24 Oct 2026 09:15:00 +0000",
-      "link": "https://www.wired.com/review/ray-ban-meta-audio/",
-      "summary": "No cameras? No problem. Ditching the surveillance baggage makes Meta’s audio-only frames surprisingly easy to live with.",
-      "image": "https://media.wired.com/photos/6adb65de4cb8f4b09a1af178/master/pass/Ray-Ban%20Meta%20Audio%20-%20Lifestyle2.jpg"
     },
     {
       "title": "Block’s new voice model sounds eerily human",
@@ -2261,15 +2262,6 @@
       "published": "Sat, 24 Oct 2026 15:30:00 +0000",
       "link": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/",
       "summary": "Two critical bugs in the PHP web programming language, used by the majority of the internet, threatened to upend the internet — and it's unlikely to be the last major software scare.",
-      "image": null
-    },
-    {
-      "title": "These clever apps show off the iPhone Duo’s potential",
-      "source": "TechCrunch",
-      "category": "tech",
-      "published": "Sat, 24 Oct 2026 15:00:00 +0000",
-      "link": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
-      "summary": "From retro cassette players and virtual notebooks to flight trackers and even a digital toaster, developers are finding creative ways to take advantage of Apple's first foldable iPhone.",
       "image": null
     },
     {
@@ -2298,11 +2290,25 @@
       "link": "https://cryptonomist.ch/2026/10/24/flusso-in-uscita-usdt-binance/",
       "summary": "Un flusso netto in uscita di USDT da Binance, pari a 49,9571 milioni in una sola ora, è il massimo orario di ottobre per l&#8217;exchange. Il movimento di Tether ha superato di oltre 3 milioni di USDT il precedente massimo del mese. Ha battuto così due flussi in uscita registrati",
       "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/flusso-in-uscita-di-usdt-da-binance.jpeg"
+    },
+    {
+      "title": "Arkham traccia i movimenti dei fondi dell’hacker di Bitget: 78,01 milioni",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Sat, 24 Oct 2026 15:10:36 +0000",
+      "link": "https://cryptonomist.ch/2026/10/24/movimenti-fondi-hacker-di-bitget/",
+      "summary": "I movimenti dei fondi dell&#8217;hacker di Bitget hanno raggiunto 19,48 milioni di dollari in 52 trasferimenti tra il 21 e il 24 ottobre 2026, secondo Arkham. Punti chiave Tra il 21 e il 24 ottobre 2026 Arkham ha contato 52 trasferimenti, per 19,48 milioni di dollari. In Bitcoin ",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/movimenti-fondi-hacker-di-bitget.jpeg"
     }
   ],
-  "generated_at": "2026-10-25 05:21:52",
+  "generated_at": "2026-10-25 12:11:08",
   "markets_brief": {
     "items": [
+      {
+        "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html"
+      },
       {
         "title": "The Earnings Boom Is Heavily Reliant on Just a Handful of Stocks",
         "source": "The Wall Street Journal",
@@ -2314,23 +2320,18 @@
         "link": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories"
       },
       {
-        "title": "JetBlue Creditors Hire Advisers as Airline’s Shares, Bonds Sink",
-        "source": "The Wall Street Journal",
-        "link": "https://www.wsj.com/pro/bankruptcy/jetblue-creditors-huddle-with-restructuring-adviser-as-bonds-shares-sink-43866c42?mod=rss_markets_main"
-      },
-      {
-        "title": "‘Total Meltdown’ in Riskiest Debt Unnerves Market: Credit Weekly",
+        "title": "French Bond Rout Puts Crisis at Heart of ECB Succession Endgame",
         "source": "Bloomberg",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-24/-total-meltdown-in-riskiest-debt-unnerves-market-credit-weekly"
+        "link": "https://www.bloomberg.com/news/articles/2026-10-25/french-bond-rout-puts-crisis-at-heart-of-ecb-succession-endgame"
       },
       {
-        "title": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
-        "source": "CNBC",
-        "link": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html"
+        "title": "Mercuria challenging the ‘Dow Jones of shipping’ in court after Hormuz losses",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/eedb7159-65df-45de-91f9-fde8de99e61c?syn-25a6b1a6=1"
       }
     ],
-    "prose_html": "<p>La stagione degli utili è trainata dal rischio di concentrazione, con i guadagni pesantemente concentrati in poche azioni, sollevando interrogativi sulla ampiezza del rally di mercato. Nel frattempo, lo stress si sta accumulando nei mercati del credito, dove il debito più rischioso sta subendo forti cali che stanno preoccupando gli investitori, mentre il deterioramento dei prezzi delle azioni e delle obbligazioni di JetBlue ha spinto i creditori a ingaggiare consulenti. In questo contesto, gli operatori di mercato si stanno confrontando con sfide strutturali: gli investitori retail non sono diventati più sofisticati di trent&#x27;anni fa, anche se la complessità del mercato è cresciuta, e promesse di alto profilo come la proposta di Elon Musk di distribuire azioni SpaceX a ogni bambino americano rimangono più aspirazionali che attuabili.</p>",
-    "prose_html_en": "<p>The earnings season is being driven by concentration risk, with gains heavily concentrated in just a handful of stocks, raising questions about the breadth of the market rally. Meanwhile, stress is mounting in credit markets, where the riskiest debt is experiencing sharp declines that are unnerving investors, while JetBlue&#x27;s deteriorating share and bond prices have prompted creditors to engage advisers. Against this backdrop, market participants are grappling with structural challenges: retail investors have not become more sophisticated than they were three decades ago, even as market complexity has grown, and high-profile promises like Elon Musk&#x27;s proposal to distribute SpaceX shares to every American child remain more aspirational than actionable.</p>"
+    "prose_html": "<p>Il caos politico francese sta scuotendo i mercati mentre le rivolte pongono interrogativi sulla stabilità fiscale del paese e sulla traiettoria delle politiche della Banca Centrale Europea. I rendimenti dei titoli francesi sono saliti vertiginosamente nel contesto delle tensioni, mettendo pressione sulla BCE mentre naviga transizioni di leadership e preoccupazioni sul debito regionale. Nel frattempo, la stagione degli utili negli Stati Uniti nasconde un rischio di concentrazione: i guadagni dipendono fortemente da un numero ristretto di titoli, lasciando il mercato più ampio vulnerabile a qualsiasi cambiamento in questa leadership. Altrove, i mercati marittimi affrontano i propri disordini mentre Mercuria sfida i benchmark di pricing consolidati in seguito a perdite nello Stretto di Hormuz.</p>",
+    "prose_html_en": "<p>France&#x27;s political turmoil is roiling markets as riots raise questions about the country&#x27;s fiscal stability and the European Central Bank&#x27;s policy path. French bond yields have surged amid the unrest, putting pressure on the ECB as it navigates leadership transitions and regional debt concerns. Meanwhile, the U.S. earnings season masks a concentration risk: gains are heavily dependent on a narrow band of stocks, leaving the broader market vulnerable to any shift in that leadership. Elsewhere, shipping markets face their own disruptions as Mercuria challenges established pricing benchmarks following losses in the Strait of Hormuz.</p>"
   },
   "live_close_movers": {
     "captured_at": "2026-10-23T20:15:57Z",
@@ -2457,8 +2458,17 @@
           "en": "Markets and macro",
           "it": "Mercati e macro"
         },
-        "n_available": 59,
+        "n_available": 63,
         "items": [
+          {
+            "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+            "source": "CNBC",
+            "category": "mercati",
+            "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108458444-1792915145937-gettyimages-2301446120-pinto-demonstr261024_npaqS.jpeg?v=1792915229&amp;w=1920&amp;h=1080",
+            "summary": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests.",
+            "published": "Sun, 25 Oct 2026 08:06:11 GMT"
+          },
           {
             "title": "The Earnings Boom Is Heavily Reliant on Just a Handful of Stocks",
             "source": "The Wall Street Journal",
@@ -2478,22 +2488,22 @@
             "published": "Sat, 24 Oct 2026 16:59:00 GMT"
           },
           {
-            "title": "JetBlue Creditors Hire Advisers as Airline’s Shares, Bonds Sink",
-            "source": "The Wall Street Journal",
-            "category": "mercati",
-            "link": "https://www.wsj.com/pro/bankruptcy/jetblue-creditors-huddle-with-restructuring-adviser-as-bonds-shares-sink-43866c42?mod=rss_markets_main",
-            "image": "https://images.wsj.net/im-85669502",
-            "summary": "Senior creditors to the airline are working with financial adviser PJT Partners and law firm Akin.",
-            "published": "Sat, 24 Oct 2026 02:35:00 GMT"
-          },
-          {
-            "title": "‘Total Meltdown’ in Riskiest Debt Unnerves Market: Credit Weekly",
+            "title": "French Bond Rout Puts Crisis at Heart of ECB Succession Endgame",
             "source": "Bloomberg",
             "category": "mercati",
-            "link": "https://www.bloomberg.com/news/articles/2026-10-24/-total-meltdown-in-riskiest-debt-unnerves-market-credit-weekly",
+            "link": "https://www.bloomberg.com/news/articles/2026-10-25/french-bond-rout-puts-crisis-at-heart-of-ecb-succession-endgame",
             "image": null,
-            "summary": "It was a panicked message from a colleague that woke fund manager Ivelina Green at 5 a.m. on Thursday morning in New York: “Total meltdown.”",
-            "published": "Sat, 24 Oct 2026 15:21:35 GMT"
+            "summary": "The European Central Bank’s presidency race looks increasingly likely to hinge on which candidate can best take on the bond vigilantes.",
+            "published": "Sun, 25 Oct 2026 10:00:00 GMT"
+          },
+          {
+            "title": "Mercuria challenging the ‘Dow Jones of shipping’ in court after Hormuz losses",
+            "source": "Financial Times",
+            "category": "mercati",
+            "link": "https://www.ft.com/content/eedb7159-65df-45de-91f9-fde8de99e61c?syn-25a6b1a6=1",
+            "image": null,
+            "summary": "Case will test the Baltic Exchange’s decision to keep publishing price estimates for shipping oil through the Strait of Hormuz during the war",
+            "published": "Sun, 25 Oct 2026 05:00:10 GMT"
           },
           {
             "title": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
@@ -2503,15 +2513,6 @@
             "image": null,
             "summary": "Retail investors trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds.",
             "published": "Sat, 24 Oct 2026 15:00:01 GMT"
-          },
-          {
-            "title": "Metals Traders Reap Bonanza With Another Year of Record Profits",
-            "source": "Bloomberg",
-            "category": "mercati",
-            "link": "https://www.bloomberg.com/news/articles/2026-10-24/metals-traders-reap-bonanza-with-another-year-of-record-profits",
-            "image": null,
-            "summary": "Metals traders are earning billions of dollars in a second consecutive blowout year for the sector, with several top trading houses notching up record profits.",
-            "published": "Sat, 24 Oct 2026 14:45:05 GMT"
           }
         ]
       },
@@ -2585,61 +2586,61 @@
           "en": "Tech",
           "it": "Tech"
         },
-        "n_available": 16,
+        "n_available": 17,
         "items": [
           {
-            "title": "Starlink seems to be working normally again in Ukraine",
-            "source": "TechCrunch",
-            "category": "tech",
-            "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
-            "image": "https://techcrunch.com/wp-content/uploads/2026/10/starlink.jpg?resize=1200,800",
-            "summary": "Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access.",
-            "published": "Sat, 24 Oct 2026 20:46:34 +0000"
-          },
-          {
-            "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
-            "source": "TechCrunch",
-            "category": "tech",
-            "link": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
-            "image": "https://techcrunch.com/wp-content/uploads/2022/09/instacart-logo.jpg?resize=1200,800",
-            "summary": "Instacart might sell itself to a larger competitor.",
-            "published": "Sat, 24 Oct 2026 16:30:00 +0000"
-          },
-          {
-            "title": "Best Pet Camera of 2026: Furbo, Petcube, and Enabot",
+            "title": "Oil Spills Wreak Havoc on the Bottom of the Ocean, Even a Decade Later",
             "source": "Wired",
             "category": "tech",
-            "link": "https://www.wired.com/gallery/best-pet-cameras/",
-            "image": "https://media.wired.com/photos/6adb915b98f760e7b008b9de/master/pass/Pet%20Cameras%20Update%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-            "summary": "Whether you’re near or far, keep an eye on your fur baby with our favorite pet cameras.",
-            "published": "Sat, 24 Oct 2026 11:03:00 +0000"
+            "link": "https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/",
+            "image": "https://media.wired.com/photos/6ad9cf0216c3bcd306bcde9c/master/pass/GettyImages-99306371.jpg",
+            "summary": "While oil is known to float, new research finds that over time it can permeate even extremely deep marine habitats, with animal populations declining by as much as 80 percent.",
+            "published": "Sun, 25 Oct 2026 10:30:00 +0000"
           },
           {
-            "title": "9 Unique Apps to Try on the iPhone Duo",
+            "title": "The MacBook Pro Max Just Dropped to Its Lowest Price Ever",
             "source": "Wired",
             "category": "tech",
-            "link": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
-            "image": "https://media.wired.com/photos/6adb699efc34ba9fae2279b4/master/pass/Top%20Art%20SOURCE%20Julian%20Chokkattu.jpg",
-            "summary": "Apple’s first folding phone is inspiring indie developers to create fun, quirky apps that take advantage of the screen and the hinge. Here are a few to try as you explore the Duo.",
-            "published": "Sat, 24 Oct 2026 10:45:00 +0000"
+            "link": "https://www.wired.com/story/macbook-pro-m5-max-deal-october-2026/",
+            "image": "https://media.wired.com/photos/6adbb2adc29fe197e2045863/master/pass/MacBook%20Pro%20Prices%20Drop%20to%20All-Time%20Low%20deals%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+            "summary": "Apple will reportedly launch an innovative new MacBook next week, which means existing options have their largest discount yet.",
+            "published": "Sun, 25 Oct 2026 11:00:00 +0000"
           },
           {
-            "title": "My Favorite Sofa Is Discounted for Joybird’s Semiannual Sale",
+            "title": "Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool",
             "source": "Wired",
             "category": "tech",
-            "link": "https://www.wired.com/story/joybird-semi-annual-sale-2026/",
-            "image": "https://media.wired.com/photos/6adba966042fe07bfaca19da/master/pass/Joybird%20Deals%20Post%20102026%20top%20art%20SOURCE%20Joybird.jpg",
-            "summary": "The Joybird Eliot Sleeper, plus hundreds of other options, are up to 40 percent off during the brand’s Semiannual sale.",
-            "published": "Sat, 24 Oct 2026 10:30:00 +0000"
+            "link": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
+            "image": "https://media.wired.com/photos/6ada0a2fe1636641cd0c0f13/master/pass/Car%20Wired.jpg",
+            "summary": "Powering a car dashboard is more demanding on your handset than you might think. These tips will save battery life and help your phone chill out.",
+            "published": "Sun, 25 Oct 2026 10:15:00 +0000"
           },
           {
-            "title": "12 Absolutely Banging Proper Watches Under $400",
+            "title": "Hyve Smart Package Locker Review: Protecting Your Holiday Deliveries",
             "source": "Wired",
             "category": "tech",
-            "link": "https://www.wired.com/story/best-watches-under-400-chosen-by-experts/",
-            "image": "https://media.wired.com/photos/6ada00b2fb70c7875ccb3ecc/master/pass/Watches%20Under%20400.jpg",
-            "summary": "WIRED and its panel of watch experts hunted for real mechanical timepieces at rock-bottom prices and found a wealth of options. Here are our favorites.",
-            "published": "Sat, 24 Oct 2026 10:15:00 +0000"
+            "link": "https://www.wired.com/review/hyve-smart-package-locker/",
+            "image": "https://media.wired.com/photos/6adbc78d80db711000c07c3f/master/pass/Review%20Hyve%20Smart%20Package%20Locker%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
+            "summary": "Hyve’s smart porch lockbox can secure incoming gifts—if your delivery driver uses it and there’s still room inside.",
+            "published": "Sun, 25 Oct 2026 10:01:00 +0000"
+          },
+          {
+            "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+            "source": "Wired",
+            "category": "tech",
+            "link": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+            "image": "https://media.wired.com/photos/6adbe4fc594ddd5d406f1b4a/master/pass/102326-Power%20Play-What%20the%20US%20Anti-Data%20Center%20Movement%20Can%20Learn%20From%20Everywhere%20Else-v2.jpg",
+            "summary": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand.",
+            "published": "Sun, 25 Oct 2026 10:00:00 +0000"
+          },
+          {
+            "title": "We Linked 150 of Ikea’s $10 Speakers to Make a Wall of Sound",
+            "source": "Wired",
+            "category": "tech",
+            "link": "https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/",
+            "image": "https://media.wired.com/photos/6adbbf9958a88c588ff834c3/master/pass/Ikea%20Kallsup%20SOURCE%20Jeremy%20White-resized.jpg",
+            "summary": "WIRED attempts what even the Swedish brand hasn’t: making a sonic monolith using scores of the cheapest Bluetooth speakers on the market. Can you have too much of a small thing?",
+            "published": "Sun, 25 Oct 2026 09:00:00 +0000"
           }
         ]
       },
@@ -2649,7 +2650,7 @@
           "en": "Italy",
           "it": "Italia"
         },
-        "n_available": 8,
+        "n_available": 7,
         "items": [
           {
             "title": "In Italia divario genere nei redditi oltre il 40%, al via il Women Economic Forum",
@@ -2661,20 +2662,29 @@
             "published": "Sat, 24 Oct 2026 13:22:01 +0200"
           },
           {
-            "title": "In Italia la disuguaglianza sui redditi ai minimi dal 2014, ma resta oltre l'Ue",
+            "title": "Audi va in Usa e investe 4 miliardi di dollari per un impianto in Georgia",
             "source": "ANSA Economia",
             "category": "italia",
-            "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/eurostat-disuguaglianza-redditi-in-italia-ai-minimi-da-2014-ma-resta-oltre-media-ue_51cebd88-4753-4d67-b0f0-bbc25a46d832.html",
-            "image": "https://www.ansa.it/webimages/img_1280x720/2024/7/29/23df04e69f3c83c7b1cbf9bbc0adbbe1.jpg",
-            "summary": "E' scesa a 31,0 ma in Ue è a 29,2. In deciso calo per gli under 18 a 29,3",
-            "published": "Sat, 24 Oct 2026 18:47:05 +0200"
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/10/25/audi-va-in-usa-e-investe-4-miliardi-di-dollari-per-un-impianto-in-georgia_17086dd0-0dc7-4052-890a-5068be132fef.html",
+            "image": "https://www.ansa.it/webimages/img_1280x720/2024/9/8/12d580d01bdda915a8e10c7977228835.jpg",
+            "summary": "Stabilimento Usa produrrà Suv premium",
+            "published": "Sun, 25 Oct 2026 11:48:45 +0100"
+          },
+          {
+            "title": "E' tornata l'ora solare, lancette indietro di un'ora",
+            "source": "ANSA Economia",
+            "category": "italia",
+            "link": "https://www.ansa.it/sito/notizie/economia/2026/10/25/e-tornata-lora-solare-lancette-indietro-di-unora_3b0f87be-a16f-4cd2-9b08-287a81c83690.html",
+            "image": "https://www.ansa.it/webimages/img_1280x720/2024/3/23/d03eba50d3acfb4044850c63e9fa5d4f.jpg",
+            "summary": "Oltre ai minori consumi di energia con l'ora legale si sono ridotte le emissioni di CO2 per circa 140 mila tonnellate",
+            "published": "Sun, 25 Oct 2026 09:28:56 +0100"
           },
           {
             "title": "Gros-Pietro, le aggregazioni servono per rafforzare la crescita",
             "source": "ANSA Economia",
             "category": "italia",
             "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/gros-pietro-le-aggregazioni-servono-per-rafforzare-la-crescita_10496e77-9b09-4b78-9f7d-ab39c7abe253.html",
-            "image": "https://www.ansa.it/webimages/img_1280x720/2026/10/24/515fbb1629a870f3a8d0af2906df3182.jpg",
+            "image": null,
             "summary": "Bisogna trattenere in Europa il risparmio prodotto nel continente",
             "published": "Sat, 24 Oct 2026 18:23:44 +0200"
           },
@@ -2695,15 +2705,6 @@
             "image": null,
             "summary": "'Possiamo ancora riscrivere il futuro collettivo'",
             "published": "Sat, 24 Oct 2026 13:24:20 +0200"
-          },
-          {
-            "title": "Il prezzo della pasta scende, in due anni -23,7%",
-            "source": "ANSA Economia",
-            "category": "italia",
-            "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/il-prezzo-della-pasta-scende-in-due-anni-237_b3e33e4e-503d-462b-b999-9c6b6a180ead.html",
-            "image": null,
-            "summary": "Crc-Assoutenti, dopo i rincari per guerra in Ucraina listini in diminuzione anche nel 2026",
-            "published": "Sat, 24 Oct 2026 11:59:39 +0200"
           }
         ]
       }
@@ -2719,23 +2720,49 @@
         "image": null
       },
       {
-        "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
-        "source": "CNBC",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 06:23:02 GMT",
-        "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
-        "summary": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests.",
-        "image": null
-      },
-      {
-        "title": "UK mortgage market ‘failing to adapt to new patterns of work’",
+        "title": "Luxury groups’ value drops by €250bn as Chinese consumer demand fades",
         "source": "Financial Times",
         "category": "mercati",
-        "published": "Sat, 24 Oct 2026 04:00:42 GMT",
-        "link": "https://www.ft.com/content/6a940d99-579a-481c-953e-a61cc23486e5?syn-25a6b1a6=1",
-        "summary": "Lenders’ affordability criteria lead many self-employed borrowers to give up seeking a home loan",
-        "image": null,
-        "_rank": 2
+        "published": "Sun, 25 Oct 2026 05:00:10 GMT",
+        "link": "https://www.ft.com/content/1c3065cf-538f-433a-9749-0355a3642c7c?syn-25a6b1a6=1",
+        "summary": "Slowdown in China and cooling global stock markets are exacerbating a downturn for European sector",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F36910998-36b2-4b8d-89cc-c4d47a6b2a27.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "Bolsonaro and Lula face off in knife-edge Brazil election",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 05:00:10 GMT",
+        "link": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
+        "summary": "Rightwing challenger seeks to oust leftist president and bring Latin America’s largest country closer to Donald Trump",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F155ed377-6efc-48cd-b5a8-6005b826afe4.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "The right’s obsession with ‘civil war’ in Britain",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 05:00:02 GMT",
+        "link": "https://www.ft.com/content/3736714a-2058-4413-ac91-e8f10f33ad69?syn-25a6b1a6=1",
+        "summary": "Many of those stoking fears of bloody unrest don’t actually live in the country",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F6c0edf59-289c-42e1-a8e1-21811ae3f374.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "The Black Sea is now the world’s deadliest shipping route",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 05:00:02 GMT",
+        "link": "https://www.ft.com/content/8c874f60-0041-476d-9c53-8524c374443f?syn-25a6b1a6=1",
+        "summary": "Fatalities of commercial sailors caught in battle between Russia and Ukraine are outstripping deaths in the Gulf",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F2a0d23a0-337d-412e-8de3-e1a219fdc872.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "More than 1mn antiquities returned to countries of origin",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 05:00:02 GMT",
+        "link": "https://www.ft.com/content/82f2922f-8c73-4e00-9a71-7682a2c9af1a?syn-25a6b1a6=1",
+        "summary": "First comprehensive database of looted items returned by museums and collectors suggests articles worth at least $2bn have been repatriated since 1950",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F02be9965-92c4-45fe-bc4d-92b959ee4d1e.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
       },
       {
         "title": "Why 17 is not the magic number in industrial policy",
@@ -2744,25 +2771,8 @@
         "published": "Sun, 25 Oct 2026 01:00:09 GMT",
         "link": "https://www.ft.com/content/3e405824-a44a-4cb7-bc80-acc5bc3b5b59?syn-25a6b1a6=1",
         "summary": "A lack of focus threatens to hobble Japanese premier Sanae Takaichi’s growth strategy",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fedd1c644-707a-4973-9d45-898d2cd25e52.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-      },
-      {
-        "title": "SoftBank-backed drone maker wants every farmer to ‘have their own robot’",
-        "source": "Financial Times",
-        "category": "mercati",
-        "published": "Sun, 25 Oct 2026 01:00:09 GMT",
-        "link": "https://www.ft.com/content/9fe60016-1520-4bfd-bcfc-f30caa0b1600?syn-25a6b1a6=1",
-        "summary": "Chinese start-up XAG believes pilotless crop sprayers are the answer to a dwindling workforce and rising temperatures",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F9f90272e-5b04-4f81-92a7-0b4259d0a158.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-      },
-      {
-        "title": "Co-operate to avoid being hostage to geopolitics, Australia tells ‘middle powers’",
-        "source": "Financial Times",
-        "category": "mercati",
-        "published": "Sun, 25 Oct 2026 01:00:09 GMT",
-        "link": "https://www.ft.com/content/653f5a48-94f5-4e92-86dd-7d118e8849a8?syn-25a6b1a6=1",
-        "summary": "Jim Chalmers argues economic security and bolstering supply chains would benefit consumers",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4dd5a27f-765e-49d7-a331-52431dc41926.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fedd1c644-707a-4973-9d45-898d2cd25e52.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+        "_rank": 6
       },
       {
         "title": "The Cat-and-Mouse Game Between Premium Credit-Card Firms and Points Junkies",
@@ -2772,15 +2782,6 @@
         "link": "https://www.wsj.com/finance/banking/the-cat-and-mouse-game-between-premium-credit-card-firms-and-points-junkies-8ce2e30a?mod=rss_markets_main",
         "summary": "A subculture of people obsessed with reaping rewards is prompting banks to adjust to their evolving tactics.",
         "image": "https://images.wsj.net/im-61989903"
-      },
-      {
-        "title": "Ukraine military says Starlink service restrictions have been lifted",
-        "source": "Financial Times",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 21:30:37 GMT",
-        "link": "https://www.ft.com/content/5b5592f4-c59d-4eb1-af78-078dc32fcab8",
-        "summary": "Slowdown in drone communication system had hampered Kyiv’s ability to defend itself against Russian strikes",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F5377933b-e31c-4adf-9751-759591ed9473.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
       },
       {
         "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
@@ -2867,13 +2868,100 @@
         "_rank": 16
       },
       {
+        "title": "Brookfield to Open Doha Office to Deepen Its Middle East Reach",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 08:47:01 GMT",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-25/brookfield-to-open-doha-office-to-deepen-its-middle-east-reach",
+        "summary": "Brookfield Asset Management Ltd. is opening an office in Qatar, deepening its presence in the Middle East where many countries are grappling with the economic fallout from the war.",
+        "image": null
+      },
+      {
+        "title": "Goldman Cuts Kospi 12-Month Target by 25% as AI Trade Unravels",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 07:44:43 GMT",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-25/goldman-cuts-kospi-12-month-target-by-25-as-ai-trade-unravels",
+        "summary": "Goldman Sachs Group Inc. strategists slashed their target for South Korea’s Kospi Index by 25%, after raising it repeatedly this year, as concerns over the artificial intelligence trade intensify.",
+        "image": null
+      },
+      {
+        "title": "Singapore’s Wong Vows More Support for Workers, Energy Security",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 05:40:56 GMT",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-25/singapore-s-wong-vows-more-support-for-workers-energy-security",
+        "summary": "Singapore Prime Minister Lawrence Wong pledged more support for workers and households, and said the government would step up efforts to secure energy supplies and attract investment as the city-state confronts growing global uncertainty.",
+        "image": null
+      },
+      {
+        "title": "Many care services in England have never been inspected by regulator",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 05:00:02 GMT",
+        "link": "https://www.ft.com/content/d5cc68cd-1c12-4617-8584-c731b4c8aa81?syn-25a6b1a6=1",
+        "summary": "Backlog of assessment calls into question Andy Burnham’s vow to fix the ‘broken’ system",
+        "image": null,
+        "_rank": 20
+      },
+      {
+        "title": "Climate accounting body in battle over corporate ‘capture’, say staff",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 05:00:02 GMT",
+        "link": "https://www.ft.com/content/054c6bee-87f2-47d4-8bf5-40003eb66457?syn-25a6b1a6=1",
+        "summary": "Former BCG partner involved in drafting job description before taking the role",
+        "image": null,
+        "_rank": 21
+      },
+      {
+        "title": "‘Designer baby’ start-ups test limits of biotech taboo",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 05:00:02 GMT",
+        "link": "https://www.ft.com/content/3dd30c88-235d-4272-b028-9646749cacf6",
+        "summary": "Failed ventures have not cooled investor appetite for gene-editing groups and one of the most contested frontiers in science",
+        "image": null,
+        "_rank": 22
+      },
+      {
+        "title": "BC Left-Wing Leader Loses to Conservatives in Vote He Called",
+        "source": "Bloomberg",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 04:08:12 GMT",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-25/bc-s-left-wing-leader-loses-to-conservatives-in-vote-he-called",
+        "summary": "British Columbia elected its first Conservative Party majority in 98 years, swinging Canada’s third most populous province to the political right.",
+        "image": null
+      },
+      {
+        "title": "Billionaire benevolence is booming, but it comes with strings",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 04:00:00 GMT",
+        "link": "https://www.ft.com/content/f0f294c1-66b0-4612-9716-647344a0e4c6?syn-25a6b1a6=1",
+        "summary": "Generating goodwill is helpful in building data centres and developing bots with minimum governmental intervention",
+        "image": null,
+        "_rank": 24
+      },
+      {
         "title": "Brazil Election: Lula Rallies Supporters for One Last Comeback",
         "source": "Bloomberg",
         "category": "mercati",
         "published": "Sun, 25 Oct 2026 02:02:19 GMT",
         "link": "https://www.bloomberg.com/news/articles/2026-10-25/brazil-election-lula-rallies-supporters-for-one-last-comeback",
         "summary": "Luiz Inácio Lula da Silva wasn’t going down without a fight. And his fans weren’t ready to give up on him. Here, marching down Sao Paulo’s most iconic avenue, they were bearing witness to what may turn out to be the last rally by the most defining figure of Latin America’s left.",
-        "image": null
+        "image": null,
+        "_rank": 25
+      },
+      {
+        "title": "Co-operate to avoid being hostage to geopolitics, Australia tells ‘middle powers’",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 01:00:09 GMT",
+        "link": "https://www.ft.com/content/653f5a48-94f5-4e92-86dd-7d118e8849a8?syn-25a6b1a6=1",
+        "summary": "Jim Chalmers argues economic security and bolstering supply chains would benefit consumers",
+        "image": null,
+        "_rank": 26
       },
       {
         "title": "Saudi Arabia Suggests Riyadh Airport May Reopen on Sunday",
@@ -2882,7 +2970,8 @@
         "published": "Sat, 24 Oct 2026 21:27:28 GMT",
         "link": "https://www.bloomberg.com/news/articles/2026-10-24/saudi-arabia-suggests-riyadh-airport-may-reopen-on-sunday",
         "summary": "Saudi Arabia’s main airport was gearing up to reopen as early as Sunday after operations had been disrupted by a spate of attacks by Houthi rebels.",
-        "image": null
+        "image": null,
+        "_rank": 27
       },
       {
         "title": "Teck says strike begins at Highland Valley Copper mine in British Columbia",
@@ -2900,7 +2989,8 @@
         "published": "Sat, 24 Oct 2026 15:57:32 GMT",
         "link": "https://www.bloomberg.com/news/videos/2026-10-24/bloomberg-this-weekend-10-24-2026-video",
         "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by The New Yorker Staff Writer Gideon Lewis-Kraus, Linx Dating Founder & CEO Amy A",
-        "image": null
+        "image": null,
+        "_rank": 29
       },
       {
         "title": "Fewer people are flying as airfare soars. Here's why airlines aren't worried",
@@ -2909,8 +2999,7 @@
         "published": "Sat, 24 Oct 2026 15:53:30 GMT",
         "link": "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html",
         "summary": "Airlines are reporting fewer people flew in the third quarter as airfare surged on fuel costs, but executives say travelers are mostly swallowing higher fares.",
-        "image": null,
-        "_rank": 21
+        "image": null
       },
       {
         "title": "Why popular airplanes are getting scrapped years early",
@@ -2920,16 +3009,7 @@
         "link": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
         "summary": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
         "image": null,
-        "_rank": 22
-      },
-      {
-        "title": "The Real Medical Detective Who Inspired Sherlock Holmes",
-        "source": "Bloomberg",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 14:36:22 GMT",
-        "link": "https://www.bloomberg.com/news/videos/2026-10-24/the-real-medical-detective-who-inspired-sherlock-holmes-video",
-        "summary": "Medical historian Lindsey Fitzharris tells Bloomberg This Weekend how Scottish surgeon Joseph Bell’s remarkable powers of observation inspired his student Arthur Conan Doyle to create Sherlock Holmes. Speaking with hosts Christina Ruffini and Lisa Mateo, Fitzharris discusses her ",
-        "image": null
+        "_rank": 31
       },
       {
         "title": "Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer",
@@ -2939,46 +3019,7 @@
         "link": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
         "summary": "A drug from Amgen could give patients with an aggressive form of lung cancer significantly more time to live when added to an immunotherapy from AstraZeneca.",
         "image": null,
-        "_rank": 24
-      },
-      {
-        "title": "Venezuela to Restart a Crucial Power Plant With China’s Help",
-        "source": "Bloomberg",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 14:30:00 GMT",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-24/venezuela-to-restart-a-crucial-power-plant-with-china-s-help",
-        "summary": "A Chinese engineering company is on the cusp of partially restarting a massive Venezuelan power plant that’s been largely idle for years, a crucial step toward fixing the nation’s dilapidated grid.",
-        "image": null,
-        "_rank": 25
-      },
-      {
-        "title": "Dalmore Said to Express Interest in Cinven-Owned UK Supplier JLA",
-        "source": "Bloomberg",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 14:08:54 GMT",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-24/dalmore-said-to-express-interest-in-cinven-owned-uk-supplier-jla",
-        "summary": "Dalmore Capital is among parties that have expressed interest in acquiring UK commercial equipment supplier and services provider JLA Group from buyout firm Cinven, according to people with knowledge of the matter.",
-        "image": null,
-        "_rank": 26
-      },
-      {
-        "title": "How This County Made the Data Center Boom Pay Off",
-        "source": "Bloomberg",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 14:03:23 GMT",
-        "link": "https://www.bloomberg.com/news/videos/2026-10-24/how-this-county-made-the-data-center-boom-pay-off-video",
-        "summary": "AI is driving a wave of new data centers, but communities are increasingly asking what they get in return. Virginia’s Loudoun County turned the industry into a major tax base that helped fund schools, parks and infrastructure, yet even there, officials are now putting limits on f",
-        "image": null,
-        "_rank": 27
-      },
-      {
-        "title": "Indonesia cuts pipeline gas exports to Singapore by about 9%",
-        "source": "Reuters",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 13:30:35 GMT",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVVkTFlZc0hWcDVneTJjckZnXy1kYjhtX1BYaUlZR1JwTlBJMTRzbU1jWm1yQTVqQUZ5Rl92QndOdk1wTFhoUVZUTHU5NTQ1WjFXd1YwcHJZb21JWEw1MmJVUlZRTDc2VTEzU0VyNlVIeXN2cUNOVWlKV3h3dm9Ud21RQU9ZbmdnU2lFaVU5SDMyUG9pcEI5aGF1NEo1TGZCUkxuUjQ2YjdQX0Vj?oc=5",
-        "summary": "Indonesia cuts pipeline gas exports to Singapore by about 9% &nbsp;&nbsp; Reuters",
-        "image": null
+        "_rank": 32
       },
       {
         "title": "Mayfair club Maison Estelle set to reopen after alleged firearm incident",
@@ -2988,7 +3029,7 @@
         "link": "https://www.ft.com/content/d8758ccc-e6d7-40fb-bba9-50b01cc62623?syn-25a6b1a6=1",
         "summary": "Luxury venue closed in September after police asked Westminster council to review its licence",
         "image": null,
-        "_rank": 29
+        "_rank": 33
       },
       {
         "title": "Davos in the Desert’s ‘old fox’ Richard Attias faces his latest test",
@@ -2998,7 +3039,7 @@
         "link": "https://www.ft.com/content/47073bc4-f176-4fbe-b277-30e93007fbb1?syn-25a6b1a6=1",
         "summary": "Power broker behind kingdom’s flagship investment conference has weathered scandal and setbacks. Now he must contend with war and spending cuts",
         "image": null,
-        "_rank": 30
+        "_rank": 34
       },
       {
         "title": "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
@@ -3008,96 +3049,119 @@
         "link": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
         "summary": "A new CNBC survey finds broad voter opposition to nearby AI data centers, creating a political challenge for Trump and Republicans ahead of the midterm election.",
         "image": null,
-        "_rank": 31
-      },
-      {
-        "title": "Jordan king orders 'iron fist' response to deadly church attack",
-        "source": "Reuters",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 06:17:00 GMT",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSldwN2ViWHdOeFFhai1heXdsT0ExOW9GNW1FYlpPQnhad0NzTE53N3p3ckRqSlJUTnE0eGNnOHZOb1dIZGdKbng5d2lxMHp0cHpGb1QyOXVsUjlQamVzOGlHVkJCRlBXSk0zaURFekgtSDA5X1praWRjek14NGlOMmdHZnAxd29LRFRJamRSdTZtV1lCbm1UUEh3V1EwOFFFaFUycTZDZHJucFJHS3BicDdMNWY2N1VHa19feDJoZTRkU1l3T0E?oc=5",
-        "summary": "Jordan king orders 'iron fist' response to deadly church attack &nbsp;&nbsp; Reuters",
-        "image": null
-      },
-      {
-        "title": "Tobacco taxes work — even when they give smugglers a windfall",
-        "source": "Financial Times",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 04:00:33 GMT",
-        "link": "https://www.ft.com/content/e41fe456-48c8-4bb1-8802-88b39f563d29?syn-25a6b1a6=1",
-        "summary": "Fiscal income has dwindled as smokers quit but the link between tax rates and illicit activity is not clear-cut",
-        "image": null,
-        "_rank": 33
-      },
-      {
-        "title": "Patrick Dele Cole, journalist and diplomat, 1940-2026",
-        "source": "Financial Times",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 04:00:33 GMT",
-        "link": "https://www.ft.com/content/2aef4c58-2d1c-48b2-8626-23384895a870?syn-25a6b1a6=1",
-        "summary": "The intellectual, writer and adviser made an outsized contribution to Nigerian political and civil life",
-        "image": null,
-        "_rank": 34
-      },
-      {
-        "title": "China’s luxury brands are ready to elbow western rivals aside",
-        "source": "Financial Times",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 04:00:33 GMT",
-        "link": "https://www.ft.com/content/995ede2d-c1de-4ba7-99e3-2e18d1c43c50?syn-25a6b1a6=1",
-        "summary": "Investors are questioning whether appeal of homegrown Chinese luxury is a durable shift or a shortlived trend",
-        "image": null,
         "_rank": 35
       },
       {
-        "title": "Musk’s bet of the century",
-        "source": "Financial Times",
+        "title": "Billion-Dollar Ballers: Two New Athletes Hit $1 Billion In Career Earnings",
+        "source": "Forbes",
         "category": "mercati",
-        "published": "Sat, 24 Oct 2026 04:00:33 GMT",
-        "link": "https://www.ft.com/content/dfe64d5e-f5f3-444f-a233-a516483fa6f0?syn-25a6b1a6=1",
-        "summary": "The proposed Tesla-SpaceX merger is going all in on AI",
-        "image": null,
-        "_rank": 36
+        "published": "Sun, 25 Oct 2026 06:30:00 -0400",
+        "link": "https://www.forbes.com/sites/hanktucker/2026/10/25/highest-paid-athletes-of-all-time-list/",
+        "summary": "Nine athletes have crossed $1 billion in career income, with two more set to join them within the next year. See the sports stars on the all-time earnings list here.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6adbcef9b841b8974f5433c4/0x0.jpg?width=960&precrop=1919%2C1079%2Cx0%2Cy0"
       },
       {
-        "title": "Pegasus spyware founder urges governments to trust his tech and ditch US AI",
-        "source": "Financial Times",
+        "title": "Phillies Cut Ties With 11-Year MLB Shortstop After Disappointing Season",
+        "source": "Forbes",
         "category": "mercati",
-        "published": "Sat, 24 Oct 2026 04:00:23 GMT",
-        "link": "https://www.ft.com/content/f9592534-1a3d-409d-9a57-f05919440032?syn-25a6b1a6=1",
-        "summary": "Former NSO Group boss Shalev Hulio seeks to reinvent himself as a champion of sovereign AI and national security",
-        "image": null,
-        "_rank": 37
+        "published": "Sun, 25 Oct 2026 06:30:00 -0400",
+        "link": "https://www.forbes.com/sites/peterchawaga/2026/10/25/phillies-cut-ties-with-11-year-mlb-shortstop-after-disappointing-season/",
+        "summary": "The Philadelphia Phillies have made a harsh decision on a former World Series infielder after four years with the organization.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6931de9e3017aaab6469ee0a/0x0.jpg"
       },
       {
-        "title": "Pubs, pints and the art of the Budget gimmick",
-        "source": "Financial Times",
+        "title": "Blue Jays Send Discouraging Anthony Santander Message After Injury Setback",
+        "source": "Forbes",
         "category": "mercati",
-        "published": "Sat, 24 Oct 2026 04:00:23 GMT",
-        "link": "https://www.ft.com/content/f7793e22-13f6-4cd7-9613-a11a0f0f30e4?syn-25a6b1a6=1",
-        "summary": "Andy Burnham may be hoping to repeat George Osborne’s trick by cutting beer duty",
-        "image": null,
-        "_rank": 38
+        "published": "Sun, 25 Oct 2026 06:00:00 -0400",
+        "link": "https://www.forbes.com/sites/peterchawaga/2026/10/25/blue-jays-send-discouraging-anthony-santander-message-after-injury-setback/",
+        "summary": "The Toronto Blue Jays offered a harsh response on the future of their $92 million slugger.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6aa9ac33c51229ca04a5649d/0x0.jpg"
       },
       {
-        "title": "The money questions children ask AI chatbots",
-        "source": "Financial Times",
+        "title": "Former ‘60 Minutes’ Boss to Join Video Journalism Start-Up",
+        "source": "The New York Times",
         "category": "mercati",
-        "published": "Sat, 24 Oct 2026 04:00:23 GMT",
-        "link": "https://www.ft.com/content/9c00e8f9-b7dc-4893-8b34-66a4bb5a5605",
-        "summary": "Forty per cent of UK youngsters in a survey had asked AI for financial advice",
-        "image": null,
-        "_rank": 39
+        "published": "Sun, 25 Oct 2026 09:30:04 +0000",
+        "link": "https://www.nytimes.com/2026/10/25/business/media/bill-owens-60-minutes-emerson-collective.html",
+        "summary": "Bill Owens, who left the show after clashing with CBS executives, is joining Newpress, which publishes work from creators on YouTube.",
+        "image": "https://static01.nyt.com/images/2026/10/22/multimedia/22BIZ-NEWPRESS-czkv/22BIZ-NEWPRESS-czkv-mediumSquareAt3X.jpg"
       },
       {
-        "title": "Singapore Expands Haze Inquiries to 10 Locally Based Firms",
-        "source": "Bloomberg",
+        "title": "My Co-Worker Is Losing It Over My Religion",
+        "source": "The New York Times",
         "category": "mercati",
-        "published": "Sat, 24 Oct 2026 03:20:42 GMT",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-24/singapore-expands-haze-investigation-to-10-locally-based-firms",
-        "summary": "Singapore expanded its investigation into haze-creating fires in Indonesia that have blanketed the city-state in smog, requesting information from 10 locally registered companies.",
-        "image": null,
-        "_rank": 40
+        "published": "Sun, 25 Oct 2026 09:01:59 +0000",
+        "link": "https://www.nytimes.com/2026/10/25/business/my-co-worker-is-losing-it-over-my-religion.html",
+        "summary": "Plus: Reader responses to a woman returning to the office after two decades of self-employment.",
+        "image": "https://static01.nyt.com/images/2026/10/25/multimedia/25bizsun-workfriend-illo-vgpc/25bizsun-workfriend-illo-vgpc-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "Public Colleges Are Passing the $50,000-a-Year Mark. For Locals.",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 09:01:31 +0000",
+        "link": "https://www.nytimes.com/2026/10/25/business/california-colleges-costs.html",
+        "summary": "At the University of California campuses in Berkeley, Irvine and Santa Barbara, students get an unwitting education in navigating the housing market.",
+        "image": "https://static01.nyt.com/images/2026/10/24/multimedia/24Biz-UC-50-lede-lkcm/24Biz-UC-50-lede-lkcm-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "The Long Life of the ‘Snacking Occasion’",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 09:01:29 +0000",
+        "link": "https://www.nytimes.com/2026/10/25/business/the-long-life-of-the-snacking-occasiong-glp1.html",
+        "summary": "As eating habits shift, the food industry is promoting any opportunity to nibble.",
+        "image": "https://static01.nyt.com/images/2026/10/25/business/25shoptalk-snack-illo/25shoptalk-snack-illo-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "How to Straddle the MAGA Divide",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 09:00:54 +0000",
+        "link": "https://www.nytimes.com/2026/10/25/business/how-to-straddle-the-maga-divide.html",
+        "summary": "Beth Wilkinson is a Washington lawyer who has thrived representing the Trump administration’s enemies and allies alike. Does she represent a vanishing type?",
+        "image": "https://static01.nyt.com/images/2026/10/25/business/25wilkinson-illo/25wilkinson-illo-mediumSquareAt3X.jpg",
+        "_rank": 43
+      },
+      {
+        "title": "The World’s Best Bourbon—According To The 2026 San Francisco World Spirits Competition",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 04:34:00 -0400",
+        "link": "https://www.forbes.com/sites/bradjaphe/2026/10/25/the-worlds-best-bourbon-according-to-the-2026-san-francisco-world-spirits-competition/",
+        "summary": "For the third year in a row, the prestigious tasting panel has named this Kentucky brand the most awarded American whiskey maker on earth by the prestigious tasting panel",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6add1957a0a4747f9183bb3a/0x0.jpg"
+      },
+      {
+        "title": "Marco Rubio Launches Investments In Uzbekistan; Russians Don’t Like It",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 04:31:27 -0400",
+        "link": "https://www.forbes.com/sites/melikkaylan/2026/10/25/marco-rubio-launches-investments-in-uzbekistan-russians-dont-like-it/",
+        "summary": "Marco Rubio's visit to Uzbekistan launched billions in US investment but Moscow impedes Western moves with kidnapping, corruption, and arson.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6addbb5b1b03334c60ddb93f/0x0.jpg",
+        "_rank": 45
+      },
+      {
+        "title": "NFL Week 7 Sunday Night Football Best Bets—Chiefs At Seahawks",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 01:38:39 -0400",
+        "link": "https://www.forbes.com/sites/joshshepardson/2026/10/25/nfl-week-7-sunday-night-football-best-bets-chiefs-at-seahawks/",
+        "summary": "Check out which receiving yards over and which receiving yards under from the Chiefs are the best bets in Sunday Night Football's matchup against the Seahawks.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6add943b480f16122f35c712/0x0.jpg?width=960&precrop=3522%2C2305%2Cx0%2Cy43",
+        "_rank": 46
+      },
+      {
+        "title": "The U.S. Grid Counts On Canadian Power. Canada Is Eyeing Other Options",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sun, 25 Oct 2026 00:25:21 -0400",
+        "link": "https://www.forbes.com/sites/annademeo/2026/10/25/the-us-grid-counts-on-canadian-power-canada-is-eyeing-other-options/",
+        "summary": "Canada plans power lines linking its own provinces after a century of sending electricity south. For parts of the U.S., that could mean a less reliable grid.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6add7cb002b541b561e63c67/0x0.jpg",
+        "_rank": 47
       },
       {
         "title": "Concept Art Awards 2026 Honor Creators From Animation Legends To Stars Of The Future",
@@ -3106,7 +3170,8 @@
         "published": "Sat, 24 Oct 2026 23:30:02 -0400",
         "link": "https://www.forbes.com/sites/robsalkowitz/2026/10/24/concept-art-awards-2026-honor-creators-from-animation-legends-to-stars-of-the-future/",
         "summary": "The awards honor artists responsible for the visual spectacle of movies, animation and games.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6adc049a5f9d16f05120c48a/0x0.jpg?width=960&precrop=1388%2C780%2Cx142%2Cy172"
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6adc049a5f9d16f05120c48a/0x0.jpg?width=960&precrop=1388%2C780%2Cx142%2Cy172",
+        "_rank": 48
       },
       {
         "title": "Audi to Build Factory in Georgia, Trump Says",
@@ -3115,7 +3180,8 @@
         "published": "Sun, 25 Oct 2026 02:17:33 +0000",
         "link": "https://www.nytimes.com/2026/10/24/business/audi-factory-georgia-trump.html",
         "summary": "The Volkswagen division, which imports all its cars from Europe or Mexico, has been hit hard by U.S. tariffs.",
-        "image": "https://static01.nyt.com/images/2026/10/24/multimedia/24biz-audi-factory-wmtq/24biz-audi-factory-wmtq-mediumSquareAt3X.jpg"
+        "image": "https://static01.nyt.com/images/2026/10/24/multimedia/24biz-audi-factory-wmtq/24biz-audi-factory-wmtq-mediumSquareAt3X.jpg",
+        "_rank": 49
       },
       {
         "title": "Messi Turns World Cup Heartbreak Into MLS Brilliance",
@@ -3124,7 +3190,8 @@
         "published": "Sat, 24 Oct 2026 21:55:53 -0400",
         "link": "https://www.forbes.com/sites/clementelisi/2026/10/24/messi-turns-world-cup-heartbreak-into-mls-brilliance/",
         "summary": "The Argentine has found a different stage on which to make history over the past three months and is once again leaving his mark on America's top soccer league.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6add0ca3f72db57260503180/0x0.jpg"
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6add0ca3f72db57260503180/0x0.jpg",
+        "_rank": 50
       },
       {
         "title": "‘Marshals’ Season 2 Release Guide: Here’s When Episode 4 ‘Blast Radius’ Drops On CBS And Paramount+",
@@ -3133,7 +3200,8 @@
         "published": "Sat, 24 Oct 2026 19:51:34 -0400",
         "link": "https://www.forbes.com/sites/erikkain/2026/10/24/when-does-marshals-season-2-episode-4-air-cbs-paramount-plus/",
         "summary": "What time does ‘Marshals’ Season 2 Episode 4, “Blast Radius,” air tonight? Here’s the October 25 CBS release time, Paramount+ streaming date and schedule.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6ac25f10e44b5f5f37f92a8a/0x0.jpg"
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6ac25f10e44b5f5f37f92a8a/0x0.jpg",
+        "_rank": 51
       },
       {
         "title": "World All-Around Champion Skye Blakely’s Stardom Was Delayed, Not Denied",
@@ -3142,47 +3210,8 @@
         "published": "Sat, 24 Oct 2026 18:26:50 -0400",
         "link": "https://www.forbes.com/sites/carolineprice/2026/10/24/world-all-around-champion-skye-blakelys-stardom-was-delayed-not-denied/",
         "summary": "From a ruptured Achilles tendon at the U.S. Olympic Trials to all-around gold in her fourth world gymnastics championships, Skye Blakely’s comeback has come full circle.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6add1ff32d542722ec980604/0x0.jpg?width=960&precrop=3991%2C2246%2Cx6%2Cy225"
-      },
-      {
-        "title": "Today’s Wordle #1954 Hints, Clues And Answer For Sunday October 25",
-        "source": "Forbes",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 18:08:02 -0400",
-        "link": "https://www.forbes.com/sites/erikkain/2026/10/24/wordle-hints-clues-answers-sunday-october-25/",
-        "summary": "Looking for help with today's New York Times Wordle? Here are some expert hints, clues and commentary to help you solve today's Wordle and sharpen your guessing game.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/654ac7d9543b3152d167c85e/0x0.jpg?width=960",
-        "_rank": 46
-      },
-      {
-        "title": "NYT Strands Hints, Clues And Answer For Sunday October 25 (Something To Build On)",
-        "source": "Forbes",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 17:58:03 -0400",
-        "link": "https://www.forbes.com/sites/erikkain/2026/10/24/nyt-strands-hints-clues-answer-sunday-october-25-something-to-build-on-/",
-        "summary": "Looking for help with today's NYT Strands puzzle? Here's an extra hint to help you uncover the right words, as well as all of today's answers and Spangram.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/661994c1a11cd45a738c205f/0x0.jpg?width=960",
-        "_rank": 47
-      },
-      {
-        "title": "NYT Pips Sunday Guide: Answers And Walkthrough For October 25",
-        "source": "Forbes",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 17:54:25 -0400",
-        "link": "https://www.forbes.com/sites/erikkain/2026/10/24/nyt-pips-sunday-guide-answers-and-walkthrough-for-october-25/",
-        "summary": "Looking for help with today's New York Times Pips? We'll walk you through today's puzzle and help you match dominoes to tiles.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6ab58dac7c924a7cc293822f/0x0.jpg?width=960",
-        "_rank": 48
-      },
-      {
-        "title": "Volkanovski And Yan Kept Their Belts At UFC 333, And Their Next Opponents Already Made Themselves Known",
-        "source": "Forbes",
-        "category": "mercati",
-        "published": "Sat, 24 Oct 2026 17:43:09 -0400",
-        "link": "https://www.forbes.com/sites/brianmazique/2026/10/24/volkanovski-and-yan-kept-their-belts-at-ufc-333-and-their-next-opponents-already-made-themselves-known/",
-        "summary": "UFC 333 results from Abu Dhabi: Volkanovski vs. Evloev, Yan vs. Dvalishvili 3, the full card, $100K bonus winners and highlights.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6add21a98334335610d7dda4/0x0.jpg?width=960&precrop=1970%2C1107%2Cx0%2Cy0",
-        "_rank": 49
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6add1ff32d542722ec980604/0x0.jpg?width=960&precrop=3991%2C2246%2Cx6%2Cy225",
+        "_rank": 52
       },
       {
         "title": "Attention, Passengers: High Airfares May Be Here to Stay",
@@ -3191,7 +3220,8 @@
         "published": "Sat, 24 Oct 2026 12:54:30 +0000",
         "link": "https://www.nytimes.com/2026/10/24/business/airlines-ticket-prices.html",
         "summary": "Ticket prices jumped after fuel costs spiked because of the war with Iran, but airlines say even an end to the conflict will not bring fares back down quickly.",
-        "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26biz-airfares-mpfb/26biz-airfares-mpfb-mediumSquareAt3X.jpg"
+        "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26biz-airfares-mpfb/26biz-airfares-mpfb-mediumSquareAt3X.jpg",
+        "_rank": 53
       },
       {
         "title": "5 Takeaways From Our Investigation of Trump’s Waivers for Polluters",
@@ -3200,7 +3230,8 @@
         "published": "Sat, 24 Oct 2026 12:50:46 +0000",
         "link": "https://www.nytimes.com/2026/10/24/climate/takeaways-trump-waivers-chemical-pollution.html",
         "summary": "Chemical plants and other industrial facilities had been required to curb their toxic emissions. A New York Times investigation shows how they got out of it.",
-        "image": "https://static01.nyt.com/images/2026/10/22/multimedia/00CLI-POLLUTION-EPA-TAKEAWAYS-glzb/00CLI-POLLUTION-EPA-TAKEAWAYS-glzb-mediumSquareAt3X.jpg"
+        "image": "https://static01.nyt.com/images/2026/10/22/multimedia/00CLI-POLLUTION-EPA-TAKEAWAYS-glzb/00CLI-POLLUTION-EPA-TAKEAWAYS-glzb-mediumSquareAt3X.jpg",
+        "_rank": 54
       },
       {
         "title": "C.E.O.s Say the A.I. Rollout Is Going Well. Employees Feel Differently.",
@@ -3209,7 +3240,8 @@
         "published": "Sat, 24 Oct 2026 12:00:03 +0000",
         "link": "https://www.nytimes.com/2026/10/24/business/dealbook/ceos-say-the-ai-rollout-is-going-well-employees-feel-differently.html",
         "summary": "Surveys show workers and executives have different views on A.I.",
-        "image": "https://static01.nyt.com/images/2026/10/23/business/00db-ai-disconnect/00db-ai-disconnect-mediumSquareAt3X.jpg"
+        "image": "https://static01.nyt.com/images/2026/10/23/business/00db-ai-disconnect/00db-ai-disconnect-mediumSquareAt3X.jpg",
+        "_rank": 55
       },
       {
         "title": "How Trump Gave the Worst Polluters a Free Pass",
@@ -3219,81 +3251,70 @@
         "link": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
         "summary": "The president temporarily waived clean-air rules for industrial facilities that spew cancer-causing gases. Then his appointees worked to gut the regulations altogether.",
         "image": null,
-        "_rank": 53
+        "_rank": 56
       },
       {
-        "title": "++ Eurostat, disuguaglianza redditi in Italia ai minimi da 2014 ma resta oltre media Ue ++",
+        "title": "Il prezzo della pasta scende, in due anni -23,7%",
         "source": "ANSA Economia",
         "category": "italia",
-        "published": "Sat, 24 Oct 2026 10:50:49 +0200",
-        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/eurostat-disuguaglianza-redditi-in-italia-ai-minimi-da-2014-ma-resta-oltre-media-ue_1c1bff46-bdcc-4101-82ad-85a380f9b398.html",
-        "summary": "Indice al 31 a fronte del 29,2 in Ue. Per gli under 18 al 29,3; media al 28,6",
+        "published": "Sat, 24 Oct 2026 11:59:39 +0200",
+        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/il-prezzo-della-pasta-scende-in-due-anni-237_b3e33e4e-503d-462b-b999-9c6b6a180ead.html",
+        "summary": "Crc-Assoutenti, dopo i rincari per guerra in Ucraina listini in diminuzione anche nel 2026",
         "image": null
       },
       {
-        "title": "Offerta asili nido cresce ma copertura non supera il 40%; al Sud resta al 19%",
-        "source": "ANSA Economia",
-        "category": "italia",
-        "published": "Sat, 24 Oct 2026 10:38:22 +0200",
-        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/offerta-asili-nido-cresce-ma-copertura-non-supera-il-40-al-sud-resta-al-19_8097c665-b670-4f98-8b33-6582e5aa394a.html",
-        "summary": "Cnel, la media è del 31,6%. Aumentati i finanziamenti, +68,9% in 20 anni",
+        "title": "Starlink seems to be working normally again in Ukraine",
+        "source": "TechCrunch",
+        "category": "tech",
+        "published": "Sat, 24 Oct 2026 20:46:34 +0000",
+        "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+        "summary": "Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access.",
+        "image": "https://techcrunch.com/wp-content/uploads/2026/10/starlink.jpg?resize=1200,800"
+      },
+      {
+        "title": "Best Pet Camera of 2026: Furbo, Petcube, and Enabot",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 24 Oct 2026 11:03:00 +0000",
+        "link": "https://www.wired.com/gallery/best-pet-cameras/",
+        "summary": "Whether you’re near or far, keep an eye on your fur baby with our favorite pet cameras.",
+        "image": "https://media.wired.com/photos/6adb915b98f760e7b008b9de/master/pass/Pet%20Cameras%20Update%20102026%20top%20art%20SOURCE%20Amazon.jpg"
+      },
+      {
+        "title": "9 Unique Apps to Try on the iPhone Duo",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 24 Oct 2026 10:45:00 +0000",
+        "link": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
+        "summary": "Apple’s first folding phone is inspiring indie developers to create fun, quirky apps that take advantage of the screen and the hinge. Here are a few to try as you explore the Duo.",
+        "image": "https://media.wired.com/photos/6adb699efc34ba9fae2279b4/master/pass/Top%20Art%20SOURCE%20Julian%20Chokkattu.jpg"
+      },
+      {
+        "title": "My Favorite Sofa Is Discounted for Joybird’s Semiannual Sale",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 24 Oct 2026 10:30:00 +0000",
+        "link": "https://www.wired.com/story/joybird-semi-annual-sale-2026/",
+        "summary": "The Joybird Eliot Sleeper, plus hundreds of other options, are up to 40 percent off during the brand’s Semiannual sale.",
+        "image": "https://media.wired.com/photos/6adba966042fe07bfaca19da/master/pass/Joybird%20Deals%20Post%20102026%20top%20art%20SOURCE%20Joybird.jpg"
+      },
+      {
+        "title": "12 Absolutely Banging Proper Watches Under $400",
+        "source": "Wired",
+        "category": "tech",
+        "published": "Sat, 24 Oct 2026 10:15:00 +0000",
+        "link": "https://www.wired.com/story/best-watches-under-400-chosen-by-experts/",
+        "summary": "WIRED and its panel of watch experts hunted for real mechanical timepieces at rock-bottom prices and found a wealth of options. Here are our favorites.",
+        "image": "https://media.wired.com/photos/6ada00b2fb70c7875ccb3ecc/master/pass/Watches%20Under%20400.jpg"
+      },
+      {
+        "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
+        "source": "TechCrunch",
+        "category": "tech",
+        "published": "Sat, 24 Oct 2026 16:30:00 +0000",
+        "link": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+        "summary": "Instacart might sell itself to a larger competitor.",
         "image": null
-      },
-      {
-        "title": "Mimit, gasolio in lieve aumento, in autostrada a 2,301 euro al litro; scende benzina",
-        "source": "ANSA Economia",
-        "category": "italia",
-        "published": "Sat, 24 Oct 2026 10:12:48 +0200",
-        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/mimit-gasolio-in-lieve-aumento-in-autostrada-a-2301-euro-al-litro-scende-benzina_1eefc4d4-4784-4334-abc0-a2e40fa58d1e.html",
-        "summary": "Sulla rete stradale diesel a 2,261",
-        "image": null
-      },
-      {
-        "title": "The Qubitunes Soundstage Toy Is a Great Gift for Kids",
-        "source": "Wired",
-        "category": "tech",
-        "published": "Sat, 24 Oct 2026 10:00:00 +0000",
-        "link": "https://www.wired.com/story/qubitunes-starter-kit-october-2026/",
-        "summary": "This screen-free soundstage starter kit opens a world of audio fun for kids aged 3 years and up.",
-        "image": "https://media.wired.com/photos/6adb9462163ba15a9a5f5353/master/pass/Deals%20Post%20Qubitunes%20102026%20top%20art%20SOURCE%20Amazon.jpg"
-      },
-      {
-        "title": "Best Laptops (2026): My Top Recommendations After Testing Hundreds",
-        "source": "Wired",
-        "category": "tech",
-        "published": "Sat, 24 Oct 2026 10:00:00 +0000",
-        "link": "https://www.wired.com/story/best-laptops/",
-        "summary": "I’ve tested laptops for more than a decade, and here’s my advice for finding the right laptop for you.",
-        "image": "https://media.wired.com/photos/6adb93924c15513ff5ac298b/master/pass/Update%20Best%20Laptops%20102026%20top%20art%20SOURCE%20Best%20Buy-Walmart.jpg"
-      },
-      {
-        "title": "Ray-Ban Meta Audio Review: The Best Smart Glasses",
-        "source": "Wired",
-        "category": "tech",
-        "published": "Sat, 24 Oct 2026 09:15:00 +0000",
-        "link": "https://www.wired.com/review/ray-ban-meta-audio/",
-        "summary": "No cameras? No problem. Ditching the surveillance baggage makes Meta’s audio-only frames surprisingly easy to live with.",
-        "image": "https://media.wired.com/photos/6adb65de4cb8f4b09a1af178/master/pass/Ray-Ban%20Meta%20Audio%20-%20Lifestyle2.jpg"
-      },
-      {
-        "title": "Garmin Vivoactive 5 and Forerunner 165 Are up to 30 Percent Off (2026)",
-        "source": "Wired",
-        "category": "tech",
-        "published": "Sat, 24 Oct 2026 09:06:00 +0000",
-        "link": "https://www.wired.com/story/garmin-deals-october-2026/",
-        "summary": "I’ve tested almost every Garmin watch—these entry-level favorites are steeply discounted right now.",
-        "image": "https://media.wired.com/photos/6adba70ca15e7091703dcd90/master/pass/Garmin%20Deals%20October%202026%20top%20art%20SOURCE%20Amazon.jpg",
-        "_rank": 60
-      },
-      {
-        "title": "Inside the Supermassive Debate Over the James Webb Telescope’s ‘Little Red Dots’",
-        "source": "Wired",
-        "category": "tech",
-        "published": "Sat, 24 Oct 2026 09:00:00 +0000",
-        "link": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
-        "summary": "The Webb telescope sees tiny red dots everywhere. Astronomers can’t agree on what they are, but some believe they may be enormous stars with black holes inside.",
-        "image": "https://media.wired.com/photos/6ad9cd6aded54679300f97ae/master/pass/Black-Hole-Star-cr-Mark-Belan-Lede.jpg",
-        "_rank": 61
       },
       {
         "title": "Block’s new voice model sounds eerily human",
@@ -3320,7 +3341,8 @@
         "published": "Sat, 24 Oct 2026 15:00:00 +0000",
         "link": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
         "summary": "From retro cassette players and virtual notebooks to flight trackers and even a digital toaster, developers are finding creative ways to take advantage of Apple's first foldable iPhone.",
-        "image": null
+        "image": null,
+        "_rank": 66
       },
       {
         "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
@@ -3330,7 +3352,7 @@
         "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
         "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
         "image": null,
-        "_rank": 65
+        "_rank": 67
       },
       {
         "title": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
@@ -3340,7 +3362,7 @@
         "link": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
         "summary": "The $400 Boox Palma 2 Pro is a smartphone-sized e-reader designed for people who want to read books, articles, and documents on a small E Ink display.",
         "image": null,
-        "_rank": 66
+        "_rank": 68
       },
       {
         "title": "Here are the top AI agents that can live in your text messages",
@@ -3350,7 +3372,7 @@
         "link": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
         "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
         "image": null,
-        "_rank": 67
+        "_rank": 69
       },
       {
         "title": "Con l’exploit della stablecoin X100, gli attaccanti sottraggono 4,7 milioni",
@@ -3386,11 +3408,15 @@
         "published": "Sat, 24 Oct 2026 15:10:36 +0000",
         "link": "https://cryptonomist.ch/2026/10/24/movimenti-fondi-hacker-di-bitget/",
         "summary": "I movimenti dei fondi dell&#8217;hacker di Bitget hanno raggiunto 19,48 milioni di dollari in 52 trasferimenti tra il 21 e il 24 ottobre 2026, secondo Arkham. Punti chiave Tra il 21 e il 24 ottobre 2026 Arkham ha contato 52 trasferimenti, per 19,48 milioni di dollari. In Bitcoin ",
-        "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/movimenti-fondi-hacker-di-bitget.jpeg",
-        "_rank": 71
+        "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/movimenti-fondi-hacker-di-bitget.jpeg"
       }
     ],
     "lead_headlines": [
+      {
+        "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html"
+      },
       {
         "title": "The Earnings Boom Is Heavily Reliant on Just a Handful of Stocks",
         "source": "The Wall Street Journal",
@@ -3400,19 +3426,9 @@
         "title": "Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath",
         "source": "MarketWatch",
         "link": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories"
-      },
-      {
-        "title": "JetBlue Creditors Hire Advisers as Airline’s Shares, Bonds Sink",
-        "source": "The Wall Street Journal",
-        "link": "https://www.wsj.com/pro/bankruptcy/jetblue-creditors-huddle-with-restructuring-adviser-as-bonds-shares-sink-43866c42?mod=rss_markets_main"
       }
     ],
     "watchlist": [
-      {
-        "title": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-        "source": "Forbes",
-        "link": "https://www.forbes.com/sites/erikkain/2026/10/24/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/"
-      },
       {
         "title": "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
         "source": "CNBC",
@@ -3427,17 +3443,23 @@
         "title": "‘The Dog Stars,’ Ridley Scott’s Biggest Box Office Miss Since 2021, Heads To Digital This Week",
         "source": "Forbes",
         "link": "https://www.forbes.com/sites/timlammers/2026/10/24/the-dog-stars-ridley-scotts-biggest-box-office-miss-since-2021-heads-to-digital-this-week/"
-      },
-      {
-        "title": "Giorgetti, coperta è corta, pesano materie prime e tassi sul debito",
-        "source": "ANSA Economia",
-        "link": "https://www.ansa.it/sito/notizie/economia/2026/10/24/giorgetti-coperta-e-corta-pesano-materie-prime-e-tassi-sul-debito_12227c2a-dec4-4f8f-bb11-594380e150c6.html"
       }
     ],
-    "niche_signals": [],
+    "niche_signals": [
+      {
+        "symbol": "AMGN",
+        "name": "Amgen",
+        "score": 8.0,
+        "move_pct_mentioned": 58.0,
+        "title": "Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
+        "category": "mercati"
+      }
+    ],
     "signals": {
       "reference_session": "2026-10-23",
-      "fetched_at": "2026-10-25 04:21:27 UTC",
+      "fetched_at": "2026-10-25 11:10:44 UTC",
       "noteworthy_pct": 1.0,
       "groups": [
         {
@@ -3452,40 +3474,40 @@
               "name_en": "Bitcoin",
               "name_it": "Bitcoin",
               "group": "crypto",
-              "last": 80752.34,
-              "pct_change": -0.68,
+              "last": 80246.11,
+              "pct_change": -1.31,
               "reference_close": 81308.68,
-              "as_of_utc": "2026-10-25 04:00 UTC"
+              "as_of_utc": "2026-10-25 11:00 UTC"
             },
             {
               "symbol": "ETH-USD",
               "name_en": "Ethereum",
               "name_it": "Ethereum",
               "group": "crypto",
-              "last": 2361.6,
-              "pct_change": -1.55,
+              "last": 2324.93,
+              "pct_change": -3.08,
               "reference_close": 2398.81,
-              "as_of_utc": "2026-10-25 04:00 UTC"
+              "as_of_utc": "2026-10-25 11:00 UTC"
             },
             {
               "symbol": "SOL-USD",
               "name_en": "Solana",
               "name_it": "Solana",
               "group": "crypto",
-              "last": 102.46,
-              "pct_change": -1.29,
+              "last": 100.66,
+              "pct_change": -3.03,
               "reference_close": 103.8,
-              "as_of_utc": "2026-10-25 04:00 UTC"
+              "as_of_utc": "2026-10-25 11:00 UTC"
             },
             {
               "symbol": "XRP-USD",
               "name_en": "XRP",
               "name_it": "XRP",
               "group": "crypto",
-              "last": 1.3086,
-              "pct_change": 0.16,
+              "last": 1.2912,
+              "pct_change": -1.17,
               "reference_close": 1.3065,
-              "as_of_utc": "2026-10-25 04:00 UTC"
+              "as_of_utc": "2026-10-25 11:00 UTC"
             }
           ]
         },
@@ -3516,43 +3538,65 @@
         "name_en": "Ethereum",
         "name_it": "Ethereum",
         "group": "crypto",
-        "last": 2361.6,
-        "pct_change": -1.55,
+        "last": 2324.93,
+        "pct_change": -3.08,
         "reference_close": 2398.81,
-        "as_of_utc": "2026-10-25 04:00 UTC"
+        "as_of_utc": "2026-10-25 11:00 UTC"
       },
       {
         "symbol": "SOL-USD",
         "name_en": "Solana",
         "name_it": "Solana",
         "group": "crypto",
-        "last": 102.46,
-        "pct_change": -1.29,
+        "last": 100.66,
+        "pct_change": -3.03,
         "reference_close": 103.8,
-        "as_of_utc": "2026-10-25 04:00 UTC"
+        "as_of_utc": "2026-10-25 11:00 UTC"
+      },
+      {
+        "symbol": "BTC-USD",
+        "name_en": "Bitcoin",
+        "name_it": "Bitcoin",
+        "group": "crypto",
+        "last": 80246.11,
+        "pct_change": -1.31,
+        "reference_close": 81308.68,
+        "as_of_utc": "2026-10-25 11:00 UTC"
+      },
+      {
+        "symbol": "XRP-USD",
+        "name_en": "XRP",
+        "name_it": "XRP",
+        "group": "crypto",
+        "last": 1.2912,
+        "pct_change": -1.17,
+        "reference_close": 1.3065,
+        "as_of_utc": "2026-10-25 11:00 UTC"
       }
     ],
     "paragraphs": {
       "en": [
         "US markets were closed on Saturday, October 24, 2026, so there is no new session to report: the last one, October 23, 2026, was covered in the previous edition and its numbers are not repeated here. This edition reads instead the 101 stories published since then by 13 outlets we track, and brings forward the 24 that matter most.",
-        "Leading the weekend coverage: The Wall Street Journal reports: “The Earnings Boom Is Heavily Reliant on Just a Handful of Stocks”; MarketWatch reports: “Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath”; The Wall Street Journal reports: “JetBlue Creditors Hire Advisers as Airline’s Shares, Bonds Sink”.",
-        "By theme: Markets and macro (59), Crypto (10), Tech (16), Italy (8).",
-        "What did trade while the exchanges were shut, measured from Friday's US close: Ethereum -1.55%; Solana -1.29%. These are the only market moves in this edition — they are quotes, not forecasts."
+        "Leading the weekend coverage: CNBC reports: “What next for France as riots rattle markets? Three questions facing investors ahead of more protests”; The Wall Street Journal reports: “The Earnings Boom Is Heavily Reliant on Just a Handful of Stocks”; MarketWatch reports: “Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath”.",
+        "By theme: Markets and macro (63), Crypto (10), Tech (17), Italy (7).",
+        "What did trade while the exchanges were shut, measured from Friday's US close: Ethereum -3.08%; Solana -3.03%; Bitcoin -1.31%; XRP -1.17%. These are the only market moves in this edition — they are quotes, not forecasts.",
+        "Named in this weekend's coverage, scored only for how intensely the outlets themselves wrote about it — not a forecast of Monday's move: Amgen (AMGN, 8.0/10) — CNBC: “Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer”."
       ],
       "it": [
         "I mercati americani erano chiusi sabato 24 ottobre 2026: non c'e' una seduta nuova da raccontare — l'ultima, 23 ottobre 2026, e' gia' stata coperta dall'edizione precedente e i suoi numeri qui non vengono ripetuti. Questa edizione legge invece le 101 notizie uscite da allora su 13 testate seguite, e porta in primo piano le 24 piu' rilevanti.",
-        "In evidenza nel fine settimana: The Wall Street Journal riporta: «The Earnings Boom Is Heavily Reliant on Just a Handful of Stocks»; MarketWatch riporta: «Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath»; The Wall Street Journal riporta: «JetBlue Creditors Hire Advisers as Airline’s Shares, Bonds Sink».",
-        "Per tema: Mercati e macro (59), Crypto (10), Tech (16), Italia (8).",
-        "Cosa ha scambiato a borse chiuse, misurato dalla chiusura americana di venerdi': Ethereum -1,55%; Solana -1,29%. Sono gli unici movimenti di mercato di questa edizione: quotazioni, non previsioni."
+        "In evidenza nel fine settimana: CNBC riporta: «What next for France as riots rattle markets? Three questions facing investors ahead of more protests»; The Wall Street Journal riporta: «The Earnings Boom Is Heavily Reliant on Just a Handful of Stocks»; MarketWatch riporta: «Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath».",
+        "Per tema: Mercati e macro (63), Crypto (10), Tech (17), Italia (7).",
+        "Cosa ha scambiato a borse chiuse, misurato dalla chiusura americana di venerdi': Ethereum -3,08%; Solana -3,03%; Bitcoin -1,31%; XRP -1,17%. Sono gli unici movimenti di mercato di questa edizione: quotazioni, non previsioni.",
+        "Nominate nella copertura del weekend, con un punteggio che misura solo quanto intensamente ne hanno scritto le testate — non una previsione per lunedi': Amgen (AMGN, 8.0/10) — CNBC: «Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer»."
       ]
     },
     "headline": {
-      "en": "Markets closed: Saturday's news in brief, with Ethereum -1.55% since Friday's close",
-      "it": "Mercati chiusi: le notizie di sabato in sintesi, con Ethereum -1,55% dalla chiusura di venerdi'"
+      "en": "Markets closed: Saturday's news in brief, with Ethereum -3.08% since Friday's close",
+      "it": "Mercati chiusi: le notizie di sabato in sintesi, con Ethereum -3,08% dalla chiusura di venerdi'"
     }
   },
-  "weekend_commentary_html": "<p>Nel fine settimana chiuso, la copertura focalizzata sui mercati si è concentrata su preoccupazioni strutturali riguardanti la concentrazione degli utili e lo stress del credito. Il Wall Street Journal ha riferito che l&#x27;attuale boom degli utili dipende fortemente da un numero esiguo di titoli, un rischio di concentrazione che ha attirato l&#x27;attenzione mentre i mercati digeriscono i risultati del terzo trimestre. Bloomberg ha caratterizzato i movimenti recenti nel debito più rischioso come un &quot;crollo totale&quot;, segnalando disagio nei mercati del credito anche se gli indici azionari più ampi hanno retto. Il deterioramento finanziario di JetBlue ha spinto i creditori della compagnia aerea a assumere consulenti mentre sia le azioni che le obbligazioni sono diminuite, esemplificando lo stress in un settore già alle prese con venti contrari strutturali. Un ex gestore di hedge fund ha detto a CNBC che gli investitori al dettaglio non sono diventati più sofisticati di trent&#x27;anni fa, minando le narrazioni sulla democratizzazione del mercato. Separatamente, Bloomberg ha riferito che i trader di metalli stanno raccogliendo profitti record per un altro anno, beneficiando della forza dei prezzi delle materie prime.</p><p>Nei mercati delle criptovalute, Bitcoin è diminuito dello 0,68 percento dalla chiusura statunitense precedente, mentre Ethereum è sceso dell&#x27;1,55 percento e Solana è diminuito dell&#x27;1,29 percento. XRP è aumentato dello 0,16 percento. L&#x27;euro si è mantenuto stabile rispetto al dollaro. Questi movimenti sono stati modesti su tutta la linea, con la debolezza delle criptovalute come unico chiaro segnale direzionale dai mercati che operano continuamente.</p><p>La più grande banca di Hong Kong ha distribuito una stablecoin su tre milioni di portafogli, secondo Decrypt, mentre un pilot live della stablecoin USBDC di US Bank sulla rete Stellar è stato lanciato tra gli Stati Uniti e l&#x27;Unione Europea, secondo The Cryptonomist. Franklin Templeton ha proposto fondi quotati in borsa che reinvestono i dividendi in Bitcoin, a partire da un&#x27;allocazione del 5 percento. Separatamente, Pump.fun ha superato Hyperliquid nei ricavi giornalieri, generando 1,98 milioni di dollari rispetto a 1,96 milioni, ha riferito The Cryptonomist.</p><p>Gli sviluppi istituzionali e politici al di fuori del ciclo regolare del mercato hanno incluso un rapporto di TechCrunch secondo cui Instacart ha discusso una potenziale vendita con DoorDash e Uber, sebbene nessuna transazione sia stata annunciata. Il servizio Starlink in Ucraina ha ripreso le operazioni normali dopo i precedenti disservizi, ha riferito TechCrunch. In Italia, ANSA Economia ha coperto un Women Economic Forum affrontando un divario di reddito di genere superiore al 40 percento, notando che la disuguaglianza complessiva dei redditi è scesa al livello più basso dal 2014 ma rimane al di sopra delle medie dell&#x27;Unione Europea. Il ministro delle finanze italiano Giorgetti ha caratterizzato i vincoli fiscali come stretti, citando la pressione dai prezzi delle materie prime e dai costi del servizio del debito.</p><p>La prossima settimana porta dati sul sentimento economico mentre CNBC prepara la copertura di come gli elettori americani percepiscono l&#x27;economia, l&#x27;inflazione, l&#x27;intelligenza artificiale e la leadership politica. Il Financial Times ha segnalato la convergenza tra i rendimenti dei titoli di stato francesi e delle obbligazioni societarie come uno sviluppo da monitorare. Il commento economico italiano di ANSA Economia continuerà a tracciare i temi fiscali e strutturali in vista della nuova settimana di negoziazione.</p>",
-  "weekend_commentary_html_en": "<p>Over the closed weekend, market-focused coverage centered on structural concerns about earnings concentration and credit stress. The Wall Street Journal reported that the current earnings boom is heavily reliant on just a handful of stocks, a concentration risk that has drawn scrutiny as markets digest third-quarter results. Bloomberg characterized recent moves in the riskiest debt as a &quot;total meltdown,&quot; signaling unease in credit markets even as broader equity indices have held. JetBlue&#x27;s financial deterioration prompted the airline&#x27;s creditors to hire advisers as both shares and bonds declined, exemplifying stress in a sector already navigating structural headwinds. A former hedge fund manager told CNBC that retail investors have not become more sophisticated than they were thirty years ago, undercutting narratives of market democratization. Separately, Bloomberg reported that metals traders are reaping record profits for another year, a beneficiary of commodity price strength.</p><p>In cryptocurrency markets, Bitcoin declined 0.68 percent since the last US close, while Ethereum fell 1.55 percent and Solana dropped 1.29 percent. XRP edged up 0.16 percent. The euro held flat against the dollar. These moves were modest across the board, with crypto weakness the only clear directional signal from markets that trade continuously.</p><p>Hong Kong&#x27;s largest bank has deployed a stablecoin across three million wallets, according to Decrypt, while a live pilot of US Bank&#x27;s USBDC stablecoin on the Stellar network has launched between the United States and European Union, per The Cryptonomist. Franklin Templeton has proposed exchange-traded funds that reinvest dividends into Bitcoin, starting at a 5 percent allocation. Separately, Pump.fun surpassed Hyperliquid in daily revenues, generating 1.98 million dollars against 1.96 million, The Cryptonomist reported.</p><p>Institutional and policy developments outside the regular market cycle included a report from TechCrunch that Instacart has discussed a potential sale with DoorDash and Uber, though no transaction has been announced. Starlink service in Ukraine has resumed normal operations following earlier disruptions, TechCrunch reported. In Italy, ANSA Economia covered a Women Economic Forum addressing a gender income gap exceeding 40 percent, while noting that overall income inequality has fallen to its lowest level since 2014 but remains above European Union averages. Italian Finance Minister Giorgetti characterized fiscal constraints as tight, citing pressure from commodity prices and debt servicing costs.</p><p>The coming week brings economic sentiment data as CNBC prepares coverage of how American voters perceive the economy, inflation, artificial intelligence and political leadership. The Financial Times has flagged convergence between French government and corporate bond yields as a development to monitor. Italian economic commentary from ANSA Economia will continue tracking fiscal and structural themes ahead of the new trading week.</p>",
+  "weekend_commentary_html": "<p>Nel fine settimana chiuso, i mercati e la politica hanno dominato il ciclo delle notizie lungo tre filoni principali. Il caos politico in Francia ha continuato a scuotere gli investitori, con CNBC che esamina cosa aspettarsi per i mercati mentre le rivolte persistono e altri protesti incombono. Separatamente, Bloomberg ha segnalato il crollo dei bond francesi come un punto di crisi per la successione della Banca centrale europea, mentre il Financial Times ha riferito di Mercuria che sfida un importante operatore di indici di navigazione in tribunale in seguito a perdite nello Stretto di Hormuz. Lo scenario degli utili stesso ha attirato l&#x27;attenzione del Wall Street Journal, che ha notato come il boom attuale rimane fortemente concentrato in un pugno di titoli. Nel frattempo, la promessa di Elon Musk di distribuire azioni SpaceX a ogni bambino in America ha suscitato scetticismo da MarketWatch, e CNBC ha citato un ex gestore di hedge fund sostenendo che gli investitori al dettaglio oggi non sono più sofisticati di quanto lo fossero tre decenni fa.</p><p>I mercati delle criptovalute hanno registrato modesti cali nel fine settimana. Bitcoin è sceso dell&#x27;1,31 percento dal precedente close statunitense, mentre Ethereum è sceso del 3,08 percento e Solana del 3,03 percento. XRP è sceso dell&#x27;1,17 percento. L&#x27;euro si è mantenuto piatto rispetto al dollaro. I movimenti sono stati contenuti su tutta la linea.</p><p>Al di là dei mercati tradizionali, un&#x27;azienda ha attirato un&#x27;intensità di copertura sproporzionata questo fine settimana. Amgen è apparsa in un titolo CNBC affermando che l&#x27;azienda dichiara che una combinazione di farmaci riduce il rischio di morte del 58 percento nei pazienti con cancro ai polmoni aggressivo, guadagnando un punteggio di intensità di copertura di 8,0 su 10. Questo punteggio riflette quanto prominentemente gli stessi media hanno presentato la storia, non una previsione del trading di lunedì.</p><p>Nello spazio cripto, la più grande banca di Hong Kong si è mossa per inserire una stablecoin in tre milioni di portafogli, secondo Decrypt, mentre The Cryptonomist ha riferito che la stablecoin USBDC di US Bank su Stellar è entrata in un pilot dal vivo tra gli USA e l&#x27;UE. Franklin Templeton ha proposto nuovi ETF che reinvestono i dividendi in Bitcoin a partire da un&#x27;allocazione del 5 percento, e The Cryptonomist ha notato che Pump.fun ha superato Hyperliquid nei ricavi giornalieri. Separatamente, Decrypt ha coperto la spinta dei publisher di giochi a eliminare i dischi fisici dal 2007, citando un veterano di Infinity Ward.</p><p>La prossima seduta porterà diversi elementi da monitorare. CNBC pubblicherà dati su come gli elettori americani si sentono riguardo all&#x27;economia, all&#x27;inflazione, all&#x27;IA e al panorama politico. La copertura del Financial Times seguirà se i rendimenti dei bond governativi e aziendali francesi continueranno a convergere. Al di là dei mercati, Forbes ha riferito che il film di Ridley Scott The Dog Stars, descritto come il suo più grande insuccesso al botteghino dal 2021, si dirige verso la distribuzione digitale questa settimana.</p>",
+  "weekend_commentary_html_en": "<p>Over the closed weekend, markets and policy dominated the news cycle across three main threads. Political upheaval in France continued to rattle investors, with CNBC examining what comes next for markets as riots persist and more protests loom. Separately, Bloomberg flagged the French bond rout as a crisis point for the European Central Bank&#x27;s succession, while Financial Times reported on Mercuria challenging a major shipping index operator in court following losses in the Strait of Hormuz. The earnings picture itself drew scrutiny from The Wall Street Journal, which noted that the current boom remains heavily concentrated in just a handful of stocks. Meanwhile, Elon Musk&#x27;s promise to distribute SpaceX shares to every child in America drew skepticism from MarketWatch, and CNBC quoted a former hedge fund manager arguing that retail investors today are no more sophisticated than they were three decades ago.</p><p>Cryptocurrency markets posted modest declines over the weekend. Bitcoin fell 1.31 percent since the last US close, while Ethereum dropped 3.08 percent and Solana fell 3.03 percent. XRP declined 1.17 percent. The euro held flat against the dollar. The moves were small across the board.</p><p>Beyond traditional markets, one company drew outsized coverage intensity this weekend. Amgen appeared in a CNBC headline stating that the company says a drug combination cuts risk of death by 58 percent in patients with aggressive lung cancer, earning a coverage-intensity score of 8.0 out of 10. This score reflects how prominently outlets themselves featured the story, not a prediction of Monday&#x27;s trading.</p><p>In the crypto space, Hong Kong&#x27;s largest bank moved to put a stablecoin into three million wallets, according to Decrypt, while The Cryptonomist reported that US Bank&#x27;s USBDC stablecoin on Stellar entered a live pilot between the US and EU. Franklin Templeton proposed new ETFs that reinvest dividends in Bitcoin starting at a 5 percent allocation, and The Cryptonomist noted that Pump.fun surpassed Hyperliquid in daily revenues. Separately, Decrypt covered game publishers&#x27; push to eliminate physical discs since 2007, citing an Infinity Ward veteran.</p><p>The coming session will bring several items to monitor. CNBC is publishing data on how American voters feel about the economy, inflation, AI and the political landscape. Financial Times coverage will track whether French government and corporate bond yields continue to converge. Beyond markets, Forbes reported that Ridley Scott&#x27;s film The Dog Stars, described as his biggest box office miss since 2021, heads to digital distribution this week.</p>",
   "covers_date_it": "24 ottobre 2026",
   "covers_date_en": "October 24, 2026"
 }
