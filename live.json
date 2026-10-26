@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-26T15:00:35Z",
+  "updated": "2026-10-26T15:10:37Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.98,
-      "last": 7697.74
+      "pct": 0.96,
+      "last": 7696.11
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.46,
-      "last": 29378.82
+      "pct": 1.41,
+      "last": 29363.81
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.48,
-      "last": 52461.73
+      "pct": 0.5,
+      "last": 52471.96
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.43,
-      "last": 49163.53
+      "pct": 1.52,
+      "last": 49207.46
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "SGRY",
         "name": "Surgery Partners, Inc.",
-        "pct": 46.25
+        "pct": 46.22
       },
       {
         "symbol": "RRC",
         "name": "Range Resources Corporation",
-        "pct": 15.14
+        "pct": 14.74
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": 9.26
-      },
-      {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": 9.15
-      },
-      {
-        "symbol": "FIX",
-        "name": "Comfort Systems USA, Inc.",
-        "pct": 8.41
-      },
-      {
-        "symbol": "BOLT",
-        "name": "Bolt Biotherapeutics, Inc.",
-        "pct": 8.13
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": 8.08
-      },
-      {
-        "symbol": "PARR",
-        "name": "Par Pacific Holdings, Inc.",
-        "pct": 8.03
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": 7.88
+        "pct": 11.83
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 7.85
+        "pct": 8.67
+      },
+      {
+        "symbol": "TTMI",
+        "name": "TTM Technologies, Inc.",
+        "pct": 8.45
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 8.28
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 8.22
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": 8.21
+      },
+      {
+        "symbol": "FIX",
+        "name": "Comfort Systems USA, Inc.",
+        "pct": 7.88
+      },
+      {
+        "symbol": "SEI",
+        "name": "Solaris Energy Infrastructure, Inc.",
+        "pct": 7.72
       }
     ],
     "losers": [
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": -51.86
+        "pct": -51.36
       },
       {
         "symbol": "INTR",
         "name": "Inter & Co. Inc. - Class A",
-        "pct": -38.94
+        "pct": -38.18
       },
       {
         "symbol": "STNE",
         "name": "StoneCo Ltd. - Class A Common Share",
-        "pct": -30.01
-      },
-      {
-        "symbol": "AVBP",
-        "name": "ArriVent BioPharma, Inc.",
-        "pct": -27.81
-      },
-      {
-        "symbol": "AIOK",
-        "name": "AI OKTO CORP.",
-        "pct": -27.19
+        "pct": -28.92
       },
       {
         "symbol": "PAGS",
         "name": "PagSeguro Digital Ltd. Class A",
-        "pct": -27.1
+        "pct": -26.97
+      },
+      {
+        "symbol": "AVBP",
+        "name": "ArriVent BioPharma, Inc.",
+        "pct": -26.24
+      },
+      {
+        "symbol": "AIOK",
+        "name": "AI OKTO CORP.",
+        "pct": -23.38
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": -20.32
+        "pct": -19.23
       },
       {
         "symbol": "PBR",
         "name": "Petroleo Brasileiro S.A. Petrobras ADS",
-        "pct": -17.91
+        "pct": -17.16
       },
       {
         "symbol": "MELI",
         "name": "MercadoLibre, Inc.",
-        "pct": -10.45
+        "pct": -10.64
       },
       {
         "symbol": "GGB",
         "name": "Gerdau S.A.",
-        "pct": -9.41
+        "pct": -7.95
       }
     ],
     "universe": 1298
