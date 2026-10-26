@@ -1,137 +1,137 @@
 {
-  "updated": "2026-10-23T20:15:57Z",
-  "market_open": false,
+  "updated": "2026-10-26T14:01:32Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.52,
-      "last": 7623.68
+      "pct": 0.5,
+      "last": 7660.77
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.02,
-      "last": 28957.53
+      "pct": 0.36,
+      "last": 29058.95
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.22,
-      "last": 52215.16
+      "pct": 0.51,
+      "last": 52475.89
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.34,
-      "last": 48558.86
+      "pct": 1.4,
+      "last": 49149.04
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "RHI",
-        "name": "Robert Half Inc.",
-        "pct": 21.74
+        "symbol": "SGRY",
+        "name": "Surgery Partners, Inc.",
+        "pct": 45.78
       },
       {
-        "symbol": "SAIQ",
-        "name": "WISeSat.Space Holdings Corp.",
-        "pct": 15.91
+        "symbol": "RRC",
+        "name": "Range Resources Corporation",
+        "pct": 16.83
       },
       {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": 9.37
-      },
-      {
-        "symbol": "THRM",
-        "name": "Gentherm Inc",
-        "pct": 9.37
-      },
-      {
-        "symbol": "VG",
-        "name": "Venture Global, Inc.",
-        "pct": 9.29
-      },
-      {
-        "symbol": "CART",
-        "name": "Maplebear Inc.",
-        "pct": 9.21
-      },
-      {
-        "symbol": "BAND",
-        "name": "Bandwidth Inc.",
-        "pct": 9.09
-      },
-      {
-        "symbol": "CCI",
-        "name": "Crown Castle Inc.",
-        "pct": 9.06
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": 8.73
-      },
-      {
-        "symbol": "SAIL",
-        "name": "SailPoint, Inc.",
-        "pct": 8.62
-      }
-    ],
-    "losers": [
-      {
-        "symbol": "LKQ",
-        "name": "LKQ Corporation",
-        "pct": -22.47
-      },
-      {
-        "symbol": "CORT",
-        "name": "Corcept Therapeutics Incorporated",
-        "pct": -20.13
-      },
-      {
-        "symbol": "TNGX",
-        "name": "Tango Therapeutics, Inc.",
-        "pct": -16.43
-      },
-      {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": -11.24
-      },
-      {
-        "symbol": "SLM",
-        "name": "SLM Corporation",
-        "pct": -10.78
-      },
-      {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": -9.51
-      },
-      {
-        "symbol": "FLG",
-        "name": "Flagstar Bank, N.A.",
-        "pct": -9.27
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": 9.24
       },
       {
         "symbol": "FIX",
         "name": "Comfort Systems USA, Inc.",
-        "pct": -9.26
+        "pct": 6.51
       },
       {
-        "symbol": "GL",
-        "name": "Globe Life Inc.",
-        "pct": -8.09
+        "symbol": "PARR",
+        "name": "Par Pacific Holdings, Inc.",
+        "pct": 6.45
       },
       {
-        "symbol": "T",
-        "name": "AT&T Inc.",
-        "pct": -7.96
+        "symbol": "PBF",
+        "name": "PBF Energy Inc.",
+        "pct": 5.92
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "pct": 5.82
+      },
+      {
+        "symbol": "CORT",
+        "name": "Corcept Therapeutics Incorporated",
+        "pct": 5.78
+      },
+      {
+        "symbol": "DK",
+        "name": "Delek US Holdings, Inc.",
+        "pct": 5.62
+      },
+      {
+        "symbol": "EAT",
+        "name": "Brinker International, Inc.",
+        "pct": 5.39
       }
     ],
-    "universe": 1379
+    "losers": [
+      {
+        "symbol": "XP",
+        "name": "XP Inc.",
+        "pct": -51.15
+      },
+      {
+        "symbol": "INTR",
+        "name": "Inter & Co. Inc. - Class A",
+        "pct": -37.9
+      },
+      {
+        "symbol": "STNE",
+        "name": "StoneCo Ltd. - Class A Common Share",
+        "pct": -30.56
+      },
+      {
+        "symbol": "AIOK",
+        "name": "AI OKTO CORP.",
+        "pct": -28.04
+      },
+      {
+        "symbol": "PAGS",
+        "name": "PagSeguro Digital Ltd. Class A",
+        "pct": -26.53
+      },
+      {
+        "symbol": "AVBP",
+        "name": "ArriVent BioPharma, Inc.",
+        "pct": -22.33
+      },
+      {
+        "symbol": "NU",
+        "name": "Nu Holdings Ltd.",
+        "pct": -21.6
+      },
+      {
+        "symbol": "PBR",
+        "name": "Petroleo Brasileiro S.A. Petrobras ADS",
+        "pct": -16.74
+      },
+      {
+        "symbol": "MELI",
+        "name": "MercadoLibre, Inc.",
+        "pct": -11.97
+      },
+      {
+        "symbol": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "pct": -7.22
+      }
+    ],
+    "universe": 1298
   }
 }
