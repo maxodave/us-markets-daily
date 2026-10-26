@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-26T15:10:37Z",
+  "updated": "2026-10-26T15:26:10Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": 0.96,
-      "last": 7696.11
+      "last": 7696.46
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.41,
-      "last": 29363.81
+      "pct": 1.52,
+      "last": 29396.5
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.5,
-      "last": 52471.96
+      "pct": 0.38,
+      "last": 52409.75
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.52,
-      "last": 49207.46
+      "pct": 1.57,
+      "last": 49231.74
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "SGRY",
         "name": "Surgery Partners, Inc.",
-        "pct": 46.22
+        "pct": 46.32
       },
       {
         "symbol": "RRC",
         "name": "Range Resources Corporation",
-        "pct": 14.74
+        "pct": 15.91
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": 11.83
-      },
-      {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": 8.67
+        "pct": 12.47
       },
       {
         "symbol": "TTMI",
         "name": "TTM Technologies, Inc.",
-        "pct": 8.45
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 8.28
-      },
-      {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": 8.22
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": 8.21
-      },
-      {
-        "symbol": "FIX",
-        "name": "Comfort Systems USA, Inc.",
-        "pct": 7.88
+        "pct": 9.87
       },
       {
         "symbol": "SEI",
         "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 7.72
+        "pct": 9.09
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": 9.07
+      },
+      {
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": 8.87
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": 8.8
+      },
+      {
+        "symbol": "FIX",
+        "name": "Comfort Systems USA, Inc.",
+        "pct": 8.53
+      },
+      {
+        "symbol": "VICR",
+        "name": "Vicor Corporation",
+        "pct": 8.38
       }
     ],
     "losers": [
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": -51.36
+        "pct": -50.1
       },
       {
         "symbol": "INTR",
         "name": "Inter & Co. Inc. - Class A",
-        "pct": -38.18
+        "pct": -37.07
       },
       {
         "symbol": "STNE",
         "name": "StoneCo Ltd. - Class A Common Share",
-        "pct": -28.92
+        "pct": -28.35
       },
       {
         "symbol": "PAGS",
         "name": "PagSeguro Digital Ltd. Class A",
-        "pct": -26.97
+        "pct": -26.18
       },
       {
         "symbol": "AVBP",
         "name": "ArriVent BioPharma, Inc.",
-        "pct": -26.24
-      },
-      {
-        "symbol": "AIOK",
-        "name": "AI OKTO CORP.",
-        "pct": -23.38
+        "pct": -23.4
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": -19.23
+        "pct": -18.73
+      },
+      {
+        "symbol": "AIOK",
+        "name": "AI OKTO CORP.",
+        "pct": -18.72
       },
       {
         "symbol": "PBR",
         "name": "Petroleo Brasileiro S.A. Petrobras ADS",
-        "pct": -17.16
+        "pct": -16.84
       },
       {
         "symbol": "MELI",
         "name": "MercadoLibre, Inc.",
-        "pct": -10.64
+        "pct": -9.67
       },
       {
-        "symbol": "GGB",
-        "name": "Gerdau S.A.",
-        "pct": -7.95
+        "symbol": "FICO",
+        "name": "Fair Isaac Corporation",
+        "pct": -8.38
       }
     ],
     "universe": 1298
