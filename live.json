@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-26T19:47:01Z",
-  "market_open": true,
+  "updated": "2026-10-26T20:04:38Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.75,
-      "last": 7680.31
+      "pct": 0.71,
+      "last": 7676.77
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.28,
-      "last": 29325.45
+      "pct": 1.1,
+      "last": 29273.4
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.24,
-      "last": 52332.53
+      "pct": 0.29,
+      "last": 52361.58
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "SGRY",
         "name": "Surgery Partners, Inc.",
-        "pct": 47.56
+        "pct": 47.62
       },
       {
         "symbol": "RRC",
         "name": "Range Resources Corporation",
-        "pct": 17.23
+        "pct": 17.68
       },
       {
         "symbol": "VICR",
         "name": "Vicor Corporation",
-        "pct": 11.18
+        "pct": 10.64
       },
       {
         "symbol": "INIO",
         "name": "INNIO N.V.",
-        "pct": 10.5
+        "pct": 9.34
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": 8.94
+        "pct": 9.1
       },
       {
         "symbol": "LITE",
         "name": "Lumentum Holdings Inc.",
-        "pct": 8.92
+        "pct": 8.19
+      },
+      {
+        "symbol": "TENB",
+        "name": "Tenable Holdings, Inc.",
+        "pct": 8.12
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 8.81
-      },
-      {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": 8.7
-      },
-      {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": 8.34
+        "pct": 8.05
       },
       {
         "symbol": "VSAT",
         "name": "ViaSat, Inc.",
-        "pct": 7.95
+        "pct": 8.0
+      },
+      {
+        "symbol": "CART",
+        "name": "Maplebear Inc.",
+        "pct": 7.87
       }
     ],
     "losers": [
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": -47.81
+        "pct": -48.36
       },
       {
         "symbol": "INTR",
         "name": "Inter & Co. Inc. - Class A",
-        "pct": -35.26
-      },
-      {
-        "symbol": "AVBP",
-        "name": "ArriVent BioPharma, Inc.",
-        "pct": -28.12
+        "pct": -34.91
       },
       {
         "symbol": "STNE",
         "name": "StoneCo Ltd. - Class A Common Share",
-        "pct": -27.48
+        "pct": -27.44
       },
       {
-        "symbol": "AIOK",
-        "name": "AI OKTO CORP.",
-        "pct": -26.79
+        "symbol": "AVBP",
+        "name": "ArriVent BioPharma, Inc.",
+        "pct": -26.86
       },
       {
         "symbol": "PAGS",
         "name": "PagSeguro Digital Ltd. Class A",
-        "pct": -25.04
+        "pct": -25.22
+      },
+      {
+        "symbol": "AIOK",
+        "name": "AI OKTO CORP.",
+        "pct": -23.79
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": -16.23
+        "pct": -16.95
       },
       {
         "symbol": "PBR",
         "name": "Petroleo Brasileiro S.A. Petrobras ADS",
-        "pct": -14.05
+        "pct": -14.07
       },
       {
         "symbol": "FICO",
         "name": "Fair Isaac Corporation",
-        "pct": -13.14
+        "pct": -13.27
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": -8.51
+        "pct": -9.15
       }
     ],
     "universe": 1298
