@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-28T18:41:10Z",
+  "updated": "2026-10-28T18:55:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.27,
-      "last": 7743.62
+      "pct": 0.15,
+      "last": 7734.42
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.38,
-      "last": 29763.35
+      "pct": 0.25,
+      "last": 29724.84
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.23,
-      "last": 52508.67
+      "pct": 0.09,
+      "last": 52432.52
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "AIOK",
         "name": "AI OKTO CORP.",
-        "pct": 38.52
+        "pct": 52.68
       },
       {
         "symbol": "AXGN",
         "name": "Axogen, Inc.",
-        "pct": 32.3
+        "pct": 31.7
       },
       {
         "symbol": "REPL",
         "name": "Replimune Group, Inc.",
-        "pct": 25.52
+        "pct": 24.44
       },
       {
         "symbol": "VRT",
         "name": "Vertiv Holdings, LLC",
-        "pct": 16.71
-      },
-      {
-        "symbol": "BEAM",
-        "name": "Beam Therapeutics Inc.",
-        "pct": 15.26
+        "pct": 16.73
       },
       {
         "symbol": "EAT",
         "name": "Brinker International, Inc.",
-        "pct": 13.9
+        "pct": 13.49
+      },
+      {
+        "symbol": "BEAM",
+        "name": "Beam Therapeutics Inc.",
+        "pct": 12.95
       },
       {
         "symbol": "EVR",
         "name": "Evercore Inc.",
-        "pct": 12.91
+        "pct": 12.02
       },
       {
-        "symbol": "WING",
-        "name": "Wingstop Inc.",
-        "pct": 12.63
+        "symbol": "ORCL",
+        "name": "Oracle Corporation",
+        "pct": 11.69
+      },
+      {
+        "symbol": "ICLR",
+        "name": "ICON plc",
+        "pct": 11.34
       },
       {
         "symbol": "HAYW",
         "name": "Hayward Holdings, Inc.",
-        "pct": 11.86
-      },
-      {
-        "symbol": "FLEX",
-        "name": "Flex Ltd.",
-        "pct": 11.85
+        "pct": 11.28
       }
     ],
     "losers": [
       {
         "symbol": "FFIV",
         "name": "F5, Inc.",
-        "pct": -19.25
-      },
-      {
-        "symbol": "LSTR",
-        "name": "Landstar System, Inc.",
-        "pct": -16.88
+        "pct": -19.89
       },
       {
         "symbol": "ENPH",
         "name": "Enphase Energy, Inc.",
-        "pct": -16.57
+        "pct": -16.87
+      },
+      {
+        "symbol": "LSTR",
+        "name": "Landstar System, Inc.",
+        "pct": -16.82
       },
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -13.97
+        "pct": -15.55
       },
       {
         "symbol": "CSGP",
         "name": "CoStar Group, Inc.",
-        "pct": -13.9
+        "pct": -14.95
       },
       {
         "symbol": "LPLA",
         "name": "LPL Financial Holdings Inc.",
-        "pct": -13.43
+        "pct": -13.97
       },
       {
         "symbol": "LOGI",
         "name": "Logitech International S.A. - Registered Sha",
-        "pct": -12.18
+        "pct": -12.31
       },
       {
         "symbol": "ZWS",
         "name": "Zurn Elkay Water Solutions Corporation",
-        "pct": -12.12
-      },
-      {
-        "symbol": "CHRW",
-        "name": "C.H. Robinson Worldwide, Inc.",
-        "pct": -11.46
+        "pct": -12.19
       },
       {
         "symbol": "LII",
         "name": "Lennox International, Inc.",
-        "pct": -10.77
+        "pct": -11.75
+      },
+      {
+        "symbol": "CHRW",
+        "name": "C.H. Robinson Worldwide, Inc.",
+        "pct": -11.41
       }
     ],
     "universe": 1332
