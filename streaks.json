@@ -1,44 +1,26 @@
 {
-  "updated": "2026-10-28T00:49:20Z",
-  "session_date": "2026-10-26",
+  "updated": "2026-10-29T01:18:46Z",
+  "session_date": "2026-10-27",
   "universe": 558,
   "up": {
-    "count": 328,
+    "count": 286,
     "by_length": {
-      "1": 220,
-      "2": 72,
-      "3": 17,
-      "4": 5,
-      "5": 13,
-      "8+": 1
+      "1": 82,
+      "2": 130,
+      "3": 60,
+      "4": 6,
+      "5": 2,
+      "6": 6
     },
     "top": [
-      {
-        "symbol": "LDOS",
-        "name": "Leidos",
-        "indices": [
-          "sp500"
-        ],
-        "days": 9,
-        "cum_pct": 16.84
-      },
       {
         "symbol": "HAS",
         "name": "Hasbro",
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 19.77
-      },
-      {
-        "symbol": "LMT",
-        "name": "Lockheed Martin",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 15.86
+        "days": 6,
+        "cum_pct": 20.14
       },
       {
         "symbol": "AKAM",
@@ -46,8 +28,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 12.89
+        "days": 6,
+        "cum_pct": 14.14
       },
       {
         "symbol": "AXON",
@@ -56,27 +38,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 5,
-        "cum_pct": 10.88
-      },
-      {
-        "symbol": "SWK",
-        "name": "Stanley Black & Decker",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 8.97
-      },
-      {
-        "symbol": "CTAS",
-        "name": "Cintas",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 6.42
+        "days": 6,
+        "cum_pct": 11.17
       },
       {
         "symbol": "RVTY",
@@ -84,17 +47,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 6.26
-      },
-      {
-        "symbol": "MSI",
-        "name": "Motorola Solutions",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 5.82
+        "days": 6,
+        "cum_pct": 7.23
       },
       {
         "symbol": "FTV",
@@ -102,35 +56,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 5.74
-      },
-      {
-        "symbol": "TFC",
-        "name": "Truist Financial",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 5.59
-      },
-      {
-        "symbol": "RF",
-        "name": "Regions Financial Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 5.18
-      },
-      {
-        "symbol": "OKE",
-        "name": "Oneok",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 4.26
+        "days": 6,
+        "cum_pct": 7.2
       },
       {
         "symbol": "TRN.MI",
@@ -138,8 +65,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": 5,
-        "cum_pct": 2.3
+        "days": 6,
+        "cum_pct": 3.46
       },
       {
         "symbol": "PANW",
@@ -148,95 +75,102 @@
           "sp500",
           "nasdaq100"
         ],
+        "days": 5,
+        "cum_pct": 18.05
+      },
+      {
+        "symbol": "EXE",
+        "name": "Expand Energy",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 2.1
+      },
+      {
+        "symbol": "CCI",
+        "name": "Crown Castle",
+        "indices": [
+          "sp500"
+        ],
         "days": 4,
-        "cum_pct": 14.75
+        "cum_pct": 11.72
+      },
+      {
+        "symbol": "PHM",
+        "name": "PulteGroup",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 7.74
+      },
+      {
+        "symbol": "LYB",
+        "name": "LyondellBasell",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 6.57
+      },
+      {
+        "symbol": "PODD",
+        "name": "Insulet Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 5.59
+      },
+      {
+        "symbol": "KIM",
+        "name": "Kimco Realty",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 4.31
+      },
+      {
+        "symbol": "LDO.MI",
+        "name": "Leonardo",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 4,
+        "cum_pct": 3.64
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 3,
+        "cum_pct": 15.1
       }
     ]
   },
   "down": {
-    "count": 227,
+    "count": 271,
     "by_length": {
-      "1": 53,
-      "2": 147,
-      "3": 18,
-      "4": 7,
-      "5": 2
+      "1": 126,
+      "2": 32,
+      "3": 104,
+      "4": 6,
+      "5": 3
     },
     "top": [
-      {
-        "symbol": "GOOGL",
-        "name": "Alphabet Inc. (Class A)",
-        "indices": [
-          "sp500",
-          "dow",
-          "nasdaq100"
-        ],
-        "days": -5,
-        "cum_pct": -7.96
-      },
-      {
-        "symbol": "GOOG",
-        "name": "Alphabet Inc. (Class C)",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -5,
-        "cum_pct": -7.63
-      },
-      {
-        "symbol": "MELI",
-        "name": "Mercado Libre",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -11.21
-      },
       {
         "symbol": "RDDT",
         "name": "Reddit",
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -11.05
-      },
-      {
-        "symbol": "DECK",
-        "name": "Deckers Brands",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -8.01
-      },
-      {
-        "symbol": "CVNA",
-        "name": "Carvana",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -6.06
-      },
-      {
-        "symbol": "TKO",
-        "name": "TKO Group Holdings",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -4.68
-      },
-      {
-        "symbol": "COR",
-        "name": "Cencora",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -3.87
+        "days": -5,
+        "cum_pct": -12.33
       },
       {
         "symbol": "MCK",
@@ -244,36 +178,17 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -3.62
+        "days": -5,
+        "cum_pct": -6.13
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -3,
-        "cum_pct": -19.1
-      },
-      {
-        "symbol": "NBIS",
-        "name": "Nebius Group",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": -3,
-        "cum_pct": -10.67
-      },
-      {
-        "symbol": "COIN",
-        "name": "Coinbase",
+        "symbol": "COR",
+        "name": "Cencora",
         "indices": [
           "sp500"
         ],
-        "days": -3,
-        "cum_pct": -9.87
+        "days": -5,
+        "cum_pct": -5.21
       },
       {
         "symbol": "META",
@@ -282,17 +197,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -3,
-        "cum_pct": -9.6
-      },
-      {
-        "symbol": "HOOD",
-        "name": "Robinhood Markets",
-        "indices": [
-          "sp500"
-        ],
-        "days": -3,
-        "cum_pct": -8.92
+        "days": -4,
+        "cum_pct": -11.09
       },
       {
         "symbol": "CBRE",
@@ -300,12 +206,103 @@
         "indices": [
           "sp500"
         ],
+        "days": -4,
+        "cum_pct": -9.65
+      },
+      {
+        "symbol": "PCAR",
+        "name": "Paccar",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -4,
+        "cum_pct": -5.89
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify",
+        "indices": [
+          "nasdaq100"
+        ],
+        "days": -4,
+        "cum_pct": -4.87
+      },
+      {
+        "symbol": "EBAY",
+        "name": "eBay Inc.",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -4.13
+      },
+      {
+        "symbol": "SCHW",
+        "name": "Charles Schwab Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -2.55
+      },
+      {
+        "symbol": "FICO",
+        "name": "Fair Isaac",
+        "indices": [
+          "sp500"
+        ],
         "days": -3,
-        "cum_pct": -8.74
+        "cum_pct": -15.98
+      },
+      {
+        "symbol": "XYL",
+        "name": "Xylem Inc.",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -15.01
+      },
+      {
+        "symbol": "CTSH",
+        "name": "Cognizant",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -10.17
+      },
+      {
+        "symbol": "CSGP",
+        "name": "CoStar Group",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -9.7
+      },
+      {
+        "symbol": "BRO",
+        "name": "Brown & Brown",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -9.32
+      },
+      {
+        "symbol": "ACN",
+        "name": "Accenture",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -9.11
       }
     ]
   },
   "flat": {
-    "count": 3
+    "count": 1
   }
 }
