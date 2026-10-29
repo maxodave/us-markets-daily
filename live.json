@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-29T19:35:31Z",
+  "updated": "2026-10-29T19:45:38Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.5,
-      "last": 7709.16
+      "pct": -0.56,
+      "last": 7704.34
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.61,
-      "last": 29347.4
+      "pct": -1.72,
+      "last": 29314.03
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.44,
-      "last": 52286.6
+      "pct": -0.49,
+      "last": 52260.23
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "GKOS",
-        "name": "Glaukos Corporation",
-        "pct": 34.0
-      },
-      {
         "symbol": "ADT",
         "name": "ADT Inc.",
-        "pct": 33.54
+        "pct": 33.6
       },
       {
-        "symbol": "TDOC",
-        "name": "Teladoc Health, Inc.",
-        "pct": 30.09
+        "symbol": "GKOS",
+        "name": "Glaukos Corporation",
+        "pct": 32.69
       },
       {
         "symbol": "BHC",
         "name": "Bausch Health Companies Inc.",
-        "pct": 29.7
+        "pct": 29.48
+      },
+      {
+        "symbol": "TDOC",
+        "name": "Teladoc Health, Inc.",
+        "pct": 28.71
       },
       {
         "symbol": "PRCH",
         "name": "Porch Group, Inc.",
-        "pct": 27.55
+        "pct": 26.92
       },
       {
         "symbol": "CROX",
         "name": "Crocs, Inc.",
-        "pct": 25.23
+        "pct": 24.99
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": 21.61
+        "pct": 21.11
       },
       {
         "symbol": "CVNA",
         "name": "Carvana Co.",
-        "pct": 16.22
+        "pct": 15.97
       },
       {
         "symbol": "FTAI",
         "name": "FTAI Aviation Ltd.",
-        "pct": 15.65
+        "pct": 15.91
       },
       {
         "symbol": "BOOT",
         "name": "Boot Barn Holdings, Inc.",
-        "pct": 14.9
+        "pct": 15.56
       }
     ],
     "losers": [
       {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": -35.35
+        "pct": -34.47
       },
       {
         "symbol": "AIOK",
         "name": "AI OKTO CORP.",
-        "pct": -35.18
+        "pct": -34.22
       },
       {
         "symbol": "NOW",
         "name": "ServiceNow, Inc.",
-        "pct": -27.28
+        "pct": -27.23
       },
       {
         "symbol": "ALNY",
         "name": "Alnylam Pharmaceuticals, Inc.",
-        "pct": -24.84
-      },
-      {
-        "symbol": "FTNT",
-        "name": "Fortinet, Inc.",
-        "pct": -22.29
+        "pct": -24.01
       },
       {
         "symbol": "SFM",
         "name": "Sprouts Farmers Market, Inc.",
-        "pct": -22.23
+        "pct": -22.91
+      },
+      {
+        "symbol": "FTNT",
+        "name": "Fortinet, Inc.",
+        "pct": -22.05
       },
       {
         "symbol": "MRVL",
         "name": "Marvell Technology, Inc.",
-        "pct": -14.36
+        "pct": -14.29
       },
       {
         "symbol": "GOOGL",
         "name": "Alphabet Inc.",
-        "pct": -12.93
+        "pct": -13.0
       },
       {
         "symbol": "GOOG",
         "name": "Alphabet Inc. - Class C Capital Stock",
-        "pct": -12.71
+        "pct": -12.81
       },
       {
-        "symbol": "AUR",
-        "name": "Aurora Innovation, Inc.",
-        "pct": -12.28
+        "symbol": "FORM",
+        "name": "FormFactor, Inc.",
+        "pct": -12.42
       }
     ],
     "universe": 1360
