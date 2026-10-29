@@ -1,137 +1,137 @@
 {
-  "updated": "2026-10-28T19:25:41Z",
+  "updated": "2026-10-29T18:49:50Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.05,
-      "last": 7727.11
+      "pct": -0.66,
+      "last": 7697.02
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.11,
-      "last": 29684.09
+      "pct": -1.8,
+      "last": 29292.28
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.06,
-      "last": 52418.0
+      "pct": -0.63,
+      "last": 52190.24
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.37,
-      "last": 49824.3
+      "pct": 0.39,
+      "last": 50002.36
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "AIOK",
-        "name": "AI OKTO CORP.",
-        "pct": 87.44
+        "symbol": "ADT",
+        "name": "ADT Inc.",
+        "pct": 33.94
       },
       {
-        "symbol": "AXGN",
-        "name": "Axogen, Inc.",
-        "pct": 30.95
+        "symbol": "GKOS",
+        "name": "Glaukos Corporation",
+        "pct": 32.19
       },
       {
-        "symbol": "REPL",
-        "name": "Replimune Group, Inc.",
-        "pct": 24.37
+        "symbol": "TDOC",
+        "name": "Teladoc Health, Inc.",
+        "pct": 29.14
       },
       {
-        "symbol": "VRT",
-        "name": "Vertiv Holdings, LLC",
-        "pct": 16.43
+        "symbol": "BHC",
+        "name": "Bausch Health Companies Inc.",
+        "pct": 27.75
       },
       {
-        "symbol": "BEAM",
-        "name": "Beam Therapeutics Inc.",
-        "pct": 13.05
+        "symbol": "PRCH",
+        "name": "Porch Group, Inc.",
+        "pct": 26.01
       },
       {
-        "symbol": "EAT",
-        "name": "Brinker International, Inc.",
-        "pct": 12.98
+        "symbol": "CROX",
+        "name": "Crocs, Inc.",
+        "pct": 25.5
       },
       {
-        "symbol": "ICLR",
-        "name": "ICON plc",
-        "pct": 12.39
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": 19.91
       },
       {
-        "symbol": "HAYW",
-        "name": "Hayward Holdings, Inc.",
-        "pct": 11.93
+        "symbol": "CVNA",
+        "name": "Carvana Co.",
+        "pct": 15.74
       },
       {
-        "symbol": "EVR",
-        "name": "Evercore Inc.",
-        "pct": 11.73
+        "symbol": "FTAI",
+        "name": "FTAI Aviation Ltd.",
+        "pct": 15.2
       },
       {
-        "symbol": "ORCL",
-        "name": "Oracle Corporation",
-        "pct": 11.69
+        "symbol": "GEN",
+        "name": "Gen Digital Inc.",
+        "pct": 15.05
       }
     ],
     "losers": [
       {
-        "symbol": "FFIV",
-        "name": "F5, Inc.",
-        "pct": -20.75
+        "symbol": "AIOK",
+        "name": "AI OKTO CORP.",
+        "pct": -35.43
       },
       {
-        "symbol": "LSTR",
-        "name": "Landstar System, Inc.",
-        "pct": -17.85
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": -33.79
       },
       {
-        "symbol": "ENPH",
-        "name": "Enphase Energy, Inc.",
-        "pct": -16.83
+        "symbol": "NOW",
+        "name": "ServiceNow, Inc.",
+        "pct": -27.36
       },
       {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -15.04
+        "symbol": "ALNY",
+        "name": "Alnylam Pharmaceuticals, Inc.",
+        "pct": -22.84
       },
       {
-        "symbol": "CSGP",
-        "name": "CoStar Group, Inc.",
-        "pct": -15.03
+        "symbol": "SFM",
+        "name": "Sprouts Farmers Market, Inc.",
+        "pct": -22.1
       },
       {
-        "symbol": "LPLA",
-        "name": "LPL Financial Holdings Inc.",
-        "pct": -13.88
+        "symbol": "FTNT",
+        "name": "Fortinet, Inc.",
+        "pct": -22.04
       },
       {
-        "symbol": "ZWS",
-        "name": "Zurn Elkay Water Solutions Corporation",
-        "pct": -12.57
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "pct": -13.69
       },
       {
-        "symbol": "LOGI",
-        "name": "Logitech International S.A. - Registered Sha",
-        "pct": -11.73
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "pct": -12.86
       },
       {
-        "symbol": "CHRW",
-        "name": "C.H. Robinson Worldwide, Inc.",
-        "pct": -11.62
+        "symbol": "GOOG",
+        "name": "Alphabet Inc. - Class C Capital Stock",
+        "pct": -12.66
       },
       {
-        "symbol": "LII",
-        "name": "Lennox International, Inc.",
-        "pct": -11.51
+        "symbol": "AUR",
+        "name": "Aurora Innovation, Inc.",
+        "pct": -11.69
       }
     ],
-    "universe": 1332
+    "universe": 1360
   }
 }
