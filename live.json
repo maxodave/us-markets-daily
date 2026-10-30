@@ -1,24 +1,24 @@
 {
-  "updated": "2026-10-30T18:45:37Z",
+  "updated": "2026-10-30T18:55:51Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -2.39,
-      "last": 7536.82
+      "pct": -2.47,
+      "last": 7530.17
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -4.28,
-      "last": 28148.23
+      "pct": -4.23,
+      "last": 28163.6
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.43,
-      "last": 51593.89
+      "pct": -1.46,
+      "last": 51578.19
     },
     {
       "key": "ftsemib",
@@ -37,99 +37,99 @@
       {
         "symbol": "CDNA",
         "name": "CareDx, Inc.",
-        "pct": 19.44
-      },
-      {
-        "symbol": "VXX",
-        "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 15.74
-      },
-      {
-        "symbol": "FDXF",
-        "name": "FedEx Freight Holding Company, Inc.",
-        "pct": 15.46
+        "pct": 19.72
       },
       {
         "symbol": "CPRI",
         "name": "Capri Holdings Limited",
-        "pct": 15.44
+        "pct": 15.6
+      },
+      {
+        "symbol": "FDXF",
+        "name": "FedEx Freight Holding Company, Inc.",
+        "pct": 15.51
+      },
+      {
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": 14.47
       },
       {
         "symbol": "CVCO",
         "name": "Cavco Industries, Inc.",
-        "pct": 11.41
+        "pct": 11.83
       },
       {
         "symbol": "REGN",
         "name": "Regeneron Pharmaceuticals, Inc.",
-        "pct": 11.31
+        "pct": 11.82
       },
       {
         "symbol": "GPN",
         "name": "Global Payments Inc.",
-        "pct": 10.79
+        "pct": 11.68
       },
       {
         "symbol": "OLN",
         "name": "Olin Corporation",
-        "pct": 9.28
+        "pct": 9.31
       },
       {
-        "symbol": "GDDY",
-        "name": "GoDaddy Inc.",
-        "pct": 8.6
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets, Inc.",
+        "pct": 9.08
       }
     ],
     "losers": [
       {
         "symbol": "ATEC",
         "name": "Alphatec Holdings, Inc.",
-        "pct": -38.57
+        "pct": -38.48
       },
       {
         "symbol": "INTC",
         "name": "Intel Corporation",
-        "pct": -30.91
+        "pct": -30.99
       },
       {
         "symbol": "RDDT",
         "name": "Reddit, Inc.",
-        "pct": -30.28
+        "pct": -30.57
       },
       {
         "symbol": "RBLX",
         "name": "Roblox Corporation",
-        "pct": -19.99
-      },
-      {
-        "symbol": "CACC",
-        "name": "Credit Acceptance Corporation",
-        "pct": -18.94
+        "pct": -20.73
       },
       {
         "symbol": "ILMN",
         "name": "Illumina, Inc.",
-        "pct": -18.91
+        "pct": -19.47
+      },
+      {
+        "symbol": "CACC",
+        "name": "Credit Acceptance Corporation",
+        "pct": -18.97
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -16.24
-      },
-      {
-        "symbol": "TXG",
-        "name": "10x Genomics, Inc.",
-        "pct": -15.9
+        "pct": -16.76
       },
       {
         "symbol": "TWLO",
         "name": "Twilio Inc.",
-        "pct": -15.79
+        "pct": -16.33
       },
       {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": -15.55
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "pct": -16.1
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -15.64
       }
     ],
     "universe": 1360
