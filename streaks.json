@@ -1,16 +1,15 @@
 {
-  "updated": "2026-10-29T01:18:46Z",
-  "session_date": "2026-10-27",
+  "updated": "2026-10-30T01:22:44Z",
+  "session_date": "2026-10-28",
   "universe": 558,
   "up": {
-    "count": 286,
+    "count": 281,
     "by_length": {
-      "1": 82,
-      "2": 130,
-      "3": 60,
-      "4": 6,
-      "5": 2,
-      "6": 6
+      "1": 120,
+      "2": 37,
+      "3": 80,
+      "4": 40,
+      "7": 4
     },
     "top": [
       {
@@ -19,36 +18,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 6,
-        "cum_pct": 20.14
-      },
-      {
-        "symbol": "AKAM",
-        "name": "Akamai Technologies",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 14.14
-      },
-      {
-        "symbol": "AXON",
-        "name": "Axon Enterprise",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 6,
-        "cum_pct": 11.17
-      },
-      {
-        "symbol": "RVTY",
-        "name": "Revvity",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 7.23
+        "days": 7,
+        "cum_pct": 20.5
       },
       {
         "symbol": "FTV",
@@ -56,8 +27,17 @@
         "indices": [
           "sp500"
         ],
-        "days": 6,
-        "cum_pct": 7.2
+        "days": 7,
+        "cum_pct": 11.53
+      },
+      {
+        "symbol": "RVTY",
+        "name": "Revvity",
+        "indices": [
+          "sp500"
+        ],
+        "days": 7,
+        "cum_pct": 9.53
       },
       {
         "symbol": "TRN.MI",
@@ -65,81 +45,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": 6,
-        "cum_pct": 3.46
-      },
-      {
-        "symbol": "PANW",
-        "name": "Palo Alto Networks",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 18.05
-      },
-      {
-        "symbol": "EXE",
-        "name": "Expand Energy",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 2.1
-      },
-      {
-        "symbol": "CCI",
-        "name": "Crown Castle",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 11.72
-      },
-      {
-        "symbol": "PHM",
-        "name": "PulteGroup",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 7.74
-      },
-      {
-        "symbol": "LYB",
-        "name": "LyondellBasell",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 6.57
-      },
-      {
-        "symbol": "PODD",
-        "name": "Insulet Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 5.59
-      },
-      {
-        "symbol": "KIM",
-        "name": "Kimco Realty",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 4.31
-      },
-      {
-        "symbol": "LDO.MI",
-        "name": "Leonardo",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 4,
-        "cum_pct": 3.64
+        "days": 7,
+        "cum_pct": 3.96
       },
       {
         "symbol": "LITE",
@@ -148,19 +55,116 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 3,
-        "cum_pct": 15.1
+        "days": 4,
+        "cum_pct": 21.45
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 15.29
+      },
+      {
+        "symbol": "MU",
+        "name": "Micron Technology",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 14.8
+      },
+      {
+        "symbol": "RKLB",
+        "name": "Rocket Lab",
+        "indices": [
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 14.41
+      },
+      {
+        "symbol": "SNPS",
+        "name": "Synopsys",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 14.06
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 13.88
+      },
+      {
+        "symbol": "Q",
+        "name": "Qnity Electronics",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 12.88
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 12.61
+      },
+      {
+        "symbol": "ARM",
+        "name": "Arm Holdings",
+        "indices": [
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 12.28
+      },
+      {
+        "symbol": "INTC",
+        "name": "Intel",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 11.74
+      },
+      {
+        "symbol": "ADI",
+        "name": "Analog Devices",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 11.02
       }
     ]
   },
   "down": {
-    "count": 271,
+    "count": 277,
     "by_length": {
       "1": 126,
-      "2": 32,
-      "3": 104,
-      "4": 6,
-      "5": 3
+      "2": 63,
+      "3": 14,
+      "4": 68,
+      "5": 3,
+      "6": 3
     },
     "top": [
       {
@@ -169,8 +173,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -12.33
+        "days": -6,
+        "cum_pct": -13.46
       },
       {
         "symbol": "MCK",
@@ -178,8 +182,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -6.13
+        "days": -6,
+        "cum_pct": -6.75
       },
       {
         "symbol": "COR",
@@ -187,8 +191,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -5.21
+        "days": -6,
+        "cum_pct": -5.51
       },
       {
         "symbol": "META",
@@ -197,17 +201,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -4,
-        "cum_pct": -11.09
-      },
-      {
-        "symbol": "CBRE",
-        "name": "CBRE Group",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -9.65
+        "days": -5,
+        "cum_pct": -12.19
       },
       {
         "symbol": "PCAR",
@@ -216,26 +211,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -4,
-        "cum_pct": -5.89
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -4.87
-      },
-      {
-        "symbol": "EBAY",
-        "name": "eBay Inc.",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -4.13
+        "days": -5,
+        "cum_pct": -7.08
       },
       {
         "symbol": "SCHW",
@@ -243,35 +220,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -2.55
-      },
-      {
-        "symbol": "FICO",
-        "name": "Fair Isaac",
-        "indices": [
-          "sp500"
-        ],
-        "days": -3,
-        "cum_pct": -15.98
-      },
-      {
-        "symbol": "XYL",
-        "name": "Xylem Inc.",
-        "indices": [
-          "sp500"
-        ],
-        "days": -3,
-        "cum_pct": -15.01
-      },
-      {
-        "symbol": "CTSH",
-        "name": "Cognizant",
-        "indices": [
-          "sp500"
-        ],
-        "days": -3,
-        "cum_pct": -10.17
+        "days": -5,
+        "cum_pct": -3.14
       },
       {
         "symbol": "CSGP",
@@ -279,8 +229,17 @@
         "indices": [
           "sp500"
         ],
-        "days": -3,
-        "cum_pct": -9.7
+        "days": -4,
+        "cum_pct": -22.31
+      },
+      {
+        "symbol": "XYL",
+        "name": "Xylem Inc.",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -19.25
       },
       {
         "symbol": "BRO",
@@ -288,21 +247,68 @@
         "indices": [
           "sp500"
         ],
-        "days": -3,
-        "cum_pct": -9.32
+        "days": -4,
+        "cum_pct": -11.56
       },
       {
-        "symbol": "ACN",
-        "name": "Accenture",
+        "symbol": "DG",
+        "name": "Dollar General",
         "indices": [
           "sp500"
         ],
-        "days": -3,
-        "cum_pct": -9.11
+        "days": -4,
+        "cum_pct": -9.3
+      },
+      {
+        "symbol": "TSCO",
+        "name": "Tractor Supply",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -8.98
+      },
+      {
+        "symbol": "PAYX",
+        "name": "Paychex",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -4,
+        "cum_pct": -8.92
+      },
+      {
+        "symbol": "UHS",
+        "name": "Universal Health Services",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -8.48
+      },
+      {
+        "symbol": "BKNG",
+        "name": "Booking Holdings",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -4,
+        "cum_pct": -8.17
+      },
+      {
+        "symbol": "BF.B",
+        "name": "Brown–Forman",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -8.05
       }
     ]
   },
   "flat": {
-    "count": 1
+    "count": 0
   }
 }
