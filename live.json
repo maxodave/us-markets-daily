@@ -1,135 +1,135 @@
 {
-  "updated": "2026-10-29T20:15:34Z",
-  "market_open": false,
+  "updated": "2026-10-30T18:15:37Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.36,
-      "last": 7720.39
+      "pct": -2.17,
+      "last": 7553.21
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.43,
-      "last": 29402.51
+      "pct": -4.05,
+      "last": 28217.36
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.34,
-      "last": 52342.56
+      "pct": -1.18,
+      "last": 51724.2
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.39,
-      "last": 50002.36
+      "pct": -1.05,
+      "last": 49500.97
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "GKOS",
-        "name": "Glaukos Corporation",
-        "pct": 33.65
+        "symbol": "AIOK",
+        "name": "AI OKTO CORP.",
+        "pct": 33.4
       },
       {
-        "symbol": "ADT",
-        "name": "ADT Inc.",
-        "pct": 33.2
+        "symbol": "CDNA",
+        "name": "CareDx, Inc.",
+        "pct": 19.87
       },
       {
-        "symbol": "BHC",
-        "name": "Bausch Health Companies Inc.",
-        "pct": 28.76
+        "symbol": "FDXF",
+        "name": "FedEx Freight Holding Company, Inc.",
+        "pct": 16.2
       },
       {
-        "symbol": "PRCH",
-        "name": "Porch Group, Inc.",
-        "pct": 28.16
+        "symbol": "CPRI",
+        "name": "Capri Holdings Limited",
+        "pct": 15.69
       },
       {
-        "symbol": "TDOC",
-        "name": "Teladoc Health, Inc.",
-        "pct": 26.89
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": 14.88
       },
       {
-        "symbol": "CROX",
-        "name": "Crocs, Inc.",
-        "pct": 25.54
+        "symbol": "GPN",
+        "name": "Global Payments Inc.",
+        "pct": 11.83
       },
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": 23.27
+        "symbol": "CVCO",
+        "name": "Cavco Industries, Inc.",
+        "pct": 11.64
       },
       {
-        "symbol": "FTAI",
-        "name": "FTAI Aviation Ltd.",
-        "pct": 17.27
+        "symbol": "REGN",
+        "name": "Regeneron Pharmaceuticals, Inc.",
+        "pct": 10.99
       },
       {
-        "symbol": "GEN",
-        "name": "Gen Digital Inc.",
-        "pct": 15.81
+        "symbol": "OLN",
+        "name": "Olin Corporation",
+        "pct": 10.22
       },
       {
-        "symbol": "CVNA",
-        "name": "Carvana Co.",
-        "pct": 15.68
+        "symbol": "GDDY",
+        "name": "GoDaddy Inc.",
+        "pct": 9.37
       }
     ],
     "losers": [
       {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": -35.45
+        "symbol": "ATEC",
+        "name": "Alphatec Holdings, Inc.",
+        "pct": -39.45
       },
       {
-        "symbol": "AIOK",
-        "name": "AI OKTO CORP.",
-        "pct": -32.87
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "pct": -30.8
       },
       {
-        "symbol": "NOW",
-        "name": "ServiceNow, Inc.",
-        "pct": -26.95
+        "symbol": "RDDT",
+        "name": "Reddit, Inc.",
+        "pct": -30.47
       },
       {
-        "symbol": "ALNY",
-        "name": "Alnylam Pharmaceuticals, Inc.",
-        "pct": -25.13
+        "symbol": "ILMN",
+        "name": "Illumina, Inc.",
+        "pct": -20.15
       },
       {
-        "symbol": "SFM",
-        "name": "Sprouts Farmers Market, Inc.",
-        "pct": -22.58
+        "symbol": "RBLX",
+        "name": "Roblox Corporation",
+        "pct": -19.91
       },
       {
-        "symbol": "FTNT",
-        "name": "Fortinet, Inc.",
-        "pct": -20.09
+        "symbol": "CACC",
+        "name": "Credit Acceptance Corporation",
+        "pct": -18.97
       },
       {
-        "symbol": "AUR",
-        "name": "Aurora Innovation, Inc.",
-        "pct": -13.46
+        "symbol": "TWLO",
+        "name": "Twilio Inc.",
+        "pct": -16.53
       },
       {
-        "symbol": "MRVL",
-        "name": "Marvell Technology, Inc.",
-        "pct": -13.24
+        "symbol": "TXG",
+        "name": "10x Genomics, Inc.",
+        "pct": -16.32
       },
       {
-        "symbol": "GOOGL",
-        "name": "Alphabet Inc.",
-        "pct": -12.64
+        "symbol": "AAOI",
+        "name": "Applied Optoelectronics, Inc.",
+        "pct": -16.19
       },
       {
-        "symbol": "GOOG",
-        "name": "Alphabet Inc. - Class C Capital Stock",
-        "pct": -12.29
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": -15.77
       }
     ],
     "universe": 1360
