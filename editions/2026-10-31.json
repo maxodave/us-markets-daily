@@ -1314,218 +1314,47 @@
     },
     "ftsemib": {
       "stats": {
-        "n_up": 13,
-        "n_down": 25,
-        "n_flat": 2,
+        "n_up": 18,
+        "n_down": 21,
+        "n_flat": 1,
         "n_total": 40,
-        "avg_pct": -1.15,
+        "avg_pct": 0.3,
         "best_sectors": [
           {
-            "sector": "Utilities",
-            "avg_pct": 0.12
+            "sector": "Industrial Goods and Services",
+            "avg_pct": 2.56
           },
           {
             "sector": "Energy",
-            "avg_pct": -0.42
+            "avg_pct": -0.15
           },
           {
-            "sector": "Industrial Goods and Services",
-            "avg_pct": -0.72
+            "sector": "Banks",
+            "avg_pct": -0.3
           }
         ],
         "worst_sectors": [
           {
+            "sector": "Utilities",
+            "avg_pct": -0.55
+          },
+          {
             "sector": "Financial Services",
-            "avg_pct": -1.35
+            "avg_pct": -0.36
           },
           {
             "sector": "Banks",
-            "avg_pct": -1.07
-          },
-          {
-            "sector": "Industrial Goods and Services",
-            "avg_pct": -0.72
+            "avg_pct": -0.3
           }
         ]
       },
       "gainers": [
         {
-          "symbol": "MONC.MI",
-          "name": "Moncler",
-          "sector": "Consumer Products and Services",
-          "pct_change": 2.42,
-          "last_close": 43.14,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "CPR.MI",
-          "name": "Campari",
-          "sector": "Food, Beverage and Tobacco",
-          "pct_change": 1.76,
-          "last_close": 6.24,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "BC.MI",
-          "name": "Brunello Cucinelli",
-          "sector": "Consumer Products and Services",
-          "pct_change": 1.52,
-          "last_close": 86.94,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "LTMC.MI",
-          "name": "Lottomatica Group",
-          "sector": "Gambling",
-          "pct_change": 1.41,
-          "last_close": 25.92,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "NEXI.MI",
-          "name": "Nexi",
-          "sector": "Industrial Goods and Services",
-          "pct_change": 1.09,
-          "last_close": 4.44,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "INW.MI",
-          "name": "INWIT",
-          "sector": "Telecommunications",
-          "pct_change": 1.03,
-          "last_close": 7.36,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "ENI.MI",
-          "name": "Eni",
-          "sector": "Energy",
-          "pct_change": 0.91,
-          "last_close": 27.14,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "IG.MI",
-          "name": "Italgas",
-          "sector": "Utilities",
-          "pct_change": 0.77,
-          "last_close": 8.95,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "TRN.MI",
-          "name": "Terna",
-          "sector": "Utilities",
-          "pct_change": 0.71,
-          "last_close": 9.6,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "SRG.MI",
-          "name": "Snam",
-          "sector": "Energy",
-          "pct_change": 0.62,
-          "last_close": 6.16,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        }
-      ],
-      "losers": [
-        {
-          "symbol": "AMP.MI",
-          "name": "Amplifon",
-          "sector": "Health Care",
-          "pct_change": -14.47,
-          "last_close": 11.17,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "TPRO.MI",
-          "name": "Technoprobe",
-          "sector": "Technology",
-          "pct_change": -8.95,
-          "last_close": 24.22,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "STMMI.MI",
-          "name": "STMicroelectronics",
-          "sector": "Technology",
-          "pct_change": -5.26,
-          "last_close": 41.87,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
           "symbol": "PRY.MI",
           "name": "Prysmian",
           "sector": "Industrial Goods and Services",
-          "pct_change": -3.92,
-          "last_close": 110.4,
+          "pct_change": 6.64,
+          "last_close": 114.9,
           "indices": [
             "ftsemib"
           ],
@@ -1534,24 +1363,11 @@
           "news_historical": []
         },
         {
-          "symbol": "AVIO.MI",
-          "name": "Avio",
-          "sector": "Aerospace",
-          "pct_change": -3.34,
-          "last_close": 31.81,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "AZM.MI",
-          "name": "Azimut",
-          "sector": "Financial Services",
-          "pct_change": -2.61,
-          "last_close": 34.7,
+          "symbol": "LDO.MI",
+          "name": "Leonardo",
+          "sector": "Industrial Goods and Services",
+          "pct_change": 3.92,
+          "last_close": 51.81,
           "indices": [
             "ftsemib"
           ],
@@ -1563,8 +1379,8 @@
           "symbol": "BZU.MI",
           "name": "Buzzi",
           "sector": "Construction and Materials",
-          "pct_change": -2.5,
-          "last_close": 40.12,
+          "pct_change": 3.44,
+          "last_close": 41.15,
           "indices": [
             "ftsemib"
           ],
@@ -1573,11 +1389,11 @@
           "news_historical": []
         },
         {
-          "symbol": "UCG.MI",
-          "name": "UniCredit",
-          "sector": "Banks",
-          "pct_change": -1.97,
-          "last_close": 73.05,
+          "symbol": "FCT.MI",
+          "name": "Fincantieri",
+          "sector": "Shipbuilding",
+          "pct_change": 1.92,
+          "last_close": 12.75,
           "indices": [
             "ftsemib"
           ],
@@ -1586,11 +1402,91 @@
           "news_historical": []
         },
         {
-          "symbol": "TEN.MI",
-          "name": "Tenaris",
-          "sector": "Energy",
-          "pct_change": -1.9,
-          "last_close": 26.85,
+          "symbol": "STMMI.MI",
+          "name": "STMicroelectronics",
+          "sector": "Technology",
+          "pct_change": 1.87,
+          "last_close": 44.19,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AVIO.MI",
+          "name": "Avio",
+          "sector": "Aerospace",
+          "pct_change": 1.86,
+          "last_close": 32.91,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "RACE.MI",
+          "name": "Ferrari",
+          "sector": "Automobiles and Parts",
+          "pct_change": 1.43,
+          "last_close": 357.2,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TIT.MI",
+          "name": "Telecom Italia",
+          "sector": "Telecommunications",
+          "pct_change": 1.41,
+          "last_close": 5.76,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INW.MI",
+          "name": "INWIT",
+          "sector": "Telecommunications",
+          "pct_change": 1.39,
+          "last_close": 7.28,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TPRO.MI",
+          "name": "Technoprobe",
+          "sector": "Technology",
+          "pct_change": 1.22,
+          "last_close": 26.6,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "CPR.MI",
+          "name": "Campari",
+          "sector": "Food, Beverage and Tobacco",
+          "pct_change": -6.64,
+          "last_close": 6.13,
           "indices": [
             "ftsemib"
           ],
@@ -1602,8 +1498,112 @@
           "symbol": "STLAM.MI",
           "name": "Stellantis",
           "sector": "Automobiles and Parts",
-          "pct_change": -1.86,
-          "last_close": 4.14,
+          "pct_change": -1.41,
+          "last_close": 4.22,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRN.MI",
+          "name": "Terna",
+          "sector": "Utilities",
+          "pct_change": -1.37,
+          "last_close": 9.53,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FBK.MI",
+          "name": "FinecoBank",
+          "sector": "Banks",
+          "pct_change": -1.32,
+          "last_close": 20.87,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BMED.MI",
+          "name": "Banca Mediolanum",
+          "sector": "Financial Services",
+          "pct_change": -1.18,
+          "last_close": 22.63,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SRG.MI",
+          "name": "Snam",
+          "sector": "Energy",
+          "pct_change": -0.94,
+          "last_close": 6.12,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MONC.MI",
+          "name": "Moncler",
+          "sector": "Consumer Products and Services",
+          "pct_change": -0.82,
+          "last_close": 42.12,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "G.MI",
+          "name": "Generali",
+          "sector": "Insurance",
+          "pct_change": -0.56,
+          "last_close": 42.44,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IG.MI",
+          "name": "Italgas",
+          "sector": "Utilities",
+          "pct_change": -0.47,
+          "last_close": 8.88,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ISP.MI",
+          "name": "Intesa Sanpaolo",
+          "sector": "Banks",
+          "pct_change": -0.45,
+          "last_close": 5.96,
           "indices": [
             "ftsemib"
           ],
@@ -1614,14 +1614,14 @@
       ],
       "paragraphs": {
         "en": [
-          "In the October 30, 2026 session the FTSE MIB closed with 13 stocks higher, 25 lower and 2 unchanged, out of 40 tracked. The average move was -1.15%.",
-          "Best-performing sectors by average move: Utilities (+0.12%); Energy (-0.42%); Industrial Goods and Services (-0.72%). Weakest: Financial Services (-1.35%); Banks (-1.07%); Industrial Goods and Services (-0.72%).",
-          "Leading the session: Moncler (MONC.MI, +2.42%); Campari (CPR.MI, +1.76%); Brunello Cucinelli (BC.MI, +1.52%). At the bottom: Amplifon (AMP.MI, -14.47%); Technoprobe (TPRO.MI, -8.95%); STMicroelectronics (STMMI.MI, -5.26%)."
+          "In the October 30, 2026 session the FTSE MIB closed with 18 stocks higher, 21 lower and 1 unchanged, out of 40 tracked. The average move was +0.30%.",
+          "Best-performing sectors by average move: Industrial Goods and Services (+2.56%); Energy (-0.15%); Banks (-0.30%). Weakest: Utilities (-0.55%); Financial Services (-0.36%); Banks (-0.30%).",
+          "Leading the session: Prysmian (PRY.MI, +6.64%); Leonardo (LDO.MI, +3.92%); Buzzi (BZU.MI, +3.44%). At the bottom: Campari (CPR.MI, -6.64%); Stellantis (STLAM.MI, -1.41%); Terna (TRN.MI, -1.37%)."
         ],
         "it": [
-          "Nella seduta del 30 ottobre 2026 il FTSE MIB ha chiuso con 13 societa' in rialzo, 25 in ribasso e 2 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di -1,15%.",
-          "Settori con la variazione media migliore: Utilities (+0,12%); Energy (-0,42%); Industrial Goods and Services (-0,72%). Settori piu' debolli: Financial Services (-1,35%); Banks (-1,07%); Industrial Goods and Services (-0,72%).",
-          "In cima alla seduta: Moncler (MONC.MI, +2,42%); Campari (CPR.MI, +1,76%); Brunello Cucinelli (BC.MI, +1,52%). In fondo: Amplifon (AMP.MI, -14,47%); Technoprobe (TPRO.MI, -8,95%); STMicroelectronics (STMMI.MI, -5,26%)."
+          "Nella seduta del 30 ottobre 2026 il FTSE MIB ha chiuso con 18 societa' in rialzo, 21 in ribasso e 1 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di +0,30%.",
+          "Settori con la variazione media migliore: Industrial Goods and Services (+2,56%); Energy (-0,15%); Banks (-0,30%). Settori piu' debolli: Utilities (-0,55%); Financial Services (-0,36%); Banks (-0,30%).",
+          "In cima alla seduta: Prysmian (PRY.MI, +6,64%); Leonardo (LDO.MI, +3,92%); Buzzi (BZU.MI, +3,44%). In fondo: Campari (CPR.MI, -6,64%); Stellantis (STLAM.MI, -1,41%); Terna (TRN.MI, -1,37%)."
         ]
       }
     },
@@ -1946,10 +1946,100 @@
       }
     }
   },
-  "manual_commentary_html": "<p>I titoli statunitensi hanno registrato un calo marcato il 30 ottobre 2026, poiché i risultati della tecnologia hanno innescato una vendita diffusa nel settore. Secondo WSJ e Bloomberg.com, i risultati di Amazon e Intel hanno alimentato le preoccupazioni relative al consumo di liquidità dell&#x27;intelligenza artificiale, con i titoli tecnologici che hanno registrato la loro peggiore giornata da giugno. Reuters ha riferito che Wall Street si è mostrata spietata mentre i mancati risultati hanno guidato profonde vendite, mentre il New York Times ha notato che il tumulto tecnologico ha scosso i mercati più ampi. Il Nasdaq-100 ha sottoperformato in modo significativo, scendendo in media del 2,43 percento rispetto al calo dello 0,85 percento dell&#x27;S&amp;P 500, riflettendo la pressione esagerata sui titoli tecnologici. I prezzi del petrolio sono saliti a causa delle preoccupazioni relative al conflitto in Medio Oriente e Ucraina-Russia, secondo WSJ, fornendo supporto ai titoli energetici anche mentre il mercato generale si indeboliva.</p><p>L&#x27;energia e i beni di consumo di base sono emersi come i performer più forti della seduta, con i titoli energetici in aumento dell&#x27;1,59 percento in media e i beni di consumo di base in aumento dell&#x27;1,4 percento, mentre i materiali hanno aggiunto lo 0,62 percento. Tra i singoli guadagnatori, FedEx Freight ha guidato con un balzo del 14,91 percento, seguito da Regeneron Pharmaceuticals al 13,33 percento e Global Payments al 12,97 percento. GoDaddy è salito del 10,72 percento, CoStar Group ha avanzato del 7,21 percento, e sia Cboe Global Markets che Veralto hanno guadagnato il 6,77 percento. T-Mobile US è salito del 6,21 percento, Tyler Technologies ha aggiunto il 5,45 percento, e LyondellBasell è aumentato del 5,0 percento. I media tracciati non hanno segnalato catalizzatori aziendali specifici per questi movimenti.</p><p>I titoli della tecnologia e della tecnologia dell&#x27;informazione hanno subito il peso maggiore della vendita, scendendo rispettivamente del 6,69 percento e del 4,38 percento in media, mentre i servizi di comunicazione sono scesi dell&#x27;1,5 percento. Reddit è precipitato del 29,22 percento e Intel è sceso del 28,58 percento, guidando i perdenti della giornata senza catalizzatori specifici segnalati dai media tracciati. Illumina è scesa del 18,64 percento, Twilio è sceso del 15,24 percento, e Sandisk ha perso il 13,47 percento. Datadog, Coherent Corp. e Qualcomm sono ciascuno scesi di più dell&#x27;11 percento, mentre Astera Labs e Advanced Micro Devices hanno subito cali del 10,93 percento e del 10,88 percento rispettivamente. L&#x27;ampiezza si è deteriorata su tutti e tre i principali indici, con 276 declinatori dell&#x27;S&amp;P 500 che superano 226 guadagnatori, e il Nasdaq-100 che mostra il calo più ripido con 65 perdenti rispetto a 36 guadagnatori.</p>",
-  "manual_commentary_html_en": "<p>U.S. stocks declined sharply on October 30, 2026, as technology earnings sparked a broad selloff in the sector. According to WSJ and Bloomberg.com, Amazon and Intel earnings fueled concerns about artificial intelligence cash burn, with tech stocks posting their worst day since June. Reuters reported that Wall Street turned ruthless as earnings misses drove deep selloffs, while the New York Times noted that the tech tumult rocked broader markets. The Nasdaq-100 underperformed significantly, falling 2.43 percent on average compared to the S&amp;P 500&#x27;s 0.85 percent decline, reflecting the outsized pressure on technology names. Oil prices rose amid Middle East and Ukraine-Russia conflict concerns, according to WSJ, providing support to energy stocks even as the overall market weakened.</p><p>Energy and Consumer Staples emerged as the session&#x27;s strongest performers, with Energy stocks gaining 1.59 percent on average and Consumer Staples rising 1.4 percent, while Materials added 0.62 percent. Among individual gainers, FedEx Freight led with a 14.91 percent jump, followed by Regeneron Pharmaceuticals at 13.33 percent and Global Payments at 12.97 percent. GoDaddy climbed 10.72 percent, CoStar Group advanced 7.21 percent, and both Cboe Global Markets and Veralto gained 6.77 percent. T-Mobile US rose 6.21 percent, Tyler Technologies added 5.45 percent, and LyondellBasell increased 5.0 percent. Tracked outlets reported no specific company catalysts for these moves.</p><p>Technology and Information Technology stocks bore the brunt of the selling, declining 6.69 percent and 4.38 percent on average respectively, while Communication Services fell 1.5 percent. Reddit plummeted 29.22 percent and Intel dropped 28.58 percent, leading the day&#x27;s losers without reported specific catalysts from tracked outlets. Illumina fell 18.64 percent, Twilio declined 15.24 percent, and Sandisk lost 13.47 percent. Datadog, Coherent Corp., and Qualcomm each fell more than 11 percent, while Astera Labs and Advanced Micro Devices dropped 10.93 percent and 10.88 percent respectively. The breadth deteriorated across all three major indices, with 276 S&amp;P 500 decliners outnumbering 226 gainers, and the Nasdaq-100 showing the steepest decline with 65 losers against 36 gainers.</p>",
+  "manual_commentary_html": "<p>I titoli statunitensi hanno registrato un calo marcato il 30 ottobre 2026, mentre i titoli tecnologici hanno affrontato intense pressioni di vendita. Secondo il WSJ, il selloff è stato innescato dai risultati di Amazon e Intel, mentre CNBC ha riferito che il Nasdaq ha subito la sua peggiore giornata da giugno. The New York Times ha sottolineato le preoccupazioni per la spesa dei giganti tecnologici nei data center, evidenziando che il consumo di cassa dell&#x27;industria sta allarmando Wall Street. Nel frattempo, il WSJ ha riferito che OpenAI ha raccolto meno della metà del suo obiettivo di raccolta fondi di 30 miliardi di dollari, aggiungendo dubbi sull&#x27;efficienza degli investimenti nell&#x27;intelligenza artificiale. Separatamente, Fitch ha tagliato l&#x27;outlook della Francia a negativo citando una crescita più debole e un deficit in allargamento, e i prezzi del petrolio sono aumentati poiché le tensioni geopolitiche in Medio Oriente e il conflitto Ucraina-Russia hanno alimentato preoccupazioni sull&#x27;offerta.</p><p>L&#x27;S&amp;P 500 ha visto 226 titoli in rialzo e 276 in calo, mentre il Nasdaq-100 ha sottoperformato con soli 36 rialzisti contro 65 ribassisti, riflettendo la gravità del crollo tecnologico. Tra i migliori performer della seduta, FedEx Freight è salito del 14,91 percento, Regeneron Pharmaceuticals ha guadagnato il 13,33 percento e Global Payments ha avanzato del 12,97 percento. GoDaddy è salito del 10,72 percento, mentre T-Mobile US ha avanzato del 6,21 percento. I settori Energia e Beni di Consumo Primario hanno guidato con guadagni medi rispettivamente dell&#x27;1,59 percento e dell&#x27;1,4 percento, poiché gli investitori hanno ruotato lontano dai titoli tecnologici orientati alla crescita.</p><p>I titoli tecnologici hanno subito il peso maggiore delle vendite, con il settore in calo del 6,69 percento in media. Intel è crollato del 28,58 percento, Reddit ha perso il 29,22 percento e Illumina è scesa del 18,64 percento. I nomi dei semiconduttori sono stati particolarmente colpiti: Qualcomm è sceso dell&#x27;11,12 percento, Advanced Micro Devices è scivolato del 10,88 percento e Sandisk ha perso il 13,47 percento. I titoli software e infrastrutture dati hanno sofferto anch&#x27;essi, con Datadog giù dell&#x27;11,5 percento e Twilio in calo del 15,24 percento. I media tracciati non hanno segnalato catalizzatori specifici per la maggior parte di questi cali al di là della più ampia rotazione settoriale e delle delusioni sui risultati.</p>",
+  "manual_commentary_html_en": "<p>U.S. stocks declined sharply on October 30, 2026, as technology shares faced intense selling pressure. According to WSJ, the selloff was sparked by Amazon and Intel earnings, while CNBC reported that the Nasdaq suffered its worst day since June. The New York Times highlighted concerns over Big Tech&#x27;s data center spending, noting that the industry&#x27;s cash burn is alarming Wall Street. Meanwhile, WSJ reported that OpenAI raised less than half of its $30 billion fundraising target, adding to sentiment around artificial intelligence investment efficiency. Separately, Fitch cut France&#x27;s outlook to negative citing weaker growth and a widening deficit, and oil prices rose as geopolitical tensions in the Middle East and Ukraine-Russia conflict fueled supply concerns.</p><p>The S&amp;P 500 saw 226 stocks advance and 276 decline, while the Nasdaq-100 underperformed with only 36 gainers against 65 losers, reflecting the severity of the technology rout. Among the session&#x27;s strongest performers, FedEx Freight surged 14.91 percent, Regeneron Pharmaceuticals climbed 13.33 percent, and Global Payments gained 12.97 percent. GoDaddy rose 10.72 percent, while T-Mobile US advanced 6.21 percent. Energy and Consumer Staples sectors led with average gains of 1.59 percent and 1.4 percent respectively, as investors rotated away from growth-oriented technology names.</p><p>Technology stocks bore the brunt of the selling, with the sector falling 6.69 percent on average. Intel plummeted 28.58 percent, Reddit dropped 29.22 percent, and Illumina declined 18.64 percent. Semiconductor names were particularly hard hit: Qualcomm fell 11.12 percent, Advanced Micro Devices slid 10.88 percent, and Sandisk lost 13.47 percent. Software and data infrastructure stocks also suffered, with Datadog down 11.5 percent and Twilio falling 15.24 percent. Tracked outlets reported no specific company catalysts for most of these declines beyond the broader sector rotation and earnings disappointments.</p>",
   "manual_highlights": [],
   "feed": [
+    {
+      "title": "Wayfair Coupons: Up to 80% Off November 2026",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 31 Oct 2026 05:00:00 +0000",
+      "link": "https://www.wired.com/story/wayfair-promo-code/",
+      "summary": "Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons.",
+      "image": "https://media.wired.com/photos/67b63b969468ebbf8f0cbc7d/master/pass/WIRED-Coupons-R2_5.png"
+    },
+    {
+      "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 31 Oct 2026 04:30:00 GMT",
+      "link": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
+      "summary": "After waiting 13 years for this videogame, almost one-fifth of workers plan to take the day off to play ‘Grand Theft Auto VI’ when it drops on Nov. 19",
+      "image": "https://images.mktw.net/im-40951496"
+    },
+    {
+      "title": "Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 31 Oct 2026 04:16:50 +0000",
+      "link": "https://techcrunch.com/2026/10/30/pile-ins-payouts-and-pacing-pressure-the-investors-behind-the-vcs-open-up/",
+      "summary": "The money behind the money is thrilled, mostly.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Beezer-and-Amit.jpg?w=799"
+    },
+    {
+      "title": "Wanted: New Central Bank Chief. Expertise and Political Acumen Required.",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 31 Oct 2026 04:01:05 +0000",
+      "link": "https://www.nytimes.com/2026/10/31/business/european-central-bank-lagarde-succession.html",
+      "summary": "The looming departure of the European Central Bank’s president, Christine Lagarde, has set in motion a high-stakes search for her successor.",
+      "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30Biz-ECB-Next-01-cqtz/30Biz-ECB-Next-01-cqtz-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "AI’s Biggest Water Problem Isn’t The Data Center. It’s The Power Plant",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 30 Oct 2026 23:07:03 -0400",
+      "link": "https://www.forbes.com/sites/annademeo/2026/10/30/ais-biggest-water-problem-isnt-the-data-center-its-the-power-plant/",
+      "summary": "AI’s Biggest Water Problem Isn’t The Data Center. It’s The Power Plant",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6ae3d6201cb579a99ebc94de/0x0.jpg"
+    },
+    {
+      "title": "The New Bottleneck in America’s AI Build-Out: A Shortage of Cheap Money",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Sat, 31 Oct 2026 03:00:00 GMT",
+      "link": "https://www.wsj.com/finance/the-new-bottleneck-in-americas-ai-build-out-a-shortage-of-cheap-money-0c14c84d?mod=rss_markets_main",
+      "summary": "Lenders and investors are getting choosier about their bets and demanding stricter terms, as the AI build-out enters a new phase.",
+      "image": "https://images.wsj.net/im-64866198"
+    },
+    {
+      "title": "BOJ’s Faster ETF Sales May Help Takaichi’s Spending Plan",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 31 Oct 2026 02:32:32 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-31/boj-faster-etf-sales-may-help-takaichi-spending-plan-non-tax-revenue",
+      "summary": "The Bank of Japan’s decision to accelerate sales of exchange-traded funds could boost its payments to the government, potentially helping Prime Minister Sanae Takaichi finance her costly policy agenda.",
+      "image": null
+    },
+    {
+      "title": "Rubio and Brazil Foreign Minister to Meet After Election Tension",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 31 Oct 2026 02:13:04 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-31/rubio-meet-brazil-foreign-minister-mauro-vieira-luiz-inacio-lula-flavio-bolsonaro-trump",
+      "summary": "Secretary of State Marco Rubio and his Brazilian counterpart agreed to meet in the coming weeks, according to people familiar with the matter, after President Donald Trump’s decision to grant the nation’s defeated right-wing candidate Flávio Bolsonaro refuge inflamed tensions.",
+      "image": null
+    },
+    {
+      "title": "WWE SmackDown Results, Winners And Grades As Sami Zayn Defends WWE Title",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 30 Oct 2026 22:00:54 -0400",
+      "link": "https://www.forbes.com/sites/alfredkonuwa/2026/10/30/wwe-smackdown-results-winners-and-grades-as-sami-zayn-defends-wwe-title/",
+      "summary": "WWE SmackDown results on a Halloween special with Trick Williams vs. Sami Zayn for the WWE Undisputed Championship.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6ae537e29070c403171ba8cc/0x0.jpg"
+    },
+    {
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 31 Oct 2026 01:20:05 +0000",
+      "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800"
+    },
     {
       "title": "Pemex perde 605 milioni nel terzo trimestre, produzione in calo dello 0,4%",
       "source": "ANSA Economia",
@@ -1958,6 +2048,15 @@
       "link": "https://www.ansa.it/sito/notizie/economia/2026/10/31/pemex-perde-605-milioni-nel-terzo-trimestre-produzione-in-calo-dello_8c1ac00b-9031-4584-ac63-d3a03f7f7ec1.html",
       "summary": "Il debito dell'azienda si attesta a 77,6 miliardi, -8,9% rispetto al 2025",
       "image": "https://www.ansa.it/webimages/img_1280x720/2026/7/31/1cb0499fb8269d1dc7fbcfdd4dc344c3.jpg"
+    },
+    {
+      "title": "OpenAI slashes funding target by $10 billion amid tech rout, FT reports",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sat, 31 Oct 2026 00:17:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTWw3N0l5dm5KUi1FQmllTEpEeUdkY1k5TVlFNTlnWWFlbTgtdUJfZE9RMjZiQlJEVXU2VFo2blVaWk1MZzNYMm9OYmdrSngtSk02YnhKNDdVMVZkS3hIMHpWZ2dnRjJZWjBzQ0lFRU4ySFFUQzdTdnUzN3JETGtCYlo3Y3kxeGJseG5veVJMSVVCRDVPYzB3TXQyaFE?oc=5",
+      "summary": "OpenAI slashes funding target by $10 billion amid tech rout, FT reports &nbsp;&nbsp; Reuters",
+      "image": null
     },
     {
       "title": "OpenAI slashes funding target by $10bn as tech anxieties mount",
@@ -1987,15 +2086,6 @@
       "image": "https://images.wsj.net/im-72596885"
     },
     {
-      "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
-      "source": "TechCrunch",
-      "category": "tech",
-      "published": "Fri, 30 Oct 2026 23:21:23 +0000",
-      "link": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
-      "summary": "The AI logistics startup will bolster the CRM giant's Missionforce defense platform.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2221463618.jpg?resize=1200,800"
-    },
-    {
       "title": "Manovra: giù l'Irpef per 3,2 milioni di persone, dalle banche 5,8 miliardi",
       "source": "ANSA Economia",
       "category": "italia",
@@ -2014,15 +2104,6 @@
       "image": "https://images.mktw.net/im-50502559"
     },
     {
-      "title": "Double Gold Medalist Janja Garnbret Is Climbing Toward A Third At LA28",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 30 Oct 2026 19:01:39 -0400",
-      "link": "https://www.forbes.com/sites/timgenske/2026/10/30/double-gold-medalist-janja-garnbret-is-climbing-toward-a-third-at-la28/",
-      "summary": "Climbing superstar Janja Garnbret conquered the Olympic podium in Tokyo and Paris. But her greatest motivation isn’t winning medals. It’s getting better every day.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6ae52133e03cd350a5ad7b04/0x0.jpg?width=960&precrop=1647%2C927%2Cx0%2Cy41"
-    },
-    {
       "title": "Alaska Senate election: DOJ wants to 'segregate' all ballots for 2nd Sullivan candidate",
       "source": "CNBC",
       "category": "mercati",
@@ -2030,15 +2111,6 @@
       "link": "https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html",
       "summary": "The winner of the Alaska election could determine whether Republicans retain their majority in the U.S. Senate or if Democrats take control of the chamber.",
       "image": "https://image.cnbcfm.com/api/v1/image/108488337-17933915402026-10-30t201616z_335436600_rc2wdoaqdw1d_rtrmadp_0_usa-election-alaska.jpeg?v=1793391571&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
-      "source": "TechCrunch",
-      "category": "tech",
-      "published": "Fri, 30 Oct 2026 22:56:13 +0000",
-      "link": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
-      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Ollie_Hero.png?resize=1200,847"
     },
     {
       "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
@@ -2050,24 +2122,6 @@
       "image": "https://image.cnbcfm.com/api/v1/image/103097578-GettyImages-493449710.jpg?v=1762199297&amp;w=1920&amp;h=1080"
     },
     {
-      "title": "Hedge Fund Arini Offloads $800 Million in Debt as Losses Deepen",
-      "source": "The Wall Street Journal",
-      "category": "mercati",
-      "published": "Fri, 30 Oct 2026 22:43:00 GMT",
-      "link": "https://www.wsj.com/finance/investing/hedge-fund-arini-offloads-800-million-in-debt-as-losses-deepen-2d24626c?mod=rss_markets_main",
-      "summary": "Hamza Lemssouguer’s fund known for its bold bets suffered margin calls after several investments tumbled.",
-      "image": "https://images.wsj.net/im-30286451"
-    },
-    {
-      "title": "Inside SiriusXM’s Growing Podcast Empire: MrBallen, Alex Cooper And YouTube",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 30 Oct 2026 18:38:59 -0400",
-      "link": "https://www.forbes.com/sites/mattcraig/2026/10/30/siriusxm-podcasts-youtube-ad-sales-not-netflix/",
-      "summary": "While others take cash from Netflix or Disney, SiriusXM counts on its ad sales team to boost its podcasts, tripling related ad revenue—and breathing life into its stock.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6ae5054a834ddf9f6cb68e35/0x0.jpg?width=960&precrop=1920%2C1080%2Cx0%2Cy0"
-    },
-    {
       "title": "La crescita del mercato RWA su Solana porta gli asset tokenizzati a 5,19 miliardi",
       "source": "The Cryptonomist",
       "category": "crypto",
@@ -2075,24 +2129,6 @@
       "link": "https://cryptonomist.ch/2026/10/30/crescita-mercato-rwa-su-solana/",
       "summary": "La crescita del mercato RWA su Solana ha portato il valore degli asset reali tokenizzati sulla rete a un record di 5,19 miliardi di dollari il 29 ottobre 2026. Punti chiave Il 29 ottobre 2026 gli asset reali tokenizzati su Solana hanno toccato il massimo storico di 5,19 miliardi ",
       "image": "https://cryptonomist.ch/wp-content/uploads/2026/10/crescita-mercato-rwa-su-solana.webp"
-    },
-    {
-      "title": "Chocolate Price Spook Families for Halloween",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Fri, 30 Oct 2026 22:21:45 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-30/chocolate-price-spook-families-for-halloween-video",
-      "summary": "Halloween candy is getting more expensive as higher labor, energy and transportation costs continue to pressure food prices. Stew Leonard Jr., CEO of Stew Leonard’s, says bags of popular candy are up about 50 cents from last year, prompting some shoppers to trade down to cheaper ",
-      "image": null
-    },
-    {
-      "title": "This cybersecurity stock will be the next to join the S&P 500",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Fri, 30 Oct 2026 22:20:00 GMT",
-      "link": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
-      "summary": "Okta is slated to join the index on Wednesday, replacing Kenvue.",
-      "image": "https://images.mktw.net/im-37151738"
     },
     {
       "title": "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
@@ -2122,15 +2158,6 @@
       "image": "https://media.wired.com/photos/6ae50ed40af6dcf295d6abe7/master/pass/Google%20Pixel%20Watch%205%20Deals%20Post%2010206%20top%20art%20SOURCE%20Amazon.jpg"
     },
     {
-      "title": "Crypto Hack Reignites Regulatory Debate",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Fri, 30 Oct 2026 22:08:41 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-30/crypto-hack-reignites-regulatory-debate-video",
-      "summary": "A $6 billion crypto hack is putting digital-asset security back in the spotlight. Former CFTC chairman J. Christopher Giancarlo, known as “CryptoDad”, argues the attack exposed vulnerabilities at an individual firm rather than a failure of underlying blockchain technology. He is ",
-      "image": null
-    },
-    {
       "title": "Binance hackers raced to move billions before it could be frozen",
       "source": "Cointelegraph",
       "category": "crypto",
@@ -2149,15 +2176,6 @@
       "image": null
     },
     {
-      "title": "Binance Lost Over $6 Billion in Crypto Hack. Here’s What to Know.",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Fri, 30 Oct 2026 21:48:01 +0000",
-      "link": "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html",
-      "summary": "Hackers made off with around $6 billion in digital currency in what could be the biggest crypto heist in history. Binance said it will cover the losses.",
-      "image": "https://static01.nyt.com/images/2026/10/30/multimedia/30xp-binance-wtk-vzbg/30xp-binance-wtk-vzbg-mediumSquareAt3X.jpg"
-    },
-    {
       "title": "Inside the largest crypto hack on record: How attackers breached Binance for $6.3 billion",
       "source": "The Block",
       "category": "crypto",
@@ -2165,15 +2183,6 @@
       "link": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
       "summary": "Investigators tie the $6B Binance hack to North Korea. Here's how hot-wallet signing infrastructure was compromised and where funds went.",
       "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2023/03/20230317_Binance_Color.jpg"
-    },
-    {
-      "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 30 Oct 2026 21:19:26 +0000",
-      "link": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
-      "summary": "This week on Uncanny Valley, we also discuss Anthropic’s IPO filing and the volunteers gearing up to counter ICE at the midterms.",
-      "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg"
     },
     {
       "title": "Binance Hack Shows Why Offshore Exchanges Need US Oversight, CFTC Chair Says",
@@ -2230,15 +2239,6 @@
       "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M671D68XPHRMK1R429A6YV2Q/analytics3-tether.jpg"
     },
     {
-      "title": "Exxon, Chevron profits beat forecasts, refining margins surge during wars",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Fri, 30 Oct 2026 18:45:48 GMT",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON2JIcGhXLURlX1ZHUDVac0IwV1BuN1puU1ljMVFoMUJPNWtZQ2FFdEVMY1ZoZ3pENFUtZEpXZ0ZRU2ZLTFVobHd2XzRiaUxuRFRESXVYNm9zNUUxLWliR1A0RHpTUlNjSUxOazBFSzFvUS1HVWVJX1VGeU41WkxDSjlLTHlQX0dEd1NqUzNna0dkMEZBYmZEd1JZaHhuVElEZFBLZFR0YVQ4V3BxVkhLbGxOMzlRWjU1RmZzRA?oc=5",
-      "summary": "Exxon, Chevron profits beat forecasts, refining margins surge during wars &nbsp;&nbsp; Reuters",
-      "image": null
-    },
-    {
       "title": "Family Office: in Italia 267 strutture e 20,2 miliardi gestiti. Lombardia in testa per numero",
       "source": "Wall Street Italia",
       "category": "italia",
@@ -2263,15 +2263,6 @@
       "published": "Fri, 30 Oct 2026 14:11:22 +0000",
       "link": "https://www.finanzaonline.com/video/flash-mercati/fed-e-bce-ferme-trimestrali-a-due-facce",
       "summary": "Lo Speciale Flash Mercati è un appuntamento settimanale ideato in collaborazione con BNP Paribas per fare il punto sui mercati finanziari. In diretta ogni venerdí dopo l’apertura di Piazza Affari. In ogni puntata vengono affrontati i temi e le storie più calde che hanno contraddi",
-      "image": null
-    },
-    {
-      "title": "Italia e le elezioni midterm: effetti su Pil e Btp secondo Equita",
-      "source": "FinanzaOnline",
-      "category": "italia",
-      "published": "Fri, 30 Oct 2026 13:00:44 +0000",
-      "link": "https://www.finanzaonline.com/notizie/italia-e-le-elezioni-midterm-effetti-su-pil-e-btp-secondo-equita",
-      "summary": "Le mid-term Usa possono aumentare la volatilità, ma offrire occasioni sui mercati europei. Equita vede opportunità per l'Italia e per i BTP grazie a tassi più favorevoli e possibili ribassi dell'energia",
       "image": null
     },
     {
@@ -2309,39 +2300,48 @@
       "link": "http://money.cnn.com/2017/02/13/technology/apple-wireless-charging/index.html?section=money_news_international",
       "summary": "The days of plugging in an iPhone to charge won't last forever.",
       "image": "http://i2.cdn.turner.com/money/dam/assets/170203124414-apple-iphone-120x90.jpg"
+    },
+    {
+      "title": "Briefing Chat: <b>Dog years: could longevity science extend your pets' lives?</b>",
+      "source": "Nature",
+      "category": "scienza",
+      "published": "",
+      "link": "https://www.nature.com/articles/d41586-026-03553-7",
+      "summary": "Nature, Published online: 30 October 2026; doi:10.1038/d41586-026-03553-7 Nature staff discuss the emerging field of pet longevity — plus, a researcher decides not to care about their student reviews. Are they wrong?",
+      "image": null
     }
   ],
-  "generated_at": "2026-10-31 01:59:46",
+  "generated_at": "2026-10-31 06:13:39",
   "markets_brief": {
     "items": [
       {
-        "title": "OpenAI slashes funding target by $10bn as tech anxieties mount",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f?syn-25a6b1a6=1"
-      },
-      {
-        "title": "Obamacare Policies Hit Again With Steep Premium Increases for 2027",
-        "source": "The New York Times",
-        "link": "https://www.nytimes.com/2026/10/30/business/obamacare-health-insurance-rates.html"
-      },
-      {
-        "title": "Behind the Scenes of Crypto’s Biggest Nightmare: a Record-Breaking Cyber Heist",
-        "source": "The Wall Street Journal",
-        "link": "https://www.wsj.com/finance/currencies/behind-the-scenes-of-cryptos-biggest-nightmare-a-record-breaking-cyber-heist-ffe1d9a3?mod=rss_markets_main"
-      },
-      {
-        "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
+        "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
         "source": "MarketWatch",
-        "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories"
+        "link": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories"
       },
       {
-        "title": "Double Gold Medalist Janja Garnbret Is Climbing Toward A Third At LA28",
+        "title": "Wanted: New Central Bank Chief. Expertise and Political Acumen Required.",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2026/10/31/business/european-central-bank-lagarde-succession.html"
+      },
+      {
+        "title": "AI’s Biggest Water Problem Isn’t The Data Center. It’s The Power Plant",
         "source": "Forbes",
-        "link": "https://www.forbes.com/sites/timgenske/2026/10/30/double-gold-medalist-janja-garnbret-is-climbing-toward-a-third-at-la28/"
+        "link": "https://www.forbes.com/sites/annademeo/2026/10/30/ais-biggest-water-problem-isnt-the-data-center-its-the-power-plant/"
+      },
+      {
+        "title": "The New Bottleneck in America’s AI Build-Out: A Shortage of Cheap Money",
+        "source": "The Wall Street Journal",
+        "link": "https://www.wsj.com/finance/the-new-bottleneck-in-americas-ai-build-out-a-shortage-of-cheap-money-0c14c84d?mod=rss_markets_main"
+      },
+      {
+        "title": "BOJ’s Faster ETF Sales May Help Takaichi’s Spending Plan",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-31/boj-faster-etf-sales-may-help-takaichi-spending-plan-non-tax-revenue"
       }
     ],
-    "prose_html": "<p>Le ansie nel settore tecnologico si intensificano mentre OpenAI riduce il suo obiettivo di finanziamento di 10 miliardi di dollari, e le preoccupazioni più ampie sulla valutazione eccessiva richiamano paragoni al crollo dot-com del 2000 mentre il Nasdaq affronta un periodo difficile. Separatamente, un furto informatico record ha scosso il mondo delle criptovalute, aggiungendo preoccupazioni sulla sicurezza degli asset digitali.\n\nSul fronte politico, gli iscritti all&#x27;Obamacare affrontano forti aumenti dei premi per il 2027, segnalando costi sanitari in aumento che potrebbero pesare sulla spesa dei consumatori e sui bilanci delle famiglie nel prossimo anno.</p>",
-    "prose_html_en": "<p>Tech sector anxieties are intensifying as OpenAI cuts its funding target by $10 billion, while broader market concerns about valuation excess draw comparisons to the 2000 dot-com crash as the Nasdaq faces a rough stretch. Separately, a record-breaking cyber heist has shaken the crypto world, adding to security concerns in digital assets.\n\nOn the policy front, Obamacare enrollees face steep premium increases for 2027, signaling rising healthcare costs that could weigh on consumer spending and household budgets in the year ahead.</p>"
+    "prose_html": "<p>L&#x27;espansione dell&#x27;infrastruttura AI affronta crescenti ostacoli strutturali mentre i vincoli di capitale si inaspriscono insieme ai colli di bottiglia fisici. Oltre alle note esigenze energetiche dei data center, il raffreddamento e la capacità della rete presso le centrali elettriche stesse emergono come punti critici, mentre l&#x27;accesso al finanziamento a basso costo per i massicci investimenti richiesti è diventato scarso—segnalando che il costo della distribuzione dell&#x27;AI su larga scala potrebbe rivelarsi più elevato del previsto. Nel frattempo, le transizioni della banca centrale sono in corso a livello globale, con ricerche di leadership che enfatizzano la necessità di competenza tecnica e abilità politica per navigare percorsi di politica monetaria divergenti, come evidenziato dall&#x27;accelerazione delle vendite di ETF della BOJ per sostenere le priorità di spesa domestica.</p>",
+    "prose_html_en": "<p>The AI infrastructure buildout faces mounting structural headwinds as capital constraints tighten alongside physical bottlenecks. Beyond the familiar data center power demands, cooling and grid capacity at power plants themselves are emerging as critical chokepoints, while access to cheap financing for the massive capex required has become scarce—signaling that the cost of deploying AI at scale may prove steeper than anticipated. Meanwhile, central banking transitions are underway globally, with leadership searches emphasizing the need for both technical expertise and political skill to navigate diverging monetary policy paths, as evidenced by Japan&#x27;s BOJ accelerating ETF sales to support domestic spending priorities.</p>"
   },
   "live_close_movers": {
     "captured_at": "2026-10-30T20:20:33Z",

@@ -1,139 +1,44 @@
 {
-  "updated": "2026-10-31T01:00:01Z",
-  "session_date": "2026-10-29",
+  "updated": "2026-10-31T05:14:00Z",
+  "session_date": "2026-10-30",
   "universe": 558,
   "up": {
-    "count": 429,
+    "count": 246,
     "by_length": {
-      "1": 221,
-      "2": 91,
-      "3": 27,
-      "4": 61,
-      "5": 26,
-      "8+": 3
+      "1": 43,
+      "2": 126,
+      "3": 50,
+      "4": 14,
+      "5": 12,
+      "6": 1
     },
     "top": [
       {
-        "symbol": "HAS",
-        "name": "Hasbro",
+        "symbol": "HAL",
+        "name": "Halliburton",
         "indices": [
           "sp500"
         ],
-        "days": 8,
-        "cum_pct": 21.4
+        "days": 6,
+        "cum_pct": 8.98
       },
       {
-        "symbol": "FTV",
-        "name": "Fortive",
-        "indices": [
-          "sp500"
-        ],
-        "days": 8,
-        "cum_pct": 14.54
-      },
-      {
-        "symbol": "RVTY",
-        "name": "Revvity",
-        "indices": [
-          "sp500"
-        ],
-        "days": 8,
-        "cum_pct": 9.83
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 22.19
-      },
-      {
-        "symbol": "SNPS",
-        "name": "Synopsys",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 16.03
-      },
-      {
-        "symbol": "RKLB",
-        "name": "Rocket Lab",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 15.38
-      },
-      {
-        "symbol": "ECHO",
-        "name": "EchoStar",
+        "symbol": "GM",
+        "name": "General Motors",
         "indices": [
           "sp500"
         ],
         "days": 5,
-        "cum_pct": 13.84
+        "cum_pct": 15.12
       },
       {
-        "symbol": "APH",
-        "name": "Amphenol",
+        "symbol": "LLY",
+        "name": "Lilly (Eli)",
         "indices": [
           "sp500"
         ],
         "days": 5,
-        "cum_pct": 12.33
-      },
-      {
-        "symbol": "ADI",
-        "name": "Analog Devices",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 12.32
-      },
-      {
-        "symbol": "AMAT",
-        "name": "Applied Materials",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 12.27
-      },
-      {
-        "symbol": "TXN",
-        "name": "Texas Instruments",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 11.96
-      },
-      {
-        "symbol": "CRL",
-        "name": "Charles River Laboratories",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 10.73
-      },
-      {
-        "symbol": "JCI",
-        "name": "Johnson Controls",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 10.68
+        "cum_pct": 11.31
       },
       {
         "symbol": "TEN.MI",
@@ -145,26 +50,121 @@
         "cum_pct": 10.32
       },
       {
-        "symbol": "TDY",
-        "name": "Teledyne Technologies",
+        "symbol": "GILD",
+        "name": "Gilead Sciences",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 9.38
+      },
+      {
+        "symbol": "CRH",
+        "name": "CRH plc",
         "indices": [
           "sp500"
         ],
         "days": 5,
-        "cum_pct": 9.18
+        "cum_pct": 6.97
+      },
+      {
+        "symbol": "J",
+        "name": "Jacobs Solutions",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 6.59
+      },
+      {
+        "symbol": "AMGN",
+        "name": "Amgen",
+        "indices": [
+          "sp500",
+          "dow",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 6.09
+      },
+      {
+        "symbol": "ECL",
+        "name": "Ecolab",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 5.01
+      },
+      {
+        "symbol": "PM",
+        "name": "Philip Morris International",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 4.67
+      },
+      {
+        "symbol": "EXC",
+        "name": "Exelon",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 3.89
+      },
+      {
+        "symbol": "AZM.MI",
+        "name": "Azimut",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 5,
+        "cum_pct": 3.67
+      },
+      {
+        "symbol": "FE",
+        "name": "FirstEnergy",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 1.65
+      },
+      {
+        "symbol": "PNR",
+        "name": "Pentair",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 19.99
+      },
+      {
+        "symbol": "PRY.MI",
+        "name": "Prysmian",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 4,
+        "cum_pct": 15.97
       }
     ]
   },
   "down": {
-    "count": 128,
+    "count": 311,
     "by_length": {
-      "1": 72,
-      "2": 39,
-      "3": 7,
-      "4": 6,
+      "1": 230,
+      "2": 46,
+      "3": 25,
+      "4": 5,
       "5": 2,
       "6": 1,
-      "7": 1
+      "7": 1,
+      "8+": 1
     },
     "top": [
       {
@@ -173,8 +173,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -16.74
+        "days": -8,
+        "cum_pct": -41.07
       },
       {
         "symbol": "PCAR",
@@ -183,17 +183,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -6,
-        "cum_pct": -7.19
-      },
-      {
-        "symbol": "HSY",
-        "name": "Hershey Company (The)",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -8.75
+        "days": -7,
+        "cum_pct": -7.54
       },
       {
         "symbol": "TTWO",
@@ -202,8 +193,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -5,
-        "cum_pct": -6.94
+        "days": -6,
+        "cum_pct": -8.49
       },
       {
         "symbol": "NOW",
@@ -211,45 +202,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -31.01
-      },
-      {
-        "symbol": "CBOE",
-        "name": "Cboe Global Markets",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -7.69
-      },
-      {
-        "symbol": "BG",
-        "name": "Bunge Global",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -6.98
-      },
-      {
-        "symbol": "WDAY",
-        "name": "Workday, Inc.",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -6.92
-      },
-      {
-        "symbol": "ADM",
-        "name": "Archer Daniels Midland",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -4.92
+        "days": -5,
+        "cum_pct": -33.87
       },
       {
         "symbol": "INVH",
@@ -257,8 +211,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -3.27
+        "days": -5,
+        "cum_pct": -3.56
       },
       {
         "symbol": "FFIV",
@@ -266,17 +220,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -3,
-        "cum_pct": -21.26
-      },
-      {
-        "symbol": "CPR.MI",
-        "name": "Campari",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -3,
-        "cum_pct": -9.06
+        "days": -4,
+        "cum_pct": -26.7
       },
       {
         "symbol": "TWLO",
@@ -284,8 +229,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -3,
-        "cum_pct": -8.25
+        "days": -4,
+        "cum_pct": -22.23
       },
       {
         "symbol": "HPQ",
@@ -293,17 +238,77 @@
         "indices": [
           "sp500"
         ],
-        "days": -3,
-        "cum_pct": -6.63
+        "days": -4,
+        "cum_pct": -15.58
       },
       {
-        "symbol": "CF",
-        "name": "CF Industries",
+        "symbol": "PLTR",
+        "name": "Palantir Technologies",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -4,
+        "cum_pct": -7.41
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft",
+        "indices": [
+          "sp500",
+          "dow",
+          "nasdaq100"
+        ],
+        "days": -4,
+        "cum_pct": -2.01
+      },
+      {
+        "symbol": "FTNT",
+        "name": "Fortinet",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -26.44
+      },
+      {
+        "symbol": "DDOG",
+        "name": "Datadog",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -16.22
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies",
         "indices": [
           "sp500"
         ],
         "days": -3,
-        "cum_pct": -2.28
+        "cum_pct": -15.47
+      },
+      {
+        "symbol": "TER",
+        "name": "Teradyne",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -15.23
+      },
+      {
+        "symbol": "CHRW",
+        "name": "C.H. Robinson",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -13.22
       }
     ]
   },
