@@ -1,15 +1,15 @@
 {
-  "updated": "2026-10-31T05:14:00Z",
+  "updated": "2026-10-31T12:07:27Z",
   "session_date": "2026-10-30",
   "universe": 558,
   "up": {
-    "count": 246,
+    "count": 241,
     "by_length": {
-      "1": 43,
-      "2": 126,
-      "3": 50,
-      "4": 14,
-      "5": 12,
+      "1": 44,
+      "2": 123,
+      "3": 51,
+      "4": 12,
+      "5": 10,
       "6": 1
     },
     "top": [
@@ -39,15 +39,6 @@
         ],
         "days": 5,
         "cum_pct": 11.31
-      },
-      {
-        "symbol": "TEN.MI",
-        "name": "Tenaris",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 5,
-        "cum_pct": 10.32
       },
       {
         "symbol": "GILD",
@@ -117,15 +108,6 @@
         "cum_pct": 3.89
       },
       {
-        "symbol": "AZM.MI",
-        "name": "Azimut",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 5,
-        "cum_pct": 3.67
-      },
-      {
         "symbol": "FE",
         "name": "FirstEnergy",
         "indices": [
@@ -144,22 +126,41 @@
         "cum_pct": 19.99
       },
       {
-        "symbol": "PRY.MI",
-        "name": "Prysmian",
+        "symbol": "CHTR",
+        "name": "Charter Communications",
         "indices": [
-          "ftsemib"
+          "sp500"
         ],
         "days": 4,
-        "cum_pct": 15.97
+        "cum_pct": 9.11
+      },
+      {
+        "symbol": "VRTX",
+        "name": "Vertex Pharmaceuticals",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 8.0
+      },
+      {
+        "symbol": "VMC",
+        "name": "Vulcan Materials Company",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 7.56
       }
     ]
   },
   "down": {
-    "count": 311,
+    "count": 315,
     "by_length": {
-      "1": 230,
-      "2": 46,
-      "3": 25,
+      "1": 231,
+      "2": 45,
+      "3": 29,
       "4": 5,
       "5": 2,
       "6": 1,
@@ -313,6 +314,6 @@
     ]
   },
   "flat": {
-    "count": 1
+    "count": 2
   }
 }
