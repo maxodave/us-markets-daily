@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T20:20:33Z",
+  "updated": "2026-11-02T14:03:23Z",
   "market_open": false,
   "indices": [
     {
@@ -23,16 +23,31 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.05,
-      "last": 49500.97
+      "pct": 0.55,
+      "last": 49795.78
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "GDYN",
+        "name": "Grid Dynamics Holdings, Inc.",
+        "pct": 40.78
+      },
+      {
+        "symbol": "FMC",
+        "name": "FMC Corporation",
+        "pct": 30.53
+      },
+      {
         "symbol": "AIOK",
         "name": "AI OKTO CORP.",
         "pct": 27.95
+      },
+      {
+        "symbol": "OSPN",
+        "name": "OneSpan Inc.",
+        "pct": 27.34
       },
       {
         "symbol": "CDNA",
@@ -50,6 +65,11 @@
         "pct": 14.91
       },
       {
+        "symbol": "MEOH",
+        "name": "Methanex Corporation",
+        "pct": 14.04
+      },
+      {
         "symbol": "REGN",
         "name": "Regeneron Pharmaceuticals, Inc.",
         "pct": 13.33
@@ -58,26 +78,6 @@
         "symbol": "CVCO",
         "name": "Cavco Industries, Inc.",
         "pct": 13.11
-      },
-      {
-        "symbol": "GPN",
-        "name": "Global Payments Inc.",
-        "pct": 12.97
-      },
-      {
-        "symbol": "VXX",
-        "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 12.87
-      },
-      {
-        "symbol": "GDDY",
-        "name": "GoDaddy Inc.",
-        "pct": 10.72
-      },
-      {
-        "symbol": "OLN",
-        "name": "Olin Corporation",
-        "pct": 9.66
       }
     ],
     "losers": [
@@ -112,26 +112,26 @@
         "pct": -18.05
       },
       {
-        "symbol": "TWLO",
-        "name": "Twilio Inc.",
-        "pct": -15.24
+        "symbol": "AGIO",
+        "name": "Agios Pharmaceuticals, Inc.",
+        "pct": -17.94
       },
       {
-        "symbol": "TXG",
-        "name": "10x Genomics, Inc.",
-        "pct": -14.03
+        "symbol": "TFII",
+        "name": "TFI International Inc.",
+        "pct": -17.08
       },
       {
-        "symbol": "SNDK",
-        "name": "Sandisk Corporation",
-        "pct": -13.47
+        "symbol": "APPS",
+        "name": "Digital Turbine, Inc.",
+        "pct": -16.08
       },
       {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": -12.8
+        "symbol": "BLSH",
+        "name": "Bullish",
+        "pct": -16.05
       }
     ],
-    "universe": 1360
+    "universe": 1394
   }
 }
