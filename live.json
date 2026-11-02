@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-02T19:05:28Z",
+  "updated": "2026-11-02T19:15:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": 0.11,
-      "last": 7589.08
+      "last": 7589.09
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.4,
-      "last": 28272.86
+      "pct": -0.38,
+      "last": 28279.15
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.86,
-      "last": 52219.35
+      "pct": 0.83,
+      "last": 52204.97
     },
     {
       "key": "ftsemib",
@@ -32,84 +32,84 @@
       {
         "symbol": "IDXX",
         "name": "IDEXX Laboratories, Inc.",
-        "pct": 20.66
+        "pct": 20.1
       },
       {
         "symbol": "NWL",
         "name": "Newell Brands Inc.",
-        "pct": 15.87
+        "pct": 16.02
       },
       {
         "symbol": "NXT",
         "name": "Nextpower Inc.",
-        "pct": 14.68
-      },
-      {
-        "symbol": "SFM",
-        "name": "Sprouts Farmers Market, Inc.",
-        "pct": 10.99
-      },
-      {
-        "symbol": "REAL",
-        "name": "The RealReal, Inc.",
-        "pct": 10.79
-      },
-      {
-        "symbol": "NSP",
-        "name": "Insperity, Inc.",
-        "pct": 10.64
-      },
-      {
-        "symbol": "WING",
-        "name": "Wingstop Inc.",
-        "pct": 10.53
-      },
-      {
-        "symbol": "UPBD",
-        "name": "Upbound Group, Inc.",
-        "pct": 10.29
-      },
-      {
-        "symbol": "RIVN",
-        "name": "Rivian Automotive, Inc.",
-        "pct": 10.03
+        "pct": 15.23
       },
       {
         "symbol": "TEM",
         "name": "Tempus AI, Inc.",
-        "pct": 9.11
+        "pct": 12.64
+      },
+      {
+        "symbol": "REAL",
+        "name": "The RealReal, Inc.",
+        "pct": 11.16
+      },
+      {
+        "symbol": "SFM",
+        "name": "Sprouts Farmers Market, Inc.",
+        "pct": 10.54
+      },
+      {
+        "symbol": "ENPH",
+        "name": "Enphase Energy, Inc.",
+        "pct": 10.53
+      },
+      {
+        "symbol": "WING",
+        "name": "Wingstop Inc.",
+        "pct": 10.29
+      },
+      {
+        "symbol": "NSP",
+        "name": "Insperity, Inc.",
+        "pct": 10.27
+      },
+      {
+        "symbol": "RUN",
+        "name": "Sunrun Inc.",
+        "pct": 10.23
       }
     ],
     "losers": [
       {
         "symbol": "AIOK",
         "name": "AI OKTO CORP.",
-        "pct": -50.33
+        "pct": -48.9
       },
       {
         "symbol": "PGEN",
         "name": "Precigen, Inc.",
-        "pct": -23.63
+        "pct": -22.62
       },
       {
         "symbol": "LITE",
         "name": "Lumentum Holdings Inc.",
-        "pct": -17.74
+        "pct": -17.72
       },
       {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
-        "pct": -14.13
+        "pct": -13.26
       },
       {
         "symbol": "KRYS",
         "name": "Krystal Biotech, Inc.",
-        "pct": -13.65
+        "pct": -13.17
       },
       {
         "symbol": "MLYS",
         "name": "Mineralys Therapeutics, Inc.",
-        "pct": -13.04
+        "pct": -13.09
       },
       {
         "symbol": "AXTI",
@@ -117,19 +117,19 @@
         "pct": -12.15
       },
       {
-        "symbol": "ABSI",
-        "name": "Absci Corporation",
-        "pct": -11.41
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -11.31
-      },
-      {
         "symbol": "MRVL",
         "name": "Marvell Technology, Inc.",
-        "pct": -11.28
+        "pct": -11.3
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": -11.17
+      },
+      {
+        "symbol": "ABSI",
+        "name": "Absci Corporation",
+        "pct": -10.56
       }
     ],
     "universe": 1389
