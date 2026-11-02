@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-02T15:45:05Z",
+  "updated": "2026-11-02T16:03:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.96,
-      "last": 7654.08
+      "pct": 0.72,
+      "last": 7635.74
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.09,
-      "last": 28694.69
+      "pct": 0.75,
+      "last": 28599.21
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.14,
-      "last": 52366.69
+      "pct": 0.97,
+      "last": 52278.26
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.06,
-      "last": 50050.81
+      "pct": 1.05,
+      "last": 50044.69
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "IDXX",
         "name": "IDEXX Laboratories, Inc.",
-        "pct": 16.58
+        "pct": 16.54
       },
       {
         "symbol": "NXT",
         "name": "Nextpower Inc.",
-        "pct": 16.33
+        "pct": 15.83
       },
       {
         "symbol": "WING",
         "name": "Wingstop Inc.",
-        "pct": 13.13
-      },
-      {
-        "symbol": "ENPH",
-        "name": "Enphase Energy, Inc.",
-        "pct": 11.77
-      },
-      {
-        "symbol": "RUN",
-        "name": "Sunrun Inc.",
-        "pct": 11.43
-      },
-      {
-        "symbol": "TEM",
-        "name": "Tempus AI, Inc.",
-        "pct": 11.22
-      },
-      {
-        "symbol": "RIVN",
-        "name": "Rivian Automotive, Inc.",
-        "pct": 11.18
-      },
-      {
-        "symbol": "UPBD",
-        "name": "Upbound Group, Inc.",
-        "pct": 11.11
+        "pct": 13.06
       },
       {
         "symbol": "NWL",
         "name": "Newell Brands Inc.",
-        "pct": 10.23
+        "pct": 12.26
       },
       {
-        "symbol": "PENN",
-        "name": "PENN Entertainment, Inc.",
-        "pct": 9.47
+        "symbol": "RIVN",
+        "name": "Rivian Automotive, Inc.",
+        "pct": 12.13
+      },
+      {
+        "symbol": "ENPH",
+        "name": "Enphase Energy, Inc.",
+        "pct": 11.66
+      },
+      {
+        "symbol": "UPBD",
+        "name": "Upbound Group, Inc.",
+        "pct": 11.57
+      },
+      {
+        "symbol": "RUN",
+        "name": "Sunrun Inc.",
+        "pct": 11.1
+      },
+      {
+        "symbol": "REAL",
+        "name": "The RealReal, Inc.",
+        "pct": 10.2
+      },
+      {
+        "symbol": "TEM",
+        "name": "Tempus AI, Inc.",
+        "pct": 9.86
       }
     ],
     "losers": [
       {
         "symbol": "AIOK",
         "name": "AI OKTO CORP.",
-        "pct": -39.2
+        "pct": -38.17
       },
       {
         "symbol": "PGEN",
         "name": "Precigen, Inc.",
-        "pct": -24.57
-      },
-      {
-        "symbol": "KRYS",
-        "name": "Krystal Biotech, Inc.",
-        "pct": -13.6
+        "pct": -25.65
       },
       {
         "symbol": "AXSM",
         "name": "Axsome Therapeutics, Inc.",
-        "pct": -12.56
+        "pct": -14.25
       },
       {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": -10.18
-      },
-      {
-        "symbol": "TWST",
-        "name": "Twist Bioscience Corporation",
-        "pct": -9.79
-      },
-      {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": -8.32
+        "symbol": "KRYS",
+        "name": "Krystal Biotech, Inc.",
+        "pct": -13.98
       },
       {
         "symbol": "MLYS",
         "name": "Mineralys Therapeutics, Inc.",
-        "pct": -7.76
+        "pct": -11.91
+      },
+      {
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "pct": -11.07
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": -10.87
+      },
+      {
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": -7.84
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -6.7
+        "pct": -7.75
       },
       {
-        "symbol": "CHKP",
-        "name": "Check Point Software Technologies Ltd.",
-        "pct": -6.2
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": -7.39
       }
     ],
     "universe": 1389
