@@ -1,137 +1,137 @@
 {
-  "updated": "2026-11-02T14:21:37Z",
-  "market_open": false,
+  "updated": "2026-11-02T14:50:36Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.83,
-      "last": 7580.07
+      "pct": 0.55,
+      "last": 7622.49
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -3.48,
-      "last": 28384.85
+      "pct": 0.58,
+      "last": 28550.11
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.09,
-      "last": 51770.31
+      "pct": 0.97,
+      "last": 52277.63
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.57,
-      "last": 49804.11
+      "pct": 0.38,
+      "last": 49714.41
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "GDYN",
-        "name": "Grid Dynamics Holdings, Inc.",
-        "pct": 40.78
+        "symbol": "IDXX",
+        "name": "IDEXX Laboratories, Inc.",
+        "pct": 19.35
       },
       {
-        "symbol": "FMC",
-        "name": "FMC Corporation",
-        "pct": 30.53
+        "symbol": "WING",
+        "name": "Wingstop Inc.",
+        "pct": 10.27
       },
       {
-        "symbol": "AIOK",
-        "name": "AI OKTO CORP.",
-        "pct": 27.95
+        "symbol": "NXT",
+        "name": "Nextpower Inc.",
+        "pct": 9.25
       },
       {
-        "symbol": "OSPN",
-        "name": "OneSpan Inc.",
-        "pct": 27.34
+        "symbol": "UPBD",
+        "name": "Upbound Group, Inc.",
+        "pct": 8.12
       },
       {
-        "symbol": "CDNA",
-        "name": "CareDx, Inc.",
-        "pct": 22.22
+        "symbol": "ALK",
+        "name": "Alaska Air Group, Inc.",
+        "pct": 7.95
       },
       {
-        "symbol": "CPRI",
-        "name": "Capri Holdings Limited",
-        "pct": 16.31
+        "symbol": "XMTR",
+        "name": "Xometry, Inc.",
+        "pct": 7.72
       },
       {
-        "symbol": "FDXF",
-        "name": "FedEx Freight Holding Company, Inc.",
-        "pct": 14.91
+        "symbol": "RIVN",
+        "name": "Rivian Automotive, Inc.",
+        "pct": 7.28
       },
       {
-        "symbol": "MEOH",
-        "name": "Methanex Corporation",
-        "pct": 14.04
+        "symbol": "FTAI",
+        "name": "FTAI Aviation Ltd.",
+        "pct": 7.24
       },
       {
-        "symbol": "REGN",
-        "name": "Regeneron Pharmaceuticals, Inc.",
-        "pct": 13.33
+        "symbol": "MHK",
+        "name": "Mohawk Industries, Inc.",
+        "pct": 6.88
       },
       {
-        "symbol": "CVCO",
-        "name": "Cavco Industries, Inc.",
-        "pct": 13.11
+        "symbol": "ENPH",
+        "name": "Enphase Energy, Inc.",
+        "pct": 6.86
       }
     ],
     "losers": [
       {
-        "symbol": "ATEC",
-        "name": "Alphatec Holdings, Inc.",
-        "pct": -38.08
+        "symbol": "AIOK",
+        "name": "AI OKTO CORP.",
+        "pct": -36.04
       },
       {
-        "symbol": "RDDT",
-        "name": "Reddit, Inc.",
-        "pct": -29.22
+        "symbol": "PGEN",
+        "name": "Precigen, Inc.",
+        "pct": -26.37
       },
       {
-        "symbol": "INTC",
-        "name": "Intel Corporation",
-        "pct": -28.58
+        "symbol": "AXSM",
+        "name": "Axsome Therapeutics, Inc.",
+        "pct": -10.68
       },
       {
-        "symbol": "CACC",
-        "name": "Credit Acceptance Corporation",
-        "pct": -19.26
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": -10.68
       },
       {
-        "symbol": "ILMN",
-        "name": "Illumina, Inc.",
-        "pct": -18.64
+        "symbol": "KRYS",
+        "name": "Krystal Biotech, Inc.",
+        "pct": -10.5
       },
       {
-        "symbol": "RBLX",
-        "name": "Roblox Corporation",
-        "pct": -18.05
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": -8.82
       },
       {
-        "symbol": "AGIO",
-        "name": "Agios Pharmaceuticals, Inc.",
-        "pct": -17.94
+        "symbol": "TSEM",
+        "name": "Tower Semiconductor Ltd.",
+        "pct": -8.7
       },
       {
-        "symbol": "TFII",
-        "name": "TFI International Inc.",
-        "pct": -17.08
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -7.54
       },
       {
-        "symbol": "APPS",
-        "name": "Digital Turbine, Inc.",
-        "pct": -16.08
+        "symbol": "BTE",
+        "name": "Baytex Energy Corp",
+        "pct": -6.6
       },
       {
-        "symbol": "BLSH",
-        "name": "Bullish",
-        "pct": -16.05
+        "symbol": "EQNR",
+        "name": "Equinor ASA",
+        "pct": -6.35
       }
     ],
-    "universe": 1394
+    "universe": 1389
   }
 }
