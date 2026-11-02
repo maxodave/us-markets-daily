@@ -5,6 +5,19 @@
 <title>US Markets Daily</title>
 <meta name="description" content="Daily report and news feed on US markets — research/monitoring only, not investment advice.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Icona US.MD (scheda del browser, schermata Home, app installata). I file
+     stanno alla radice del repo pubblico. Questi collegamenti erano stati messi
+     il 1/10/2026 direttamente in index.html e nella COPIA pipeline/templates/ del
+     repo pubblico: la sincronizzazione del 5/10 li ha cancellati, e dal 6/10 il
+     sito era senza icona. Qui, nel modello vero, nessuna sincronizzazione li tocca. -->
+<link rel="icon" type="image/png" sizes="32x32" href="icon-32.png">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="icon-180.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0A1F44">
+<!-- Il sito e' solo scuro: vedi la nota in testa a style.css (2/11/2026). -->
+<meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-title" content="US.MD">
 <style>
   :root {
     --bg: #0b0d12; --panel: #12151c; --panel-2: #171b24; --border: #262b36;
@@ -14,10 +27,21 @@
     --cat-mercati:#2f55e8; --cat-italia:#22c55e; --cat-crypto:#f5c542;
     --cat-tech:#ff8e82; --cat-scienza:#a78bfa;
   }
-  @media (prefers-color-scheme: light) {
-    :root { --bg:#f5f6f8; --panel:#ffffff; --panel-2:#f0f1f4; --border:#e0e2e8; --text:#0a0934; --muted:#6b7280; }
-  }
-  :root[data-theme="light"] { --bg:#f5f6f8; --panel:#ffffff; --panel-2:#f0f1f4; --border:#e0e2e8; --text:#0a0934; --muted:#6b7280; }
+  /* SEMPRE SCURO (2/11/2026). Fino a qui c'era un tema chiaro che scattava da
+     solo sui dispositivi in modalita' chiara (@media prefers-color-scheme: light).
+     Era fatto a meta': cambiava i colori del testo ma non gli sfondi fissi della
+     barra in alto, della striscia dei titoli e delle schermate a tutto schermo,
+     e lasciava i verdi e i rossi pensati per il nero. Misurato su un telefono in
+     modalita' chiara: 55 testi sotto la soglia di leggibilita', la barra a 1,06:1.
+     Lo vedeva chiunque aprisse il sito con il telefono in chiaro — anche dentro
+     LinkedIn, che e' da dove arriva la gente. Il sito e' disegnato scuro (stelle,
+     vignetta, grana): resta scuro per tutti. color-scheme dice anche al browser
+     di disegnare scuri campi e barre di scorrimento, e alle WebView delle app di
+     non "scurire" di loro iniziativa una pagina che e' gia' scura.
+     Se un giorno si vuole un tema chiaro, va disegnato intero: ogni sfondo fisso
+     qui sotto va trasformato in una variabile, e verdi/rossi e pillole vanno
+     ripensati per il bianco. */
+  :root { color-scheme: dark; }
   :root[data-theme="dark"] { --bg:#0b0d12; --panel:#12151c; --panel-2:#171b24; --border:#262b36; --text:#e8eaed; --muted:#8a90a0; }
 
   * { box-sizing: border-box; }
@@ -261,7 +285,6 @@
   .grain { position: fixed; inset: 0; z-index: 2; pointer-events: none; opacity: .04;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
   .wrap { position: relative; z-index: 3; }
-  @media (prefers-color-scheme: light) { .vignette, .grain, #stars { opacity: 0; } }
 
   /* Viste: si mostra un solo pannello per volta (default = edition). */
   /* ====== viste ======
