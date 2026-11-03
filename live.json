@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-03T15:40:38Z",
+  "updated": "2026-11-03T15:50:40Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.31,
-      "last": 7565.94
+      "pct": 0.47,
+      "last": 7577.48
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.64,
-      "last": 28175.22
+      "pct": 0.84,
+      "last": 28232.05
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.48,
-      "last": 51735.98
+      "pct": -0.31,
+      "last": 51826.89
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.04,
-      "last": 49959.4
+      "pct": -0.01,
+      "last": 49974.49
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": 24.66
+        "pct": 24.62
       },
       {
         "symbol": "GPK",
         "name": "Graphic Packaging Holding Company",
-        "pct": 17.47
+        "pct": 17.52
       },
       {
         "symbol": "FN",
         "name": "Fabrinet",
-        "pct": 16.3
+        "pct": 16.27
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": 13.69
+        "pct": 15.37
       },
       {
         "symbol": "SRAD",
         "name": "Sportradar Group AG",
-        "pct": 13.68
-      },
-      {
-        "symbol": "RIOT",
-        "name": "Riot Platforms, Inc.",
-        "pct": 13.17
+        "pct": 15.31
       },
       {
         "symbol": "LSCC",
         "name": "Lattice Semiconductor Corporation",
-        "pct": 12.68
+        "pct": 14.35
+      },
+      {
+        "symbol": "RIOT",
+        "name": "Riot Platforms, Inc.",
+        "pct": 14.19
       },
       {
         "symbol": "NBIX",
         "name": "Neurocrine Biosciences, Inc.",
-        "pct": 12.57
+        "pct": 13.32
       },
       {
-        "symbol": "RVTY",
-        "name": "Revvity, Inc.",
-        "pct": 11.72
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": 12.9
       },
       {
-        "symbol": "PTCT",
-        "name": "PTC Therapeutics, Inc.",
-        "pct": 11.01
+        "symbol": "RRX",
+        "name": "Regal Rexnord Corporation",
+        "pct": 12.33
       }
     ],
     "losers": [
       {
         "symbol": "VCIG",
         "name": "VCI Global Limited",
-        "pct": -45.71
-      },
-      {
-        "symbol": "IT",
-        "name": "Gartner, Inc.",
-        "pct": -16.72
-      },
-      {
-        "symbol": "DT",
-        "name": "Dynatrace, Inc.",
-        "pct": -14.94
+        "pct": -41.54
       },
       {
         "symbol": "CLRO",
         "name": "ClearOne, Inc.",
-        "pct": -13.27
+        "pct": -14.88
+      },
+      {
+        "symbol": "IT",
+        "name": "Gartner, Inc.",
+        "pct": -14.42
+      },
+      {
+        "symbol": "DT",
+        "name": "Dynatrace, Inc.",
+        "pct": -14.18
       },
       {
         "symbol": "RYTM",
         "name": "Rhythm Pharmaceuticals, Inc.",
-        "pct": -10.04
+        "pct": -11.1
       },
       {
         "symbol": "ZBRA",
         "name": "Zebra Technologies Corporation",
-        "pct": -9.41
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": -8.23
+        "pct": -9.01
       },
       {
         "symbol": "PAY",
         "name": "Paymentus Holdings, Inc.",
-        "pct": -7.96
+        "pct": -8.42
       },
       {
-        "symbol": "ULCC",
-        "name": "Frontier Group Holdings, Inc.",
-        "pct": -7.47
+        "symbol": "INSP",
+        "name": "Inspire Medical Systems, Inc.",
+        "pct": -7.1
       },
       {
-        "symbol": "TRI",
-        "name": "Thomson Reuters Corp",
-        "pct": -7.01
+        "symbol": "SYY",
+        "name": "Sysco Corporation",
+        "pct": -6.97
+      },
+      {
+        "symbol": "TVTX",
+        "name": "Travere Therapeutics, Inc.",
+        "pct": -6.88
       }
     ],
     "universe": 1449
