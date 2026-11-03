@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-03T20:02:24Z",
+  "updated": "2026-11-03T20:17:45Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.27,
-      "last": 7562.65
+      "pct": 0.29,
+      "last": 7563.9
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.48,
-      "last": 28132.01
+      "pct": 0.56,
+      "last": 28153.21
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.44,
-      "last": 51757.41
+      "pct": -0.45,
+      "last": 51754.07
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": 24.45
-      },
-      {
-        "symbol": "XMTR",
-        "name": "Xometry, Inc.",
-        "pct": 18.9
+        "pct": 25.04
       },
       {
         "symbol": "GPK",
         "name": "Graphic Packaging Holding Company",
-        "pct": 18.76
+        "pct": 18.81
+      },
+      {
+        "symbol": "XMTR",
+        "name": "Xometry, Inc.",
+        "pct": 17.22
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": 16.33
-      },
-      {
-        "symbol": "FN",
-        "name": "Fabrinet",
-        "pct": 15.79
-      },
-      {
-        "symbol": "NBIX",
-        "name": "Neurocrine Biosciences, Inc.",
-        "pct": 15.77
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": 15.17
+        "pct": 16.47
       },
       {
         "symbol": "RIOT",
         "name": "Riot Platforms, Inc.",
-        "pct": 14.99
+        "pct": 15.08
       },
       {
-        "symbol": "FISV",
-        "name": "Fiserv, Inc.",
-        "pct": 13.57
+        "symbol": "NBIX",
+        "name": "Neurocrine Biosciences, Inc.",
+        "pct": 14.8
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": 14.79
+      },
+      {
+        "symbol": "FN",
+        "name": "Fabrinet",
+        "pct": 14.41
       },
       {
         "symbol": "SRAD",
         "name": "Sportradar Group AG",
-        "pct": 13.33
+        "pct": 13.91
+      },
+      {
+        "symbol": "FISV",
+        "name": "Fiserv, Inc.",
+        "pct": 13.44
       }
     ],
     "losers": [
       {
         "symbol": "VCIG",
         "name": "VCI Global Limited",
-        "pct": -36.64
-      },
-      {
-        "symbol": "CLRO",
-        "name": "ClearOne, Inc.",
-        "pct": -14.6
-      },
-      {
-        "symbol": "IT",
-        "name": "Gartner, Inc.",
-        "pct": -13.5
+        "pct": -37.61
       },
       {
         "symbol": "DT",
         "name": "Dynatrace, Inc.",
-        "pct": -13.11
+        "pct": -13.61
+      },
+      {
+        "symbol": "CLRO",
+        "name": "ClearOne, Inc.",
+        "pct": -13.54
+      },
+      {
+        "symbol": "IT",
+        "name": "Gartner, Inc.",
+        "pct": -12.8
       },
       {
         "symbol": "ULCC",
         "name": "Frontier Group Holdings, Inc.",
-        "pct": -12.11
-      },
-      {
-        "symbol": "PAY",
-        "name": "Paymentus Holdings, Inc.",
-        "pct": -8.89
-      },
-      {
-        "symbol": "ZBRA",
-        "name": "Zebra Technologies Corporation",
-        "pct": -8.78
+        "pct": -12.18
       },
       {
         "symbol": "SHC",
         "name": "Sotera Health Company",
-        "pct": -8.74
+        "pct": -8.82
       },
       {
-        "symbol": "INSP",
-        "name": "Inspire Medical Systems, Inc.",
-        "pct": -8.61
+        "symbol": "SYY",
+        "name": "Sysco Corporation",
+        "pct": -8.8
+      },
+      {
+        "symbol": "PAY",
+        "name": "Paymentus Holdings, Inc.",
+        "pct": -8.76
+      },
+      {
+        "symbol": "ADM",
+        "name": "Archer-Daniels-Midland Company",
+        "pct": -8.38
       },
       {
         "symbol": "MTCH",
         "name": "Match Group, Inc.",
-        "pct": -8.3
+        "pct": -8.33
       }
     ],
     "universe": 1449
