@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-03T17:00:48Z",
+  "updated": "2026-11-03T17:10:40Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.46,
-      "last": 7577.16
+      "pct": 0.49,
+      "last": 7579.02
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.84,
-      "last": 28230.2
+      "pct": 0.93,
+      "last": 28256.94
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.45,
-      "last": 51754.0
+      "last": 51751.19
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": 21.74
+        "pct": 23.36
       },
       {
         "symbol": "GPK",
         "name": "Graphic Packaging Holding Company",
-        "pct": 19.02
+        "pct": 19.24
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": 16.01
-      },
-      {
-        "symbol": "NBIX",
-        "name": "Neurocrine Biosciences, Inc.",
-        "pct": 15.29
+        "pct": 16.09
       },
       {
         "symbol": "RIOT",
         "name": "Riot Platforms, Inc.",
-        "pct": 14.86
+        "pct": 15.75
       },
       {
-        "symbol": "SRAD",
-        "name": "Sportradar Group AG",
-        "pct": 14.84
+        "symbol": "NBIX",
+        "name": "Neurocrine Biosciences, Inc.",
+        "pct": 15.6
       },
       {
         "symbol": "FN",
         "name": "Fabrinet",
-        "pct": 13.78
+        "pct": 14.66
+      },
+      {
+        "symbol": "PENG",
+        "name": "Penguin Solutions, Inc.",
+        "pct": 14.23
+      },
+      {
+        "symbol": "SRAD",
+        "name": "Sportradar Group AG",
+        "pct": 14.1
       },
       {
         "symbol": "LSCC",
         "name": "Lattice Semiconductor Corporation",
-        "pct": 13.21
+        "pct": 13.42
       },
       {
-        "symbol": "RVTY",
-        "name": "Revvity, Inc.",
-        "pct": 12.43
-      },
-      {
-        "symbol": "FISV",
-        "name": "Fiserv, Inc.",
-        "pct": 12.39
+        "symbol": "GLXY",
+        "name": "Galaxy Digital Inc.",
+        "pct": 12.89
       }
     ],
     "losers": [
       {
         "symbol": "VCIG",
         "name": "VCI Global Limited",
-        "pct": -42.4
+        "pct": -40.89
       },
       {
         "symbol": "CLRO",
         "name": "ClearOne, Inc.",
-        "pct": -15.58
+        "pct": -14.87
       },
       {
         "symbol": "IT",
         "name": "Gartner, Inc.",
-        "pct": -13.62
+        "pct": -12.94
       },
       {
         "symbol": "DT",
         "name": "Dynatrace, Inc.",
-        "pct": -10.43
+        "pct": -10.92
       },
       {
         "symbol": "PAY",
         "name": "Paymentus Holdings, Inc.",
-        "pct": -10.3
-      },
-      {
-        "symbol": "RYTM",
-        "name": "Rhythm Pharmaceuticals, Inc.",
-        "pct": -9.11
+        "pct": -10.13
       },
       {
         "symbol": "ULCC",
         "name": "Frontier Group Holdings, Inc.",
-        "pct": -9.02
+        "pct": -9.08
       },
       {
-        "symbol": "ZBRA",
-        "name": "Zebra Technologies Corporation",
-        "pct": -8.24
+        "symbol": "RYTM",
+        "name": "Rhythm Pharmaceuticals, Inc.",
+        "pct": -9.08
       },
       {
         "symbol": "SYY",
         "name": "Sysco Corporation",
-        "pct": -7.92
+        "pct": -8.01
+      },
+      {
+        "symbol": "ZBRA",
+        "name": "Zebra Technologies Corporation",
+        "pct": -7.41
       },
       {
         "symbol": "TRI",
         "name": "Thomson Reuters Corp",
-        "pct": -7.7
+        "pct": -7.15
       }
     ],
     "universe": 1449
