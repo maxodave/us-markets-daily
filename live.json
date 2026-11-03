@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-03T19:10:49Z",
+  "updated": "2026-11-03T19:21:53Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.47,
-      "last": 7577.49
+      "pct": 0.53,
+      "last": 7582.0
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.75,
-      "last": 28205.72
+      "pct": 0.84,
+      "last": 28231.64
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.31,
-      "last": 51825.23
+      "pct": -0.26,
+      "last": 51851.38
     },
     {
       "key": "ftsemib",
@@ -32,69 +32,74 @@
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": 25.28
+        "pct": 25.18
       },
       {
         "symbol": "XMTR",
         "name": "Xometry, Inc.",
-        "pct": 20.66
+        "pct": 20.63
       },
       {
         "symbol": "GPK",
         "name": "Graphic Packaging Holding Company",
-        "pct": 19.83
+        "pct": 19.88
       },
       {
         "symbol": "FN",
         "name": "Fabrinet",
-        "pct": 17.31
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": 15.91
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": 15.82
+        "pct": 17.37
       },
       {
         "symbol": "NBIX",
         "name": "Neurocrine Biosciences, Inc.",
-        "pct": 15.75
+        "pct": 16.04
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": 15.77
+      },
+      {
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": 15.52
       },
       {
         "symbol": "SRAD",
         "name": "Sportradar Group AG",
-        "pct": 15.07
+        "pct": 14.8
       },
       {
         "symbol": "RIOT",
         "name": "Riot Platforms, Inc.",
-        "pct": 14.91
+        "pct": 14.65
       },
       {
-        "symbol": "FISV",
-        "name": "Fiserv, Inc.",
-        "pct": 13.77
+        "symbol": "PENG",
+        "name": "Penguin Solutions, Inc.",
+        "pct": 13.93
       }
     ],
     "losers": [
       {
         "symbol": "VCIG",
         "name": "VCI Global Limited",
-        "pct": -39.95
+        "pct": -39.34
       },
       {
         "symbol": "CLRO",
         "name": "ClearOne, Inc.",
-        "pct": -15.31
+        "pct": -14.87
       },
       {
         "symbol": "IT",
         "name": "Gartner, Inc.",
-        "pct": -13.53
+        "pct": -13.88
+      },
+      {
+        "symbol": "DT",
+        "name": "Dynatrace, Inc.",
+        "pct": -11.92
       },
       {
         "symbol": "ULCC",
@@ -102,34 +107,29 @@
         "pct": -11.37
       },
       {
-        "symbol": "DT",
-        "name": "Dynatrace, Inc.",
-        "pct": -11.3
-      },
-      {
         "symbol": "SYY",
         "name": "Sysco Corporation",
-        "pct": -9.76
+        "pct": -9.17
       },
       {
         "symbol": "CALX",
         "name": "Calix, Inc",
-        "pct": -9.44
-      },
-      {
-        "symbol": "RH",
-        "name": "RH",
-        "pct": -8.66
-      },
-      {
-        "symbol": "INSP",
-        "name": "Inspire Medical Systems, Inc.",
-        "pct": -8.43
+        "pct": -8.39
       },
       {
         "symbol": "SHC",
         "name": "Sotera Health Company",
         "pct": -8.37
+      },
+      {
+        "symbol": "RH",
+        "name": "RH",
+        "pct": -8.29
+      },
+      {
+        "symbol": "ZBRA",
+        "name": "Zebra Technologies Corporation",
+        "pct": -7.97
       }
     ],
     "universe": 1449
