@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-03T14:45:31Z",
+  "updated": "2026-11-03T14:55:37Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.37,
-      "last": 7570.0
+      "pct": 0.25,
+      "last": 7561.14
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.91,
-      "last": 28250.09
+      "pct": 0.53,
+      "last": 28143.36
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.58,
-      "last": 51686.85
+      "pct": -0.53,
+      "last": 51709.85
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.25,
-      "last": 50102.55
+      "pct": 0.08,
+      "last": 50020.17
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": 20.97
-      },
-      {
-        "symbol": "FN",
-        "name": "Fabrinet",
-        "pct": 14.84
+        "pct": 20.18
       },
       {
         "symbol": "GPK",
         "name": "Graphic Packaging Holding Company",
-        "pct": 14.31
-      },
-      {
-        "symbol": "LSCC",
-        "name": "Lattice Semiconductor Corporation",
-        "pct": 13.14
+        "pct": 14.04
       },
       {
         "symbol": "NBIX",
         "name": "Neurocrine Biosciences, Inc.",
-        "pct": 13.01
+        "pct": 13.38
+      },
+      {
+        "symbol": "FN",
+        "name": "Fabrinet",
+        "pct": 12.81
+      },
+      {
+        "symbol": "LSCC",
+        "name": "Lattice Semiconductor Corporation",
+        "pct": 12.11
+      },
+      {
+        "symbol": "SRAD",
+        "name": "Sportradar Group AG",
+        "pct": 11.97
       },
       {
         "symbol": "RVTY",
         "name": "Revvity, Inc.",
-        "pct": 11.9
+        "pct": 11.29
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": 11.28
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": 11.37
+        "pct": 10.53
       },
       {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": 11.29
-      },
-      {
-        "symbol": "PENG",
-        "name": "Penguin Solutions, Inc.",
-        "pct": 11.22
-      },
-      {
-        "symbol": "CMPS",
-        "name": "COMPASS Pathways Plc - American Depository S",
-        "pct": 10.82
+        "symbol": "AEIS",
+        "name": "Advanced Energy Industries, Inc.",
+        "pct": 9.88
       }
     ],
     "losers": [
       {
         "symbol": "VCIG",
         "name": "VCI Global Limited",
-        "pct": -39.32
+        "pct": -35.66
       },
       {
         "symbol": "IT",
         "name": "Gartner, Inc.",
-        "pct": -18.39
-      },
-      {
-        "symbol": "CLRO",
-        "name": "ClearOne, Inc.",
-        "pct": -12.92
+        "pct": -16.57
       },
       {
         "symbol": "DT",
         "name": "Dynatrace, Inc.",
-        "pct": -12.66
+        "pct": -14.02
+      },
+      {
+        "symbol": "CLRO",
+        "name": "ClearOne, Inc.",
+        "pct": -13.19
       },
       {
         "symbol": "PAY",
         "name": "Paymentus Holdings, Inc.",
-        "pct": -11.81
-      },
-      {
-        "symbol": "TRI",
-        "name": "Thomson Reuters Corp",
-        "pct": -10.82
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": -9.79
+        "pct": -10.36
       },
       {
         "symbol": "ZBRA",
         "name": "Zebra Technologies Corporation",
-        "pct": -9.21
+        "pct": -10.22
       },
       {
-        "symbol": "LDOS",
-        "name": "Leidos Holdings, Inc.",
-        "pct": -8.85
+        "symbol": "SHOP",
+        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
+        "pct": -9.17
       },
       {
         "symbol": "RYTM",
         "name": "Rhythm Pharmaceuticals, Inc.",
-        "pct": -8.75
+        "pct": -8.6
+      },
+      {
+        "symbol": "TRI",
+        "name": "Thomson Reuters Corp",
+        "pct": -7.96
+      },
+      {
+        "symbol": "TVTX",
+        "name": "Travere Therapeutics, Inc.",
+        "pct": -7.33
       }
     ],
     "universe": 1449
