@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-03T20:40:35Z",
+  "updated": "2026-11-03T20:50:41Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.31,
-      "last": 7566.04
+      "pct": 0.28,
+      "last": 7563.14
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.68,
-      "last": 28186.21
+      "pct": 0.61,
+      "last": 28168.35
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.53,
-      "last": 51714.35
+      "pct": -0.54,
+      "last": 51706.89
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": 24.18
+        "pct": 23.9
       },
       {
         "symbol": "GPK",
         "name": "Graphic Packaging Holding Company",
-        "pct": 19.88
+        "pct": 20.42
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": 17.42
-      },
-      {
-        "symbol": "XMTR",
-        "name": "Xometry, Inc.",
-        "pct": 16.21
+        "pct": 17.2
       },
       {
         "symbol": "RIOT",
         "name": "Riot Platforms, Inc.",
-        "pct": 16.01
+        "pct": 16.68
+      },
+      {
+        "symbol": "XMTR",
+        "name": "Xometry, Inc.",
+        "pct": 15.53
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": 15.35
+        "pct": 15.3
       },
       {
         "symbol": "FN",
         "name": "Fabrinet",
-        "pct": 15.13
+        "pct": 14.58
       },
       {
         "symbol": "NBIX",
         "name": "Neurocrine Biosciences, Inc.",
-        "pct": 14.9
-      },
-      {
-        "symbol": "WULF",
-        "name": "TeraWulf Inc.",
-        "pct": 13.95
+        "pct": 13.89
       },
       {
         "symbol": "GLXY",
         "name": "Galaxy Digital Inc.",
-        "pct": 13.91
+        "pct": 13.74
+      },
+      {
+        "symbol": "WULF",
+        "name": "TeraWulf Inc.",
+        "pct": 13.71
       }
     ],
     "losers": [
       {
         "symbol": "VCIG",
         "name": "VCI Global Limited",
-        "pct": -34.68
+        "pct": -31.99
       },
       {
         "symbol": "DT",
         "name": "Dynatrace, Inc.",
-        "pct": -14.03
-      },
-      {
-        "symbol": "IT",
-        "name": "Gartner, Inc.",
-        "pct": -12.5
+        "pct": -14.06
       },
       {
         "symbol": "ULCC",
         "name": "Frontier Group Holdings, Inc.",
-        "pct": -12.31
+        "pct": -13.32
+      },
+      {
+        "symbol": "IT",
+        "name": "Gartner, Inc.",
+        "pct": -12.3
       },
       {
         "symbol": "PAY",
         "name": "Paymentus Holdings, Inc.",
-        "pct": -9.99
+        "pct": -10.67
       },
       {
         "symbol": "SHC",
         "name": "Sotera Health Company",
-        "pct": -9.5
-      },
-      {
-        "symbol": "SYY",
-        "name": "Sysco Corporation",
-        "pct": -9.4
+        "pct": -9.58
       },
       {
         "symbol": "ZBRA",
         "name": "Zebra Technologies Corporation",
-        "pct": -9.36
+        "pct": -9.47
       },
       {
-        "symbol": "CALX",
-        "name": "Calix, Inc",
-        "pct": -8.62
+        "symbol": "WRBY",
+        "name": "Warby Parker Inc.",
+        "pct": -9.03
       },
       {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": -8.21
+        "symbol": "TRI",
+        "name": "Thomson Reuters Corp",
+        "pct": -8.95
+      },
+      {
+        "symbol": "SYY",
+        "name": "Sysco Corporation",
+        "pct": -8.92
       }
     ],
     "universe": 1449
