@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-03T16:00:39Z",
+  "updated": "2026-11-03T16:10:52Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.59,
-      "last": 7587.07
+      "pct": 0.56,
+      "last": 7584.38
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.06,
-      "last": 28292.3
+      "pct": 0.95,
+      "last": 28262.41
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.2,
-      "last": 51883.24
+      "pct": -0.22,
+      "last": 51872.52
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.19,
-      "last": 50072.0
+      "pct": 0.23,
+      "last": 50095.25
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": 24.83
+        "pct": 23.76
       },
       {
         "symbol": "GPK",
         "name": "Graphic Packaging Holding Company",
-        "pct": 18.81
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": 16.18
+        "pct": 17.47
       },
       {
         "symbol": "FN",
         "name": "Fabrinet",
-        "pct": 15.81
+        "pct": 15.6
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": 14.94
       },
       {
         "symbol": "SRAD",
         "name": "Sportradar Group AG",
-        "pct": 15.54
-      },
-      {
-        "symbol": "LSCC",
-        "name": "Lattice Semiconductor Corporation",
-        "pct": 15.34
-      },
-      {
-        "symbol": "RIOT",
-        "name": "Riot Platforms, Inc.",
-        "pct": 15.08
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": 13.05
+        "pct": 14.92
       },
       {
         "symbol": "NBIX",
         "name": "Neurocrine Biosciences, Inc.",
-        "pct": 12.75
+        "pct": 14.72
+      },
+      {
+        "symbol": "LSCC",
+        "name": "Lattice Semiconductor Corporation",
+        "pct": 14.66
+      },
+      {
+        "symbol": "RIOT",
+        "name": "Riot Platforms, Inc.",
+        "pct": 13.39
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": 12.13
+        "pct": 13.24
+      },
+      {
+        "symbol": "AEIS",
+        "name": "Advanced Energy Industries, Inc.",
+        "pct": 12.1
       }
     ],
     "losers": [
       {
         "symbol": "VCIG",
         "name": "VCI Global Limited",
-        "pct": -42.03
+        "pct": -43.5
       },
       {
         "symbol": "CLRO",
         "name": "ClearOne, Inc.",
-        "pct": -13.89
+        "pct": -14.01
       },
       {
         "symbol": "IT",
         "name": "Gartner, Inc.",
-        "pct": -13.37
+        "pct": -13.93
       },
       {
         "symbol": "DT",
         "name": "Dynatrace, Inc.",
-        "pct": -12.98
+        "pct": -13.33
       },
       {
         "symbol": "RYTM",
         "name": "Rhythm Pharmaceuticals, Inc.",
-        "pct": -10.85
+        "pct": -11.14
       },
       {
         "symbol": "ZBRA",
         "name": "Zebra Technologies Corporation",
-        "pct": -8.44
+        "pct": -9.45
       },
       {
         "symbol": "PAY",
         "name": "Paymentus Holdings, Inc.",
-        "pct": -8.22
+        "pct": -8.67
       },
       {
-        "symbol": "INSP",
-        "name": "Inspire Medical Systems, Inc.",
-        "pct": -8.02
-      },
-      {
-        "symbol": "SYY",
-        "name": "Sysco Corporation",
-        "pct": -7.78
+        "symbol": "SHOP",
+        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
+        "pct": -7.92
       },
       {
         "symbol": "ULCC",
         "name": "Frontier Group Holdings, Inc.",
-        "pct": -7.74
+        "pct": -7.67
+      },
+      {
+        "symbol": "SYY",
+        "name": "Sysco Corporation",
+        "pct": -7.62
       }
     ],
     "universe": 1449
