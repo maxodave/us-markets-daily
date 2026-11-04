@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T21:20:33Z",
+  "updated": "2026-11-04T14:08:14Z",
   "market_open": false,
   "indices": [
     {
@@ -23,8 +23,8 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.07,
-      "last": 49941.83
+      "pct": 2.19,
+      "last": 51125.64
     }
   ],
   "movers": {
@@ -40,6 +40,11 @@
         "pct": 21.22
       },
       {
+        "symbol": "IBTA",
+        "name": "Ibotta, Inc.",
+        "pct": 20.53
+      },
+      {
         "symbol": "RIOT",
         "name": "Riot Platforms, Inc.",
         "pct": 18.41
@@ -50,9 +55,19 @@
         "pct": 18.37
       },
       {
+        "symbol": "SIBN",
+        "name": "SI-BONE, Inc.",
+        "pct": 17.56
+      },
+      {
         "symbol": "XMTR",
         "name": "Xometry, Inc.",
         "pct": 16.55
+      },
+      {
+        "symbol": "BETA",
+        "name": "Beta Technologies, Inc.",
+        "pct": 16.0
       },
       {
         "symbol": "HUT",
@@ -63,28 +78,18 @@
         "symbol": "FN",
         "name": "Fabrinet",
         "pct": 15.45
-      },
-      {
-        "symbol": "GLXY",
-        "name": "Galaxy Digital Inc.",
-        "pct": 15.35
-      },
-      {
-        "symbol": "WULF",
-        "name": "TeraWulf Inc.",
-        "pct": 14.53
-      },
-      {
-        "symbol": "CLSK",
-        "name": "CleanSpark, Inc.",
-        "pct": 13.99
       }
     ],
     "losers": [
       {
-        "symbol": "VCIG",
-        "name": "VCI Global Limited",
-        "pct": -30.27
+        "symbol": "STVN",
+        "name": "Stevanato Group S.p.A.",
+        "pct": -28.57
+      },
+      {
+        "symbol": "SUPN",
+        "name": "Supernus, Inc.",
+        "pct": -22.41
       },
       {
         "symbol": "DT",
@@ -92,19 +97,29 @@
         "pct": -14.69
       },
       {
+        "symbol": "ADEA",
+        "name": "Adeia Inc.",
+        "pct": -13.64
+      },
+      {
         "symbol": "IT",
         "name": "Gartner, Inc.",
         "pct": -13.19
       },
       {
-        "symbol": "ULCC",
-        "name": "Frontier Group Holdings, Inc.",
-        "pct": -12.92
+        "symbol": "CVI",
+        "name": "CVR Energy Inc.",
+        "pct": -13.09
       },
       {
         "symbol": "PAY",
         "name": "Paymentus Holdings, Inc.",
         "pct": -11.5
+      },
+      {
+        "symbol": "LIND",
+        "name": "Lindblad Expeditions Holdings Inc.",
+        "pct": -10.64
       },
       {
         "symbol": "TRI",
@@ -115,23 +130,8 @@
         "symbol": "SHC",
         "name": "Sotera Health Company",
         "pct": -9.64
-      },
-      {
-        "symbol": "SYY",
-        "name": "Sysco Corporation",
-        "pct": -9.33
-      },
-      {
-        "symbol": "ZBRA",
-        "name": "Zebra Technologies Corporation",
-        "pct": -8.76
-      },
-      {
-        "symbol": "SHOP",
-        "name": "Shopify Inc. - Class A Subordinate Voting Sh",
-        "pct": -8.74
       }
     ],
-    "universe": 1449
+    "universe": 1412
   }
 }
