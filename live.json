@@ -1,135 +1,135 @@
 {
-  "updated": "2026-11-04T15:15:01Z",
+  "updated": "2026-11-04T15:39:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.82,
-      "last": 7706.16
+      "pct": 1.68,
+      "last": 7695.49
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 2.21,
-      "last": 28804.22
+      "pct": 1.77,
+      "last": 28679.21
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 2.09,
-      "last": 52856.33
+      "pct": 2.33,
+      "last": 52984.95
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 2.46,
-      "last": 51260.6
+      "pct": 2.35,
+      "last": 51202.8
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "KD",
+        "name": "Kyndryl Holdings, Inc.",
+        "pct": 35.24
+      },
+      {
         "symbol": "DUOL",
         "name": "Duolingo, Inc.",
-        "pct": 36.12
+        "pct": 32.59
       },
       {
         "symbol": "YOU",
         "name": "Clear Secure, Inc.",
-        "pct": 28.75
-      },
-      {
-        "symbol": "KD",
-        "name": "Kyndryl Holdings, Inc.",
-        "pct": 27.55
+        "pct": 28.97
       },
       {
         "symbol": "LIVN",
         "name": "LivaNova PLC",
-        "pct": 16.86
+        "pct": 17.7
       },
       {
         "symbol": "XYZ",
         "name": "Block, Inc.",
-        "pct": 15.53
+        "pct": 15.39
       },
       {
-        "symbol": "CPNG",
-        "name": "Coupang, Inc.",
-        "pct": 14.28
-      },
-      {
-        "symbol": "SHLS",
-        "name": "Shoals Technologies Group, Inc.",
-        "pct": 13.93
-      },
-      {
-        "symbol": "RIOT",
-        "name": "Riot Platforms, Inc.",
-        "pct": 13.69
+        "symbol": "PFGC",
+        "name": "Performance Food Group Company",
+        "pct": 14.46
       },
       {
         "symbol": "PCOR",
         "name": "Procore Technologies, Inc.",
-        "pct": 13.57
+        "pct": 14.46
       },
       {
-        "symbol": "ASST",
-        "name": "Strive, Inc.",
-        "pct": 12.92
+        "symbol": "RIOT",
+        "name": "Riot Platforms, Inc.",
+        "pct": 14.12
+      },
+      {
+        "symbol": "ZBH",
+        "name": "Zimmer Biomet Holdings, Inc.",
+        "pct": 13.88
+      },
+      {
+        "symbol": "SWK",
+        "name": "Stanley Black & Decker, Inc.",
+        "pct": 13.45
       }
     ],
     "losers": [
       {
         "symbol": "NRIX",
         "name": "Nurix Therapeutics, Inc.",
-        "pct": -41.94
+        "pct": -41.89
       },
       {
         "symbol": "DOX",
         "name": "Amdocs Limited",
-        "pct": -28.55
+        "pct": -26.35
       },
       {
         "symbol": "FIS",
         "name": "Fidelity National Information Services, Inc.",
-        "pct": -21.42
+        "pct": -22.49
       },
       {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": -21.29
+        "pct": -22.19
       },
       {
         "symbol": "UNM",
         "name": "Unum Group",
-        "pct": -19.0
+        "pct": -18.88
       },
       {
         "symbol": "TRMB",
         "name": "Trimble Inc.",
-        "pct": -18.65
+        "pct": -18.85
       },
       {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -18.17
-      },
-      {
-        "symbol": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "pct": -17.0
+        "pct": -18.53
       },
       {
         "symbol": "STRL",
         "name": "Sterling Infrastructure, Inc.",
-        "pct": -15.41
+        "pct": -18.06
+      },
+      {
+        "symbol": "INIO",
+        "name": "INNIO N.V.",
+        "pct": -17.48
       },
       {
         "symbol": "HUT",
         "name": "Hut 8 Corp.",
-        "pct": -15.06
+        "pct": -17.04
       }
     ],
     "universe": 1412
