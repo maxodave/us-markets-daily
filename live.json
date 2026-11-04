@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-04T20:05:32Z",
+  "updated": "2026-11-04T20:19:00Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.7,
-      "last": 7696.97
+      "pct": 1.75,
+      "last": 7701.05
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.03,
-      "last": 28469.14
+      "pct": 1.12,
+      "last": 28496.95
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 3.02,
-      "last": 53340.97
+      "pct": 3.08,
+      "last": 53372.27
     },
     {
       "key": "ftsemib",
@@ -32,84 +32,84 @@
       {
         "symbol": "KD",
         "name": "Kyndryl Holdings, Inc.",
-        "pct": 35.16
+        "pct": 34.27
       },
       {
         "symbol": "DUOL",
         "name": "Duolingo, Inc.",
-        "pct": 27.43
+        "pct": 26.31
       },
       {
         "symbol": "YOU",
         "name": "Clear Secure, Inc.",
-        "pct": 24.87
-      },
-      {
-        "symbol": "LIVN",
-        "name": "LivaNova PLC",
-        "pct": 20.42
+        "pct": 24.94
       },
       {
         "symbol": "PCOR",
         "name": "Procore Technologies, Inc.",
-        "pct": 18.71
+        "pct": 19.14
+      },
+      {
+        "symbol": "LIVN",
+        "name": "LivaNova PLC",
+        "pct": 18.93
       },
       {
         "symbol": "MDLN",
         "name": "Medline Inc.",
-        "pct": 17.03
+        "pct": 17.69
       },
       {
         "symbol": "MOS",
         "name": "Mosaic Company (The)",
-        "pct": 16.07
+        "pct": 16.12
       },
       {
         "symbol": "XYZ",
         "name": "Block, Inc.",
-        "pct": 15.8
+        "pct": 15.84
       },
       {
         "symbol": "OUST",
         "name": "Ouster, Inc.",
-        "pct": 15.42
+        "pct": 15.58
       },
       {
         "symbol": "TREX",
         "name": "Trex Company, Inc.",
-        "pct": 14.99
+        "pct": 14.74
       }
     ],
     "losers": [
       {
         "symbol": "NRIX",
         "name": "Nurix Therapeutics, Inc.",
-        "pct": -37.45
+        "pct": -38.92
       },
       {
         "symbol": "SNDX",
         "name": "Syndax Pharmaceuticals, Inc.",
-        "pct": -29.67
-      },
-      {
-        "symbol": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "pct": -28.12
+        "pct": -28.76
       },
       {
         "symbol": "DOX",
         "name": "Amdocs Limited",
-        "pct": -27.77
+        "pct": -28.64
+      },
+      {
+        "symbol": "ECG",
+        "name": "Everus Construction Group, Inc.",
+        "pct": -28.03
       },
       {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": -26.93
+        "pct": -24.47
       },
       {
         "symbol": "FIS",
         "name": "Fidelity National Information Services, Inc.",
-        "pct": -23.21
+        "pct": -23.39
       },
       {
         "symbol": "HUT",
@@ -117,19 +117,19 @@
         "pct": -22.2
       },
       {
-        "symbol": "STRL",
-        "name": "Sterling Infrastructure, Inc.",
-        "pct": -21.75
-      },
-      {
         "symbol": "CIFR",
         "name": "Cipher Digital Inc.",
-        "pct": -20.51
+        "pct": -20.69
+      },
+      {
+        "symbol": "STRL",
+        "name": "Sterling Infrastructure, Inc.",
+        "pct": -20.61
       },
       {
         "symbol": "INIO",
         "name": "INNIO N.V.",
-        "pct": -20.1
+        "pct": -19.36
       }
     ],
     "universe": 1412
