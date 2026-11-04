@@ -1,135 +1,135 @@
 {
-  "updated": "2026-11-04T14:24:00Z",
-  "market_open": false,
+  "updated": "2026-11-04T15:15:01Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.35,
-      "last": 7568.92
+      "pct": 1.82,
+      "last": 7706.16
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.66,
-      "last": 28180.26
+      "pct": 2.21,
+      "last": 28804.22
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.39,
-      "last": 51786.72
+      "pct": 2.09,
+      "last": 52856.33
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 2.12,
-      "last": 51090.57
+      "pct": 2.46,
+      "last": 51260.6
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": 26.5
+        "symbol": "DUOL",
+        "name": "Duolingo, Inc.",
+        "pct": 36.12
       },
       {
-        "symbol": "GPK",
-        "name": "Graphic Packaging Holding Company",
-        "pct": 21.22
+        "symbol": "YOU",
+        "name": "Clear Secure, Inc.",
+        "pct": 28.75
       },
       {
-        "symbol": "IBTA",
-        "name": "Ibotta, Inc.",
-        "pct": 20.53
+        "symbol": "KD",
+        "name": "Kyndryl Holdings, Inc.",
+        "pct": 27.55
+      },
+      {
+        "symbol": "LIVN",
+        "name": "LivaNova PLC",
+        "pct": 16.86
+      },
+      {
+        "symbol": "XYZ",
+        "name": "Block, Inc.",
+        "pct": 15.53
+      },
+      {
+        "symbol": "CPNG",
+        "name": "Coupang, Inc.",
+        "pct": 14.28
+      },
+      {
+        "symbol": "SHLS",
+        "name": "Shoals Technologies Group, Inc.",
+        "pct": 13.93
       },
       {
         "symbol": "RIOT",
         "name": "Riot Platforms, Inc.",
-        "pct": 18.41
+        "pct": 13.69
       },
       {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": 18.37
+        "symbol": "PCOR",
+        "name": "Procore Technologies, Inc.",
+        "pct": 13.57
       },
       {
-        "symbol": "SIBN",
-        "name": "SI-BONE, Inc.",
-        "pct": 17.56
-      },
-      {
-        "symbol": "XMTR",
-        "name": "Xometry, Inc.",
-        "pct": 16.55
-      },
-      {
-        "symbol": "BETA",
-        "name": "Beta Technologies, Inc.",
-        "pct": 16.0
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": 15.9
-      },
-      {
-        "symbol": "FN",
-        "name": "Fabrinet",
-        "pct": 15.45
+        "symbol": "ASST",
+        "name": "Strive, Inc.",
+        "pct": 12.92
       }
     ],
     "losers": [
       {
-        "symbol": "STVN",
-        "name": "Stevanato Group S.p.A.",
-        "pct": -28.57
+        "symbol": "NRIX",
+        "name": "Nurix Therapeutics, Inc.",
+        "pct": -41.94
       },
       {
-        "symbol": "SUPN",
-        "name": "Supernus, Inc.",
-        "pct": -22.41
+        "symbol": "DOX",
+        "name": "Amdocs Limited",
+        "pct": -28.55
       },
       {
-        "symbol": "DT",
-        "name": "Dynatrace, Inc.",
-        "pct": -14.69
+        "symbol": "FIS",
+        "name": "Fidelity National Information Services, Inc.",
+        "pct": -21.42
       },
       {
-        "symbol": "ADEA",
-        "name": "Adeia Inc.",
-        "pct": -13.64
+        "symbol": "MOD",
+        "name": "Modine Manufacturing Company",
+        "pct": -21.29
       },
       {
-        "symbol": "IT",
-        "name": "Gartner, Inc.",
-        "pct": -13.19
+        "symbol": "UNM",
+        "name": "Unum Group",
+        "pct": -19.0
       },
       {
-        "symbol": "CVI",
-        "name": "CVR Energy Inc.",
-        "pct": -13.09
+        "symbol": "TRMB",
+        "name": "Trimble Inc.",
+        "pct": -18.65
       },
       {
-        "symbol": "PAY",
-        "name": "Paymentus Holdings, Inc.",
-        "pct": -11.5
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -18.17
       },
       {
-        "symbol": "LIND",
-        "name": "Lindblad Expeditions Holdings Inc.",
-        "pct": -10.64
+        "symbol": "ECG",
+        "name": "Everus Construction Group, Inc.",
+        "pct": -17.0
       },
       {
-        "symbol": "TRI",
-        "name": "Thomson Reuters Corp",
-        "pct": -9.87
+        "symbol": "STRL",
+        "name": "Sterling Infrastructure, Inc.",
+        "pct": -15.41
       },
       {
-        "symbol": "SHC",
-        "name": "Sotera Health Company",
-        "pct": -9.64
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -15.06
       }
     ],
     "universe": 1412
