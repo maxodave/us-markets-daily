@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T21:20:28Z",
+  "updated": "2026-11-05T14:06:33Z",
   "market_open": false,
   "indices": [
     {
@@ -23,8 +23,8 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 2.0,
-      "last": 51031.02
+      "pct": 0.48,
+      "last": 51350.65
     }
   ],
   "movers": {
@@ -45,9 +45,24 @@
         "pct": 25.99
       },
       {
+        "symbol": "ALIT",
+        "name": "Alight, Inc.",
+        "pct": 25.99
+      },
+      {
+        "symbol": "HELE",
+        "name": "Helen of Troy Limited",
+        "pct": 25.39
+      },
+      {
         "symbol": "YOU",
         "name": "Clear Secure, Inc.",
         "pct": 23.7
+      },
+      {
+        "symbol": "TRNS",
+        "name": "Transcat, Inc.",
+        "pct": 20.79
       },
       {
         "symbol": "PCOR",
@@ -63,21 +78,6 @@
         "symbol": "LIVN",
         "name": "LivaNova PLC",
         "pct": 17.88
-      },
-      {
-        "symbol": "MOS",
-        "name": "Mosaic Company (The)",
-        "pct": 17.37
-      },
-      {
-        "symbol": "OUST",
-        "name": "Ouster, Inc.",
-        "pct": 15.73
-      },
-      {
-        "symbol": "VRDN",
-        "name": "Viridian Therapeutics, Inc.",
-        "pct": 15.53
       }
     ],
     "losers": [
@@ -97,9 +97,19 @@
         "pct": -29.29
       },
       {
+        "symbol": "LIME",
+        "name": "Neutron Holdings, Inc.",
+        "pct": -27.83
+      },
+      {
         "symbol": "SNDX",
         "name": "Syndax Pharmaceuticals, Inc.",
         "pct": -26.87
+      },
+      {
+        "symbol": "DJT",
+        "name": "Trump Media & Technology Group Corp.",
+        "pct": -24.54
       },
       {
         "symbol": "FIS",
@@ -112,26 +122,16 @@
         "pct": -23.23
       },
       {
-        "symbol": "STRL",
-        "name": "Sterling Infrastructure, Inc.",
-        "pct": -21.46
+        "symbol": "KURA",
+        "name": "Kura Oncology, Inc.",
+        "pct": -22.98
       },
       {
-        "symbol": "MOD",
-        "name": "Modine Manufacturing Company",
-        "pct": -21.43
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -19.95
-      },
-      {
-        "symbol": "INIO",
-        "name": "INNIO N.V.",
-        "pct": -19.5
+        "symbol": "TH",
+        "name": "Target Hospitality Corp.",
+        "pct": -22.08
       }
     ],
-    "universe": 1412
+    "universe": 1557
   }
 }
