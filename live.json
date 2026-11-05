@@ -1,137 +1,137 @@
 {
-  "updated": "2026-11-05T14:24:37Z",
-  "market_open": false,
+  "updated": "2026-11-05T14:56:29Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.59,
-      "last": 7688.62
+      "pct": -1.64,
+      "last": 7562.71
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.91,
-      "last": 28437.17
+      "pct": -3.71,
+      "last": 27381.69
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 3.05,
-      "last": 53356.12
+      "pct": -0.67,
+      "last": 52997.37
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.46,
-      "last": 51338.03
+      "pct": -0.05,
+      "last": 51077.49
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "KD",
-        "name": "Kyndryl Holdings, Inc.",
-        "pct": 30.14
+        "symbol": "APP",
+        "name": "Applovin Corporation",
+        "pct": 30.84
       },
       {
-        "symbol": "RYTM",
-        "name": "Rhythm Pharmaceuticals, Inc.",
-        "pct": 28.04
+        "symbol": "VCEL",
+        "name": "Vericel Corporation",
+        "pct": 20.49
       },
       {
-        "symbol": "DUOL",
-        "name": "Duolingo, Inc.",
-        "pct": 25.99
+        "symbol": "SEZL",
+        "name": "Sezzle Inc.",
+        "pct": 20.4
       },
       {
-        "symbol": "ALIT",
-        "name": "Alight, Inc.",
-        "pct": 25.99
+        "symbol": "ADMA",
+        "name": "ADMA Biologics Inc",
+        "pct": 20.04
       },
       {
-        "symbol": "HELE",
-        "name": "Helen of Troy Limited",
-        "pct": 25.39
+        "symbol": "FUN",
+        "name": "Six Flags Entertainment Corporation",
+        "pct": 19.67
       },
       {
-        "symbol": "YOU",
-        "name": "Clear Secure, Inc.",
-        "pct": 23.7
+        "symbol": "WRBY",
+        "name": "Warby Parker Inc.",
+        "pct": 18.91
       },
       {
-        "symbol": "TRNS",
-        "name": "Transcat, Inc.",
-        "pct": 20.79
+        "symbol": "EPAM",
+        "name": "EPAM Systems, Inc.",
+        "pct": 18.34
       },
       {
-        "symbol": "PCOR",
-        "name": "Procore Technologies, Inc.",
-        "pct": 19.68
+        "symbol": "ENOV",
+        "name": "Enovis Corporation",
+        "pct": 18.33
       },
       {
-        "symbol": "MDLN",
-        "name": "Medline Inc.",
-        "pct": 18.36
+        "symbol": "MGNI",
+        "name": "Magnite, Inc.",
+        "pct": 17.99
       },
       {
-        "symbol": "LIVN",
-        "name": "LivaNova PLC",
-        "pct": 17.88
+        "symbol": "ACHC",
+        "name": "Acadia Healthcare Company, Inc.",
+        "pct": 14.57
       }
     ],
     "losers": [
       {
-        "symbol": "NRIX",
-        "name": "Nurix Therapeutics, Inc.",
-        "pct": -38.23
+        "symbol": "VCYT",
+        "name": "Veracyte, Inc.",
+        "pct": -56.53
       },
       {
-        "symbol": "DOX",
-        "name": "Amdocs Limited",
-        "pct": -30.07
+        "symbol": "GIL",
+        "name": "Gildan Activewear, Inc. Class A Sub. Vot.",
+        "pct": -24.17
       },
       {
-        "symbol": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "pct": -29.29
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -23.37
       },
       {
-        "symbol": "LIME",
-        "name": "Neutron Holdings, Inc.",
-        "pct": -27.83
+        "symbol": "DAVE",
+        "name": "Dave Inc.",
+        "pct": -21.18
       },
       {
-        "symbol": "SNDX",
-        "name": "Syndax Pharmaceuticals, Inc.",
-        "pct": -26.87
+        "symbol": "ARQT",
+        "name": "Arcutis Biotherapeutics, Inc.",
+        "pct": -19.99
       },
       {
-        "symbol": "DJT",
-        "name": "Trump Media & Technology Group Corp.",
-        "pct": -24.54
+        "symbol": "RELY",
+        "name": "Remitly Global, Inc.",
+        "pct": -19.87
       },
       {
-        "symbol": "FIS",
-        "name": "Fidelity National Information Services, Inc.",
-        "pct": -23.67
+        "symbol": "CAI",
+        "name": "Caris Life Sciences, Inc.",
+        "pct": -19.1
       },
       {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -23.23
+        "symbol": "TRIP",
+        "name": "TripAdvisor, Inc.",
+        "pct": -18.24
       },
       {
-        "symbol": "KURA",
-        "name": "Kura Oncology, Inc.",
-        "pct": -22.98
+        "symbol": "ACCV",
+        "name": "Accelevation Holdings Corp.",
+        "pct": -18.03
       },
       {
-        "symbol": "TH",
-        "name": "Target Hospitality Corp.",
-        "pct": -22.08
+        "symbol": "BROS",
+        "name": "Dutch Bros Inc.",
+        "pct": -17.73
       }
     ],
-    "universe": 1557
+    "universe": 1556
   }
 }
