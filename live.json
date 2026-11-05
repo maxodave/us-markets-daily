@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-05T15:11:55Z",
+  "updated": "2026-11-05T15:53:18Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -2.14,
-      "last": 7524.28
+      "pct": -3.82,
+      "last": 7395.12
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -4.37,
-      "last": 27195.95
+      "pct": -6.32,
+      "last": 26639.64
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.03,
-      "last": 52806.91
+      "pct": -2.53,
+      "last": 52006.07
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.52,
-      "last": 50837.75
+      "pct": -1.01,
+      "last": 50587.79
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "APP",
         "name": "Applovin Corporation",
-        "pct": 31.5
+        "pct": 28.0
       },
       {
         "symbol": "ADMA",
         "name": "ADMA Biologics Inc",
-        "pct": 25.29
-      },
-      {
-        "symbol": "WRBY",
-        "name": "Warby Parker Inc.",
-        "pct": 22.22
-      },
-      {
-        "symbol": "VCEL",
-        "name": "Vericel Corporation",
-        "pct": 20.58
-      },
-      {
-        "symbol": "SEZL",
-        "name": "Sezzle Inc.",
-        "pct": 18.65
-      },
-      {
-        "symbol": "MGNI",
-        "name": "Magnite, Inc.",
-        "pct": 16.89
-      },
-      {
-        "symbol": "ENOV",
-        "name": "Enovis Corporation",
-        "pct": 16.56
-      },
-      {
-        "symbol": "EPAM",
-        "name": "EPAM Systems, Inc.",
-        "pct": 16.45
-      },
-      {
-        "symbol": "FUN",
-        "name": "Six Flags Entertainment Corporation",
-        "pct": 16.14
+        "pct": 24.48
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 14.65
+        "pct": 23.33
+      },
+      {
+        "symbol": "WRBY",
+        "name": "Warby Parker Inc.",
+        "pct": 19.82
+      },
+      {
+        "symbol": "MGNI",
+        "name": "Magnite, Inc.",
+        "pct": 18.49
+      },
+      {
+        "symbol": "VCEL",
+        "name": "Vericel Corporation",
+        "pct": 17.83
+      },
+      {
+        "symbol": "EPAM",
+        "name": "EPAM Systems, Inc.",
+        "pct": 16.07
+      },
+      {
+        "symbol": "SEZL",
+        "name": "Sezzle Inc.",
+        "pct": 15.47
+      },
+      {
+        "symbol": "ACHC",
+        "name": "Acadia Healthcare Company, Inc.",
+        "pct": 11.95
+      },
+      {
+        "symbol": "ENOV",
+        "name": "Enovis Corporation",
+        "pct": 11.57
       }
     ],
     "losers": [
       {
         "symbol": "VCYT",
         "name": "Veracyte, Inc.",
-        "pct": -54.65
+        "pct": -56.38
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": -25.79
+        "pct": -26.5
       },
       {
         "symbol": "GIL",
         "name": "Gildan Activewear, Inc. Class A Sub. Vot.",
-        "pct": -25.03
-      },
-      {
-        "symbol": "DAVE",
-        "name": "Dave Inc.",
-        "pct": -20.56
-      },
-      {
-        "symbol": "TRIP",
-        "name": "TripAdvisor, Inc.",
-        "pct": -20.29
-      },
-      {
-        "symbol": "RELY",
-        "name": "Remitly Global, Inc.",
-        "pct": -19.76
-      },
-      {
-        "symbol": "CAI",
-        "name": "Caris Life Sciences, Inc.",
-        "pct": -19.75
-      },
-      {
-        "symbol": "ROAD",
-        "name": "Construction Partners, Inc.",
-        "pct": -19.14
+        "pct": -24.62
       },
       {
         "symbol": "LGN",
         "name": "Legence Corp.",
-        "pct": -18.86
+        "pct": -24.28
+      },
+      {
+        "symbol": "RELY",
+        "name": "Remitly Global, Inc.",
+        "pct": -22.58
+      },
+      {
+        "symbol": "CAI",
+        "name": "Caris Life Sciences, Inc.",
+        "pct": -22.55
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": -18.82
+        "pct": -22.44
+      },
+      {
+        "symbol": "ROAD",
+        "name": "Construction Partners, Inc.",
+        "pct": -22.41
+      },
+      {
+        "symbol": "AAOI",
+        "name": "Applied Optoelectronics, Inc.",
+        "pct": -22.2
+      },
+      {
+        "symbol": "FCEL",
+        "name": "FuelCell Energy, Inc.",
+        "pct": -22.11
       }
     ],
     "universe": 1556
