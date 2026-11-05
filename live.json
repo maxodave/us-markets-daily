@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-05T15:53:18Z",
+  "updated": "2026-11-05T17:07:55Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -3.82,
-      "last": 7395.12
+      "pct": -3.42,
+      "last": 7425.86
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -6.32,
-      "last": 26639.64
+      "pct": -5.32,
+      "last": 26925.31
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -2.53,
-      "last": 52006.07
+      "pct": -2.56,
+      "last": 51990.84
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.01,
-      "last": 50587.79
+      "pct": -1.17,
+      "last": 50505.87
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "APP",
         "name": "Applovin Corporation",
-        "pct": 28.0
+        "pct": 28.85
       },
       {
         "symbol": "ADMA",
         "name": "ADMA Biologics Inc",
-        "pct": 24.48
-      },
-      {
-        "symbol": "VXX",
-        "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 23.33
+        "pct": 26.57
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 19.82
+        "pct": 24.42
       },
       {
         "symbol": "MGNI",
         "name": "Magnite, Inc.",
-        "pct": 18.49
+        "pct": 21.94
       },
       {
-        "symbol": "VCEL",
-        "name": "Vericel Corporation",
-        "pct": 17.83
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": 20.65
       },
       {
         "symbol": "EPAM",
         "name": "EPAM Systems, Inc.",
-        "pct": 16.07
+        "pct": 20.2
       },
       {
         "symbol": "SEZL",
         "name": "Sezzle Inc.",
-        "pct": 15.47
-      },
-      {
-        "symbol": "ACHC",
-        "name": "Acadia Healthcare Company, Inc.",
-        "pct": 11.95
+        "pct": 16.93
       },
       {
         "symbol": "ENOV",
         "name": "Enovis Corporation",
-        "pct": 11.57
+        "pct": 13.02
+      },
+      {
+        "symbol": "VCEL",
+        "name": "Vericel Corporation",
+        "pct": 11.39
+      },
+      {
+        "symbol": "TM",
+        "name": "Toyota Motor Corporation",
+        "pct": 10.58
       }
     ],
     "losers": [
       {
         "symbol": "VCYT",
         "name": "Veracyte, Inc.",
-        "pct": -56.38
+        "pct": -54.28
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": -26.5
-      },
-      {
-        "symbol": "GIL",
-        "name": "Gildan Activewear, Inc. Class A Sub. Vot.",
-        "pct": -24.62
-      },
-      {
-        "symbol": "LGN",
-        "name": "Legence Corp.",
-        "pct": -24.28
-      },
-      {
-        "symbol": "RELY",
-        "name": "Remitly Global, Inc.",
-        "pct": -22.58
-      },
-      {
-        "symbol": "CAI",
-        "name": "Caris Life Sciences, Inc.",
-        "pct": -22.55
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": -22.44
+        "pct": -24.72
       },
       {
         "symbol": "ROAD",
         "name": "Construction Partners, Inc.",
-        "pct": -22.41
+        "pct": -24.53
       },
       {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": -22.2
+        "symbol": "TRIP",
+        "name": "TripAdvisor, Inc.",
+        "pct": -23.77
       },
       {
-        "symbol": "FCEL",
-        "name": "FuelCell Energy, Inc.",
-        "pct": -22.11
+        "symbol": "GIL",
+        "name": "Gildan Activewear, Inc. Class A Sub. Vot.",
+        "pct": -22.23
+      },
+      {
+        "symbol": "RELY",
+        "name": "Remitly Global, Inc.",
+        "pct": -21.47
+      },
+      {
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": -20.83
+      },
+      {
+        "symbol": "BROS",
+        "name": "Dutch Bros Inc.",
+        "pct": -20.64
+      },
+      {
+        "symbol": "CAI",
+        "name": "Caris Life Sciences, Inc.",
+        "pct": -20.56
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -20.56
       }
     ],
     "universe": 1556
