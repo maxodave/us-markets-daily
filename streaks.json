@@ -1,117 +1,26 @@
 {
-  "updated": "2026-11-04T01:39:36Z",
-  "session_date": "2026-11-02",
-  "universe": 557,
+  "updated": "2026-11-05T01:49:33Z",
+  "session_date": "2026-11-03",
+  "universe": 558,
   "up": {
-    "count": 382,
+    "count": 211,
     "by_length": {
-      "1": 193,
-      "2": 22,
-      "3": 111,
-      "4": 40,
-      "5": 10,
-      "6": 6
+      "1": 103,
+      "2": 70,
+      "3": 5,
+      "4": 22,
+      "5": 8,
+      "6": 3
     },
     "top": [
       {
-        "symbol": "GM",
-        "name": "General Motors",
+        "symbol": "TKO",
+        "name": "TKO Group Holdings",
         "indices": [
           "sp500"
         ],
         "days": 6,
-        "cum_pct": 18.47
-      },
-      {
-        "symbol": "CRH",
-        "name": "CRH plc",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 13.78
-      },
-      {
-        "symbol": "J",
-        "name": "Jacobs Solutions",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 10.46
-      },
-      {
-        "symbol": "ECL",
-        "name": "Ecolab",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 6.88
-      },
-      {
-        "symbol": "EXC",
-        "name": "Exelon",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 6,
-        "cum_pct": 4.55
-      },
-      {
-        "symbol": "FE",
-        "name": "FirstEnergy",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 3.21
-      },
-      {
-        "symbol": "PNR",
-        "name": "Pentair",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 27.78
-      },
-      {
-        "symbol": "CHTR",
-        "name": "Charter Communications",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 13.07
-      },
-      {
-        "symbol": "VMC",
-        "name": "Vulcan Materials Company",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 10.58
-      },
-      {
-        "symbol": "AON",
-        "name": "Aon plc",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 10.37
-      },
-      {
-        "symbol": "ARES",
-        "name": "Ares Management",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 9.09
+        "cum_pct": 9.33
       },
       {
         "symbol": "EXR",
@@ -119,17 +28,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 8.8
-      },
-      {
-        "symbol": "TKO",
-        "name": "TKO Group Holdings",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 8.12
+        "days": 6,
+        "cum_pct": 8.97
       },
       {
         "symbol": "SKYD",
@@ -137,58 +37,140 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 7.74
+        "days": 6,
+        "cum_pct": 7.88
       },
       {
-        "symbol": "PYPL",
-        "name": "PayPal",
+        "symbol": "FISV",
+        "name": "Fiserv",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 23.21
+      },
+      {
+        "symbol": "CMG",
+        "name": "Chipotle Mexican Grill",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 18.87
+      },
+      {
+        "symbol": "GEHC",
+        "name": "GE HealthCare",
         "indices": [
           "sp500",
           "nasdaq100"
         ],
         "days": 5,
-        "cum_pct": 6.89
+        "cum_pct": 13.43
+      },
+      {
+        "symbol": "LTMC.MI",
+        "name": "Lottomatica Group",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 5,
+        "cum_pct": 8.67
+      },
+      {
+        "symbol": "WELL",
+        "name": "Welltower",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 6.37
+      },
+      {
+        "symbol": "MSCI",
+        "name": "MSCI",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 6.32
+      },
+      {
+        "symbol": "RTX",
+        "name": "RTX Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 4.74
+      },
+      {
+        "symbol": "FICO",
+        "name": "Fair Isaac",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 4.72
+      },
+      {
+        "symbol": "REGN",
+        "name": "Regeneron Pharmaceuticals",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 19.68
+      },
+      {
+        "symbol": "MGM",
+        "name": "MGM Resorts",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 13.75
+      },
+      {
+        "symbol": "VLTO",
+        "name": "Veralto",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 13.15
+      },
+      {
+        "symbol": "IR",
+        "name": "Ingersoll Rand",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 12.07
       }
     ]
   },
   "down": {
-    "count": 174,
+    "count": 346,
     "by_length": {
-      "1": 52,
-      "2": 67,
-      "3": 34,
-      "4": 16,
-      "5": 4,
-      "8+": 1
+      "1": 274,
+      "2": 43,
+      "3": 20,
+      "4": 5,
+      "5": 2,
+      "6": 2
     },
     "top": [
-      {
-        "symbol": "RDDT",
-        "name": "Reddit",
-        "indices": [
-          "sp500"
-        ],
-        "days": -9,
-        "cum_pct": -41.55
-      },
-      {
-        "symbol": "FFIV",
-        "name": "F5, Inc.",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -29.69
-      },
       {
         "symbol": "HPQ",
         "name": "HP Inc.",
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -16.6
+        "days": -6,
+        "cum_pct": -17.07
       },
       {
         "symbol": "PLTR",
@@ -197,85 +179,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -5,
-        "cum_pct": -10.31
-      },
-      {
-        "symbol": "MSFT",
-        "name": "Microsoft",
-        "indices": [
-          "sp500",
-          "dow",
-          "nasdaq100"
-        ],
-        "days": -5,
-        "cum_pct": -4.78
-      },
-      {
-        "symbol": "FTNT",
-        "name": "Fortinet",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -31.78
-      },
-      {
-        "symbol": "DDOG",
-        "name": "Datadog",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -23.05
-      },
-      {
-        "symbol": "DELL",
-        "name": "Dell Technologies",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -21.75
-      },
-      {
-        "symbol": "TER",
-        "name": "Teradyne",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -19.36
-      },
-      {
-        "symbol": "NTAP",
-        "name": "NetApp",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -18.6
-      },
-      {
-        "symbol": "P",
-        "name": "Everpure",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -17.98
-      },
-      {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -15.86
+        "days": -6,
+        "cum_pct": -11.79
       },
       {
         "symbol": "PANW",
@@ -284,26 +189,119 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -4,
-        "cum_pct": -12.44
+        "days": -5,
+        "cum_pct": -12.82
       },
       {
-        "symbol": "ANET",
-        "name": "Arista Networks",
+        "symbol": "ALB",
+        "name": "Albemarle Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -8.86
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify",
+        "indices": [
+          "nasdaq100"
+        ],
+        "days": -4,
+        "cum_pct": -15.25
+      },
+      {
+        "symbol": "ZBRA",
+        "name": "Zebra Technologies",
         "indices": [
           "sp500"
         ],
         "days": -4,
-        "cum_pct": -12.22
+        "cum_pct": -14.35
       },
       {
-        "symbol": "KEYS",
-        "name": "Keysight Technologies",
+        "symbol": "CRM",
+        "name": "Salesforce",
+        "indices": [
+          "sp500",
+          "dow"
+        ],
+        "days": -4,
+        "cum_pct": -8.22
+      },
+      {
+        "symbol": "SPM.MI",
+        "name": "Saipem",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -4,
+        "cum_pct": -4.7
+      },
+      {
+        "symbol": "BAMI.MI",
+        "name": "Banco BPM",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -4,
+        "cum_pct": -2.64
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -26.03
+      },
+      {
+        "symbol": "AKAM",
+        "name": "Akamai Technologies",
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -11.06
+        "days": -3,
+        "cum_pct": -12.93
+      },
+      {
+        "symbol": "CDW",
+        "name": "CDW Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -9.34
+      },
+      {
+        "symbol": "TEN.MI",
+        "name": "Tenaris",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -3,
+        "cum_pct": -5.88
+      },
+      {
+        "symbol": "DVA",
+        "name": "DaVita",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -5.76
+      },
+      {
+        "symbol": "SNPS",
+        "name": "Synopsys",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -5.57
       }
     ]
   },
