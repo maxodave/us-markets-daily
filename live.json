@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-05T17:07:55Z",
+  "updated": "2026-11-05T17:25:42Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -3.42,
-      "last": 7425.86
+      "pct": -3.44,
+      "last": 7424.12
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -5.32,
-      "last": 26925.31
+      "pct": -5.21,
+      "last": 26957.1
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -2.56,
-      "last": 51990.84
+      "pct": -2.66,
+      "last": 51935.52
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "APP",
         "name": "Applovin Corporation",
-        "pct": 28.85
+        "pct": 28.34
       },
       {
         "symbol": "ADMA",
         "name": "ADMA Biologics Inc",
-        "pct": 26.57
+        "pct": 26.96
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 24.42
-      },
-      {
-        "symbol": "MGNI",
-        "name": "Magnite, Inc.",
-        "pct": 21.94
+        "pct": 24.19
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 20.65
+        "pct": 23.07
+      },
+      {
+        "symbol": "MGNI",
+        "name": "Magnite, Inc.",
+        "pct": 22.44
       },
       {
         "symbol": "EPAM",
         "name": "EPAM Systems, Inc.",
-        "pct": 20.2
+        "pct": 21.94
       },
       {
         "symbol": "SEZL",
         "name": "Sezzle Inc.",
-        "pct": 16.93
+        "pct": 16.19
       },
       {
         "symbol": "ENOV",
         "name": "Enovis Corporation",
-        "pct": 13.02
-      },
-      {
-        "symbol": "VCEL",
-        "name": "Vericel Corporation",
-        "pct": 11.39
+        "pct": 12.16
       },
       {
         "symbol": "TM",
         "name": "Toyota Motor Corporation",
-        "pct": 10.58
+        "pct": 10.45
+      },
+      {
+        "symbol": "VCEL",
+        "name": "Vericel Corporation",
+        "pct": 10.39
       }
     ],
     "losers": [
       {
         "symbol": "VCYT",
         "name": "Veracyte, Inc.",
-        "pct": -54.28
+        "pct": -55.66
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": -24.72
+        "pct": -24.57
       },
       {
         "symbol": "ROAD",
         "name": "Construction Partners, Inc.",
-        "pct": -24.53
+        "pct": -24.3
       },
       {
         "symbol": "TRIP",
         "name": "TripAdvisor, Inc.",
-        "pct": -23.77
+        "pct": -24.17
       },
       {
-        "symbol": "GIL",
-        "name": "Gildan Activewear, Inc. Class A Sub. Vot.",
-        "pct": -22.23
-      },
-      {
-        "symbol": "RELY",
-        "name": "Remitly Global, Inc.",
-        "pct": -21.47
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": -20.83
-      },
-      {
-        "symbol": "BROS",
-        "name": "Dutch Bros Inc.",
-        "pct": -20.64
+        "symbol": "ARQT",
+        "name": "Arcutis Biotherapeutics, Inc.",
+        "pct": -22.29
       },
       {
         "symbol": "CAI",
         "name": "Caris Life Sciences, Inc.",
-        "pct": -20.56
+        "pct": -22.26
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -20.56
+        "symbol": "BROS",
+        "name": "Dutch Bros Inc.",
+        "pct": -22.14
+      },
+      {
+        "symbol": "GIL",
+        "name": "Gildan Activewear, Inc. Class A Sub. Vot.",
+        "pct": -21.65
+      },
+      {
+        "symbol": "RELY",
+        "name": "Remitly Global, Inc.",
+        "pct": -21.36
+      },
+      {
+        "symbol": "DAVE",
+        "name": "Dave Inc.",
+        "pct": -20.62
       }
     ],
     "universe": 1556
