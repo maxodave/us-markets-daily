@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-05T19:10:33Z",
+  "updated": "2026-11-05T19:20:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -4.05,
-      "last": 7377.7
+      "pct": -3.85,
+      "last": 7392.59
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -5.77,
-      "last": 26797.37
+      "pct": -5.54,
+      "last": 26862.71
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -3.16,
-      "last": 51672.57
+      "pct": -3.03,
+      "last": 51741.8
     },
     {
       "key": "ftsemib",
@@ -32,74 +32,69 @@
       {
         "symbol": "APP",
         "name": "Applovin Corporation",
-        "pct": 29.62
+        "pct": 30.04
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 27.6
+        "pct": 28.32
       },
       {
         "symbol": "ADMA",
         "name": "ADMA Biologics Inc",
-        "pct": 26.15
+        "pct": 26.0
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 25.78
+        "pct": 24.62
       },
       {
         "symbol": "MGNI",
         "name": "Magnite, Inc.",
-        "pct": 20.89
+        "pct": 21.61
       },
       {
         "symbol": "EPAM",
         "name": "EPAM Systems, Inc.",
-        "pct": 18.44
-      },
-      {
-        "symbol": "ENOV",
-        "name": "Enovis Corporation",
-        "pct": 14.11
+        "pct": 19.02
       },
       {
         "symbol": "SEZL",
         "name": "Sezzle Inc.",
-        "pct": 13.79
+        "pct": 14.71
+      },
+      {
+        "symbol": "ENOV",
+        "name": "Enovis Corporation",
+        "pct": 14.62
       },
       {
         "symbol": "FUN",
         "name": "Six Flags Entertainment Corporation",
-        "pct": 12.43
+        "pct": 12.86
       },
       {
         "symbol": "VCEL",
         "name": "Vericel Corporation",
-        "pct": 11.17
+        "pct": 11.69
       }
     ],
     "losers": [
       {
         "symbol": "VCYT",
         "name": "Veracyte, Inc.",
-        "pct": -58.08
+        "pct": -56.93
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": -27.18
-      },
-      {
-        "symbol": "CAI",
-        "name": "Caris Life Sciences, Inc.",
-        "pct": -23.51
+        "pct": -27.22
       },
       {
         "symbol": "RELY",
         "name": "Remitly Global, Inc.",
-        "pct": -23.23
+        "pct": -23.08
       },
       {
         "symbol": "TRIP",
@@ -107,29 +102,34 @@
         "pct": -22.99
       },
       {
-        "symbol": "DAVE",
-        "name": "Dave Inc.",
-        "pct": -22.6
-      },
-      {
         "symbol": "ROAD",
         "name": "Construction Partners, Inc.",
-        "pct": -22.0
+        "pct": -22.38
+      },
+      {
+        "symbol": "DAVE",
+        "name": "Dave Inc.",
+        "pct": -22.14
+      },
+      {
+        "symbol": "CAI",
+        "name": "Caris Life Sciences, Inc.",
+        "pct": -21.73
       },
       {
         "symbol": "LGN",
         "name": "Legence Corp.",
-        "pct": -21.72
+        "pct": -21.54
       },
       {
         "symbol": "BROS",
         "name": "Dutch Bros Inc.",
-        "pct": -21.69
+        "pct": -21.53
       },
       {
         "symbol": "ARQT",
         "name": "Arcutis Biotherapeutics, Inc.",
-        "pct": -21.62
+        "pct": -21.15
       }
     ],
     "universe": 1556
