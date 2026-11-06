@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T21:20:39Z",
+  "updated": "2026-11-06T14:00:44Z",
   "market_open": false,
   "indices": [
     {
@@ -23,12 +23,17 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.17,
-      "last": 50505.87
+      "pct": -1.24,
+      "last": 49863.05
     }
   ],
   "movers": {
     "gainers": [
+      {
+        "symbol": "AEHL",
+        "name": "Antelope Enterprise Holdings Limited",
+        "pct": 178.15
+      },
       {
         "symbol": "APP",
         "name": "Applovin Corporation",
@@ -40,9 +45,24 @@
         "pct": 30.13
       },
       {
+        "symbol": "PTLO",
+        "name": "Portillo's Inc.",
+        "pct": 28.81
+      },
+      {
+        "symbol": "ECPG",
+        "name": "Encore Capital Group Inc",
+        "pct": 26.26
+      },
+      {
         "symbol": "ADMA",
         "name": "ADMA Biologics Inc",
         "pct": 26.05
+      },
+      {
+        "symbol": "XERS",
+        "name": "Xeris Biopharma Holdings, Inc.",
+        "pct": 25.05
       },
       {
         "symbol": "WRBY",
@@ -58,29 +78,14 @@
         "symbol": "EPAM",
         "name": "EPAM Systems, Inc.",
         "pct": 20.63
-      },
-      {
-        "symbol": "ENOV",
-        "name": "Enovis Corporation",
-        "pct": 17.2
-      },
-      {
-        "symbol": "FUN",
-        "name": "Six Flags Entertainment Corporation",
-        "pct": 16.52
-      },
-      {
-        "symbol": "VCEL",
-        "name": "Vericel Corporation",
-        "pct": 13.85
-      },
-      {
-        "symbol": "SEZL",
-        "name": "Sezzle Inc.",
-        "pct": 13.4
       }
     ],
     "losers": [
+      {
+        "symbol": "MNTN",
+        "name": "MNTN, Inc.",
+        "pct": -54.68
+      },
       {
         "symbol": "VCYT",
         "name": "Veracyte, Inc.",
@@ -90,6 +95,11 @@
         "symbol": "TRIP",
         "name": "TripAdvisor, Inc.",
         "pct": -27.65
+      },
+      {
+        "symbol": "ROCK",
+        "name": "Gibraltar Industries, Inc.",
+        "pct": -27.28
       },
       {
         "symbol": "FSLY",
@@ -120,18 +130,8 @@
         "symbol": "ROAD",
         "name": "Construction Partners, Inc.",
         "pct": -21.88
-      },
-      {
-        "symbol": "CAI",
-        "name": "Caris Life Sciences, Inc.",
-        "pct": -21.64
-      },
-      {
-        "symbol": "BROS",
-        "name": "Dutch Bros Inc.",
-        "pct": -21.41
       }
     ],
-    "universe": 1556
+    "universe": 1586
   }
 }
