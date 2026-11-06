@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-06T15:10:19Z",
+  "updated": "2026-11-06T15:41:23Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.87,
-      "last": 7420.37
+      "pct": 0.59,
+      "last": 7399.9
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.88,
-      "last": 27148.43
+      "pct": 1.36,
+      "last": 27011.17
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.15,
-      "last": 51445.33
+      "pct": -0.17,
+      "last": 51437.86
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.31,
-      "last": 49830.93
+      "pct": -0.88,
+      "last": 50047.36
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "FROG",
         "name": "JFrog Ltd.",
-        "pct": 32.83
-      },
-      {
-        "symbol": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "pct": 23.87
+        "pct": 31.88
       },
       {
         "symbol": "LASR",
         "name": "nLIGHT, Inc.",
-        "pct": 23.21
+        "pct": 22.39
       },
       {
-        "symbol": "TMDX",
-        "name": "TransMedics Group, Inc.",
-        "pct": 20.24
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": 19.27
-      },
-      {
-        "symbol": "OKLO",
-        "name": "Oklo Inc.",
-        "pct": 17.71
-      },
-      {
-        "symbol": "EXTR",
-        "name": "Extreme Networks, Inc.",
-        "pct": 15.86
-      },
-      {
-        "symbol": "PENG",
-        "name": "Penguin Solutions, Inc.",
-        "pct": 15.62
+        "symbol": "KRMN",
+        "name": "Karman Holdings Inc.",
+        "pct": 21.67
       },
       {
         "symbol": "FLY",
         "name": "Firefly Aerospace Inc.",
-        "pct": 15.38
+        "pct": 18.35
       },
       {
-        "symbol": "SMR",
-        "name": "NuScale Power Corporation",
-        "pct": 14.07
+        "symbol": "TMDX",
+        "name": "TransMedics Group, Inc.",
+        "pct": 18.15
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": 16.17
+      },
+      {
+        "symbol": "OKLO",
+        "name": "Oklo Inc.",
+        "pct": 15.24
+      },
+      {
+        "symbol": "EXTR",
+        "name": "Extreme Networks, Inc.",
+        "pct": 15.15
+      },
+      {
+        "symbol": "PENG",
+        "name": "Penguin Solutions, Inc.",
+        "pct": 13.5
+      },
+      {
+        "symbol": "CGON",
+        "name": "CG Oncology, Inc.",
+        "pct": 13.41
       }
     ],
     "losers": [
       {
         "symbol": "IRTC",
         "name": "iRhythm Holdings, Inc.",
-        "pct": -29.55
-      },
-      {
-        "symbol": "DKNG",
-        "name": "DraftKings Inc.",
-        "pct": -27.64
-      },
-      {
-        "symbol": "AEHL",
-        "name": "Antelope Enterprise Holdings Limited",
-        "pct": -24.0
+        "pct": -31.4
       },
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": -21.5
+        "pct": -31.01
+      },
+      {
+        "symbol": "DKNG",
+        "name": "DraftKings Inc.",
+        "pct": -29.17
+      },
+      {
+        "symbol": "AEHL",
+        "name": "Antelope Enterprise Holdings Limited",
+        "pct": -27.75
       },
       {
         "symbol": "FIVN",
         "name": "Five9, Inc.",
-        "pct": -18.31
-      },
-      {
-        "symbol": "WK",
-        "name": "Workiva Inc.",
-        "pct": -15.87
-      },
-      {
-        "symbol": "AXON",
-        "name": "Axon Enterprise, Inc.",
-        "pct": -15.74
+        "pct": -19.92
       },
       {
         "symbol": "AGLT",
         "name": "Agility Robotics, Inc.",
-        "pct": -14.94
+        "pct": -18.77
+      },
+      {
+        "symbol": "AXON",
+        "name": "Axon Enterprise, Inc.",
+        "pct": -18.37
+      },
+      {
+        "symbol": "WK",
+        "name": "Workiva Inc.",
+        "pct": -15.89
       },
       {
         "symbol": "TEAM",
         "name": "Atlassian Corporation",
-        "pct": -13.8
+        "pct": -15.88
       },
       {
-        "symbol": "BKD",
-        "name": "Brookdale Senior Living Inc.",
-        "pct": -13.0
+        "symbol": "HLIO",
+        "name": "Helios Technologies, Inc.",
+        "pct": -14.81
       }
     ],
     "universe": 1586
