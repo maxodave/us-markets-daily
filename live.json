@@ -1,137 +1,137 @@
 {
-  "updated": "2026-11-06T14:35:02Z",
+  "updated": "2026-11-06T14:52:22Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.29,
-      "last": 7378.36
+      "pct": 1.05,
+      "last": 7434.11
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.3,
-      "last": 26994.29
+      "pct": 2.37,
+      "last": 27278.41
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.91,
-      "last": 51052.74
+      "pct": -0.13,
+      "last": 51456.74
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.4,
-      "last": 49785.1
+      "pct": -1.57,
+      "last": 49695.19
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "LASR",
-        "name": "nLIGHT, Inc.",
-        "pct": 21.2
-      },
-      {
         "symbol": "FROG",
         "name": "JFrog Ltd.",
-        "pct": 20.81
+        "pct": 31.33
       },
       {
-        "symbol": "EXTR",
-        "name": "Extreme Networks, Inc.",
-        "pct": 19.48
-      },
-      {
-        "symbol": "TMDX",
-        "name": "TransMedics Group, Inc.",
-        "pct": 17.37
+        "symbol": "LASR",
+        "name": "nLIGHT, Inc.",
+        "pct": 22.53
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": 13.42
+        "pct": 22.52
       },
       {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": 12.48
+        "symbol": "TMDX",
+        "name": "TransMedics Group, Inc.",
+        "pct": 19.9
       },
       {
-        "symbol": "NET",
-        "name": "Cloudflare, Inc.",
-        "pct": 11.21
-      },
-      {
-        "symbol": "ABNB",
-        "name": "Airbnb, Inc.",
-        "pct": 9.62
-      },
-      {
-        "symbol": "PENG",
-        "name": "Penguin Solutions, Inc.",
-        "pct": 9.62
+        "symbol": "KRMN",
+        "name": "Karman Holdings Inc.",
+        "pct": 19.73
       },
       {
         "symbol": "FLY",
         "name": "Firefly Aerospace Inc.",
-        "pct": 9.36
+        "pct": 18.3
+      },
+      {
+        "symbol": "EXTR",
+        "name": "Extreme Networks, Inc.",
+        "pct": 17.91
+      },
+      {
+        "symbol": "OKLO",
+        "name": "Oklo Inc.",
+        "pct": 16.2
+      },
+      {
+        "symbol": "PENG",
+        "name": "Penguin Solutions, Inc.",
+        "pct": 16.2
+      },
+      {
+        "symbol": "SMR",
+        "name": "NuScale Power Corporation",
+        "pct": 13.73
       }
     ],
     "losers": [
       {
-        "symbol": "AEHL",
-        "name": "Antelope Enterprise Holdings Limited",
-        "pct": -30.61
+        "symbol": "OMH",
+        "name": "Ohmyhome Limited",
+        "pct": -29.74
       },
       {
         "symbol": "DKNG",
         "name": "DraftKings Inc.",
-        "pct": -28.4
-      },
-      {
-        "symbol": "FIVN",
-        "name": "Five9, Inc.",
-        "pct": -25.85
+        "pct": -28.1
       },
       {
         "symbol": "IRTC",
         "name": "iRhythm Holdings, Inc.",
-        "pct": -22.04
+        "pct": -27.97
       },
       {
-        "symbol": "OMH",
-        "name": "Ohmyhome Limited",
-        "pct": -21.18
+        "symbol": "AEHL",
+        "name": "Antelope Enterprise Holdings Limited",
+        "pct": -23.11
       },
       {
-        "symbol": "AXON",
-        "name": "Axon Enterprise, Inc.",
-        "pct": -18.09
-      },
-      {
-        "symbol": "XRAY",
-        "name": "DENTSPLY SIRONA Inc.",
-        "pct": -15.46
-      },
-      {
-        "symbol": "NTRA",
-        "name": "Natera, Inc.",
-        "pct": -15.07
+        "symbol": "FIVN",
+        "name": "Five9, Inc.",
+        "pct": -19.24
       },
       {
         "symbol": "WK",
         "name": "Workiva Inc.",
-        "pct": -14.69
+        "pct": -15.9
+      },
+      {
+        "symbol": "AXON",
+        "name": "Axon Enterprise, Inc.",
+        "pct": -15.79
+      },
+      {
+        "symbol": "BKD",
+        "name": "Brookdale Senior Living Inc.",
+        "pct": -13.14
+      },
+      {
+        "symbol": "NTRA",
+        "name": "Natera, Inc.",
+        "pct": -12.0
       },
       {
         "symbol": "TEAM",
         "name": "Atlassian Corporation",
-        "pct": -14.05
+        "pct": -11.92
       }
     ],
-    "universe": 1574
+    "universe": 1585
   }
 }
