@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-06T16:27:24Z",
+  "updated": "2026-11-06T17:12:18Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.9,
-      "last": 7423.11
+      "pct": 0.86,
+      "last": 7420.25
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.89,
-      "last": 27150.41
+      "pct": 1.82,
+      "last": 27132.17
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.08,
-      "last": 51566.77
+      "pct": 0.09,
+      "last": 51572.21
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.98,
-      "last": 49994.51
+      "pct": -0.87,
+      "last": 50052.96
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "FROG",
         "name": "JFrog Ltd.",
-        "pct": 33.96
+        "pct": 35.03
       },
       {
         "symbol": "FLY",
         "name": "Firefly Aerospace Inc.",
-        "pct": 25.73
-      },
-      {
-        "symbol": "LASR",
-        "name": "nLIGHT, Inc.",
-        "pct": 23.99
+        "pct": 29.36
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "pct": 23.9
+        "pct": 29.23
+      },
+      {
+        "symbol": "LASR",
+        "name": "nLIGHT, Inc.",
+        "pct": 28.0
       },
       {
         "symbol": "TMDX",
         "name": "TransMedics Group, Inc.",
-        "pct": 22.7
+        "pct": 23.41
       },
       {
-        "symbol": "CGON",
-        "name": "CG Oncology, Inc.",
-        "pct": 21.54
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 22.37
       },
       {
         "symbol": "OKLO",
         "name": "Oklo Inc.",
-        "pct": 20.47
+        "pct": 22.27
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": 20.02
+        "pct": 20.11
       },
       {
-        "symbol": "UI",
-        "name": "Ubiquiti Inc.",
-        "pct": 16.61
+        "symbol": "CGON",
+        "name": "CG Oncology, Inc.",
+        "pct": 19.55
       },
       {
         "symbol": "LEU",
         "name": "Centrus Energy Corp.",
-        "pct": 16.16
+        "pct": 17.87
       }
     ],
     "losers": [
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": -44.72
-      },
-      {
-        "symbol": "IRTC",
-        "name": "iRhythm Holdings, Inc.",
-        "pct": -32.28
+        "pct": -51.99
       },
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": -31.54
+        "pct": -38.3
+      },
+      {
+        "symbol": "IRTC",
+        "name": "iRhythm Holdings, Inc.",
+        "pct": -33.17
       },
       {
         "symbol": "DKNG",
         "name": "DraftKings Inc.",
-        "pct": -27.21
-      },
-      {
-        "symbol": "FIVN",
-        "name": "Five9, Inc.",
-        "pct": -19.16
-      },
-      {
-        "symbol": "AXON",
-        "name": "Axon Enterprise, Inc.",
-        "pct": -18.07
+        "pct": -26.87
       },
       {
         "symbol": "AGLT",
         "name": "Agility Robotics, Inc.",
-        "pct": -17.46
+        "pct": -18.16
+      },
+      {
+        "symbol": "FIVN",
+        "name": "Five9, Inc.",
+        "pct": -17.52
+      },
+      {
+        "symbol": "AXON",
+        "name": "Axon Enterprise, Inc.",
+        "pct": -17.5
       },
       {
         "symbol": "BKD",
         "name": "Brookdale Senior Living Inc.",
-        "pct": -16.88
+        "pct": -16.56
+      },
+      {
+        "symbol": "HALO",
+        "name": "Halozyme Therapeutics, Inc.",
+        "pct": -15.07
       },
       {
         "symbol": "HLIO",
         "name": "Helios Technologies, Inc.",
-        "pct": -15.36
-      },
-      {
-        "symbol": "TEAM",
-        "name": "Atlassian Corporation",
-        "pct": -14.97
+        "pct": -14.98
       }
     ],
     "universe": 1586
