@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-06T14:52:22Z",
+  "updated": "2026-11-06T15:10:19Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.05,
-      "last": 7434.11
+      "pct": 0.87,
+      "last": 7420.37
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 2.37,
-      "last": 27278.41
+      "pct": 1.88,
+      "last": 27148.43
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.13,
-      "last": 51456.74
+      "pct": -0.15,
+      "last": 51445.33
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.57,
-      "last": 49695.19
+      "pct": -1.31,
+      "last": 49830.93
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "FROG",
         "name": "JFrog Ltd.",
-        "pct": 31.33
-      },
-      {
-        "symbol": "LASR",
-        "name": "nLIGHT, Inc.",
-        "pct": 22.53
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": 22.52
-      },
-      {
-        "symbol": "TMDX",
-        "name": "TransMedics Group, Inc.",
-        "pct": 19.9
+        "pct": 32.83
       },
       {
         "symbol": "KRMN",
         "name": "Karman Holdings Inc.",
-        "pct": 19.73
+        "pct": 23.87
       },
       {
-        "symbol": "FLY",
-        "name": "Firefly Aerospace Inc.",
-        "pct": 18.3
+        "symbol": "LASR",
+        "name": "nLIGHT, Inc.",
+        "pct": 23.21
       },
       {
-        "symbol": "EXTR",
-        "name": "Extreme Networks, Inc.",
-        "pct": 17.91
+        "symbol": "TMDX",
+        "name": "TransMedics Group, Inc.",
+        "pct": 20.24
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": 19.27
       },
       {
         "symbol": "OKLO",
         "name": "Oklo Inc.",
-        "pct": 16.2
+        "pct": 17.71
+      },
+      {
+        "symbol": "EXTR",
+        "name": "Extreme Networks, Inc.",
+        "pct": 15.86
       },
       {
         "symbol": "PENG",
         "name": "Penguin Solutions, Inc.",
-        "pct": 16.2
+        "pct": 15.62
+      },
+      {
+        "symbol": "FLY",
+        "name": "Firefly Aerospace Inc.",
+        "pct": 15.38
       },
       {
         "symbol": "SMR",
         "name": "NuScale Power Corporation",
-        "pct": 13.73
+        "pct": 14.07
       }
     ],
     "losers": [
       {
-        "symbol": "OMH",
-        "name": "Ohmyhome Limited",
-        "pct": -29.74
+        "symbol": "IRTC",
+        "name": "iRhythm Holdings, Inc.",
+        "pct": -29.55
       },
       {
         "symbol": "DKNG",
         "name": "DraftKings Inc.",
-        "pct": -28.1
-      },
-      {
-        "symbol": "IRTC",
-        "name": "iRhythm Holdings, Inc.",
-        "pct": -27.97
+        "pct": -27.64
       },
       {
         "symbol": "AEHL",
         "name": "Antelope Enterprise Holdings Limited",
-        "pct": -23.11
+        "pct": -24.0
+      },
+      {
+        "symbol": "OMH",
+        "name": "Ohmyhome Limited",
+        "pct": -21.5
       },
       {
         "symbol": "FIVN",
         "name": "Five9, Inc.",
-        "pct": -19.24
+        "pct": -18.31
       },
       {
         "symbol": "WK",
         "name": "Workiva Inc.",
-        "pct": -15.9
+        "pct": -15.87
       },
       {
         "symbol": "AXON",
         "name": "Axon Enterprise, Inc.",
-        "pct": -15.79
+        "pct": -15.74
       },
       {
-        "symbol": "BKD",
-        "name": "Brookdale Senior Living Inc.",
-        "pct": -13.14
-      },
-      {
-        "symbol": "NTRA",
-        "name": "Natera, Inc.",
-        "pct": -12.0
+        "symbol": "AGLT",
+        "name": "Agility Robotics, Inc.",
+        "pct": -14.94
       },
       {
         "symbol": "TEAM",
         "name": "Atlassian Corporation",
-        "pct": -11.92
+        "pct": -13.8
+      },
+      {
+        "symbol": "BKD",
+        "name": "Brookdale Senior Living Inc.",
+        "pct": -13.0
       }
     ],
-    "universe": 1585
+    "universe": 1586
   }
 }
