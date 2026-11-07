@@ -1,0 +1,2457 @@
+{
+  "edition_date": "2026-11-07",
+  "edition_date_it": "7 novembre 2026",
+  "edition_date_en": "November 7, 2026",
+  "session_date": "2026-11-06",
+  "session_date_it": "6 novembre 2026",
+  "session_date_en": "November 6, 2026",
+  "edition_kind": "session",
+  "headline": "Seduta in prevalenza negativa a Wall Street: Coherent Corp. +13,58% guida i rialzi",
+  "headline_en": "Broadly negative session on Wall Street: Coherent Corp. +13.58% leads gainers",
+  "auto_report": {
+    "stats": {
+      "n_up": 184,
+      "n_down": 318,
+      "n_flat": 1,
+      "n_total": 503,
+      "avg_pct": -0.25,
+      "best_sectors": [
+        {
+          "sector": "Information Technology",
+          "avg_pct": 1.37
+        },
+        {
+          "sector": "Health Care",
+          "avg_pct": 0.02
+        },
+        {
+          "sector": "Communication Services",
+          "avg_pct": -0.05
+        }
+      ],
+      "worst_sectors": [
+        {
+          "sector": "Consumer Staples",
+          "avg_pct": -1.25
+        },
+        {
+          "sector": "Real Estate",
+          "avg_pct": -1.0
+        },
+        {
+          "sector": "Financials",
+          "avg_pct": -0.9
+        }
+      ]
+    },
+    "paragraphs": [
+      "Nella seduta del 6 novembre 2026 l'S&P 500 ha chiuso con 184 societa' in rialzo, 318 in ribasso e 1 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di -0,25%.",
+      "Settori con la variazione media migliore: Information Technology (+1,37%); Health Care (+0,02%); Communication Services (-0,05%). Settori piu' debolli: Consumer Staples (-1,25%); Real Estate (-1,00%); Financials (-0,90%).",
+      "In cima alla seduta: Coherent Corp. (COHR, +13,58%); Airbnb (ABNB, +11,67%); Advanced Micro Devices (AMD, +11,04%). In fondo: Axon Enterprise (AXON, -18,18%); Microchip Technology (MCHP, -10,02%); Charter Communications (CHTR, -6,19%)."
+    ],
+    "gainers": [
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "sector": "Information Technology",
+        "pct_change": 13.58,
+        "last_close": 192.81,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "ABNB",
+        "name": "Airbnb",
+        "sector": "Consumer Discretionary",
+        "pct_change": 11.67,
+        "last_close": 189.99,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices",
+        "sector": "Information Technology",
+        "pct_change": 11.04,
+        "last_close": 449.04,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "VST",
+        "name": "Vistra Corp.",
+        "sector": "Utilities",
+        "pct_change": 10.55,
+        "last_close": 124.8,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "APP",
+        "name": "AppLovin",
+        "sector": "Communication Services",
+        "pct_change": 9.86,
+        "last_close": 391.22,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "NRG",
+        "name": "NRG Energy",
+        "sector": "Utilities",
+        "pct_change": 9.61,
+        "last_close": 88.29,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "LRCX",
+        "name": "Lam Research",
+        "sector": "Information Technology",
+        "pct_change": 8.23,
+        "last_close": 200.44,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CRL",
+        "name": "Charles River Laboratories",
+        "sector": "Health Care",
+        "pct_change": 7.83,
+        "last_close": 337.52,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "INTC",
+        "name": "Intel",
+        "sector": "Information Technology",
+        "pct_change": 7.71,
+        "last_close": 56.28,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "ANET",
+        "name": "Arista Networks",
+        "sector": "Information Technology",
+        "pct_change": 7.31,
+        "last_close": 170.8,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "AXON",
+        "name": "Axon Enterprise",
+        "sector": "Industrials",
+        "pct_change": -18.18,
+        "last_close": 313.0,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "MCHP",
+        "name": "Microchip Technology",
+        "sector": "Information Technology",
+        "pct_change": -10.02,
+        "last_close": 58.35,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CHTR",
+        "name": "Charter Communications",
+        "sector": "Communication Services",
+        "pct_change": -6.19,
+        "last_close": 118.07,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "PODD",
+        "name": "Insulet Corporation",
+        "sector": "Health Care",
+        "pct_change": -6.16,
+        "last_close": 146.51,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "DXCM",
+        "name": "Dexcom",
+        "sector": "Health Care",
+        "pct_change": -5.98,
+        "last_close": 79.41,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "CNC",
+        "name": "Centene Corporation",
+        "sector": "Health Care",
+        "pct_change": -5.97,
+        "last_close": 69.74,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "DLTR",
+        "name": "Dollar Tree",
+        "sector": "Consumer Staples",
+        "pct_change": -4.93,
+        "last_close": 131.14,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "EXPE",
+        "name": "Expedia Group",
+        "sector": "Consumer Discretionary",
+        "pct_change": -4.86,
+        "last_close": 259.24,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "GDDY",
+        "name": "GoDaddy",
+        "sector": "Information Technology",
+        "pct_change": -4.78,
+        "last_close": 114.38,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "BKNG",
+        "name": "Booking Holdings",
+        "sector": "Consumer Discretionary",
+        "pct_change": -4.77,
+        "last_close": 160.66,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      }
+    ]
+  },
+  "auto_report_by_index": {
+    "sp500": {
+      "stats": {
+        "n_up": 184,
+        "n_down": 318,
+        "n_flat": 1,
+        "n_total": 503,
+        "avg_pct": -0.25,
+        "best_sectors": [
+          {
+            "sector": "Information Technology",
+            "avg_pct": 1.37
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": 0.02
+          },
+          {
+            "sector": "Communication Services",
+            "avg_pct": -0.05
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": -1.25
+          },
+          {
+            "sector": "Real Estate",
+            "avg_pct": -1.0
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": -0.9
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "COHR",
+          "name": "Coherent Corp.",
+          "sector": "Information Technology",
+          "pct_change": 13.58,
+          "last_close": 192.81,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ABNB",
+          "name": "Airbnb",
+          "sector": "Consumer Discretionary",
+          "pct_change": 11.67,
+          "last_close": 189.99,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices",
+          "sector": "Information Technology",
+          "pct_change": 11.04,
+          "last_close": 449.04,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "VST",
+          "name": "Vistra Corp.",
+          "sector": "Utilities",
+          "pct_change": 10.55,
+          "last_close": 124.8,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "APP",
+          "name": "AppLovin",
+          "sector": "Communication Services",
+          "pct_change": 9.86,
+          "last_close": 391.22,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NRG",
+          "name": "NRG Energy",
+          "sector": "Utilities",
+          "pct_change": 9.61,
+          "last_close": 88.29,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research",
+          "sector": "Information Technology",
+          "pct_change": 8.23,
+          "last_close": 200.44,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CRL",
+          "name": "Charles River Laboratories",
+          "sector": "Health Care",
+          "pct_change": 7.83,
+          "last_close": 337.52,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel",
+          "sector": "Information Technology",
+          "pct_change": 7.71,
+          "last_close": 56.28,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ANET",
+          "name": "Arista Networks",
+          "sector": "Information Technology",
+          "pct_change": 7.31,
+          "last_close": 170.8,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "AXON",
+          "name": "Axon Enterprise",
+          "sector": "Industrials",
+          "pct_change": -18.18,
+          "last_close": 313.0,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MCHP",
+          "name": "Microchip Technology",
+          "sector": "Information Technology",
+          "pct_change": -10.02,
+          "last_close": 58.35,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CHTR",
+          "name": "Charter Communications",
+          "sector": "Communication Services",
+          "pct_change": -6.19,
+          "last_close": 118.07,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PODD",
+          "name": "Insulet Corporation",
+          "sector": "Health Care",
+          "pct_change": -6.16,
+          "last_close": 146.51,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DXCM",
+          "name": "Dexcom",
+          "sector": "Health Care",
+          "pct_change": -5.98,
+          "last_close": 79.41,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CNC",
+          "name": "Centene Corporation",
+          "sector": "Health Care",
+          "pct_change": -5.97,
+          "last_close": 69.74,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DLTR",
+          "name": "Dollar Tree",
+          "sector": "Consumer Staples",
+          "pct_change": -4.93,
+          "last_close": 131.14,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EXPE",
+          "name": "Expedia Group",
+          "sector": "Consumer Discretionary",
+          "pct_change": -4.86,
+          "last_close": 259.24,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GDDY",
+          "name": "GoDaddy",
+          "sector": "Information Technology",
+          "pct_change": -4.78,
+          "last_close": 114.38,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BKNG",
+          "name": "Booking Holdings",
+          "sector": "Consumer Discretionary",
+          "pct_change": -4.77,
+          "last_close": 160.66,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the November 6, 2026 session the S&P 500 closed with 184 stocks higher, 318 lower and 1 unchanged, out of 503 tracked. The average move was -0.25%.",
+          "Best-performing sectors by average move: Information Technology (+1.37%); Health Care (+0.02%); Communication Services (-0.05%). Weakest: Consumer Staples (-1.25%); Real Estate (-1.00%); Financials (-0.90%).",
+          "Leading the session: Coherent Corp. (COHR, +13.58%); Airbnb (ABNB, +11.67%); Advanced Micro Devices (AMD, +11.04%). At the bottom: Axon Enterprise (AXON, -18.18%); Microchip Technology (MCHP, -10.02%); Charter Communications (CHTR, -6.19%)."
+        ],
+        "it": [
+          "Nella seduta del 6 novembre 2026 l'S&P 500 ha chiuso con 184 societa' in rialzo, 318 in ribasso e 1 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di -0,25%.",
+          "Settori con la variazione media migliore: Information Technology (+1,37%); Health Care (+0,02%); Communication Services (-0,05%). Settori piu' debolli: Consumer Staples (-1,25%); Real Estate (-1,00%); Financials (-0,90%).",
+          "In cima alla seduta: Coherent Corp. (COHR, +13,58%); Airbnb (ABNB, +11,67%); Advanced Micro Devices (AMD, +11,04%). In fondo: Axon Enterprise (AXON, -18,18%); Microchip Technology (MCHP, -10,02%); Charter Communications (CHTR, -6,19%)."
+        ]
+      }
+    },
+    "dow": {
+      "stats": {
+        "n_up": 8,
+        "n_down": 22,
+        "n_flat": 0,
+        "n_total": 30,
+        "avg_pct": -0.54,
+        "best_sectors": [
+          {
+            "sector": "Industrials",
+            "avg_pct": 0.5
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": 0.23
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": -0.86
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Consumer Discretionary",
+            "avg_pct": -1.3
+          },
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": -0.93
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": -0.91
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "NVDA",
+          "name": "Nvidia",
+          "sector": "Information Technology",
+          "pct_change": 2.78,
+          "last_close": 186.64,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HON",
+          "name": "Honeywell Technologies",
+          "sector": "Industrials",
+          "pct_change": 1.98,
+          "last_close": 220.05,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "JNJ",
+          "name": "Johnson & Johnson",
+          "sector": "Health Care",
+          "pct_change": 1.43,
+          "last_close": 276.22,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CAT",
+          "name": "Caterpillar Inc.",
+          "sector": "Industrials",
+          "pct_change": 0.9,
+          "last_close": 558.63,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc. (Class A)",
+          "sector": "Communication Services",
+          "pct_change": 0.78,
+          "last_close": 284.78,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BA",
+          "name": "Boeing",
+          "sector": "Industrials",
+          "pct_change": 0.52,
+          "last_close": 173.4,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMGN",
+          "name": "Amgen",
+          "sector": "Health Care",
+          "pct_change": 0.03,
+          "last_close": 460.42,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "V",
+          "name": "Visa Inc.",
+          "sector": "Financials",
+          "pct_change": 0.01,
+          "last_close": 422.65,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "KO",
+          "name": "Coca-Cola Company (The)",
+          "sector": "Consumer Staples",
+          "pct_change": -0.06,
+          "last_close": 95.67,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MRK",
+          "name": "Merck & Co.",
+          "sector": "Health Care",
+          "pct_change": -0.14,
+          "last_close": 146.73,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "CRM",
+          "name": "Salesforce",
+          "sector": "Information Technology",
+          "pct_change": -3.94,
+          "last_close": 213.65,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NKE",
+          "name": "Nike, Inc.",
+          "sector": "Consumer Discretionary",
+          "pct_change": -2.45,
+          "last_close": 38.59,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco",
+          "sector": "Information Technology",
+          "pct_change": -1.95,
+          "last_close": 93.85,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRV",
+          "name": "Travelers Companies (The)",
+          "sector": "Financials",
+          "pct_change": -1.91,
+          "last_close": 395.2,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "HD",
+          "name": "Home Depot (The)",
+          "sector": "Consumer Discretionary",
+          "pct_change": -1.85,
+          "last_close": 343.47,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "WMT",
+          "name": "Walmart",
+          "sector": "Consumer Staples",
+          "pct_change": -1.72,
+          "last_close": 125.52,
+          "indices": [
+            "sp500",
+            "dow",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SHW",
+          "name": "Sherwin-Williams",
+          "sector": "Materials",
+          "pct_change": -1.41,
+          "last_close": 344.1,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MMM",
+          "name": "3M",
+          "sector": "Industrials",
+          "pct_change": -1.4,
+          "last_close": 185.15,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AXP",
+          "name": "American Express",
+          "sector": "Financials",
+          "pct_change": -1.22,
+          "last_close": 320.99,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PG",
+          "name": "Procter & Gamble",
+          "sector": "Consumer Staples",
+          "pct_change": -1.02,
+          "last_close": 165.4,
+          "indices": [
+            "sp500",
+            "dow"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the November 6, 2026 session the Dow Jones closed with 8 stocks higher, 22 lower, out of 30 tracked. The average move was -0.54%.",
+          "Best-performing sectors by average move: Industrials (+0.50%); Health Care (+0.23%); Financials (-0.86%). Weakest: Consumer Discretionary (-1.30%); Consumer Staples (-0.93%); Information Technology (-0.91%).",
+          "Leading the session: Nvidia (NVDA, +2.78%); Honeywell Technologies (HON, +1.98%); Johnson & Johnson (JNJ, +1.43%). At the bottom: Salesforce (CRM, -3.94%); Nike, Inc. (NKE, -2.45%); Cisco (CSCO, -1.95%)."
+        ],
+        "it": [
+          "Nella seduta del 6 novembre 2026 il Dow Jones ha chiuso con 8 societa' in rialzo, 22 in ribasso, su 30 titoli monitorati. La variazione media dell'indice e' stata di -0,54%.",
+          "Settori con la variazione media migliore: Industrials (+0,50%); Health Care (+0,23%); Financials (-0,86%). Settori piu' debolli: Consumer Discretionary (-1,30%); Consumer Staples (-0,93%); Information Technology (-0,91%).",
+          "In cima alla seduta: Nvidia (NVDA, +2,78%); Honeywell Technologies (HON, +1,98%); Johnson & Johnson (JNJ, +1,43%). In fondo: Salesforce (CRM, -3,94%); Nike, Inc. (NKE, -2,45%); Cisco (CSCO, -1,95%)."
+        ]
+      }
+    },
+    "nasdaq100": {
+      "stats": {
+        "n_up": 47,
+        "n_down": 54,
+        "n_flat": 0,
+        "n_total": 101,
+        "avg_pct": 0.74,
+        "best_sectors": [
+          {
+            "sector": "Technology",
+            "avg_pct": 3.04
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": 1.5
+          },
+          {
+            "sector": "Communication Services",
+            "avg_pct": 1.04
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": -1.59
+          },
+          {
+            "sector": "Industrials",
+            "avg_pct": -1.16
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": -0.48
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "RKLB",
+          "name": "Rocket Lab",
+          "sector": "Industrials",
+          "pct_change": 15.39,
+          "last_close": 53.07,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ABNB",
+          "name": "Airbnb",
+          "sector": "Consumer Discretionary",
+          "pct_change": 11.67,
+          "last_close": 189.99,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices",
+          "sector": "Information Technology",
+          "pct_change": 11.04,
+          "last_close": 449.04,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "APP",
+          "name": "AppLovin",
+          "sector": "Communication Services",
+          "pct_change": 9.86,
+          "last_close": 391.22,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SPCX",
+          "name": "SpaceX",
+          "sector": "Telecommunications",
+          "pct_change": 8.62,
+          "last_close": 134.27,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research",
+          "sector": "Information Technology",
+          "pct_change": 8.23,
+          "last_close": 200.44,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel",
+          "sector": "Information Technology",
+          "pct_change": 7.71,
+          "last_close": 56.28,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NBIS",
+          "name": "Nebius Group",
+          "sector": "Technology",
+          "pct_change": 7.58,
+          "last_close": 129.49,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "KLAC",
+          "name": "KLA Corporation",
+          "sector": "Information Technology",
+          "pct_change": 6.69,
+          "last_close": 138.49,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CRWV",
+          "name": "CoreWeave",
+          "sector": "Technology",
+          "pct_change": 6.28,
+          "last_close": 46.4,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "AXON",
+          "name": "Axon Enterprise",
+          "sector": "Industrials",
+          "pct_change": -18.18,
+          "last_close": 313.0,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MCHP",
+          "name": "Microchip Technology",
+          "sector": "Information Technology",
+          "pct_change": -10.02,
+          "last_close": 58.35,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DXCM",
+          "name": "Dexcom",
+          "sector": "Health Care",
+          "pct_change": -5.98,
+          "last_close": 79.41,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BKNG",
+          "name": "Booking Holdings",
+          "sector": "Consumer Discretionary",
+          "pct_change": -4.77,
+          "last_close": 160.66,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TRI",
+          "name": "Thomson Reuters",
+          "sector": "Technology",
+          "pct_change": -4.69,
+          "last_close": 112.57,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MNST",
+          "name": "Monster Beverage",
+          "sector": "Consumer Staples",
+          "pct_change": -4.41,
+          "last_close": 45.72,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INTU",
+          "name": "Intuit",
+          "sector": "Information Technology",
+          "pct_change": -3.76,
+          "last_close": 341.5,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "WDAY",
+          "name": "Workday, Inc.",
+          "sector": "Information Technology",
+          "pct_change": -3.63,
+          "last_close": 192.9,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ISRG",
+          "name": "Intuitive Surgical",
+          "sector": "Health Care",
+          "pct_change": -3.36,
+          "last_close": 452.8,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CSX",
+          "name": "CSX Corporation",
+          "sector": "Industrials",
+          "pct_change": -3.36,
+          "last_close": 49.12,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the November 6, 2026 session the Nasdaq-100 closed with 47 stocks higher, 54 lower, out of 101 tracked. The average move was +0.74%.",
+          "Best-performing sectors by average move: Technology (+3.04%); Information Technology (+1.50%); Communication Services (+1.04%). Weakest: Consumer Staples (-1.59%); Industrials (-1.16%); Health Care (-0.48%).",
+          "Leading the session: Rocket Lab (RKLB, +15.39%); Airbnb (ABNB, +11.67%); Advanced Micro Devices (AMD, +11.04%). At the bottom: Axon Enterprise (AXON, -18.18%); Microchip Technology (MCHP, -10.02%); Dexcom (DXCM, -5.98%)."
+        ],
+        "it": [
+          "Nella seduta del 6 novembre 2026 il Nasdaq-100 ha chiuso con 47 societa' in rialzo, 54 in ribasso, su 101 titoli monitorati. La variazione media dell'indice e' stata di +0,74%.",
+          "Settori con la variazione media migliore: Technology (+3,04%); Information Technology (+1,50%); Communication Services (+1,04%). Settori piu' debolli: Consumer Staples (-1,59%); Industrials (-1,16%); Health Care (-0,48%).",
+          "In cima alla seduta: Rocket Lab (RKLB, +15,39%); Airbnb (ABNB, +11,67%); Advanced Micro Devices (AMD, +11,04%). In fondo: Axon Enterprise (AXON, -18,18%); Microchip Technology (MCHP, -10,02%); Dexcom (DXCM, -5,98%)."
+        ]
+      }
+    },
+    "ftsemib": {
+      "stats": {
+        "n_up": 12,
+        "n_down": 27,
+        "n_flat": 1,
+        "n_total": 40,
+        "avg_pct": -0.65,
+        "best_sectors": [
+          {
+            "sector": "Energy",
+            "avg_pct": 0.06
+          },
+          {
+            "sector": "Utilities",
+            "avg_pct": -0.57
+          },
+          {
+            "sector": "Financial Services",
+            "avg_pct": -1.02
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Banks",
+            "avg_pct": -1.38
+          },
+          {
+            "sector": "Industrial Goods and Services",
+            "avg_pct": -1.37
+          },
+          {
+            "sector": "Financial Services",
+            "avg_pct": -1.02
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "TEN.MI",
+          "name": "Tenaris",
+          "sector": "Energy",
+          "pct_change": 3.26,
+          "last_close": 26.64,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BZU.MI",
+          "name": "Buzzi",
+          "sector": "Construction and Materials",
+          "pct_change": 1.75,
+          "last_close": 42.39,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMP.MI",
+          "name": "Amplifon",
+          "sector": "Health Care",
+          "pct_change": 1.7,
+          "last_close": 12.29,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STMMI.MI",
+          "name": "STMicroelectronics",
+          "sector": "Technology",
+          "pct_change": 1.44,
+          "last_close": 37.63,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STLAM.MI",
+          "name": "Stellantis",
+          "sector": "Automobiles and Parts",
+          "pct_change": 1.26,
+          "last_close": 4.02,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TPRO.MI",
+          "name": "Technoprobe",
+          "sector": "Technology",
+          "pct_change": 1.07,
+          "last_close": 20.74,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PRY.MI",
+          "name": "Prysmian",
+          "sector": "Industrial Goods and Services",
+          "pct_change": 0.8,
+          "last_close": 101.0,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "REC.MI",
+          "name": "Recordati",
+          "sector": "Health Care",
+          "pct_change": 0.38,
+          "last_close": 53.25,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LTMC.MI",
+          "name": "Lottomatica Group",
+          "sector": "Gambling",
+          "pct_change": 0.29,
+          "last_close": 27.57,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INW.MI",
+          "name": "INWIT",
+          "sector": "Telecommunications",
+          "pct_change": 0.21,
+          "last_close": 7.3,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "NEXI.MI",
+          "name": "Nexi",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -3.68,
+          "last_close": 4.5,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BAMI.MI",
+          "name": "Banco BPM",
+          "sector": "Banks",
+          "pct_change": -3.2,
+          "last_close": 13.45,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BPE.MI",
+          "name": "BPER Banca",
+          "sector": "Banks",
+          "pct_change": -2.71,
+          "last_close": 12.91,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LDO.MI",
+          "name": "Leonardo",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -2.59,
+          "last_close": 48.07,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNI.MI",
+          "name": "Unipol",
+          "sector": "Insurance",
+          "pct_change": -2.24,
+          "last_close": 25.27,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AVIO.MI",
+          "name": "Avio",
+          "sector": "Aerospace",
+          "pct_change": -2.03,
+          "last_close": 28.92,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "G.MI",
+          "name": "Generali",
+          "sector": "Insurance",
+          "pct_change": -1.86,
+          "last_close": 43.73,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FCT.MI",
+          "name": "Fincantieri",
+          "sector": "Shipbuilding",
+          "pct_change": -1.68,
+          "last_close": 11.69,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CPR.MI",
+          "name": "Campari",
+          "sector": "Food, Beverage and Tobacco",
+          "pct_change": -1.63,
+          "last_close": 6.64,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FBK.MI",
+          "name": "FinecoBank",
+          "sector": "Banks",
+          "pct_change": -1.54,
+          "last_close": 22.38,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the November 6, 2026 session the FTSE MIB closed with 12 stocks higher, 27 lower and 1 unchanged, out of 40 tracked. The average move was -0.65%.",
+          "Best-performing sectors by average move: Energy (+0.06%); Utilities (-0.57%); Financial Services (-1.02%). Weakest: Banks (-1.38%); Industrial Goods and Services (-1.37%); Financial Services (-1.02%).",
+          "Leading the session: Tenaris (TEN.MI, +3.26%); Buzzi (BZU.MI, +1.75%); Amplifon (AMP.MI, +1.70%). At the bottom: Nexi (NEXI.MI, -3.68%); Banco BPM (BAMI.MI, -3.20%); BPER Banca (BPE.MI, -2.71%)."
+        ],
+        "it": [
+          "Nella seduta del 6 novembre 2026 il FTSE MIB ha chiuso con 12 societa' in rialzo, 27 in ribasso e 1 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di -0,65%.",
+          "Settori con la variazione media migliore: Energy (+0,06%); Utilities (-0,57%); Financial Services (-1,02%). Settori piu' debolli: Banks (-1,38%); Industrial Goods and Services (-1,37%); Financial Services (-1,02%).",
+          "In cima alla seduta: Tenaris (TEN.MI, +3,26%); Buzzi (BZU.MI, +1,75%); Amplifon (AMP.MI, +1,70%). In fondo: Nexi (NEXI.MI, -3,68%); Banco BPM (BAMI.MI, -3,20%); BPER Banca (BPE.MI, -2,71%)."
+        ]
+      }
+    },
+    "combined": {
+      "stats": {
+        "n_up": 192,
+        "n_down": 325,
+        "n_flat": 1,
+        "n_total": 518,
+        "avg_pct": -0.15,
+        "best_sectors": [
+          {
+            "sector": "Technology",
+            "avg_pct": 3.04
+          },
+          {
+            "sector": "Information Technology",
+            "avg_pct": 1.37
+          },
+          {
+            "sector": "Health Care",
+            "avg_pct": 0.02
+          }
+        ],
+        "worst_sectors": [
+          {
+            "sector": "Consumer Staples",
+            "avg_pct": -1.24
+          },
+          {
+            "sector": "Real Estate",
+            "avg_pct": -1.0
+          },
+          {
+            "sector": "Financials",
+            "avg_pct": -0.9
+          }
+        ]
+      },
+      "gainers": [
+        {
+          "symbol": "RKLB",
+          "name": "Rocket Lab",
+          "sector": "Industrials",
+          "pct_change": 15.39,
+          "last_close": 53.07,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "COHR",
+          "name": "Coherent Corp.",
+          "sector": "Information Technology",
+          "pct_change": 13.58,
+          "last_close": 192.81,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ABNB",
+          "name": "Airbnb",
+          "sector": "Consumer Discretionary",
+          "pct_change": 11.67,
+          "last_close": 189.99,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices",
+          "sector": "Information Technology",
+          "pct_change": 11.04,
+          "last_close": 449.04,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "VST",
+          "name": "Vistra Corp.",
+          "sector": "Utilities",
+          "pct_change": 10.55,
+          "last_close": 124.8,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "APP",
+          "name": "AppLovin",
+          "sector": "Communication Services",
+          "pct_change": 9.86,
+          "last_close": 391.22,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "NRG",
+          "name": "NRG Energy",
+          "sector": "Utilities",
+          "pct_change": 9.61,
+          "last_close": 88.29,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SPCX",
+          "name": "SpaceX",
+          "sector": "Telecommunications",
+          "pct_change": 8.62,
+          "last_close": 134.27,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research",
+          "sector": "Information Technology",
+          "pct_change": 8.23,
+          "last_close": 200.44,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CRL",
+          "name": "Charles River Laboratories",
+          "sector": "Health Care",
+          "pct_change": 7.83,
+          "last_close": 337.52,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "AXON",
+          "name": "Axon Enterprise",
+          "sector": "Industrials",
+          "pct_change": -18.18,
+          "last_close": 313.0,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "MCHP",
+          "name": "Microchip Technology",
+          "sector": "Information Technology",
+          "pct_change": -10.02,
+          "last_close": 58.35,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CHTR",
+          "name": "Charter Communications",
+          "sector": "Communication Services",
+          "pct_change": -6.19,
+          "last_close": 118.07,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PODD",
+          "name": "Insulet Corporation",
+          "sector": "Health Care",
+          "pct_change": -6.16,
+          "last_close": 146.51,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DXCM",
+          "name": "Dexcom",
+          "sector": "Health Care",
+          "pct_change": -5.98,
+          "last_close": 79.41,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CNC",
+          "name": "Centene Corporation",
+          "sector": "Health Care",
+          "pct_change": -5.97,
+          "last_close": 69.74,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "DLTR",
+          "name": "Dollar Tree",
+          "sector": "Consumer Staples",
+          "pct_change": -4.93,
+          "last_close": 131.14,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "EXPE",
+          "name": "Expedia Group",
+          "sector": "Consumer Discretionary",
+          "pct_change": -4.86,
+          "last_close": 259.24,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "GDDY",
+          "name": "GoDaddy",
+          "sector": "Information Technology",
+          "pct_change": -4.78,
+          "last_close": 114.38,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BKNG",
+          "name": "Booking Holdings",
+          "sector": "Consumer Discretionary",
+          "pct_change": -4.77,
+          "last_close": 160.66,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "paragraphs": {
+        "en": [
+          "In the November 6, 2026 session the combined three U.S. indices closed with 192 stocks higher, 325 lower and 1 unchanged, out of 518 tracked. The average move was -0.15%.",
+          "Best-performing sectors by average move: Technology (+3.04%); Information Technology (+1.37%); Health Care (+0.02%). Weakest: Consumer Staples (-1.24%); Real Estate (-1.00%); Financials (-0.90%).",
+          "Leading the session: Rocket Lab (RKLB, +15.39%); Coherent Corp. (COHR, +13.58%); Airbnb (ABNB, +11.67%). At the bottom: Axon Enterprise (AXON, -18.18%); Microchip Technology (MCHP, -10.02%); Charter Communications (CHTR, -6.19%)."
+        ],
+        "it": [
+          "Nella seduta del 6 novembre 2026 l'insieme dei tre indici USA ha chiuso con 192 societa' in rialzo, 325 in ribasso e 1 invariate, su 518 titoli monitorati. La variazione media dell'indice e' stata di -0,15%.",
+          "Settori con la variazione media migliore: Technology (+3,04%); Information Technology (+1,37%); Health Care (+0,02%). Settori piu' debolli: Consumer Staples (-1,24%); Real Estate (-1,00%); Financials (-0,90%).",
+          "In cima alla seduta: Rocket Lab (RKLB, +15,39%); Coherent Corp. (COHR, +13,58%); Airbnb (ABNB, +11,67%). In fondo: Axon Enterprise (AXON, -18,18%); Microchip Technology (MCHP, -10,02%); Charter Communications (CHTR, -6,19%)."
+        ]
+      }
+    }
+  },
+  "manual_commentary_html": "<p>Wall Street ha affrontato una netta inversione il 6 novembre 2026, mentre il mercato assorbiva quello che il Wall Street Journal ha definito un reality check da 2,5 trilioni di dollari sull&#x27;intelligenza artificiale con un crollo storico dei titoli tecnologici. Secondo Bloomberg.com, il crollo post-elezioni ha ribaltato lo script di Wall Street, con i rialzisti che hanno offerto un certo supporto per interrompere il più ampio declino del mercato. I rendimenti dei Treasury sono saliti su dati occupazionali forti, secondo il Wall Street Journal, mentre i futures sul petrolio sono scesi poiché il mercato manteneva speranze di diplomazia in Medio Oriente. La seduta ha riflesso una pressione crescente sui titoli azionari mentre gli investitori rivalutavano le valutazioni e le aspettative di crescita nei vari settori.</p><p>Il Nasdaq-100 ha sovraperformato nella giornata, salendo in media dello 0,74 percento nonostante la debolezza diffusa altrove, con i rialzisti guidati da Rocket Lab in aumento del 15,39 percento, Coherent Corp. in aumento del 13,58 percento, Airbnb in aumento dell&#x27;11,67 percento e Advanced Micro Devices in aumento dell&#x27;11,04 percento. Vistra Corp. ha guadagnato il 10,55 percento, AppLovin è salito del 9,86 percento, NRG Energy è salito del 9,61 percento, SpaceX è avanzato dell&#x27;8,62 percento, Lam Research ha aggiunto l&#x27;8,23 percento e Charles River Laboratories ha guadagnato il 7,83 percento. I media tracciati non hanno segnalato catalizzatori aziendali specifici per questi movimenti. In particolare, Elon Musk ha affermato che le vendite di SpaceX stanno esplodendo e ha previsto ricavi il doppio della stima di Wall Street, secondo Barron&#x27;s.</p><p>Il mercato più ampio si è deteriorato bruscamente, con l&#x27;S&amp;P 500 in calo dello 0,25 percento in media e il Dow Jones in calo dello 0,54 percento mentre 325 titoli sono scesi rispetto ai 192 che sono saliti nel campione di 518 titoli. I ribassi sono stati guidati da Axon Enterprise in calo del 18,18 percento, Microchip Technology in calo del 10,02 percento, Charter Communications in calo del 6,19 percento, Insulet Corporation in calo del 6,16 percento e Dexcom in calo del 5,98 percento. Centene Corporation è scesa del 5,97 percento, Dollar Tree è diminuito del 4,93 percento, Expedia Group è sceso del 4,86 percento, GoDaddy è sceso del 4,78 percento e Booking Holdings ha perso il 4,77 percento. I media tracciati non hanno segnalato catalizzatori aziendali specifici per questi ribassi. La debolezza settoriale è stata concentrata nei Beni di Consumo Essenziali, scesi in media dell&#x27;1,24 percento, Real Estate in calo dell&#x27;1,0 percento e Finanziari in calo dello 0,9 percento, mentre Tecnologia e Tecnologia dell&#x27;Informazione hanno guidato i rialzisti con movimenti medi rispettivamente del 3,04 e dell&#x27;1,37 percento.</p>",
+  "manual_commentary_html_en": "<p>Wall Street faced a sharp reversal on November 6, 2026, as the market absorbed what the Wall Street Journal termed a $2.5 trillion AI reality check with a historic rout of tech stocks. According to Bloomberg.com, the post-election rout flipped Wall Street&#x27;s script, with dip buyers offering some support to pause the broader stock decline. Treasury yields rose on strong jobs data, according to the Wall Street Journal, while oil futures slid as the market held out hopes for Middle East diplomacy. The session reflected mounting pressure on equities as investors reassessed valuations and growth expectations across sectors.</p><p>The Nasdaq-100 outperformed on the day, rising 0.74 percent on average despite broad weakness elsewhere, with gainers led by Rocket Lab up 15.39 percent, Coherent Corp. up 13.58 percent, Airbnb up 11.67 percent, and Advanced Micro Devices up 11.04 percent. Vistra Corp. gained 10.55 percent, AppLovin rose 9.86 percent, NRG Energy climbed 9.61 percent, SpaceX advanced 8.62 percent, Lam Research added 8.23 percent, and Charles River Laboratories gained 7.83 percent. Tracked outlets reported no specific company catalysts for these moves. Notably, Elon Musk said SpaceX sales are exploding and forecasted revenue twice Wall Street&#x27;s estimate, according to Barron&#x27;s.</p><p>The broader market deteriorated sharply, with the S&amp;P 500 declining 0.25 percent on average and the Dow Jones falling 0.54 percent as 325 stocks fell against 192 that rose across the 518-stock sample. Losers were led by Axon Enterprise down 18.18 percent, Microchip Technology down 10.02 percent, Charter Communications down 6.19 percent, Insulet Corporation down 6.16 percent, and Dexcom down 5.98 percent. Centene Corporation fell 5.97 percent, Dollar Tree declined 4.93 percent, Expedia Group dropped 4.86 percent, GoDaddy fell 4.78 percent, and Booking Holdings lost 4.77 percent. Tracked outlets reported no specific company catalysts for these declines. Sector weakness was concentrated in Consumer Staples, which fell 1.24 percent on average, Real Estate down 1.0 percent, and Financials down 0.9 percent, while Technology and Information Technology led gainers with average moves of 3.04 and 1.37 percent respectively.</p>",
+  "manual_highlights": [],
+  "feed": [
+    {
+      "title": "Paraguay’s President Removed and Arrested Over Financial Crisis",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 07 Nov 2026 00:52:56 +0000",
+      "link": "https://www.nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html",
+      "summary": "Santiago Peña was impeached, removed from office and placed under house arrest after a bank with close ties to his administration went under.",
+      "image": "https://static01.nyt.com/images/2026/11/06/multimedia/06int-Paraguay-WTK-glwt/06int-Paraguay-WTK-glwt-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Google executive Donald Harrison resigns from SpaceX board",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 23:53:13 GMT",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaFBQUUZob254UUQxOGhmLUd6Vm1xNThSU2RNTXVib3Rja0R3OVdMbkR4MjR0UDY4ZWRUMkZab1JaZmVaZmllSW96SkR1WmVFb1dXblU4dDg1Y05mUDlPUmlpTlI3VjBxcFpFbVIweUNhRlNxeE5ZLU93VDJzVmE4Y3c5VTByV1poaVFfRG5CUy0wNWlFeUZ6bnA3bmZhek1VOENqdWFyQ0poUzIxU016SUN3?oc=5",
+      "summary": "Google executive Donald Harrison resigns from SpaceX board &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "The Corner Store Brings Its New York Experience to the Las Vegas Strip",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 23:49:39 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-06/the-corner-store-brings-nyc-experience-to-vegas-strip-video",
+      "summary": "Catch Hospitality Group is opening a Las Vegas location of The Corner Store at the Cosmopolitan. Co-Founder and Partner Eugene Remm says the 150-seat restaurant will preserve the intimacy and authentic SoHo experience of its 75-seat New York original, rather than offer a Vegas-sp",
+      "image": null
+    },
+    {
+      "title": "A Berkshire Hathaway Electric Utility Wants a Historic Rate Hike in California",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 23:33:00 GMT",
+      "link": "https://www.wsj.com/business/energy-oil/a-berkshire-hathaway-electric-utility-wants-a-historic-rate-hike-in-california-b7a0cc70?mod=rss_markets_main",
+      "summary": "Pacific Power is asking state regulators to approve a 57% rate increase that would boost the typical residential power bill by $120 a month.",
+      "image": "https://images.wsj.net/im-51334176"
+    },
+    {
+      "title": "Elanco Shares Jump After Q3 Beat and Outlook Raise",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 23:30:58 GMT",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-06/elanco-shares-jump-after-q3-beat-and-outlook-raise-video",
+      "summary": "Elanco Animal Health shares rose nearly 8% after the company reported third-quarter earnings above expectations and raised its full-year outlook. Jeff Simmons, Elanco’s President and CEO, called it a high-quality quarter, citing 11% reported growth and broad strength across marke",
+      "image": null
+    },
+    {
+      "title": "Today’s Wordle #1967 Hints, Clues And Answer For Saturday November 7",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 18:30:49 -0500",
+      "link": "https://www.forbes.com/sites/erikkain/2026/11/06/wordle-hints-clues-answer-saturday-november-7/",
+      "summary": "Looking for help with today's New York Times Wordle? Here are some expert hints, clues and commentary to help you solve today's Wordle and sharpen your guessing game.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/654ac7d9543b3152d167c85e/0x0.jpg?width=960"
+    },
+    {
+      "title": "The Wild Week That Brought AI Investors to the Brink",
+      "source": "The Wall Street Journal",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 23:29:00 GMT",
+      "link": "https://www.wsj.com/finance/stocks/midterms-markets-week-ai-trade-97b3fc5d?mod=rss_markets_main",
+      "summary": "Democrats’ victories supercharged anxieties that had been building for weeks. Systematic trades amplified losses.",
+      "image": "https://images.wsj.net/im-32310044"
+    },
+    {
+      "title": "Outside AI Agents Aren’t Slowing Google And Amazon Ads. Their Own Are.",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 18:20:10 -0500",
+      "link": "https://www.forbes.com/sites/jasongoldberg/2026/11/06/outside-ai-agents-arent-slowing-google-and-amazon-ads-their-own-are/",
+      "summary": "Google and Amazon ad growth slowed, but outside AI agents aren’t the cause. The drag comes from their own AI assistants, which they haven’t fully monetized yet.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6aee5f5912cb0c4aad0bd283/0x0.jpg"
+    },
+    {
+      "title": "US warns China it must ‘immediately’ meet terms of Busan trade deal",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 22:53:51 GMT",
+      "link": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603?syn-25a6b1a6=1",
+      "summary": "Washington says Beijing is not fulfilling commitments to increase supply of rare earths and other critical products",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb9a6dc5c-b18f-4c9f-88a7-7d19051d5618.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Fri, 06 Nov 2026 22:53:46 +0000",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024"
+    },
+    {
+      "title": "The Cybertruck’s Death Is Actually Great News for EVs",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Fri, 06 Nov 2026 22:31:15 +0000",
+      "link": "https://www.wired.com/story/cybertrucks-death-great-news-for-evs/",
+      "summary": "Tesla’s massive EV is the second within the last year to get the ax, while smaller vehicles are proliferating. It could be a huge benefit for the US battery supply chain.",
+      "image": "https://media.wired.com/photos/6aee2f4e65a8d4362bf27531/master/pass/GettyImages-2150577028.jpg"
+    },
+    {
+      "title": "Strong Hiring Reinforces a Sturdy Job Market",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 22:29:37 +0000",
+      "link": "https://www.nytimes.com/2026/11/06/business/economy/economy-jobs-unemployment.html",
+      "summary": "Unemployment fell in October, extending years of stability for a U.S. work force threatened by inflation and artificial intelligence.",
+      "image": "https://static01.nyt.com/images/2026/11/06/multimedia/2026-11-06-jobs-promo-index/2026-11-06-jobs-promo-index-mediumSquareAt3X.png"
+    },
+    {
+      "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 22:25:58 GMT",
+      "link": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
+      "summary": "Voters across the country on Tuesday voiced their support for candidates who have pledged to place restrictions on data center development.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108533388-1793982421515-Screenshot-2026-11-06-at-112616_AM.jpg?v=1793982500&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Trump says Stephen Miller to replace Susie Wiles as White House chief of staff",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 22:22:53 GMT",
+      "link": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html",
+      "summary": "Trump revealed the shake-up three days after Democrats' landslide victory in the midterm elections, winning majority control of the House and Senate.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108534081-1793991585370-108534081-1793991494952-gettyimages-2296597797-_s012196_0xrqwhiw.jpg?v=1793991693&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "US economy outstrips forecasts to add 165,000 jobs in October",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 22:16:13 GMT",
+      "link": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
+      "summary": "Hiring rebound reinforces expectations Federal Reserve will raise interest rates",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F7e07bd53-3e24-426e-8418-ec9d7211903d.png?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Fri, 06 Nov 2026 22:00:15 +0000",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+    },
+    {
+      "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 21:45:00 GMT",
+      "link": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
+      "summary": "“Sometimes I wonder whether wealthier Americans should trade places with people like me.”",
+      "image": "https://images.mktw.net/im-91335118"
+    },
+    {
+      "title": "Elon Musk opens the door for a big SpaceX acquisition",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 21:45:00 GMT",
+      "link": "https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories",
+      "summary": "The rocket and satellite-internet company is looking to challenge telecom giants.",
+      "image": "https://images.mktw.net/im-63491767"
+    },
+    {
+      "title": "The Duo apps are coming, says Apple",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Fri, 06 Nov 2026 21:38:05 +0000",
+      "link": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
+      "summary": "There are now 100,000 Duo-optimized apps, says Apple, and thousands more arrive daily.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/iPhone-duo.jpeg?resize=1200,675"
+    },
+    {
+      "title": "Elon Musk Says SpaceX Sales Are ‘Exploding’—and Forecasts Revenue Twice Wall Street’s Estimate",
+      "source": "Barron's",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 21:34:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUmNBOVZudDlZREhxOTBldFJEbEI4Wlg4M3ZSdGlPSlNPa25YZDE5UXVoWl9nWU16V3htR2hBcmU3ZVBZaENHbF9QdDcyZFZoVHhpeDFMUll3bURFaUFPd1pIZDlxNjJtZG94WEpCLXpDeFVSdktVZGxrTnJiOTBObzNETDE?oc=5",
+      "summary": "Elon Musk Says SpaceX Sales Are ‘Exploding’—and Forecasts Revenue Twice Wall Street’s Estimate &nbsp;&nbsp; Barron's",
+      "image": null
+    },
+    {
+      "title": "How Stephen Miller Schemed His Way to the Top",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Fri, 06 Nov 2026 21:10:02 +0000",
+      "link": "https://www.wired.com/story/how-stephen-miller-schemed-his-way-to-the-top/",
+      "summary": "The architect of the Trump administration’s brutal crackdowns on immigration and dissent was already known as “the prime minister.” Now he’ll work as the chief of staff.",
+      "image": "https://media.wired.com/photos/6aee33acd48df2adb8635683/master/pass/GettyImages-2289377528.jpg"
+    },
+    {
+      "title": "Treasury Cuts Crypto Exchange MEXC Off From US Financial System",
+      "source": "Decrypt",
+      "category": "crypto",
+      "published": "Fri, 06 Nov 2026 21:06:03 +0000",
+      "link": "https://decrypt.co/382758/treasury-cuts-off-crypto-exchange-mexc-us-financial-system",
+      "summary": "FinCEN’s order, part of Operation Economic Outcast, bars U.S. institutions from any transfers to or from MEXC, which Treasury says facilitated $16 billion in illicit finance tied to Iran, North Korea and Russia.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/scott-bessent-decrypt-style-1-gID_7.jpg"
+    },
+    {
+      "title": "US Treasury cuts off MEXC over alleged $16B in illicit transactions",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Fri, 06 Nov 2026 21:05:25 +0000",
+      "link": "https://cointelegraph.com/news/us-treasury-bans-mexc-over-alleged-16b-illicit-transactions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "The US Treasury bureau FinCEN on Friday ordered US financial institutions to stop processing transfers involving MEXC Global.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6SANJYQTNY4SS6GASXKN37C/hi-cover-imagereview-of-mexc.png"
+    },
+    {
+      "title": "Treasury cuts off MEXC Global over alleged $16 billion in transactions linked to Iran, North Korea and Russia",
+      "source": "The Block",
+      "category": "crypto",
+      "published": "Fri, 06 Nov 2026 21:02:30 +0000",
+      "link": "https://www.theblock.co/news/regulation/2026-11-06-treasury-cuts-off-mexc-global-over-alleged-16-billion-in-transactions-linked-to-iran-north-korea-and-russia-435957",
+      "summary": "Treasury says it has severed MEXC Global from the U.S. after it allegedly supported $16 billion in transactions connected to Iran.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2025/06/cropped-6.jpg"
+    },
+    {
+      "title": "Le sanzioni del Tesoro Usa a MEXC: 16 miliardi di transazioni illecite contestate",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Fri, 06 Nov 2026 20:53:10 +0000",
+      "link": "https://cryptonomist.ch/2026/11/06/sanzioni-us-treasury-a-mexc/",
+      "summary": "Il Dipartimento del Tesoro degli Stati Uniti ha imposto il 6 novembre 2026 le sanzioni a MEXC Global, tagliando l&#8217;exchange dal sistema finanziario americano. L&#8217;ordine è stato emesso dalla Financial Crimes Enforcement Network (FinCEN), l&#8217;unità antiriciclaggio del",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2026/11/us-treasury-sanctions-mexc-1.webp"
+    },
+    {
+      "title": "I migliori gateway di pagamento in criptovaluta nel 2026: caratteristiche, commissioni e confronto per le aziende",
+      "source": "The Cryptonomist",
+      "category": "crypto",
+      "published": "Fri, 06 Nov 2026 20:44:09 +0000",
+      "link": "https://cryptonomist.ch/2026/11/06/i-migliori-gateway-di-pagamento-in-criptovaluta-nel-2026-caratteristiche-commissioni-e-confronto-per-le-aziende/",
+      "summary": "I pagamenti in criptovaluta hanno superato la fase di adozione iniziale e stanno diventando un’opzione pratica per le aziende che cercano regolamenti più rapidi, accesso ai pagamenti globali e alternative alle infrastrutture finanziarie tradizionali. Nel 2026, le imprese possono ",
+      "image": "https://cryptonomist.ch/wp-content/uploads/2024/12/Top-Crypto-Payment-Cards.jpg"
+    },
+    {
+      "title": "Copernicus: 'Il mese di ottobre è stato il più caldo mai registrato'",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Fri, 6 Nov 2026 21:43:00 +0100",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/11/06/copernicus-il-mese-di-ottobre-2026-e-stato-il-piu-caldo-mai-registrato_6bcacc14-ee82-44d1-a5f1-9a609d8d83a8.html",
+      "summary": "Il 2026 sforerà il limite di riscaldamento di 1,5°C dell'Accordo di Parigi",
+      "image": null
+    },
+    {
+      "title": "US Treasury walks back crypto surveillance ‘travel rule’ proposal",
+      "source": "The Block",
+      "category": "crypto",
+      "published": "Fri, 06 Nov 2026 20:37:34 +0000",
+      "link": "https://www.theblock.co/news/regulation/2026-11-06-us-treasury-walks-back-crypto-surveillance-travel-rule-proposal-435951",
+      "summary": "The Treasury Department has withdrawn a controversial proposal that would have expanded requirements for cryptocurrency transactions.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2020/02/department-of-treasury-3-getty.jpg"
+    },
+    {
+      "title": "Greece Passes Crypto Tax Law With 10% Gains Levy, 15% on Staking and DeFi",
+      "source": "Decrypt",
+      "category": "crypto",
+      "published": "Fri, 06 Nov 2026 20:36:03 +0000",
+      "link": "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi",
+      "summary": "Greece has approved a crypto tax framework with a €500 ($557) annual gains threshold and new rules for staking and DeFi income, but lawmakers left important questions about token swaps unresolved.",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-decrypt-style-23-gID_7.jpg"
+    },
+    {
+      "title": "Why Micron’s Stock Valuation Now Looks Ridiculous",
+      "source": "Barron's",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 20:21:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA3SXFvMHBHQVZoMzhpclNLb1JBUGsxYUgwV2ZyMnR2a0ttMkpkTXlBX0M2WlZ2OEEwT0JoNzl0Y0NiUE84MzdiT0dfdnJTRXJDRDdCbDNVZThjdmpoajN2bmF0Y3FGMmI0elRISjlzVE9BejNw?oc=5",
+      "summary": "Why Micron’s Stock Valuation Now Looks Ridiculous &nbsp;&nbsp; Barron's",
+      "image": null
+    },
+    {
+      "title": "Il petrolio chiude in rialzo a New York a 90,83 dollari",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Fri, 6 Nov 2026 20:51:27 +0100",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/11/06/il-petrolio-chiude-in-rialzo-a-new-york-a-9083-dollari_0cee4155-4cca-4a96-a5ca-48ee942124da.html",
+      "summary": "Quotazioni salgono dello 0,34%",
+      "image": null
+    },
+    {
+      "title": "AkzoNobel , Axalta gain conditional EU antitrust approval for $25 billion merger",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 17:23:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQzVyd3BtbUhJY3lURVpiNmlOQlhnVzZhaERiMXRhdzZYVFpsSFNsbUozZ1o4bUxDR3R3WmdIS2dBd1hwa282RUJBNXZfamhOMnlHUmtBams5bUl1WnEwazFaQWdFajM5RmpuemNHeHhBZlFxSUFmMW5GbGdTV1Ezei1VQmVteDRIaE12UEtIS2pWVm9nRHY5TnZiS2JPall1LUVvRTF4dlZWNlpKQnozVkY2QUtQZ3VWakE?oc=5",
+      "summary": "AkzoNobel , Axalta gain conditional EU antitrust approval for $25 billion merger &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "Consob, nuove regole per quotazioni e Opa: prospetto esente fino a 12 milioni",
+      "source": "Wall Street Italia",
+      "category": "italia",
+      "published": "Fri, 06 Nov 2026 16:52:28 +0000",
+      "link": "https://www.wallstreetitalia.com/consob-nuove-regole-per-quotazioni-e-opa-prospetto-esente-fino-a-12-milioni/",
+      "summary": "undefined",
+      "image": null
+    },
+    {
+      "title": "Grandi patrimoni, i clienti chiedono più servizi: la nuova sfida per i private banker",
+      "source": "Wall Street Italia",
+      "category": "italia",
+      "published": "Fri, 06 Nov 2026 15:52:15 +0000",
+      "link": "https://www.wallstreetitalia.com/grandi-patrimoni-i-clienti-chiedono-piu-servizi-la-nuova-sfida-per-i-private-banker/",
+      "summary": "Pianificazione fiscale, successioni e mercati privati: lo studio AssetMark rivela cosa cercano i clienti facoltosi e i rischi per i consulenti.",
+      "image": null
+    },
+    {
+      "title": "Lavoro Usa e la sorpresa di ottobre. Due i temi che conteranno di più per la Fed",
+      "source": "FinanzaOnline",
+      "category": "italia",
+      "published": "Fri, 06 Nov 2026 14:16:52 +0000",
+      "link": "https://www.finanzaonline.com/notizie/lavoro-usa-e-la-sorpresa-di-ottobre-due-i-temi-che-conteranno-di-piu-per-la-fed",
+      "summary": "A ottobre, la crescita dell'occupazione negli Stati Uniti ha registrato un'impennata, mentre il tasso di disoccupazione è sceso : un segnale della solidità del mercato del lavoro in un'economia che resta resiliente. I numeri principali",
+      "image": null
+    },
+    {
+      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "source": "MIT Technology Review",
+      "category": "scienza",
+      "published": "Fri, 06 Nov 2026 13:10:00 +0000",
+      "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/2026_BA_Reno_15.jpg?w=840"
+    },
+    {
+      "title": "Markets realise they hate America’s blue wave",
+      "source": "The Economist",
+      "category": "mercati",
+      "published": "Thu, 05 Nov 2026 23:41:07 +0000",
+      "link": "https://www.economist.com/finance-and-economics/2026/11/05/markets-realise-they-hate-americas-blue-wave",
+      "summary": "Investors worry that Democratic dominance will slow down the AI boom",
+      "image": null
+    },
+    {
+      "title": "Le migliori tende da campeggio tra modelli ultraleggeri, familiari e gonfiabili",
+      "source": "Wired Italia",
+      "category": "tech",
+      "published": "Wed, 01 Jul 2026 07:00:00 +0000",
+      "link": "https://www.wired.it/gallery/migliori-tende-campeggio/",
+      "summary": "Dalle tende ultraleggere da trekking ai modelli familiari con vere e proprie stanze, passando per soluzioni gonfiabili e a montaggio rapido",
+      "image": "https://media-assets.wired.it/photos/6a194670a7792b1bc7faf331/master/pass/tende%20da%20campeggio%20giugno%202026.jpg"
+    },
+    {
+      "title": "Will the next iPhone charge wirelessly?",
+      "source": "CNN",
+      "category": "mercati",
+      "published": "Mon, 13 Feb 2017 14:42:14 EST",
+      "link": "http://money.cnn.com/2017/02/13/technology/apple-wireless-charging/index.html?section=money_news_international",
+      "summary": "The days of plugging in an iPhone to charge won't last forever.",
+      "image": "http://i2.cdn.turner.com/money/dam/assets/170203124414-apple-iphone-120x90.jpg"
+    },
+    {
+      "title": "Medicinal plants, lessons from mushrooms and the power of smell: Books in brief",
+      "source": "Nature",
+      "category": "scienza",
+      "published": "",
+      "link": "https://www.nature.com/articles/d41586-026-03595-x",
+      "summary": "Nature, Published online: 06 November 2026; doi:10.1038/d41586-026-03595-x Andrew Robinson reviews five of the best science picks.",
+      "image": null
+    }
+  ],
+  "generated_at": "2026-11-07 02:06:48",
+  "markets_brief": {
+    "items": [
+      {
+        "title": "Paraguay’s President Removed and Arrested Over Financial Crisis",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html"
+      },
+      {
+        "title": "Google executive Donald Harrison resigns from SpaceX board",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaFBQUUZob254UUQxOGhmLUd6Vm1xNThSU2RNTXVib3Rja0R3OVdMbkR4MjR0UDY4ZWRUMkZab1JaZmVaZmllSW96SkR1WmVFb1dXblU4dDg1Y05mUDlPUmlpTlI3VjBxcFpFbVIweUNhRlNxeE5ZLU93VDJzVmE4Y3c5VTByV1poaVFfRG5CUy0wNWlFeUZ6bnA3bmZhek1VOENqdWFyQ0poUzIxU016SUN3?oc=5"
+      },
+      {
+        "title": "The Corner Store Brings Its New York Experience to the Las Vegas Strip",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/videos/2026-11-06/the-corner-store-brings-nyc-experience-to-vegas-strip-video"
+      },
+      {
+        "title": "A Berkshire Hathaway Electric Utility Wants a Historic Rate Hike in California",
+        "source": "The Wall Street Journal",
+        "link": "https://www.wsj.com/business/energy-oil/a-berkshire-hathaway-electric-utility-wants-a-historic-rate-hike-in-california-b7a0cc70?mod=rss_markets_main"
+      },
+      {
+        "title": "Elanco Shares Jump After Q3 Beat and Outlook Raise",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/videos/2026-11-06/elanco-shares-jump-after-q3-beat-and-outlook-raise-video"
+      }
+    ],
+    "prose_html": "<p>La situazione politica in Paraguay si è aggravata con l&#x27;arresto e la rimozione del presidente nel bel mezzo di una crisi finanziaria, aggiungendo volatilità ai mercati emergenti. Sul fronte aziendale, un dirigente di Google si è dimesso dal consiglio di SpaceX, mentre la società di servizi elettrici di Berkshire Hathaway chiede un aumento tariffario storico in California mentre la domanda di energia aumenta. Sul mercato interno, Elanco ha guadagnato terreno grazie a risultati migliori del previsto nel terzo trimestre e a una prospettiva rivista al rialzo, segnalando forza nel settore della salute animale.</p>",
+    "prose_html_en": "<p>Political turmoil in Paraguay has escalated with the president&#x27;s removal and arrest amid a financial crisis, adding to emerging-market volatility. In corporate news, a Google executive has stepped down from SpaceX&#x27;s board, while Berkshire Hathaway&#x27;s utility subsidiary is seeking a historic rate increase in California as energy demand pressures mount. Domestically, Elanco rallied on better-than-expected third-quarter results and an upgraded outlook, signaling strength in the animal health sector.</p>"
+  },
+  "live_close_movers": {
+    "captured_at": "2026-11-05T21:20:39Z",
+    "session_date": "2026-11-05",
+    "universe": 1556,
+    "gainers": [
+      {
+        "symbol": "APP",
+        "name": "Applovin Corporation",
+        "pct": 31.04
+      },
+      {
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": 30.13
+      },
+      {
+        "symbol": "ADMA",
+        "name": "ADMA Biologics Inc",
+        "pct": 26.05
+      },
+      {
+        "symbol": "WRBY",
+        "name": "Warby Parker Inc.",
+        "pct": 22.5
+      },
+      {
+        "symbol": "MGNI",
+        "name": "Magnite, Inc.",
+        "pct": 20.75
+      },
+      {
+        "symbol": "EPAM",
+        "name": "EPAM Systems, Inc.",
+        "pct": 20.63
+      },
+      {
+        "symbol": "ENOV",
+        "name": "Enovis Corporation",
+        "pct": 17.2
+      },
+      {
+        "symbol": "FUN",
+        "name": "Six Flags Entertainment Corporation",
+        "pct": 16.52
+      },
+      {
+        "symbol": "VCEL",
+        "name": "Vericel Corporation",
+        "pct": 13.85
+      },
+      {
+        "symbol": "SEZL",
+        "name": "Sezzle Inc.",
+        "pct": 13.4
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "VCYT",
+        "name": "Veracyte, Inc.",
+        "pct": -54.3
+      },
+      {
+        "symbol": "TRIP",
+        "name": "TripAdvisor, Inc.",
+        "pct": -27.65
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": -26.88
+      },
+      {
+        "symbol": "PENG",
+        "name": "Penguin Solutions, Inc.",
+        "pct": -23.02
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -22.76
+      },
+      {
+        "symbol": "SNDK",
+        "name": "Sandisk Corporation",
+        "pct": -22.26
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -22.06
+      },
+      {
+        "symbol": "ROAD",
+        "name": "Construction Partners, Inc.",
+        "pct": -21.88
+      },
+      {
+        "symbol": "CAI",
+        "name": "Caris Life Sciences, Inc.",
+        "pct": -21.64
+      },
+      {
+        "symbol": "BROS",
+        "name": "Dutch Bros Inc.",
+        "pct": -21.41
+      }
+    ]
+  }
+}
