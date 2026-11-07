@@ -1315,37 +1315,37 @@
     },
     "ftsemib": {
       "stats": {
-        "n_up": 15,
-        "n_down": 25,
+        "n_up": 11,
+        "n_down": 29,
         "n_flat": 0,
         "n_total": 40,
-        "avg_pct": -1.0,
+        "avg_pct": -0.65,
         "best_sectors": [
           {
+            "sector": "Energy",
+            "avg_pct": 0.07
+          },
+          {
             "sector": "Utilities",
-            "avg_pct": 0.69
+            "avg_pct": -0.59
           },
           {
             "sector": "Financial Services",
-            "avg_pct": 0.44
-          },
-          {
-            "sector": "Energy",
-            "avg_pct": 0.43
+            "avg_pct": -1.02
           }
         ],
         "worst_sectors": [
           {
-            "sector": "Industrial Goods and Services",
-            "avg_pct": -1.77
-          },
-          {
             "sector": "Banks",
-            "avg_pct": -0.77
+            "avg_pct": -1.39
           },
           {
-            "sector": "Energy",
-            "avg_pct": 0.43
+            "sector": "Industrial Goods and Services",
+            "avg_pct": -1.37
+          },
+          {
+            "sector": "Financial Services",
+            "avg_pct": -1.02
           }
         ]
       },
@@ -1354,192 +1354,8 @@
           "symbol": "TEN.MI",
           "name": "Tenaris",
           "sector": "Energy",
-          "pct_change": 3.66,
-          "last_close": 25.8,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "AMP.MI",
-          "name": "Amplifon",
-          "sector": "Health Care",
-          "pct_change": 2.76,
-          "last_close": 12.08,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "FBK.MI",
-          "name": "FinecoBank",
-          "sector": "Banks",
-          "pct_change": 2.43,
-          "last_close": 22.73,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "LTMC.MI",
-          "name": "Lottomatica Group",
-          "sector": "Gambling",
-          "pct_change": 2.38,
-          "last_close": 27.49,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "CPR.MI",
-          "name": "Campari",
-          "sector": "Food, Beverage and Tobacco",
-          "pct_change": 2.15,
-          "last_close": 6.75,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "AZM.MI",
-          "name": "Azimut",
-          "sector": "Financial Services",
-          "pct_change": 1.4,
-          "last_close": 36.1,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "G.MI",
-          "name": "Generali",
-          "sector": "Insurance",
-          "pct_change": 1.23,
-          "last_close": 44.56,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "TRN.MI",
-          "name": "Terna",
-          "sector": "Utilities",
-          "pct_change": 1.21,
-          "last_close": 9.86,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "ENEL.MI",
-          "name": "Enel",
-          "sector": "Utilities",
-          "pct_change": 0.92,
-          "last_close": 9.77,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "A2A.MI",
-          "name": "A2A",
-          "sector": "Utilities",
-          "pct_change": 0.91,
-          "last_close": 2.43,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        }
-      ],
-      "losers": [
-        {
-          "symbol": "STMMI.MI",
-          "name": "STMicroelectronics",
-          "sector": "Technology",
-          "pct_change": -9.33,
-          "last_close": 37.1,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "TPRO.MI",
-          "name": "Technoprobe",
-          "sector": "Technology",
-          "pct_change": -9.28,
-          "last_close": 20.52,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "FCT.MI",
-          "name": "Fincantieri",
-          "sector": "Shipbuilding",
-          "pct_change": -4.77,
-          "last_close": 11.89,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "STLAM.MI",
-          "name": "Stellantis",
-          "sector": "Automobiles and Parts",
-          "pct_change": -4.49,
-          "last_close": 3.97,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "PRY.MI",
-          "name": "Prysmian",
-          "sector": "Industrial Goods and Services",
-          "pct_change": -4.02,
-          "last_close": 100.2,
+          "pct_change": 3.26,
+          "last_close": 26.64,
           "indices": [
             "ftsemib"
           ],
@@ -1551,8 +1367,8 @@
           "symbol": "BZU.MI",
           "name": "Buzzi",
           "sector": "Construction and Materials",
-          "pct_change": -3.88,
-          "last_close": 41.66,
+          "pct_change": 1.75,
+          "last_close": 42.39,
           "indices": [
             "ftsemib"
           ],
@@ -1561,11 +1377,63 @@
           "news_historical": []
         },
         {
-          "symbol": "LDO.MI",
-          "name": "Leonardo",
+          "symbol": "AMP.MI",
+          "name": "Amplifon",
+          "sector": "Health Care",
+          "pct_change": 1.7,
+          "last_close": 12.28,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STMMI.MI",
+          "name": "STMicroelectronics",
+          "sector": "Technology",
+          "pct_change": 1.46,
+          "last_close": 37.63,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STLAM.MI",
+          "name": "Stellantis",
+          "sector": "Automobiles and Parts",
+          "pct_change": 1.3,
+          "last_close": 4.02,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TPRO.MI",
+          "name": "Technoprobe",
+          "sector": "Technology",
+          "pct_change": 1.07,
+          "last_close": 20.74,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "PRY.MI",
+          "name": "Prysmian",
           "sector": "Industrial Goods and Services",
-          "pct_change": -3.45,
-          "last_close": 49.35,
+          "pct_change": 0.8,
+          "last_close": 101.0,
           "indices": [
             "ftsemib"
           ],
@@ -1574,11 +1442,65 @@
           "news_historical": []
         },
         {
-          "symbol": "AVIO.MI",
-          "name": "Avio",
-          "sector": "Aerospace",
-          "pct_change": -2.83,
-          "last_close": 29.52,
+          "symbol": "REC.MI",
+          "name": "Recordati",
+          "sector": "Health Care",
+          "pct_change": 0.38,
+          "last_close": 53.25,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LTMC.MI",
+          "name": "Lottomatica Group",
+          "sector": "Gambling",
+          "pct_change": 0.29,
+          "last_close": 27.57,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "INW.MI",
+          "name": "INWIT",
+          "sector": "Telecommunications",
+          "pct_change": 0.21,
+          "last_close": 7.3,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        }
+      ],
+      "losers": [
+        {
+          "symbol": "NEXI.MI",
+          "name": "Nexi",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -3.64,
+          "last_close": 4.5,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "BAMI.MI",
+          "name": "Banco BPM",
+          "sector": "Banks",
+          "pct_change": -3.17,
+          "last_close": 13.44,
           "indices": [
             "ftsemib"
           ],
@@ -1590,8 +1512,21 @@
           "symbol": "BPE.MI",
           "name": "BPER Banca",
           "sector": "Banks",
-          "pct_change": -2.77,
-          "last_close": 13.27,
+          "pct_change": -2.7,
+          "last_close": 12.91,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LDO.MI",
+          "name": "Leonardo",
+          "sector": "Industrial Goods and Services",
+          "pct_change": -2.6,
+          "last_close": 48.07,
           "indices": [
             "ftsemib"
           ],
@@ -1603,8 +1538,73 @@
           "symbol": "UNI.MI",
           "name": "Unipol",
           "sector": "Insurance",
-          "pct_change": -2.27,
-          "last_close": 25.85,
+          "pct_change": -2.24,
+          "last_close": 25.27,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "AVIO.MI",
+          "name": "Avio",
+          "sector": "Aerospace",
+          "pct_change": -2.03,
+          "last_close": 28.92,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "G.MI",
+          "name": "Generali",
+          "sector": "Insurance",
+          "pct_change": -1.86,
+          "last_close": 43.73,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FCT.MI",
+          "name": "Fincantieri",
+          "sector": "Shipbuilding",
+          "pct_change": -1.64,
+          "last_close": 11.69,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "CPR.MI",
+          "name": "Campari",
+          "sector": "Food, Beverage and Tobacco",
+          "pct_change": -1.63,
+          "last_close": 6.64,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FBK.MI",
+          "name": "FinecoBank",
+          "sector": "Banks",
+          "pct_change": -1.54,
+          "last_close": 22.38,
           "indices": [
             "ftsemib"
           ],
@@ -1615,14 +1615,14 @@
       ],
       "paragraphs": {
         "en": [
-          "In the November 6, 2026 session the FTSE MIB closed with 15 stocks higher, 25 lower, out of 40 tracked. The average move was -1.00%.",
-          "Best-performing sectors by average move: Utilities (+0.69%); Financial Services (+0.44%); Energy (+0.43%). Weakest: Industrial Goods and Services (-1.77%); Banks (-0.77%); Energy (+0.43%).",
-          "Leading the session: Tenaris (TEN.MI, +3.66%); Amplifon (AMP.MI, +2.76%); FinecoBank (FBK.MI, +2.43%). At the bottom: STMicroelectronics (STMMI.MI, -9.33%); Technoprobe (TPRO.MI, -9.28%); Fincantieri (FCT.MI, -4.77%)."
+          "In the November 6, 2026 session the FTSE MIB closed with 11 stocks higher, 29 lower, out of 40 tracked. The average move was -0.65%.",
+          "Best-performing sectors by average move: Energy (+0.07%); Utilities (-0.59%); Financial Services (-1.02%). Weakest: Banks (-1.39%); Industrial Goods and Services (-1.37%); Financial Services (-1.02%).",
+          "Leading the session: Tenaris (TEN.MI, +3.26%); Buzzi (BZU.MI, +1.75%); Amplifon (AMP.MI, +1.70%). At the bottom: Nexi (NEXI.MI, -3.64%); Banco BPM (BAMI.MI, -3.17%); BPER Banca (BPE.MI, -2.70%)."
         ],
         "it": [
-          "Nella seduta del 6 novembre 2026 il FTSE MIB ha chiuso con 15 societa' in rialzo, 25 in ribasso, su 40 titoli monitorati. La variazione media dell'indice e' stata di -1,00%.",
-          "Settori con la variazione media migliore: Utilities (+0,69%); Financial Services (+0,44%); Energy (+0,43%). Settori piu' debolli: Industrial Goods and Services (-1,77%); Banks (-0,77%); Energy (+0,43%).",
-          "In cima alla seduta: Tenaris (TEN.MI, +3,66%); Amplifon (AMP.MI, +2,76%); FinecoBank (FBK.MI, +2,43%). In fondo: STMicroelectronics (STMMI.MI, -9,33%); Technoprobe (TPRO.MI, -9,28%); Fincantieri (FCT.MI, -4,77%)."
+          "Nella seduta del 6 novembre 2026 il FTSE MIB ha chiuso con 11 societa' in rialzo, 29 in ribasso, su 40 titoli monitorati. La variazione media dell'indice e' stata di -0,65%.",
+          "Settori con la variazione media migliore: Energy (+0,07%); Utilities (-0,59%); Financial Services (-1,02%). Settori piu' debolli: Banks (-1,39%); Industrial Goods and Services (-1,37%); Financial Services (-1,02%).",
+          "In cima alla seduta: Tenaris (TEN.MI, +3,26%); Buzzi (BZU.MI, +1,75%); Amplifon (AMP.MI, +1,70%). In fondo: Nexi (NEXI.MI, -3,64%); Banco BPM (BAMI.MI, -3,17%); BPER Banca (BPE.MI, -2,70%)."
         ]
       }
     },
@@ -1948,10 +1948,127 @@
       }
     }
   },
-  "manual_commentary_html": "<p>I titoli azionari statunitensi hanno chiuso in territorio misto il 6 novembre 2026, mentre i mercati digerivano gli sviluppi post-elettorali e rivalutavano le valutazioni dell&#x27;intelligenza artificiale. Secondo Bloomberg.com, lo script di Wall Street è stato ribaltato da un rout post-elettorale, mentre il WSJ ha riferito che il mercato ha affrontato una realtà AI da 2,5 trilioni di dollari con un rout storico dei titoli tecnologici. La seduta ha visto anche attenzione su nomine politiche, con la copertura del WSJ dell&#x27;elevazione di Stephen Miller a Capo di Gabinetto da parte di Trump segnalando quello che l&#x27;outlet ha descritto come i prossimi due anni combattivi. Separatamente, il WSJ ha notato che i futures del gas naturale statunitense hanno chiuso in rialzo, e i futures del petrolio sono scivolati mentre i mercati mantenevano speranze per la diplomazia in Medio Oriente.</p><p>Il Nasdaq-100 ha sovraperformato gli indici più ampi, avanzando dello 0,74 percento con 47 rialzisti e 54 ribassisti, mentre l&#x27;S&amp;P 500 è sceso dello 0,25 percento su 184 rialzisti e 318 ribassisti, e il Dow Jones è sceso dello 0,54 percento con soli 8 rialzisti contro 22 ribassisti. I settori Tecnologia e Information Technology hanno guidato i guadagni, con medie rispettivamente del 3,04 e dell&#x27;1,37 percento, mentre Consumer Staples, Real Estate e Financials hanno registrato cali dell&#x27;1,24, 1,0 e 0,9 percento rispettivamente.</p><p>Tra i rialzisti, Rocket Lab è salita del 15,39 percento, Coherent Corp. è salita del 13,58 percento e Airbnb ha guadagnato l&#x27;11,67 percento. Advanced Micro Devices è salita dell&#x27;11,04 percento, Vistra Corp. è avanzata del 10,55 percento e AppLovin è aumentata del 9,86 percento. NRG Energy ha guadagnato il 9,61 percento, SpaceX è salita dell&#x27;8,62 percento—Barron&#x27;s ha riferito che Elon Musk ha detto che le vendite di SpaceX stanno esplodendo e ha previsto un fatturato doppio rispetto alle stime di Wall Street—mentre Lam Research ha guadagnato l&#x27;8,23 percento e Charles River Laboratories è salita del 7,83 percento. I media tracciati non hanno segnalato catalizzatori aziendali specifici per la maggior parte di questi movimenti.</p><p>I ribassisti sono stati guidati da Axon Enterprise, che è scesa del 18,18 percento, e Microchip Technology, che è scesa del 10,02 percento. Charter Communications è scesa del 6,19 percento, Insulet Corporation è scesa del 6,16 percento e Dexcom è scesa del 5,98 percento. Centene Corporation è scesa del 5,97 percento, Dollar Tree è scesa del 4,93 percento, Expedia Group è scesa del 4,86 percento, GoDaddy è scesa del 4,78 percento e Booking Holdings è scesa del 4,77 percento. I media tracciati non hanno segnalato catalizzatori aziendali specifici per questi cali.</p>",
-  "manual_commentary_html_en": "<p>U.S. equities closed mixed on November 6, 2026, as markets digested post-election developments and reassessed artificial intelligence valuations. According to Bloomberg.com, Wall Street&#x27;s script got flipped by a post-election rout, while WSJ reported that the market faced a $2.5 trillion AI reality check with a historic rout of tech stocks. The session also saw attention on political appointments, with WSJ coverage of Trump&#x27;s elevation of Stephen Miller as Chief of Staff signaling what the outlet described as a combative next two years. Separately, WSJ noted that U.S. natural gas futures settled higher, and oil futures slid as markets held out hopes for Middle East diplomacy.</p><p>The Nasdaq-100 outperformed broader indices, advancing 0.74 percent with 47 gainers and 54 losers, while the S&amp;P 500 declined 0.25 percent on 184 gainers and 318 losers, and the Dow Jones fell 0.54 percent with only 8 gainers against 22 losers. Technology and Information Technology sectors led gains, averaging 3.04 and 1.37 percent respectively, while Consumer Staples, Real Estate, and Financials lagged with declines of 1.24, 1.0, and 0.9 percent respectively.</p><p>Among gainers, Rocket Lab surged 15.39 percent, Coherent Corp. climbed 13.58 percent, and Airbnb gained 11.67 percent. Advanced Micro Devices rose 11.04 percent, Vistra Corp. advanced 10.55 percent, and AppLovin increased 9.86 percent. NRG Energy gained 9.61 percent, SpaceX climbed 8.62 percent—Barron&#x27;s reported that Elon Musk said SpaceX sales are exploding and forecasted revenue twice Wall Street&#x27;s estimate—while Lam Research gained 8.23 percent and Charles River Laboratories rose 7.83 percent. Tracked outlets reported no specific company catalysts for most of these movers.</p><p>Decliners were led by Axon Enterprise, which fell 18.18 percent, and Microchip Technology, which dropped 10.02 percent. Charter Communications declined 6.19 percent, Insulet Corporation fell 6.16 percent, and Dexcom dropped 5.98 percent. Centene Corporation declined 5.97 percent, Dollar Tree fell 4.93 percent, Expedia Group dropped 4.86 percent, GoDaddy declined 4.78 percent, and Booking Holdings fell 4.77 percent. Tracked outlets reported no specific company catalysts for these declines.</p>",
+  "manual_commentary_html": "<p>I titoli statunitensi hanno chiuso in territorio misto il 6 novembre mentre i mercati digerivano un rapporto sui posti di lavoro di ottobre più forte del previsto insieme alla continua turbolenza nel posizionamento dell&#x27;intelligenza artificiale. Il Wall Street Journal ha riferito che l&#x27;economia ha aggiunto 165.000 posti di lavoro il mese scorso, superando le aspettative e segnalando la resilienza del mercato del lavoro anche mentre le azioni faticavano. La seduta ha riflesso un&#x27;incertezza più ampia: la copertura del Financial Times ha evidenziato come le scommesse concentrate di Wall Street sull&#x27;IA si siano disintegrate, mentre lo stesso outlet ha notato gli interessi crescenti dell&#x27;investimento al dettaglio gamificato. Gli sviluppi politici hanno pesato anche sul sentimento, con il WSJ che ha riferito dell&#x27;elevazione di Stephen Miller a Capo di Gabinetto e della partenza di Susie Wiles, un cambiamento descritto come una perdita per il grande business di un orecchio simpatico nell&#x27;amministrazione.</p><p>Il Nasdaq-100 ha sovraperformato, guadagnando in media lo 0,74 percento, mentre l&#x27;S&amp;P 500 è sceso dello 0,25 percento e il Dow Jones è calato dello 0,54 percento. Tecnologia e Tecnologia dell&#x27;Informazione hanno guidato i rialzisti, con medie rispettivamente del 3,04 e dell&#x27;1,37 percento. Rocket Lab è salito del 15,39 percento, Coherent Corp. ha balzato del 13,58 percento e Airbnb è salito dell&#x27;11,67 percento. Advanced Micro Devices è salito dell&#x27;11,04 percento, AppLovin ha guadagnato l&#x27;9,86 percento e Lam Research ha aggiunto l&#x27;8,23 percento. SpaceX è salito dell&#x27;8,62 percento, con Barron&#x27;s che riferisce che Elon Musk ha detto che le vendite di SpaceX stanno esplodendo e ha previsto ricavi il doppio della stima di Wall Street. Vistra Corp. e NRG Energy hanno anche registrato forti guadagni rispettivamente del 10,55 e del 9,61 percento, mentre Charles River Laboratories ha avanzato del 7,83 percento.</p><p>Beni di Consumo Primario, Immobiliare e Finanziari sono stati i settori con le peggiori prestazioni, in calo rispettivamente dell&#x27;1,24, dell&#x27;1,0 e dello 0,9 percento in media. Axon Enterprise ha guidato i ribassi con un calo del 18,18 percento, mentre Microchip Technology è sceso del 10,02 percento. Booking Holdings e Expedia Group sono scesi rispettivamente del 4,77 e del 4,86 percento. Dexcom è sceso del 5,98 percento, Insulet Corporation è sceso del 6,16 percento e Centene Corporation è scivolato del 5,97 percento. Charter Communications ha perso il 6,19 percento, GoDaddy è sceso del 4,78 percento e Dollar Tree è sceso del 4,93 percento. I media tracciati non hanno riferito catalizzatori aziendali specifici per questi cali durante la seduta.</p>",
+  "manual_commentary_html_en": "<p>U.S. stocks closed mixed on November 6 as markets digested a stronger-than-expected October jobs report alongside ongoing turbulence in artificial intelligence positioning. The Wall Street Journal reported that the economy added 165,000 jobs last month, defying expectations and signaling labor market resilience even as equities struggled. The session reflected broader uncertainty: Financial Times coverage highlighted how Wall Street&#x27;s concentrated AI bets have unraveled, while the same outlet noted the rising stakes of gamified retail investing. Political developments also weighed on sentiment, with the WSJ reporting Stephen Miller&#x27;s elevation to Chief of Staff and Susie Wiles&#x27;s departure, a shift described as costing big business a sympathetic ear in the administration.</p><p>The Nasdaq-100 outperformed, gaining 0.74 percent on average, while the S&amp;P 500 fell 0.25 percent and the Dow Jones dropped 0.54 percent. Technology and Information Technology led gainers, averaging 3.04 and 1.37 percent respectively. Rocket Lab surged 15.39 percent, Coherent Corp. jumped 13.58 percent, and Airbnb climbed 11.67 percent. Advanced Micro Devices rose 11.04 percent, AppLovin gained 9.86 percent, and Lam Research added 8.23 percent. SpaceX climbed 8.62 percent, with Barron&#x27;s reporting that Elon Musk said SpaceX sales are exploding and forecasted revenue twice Wall Street&#x27;s estimate. Vistra Corp. and NRG Energy also posted strong gains of 10.55 and 9.61 percent respectively, while Charles River Laboratories advanced 7.83 percent.</p><p>Consumer Staples, Real Estate, and Financials were the worst-performing sectors, declining 1.24, 1.0, and 0.9 percent on average. Axon Enterprise led losers with an 18.18 percent plunge, while Microchip Technology fell 10.02 percent. Booking Holdings and Expedia Group declined 4.77 and 4.86 percent respectively. Dexcom dropped 5.98 percent, Insulet Corporation fell 6.16 percent, and Centene Corporation slid 5.97 percent. Charter Communications lost 6.19 percent, GoDaddy fell 4.78 percent, and Dollar Tree declined 4.93 percent. Tracked outlets reported no specific company catalysts for these declines during the session.</p>",
   "manual_highlights": [],
   "feed": [
+    {
+      "title": "Berkshire shares surge as Wall Street swoons amid AI fears",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 07 Nov 2026 12:49:19 GMT",
+      "link": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
+      "summary": "Berkshire Hathaway shares roared past the S&amp;P 500 index this week and are outperforming the benchmark for the year-to-date.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108335257-1784117182377-OEZO09jg.jpg?v=1784127953&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Why The Warriors Aren't Parting Ways With Kristaps Porziņģis… Yet",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 07 Nov 2026 07:00:09 -0500",
+      "link": "https://www.forbes.com/sites/bryantoporek/2026/11/07/why-the-warriors-arent-parting-ways-with-kristaps-porziis-yet/",
+      "summary": "Porziņģis won't play for the Warriors due to an ongoing health condition, but his contract could be the ticket for them to make a fairly substantial midseason upgrade.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6aeec4c548853c77d7edafe9/0x0.jpg"
+    },
+    {
+      "title": "What will a Democratic Congress mean for Ukraine?",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 07 Nov 2026 12:00:04 GMT",
+      "link": "https://www.ft.com/content/fac3a560-7845-4acf-9487-54ec8a445d74?syn-25a6b1a6=1",
+      "summary": "With Donald Trump retaining control of foreign policy, lawmakers will use legislative tools to try to support Kyiv",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F00663fec-19ab-40a7-8733-c7dc64b2954a.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 07 Nov 2026 12:00:01 GMT",
+      "link": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
+      "summary": "Lawsuits against Snap, Meta and Google are creating headwinds for tech companies just as artificial intelligence tools expand into classrooms.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108000870-1719930897606-gettyimages-2159334713-AA_30062024_1752759.jpeg?v=1737096574&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "Dodgers’ $102 Million Castoff Trevor Bauer Claims MLB Blocked Postseason Return",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 07 Nov 2026 07:00:00 -0500",
+      "link": "https://www.forbes.com/sites/peterchawaga/2026/11/07/dodgers-102-million-castoff-trevor-bauer-claims-mlb-blocked-postseason-return/",
+      "summary": "The Los Angeles Dodgers’ polarizing former pitcher sent a message about reunion interest from MLB teams.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6aede1a1208875d01a2a15a2/0x0.jpg?width=960&precrop=1712%2C963%2Cx345%2Cy0"
+    },
+    {
+      "title": "Best Wi-Fi Routers (2026): My Honest Picks After Testing 50+",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 07 Nov 2026 12:00:00 +0000",
+      "link": "https://www.wired.com/gallery/best-wifi-routers/",
+      "summary": "Don’t suffer the buffer. These WIRED-tested home routers will deliver reliable internet across your home, whatever your needs or budget.",
+      "image": "https://media.wired.com/photos/6ae7c95facba2861e5fb22fa/master/pass/Best%20Routers%20112026%20top%20art%20SOURCE%20Amazon.jpg"
+    },
+    {
+      "title": "The 10 Best Early Black Friday Headphone Deals (2026)",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 07 Nov 2026 11:45:00 +0000",
+      "link": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-6-26/",
+      "summary": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Bose, and more.",
+      "image": "https://media.wired.com/photos/6aee6de94daae82016170876/master/pass/The-Best-Early-Black-Friday-Headphone-Deals.jpg"
+    },
+    {
+      "title": "US sanctions Canadian money-exchange firms over Iran ties",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Sat, 07 Nov 2026 11:10:47 +0000",
+      "link": "https://cointelegraph.com/news/us-sanctions-canadian-money-exchange-firms-over-iran-ties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "US also offers as much as $20 million and possible relocation for information about Iran’s nuclear program.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6TV46HT5722N7KQ7PPJEREP/hi-crypto-users-in-iran-sanctions-1.jpg"
+    },
+    {
+      "title": "Lunedì riparte confronto su rinnovo contratto bancari, il nodo Manovra",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 7 Nov 2026 11:26:39 +0100",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/11/07/lunedi-riparte-confronto-su-rinnovo-contratto-bancari-il-nodo-manovra_31b2f5b1-ded7-4eb3-bacd-65028dd9b091.html",
+      "summary": "Sindacati chiedono che nuove tasse non blocchino negoziato",
+      "image": "https://www.ansa.it/webimages/img_1280x720/2014/1/21/6baa3a054e3306d2967d798ea9a71b30.jpg"
+    },
+    {
+      "title": "U.S. Cleared Nvidia Chips to Chinese Firms With Empty Offices and Troubling Ties",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 07 Nov 2026 10:00:40 +0000",
+      "link": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
+      "summary": "The Commerce Department has approved dozens of Chinese companies to handle Nvidia’s H200 chips, some of which have ties to firms under sanctions over national security.",
+      "image": "https://static01.nyt.com/images/2026/11/07/multimedia/07dc-china-chips-01-fjhg/07dc-china-chips-01-fjhg-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Suspicious prediction market activity seen before election poll release: NYT",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Sat, 07 Nov 2026 09:10:35 +0000",
+      "link": "https://cointelegraph.com/news/suspicious-prediction-market-activity-seen-before-election-poll-release-nyt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Bets were placed shortly before two recent New York Times/Siena political polls were released to the public, according to a report.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6TKZ82M5JMRKRWCTC3GH1QA/hi-one-month-left-to-polymarket-season.jpg"
+    },
+    {
+      "title": "Codacons, a prezzi attuali bolletta invernale media del gas sale a 860 euro a famiglia",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 7 Nov 2026 09:59:15 +0100",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/11/07/codacons-a-prezzi-attuali-bolletta-invernale-media-del-gas-sale-a-860_a3ce85f1-31b7-46f7-897d-ac9694373a74.html",
+      "summary": "Top 1.300 euro in Valle d'Aosta, la più bassa in Sicilia a 487 euro. Tariffe aumenteranno",
+      "image": "https://www.ansa.it/webimages/img_1280x720/2025/11/29/fcaef9fdfc06e2178c8c9f5723d378ec.jpg"
+    },
+    {
+      "title": "Trafigura Snaps Up Copper in Asia as China Faces Supply Crunch",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 07 Nov 2026 08:00:21 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-07/trafigura-snaps-up-copper-in-asia-as-china-faces-supply-crunch",
+      "summary": "Trafigura Group has been buying large volumes of copper to boost sales into Asia as local supplies run low, adding to a scramble for metal that’s pushed regional premiums for spot cargoes to record highs.",
+      "image": null
+    },
     {
       "title": "Sequoia shutting down its Scouts program marks the end of an era",
       "source": "TechCrunch",
@@ -1969,15 +2086,6 @@
       "link": "https://www.ft.com/content/f80ff605-6f6e-4b5d-9fab-20276b78e9b7?syn-25a6b1a6=1",
       "summary": "American retrenchment could change Middle East balance of power and signify opportunities for China",
       "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb97c036c-a1ce-44f6-bf85-1015b9a9d329.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "The mother of all American course corrections",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 07 Nov 2026 05:00:33 GMT",
-      "link": "https://www.ft.com/content/452cf328-c819-482e-8f2c-61b65c96f8ce?syn-25a6b1a6=1",
-      "summary": "US midterms are the latest confirmation that reports of the death of liberal democracy have been much exaggerated",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fea1cb484-2a10-47e0-8459-0e08f9a6c436.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
     },
     {
       "title": "Why India’s Stock Markets Hold a Session on Diwali: Explainer",
@@ -2007,15 +2115,6 @@
       "image": "https://cryptonomist.ch/wp-content/uploads/2026/11/ananta-game-release-1.webp"
     },
     {
-      "title": "Former Malaysia PM Najib’s House Arrest Delayed Pending Review",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Sat, 07 Nov 2026 03:36:07 GMT",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-07/former-malaysia-pm-najib-s-house-arrest-delayed-pending-review",
-      "summary": "Former Malaysian Prime Minister Najib Razak’s transfer from prison to house arrest has been postponed pending further review of conditions around a royal pardon, the attorney general’s office said.",
-      "image": null
-    },
-    {
       "title": "L’infrastruttura finanziaria di Hyperliquid compra HYPE col 97–99% delle commissioni nette",
       "source": "The Cryptonomist",
       "category": "crypto",
@@ -2032,42 +2131,6 @@
       "link": "https://www.nytimes.com/2026/11/06/technology/kalshi-polymarket-nyt-siena-poll-bets.html",
       "summary": "A trader placed well-timed bets on Polymarket and Kalshi in two Senate races. It was unclear if the person had access to inside information or simply made good trades.",
       "image": "https://static01.nyt.com/images/2026/11/04/multimedia/2026-11-04-insider-trading-index/2026-11-04-insider-trading-index-mediumSquareAt3X.png"
-    },
-    {
-      "title": "Miky Lee Receives Asian Hall Of Fame's 2026 Lifetime Achievement Award",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 06 Nov 2026 21:21:29 -0500",
-      "link": "https://www.forbes.com/sites/laurasirikul/2026/11/06/miky-lee-receives-asian-hall-of-fames-2026-lifetime-achievement-award/",
-      "summary": "CJ Group Vice Chairman Miky Lee receives Asian Hall of Fame's 2026 Centennial Medal of Lifetime Achievement Award during their ceremony on Thursday night in Los Angeles.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6aee89daaa9212a7a7202f38/0x0.jpg?width=960"
-    },
-    {
-      "title": "Paraguay’s President Removed and Arrested Over Financial Crisis",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Sat, 07 Nov 2026 01:29:30 +0000",
-      "link": "https://www.nytimes.com/2026/11/06/world/americas/paraguay-president-removed-ueno.html",
-      "summary": "Santiago Peña was impeached, removed from office and placed under house arrest after a bank with close ties to his administration went under.",
-      "image": "https://static01.nyt.com/images/2026/11/06/multimedia/06int-Paraguay-WTK-glwt/06int-Paraguay-WTK-glwt-mediumSquareAt3X.jpg"
-    },
-    {
-      "title": "Film Critic Review: ‘Godzilla Minus Zero’ Is The Best Film Of The Year",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 06 Nov 2026 20:05:45 -0500",
-      "link": "https://www.forbes.com/sites/markhughes/2026/11/06/film-critic-review-godzilla-minus-zero-is-the-best-film-of-the-year/",
-      "summary": "\"Godzilla Minus Zero\" is already scaring up another record opening weekend, but does it live up to its predecessor's remarkable reputation?",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6aee4b0cfc67f250557d2396/0x0.jpg"
-    },
-    {
-      "title": "Google executive Donald Harrison resigns from SpaceX board",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Fri, 06 Nov 2026 23:48:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaFBQUUZob254UUQxOGhmLUd6Vm1xNThSU2RNTXVib3Rja0R3OVdMbkR4MjR0UDY4ZWRUMkZab1JaZmVaZmllSW96SkR1WmVFb1dXblU4dDg1Y05mUDlPUmlpTlI3VjBxcFpFbVIweUNhRlNxeE5ZLU93VDJzVmE4Y3c5VTByV1poaVFfRG5CUy0wNWlFeUZ6bnA3bmZhek1VOENqdWFyQ0poUzIxU016SUN3?oc=5",
-      "summary": "Google executive Donald Harrison resigns from SpaceX board &nbsp;&nbsp; Reuters",
-      "image": null
     },
     {
       "title": "A Berkshire Hathaway Electric Utility Wants a Historic Rate Hike in California",
@@ -2088,49 +2151,13 @@
       "image": "https://images.wsj.net/im-32310044"
     },
     {
-      "title": "IonQ CEO Doubles Down on Vision for Quantum Dominance After Blowout Earnings",
+      "title": "How Quantinuum Plans to Win Quantum Computing’s Long Game, According to Its CEO",
       "source": "Barron's",
       "category": "mercati",
-      "published": "Fri, 06 Nov 2026 23:02:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IOHV3RnpIOVlwUHhxQU1qVWcweG9NaHZxVHBFM1lOdVhrem41UTFOT1NGMjI2VEg2aEdsYWVmaFZkWWUzU2R3blA4VEMtVnlENGUyN1lCYkQwemJtR0lxNlJJRm5VeE90TWFsY21kNGo5c0FQWnc?oc=5",
-      "summary": "IonQ CEO Doubles Down on Vision for Quantum Dominance After Blowout Earnings &nbsp;&nbsp; Barron's",
+      "published": "Fri, 06 Nov 2026 22:56:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa1pULUY4M0duWFRXanZQQndRdHdOLXdjWFZfaXdvN1hVQ2w0NjV3TTNhY3pPYXMxUUlDUktWYUJQSVk1U3U2UzZKSDViREEyaGh5V0FUdjZobi1TZVJsUVRCVUJzVXdLaXRfNlRmdnF5Vk03b2xqbmJzVGtjMDlmRGx5MS1INVNudjRXMEEtNA?oc=5",
+      "summary": "How Quantinuum Plans to Win Quantum Computing’s Long Game, According to Its CEO &nbsp;&nbsp; Barron's",
       "image": null
-    },
-    {
-      "title": "The Cybertruck’s Death Is Actually Great News for EVs",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 06 Nov 2026 22:31:15 +0000",
-      "link": "https://www.wired.com/story/cybertrucks-death-great-news-for-evs/",
-      "summary": "Tesla’s biggest failure is the second massive EV to get the axe within the last year, while smaller vehicles are proliferating. It could be a huge benefit for the US battery supply chain.",
-      "image": "https://media.wired.com/photos/6aee2f4e65a8d4362bf27531/master/pass/GettyImages-2150577028.jpg"
-    },
-    {
-      "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Fri, 06 Nov 2026 22:25:58 GMT",
-      "link": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
-      "summary": "Voters across the country on Tuesday voiced their support for candidates who have pledged to place restrictions on data center development.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108533388-1793982421515-Screenshot-2026-11-06-at-112616_AM.jpg?v=1793982500&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "Trump says Stephen Miller to replace Susie Wiles as White House chief of staff",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Fri, 06 Nov 2026 22:22:53 GMT",
-      "link": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html",
-      "summary": "Trump revealed the shake-up three days after Democrats' landslide victory in the midterm elections, winning majority control of the House and Senate.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108534081-1793991585370-108534081-1793991494952-gettyimages-2296597797-_s012196_0xrqwhiw.jpg?v=1793991693&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "published": "Fri, 06 Nov 2026 22:00:15 +0000",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
     },
     {
       "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
@@ -2151,22 +2178,13 @@
       "image": "https://images.mktw.net/im-63491767"
     },
     {
-      "title": "Elon Musk Says SpaceX Sales Are ‘Exploding’—and Forecasts Revenue Twice Wall Street’s Estimate",
+      "title": "Elon Musk Is Killing the Cybertruck. What It Means for Tesla Stock.",
       "source": "Barron's",
       "category": "mercati",
-      "published": "Fri, 06 Nov 2026 21:34:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUmNBOVZudDlZREhxOTBldFJEbEI4Wlg4M3ZSdGlPSlNPa25YZDE5UXVoWl9nWU16V3htR2hBcmU3ZVBZaENHbF9QdDcyZFZoVHhpeDFMUll3bURFaUFPd1pIZDlxNjJtZG94WEpCLXpDeFVSdktVZGxrTnJiOTBObzNETDE?oc=5",
-      "summary": "Elon Musk Says SpaceX Sales Are ‘Exploding’—and Forecasts Revenue Twice Wall Street’s Estimate &nbsp;&nbsp; Barron's",
+      "published": "Fri, 06 Nov 2026 21:41:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU1BjRWpvRk9HZ21UWmN4Q3dkcmlOMEktZnpTMmRZYXg3N3pGUlhEaFNXQ1pjeE85QTlidTBlblZja3NPNnE4cTh5VGoxNEVSOTZ4UEJzVTBSNmtLN3ZPOVljVXNvRy10N1ZMZ3NUU29fWTJpb3A4WGZwX0ZEWUlhSFowZFg?oc=5",
+      "summary": "Elon Musk Is Killing the Cybertruck. What It Means for Tesla Stock. &nbsp;&nbsp; Barron's",
       "image": null
-    },
-    {
-      "title": "How Stephen Miller Schemed His Way to the Top",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 06 Nov 2026 21:10:02 +0000",
-      "link": "https://www.wired.com/story/how-stephen-miller-schemed-his-way-to-the-top/",
-      "summary": "The architect of the Trump administration’s brutal crackdowns on immigration and dissent was already known as “the prime minister.” Now he’ll work as the chief of staff.",
-      "image": "https://media.wired.com/photos/6aee33acd48df2adb8635683/master/pass/GettyImages-2289377528.jpg"
     },
     {
       "title": "Treasury Cuts Crypto Exchange MEXC Off From US Financial System",
@@ -2178,15 +2196,6 @@
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/scott-bessent-decrypt-style-1-gID_7.jpg"
     },
     {
-      "title": "US Treasury cuts off MEXC over alleged $16B in illicit transactions",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "published": "Fri, 06 Nov 2026 21:05:25 +0000",
-      "link": "https://cointelegraph.com/news/us-treasury-bans-mexc-over-alleged-16b-illicit-transactions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "The US Treasury bureau FinCEN on Friday ordered US financial institutions to stop processing transfers involving MEXC Global.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6SANJYQTNY4SS6GASXKN37C/hi-cover-imagereview-of-mexc.png"
-    },
-    {
       "title": "Treasury cuts off MEXC Global over alleged $16 billion in transactions linked to Iran, North Korea and Russia",
       "source": "The Block",
       "category": "crypto",
@@ -2196,12 +2205,12 @@
       "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2025/06/cropped-6.jpg"
     },
     {
-      "title": "Copernicus: 'Il mese di ottobre è stato il più caldo mai registrato'",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Fri, 6 Nov 2026 21:43:00 +0100",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/11/06/copernicus-il-mese-di-ottobre-2026-e-stato-il-piu-caldo-mai-registrato_6bcacc14-ee82-44d1-a5f1-9a609d8d83a8.html",
-      "summary": "Il 2026 sforerà il limite di riscaldamento di 1,5°C dell'Accordo di Parigi",
+      "title": "Fed policymakers consider rate hike after strong jobs report",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Fri, 06 Nov 2026 20:58:34 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMF93ekZ4N2wtdW4zX1llS2FoZWpNVlhMLTRNOGVJTUktZmpLQUNBSzY2bW16Mm9mb3lrZERqNFZ6WkRmYkhBTG00Z2k2NFYyNTVLcmVBSkV5eVJRU1RwZFc5blM4MkRmcUxYU2hadXRWbVh0VXpjektqM1BGS3ZlZlNMeW43VWxmeE5TQm13d0E3bTVwUnp5dzFFNA?oc=5",
+      "summary": "Fed policymakers consider rate hike after strong jobs report &nbsp;&nbsp; Reuters",
       "image": null
     },
     {
@@ -2221,15 +2230,6 @@
       "link": "https://decrypt.co/382756/greece-passes-crypto-tax-law-staking-defi",
       "summary": "Greece has approved a crypto tax framework with a €500 ($557) annual gains threshold and new rules for staking and DeFi income, but lawmakers left important questions about token swaps unresolved.",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-decrypt-style-23-gID_7.jpg"
-    },
-    {
-      "title": "Il petrolio chiude in rialzo a New York a 90,83 dollari",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Fri, 6 Nov 2026 20:51:27 +0100",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/11/06/il-petrolio-chiude-in-rialzo-a-new-york-a-9083-dollari_0cee4155-4cca-4a96-a5ca-48ee942124da.html",
-      "summary": "Quotazioni salgono dello 0,34%",
-      "image": null
     },
     {
       "title": "AkzoNobel , Axalta gain conditional EU antitrust approval for $25 billion merger",
@@ -2313,37 +2313,37 @@
       "image": null
     }
   ],
-  "generated_at": "2026-11-07 06:41:56",
+  "generated_at": "2026-11-07 13:50:33",
   "markets_brief": {
     "items": [
       {
-        "title": "Trump’s defeat heralds a US retreat",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/f80ff605-6f6e-4b5d-9fab-20276b78e9b7?syn-25a6b1a6=1"
+        "title": "Berkshire shares surge as Wall Street swoons amid AI fears",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html"
       },
       {
-        "title": "The mother of all American course corrections",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/452cf328-c819-482e-8f2c-61b65c96f8ce?syn-25a6b1a6=1"
+        "title": "Why The Warriors Aren't Parting Ways With Kristaps Porziņģis… Yet",
+        "source": "Forbes",
+        "link": "https://www.forbes.com/sites/bryantoporek/2026/11/07/why-the-warriors-arent-parting-ways-with-kristaps-porziis-yet/"
       },
       {
-        "title": "European security agencies probe whether bomb hoaxes started in Russia",
+        "title": "What will a Democratic Congress mean for Ukraine?",
         "source": "Financial Times",
-        "link": "https://www.ft.com/content/0845687f-1f74-4bbf-88c9-5c6b031c7f20?syn-25a6b1a6=1"
+        "link": "https://www.ft.com/content/fac3a560-7845-4acf-9487-54ec8a445d74?syn-25a6b1a6=1"
       },
       {
-        "title": "Scottish government explores seizing assets of Sanjeev Gupta’s business empire",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/0536161f-9d9d-496c-b25d-e18f7aa510b6?syn-25a6b1a6=1"
+        "title": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
+        "source": "CNBC",
+        "link": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html"
       },
       {
-        "title": "A bittersweet year for liberals",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/3370e949-4a32-4a2d-8738-2f1cde6a35ea?syn-25a6b1a6=1"
+        "title": "Dodgers’ $102 Million Castoff Trevor Bauer Claims MLB Blocked Postseason Return",
+        "source": "Forbes",
+        "link": "https://www.forbes.com/sites/peterchawaga/2026/11/07/dodgers-102-million-castoff-trevor-bauer-claims-mlb-blocked-postseason-return/"
       }
     ],
-    "prose_html": "<p>Lo sconvolgimento politico sta ridisegnando il panorama su entrambi i lati dell&#x27;Atlantico. La vittoria elettorale di Trump segnala un potenziale ritiro degli Stati Uniti dalla sua posizione precedente, marcando quella che gli osservatori descrivono come una grande correzione di rotta americana. Nel frattempo, le agenzie di sicurezza europee stanno indagando se gli attacchi con bombe farlocche hanno avuto origine in Russia, sottolineando le tensioni geopolitiche mentre il continente rivaluta la sua posizione strategica. L&#x27;anno si è rivelato agrodolce per i movimenti liberali su entrambi i lati dell&#x27;Atlantico in mezzo a questi cambiamenti politici in evoluzione.</p>",
-    "prose_html_en": "<p>Political upheaval is reshaping the landscape across the Atlantic. Trump&#x27;s electoral victory signals a potential US retreat from its previous posture, marking what observers describe as a major American course correction. Meanwhile, European security agencies are investigating whether bomb hoaxes originated in Russia, underscoring geopolitical tensions as the continent reassesses its strategic position. The year has proven bittersweet for liberal movements on both sides of the Atlantic amid these shifting political currents.</p>"
+    "prose_html": "<p>Le azioni di Berkshire Hathaway sono salite mentre i mercati azionari più ampi si ritiravano a causa di rinnovate preoccupazioni sulle valutazioni e il dispiegamento dell&#x27;intelligenza artificiale. Il settore tecnologico ha affrontato nuovi ostacoli poiché le aziende che spingono l&#x27;IA nelle scuole si confrontano contemporaneamente con crescenti controversie legali sulla sicurezza dei minori, sollevando interrogativi sul ritmo e la supervisione dell&#x27;integrazione dell&#x27;IA in ambienti sensibili.</p>",
+    "prose_html_en": "<p>Berkshire Hathaway shares surged as broader equity markets retreated amid renewed concerns about artificial intelligence valuations and deployment. The tech sector faced fresh headwinds as companies pushing AI into schools simultaneously grapple with mounting child safety litigation, raising questions about the pace and oversight of AI integration in sensitive environments.</p>"
   },
   "live_close_movers": {
     "captured_at": "2026-11-05T21:20:39Z",

@@ -1,17 +1,16 @@
 {
-  "updated": "2026-11-07T05:42:22Z",
+  "updated": "2026-11-07T12:50:53Z",
   "session_date": "2026-11-06",
   "universe": 558,
   "up": {
-    "count": 207,
+    "count": 203,
     "by_length": {
-      "1": 173,
-      "2": 13,
-      "3": 11,
-      "4": 3,
-      "5": 5,
-      "7": 1,
-      "8+": 1
+      "1": 180,
+      "2": 3,
+      "3": 10,
+      "4": 2,
+      "5": 6,
+      "8+": 2
     },
     "top": [
       {
@@ -29,8 +28,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": 7,
-        "cum_pct": 11.43
+        "days": 8,
+        "cum_pct": 11.76
       },
       {
         "symbol": "APP",
@@ -85,8 +84,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": 4,
-        "cum_pct": 8.15
+        "days": 5,
+        "cum_pct": 9.98
       },
       {
         "symbol": "BG",
@@ -154,14 +153,15 @@
     ]
   },
   "down": {
-    "count": 350,
+    "count": 354,
     "by_length": {
-      "1": 73,
-      "2": 228,
-      "3": 24,
-      "4": 11,
-      "5": 11,
-      "6": 2,
+      "1": 69,
+      "2": 237,
+      "3": 21,
+      "4": 12,
+      "5": 12,
+      "6": 1,
+      "7": 1,
       "8+": 1
     },
     "top": [
@@ -176,6 +176,15 @@
         "cum_pct": -21.87
       },
       {
+        "symbol": "SPM.MI",
+        "name": "Saipem",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -7,
+        "cum_pct": -6.9
+      },
+      {
         "symbol": "NOC",
         "name": "Northrop Grumman",
         "indices": [
@@ -183,15 +192,6 @@
         ],
         "days": -6,
         "cum_pct": -6.64
-      },
-      {
-        "symbol": "SPM.MI",
-        "name": "Saipem",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -6,
-        "cum_pct": -6.42
       },
       {
         "symbol": "DVN",
@@ -295,13 +295,13 @@
         "cum_pct": -9.17
       },
       {
-        "symbol": "FIS",
-        "name": "Fidelity National Information Services",
+        "symbol": "ENI.MI",
+        "name": "Eni",
         "indices": [
-          "sp500"
+          "ftsemib"
         ],
-        "days": -4,
-        "cum_pct": -28.44
+        "days": -5,
+        "cum_pct": -7.68
       }
     ]
   },
