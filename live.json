@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-09T14:29:55Z",
-  "market_open": false,
+  "updated": "2026-11-09T14:47:12Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.27,
-      "last": 7376.86
+      "pct": 1.53,
+      "last": 7487.71
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.28,
-      "last": 26989.99
+      "pct": 2.25,
+      "last": 27583.96
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.46,
-      "last": 51285.73
+      "pct": 1.33,
+      "last": 51954.0
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 2.37,
-      "last": 51248.24
+      "pct": 2.29,
+      "last": 51208.17
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": 190.49
+        "pct": 267.66
       },
       {
         "symbol": "CECO",
         "name": "CECO Environmental Corp.",
-        "pct": 30.85
+        "pct": 20.77
       },
       {
-        "symbol": "IONQ",
-        "name": "IonQ, Inc.",
-        "pct": 23.42
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": 20.02
-      },
-      {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": 13.58
-      },
-      {
-        "symbol": "ABNB",
-        "name": "Airbnb, Inc.",
-        "pct": 11.67
+        "symbol": "QXO",
+        "name": "QXO, Inc.",
+        "pct": 12.98
       },
       {
         "symbol": "SGRY",
         "name": "Surgery Partners, Inc.",
-        "pct": 11.34
+        "pct": 12.24
       },
       {
-        "symbol": "AMD",
-        "name": "Advanced Micro Devices, Inc.",
-        "pct": 11.04
+        "symbol": "WRBY",
+        "name": "Warby Parker Inc.",
+        "pct": 11.87
       },
       {
-        "symbol": "VST",
-        "name": "Vistra Corp.",
-        "pct": 10.55
+        "symbol": "IMVT",
+        "name": "Immunovant, Inc.",
+        "pct": 11.73
       },
       {
-        "symbol": "NET",
-        "name": "Cloudflare, Inc.",
-        "pct": 9.91
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": 10.5
+      },
+      {
+        "symbol": "TTD",
+        "name": "The Trade Desk, Inc.",
+        "pct": 10.44
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": 10.24
+      },
+      {
+        "symbol": "FERG",
+        "name": "Ferguson Enterprises Inc.",
+        "pct": 10.18
       }
     ],
     "losers": [
       {
-        "symbol": "DKNG",
-        "name": "DraftKings Inc.",
-        "pct": -21.3
-      },
-      {
         "symbol": "IONS",
         "name": "Ionis Pharmaceuticals, Inc.",
-        "pct": -18.82
-      },
-      {
-        "symbol": "AXON",
-        "name": "Axon Enterprise, Inc.",
-        "pct": -18.18
-      },
-      {
-        "symbol": "NTRA",
-        "name": "Natera, Inc.",
-        "pct": -14.59
-      },
-      {
-        "symbol": "MCHP",
-        "name": "Microchip Technology Incorporated",
-        "pct": -10.02
+        "pct": -27.07
       },
       {
         "symbol": "ARWR",
         "name": "Arrowhead Pharmaceuticals, Inc.",
-        "pct": -8.85
+        "pct": -15.18
       },
       {
-        "symbol": "BKNG",
-        "name": "Booking Holdings Inc.",
-        "pct": -4.77
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": -8.2
       },
       {
-        "symbol": "CRM",
-        "name": "Salesforce, Inc.",
-        "pct": -3.94
+        "symbol": "AGLT",
+        "name": "Agility Robotics, Inc.",
+        "pct": -7.58
       },
       {
-        "symbol": "ASST",
-        "name": "Strive, Inc.",
-        "pct": -3.54
+        "symbol": "SHLS",
+        "name": "Shoals Technologies Group, Inc.",
+        "pct": -7.29
       },
       {
-        "symbol": "CLMT",
-        "name": "Calumet, Inc",
-        "pct": -3.51
+        "symbol": "ARRY",
+        "name": "Array Technologies, Inc.",
+        "pct": -6.15
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "pct": -5.45
+      },
+      {
+        "symbol": "FSLR",
+        "name": "First Solar, Inc.",
+        "pct": -5.28
+      },
+      {
+        "symbol": "HIMS",
+        "name": "Hims & Hers Health, Inc.",
+        "pct": -5.27
+      },
+      {
+        "symbol": "CGON",
+        "name": "CG Oncology, Inc.",
+        "pct": -4.71
       }
     ],
-    "universe": 1019
+    "universe": 1438
   }
 }
