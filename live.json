@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-09T17:49:37Z",
+  "updated": "2026-11-09T18:07:41Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 2.34,
-      "last": 7547.19
+      "pct": 2.33,
+      "last": 7546.71
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 3.25,
-      "last": 27854.22
+      "pct": 3.14,
+      "last": 27825.15
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 2.13,
-      "last": 52364.73
+      "pct": 2.2,
+      "last": 52400.57
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": 747.69
+        "pct": 477.17
       },
       {
         "symbol": "CECO",
         "name": "CECO Environmental Corp.",
-        "pct": 24.82
-      },
-      {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": 24.2
+        "pct": 23.91
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 22.41
+        "pct": 22.96
+      },
+      {
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": 22.7
       },
       {
         "symbol": "QXO",
         "name": "QXO, Inc.",
-        "pct": 18.47
-      },
-      {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": 18.24
+        "pct": 20.24
       },
       {
         "symbol": "VOYG",
         "name": "Voyager Technologies, Inc.",
-        "pct": 17.35
+        "pct": 17.89
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": 17.69
       },
       {
         "symbol": "TTD",
         "name": "The Trade Desk, Inc.",
-        "pct": 16.98
+        "pct": 17.29
       },
       {
         "symbol": "VSAT",
         "name": "ViaSat, Inc.",
-        "pct": 14.89
+        "pct": 14.03
       },
       {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": 14.68
+        "symbol": "OKLO",
+        "name": "Oklo Inc.",
+        "pct": 14.01
       }
     ],
     "losers": [
       {
         "symbol": "IONS",
         "name": "Ionis Pharmaceuticals, Inc.",
-        "pct": -24.38
+        "pct": -24.77
       },
       {
         "symbol": "ARWR",
         "name": "Arrowhead Pharmaceuticals, Inc.",
-        "pct": -17.52
+        "pct": -17.66
       },
       {
         "symbol": "AGLT",
         "name": "Agility Robotics, Inc.",
-        "pct": -12.44
+        "pct": -14.6
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -11.18
-      },
-      {
-        "symbol": "SHLS",
-        "name": "Shoals Technologies Group, Inc.",
-        "pct": -10.76
+        "pct": -11.07
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": -9.38
+        "pct": -10.79
+      },
+      {
+        "symbol": "SHLS",
+        "name": "Shoals Technologies Group, Inc.",
+        "pct": -10.32
       },
       {
         "symbol": "ARRY",
         "name": "Array Technologies, Inc.",
-        "pct": -8.2
-      },
-      {
-        "symbol": "CLMT",
-        "name": "Calumet, Inc",
-        "pct": -5.34
-      },
-      {
-        "symbol": "TGTX",
-        "name": "TG Therapeutics, Inc.",
-        "pct": -5.29
+        "pct": -9.05
       },
       {
         "symbol": "MNDY",
         "name": "monday.com Ltd.",
-        "pct": -4.94
+        "pct": -5.9
+      },
+      {
+        "symbol": "CLMT",
+        "name": "Calumet, Inc",
+        "pct": -5.55
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "pct": -5.39
       }
     ],
     "universe": 1438
