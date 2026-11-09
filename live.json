@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T14:02:12Z",
+  "updated": "2026-11-09T14:29:55Z",
   "market_open": false,
   "indices": [
     {
@@ -23,41 +23,21 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 2.27,
-      "last": 51198.53
+      "pct": 2.37,
+      "last": 51248.24
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "pct": 42.13
+        "symbol": "OMH",
+        "name": "Ohmyhome Limited",
+        "pct": 190.49
       },
       {
-        "symbol": "FLY",
-        "name": "Firefly Aerospace Inc.",
-        "pct": 36.8
-      },
-      {
-        "symbol": "FROG",
-        "name": "JFrog Ltd.",
-        "pct": 35.33
-      },
-      {
-        "symbol": "LASR",
-        "name": "nLIGHT, Inc.",
-        "pct": 29.58
-      },
-      {
-        "symbol": "TMDX",
-        "name": "TransMedics Group, Inc.",
-        "pct": 27.92
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 25.99
+        "symbol": "CECO",
+        "name": "CECO Environmental Corp.",
+        "pct": 30.85
       },
       {
         "symbol": "IONQ",
@@ -65,73 +45,93 @@
         "pct": 23.42
       },
       {
-        "symbol": "OKLO",
-        "name": "Oklo Inc.",
-        "pct": 22.66
-      },
-      {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "pct": 21.46
-      },
-      {
         "symbol": "IREN",
         "name": "IREN Limited",
         "pct": 20.02
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": 13.58
+      },
+      {
+        "symbol": "ABNB",
+        "name": "Airbnb, Inc.",
+        "pct": 11.67
+      },
+      {
+        "symbol": "SGRY",
+        "name": "Surgery Partners, Inc.",
+        "pct": 11.34
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "pct": 11.04
+      },
+      {
+        "symbol": "VST",
+        "name": "Vistra Corp.",
+        "pct": 10.55
+      },
+      {
+        "symbol": "NET",
+        "name": "Cloudflare, Inc.",
+        "pct": 9.91
       }
     ],
     "losers": [
-      {
-        "symbol": "OMH",
-        "name": "Ohmyhome Limited",
-        "pct": -44.87
-      },
-      {
-        "symbol": "IRTC",
-        "name": "iRhythm Holdings, Inc.",
-        "pct": -30.7
-      },
-      {
-        "symbol": "AMN",
-        "name": "AMN Healthcare Services Inc",
-        "pct": -23.68
-      },
-      {
-        "symbol": "BL",
-        "name": "BlackLine, Inc.",
-        "pct": -23.11
-      },
       {
         "symbol": "DKNG",
         "name": "DraftKings Inc.",
         "pct": -21.3
       },
       {
-        "symbol": "HLIO",
-        "name": "Helios Technologies, Inc.",
-        "pct": -21.05
-      },
-      {
-        "symbol": "OMDA",
-        "name": "Omada Health, Inc.",
-        "pct": -20.37
-      },
-      {
-        "symbol": "AORT",
-        "name": "Artivion, Inc.",
-        "pct": -20.21
-      },
-      {
-        "symbol": "TILE",
-        "name": "Interface, Inc.",
-        "pct": -18.72
+        "symbol": "IONS",
+        "name": "Ionis Pharmaceuticals, Inc.",
+        "pct": -18.82
       },
       {
         "symbol": "AXON",
         "name": "Axon Enterprise, Inc.",
         "pct": -18.18
+      },
+      {
+        "symbol": "NTRA",
+        "name": "Natera, Inc.",
+        "pct": -14.59
+      },
+      {
+        "symbol": "MCHP",
+        "name": "Microchip Technology Incorporated",
+        "pct": -10.02
+      },
+      {
+        "symbol": "ARWR",
+        "name": "Arrowhead Pharmaceuticals, Inc.",
+        "pct": -8.85
+      },
+      {
+        "symbol": "BKNG",
+        "name": "Booking Holdings Inc.",
+        "pct": -4.77
+      },
+      {
+        "symbol": "CRM",
+        "name": "Salesforce, Inc.",
+        "pct": -3.94
+      },
+      {
+        "symbol": "ASST",
+        "name": "Strive, Inc.",
+        "pct": -3.54
+      },
+      {
+        "symbol": "CLMT",
+        "name": "Calumet, Inc",
+        "pct": -3.51
       }
     ],
-    "universe": 1440
+    "universe": 1019
   }
 }
