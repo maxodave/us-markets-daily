@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-09T14:47:12Z",
+  "updated": "2026-11-09T15:45:44Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.53,
-      "last": 7487.71
+      "pct": 1.97,
+      "last": 7520.13
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 2.25,
-      "last": 27583.96
+      "pct": 2.85,
+      "last": 27746.76
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.33,
-      "last": 51954.0
+      "pct": 1.64,
+      "last": 52111.4
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 2.29,
-      "last": 51208.17
+      "pct": 2.6,
+      "last": 51366.93
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": 267.66
+        "pct": 604.35
       },
       {
         "symbol": "CECO",
         "name": "CECO Environmental Corp.",
-        "pct": 20.77
-      },
-      {
-        "symbol": "QXO",
-        "name": "QXO, Inc.",
-        "pct": 12.98
-      },
-      {
-        "symbol": "SGRY",
-        "name": "Surgery Partners, Inc.",
-        "pct": 12.24
+        "pct": 23.13
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 11.87
+        "pct": 20.55
       },
       {
-        "symbol": "IMVT",
-        "name": "Immunovant, Inc.",
-        "pct": 11.73
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": 10.5
+        "symbol": "QXO",
+        "name": "QXO, Inc.",
+        "pct": 16.65
       },
       {
         "symbol": "TTD",
         "name": "The Trade Desk, Inc.",
-        "pct": 10.44
+        "pct": 15.39
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": 14.96
+      },
+      {
+        "symbol": "IMVT",
+        "name": "Immunovant, Inc.",
+        "pct": 14.43
+      },
+      {
+        "symbol": "VSAT",
+        "name": "ViaSat, Inc.",
+        "pct": 14.01
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 10.24
+        "pct": 13.93
       },
       {
-        "symbol": "FERG",
-        "name": "Ferguson Enterprises Inc.",
-        "pct": 10.18
+        "symbol": "FLY",
+        "name": "Firefly Aerospace Inc.",
+        "pct": 13.39
       }
     ],
     "losers": [
       {
         "symbol": "IONS",
         "name": "Ionis Pharmaceuticals, Inc.",
-        "pct": -27.07
+        "pct": -27.4
       },
       {
         "symbol": "ARWR",
         "name": "Arrowhead Pharmaceuticals, Inc.",
-        "pct": -15.18
-      },
-      {
-        "symbol": "VXX",
-        "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -8.2
-      },
-      {
-        "symbol": "AGLT",
-        "name": "Agility Robotics, Inc.",
-        "pct": -7.58
+        "pct": -17.99
       },
       {
         "symbol": "SHLS",
         "name": "Shoals Technologies Group, Inc.",
-        "pct": -7.29
+        "pct": -9.97
+      },
+      {
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": -9.93
+      },
+      {
+        "symbol": "AGLT",
+        "name": "Agility Robotics, Inc.",
+        "pct": -9.29
       },
       {
         "symbol": "ARRY",
         "name": "Array Technologies, Inc.",
-        "pct": -6.15
+        "pct": -8.54
       },
       {
-        "symbol": "NVDA",
-        "name": "NVIDIA Corporation",
-        "pct": -5.45
-      },
-      {
-        "symbol": "FSLR",
-        "name": "First Solar, Inc.",
-        "pct": -5.28
+        "symbol": "TGTX",
+        "name": "TG Therapeutics, Inc.",
+        "pct": -6.94
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": -5.27
+        "pct": -6.77
       },
       {
-        "symbol": "CGON",
-        "name": "CG Oncology, Inc.",
-        "pct": -4.71
+        "symbol": "MNDY",
+        "name": "monday.com Ltd.",
+        "pct": -6.38
+      },
+      {
+        "symbol": "FSLR",
+        "name": "First Solar, Inc.",
+        "pct": -5.5
       }
     ],
-    "universe": 1438
+    "universe": 1437
   }
 }
