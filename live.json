@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-09T20:23:06Z",
-  "market_open": true,
+  "updated": "2026-11-09T21:00:47Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 2.7,
-      "last": 7573.98
+      "pct": 2.45,
+      "last": 7555.42
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 3.78,
-      "last": 27998.34
+      "pct": 3.53,
+      "last": 27930.13
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 2.43,
-      "last": 52517.01
+      "pct": 2.22,
+      "last": 52409.72
     },
     {
       "key": "ftsemib",
@@ -32,106 +32,106 @@
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": 546.26
+        "pct": 262.16
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "pct": 23.64
-      },
-      {
-        "symbol": "QXO",
-        "name": "QXO, Inc.",
-        "pct": 21.41
-      },
-      {
-        "symbol": "CECO",
-        "name": "CECO Environmental Corp.",
-        "pct": 21.25
+        "pct": 25.58
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": 21.09
+        "pct": 19.31
       },
       {
         "symbol": "PRAX",
         "name": "Praxis Precision Medicines, Inc.",
-        "pct": 18.91
+        "pct": 19.26
       },
       {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": 18.68
+        "symbol": "QXO",
+        "name": "QXO, Inc.",
+        "pct": 18.99
       },
       {
-        "symbol": "VOYG",
-        "name": "Voyager Technologies, Inc.",
-        "pct": 17.37
+        "symbol": "CECO",
+        "name": "CECO Environmental Corp.",
+        "pct": 18.94
       },
       {
-        "symbol": "TTD",
-        "name": "The Trade Desk, Inc.",
-        "pct": 16.98
+        "symbol": "FLY",
+        "name": "Firefly Aerospace Inc.",
+        "pct": 16.67
+      },
+      {
+        "symbol": "MPWR",
+        "name": "Monolithic Power Systems, Inc.",
+        "pct": 16.62
       },
       {
         "symbol": "VSAT",
         "name": "ViaSat, Inc.",
-        "pct": 16.74
+        "pct": 16.58
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": 16.51
       }
     ],
     "losers": [
       {
         "symbol": "IONS",
         "name": "Ionis Pharmaceuticals, Inc.",
-        "pct": -22.3
+        "pct": -21.87
       },
       {
         "symbol": "ARWR",
         "name": "Arrowhead Pharmaceuticals, Inc.",
-        "pct": -16.11
-      },
-      {
-        "symbol": "VXX",
-        "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -13.03
-      },
-      {
-        "symbol": "AGLT",
-        "name": "Agility Robotics, Inc.",
-        "pct": -12.33
+        "pct": -15.18
       },
       {
         "symbol": "SHLS",
         "name": "Shoals Technologies Group, Inc.",
-        "pct": -11.76
+        "pct": -13.44
       },
       {
-        "symbol": "ARRY",
-        "name": "Array Technologies, Inc.",
-        "pct": -10.59
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": -13.23
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": -9.9
+        "pct": -12.19
+      },
+      {
+        "symbol": "AGLT",
+        "name": "Agility Robotics, Inc.",
+        "pct": -12.17
+      },
+      {
+        "symbol": "ARRY",
+        "name": "Array Technologies, Inc.",
+        "pct": -11.27
       },
       {
         "symbol": "MNDY",
         "name": "monday.com Ltd.",
-        "pct": -7.88
+        "pct": -8.88
       },
       {
         "symbol": "CLMT",
         "name": "Calumet, Inc",
-        "pct": -7.58
+        "pct": -8.8
       },
       {
-        "symbol": "NVDA",
-        "name": "NVIDIA Corporation",
-        "pct": -4.73
+        "symbol": "DBX",
+        "name": "Dropbox, Inc.",
+        "pct": -5.81
       }
     ],
-    "universe": 1438
+    "universe": 1439
   }
 }
