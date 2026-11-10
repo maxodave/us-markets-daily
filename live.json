@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-10T20:44:18Z",
-  "market_open": true,
+  "updated": "2026-11-10T21:01:31Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.43,
-      "last": 7516.32
+      "pct": -0.37,
+      "last": 7521.11
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.76,
-      "last": 27692.71
+      "pct": -0.59,
+      "last": 27740.79
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.33,
-      "last": 52215.11
+      "pct": -0.3,
+      "last": 52233.26
     },
     {
       "key": "ftsemib",
@@ -32,106 +32,106 @@
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": 97.43
+        "pct": 105.88
       },
       {
         "symbol": "AAON",
         "name": "AAON, Inc.",
-        "pct": 19.41
+        "pct": 19.31
       },
       {
         "symbol": "MF",
         "name": "MindForge Inc.",
-        "pct": 14.94
-      },
-      {
-        "symbol": "CHTR",
-        "name": "Charter Communications, Inc.",
-        "pct": 11.11
+        "pct": 17.93
       },
       {
         "symbol": "ACAD",
         "name": "ACADIA Pharmaceuticals Inc.",
-        "pct": 9.94
+        "pct": 10.79
+      },
+      {
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "pct": 10.61
       },
       {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
-        "pct": 9.6
-      },
-      {
-        "symbol": "TTWO",
-        "name": "Take-Two Interactive Software, Inc.",
-        "pct": 8.11
-      },
-      {
-        "symbol": "TNGX",
-        "name": "Tango Therapeutics, Inc.",
-        "pct": 7.85
-      },
-      {
-        "symbol": "EMBJ",
-        "name": "Embraer S.A.",
-        "pct": 7.84
+        "pct": 10.54
       },
       {
         "symbol": "CKX",
         "name": "CKX Lands, Inc.",
-        "pct": 7.04
+        "pct": 8.57
+      },
+      {
+        "symbol": "TTWO",
+        "name": "Take-Two Interactive Software, Inc.",
+        "pct": 8.31
+      },
+      {
+        "symbol": "ZETA",
+        "name": "Zeta Global Holdings Corp.",
+        "pct": 8.23
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 7.39
       }
     ],
     "losers": [
       {
         "symbol": "APPS",
         "name": "Digital Turbine, Inc.",
-        "pct": -37.12
+        "pct": -35.84
       },
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": -26.16
-      },
-      {
-        "symbol": "HIMS",
-        "name": "Hims & Hers Health, Inc.",
-        "pct": -17.48
-      },
-      {
-        "symbol": "NOVT",
-        "name": "Novanta Inc.",
-        "pct": -14.95
+        "pct": -35.7
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": -14.8
+        "pct": -16.57
+      },
+      {
+        "symbol": "HIMS",
+        "name": "Hims & Hers Health, Inc.",
+        "pct": -16.52
+      },
+      {
+        "symbol": "NOVT",
+        "name": "Novanta Inc.",
+        "pct": -15.26
       },
       {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "pct": -12.59
-      },
-      {
-        "symbol": "HYMC",
-        "name": "Hycroft Mining Holding Corporation",
-        "pct": -11.61
-      },
-      {
-        "symbol": "RUN",
-        "name": "Sunrun Inc.",
-        "pct": -11.51
-      },
-      {
-        "symbol": "USAR",
-        "name": "USA Rare Earth, Inc.",
-        "pct": -11.13
+        "pct": -13.51
       },
       {
         "symbol": "LINE",
         "name": "Lineage, Inc.",
-        "pct": -10.73
+        "pct": -12.05
+      },
+      {
+        "symbol": "HYMC",
+        "name": "Hycroft Mining Holding Corporation",
+        "pct": -11.28
+      },
+      {
+        "symbol": "RUN",
+        "name": "Sunrun Inc.",
+        "pct": -10.57
+      },
+      {
+        "symbol": "CRSP",
+        "name": "CRISPR Therapeutics AG",
+        "pct": -9.77
       }
     ],
-    "universe": 1448
+    "universe": 1446
   }
 }
