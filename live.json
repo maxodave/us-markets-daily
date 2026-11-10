@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-10T15:15:34Z",
+  "updated": "2026-11-10T15:25:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.21,
-      "last": 7533.44
+      "pct": -0.36,
+      "last": 7521.71
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.02,
-      "last": 27899.29
+      "pct": -0.27,
+      "last": 27831.14
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.32,
-      "last": 52220.9
+      "pct": -0.46,
+      "last": 52146.17
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.27,
-      "last": 52020.94
+      "pct": 1.24,
+      "last": 52002.37
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": 62.57
+        "pct": 71.12
       },
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": 61.15
+        "pct": 67.93
       },
       {
         "symbol": "AAON",
         "name": "AAON, Inc.",
-        "pct": 25.53
+        "pct": 24.4
       },
       {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
-        "pct": 11.82
+        "pct": 13.4
       },
       {
         "symbol": "SANM",
         "name": "Sanmina Corporation",
-        "pct": 11.52
+        "pct": 11.56
+      },
+      {
+        "symbol": "MF",
+        "name": "MindForge Inc.",
+        "pct": 9.56
       },
       {
         "symbol": "DOCN",
         "name": "DigitalOcean Holdings, Inc.",
-        "pct": 7.99
-      },
-      {
-        "symbol": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "pct": 6.24
-      },
-      {
-        "symbol": "TTWO",
-        "name": "Take-Two Interactive Software, Inc.",
-        "pct": 6.17
+        "pct": 7.82
       },
       {
         "symbol": "TGTX",
         "name": "TG Therapeutics, Inc.",
-        "pct": 5.85
+        "pct": 7.1
       },
       {
-        "symbol": "CLS",
-        "name": "Celestica, Inc.",
-        "pct": 5.51
+        "symbol": "ZETA",
+        "name": "Zeta Global Holdings Corp.",
+        "pct": 6.89
+      },
+      {
+        "symbol": "TTWO",
+        "name": "Take-Two Interactive Software, Inc.",
+        "pct": 6.87
       }
     ],
     "losers": [
       {
         "symbol": "APPS",
         "name": "Digital Turbine, Inc.",
-        "pct": -35.71
+        "pct": -34.51
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": -16.94
+        "pct": -15.09
       },
       {
         "symbol": "NOVT",
         "name": "Novanta Inc.",
-        "pct": -14.0
-      },
-      {
-        "symbol": "LINE",
-        "name": "Lineage, Inc.",
-        "pct": -12.56
+        "pct": -14.49
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": -11.79
+        "pct": -13.21
       },
       {
-        "symbol": "GFL",
-        "name": "GFL Environmental Inc. Subordinate voting sh",
-        "pct": -9.68
+        "symbol": "LINE",
+        "name": "Lineage, Inc.",
+        "pct": -12.71
       },
       {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "pct": -9.43
+        "pct": -9.46
       },
       {
-        "symbol": "ONON",
-        "name": "On Holding AG",
-        "pct": -8.39
+        "symbol": "GFL",
+        "name": "GFL Environmental Inc. Subordinate voting sh",
+        "pct": -9.02
       },
       {
         "symbol": "SKYD",
         "name": "Skydance Corporation",
-        "pct": -8.22
+        "pct": -8.68
       },
       {
-        "symbol": "QBTS",
-        "name": "D-Wave Quantum Inc.",
-        "pct": -7.67
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": -7.93
+      },
+      {
+        "symbol": "ONON",
+        "name": "On Holding AG",
+        "pct": -7.86
       }
     ],
-    "universe": 1448
+    "universe": 1447
   }
 }
