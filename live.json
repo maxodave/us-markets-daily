@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-10T17:21:03Z",
+  "updated": "2026-11-10T17:25:33Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.7,
-      "last": 7495.88
+      "pct": -0.84,
+      "last": 7485.8
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.17,
-      "last": 27580.17
+      "pct": -1.34,
+      "last": 27532.29
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.48,
-      "last": 52134.76
+      "pct": -0.6,
+      "last": 52073.0
     },
     {
       "key": "ftsemib",
@@ -32,7 +32,7 @@
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": 113.97
+        "pct": 140.17
       },
       {
         "symbol": "SMX",
@@ -40,98 +40,98 @@
         "pct": 26.84
       },
       {
-        "symbol": "MF",
-        "name": "MindForge Inc.",
-        "pct": 21.15
-      },
-      {
         "symbol": "AAON",
         "name": "AAON, Inc.",
-        "pct": 19.58
+        "pct": 19.52
       },
       {
-        "symbol": "CKX",
-        "name": "CKX Lands, Inc.",
-        "pct": 10.06
+        "symbol": "MF",
+        "name": "MindForge Inc.",
+        "pct": 17.17
       },
       {
         "symbol": "ACAD",
         "name": "ACADIA Pharmaceuticals Inc.",
-        "pct": 8.55
+        "pct": 8.61
+      },
+      {
+        "symbol": "CKX",
+        "name": "CKX Lands, Inc.",
+        "pct": 8.23
       },
       {
         "symbol": "EMBJ",
         "name": "Embraer S.A.",
-        "pct": 8.25
-      },
-      {
-        "symbol": "ZETA",
-        "name": "Zeta Global Holdings Corp.",
-        "pct": 7.59
+        "pct": 7.56
       },
       {
         "symbol": "TTWO",
         "name": "Take-Two Interactive Software, Inc.",
-        "pct": 7.56
+        "pct": 7.24
       },
       {
-        "symbol": "CHTR",
-        "name": "Charter Communications, Inc.",
-        "pct": 6.46
+        "symbol": "ZETA",
+        "name": "Zeta Global Holdings Corp.",
+        "pct": 6.76
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 6.28
       }
     ],
     "losers": [
       {
         "symbol": "APPS",
         "name": "Digital Turbine, Inc.",
-        "pct": -35.27
+        "pct": -35.4
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": -19.03
+        "pct": -19.35
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": -16.62
+        "pct": -16.56
       },
       {
         "symbol": "NOVT",
         "name": "Novanta Inc.",
-        "pct": -15.51
-      },
-      {
-        "symbol": "HYMC",
-        "name": "Hycroft Mining Holding Corporation",
-        "pct": -12.18
+        "pct": -15.24
       },
       {
         "symbol": "USAR",
         "name": "USA Rare Earth, Inc.",
-        "pct": -12.04
+        "pct": -12.56
       },
       {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "pct": -12.04
+        "pct": -12.56
       },
       {
-        "symbol": "UPST",
-        "name": "Upstart Holdings, Inc.",
-        "pct": -10.81
-      },
-      {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -10.46
+        "symbol": "HYMC",
+        "name": "Hycroft Mining Holding Corporation",
+        "pct": -12.34
       },
       {
         "symbol": "QBTS",
         "name": "D-Wave Quantum Inc.",
-        "pct": -10.33
+        "pct": -11.01
+      },
+      {
+        "symbol": "UPST",
+        "name": "Upstart Holdings, Inc.",
+        "pct": -10.97
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -10.86
       }
     ],
-    "universe": 1448
+    "universe": 1447
   }
 }
