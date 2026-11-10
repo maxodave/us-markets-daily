@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-10T16:28:12Z",
+  "updated": "2026-11-10T16:30:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.71,
-      "last": 7495.2
+      "pct": -0.66,
+      "last": 7499.2
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.88,
-      "last": 27661.23
+      "pct": -0.82,
+      "last": 27677.23
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.63,
-      "last": 52057.27
+      "pct": -0.59,
+      "last": 52081.79
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.08,
-      "last": 51923.13
+      "pct": 1.06,
+      "last": 51912.18
     }
   ],
   "movers": {
@@ -37,64 +37,64 @@
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": 101.18
+        "pct": 96.58
       },
       {
         "symbol": "AAON",
         "name": "AAON, Inc.",
-        "pct": 23.15
+        "pct": 23.1
       },
       {
         "symbol": "MF",
         "name": "MindForge Inc.",
-        "pct": 16.26
+        "pct": 17.31
       },
       {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
-        "pct": 8.96
+        "pct": 8.73
       },
       {
         "symbol": "EMBJ",
         "name": "Embraer S.A.",
-        "pct": 7.95
-      },
-      {
-        "symbol": "DCTH",
-        "name": "Delcath Systems, Inc.",
-        "pct": 7.05
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 6.59
+        "pct": 7.9
       },
       {
         "symbol": "TTWO",
         "name": "Take-Two Interactive Software, Inc.",
-        "pct": 6.39
+        "pct": 7.08
       },
       {
-        "symbol": "ZETA",
-        "name": "Zeta Global Holdings Corp.",
-        "pct": 6.34
+        "symbol": "DCTH",
+        "name": "Delcath Systems, Inc.",
+        "pct": 6.91
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 6.68
+      },
+      {
+        "symbol": "ACAD",
+        "name": "ACADIA Pharmaceuticals Inc.",
+        "pct": 6.67
       }
     ],
     "losers": [
       {
         "symbol": "APPS",
         "name": "Digital Turbine, Inc.",
-        "pct": -35.49
+        "pct": -34.61
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": -18.26
+        "pct": -18.03
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": -17.04
+        "pct": -17.94
       },
       {
         "symbol": "NOVT",
@@ -104,17 +104,22 @@
       {
         "symbol": "LINE",
         "name": "Lineage, Inc.",
-        "pct": -12.96
+        "pct": -12.9
       },
       {
         "symbol": "USAR",
         "name": "USA Rare Earth, Inc.",
-        "pct": -11.07
+        "pct": -11.24
       },
       {
         "symbol": "HYMC",
         "name": "Hycroft Mining Holding Corporation",
-        "pct": -10.77
+        "pct": -11.1
+      },
+      {
+        "symbol": "QLYS",
+        "name": "Qualys, Inc.",
+        "pct": -10.81
       },
       {
         "symbol": "UPST",
@@ -122,14 +127,9 @@
         "pct": -10.62
       },
       {
-        "symbol": "QLYS",
-        "name": "Qualys, Inc.",
-        "pct": -10.51
-      },
-      {
-        "symbol": "JANX",
-        "name": "Janux Therapeutics, Inc.",
-        "pct": -9.01
+        "symbol": "QBTS",
+        "name": "D-Wave Quantum Inc.",
+        "pct": -9.33
       }
     ],
     "universe": 1447
