@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T21:18:18Z",
+  "updated": "2026-11-10T14:10:37Z",
   "market_open": false,
   "indices": [
     {
@@ -12,7 +12,7 @@
       "key": "nasdaq100",
       "label": "Nasdaq-100",
       "pct": 3.45,
-      "last": 27907.62
+      "last": 27907.63
     },
     {
       "key": "dow",
@@ -23,8 +23,8 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 2.67,
-      "last": 51399.88
+      "pct": 1.05,
+      "last": 51907.92
     }
   ],
   "movers": {
@@ -35,9 +35,39 @@
         "pct": 251.09
       },
       {
+        "symbol": "SMX",
+        "name": "SMX (Security Matters) Public Limited Compan",
+        "pct": 89.66
+      },
+      {
+        "symbol": "CKX",
+        "name": "CKX Lands, Inc.",
+        "pct": 58.15
+      },
+      {
+        "symbol": "GFR",
+        "name": "Greenfire Resources Ltd.",
+        "pct": 38.04
+      },
+      {
+        "symbol": "DCTH",
+        "name": "Delcath Systems, Inc.",
+        "pct": 35.77
+      },
+      {
+        "symbol": "MF",
+        "name": "MindForge Inc.",
+        "pct": 34.68
+      },
+      {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
         "pct": 26.02
+      },
+      {
+        "symbol": "LINC",
+        "name": "Lincoln Educational Services Corporation",
+        "pct": 24.58
       },
       {
         "symbol": "PRAX",
@@ -48,39 +78,24 @@
         "symbol": "QXO",
         "name": "QXO, Inc.",
         "pct": 19.2
-      },
-      {
-        "symbol": "CECO",
-        "name": "CECO Environmental Corp.",
-        "pct": 18.97
-      },
-      {
-        "symbol": "WRBY",
-        "name": "Warby Parker Inc.",
-        "pct": 18.56
-      },
-      {
-        "symbol": "FLY",
-        "name": "Firefly Aerospace Inc.",
-        "pct": 17.1
-      },
-      {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": 16.79
-      },
-      {
-        "symbol": "MPWR",
-        "name": "Monolithic Power Systems, Inc.",
-        "pct": 16.6
-      },
-      {
-        "symbol": "VOYG",
-        "name": "Voyager Technologies, Inc.",
-        "pct": 16.35
       }
     ],
     "losers": [
+      {
+        "symbol": "FTH",
+        "name": "Faeth Therapeutics, Inc.",
+        "pct": -42.49
+      },
+      {
+        "symbol": "JANX",
+        "name": "Janux Therapeutics, Inc.",
+        "pct": -27.62
+      },
+      {
+        "symbol": "ACAD",
+        "name": "ACADIA Pharmaceuticals Inc.",
+        "pct": -22.28
+      },
       {
         "symbol": "IONS",
         "name": "Ionis Pharmaceuticals, Inc.",
@@ -112,26 +127,11 @@
         "pct": -11.36
       },
       {
-        "symbol": "AGLT",
-        "name": "Agility Robotics, Inc.",
-        "pct": -11.31
-      },
-      {
         "symbol": "MNDY",
         "name": "monday.com Ltd.",
         "pct": -9.1
-      },
-      {
-        "symbol": "CLMT",
-        "name": "Calumet, Inc",
-        "pct": -9.03
-      },
-      {
-        "symbol": "DBX",
-        "name": "Dropbox, Inc.",
-        "pct": -6.0
       }
     ],
-    "universe": 1438
+    "universe": 1448
   }
 }
