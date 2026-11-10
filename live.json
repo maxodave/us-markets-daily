@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-10T16:05:38Z",
+  "updated": "2026-11-10T16:15:34Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.68,
-      "last": 7497.77
+      "pct": -0.59,
+      "last": 7504.51
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.74,
-      "last": 27698.62
+      "pct": -0.58,
+      "last": 27744.92
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.62,
-      "last": 52064.52
+      "pct": -0.63,
+      "last": 52061.03
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.96,
-      "last": 51858.82
+      "pct": 1.02,
+      "last": 51891.7
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": 153.48
+        "pct": 168.19
       },
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": 111.66
+        "pct": 114.44
       },
       {
         "symbol": "AAON",
         "name": "AAON, Inc.",
-        "pct": 23.27
-      },
-      {
-        "symbol": "MF",
-        "name": "MindForge Inc.",
-        "pct": 11.0
+        "pct": 22.47
       },
       {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
-        "pct": 9.71
+        "pct": 11.45
+      },
+      {
+        "symbol": "MF",
+        "name": "MindForge Inc.",
+        "pct": 10.96
       },
       {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": 8.74
-      },
-      {
-        "symbol": "TTWO",
-        "name": "Take-Two Interactive Software, Inc.",
-        "pct": 7.86
+        "pct": 8.39
       },
       {
         "symbol": "EMBJ",
         "name": "Embraer S.A.",
-        "pct": 7.86
+        "pct": 7.63
       },
       {
-        "symbol": "DCTH",
-        "name": "Delcath Systems, Inc.",
-        "pct": 6.76
+        "symbol": "LINC",
+        "name": "Lincoln Educational Services Corporation",
+        "pct": 6.91
       },
       {
         "symbol": "ZETA",
         "name": "Zeta Global Holdings Corp.",
-        "pct": 6.24
+        "pct": 6.79
+      },
+      {
+        "symbol": "DCTH",
+        "name": "Delcath Systems, Inc.",
+        "pct": 6.68
       }
     ],
     "losers": [
       {
         "symbol": "APPS",
         "name": "Digital Turbine, Inc.",
-        "pct": -34.88
+        "pct": -34.73
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": -18.99
-      },
-      {
-        "symbol": "NOVT",
-        "name": "Novanta Inc.",
-        "pct": -16.23
+        "pct": -18.94
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": -15.56
+        "pct": -15.85
       },
       {
-        "symbol": "QLYS",
-        "name": "Qualys, Inc.",
-        "pct": -11.5
-      },
-      {
-        "symbol": "USAR",
-        "name": "USA Rare Earth, Inc.",
-        "pct": -10.99
-      },
-      {
-        "symbol": "UPST",
-        "name": "Upstart Holdings, Inc.",
-        "pct": -10.9
-      },
-      {
-        "symbol": "HYMC",
-        "name": "Hycroft Mining Holding Corporation",
-        "pct": -10.81
+        "symbol": "NOVT",
+        "name": "Novanta Inc.",
+        "pct": -14.45
       },
       {
         "symbol": "LINE",
         "name": "Lineage, Inc.",
-        "pct": -10.64
+        "pct": -11.86
       },
       {
-        "symbol": "SKYD",
-        "name": "Skydance Corporation",
-        "pct": -8.97
+        "symbol": "QLYS",
+        "name": "Qualys, Inc.",
+        "pct": -10.69
+      },
+      {
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": -10.62
+      },
+      {
+        "symbol": "HYMC",
+        "name": "Hycroft Mining Holding Corporation",
+        "pct": -10.39
+      },
+      {
+        "symbol": "UPST",
+        "name": "Upstart Holdings, Inc.",
+        "pct": -10.18
+      },
+      {
+        "symbol": "IONS",
+        "name": "Ionis Pharmaceuticals, Inc.",
+        "pct": -8.9
       }
     ],
     "universe": 1447
