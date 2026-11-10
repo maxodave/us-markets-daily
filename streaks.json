@@ -1,15 +1,16 @@
 {
-  "updated": "2026-11-09T01:15:54Z",
-  "session_date": "2026-11-06",
+  "updated": "2026-11-10T03:48:26Z",
+  "session_date": "2026-11-09",
   "universe": 558,
   "up": {
-    "count": 203,
+    "count": 446,
     "by_length": {
-      "1": 180,
-      "2": 3,
-      "3": 10,
-      "4": 2,
-      "5": 6,
+      "1": 267,
+      "2": 163,
+      "3": 1,
+      "4": 7,
+      "5": 3,
+      "6": 3,
       "8+": 2
     },
     "top": [
@@ -19,8 +20,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 8,
-        "cum_pct": 32.66
+        "days": 9,
+        "cum_pct": 34.01
       },
       {
         "symbol": "LTMC.MI",
@@ -38,17 +39,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 5,
-        "cum_pct": 71.21
-      },
-      {
-        "symbol": "FSLR",
-        "name": "First Solar",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 15.33
+        "days": 6,
+        "cum_pct": 79.43
       },
       {
         "symbol": "CLX",
@@ -56,18 +48,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 13.59
-      },
-      {
-        "symbol": "TTWO",
-        "name": "Take-Two Interactive",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 5,
-        "cum_pct": 12.99
+        "days": 6,
+        "cum_pct": 19.92
       },
       {
         "symbol": "EW",
@@ -75,8 +57,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 5,
-        "cum_pct": 11.01
+        "days": 6,
+        "cum_pct": 13.8
       },
       {
         "symbol": "AMP.MI",
@@ -88,22 +70,22 @@
         "cum_pct": 9.98
       },
       {
-        "symbol": "BG",
-        "name": "Bunge Global",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 5.18
-      },
-      {
         "symbol": "IQV",
         "name": "IQVIA",
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 5.18
+        "days": 5,
+        "cum_pct": 7.89
+      },
+      {
+        "symbol": "BG",
+        "name": "Bunge Global",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 7.39
       },
       {
         "symbol": "MOS",
@@ -111,8 +93,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 3,
-        "cum_pct": 21.39
+        "days": 4,
+        "cum_pct": 23.62
       },
       {
         "symbol": "NEM",
@@ -120,8 +102,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 3,
-        "cum_pct": 12.51
+        "days": 4,
+        "cum_pct": 16.46
       },
       {
         "symbol": "CPAY",
@@ -129,17 +111,18 @@
         "indices": [
           "sp500"
         ],
-        "days": 3,
-        "cum_pct": 11.95
+        "days": 4,
+        "cum_pct": 12.64
       },
       {
-        "symbol": "ALB",
-        "name": "Albemarle Corporation",
+        "symbol": "TMUS",
+        "name": "T-Mobile US",
         "indices": [
-          "sp500"
+          "sp500",
+          "nasdaq100"
         ],
-        "days": 3,
-        "cum_pct": 10.05
+        "days": 4,
+        "cum_pct": 9.26
       },
       {
         "symbol": "CAH",
@@ -147,34 +130,41 @@
         "indices": [
           "sp500"
         ],
-        "days": 3,
-        "cum_pct": 7.42
+        "days": 4,
+        "cum_pct": 8.44
+      },
+      {
+        "symbol": "VMRK",
+        "name": "Vivmark Residential",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 6.61
+      },
+      {
+        "symbol": "EVRG",
+        "name": "Evergy",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 2.97
       }
     ]
   },
   "down": {
-    "count": 354,
+    "count": 110,
     "by_length": {
-      "1": 69,
-      "2": 237,
-      "3": 21,
-      "4": 12,
-      "5": 12,
-      "6": 1,
-      "7": 1,
-      "8+": 1
+      "1": 28,
+      "2": 36,
+      "3": 35,
+      "4": 2,
+      "5": 4,
+      "6": 4,
+      "7": 1
     },
     "top": [
-      {
-        "symbol": "PANW",
-        "name": "Palo Alto Networks",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -8,
-        "cum_pct": -21.87
-      },
       {
         "symbol": "SPM.MI",
         "name": "Saipem",
@@ -185,68 +175,14 @@
         "cum_pct": -6.9
       },
       {
-        "symbol": "NOC",
-        "name": "Northrop Grumman",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -6.64
-      },
-      {
-        "symbol": "DVN",
-        "name": "Devon Energy",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -19.06
-      },
-      {
-        "symbol": "MPC",
-        "name": "Marathon Petroleum",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -16.19
-      },
-      {
         "symbol": "FANG",
         "name": "Diamondback Energy",
         "indices": [
           "sp500",
           "nasdaq100"
         ],
-        "days": -5,
-        "cum_pct": -15.62
-      },
-      {
-        "symbol": "PSX",
-        "name": "Phillips 66",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -13.12
-      },
-      {
-        "symbol": "OKE",
-        "name": "Oneok",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -12.24
-      },
-      {
-        "symbol": "HAL",
-        "name": "Halliburton",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -11.97
+        "days": -6,
+        "cum_pct": -15.99
       },
       {
         "symbol": "LYB",
@@ -254,17 +190,17 @@
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -11.54
+        "days": -6,
+        "cum_pct": -13.32
       },
       {
-        "symbol": "EQT",
-        "name": "EQT Corporation",
+        "symbol": "DOW",
+        "name": "Dow Inc.",
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -10.8
+        "days": -6,
+        "cum_pct": -10.78
       },
       {
         "symbol": "CVX",
@@ -273,26 +209,17 @@
           "sp500",
           "dow"
         ],
-        "days": -5,
-        "cum_pct": -9.73
+        "days": -6,
+        "cum_pct": -10.5
       },
       {
-        "symbol": "DOW",
-        "name": "Dow Inc.",
+        "symbol": "FIS",
+        "name": "Fidelity National Information Services",
         "indices": [
           "sp500"
         ],
         "days": -5,
-        "cum_pct": -9.51
-      },
-      {
-        "symbol": "SRE",
-        "name": "Sempra",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -9.17
+        "cum_pct": -29.41
       },
       {
         "symbol": "ENI.MI",
@@ -302,10 +229,83 @@
         ],
         "days": -5,
         "cum_pct": -7.68
+      },
+      {
+        "symbol": "COF",
+        "name": "Capital One",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -5.78
+      },
+      {
+        "symbol": "SYF",
+        "name": "Synchrony Financial",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -4.69
+      },
+      {
+        "symbol": "FCT.MI",
+        "name": "Fincantieri",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -4,
+        "cum_pct": -8.24
+      },
+      {
+        "symbol": "LDO.MI",
+        "name": "Leonardo",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -4,
+        "cum_pct": -7.65
+      },
+      {
+        "symbol": "AXON",
+        "name": "Axon Enterprise",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -28.53
+      },
+      {
+        "symbol": "EXPE",
+        "name": "Expedia Group",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -17.96
+      },
+      {
+        "symbol": "MSTR",
+        "name": "MicroStrategy",
+        "indices": [
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -11.89
+      },
+      {
+        "symbol": "AVIO.MI",
+        "name": "Avio",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -3,
+        "cum_pct": -10.88
       }
     ]
   },
   "flat": {
-    "count": 1
+    "count": 2
   }
 }
