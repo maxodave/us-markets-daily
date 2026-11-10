@@ -1,137 +1,137 @@
 {
-  "updated": "2026-11-10T14:24:05Z",
-  "market_open": false,
+  "updated": "2026-11-10T14:39:58Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 2.37,
-      "last": 7549.94
+      "pct": -0.48,
+      "last": 7513.13
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 3.45,
-      "last": 27907.63
+      "pct": -0.73,
+      "last": 27702.51
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 2.18,
-      "last": 52389.75
+      "pct": -0.22,
+      "last": 52274.98
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.15,
-      "last": 51958.22
+      "pct": 1.09,
+      "last": 51927.26
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "OMH",
-        "name": "Ohmyhome Limited",
-        "pct": 251.09
-      },
-      {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": 89.66
+        "pct": 54.97
       },
       {
-        "symbol": "CKX",
-        "name": "CKX Lands, Inc.",
-        "pct": 58.15
-      },
-      {
-        "symbol": "GFR",
-        "name": "Greenfire Resources Ltd.",
-        "pct": 38.04
-      },
-      {
-        "symbol": "DCTH",
-        "name": "Delcath Systems, Inc.",
-        "pct": 35.77
+        "symbol": "AAON",
+        "name": "AAON, Inc.",
+        "pct": 17.86
       },
       {
         "symbol": "MF",
         "name": "MindForge Inc.",
-        "pct": 34.68
+        "pct": 9.21
+      },
+      {
+        "symbol": "TTWO",
+        "name": "Take-Two Interactive Software, Inc.",
+        "pct": 7.32
+      },
+      {
+        "symbol": "MRCY",
+        "name": "Mercury Systems Inc",
+        "pct": 6.66
+      },
+      {
+        "symbol": "MARA",
+        "name": "MARA Holdings, Inc.",
+        "pct": 6.48
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "pct": 26.02
+        "pct": 5.71
       },
       {
-        "symbol": "LINC",
-        "name": "Lincoln Educational Services Corporation",
-        "pct": 24.58
+        "symbol": "EMBJ",
+        "name": "Embraer S.A.",
+        "pct": 5.48
       },
       {
-        "symbol": "PRAX",
-        "name": "Praxis Precision Medicines, Inc.",
-        "pct": 19.94
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 5.44
       },
       {
-        "symbol": "QXO",
-        "name": "QXO, Inc.",
-        "pct": 19.2
+        "symbol": "RIOT",
+        "name": "Riot Platforms, Inc.",
+        "pct": 5.32
       }
     ],
     "losers": [
       {
-        "symbol": "FTH",
-        "name": "Faeth Therapeutics, Inc.",
-        "pct": -42.49
+        "symbol": "APPS",
+        "name": "Digital Turbine, Inc.",
+        "pct": -35.39
       },
       {
-        "symbol": "JANX",
-        "name": "Janux Therapeutics, Inc.",
-        "pct": -27.62
+        "symbol": "NOVT",
+        "name": "Novanta Inc.",
+        "pct": -16.18
       },
       {
-        "symbol": "ACAD",
-        "name": "ACADIA Pharmaceuticals Inc.",
-        "pct": -22.28
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": -13.95
       },
       {
-        "symbol": "IONS",
-        "name": "Ionis Pharmaceuticals, Inc.",
-        "pct": -21.36
-      },
-      {
-        "symbol": "ARWR",
-        "name": "Arrowhead Pharmaceuticals, Inc.",
-        "pct": -15.34
-      },
-      {
-        "symbol": "SHLS",
-        "name": "Shoals Technologies Group, Inc.",
-        "pct": -13.49
-      },
-      {
-        "symbol": "VXX",
-        "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -13.35
+        "symbol": "QLYS",
+        "name": "Qualys, Inc.",
+        "pct": -11.31
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": -11.77
+        "pct": -10.88
       },
       {
-        "symbol": "ARRY",
-        "name": "Array Technologies, Inc.",
-        "pct": -11.36
+        "symbol": "SKYD",
+        "name": "Skydance Corporation",
+        "pct": -10.06
       },
       {
-        "symbol": "MNDY",
-        "name": "monday.com Ltd.",
-        "pct": -9.1
+        "symbol": "GFL",
+        "name": "GFL Environmental Inc. Subordinate voting sh",
+        "pct": -9.92
+      },
+      {
+        "symbol": "LINE",
+        "name": "Lineage, Inc.",
+        "pct": -8.93
+      },
+      {
+        "symbol": "OMH",
+        "name": "Ohmyhome Limited",
+        "pct": -8.43
+      },
+      {
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": -6.79
       }
     ],
-    "universe": 1448
+    "universe": 1445
   }
 }
