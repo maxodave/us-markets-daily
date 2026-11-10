@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-10T20:05:57Z",
+  "updated": "2026-11-10T20:18:25Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.59,
-      "last": 7504.24
+      "pct": -0.49,
+      "last": 7511.69
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.03,
-      "last": 27617.76
+      "pct": -0.88,
+      "last": 27660.65
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.36,
-      "last": 52197.51
+      "pct": -0.38,
+      "last": 52188.96
     },
     {
       "key": "ftsemib",
@@ -32,17 +32,12 @@
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": 85.88
-      },
-      {
-        "symbol": "OMH",
-        "name": "Ohmyhome Limited",
-        "pct": 27.83
+        "pct": 82.51
       },
       {
         "symbol": "AAON",
         "name": "AAON, Inc.",
-        "pct": 19.87
+        "pct": 19.29
       },
       {
         "symbol": "MF",
@@ -52,7 +47,7 @@
       {
         "symbol": "CHTR",
         "name": "Charter Communications, Inc.",
-        "pct": 10.25
+        "pct": 10.12
       },
       {
         "symbol": "ACAD",
@@ -60,76 +55,81 @@
         "pct": 8.91
       },
       {
+        "symbol": "MARA",
+        "name": "MARA Holdings, Inc.",
+        "pct": 8.43
+      },
+      {
         "symbol": "TTWO",
         "name": "Take-Two Interactive Software, Inc.",
-        "pct": 8.1
+        "pct": 7.88
       },
       {
         "symbol": "EMBJ",
         "name": "Embraer S.A.",
-        "pct": 7.56
+        "pct": 7.7
+      },
+      {
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": 7.23
       },
       {
         "symbol": "TNGX",
         "name": "Tango Therapeutics, Inc.",
-        "pct": 7.39
-      },
-      {
-        "symbol": "MRCY",
-        "name": "Mercury Systems Inc",
-        "pct": 6.69
+        "pct": 7.23
       }
     ],
     "losers": [
       {
         "symbol": "APPS",
         "name": "Digital Turbine, Inc.",
-        "pct": -38.19
-      },
-      {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "pct": -18.11
+        "pct": -37.27
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": -18.11
+        "pct": -17.36
+      },
+      {
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": -16.95
       },
       {
         "symbol": "NOVT",
         "name": "Novanta Inc.",
-        "pct": -14.98
+        "pct": -15.38
       },
       {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "pct": -13.96
+        "pct": -12.78
       },
       {
         "symbol": "HYMC",
         "name": "Hycroft Mining Holding Corporation",
-        "pct": -12.36
+        "pct": -11.75
       },
       {
         "symbol": "RUN",
         "name": "Sunrun Inc.",
-        "pct": -11.76
-      },
-      {
-        "symbol": "USAR",
-        "name": "USA Rare Earth, Inc.",
-        "pct": -11.07
+        "pct": -11.5
       },
       {
         "symbol": "LINE",
         "name": "Lineage, Inc.",
-        "pct": -11.04
+        "pct": -10.68
       },
       {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": -10.54
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": -10.56
+      },
+      {
+        "symbol": "CRSP",
+        "name": "CRISPR Therapeutics AG",
+        "pct": -9.79
       }
     ],
     "universe": 1448
