@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-10T18:30:32Z",
+  "updated": "2026-11-10T18:40:32Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.81,
-      "last": 7487.79
+      "pct": -0.75,
+      "last": 7492.31
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.33,
-      "last": 27533.31
+      "pct": -1.26,
+      "last": 27555.39
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.55,
-      "last": 52098.11
+      "pct": -0.53,
+      "last": 52110.55
     },
     {
       "key": "ftsemib",
@@ -32,32 +32,37 @@
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": 149.29
+        "pct": 112.42
       },
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": 80.75
+        "pct": 75.88
       },
       {
         "symbol": "AAON",
         "name": "AAON, Inc.",
-        "pct": 21.2
+        "pct": 20.73
       },
       {
         "symbol": "MF",
         "name": "MindForge Inc.",
-        "pct": 14.93
+        "pct": 17.52
       },
       {
         "symbol": "ACAD",
         "name": "ACADIA Pharmaceuticals Inc.",
-        "pct": 8.3
+        "pct": 8.82
       },
       {
         "symbol": "CHTR",
         "name": "Charter Communications, Inc.",
-        "pct": 7.94
+        "pct": 8.76
+      },
+      {
+        "symbol": "ZETA",
+        "name": "Zeta Global Holdings Corp.",
+        "pct": 8.08
       },
       {
         "symbol": "CKX",
@@ -65,71 +70,66 @@
         "pct": 7.93
       },
       {
-        "symbol": "TTWO",
-        "name": "Take-Two Interactive Software, Inc.",
-        "pct": 7.6
-      },
-      {
-        "symbol": "ZETA",
-        "name": "Zeta Global Holdings Corp.",
-        "pct": 7.45
-      },
-      {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": 7.29
+        "pct": 7.47
+      },
+      {
+        "symbol": "TTWO",
+        "name": "Take-Two Interactive Software, Inc.",
+        "pct": 7.3
       }
     ],
     "losers": [
       {
         "symbol": "APPS",
         "name": "Digital Turbine, Inc.",
-        "pct": -35.75
+        "pct": -36.37
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": -18.51
+        "pct": -18.4
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": -17.62
+        "pct": -17.67
       },
       {
         "symbol": "NOVT",
         "name": "Novanta Inc.",
-        "pct": -16.32
+        "pct": -16.02
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": -13.12
-      },
-      {
-        "symbol": "HYMC",
-        "name": "Hycroft Mining Holding Corporation",
-        "pct": -12.69
-      },
-      {
-        "symbol": "QLYS",
-        "name": "Qualys, Inc.",
-        "pct": -12.19
+        "pct": -13.04
       },
       {
         "symbol": "LINE",
         "name": "Lineage, Inc.",
-        "pct": -11.42
+        "pct": -12.71
+      },
+      {
+        "symbol": "QLYS",
+        "name": "Qualys, Inc.",
+        "pct": -12.66
+      },
+      {
+        "symbol": "HYMC",
+        "name": "Hycroft Mining Holding Corporation",
+        "pct": -12.2
       },
       {
         "symbol": "USAR",
         "name": "USA Rare Earth, Inc.",
-        "pct": -11.3
+        "pct": -11.13
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -10.99
+        "pct": -11.02
       }
     ],
     "universe": 1448
