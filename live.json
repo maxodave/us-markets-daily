@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-10T19:15:41Z",
+  "updated": "2026-11-10T19:25:34Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.65,
-      "last": 7500.2
+      "pct": -0.57,
+      "last": 7505.68
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.1,
-      "last": 27597.54
+      "pct": -1.04,
+      "last": 27615.96
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.44,
-      "last": 52156.04
+      "pct": -0.37,
+      "last": 52196.53
     },
     {
       "key": "ftsemib",
@@ -30,29 +30,29 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "OMH",
-        "name": "Ohmyhome Limited",
-        "pct": 78.41
-      },
-      {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": 76.9
+        "pct": 68.34
+      },
+      {
+        "symbol": "OMH",
+        "name": "Ohmyhome Limited",
+        "pct": 58.63
       },
       {
         "symbol": "AAON",
         "name": "AAON, Inc.",
-        "pct": 20.47
+        "pct": 20.66
       },
       {
         "symbol": "MF",
         "name": "MindForge Inc.",
-        "pct": 17.79
+        "pct": 16.05
       },
       {
         "symbol": "CKX",
         "name": "CKX Lands, Inc.",
-        "pct": 9.3
+        "pct": 9.45
       },
       {
         "symbol": "ACAD",
@@ -62,74 +62,74 @@
       {
         "symbol": "CHTR",
         "name": "Charter Communications, Inc.",
-        "pct": 8.82
+        "pct": 8.72
+      },
+      {
+        "symbol": "MRCY",
+        "name": "Mercury Systems Inc",
+        "pct": 8.21
       },
       {
         "symbol": "ZETA",
         "name": "Zeta Global Holdings Corp.",
-        "pct": 7.68
+        "pct": 7.65
       },
       {
         "symbol": "MARA",
         "name": "MARA Holdings, Inc.",
-        "pct": 7.68
-      },
-      {
-        "symbol": "ORKA",
-        "name": "Oruka Therapeutics, Inc.",
-        "pct": 7.37
+        "pct": 7.45
       }
     ],
     "losers": [
       {
         "symbol": "APPS",
         "name": "Digital Turbine, Inc.",
-        "pct": -37.12
+        "pct": -36.99
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": -18.43
+        "pct": -18.22
       },
       {
         "symbol": "HIMS",
         "name": "Hims & Hers Health, Inc.",
-        "pct": -18.27
+        "pct": -17.86
       },
       {
         "symbol": "NOVT",
         "name": "Novanta Inc.",
-        "pct": -15.19
+        "pct": -15.32
       },
       {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "pct": -12.6
-      },
-      {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": -12.25
+        "pct": -12.59
       },
       {
         "symbol": "LINE",
         "name": "Lineage, Inc.",
-        "pct": -12.07
+        "pct": -11.93
       },
       {
         "symbol": "HYMC",
         "name": "Hycroft Mining Holding Corporation",
-        "pct": -11.87
+        "pct": -11.82
       },
       {
-        "symbol": "USAR",
-        "name": "USA Rare Earth, Inc.",
-        "pct": -11.02
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": -11.36
       },
       {
         "symbol": "RUN",
         "name": "Sunrun Inc.",
-        "pct": -10.63
+        "pct": -10.83
+      },
+      {
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": -10.73
       }
     ],
     "universe": 1448
