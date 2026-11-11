@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-11T15:39:29Z",
+  "updated": "2026-11-11T15:53:20Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.92,
-      "last": 7591.69
+      "pct": 1.07,
+      "last": 7602.54
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 2.03,
-      "last": 28300.16
+      "pct": 2.38,
+      "last": 28396.24
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.23,
-      "last": 52115.93
+      "pct": -0.15,
+      "last": 52155.34
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.08,
-      "last": 51751.99
+      "pct": -0.1,
+      "last": 51743.59
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": 21.86
+        "pct": 22.57
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 20.02
+        "pct": 22.0
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": 16.27
+        "pct": 17.16
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 15.56
-      },
-      {
-        "symbol": "SNDK",
-        "name": "Sandisk Corporation",
-        "pct": 14.36
+        "pct": 16.96
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": 13.64
+        "pct": 15.69
       },
       {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": 13.59
-      },
-      {
-        "symbol": "CECO",
-        "name": "CECO Environmental Corp.",
-        "pct": 12.8
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": 12.19
+        "symbol": "SNDK",
+        "name": "Sandisk Corporation",
+        "pct": 15.61
       },
       {
         "symbol": "GLXY",
         "name": "Galaxy Digital Inc.",
-        "pct": 12.05
+        "pct": 15.17
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": 14.44
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": 13.95
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": 13.49
       }
     ],
     "losers": [
       {
         "symbol": "BMGL",
         "name": "Basel Medical Group Ltd",
-        "pct": -61.79
+        "pct": -63.18
       },
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": -54.55
-      },
-      {
-        "symbol": "GO",
-        "name": "Grocery Outlet Holding Corp.",
-        "pct": -8.56
+        "pct": -41.97
       },
       {
         "symbol": "SBH",
         "name": "Sally Beauty Holdings, Inc. (Name to be chan",
-        "pct": -7.69
+        "pct": -7.77
       },
       {
-        "symbol": "VIA",
-        "name": "Via Transportation, Inc.",
-        "pct": -6.48
-      },
-      {
-        "symbol": "COGT",
-        "name": "Cogent Biosciences, Inc.",
-        "pct": -6.48
-      },
-      {
-        "symbol": "MIR",
-        "name": "Mirion Technologies, Inc.",
-        "pct": -6.39
+        "symbol": "GO",
+        "name": "Grocery Outlet Holding Corp.",
+        "pct": -7.2
       },
       {
         "symbol": "ZYME",
         "name": "Zymeworks Inc.",
-        "pct": -5.98
+        "pct": -6.56
+      },
+      {
+        "symbol": "MIR",
+        "name": "Mirion Technologies, Inc.",
+        "pct": -6.36
+      },
+      {
+        "symbol": "COGT",
+        "name": "Cogent Biosciences, Inc.",
+        "pct": -5.37
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": -5.89
+        "pct": -5.35
+      },
+      {
+        "symbol": "VIA",
+        "name": "Via Transportation, Inc.",
+        "pct": -5.08
       },
       {
         "symbol": "RGTI",
         "name": "Rigetti Computing, Inc.",
-        "pct": -5.03
+        "pct": -5.02
       }
     ],
     "universe": 1358
