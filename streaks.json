@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-10T03:48:26Z",
+  "updated": "2026-11-11T01:29:41Z",
   "session_date": "2026-11-09",
   "universe": 558,
   "up": {
-    "count": 446,
+    "count": 466,
     "by_length": {
-      "1": 267,
-      "2": 163,
-      "3": 1,
+      "1": 283,
+      "2": 167,
+      "3": 2,
       "4": 7,
-      "5": 3,
+      "5": 2,
       "6": 3,
       "8+": 2
     },
@@ -29,8 +29,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": 8,
-        "cum_pct": 11.76
+        "days": 9,
+        "cum_pct": 13.25
       },
       {
         "symbol": "APP",
@@ -59,15 +59,6 @@
         ],
         "days": 6,
         "cum_pct": 13.8
-      },
-      {
-        "symbol": "AMP.MI",
-        "name": "Amplifon",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 5,
-        "cum_pct": 9.98
       },
       {
         "symbol": "IQV",
@@ -150,30 +141,28 @@
         ],
         "days": 4,
         "cum_pct": 2.97
+      },
+      {
+        "symbol": "TEN.MI",
+        "name": "Tenaris",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 3,
+        "cum_pct": 7.35
       }
     ]
   },
   "down": {
-    "count": 110,
+    "count": 90,
     "by_length": {
-      "1": 28,
-      "2": 36,
-      "3": 35,
-      "4": 2,
-      "5": 4,
-      "6": 4,
-      "7": 1
+      "1": 20,
+      "2": 26,
+      "3": 36,
+      "5": 3,
+      "6": 5
     },
     "top": [
-      {
-        "symbol": "SPM.MI",
-        "name": "Saipem",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -7,
-        "cum_pct": -6.9
-      },
       {
         "symbol": "FANG",
         "name": "Diamondback Energy",
@@ -213,6 +202,15 @@
         "cum_pct": -10.5
       },
       {
+        "symbol": "ENI.MI",
+        "name": "Eni",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -6,
+        "cum_pct": -7.92
+      },
+      {
         "symbol": "FIS",
         "name": "Fidelity National Information Services",
         "indices": [
@@ -220,15 +218,6 @@
         ],
         "days": -5,
         "cum_pct": -29.41
-      },
-      {
-        "symbol": "ENI.MI",
-        "name": "Eni",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -5,
-        "cum_pct": -7.68
       },
       {
         "symbol": "COF",
@@ -247,24 +236,6 @@
         ],
         "days": -5,
         "cum_pct": -4.69
-      },
-      {
-        "symbol": "FCT.MI",
-        "name": "Fincantieri",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -4,
-        "cum_pct": -8.24
-      },
-      {
-        "symbol": "LDO.MI",
-        "name": "Leonardo",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -4,
-        "cum_pct": -7.65
       },
       {
         "symbol": "AXON",
@@ -295,13 +266,42 @@
         "cum_pct": -11.89
       },
       {
-        "symbol": "AVIO.MI",
-        "name": "Avio",
+        "symbol": "CNC",
+        "name": "Centene Corporation",
         "indices": [
-          "ftsemib"
+          "sp500"
         ],
         "days": -3,
-        "cum_pct": -10.88
+        "cum_pct": -9.83
+      },
+      {
+        "symbol": "PM",
+        "name": "Philip Morris International",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -8.6
+      },
+      {
+        "symbol": "MNST",
+        "name": "Monster Beverage",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -6.38
+      },
+      {
+        "symbol": "WDAY",
+        "name": "Workday, Inc.",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -5.76
       }
     ]
   },
