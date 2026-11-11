@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-11T16:32:05Z",
+  "updated": "2026-11-11T16:49:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.19,
-      "last": 7611.64
+      "pct": 1.27,
+      "last": 7617.44
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 2.55,
-      "last": 28444.43
+      "pct": 2.66,
+      "last": 28474.79
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.01,
-      "last": 52239.11
+      "pct": 0.11,
+      "last": 52293.22
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.27,
-      "last": 51933.92
+      "pct": 0.34,
+      "last": 51971.25
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": 24.24
+        "pct": 25.63
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 22.89
+        "pct": 23.58
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": 17.67
+        "pct": 18.63
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": 16.66
+        "pct": 17.76
       },
       {
         "symbol": "SNDK",
         "name": "Sandisk Corporation",
-        "pct": 16.48
+        "pct": 17.01
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 15.49
+        "pct": 16.0
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": 14.88
+        "pct": 15.29
       },
       {
         "symbol": "LITE",
         "name": "Lumentum Holdings Inc.",
-        "pct": 14.81
+        "pct": 15.0
       },
       {
         "symbol": "GLXY",
         "name": "Galaxy Digital Inc.",
-        "pct": 14.17
+        "pct": 14.45
       },
       {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": 13.53
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": 14.13
       }
     ],
     "losers": [
       {
         "symbol": "BMGL",
         "name": "Basel Medical Group Ltd",
-        "pct": -64.82
+        "pct": -64.77
       },
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": -36.02
+        "pct": -42.52
       },
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": -31.79
+        "pct": -31.94
       },
       {
         "symbol": "GO",
         "name": "Grocery Outlet Holding Corp.",
-        "pct": -8.38
+        "pct": -9.09
       },
       {
         "symbol": "SBH",
         "name": "Sally Beauty Holdings, Inc. (Name to be chan",
-        "pct": -7.4
-      },
-      {
-        "symbol": "PXLW",
-        "name": "Pixelworks, Inc.",
-        "pct": -6.86
+        "pct": -7.01
       },
       {
         "symbol": "MIR",
         "name": "Mirion Technologies, Inc.",
-        "pct": -5.84
-      },
-      {
-        "symbol": "RGTI",
-        "name": "Rigetti Computing, Inc.",
-        "pct": -5.47
-      },
-      {
-        "symbol": "VIA",
-        "name": "Via Transportation, Inc.",
-        "pct": -5.29
+        "pct": -6.65
       },
       {
         "symbol": "COGT",
         "name": "Cogent Biosciences, Inc.",
-        "pct": -5.17
+        "pct": -6.34
+      },
+      {
+        "symbol": "VIA",
+        "name": "Via Transportation, Inc.",
+        "pct": -5.71
+      },
+      {
+        "symbol": "PXLW",
+        "name": "Pixelworks, Inc.",
+        "pct": -5.35
+      },
+      {
+        "symbol": "HROW",
+        "name": "Harrow, Inc.",
+        "pct": -5.24
       }
     ],
     "universe": 1358
