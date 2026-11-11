@@ -1,135 +1,135 @@
 {
-  "updated": "2026-11-11T15:05:51Z",
+  "updated": "2026-11-11T15:39:29Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.82,
-      "last": 7584.11
+      "pct": 0.92,
+      "last": 7591.69
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.7,
-      "last": 28206.88
+      "pct": 2.03,
+      "last": 28300.16
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.19,
-      "last": 52135.03
+      "pct": -0.23,
+      "last": 52115.93
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.21,
-      "last": 51685.5
+      "pct": -0.08,
+      "last": 51751.99
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "OMH",
-        "name": "Ohmyhome Limited",
-        "pct": 24.59
-      },
-      {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": 21.22
-      },
-      {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "pct": 16.39
+        "pct": 21.86
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 15.84
+        "pct": 20.02
       },
       {
-        "symbol": "CECO",
-        "name": "CECO Environmental Corp.",
-        "pct": 12.98
-      },
-      {
-        "symbol": "SNDK",
-        "name": "Sandisk Corporation",
-        "pct": 12.79
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": 16.27
       },
       {
         "symbol": "BE",
         "name": "Bloom Energy Corporation",
-        "pct": 12.33
+        "pct": 15.56
       },
       {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": 11.75
-      },
-      {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": 10.96
+        "symbol": "SNDK",
+        "name": "Sandisk Corporation",
+        "pct": 14.36
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": 10.72
+        "pct": 13.64
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc.",
+        "pct": 13.59
+      },
+      {
+        "symbol": "CECO",
+        "name": "CECO Environmental Corp.",
+        "pct": 12.8
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": 12.19
+      },
+      {
+        "symbol": "GLXY",
+        "name": "Galaxy Digital Inc.",
+        "pct": 12.05
       }
     ],
     "losers": [
       {
         "symbol": "BMGL",
         "name": "Basel Medical Group Ltd",
-        "pct": -63.8
+        "pct": -61.79
       },
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": -33.27
+        "pct": -54.55
       },
       {
         "symbol": "GO",
         "name": "Grocery Outlet Holding Corp.",
-        "pct": -9.99
+        "pct": -8.56
       },
       {
         "symbol": "SBH",
         "name": "Sally Beauty Holdings, Inc. (Name to be chan",
-        "pct": -7.52
-      },
-      {
-        "symbol": "MIR",
-        "name": "Mirion Technologies, Inc.",
-        "pct": -6.8
+        "pct": -7.69
       },
       {
         "symbol": "VIA",
         "name": "Via Transportation, Inc.",
-        "pct": -4.9
+        "pct": -6.48
       },
       {
-        "symbol": "DDS",
-        "name": "Dillard's, Inc.",
-        "pct": -4.7
+        "symbol": "COGT",
+        "name": "Cogent Biosciences, Inc.",
+        "pct": -6.48
       },
       {
-        "symbol": "RGTI",
-        "name": "Rigetti Computing, Inc.",
-        "pct": -4.16
+        "symbol": "MIR",
+        "name": "Mirion Technologies, Inc.",
+        "pct": -6.39
       },
       {
-        "symbol": "CNM",
-        "name": "Core & Main, Inc.",
-        "pct": -4.11
+        "symbol": "ZYME",
+        "name": "Zymeworks Inc.",
+        "pct": -5.98
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": -4.09
+        "pct": -5.89
+      },
+      {
+        "symbol": "RGTI",
+        "name": "Rigetti Computing, Inc.",
+        "pct": -5.03
       }
     ],
     "universe": 1358
