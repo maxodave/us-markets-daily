@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-10T21:01:31Z",
+  "updated": "2026-11-11T14:01:10Z",
   "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "pct": -0.37,
-      "last": 7521.11
+      "last": 7520.93
     },
     {
       "key": "nasdaq100",
@@ -18,13 +18,13 @@
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.3,
-      "last": 52233.26
+      "last": 52231.89
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.75,
-      "last": 51755.08
+      "pct": 0.1,
+      "last": 51843.09
     }
   ],
   "movers": {
@@ -35,14 +35,24 @@
         "pct": 105.88
       },
       {
+        "symbol": "PXLW",
+        "name": "Pixelworks, Inc.",
+        "pct": 39.66
+      },
+      {
+        "symbol": "SECZ",
+        "name": "Securitize Corp.",
+        "pct": 22.38
+      },
+      {
         "symbol": "AAON",
         "name": "AAON, Inc.",
         "pct": 19.31
       },
       {
-        "symbol": "MF",
-        "name": "MindForge Inc.",
-        "pct": 17.93
+        "symbol": "CSQR",
+        "name": "Csquare, Inc.",
+        "pct": 14.73
       },
       {
         "symbol": "ACAD",
@@ -60,27 +70,22 @@
         "pct": 10.54
       },
       {
-        "symbol": "CKX",
-        "name": "CKX Lands, Inc.",
-        "pct": 8.57
+        "symbol": "HROW",
+        "name": "Harrow, Inc.",
+        "pct": 10.52
       },
       {
         "symbol": "TTWO",
         "name": "Take-Two Interactive Software, Inc.",
         "pct": 8.31
-      },
-      {
-        "symbol": "ZETA",
-        "name": "Zeta Global Holdings Corp.",
-        "pct": 8.23
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 7.39
       }
     ],
     "losers": [
+      {
+        "symbol": "BMGL",
+        "name": "Basel Medical Group Ltd",
+        "pct": -64.26
+      },
       {
         "symbol": "APPS",
         "name": "Digital Turbine, Inc.",
@@ -92,46 +97,41 @@
         "pct": -35.7
       },
       {
+        "symbol": "GRPN",
+        "name": "Groupon, Inc.",
+        "pct": -23.02
+      },
+      {
+        "symbol": "HIMS",
+        "name": "Hims & Hers Health, Inc.",
+        "pct": -16.61
+      },
+      {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
         "pct": -16.57
       },
       {
-        "symbol": "HIMS",
-        "name": "Hims & Hers Health, Inc.",
-        "pct": -16.52
+        "symbol": "MUX",
+        "name": "McEwen Inc.",
+        "pct": -16.51
+      },
+      {
+        "symbol": "EQPT",
+        "name": "EquipmentShare.com Inc",
+        "pct": -16.5
+      },
+      {
+        "symbol": "GSHD",
+        "name": "Goosehead Insurance, Inc.",
+        "pct": -15.64
       },
       {
         "symbol": "NOVT",
         "name": "Novanta Inc.",
         "pct": -15.26
-      },
-      {
-        "symbol": "QLYS",
-        "name": "Qualys, Inc.",
-        "pct": -13.51
-      },
-      {
-        "symbol": "LINE",
-        "name": "Lineage, Inc.",
-        "pct": -12.05
-      },
-      {
-        "symbol": "HYMC",
-        "name": "Hycroft Mining Holding Corporation",
-        "pct": -11.28
-      },
-      {
-        "symbol": "RUN",
-        "name": "Sunrun Inc.",
-        "pct": -10.57
-      },
-      {
-        "symbol": "CRSP",
-        "name": "CRISPR Therapeutics AG",
-        "pct": -9.77
       }
     ],
-    "universe": 1446
+    "universe": 1358
   }
 }
