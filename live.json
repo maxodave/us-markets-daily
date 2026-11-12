@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-12T20:25:37Z",
+  "updated": "2026-11-12T20:35:40Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.24,
-      "last": 7599.71
+      "pct": -0.36,
+      "last": 7590.49
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.34,
-      "last": 28278.08
+      "pct": -0.5,
+      "last": 28232.84
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.15,
-      "last": 52397.08
+      "pct": -0.22,
+      "last": 52359.07
     },
     {
       "key": "ftsemib",
@@ -32,42 +32,27 @@
       {
         "symbol": "MBGL",
         "name": "Mobility Global Inc.",
-        "pct": 15.81
+        "pct": 15.21
       },
       {
         "symbol": "LUNR",
         "name": "Intuitive Machines, Inc.",
-        "pct": 10.3
-      },
-      {
-        "symbol": "IBP",
-        "name": "Installed Building Products, Inc.",
-        "pct": 6.86
+        "pct": 9.44
       },
       {
         "symbol": "DPC",
         "name": "DPC Holdings PLC",
-        "pct": 6.55
+        "pct": 7.92
+      },
+      {
+        "symbol": "IBP",
+        "name": "Installed Building Products, Inc.",
+        "pct": 5.96
       },
       {
         "symbol": "FIGR",
         "name": "Figure Technology Solutions, Inc.",
-        "pct": 6.35
-      },
-      {
-        "symbol": "HUBS",
-        "name": "HubSpot, Inc.",
-        "pct": 5.85
-      },
-      {
-        "symbol": "AMD",
-        "name": "Advanced Micro Devices, Inc.",
-        "pct": 5.48
-      },
-      {
-        "symbol": "CECO",
-        "name": "CECO Environmental Corp.",
-        "pct": 5.42
+        "pct": 5.91
       },
       {
         "symbol": "SM",
@@ -75,61 +60,76 @@
         "pct": 5.42
       },
       {
-        "symbol": "AVGO",
-        "name": "Broadcom Inc.",
-        "pct": 5.01
+        "symbol": "HUBS",
+        "name": "HubSpot, Inc.",
+        "pct": 5.31
+      },
+      {
+        "symbol": "CECO",
+        "name": "CECO Environmental Corp.",
+        "pct": 5.28
+      },
+      {
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": 5.16
+      },
+      {
+        "symbol": "TTEK",
+        "name": "Tetra Tech, Inc.",
+        "pct": 5.11
       }
     ],
     "losers": [
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": -59.85
+        "pct": -57.1
       },
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": -43.63
+        "pct": -44.38
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": -24.4
+        "pct": -24.76
       },
       {
         "symbol": "CTVA",
         "name": "Corteva, Inc.",
-        "pct": -21.87
+        "pct": -22.65
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -18.35
+        "pct": -18.61
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -14.22
-      },
-      {
-        "symbol": "MANE",
-        "name": "Veradermics, Incorporated",
-        "pct": -13.46
+        "pct": -14.15
       },
       {
         "symbol": "SEPN",
         "name": "Septerna, Inc.",
-        "pct": -12.52
+        "pct": -13.71
+      },
+      {
+        "symbol": "MANE",
+        "name": "Veradermics, Incorporated",
+        "pct": -12.76
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": -11.58
+        "pct": -11.64
       },
       {
-        "symbol": "YETI",
-        "name": "YETI Holdings, Inc.",
-        "pct": -10.63
+        "symbol": "FOSL",
+        "name": "Fossil Group, Inc.",
+        "pct": -11.48
       }
     ],
     "universe": 1262
