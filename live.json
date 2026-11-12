@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-12T18:47:43Z",
+  "updated": "2026-11-12T19:05:02Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.02,
-      "last": 7616.54
+      "pct": -0.19,
+      "last": 7603.06
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.11,
-      "last": 28342.13
+      "pct": -0.32,
+      "last": 28282.15
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.11,
-      "last": 52532.73
+      "pct": -0.06,
+      "last": 52447.4
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "MBGL",
         "name": "Mobility Global Inc.",
-        "pct": 16.87
+        "pct": 16.29
       },
       {
         "symbol": "LUNR",
         "name": "Intuitive Machines, Inc.",
-        "pct": 10.88
+        "pct": 10.55
       },
       {
         "symbol": "FIGR",
         "name": "Figure Technology Solutions, Inc.",
-        "pct": 8.25
+        "pct": 8.1
       },
       {
         "symbol": "HUBS",
         "name": "HubSpot, Inc.",
-        "pct": 7.33
+        "pct": 7.12
       },
       {
-        "symbol": "EYE",
-        "name": "National Vision Holdings, Inc.",
-        "pct": 5.78
-      },
-      {
-        "symbol": "IBP",
-        "name": "Installed Building Products, Inc.",
-        "pct": 5.73
+        "symbol": "DPC",
+        "name": "DPC Holdings PLC",
+        "pct": 6.23
       },
       {
         "symbol": "AVGO",
         "name": "Broadcom Inc.",
-        "pct": 5.43
-      },
-      {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "pct": 5.42
+        "pct": 5.39
       },
       {
         "symbol": "SM",
         "name": "SM Energy Company",
-        "pct": 5.31
+        "pct": 5.23
       },
       {
         "symbol": "VG",
         "name": "Venture Global, Inc.",
-        "pct": 5.21
+        "pct": 5.13
+      },
+      {
+        "symbol": "LQDA",
+        "name": "Liquidia Corporation",
+        "pct": 5.01
+      },
+      {
+        "symbol": "IBP",
+        "name": "Installed Building Products, Inc.",
+        "pct": 4.89
       }
     ],
     "losers": [
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": -54.56
+        "pct": -55.23
       },
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": -43.5
+        "pct": -42.87
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": -22.61
+        "pct": -23.33
       },
       {
         "symbol": "CTVA",
         "name": "Corteva, Inc.",
-        "pct": -18.66
+        "pct": -18.74
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -17.5
+        "pct": -18.23
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": -11.96
+        "pct": -12.57
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -11.24
-      },
-      {
-        "symbol": "SMCI",
-        "name": "Super Micro Computer, Inc.",
-        "pct": -11.16
+        "pct": -12.45
       },
       {
         "symbol": "SEPN",
         "name": "Septerna, Inc.",
-        "pct": -10.6
+        "pct": -11.0
       },
       {
-        "symbol": "GPN",
-        "name": "Global Payments Inc.",
-        "pct": -10.49
+        "symbol": "WRBY",
+        "name": "Warby Parker Inc.",
+        "pct": -10.91
+      },
+      {
+        "symbol": "SMCI",
+        "name": "Super Micro Computer, Inc.",
+        "pct": -10.83
       }
     ],
     "universe": 1262
