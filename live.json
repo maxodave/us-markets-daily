@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-12T20:50:41Z",
-  "market_open": true,
+  "updated": "2026-11-12T21:00:36Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.4,
-      "last": 7587.15
+      "pct": -0.33,
+      "last": 7592.95
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.43,
-      "last": 28251.76
+      "pct": -0.3,
+      "last": 28289.19
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.31,
-      "last": 52316.54
+      "pct": -0.34,
+      "last": 52299.11
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "MBGL",
         "name": "Mobility Global Inc.",
-        "pct": 14.83
-      },
-      {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "pct": 7.22
-      },
-      {
-        "symbol": "FIGR",
-        "name": "Figure Technology Solutions, Inc.",
-        "pct": 6.57
-      },
-      {
-        "symbol": "IBP",
-        "name": "Installed Building Products, Inc.",
-        "pct": 6.47
+        "pct": 16.19
       },
       {
         "symbol": "DPC",
         "name": "DPC Holdings PLC",
-        "pct": 6.23
+        "pct": 8.48
+      },
+      {
+        "symbol": "LUNR",
+        "name": "Intuitive Machines, Inc.",
+        "pct": 6.98
+      },
+      {
+        "symbol": "IBP",
+        "name": "Installed Building Products, Inc.",
+        "pct": 6.71
       },
       {
         "symbol": "HUBS",
         "name": "HubSpot, Inc.",
-        "pct": 6.21
+        "pct": 6.32
       },
       {
-        "symbol": "SM",
-        "name": "SM Energy Company",
-        "pct": 5.68
+        "symbol": "FIGR",
+        "name": "Figure Technology Solutions, Inc.",
+        "pct": 6.12
       },
       {
         "symbol": "AMD",
         "name": "Advanced Micro Devices, Inc.",
-        "pct": 5.3
+        "pct": 5.86
+      },
+      {
+        "symbol": "AVGO",
+        "name": "Broadcom Inc.",
+        "pct": 5.54
+      },
+      {
+        "symbol": "IRTC",
+        "name": "iRhythm Holdings, Inc.",
+        "pct": 5.5
       },
       {
         "symbol": "LQDA",
         "name": "Liquidia Corporation",
-        "pct": 5.17
-      },
-      {
-        "symbol": "VG",
-        "name": "Venture Global, Inc.",
-        "pct": 4.98
+        "pct": 5.27
       }
     ],
     "losers": [
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": -58.36
+        "pct": -56.75
       },
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": -43.5
+        "pct": -36.75
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": -25.06
+        "pct": -25.3
       },
       {
         "symbol": "CTVA",
         "name": "Corteva, Inc.",
-        "pct": -23.35
+        "pct": -24.3
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -17.52
+        "pct": -16.84
       },
       {
         "symbol": "SEPN",
         "name": "Septerna, Inc.",
-        "pct": -13.55
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": -12.87
+        "pct": -13.8
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": -12.84
+        "pct": -13.58
+      },
+      {
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": -12.8
       },
       {
         "symbol": "FOSL",
         "name": "Fossil Group, Inc.",
-        "pct": -12.59
+        "pct": -12.34
       },
       {
-        "symbol": "GPN",
-        "name": "Global Payments Inc.",
-        "pct": -12.25
+        "symbol": "NVAX",
+        "name": "Novavax, Inc.",
+        "pct": -12.22
       }
     ],
     "universe": 1262
