@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-12T18:15:22Z",
+  "updated": "2026-11-12T18:25:34Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.09,
-      "last": 7624.36
+      "pct": 0.13,
+      "last": 7627.52
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.01,
-      "last": 28377.76
+      "pct": 0.08,
+      "last": 28395.45
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.21,
-      "last": 52589.26
+      "pct": 0.24,
+      "last": 52601.01
     },
     {
       "key": "ftsemib",
@@ -32,64 +32,64 @@
       {
         "symbol": "MBGL",
         "name": "Mobility Global Inc.",
-        "pct": 16.11
+        "pct": 16.62
       },
       {
         "symbol": "LUNR",
         "name": "Intuitive Machines, Inc.",
-        "pct": 11.67
+        "pct": 12.64
       },
       {
         "symbol": "FIGR",
         "name": "Figure Technology Solutions, Inc.",
-        "pct": 9.3
+        "pct": 9.05
       },
       {
         "symbol": "HUBS",
         "name": "HubSpot, Inc.",
-        "pct": 7.38
-      },
-      {
-        "symbol": "IRTC",
-        "name": "iRhythm Holdings, Inc.",
-        "pct": 6.6
-      },
-      {
-        "symbol": "DPC",
-        "name": "DPC Holdings PLC",
-        "pct": 6.44
-      },
-      {
-        "symbol": "VG",
-        "name": "Venture Global, Inc.",
-        "pct": 6.0
-      },
-      {
-        "symbol": "IBP",
-        "name": "Installed Building Products, Inc.",
-        "pct": 5.89
+        "pct": 7.01
       },
       {
         "symbol": "EYE",
         "name": "National Vision Holdings, Inc.",
+        "pct": 6.58
+      },
+      {
+        "symbol": "IRTC",
+        "name": "iRhythm Holdings, Inc.",
+        "pct": 6.26
+      },
+      {
+        "symbol": "DPC",
+        "name": "DPC Holdings PLC",
+        "pct": 6.01
+      },
+      {
+        "symbol": "IBP",
+        "name": "Installed Building Products, Inc.",
+        "pct": 5.68
+      },
+      {
+        "symbol": "VG",
+        "name": "Venture Global, Inc.",
         "pct": 5.61
       },
       {
         "symbol": "AVGO",
         "name": "Broadcom Inc.",
-        "pct": 5.32
+        "pct": 5.54
       }
     ],
     "losers": [
       {
         "symbol": "SMX",
         "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": -52.46
+        "pct": -53.98
       },
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": -41.75
+        "pct": -45.0
       },
       {
         "symbol": "BZ",
@@ -99,37 +99,37 @@
       {
         "symbol": "CTVA",
         "name": "Corteva, Inc.",
-        "pct": -19.28
+        "pct": -18.78
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -16.58
-      },
-      {
-        "symbol": "SMCI",
-        "name": "Super Micro Computer, Inc.",
-        "pct": -11.57
+        "pct": -15.73
       },
       {
         "symbol": "MANE",
         "name": "Veradermics, Incorporated",
-        "pct": -11.36
+        "pct": -11.94
+      },
+      {
+        "symbol": "SMCI",
+        "name": "Super Micro Computer, Inc.",
+        "pct": -11.4
       },
       {
         "symbol": "SEPN",
         "name": "Septerna, Inc.",
-        "pct": -10.87
+        "pct": -11.15
       },
       {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": -10.43
+        "symbol": "HWC",
+        "name": "Hancock Whitney Corporation",
+        "pct": -10.05
       },
       {
-        "symbol": "GPN",
-        "name": "Global Payments Inc.",
-        "pct": -10.43
+        "symbol": "WRBY",
+        "name": "Warby Parker Inc.",
+        "pct": -10.03
       }
     ],
     "universe": 1262
