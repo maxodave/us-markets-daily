@@ -1,46 +1,27 @@
 {
-  "updated": "2026-11-11T01:29:41Z",
-  "session_date": "2026-11-09",
+  "updated": "2026-11-12T02:32:31Z",
+  "session_date": "2026-11-10",
   "universe": 558,
   "up": {
-    "count": 466,
+    "count": 276,
     "by_length": {
-      "1": 283,
-      "2": 167,
-      "3": 2,
-      "4": 7,
-      "5": 2,
-      "6": 3,
-      "8+": 2
+      "1": 56,
+      "2": 143,
+      "3": 68,
+      "4": 2,
+      "5": 5,
+      "7": 1,
+      "8+": 1
     },
     "top": [
-      {
-        "symbol": "FISV",
-        "name": "Fiserv",
-        "indices": [
-          "sp500"
-        ],
-        "days": 9,
-        "cum_pct": 34.01
-      },
       {
         "symbol": "LTMC.MI",
         "name": "Lottomatica Group",
         "indices": [
           "ftsemib"
         ],
-        "days": 9,
-        "cum_pct": 13.25
-      },
-      {
-        "symbol": "APP",
-        "name": "AppLovin",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 6,
-        "cum_pct": 79.43
+        "days": 10,
+        "cum_pct": 15.16
       },
       {
         "symbol": "CLX",
@@ -48,35 +29,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 6,
-        "cum_pct": 19.92
-      },
-      {
-        "symbol": "EW",
-        "name": "Edwards Lifesciences",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 13.8
-      },
-      {
-        "symbol": "IQV",
-        "name": "IQVIA",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 7.89
-      },
-      {
-        "symbol": "BG",
-        "name": "Bunge Global",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 7.39
+        "days": 7,
+        "cum_pct": 21.14
       },
       {
         "symbol": "MOS",
@@ -84,17 +38,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 23.62
-      },
-      {
-        "symbol": "NEM",
-        "name": "Newmont",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 16.46
+        "days": 5,
+        "cum_pct": 24.81
       },
       {
         "symbol": "CPAY",
@@ -102,8 +47,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 12.64
+        "days": 5,
+        "cum_pct": 13.05
       },
       {
         "symbol": "TMUS",
@@ -112,8 +57,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": 4,
-        "cum_pct": 9.26
+        "days": 5,
+        "cum_pct": 9.5
       },
       {
         "symbol": "CAH",
@@ -121,17 +66,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 8.44
-      },
-      {
-        "symbol": "VMRK",
-        "name": "Vivmark Residential",
-        "indices": [
-          "sp500"
-        ],
-        "days": 4,
-        "cum_pct": 6.61
+        "days": 5,
+        "cum_pct": 9.43
       },
       {
         "symbol": "EVRG",
@@ -139,8 +75,17 @@
         "indices": [
           "sp500"
         ],
+        "days": 5,
+        "cum_pct": 3.5
+      },
+      {
+        "symbol": "CVS",
+        "name": "CVS Health",
+        "indices": [
+          "sp500"
+        ],
         "days": 4,
-        "cum_pct": 2.97
+        "cum_pct": 11.32
       },
       {
         "symbol": "TEN.MI",
@@ -148,19 +93,78 @@
         "indices": [
           "ftsemib"
         ],
+        "days": 4,
+        "cum_pct": 8.96
+      },
+      {
+        "symbol": "RKLB",
+        "name": "Rocket Lab",
+        "indices": [
+          "nasdaq100"
+        ],
         "days": 3,
-        "cum_pct": 7.35
+        "cum_pct": 36.36
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 3,
+        "cum_pct": 27.4
+      },
+      {
+        "symbol": "LRCX",
+        "name": "Lam Research",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 3,
+        "cum_pct": 20.08
+      },
+      {
+        "symbol": "CIEN",
+        "name": "Ciena",
+        "indices": [
+          "sp500"
+        ],
+        "days": 3,
+        "cum_pct": 17.89
+      },
+      {
+        "symbol": "KLAC",
+        "name": "KLA Corporation",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 3,
+        "cum_pct": 17.87
+      },
+      {
+        "symbol": "AMAT",
+        "name": "Applied Materials",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 3,
+        "cum_pct": 16.69
       }
     ]
   },
   "down": {
-    "count": 90,
+    "count": 276,
     "by_length": {
-      "1": 20,
-      "2": 26,
-      "3": 36,
-      "5": 3,
-      "6": 5
+      "1": 240,
+      "2": 8,
+      "3": 6,
+      "4": 17,
+      "6": 3,
+      "7": 2
     },
     "top": [
       {
@@ -170,36 +174,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -6,
-        "cum_pct": -15.99
-      },
-      {
-        "symbol": "LYB",
-        "name": "LyondellBasell",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -13.32
-      },
-      {
-        "symbol": "DOW",
-        "name": "Dow Inc.",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -10.78
-      },
-      {
-        "symbol": "CVX",
-        "name": "Chevron Corporation",
-        "indices": [
-          "sp500",
-          "dow"
-        ],
-        "days": -6,
-        "cum_pct": -10.5
+        "days": -7,
+        "cum_pct": -16.03
       },
       {
         "symbol": "ENI.MI",
@@ -207,8 +183,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -6,
-        "cum_pct": -7.92
+        "days": -7,
+        "cum_pct": -8.79
       },
       {
         "symbol": "FIS",
@@ -216,8 +192,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -29.41
+        "days": -6,
+        "cum_pct": -29.49
       },
       {
         "symbol": "COF",
@@ -225,8 +201,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -5.78
+        "days": -6,
+        "cum_pct": -7.08
       },
       {
         "symbol": "SYF",
@@ -234,8 +210,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -4.69
+        "days": -6,
+        "cum_pct": -6.66
       },
       {
         "symbol": "AXON",
@@ -244,8 +220,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -3,
-        "cum_pct": -28.53
+        "days": -4,
+        "cum_pct": -28.68
       },
       {
         "symbol": "EXPE",
@@ -253,8 +229,8 @@
         "indices": [
           "sp500"
         ],
-        "days": -3,
-        "cum_pct": -17.96
+        "days": -4,
+        "cum_pct": -19.66
       },
       {
         "symbol": "MSTR",
@@ -262,26 +238,17 @@
         "indices": [
           "nasdaq100"
         ],
-        "days": -3,
-        "cum_pct": -11.89
+        "days": -4,
+        "cum_pct": -15.06
       },
       {
-        "symbol": "CNC",
-        "name": "Centene Corporation",
+        "symbol": "MKC",
+        "name": "McCormick & Company",
         "indices": [
           "sp500"
         ],
-        "days": -3,
-        "cum_pct": -9.83
-      },
-      {
-        "symbol": "PM",
-        "name": "Philip Morris International",
-        "indices": [
-          "sp500"
-        ],
-        "days": -3,
-        "cum_pct": -8.6
+        "days": -4,
+        "cum_pct": -7.45
       },
       {
         "symbol": "MNST",
@@ -290,8 +257,8 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -3,
-        "cum_pct": -6.38
+        "days": -4,
+        "cum_pct": -6.99
       },
       {
         "symbol": "WDAY",
@@ -300,12 +267,49 @@
           "sp500",
           "nasdaq100"
         ],
-        "days": -3,
-        "cum_pct": -5.76
+        "days": -4,
+        "cum_pct": -6.42
+      },
+      {
+        "symbol": "MONC.MI",
+        "name": "Moncler",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -4,
+        "cum_pct": -5.05
+      },
+      {
+        "symbol": "ADBE",
+        "name": "Adobe Inc.",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -4,
+        "cum_pct": -4.74
+      },
+      {
+        "symbol": "FDS",
+        "name": "FactSet",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -4.74
+      },
+      {
+        "symbol": "KHC",
+        "name": "Kraft Heinz",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -4.72
       }
     ]
   },
   "flat": {
-    "count": 2
+    "count": 6
   }
 }
