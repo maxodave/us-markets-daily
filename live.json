@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-13T20:33:39Z",
+  "updated": "2026-11-13T20:50:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.58,
-      "last": 7547.55
+      "pct": -0.39,
+      "last": 7561.97
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.38,
-      "last": 27896.9
+      "pct": -1.06,
+      "last": 27986.17
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.01,
-      "last": 52290.18
+      "pct": 0.06,
+      "last": 52325.83
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": 29.13
+        "pct": 29.32
       },
       {
         "symbol": "CDNL",
         "name": "Cardinal Infrastructure Group Inc.",
-        "pct": 17.72
-      },
-      {
-        "symbol": "NU",
-        "name": "Nu Holdings Ltd.",
-        "pct": 10.4
+        "pct": 15.25
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": 10.36
+        "pct": 11.41
+      },
+      {
+        "symbol": "NU",
+        "name": "Nu Holdings Ltd.",
+        "pct": 11.03
       },
       {
         "symbol": "KLAR",
         "name": "Klarna Group plc",
-        "pct": 7.44
-      },
-      {
-        "symbol": "CLBT",
-        "name": "Cellebrite DI Ltd.",
-        "pct": 7.25
+        "pct": 8.54
       },
       {
         "symbol": "FOUR",
         "name": "Shift4 Payments, Inc.",
-        "pct": 7.0
+        "pct": 7.32
       },
       {
-        "symbol": "CGON",
-        "name": "CG Oncology, Inc.",
-        "pct": 6.07
+        "symbol": "CLBT",
+        "name": "Cellebrite DI Ltd.",
+        "pct": 6.29
       },
       {
         "symbol": "BROS",
         "name": "Dutch Bros Inc.",
+        "pct": 6.2
+      },
+      {
+        "symbol": "CGON",
+        "name": "CG Oncology, Inc.",
         "pct": 5.7
       },
       {
-        "symbol": "ALNY",
-        "name": "Alnylam Pharmaceuticals, Inc.",
-        "pct": 5.46
+        "symbol": "DUOL",
+        "name": "Duolingo, Inc.",
+        "pct": 5.63
       }
     ],
     "losers": [
       {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "pct": -18.17
+        "pct": -18.63
       },
       {
         "symbol": "PEPG",
         "name": "PepGen Inc.",
-        "pct": -13.1
-      },
-      {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "pct": -10.01
-      },
-      {
-        "symbol": "AMD",
-        "name": "Advanced Micro Devices, Inc.",
-        "pct": -9.37
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": -8.94
+        "pct": -11.21
       },
       {
         "symbol": "FLO",
         "name": "Flowers Foods, Inc.",
-        "pct": -8.82
+        "pct": -9.57
       },
       {
-        "symbol": "OUST",
-        "name": "Ouster, Inc.",
-        "pct": -8.72
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": -9.04
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "pct": -8.67
       },
       {
         "symbol": "CVLT",
         "name": "Commvault Systems, Inc.",
-        "pct": -8.64
+        "pct": -8.05
+      },
+      {
+        "symbol": "OUST",
+        "name": "Ouster, Inc.",
+        "pct": -7.61
+      },
+      {
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": -7.59
       },
       {
         "symbol": "FN",
         "name": "Fabrinet",
-        "pct": -8.16
+        "pct": -7.49
       },
       {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -8.11
+        "symbol": "AVEX",
+        "name": "AEVEX Corp.",
+        "pct": -7.3
       }
     ],
     "universe": 1256
