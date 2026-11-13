@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-13T15:58:58Z",
+  "updated": "2026-11-13T16:23:49Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.84,
-      "last": 7528.42
+      "pct": -1.01,
+      "last": 7515.26
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.93,
-      "last": 27740.96
+      "pct": -2.19,
+      "last": 27667.21
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.12,
-      "last": 52229.57
+      "pct": -0.23,
+      "last": 52173.42
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.11,
-      "last": 51829.5
+      "pct": -0.14,
+      "last": 51814.94
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": 26.31
+        "pct": 27.83
       },
       {
         "symbol": "CDNL",
         "name": "Cardinal Infrastructure Group Inc.",
-        "pct": 18.26
+        "pct": 14.18
+      },
+      {
+        "symbol": "OMH",
+        "name": "Ohmyhome Limited",
+        "pct": 11.07
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": 9.43
-      },
-      {
-        "symbol": "CLBT",
-        "name": "Cellebrite DI Ltd.",
-        "pct": 7.3
+        "pct": 10.4
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": 7.29
+        "pct": 6.99
       },
       {
-        "symbol": "ALNY",
-        "name": "Alnylam Pharmaceuticals, Inc.",
-        "pct": 6.19
+        "symbol": "CLBT",
+        "name": "Cellebrite DI Ltd.",
+        "pct": 6.84
       },
       {
-        "symbol": "FOUR",
-        "name": "Shift4 Payments, Inc.",
-        "pct": 5.39
-      },
-      {
-        "symbol": "TPL",
-        "name": "Texas Pacific Land Corporation",
-        "pct": 4.8
+        "symbol": "STUB",
+        "name": "StubHub Holdings, Inc.",
+        "pct": 6.44
       },
       {
         "symbol": "KLAR",
         "name": "Klarna Group plc",
-        "pct": 4.8
+        "pct": 6.18
+      },
+      {
+        "symbol": "ALNY",
+        "name": "Alnylam Pharmaceuticals, Inc.",
+        "pct": 5.23
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 4.48
+        "pct": 5.22
       }
     ],
     "losers": [
       {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "pct": -16.47
-      },
-      {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "pct": -12.19
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": -11.66
-      },
-      {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": -10.59
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": -10.19
-      },
-      {
-        "symbol": "OUST",
-        "name": "Ouster, Inc.",
-        "pct": -10.03
-      },
-      {
-        "symbol": "CVLT",
-        "name": "Commvault Systems, Inc.",
-        "pct": -9.74
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -9.53
-      },
-      {
-        "symbol": "AMD",
-        "name": "Advanced Micro Devices, Inc.",
-        "pct": -9.34
+        "pct": -17.82
       },
       {
         "symbol": "PEPG",
         "name": "PepGen Inc.",
-        "pct": -9.23
+        "pct": -11.1
+      },
+      {
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": -10.96
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -10.65
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": -10.26
+      },
+      {
+        "symbol": "OUST",
+        "name": "Ouster, Inc.",
+        "pct": -10.22
+      },
+      {
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
+        "pct": -10.2
+      },
+      {
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": -10.19
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -10.15
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "pct": -10.14
       }
     ],
     "universe": 1256
