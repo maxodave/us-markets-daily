@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-13T15:10:56Z",
+  "updated": "2026-11-13T15:40:51Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.85,
-      "last": 7527.28
+      "pct": -0.9,
+      "last": 7523.41
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.73,
-      "last": 27796.23
+      "pct": -2.04,
+      "last": 27709.17
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.24,
-      "last": 52168.98
+      "pct": -0.1,
+      "last": 52240.75
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.19,
-      "last": 51789.07
+      "pct": -0.17,
+      "last": 51799.23
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": 28.15
+        "pct": 28.77
       },
       {
         "symbol": "CDNL",
         "name": "Cardinal Infrastructure Group Inc.",
-        "pct": 25.35
-      },
-      {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": 10.83
+        "pct": 19.5
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": 7.57
+        "pct": 8.03
       },
       {
         "symbol": "CLBT",
         "name": "Cellebrite DI Ltd.",
-        "pct": 6.89
+        "pct": 7.16
       },
       {
         "symbol": "ALNY",
         "name": "Alnylam Pharmaceuticals, Inc.",
-        "pct": 6.77
+        "pct": 6.42
       },
       {
-        "symbol": "KLAR",
-        "name": "Klarna Group plc",
-        "pct": 4.64
+        "symbol": "FOUR",
+        "name": "Shift4 Payments, Inc.",
+        "pct": 5.68
       },
       {
-        "symbol": "STUB",
-        "name": "StubHub Holdings, Inc.",
-        "pct": 4.26
-      },
-      {
-        "symbol": "JBS",
-        "name": "JBS N.V. Class A",
-        "pct": 3.91
+        "symbol": "CBRS",
+        "name": "Cerebras Systems Inc.",
+        "pct": 5.12
       },
       {
         "symbol": "TPL",
         "name": "Texas Pacific Land Corporation",
-        "pct": 3.9
+        "pct": 5.06
+      },
+      {
+        "symbol": "KLAR",
+        "name": "Klarna Group plc",
+        "pct": 4.84
+      },
+      {
+        "symbol": "BOOT",
+        "name": "Boot Barn Holdings, Inc.",
+        "pct": 4.71
       }
     ],
     "losers": [
       {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "pct": -15.84
-      },
-      {
-        "symbol": "OMH",
-        "name": "Ohmyhome Limited",
-        "pct": -14.47
+        "pct": -16.7
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -13.34
-      },
-      {
-        "symbol": "PEPG",
-        "name": "PepGen Inc.",
-        "pct": -12.33
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -11.82
+        "pct": -13.81
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -11.75
-      },
-      {
-        "symbol": "OUST",
-        "name": "Ouster, Inc.",
-        "pct": -11.08
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -10.93
-      },
-      {
-        "symbol": "APLD",
-        "name": "Applied Digital Corporation",
-        "pct": -10.44
+        "pct": -12.68
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": -10.27
+        "pct": -11.61
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -11.4
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -11.33
+      },
+      {
+        "symbol": "OUST",
+        "name": "Ouster, Inc.",
+        "pct": -10.38
+      },
+      {
+        "symbol": "APLD",
+        "name": "Applied Digital Corporation",
+        "pct": -10.24
+      },
+      {
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -10.21
+      },
+      {
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -10.14
       }
     ],
     "universe": 1256
