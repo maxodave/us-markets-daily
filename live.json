@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-13T14:57:27Z",
+  "updated": "2026-11-13T15:10:56Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.38,
-      "last": 7562.96
+      "pct": -0.85,
+      "last": 7527.28
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.03,
-      "last": 27996.71
+      "pct": -1.73,
+      "last": 27796.23
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.04,
-      "last": 52315.47
+      "pct": -0.24,
+      "last": 52168.98
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.11,
-      "last": 51827.01
+      "pct": -0.19,
+      "last": 51789.07
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": 29.7
+        "pct": 28.15
       },
       {
         "symbol": "CDNL",
         "name": "Cardinal Infrastructure Group Inc.",
-        "pct": 18.26
+        "pct": 25.35
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": 11.66
-      },
-      {
-        "symbol": "CLBT",
-        "name": "Cellebrite DI Ltd.",
-        "pct": 8.36
+        "pct": 10.83
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": 6.64
+        "pct": 7.57
+      },
+      {
+        "symbol": "CLBT",
+        "name": "Cellebrite DI Ltd.",
+        "pct": 6.89
       },
       {
         "symbol": "ALNY",
         "name": "Alnylam Pharmaceuticals, Inc.",
-        "pct": 5.3
+        "pct": 6.77
       },
       {
-        "symbol": "APP",
-        "name": "Applovin Corporation",
-        "pct": 4.15
+        "symbol": "KLAR",
+        "name": "Klarna Group plc",
+        "pct": 4.64
+      },
+      {
+        "symbol": "STUB",
+        "name": "StubHub Holdings, Inc.",
+        "pct": 4.26
       },
       {
         "symbol": "JBS",
         "name": "JBS N.V. Class A",
-        "pct": 4.12
+        "pct": 3.91
       },
       {
-        "symbol": "MP",
-        "name": "MP Materials Corp.",
-        "pct": 4.11
-      },
-      {
-        "symbol": "PTON",
-        "name": "Peloton Interactive, Inc.",
-        "pct": 3.98
+        "symbol": "TPL",
+        "name": "Texas Pacific Land Corporation",
+        "pct": 3.9
       }
     ],
     "losers": [
       {
-        "symbol": "OMH",
-        "name": "Ohmyhome Limited",
-        "pct": -16.21
-      },
-      {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "pct": -13.75
+        "pct": -15.84
+      },
+      {
+        "symbol": "OMH",
+        "name": "Ohmyhome Limited",
+        "pct": -14.47
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -10.9
+        "pct": -13.34
       },
       {
         "symbol": "PEPG",
         "name": "PepGen Inc.",
-        "pct": -10.12
+        "pct": -12.33
+      },
+      {
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -11.82
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -9.83
-      },
-      {
-        "symbol": "CAPR",
-        "name": "Capricor Therapeutics, Inc.",
-        "pct": -9.18
-      },
-      {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": -9.17
-      },
-      {
-        "symbol": "APLD",
-        "name": "Applied Digital Corporation",
-        "pct": -8.55
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -8.52
+        "pct": -11.75
       },
       {
         "symbol": "OUST",
         "name": "Ouster, Inc.",
-        "pct": -8.17
+        "pct": -11.08
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -10.93
+      },
+      {
+        "symbol": "APLD",
+        "name": "Applied Digital Corporation",
+        "pct": -10.44
+      },
+      {
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": -10.27
       }
     ],
     "universe": 1256
