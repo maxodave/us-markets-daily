@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T21:20:36Z",
+  "updated": "2026-11-13T14:05:10Z",
   "market_open": false,
   "indices": [
     {
@@ -23,8 +23,8 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.31,
-      "last": 51808.67
+      "pct": -0.22,
+      "last": 51771.13
     }
   ],
   "movers": {
@@ -33,6 +33,11 @@
         "symbol": "MBGL",
         "name": "Mobility Global Inc.",
         "pct": 16.11
+      },
+      {
+        "symbol": "AVEX",
+        "name": "AEVEX Corp.",
+        "pct": 13.44
       },
       {
         "symbol": "DPC",
@@ -65,26 +70,26 @@
         "pct": 5.86
       },
       {
+        "symbol": "LMND",
+        "name": "Lemonade, Inc.",
+        "pct": 5.66
+      },
+      {
         "symbol": "AVGO",
         "name": "Broadcom Inc.",
         "pct": 5.54
-      },
-      {
-        "symbol": "IRTC",
-        "name": "iRhythm Holdings, Inc.",
-        "pct": 5.5
-      },
-      {
-        "symbol": "LQDA",
-        "name": "Liquidia Corporation",
-        "pct": 5.27
       }
     ],
     "losers": [
       {
-        "symbol": "SMX",
-        "name": "SMX (Security Matters) Public Limited Compan",
-        "pct": -56.75
+        "symbol": "CDNL",
+        "name": "Cardinal Infrastructure Group Inc.",
+        "pct": -62.37
+      },
+      {
+        "symbol": "ADIG",
+        "name": "ADI Global Distribution Inc.",
+        "pct": -49.85
       },
       {
         "symbol": "OMH",
@@ -107,9 +112,9 @@
         "pct": -16.84
       },
       {
-        "symbol": "SEPN",
-        "name": "Septerna, Inc.",
-        "pct": -13.8
+        "symbol": "CLBT",
+        "name": "Cellebrite DI Ltd.",
+        "pct": -14.25
       },
       {
         "symbol": "MANE",
@@ -122,16 +127,11 @@
         "pct": -12.8
       },
       {
-        "symbol": "FOSL",
-        "name": "Fossil Group, Inc.",
-        "pct": -12.34
-      },
-      {
-        "symbol": "NVAX",
-        "name": "Novavax, Inc.",
-        "pct": -12.22
+        "symbol": "DGII",
+        "name": "Digi International Inc.",
+        "pct": -12.72
       }
     ],
-    "universe": 1262
+    "universe": 1256
   }
 }
