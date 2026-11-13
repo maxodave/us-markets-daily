@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-13T17:02:09Z",
+  "updated": "2026-11-13T17:18:22Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.94,
-      "last": 7520.27
+      "pct": -0.82,
+      "last": 7529.67
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.92,
-      "last": 27742.87
+      "pct": -1.77,
+      "last": 27786.62
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.31,
-      "last": 52132.77
+      "pct": -0.19,
+      "last": 52196.93
     },
     {
       "key": "ftsemib",
@@ -32,12 +32,12 @@
       {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": 28.81
+        "pct": 29.8
       },
       {
         "symbol": "CDNL",
         "name": "Cardinal Infrastructure Group Inc.",
-        "pct": 15.43
+        "pct": 17.55
       },
       {
         "symbol": "NU",
@@ -47,89 +47,89 @@
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": 8.21
-      },
-      {
-        "symbol": "STUB",
-        "name": "StubHub Holdings, Inc.",
-        "pct": 7.13
-      },
-      {
-        "symbol": "CLBT",
-        "name": "Cellebrite DI Ltd.",
-        "pct": 6.47
-      },
-      {
-        "symbol": "KLAR",
-        "name": "Klarna Group plc",
-        "pct": 6.22
+        "pct": 8.72
       },
       {
         "symbol": "FOUR",
         "name": "Shift4 Payments, Inc.",
-        "pct": 5.79
+        "pct": 6.95
       },
       {
-        "symbol": "ALNY",
-        "name": "Alnylam Pharmaceuticals, Inc.",
-        "pct": 5.22
+        "symbol": "VKTX",
+        "name": "Viking Therapeutics, Inc.",
+        "pct": 6.93
       },
       {
-        "symbol": "VXX",
-        "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 5.08
+        "symbol": "CLBT",
+        "name": "Cellebrite DI Ltd.",
+        "pct": 6.8
+      },
+      {
+        "symbol": "KLAR",
+        "name": "Klarna Group plc",
+        "pct": 6.61
+      },
+      {
+        "symbol": "STUB",
+        "name": "StubHub Holdings, Inc.",
+        "pct": 6.04
+      },
+      {
+        "symbol": "TOST",
+        "name": "Toast, Inc.",
+        "pct": 4.89
       }
     ],
     "losers": [
       {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "pct": -16.57
+        "pct": -17.06
       },
       {
         "symbol": "PEPG",
         "name": "PepGen Inc.",
-        "pct": -11.41
+        "pct": -11.21
       },
       {
         "symbol": "AMD",
         "name": "Advanced Micro Devices, Inc.",
-        "pct": -10.47
+        "pct": -10.6
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -9.87
-      },
-      {
-        "symbol": "TSEM",
-        "name": "Tower Semiconductor Ltd.",
-        "pct": -9.85
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -9.83
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": -9.63
-      },
-      {
-        "symbol": "APLD",
-        "name": "Applied Digital Corporation",
-        "pct": -9.29
-      },
-      {
-        "symbol": "OUST",
-        "name": "Ouster, Inc.",
-        "pct": -9.13
+        "pct": -10.2
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -9.03
+        "pct": -9.85
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": -9.54
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -9.18
+      },
+      {
+        "symbol": "APLD",
+        "name": "Applied Digital Corporation",
+        "pct": -8.97
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -8.83
+      },
+      {
+        "symbol": "OUST",
+        "name": "Ouster, Inc.",
+        "pct": -8.74
       }
     ],
     "universe": 1256
