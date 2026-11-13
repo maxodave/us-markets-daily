@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-13T19:35:17Z",
+  "updated": "2026-11-13T19:50:39Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.53,
-      "last": 7551.35
+      "pct": -0.59,
+      "last": 7546.99
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.32,
-      "last": 27913.96
+      "pct": -1.44,
+      "last": 27878.35
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": -0.01,
-      "last": 52289.2
+      "last": 52290.58
     },
     {
       "key": "ftsemib",
@@ -32,22 +32,22 @@
       {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": 29.08
+        "pct": 30.46
       },
       {
         "symbol": "CDNL",
         "name": "Cardinal Infrastructure Group Inc.",
-        "pct": 16.3
+        "pct": 16.76
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": 11.94
+        "pct": 11.56
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": 10.19
+        "pct": 10.14
       },
       {
         "symbol": "CLBT",
@@ -57,79 +57,79 @@
       {
         "symbol": "KLAR",
         "name": "Klarna Group plc",
-        "pct": 7.01
+        "pct": 7.2
       },
       {
         "symbol": "VKTX",
         "name": "Viking Therapeutics, Inc.",
-        "pct": 6.74
+        "pct": 6.15
       },
       {
         "symbol": "FOUR",
         "name": "Shift4 Payments, Inc.",
-        "pct": 6.43
+        "pct": 6.05
       },
       {
         "symbol": "STUB",
         "name": "StubHub Holdings, Inc.",
-        "pct": 5.54
+        "pct": 5.45
       },
       {
-        "symbol": "BROS",
-        "name": "Dutch Bros Inc.",
-        "pct": 5.34
+        "symbol": "ALNY",
+        "name": "Alnylam Pharmaceuticals, Inc.",
+        "pct": 5.3
       }
     ],
     "losers": [
       {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "pct": -17.96
-      },
-      {
-        "symbol": "AMD",
-        "name": "Advanced Micro Devices, Inc.",
-        "pct": -9.11
+        "pct": -17.69
       },
       {
         "symbol": "PEPG",
         "name": "PepGen Inc.",
-        "pct": -9.03
+        "pct": -9.82
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -8.86
+        "pct": -9.62
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "pct": -9.48
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -8.65
+        "pct": -9.22
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": -8.43
-      },
-      {
-        "symbol": "OUST",
-        "name": "Ouster, Inc.",
-        "pct": -8.17
+        "pct": -8.96
       },
       {
         "symbol": "CVLT",
         "name": "Commvault Systems, Inc.",
-        "pct": -8.0
+        "pct": -8.67
       },
       {
         "symbol": "APLD",
         "name": "Applied Digital Corporation",
-        "pct": -7.94
+        "pct": -8.55
       },
       {
-        "symbol": "AVEX",
-        "name": "AEVEX Corp.",
-        "pct": -7.92
+        "symbol": "OMH",
+        "name": "Ohmyhome Limited",
+        "pct": -8.5
+      },
+      {
+        "symbol": "OUST",
+        "name": "Ouster, Inc.",
+        "pct": -8.36
       }
     ],
     "universe": 1256
