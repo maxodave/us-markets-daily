@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-13T15:40:51Z",
+  "updated": "2026-11-13T15:58:58Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.9,
-      "last": 7523.41
+      "pct": -0.84,
+      "last": 7528.42
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.04,
-      "last": 27709.17
+      "pct": -1.93,
+      "last": 27740.96
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.1,
-      "last": 52240.75
+      "pct": -0.12,
+      "last": 52229.57
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.17,
-      "last": 51799.23
+      "pct": -0.11,
+      "last": 51829.5
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": 28.77
+        "pct": 26.31
       },
       {
         "symbol": "CDNL",
         "name": "Cardinal Infrastructure Group Inc.",
-        "pct": 19.5
+        "pct": 18.26
       },
       {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": 8.03
+        "pct": 9.43
       },
       {
         "symbol": "CLBT",
         "name": "Cellebrite DI Ltd.",
-        "pct": 7.16
-      },
-      {
-        "symbol": "ALNY",
-        "name": "Alnylam Pharmaceuticals, Inc.",
-        "pct": 6.42
-      },
-      {
-        "symbol": "FOUR",
-        "name": "Shift4 Payments, Inc.",
-        "pct": 5.68
+        "pct": 7.3
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": 5.12
+        "pct": 7.29
+      },
+      {
+        "symbol": "ALNY",
+        "name": "Alnylam Pharmaceuticals, Inc.",
+        "pct": 6.19
+      },
+      {
+        "symbol": "FOUR",
+        "name": "Shift4 Payments, Inc.",
+        "pct": 5.39
       },
       {
         "symbol": "TPL",
         "name": "Texas Pacific Land Corporation",
-        "pct": 5.06
+        "pct": 4.8
       },
       {
         "symbol": "KLAR",
         "name": "Klarna Group plc",
-        "pct": 4.84
+        "pct": 4.8
       },
       {
-        "symbol": "BOOT",
-        "name": "Boot Barn Holdings, Inc.",
-        "pct": 4.71
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": 4.48
       }
     ],
     "losers": [
       {
         "symbol": "HTFL",
         "name": "Heartflow, Inc.",
-        "pct": -16.7
+        "pct": -16.47
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -13.81
+        "pct": -12.19
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -12.68
+        "pct": -11.66
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": -11.61
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -11.4
+        "pct": -10.59
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": -11.33
+        "pct": -10.19
       },
       {
         "symbol": "OUST",
         "name": "Ouster, Inc.",
-        "pct": -10.38
+        "pct": -10.03
       },
       {
-        "symbol": "APLD",
-        "name": "Applied Digital Corporation",
-        "pct": -10.24
+        "symbol": "CVLT",
+        "name": "Commvault Systems, Inc.",
+        "pct": -9.74
       },
       {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -10.21
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": -9.53
       },
       {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -10.14
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "pct": -9.34
+      },
+      {
+        "symbol": "PEPG",
+        "name": "PepGen Inc.",
+        "pct": -9.23
       }
     ],
     "universe": 1256
