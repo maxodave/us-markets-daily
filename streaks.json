@@ -1,16 +1,17 @@
 {
-  "updated": "2026-11-14T06:00:03Z",
+  "updated": "2026-11-14T13:25:03Z",
   "session_date": "2026-11-13",
   "universe": 558,
   "up": {
-    "count": 336,
+    "count": 349,
     "by_length": {
-      "1": 256,
+      "1": 267,
       "2": 20,
-      "3": 22,
-      "4": 20,
-      "5": 13,
-      "6": 3,
+      "3": 26,
+      "4": 17,
+      "5": 14,
+      "6": 2,
+      "7": 1,
       "8+": 2
     },
     "top": [
@@ -38,8 +39,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": 6,
-        "cum_pct": 10.73
+        "days": 7,
+        "cum_pct": 11.13
       },
       {
         "symbol": "EOG",
@@ -60,13 +61,13 @@
         "cum_pct": 8.57
       },
       {
-        "symbol": "STMMI.MI",
-        "name": "STMicroelectronics",
+        "symbol": "AVIO.MI",
+        "name": "Avio",
         "indices": [
           "ftsemib"
         ],
         "days": 5,
-        "cum_pct": 14.19
+        "cum_pct": 14.0
       },
       {
         "symbol": "TRGP",
@@ -114,6 +115,15 @@
         "cum_pct": 5.35
       },
       {
+        "symbol": "PST.MI",
+        "name": "Poste italiane",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": 5,
+        "cum_pct": 4.77
+      },
+      {
         "symbol": "KR",
         "name": "Kroger",
         "indices": [
@@ -139,27 +149,17 @@
         ],
         "days": 5,
         "cum_pct": 3.86
-      },
-      {
-        "symbol": "APD",
-        "name": "Air Products",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 3.83
       }
     ]
   },
   "down": {
-    "count": 217,
+    "count": 205,
     "by_length": {
-      "1": 66,
-      "2": 106,
-      "3": 19,
-      "4": 22,
-      "5": 1,
-      "6": 1,
+      "1": 59,
+      "2": 103,
+      "3": 18,
+      "4": 21,
+      "5": 2,
       "7": 2
     },
     "top": [
@@ -182,15 +182,6 @@
         "cum_pct": -3.76
       },
       {
-        "symbol": "MONC.MI",
-        "name": "Moncler",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -6,
-        "cum_pct": -6.52
-      },
-      {
         "symbol": "FSLR",
         "name": "First Solar",
         "indices": [
@@ -198,6 +189,15 @@
         ],
         "days": -5,
         "cum_pct": -14.79
+      },
+      {
+        "symbol": "STLAM.MI",
+        "name": "Stellantis",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -5,
+        "cum_pct": -12.49
       },
       {
         "symbol": "MRNA",
@@ -217,15 +217,6 @@
         ],
         "days": -4,
         "cum_pct": -13.56
-      },
-      {
-        "symbol": "STLAM.MI",
-        "name": "Stellantis",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -4,
-        "cum_pct": -11.53
       },
       {
         "symbol": "ILMN",
@@ -298,10 +289,19 @@
         ],
         "days": -4,
         "cum_pct": -3.45
+      },
+      {
+        "symbol": "MLM",
+        "name": "Martin Marietta Materials",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -3.27
       }
     ]
   },
   "flat": {
-    "count": 5
+    "count": 4
   }
 }

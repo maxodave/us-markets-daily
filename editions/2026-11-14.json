@@ -1320,47 +1320,47 @@
     },
     "ftsemib": {
       "stats": {
-        "n_up": 14,
-        "n_down": 24,
-        "n_flat": 2,
+        "n_up": 27,
+        "n_down": 12,
+        "n_flat": 1,
         "n_total": 40,
-        "avg_pct": -0.61,
+        "avg_pct": 0.23,
         "best_sectors": [
           {
             "sector": "Utilities",
-            "avg_pct": 0.42
+            "avg_pct": 0.9
           },
           {
             "sector": "Energy",
-            "avg_pct": 0.13
+            "avg_pct": 0.68
           },
           {
-            "sector": "Financial Services",
-            "avg_pct": -0.02
+            "sector": "Banks",
+            "avg_pct": 0.53
           }
         ],
         "worst_sectors": [
           {
             "sector": "Industrial Goods and Services",
-            "avg_pct": -0.65
-          },
-          {
-            "sector": "Banks",
-            "avg_pct": -0.54
+            "avg_pct": -0.39
           },
           {
             "sector": "Financial Services",
-            "avg_pct": -0.02
+            "avg_pct": 0.12
+          },
+          {
+            "sector": "Banks",
+            "avg_pct": 0.53
           }
         ]
       },
       "gainers": [
         {
-          "symbol": "IG.MI",
-          "name": "Italgas",
-          "sector": "Utilities",
-          "pct_change": 1.86,
-          "last_close": 9.29,
+          "symbol": "BC.MI",
+          "name": "Brunello Cucinelli",
+          "sector": "Consumer Products and Services",
+          "pct_change": 3.2,
+          "last_close": 87.8,
           "indices": [
             "ftsemib"
           ],
@@ -1369,11 +1369,11 @@
           "news_historical": []
         },
         {
-          "symbol": "TRN.MI",
-          "name": "Terna",
-          "sector": "Utilities",
-          "pct_change": 1.27,
-          "last_close": 9.88,
+          "symbol": "AMP.MI",
+          "name": "Amplifon",
+          "sector": "Health Care",
+          "pct_change": 2.47,
+          "last_close": 11.82,
           "indices": [
             "ftsemib"
           ],
@@ -1385,8 +1385,8 @@
           "symbol": "ENI.MI",
           "name": "Eni",
           "sector": "Energy",
-          "pct_change": 1.07,
-          "last_close": 25.47,
+          "pct_change": 1.98,
+          "last_close": 25.98,
           "indices": [
             "ftsemib"
           ],
@@ -1395,11 +1395,11 @@
           "news_historical": []
         },
         {
-          "symbol": "AVIO.MI",
-          "name": "Avio",
-          "sector": "Aerospace",
-          "pct_change": 0.96,
-          "last_close": 32.67,
+          "symbol": "INW.MI",
+          "name": "INWIT",
+          "sector": "Telecommunications",
+          "pct_change": 1.62,
+          "last_close": 7.52,
           "indices": [
             "ftsemib"
           ],
@@ -1408,24 +1408,11 @@
           "news_historical": []
         },
         {
-          "symbol": "ENEL.MI",
-          "name": "Enel",
+          "symbol": "TRN.MI",
+          "name": "Terna",
           "sector": "Utilities",
-          "pct_change": 0.74,
-          "last_close": 9.93,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "BZU.MI",
-          "name": "Buzzi",
-          "sector": "Construction and Materials",
-          "pct_change": 0.68,
-          "last_close": 44.36,
+          "pct_change": 1.57,
+          "last_close": 10.03,
           "indices": [
             "ftsemib"
           ],
@@ -1437,8 +1424,8 @@
           "symbol": "SRG.MI",
           "name": "Snam",
           "sector": "Energy",
-          "pct_change": 0.55,
-          "last_close": 6.2,
+          "pct_change": 1.52,
+          "last_close": 6.3,
           "indices": [
             "ftsemib"
           ],
@@ -1447,11 +1434,11 @@
           "news_historical": []
         },
         {
-          "symbol": "PST.MI",
-          "name": "Poste italiane",
-          "sector": "Financial Services",
-          "pct_change": 0.47,
-          "last_close": 25.63,
+          "symbol": "BAMI.MI",
+          "name": "Banco BPM",
+          "sector": "Banks",
+          "pct_change": 1.47,
+          "last_close": 14.88,
           "indices": [
             "ftsemib"
           ],
@@ -1460,11 +1447,11 @@
           "news_historical": []
         },
         {
-          "symbol": "STMMI.MI",
-          "name": "STMicroelectronics",
-          "sector": "Technology",
-          "pct_change": 0.4,
-          "last_close": 42.36,
+          "symbol": "MONC.MI",
+          "name": "Moncler",
+          "sector": "Consumer Products and Services",
+          "pct_change": 1.19,
+          "last_close": 44.36,
           "indices": [
             "ftsemib"
           ],
@@ -1473,11 +1460,24 @@
           "news_historical": []
         },
         {
-          "symbol": "G.MI",
-          "name": "Generali",
-          "sector": "Insurance",
-          "pct_change": 0.33,
-          "last_close": 44.96,
+          "symbol": "BZU.MI",
+          "name": "Buzzi",
+          "sector": "Construction and Materials",
+          "pct_change": 1.15,
+          "last_close": 44.87,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "IG.MI",
+          "name": "Italgas",
+          "sector": "Utilities",
+          "pct_change": 1.05,
+          "last_close": 9.39,
           "indices": [
             "ftsemib"
           ],
@@ -1488,11 +1488,11 @@
       ],
       "losers": [
         {
-          "symbol": "AMP.MI",
-          "name": "Amplifon",
-          "sector": "Health Care",
-          "pct_change": -5.29,
-          "last_close": 11.54,
+          "symbol": "FCT.MI",
+          "name": "Fincantieri",
+          "sector": "Shipbuilding",
+          "pct_change": -4.28,
+          "last_close": 11.4,
           "indices": [
             "ftsemib"
           ],
@@ -1504,99 +1504,8 @@
           "symbol": "TPRO.MI",
           "name": "Technoprobe",
           "sector": "Technology",
-          "pct_change": -4.73,
-          "last_close": 22.58,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "STLAM.MI",
-          "name": "Stellantis",
-          "sector": "Automobiles and Parts",
-          "pct_change": -4.33,
-          "last_close": 3.56,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "BC.MI",
-          "name": "Brunello Cucinelli",
-          "sector": "Consumer Products and Services",
-          "pct_change": -1.78,
-          "last_close": 85.08,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "RACE.MI",
-          "name": "Ferrari",
-          "sector": "Automobiles and Parts",
-          "pct_change": -1.64,
-          "last_close": 369.3,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "FCT.MI",
-          "name": "Fincantieri",
-          "sector": "Shipbuilding",
-          "pct_change": -1.53,
-          "last_close": 11.91,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "LDO.MI",
-          "name": "Leonardo",
-          "sector": "Industrial Goods and Services",
-          "pct_change": -1.49,
-          "last_close": 49.87,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "CPR.MI",
-          "name": "Campari",
-          "sector": "Food, Beverage and Tobacco",
-          "pct_change": -1.37,
-          "last_close": 6.78,
-          "indices": [
-            "ftsemib"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "SPM.MI",
-          "name": "Saipem",
-          "sector": "Energy",
-          "pct_change": -1.36,
-          "last_close": 4.27,
+          "pct_change": -2.66,
+          "last_close": 21.98,
           "indices": [
             "ftsemib"
           ],
@@ -1608,8 +1517,99 @@
           "symbol": "PRY.MI",
           "name": "Prysmian",
           "sector": "Industrial Goods and Services",
-          "pct_change": -1.16,
-          "last_close": 110.5,
+          "pct_change": -2.58,
+          "last_close": 107.65,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "UNI.MI",
+          "name": "Unipol",
+          "sector": "Insurance",
+          "pct_change": -1.22,
+          "last_close": 25.93,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "SPM.MI",
+          "name": "Saipem",
+          "sector": "Energy",
+          "pct_change": -1.12,
+          "last_close": 4.22,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "G.MI",
+          "name": "Generali",
+          "sector": "Insurance",
+          "pct_change": -1.09,
+          "last_close": 44.47,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STLAM.MI",
+          "name": "Stellantis",
+          "sector": "Automobiles and Parts",
+          "pct_change": -1.08,
+          "last_close": 3.52,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "STMMI.MI",
+          "name": "STMicroelectronics",
+          "sector": "Technology",
+          "pct_change": -1.02,
+          "last_close": 41.93,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "TIT.MI",
+          "name": "Telecom Italia",
+          "sector": "Telecommunications",
+          "pct_change": -0.76,
+          "last_close": 5.86,
+          "indices": [
+            "ftsemib"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "LTMC.MI",
+          "name": "Lottomatica Group",
+          "sector": "Gambling",
+          "pct_change": -0.71,
+          "last_close": 27.82,
           "indices": [
             "ftsemib"
           ],
@@ -1620,14 +1620,14 @@
       ],
       "paragraphs": {
         "en": [
-          "In the November 13, 2026 session the FTSE MIB closed with 14 stocks higher, 24 lower and 2 unchanged, out of 40 tracked. The average move was -0.61%.",
-          "Best-performing sectors by average move: Utilities (+0.42%); Energy (+0.13%); Financial Services (-0.02%). Weakest: Industrial Goods and Services (-0.65%); Banks (-0.54%); Financial Services (-0.02%).",
-          "Leading the session: Italgas (IG.MI, +1.86%); Terna (TRN.MI, +1.27%); Eni (ENI.MI, +1.07%). At the bottom: Amplifon (AMP.MI, -5.29%); Technoprobe (TPRO.MI, -4.73%); Stellantis (STLAM.MI, -4.33%)."
+          "In the November 13, 2026 session the FTSE MIB closed with 27 stocks higher, 12 lower and 1 unchanged, out of 40 tracked. The average move was +0.23%.",
+          "Best-performing sectors by average move: Utilities (+0.90%); Energy (+0.68%); Banks (+0.53%). Weakest: Industrial Goods and Services (-0.39%); Financial Services (+0.12%); Banks (+0.53%).",
+          "Leading the session: Brunello Cucinelli (BC.MI, +3.20%); Amplifon (AMP.MI, +2.47%); Eni (ENI.MI, +1.98%). At the bottom: Fincantieri (FCT.MI, -4.28%); Technoprobe (TPRO.MI, -2.66%); Prysmian (PRY.MI, -2.58%)."
         ],
         "it": [
-          "Nella seduta del 13 novembre 2026 il FTSE MIB ha chiuso con 14 societa' in rialzo, 24 in ribasso e 2 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di -0,61%.",
-          "Settori con la variazione media migliore: Utilities (+0,42%); Energy (+0,13%); Financial Services (-0,02%). Settori piu' debolli: Industrial Goods and Services (-0,65%); Banks (-0,54%); Financial Services (-0,02%).",
-          "In cima alla seduta: Italgas (IG.MI, +1,86%); Terna (TRN.MI, +1,27%); Eni (ENI.MI, +1,07%). In fondo: Amplifon (AMP.MI, -5,29%); Technoprobe (TPRO.MI, -4,73%); Stellantis (STLAM.MI, -4,33%)."
+          "Nella seduta del 13 novembre 2026 il FTSE MIB ha chiuso con 27 societa' in rialzo, 12 in ribasso e 1 invariate, su 40 titoli monitorati. La variazione media dell'indice e' stata di +0,23%.",
+          "Settori con la variazione media migliore: Utilities (+0,90%); Energy (+0,68%); Banks (+0,53%). Settori piu' debolli: Industrial Goods and Services (-0,39%); Financial Services (+0,12%); Banks (+0,53%).",
+          "In cima alla seduta: Brunello Cucinelli (BC.MI, +3,20%); Amplifon (AMP.MI, +2,47%); Eni (ENI.MI, +1,98%). In fondo: Fincantieri (FCT.MI, -4,28%); Technoprobe (TPRO.MI, -2,66%); Prysmian (PRY.MI, -2,58%)."
         ]
       }
     },
@@ -1952,10 +1952,181 @@
       }
     }
   },
-  "manual_commentary_html": "<p>I mercati azionari statunitensi hanno chiuso in territorio misto il 13 novembre 2026, con un modesto rialzo mascherato da una netta divergenza settoriale. L&#x27;S&amp;P 500 ha visto 315 titoli in rialzo contro 184 in ribasso, mentre il Nasdaq-100 ha sottoperformato con 44 guadagnatori e 57 perdenti, riflettendo una debolezza diffusa nel settore tecnologico. Secondo i resoconti del WSJ, la seduta si è svolta sullo sfondo di una rivalutazione del commercio dell&#x27;IA, con preoccupazioni riguardanti le prospettive a breve termine di Nvidia che pesano sui titoli dei semiconduttori e dei chip in vista dell&#x27;annuncio dei risultati della società la prossima settimana. Uno stop nazionale della FAA che ha interrotto i voli ha dominato i titoli di testa, anche se i movimenti più ampi del mercato suggerivano che gli investitori si concentrassero sulle implicazioni del cambiamento di sentimento attorno agli investimenti in intelligenza artificiale.</p><p>I beni di consumo primario, l&#x27;energia e i servizi di comunicazione hanno guidato il mercato, con guadagni medi rispettivamente dell&#x27;1,22 percento, dell&#x27;1,16 percento e dell&#x27;1,09 percento. Tra i singoli guadagnatori, Alnylam Pharmaceuticals è salita del 5,36 percento, Charter Communications è avanzata del 4,32 percento, Steris è salita del 4,29 percento, Global Payments ha guadagnato il 4,21 percento e Fidelity National Information Services è aumentata del 4,16 percento. Le azioni di Fox Corporation della Classe A e della Classe B hanno anche registrato guadagni solidi del 4,12 percento e del 4,09 percento. AppLovin, Texas Pacific Land Corporation e Fiserv hanno completato i migliori performer con guadagni rispettivamente del 3,92 percento, del 3,82 percento e del 3,71 percento. I media tracciati non hanno segnalato catalizzatori aziendali specifici per questi movimenti.</p><p>I titoli tecnologici hanno subito il peso maggiore delle pressioni di vendita, con il settore in calo del 2,64 percento in media. Nebius Group è scesa del 9,92 percento, Advanced Micro Devices è diminuita dell&#x27;8,75 percento e Dell Technologies è scesa del 7,18 percento. Cisco è scivolata del 6,24 percento, CoreWeave è scesa del 6,13 percento e Coherent Corp. ha perso il 6,0 percento. Sandisk, Teradyne e Western Digital si sono ritirate ciascuna di oltre il 5 percento, mentre Bloom Energy è diminuita del 4,92 percento. MarketWatch ha attribuito la debolezza dei semiconduttori a Wall Street che rivaluta il commercio dell&#x27;IA senza Jensen Huang, mentre il WSJ ha notato che i titoli dei chip hanno affrontato pressioni mentre gli investitori attendevano test importanti per la narrativa dell&#x27;IA, inclusi i risultati di Nvidia la prossima settimana e l&#x27;offerta pubblica iniziale di Anthropic.</p>",
-  "manual_commentary_html_en": "<p>U.S. equities closed mixed on November 13, 2026, with a narrow advance masked by sharp sector divergence. The S&amp;P 500 saw 315 stocks advance against 184 declines, while the Nasdaq-100 underperformed with 44 gainers and 57 losers, reflecting broad weakness in technology. According to WSJ reporting, the session unfolded against a backdrop of AI trade reassessment, with concerns about Nvidia&#x27;s near-term outlook weighing on semiconductor and chip-related equities ahead of the company&#x27;s earnings announcement next week. A nationwide FAA groundstop that disrupted flights also dominated headlines, though broader market moves suggested investors were focused on the implications of shifting sentiment around artificial intelligence investments.</p><p>Consumer Staples, Energy, and Communication Services led the market, with average gains of 1.22 percent, 1.16 percent, and 1.09 percent respectively. Among individual gainers, Alnylam Pharmaceuticals rose 5.36 percent, Charter Communications advanced 4.32 percent, Steris climbed 4.29 percent, Global Payments gained 4.21 percent, and Fidelity National Information Services increased 4.16 percent. Fox Corporation&#x27;s Class A and Class B shares also posted solid gains of 4.12 percent and 4.09 percent. AppLovin, Texas Pacific Land Corporation, and Fiserv rounded out the top performers with gains of 3.92 percent, 3.82 percent, and 3.71 percent respectively. Tracked outlets reported no specific company catalysts for these moves.</p><p>Technology stocks bore the brunt of selling pressure, with the sector down 2.64 percent on average. Nebius Group fell 9.92 percent, Advanced Micro Devices declined 8.75 percent, and Dell Technologies dropped 7.18 percent. Cisco slid 6.24 percent, CoreWeave fell 6.13 percent, and Coherent Corp. lost 6.0 percent. Sandisk, Teradyne, and Western Digital each retreated more than 5 percent, while Bloom Energy declined 4.92 percent. MarketWatch attributed the semiconductor weakness to Wall Street rethinking the AI trade without Jensen Huang, while WSJ noted that chip stocks faced pressure as investors awaited major tests for the AI narrative, including Nvidia earnings next week and the Anthropic initial public offering.</p>",
+  "manual_commentary_html": "<p>I mercati azionari statunitensi hanno chiuso in territorio misto il 13 novembre 2026, con l&#x27;S&amp;P 500 in rialzo dello 0.13 percento su un ampiezza di 315 rialzisti contro 184 ribassisti, mentre il Nasdaq-100 ha ceduto lo 0.76 percento con soli 44 rialzisti rispetto a 57 ribassisti, una divergenza notevole che riflette una rotazione settoriale lontano dalla tecnologia. Il Dow Jones ha invece registrato un guadagno marginale dello 0.03 percento su 19 titoli in rialzo contro 11 in ribasso. I titoli macro si sono concentrati su sviluppi geopolitici, inclusi i colloqui riportati tra il Presidente Trump e i leader di Cina e Russia programmati per la settimana successiva, nonché la copertura di un&#x27;operazione di spionaggio cinese mirata alla tecnologia occidentale e alle capacità di intelligenza artificiale. I disordini domestici hanno avuto un ruolo di primo piano: uno stop nazionale della FAA venerdì ha creato ritardi di viaggio a cascata che hanno colpito i calendari del calcio universitario, mentre un&#x27;interruzione del servizio Microsoft e una collisione di una petroliera a New Orleans hanno completato il flusso di notizie della giornata.</p><p>Consumer Staples, Energy e Communication Services hanno guidato la seduta, con guadagni medi rispettivamente dell&#x27;1.22 percento, 1.16 percento e 1.09 percento. Tra i singoli rialzisti, Alnylam Pharmaceuticals è salita del 5.36 percento, Charter Communications ha avanzato del 4.32 percento, Steris ha guadagnato il 4.29 percento, Global Payments ha ottenuto il 4.21 percento e Fidelity National Information Services ha aggiunto il 4.16 percento. Le azioni Classe A e Classe B di Fox Corporation hanno anche registrato solidi guadagni rispettivamente del 4.12 percento e 4.09 percento. AppLovin, Texas Pacific Land Corporation e Fiserv hanno completato i migliori performer con avanzamenti rispettivamente del 3.92 percento, 3.82 percento e 3.71 percento. Gli outlet tracciati non hanno riportato catalizzatori aziendali specifici per nessuno di questi movimenti.</p><p>I settori Technology e Information Technology hanno subito il peso maggiore delle pressioni di vendita, cedendo in media rispettivamente il 2.64 percento e l&#x27;1.72 percento. Advanced Micro Devices è scesa dell&#x27;8.75 percento, Nebius Group ha perso il 9.92 percento e Dell Technologies è crollata del 7.18 percento, senza catalizzatori riportati per nessuno di questi ribassi. Cisco è precipitata del 6.24 percento, mentre Coherent Corp. si è ritirata del 6.0 percento e CoreWeave è caduta del 6.13 percento. Sandisk, Teradyne e Western Digital hanno ciascuna ceduto tra il 5.0 e il 5.59 percento, mentre Bloom Energy ha perso il 4.92 percento. Come per i rialzisti, gli outlet tracciati non hanno fornito notizie aziendali specifiche per spiegare il ampio selloff della tecnologia.</p>",
+  "manual_commentary_html_en": "<p>U.S. equities closed mixed on November 13, 2026, with the S&amp;P 500 advancing 0.13 percent on breadth of 315 gainers to 184 losers, while the Nasdaq-100 declined 0.76 percent with only 44 gainers against 57 losers—a notable divergence reflecting sector rotation away from technology. The Dow Jones, meanwhile, posted a marginal 0.03 percent gain on 19 advancing issues versus 11 decliners. Macro headlines centered on geopolitical developments, including reported talks between President Trump and the leaders of China and Russia scheduled for the following week, as well as coverage of a Chinese espionage operation targeting Western technology and artificial intelligence capabilities. Domestic disruptions also featured prominently: an FAA groundstop on Friday created cascading travel delays affecting college football schedules, while a Microsoft service outage and a tanker collision in New Orleans rounded out the day&#x27;s news flow.</p><p>Consumer Staples, Energy, and Communication Services led the session, averaging gains of 1.22 percent, 1.16 percent, and 1.09 percent respectively. Among individual gainers, Alnylam Pharmaceuticals rose 5.36 percent, Charter Communications advanced 4.32 percent, Steris climbed 4.29 percent, Global Payments gained 4.21 percent, and Fidelity National Information Services added 4.16 percent. Fox Corporation&#x27;s Class A and Class B shares also posted solid gains of 4.12 percent and 4.09 percent. AppLovin, Texas Pacific Land Corporation, and Fiserv rounded out the top performers with advances of 3.92 percent, 3.82 percent, and 3.71 percent respectively. Tracked outlets reported no specific company catalysts for any of these moves.</p><p>Technology and Information Technology sectors bore the brunt of selling pressure, declining 2.64 percent and 1.72 percent on average. Advanced Micro Devices fell 8.75 percent, Nebius Group dropped 9.92 percent, and Dell Technologies slid 7.18 percent, with no reported catalysts cited for any of these declines. Cisco tumbled 6.24 percent, while Coherent Corp. retreated 6.0 percent and CoreWeave fell 6.13 percent. Sandisk, Teradyne, and Western Digital each declined between 5.0 and 5.59 percent, while Bloom Energy lost 4.92 percent. Like the gainers, tracked outlets provided no specific company news to explain the broad technology selloff.</p>",
   "manual_highlights": [],
   "feed": [
+    {
+      "title": "Geopolitics Looms Over Eurovision, but Not Its Asian Edition",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 13:17:58 +0000",
+      "link": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-politics.html",
+      "summary": "So far, the contest’s organizers have kept politics offstage. The European edition shows how difficult that can be.",
+      "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14asia-eurovision-geopolitics-tgzw/14asia-eurovision-geopolitics-tgzw-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Orsini: 'La manovra? Momento complicato, ci aspettiamo risposte'",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 14 Nov 2026 14:16:08 +0100",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/11/14/orsini-la-manovra-momento-complicato-ci-aspettiamo-risposte_e7e1de2d-a227-4024-9594-d9523aab3ffe.html",
+      "summary": "Marcegaglia: 'La politica ascolti l'industria, lavoriamo insieme'",
+      "image": "https://www.ansa.it/webimages/img_1280x720/2026/11/11/84070deacbf297dd5237952cd04819b8.jpg"
+    },
+    {
+      "title": "Microsoft’s Global Outage and Fixes: What We Know",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 13:15:55 +0000",
+      "link": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html",
+      "summary": "Disruptions to the company’s email, messaging and other products lasted about 36 hours, hampering companies and services around the world.",
+      "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13xp-microsoftWWK-1-lfcv/13xp-microsoftWWK-1-lfcv-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Microsoft, ripristinati tutti i servizi dopo il blackout globale",
+      "source": "ANSA Economia",
+      "category": "italia",
+      "published": "Sat, 14 Nov 2026 14:12:03 +0100",
+      "link": "https://www.ansa.it/sito/notizie/economia/2026/11/14/microsoft-ripristinati-tutti-i-servizi-dopo-il-blackout-globale-_7cecae08-705d-4f89-ac5c-293be818c58d.html",
+      "summary": "Il disservizio ha interessato oltre 70 Paesi",
+      "image": "https://www.ansa.it/webimages/img_1280x720/2026/11/13/b50c518618220ef74dc1ca52ef829d7c.jpg"
+    },
+    {
+      "title": "Asia’s Geoff Downes On The Band’s New Record, More Than A Decade In the Making",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 08:00:45 -0500",
+      "link": "https://www.forbes.com/sites/davidchiu/2026/11/14/asias-geoff-downes-on-the-bands-new-record-more-than-a-decade-in-the-making/",
+      "summary": "Asia co-founder Geoff Downes talks about the progressive rock band's latest album.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6aef3990fa98bb29b6828327/0x0.jpg?width=960&precrop=1199%2C675%2Cx0%2Cy0"
+    },
+    {
+      "title": "Trump Media group stares down $1bn debt crunch as bitcoin bet fades",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 13:00:09 GMT",
+      "link": "https://www.ft.com/content/ada459c4-5f43-4a4a-bc6c-90de8897a4f0?syn-25a6b1a6=1",
+      "summary": "Plunge in shares and cryptocurrency prices could force Truth Social owner to sell assets or take on costly new debt",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Febf58b14-8b09-4eed-81e9-405bc229649b.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Retailers are turning to entertainment to win shoppers’ attention",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 13:00:01 GMT",
+      "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
+      "summary": "Retailers are increasingly investing in and building out entertainment studios as the race for audience attention speeds up.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108527434-1793906235283-GAP_JYT_GROUP_SHOT.jpg?v=1794430218&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "These 6 battered AI stocks could bounce back big, an analyst says",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 13:00:00 GMT",
+      "link": "https://www.marketwatch.com/story/these-6-battered-ai-stocks-could-bounce-back-big-an-analyst-says-e9f29c24?mod=mw_rss_topstories",
+      "summary": "The postelection panic over data centers has led to a widespread tech selloff, but some stocks are more insulated than they seem, according to Bernstein.",
+      "image": "https://images.mktw.net/im-33113948"
+    },
+    {
+      "title": "AEW Full Gear 2026 Start Time, Match Card, Streaming Info",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 08:00:00 -0500",
+      "link": "https://www.forbes.com/sites/robwolkenbrod/2026/11/14/aew-full-gear-2026-start-time-match-card-streaming-info/",
+      "summary": "The full viewing information and match card for the AEW Full Gear 2026 pay-per-view, featuring Will Ospreay, Kyle Fletcher, Adam Copeland and Mercedes Mone.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6ae492c0f75502cb2094ad2d/0x0.jpg"
+    },
+    {
+      "title": "Flight disruptions continue after FAA lifts ground stop, some college football games delayed",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 12:30:58 GMT",
+      "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+      "summary": "U.S. flights are resuming after the FAA ground stop, but delays and cancellations are still piling up.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108551467-1794607964689-IMG_0076.jpg?v=1794609835&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "I Put the Best Digital Notebooks to the Test. Here Are My Favorites (2026)",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 14 Nov 2026 12:05:00 +0000",
+      "link": "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens/",
+      "summary": "These nifty tools combine the ease of jotting notes by hand with the power of saving them digitally.",
+      "image": "https://media.wired.com/photos/6af78dee04380d6fbf425df6/master/pass/The-Best-Digital-Notebooks-and-Smart-Pens.jpg"
+    },
+    {
+      "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 12:00:00 GMT",
+      "link": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521?mod=mw_rss_topstories",
+      "summary": "Shares of fish processors, lighting manufacturers and appliance makers have soared ahead of the Year of the Sheep. Investor appetite has had little to do with the status of their businesses.",
+      "image": "https://images.mktw.net/im-49936413"
+    },
+    {
+      "title": "How to Run SteamOS on Your Mac",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 14 Nov 2026 12:00:00 +0000",
+      "link": "https://www.wired.com/story/get-steamos-easily-running-on-your-mac/",
+      "summary": "A free app lets you boot SteamOS in a virtual machine on your Apple Silicon Mac, unlocking PC and legacy games that otherwise won’t run.",
+      "image": "https://media.wired.com/photos/6af484753d0afc8b01fd0f21/master/pass/GettyImages-1394116979.jpg"
+    },
+    {
+      "title": "Passengers face widespread disruption after US air traffic control outage",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 11:58:02 GMT",
+      "link": "https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1",
+      "summary": "Thousands of flights set to be delayed or cancelled over the weekend",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F650897e8-6bd4-4833-954d-f9c57fb04072.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Sat, 14 Nov 2026 11:28:12 +0000",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+    },
+    {
+      "title": "Guinea Plans Bauxite Index as It Seeks to Bolster Ore Prices",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 11:27:57 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-14/guinea-plans-bauxite-index-as-it-seeks-to-bolster-ore-prices",
+      "summary": "Guinea, the world’s biggest exporter of bauxite, plans to establish an index for the raw material as part of wider efforts to bolster prices.",
+      "image": null
+    },
+    {
+      "title": "Microsoft confirms global outage resolved, rules out cyberattack",
+      "source": "Cointelegraph",
+      "category": "crypto",
+      "published": "Sat, 14 Nov 2026 10:34:06 +0000",
+      "link": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "summary": "Microsoft attributed the outage to a network capacity upgrade issue, confirming that the disruption was unrelated to cyberattacks or AI agents.",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6X8JFEEG972QNHB7E2TQ63J/hi-the-rise-of-major-institutions-is-inevitable-microsoft.jpg"
+    },
+    {
+      "title": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 10:16:50 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027",
+      "summary": "Goldman Sachs expects earnings growth to drive a 19% return for the MSCI Asia ex-Japan Index in dollar terms next year, even as it warned that uncertainty over artificial intelligence could fuel volatility.",
+      "image": null
+    },
+    {
+      "title": "Microsoft says consumer products services recovered; still monitoring enterprise services",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 05:40:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObkxxbE1VclJTQkp3R3ZZR3M4b0UtTUNMMmIzb09GSzlZQU1kUDQzN3ZKRXhleXhXV1BUd1lEMXVSMnZBUDN3WEwwdUM0QVhydk5mZWwxZnRndlJHd2FEQUpWUnRaeG5raGFMY2Z2M1RHRlZYLThiVktPTVVsYVFFS0dkMHlyNmtPNWRlQ3NsYjNRY0dxZVdQaFhRUlRpMTNjdlZqbDBZcVg3Q0tRV3ZFWlQ1bTJIZHl3WXFDV2FJbFVocm8w?oc=5",
+      "summary": "Microsoft says consumer products services recovered; still monitoring enterprise services &nbsp;&nbsp; Reuters",
+      "image": null
+    },
     {
       "title": "Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more",
       "source": "The Block",
@@ -1964,123 +2135,6 @@
       "link": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
       "summary": "In today's newsletter, Meta tests prediction-market app using points instead of cash; DOJ moves to seize $1.2 billion from Binance hack, disrupts North Korean deepfake scheme; and more.",
       "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2022/05/20220518_Meta-Facebook-Mark-Zuckerberg.jpg"
-    },
-    {
-      "title": "China’s Market Regulator Warns of Global Asset Repricing Risks",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 05:20:13 GMT",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-14/china-s-market-regulator-warns-of-global-asset-repricing-risks",
-      "summary": "Global capital markets are undergoing a new round of asset repricing and rebalancing in the face of geopolitical tensions and policy uncertainty, according to Wu Qing, chairman of the China Securities Regulatory Commission.",
-      "image": null
-    },
-    {
-      "title": "FAA lifts ground stop after more than four hours, but flight cancellations will stretch into the weekend",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 05:08:24 GMT",
-      "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-      "summary": "The Federal Aviation Administration issued a nationwide ground stop on Friday afternoon, disrupting thousands of departing of flights.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108551466-1794607964688-IMG_0070.jpg?v=1794609835&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 05:01:06 +0000",
-      "link": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
-      "summary": "As retirees live longer, governments need to spend more on pensions. That makes it harder to fund other services, spurring protests like those planned this weekend in France.",
-      "image": "https://static01.nyt.com/images/2026/11/11/multimedia/11int-europe-generations-01-lkbm/11int-europe-generations-01-lkbm-mediumSquareAt3X.jpg"
-    },
-    {
-      "title": "The Nvidia board’s artificial independence",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 05:00:37 GMT",
-      "link": "https://www.ft.com/content/e141a5ea-5aa4-491b-88a4-369cfc67693a",
-      "summary": "Bored of governance",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4b1975cf-6725-489f-9e16-bb27433f4e67.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "Nvidia’s cult of personality was bound to end badly",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 05:00:37 GMT",
-      "link": "https://www.ft.com/content/546ec5eb-fbc2-4600-9794-12b1749c1a04",
-      "summary": "It is worth paying attention to the warning signs of corporate hubris — they often mean something bad is about to happen",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F533178b4-0312-49ca-9888-ab3c9a3fca47.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "Today’s Wordle #1974 Hints, Clues And Answer For Saturday November 14",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 13 Nov 2026 23:59:32 -0500",
-      "link": "https://www.forbes.com/sites/erikkain/2026/11/13/wordle-hints-clues-answer-saturday-november-14/",
-      "summary": "Looking for help with today's New York Times Wordle? Here are some expert hints, clues and commentary to help you solve today's Wordle and sharpen your guessing game.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/654ac7d9543b3152d167c85e/0x0.jpg?width=960"
-    },
-    {
-      "title": "Best Practices For Smart Business Owners Wanting To Make Optimal Use Of OpenAI’s New ‘Businesses In ChatGPT’",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 13 Nov 2026 23:20:36 -0500",
-      "link": "https://www.forbes.com/sites/lanceeliot/2026/11/13/best-practices-for-smart-business-owners-wanting-to-make-optimal-use-of-openais-new-businesses-in-chatgpt/",
-      "summary": "I provide best practices for business owners that want to use OpenAI's new \"Businesses in ChatGPT\" capabilities. An AI Insider analysis and scoop.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6af7df3bd0740308992c0017/0x0.jpg?width=960&precrop=1328%2C995%2Cx296%2Cy31"
-    },
-    {
-      "title": "China to Meet All New Power Demand With Clean Energy, CCTV Says",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 04:05:34 GMT",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-14/china-to-meet-all-new-power-demand-with-clean-energy-cctv-says",
-      "summary": "China is expected to meet all growth in power demand with new clean energy generation by 2030, China Central Television reported.",
-      "image": null
-    },
-    {
-      "title": "FAA lifts rare nationwide ground stop on flights; air travel may take days to recover",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 02:42:00 GMT",
-      "link": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
-      "summary": "Homeland Security Secretary Mullin said that there was ‘zero evidence’ of cyberattack as fewer flights amid fuel-cost surge may hamper rebookings.",
-      "image": "https://images.mktw.net/im-14527198"
-    },
-    {
-      "title": "Trump Administration Delays Enforcement of Medicaid Work Requirement",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 02:22:25 +0000",
-      "link": "https://www.nytimes.com/2026/11/13/us/politics/medicaid-work-requirement-delay.html",
-      "summary": "The federal government had planned to require poor adults to prove they were working or lose insurance coverage starting Jan. 1. Now, it will let states wait until July.",
-      "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-medicaid-qmwz/13dc-medicaid-qmwz-mediumSquareAt3X.jpg"
-    },
-    {
-      "title": "14 dividend stocks selected for long-term growth",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 01:58:00 GMT",
-      "link": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
-      "summary": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
-      "image": "https://images.mktw.net/im-27014870"
-    },
-    {
-      "title": "The FAA Nationwide Ground Stop Is Over",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Sat, 14 Nov 2026 01:46:40 +0000",
-      "link": "https://www.wired.com/story/the-faa-nationwide-ground-stop-is-over/",
-      "summary": "The five-hour ordeal ended Friday evening. Planes will be allowed to fly again, but the effects of the stoppage will be felt throughout the weekend.",
-      "image": "https://media.wired.com/photos/6af796575e4ca9026ac50e15/master/pass/Air-Traffic-Outage-Wasnt-AI-Gear-2239205748.jpg"
-    },
-    {
-      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 01:34:11 GMT",
-      "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
-      "summary": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108368185-1790352357255-gettyimages-2296459165-AFP_C9DQ94M.jpeg?v=1790352418&amp;w=1920&amp;h=1080"
     },
     {
       "title": "Fed's Jefferson says he is taking his policy cues from inflation",
@@ -2107,7 +2161,7 @@
       "published": "Fri, 13 Nov 2026 23:00:00 +0000",
       "link": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
       "summary": "The latest model is lighter and thinner than its predecessor and features an edge-to-edge display. But if you already own the first-generation Colorsoft, there’s little reason to upgrade.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/IMG_3403.jpg?resize=1200,925"
+      "image": null
     },
     {
       "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
@@ -2116,25 +2170,16 @@
       "published": "Fri, 13 Nov 2026 22:43:00 +0000",
       "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
       "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024"
+      "image": null
     },
     {
-      "title": "S&P conferma il rating sull'Italia: 'La crescita supererà le stime'. Giorgetti: 'È la strada giusta'",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Fri, 13 Nov 2026 23:32:12 +0100",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/11/13/sp-conferma-il-rating-sullitalia-la-crescita-superera-le-stime.-giorgetti-e-la-strada-giusta_968a7f83-4609-47b6-b8c7-0b1ab287d3a7.html",
-      "summary": "Il ministro dell'Economia: 'Bene, in tempi difficili è un successo'",
-      "image": "https://www.ansa.it/webimages/img_1280x720/2023/9/25/105622cfdd8648b00ebf1637920aaa36.jpg"
-    },
-    {
-      "title": "Best Early Black Friday AirPods Deals (2026)",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 13 Nov 2026 22:30:29 +0000",
-      "link": "https://www.wired.com/story/best-early-black-friday-airpods-deals-11-13-2026/",
-      "summary": "Black Friday is still weeks away, but AirPods discounts are dropping early.",
-      "image": "https://media.wired.com/photos/6a6a501f4a743f1551e95445/master/pass/If-You%E2%80%99ve-Been-Waiting-to-Upgrade-Your-AirPods,-This-Is-Your-Chance.jpg"
+      "title": "United, Other Airline Stocks Drop After Nationwide Flight Ground Stop. Rental Car Stocks Rise.",
+      "source": "Barron's",
+      "category": "mercati",
+      "published": "Fri, 13 Nov 2026 22:41:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUnRJbHJLSHJqMWNRYU5NanFGVkl2OFhCMnYwYnB5ZXdFdHRKbWtjaENQM2Vjb083ajZrSWZqd19KZGoyOXZjLTY0ZmUxT19SbXJpR2hOOUpXNUpheUk5UEM4aU03YlEzOUVLelBqM2dlcWl1UjRYYW81bzVGMVFSUXM1cUcyZVQ2b1ZvaWlnRW00ZGJpMm80S0QtVVQ?oc=5",
+      "summary": "United, Other Airline Stocks Drop After Nationwide Flight Ground Stop. Rental Car Stocks Rise. &nbsp;&nbsp; Barron's",
+      "image": null
     },
     {
       "title": "Could a Former Nvidia Executive Replace Jensen Huang? Arm’s Rene Haas Emerges as Candidate",
@@ -2144,33 +2189,6 @@
       "link": "https://decrypt.co/383276/nvidia-arm-ceo-rene-haas-replace-jensen-huang",
       "summary": "Nvidia's board has reportedly approached Arm's chief executive as it searches for a replacement for Jensen Huang, while some employees are pushing to bring the chipmaker's founder back as CEO.",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/nvidia-logo-decrypt-style-1-gID_7.png"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "published": "Fri, 13 Nov 2026 22:08:37 +0000",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-    },
-    {
-      "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
-      "source": "Cointelegraph",
-      "category": "crypto",
-      "published": "Fri, 13 Nov 2026 22:01:03 +0000",
-      "link": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "summary": "OpenAI’s new payment wallet lets AI agents complete purchases using existing card networks, with plans to eventually allow preauthorized transactions.",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7BD90N5TZ75ZZMC6V10AW2D/hi-what-is-elon-musk-and-openai.png"
-    },
-    {
-      "title": "Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today’s Market",
-      "source": "Barron's",
-      "category": "mercati",
-      "published": "Fri, 13 Nov 2026 21:40:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xNUN1dEs4N0hEbVFCd3JKNGlNTTkycmp5al82X1RBdWxPSzgxc181eF8zZHpyWHVtYlR3OWlxMTFySzlKQjVLNUg1aWFJLUVQa3c3enFtMER5QUd6OUZ0VzNvQ3o?oc=5",
-      "summary": "Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today’s Market &nbsp;&nbsp; Barron's",
-      "image": null
     },
     {
       "title": "Should Government Officials Be Banned From Prediction Markets? House Oversight Says Maybe",
@@ -2225,24 +2243,6 @@
       "link": "https://www.wsj.com/finance/anthropic-chief-tells-jamie-dimon-he-hopes-ipo-will-underpromise-and-overdeliver-1ba2dd71?mod=rss_markets_main",
       "summary": "The artificial-intelligence giant, which is expected to begin trading Thursday, is targeting a valuation of roughly $1.33 trillion or more.",
       "image": "https://images.wsj.net/im-13268291"
-    },
-    {
-      "title": "Borsa: Milano cauta con l'Europa in attesa della Fed, scivola Fincantieri",
-      "source": "ANSA Economia",
-      "category": "italia",
-      "published": "Fri, 13 Nov 2026 18:47:13 +0100",
-      "link": "https://www.ansa.it/sito/notizie/economia/2026/11/13/borsa-milano-cauta-con-leuropa-in-attesa-della-fed-scivola-fincantieri_e98a131a-7975-4e7b-8f43-71bf52fafd8f.html",
-      "summary": "Euro in leggero calo contro il dollaro a quota 1,102. Bene Banca Generali e Cucinelli",
-      "image": null
-    },
-    {
-      "title": "EXCLUSIVE: Amazon’s plan to own the world’s product data and fight AI shopping agents",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Fri, 13 Nov 2026 17:28:57 GMT",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY2FJOXhDLWZqYzRxQ3BNVGRyeDNGWGZYU0VwNm5PV09tWGVwRklHdGFQaDRGWEQwM3pBZ1g2X0lYQVFGUU9RdHhyVk9kSnhrcWxob3o2ZUVNTE5SWW5OSWtkZEVlZm83ZUdrZHJ6X1N6bjhqT2F2WWxpWXVaUGhBZldsU0N5MEhjS19yR1pJcFlDN2N4ekpfWDZmR1FPT3k4eGY0bkdEQldjVnVZX21BYlVXX0h4d1JwbFVSaQ?oc=5",
-      "summary": "EXCLUSIVE: Amazon’s plan to own the world’s product data and fight AI shopping agents &nbsp;&nbsp; Reuters",
-      "image": null
     },
     {
       "title": "Volatilità ancora protagonista. Tech, tassi e petrolio: i driver di fine anno",
@@ -2317,37 +2317,37 @@
       "image": null
     }
   ],
-  "generated_at": "2026-11-14 06:59:38",
+  "generated_at": "2026-11-14 14:24:53",
   "markets_brief": {
     "items": [
       {
-        "title": "China’s Market Regulator Warns of Global Asset Repricing Risks",
-        "source": "Bloomberg",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-14/china-s-market-regulator-warns-of-global-asset-repricing-risks"
-      },
-      {
-        "title": "FAA lifts ground stop after more than four hours, but flight cancellations will stretch into the weekend",
-        "source": "CNBC",
-        "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
-      },
-      {
-        "title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
+        "title": "Geopolitics Looms Over Eurovision, but Not Its Asian Edition",
         "source": "The New York Times",
-        "link": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html"
+        "link": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-politics.html"
       },
       {
-        "title": "Italy rebuffs German bid to enter joint fighter jet project",
-        "source": "Financial Times",
-        "link": "https://www.ft.com/content/3ba2bcd1-b80c-48a2-91c7-35f25366f8aa?syn-25a6b1a6=1"
+        "title": "Microsoft’s Global Outage and Fixes: What We Know",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html"
       },
       {
-        "title": "Hedge fund woes expose the dangers of hot money once again",
+        "title": "Asia’s Geoff Downes On The Band’s New Record, More Than A Decade In the Making",
+        "source": "Forbes",
+        "link": "https://www.forbes.com/sites/davidchiu/2026/11/14/asias-geoff-downes-on-the-bands-new-record-more-than-a-decade-in-the-making/"
+      },
+      {
+        "title": "Trump Media group stares down $1bn debt crunch as bitcoin bet fades",
         "source": "Financial Times",
-        "link": "https://www.ft.com/content/7c60b026-23ff-4b50-8a2b-7e9614ef7970"
+        "link": "https://www.ft.com/content/ada459c4-5f43-4a4a-bc6c-90de8897a4f0?syn-25a6b1a6=1"
+      },
+      {
+        "title": "5 Big Questions as C.E.O.s Meet in China",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2026/11/14/business/dealbook/questions-china-us-apec-summit.html"
       }
     ],
-    "prose_html": "<p>L&#x27;autorità di regolamentazione cinese ha segnalato rischi di rivalutazione globale degli asset, indicando potenziale volatilità per gli investitori internazionali. Nel frattempo, interruzioni operative hanno colpito l&#x27;aviazione statunitense quando la FAA ha revocato uno stop al decollo dopo quattro ore, anche se le cancellazioni di voli dovrebbero protrarsi nel fine settimana, aggiungendo pressioni alla catena di approvvigionamento e incertezza nei viaggi.\n\nAltrove, tensioni geopolitiche e fragilità finanziaria hanno pesato sul sentiment. L&#x27;Italia ha respinto la proposta della Germania di entrare in un progetto congiunto di caccia, sottolineando divisioni nel settore della difesa in Europa, mentre la turbolenza dei fondi hedge ha esposto i pericoli strutturali dei flussi di denaro caldo in mercati già alle prese con agitazioni generazionali in tutto il continente.</p>",
-    "prose_html_en": "<p>China&#x27;s market regulator flagged risks of global asset repricing, signaling potential volatility ahead for international investors. Meanwhile, operational disruptions hit US aviation as the FAA lifted a ground stop after four hours, though flight cancellations are expected to persist through the weekend, adding to supply-chain pressures and travel uncertainty.\n\nElsewhere, geopolitical tensions and financial fragility weighed on sentiment. Italy rejected Germany&#x27;s bid to join a joint fighter jet project, underscoring defense-sector divisions in Europe, while hedge fund turbulence exposed the structural dangers of hot money flows in markets already grappling with generational unrest across the continent.</p>"
+    "prose_html": "<p>Trump Media affronta crescenti pressioni finanziarie mentre l&#x27;azienda si confronta con circa un miliardo di dollari di debito e la sua strategia su bitcoin ha perso slancio. Nel frattempo, i leader aziendali si riuniscono in Cina in mezzo a tensioni geopolitiche più ampie che continuano a plasmare le operazioni commerciali a livello globale, dalle catene di approvvigionamento all&#x27;infrastruttura tecnologica, come evidenziato dal recente blackout globale di Microsoft, che ha messo in luce la fragilità dei sistemi digitali interconnessi.</p>",
+    "prose_html_en": "<p>Trump Media faces mounting financial pressure as the company confronts roughly a billion dollars in debt while its bitcoin strategy has lost momentum. Meanwhile, corporate leaders are gathering in China amid broader geopolitical tensions that continue to shape business operations globally, from supply chains to technology infrastructure—as underscored by Microsoft&#x27;s recent global outage, which highlighted the fragility of interconnected digital systems.</p>"
   },
   "live_close_movers": {
     "captured_at": "2026-11-13T21:14:00Z",
