@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-13T02:10:19Z",
-  "session_date": "2026-11-11",
+  "updated": "2026-11-14T01:40:38Z",
+  "session_date": "2026-11-13",
   "universe": 558,
   "up": {
-    "count": 366,
+    "count": 316,
     "by_length": {
-      "1": 180,
-      "2": 39,
-      "3": 92,
-      "4": 49,
-      "5": 2,
+      "1": 227,
+      "2": 31,
+      "3": 20,
+      "4": 22,
+      "5": 11,
       "6": 3,
-      "8+": 1
+      "8+": 2
     },
     "top": [
       {
@@ -20,27 +20,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 8,
-        "cum_pct": 21.43
-      },
-      {
-        "symbol": "CPAY",
-        "name": "Corpay",
-        "indices": [
-          "sp500"
-        ],
-        "days": 6,
-        "cum_pct": 13.62
-      },
-      {
-        "symbol": "TMUS",
-        "name": "T-Mobile US",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 6,
-        "cum_pct": 11.5
+        "days": 10,
+        "cum_pct": 24.39
       },
       {
         "symbol": "CAH",
@@ -48,17 +29,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 6,
-        "cum_pct": 9.69
-      },
-      {
-        "symbol": "CVS",
-        "name": "CVS Health",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 11.96
+        "days": 8,
+        "cum_pct": 11.13
       },
       {
         "symbol": "TEN.MI",
@@ -66,133 +38,139 @@
         "indices": [
           "ftsemib"
         ],
+        "days": 6,
+        "cum_pct": 10.73
+      },
+      {
+        "symbol": "EOG",
+        "name": "EOG Resources",
+        "indices": [
+          "sp500"
+        ],
+        "days": 6,
+        "cum_pct": 9.27
+      },
+      {
+        "symbol": "AME",
+        "name": "Ametek",
+        "indices": [
+          "sp500"
+        ],
+        "days": 6,
+        "cum_pct": 8.57
+      },
+      {
+        "symbol": "STMMI.MI",
+        "name": "STMicroelectronics",
+        "indices": [
+          "ftsemib"
+        ],
         "days": 5,
-        "cum_pct": 10.45
+        "cum_pct": 14.19
       },
       {
-        "symbol": "RKLB",
-        "name": "Rocket Lab",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 43.84
-      },
-      {
-        "symbol": "AMD",
-        "name": "Advanced Micro Devices",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 36.72
-      },
-      {
-        "symbol": "CIEN",
-        "name": "Ciena",
+        "symbol": "TRGP",
+        "name": "Targa Resources",
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 28.26
+        "days": 5,
+        "cum_pct": 12.37
       },
       {
-        "symbol": "LRCX",
-        "name": "Lam Research",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 27.37
-      },
-      {
-        "symbol": "KLAC",
-        "name": "KLA Corporation",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 24.04
-      },
-      {
-        "symbol": "AMAT",
-        "name": "Applied Materials",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 23.75
-      },
-      {
-        "symbol": "AVGO",
-        "name": "Broadcom",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": 4,
-        "cum_pct": 18.42
-      },
-      {
-        "symbol": "KEYS",
-        "name": "Keysight Technologies",
+        "symbol": "DVN",
+        "name": "Devon Energy",
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 17.28
+        "days": 5,
+        "cum_pct": 10.35
       },
       {
-        "symbol": "ON",
-        "name": "ON Semiconductor",
+        "symbol": "OKE",
+        "name": "Oneok",
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 16.84
+        "days": 5,
+        "cum_pct": 5.35
+      },
+      {
+        "symbol": "KR",
+        "name": "Kroger",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 4.58
+      },
+      {
+        "symbol": "NI",
+        "name": "NiSource",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 4.3
+      },
+      {
+        "symbol": "BRK.B",
+        "name": "Berkshire Hathaway",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 3.86
+      },
+      {
+        "symbol": "APD",
+        "name": "Air Products",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 3.83
+      },
+      {
+        "symbol": "ACGL",
+        "name": "Arch Capital Group",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 2.17
+      },
+      {
+        "symbol": "L",
+        "name": "Loews Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 2.0
       }
     ]
   },
   "down": {
-    "count": 188,
+    "count": 237,
     "by_length": {
-      "1": 92,
-      "2": 86,
-      "3": 3,
-      "4": 3,
-      "5": 4
+      "1": 100,
+      "2": 87,
+      "3": 25,
+      "4": 19,
+      "5": 2,
+      "6": 2,
+      "7": 2
     },
     "top": [
-      {
-        "symbol": "MONC.MI",
-        "name": "Moncler",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -5,
-        "cum_pct": -6.23
-      },
       {
         "symbol": "SYK",
         "name": "Stryker Corporation",
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -6.14
-      },
-      {
-        "symbol": "OTIS",
-        "name": "Otis Worldwide",
-        "indices": [
-          "sp500"
-        ],
-        "days": -5,
-        "cum_pct": -2.87
+        "days": -7,
+        "cum_pct": -8.84
       },
       {
         "symbol": "NEE",
@@ -200,35 +178,26 @@
         "indices": [
           "sp500"
         ],
-        "days": -5,
-        "cum_pct": -2.78
+        "days": -7,
+        "cum_pct": -3.76
       },
       {
-        "symbol": "GIS",
-        "name": "General Mills",
+        "symbol": "MONC.MI",
+        "name": "Moncler",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -6,
+        "cum_pct": -6.52
+      },
+      {
+        "symbol": "OTIS",
+        "name": "Otis Worldwide",
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -6.17
-      },
-      {
-        "symbol": "PDD",
-        "name": "PDD Holdings",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -5.88
-      },
-      {
-        "symbol": "DPZ",
-        "name": "Domino's",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -3.81
+        "days": -6,
+        "cum_pct": -3.32
       },
       {
         "symbol": "FSLR",
@@ -236,26 +205,17 @@
         "indices": [
           "sp500"
         ],
-        "days": -3,
-        "cum_pct": -11.45
+        "days": -5,
+        "cum_pct": -14.79
       },
       {
-        "symbol": "STLAM.MI",
-        "name": "Stellantis",
+        "symbol": "PDD",
+        "name": "PDD Holdings",
         "indices": [
-          "ftsemib"
+          "nasdaq100"
         ],
-        "days": -3,
-        "cum_pct": -7.52
-      },
-      {
-        "symbol": "REC.MI",
-        "name": "Recordati",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -3,
-        "cum_pct": -1.5
+        "days": -5,
+        "cum_pct": -7.65
       },
       {
         "symbol": "SKYD",
@@ -263,49 +223,84 @@
         "indices": [
           "sp500"
         ],
-        "days": -2,
-        "cum_pct": -9.2
+        "days": -4,
+        "cum_pct": -13.56
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -2,
-        "cum_pct": -7.55
-      },
-      {
-        "symbol": "NVR",
-        "name": "NVR, Inc.",
-        "indices": [
-          "sp500"
-        ],
-        "days": -2,
-        "cum_pct": -6.99
-      },
-      {
-        "symbol": "LEN",
-        "name": "Lennar",
-        "indices": [
-          "sp500"
-        ],
-        "days": -2,
-        "cum_pct": -5.73
-      },
-      {
-        "symbol": "A2A.MI",
-        "name": "A2A",
+        "symbol": "STLAM.MI",
+        "name": "Stellantis",
         "indices": [
           "ftsemib"
         ],
-        "days": -2,
-        "cum_pct": -5.53
+        "days": -4,
+        "cum_pct": -11.53
+      },
+      {
+        "symbol": "ILMN",
+        "name": "Illumina, Inc.",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -6.24
+      },
+      {
+        "symbol": "CCL",
+        "name": "Carnival Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -5.13
+      },
+      {
+        "symbol": "CRH",
+        "name": "CRH plc",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -4.68
+      },
+      {
+        "symbol": "CRL",
+        "name": "Charles River Laboratories",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -4.35
+      },
+      {
+        "symbol": "RVTY",
+        "name": "Revvity",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -3.94
+      },
+      {
+        "symbol": "VMC",
+        "name": "Vulcan Materials Company",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -3.73
+      },
+      {
+        "symbol": "WAT",
+        "name": "Waters Corporation",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -3.45
       }
     ]
   },
   "flat": {
-    "count": 4
+    "count": 5
   }
 }
