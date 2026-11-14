@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-14T01:40:38Z",
+  "updated": "2026-11-14T06:00:03Z",
   "session_date": "2026-11-13",
   "universe": 558,
   "up": {
-    "count": 316,
+    "count": 336,
     "by_length": {
-      "1": 227,
-      "2": 31,
-      "3": 20,
-      "4": 22,
-      "5": 11,
+      "1": 256,
+      "2": 20,
+      "3": 22,
+      "4": 20,
+      "5": 13,
       "6": 3,
       "8+": 2
     },
@@ -87,6 +87,24 @@
         "cum_pct": 10.35
       },
       {
+        "symbol": "OKTA",
+        "name": "Okta, Inc.",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 8.41
+      },
+      {
+        "symbol": "ZTS",
+        "name": "Zoetis",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 5.57
+      },
+      {
         "symbol": "OKE",
         "name": "Oneok",
         "indices": [
@@ -130,36 +148,18 @@
         ],
         "days": 5,
         "cum_pct": 3.83
-      },
-      {
-        "symbol": "ACGL",
-        "name": "Arch Capital Group",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 2.17
-      },
-      {
-        "symbol": "L",
-        "name": "Loews Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 2.0
       }
     ]
   },
   "down": {
-    "count": 237,
+    "count": 217,
     "by_length": {
-      "1": 100,
-      "2": 87,
-      "3": 25,
-      "4": 19,
-      "5": 2,
-      "6": 2,
+      "1": 66,
+      "2": 106,
+      "3": 19,
+      "4": 22,
+      "5": 1,
+      "6": 1,
       "7": 2
     },
     "top": [
@@ -191,15 +191,6 @@
         "cum_pct": -6.52
       },
       {
-        "symbol": "OTIS",
-        "name": "Otis Worldwide",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -3.32
-      },
-      {
         "symbol": "FSLR",
         "name": "First Solar",
         "indices": [
@@ -209,13 +200,14 @@
         "cum_pct": -14.79
       },
       {
-        "symbol": "PDD",
-        "name": "PDD Holdings",
+        "symbol": "MRNA",
+        "name": "Moderna",
         "indices": [
+          "sp500",
           "nasdaq100"
         ],
-        "days": -5,
-        "cum_pct": -7.65
+        "days": -4,
+        "cum_pct": -16.96
       },
       {
         "symbol": "SKYD",
@@ -252,6 +244,15 @@
         ],
         "days": -4,
         "cum_pct": -5.13
+      },
+      {
+        "symbol": "IQV",
+        "name": "IQVIA",
+        "indices": [
+          "sp500"
+        ],
+        "days": -4,
+        "cum_pct": -4.92
       },
       {
         "symbol": "CRH",

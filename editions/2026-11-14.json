@@ -6,63 +6,50 @@
   "session_date_it": "13 novembre 2026",
   "session_date_en": "November 13, 2026",
   "edition_kind": "session",
-  "headline": "Seduta mista a Wall Street: Arista Networks +5,06% guida i rialzi",
-  "headline_en": "Mixed session on Wall Street: Arista Networks +5.06% leads gainers",
+  "headline": "Seduta ampiamente positiva a Wall Street: Charter Communications +4,32% guida i rialzi",
+  "headline_en": "Broadly positive session on Wall Street: Charter Communications +4.32% leads gainers",
   "auto_report": {
     "stats": {
-      "n_up": 297,
-      "n_down": 202,
+      "n_up": 315,
+      "n_down": 184,
       "n_flat": 4,
       "n_total": 503,
-      "avg_pct": -0.0,
+      "avg_pct": 0.13,
       "best_sectors": [
         {
           "sector": "Consumer Staples",
-          "avg_pct": 1.14
+          "avg_pct": 1.22
         },
         {
           "sector": "Energy",
-          "avg_pct": 1.08
+          "avg_pct": 1.16
         },
         {
-          "sector": "Utilities",
-          "avg_pct": 0.69
+          "sector": "Communication Services",
+          "avg_pct": 1.09
         }
       ],
       "worst_sectors": [
         {
           "sector": "Information Technology",
-          "avg_pct": -1.48
+          "avg_pct": -1.72
         },
         {
-          "sector": "Communication Services",
-          "avg_pct": -0.59
+          "sector": "Materials",
+          "avg_pct": -0.25
         },
         {
           "sector": "Industrials",
-          "avg_pct": -0.22
+          "avg_pct": -0.19
         }
       ]
     },
     "paragraphs": [
-      "Nella seduta del 13 novembre 2026 l'S&P 500 ha chiuso con 297 societa' in rialzo, 202 in ribasso e 4 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di -0,00%.",
-      "Settori con la variazione media migliore: Consumer Staples (+1,14%); Energy (+1,08%); Utilities (+0,69%). Settori piu' debolli: Information Technology (-1,48%); Communication Services (-0,59%); Industrials (-0,22%).",
-      "In cima alla seduta: Arista Networks (ANET, +5,06%); Charter Communications (CHTR, +4,32%); Steris (STE, +4,29%). In fondo: Advanced Micro Devices (AMD, -8,75%); Moderna (MRNA, -6,97%); Cisco (CSCO, -6,24%)."
+      "Nella seduta del 13 novembre 2026 l'S&P 500 ha chiuso con 315 societa' in rialzo, 184 in ribasso e 4 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di +0,13%.",
+      "Settori con la variazione media migliore: Consumer Staples (+1,22%); Energy (+1,16%); Communication Services (+1,09%). Settori piu' debolli: Information Technology (-1,72%); Materials (-0,25%); Industrials (-0,19%).",
+      "In cima alla seduta: Charter Communications (CHTR, +4,32%); Steris (STE, +4,29%); Global Payments (GPN, +4,21%). In fondo: Advanced Micro Devices (AMD, -8,75%); Dell Technologies (DELL, -7,18%); Cisco (CSCO, -6,24%)."
     ],
     "gainers": [
-      {
-        "symbol": "ANET",
-        "name": "Arista Networks",
-        "sector": "Information Technology",
-        "pct_change": 5.06,
-        "last_close": 206.63,
-        "indices": [
-          "sp500"
-        ],
-        "reason": null,
-        "news": [],
-        "news_historical": []
-      },
       {
         "symbol": "CHTR",
         "name": "Charter Communications",
@@ -116,6 +103,46 @@
         "news_historical": []
       },
       {
+        "symbol": "FOXA",
+        "name": "Fox Corporation (Class A)",
+        "sector": "Communication Services",
+        "pct_change": 4.12,
+        "last_close": 68.42,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "FOX",
+        "name": "Fox Corporation (Class B)",
+        "sector": "Communication Services",
+        "pct_change": 4.09,
+        "last_close": 61.11,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
+        "symbol": "APP",
+        "name": "AppLovin",
+        "sector": "Communication Services",
+        "pct_change": 3.92,
+        "last_close": 409.1,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
         "symbol": "TPL",
         "name": "Texas Pacific Land Corporation",
         "sector": "Energy",
@@ -142,39 +169,14 @@
         "news_historical": []
       },
       {
-        "symbol": "P",
-        "name": "Everpure",
-        "sector": "Information Technology",
-        "pct_change": 3.38,
-        "last_close": 110.1,
+        "symbol": "ABNB",
+        "name": "Airbnb",
+        "sector": "Consumer Discretionary",
+        "pct_change": 3.12,
+        "last_close": 186.78,
         "indices": [
-          "sp500"
-        ],
-        "reason": null,
-        "news": [],
-        "news_historical": []
-      },
-      {
-        "symbol": "HAL",
-        "name": "Halliburton",
-        "sector": "Energy",
-        "pct_change": 3.11,
-        "last_close": 33.78,
-        "indices": [
-          "sp500"
-        ],
-        "reason": null,
-        "news": [],
-        "news_historical": []
-      },
-      {
-        "symbol": "CSGP",
-        "name": "CoStar Group",
-        "sector": "Real Estate",
-        "pct_change": 2.86,
-        "last_close": 30.96,
-        "indices": [
-          "sp500"
+          "sp500",
+          "nasdaq100"
         ],
         "reason": null,
         "news": [],
@@ -197,14 +199,13 @@
         "news_historical": []
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna",
-        "sector": "Health Care",
-        "pct_change": -6.97,
-        "last_close": 231.35,
+        "symbol": "DELL",
+        "name": "Dell Technologies",
+        "sector": "Information Technology",
+        "pct_change": -7.18,
+        "last_close": 344.53,
         "indices": [
-          "sp500",
-          "nasdaq100"
+          "sp500"
         ],
         "reason": null,
         "news": [],
@@ -239,13 +240,14 @@
         "news_historical": []
       },
       {
-        "symbol": "RDDT",
-        "name": "Reddit",
-        "sector": "Communication Services",
-        "pct_change": -5.78,
-        "last_close": 99.55,
+        "symbol": "SNDK",
+        "name": "Sandisk",
+        "sector": "Information Technology",
+        "pct_change": -5.59,
+        "last_close": 885.01,
         "indices": [
-          "sp500"
+          "sp500",
+          "nasdaq100"
         ],
         "reason": null,
         "news": [],
@@ -280,6 +282,19 @@
         "news_historical": []
       },
       {
+        "symbol": "BE",
+        "name": "Bloom Energy",
+        "sector": "Industrials",
+        "pct_change": -4.92,
+        "last_close": 191.99,
+        "indices": [
+          "sp500"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
         "symbol": "AVGO",
         "name": "Broadcom",
         "sector": "Information Technology",
@@ -306,73 +321,47 @@
         "reason": null,
         "news": [],
         "news_historical": []
-      },
-      {
-        "symbol": "CIEN",
-        "name": "Ciena",
-        "sector": "Information Technology",
-        "pct_change": -4.57,
-        "last_close": 280.54,
-        "indices": [
-          "sp500"
-        ],
-        "reason": null,
-        "news": [],
-        "news_historical": []
       }
     ]
   },
   "auto_report_by_index": {
     "sp500": {
       "stats": {
-        "n_up": 297,
-        "n_down": 202,
+        "n_up": 315,
+        "n_down": 184,
         "n_flat": 4,
         "n_total": 503,
-        "avg_pct": -0.0,
+        "avg_pct": 0.13,
         "best_sectors": [
           {
             "sector": "Consumer Staples",
-            "avg_pct": 1.14
+            "avg_pct": 1.22
           },
           {
             "sector": "Energy",
-            "avg_pct": 1.08
+            "avg_pct": 1.16
           },
           {
-            "sector": "Utilities",
-            "avg_pct": 0.69
+            "sector": "Communication Services",
+            "avg_pct": 1.09
           }
         ],
         "worst_sectors": [
           {
             "sector": "Information Technology",
-            "avg_pct": -1.48
+            "avg_pct": -1.72
           },
           {
-            "sector": "Communication Services",
-            "avg_pct": -0.59
+            "sector": "Materials",
+            "avg_pct": -0.25
           },
           {
             "sector": "Industrials",
-            "avg_pct": -0.22
+            "avg_pct": -0.19
           }
         ]
       },
       "gainers": [
-        {
-          "symbol": "ANET",
-          "name": "Arista Networks",
-          "sector": "Information Technology",
-          "pct_change": 5.06,
-          "last_close": 206.63,
-          "indices": [
-            "sp500"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
         {
           "symbol": "CHTR",
           "name": "Charter Communications",
@@ -426,6 +415,46 @@
           "news_historical": []
         },
         {
+          "symbol": "FOXA",
+          "name": "Fox Corporation (Class A)",
+          "sector": "Communication Services",
+          "pct_change": 4.12,
+          "last_close": 68.42,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FOX",
+          "name": "Fox Corporation (Class B)",
+          "sector": "Communication Services",
+          "pct_change": 4.09,
+          "last_close": 61.11,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "APP",
+          "name": "AppLovin",
+          "sector": "Communication Services",
+          "pct_change": 3.92,
+          "last_close": 409.1,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
           "symbol": "TPL",
           "name": "Texas Pacific Land Corporation",
           "sector": "Energy",
@@ -452,39 +481,14 @@
           "news_historical": []
         },
         {
-          "symbol": "P",
-          "name": "Everpure",
-          "sector": "Information Technology",
-          "pct_change": 3.38,
-          "last_close": 110.1,
+          "symbol": "ABNB",
+          "name": "Airbnb",
+          "sector": "Consumer Discretionary",
+          "pct_change": 3.12,
+          "last_close": 186.78,
           "indices": [
-            "sp500"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "HAL",
-          "name": "Halliburton",
-          "sector": "Energy",
-          "pct_change": 3.11,
-          "last_close": 33.78,
-          "indices": [
-            "sp500"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "CSGP",
-          "name": "CoStar Group",
-          "sector": "Real Estate",
-          "pct_change": 2.86,
-          "last_close": 30.96,
-          "indices": [
-            "sp500"
+            "sp500",
+            "nasdaq100"
           ],
           "reason": null,
           "news": [],
@@ -507,14 +511,13 @@
           "news_historical": []
         },
         {
-          "symbol": "MRNA",
-          "name": "Moderna",
-          "sector": "Health Care",
-          "pct_change": -6.97,
-          "last_close": 231.35,
+          "symbol": "DELL",
+          "name": "Dell Technologies",
+          "sector": "Information Technology",
+          "pct_change": -7.18,
+          "last_close": 344.53,
           "indices": [
-            "sp500",
-            "nasdaq100"
+            "sp500"
           ],
           "reason": null,
           "news": [],
@@ -549,13 +552,14 @@
           "news_historical": []
         },
         {
-          "symbol": "RDDT",
-          "name": "Reddit",
-          "sector": "Communication Services",
-          "pct_change": -5.78,
-          "last_close": 99.55,
+          "symbol": "SNDK",
+          "name": "Sandisk",
+          "sector": "Information Technology",
+          "pct_change": -5.59,
+          "last_close": 885.01,
           "indices": [
-            "sp500"
+            "sp500",
+            "nasdaq100"
           ],
           "reason": null,
           "news": [],
@@ -590,6 +594,19 @@
           "news_historical": []
         },
         {
+          "symbol": "BE",
+          "name": "Bloom Energy",
+          "sector": "Industrials",
+          "pct_change": -4.92,
+          "last_close": 191.99,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
           "symbol": "AVGO",
           "name": "Broadcom",
           "sector": "Information Technology",
@@ -616,31 +633,18 @@
           "reason": null,
           "news": [],
           "news_historical": []
-        },
-        {
-          "symbol": "CIEN",
-          "name": "Ciena",
-          "sector": "Information Technology",
-          "pct_change": -4.57,
-          "last_close": 280.54,
-          "indices": [
-            "sp500"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
         }
       ],
       "paragraphs": {
         "en": [
-          "In the November 13, 2026 session the S&P 500 closed with 297 stocks higher, 202 lower and 4 unchanged, out of 503 tracked. The average move was -0.00%.",
-          "Best-performing sectors by average move: Consumer Staples (+1.14%); Energy (+1.08%); Utilities (+0.69%). Weakest: Information Technology (-1.48%); Communication Services (-0.59%); Industrials (-0.22%).",
-          "Leading the session: Arista Networks (ANET, +5.06%); Charter Communications (CHTR, +4.32%); Steris (STE, +4.29%). At the bottom: Advanced Micro Devices (AMD, -8.75%); Moderna (MRNA, -6.97%); Cisco (CSCO, -6.24%)."
+          "In the November 13, 2026 session the S&P 500 closed with 315 stocks higher, 184 lower and 4 unchanged, out of 503 tracked. The average move was +0.13%.",
+          "Best-performing sectors by average move: Consumer Staples (+1.22%); Energy (+1.16%); Communication Services (+1.09%). Weakest: Information Technology (-1.72%); Materials (-0.25%); Industrials (-0.19%).",
+          "Leading the session: Charter Communications (CHTR, +4.32%); Steris (STE, +4.29%); Global Payments (GPN, +4.21%). At the bottom: Advanced Micro Devices (AMD, -8.75%); Dell Technologies (DELL, -7.18%); Cisco (CSCO, -6.24%)."
         ],
         "it": [
-          "Nella seduta del 13 novembre 2026 l'S&P 500 ha chiuso con 297 societa' in rialzo, 202 in ribasso e 4 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di -0,00%.",
-          "Settori con la variazione media migliore: Consumer Staples (+1,14%); Energy (+1,08%); Utilities (+0,69%). Settori piu' debolli: Information Technology (-1,48%); Communication Services (-0,59%); Industrials (-0,22%).",
-          "In cima alla seduta: Arista Networks (ANET, +5,06%); Charter Communications (CHTR, +4,32%); Steris (STE, +4,29%). In fondo: Advanced Micro Devices (AMD, -8,75%); Moderna (MRNA, -6,97%); Cisco (CSCO, -6,24%)."
+          "Nella seduta del 13 novembre 2026 l'S&P 500 ha chiuso con 315 societa' in rialzo, 184 in ribasso e 4 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di +0,13%.",
+          "Settori con la variazione media migliore: Consumer Staples (+1,22%); Energy (+1,16%); Communication Services (+1,09%). Settori piu' debolli: Information Technology (-1,72%); Materials (-0,25%); Industrials (-0,19%).",
+          "In cima alla seduta: Charter Communications (CHTR, +4,32%); Steris (STE, +4,29%); Global Payments (GPN, +4,21%). In fondo: Advanced Micro Devices (AMD, -8,75%); Dell Technologies (DELL, -7,18%); Cisco (CSCO, -6,24%)."
         ]
       }
     },
@@ -986,37 +990,37 @@
     },
     "nasdaq100": {
       "stats": {
-        "n_up": 40,
-        "n_down": 60,
-        "n_flat": 1,
+        "n_up": 44,
+        "n_down": 57,
+        "n_flat": 0,
         "n_total": 101,
-        "avg_pct": -1.07,
+        "avg_pct": -0.76,
         "best_sectors": [
           {
             "sector": "Consumer Staples",
             "avg_pct": 1.78
           },
           {
-            "sector": "Utilities",
-            "avg_pct": 1.12
+            "sector": "Health Care",
+            "avg_pct": 0.7
           },
           {
-            "sector": "Health Care",
-            "avg_pct": 0.11
+            "sector": "Communication Services",
+            "avg_pct": 0.65
           }
         ],
         "worst_sectors": [
           {
             "sector": "Technology",
-            "avg_pct": -3.65
+            "avg_pct": -2.64
           },
           {
             "sector": "Information Technology",
-            "avg_pct": -2.31
+            "avg_pct": -2.28
           },
           {
             "sector": "Consumer Discretionary",
-            "avg_pct": -0.8
+            "avg_pct": -0.23
           }
         ]
       },
@@ -1035,11 +1039,53 @@
           "news_historical": []
         },
         {
-          "symbol": "CEG",
-          "name": "Constellation Energy",
-          "sector": "Utilities",
-          "pct_change": 2.79,
-          "last_close": 282.4,
+          "symbol": "APP",
+          "name": "AppLovin",
+          "sector": "Communication Services",
+          "pct_change": 3.92,
+          "last_close": 409.1,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "ABNB",
+          "name": "Airbnb",
+          "sector": "Consumer Discretionary",
+          "pct_change": 3.12,
+          "last_close": 186.78,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "WDAY",
+          "name": "Workday, Inc.",
+          "sector": "Information Technology",
+          "pct_change": 3.05,
+          "last_close": 196.45,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "META",
+          "name": "Meta Platforms",
+          "sector": "Communication Services",
+          "pct_change": 2.9,
+          "last_close": 641.69,
           "indices": [
             "sp500",
             "nasdaq100"
@@ -1117,48 +1163,6 @@
           "reason": null,
           "news": [],
           "news_historical": []
-        },
-        {
-          "symbol": "ADBE",
-          "name": "Adobe Inc.",
-          "sector": "Information Technology",
-          "pct_change": 1.9,
-          "last_close": 243.08,
-          "indices": [
-            "sp500",
-            "nasdaq100"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "ADSK",
-          "name": "Autodesk",
-          "sector": "Information Technology",
-          "pct_change": 1.9,
-          "last_close": 264.42,
-          "indices": [
-            "sp500",
-            "nasdaq100"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "ODFL",
-          "name": "Old Dominion",
-          "sector": "Industrials",
-          "pct_change": 1.68,
-          "last_close": 174.54,
-          "indices": [
-            "sp500",
-            "nasdaq100"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
         }
       ],
       "losers": [
@@ -1166,8 +1170,8 @@
           "symbol": "NBIS",
           "name": "Nebius Group",
           "sector": "Technology",
-          "pct_change": -16.84,
-          "last_close": 128.64,
+          "pct_change": -9.92,
+          "last_close": 115.88,
           "indices": [
             "nasdaq100"
           ],
@@ -1190,13 +1194,14 @@
           "news_historical": []
         },
         {
-          "symbol": "MRNA",
-          "name": "Moderna",
-          "sector": "Health Care",
-          "pct_change": -6.97,
-          "last_close": 231.35,
+          "symbol": "CSCO",
+          "name": "Cisco",
+          "sector": "Information Technology",
+          "pct_change": -6.24,
+          "last_close": 95.64,
           "indices": [
             "sp500",
+            "dow",
             "nasdaq100"
           ],
           "reason": null,
@@ -1207,8 +1212,8 @@
           "symbol": "CRWV",
           "name": "CoreWeave",
           "sector": "Technology",
-          "pct_change": -6.86,
-          "last_close": 56.6,
+          "pct_change": -6.13,
+          "last_close": 53.13,
           "indices": [
             "nasdaq100"
           ],
@@ -1217,14 +1222,13 @@
           "news_historical": []
         },
         {
-          "symbol": "CSCO",
-          "name": "Cisco",
+          "symbol": "SNDK",
+          "name": "Sandisk",
           "sector": "Information Technology",
-          "pct_change": -6.24,
-          "last_close": 95.64,
+          "pct_change": -5.59,
+          "last_close": 885.01,
           "indices": [
             "sp500",
-            "dow",
             "nasdaq100"
           ],
           "reason": null,
@@ -1288,13 +1292,12 @@
           "news_historical": []
         },
         {
-          "symbol": "SNDK",
-          "name": "Sandisk",
-          "sector": "Information Technology",
-          "pct_change": -4.11,
-          "last_close": 937.46,
+          "symbol": "ARM",
+          "name": "Arm Holdings",
+          "sector": "Technology",
+          "pct_change": -4.63,
+          "last_close": 190.53,
           "indices": [
-            "sp500",
             "nasdaq100"
           ],
           "reason": null,
@@ -1304,14 +1307,14 @@
       ],
       "paragraphs": {
         "en": [
-          "In the November 13, 2026 session the Nasdaq-100 closed with 40 stocks higher, 60 lower and 1 unchanged, out of 101 tracked. The average move was -1.07%.",
-          "Best-performing sectors by average move: Consumer Staples (+1.78%); Utilities (+1.12%); Health Care (+0.11%). Weakest: Technology (-3.65%); Information Technology (-2.31%); Consumer Discretionary (-0.80%).",
-          "Leading the session: Alnylam Pharmaceuticals (ALNY, +5.36%); Constellation Energy (CEG, +2.79%); Axon Enterprise (AXON, +2.71%). At the bottom: Nebius Group (NBIS, -16.84%); Advanced Micro Devices (AMD, -8.75%); Moderna (MRNA, -6.97%)."
+          "In the November 13, 2026 session the Nasdaq-100 closed with 44 stocks higher, 57 lower, out of 101 tracked. The average move was -0.76%.",
+          "Best-performing sectors by average move: Consumer Staples (+1.78%); Health Care (+0.70%); Communication Services (+0.65%). Weakest: Technology (-2.64%); Information Technology (-2.28%); Consumer Discretionary (-0.23%).",
+          "Leading the session: Alnylam Pharmaceuticals (ALNY, +5.36%); AppLovin (APP, +3.92%); Airbnb (ABNB, +3.12%). At the bottom: Nebius Group (NBIS, -9.92%); Advanced Micro Devices (AMD, -8.75%); Cisco (CSCO, -6.24%)."
         ],
         "it": [
-          "Nella seduta del 13 novembre 2026 il Nasdaq-100 ha chiuso con 40 societa' in rialzo, 60 in ribasso e 1 invariate, su 101 titoli monitorati. La variazione media dell'indice e' stata di -1,07%.",
-          "Settori con la variazione media migliore: Consumer Staples (+1,78%); Utilities (+1,12%); Health Care (+0,11%). Settori piu' debolli: Technology (-3,65%); Information Technology (-2,31%); Consumer Discretionary (-0,80%).",
-          "In cima alla seduta: Alnylam Pharmaceuticals (ALNY, +5,36%); Constellation Energy (CEG, +2,79%); Axon Enterprise (AXON, +2,71%). In fondo: Nebius Group (NBIS, -16,84%); Advanced Micro Devices (AMD, -8,75%); Moderna (MRNA, -6,97%)."
+          "Nella seduta del 13 novembre 2026 il Nasdaq-100 ha chiuso con 44 societa' in rialzo, 57 in ribasso, su 101 titoli monitorati. La variazione media dell'indice e' stata di -0,76%.",
+          "Settori con la variazione media migliore: Consumer Staples (+1,78%); Health Care (+0,70%); Communication Services (+0,65%). Settori piu' debolli: Technology (-2,64%); Information Technology (-2,28%); Consumer Discretionary (-0,23%).",
+          "In cima alla seduta: Alnylam Pharmaceuticals (ALNY, +5,36%); AppLovin (APP, +3,92%); Airbnb (ABNB, +3,12%). In fondo: Nebius Group (NBIS, -9,92%); Advanced Micro Devices (AMD, -8,75%); Cisco (CSCO, -6,24%)."
         ]
       }
     },
@@ -1630,37 +1633,37 @@
     },
     "combined": {
       "stats": {
-        "n_up": 302,
-        "n_down": 212,
+        "n_up": 322,
+        "n_down": 192,
         "n_flat": 4,
         "n_total": 518,
-        "avg_pct": -0.06,
+        "avg_pct": 0.09,
         "best_sectors": [
           {
             "sector": "Consumer Staples",
-            "avg_pct": 1.15
+            "avg_pct": 1.22
           },
           {
             "sector": "Energy",
-            "avg_pct": 1.08
+            "avg_pct": 1.16
           },
           {
-            "sector": "Utilities",
-            "avg_pct": 0.69
+            "sector": "Communication Services",
+            "avg_pct": 1.09
           }
         ],
         "worst_sectors": [
           {
             "sector": "Technology",
-            "avg_pct": -3.65
+            "avg_pct": -2.64
           },
           {
             "sector": "Information Technology",
-            "avg_pct": -1.48
+            "avg_pct": -1.72
           },
           {
-            "sector": "Communication Services",
-            "avg_pct": -0.59
+            "sector": "Materials",
+            "avg_pct": -0.25
           }
         ]
       },
@@ -1673,19 +1676,6 @@
           "last_close": 165.04,
           "indices": [
             "nasdaq100"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "ANET",
-          "name": "Arista Networks",
-          "sector": "Information Technology",
-          "pct_change": 5.06,
-          "last_close": 206.63,
-          "indices": [
-            "sp500"
           ],
           "reason": null,
           "news": [],
@@ -1744,6 +1734,46 @@
           "news_historical": []
         },
         {
+          "symbol": "FOXA",
+          "name": "Fox Corporation (Class A)",
+          "sector": "Communication Services",
+          "pct_change": 4.12,
+          "last_close": 68.42,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "FOX",
+          "name": "Fox Corporation (Class B)",
+          "sector": "Communication Services",
+          "pct_change": 4.09,
+          "last_close": 61.11,
+          "indices": [
+            "sp500"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
+          "symbol": "APP",
+          "name": "AppLovin",
+          "sector": "Communication Services",
+          "pct_change": 3.92,
+          "last_close": 409.1,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
           "symbol": "TPL",
           "name": "Texas Pacific Land Corporation",
           "sector": "Energy",
@@ -1768,32 +1798,6 @@
           "reason": null,
           "news": [],
           "news_historical": []
-        },
-        {
-          "symbol": "P",
-          "name": "Everpure",
-          "sector": "Information Technology",
-          "pct_change": 3.38,
-          "last_close": 110.1,
-          "indices": [
-            "sp500"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "HAL",
-          "name": "Halliburton",
-          "sector": "Energy",
-          "pct_change": 3.11,
-          "last_close": 33.78,
-          "indices": [
-            "sp500"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
         }
       ],
       "losers": [
@@ -1801,8 +1805,8 @@
           "symbol": "NBIS",
           "name": "Nebius Group",
           "sector": "Technology",
-          "pct_change": -16.84,
-          "last_close": 128.64,
+          "pct_change": -9.92,
+          "last_close": 115.88,
           "indices": [
             "nasdaq100"
           ],
@@ -1825,27 +1829,13 @@
           "news_historical": []
         },
         {
-          "symbol": "MRNA",
-          "name": "Moderna",
-          "sector": "Health Care",
-          "pct_change": -6.97,
-          "last_close": 231.35,
+          "symbol": "DELL",
+          "name": "Dell Technologies",
+          "sector": "Information Technology",
+          "pct_change": -7.18,
+          "last_close": 344.53,
           "indices": [
-            "sp500",
-            "nasdaq100"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
-        },
-        {
-          "symbol": "CRWV",
-          "name": "CoreWeave",
-          "sector": "Technology",
-          "pct_change": -6.86,
-          "last_close": 56.6,
-          "indices": [
-            "nasdaq100"
+            "sp500"
           ],
           "reason": null,
           "news": [],
@@ -1867,6 +1857,19 @@
           "news_historical": []
         },
         {
+          "symbol": "CRWV",
+          "name": "CoreWeave",
+          "sector": "Technology",
+          "pct_change": -6.13,
+          "last_close": 53.13,
+          "indices": [
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
           "symbol": "COHR",
           "name": "Coherent Corp.",
           "sector": "Information Technology",
@@ -1880,13 +1883,14 @@
           "news_historical": []
         },
         {
-          "symbol": "RDDT",
-          "name": "Reddit",
-          "sector": "Communication Services",
-          "pct_change": -5.78,
-          "last_close": 99.55,
+          "symbol": "SNDK",
+          "name": "Sandisk",
+          "sector": "Information Technology",
+          "pct_change": -5.59,
+          "last_close": 885.01,
           "indices": [
-            "sp500"
+            "sp500",
+            "nasdaq100"
           ],
           "reason": null,
           "news": [],
@@ -1921,14 +1925,13 @@
           "news_historical": []
         },
         {
-          "symbol": "AVGO",
-          "name": "Broadcom",
-          "sector": "Information Technology",
-          "pct_change": -4.76,
-          "last_close": 347.01,
+          "symbol": "BE",
+          "name": "Bloom Energy",
+          "sector": "Industrials",
+          "pct_change": -4.92,
+          "last_close": 191.99,
           "indices": [
-            "sp500",
-            "nasdaq100"
+            "sp500"
           ],
           "reason": null,
           "news": [],
@@ -1937,30 +1940,138 @@
       ],
       "paragraphs": {
         "en": [
-          "In the November 13, 2026 session the combined three U.S. indices closed with 302 stocks higher, 212 lower and 4 unchanged, out of 518 tracked. The average move was -0.06%.",
-          "Best-performing sectors by average move: Consumer Staples (+1.15%); Energy (+1.08%); Utilities (+0.69%). Weakest: Technology (-3.65%); Information Technology (-1.48%); Communication Services (-0.59%).",
-          "Leading the session: Alnylam Pharmaceuticals (ALNY, +5.36%); Arista Networks (ANET, +5.06%); Charter Communications (CHTR, +4.32%). At the bottom: Nebius Group (NBIS, -16.84%); Advanced Micro Devices (AMD, -8.75%); Moderna (MRNA, -6.97%)."
+          "In the November 13, 2026 session the combined three U.S. indices closed with 322 stocks higher, 192 lower and 4 unchanged, out of 518 tracked. The average move was +0.09%.",
+          "Best-performing sectors by average move: Consumer Staples (+1.22%); Energy (+1.16%); Communication Services (+1.09%). Weakest: Technology (-2.64%); Information Technology (-1.72%); Materials (-0.25%).",
+          "Leading the session: Alnylam Pharmaceuticals (ALNY, +5.36%); Charter Communications (CHTR, +4.32%); Steris (STE, +4.29%). At the bottom: Nebius Group (NBIS, -9.92%); Advanced Micro Devices (AMD, -8.75%); Dell Technologies (DELL, -7.18%)."
         ],
         "it": [
-          "Nella seduta del 13 novembre 2026 l'insieme dei tre indici USA ha chiuso con 302 societa' in rialzo, 212 in ribasso e 4 invariate, su 518 titoli monitorati. La variazione media dell'indice e' stata di -0,06%.",
-          "Settori con la variazione media migliore: Consumer Staples (+1,15%); Energy (+1,08%); Utilities (+0,69%). Settori piu' debolli: Technology (-3,65%); Information Technology (-1,48%); Communication Services (-0,59%).",
-          "In cima alla seduta: Alnylam Pharmaceuticals (ALNY, +5,36%); Arista Networks (ANET, +5,06%); Charter Communications (CHTR, +4,32%). In fondo: Nebius Group (NBIS, -16,84%); Advanced Micro Devices (AMD, -8,75%); Moderna (MRNA, -6,97%)."
+          "Nella seduta del 13 novembre 2026 l'insieme dei tre indici USA ha chiuso con 322 societa' in rialzo, 192 in ribasso e 4 invariate, su 518 titoli monitorati. La variazione media dell'indice e' stata di +0,09%.",
+          "Settori con la variazione media migliore: Consumer Staples (+1,22%); Energy (+1,16%); Communication Services (+1,09%). Settori piu' debolli: Technology (-2,64%); Information Technology (-1,72%); Materials (-0,25%).",
+          "In cima alla seduta: Alnylam Pharmaceuticals (ALNY, +5,36%); Charter Communications (CHTR, +4,32%); Steris (STE, +4,29%). In fondo: Nebius Group (NBIS, -9,92%); Advanced Micro Devices (AMD, -8,75%); Dell Technologies (DELL, -7,18%)."
         ]
       }
     }
   },
-  "manual_commentary_html": "<p>I titoli statunitensi hanno chiuso in territorio misto il 13 novembre, con i titoli tecnologici che hanno subito il maggior carico di vendite a causa dell&#x27;incertezza intorno al commercio dell&#x27;intelligenza artificiale. Secondo il Wall Street Journal e Reuters, l&#x27;S&amp;P 500 e il Nasdaq hanno chiuso in ribasso mentre gli investitori valutavano le preoccupazioni su Nvidia e il settore più ampio dei semiconduttori in vista dei rapporti sugli utili della prossima settimana e della prevista offerta pubblica iniziale di Anthropic. La seduta ha visto anche le conseguenze di un&#x27;interruzione diffusa di Microsoft che ha colpito aziende e governi, aggiungendosi ai venti contrari che affliggono il complesso tecnologico. I futures sul greggio hanno registrato perdite settimanali consecutive, mentre i futures su oro e argento hanno allo stesso modo registrato cali durante la settimana.</p><p>Il Nasdaq-100 ha significativamente sottoperformato il mercato più ampio, registrando un calo medio dell&#x27;1,07 percento con 60 titoli in calo che hanno superato 40 in rialzo, riflettendo il danno concentrato nei titoli tecnologici e dei semiconduttori. L&#x27;S&amp;P 500 si è mantenuto relativamente piatto a meno 0,0 percento con 297 titoli in rialzo e 202 in calo, mentre il Dow Jones ha registrato un modesto guadagno dello 0,03 percento con 19 titoli in rialzo e 11 in calo, mostrando una resilienza relativa tra i titoli industriali e finanziari a grande capitalizzazione. I Beni di Consumo Primario hanno guidato la performance settoriale con un guadagno medio dell&#x27;1,15 percento, seguiti dall&#x27;Energia all&#x27;1,08 percento e dai Servizi di Pubblica Utilità allo 0,69 percento, poiché gli investitori si sono spostati dai titoli tecnologici orientati alla crescita.</p><p>Tra i titoli in rialzo, Alnylam Pharmaceuticals è salito del 5,36 percento, Arista Networks ha avanzato del 5,06 percento e Charter Communications è salito del 4,32 percento, sebbene gli outlet tracciati non abbiano segnalato catalizzatori aziendali specifici per questi movimenti. Steris ha guadagnato il 4,29 percento, Global Payments il 4,21 percento e Fidelity National Information Services il 4,16 percento. Texas Pacific Land Corporation, Fiserv, Everpure e Halliburton hanno anche registrato guadagni rispettivamente del 3,82, 3,71, 3,38 e 3,11 percento, senza notizie segnalate che guidassero questi avanzamenti.</p><p>Il settore tecnologico ha subito le perdite più pesanti, registrando un calo medio del 3,65 percento. Nebius Group è crollato del 16,84 percento senza catalizzatore segnalato, mentre Advanced Micro Devices è sceso dell&#x27;8,75 percento e Moderna è sceso del 6,97 percento, entrambi senza spiegazioni di notizie tracciate. CoreWeave è sceso del 6,86 percento, Cisco è sceso del 6,24 percento e Coherent Corp. ha perso il 6,0 percento. Reddit, Teradyne, Western Digital e Broadcom hanno completato i principali titoli in calo, scendendo rispettivamente del 5,78, 5,38, 5,0 e 4,76 percento, poiché i titoli dei semiconduttori e correlati alla tecnologia hanno affrontato pressioni sostenute durante tutta la seduta.</p>",
-  "manual_commentary_html_en": "<p>U.S. stocks closed mixed on November 13, with technology shares bearing the brunt of selling pressure amid uncertainty around the artificial intelligence trade. According to the Wall Street Journal and Reuters, the S&amp;P 500 and Nasdaq ended lower as investors weighed concerns over Nvidia and the broader semiconductor sector heading into next week&#x27;s earnings reports and the anticipated Anthropic initial public offering. The session also saw fallout from a widespread Microsoft outage that roiled businesses and governments, adding to the headwinds facing the technology complex. Crude futures posted back-to-back weekly losses, while gold and silver futures similarly declined over the week.</p><p>The Nasdaq-100 significantly underperformed the broader market, declining 1.07 percent on average with 60 decliners outpacing 40 gainers, reflecting the concentrated damage in technology and semiconductor names. The S&amp;P 500 held relatively flat at minus 0.0 percent with 297 gainers and 202 decliners, while the Dow Jones managed a modest gain of 0.03 percent with 19 gainers and 11 decliners, showing relative resilience among large-cap industrials and financials. Consumer Staples led sector performance with a 1.15 percent average gain, followed by Energy at 1.08 percent and Utilities at 0.69 percent, as investors rotated away from growth-oriented technology stocks.</p><p>Among gainers, Alnylam Pharmaceuticals rose 5.36 percent, Arista Networks advanced 5.06 percent, and Charter Communications climbed 4.32 percent, though tracked outlets reported no specific company catalysts for these moves. Steris gained 4.29 percent, Global Payments 4.21 percent, and Fidelity National Information Services 4.16 percent. Texas Pacific Land Corporation, Fiserv, Everpure, and Halliburton also posted gains of 3.82, 3.71, 3.38, and 3.11 percent respectively, with no reported news driving these advances.</p><p>The technology sector bore the heaviest losses, declining 3.65 percent on average. Nebius Group plunged 16.84 percent with no reported catalyst, while Advanced Micro Devices fell 8.75 percent and Moderna dropped 6.97 percent, both without tracked news explanations. CoreWeave declined 6.86 percent, Cisco fell 6.24 percent, and Coherent Corp. lost 6.0 percent. Reddit, Teradyne, Western Digital, and Broadcom rounded out the major decliners, falling 5.78, 5.38, 5.0, and 4.76 percent respectively, as semiconductor and technology-adjacent equities faced sustained pressure throughout the session.</p>",
+  "manual_commentary_html": "<p>I mercati azionari statunitensi hanno chiuso in territorio misto il 13 novembre 2026, con un modesto rialzo mascherato da una netta divergenza settoriale. L&#x27;S&amp;P 500 ha visto 315 titoli in rialzo contro 184 in ribasso, mentre il Nasdaq-100 ha sottoperformato con 44 guadagnatori e 57 perdenti, riflettendo una debolezza diffusa nel settore tecnologico. Secondo i resoconti del WSJ, la seduta si è svolta sullo sfondo di una rivalutazione del commercio dell&#x27;IA, con preoccupazioni riguardanti le prospettive a breve termine di Nvidia che pesano sui titoli dei semiconduttori e dei chip in vista dell&#x27;annuncio dei risultati della società la prossima settimana. Uno stop nazionale della FAA che ha interrotto i voli ha dominato i titoli di testa, anche se i movimenti più ampi del mercato suggerivano che gli investitori si concentrassero sulle implicazioni del cambiamento di sentimento attorno agli investimenti in intelligenza artificiale.</p><p>I beni di consumo primario, l&#x27;energia e i servizi di comunicazione hanno guidato il mercato, con guadagni medi rispettivamente dell&#x27;1,22 percento, dell&#x27;1,16 percento e dell&#x27;1,09 percento. Tra i singoli guadagnatori, Alnylam Pharmaceuticals è salita del 5,36 percento, Charter Communications è avanzata del 4,32 percento, Steris è salita del 4,29 percento, Global Payments ha guadagnato il 4,21 percento e Fidelity National Information Services è aumentata del 4,16 percento. Le azioni di Fox Corporation della Classe A e della Classe B hanno anche registrato guadagni solidi del 4,12 percento e del 4,09 percento. AppLovin, Texas Pacific Land Corporation e Fiserv hanno completato i migliori performer con guadagni rispettivamente del 3,92 percento, del 3,82 percento e del 3,71 percento. I media tracciati non hanno segnalato catalizzatori aziendali specifici per questi movimenti.</p><p>I titoli tecnologici hanno subito il peso maggiore delle pressioni di vendita, con il settore in calo del 2,64 percento in media. Nebius Group è scesa del 9,92 percento, Advanced Micro Devices è diminuita dell&#x27;8,75 percento e Dell Technologies è scesa del 7,18 percento. Cisco è scivolata del 6,24 percento, CoreWeave è scesa del 6,13 percento e Coherent Corp. ha perso il 6,0 percento. Sandisk, Teradyne e Western Digital si sono ritirate ciascuna di oltre il 5 percento, mentre Bloom Energy è diminuita del 4,92 percento. MarketWatch ha attribuito la debolezza dei semiconduttori a Wall Street che rivaluta il commercio dell&#x27;IA senza Jensen Huang, mentre il WSJ ha notato che i titoli dei chip hanno affrontato pressioni mentre gli investitori attendevano test importanti per la narrativa dell&#x27;IA, inclusi i risultati di Nvidia la prossima settimana e l&#x27;offerta pubblica iniziale di Anthropic.</p>",
+  "manual_commentary_html_en": "<p>U.S. equities closed mixed on November 13, 2026, with a narrow advance masked by sharp sector divergence. The S&amp;P 500 saw 315 stocks advance against 184 declines, while the Nasdaq-100 underperformed with 44 gainers and 57 losers, reflecting broad weakness in technology. According to WSJ reporting, the session unfolded against a backdrop of AI trade reassessment, with concerns about Nvidia&#x27;s near-term outlook weighing on semiconductor and chip-related equities ahead of the company&#x27;s earnings announcement next week. A nationwide FAA groundstop that disrupted flights also dominated headlines, though broader market moves suggested investors were focused on the implications of shifting sentiment around artificial intelligence investments.</p><p>Consumer Staples, Energy, and Communication Services led the market, with average gains of 1.22 percent, 1.16 percent, and 1.09 percent respectively. Among individual gainers, Alnylam Pharmaceuticals rose 5.36 percent, Charter Communications advanced 4.32 percent, Steris climbed 4.29 percent, Global Payments gained 4.21 percent, and Fidelity National Information Services increased 4.16 percent. Fox Corporation&#x27;s Class A and Class B shares also posted solid gains of 4.12 percent and 4.09 percent. AppLovin, Texas Pacific Land Corporation, and Fiserv rounded out the top performers with gains of 3.92 percent, 3.82 percent, and 3.71 percent respectively. Tracked outlets reported no specific company catalysts for these moves.</p><p>Technology stocks bore the brunt of selling pressure, with the sector down 2.64 percent on average. Nebius Group fell 9.92 percent, Advanced Micro Devices declined 8.75 percent, and Dell Technologies dropped 7.18 percent. Cisco slid 6.24 percent, CoreWeave fell 6.13 percent, and Coherent Corp. lost 6.0 percent. Sandisk, Teradyne, and Western Digital each retreated more than 5 percent, while Bloom Energy declined 4.92 percent. MarketWatch attributed the semiconductor weakness to Wall Street rethinking the AI trade without Jensen Huang, while WSJ noted that chip stocks faced pressure as investors awaited major tests for the AI narrative, including Nvidia earnings next week and the Anthropic initial public offering.</p>",
   "manual_highlights": [],
   "feed": [
     {
-      "title": "FAA lifts ground stop after four hours, but flight cancellations will stretch into the weekend",
+      "title": "Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more",
+      "source": "The Block",
+      "category": "crypto",
+      "published": "Sat, 14 Nov 2026 05:40:00 +0000",
+      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
+      "summary": "In today's newsletter, Meta tests prediction-market app using points instead of cash; DOJ moves to seize $1.2 billion from Binance hack, disrupts North Korean deepfake scheme; and more.",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2022/05/20220518_Meta-Facebook-Mark-Zuckerberg.jpg"
+    },
+    {
+      "title": "China’s Market Regulator Warns of Global Asset Repricing Risks",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 05:20:13 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-14/china-s-market-regulator-warns-of-global-asset-repricing-risks",
+      "summary": "Global capital markets are undergoing a new round of asset repricing and rebalancing in the face of geopolitical tensions and policy uncertainty, according to Wu Qing, chairman of the China Securities Regulatory Commission.",
+      "image": null
+    },
+    {
+      "title": "FAA lifts ground stop after more than four hours, but flight cancellations will stretch into the weekend",
       "source": "CNBC",
       "category": "mercati",
-      "published": "Sat, 14 Nov 2026 01:34:45 GMT",
+      "published": "Sat, 14 Nov 2026 05:08:24 GMT",
       "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
       "summary": "The Federal Aviation Administration issued a nationwide ground stop on Friday afternoon, disrupting thousands of departing of flights.",
       "image": "https://image.cnbcfm.com/api/v1/image/108551466-1794607964688-IMG_0070.jpg?v=1794609835&amp;w=1920&amp;h=1080"
+    },
+    {
+      "title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 05:01:06 +0000",
+      "link": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
+      "summary": "As retirees live longer, governments need to spend more on pensions. That makes it harder to fund other services, spurring protests like those planned this weekend in France.",
+      "image": "https://static01.nyt.com/images/2026/11/11/multimedia/11int-europe-generations-01-lkbm/11int-europe-generations-01-lkbm-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "The Nvidia board’s artificial independence",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 05:00:37 GMT",
+      "link": "https://www.ft.com/content/e141a5ea-5aa4-491b-88a4-369cfc67693a",
+      "summary": "Bored of governance",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4b1975cf-6725-489f-9e16-bb27433f4e67.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Nvidia’s cult of personality was bound to end badly",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 05:00:37 GMT",
+      "link": "https://www.ft.com/content/546ec5eb-fbc2-4600-9794-12b1749c1a04",
+      "summary": "It is worth paying attention to the warning signs of corporate hubris — they often mean something bad is about to happen",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F533178b4-0312-49ca-9888-ab3c9a3fca47.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Today’s Wordle #1974 Hints, Clues And Answer For Saturday November 14",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 13 Nov 2026 23:59:32 -0500",
+      "link": "https://www.forbes.com/sites/erikkain/2026/11/13/wordle-hints-clues-answer-saturday-november-14/",
+      "summary": "Looking for help with today's New York Times Wordle? Here are some expert hints, clues and commentary to help you solve today's Wordle and sharpen your guessing game.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/654ac7d9543b3152d167c85e/0x0.jpg?width=960"
+    },
+    {
+      "title": "Best Practices For Smart Business Owners Wanting To Make Optimal Use Of OpenAI’s New ‘Businesses In ChatGPT’",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Fri, 13 Nov 2026 23:20:36 -0500",
+      "link": "https://www.forbes.com/sites/lanceeliot/2026/11/13/best-practices-for-smart-business-owners-wanting-to-make-optimal-use-of-openais-new-businesses-in-chatgpt/",
+      "summary": "I provide best practices for business owners that want to use OpenAI's new \"Businesses in ChatGPT\" capabilities. An AI Insider analysis and scoop.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6af7df3bd0740308992c0017/0x0.jpg?width=960&precrop=1328%2C995%2Cx296%2Cy31"
+    },
+    {
+      "title": "China to Meet All New Power Demand With Clean Energy, CCTV Says",
+      "source": "Bloomberg",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 04:05:34 GMT",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-14/china-to-meet-all-new-power-demand-with-clean-energy-cctv-says",
+      "summary": "China is expected to meet all growth in power demand with new clean energy generation by 2030, China Central Television reported.",
+      "image": null
+    },
+    {
+      "title": "FAA lifts rare nationwide ground stop on flights; air travel may take days to recover",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 02:42:00 GMT",
+      "link": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
+      "summary": "Homeland Security Secretary Mullin said that there was ‘zero evidence’ of cyberattack as fewer flights amid fuel-cost surge may hamper rebookings.",
+      "image": "https://images.mktw.net/im-14527198"
+    },
+    {
+      "title": "Trump Administration Delays Enforcement of Medicaid Work Requirement",
+      "source": "The New York Times",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 02:22:25 +0000",
+      "link": "https://www.nytimes.com/2026/11/13/us/politics/medicaid-work-requirement-delay.html",
+      "summary": "The federal government had planned to require poor adults to prove they were working or lose insurance coverage starting Jan. 1. Now, it will let states wait until July.",
+      "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-medicaid-qmwz/13dc-medicaid-qmwz-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "14 dividend stocks selected for long-term growth",
+      "source": "MarketWatch",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 01:58:00 GMT",
+      "link": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
+      "summary": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
+      "image": "https://images.mktw.net/im-27014870"
+    },
+    {
+      "title": "The FAA Nationwide Ground Stop Is Over",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 14 Nov 2026 01:46:40 +0000",
+      "link": "https://www.wired.com/story/the-faa-nationwide-ground-stop-is-over/",
+      "summary": "The five-hour ordeal ended Friday evening. Planes will be allowed to fly again, but the effects of the stoppage will be felt throughout the weekend.",
+      "image": "https://media.wired.com/photos/6af796575e4ca9026ac50e15/master/pass/Air-Traffic-Outage-Wasnt-AI-Gear-2239205748.jpg"
     },
     {
       "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
@@ -1972,76 +2083,13 @@
       "image": "https://image.cnbcfm.com/api/v1/image/108368185-1790352357255-gettyimages-2296459165-AFP_C9DQ94M.jpeg?v=1790352418&amp;w=1920&amp;h=1080"
     },
     {
-      "title": "FAA declares rare nationwide ground stop on flights, with more than 10,000 delayed or canceled",
-      "source": "MarketWatch",
+      "title": "Fed's Jefferson says he is taking his policy cues from inflation",
+      "source": "Reuters",
       "category": "mercati",
-      "published": "Sat, 14 Nov 2026 01:28:00 GMT",
-      "link": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
-      "summary": "Agency cites “extraordinary circumstances,” while Homeland Security Secretary Mullin says no indication of attack. Reduced flights amid fuel-cost surge may curtail rebooking options.",
-      "image": "https://images.mktw.net/im-24684025"
-    },
-    {
-      "title": "US aviation regulator grounds flights across the country",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 00:45:56 GMT",
-      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
-      "summary": "Airports ordered by Federal Aviation Administration to halt take-offs because of ‘telecommunications outage’",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F741e2378-1f87-42ec-ad78-8d0b9cdae260.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "Cruise Ship Capsizes After Tanker Collision in New Orleans",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 00:29:03 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-14/cruise-ship-capsizes-after-tanker-crash-in-new-orleans-video",
-      "summary": "All passengers and crew members aboard a river cruise ship that capsized after a tanker collision in New Orleans on Friday were accounted for, with 32 people hospitalized but none critically injured, according to Mayor Helena Moreno. (Source: Bloomberg)",
+      "published": "Sat, 14 Nov 2026 00:03:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZW1TY0lTUklmN2JmVC0zMm5qMUdfOUFjWk43S1NTS1RpcGx1Ni0tWkJCX1NXWDg1cHdzazZsQUZlREpWRkl2UER3S2t0TjFON1lXeTNNLXA4SXZYYjFjbXh0SnJzcXFGV2FPZkhoc1dNc1ZhUXNTRjdmX3R2SUR0ZlZwcHlnT2F2ZzdLdnNkQ1I5Sy1tRmVGTS1GTEpUTmRTWVlkYXRR?oc=5",
+      "summary": "Fed's Jefferson says he is taking his policy cues from inflation &nbsp;&nbsp; Reuters",
       "image": null
-    },
-    {
-      "title": "Deed Theft Is Rising, Along With Property Values",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 00:27:27 +0000",
-      "link": "https://www.nytimes.com/2026/11/13/your-money/deed-title-theft-houses.html",
-      "summary": "The victims are often older people or immigrants, with thieves going after vacant land or unoccupied homes. But there are ways to protect yourself.",
-      "image": "https://static01.nyt.com/images/2026/11/13/business/13biz-adviser2/13biz-adviser2-facebookJumbo.png"
-    },
-    {
-      "title": "US Flights Grounded Over Air Traffic Communication Issue",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 00:08:57 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-14/us-flights-grounded-over-air-traffic-communication-issue-video",
-      "summary": "US authorities halted flights nationwide due to communication issues affecting air traffic control. Myles Miller reports from LaGuardia Airport. (Source: Bloomberg)",
-      "image": null
-    },
-    {
-      "title": "This Starlink Rival's Plan To Avoid Launch Bottlenecks: Its Own Rocket",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 13 Nov 2026 19:00:09 -0500",
-      "link": "https://www.forbes.com/sites/the-prototype/2026/11/13/this-starlink-rivals-plan-to-avoid-launch-bottlenecks-its-own-rocket/",
-      "summary": "Sharing an AI brain between bio labs. Fighting quantum errors. The data center backlash. There’s all that and more in this week’s Prototype.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/68e6fcd007e0f74cae739440/0x0.jpg?width=960"
-    },
-    {
-      "title": "How The Washington Spirit Returned To Audi Field For NWSL Semifinal",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Fri, 13 Nov 2026 18:47:11 -0500",
-      "link": "https://www.forbes.com/sites/johncassillo/2026/11/13/how-the-washington-spirit-returned-to-audi-field-for-nwsl-semifinal/",
-      "summary": "Executives from the Spirit and Audi Field talk about how Washington's NWSL game moved back home, the importance of their home fans and women's sports progress.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6af78ebc62f42dae05e90c6b/0x0.jpg"
-    },
-    {
-      "title": "SpaceX aborts attempt to catch Starship booster rocket",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Fri, 13 Nov 2026 23:43:09 GMT",
-      "link": "https://www.ft.com/content/ce7c8ab1-8337-4c32-8494-5142ec1697dd?syn-25a6b1a6=1",
-      "summary": "Elon Musk suffers setback in efforts to develop a completely reusable megarocket system",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Faba55e15-3ad3-4246-b8f2-d9509f123fea.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
     },
     {
       "title": "SpaceX’s Starship Launched Today. No Booster Catch Might Hurt the Stock.",
@@ -2051,24 +2099,6 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN2FMRnlaa3hwbWR5a1pDVUJKN09OS1ZMNXdnMkRnN19uTzlNVXgxdVhrVWQzSUxoNHBOdTZVTTlmNE0wcTlDd3YyRGxOUHpSai14X18zY0dQRnlWQjJCN1d0Vl90UThCdXZUQXFqTy1XSmMzRmtkTDE1X2VNMXJ5MGtR?oc=5",
       "summary": "SpaceX’s Starship Launched Today. No Booster Catch Might Hurt the Stock. &nbsp;&nbsp; Barron's",
       "image": null
-    },
-    {
-      "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Fri, 13 Nov 2026 23:12:00 GMT",
-      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-      "summary": "There is already a demographic ‘run’ on Social Security.",
-      "image": "https://images.mktw.net/im-49247042"
-    },
-    {
-      "title": "Trump Administration Delays Enforcement of Medicaid Work Requirement",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Fri, 13 Nov 2026 23:10:21 +0000",
-      "link": "https://www.nytimes.com/2026/11/13/us/politics/medicaid-work-requirement-delay.html",
-      "summary": "The federal government had planned to require poor adults to prove they were working or lose insurance coverage starting Jan. 1. Now, it will let states wait until July.",
-      "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-medicaid-qmwz/13dc-medicaid-qmwz-mediumSquareAt3X.jpg"
     },
     {
       "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
@@ -2134,13 +2164,13 @@
       "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7BD90N5TZ75ZZMC6V10AW2D/hi-what-is-elon-musk-and-openai.png"
     },
     {
-      "title": "FAA Grounds All US Flights Until Further Notice",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Fri, 13 Nov 2026 21:42:57 +0000",
-      "link": "https://www.wired.com/story/faa-grounds-all-us-flights-until-further-notice/",
-      "summary": "The government cited a nationwide communications failure among air traffic control systems as the reason for the sudden grounding on Friday.",
-      "image": "https://media.wired.com/photos/6af77f75b0613b392083fb37/master/pass/FAA-Grounds-All-Flights-Gear-970624408.jpg"
+      "title": "Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today’s Market",
+      "source": "Barron's",
+      "category": "mercati",
+      "published": "Fri, 13 Nov 2026 21:40:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xNUN1dEs4N0hEbVFCd3JKNGlNTTkycmp5al82X1RBdWxPSzgxc181eF8zZHpyWHVtYlR3OWlxMTFySzlKQjVLNUg1aWFJLUVQa3c3enFtMER5QUd6OUZ0VzNvQ3o?oc=5",
+      "summary": "Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today’s Market &nbsp;&nbsp; Barron's",
+      "image": null
     },
     {
       "title": "Should Government Officials Be Banned From Prediction Markets? House Oversight Says Maybe",
@@ -2170,15 +2200,6 @@
       "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2023/01/zuck-copy.jpg"
     },
     {
-      "title": "Nvidia’s Scandal Is Poking Real Holes in the AI Trade. That Doesn’t Mean It’s Over.",
-      "source": "Barron's",
-      "category": "mercati",
-      "published": "Fri, 13 Nov 2026 20:23:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOeVp6SkZKLWtBRFRFSHVldzZBLXFqQmpOWmdaWTRpWGRwdy1TQmIxM1gxblBmRlM5NU9VYU04NFU4YlYxM3V0YXlyeDNDUVdnaC1RZER0YXFJNDc2ZVpRZWgtWC1mcG1STktobFdVRU51dVowWWlKXzZTYw?oc=5",
-      "summary": "Nvidia’s Scandal Is Poking Real Holes in the AI Trade. That Doesn’t Mean It’s Over. &nbsp;&nbsp; Barron's",
-      "image": null
-    },
-    {
       "title": "Per la successione del CEO di Nvidia, il board contatta Rene Haas",
       "source": "The Cryptonomist",
       "category": "crypto",
@@ -2195,15 +2216,6 @@
       "link": "https://cryptonomist.ch/2026/11/13/prezzo-di-near-rimbalza-resta-sotto-resistenza-13-novembre-2026/",
       "summary": "Il prezzo di Near mostra un andamento fragile sotto la resistenza a 3,59 $, con segnali contrastanti tra gli indicatori tecnici e paura estrema nel mercato.",
       "image": "https://cryptonomist.ch/wp-content/uploads/2026/11/Near-price.webp"
-    },
-    {
-      "title": "MEGA cuts 20% of workforce as former MegaETH Foundation restructures",
-      "source": "The Block",
-      "category": "crypto",
-      "published": "Fri, 13 Nov 2026 19:26:53 +0000",
-      "link": "https://www.theblock.co/news/business/2026-11-13-megaeth-mega-layoffs-20-percent-restructuring-440206",
-      "summary": "MEGA, formerly the MegaETH Foundation, laid off 20% of staff days after its rebrand and $30 million push into AI inference products.",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2025/04/20250411_MegaEth_News_3.jpg"
     },
     {
       "title": "Anthropic Chief Tells Jamie Dimon He Hopes IPO Will ‘Underpromise and Overdeliver’",
@@ -2224,6 +2236,15 @@
       "image": null
     },
     {
+      "title": "EXCLUSIVE: Amazon’s plan to own the world’s product data and fight AI shopping agents",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Fri, 13 Nov 2026 17:28:57 GMT",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY2FJOXhDLWZqYzRxQ3BNVGRyeDNGWGZYU0VwNm5PV09tWGVwRklHdGFQaDRGWEQwM3pBZ1g2X0lYQVFGUU9RdHhyVk9kSnhrcWxob3o2ZUVNTE5SWW5OSWtkZEVlZm83ZUdrZHJ6X1N6bjhqT2F2WWxpWXVaUGhBZldsU0N5MEhjS19yR1pJcFlDN2N4ekpfWDZmR1FPT3k4eGY0bkdEQldjVnVZX21BYlVXX0h4d1JwbFVSaQ?oc=5",
+      "summary": "EXCLUSIVE: Amazon’s plan to own the world’s product data and fight AI shopping agents &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
       "title": "Volatilità ancora protagonista. Tech, tassi e petrolio: i driver di fine anno",
       "source": "FinanzaOnline",
       "category": "italia",
@@ -2239,24 +2260,6 @@
       "published": "Fri, 13 Nov 2026 15:51:35 +0000",
       "link": "https://www.wallstreetitalia.com/news/market-mover-inflazione-ue-zew-tedesco-e-dati-cina-in-calendario-la-prossima-settimana/",
       "summary": "Il calendario della prossima settimana: dai dati cinesi all&#8217;inflazione Ue (dato definitivo) all&#8217;indice Zew",
-      "image": null
-    },
-    {
-      "title": "How AI has become a utility bill for Gen Z",
-      "source": "Reuters",
-      "category": "mercati",
-      "published": "Fri, 13 Nov 2026 15:46:37 GMT",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcWtZTE1HcjQ3dmptT2ZPRzlZQUYxUkVIWDRqbVJGOTVCYllMVVZoN1ptMk5EcEoxTWVLZEVDQUdwUlVwZWwxYlk5UzA2blVKNHNSQVdnOS1Uck5wSjhxN2xGZXpNaGR3WXRDUF9IbzlOVkEyOHZkY0hFdUNjQ1d5ZGJFUHRHamV1c0ZaOURIU0hpVjVqSktsTQ?oc=5",
-      "summary": "How AI has become a utility bill for Gen Z &nbsp;&nbsp; Reuters",
-      "image": null
-    },
-    {
-      "title": "OpenAI lancia ChatGPT Wallet: gli agenti AI potranno fare acquisti con American Express, Mastercard e Visa",
-      "source": "Wall Street Italia",
-      "category": "italia",
-      "published": "Fri, 13 Nov 2026 15:37:35 +0000",
-      "link": "https://www.wallstreetitalia.com/news/openai-lancia-chatgpt-wallet-gli-agenti-ai-potranno-fare-acquisti-con-american-express-mastercard-e-visa/",
-      "summary": "OpenAI ha annunciato il lancio di ChatGPT Wallet, una nuova funzionalità di pagamento che consente ai propri agenti di intelligenza artificiale di effettuare acquisti per conto degli utenti",
       "image": null
     },
     {
@@ -2314,37 +2317,37 @@
       "image": null
     }
   ],
-  "generated_at": "2026-11-14 02:40:28",
+  "generated_at": "2026-11-14 06:59:38",
   "markets_brief": {
     "items": [
       {
-        "title": "FAA lifts ground stop after four hours, but flight cancellations will stretch into the weekend",
+        "title": "China’s Market Regulator Warns of Global Asset Repricing Risks",
+        "source": "Bloomberg",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-14/china-s-market-regulator-warns-of-global-asset-repricing-risks"
+      },
+      {
+        "title": "FAA lifts ground stop after more than four hours, but flight cancellations will stretch into the weekend",
         "source": "CNBC",
         "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
       },
       {
-        "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-        "source": "CNBC",
-        "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html"
+        "title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
+        "source": "The New York Times",
+        "link": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html"
       },
       {
-        "title": "FAA declares rare nationwide ground stop on flights, with more than 10,000 delayed or canceled",
-        "source": "MarketWatch",
-        "link": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories"
-      },
-      {
-        "title": "SpaceX launches Starship in key test flight of massive rocket",
-        "source": "CNBC",
-        "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html"
-      },
-      {
-        "title": "US aviation regulator grounds flights across the country",
+        "title": "Italy rebuffs German bid to enter joint fighter jet project",
         "source": "Financial Times",
-        "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1"
+        "link": "https://www.ft.com/content/3ba2bcd1-b80c-48a2-91c7-35f25366f8aa?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Hedge fund woes expose the dangers of hot money once again",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/7c60b026-23ff-4b50-8a2b-7e9614ef7970"
       }
     ],
-    "prose_html": "<p>La FAA ha imposto un raro stop nazionale ai voli durato quattro ore, lasciando più di 10.000 voli ritardati o cancellati con disagi che si estenderanno nel fine settimana, secondo CNBC e MarketWatch. In altre notizie, SpaceX ha condotto un volo di prova cruciale del suo razzo Starship, mentre funzionari di Trump hanno indicato che l&#x27;amministrazione non intende sollevare preoccupazioni su Nvidia o questioni di spionaggio durante un imminente viaggio in Cina, secondo CNBC.</p>",
-    "prose_html_en": "<p>The FAA imposed a rare nationwide ground stop on flights that lasted four hours, leaving more than 10,000 flights delayed or canceled with disruptions expected to extend into the weekend, according to CNBC and MarketWatch. In other news, SpaceX conducted a key test flight of its Starship rocket, while Trump officials indicated the administration does not plan to raise concerns about Nvidia or espionage issues during an upcoming China trip, per CNBC.</p>"
+    "prose_html": "<p>L&#x27;autorità di regolamentazione cinese ha segnalato rischi di rivalutazione globale degli asset, indicando potenziale volatilità per gli investitori internazionali. Nel frattempo, interruzioni operative hanno colpito l&#x27;aviazione statunitense quando la FAA ha revocato uno stop al decollo dopo quattro ore, anche se le cancellazioni di voli dovrebbero protrarsi nel fine settimana, aggiungendo pressioni alla catena di approvvigionamento e incertezza nei viaggi.\n\nAltrove, tensioni geopolitiche e fragilità finanziaria hanno pesato sul sentiment. L&#x27;Italia ha respinto la proposta della Germania di entrare in un progetto congiunto di caccia, sottolineando divisioni nel settore della difesa in Europa, mentre la turbolenza dei fondi hedge ha esposto i pericoli strutturali dei flussi di denaro caldo in mercati già alle prese con agitazioni generazionali in tutto il continente.</p>",
+    "prose_html_en": "<p>China&#x27;s market regulator flagged risks of global asset repricing, signaling potential volatility ahead for international investors. Meanwhile, operational disruptions hit US aviation as the FAA lifted a ground stop after four hours, though flight cancellations are expected to persist through the weekend, adding to supply-chain pressures and travel uncertainty.\n\nElsewhere, geopolitical tensions and financial fragility weighed on sentiment. Italy rejected Germany&#x27;s bid to join a joint fighter jet project, underscoring defense-sector divisions in Europe, while hedge fund turbulence exposed the structural dangers of hot money flows in markets already grappling with generational unrest across the continent.</p>"
   },
   "live_close_movers": {
     "captured_at": "2026-11-13T21:14:00Z",
