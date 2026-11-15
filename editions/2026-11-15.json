@@ -6,15 +6,15 @@
   "session_date_it": "13 novembre 2026",
   "session_date_en": "November 13, 2026",
   "edition_kind": "weekend_recap",
-  "headline": "Mercati chiusi: le notizie di sabato in sintesi, con Solana -13,44% dalla chiusura di venerdi'",
-  "headline_en": "Markets closed: Saturday's news in brief, with Solana -13.44% since Friday's close",
+  "headline": "Mercati chiusi: le notizie di sabato in sintesi, con Solana -11,55% dalla chiusura di venerdi'",
+  "headline_en": "Markets closed: Saturday's news in brief, with Solana -11.55% since Friday's close",
   "auto_report": {
     "stats": {
       "n_up": 315,
-      "n_down": 183,
+      "n_down": 184,
       "n_flat": 4,
-      "n_total": 502,
-      "avg_pct": 0.14,
+      "n_total": 503,
+      "avg_pct": 0.13,
       "best_sectors": [
         {
           "sector": "Consumer Staples",
@@ -32,7 +32,7 @@
       "worst_sectors": [
         {
           "sector": "Information Technology",
-          "avg_pct": -1.62
+          "avg_pct": -1.72
         },
         {
           "sector": "Materials",
@@ -45,9 +45,9 @@
       ]
     },
     "paragraphs": [
-      "Nella seduta del 13 novembre 2026 l'S&P 500 ha chiuso con 315 societa' in rialzo, 183 in ribasso e 4 invariate, su 502 titoli monitorati. La variazione media dell'indice e' stata di +0,14%.",
-      "Settori con la variazione media migliore: Consumer Staples (+1,22%); Energy (+1,16%); Communication Services (+1,09%). Settori piu' debolli: Information Technology (-1,62%); Materials (-0,25%); Industrials (-0,19%).",
-      "In cima alla seduta: Charter Communications (CHTR, +4,32%); Steris (STE, +4,29%); Global Payments (GPN, +4,21%). In fondo: Dell Technologies (DELL, -7,18%); Cisco (CSCO, -6,24%); Coherent Corp. (COHR, -6,00%)."
+      "Nella seduta del 13 novembre 2026 l'S&P 500 ha chiuso con 315 societa' in rialzo, 184 in ribasso e 4 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di +0,13%.",
+      "Settori con la variazione media migliore: Consumer Staples (+1,22%); Energy (+1,16%); Communication Services (+1,09%). Settori piu' debolli: Information Technology (-1,72%); Materials (-0,25%); Industrials (-0,19%).",
+      "In cima alla seduta: Charter Communications (CHTR, +4,32%); Steris (STE, +4,29%); Global Payments (GPN, +4,21%). In fondo: Advanced Micro Devices (AMD, -8,75%); Dell Technologies (DELL, -7,18%); Cisco (CSCO, -6,24%)."
     ],
     "gainers": [
       {
@@ -185,6 +185,20 @@
     ],
     "losers": [
       {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices",
+        "sector": "Information Technology",
+        "pct_change": -8.75,
+        "last_close": 534.06,
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "reason": null,
+        "news": [],
+        "news_historical": []
+      },
+      {
         "symbol": "DELL",
         "name": "Dell Technologies",
         "sector": "Information Technology",
@@ -307,19 +321,6 @@
         "reason": null,
         "news": [],
         "news_historical": []
-      },
-      {
-        "symbol": "CIEN",
-        "name": "Ciena",
-        "sector": "Information Technology",
-        "pct_change": -4.57,
-        "last_close": 280.54,
-        "indices": [
-          "sp500"
-        ],
-        "reason": null,
-        "news": [],
-        "news_historical": []
       }
     ]
   },
@@ -327,10 +328,10 @@
     "sp500": {
       "stats": {
         "n_up": 315,
-        "n_down": 183,
+        "n_down": 184,
         "n_flat": 4,
-        "n_total": 502,
-        "avg_pct": 0.14,
+        "n_total": 503,
+        "avg_pct": 0.13,
         "best_sectors": [
           {
             "sector": "Consumer Staples",
@@ -348,7 +349,7 @@
         "worst_sectors": [
           {
             "sector": "Information Technology",
-            "avg_pct": -1.62
+            "avg_pct": -1.72
           },
           {
             "sector": "Materials",
@@ -496,6 +497,20 @@
       ],
       "losers": [
         {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices",
+          "sector": "Information Technology",
+          "pct_change": -8.75,
+          "last_close": 534.06,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
           "symbol": "DELL",
           "name": "Dell Technologies",
           "sector": "Information Technology",
@@ -618,31 +633,18 @@
           "reason": null,
           "news": [],
           "news_historical": []
-        },
-        {
-          "symbol": "CIEN",
-          "name": "Ciena",
-          "sector": "Information Technology",
-          "pct_change": -4.57,
-          "last_close": 280.54,
-          "indices": [
-            "sp500"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
         }
       ],
       "paragraphs": {
         "en": [
-          "In the November 13, 2026 session the S&P 500 closed with 315 stocks higher, 183 lower and 4 unchanged, out of 502 tracked. The average move was +0.14%.",
-          "Best-performing sectors by average move: Consumer Staples (+1.22%); Energy (+1.16%); Communication Services (+1.09%). Weakest: Information Technology (-1.62%); Materials (-0.25%); Industrials (-0.19%).",
-          "Leading the session: Charter Communications (CHTR, +4.32%); Steris (STE, +4.29%); Global Payments (GPN, +4.21%). At the bottom: Dell Technologies (DELL, -7.18%); Cisco (CSCO, -6.24%); Coherent Corp. (COHR, -6.00%)."
+          "In the November 13, 2026 session the S&P 500 closed with 315 stocks higher, 184 lower and 4 unchanged, out of 503 tracked. The average move was +0.13%.",
+          "Best-performing sectors by average move: Consumer Staples (+1.22%); Energy (+1.16%); Communication Services (+1.09%). Weakest: Information Technology (-1.72%); Materials (-0.25%); Industrials (-0.19%).",
+          "Leading the session: Charter Communications (CHTR, +4.32%); Steris (STE, +4.29%); Global Payments (GPN, +4.21%). At the bottom: Advanced Micro Devices (AMD, -8.75%); Dell Technologies (DELL, -7.18%); Cisco (CSCO, -6.24%)."
         ],
         "it": [
-          "Nella seduta del 13 novembre 2026 l'S&P 500 ha chiuso con 315 societa' in rialzo, 183 in ribasso e 4 invariate, su 502 titoli monitorati. La variazione media dell'indice e' stata di +0,14%.",
-          "Settori con la variazione media migliore: Consumer Staples (+1,22%); Energy (+1,16%); Communication Services (+1,09%). Settori piu' debolli: Information Technology (-1,62%); Materials (-0,25%); Industrials (-0,19%).",
-          "In cima alla seduta: Charter Communications (CHTR, +4,32%); Steris (STE, +4,29%); Global Payments (GPN, +4,21%). In fondo: Dell Technologies (DELL, -7,18%); Cisco (CSCO, -6,24%); Coherent Corp. (COHR, -6,00%)."
+          "Nella seduta del 13 novembre 2026 l'S&P 500 ha chiuso con 315 societa' in rialzo, 184 in ribasso e 4 invariate, su 503 titoli monitorati. La variazione media dell'indice e' stata di +0,13%.",
+          "Settori con la variazione media migliore: Consumer Staples (+1,22%); Energy (+1,16%); Communication Services (+1,09%). Settori piu' debolli: Information Technology (-1,72%); Materials (-0,25%); Industrials (-0,19%).",
+          "In cima alla seduta: Charter Communications (CHTR, +4,32%); Steris (STE, +4,29%); Global Payments (GPN, +4,21%). In fondo: Advanced Micro Devices (AMD, -8,75%); Dell Technologies (DELL, -7,18%); Cisco (CSCO, -6,24%)."
         ]
       }
     },
@@ -989,10 +991,10 @@
     "nasdaq100": {
       "stats": {
         "n_up": 44,
-        "n_down": 56,
+        "n_down": 57,
         "n_flat": 0,
-        "n_total": 100,
-        "avg_pct": -0.68,
+        "n_total": 101,
+        "avg_pct": -0.76,
         "best_sectors": [
           {
             "sector": "Consumer Staples",
@@ -1014,7 +1016,7 @@
           },
           {
             "sector": "Information Technology",
-            "avg_pct": -2.09
+            "avg_pct": -2.28
           },
           {
             "sector": "Consumer Discretionary",
@@ -1178,6 +1180,20 @@
           "news_historical": []
         },
         {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices",
+          "sector": "Information Technology",
+          "pct_change": -8.75,
+          "last_close": 534.06,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
           "symbol": "CSCO",
           "name": "Cisco",
           "sector": "Information Technology",
@@ -1287,32 +1303,18 @@
           "reason": null,
           "news": [],
           "news_historical": []
-        },
-        {
-          "symbol": "LITE",
-          "name": "Lumentum",
-          "sector": "Information Technology",
-          "pct_change": -4.49,
-          "last_close": 596.62,
-          "indices": [
-            "sp500",
-            "nasdaq100"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
         }
       ],
       "paragraphs": {
         "en": [
-          "In the November 13, 2026 session the Nasdaq-100 closed with 44 stocks higher, 56 lower, out of 100 tracked. The average move was -0.68%.",
-          "Best-performing sectors by average move: Consumer Staples (+1.78%); Health Care (+0.70%); Communication Services (+0.65%). Weakest: Technology (-2.64%); Information Technology (-2.09%); Consumer Discretionary (-0.23%).",
-          "Leading the session: Alnylam Pharmaceuticals (ALNY, +5.36%); AppLovin (APP, +3.92%); Airbnb (ABNB, +3.12%). At the bottom: Nebius Group (NBIS, -9.92%); Cisco (CSCO, -6.24%); CoreWeave (CRWV, -6.13%)."
+          "In the November 13, 2026 session the Nasdaq-100 closed with 44 stocks higher, 57 lower, out of 101 tracked. The average move was -0.76%.",
+          "Best-performing sectors by average move: Consumer Staples (+1.78%); Health Care (+0.70%); Communication Services (+0.65%). Weakest: Technology (-2.64%); Information Technology (-2.28%); Consumer Discretionary (-0.23%).",
+          "Leading the session: Alnylam Pharmaceuticals (ALNY, +5.36%); AppLovin (APP, +3.92%); Airbnb (ABNB, +3.12%). At the bottom: Nebius Group (NBIS, -9.92%); Advanced Micro Devices (AMD, -8.75%); Cisco (CSCO, -6.24%)."
         ],
         "it": [
-          "Nella seduta del 13 novembre 2026 il Nasdaq-100 ha chiuso con 44 societa' in rialzo, 56 in ribasso, su 100 titoli monitorati. La variazione media dell'indice e' stata di -0,68%.",
-          "Settori con la variazione media migliore: Consumer Staples (+1,78%); Health Care (+0,70%); Communication Services (+0,65%). Settori piu' debolli: Technology (-2,64%); Information Technology (-2,09%); Consumer Discretionary (-0,23%).",
-          "In cima alla seduta: Alnylam Pharmaceuticals (ALNY, +5,36%); AppLovin (APP, +3,92%); Airbnb (ABNB, +3,12%). In fondo: Nebius Group (NBIS, -9,92%); Cisco (CSCO, -6,24%); CoreWeave (CRWV, -6,13%)."
+          "Nella seduta del 13 novembre 2026 il Nasdaq-100 ha chiuso con 44 societa' in rialzo, 57 in ribasso, su 101 titoli monitorati. La variazione media dell'indice e' stata di -0,76%.",
+          "Settori con la variazione media migliore: Consumer Staples (+1,78%); Health Care (+0,70%); Communication Services (+0,65%). Settori piu' debolli: Technology (-2,64%); Information Technology (-2,28%); Consumer Discretionary (-0,23%).",
+          "In cima alla seduta: Alnylam Pharmaceuticals (ALNY, +5,36%); AppLovin (APP, +3,92%); Airbnb (ABNB, +3,12%). In fondo: Nebius Group (NBIS, -9,92%); Advanced Micro Devices (AMD, -8,75%); Cisco (CSCO, -6,24%)."
         ]
       }
     },
@@ -1632,10 +1634,10 @@
     "combined": {
       "stats": {
         "n_up": 322,
-        "n_down": 191,
+        "n_down": 192,
         "n_flat": 4,
-        "n_total": 517,
-        "avg_pct": 0.1,
+        "n_total": 518,
+        "avg_pct": 0.09,
         "best_sectors": [
           {
             "sector": "Consumer Staples",
@@ -1657,7 +1659,7 @@
           },
           {
             "sector": "Information Technology",
-            "avg_pct": -1.62
+            "avg_pct": -1.72
           },
           {
             "sector": "Materials",
@@ -1813,6 +1815,20 @@
           "news_historical": []
         },
         {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices",
+          "sector": "Information Technology",
+          "pct_change": -8.75,
+          "last_close": 534.06,
+          "indices": [
+            "sp500",
+            "nasdaq100"
+          ],
+          "reason": null,
+          "news": [],
+          "news_historical": []
+        },
+        {
           "symbol": "DELL",
           "name": "Dell Technologies",
           "sector": "Information Technology",
@@ -1920,32 +1936,18 @@
           "reason": null,
           "news": [],
           "news_historical": []
-        },
-        {
-          "symbol": "AVGO",
-          "name": "Broadcom",
-          "sector": "Information Technology",
-          "pct_change": -4.76,
-          "last_close": 347.01,
-          "indices": [
-            "sp500",
-            "nasdaq100"
-          ],
-          "reason": null,
-          "news": [],
-          "news_historical": []
         }
       ],
       "paragraphs": {
         "en": [
-          "In the November 13, 2026 session the combined three U.S. indices closed with 322 stocks higher, 191 lower and 4 unchanged, out of 517 tracked. The average move was +0.10%.",
-          "Best-performing sectors by average move: Consumer Staples (+1.22%); Energy (+1.16%); Communication Services (+1.09%). Weakest: Technology (-2.64%); Information Technology (-1.62%); Materials (-0.25%).",
-          "Leading the session: Alnylam Pharmaceuticals (ALNY, +5.36%); Charter Communications (CHTR, +4.32%); Steris (STE, +4.29%). At the bottom: Nebius Group (NBIS, -9.92%); Dell Technologies (DELL, -7.18%); Cisco (CSCO, -6.24%)."
+          "In the November 13, 2026 session the combined three U.S. indices closed with 322 stocks higher, 192 lower and 4 unchanged, out of 518 tracked. The average move was +0.09%.",
+          "Best-performing sectors by average move: Consumer Staples (+1.22%); Energy (+1.16%); Communication Services (+1.09%). Weakest: Technology (-2.64%); Information Technology (-1.72%); Materials (-0.25%).",
+          "Leading the session: Alnylam Pharmaceuticals (ALNY, +5.36%); Charter Communications (CHTR, +4.32%); Steris (STE, +4.29%). At the bottom: Nebius Group (NBIS, -9.92%); Advanced Micro Devices (AMD, -8.75%); Dell Technologies (DELL, -7.18%)."
         ],
         "it": [
-          "Nella seduta del 13 novembre 2026 l'insieme dei tre indici USA ha chiuso con 322 societa' in rialzo, 191 in ribasso e 4 invariate, su 517 titoli monitorati. La variazione media dell'indice e' stata di +0,10%.",
-          "Settori con la variazione media migliore: Consumer Staples (+1,22%); Energy (+1,16%); Communication Services (+1,09%). Settori piu' debolli: Technology (-2,64%); Information Technology (-1,62%); Materials (-0,25%).",
-          "In cima alla seduta: Alnylam Pharmaceuticals (ALNY, +5,36%); Charter Communications (CHTR, +4,32%); Steris (STE, +4,29%). In fondo: Nebius Group (NBIS, -9,92%); Dell Technologies (DELL, -7,18%); Cisco (CSCO, -6,24%)."
+          "Nella seduta del 13 novembre 2026 l'insieme dei tre indici USA ha chiuso con 322 societa' in rialzo, 192 in ribasso e 4 invariate, su 518 titoli monitorati. La variazione media dell'indice e' stata di +0,09%.",
+          "Settori con la variazione media migliore: Consumer Staples (+1,22%); Energy (+1,16%); Communication Services (+1,09%). Settori piu' debolli: Technology (-2,64%); Information Technology (-1,72%); Materials (-0,25%).",
+          "In cima alla seduta: Alnylam Pharmaceuticals (ALNY, +5,36%); Charter Communications (CHTR, +4,32%); Steris (STE, +4,29%). In fondo: Nebius Group (NBIS, -9,92%); Advanced Micro Devices (AMD, -8,75%); Dell Technologies (DELL, -7,18%)."
         ]
       }
     }
@@ -1955,6 +1957,33 @@
   "manual_highlights": [],
   "feed": [
     {
+      "title": "SpaceX Catches Starship’s Upper Stage in Historic First. What It Means for the Stock.",
+      "source": "Barron's",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 21:39:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNURMTzhNbWItNmljeUpGSXlXN3hMRjROTVJmSmo5eElRZG92WXFUU1RFdVNaTjc4bXE5dm91Vm55NlZ5UUNXNmdQcDN5LU1ZbjdCMDExanJIejBvd1FkSDBIalFVZ1Zjal8wajZGazNaN0dHMXdVTkJhNlEtYVgzMw?oc=5",
+      "summary": "SpaceX Catches Starship’s Upper Stage in Historic First. What It Means for the Stock. &nbsp;&nbsp; Barron's",
+      "image": null
+    },
+    {
+      "title": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 14:30:01 GMT",
+      "link": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html",
+      "summary": "With household budgets already squeezed by persistent inflation, some residents are seeking emergency help with heating oil bills before winter begins.",
+      "image": null
+    },
+    {
+      "title": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 14:02:39 GMT",
+      "link": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+      "summary": "Berkshire Hathaway's red-hot shares are ending a strong week with four consecutive fresh record high closes.",
+      "image": null
+    },
+    {
       "title": "SpaceX’s S&P 500 Bid Gets New Life as Musk Pitches Tesla Merger",
       "source": "Bloomberg",
       "category": "mercati",
@@ -1962,6 +1991,42 @@
       "link": "https://www.bloomberg.com/news/articles/2026-11-14/spacex-s-s-p-500-bid-gets-new-life-as-musk-pitches-tesla-merger",
       "summary": "Just months after SpaceX was denied a swift entry into the S&amp;P 500 Index, Elon Musk may have found a backdoor: Merging with Tesla Inc., one of the stock-market benchmark’s biggest members.",
       "image": null
+    },
+    {
+      "title": "What will Nvidia’s post-Huang era look like?",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sun, 15 Nov 2026 05:00:14 GMT",
+      "link": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
+      "summary": "The chip company has only itself to blame for a long list of adversaries",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F99c5ac46-ba12-46b0-87b6-6986d64f3209.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Inside Infantino’s $6bn Fifa charm offensive",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sun, 15 Nov 2026 05:00:13 GMT",
+      "link": "https://www.ft.com/content/f8a58159-463f-4b28-b83d-14b79cbd413b?syn-25a6b1a6=1",
+      "summary": "Footballing president tours the world to shore up support for re-election after backlash to stake sale plan",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4ad884e3-040e-41c8-9670-145aeaaaee68.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "EU banking watchdog veers away from single deposit insurance scheme",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sun, 15 Nov 2026 05:00:13 GMT",
+      "link": "https://www.ft.com/content/016ce22d-1e09-4f1d-a7e6-9acf183e757f?syn-25a6b1a6=1",
+      "summary": "Chair of European Banking Authority working on alternative ways to free up more cross-border lending",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8a15b306-437f-4b46-802b-a1cde3ac62df.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+    },
+    {
+      "title": "Huang’s downfall shows human judgment is not all it’s cracked up to be",
+      "source": "Financial Times",
+      "category": "mercati",
+      "published": "Sun, 15 Nov 2026 05:00:04 GMT",
+      "link": "https://www.ft.com/content/f8dffb89-99e3-4e9d-ac62-4eb59da4f007?syn-25a6b1a6=1",
+      "summary": "The quality that sets us apart from machines has been absent during implosion by former Nvidia boss",
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F171261cb-4b66-4a8d-b1f2-58a523bd7b85.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
     },
     {
       "title": "New AI Millionaires Want Wealth Advisers Who Can Help Give Their Money Away",
@@ -1980,15 +2045,6 @@
       "link": "https://www.marketwatch.com/story/spacex-successfully-catches-starship-rocket-in-huge-milestone-for-the-space-industry-f42c136c?mod=mw_rss_topstories",
       "summary": "The historic first gets SpaceX closer to “rapid reusability” of rockets.",
       "image": "https://images.mktw.net/im-16988916"
-    },
-    {
-      "title": "US air travel chaos exposes system held together by ‘string and duct tape’",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 22:57:26 GMT",
-      "link": "https://www.ft.com/content/9df17e1c-c77a-4f67-b5b4-1adb64bcd063?syn-25a6b1a6=1",
-      "summary": "Decades of bipartisan neglect have left America’s aviation infrastructure unfit for purpose, say experts",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F359a8a98-adc8-4edf-b181-2158f0bea421.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
     },
     {
       "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
@@ -2018,69 +2074,6 @@
       "image": "https://images.mktw.net/im-06068042"
     },
     {
-      "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
-      "source": "MarketWatch",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 18:00:00 GMT",
-      "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-      "summary": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
-      "image": "https://images.mktw.net/im-61252759"
-    },
-    {
-      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 15:50:43 GMT",
-      "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
-      "summary": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108180544-1754063406073-IMG_8872.jpg?v=1754063887&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 15:36:47 GMT",
-      "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
-      "summary": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
-      "image": "https://image.cnbcfm.com/api/v1/image/108368185-1790352357255-gettyimages-2296459165-AFP_C9DQ94M.jpeg?v=1790352418&amp;w=1920&amp;h=1080"
-    },
-    {
-      "title": "US floats Nato membership for Donbas withdrawal deal, Zelenskyy says",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 11:41:15 GMT",
-      "link": "https://www.ft.com/content/24319e2d-1a34-4a72-8c91-008d974234f9?syn-25a6b1a6=1",
-      "summary": "President says he will take proposal to Ukrainian people as Washington explores terms for ending war",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0152a516-6104-4131-b7ba-0ff029addfa6.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "Nvidia exposed to possible lawsuits after Jensen Huang’s downfall",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 11:00:09 GMT",
-      "link": "https://www.ft.com/content/4aba8386-35cc-463b-a79c-a0c85c362c89?syn-25a6b1a6=1",
-      "summary": "Chip group lacks full insurance coverage for damages stemming from the conduct of executives",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F588eb53b-ffff-4521-ad2f-c97a300af154.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "Record polar vortex breakdown raises cold weather risk",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 05:00:38 GMT",
-      "link": "https://www.ft.com/content/576640c4-8d35-4504-b1a5-f01c0ca1f5bc?syn-25a6b1a6=1",
-      "summary": "The early collapse of wind system that traps Arctic air is latest extreme atmospheric event",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F2b3a2d00-88d7-461c-9278-16fff43058c0.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
-      "title": "The Nvidia board’s artificial independence",
-      "source": "Financial Times",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 05:00:37 GMT",
-      "link": "https://www.ft.com/content/e141a5ea-5aa4-491b-88a4-369cfc67693a",
-      "summary": "Bored of governance",
-      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4b1975cf-6725-489f-9e16-bb27433f4e67.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-    },
-    {
       "title": "(Digital) SpaceX Catches Starship in Novel Landing",
       "source": "Bloomberg",
       "category": "mercati",
@@ -2090,12 +2083,21 @@
       "image": null
     },
     {
-      "title": "SpaceX's Starship nears end of 15th test flight and return-landing attempt",
+      "title": "SpaceX Starship returns to landing pad from orbit, acing test for reusable rockets",
       "source": "Reuters",
       "category": "mercati",
-      "published": "Sat, 14 Nov 2026 18:03:17 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ25xZHF6NVM2ekhIVmRFejZfdVZ4MVRwMTQ1QjBFeFFQQkN2LTh6eHRVeDF2QzhxMmlzdFg2M1drVm9Sc0lCeWJBZDhwUjV1Vm91TzF4ZzgxczY4RlppNGc0WVJxU0t4dFV3OHIyNWJoREpaWGNweGVoY25XNzBzQWUxUk13RDJkSDZzZXVtVVRKU09admlYMmt0RGFyV3ljbHl3elp5TV9NMmo0ZEVMUENvQTFSTkh0ZHF6U2c2LVpWdE05YlJ4Xw?oc=5",
-      "summary": "SpaceX's Starship nears end of 15th test flight and return-landing attempt &nbsp;&nbsp; Reuters",
+      "published": "Sat, 14 Nov 2026 21:40:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS3BNak83bkJ3N2NOejJudW5NdDlHQl9tTmZ1OUFSak9iRTZmMlo1OFAyWVJnU25GdjRLbVNOSllnekdvdm1tcFlxbnJRY2RnRks4WG4ybjZlX3dnNE1HQ3E5S0dpVGxwNDZqLTVwM3JlLWJmMDYtNjhZVXgycFJjbzFPME50Z0ViRHNWTDhYSmdfeW80UDl4NlduZGdLR0R5ZmpIa05B?oc=5",
+      "summary": "SpaceX Starship returns to landing pad from orbit, acing test for reusable rockets &nbsp;&nbsp; Reuters",
+      "image": null
+    },
+    {
+      "title": "US aviation shutdown blamed on L3 Harris installed router",
+      "source": "Reuters",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 20:10:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWEQ1ckJVbXlQSHI5ZHU4VEppWVVZbXBYa0ZRWjdDdFNGWWxSdHF5bEtwR1Q2OHRxN2plYXctMm5lTU5TV0hzb2xQazg4U09MNDhyRnpOalhGYXJWN01mak9NR0dXWG0yR0k5WUtycmNhdkdZZkpYcXp5N2w0N2RQSUxEX1F5aEY1TGhDTzV5ZXl3dWR6QmdabDduOFBBWTNPdXBvVVY1VlAwVW1XYnIyQ2FwU2ZOeW5x?oc=5",
+      "summary": "US aviation shutdown blamed on L3 Harris installed router &nbsp;&nbsp; Reuters",
       "image": null
     },
     {
@@ -2108,12 +2110,39 @@
       "image": null
     },
     {
+      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 15:50:43 GMT",
+      "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+      "summary": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
+      "image": null
+    },
+    {
       "title": "How China’s Intelligence Operations Target Tech",
       "source": "Bloomberg",
       "category": "mercati",
       "published": "Sat, 14 Nov 2026 15:41:12 GMT",
       "link": "https://www.bloomberg.com/news/videos/2026-11-14/how-china-s-intelligence-operations-target-tech-video",
       "summary": "Former CIA counterintelligence analyst Peter Mattis tells Bloomberg This Weekend how China’s Ministry of State Security can use business and personal relationships to gather intelligence and potentially influence decision-making in strategically important industries. Speaking wit",
+      "image": null
+    },
+    {
+      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+      "source": "CNBC",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 15:36:47 GMT",
+      "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "summary": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
+      "image": null
+    },
+    {
+      "title": "Repair Of Old Copper Wiring Caused US Flight Disruption: Trump Admin",
+      "source": "Barron's",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 15:29:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdExNWl9JZDNDQndLZW5LUVlaRnh3SVB3VE1CRlpOTS1sQXpQNl9ZOXRGOWJzbGdDMmlFOHNyZXBrN3dEY2tQRm5xdE55ZzVGQ3BFZF9OYldsSE9tckRUbFFJUHNsM2ZkSFY3bU1kejR1b1pPS2lCYmw0clRzalRHSF9HTTBRNEdIT2x0YUg4NmpvSlVTNVNsSFJUZ2tVZzJoaVpZbTJ4b25uQQ?oc=5",
+      "summary": "Repair Of Old Copper Wiring Caused US Flight Disruption: Trump Admin &nbsp;&nbsp; Barron's",
       "image": null
     },
     {
@@ -2135,33 +2164,6 @@
       "image": null
     },
     {
-      "title": "SpaceX Pushes Starship Reusability to New Test",
-      "source": "Bloomberg",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 14:36:01 GMT",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-14/spacex-pushes-starship-reusability-to-new-test-video",
-      "summary": "Space Network co-founder Ross Hamilton tells Bloomberg This Weekend why SpaceX’s attempt to catch Starship after its return from orbit could mark a major step toward making the rocket system fully reusable. Speaking with hosts David Gura and Christina Ruffini, Hamilton explains h",
-      "image": null
-    },
-    {
-      "title": "Juice your growth and save on taxes in this workplace investment account",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 14:08:17 GMT",
-      "link": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
-      "summary": "High-deductible medical benefit plans with health savings accounts are on the menu at many employers as enrollment season for 2027 continues.",
-      "image": null
-    },
-    {
-      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-      "source": "CNBC",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 12:00:01 GMT",
-      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-      "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-      "image": null
-    },
-    {
       "title": "Family Dollar to Pay $63 Million Settlement for Overcharging Customers",
       "source": "The New York Times",
       "category": "mercati",
@@ -2180,13 +2182,49 @@
       "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13biz-Anthropic-roadshow-01-mhbc/13biz-Anthropic-roadshow-01-mhbc-mediumSquareAt3X.jpg"
     },
     {
-      "title": "This Man Stole $9 Million in Gold Bars on the Upper West Side, Police Say",
+      "title": "Ilia Malinin Wins 2026 Skate America Title In Season Debut",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sun, 15 Nov 2026 00:02:12 -0500",
+      "link": "https://www.forbes.com/sites/carolineprice/2026/11/15/ilia-malinin-wins-2026-skate-america-title-in-season-debut/",
+      "summary": "American figure skating star Ilia Malinin started his journey toward the 2030 Olympics by winning the 2026 Skate America title in Everett, Washington, his fourth title at the event.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6af93a92b5b42682904b62c9/0x0.jpg"
+    },
+    {
+      "title": "Geopolitics Looms Over Eurovision, but Not Its Asian Edition",
       "source": "The New York Times",
       "category": "mercati",
-      "published": "Sat, 14 Nov 2026 15:58:21 +0000",
-      "link": "https://www.nytimes.com/2026/11/14/nyregion/gold-bars-scam-new-york-city.html",
-      "summary": "The victim, who believed his financial assets had been compromised, was the target of an online fraud scheme and believed he had to buy the precious metal, the authorities said.",
-      "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12xp-gold-bars/12xp-gold-bars-facebookJumbo.jpg"
+      "published": "Sun, 15 Nov 2026 03:49:51 +0000",
+      "link": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-politics.html",
+      "summary": "So far, the contest’s organizers have kept politics offstage. The European edition shows how difficult that can be.",
+      "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14asia-eurovision-geopolitics-tgzw/14asia-eurovision-geopolitics-tgzw-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "AEW Full Gear 2026 Results As The Kasper Brothers Make Surprise Debut",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 21:30:33 -0500",
+      "link": "https://www.forbes.com/sites/robwolkenbrod/2026/11/14/aew-full-gear-2026-results-as-the-kasper-brothers-make-surprise-debut/",
+      "summary": "The Kasper Brothers, formerly the Creed Brothers in WWE, made their surprise debut at AEW Full Gear. How did they make their arrival?",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6af9182cf121ed3bb2409422/0x0.jpg"
+    },
+    {
+      "title": "Alexa Gasparotto Becomes First Black Woman To Land Triple Axel At Grand Prix",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 21:15:02 -0500",
+      "link": "https://www.forbes.com/sites/carolineprice/2026/11/14/alexa-gasparotto-becomes-first-black-woman-to-land-triple-axel-at-grand-prix/",
+      "summary": "American figure skater Alexa Gasparotto became the first Black woman to land a triple Axel at a Grand Prix event Saturday, Nov. 14, at Skate America in Everett, Washington.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6af90aab79766fe712a6f576/0x0.jpg?width=960&precrop=3202%2C1800%2Cx363%2Cy96"
+    },
+    {
+      "title": "Stephen Thompson Reflects On Retirement Before Last UFC Fight",
+      "source": "Forbes",
+      "category": "mercati",
+      "published": "Sat, 14 Nov 2026 20:30:50 -0500",
+      "link": "https://www.forbes.com/sites/leoccianocallao/2026/11/14/stephen-thompson-reflects-on-retirement-before-last-ufc-fight/",
+      "summary": "Stephen \"Wonderboy\" Thompson talks about what led him to call it a career ahead of his final UFC fight against Charles Radtke.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6af90a10466d4e8d0709405a/0x0.jpg"
     },
     {
       "title": "SpaceX Makes History With Successful Rocket Catch in Texas",
@@ -2196,60 +2234,6 @@
       "link": "https://www.nytimes.com/2026/11/14/science/spacex-starship-first-catch.html",
       "summary": "The Starship spacecraft returned from orbit to the same spot where it lifted off, marking a key milestone in SpaceX’s vision of building fully reusable rockets.",
       "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14starship-header-01-vgzq/14starship-header-01-vgzq-mediumSquareAt3X.jpg"
-    },
-    {
-      "title": "Jon Anik Applauds New York City Fight Week Despite NYC-Boston Rivalry",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 18:50:12 -0500",
-      "link": "https://www.forbes.com/sites/leoccianocallao/2026/11/14/jon-anik-applauds-new-york-city-fight-week-despite-nyc-boston-rivalry/",
-      "summary": "Veteran broadcaster Jon Anik applauds UFC fight week in New York City ahead of UFC 334 at Madison Square Garden.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6af8f33021800631d48e5353/0x0.jpg?width=960&precrop=1540%2C867%2Cx0%2Cy47"
-    },
-    {
-      "title": "Indonesia Is Taking Out The Trash—and Taking On The Old Investment Order",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 18:45:09 -0500",
-      "link": "https://www.forbes.com/sites/josephhammond/2026/11/14/indonesia-is-taking-out-the-trash-and-taking-on-the-old-investment-order/",
-      "summary": "Prabowo Subianto is reshaping Indonesia’s relationship with foreign capital, using Danantara to lead strategic joint ventures and turn national priorities into investment projects—starting with the country's mounting waste problem.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6af8f19ef43fa965272ea846/0x0.jpg"
-    },
-    {
-      "title": "From The USS Midway To Daytona, Ford Makes Veterans The Story",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 17:55:20 -0500",
-      "link": "https://www.forbes.com/sites/gregengle/2026/11/14/from-the-uss-midway-to-daytona-ford-makes-veterans-the-story/",
-      "summary": "Veterans Day often brings sales pitches wrapped in American flags. Ford took a different approach, bringing racing, music and military families together at Daytona.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6af8e2ac4d7267c3fc59a003/0x0.jpg"
-    },
-    {
-      "title": "Why It’d Make Sense For Johnny Depp’s ‘Ebenezer’ To Break With Paramount’s Streaming Strategy",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 17:29:12 -0500",
-      "link": "https://www.forbes.com/sites/timlammers/2026/11/14/why-itd-make-sense-for-johnny-depps-ebenezer-to-break-with-paramounts-streaming-strategy/",
-      "summary": "\"Ebenezer,\" Johnny Depp and Ti West’s adaptation of Charles Dickens’ \"A Christmas Carol,\" is new in theaters, but will it arrive on digital streaming before Christmas?",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/6af8dbfaf85941e146939417/0x0.jpg?width=960"
-    },
-    {
-      "title": "Today’s Wordle #1975 Hints, Clues And Answer For Sunday November 15",
-      "source": "Forbes",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 16:37:29 -0500",
-      "link": "https://www.forbes.com/sites/erikkain/2026/11/14/wordle-hints-clues-answers-sunday-november-15/",
-      "summary": "Looking for help with today's New York Times Wordle? Here are some expert hints, clues and commentary to help you solve today's Wordle and sharpen your guessing game.",
-      "image": "https://imageio.forbes.com/specials-images/imageserve/654ac7d9543b3152d167c85e/0x0.jpg?width=960"
-    },
-    {
-      "title": "She Was a CBS News Producer When Few Women Were",
-      "source": "The New York Times",
-      "category": "mercati",
-      "published": "Sat, 14 Nov 2026 20:21:11 +0000",
-      "link": "https://www.nytimes.com/2026/11/14/business/media/linda-mason-dead-cbs-news.html",
-      "summary": "Linda Mason started in an entry-level job at CBS Radio in 1966 and rose through the news division’s ranks to senior vice president. She was 84.",
-      "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13obit-mason-jctp/13obit-mason-jctp-facebookJumbo.jpg"
     },
     {
       "title": "Nelle case italiane 100 milioni di dispositivi connessi, 1 su 3 a rischio hacker",
@@ -2270,33 +2254,6 @@
       "image": null
     },
     {
-      "title": "10 Best Early Black Friday Headphone Deals (2026): Up to 50% Off",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Sat, 14 Nov 2026 11:30:00 +0000",
-      "link": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-14-26/",
-      "summary": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
-      "image": "https://media.wired.com/photos/6af7d0c3d135dcb52741f5c1/master/pass/The-Best-Early-Black-Friday-Headphone-Deals.jpg"
-    },
-    {
-      "title": "It’s Time to Run an Audit of All the Cloud Storage Links You’ve Shared",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Sat, 14 Nov 2026 11:30:00 +0000",
-      "link": "https://www.wired.com/story/audit-all-the-cloud-storage-links-youve-shared/",
-      "summary": "Those old links you shared with friends ages ago are still live, and they might be attracting unwelcome visitors.",
-      "image": "https://media.wired.com/photos/6af5bf6d129c3f49a6da47ce/master/pass/111216-CLoud%20Storage%20Audit.jpg"
-    },
-    {
-      "title": "The 21 Best REI Holiday Sale Outdoor Deals (2026)",
-      "source": "Wired",
-      "category": "tech",
-      "published": "Sat, 14 Nov 2026 11:00:00 +0000",
-      "link": "https://www.wired.com/story/best-rei-holiday-sale-outdoor-deals-2026/",
-      "summary": "Stock up on outdoor gear and gifts for friends at REI’s annual holiday sale.",
-      "image": "https://media.wired.com/photos/6af78becda0b3f5acb040c4d/master/pass/The-21-Best-REI-Holiday-Sale-Outdoor-Deals.jpg"
-    },
-    {
       "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
       "source": "Wired",
       "category": "tech",
@@ -2313,11 +2270,66 @@
       "link": "https://www.wired.com/story/gaza-floods-are-forcing-a-choice-between-pumping-out-sewage-and-pumping-in-water/",
       "summary": "As Israeli restrictions limit repairs in Gaza, fuel is being diverted from wells to drainage pumps.",
       "image": "https://media.wired.com/photos/6af4abdffbe5af43ea5def11/master/pass/GazaFlood_01.jpg"
+    },
+    {
+      "title": "We Asked Vogue, GQ, and a Pro Stylist to Kill Jensen Huang’s Leather Jacket",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 14 Nov 2026 10:15:00 +0000",
+      "link": "https://www.wired.com/story/with-the-help-of-vogue-gq-and-a-pro-stylist-wired-revamps-jensen-huang/",
+      "summary": "The signature moto jacket has officially worn out its welcome. Here’s how fashion’s pros would rebrand him.",
+      "image": "https://media.wired.com/photos/6af7364ac76e30186375551b/master/pass/111326-Jensen%20Style.jpg"
+    },
+    {
+      "title": "These ‘Ghostly’ Galaxies Have Lost Their Dark Matter",
+      "source": "Wired",
+      "category": "tech",
+      "published": "Sat, 14 Nov 2026 10:00:00 +0000",
+      "link": "https://www.wired.com/story/these-ghostly-galaxies-have-lost-their-dark-matter/",
+      "summary": "The galaxies’ dark matter was ejected during a collision, but ironically, its absence is some of the best evidence of the elusive substance yet.",
+      "image": "https://media.wired.com/photos/6af47d34e9ef28e062a72826/master/pass/Dark-Matter-Galaxies-cr.several-Lede.jpg"
+    },
+    {
+      "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 14 Nov 2026 17:45:04 +0000",
+      "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
+      "summary": "FAA administrator Bryan Bedford also said there's \"zero evidence of anything AI-related.\"",
+      "image": null
+    },
+    {
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 14 Nov 2026 17:30:00 +0000",
+      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "image": null
+    },
+    {
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "source": "TechCrunch",
+      "category": "tech",
+      "published": "Sat, 14 Nov 2026 16:34:15 +0000",
+      "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "image": null
     }
   ],
-  "generated_at": "2026-11-15 02:14:31",
+  "generated_at": "2026-11-15 07:01:53",
   "markets_brief": {
     "items": [
+      {
+        "title": "‘Low fire, low hire’ job market hurts US and UK productivity",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/44c1fdc6-bc51-46e5-8a7c-c10096a25496?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Data centre construction stocks lose $4.2tn as boom in AI trade unravels",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a?syn-25a6b1a6=1"
+      },
       {
         "title": "$180 million Van Gogh tests the art market and collector confidence",
         "source": "CNBC",
@@ -2332,20 +2344,10 @@
         "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
         "source": "CNBC",
         "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"
-      },
-      {
-        "title": "SpaceX Catches Starship’s Upper Stage in Historic First. What It Means for the Stock.",
-        "source": "Barron's",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNURMTzhNbWItNmljeUpGSXlXN3hMRjROTVJmSmo5eElRZG92WXFUU1RFdVNaTjc4bXE5dm91Vm55NlZ5UUNXNmdQcDN5LU1ZbjdCMDExanJIejBvd1FkSDBIalFVZ1Zjal8wajZGazNaN0dHMXdVTkJhNlEtYVgzMw?oc=5"
-      },
-      {
-        "title": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
-        "source": "CNBC",
-        "link": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html"
       }
     ],
-    "prose_html": "<p>Il sentiment degli investitori si sta frammentando su più fronti. Una vendita di Van Gogh da 180 milioni di dollari ha messo alla prova l&#x27;appetito del mercato dell&#x27;arte in mezzo a dubbi più ampi sulla fiducia, mentre i prezzi dell&#x27;olio da riscaldamento sono saliti del 59% rispetto all&#x27;inverno scorso, mettendo sotto pressione i bilanci familiari. Nel settore tech, Nvidia affronta pressioni degli azionisti poiché due grandi investitori hanno esortato il consiglio a considerare un potenziale ritorno di Jensen Huang, segnalando preoccupazioni di governance nel gigante dei chip. La cattura storica dello stadio superiore di Starship da parte di SpaceX ha segnato un traguardo tecnico con implicazioni per il titolo, mentre l&#x27;America aziendale si confronta con quello che MarketWatch chiama un deficit di finanziamento pensionistico da trilioni di dollari.</p>",
-    "prose_html_en": "<p>Investor sentiment is fracturing across multiple fronts. A $180 million Van Gogh sale tested art market appetite amid broader confidence questions, while heating oil prices have surged 59% from last winter, straining household budgets. In tech, Nvidia faces shareholder pressure as two major investors urged the board to consider a potential return of Jensen Huang, signaling governance concerns at the chip giant. SpaceX&#x27;s historic capture of Starship&#x27;s upper stage marked a technical milestone with stock implications, even as corporate America grapples with what MarketWatch calls a trillion-dollar retirement funding shortfall.</p>"
+    "prose_html": "<p>La debolezza nei mercati del lavoro sta pesando sulla produttività negli Stati Uniti e nel Regno Unito, con una dinamica di &quot;basso licenziamento, bassa assunzione&quot; che limita lo slancio economico. Nel frattempo, il boom dell&#x27;infrastruttura AI mostra segni di cedimento mentre i titoli della costruzione di data centre perdono 4,2 trilioni di dollari di valore, segnalando un possibile rallentamento della spesa esuberante che ha guidato il settore. Sul fronte aziendale, le società affrontano crescenti pressioni sugli obblighi pensionistici, mentre il consiglio di Nvidia affronta pressioni degli azionisti riguardanti cambiamenti nella leadership. Separatamente, una vendita di Van Gogh da 180 milioni di dollari sta mettendo alla prova la fiducia più ampia dei collezionisti nel mercato dell&#x27;arte.</p>",
+    "prose_html_en": "<p>Weakness in labor markets is weighing on productivity in the US and UK, with a &quot;low fire, low hire&quot; dynamic limiting economic momentum. Meanwhile, the AI infrastructure boom is showing signs of strain as data centre construction stocks shed $4.2 trillion in value, signaling a potential pullback in the exuberant spending that has driven the sector. On the corporate front, companies face mounting pressure over retirement obligations, while Nvidia&#x27;s board faces shareholder calls regarding leadership changes. Separately, a $180 million Van Gogh sale is testing broader collector confidence in the art market.</p>"
   },
   "live_close_movers": {
     "captured_at": "2026-11-13T21:14:00Z",
@@ -2462,7 +2464,7 @@
     "covers_date_it": "14 novembre 2026",
     "covers_date_en": "November 14, 2026",
     "window_hours": 26,
-    "n_items": 96,
+    "n_items": 100,
     "n_digest": 24,
     "n_sources": 15,
     "sections": [
@@ -2472,8 +2474,26 @@
           "en": "Markets and macro",
           "it": "Mercati e macro"
         },
-        "n_available": 64,
+        "n_available": 69,
         "items": [
+          {
+            "title": "‘Low fire, low hire’ job market hurts US and UK productivity",
+            "source": "Financial Times",
+            "category": "mercati",
+            "link": "https://www.ft.com/content/44c1fdc6-bc51-46e5-8a7c-c10096a25496?syn-25a6b1a6=1",
+            "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fbaae429c-a177-430a-8d9e-09004b401cc7.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+            "summary": "Sluggish rates of hiring, resignations and job-switching may lead to long-term damage, say economists",
+            "published": "Sun, 15 Nov 2026 05:00:13 GMT"
+          },
+          {
+            "title": "Data centre construction stocks lose $4.2tn as boom in AI trade unravels",
+            "source": "Financial Times",
+            "category": "mercati",
+            "link": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a?syn-25a6b1a6=1",
+            "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F044b8747-69c4-4c6d-8d75-7b7d71dfa730.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+            "summary": "Shares in AI ‘picks and shovels’ companies hit hard by tech sell-off",
+            "published": "Sun, 15 Nov 2026 05:00:04 GMT"
+          },
           {
             "title": "$180 million Van Gogh tests the art market and collector confidence",
             "source": "CNBC",
@@ -2502,31 +2522,13 @@
             "published": "Sat, 14 Nov 2026 17:46:06 GMT"
           },
           {
-            "title": "SpaceX Catches Starship’s Upper Stage in Historic First. What It Means for the Stock.",
-            "source": "Barron's",
+            "title": "Crypto’s Slow-Motion Selloff Leaves Traders Weary and Hopeless",
+            "source": "Bloomberg",
             "category": "mercati",
-            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNURMTzhNbWItNmljeUpGSXlXN3hMRjROTVJmSmo5eElRZG92WXFUU1RFdVNaTjc4bXE5dm91Vm55NlZ5UUNXNmdQcDN5LU1ZbjdCMDExanJIejBvd1FkSDBIalFVZ1Zjal8wajZGazNaN0dHMXdVTkJhNlEtYVgzMw?oc=5",
+            "link": "https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless",
             "image": null,
-            "summary": "SpaceX Catches Starship’s Upper Stage in Historic First. What It Means for the Stock. &nbsp;&nbsp; Barron's",
-            "published": "Sat, 14 Nov 2026 21:39:00 GMT"
-          },
-          {
-            "title": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
-            "source": "CNBC",
-            "category": "mercati",
-            "link": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html",
-            "image": null,
-            "summary": "With household budgets already squeezed by persistent inflation, some residents are seeking emergency help with heating oil bills before winter begins.",
-            "published": "Sat, 14 Nov 2026 14:30:01 GMT"
-          },
-          {
-            "title": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
-            "source": "CNBC",
-            "category": "mercati",
-            "link": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
-            "image": null,
-            "summary": "Berkshire Hathaway's red-hot shares are ending a strong week with four consecutive fresh record high closes.",
-            "published": "Sat, 14 Nov 2026 14:02:39 GMT"
+            "summary": "Bitcoin’s latest selloff is testing the resolve of some of the cryptocurrency market’s most committed investors, as a succession of setbacks pushes prices toward their lowest levels of the year and major sources of demand weaken.",
+            "published": "Sun, 15 Nov 2026 05:10:27 GMT"
           }
         ]
       },
@@ -2621,33 +2623,6 @@
             "published": "Sat, 14 Nov 2026 18:00:00 +0000"
           },
           {
-            "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
-            "source": "TechCrunch",
-            "category": "tech",
-            "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
-            "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304506223.jpg?w=1024",
-            "summary": "FAA administrator Bryan Bedford also said there's \"zero evidence of anything AI-related.\"",
-            "published": "Sat, 14 Nov 2026 17:45:04 +0000"
-          },
-          {
-            "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-            "source": "TechCrunch",
-            "category": "tech",
-            "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-            "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
-            "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-            "published": "Sat, 14 Nov 2026 17:30:00 +0000"
-          },
-          {
-            "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-            "source": "TechCrunch",
-            "category": "tech",
-            "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-            "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
-            "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-            "published": "Sat, 14 Nov 2026 16:34:15 +0000"
-          },
-          {
             "title": "How to Run SteamOS on Your Mac",
             "source": "Wired",
             "category": "tech",
@@ -2655,6 +2630,33 @@
             "image": "https://media.wired.com/photos/6af484753d0afc8b01fd0f21/master/pass/GettyImages-1394116979.jpg",
             "summary": "A free app lets you boot SteamOS in a virtual machine on your Apple Silicon Mac, unlocking PC and legacy games that otherwise won’t run.",
             "published": "Sat, 14 Nov 2026 12:00:00 +0000"
+          },
+          {
+            "title": "10 Best Early Black Friday Headphone Deals (2026): Up to 50% Off",
+            "source": "Wired",
+            "category": "tech",
+            "link": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-14-26/",
+            "image": "https://media.wired.com/photos/6af7d0c3d135dcb52741f5c1/master/pass/The-Best-Early-Black-Friday-Headphone-Deals.jpg",
+            "summary": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
+            "published": "Sat, 14 Nov 2026 11:30:00 +0000"
+          },
+          {
+            "title": "It’s Time to Run an Audit of All the Cloud Storage Links You’ve Shared",
+            "source": "Wired",
+            "category": "tech",
+            "link": "https://www.wired.com/story/audit-all-the-cloud-storage-links-youve-shared/",
+            "image": "https://media.wired.com/photos/6af5bf6d129c3f49a6da47ce/master/pass/111216-CLoud%20Storage%20Audit.jpg",
+            "summary": "Those old links you shared with friends ages ago are still live, and they might be attracting unwelcome visitors.",
+            "published": "Sat, 14 Nov 2026 11:30:00 +0000"
+          },
+          {
+            "title": "The 21 Best REI Holiday Sale Outdoor Deals (2026)",
+            "source": "Wired",
+            "category": "tech",
+            "link": "https://www.wired.com/story/best-rei-holiday-sale-outdoor-deals-2026/",
+            "image": "https://media.wired.com/photos/6af78becda0b3f5acb040c4d/master/pass/The-21-Best-REI-Holiday-Sale-Outdoor-Deals.jpg",
+            "summary": "Stock up on outdoor gear and gifts for friends at REI’s annual holiday sale.",
+            "published": "Sat, 14 Nov 2026 11:00:00 +0000"
           }
         ]
       },
@@ -2725,6 +2727,33 @@
     ],
     "feed_leftover": [
       {
+        "title": "SpaceX Catches Starship’s Upper Stage in Historic First. What It Means for the Stock.",
+        "source": "Barron's",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 21:39:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNURMTzhNbWItNmljeUpGSXlXN3hMRjROTVJmSmo5eElRZG92WXFUU1RFdVNaTjc4bXE5dm91Vm55NlZ5UUNXNmdQcDN5LU1ZbjdCMDExanJIejBvd1FkSDBIalFVZ1Zjal8wajZGazNaN0dHMXdVTkJhNlEtYVgzMw?oc=5",
+        "summary": "SpaceX Catches Starship’s Upper Stage in Historic First. What It Means for the Stock. &nbsp;&nbsp; Barron's",
+        "image": null
+      },
+      {
+        "title": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 14:30:01 GMT",
+        "link": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html",
+        "summary": "With household budgets already squeezed by persistent inflation, some residents are seeking emergency help with heating oil bills before winter begins.",
+        "image": null
+      },
+      {
+        "title": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 14:02:39 GMT",
+        "link": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+        "summary": "Berkshire Hathaway's red-hot shares are ending a strong week with four consecutive fresh record high closes.",
+        "image": null
+      },
+      {
         "title": "SpaceX’s S&P 500 Bid Gets New Life as Musk Pitches Tesla Merger",
         "source": "Bloomberg",
         "category": "mercati",
@@ -2741,17 +2770,53 @@
         "link": "https://www.ft.com/content/7c60b026-23ff-4b50-8a2b-7e9614ef7970",
         "summary": "Recent stumbles have come about as a result of the pursuit of heady growth without the risk management capability and structures to deal with it",
         "image": null,
-        "_rank": 1
+        "_rank": 4
       },
       {
-        "title": "China’s beaten-down tech stocks could offer AI with a little less drama",
+        "title": "What will Nvidia’s post-Huang era look like?",
         "source": "Financial Times",
         "category": "mercati",
-        "published": "Sat, 14 Nov 2026 05:00:37 GMT",
-        "link": "https://www.ft.com/content/1505df5d-14e0-4095-8a88-fd23a165a821?syn-25a6b1a6=1",
-        "summary": "Opportunities in China lie as much in the picks and shovels of the AI supply chain",
-        "image": null,
-        "_rank": 2
+        "published": "Sun, 15 Nov 2026 05:00:14 GMT",
+        "link": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
+        "summary": "The chip company has only itself to blame for a long list of adversaries",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F99c5ac46-ba12-46b0-87b6-6986d64f3209.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "Inside Infantino’s $6bn Fifa charm offensive",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 15 Nov 2026 05:00:13 GMT",
+        "link": "https://www.ft.com/content/f8a58159-463f-4b28-b83d-14b79cbd413b?syn-25a6b1a6=1",
+        "summary": "Footballing president tours the world to shore up support for re-election after backlash to stake sale plan",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4ad884e3-040e-41c8-9670-145aeaaaee68.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "EU banking watchdog veers away from single deposit insurance scheme",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 15 Nov 2026 05:00:13 GMT",
+        "link": "https://www.ft.com/content/016ce22d-1e09-4f1d-a7e6-9acf183e757f?syn-25a6b1a6=1",
+        "summary": "Chair of European Banking Authority working on alternative ways to free up more cross-border lending",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8a15b306-437f-4b46-802b-a1cde3ac62df.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "Huang’s downfall shows human judgment is not all it’s cracked up to be",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 15 Nov 2026 05:00:04 GMT",
+        "link": "https://www.ft.com/content/f8dffb89-99e3-4e9d-ac62-4eb59da4f007?syn-25a6b1a6=1",
+        "summary": "The quality that sets us apart from machines has been absent during implosion by former Nvidia boss",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F171261cb-4b66-4a8d-b1f2-58a523bd7b85.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+      },
+      {
+        "title": "The world according to China",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 15 Nov 2026 03:00:02 GMT",
+        "link": "https://www.ft.com/content/fb667289-ae81-42c7-8eb8-ebda09dceff7?syn-25a6b1a6=1",
+        "summary": "The Apec summit in Shenzhen this week will showcase China’s ambition to reshape the global order on its own terms",
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff3abdaa7-33ba-403c-87a4-6fdfcd39a801.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+        "_rank": 9
       },
       {
         "title": "New AI Millionaires Want Wealth Advisers Who Can Help Give Their Money Away",
@@ -2778,7 +2843,8 @@
         "published": "Sat, 14 Nov 2026 22:57:26 GMT",
         "link": "https://www.ft.com/content/9df17e1c-c77a-4f67-b5b4-1adb64bcd063?syn-25a6b1a6=1",
         "summary": "Decades of bipartisan neglect have left America’s aviation infrastructure unfit for purpose, say experts",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F359a8a98-adc8-4edf-b181-2158f0bea421.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
+        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F359a8a98-adc8-4edf-b181-2158f0bea421.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
+        "_rank": 12
       },
       {
         "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
@@ -2814,7 +2880,8 @@
         "published": "Sat, 14 Nov 2026 18:00:00 GMT",
         "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
         "summary": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
-        "image": "https://images.mktw.net/im-61252759"
+        "image": "https://images.mktw.net/im-61252759",
+        "_rank": 16
       },
       {
         "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
@@ -2824,7 +2891,7 @@
         "link": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
         "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
         "image": "https://images.mktw.net/im-95193263",
-        "_rank": 10
+        "_rank": 17
       },
       {
         "title": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’",
@@ -2834,71 +2901,17 @@
         "link": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
         "summary": "Here’s what might be coming for Social Security, Medicare and long-term care.",
         "image": "https://images.mktw.net/im-78474852",
-        "_rank": 11
-      },
-      {
-        "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-        "source": "CNBC",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 15:50:43 GMT",
-        "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
-        "summary": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
-        "image": "https://image.cnbcfm.com/api/v1/image/108180544-1754063406073-IMG_8872.jpg?v=1754063887&amp;w=1920&amp;h=1080"
-      },
-      {
-        "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-        "source": "CNBC",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 15:36:47 GMT",
-        "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
-        "summary": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
-        "image": "https://image.cnbcfm.com/api/v1/image/108368185-1790352357255-gettyimages-2296459165-AFP_C9DQ94M.jpeg?v=1790352418&amp;w=1920&amp;h=1080"
-      },
-      {
-        "title": "US floats Nato membership for Donbas withdrawal deal, Zelenskyy says",
-        "source": "Financial Times",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 11:41:15 GMT",
-        "link": "https://www.ft.com/content/24319e2d-1a34-4a72-8c91-008d974234f9?syn-25a6b1a6=1",
-        "summary": "President says he will take proposal to Ukrainian people as Washington explores terms for ending war",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0152a516-6104-4131-b7ba-0ff029addfa6.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-      },
-      {
-        "title": "Nvidia exposed to possible lawsuits after Jensen Huang’s downfall",
-        "source": "Financial Times",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 11:00:09 GMT",
-        "link": "https://www.ft.com/content/4aba8386-35cc-463b-a79c-a0c85c362c89?syn-25a6b1a6=1",
-        "summary": "Chip group lacks full insurance coverage for damages stemming from the conduct of executives",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F588eb53b-ffff-4521-ad2f-c97a300af154.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-      },
-      {
-        "title": "Record polar vortex breakdown raises cold weather risk",
-        "source": "Financial Times",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 05:00:38 GMT",
-        "link": "https://www.ft.com/content/576640c4-8d35-4504-b1a5-f01c0ca1f5bc?syn-25a6b1a6=1",
-        "summary": "The early collapse of wind system that traps Arctic air is latest extreme atmospheric event",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F2b3a2d00-88d7-461c-9278-16fff43058c0.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-      },
-      {
-        "title": "The Nvidia board’s artificial independence",
-        "source": "Financial Times",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 05:00:37 GMT",
-        "link": "https://www.ft.com/content/e141a5ea-5aa4-491b-88a4-369cfc67693a",
-        "summary": "Bored of governance",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4b1975cf-6725-489f-9e16-bb27433f4e67.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down"
-      },
-      {
-        "title": "The citizens of nowhere won in the end",
-        "source": "Financial Times",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 05:00:27 GMT",
-        "link": "https://www.ft.com/content/9bc5e047-9993-4123-8f22-a59c5de245e9?syn-25a6b1a6=1",
-        "summary": "People might not vote for liberal individualism, but they live it",
-        "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F635f7fd1-57ff-45de-84f6-28f86e22fa28.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down",
         "_rank": 18
+      },
+      {
+        "title": "‘Red caviar’ slips off Japan’s sushi menus as roe prices soar",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sun, 15 Nov 2026 02:00:02 GMT",
+        "link": "https://www.ft.com/content/921b3589-6f88-44a6-b162-a13f5cc7e5e9?syn-25a6b1a6=1",
+        "summary": "Collapse in wild salmon harvests put prized delicacy at risk as warming seas disrupt supply",
+        "image": null,
+        "_rank": 19
       },
       {
         "title": "SpaceX catches returning Starship rocket in breakthrough for Musk",
@@ -2908,7 +2921,7 @@
         "link": "https://www.ft.com/content/ce7c8ab1-8337-4c32-8494-5142ec1697dd?syn-25a6b1a6=1",
         "summary": "Successful landing of upper stage is key to founder’s aim of sending reusable manned rockets to Mars",
         "image": null,
-        "_rank": 19
+        "_rank": 20
       },
       {
         "title": "(Digital) SpaceX Catches Starship in Novel Landing",
@@ -2920,12 +2933,21 @@
         "image": null
       },
       {
-        "title": "SpaceX's Starship nears end of 15th test flight and return-landing attempt",
+        "title": "SpaceX Starship returns to landing pad from orbit, acing test for reusable rockets",
         "source": "Reuters",
         "category": "mercati",
-        "published": "Sat, 14 Nov 2026 18:03:17 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ25xZHF6NVM2ekhIVmRFejZfdVZ4MVRwMTQ1QjBFeFFQQkN2LTh6eHRVeDF2QzhxMmlzdFg2M1drVm9Sc0lCeWJBZDhwUjV1Vm91TzF4ZzgxczY4RlppNGc0WVJxU0t4dFV3OHIyNWJoREpaWGNweGVoY25XNzBzQWUxUk13RDJkSDZzZXVtVVRKU09admlYMmt0RGFyV3ljbHl3elp5TV9NMmo0ZEVMUENvQTFSTkh0ZHF6U2c2LVpWdE05YlJ4Xw?oc=5",
-        "summary": "SpaceX's Starship nears end of 15th test flight and return-landing attempt &nbsp;&nbsp; Reuters",
+        "published": "Sat, 14 Nov 2026 21:40:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS3BNak83bkJ3N2NOejJudW5NdDlHQl9tTmZ1OUFSak9iRTZmMlo1OFAyWVJnU25GdjRLbVNOSllnekdvdm1tcFlxbnJRY2RnRks4WG4ybjZlX3dnNE1HQ3E5S0dpVGxwNDZqLTVwM3JlLWJmMDYtNjhZVXgycFJjbzFPME50Z0ViRHNWTDhYSmdfeW80UDl4NlduZGdLR0R5ZmpIa05B?oc=5",
+        "summary": "SpaceX Starship returns to landing pad from orbit, acing test for reusable rockets &nbsp;&nbsp; Reuters",
+        "image": null
+      },
+      {
+        "title": "US aviation shutdown blamed on L3 Harris installed router",
+        "source": "Reuters",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 20:10:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWEQ1ckJVbXlQSHI5ZHU4VEppWVVZbXBYa0ZRWjdDdFNGWWxSdHF5bEtwR1Q2OHRxN2plYXctMm5lTU5TV0hzb2xQazg4U09MNDhyRnpOalhGYXJWN01mak9NR0dXWG0yR0k5WUtycmNhdkdZZkpYcXp5N2w0N2RQSUxEX1F5aEY1TGhDTzV5ZXl3dWR6QmdabDduOFBBWTNPdXBvVVY1VlAwVW1XYnIyQ2FwU2ZOeW5x?oc=5",
+        "summary": "US aviation shutdown blamed on L3 Harris installed router &nbsp;&nbsp; Reuters",
         "image": null
       },
       {
@@ -2938,12 +2960,39 @@
         "image": null
       },
       {
+        "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 15:50:43 GMT",
+        "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+        "summary": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
+        "image": null
+      },
+      {
         "title": "How China’s Intelligence Operations Target Tech",
         "source": "Bloomberg",
         "category": "mercati",
         "published": "Sat, 14 Nov 2026 15:41:12 GMT",
         "link": "https://www.bloomberg.com/news/videos/2026-11-14/how-china-s-intelligence-operations-target-tech-video",
         "summary": "Former CIA counterintelligence analyst Peter Mattis tells Bloomberg This Weekend how China’s Ministry of State Security can use business and personal relationships to gather intelligence and potentially influence decision-making in strategically important industries. Speaking wit",
+        "image": null
+      },
+      {
+        "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+        "source": "CNBC",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 15:36:47 GMT",
+        "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+        "summary": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
+        "image": null
+      },
+      {
+        "title": "Repair Of Old Copper Wiring Caused US Flight Disruption: Trump Admin",
+        "source": "Barron's",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 15:29:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdExNWl9JZDNDQndLZW5LUVlaRnh3SVB3VE1CRlpOTS1sQXpQNl9ZOXRGOWJzbGdDMmlFOHNyZXBrN3dEY2tQRm5xdE55ZzVGQ3BFZF9OYldsSE9tckRUbFFJUHNsM2ZkSFY3bU1kejR1b1pPS2lCYmw0clRzalRHSF9HTTBRNEdIT2x0YUg4NmpvSlVTNVNsSFJUZ2tVZzJoaVpZbTJ4b25uQQ?oc=5",
+        "summary": "Repair Of Old Copper Wiring Caused US Flight Disruption: Trump Admin &nbsp;&nbsp; Barron's",
         "image": null
       },
       {
@@ -2971,7 +3020,8 @@
         "published": "Sat, 14 Nov 2026 14:36:01 GMT",
         "link": "https://www.bloomberg.com/news/videos/2026-11-14/spacex-pushes-starship-reusability-to-new-test-video",
         "summary": "Space Network co-founder Ross Hamilton tells Bloomberg This Weekend why SpaceX’s attempt to catch Starship after its return from orbit could mark a major step toward making the rocket system fully reusable. Speaking with hosts David Gura and Christina Ruffini, Hamilton explains h",
-        "image": null
+        "image": null,
+        "_rank": 31
       },
       {
         "title": "Bessent, Lutnick Clash Over Nvidia China Curbs",
@@ -2981,7 +3031,7 @@
         "link": "https://www.bloomberg.com/news/videos/2026-11-14/bessent-lutnick-clash-over-nvidia-china-curbs-video",
         "summary": "Axios AI policy reporter Maria Curi tells Bloomberg This Weekend about tensions inside the Trump administration over efforts to restrict the flow of advanced Nvidia chips to China and scrutiny of Commerce Secretary Howard Lutnick’s handling of Megaspeed. Speaking with hosts David",
         "image": null,
-        "_rank": 27
+        "_rank": 32
       },
       {
         "title": "Trump Heads to China for Talks With Xi and Putin",
@@ -2991,7 +3041,7 @@
         "link": "https://www.bloomberg.com/news/videos/2026-11-14/trump-heads-to-china-for-talks-with-xi-and-putin-video",
         "summary": "Bloomberg White House correspondent Jeff Mason tells Bloomberg This Weekend how the Trump administration responded to a nationwide FAA ground stop and Transportation Secretary Sean Duffy’s push for $50 billion to modernize the US air traffic control system. Speaking with hosts Da",
         "image": null,
-        "_rank": 28
+        "_rank": 33
       },
       {
         "title": "Juice your growth and save on taxes in this workplace investment account",
@@ -3000,17 +3050,8 @@
         "published": "Sat, 14 Nov 2026 14:08:17 GMT",
         "link": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
         "summary": "High-deductible medical benefit plans with health savings accounts are on the menu at many employers as enrollment season for 2027 continues.",
-        "image": null
-      },
-      {
-        "title": "David Cameron Sees Hope in Alzheimer’s Research",
-        "source": "Bloomberg",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 13:48:34 GMT",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-14/david-cameron-sees-hope-in-alzheimer-s-research-video",
-        "summary": "On Bloomberg This Weekend, former UK Prime Minister David Cameron discusses the personal toll of losing his mother to Alzheimer’s and the accelerating search for better diagnostics, treatments and ultimately a cure. Cameron tells hosts David Gura and Christina Ruffini about promi",
         "image": null,
-        "_rank": 30
+        "_rank": 34
       },
       {
         "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
@@ -3019,7 +3060,8 @@
         "published": "Sat, 14 Nov 2026 12:00:01 GMT",
         "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
         "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-        "image": null
+        "image": null,
+        "_rank": 35
       },
       {
         "title": "Makers of obesity drugs hit back at claims of negative side effects",
@@ -3029,7 +3071,17 @@
         "link": "https://www.ft.com/content/acca0ba8-913d-4a8a-8d3b-a5521ed1cfc2?syn-25a6b1a6=1",
         "summary": "Novo and Eli Lilly respond to concerns that their blockbuster GLP-1 medicines can lead to problems including poor nutrition",
         "image": null,
-        "_rank": 32
+        "_rank": 36
+      },
+      {
+        "title": "Nvidia exposed to possible lawsuits after Jensen Huang’s downfall",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 11:00:09 GMT",
+        "link": "https://www.ft.com/content/4aba8386-35cc-463b-a79c-a0c85c362c89?syn-25a6b1a6=1",
+        "summary": "Chip group lacks full insurance coverage for damages stemming from the conduct of executives",
+        "image": null,
+        "_rank": 37
       },
       {
         "title": "Germany suffers setback in joining  fighter jet project",
@@ -3039,7 +3091,7 @@
         "link": "https://www.ft.com/content/3ba2bcd1-b80c-48a2-91c7-35f25366f8aa?syn-25a6b1a6=1",
         "summary": "Rome rejects push to explore inviting Berlin to enter UK-Japan-Italy next-generation aircraft programme as equal partner",
         "image": null,
-        "_rank": 33
+        "_rank": 38
       },
       {
         "title": "Manchester United: a fate worse than debt",
@@ -3049,7 +3101,7 @@
         "link": "https://www.ft.com/content/b76baec1-6b90-406a-a23a-150904837304?syn-25a6b1a6=1",
         "summary": "Also in today’s newsletter: a big shake-up in US college sport angers fans",
         "image": null,
-        "_rank": 34
+        "_rank": 39
       },
       {
         "title": "A Vinted ban would sell young entrepreneurs short",
@@ -3059,7 +3111,17 @@
         "link": "https://www.ft.com/content/1ce0667f-1ff9-4d82-bf85-5d112f77310a?syn-25a6b1a6=1",
         "summary": "Selling online is a great opportunity for teens to learn, earn and spend their money",
         "image": null,
-        "_rank": 35
+        "_rank": 40
+      },
+      {
+        "title": "The Nvidia board’s artificial independence",
+        "source": "Financial Times",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 05:00:37 GMT",
+        "link": "https://www.ft.com/content/e141a5ea-5aa4-491b-88a4-369cfc67693a",
+        "summary": "Bored of governance",
+        "image": null,
+        "_rank": 41
       },
       {
         "title": "Does your child have a side hustle?",
@@ -3069,17 +3131,7 @@
         "link": "https://www.ft.com/content/d309eebb-21b7-4b8e-bebd-83de96b0a184",
         "summary": "Enterprising young people are coming up with smart moneymaking ideas. FT Money wants to hear about them",
         "image": null,
-        "_rank": 36
-      },
-      {
-        "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
-        "source": "CNBC",
-        "category": "mercati",
-        "published": "Fri, 13 Nov 2026 23:42:18 GMT",
-        "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-        "summary": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
-        "image": null,
-        "_rank": 37
+        "_rank": 42
       },
       {
         "title": "Family Dollar to Pay $63 Million Settlement for Overcharging Customers",
@@ -3106,7 +3158,63 @@
         "published": "Sat, 14 Nov 2026 15:58:21 +0000",
         "link": "https://www.nytimes.com/2026/11/14/nyregion/gold-bars-scam-new-york-city.html",
         "summary": "The victim, who believed his financial assets had been compromised, was the target of an online fraud scheme and believed he had to buy the precious metal, the authorities said.",
-        "image": "https://static01.nyt.com/images/2026/11/12/multimedia/12xp-gold-bars/12xp-gold-bars-facebookJumbo.jpg"
+        "image": null,
+        "_rank": 45
+      },
+      {
+        "title": "Ilia Malinin Wins 2026 Skate America Title In Season Debut",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sun, 15 Nov 2026 00:02:12 -0500",
+        "link": "https://www.forbes.com/sites/carolineprice/2026/11/15/ilia-malinin-wins-2026-skate-america-title-in-season-debut/",
+        "summary": "American figure skating star Ilia Malinin started his journey toward the 2030 Olympics by winning the 2026 Skate America title in Everett, Washington, his fourth title at the event.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6af93a92b5b42682904b62c9/0x0.jpg"
+      },
+      {
+        "title": "Geopolitics Looms Over Eurovision, but Not Its Asian Edition",
+        "source": "The New York Times",
+        "category": "mercati",
+        "published": "Sun, 15 Nov 2026 03:49:51 +0000",
+        "link": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-politics.html",
+        "summary": "So far, the contest’s organizers have kept politics offstage. The European edition shows how difficult that can be.",
+        "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14asia-eurovision-geopolitics-tgzw/14asia-eurovision-geopolitics-tgzw-mediumSquareAt3X.jpg"
+      },
+      {
+        "title": "AEW Full Gear 2026 Results As The Kasper Brothers Make Surprise Debut",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 21:30:33 -0500",
+        "link": "https://www.forbes.com/sites/robwolkenbrod/2026/11/14/aew-full-gear-2026-results-as-the-kasper-brothers-make-surprise-debut/",
+        "summary": "The Kasper Brothers, formerly the Creed Brothers in WWE, made their surprise debut at AEW Full Gear. How did they make their arrival?",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6af9182cf121ed3bb2409422/0x0.jpg"
+      },
+      {
+        "title": "Alexa Gasparotto Becomes First Black Woman To Land Triple Axel At Grand Prix",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 21:15:02 -0500",
+        "link": "https://www.forbes.com/sites/carolineprice/2026/11/14/alexa-gasparotto-becomes-first-black-woman-to-land-triple-axel-at-grand-prix/",
+        "summary": "American figure skater Alexa Gasparotto became the first Black woman to land a triple Axel at a Grand Prix event Saturday, Nov. 14, at Skate America in Everett, Washington.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6af90aab79766fe712a6f576/0x0.jpg?width=960&precrop=3202%2C1800%2Cx363%2Cy96"
+      },
+      {
+        "title": "Stephen Thompson Reflects On Retirement Before Last UFC Fight",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 20:30:50 -0500",
+        "link": "https://www.forbes.com/sites/leoccianocallao/2026/11/14/stephen-thompson-reflects-on-retirement-before-last-ufc-fight/",
+        "summary": "Stephen \"Wonderboy\" Thompson talks about what led him to call it a career ahead of his final UFC fight against Charles Radtke.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6af90a10466d4e8d0709405a/0x0.jpg"
+      },
+      {
+        "title": "6 Technology Trends That Will Transform The World In The Next Decade",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 20:26:21 -0500",
+        "link": "https://www.forbes.com/sites/chuckbrooks/2026/11/14/6-technology-trends-that-will-transform-the-world-in-the-next-decade/",
+        "summary": "The next ten years will be defined by six convergent technologies working across hospitals, farms, grids, and space. Artificial intelligence will act as a cognitive layer.",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6af90840489b8a390165feb7/0x0.jpg",
+        "_rank": 51
       },
       {
         "title": "SpaceX Makes History With Successful Rocket Catch in Texas",
@@ -3118,13 +3226,24 @@
         "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14starship-header-01-vgzq/14starship-header-01-vgzq-mediumSquareAt3X.jpg"
       },
       {
+        "title": "‘Sin Senos Sí Hay Paraíso’ Revival Premieres On Telemundo",
+        "source": "Forbes",
+        "category": "mercati",
+        "published": "Sat, 14 Nov 2026 19:30:07 -0500",
+        "link": "https://www.forbes.com/sites/veronicavillafane/2026/11/14/sin-senos-s-hay-paraso-revival-premieres-on-telemundo/",
+        "summary": "The original cast returns for another round in the franchise, taking over the slot left by conclusion of the network's megahit series 'El Señor de los Cielos.'",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6af8f7b50ca800faf26a7518/0x0.jpg",
+        "_rank": 53
+      },
+      {
         "title": "Jon Anik Applauds New York City Fight Week Despite NYC-Boston Rivalry",
         "source": "Forbes",
         "category": "mercati",
         "published": "Sat, 14 Nov 2026 18:50:12 -0500",
         "link": "https://www.forbes.com/sites/leoccianocallao/2026/11/14/jon-anik-applauds-new-york-city-fight-week-despite-nyc-boston-rivalry/",
         "summary": "Veteran broadcaster Jon Anik applauds UFC fight week in New York City ahead of UFC 334 at Madison Square Garden.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6af8f33021800631d48e5353/0x0.jpg?width=960&precrop=1540%2C867%2Cx0%2Cy47"
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6af8f33021800631d48e5353/0x0.jpg?width=960&precrop=1540%2C867%2Cx0%2Cy47",
+        "_rank": 54
       },
       {
         "title": "Indonesia Is Taking Out The Trash—and Taking On The Old Investment Order",
@@ -3133,7 +3252,8 @@
         "published": "Sat, 14 Nov 2026 18:45:09 -0500",
         "link": "https://www.forbes.com/sites/josephhammond/2026/11/14/indonesia-is-taking-out-the-trash-and-taking-on-the-old-investment-order/",
         "summary": "Prabowo Subianto is reshaping Indonesia’s relationship with foreign capital, using Danantara to lead strategic joint ventures and turn national priorities into investment projects—starting with the country's mounting waste problem.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6af8f19ef43fa965272ea846/0x0.jpg"
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6af8f19ef43fa965272ea846/0x0.jpg",
+        "_rank": 55
       },
       {
         "title": "From The USS Midway To Daytona, Ford Makes Veterans The Story",
@@ -3142,7 +3262,8 @@
         "published": "Sat, 14 Nov 2026 17:55:20 -0500",
         "link": "https://www.forbes.com/sites/gregengle/2026/11/14/from-the-uss-midway-to-daytona-ford-makes-veterans-the-story/",
         "summary": "Veterans Day often brings sales pitches wrapped in American flags. Ford took a different approach, bringing racing, music and military families together at Daytona.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6af8e2ac4d7267c3fc59a003/0x0.jpg"
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6af8e2ac4d7267c3fc59a003/0x0.jpg",
+        "_rank": 56
       },
       {
         "title": "Why It’d Make Sense For Johnny Depp’s ‘Ebenezer’ To Break With Paramount’s Streaming Strategy",
@@ -3151,7 +3272,8 @@
         "published": "Sat, 14 Nov 2026 17:29:12 -0500",
         "link": "https://www.forbes.com/sites/timlammers/2026/11/14/why-itd-make-sense-for-johnny-depps-ebenezer-to-break-with-paramounts-streaming-strategy/",
         "summary": "\"Ebenezer,\" Johnny Depp and Ti West’s adaptation of Charles Dickens’ \"A Christmas Carol,\" is new in theaters, but will it arrive on digital streaming before Christmas?",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6af8dbfaf85941e146939417/0x0.jpg?width=960"
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6af8dbfaf85941e146939417/0x0.jpg?width=960",
+        "_rank": 57
       },
       {
         "title": "Today’s Wordle #1975 Hints, Clues And Answer For Sunday November 15",
@@ -3160,7 +3282,8 @@
         "published": "Sat, 14 Nov 2026 16:37:29 -0500",
         "link": "https://www.forbes.com/sites/erikkain/2026/11/14/wordle-hints-clues-answers-sunday-november-15/",
         "summary": "Looking for help with today's New York Times Wordle? Here are some expert hints, clues and commentary to help you solve today's Wordle and sharpen your guessing game.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/654ac7d9543b3152d167c85e/0x0.jpg?width=960"
+        "image": "https://imageio.forbes.com/specials-images/imageserve/654ac7d9543b3152d167c85e/0x0.jpg?width=960",
+        "_rank": 58
       },
       {
         "title": "She Was a CBS News Producer When Few Women Were",
@@ -3169,7 +3292,8 @@
         "published": "Sat, 14 Nov 2026 20:21:11 +0000",
         "link": "https://www.nytimes.com/2026/11/14/business/media/linda-mason-dead-cbs-news.html",
         "summary": "Linda Mason started in an entry-level job at CBS Radio in 1966 and rose through the news division’s ranks to senior vice president. She was 84.",
-        "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13obit-mason-jctp/13obit-mason-jctp-facebookJumbo.jpg"
+        "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13obit-mason-jctp/13obit-mason-jctp-facebookJumbo.jpg",
+        "_rank": 59
       },
       {
         "title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
@@ -3179,67 +3303,7 @@
         "link": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
         "summary": "As retirees live longer, governments need to spend more on pensions. That makes it harder to fund other services, spurring protests like those in France.",
         "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14int-europe-generations-vjbt/14int-europe-generations-vjbt-mediumSquareAt3X.jpg",
-        "_rank": 48
-      },
-      {
-        "title": "The U.S. Navy Is Scuttling Its Iconic Peacoat After More Than A Century",
-        "source": "Forbes",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 11:50:30 -0500",
-        "link": "https://www.forbes.com/sites/petersuciu/2026/11/14/the-united-states-navy-is-scuttling-the-long-worn-peacoat-next-year/",
-        "summary": "The iconic peacoat is among several items being retired as part of the ongoing “seabag reduction” effort that will also phase out the acrylic V-neck sweater.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6af88de9a24ee211cb63c3bd/0x0.jpg",
-        "_rank": 49
-      },
-      {
-        "title": "Why A Petition To Cancel ‘The Body’ Just Hit 90,000 Signatures",
-        "source": "Forbes",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 10:30:56 -0500",
-        "link": "https://www.forbes.com/sites/paultassi/2026/11/14/why-a-petition-to-cancel-the-body-just-hit-90000-signatures/",
-        "summary": "A group wanted Netflix to cancel 'The Body' before it even aired, and a petition to do so is still racking up signatures. Why?",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6af87c05e52a5b063aa5abe7/0x0.jpg?width=960&precrop=746%2C420%2Cx0%2Cy0",
-        "_rank": 50
-      },
-      {
-        "title": "Emiliano Vargas Says He Signed An Undisputed Deal And Was Scanned. So Why Isn’t He In The Game?",
-        "source": "Forbes",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 10:15:27 -0500",
-        "link": "https://www.forbes.com/sites/brianmazique/2026/11/14/emiliano-vargas-says-he-signed-an-undisputed-deal-and-was-scanned-so-why-isnt-he-in-the-game/",
-        "summary": "Unbeaten boxer Emiliano Vargas says he signed a deal and was scanned for Undisputed but isn’t in the game. Here’s what he said, and what it means for Undisputed 2.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6af7fd50ea102e6af1046f84/0x0.jpg?width=960&precrop=3300%2C1855%2Cx0%2Cy170",
-        "_rank": 51
-      },
-      {
-        "title": "James Gunn Addresses Reports About A Hacked-Up ‘Man Of Tomorrow’",
-        "source": "Forbes",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 09:26:22 -0500",
-        "link": "https://www.forbes.com/sites/paultassi/2026/11/14/james-gunn-addresses-reports-about-a-hacked-up-man-of-tomorrow/",
-        "summary": "The fate of James Gunn's DCU remains unclear as he leaves his role leading the studio, but now he's returned to address one troublesome rumor specifically.",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/683b06196ee6f2f4104109f7/0x0.jpg",
-        "_rank": 52
-      },
-      {
-        "title": "Carlos Alcaraz And ATP Finals Upstage WTA In Fashion Flair",
-        "source": "Forbes",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 09:24:29 -0500",
-        "link": "https://www.forbes.com/sites/merlisalawrencecorbett/2026/11/14/carlos-alcaraz-and-atp-finals-upstage-wta-in-fashion-flair/",
-        "summary": "The ATP Tour Finals players fashion outshines the WTA Tour finalists who dressed down during their year-end tournament in Indian Wells",
-        "image": "https://imageio.forbes.com/specials-images/imageserve/6af842845d3adf8d693950b3/0x0.jpg",
-        "_rank": 53
-      },
-      {
-        "title": "Geopolitics Looms Over Eurovision, but Not Its Asian Edition",
-        "source": "The New York Times",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 13:17:58 +0000",
-        "link": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-politics.html",
-        "summary": "So far, the contest’s organizers have kept politics offstage. The European edition shows how difficult that can be.",
-        "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14asia-eurovision-geopolitics-tgzw/14asia-eurovision-geopolitics-tgzw-mediumSquareAt3X.jpg",
-        "_rank": 54
+        "_rank": 60
       },
       {
         "title": "5 Big Questions as C.E.O.s Meet in China",
@@ -3249,7 +3313,7 @@
         "link": "https://www.nytimes.com/2026/11/14/business/dealbook/questions-china-us-apec-summit.html",
         "summary": "President Trump and U.S. tech executives are expected to gather for a major summit in Shenzhen next week. On the agenda: a stalled trade war, expanding export controls, and suspected spy games.",
         "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14DB-China-CEOs-wjlv/14DB-China-CEOs-wjlv-mediumSquareAt3X.jpg",
-        "_rank": 55
+        "_rank": 61
       },
       {
         "title": "He Was China’s Man in Panama. Then He Became a Wanted Man.",
@@ -3259,17 +3323,7 @@
         "link": "https://www.nytimes.com/2026/11/14/business/zhang-liang-china-panama.html",
         "summary": "A Chinese businessman arrived in Panama with money and power. Then he sold a port when his luck turned. Now China wants him sent back.",
         "image": "https://static01.nyt.com/images/2026/11/04/multimedia/Biz-Panama-China-Arrest-qhfl/Biz-Panama-China-Arrest-qhfl-mediumSquareAt3X.jpg",
-        "_rank": 56
-      },
-      {
-        "title": "Trump Administration Delays Enforcement of Medicaid Work Requirement",
-        "source": "The New York Times",
-        "category": "mercati",
-        "published": "Sat, 14 Nov 2026 02:22:25 +0000",
-        "link": "https://www.nytimes.com/2026/11/13/us/politics/medicaid-work-requirement-delay.html",
-        "summary": "The federal government had planned to require poor adults to prove they were working or lose insurance coverage starting Jan. 1. Now, it will let states wait until July.",
-        "image": "https://static01.nyt.com/images/2026/11/13/multimedia/13dc-medicaid-qmwz/13dc-medicaid-qmwz-mediumSquareAt3X.jpg",
-        "_rank": 57
+        "_rank": 62
       },
       {
         "title": "Nelle case italiane 100 milioni di dispositivi connessi, 1 su 3 a rischio hacker",
@@ -3288,33 +3342,6 @@
         "link": "https://www.ansa.it/sito/notizie/economia/2026/11/14/al-via-a-genova-best-summit-di-blue-media-dedicato-alla-economia-del_15b2ad07-26d9-4bc8-be27-03a48405f4e3.html",
         "summary": "Dal 16 al 19 novembre oltre 30 sessioni tra armatori, istituzioni e centri ricerca",
         "image": null
-      },
-      {
-        "title": "10 Best Early Black Friday Headphone Deals (2026): Up to 50% Off",
-        "source": "Wired",
-        "category": "tech",
-        "published": "Sat, 14 Nov 2026 11:30:00 +0000",
-        "link": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-14-26/",
-        "summary": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
-        "image": "https://media.wired.com/photos/6af7d0c3d135dcb52741f5c1/master/pass/The-Best-Early-Black-Friday-Headphone-Deals.jpg"
-      },
-      {
-        "title": "It’s Time to Run an Audit of All the Cloud Storage Links You’ve Shared",
-        "source": "Wired",
-        "category": "tech",
-        "published": "Sat, 14 Nov 2026 11:30:00 +0000",
-        "link": "https://www.wired.com/story/audit-all-the-cloud-storage-links-youve-shared/",
-        "summary": "Those old links you shared with friends ages ago are still live, and they might be attracting unwelcome visitors.",
-        "image": "https://media.wired.com/photos/6af5bf6d129c3f49a6da47ce/master/pass/111216-CLoud%20Storage%20Audit.jpg"
-      },
-      {
-        "title": "The 21 Best REI Holiday Sale Outdoor Deals (2026)",
-        "source": "Wired",
-        "category": "tech",
-        "published": "Sat, 14 Nov 2026 11:00:00 +0000",
-        "link": "https://www.wired.com/story/best-rei-holiday-sale-outdoor-deals-2026/",
-        "summary": "Stock up on outdoor gear and gifts for friends at REI’s annual holiday sale.",
-        "image": "https://media.wired.com/photos/6af78becda0b3f5acb040c4d/master/pass/The-21-Best-REI-Holiday-Sale-Outdoor-Deals.jpg"
       },
       {
         "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
@@ -3341,8 +3368,7 @@
         "published": "Sat, 14 Nov 2026 10:15:00 +0000",
         "link": "https://www.wired.com/story/with-the-help-of-vogue-gq-and-a-pro-stylist-wired-revamps-jensen-huang/",
         "summary": "The signature moto jacket has officially worn out its welcome. Here’s how fashion’s pros would rebrand him.",
-        "image": "https://media.wired.com/photos/6af7364ac76e30186375551b/master/pass/111326-Jensen%20Style.jpg",
-        "_rank": 65
+        "image": "https://media.wired.com/photos/6af7364ac76e30186375551b/master/pass/111326-Jensen%20Style.jpg"
       },
       {
         "title": "These ‘Ghostly’ Galaxies Have Lost Their Dark Matter",
@@ -3351,8 +3377,7 @@
         "published": "Sat, 14 Nov 2026 10:00:00 +0000",
         "link": "https://www.wired.com/story/these-ghostly-galaxies-have-lost-their-dark-matter/",
         "summary": "The galaxies’ dark matter was ejected during a collision, but ironically, its absence is some of the best evidence of the elusive substance yet.",
-        "image": "https://media.wired.com/photos/6af47d34e9ef28e062a72826/master/pass/Dark-Matter-Galaxies-cr.several-Lede.jpg",
-        "_rank": 66
+        "image": "https://media.wired.com/photos/6af47d34e9ef28e062a72826/master/pass/Dark-Matter-Galaxies-cr.several-Lede.jpg"
       },
       {
         "title": "Thanksgiving Meal Deals Roundup (2026): Walmart, Amazon, Target",
@@ -3362,7 +3387,34 @@
         "link": "https://www.wired.com/story/thanksgiving-meal-deals-2026/",
         "summary": "Here’s how to get your bird and all the trimmings on a budget.",
         "image": "https://media.wired.com/photos/6af78b0965e40024232d7e36/master/pass/These-Stores-Are-Offering-Complete-Thanksgiving-Meal-Deals-for-$35-or-Less.jpg",
-        "_rank": 67
+        "_rank": 69
+      },
+      {
+        "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
+        "source": "TechCrunch",
+        "category": "tech",
+        "published": "Sat, 14 Nov 2026 17:45:04 +0000",
+        "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
+        "summary": "FAA administrator Bryan Bedford also said there's \"zero evidence of anything AI-related.\"",
+        "image": null
+      },
+      {
+        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "source": "TechCrunch",
+        "category": "tech",
+        "published": "Sat, 14 Nov 2026 17:30:00 +0000",
+        "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+        "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+        "image": null
+      },
+      {
+        "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+        "source": "TechCrunch",
+        "category": "tech",
+        "published": "Sat, 14 Nov 2026 16:34:15 +0000",
+        "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+        "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+        "image": null
       },
       {
         "title": "My 9 Favorite Pickleball Paddles From 3 Years of Testing (2026)",
@@ -3372,32 +3424,27 @@
         "link": "https://www.wired.com/story/best-pickleball-paddles/",
         "summary": "Paddles are getting more sophisticated and expensive. We’ve tested 100+ over the years to find our favorites.",
         "image": null,
-        "_rank": 68
+        "_rank": 73
       }
     ],
     "lead_headlines": [
       {
+        "title": "‘Low fire, low hire’ job market hurts US and UK productivity",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/44c1fdc6-bc51-46e5-8a7c-c10096a25496?syn-25a6b1a6=1"
+      },
+      {
+        "title": "Data centre construction stocks lose $4.2tn as boom in AI trade unravels",
+        "source": "Financial Times",
+        "link": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a?syn-25a6b1a6=1"
+      },
+      {
         "title": "$180 million Van Gogh tests the art market and collector confidence",
         "source": "CNBC",
         "link": "https://www.cnbc.com/2026/11/14/180-million-van-gogh-tests-the-art-market-and-collector-confidence-.html"
-      },
-      {
-        "title": "The trillion-dollar mistake corporate America is making about retirement",
-        "source": "MarketWatch",
-        "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories"
-      },
-      {
-        "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
-        "source": "CNBC",
-        "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"
       }
     ],
     "watchlist": [
-      {
-        "title": "Fed's Jefferson says he is taking his policy cues from inflation",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZW1TY0lTUklmN2JmVC0zMm5qMUdfOUFjWk43S1NTS1RpcGx1Ni0tWkJCX1NXWDg1cHdzazZsQUZlREpWRkl2UER3S2t0TjFON1lXeTNNLXA4SXZYYjFjbXh0SnJzcXFGV2FPZkhoc1dNc1ZhUXNTRjdmX3R2SUR0ZlZwcHlnT2F2ZzdLdnNkQ1I5Sy1tRmVGTS1GTEpUTmRTWVlkYXRR?oc=5"
-      },
       {
         "title": "The Entrepreneurs Behind Poppi Start Over",
         "source": "Bloomberg",
@@ -3423,7 +3470,7 @@
     ],
     "signals": {
       "reference_session": "2026-11-13",
-      "fetched_at": "2026-11-15 01:14:05 UTC",
+      "fetched_at": "2026-11-15 06:01:31 UTC",
       "noteworthy_pct": 1.0,
       "groups": [
         {
@@ -3438,40 +3485,40 @@
               "name_en": "Bitcoin",
               "name_it": "Bitcoin",
               "group": "crypto",
-              "last": 62924.33,
-              "pct_change": -8.59,
+              "last": 64301.24,
+              "pct_change": -6.59,
               "reference_close": 68837.29,
-              "as_of_utc": "2026-11-15 01:00 UTC"
+              "as_of_utc": "2026-11-15 06:00 UTC"
             },
             {
               "symbol": "ETH-USD",
               "name_en": "Ethereum",
               "name_it": "Ethereum",
               "group": "crypto",
-              "last": 1732.92,
-              "pct_change": -10.96,
+              "last": 1793.83,
+              "pct_change": -7.83,
               "reference_close": 1946.27,
-              "as_of_utc": "2026-11-15 01:00 UTC"
+              "as_of_utc": "2026-11-15 06:00 UTC"
             },
             {
               "symbol": "SOL-USD",
               "name_en": "Solana",
               "name_it": "Solana",
               "group": "crypto",
-              "last": 69.15,
-              "pct_change": -13.44,
+              "last": 70.66,
+              "pct_change": -11.55,
               "reference_close": 79.89,
-              "as_of_utc": "2026-11-15 01:00 UTC"
+              "as_of_utc": "2026-11-15 06:00 UTC"
             },
             {
               "symbol": "XRP-USD",
               "name_en": "XRP",
               "name_it": "XRP",
               "group": "crypto",
-              "last": 0.9182,
-              "pct_change": -10.17,
+              "last": 0.9574,
+              "pct_change": -6.33,
               "reference_close": 1.0221,
-              "as_of_utc": "2026-11-15 01:00 UTC"
+              "as_of_utc": "2026-11-15 06:00 UTC"
             }
           ]
         },
@@ -3580,65 +3627,65 @@
         "name_en": "Solana",
         "name_it": "Solana",
         "group": "crypto",
-        "last": 69.15,
-        "pct_change": -13.44,
+        "last": 70.66,
+        "pct_change": -11.55,
         "reference_close": 79.89,
-        "as_of_utc": "2026-11-15 01:00 UTC"
+        "as_of_utc": "2026-11-15 06:00 UTC"
       },
       {
         "symbol": "ETH-USD",
         "name_en": "Ethereum",
         "name_it": "Ethereum",
         "group": "crypto",
-        "last": 1732.92,
-        "pct_change": -10.96,
+        "last": 1793.83,
+        "pct_change": -7.83,
         "reference_close": 1946.27,
-        "as_of_utc": "2026-11-15 01:00 UTC"
-      },
-      {
-        "symbol": "XRP-USD",
-        "name_en": "XRP",
-        "name_it": "XRP",
-        "group": "crypto",
-        "last": 0.9182,
-        "pct_change": -10.17,
-        "reference_close": 1.0221,
-        "as_of_utc": "2026-11-15 01:00 UTC"
+        "as_of_utc": "2026-11-15 06:00 UTC"
       },
       {
         "symbol": "BTC-USD",
         "name_en": "Bitcoin",
         "name_it": "Bitcoin",
         "group": "crypto",
-        "last": 62924.33,
-        "pct_change": -8.59,
+        "last": 64301.24,
+        "pct_change": -6.59,
         "reference_close": 68837.29,
-        "as_of_utc": "2026-11-15 01:00 UTC"
+        "as_of_utc": "2026-11-15 06:00 UTC"
+      },
+      {
+        "symbol": "XRP-USD",
+        "name_en": "XRP",
+        "name_it": "XRP",
+        "group": "crypto",
+        "last": 0.9574,
+        "pct_change": -6.33,
+        "reference_close": 1.0221,
+        "as_of_utc": "2026-11-15 06:00 UTC"
       }
     ],
     "paragraphs": {
       "en": [
-        "US markets were closed on Saturday, November 14, 2026, so there is no new session to report: the last one, November 13, 2026, was covered in the previous edition and its numbers are not repeated here. This edition reads instead the 96 stories published since then by 15 outlets we track, and brings forward the 24 that matter most.",
-        "Leading the weekend coverage: CNBC reports: “$180 million Van Gogh tests the art market and collector confidence”; MarketWatch reports: “The trillion-dollar mistake corporate America is making about retirement”; CNBC reports: “Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors”.",
-        "By theme: Markets and macro (64), Crypto (6), Tech (15), Italy (8).",
-        "What did trade while the exchanges were shut, measured from Friday's US close: Solana -13.44%; Ethereum -10.96%; XRP -10.17%; Bitcoin -8.59%. These are the only market moves in this edition — they are quotes, not forecasts.",
+        "US markets were closed on Saturday, November 14, 2026, so there is no new session to report: the last one, November 13, 2026, was covered in the previous edition and its numbers are not repeated here. This edition reads instead the 100 stories published since then by 15 outlets we track, and brings forward the 24 that matter most.",
+        "Leading the weekend coverage: Financial Times reports: “‘Low fire, low hire’ job market hurts US and UK productivity”; Financial Times reports: “Data centre construction stocks lose $4.2tn as boom in AI trade unravels”; CNBC reports: “$180 million Van Gogh tests the art market and collector confidence”.",
+        "By theme: Markets and macro (69), Crypto (6), Tech (15), Italy (8).",
+        "What did trade while the exchanges were shut, measured from Friday's US close: Solana -11.55%; Ethereum -7.83%; Bitcoin -6.59%; XRP -6.33%. These are the only market moves in this edition — they are quotes, not forecasts.",
         "Named in this weekend's coverage, scored only for how intensely the outlets themselves wrote about it — not a forecast of Monday's move: Dell Technologies (DELL, 8.0/10) — ANSA Economia: “Consumatori, prezzi dell'olio crollati, -26% sul picco del 2024”."
       ],
       "it": [
-        "I mercati americani erano chiusi sabato 14 novembre 2026: non c'e' una seduta nuova da raccontare — l'ultima, 13 novembre 2026, e' gia' stata coperta dall'edizione precedente e i suoi numeri qui non vengono ripetuti. Questa edizione legge invece le 96 notizie uscite da allora su 15 testate seguite, e porta in primo piano le 24 piu' rilevanti.",
-        "In evidenza nel fine settimana: CNBC riporta: «$180 million Van Gogh tests the art market and collector confidence»; MarketWatch riporta: «The trillion-dollar mistake corporate America is making about retirement»; CNBC riporta: «Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors».",
-        "Per tema: Mercati e macro (64), Crypto (6), Tech (15), Italia (8).",
-        "Cosa ha scambiato a borse chiuse, misurato dalla chiusura americana di venerdi': Solana -13,44%; Ethereum -10,96%; XRP -10,17%; Bitcoin -8,59%. Sono gli unici movimenti di mercato di questa edizione: quotazioni, non previsioni.",
+        "I mercati americani erano chiusi sabato 14 novembre 2026: non c'e' una seduta nuova da raccontare — l'ultima, 13 novembre 2026, e' gia' stata coperta dall'edizione precedente e i suoi numeri qui non vengono ripetuti. Questa edizione legge invece le 100 notizie uscite da allora su 15 testate seguite, e porta in primo piano le 24 piu' rilevanti.",
+        "In evidenza nel fine settimana: Financial Times riporta: «‘Low fire, low hire’ job market hurts US and UK productivity»; Financial Times riporta: «Data centre construction stocks lose $4.2tn as boom in AI trade unravels»; CNBC riporta: «$180 million Van Gogh tests the art market and collector confidence».",
+        "Per tema: Mercati e macro (69), Crypto (6), Tech (15), Italia (8).",
+        "Cosa ha scambiato a borse chiuse, misurato dalla chiusura americana di venerdi': Solana -11,55%; Ethereum -7,83%; Bitcoin -6,59%; XRP -6,33%. Sono gli unici movimenti di mercato di questa edizione: quotazioni, non previsioni.",
         "Nominate nella copertura del weekend, con un punteggio che misura solo quanto intensamente ne hanno scritto le testate — non una previsione per lunedi': Dell Technologies (DELL, 8.0/10) — ANSA Economia: «Consumatori, prezzi dell'olio crollati, -26% sul picco del 2024»."
       ]
     },
     "headline": {
-      "en": "Markets closed: Saturday's news in brief, with Solana -13.44% since Friday's close",
-      "it": "Mercati chiusi: le notizie di sabato in sintesi, con Solana -13,44% dalla chiusura di venerdi'"
+      "en": "Markets closed: Saturday's news in brief, with Solana -11.55% since Friday's close",
+      "it": "Mercati chiusi: le notizie di sabato in sintesi, con Solana -11,55% dalla chiusura di venerdi'"
     }
   },
-  "weekend_commentary_html": "<p>Nel fine settimana con i mercati chiusi, la governance aziendale e la leadership tecnologica hanno dominato il ciclo delle notizie. Due grandi investitori hanno esortato il consiglio di amministrazione di Nvidia a considerare un potenziale ritorno di Jensen Huang come amministratore delegato, secondo CNBC, segnando un cambiamento significativo nella direzione strategica dell&#x27;azienda. Separatamente, SpaceX ha raggiunto un traguardo storico catturando lo stadio superiore di Starship, uno sviluppo che Barron&#x27;s ha segnalato per le sue implicazioni sulla valutazione dell&#x27;azienda. Nei mercati più ampi, Berkshire Hathaway ha raggiunto un massimo storico come parte di un rally del quarto trimestre, ha riferito CNBC. Anche il mercato dell&#x27;arte ha attirato l&#x27;attenzione con una vendita di Van Gogh da 180 milioni di dollari che mette alla prova la fiducia dei collezionisti negli asset di fascia alta.</p><p>L&#x27;approccio di Corporate America alla pianificazione pensionistica è stato sottoposto a scrutinio, con MarketWatch che esamina quello che ha definito un errore da trilioni di dollari nel modo in cui le aziende strutturano i benefici dei dipendenti. I costi energetici rimangono una pressione: i prezzi del gasolio da riscaldamento sono saliti del 59 percento rispetto all&#x27;inverno scorso, con un&#x27;organizzazione no profit del Maine che descrive il picco come schiacciante per le famiglie. Nello spazio delle criptovalute, gli ETF Bitcoin hanno registrato deflussi di 2,35 miliardi di dollari in due settimane con la serie di perdite giornaliere di BlackRock che ha raggiunto undici giorni consecutivi, secondo Cointelegraph. The Block ha riferito che il Dipartimento di Giustizia si è mosso per sequestrare 1,2 miliardi di dollari da un hack di Binance, mentre un hack separato su Kava Lend ha comportato perdite di circa 3,8 milioni di dollari. La società madre di MegaETH ha tagliato il 20 percento della sua forza lavoro in mezzo a una ristrutturazione e una spinta all&#x27;intelligenza artificiale, ha notato Cointelegraph.</p><p>Sul fronte tecnologico, sono emerse domande sulle pratiche di sicurezza di Nvidia presso TechCrunch in seguito agli sviluppi della leadership. Un fermo aereo nazionale a livello nazionale imputato a aggiornamenti di routine dell&#x27;attrezzatura per sostituire il filo di rame ha creato disagi diffusi, con la spiegazione del Segretario ai Trasporti che ha attirato lo scrutinio del Wall Street Journal. OpenAI ha lanciato un ChatGPT Wallet che consente agli agenti di intelligenza artificiale di condurre transazioni senza criptovaluta, mentre Meta ha iniziato a testare un&#x27;applicazione di mercato predittivo, entrambe riportate da Decrypt e The Block rispettivamente. L&#x27;offerta pubblica iniziale pianificata di Anthropic ha attirato l&#x27;attenzione normativa, con restrizioni imposte agli investitori dalla Cina e da Hong Kong, secondo ANSA Economia.</p><p>Il trading durante la notte e il fine settimana hanno mostrato movimenti modesti nella maggior parte delle classi di attività. Bitcoin è sceso dell&#x27;8,59 percento dalla chiusura statunitense precedente, mentre Ethereum è diminuito del 10,96 percento e Solana è sceso del 13,44 percento. XRP è scivolato del 10,17 percento. I futures degli indici azionari sono rimasti essenzialmente piatti: i futures dell&#x27;S&amp;P 500, i futures del Nasdaq-100 e i futures del Dow Jones si sono ciascuno mossi di meno dello 0,02 percento. L&#x27;oro è aumentato dello 0,12 percento mentre il petrolio greggio WTI è diminuito dello 0,42 percento. L&#x27;euro si è mantenuto stabile rispetto al dollaro con un guadagno dello 0,01 percento e l&#x27;indice del dollaro USA è rimasto invariato.</p><p>La sessione in arrivo porta diversi punti dati e segnali politici da monitorare. I commenti del governatore della Fed Jefferson sulla ricezione di segnali politici dai dati sull&#x27;inflazione saranno attentamente osservati mentre i mercati valutano la traiettoria della politica monetaria. ANSA Economia ha riferito che l&#x27;inflazione dall&#x27;inizio del conflitto USA-Iran ha raggiunto il 4,4 percento, una cifra che potrebbe informare le aspettative per i prossimi dati economici. L&#x27;apertura delle vendite di Cybercab di Tesla a clienti selezionati e le implicazioni più ampie della strategia dei veicoli autonomi dell&#x27;azienda rimangono in focus. Questi sviluppi preparano il terreno per la settimana a venire senza prevedere il loro impatto sul mercato.</p>",
-  "weekend_commentary_html_en": "<p>Over the closed weekend, corporate governance and technology leadership dominated the news cycle. Two major investors urged Nvidia&#x27;s board to consider a potential return of Jensen Huang as chief executive, according to CNBC, marking a significant shift in the company&#x27;s strategic direction. Separately, SpaceX achieved a historic milestone by catching Starship&#x27;s upper stage, a development Barron&#x27;s flagged for its implications to the company&#x27;s valuation. In the broader markets, Berkshire Hathaway reached a record high as part of a fourth-quarter rally, CNBC reported. The art market also drew attention with a $180 million Van Gogh sale testing collector confidence in high-end assets.</p><p>Corporate America&#x27;s approach to retirement planning came under scrutiny, with MarketWatch examining what it called a trillion-dollar mistake in how companies structure employee benefits. Energy costs remained a pressure point: heating oil prices have climbed 59 percent from last winter, with a Maine nonprofit describing the spike as crushing households. In the cryptocurrency space, Bitcoin ETFs experienced outflows of $2.35 billion over two weeks with BlackRock&#x27;s streak of daily losses reaching eleven consecutive days, according to Cointelegraph. The Block reported that the Department of Justice moved to seize $1.2 billion from a Binance hack, while a separate hack on Kava Lend resulted in roughly $3.8 million in losses. MegaETH&#x27;s parent company cut 20 percent of its workforce amid restructuring and an artificial intelligence pivot, Cointelegraph noted.</p><p>On the technology front, questions about Nvidia&#x27;s security practices surfaced at TechCrunch following the leadership developments. A nationwide air-travel ground stop blamed on routine equipment upgrades to replace copper wire created widespread disruption, with the Transportation Secretary&#x27;s explanation drawing scrutiny from the Wall Street Journal. OpenAI launched a ChatGPT Wallet allowing AI agents to conduct transactions without cryptocurrency, while Meta began testing a prediction-market application, both reported by Decrypt and The Block respectively. Anthropic&#x27;s planned initial public offering drew regulatory attention, with restrictions imposed on investors from China and Hong Kong, according to ANSA Economia.</p><p>Overnight and weekend trading showed modest moves across most asset classes. Bitcoin fell 8.59 percent since the last US close, while Ethereum declined 10.96 percent and Solana dropped 13.44 percent. XRP slid 10.17 percent. Stock index futures remained essentially flat: the S&amp;P 500 futures, Nasdaq-100 futures, and Dow Jones futures each moved less than 0.02 percent. Gold edged up 0.12 percent while WTI crude oil declined 0.42 percent. The euro held steady against the dollar with a 0.01 percent gain, and the US dollar index was unchanged.</p><p>The coming session brings several data points and policy signals to monitor. Fed Governor Jefferson&#x27;s comments on taking policy cues from inflation data will be closely watched as markets assess the trajectory of monetary policy. ANSA Economia reported that inflation since the start of the US-Iran conflict has reached 4.4 percent, a figure that may inform expectations for upcoming economic readings. Tesla&#x27;s opening of Cybercab sales to select customers and the broader implications of the company&#x27;s autonomous vehicle strategy remain in focus. These developments set the stage for the week ahead without forecasting their market impact.</p>",
+  "weekend_commentary_html": "<p>Nel fine settimana chiuso, i titoli che muovono i mercati si sono concentrati attorno a una crisi di leadership in Nvidia e a un più ampio ritiro dal commercio dell&#x27;intelligenza artificiale che ha dominato le azioni negli ultimi due anni. Il Wall Street Journal ha riferito che Jensen Huang di Nvidia ha sminuito il dirigente che lo sostituisce prima della sua rimozione, e CNBC ha notato che il consiglio dell&#x27;azienda ha affrontato pressioni da due importanti investitori per considerare un potenziale ritorno di Huang. Un trader che aveva pubblicamente denunciato il problema cinese di Huang e aveva fatto short su Nvidia ha attirato nuova attenzione dal Journal. Separatamente, il Financial Times ha riferito che i titoli della costruzione di data centre hanno perso 4,2 trilioni di dollari mentre il boom dell&#x27;IA si sgonfiava, mentre Bloomberg ha descritto un selloff al rallentatore in cripto che ha lasciato i trader stanchi. Lo sfondo macro più ampio includeva preoccupazioni sulla produttività nel mercato del lavoro statunitense e britannico—il Financial Times ha citato una dinamica di basso licenziamento e bassa assunzione che danneggia la produzione—e MarketWatch ha evidenziato quello che ha definito un errore da trilioni di dollari che l&#x27;America aziendale sta commettendo sulla pensione. La fiducia del mercato dell&#x27;arte è stata anche messa in discussione mentre CNBC ha coperto una vendita di Van Gogh da 180 milioni di dollari che mette alla prova il sentimento dei collezionisti.</p><p>I mercati delle criptovalute hanno esteso le perdite nel fine settimana, con Bitcoin in calo del 6,59 percento, Ethereum in calo del 7,83 percento e Solana in calo dell&#x27;11,55 percento dalla chiusura statunitense precedente. XRP è sceso del 6,33 percento. Gli ETF su Bitcoin hanno versato 2,35 miliardi di dollari in due settimane secondo Cointelegraph, con la striscia in perdita di BlackRock che ha raggiunto undici giorni consecutivi. The Block ha riferito che il Dipartimento di Giustizia si è mosso per sequestrare 1,2 miliardi di dollari da un hack di Binance, e un hack del protocollo Kava Lend è costato circa 3,8 milioni di dollari, mandando il token KAVA in calo di quasi il 40 percento. Nel frattempo, i futures su indici hanno mostrato movimenti minimi: i futures dell&#x27;S&amp;P 500, i futures del Nasdaq-100 e i futures del Dow Jones si sono mossi ciascuno di meno dello 0,02 percento. L&#x27;oro è salito dello 0,12 percento, il petrolio greggio WTI è sceso dello 0,42 percento, e l&#x27;euro e l&#x27;indice del dollaro erano essenzialmente piatti.</p><p>Al di là del ciclo regolare delle notizie di mercato, Dell Technologies ha attirato un&#x27;intensità di copertura di 8,0 su 10 nella segnalazione del fine settimana, sebbene il punteggio rifletta la misurazione dell&#x27;intensità di copertura e non è una previsione del movimento di prezzo di lunedì. Il titolo esatto citato era da ANSA Economia.</p>",
+  "weekend_commentary_html_en": "<p>Over the closed weekend, market-moving headlines clustered around a leadership crisis at Nvidia and a broader retreat from the artificial intelligence trade that has dominated equities for two years. The Wall Street Journal reported that Nvidia&#x27;s Jensen Huang belittled the executive replacing him before his ouster, and CNBC noted that the company&#x27;s board faced pressure from two major investors to consider a potential return of Huang. A trader who had publicly called out Huang&#x27;s China problem and shorted Nvidia drew fresh attention from the Journal. Separately, Financial Times reported that data centre construction stocks lost $4.2 trillion as the AI boom unraveled, while Bloomberg described a slow-motion selloff in crypto that left traders weary. The broader macro backdrop included productivity concerns in the US and UK labour market—Financial Times cited a low-fire, low-hire dynamic hurting output—and MarketWatch highlighted what it called a trillion-dollar retirement mistake corporate America is making. Art market confidence also came under scrutiny as CNBC covered a $180 million Van Gogh sale testing collector sentiment.</p><p>Cryptocurrency markets extended losses over the weekend, with Bitcoin down 6.59 percent, Ethereum down 7.83 percent, and Solana down 11.55 percent since the last US close. XRP fell 6.33 percent. Bitcoin ETFs shed $2.35 billion in two weeks according to Cointelegraph, with BlackRock&#x27;s losing streak reaching eleven consecutive days. The Block reported that the Department of Justice moved to seize $1.2 billion from a Binance hack, and a Kava Lend protocol hack cost roughly $3.8 million, sending the KAVA token down nearly 40 percent. Meanwhile, index futures showed minimal movement: the S&amp;P 500 futures, Nasdaq-100 futures, and Dow Jones futures each moved less than 0.02 percent. Gold edged up 0.12 percent, WTI crude oil fell 0.42 percent, and the euro and dollar index were essentially flat.</p><p>Beyond the regular market-news cycle, Dell Technologies drew coverage intensity of 8.0 out of 10 in weekend reporting, though the score reflects coverage-intensity measurement and is not a forecast of Monday&#x27;s price movement. The exact headline cited was from ANSA Economia.</p>",
   "covers_date_it": "14 novembre 2026",
   "covers_date_en": "November 14, 2026"
 }
