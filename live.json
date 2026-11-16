@@ -1,95 +1,90 @@
 {
-  "updated": "2026-11-16T15:14:57Z",
+  "updated": "2026-11-16T15:31:05Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.2,
-      "last": 7469.79
+      "pct": -1.25,
+      "last": 7466.45
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.09,
-      "last": 27353.43
+      "pct": -2.16,
+      "last": 27333.67
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.56,
-      "last": 52047.37
+      "pct": -0.59,
+      "last": 52033.22
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.26,
-      "last": 51705.25
+      "pct": -0.4,
+      "last": 51633.99
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "CGON",
-        "name": "CG Oncology, Inc.",
-        "pct": 9.91
-      },
-      {
         "symbol": "TSN",
         "name": "Tyson Foods, Inc.",
-        "pct": 7.84
+        "pct": 8.42
       },
       {
-        "symbol": "MOH",
-        "name": "Molina Healthcare Inc",
-        "pct": 7.74
+        "symbol": "CGON",
+        "name": "CG Oncology, Inc.",
+        "pct": 8.0
       },
       {
         "symbol": "POWL",
         "name": "Powell Industries, Inc.",
-        "pct": 6.93
+        "pct": 7.88
+      },
+      {
+        "symbol": "MOH",
+        "name": "Molina Healthcare Inc",
+        "pct": 7.76
       },
       {
         "symbol": "TSCO",
         "name": "Tractor Supply Company",
-        "pct": 5.25
-      },
-      {
-        "symbol": "SEZL",
-        "name": "Sezzle Inc.",
-        "pct": 4.84
+        "pct": 5.29
       },
       {
         "symbol": "CPB",
         "name": "The Campbell's Company",
-        "pct": 4.72
+        "pct": 5.1
+      },
+      {
+        "symbol": "ASO",
+        "name": "Academy Sports and Outdoors, Inc.",
+        "pct": 5.1
       },
       {
         "symbol": "CNC",
         "name": "Centene Corporation",
-        "pct": 4.69
+        "pct": 5.09
       },
       {
-        "symbol": "STWD",
-        "name": "STARWOOD PROPERTY TRUST, INC. Starwood Prope",
-        "pct": 4.54
+        "symbol": "MMED",
+        "name": "MiniMed Group, Inc.",
+        "pct": 4.88
       },
       {
-        "symbol": "WSE",
-        "name": "Wise Group plc",
-        "pct": 4.27
+        "symbol": "BILL",
+        "name": "BILL Holdings, Inc.",
+        "pct": 4.68
       }
     ],
     "losers": [
       {
         "symbol": "FCUV",
         "name": "Focus Universal Inc.",
-        "pct": -30.6
-      },
-      {
-        "symbol": "OMH",
-        "name": "Ohmyhome Limited",
-        "pct": -17.1
+        "pct": -31.78
       },
       {
         "symbol": "BTDR",
@@ -97,39 +92,44 @@
         "pct": -15.8
       },
       {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": -15.09
-      },
-      {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -14.63
+        "pct": -13.48
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -12.17
-      },
-      {
-        "symbol": "ASST",
-        "name": "Strive, Inc.",
-        "pct": -11.19
-      },
-      {
-        "symbol": "GLXY",
-        "name": "Galaxy Digital Inc.",
-        "pct": -10.78
+        "symbol": "OMH",
+        "name": "Ohmyhome Limited",
+        "pct": -13.2
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": -10.78
+        "pct": -12.81
+      },
+      {
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": -12.58
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -12.32
+      },
+      {
+        "symbol": "ASST",
+        "name": "Strive, Inc.",
+        "pct": -11.25
+      },
+      {
+        "symbol": "GLXY",
+        "name": "Galaxy Digital Inc.",
+        "pct": -10.99
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": -10.35
+        "pct": -10.84
       }
     ],
     "universe": 1200
