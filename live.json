@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-16T19:19:08Z",
+  "updated": "2026-11-16T19:36:28Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.78,
-      "last": 7426.66
+      "pct": -1.89,
+      "last": 7418.19
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.31,
-      "last": 27290.93
+      "pct": -2.47,
+      "last": 27248.02
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.31,
-      "last": 51656.8
+      "pct": -1.39,
+      "last": 51613.29
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "CGON",
         "name": "CG Oncology, Inc.",
-        "pct": 13.15
-      },
-      {
-        "symbol": "MOH",
-        "name": "Molina Healthcare Inc",
-        "pct": 8.95
+        "pct": 15.12
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 8.33
-      },
-      {
-        "symbol": "HUBS",
-        "name": "HubSpot, Inc.",
-        "pct": 6.7
+        "pct": 9.58
       },
       {
         "symbol": "POWL",
         "name": "Powell Industries, Inc.",
-        "pct": 6.34
+        "pct": 8.29
+      },
+      {
+        "symbol": "MOH",
+        "name": "Molina Healthcare Inc",
+        "pct": 8.21
+      },
+      {
+        "symbol": "HUBS",
+        "name": "HubSpot, Inc.",
+        "pct": 6.57
       },
       {
         "symbol": "TSN",
         "name": "Tyson Foods, Inc.",
-        "pct": 6.22
+        "pct": 6.41
       },
       {
         "symbol": "KVYO",
         "name": "Klaviyo, Inc. Series A",
-        "pct": 5.45
+        "pct": 5.08
       },
       {
         "symbol": "HNGE",
         "name": "Hinge Health, Inc.",
-        "pct": 5.44
+        "pct": 4.82
       },
       {
         "symbol": "ANDG",
         "name": "Andersen Group Inc.",
-        "pct": 5.33
+        "pct": 4.8
       },
       {
         "symbol": "MBGL",
         "name": "Mobility Global Inc.",
-        "pct": 5.26
+        "pct": 4.57
       }
     ],
     "losers": [
       {
         "symbol": "FCUV",
         "name": "Focus Universal Inc.",
-        "pct": -39.85
+        "pct": -39.12
       },
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": -19.0
+        "pct": -19.98
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -17.32
+        "pct": -18.21
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": -16.57
+        "pct": -15.83
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -11.21
+        "pct": -12.1
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": -10.91
-      },
-      {
-        "symbol": "NVTS",
-        "name": "Navitas Semiconductor Corporation",
-        "pct": -10.78
+        "pct": -11.07
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": -10.58
+        "pct": -10.96
+      },
+      {
+        "symbol": "NVTS",
+        "name": "Navitas Semiconductor Corporation",
+        "pct": -10.95
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -9.99
       },
       {
         "symbol": "USAR",
         "name": "USA Rare Earth, Inc.",
         "pct": -9.99
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": -9.78
       }
     ],
     "universe": 1200
