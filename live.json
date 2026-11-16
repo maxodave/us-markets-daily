@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-16T14:34:08Z",
+  "updated": "2026-11-16T15:14:57Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.82,
-      "last": 7498.5
+      "pct": -1.2,
+      "last": 7469.79
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.64,
-      "last": 27479.82
+      "pct": -2.09,
+      "last": 27353.43
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.11,
-      "last": 52284.89
+      "pct": -0.56,
+      "last": 52047.37
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.11,
-      "last": 51786.83
+      "pct": -0.26,
+      "last": 51705.25
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "CGON",
         "name": "CG Oncology, Inc.",
-        "pct": 20.03
-      },
-      {
-        "symbol": "NTLA",
-        "name": "Intellia Therapeutics, Inc.",
-        "pct": 6.96
-      },
-      {
-        "symbol": "MMED",
-        "name": "MiniMed Group, Inc.",
-        "pct": 5.84
+        "pct": 9.91
       },
       {
         "symbol": "TSN",
         "name": "Tyson Foods, Inc.",
-        "pct": 5.73
-      },
-      {
-        "symbol": "CNC",
-        "name": "Centene Corporation",
-        "pct": 5.34
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 5.09
+        "pct": 7.84
       },
       {
         "symbol": "MOH",
         "name": "Molina Healthcare Inc",
-        "pct": 4.91
+        "pct": 7.74
+      },
+      {
+        "symbol": "POWL",
+        "name": "Powell Industries, Inc.",
+        "pct": 6.93
+      },
+      {
+        "symbol": "TSCO",
+        "name": "Tractor Supply Company",
+        "pct": 5.25
+      },
+      {
+        "symbol": "SEZL",
+        "name": "Sezzle Inc.",
+        "pct": 4.84
+      },
+      {
+        "symbol": "CPB",
+        "name": "The Campbell's Company",
+        "pct": 4.72
+      },
+      {
+        "symbol": "CNC",
+        "name": "Centene Corporation",
+        "pct": 4.69
       },
       {
         "symbol": "STWD",
         "name": "STARWOOD PROPERTY TRUST, INC. Starwood Prope",
-        "pct": 4.41
+        "pct": 4.54
       },
       {
         "symbol": "WSE",
         "name": "Wise Group plc",
         "pct": 4.27
-      },
-      {
-        "symbol": "LFTO",
-        "name": "Liftoff Mobile, Inc.",
-        "pct": 3.99
       }
     ],
     "losers": [
       {
         "symbol": "FCUV",
         "name": "Focus Universal Inc.",
-        "pct": -31.44
+        "pct": -30.6
       },
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
+        "pct": -17.1
+      },
+      {
+        "symbol": "BTDR",
+        "name": "Bitdeer Technologies Group",
         "pct": -15.8
+      },
+      {
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": -15.09
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -13.08
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": -11.32
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": -10.79
+        "pct": -14.63
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -10.42
+        "pct": -12.17
       },
       {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": -9.24
+        "symbol": "ASST",
+        "name": "Strive, Inc.",
+        "pct": -11.19
       },
       {
-        "symbol": "VICR",
-        "name": "Vicor Corporation",
-        "pct": -9.14
+        "symbol": "GLXY",
+        "name": "Galaxy Digital Inc.",
+        "pct": -10.78
       },
       {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "pct": -8.99
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -10.78
       },
       {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": -8.98
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -10.35
       }
     ],
-    "universe": 1187
+    "universe": 1200
   }
 }
