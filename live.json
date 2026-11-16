@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T21:14:00Z",
+  "updated": "2026-11-16T14:09:55Z",
   "market_open": false,
   "indices": [
     {
@@ -23,16 +23,36 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.05,
-      "last": 51858.51
+      "pct": -0.14,
+      "last": 51768.25
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "FCUV",
+        "name": "Focus Universal Inc.",
+        "pct": 136.0
+      },
+      {
+        "symbol": "LFTO",
+        "name": "Liftoff Mobile, Inc.",
+        "pct": 30.63
+      },
+      {
         "symbol": "MOD",
         "name": "Modine Manufacturing Company",
-        "pct": 27.95
+        "pct": 27.86
+      },
+      {
+        "symbol": "HAWK",
+        "name": "HawkEye 360, Inc.",
+        "pct": 23.79
+      },
+      {
+        "symbol": "TNDM",
+        "name": "Tandem Diabetes Care, Inc.",
+        "pct": 14.62
       },
       {
         "symbol": "CDNL",
@@ -40,9 +60,14 @@
         "pct": 14.54
       },
       {
+        "symbol": "STN",
+        "name": "Stantec Inc",
+        "pct": 14.06
+      },
+      {
         "symbol": "NU",
         "name": "Nu Holdings Ltd.",
-        "pct": 11.67
+        "pct": 11.75
       },
       {
         "symbol": "CBRS",
@@ -50,34 +75,9 @@
         "pct": 11.22
       },
       {
-        "symbol": "KLAR",
-        "name": "Klarna Group plc",
-        "pct": 8.62
-      },
-      {
-        "symbol": "FOUR",
-        "name": "Shift4 Payments, Inc.",
-        "pct": 7.9
-      },
-      {
-        "symbol": "BROS",
-        "name": "Dutch Bros Inc.",
-        "pct": 6.67
-      },
-      {
-        "symbol": "IONS",
-        "name": "Ionis Pharmaceuticals, Inc.",
-        "pct": 6.41
-      },
-      {
-        "symbol": "CGON",
-        "name": "CG Oncology, Inc.",
-        "pct": 6.06
-      },
-      {
-        "symbol": "VKTX",
-        "name": "Viking Therapeutics, Inc.",
-        "pct": 5.95
+        "symbol": "WWW",
+        "name": "Wolverine World Wide, Inc.",
+        "pct": 8.83
       }
     ],
     "losers": [
@@ -87,19 +87,14 @@
         "pct": -19.13
       },
       {
-        "symbol": "PEPG",
-        "name": "PepGen Inc.",
-        "pct": -13.49
+        "symbol": "VIR",
+        "name": "Vir Biotechnology, Inc.",
+        "pct": -17.82
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
         "pct": -9.92
-      },
-      {
-        "symbol": "AVEX",
-        "name": "AEVEX Corp.",
-        "pct": -9.08
       },
       {
         "symbol": "AMD",
@@ -122,16 +117,21 @@
         "pct": -8.48
       },
       {
-        "symbol": "FLO",
-        "name": "Flowers Foods, Inc.",
-        "pct": -8.07
+        "symbol": "ANDG",
+        "name": "Andersen Group Inc.",
+        "pct": -8.19
       },
       {
-        "symbol": "FN",
-        "name": "Fabrinet",
-        "pct": -7.51
+        "symbol": "NTLA",
+        "name": "Intellia Therapeutics, Inc.",
+        "pct": -8.06
+      },
+      {
+        "symbol": "FLO",
+        "name": "Flowers Foods, Inc.",
+        "pct": -7.99
       }
     ],
-    "universe": 1256
+    "universe": 1201
   }
 }
