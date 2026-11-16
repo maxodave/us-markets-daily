@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-16T20:00:32Z",
+  "updated": "2026-11-16T20:10:33Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.8,
-      "last": 7424.64
+      "pct": -1.9,
+      "last": 7417.34
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.34,
-      "last": 27282.29
+      "pct": -2.49,
+      "last": 27241.68
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.34,
-      "last": 51638.06
+      "pct": -1.38,
+      "last": 51617.55
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "CGON",
         "name": "CG Oncology, Inc.",
-        "pct": 15.67
+        "pct": 15.31
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 9.61
+        "pct": 10.04
       },
       {
         "symbol": "MOH",
         "name": "Molina Healthcare Inc",
-        "pct": 8.84
+        "pct": 9.25
       },
       {
         "symbol": "TSN",
         "name": "Tyson Foods, Inc.",
-        "pct": 6.97
-      },
-      {
-        "symbol": "HUBS",
-        "name": "HubSpot, Inc.",
-        "pct": 6.8
+        "pct": 7.0
       },
       {
         "symbol": "POWL",
         "name": "Powell Industries, Inc.",
-        "pct": 6.64
+        "pct": 6.95
       },
       {
-        "symbol": "ANDG",
-        "name": "Andersen Group Inc.",
-        "pct": 5.16
-      },
-      {
-        "symbol": "HNGE",
-        "name": "Hinge Health, Inc.",
-        "pct": 5.06
-      },
-      {
-        "symbol": "QLYS",
-        "name": "Qualys, Inc.",
-        "pct": 4.77
+        "symbol": "HUBS",
+        "name": "HubSpot, Inc.",
+        "pct": 6.19
       },
       {
         "symbol": "CNC",
         "name": "Centene Corporation",
-        "pct": 4.56
+        "pct": 4.73
+      },
+      {
+        "symbol": "HNGE",
+        "name": "Hinge Health, Inc.",
+        "pct": 4.67
+      },
+      {
+        "symbol": "ANDG",
+        "name": "Andersen Group Inc.",
+        "pct": 4.61
+      },
+      {
+        "symbol": "MBGL",
+        "name": "Mobility Global Inc.",
+        "pct": 4.27
       }
     ],
     "losers": [
       {
         "symbol": "FCUV",
         "name": "Focus Universal Inc.",
-        "pct": -35.95
+        "pct": -36.72
       },
       {
         "symbol": "BTDR",
         "name": "Bitdeer Technologies Group",
-        "pct": -18.48
+        "pct": -17.95
       },
       {
         "symbol": "OMH",
         "name": "Ohmyhome Limited",
-        "pct": -18.3
+        "pct": -17.8
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": -17.28
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -12.28
+        "pct": -17.77
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": -11.35
+        "pct": -11.66
       },
       {
         "symbol": "NVTS",
         "name": "Navitas Semiconductor Corporation",
-        "pct": -11.23
+        "pct": -11.34
+      },
+      {
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": -10.97
       },
       {
         "symbol": "ASST",
         "name": "Strive, Inc.",
-        "pct": -10.77
-      },
-      {
-        "symbol": "USAR",
-        "name": "USA Rare Earth, Inc.",
-        "pct": -10.57
+        "pct": -10.72
       },
       {
         "symbol": "FLY",
         "name": "Firefly Aerospace Inc.",
-        "pct": -10.37
+        "pct": -10.59
+      },
+      {
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": -10.42
       }
     ],
     "universe": 1200
