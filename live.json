@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-17T14:30:54Z",
+  "updated": "2026-11-17T14:46:54Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.27,
-      "last": 7400.23
+      "pct": -0.17,
+      "last": 7407.53
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.05,
-      "last": 27218.43
+      "pct": -0.1,
+      "last": 27177.5
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.76,
-      "last": 51238.56
+      "pct": -0.5,
+      "last": 51370.7
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.75,
-      "last": 51199.27
+      "pct": -0.8,
+      "last": 51178.0
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 190.96
+        "pct": 160.71
       },
       {
         "symbol": "ACM",
         "name": "AECOM",
-        "pct": 13.81
-      },
-      {
-        "symbol": "ESLT",
-        "name": "Elbit Systems Ltd.",
-        "pct": 6.7
+        "pct": 11.71
       },
       {
         "symbol": "FPS",
         "name": "Forgent Power Solutions, Inc.",
-        "pct": 4.79
+        "pct": 10.55
       },
       {
-        "symbol": "NKE",
-        "name": "Nike, Inc.",
-        "pct": 4.65
+        "symbol": "AS",
+        "name": "Amer Sports, Inc.",
+        "pct": 8.44
       },
       {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": 4.54
+        "symbol": "ESLT",
+        "name": "Elbit Systems Ltd.",
+        "pct": 8.36
       },
       {
-        "symbol": "HELP",
-        "name": "Helus Pharma Inc.",
-        "pct": 4.43
+        "symbol": "KLAR",
+        "name": "Klarna Group plc",
+        "pct": 6.85
       },
       {
-        "symbol": "GRAL",
-        "name": "GRAIL, Inc.",
-        "pct": 4.17
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": 6.73
+      },
+      {
+        "symbol": "SNAP",
+        "name": "Snap Inc.",
+        "pct": 6.5
+      },
+      {
+        "symbol": "HL",
+        "name": "Hecla Mining Company",
+        "pct": 5.28
       },
       {
         "symbol": "SITE",
         "name": "SiteOne Landscape Supply, Inc.",
-        "pct": 3.8
-      },
-      {
-        "symbol": "BLLN",
-        "name": "BillionToOne, Inc.",
-        "pct": 3.72
+        "pct": 5.08
       }
     ],
     "losers": [
       {
-        "symbol": "CPRI",
-        "name": "Capri Holdings Limited",
-        "pct": -4.7
-      },
-      {
-        "symbol": "HUM",
-        "name": "Humana Inc.",
-        "pct": -3.8
-      },
-      {
-        "symbol": "FLO",
-        "name": "Flowers Foods, Inc.",
-        "pct": -3.72
-      },
-      {
-        "symbol": "DB",
-        "name": "Deutsche Bank AG",
-        "pct": -3.71
-      },
-      {
         "symbol": "CGON",
         "name": "CG Oncology, Inc.",
-        "pct": -3.64
+        "pct": -8.76
       },
       {
-        "symbol": "CVS",
-        "name": "CVS Health Corporation",
-        "pct": -3.44
+        "symbol": "CPRI",
+        "name": "Capri Holdings Limited",
+        "pct": -6.91
       },
       {
-        "symbol": "SIG",
-        "name": "Signet Jewelers Limited",
-        "pct": -3.43
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": -5.54
       },
       {
         "symbol": "HUBS",
         "name": "HubSpot, Inc.",
-        "pct": -3.26
+        "pct": -5.54
       },
       {
-        "symbol": "FIG",
-        "name": "Figma, Inc.",
-        "pct": -2.94
+        "symbol": "DOCU",
+        "name": "DocuSign, Inc.",
+        "pct": -5.34
       },
       {
-        "symbol": "MOH",
-        "name": "Molina Healthcare Inc",
-        "pct": -2.9
+        "symbol": "CRM",
+        "name": "Salesforce, Inc.",
+        "pct": -5.33
+      },
+      {
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "pct": -5.26
+      },
+      {
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "pct": -5.01
+      },
+      {
+        "symbol": "WDAY",
+        "name": "Workday, Inc.",
+        "pct": -4.91
+      },
+      {
+        "symbol": "APPN",
+        "name": "Appian Corporation",
+        "pct": -4.34
       }
     ],
-    "universe": 1208
+    "universe": 1272
   }
 }
