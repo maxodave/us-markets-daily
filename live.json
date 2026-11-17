@@ -1,137 +1,137 @@
 {
-  "updated": "2026-11-17T14:20:47Z",
-  "market_open": false,
+  "updated": "2026-11-17T14:30:54Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.91,
-      "last": 7416.59
+      "pct": -0.27,
+      "last": 7400.23
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.65,
-      "last": 27197.15
+      "pct": 0.05,
+      "last": 27218.43
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.4,
-      "last": 51608.17
+      "pct": -0.76,
+      "last": 51238.56
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.64,
-      "last": 51258.23
+      "pct": -0.75,
+      "last": 51199.27
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "CGON",
-        "name": "CG Oncology, Inc.",
-        "pct": 13.95
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": 190.96
       },
       {
-        "symbol": "TU",
-        "name": "Telus Corporation",
-        "pct": 12.19
+        "symbol": "ACM",
+        "name": "AECOM",
+        "pct": 13.81
       },
       {
-        "symbol": "MOH",
-        "name": "Molina Healthcare Inc",
-        "pct": 11.27
+        "symbol": "ESLT",
+        "name": "Elbit Systems Ltd.",
+        "pct": 6.7
       },
       {
-        "symbol": "VXX",
-        "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 9.77
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "pct": 4.79
       },
       {
-        "symbol": "TSN",
-        "name": "Tyson Foods, Inc.",
-        "pct": 8.72
+        "symbol": "NKE",
+        "name": "Nike, Inc.",
+        "pct": 4.65
       },
       {
-        "symbol": "URGN",
-        "name": "UroGen Pharma Ltd.",
-        "pct": 7.33
-      },
-      {
-        "symbol": "HUBS",
-        "name": "HubSpot, Inc.",
-        "pct": 6.78
-      },
-      {
-        "symbol": "POWL",
-        "name": "Powell Industries, Inc.",
-        "pct": 5.94
-      },
-      {
-        "symbol": "BILL",
-        "name": "BILL Holdings, Inc.",
-        "pct": 5.78
-      },
-      {
-        "symbol": "QLYS",
-        "name": "Qualys, Inc.",
-        "pct": 5.24
-      }
-    ],
-    "losers": [
-      {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": -16.47
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": 4.54
       },
       {
         "symbol": "HELP",
         "name": "Helus Pharma Inc.",
-        "pct": -13.53
+        "pct": 4.43
       },
       {
-        "symbol": "USAR",
-        "name": "USA Rare Earth, Inc.",
-        "pct": -12.62
+        "symbol": "GRAL",
+        "name": "GRAIL, Inc.",
+        "pct": 4.17
       },
       {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": -12.33
+        "symbol": "SITE",
+        "name": "SiteOne Landscape Supply, Inc.",
+        "pct": 3.8
       },
       {
-        "symbol": "NVTS",
-        "name": "Navitas Semiconductor Corporation",
-        "pct": -11.96
-      },
-      {
-        "symbol": "ASST",
-        "name": "Strive, Inc.",
-        "pct": -11.94
-      },
-      {
-        "symbol": "ABSI",
-        "name": "Absci Corporation",
-        "pct": -11.54
-      },
-      {
-        "symbol": "FLY",
-        "name": "Firefly Aerospace Inc.",
-        "pct": -10.83
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -10.77
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": -10.53
+        "symbol": "BLLN",
+        "name": "BillionToOne, Inc.",
+        "pct": 3.72
       }
     ],
-    "universe": 1273
+    "losers": [
+      {
+        "symbol": "CPRI",
+        "name": "Capri Holdings Limited",
+        "pct": -4.7
+      },
+      {
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "pct": -3.8
+      },
+      {
+        "symbol": "FLO",
+        "name": "Flowers Foods, Inc.",
+        "pct": -3.72
+      },
+      {
+        "symbol": "DB",
+        "name": "Deutsche Bank AG",
+        "pct": -3.71
+      },
+      {
+        "symbol": "CGON",
+        "name": "CG Oncology, Inc.",
+        "pct": -3.64
+      },
+      {
+        "symbol": "CVS",
+        "name": "CVS Health Corporation",
+        "pct": -3.44
+      },
+      {
+        "symbol": "SIG",
+        "name": "Signet Jewelers Limited",
+        "pct": -3.43
+      },
+      {
+        "symbol": "HUBS",
+        "name": "HubSpot, Inc.",
+        "pct": -3.26
+      },
+      {
+        "symbol": "FIG",
+        "name": "Figma, Inc.",
+        "pct": -2.94
+      },
+      {
+        "symbol": "MOH",
+        "name": "Molina Healthcare Inc",
+        "pct": -2.9
+      }
+    ],
+    "universe": 1208
   }
 }
