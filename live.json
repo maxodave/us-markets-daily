@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T21:20:36Z",
+  "updated": "2026-11-17T14:08:46Z",
   "market_open": false,
   "indices": [
     {
@@ -23,8 +23,8 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.62,
-      "last": 51520.55
+      "pct": -0.74,
+      "last": 51205.96
     }
   ],
   "movers": {
@@ -33,6 +33,11 @@
         "symbol": "CGON",
         "name": "CG Oncology, Inc.",
         "pct": 13.95
+      },
+      {
+        "symbol": "TU",
+        "name": "Telus Corporation",
+        "pct": 12.19
       },
       {
         "symbol": "MOH",
@@ -48,6 +53,11 @@
         "symbol": "TSN",
         "name": "Tyson Foods, Inc.",
         "pct": 8.72
+      },
+      {
+        "symbol": "URGN",
+        "name": "UroGen Pharma Ltd.",
+        "pct": 7.33
       },
       {
         "symbol": "HUBS",
@@ -68,38 +78,18 @@
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
         "pct": 5.24
-      },
-      {
-        "symbol": "HNGE",
-        "name": "Hinge Health, Inc.",
-        "pct": 5.11
-      },
-      {
-        "symbol": "CNC",
-        "name": "Centene Corporation",
-        "pct": 4.91
       }
     ],
     "losers": [
       {
-        "symbol": "FCUV",
-        "name": "Focus Universal Inc.",
-        "pct": -33.33
-      },
-      {
-        "symbol": "OMH",
-        "name": "Ohmyhome Limited",
-        "pct": -20.4
-      },
-      {
-        "symbol": "BTDR",
-        "name": "Bitdeer Technologies Group",
-        "pct": -19.73
-      },
-      {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
         "pct": -16.47
+      },
+      {
+        "symbol": "HELP",
+        "name": "Helus Pharma Inc.",
+        "pct": -13.53
       },
       {
         "symbol": "USAR",
@@ -122,6 +112,11 @@
         "pct": -11.94
       },
       {
+        "symbol": "ABSI",
+        "name": "Absci Corporation",
+        "pct": -11.54
+      },
+      {
         "symbol": "FLY",
         "name": "Firefly Aerospace Inc.",
         "pct": -10.83
@@ -130,8 +125,13 @@
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
         "pct": -10.77
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -10.53
       }
     ],
-    "universe": 1200
+    "universe": 1273
   }
 }
