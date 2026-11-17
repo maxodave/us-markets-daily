@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-17T17:25:30Z",
+  "updated": "2026-11-17T17:36:58Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.78,
-      "last": 7362.45
+      "pct": -1.0,
+      "last": 7345.94
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.73,
-      "last": 27007.19
+      "pct": -0.97,
+      "last": 26940.73
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.19,
-      "last": 51014.97
+      "pct": -1.36,
+      "last": 50925.49
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 173.35
-      },
-      {
-        "symbol": "ACM",
-        "name": "AECOM",
-        "pct": 12.69
+        "pct": 169.08
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": 12.64
+        "pct": 12.82
+      },
+      {
+        "symbol": "ACM",
+        "name": "AECOM",
+        "pct": 12.77
       },
       {
         "symbol": "BILL",
         "name": "BILL Holdings, Inc.",
-        "pct": 7.83
+        "pct": 9.28
       },
       {
         "symbol": "SNAP",
         "name": "Snap Inc.",
-        "pct": 7.76
+        "pct": 7.66
       },
       {
         "symbol": "ESLT",
         "name": "Elbit Systems Ltd.",
-        "pct": 7.66
+        "pct": 6.85
       },
       {
         "symbol": "AS",
         "name": "Amer Sports, Inc.",
-        "pct": 6.79
+        "pct": 6.62
       },
       {
         "symbol": "RYTM",
         "name": "Rhythm Pharmaceuticals, Inc.",
-        "pct": 6.07
+        "pct": 5.85
       },
       {
         "symbol": "HYMC",
         "name": "Hycroft Mining Holding Corporation",
-        "pct": 5.23
+        "pct": 5.03
       },
       {
         "symbol": "GFF",
         "name": "Griffon Corporation",
-        "pct": 4.87
+        "pct": 4.96
       }
     ],
     "losers": [
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": -10.94
+        "pct": -10.88
       },
       {
         "symbol": "CRM",
         "name": "Salesforce, Inc.",
-        "pct": -9.27
+        "pct": -9.62
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": -8.12
+        "pct": -8.54
       },
       {
         "symbol": "RGTI",
         "name": "Rigetti Computing, Inc.",
-        "pct": -6.86
-      },
-      {
-        "symbol": "TENB",
-        "name": "Tenable Holdings, Inc.",
-        "pct": -6.71
-      },
-      {
-        "symbol": "INTU",
-        "name": "Intuit Inc.",
-        "pct": -6.62
-      },
-      {
-        "symbol": "CVLT",
-        "name": "Commvault Systems, Inc.",
-        "pct": -6.52
-      },
-      {
-        "symbol": "NOW",
-        "name": "ServiceNow, Inc.",
-        "pct": -6.46
-      },
-      {
-        "symbol": "BB",
-        "name": "BlackBerry Limited",
-        "pct": -6.21
+        "pct": -7.17
       },
       {
         "symbol": "QBTS",
         "name": "D-Wave Quantum Inc.",
-        "pct": -6.17
+        "pct": -6.69
+      },
+      {
+        "symbol": "INTU",
+        "name": "Intuit Inc.",
+        "pct": -6.68
+      },
+      {
+        "symbol": "NOW",
+        "name": "ServiceNow, Inc.",
+        "pct": -6.68
+      },
+      {
+        "symbol": "NXT",
+        "name": "Nextpower Inc.",
+        "pct": -6.62
+      },
+      {
+        "symbol": "IONQ",
+        "name": "IonQ, Inc.",
+        "pct": -6.58
+      },
+      {
+        "symbol": "BB",
+        "name": "BlackBerry Limited",
+        "pct": -6.44
       }
     ],
     "universe": 1272
