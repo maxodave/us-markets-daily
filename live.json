@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-17T20:44:46Z",
-  "market_open": true,
+  "updated": "2026-11-17T21:06:57Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.24,
-      "last": 7327.93
+      "pct": -1.07,
+      "last": 7340.53
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.12,
-      "last": 26899.21
+      "pct": -0.75,
+      "last": 27001.79
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.74,
-      "last": 50731.82
+      "pct": -1.68,
+      "last": 50759.42
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 155.42
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": 16.39
-      },
-      {
-        "symbol": "ACM",
-        "name": "AECOM",
-        "pct": 12.74
+        "pct": 156.36
       },
       {
         "symbol": "BILL",
         "name": "BILL Holdings, Inc.",
-        "pct": 12.2
+        "pct": 12.74
       },
       {
-        "symbol": "SNAP",
-        "name": "Snap Inc.",
-        "pct": 7.56
+        "symbol": "SHAZ",
+        "name": "SharonAI Holdings, Inc.",
+        "pct": 12.22
+      },
+      {
+        "symbol": "ACM",
+        "name": "AECOM",
+        "pct": 11.12
       },
       {
         "symbol": "RYTM",
         "name": "Rhythm Pharmaceuticals, Inc.",
-        "pct": 7.11
+        "pct": 8.49
       },
       {
-        "symbol": "ESLT",
-        "name": "Elbit Systems Ltd.",
-        "pct": 6.22
+        "symbol": "SNAP",
+        "name": "Snap Inc.",
+        "pct": 7.96
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 5.69
+        "pct": 7.2
       },
       {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 5.5
+        "symbol": "TWST",
+        "name": "Twist Bioscience Corporation",
+        "pct": 6.63
       },
       {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": 5.42
+        "symbol": "URGN",
+        "name": "UroGen Pharma Ltd.",
+        "pct": 6.3
+      },
+      {
+        "symbol": "ESLT",
+        "name": "Elbit Systems Ltd.",
+        "pct": 5.85
       }
     ],
     "losers": [
       {
         "symbol": "NXT",
         "name": "Nextpower Inc.",
-        "pct": -10.76
+        "pct": -12.13
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": -10.36
+        "pct": -9.73
       },
       {
         "symbol": "CRM",
         "name": "Salesforce, Inc.",
-        "pct": -9.5
+        "pct": -9.41
       },
       {
-        "symbol": "WCN",
-        "name": "Waste Connections, Inc.",
-        "pct": -8.77
-      },
-      {
-        "symbol": "ERAS",
-        "name": "Erasca, Inc.",
-        "pct": -8.74
+        "symbol": "RH",
+        "name": "RH",
+        "pct": -8.37
       },
       {
         "symbol": "STNE",
         "name": "StoneCo Ltd. - Class A Common Share",
-        "pct": -8.05
+        "pct": -8.24
+      },
+      {
+        "symbol": "ERAS",
+        "name": "Erasca, Inc.",
+        "pct": -8.07
+      },
+      {
+        "symbol": "WCN",
+        "name": "Waste Connections, Inc.",
+        "pct": -8.04
       },
       {
         "symbol": "LMND",
         "name": "Lemonade, Inc.",
-        "pct": -8.03
+        "pct": -7.69
       },
       {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "pct": -7.41
+        "symbol": "QXO",
+        "name": "QXO, Inc.",
+        "pct": -7.62
       },
       {
-        "symbol": "CPRI",
-        "name": "Capri Holdings Limited",
-        "pct": -7.37
-      },
-      {
-        "symbol": "BB",
-        "name": "BlackBerry Limited",
-        "pct": -7.24
+        "symbol": "ENPH",
+        "name": "Enphase Energy, Inc.",
+        "pct": -7.58
       }
     ],
     "universe": 1272
