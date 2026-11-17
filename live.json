@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-17T19:15:17Z",
+  "updated": "2026-11-17T20:29:03Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.09,
-      "last": 7339.32
+      "pct": -1.37,
+      "last": 7318.7
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.93,
-      "last": 26951.13
+      "pct": -1.29,
+      "last": 26852.92
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.56,
-      "last": 50825.63
+      "pct": -1.86,
+      "last": 50669.52
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 164.32
+        "pct": 155.02
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": 17.61
+        "pct": 16.28
       },
       {
         "symbol": "ACM",
         "name": "AECOM",
-        "pct": 13.79
+        "pct": 12.63
       },
       {
         "symbol": "BILL",
         "name": "BILL Holdings, Inc.",
-        "pct": 11.18
+        "pct": 12.48
       },
       {
         "symbol": "RYTM",
         "name": "Rhythm Pharmaceuticals, Inc.",
-        "pct": 8.95
-      },
-      {
-        "symbol": "SNAP",
-        "name": "Snap Inc.",
-        "pct": 7.76
-      },
-      {
-        "symbol": "ESLT",
-        "name": "Elbit Systems Ltd.",
-        "pct": 6.04
-      },
-      {
-        "symbol": "AS",
-        "name": "Amer Sports, Inc.",
-        "pct": 5.88
-      },
-      {
-        "symbol": "TWST",
-        "name": "Twist Bioscience Corporation",
-        "pct": 5.47
+        "pct": 8.51
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 4.62
+        "pct": 7.42
+      },
+      {
+        "symbol": "SNAP",
+        "name": "Snap Inc.",
+        "pct": 7.12
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 6.39
+      },
+      {
+        "symbol": "ESLT",
+        "name": "Elbit Systems Ltd.",
+        "pct": 6.14
+      },
+      {
+        "symbol": "FRVO",
+        "name": "Fervo Energy Company",
+        "pct": 5.92
       }
     ],
     "losers": [
       {
-        "symbol": "SMMT",
-        "name": "Summit Therapeutics Inc.",
-        "pct": -10.24
-      },
-      {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "pct": -8.93
-      },
-      {
         "symbol": "NXT",
         "name": "Nextpower Inc.",
-        "pct": -8.9
+        "pct": -10.98
+      },
+      {
+        "symbol": "SMMT",
+        "name": "Summit Therapeutics Inc.",
+        "pct": -10.11
       },
       {
         "symbol": "CRM",
         "name": "Salesforce, Inc.",
-        "pct": -8.22
-      },
-      {
-        "symbol": "CPRI",
-        "name": "Capri Holdings Limited",
-        "pct": -7.3
-      },
-      {
-        "symbol": "RGTI",
-        "name": "Rigetti Computing, Inc.",
-        "pct": -7.08
-      },
-      {
-        "symbol": "WCN",
-        "name": "Waste Connections, Inc.",
-        "pct": -7.08
-      },
-      {
-        "symbol": "BB",
-        "name": "BlackBerry Limited",
-        "pct": -6.95
+        "pct": -9.43
       },
       {
         "symbol": "LMND",
         "name": "Lemonade, Inc.",
-        "pct": -6.84
+        "pct": -8.59
       },
       {
-        "symbol": "QBTS",
-        "name": "D-Wave Quantum Inc.",
-        "pct": -6.75
+        "symbol": "WCN",
+        "name": "Waste Connections, Inc.",
+        "pct": -8.58
+      },
+      {
+        "symbol": "CPRI",
+        "name": "Capri Holdings Limited",
+        "pct": -7.83
+      },
+      {
+        "symbol": "STNE",
+        "name": "StoneCo Ltd. - Class A Common Share",
+        "pct": -7.8
+      },
+      {
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": -7.73
+      },
+      {
+        "symbol": "ERAS",
+        "name": "Erasca, Inc.",
+        "pct": -7.62
+      },
+      {
+        "symbol": "NKE",
+        "name": "Nike, Inc.",
+        "pct": -7.4
       }
     ],
     "universe": 1272
