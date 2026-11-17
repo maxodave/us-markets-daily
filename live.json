@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-17T20:29:03Z",
+  "updated": "2026-11-17T20:44:46Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.37,
-      "last": 7318.7
+      "pct": -1.24,
+      "last": 7327.93
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.29,
-      "last": 26852.92
+      "pct": -1.12,
+      "last": 26899.21
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.86,
-      "last": 50669.52
+      "pct": -1.74,
+      "last": 50731.82
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 155.02
+        "pct": 155.42
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": 16.28
+        "pct": 16.39
       },
       {
         "symbol": "ACM",
         "name": "AECOM",
-        "pct": 12.63
+        "pct": 12.74
       },
       {
         "symbol": "BILL",
         "name": "BILL Holdings, Inc.",
-        "pct": 12.48
-      },
-      {
-        "symbol": "RYTM",
-        "name": "Rhythm Pharmaceuticals, Inc.",
-        "pct": 8.51
-      },
-      {
-        "symbol": "VXX",
-        "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 7.42
+        "pct": 12.2
       },
       {
         "symbol": "SNAP",
         "name": "Snap Inc.",
-        "pct": 7.12
+        "pct": 7.56
       },
       {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 6.39
+        "symbol": "RYTM",
+        "name": "Rhythm Pharmaceuticals, Inc.",
+        "pct": 7.11
       },
       {
         "symbol": "ESLT",
         "name": "Elbit Systems Ltd.",
-        "pct": 6.14
+        "pct": 6.22
+      },
+      {
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": 5.69
+      },
+      {
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 5.5
       },
       {
         "symbol": "FRVO",
         "name": "Fervo Energy Company",
-        "pct": 5.92
+        "pct": 5.42
       }
     ],
     "losers": [
       {
         "symbol": "NXT",
         "name": "Nextpower Inc.",
-        "pct": -10.98
+        "pct": -10.76
       },
       {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": -10.11
+        "pct": -10.36
       },
       {
         "symbol": "CRM",
         "name": "Salesforce, Inc.",
-        "pct": -9.43
-      },
-      {
-        "symbol": "LMND",
-        "name": "Lemonade, Inc.",
-        "pct": -8.59
+        "pct": -9.5
       },
       {
         "symbol": "WCN",
         "name": "Waste Connections, Inc.",
-        "pct": -8.58
-      },
-      {
-        "symbol": "CPRI",
-        "name": "Capri Holdings Limited",
-        "pct": -7.83
-      },
-      {
-        "symbol": "STNE",
-        "name": "StoneCo Ltd. - Class A Common Share",
-        "pct": -7.8
-      },
-      {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "pct": -7.73
+        "pct": -8.77
       },
       {
         "symbol": "ERAS",
         "name": "Erasca, Inc.",
-        "pct": -7.62
+        "pct": -8.74
       },
       {
-        "symbol": "NKE",
-        "name": "Nike, Inc.",
-        "pct": -7.4
+        "symbol": "STNE",
+        "name": "StoneCo Ltd. - Class A Common Share",
+        "pct": -8.05
+      },
+      {
+        "symbol": "LMND",
+        "name": "Lemonade, Inc.",
+        "pct": -8.03
+      },
+      {
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": -7.41
+      },
+      {
+        "symbol": "CPRI",
+        "name": "Capri Holdings Limited",
+        "pct": -7.37
+      },
+      {
+        "symbol": "BB",
+        "name": "BlackBerry Limited",
+        "pct": -7.24
       }
     ],
     "universe": 1272
