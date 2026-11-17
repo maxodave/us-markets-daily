@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-16T01:25:06Z",
-  "session_date": "2026-11-13",
+  "updated": "2026-11-17T04:11:46Z",
+  "session_date": "2026-11-16",
   "universe": 558,
   "up": {
-    "count": 349,
+    "count": 175,
     "by_length": {
-      "1": 267,
-      "2": 20,
-      "3": 26,
-      "4": 17,
-      "5": 14,
+      "1": 54,
+      "2": 86,
+      "3": 12,
+      "4": 7,
+      "5": 11,
       "6": 2,
       "7": 1,
       "8+": 2
@@ -21,8 +21,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 10,
-        "cum_pct": 24.39
+        "days": 11,
+        "cum_pct": 25.19
       },
       {
         "symbol": "CAH",
@@ -30,8 +30,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 8,
-        "cum_pct": 11.13
+        "days": 9,
+        "cum_pct": 12.22
       },
       {
         "symbol": "TEN.MI",
@@ -43,22 +43,22 @@
         "cum_pct": 11.13
       },
       {
-        "symbol": "EOG",
-        "name": "EOG Resources",
+        "symbol": "ZTS",
+        "name": "Zoetis",
         "indices": [
           "sp500"
         ],
         "days": 6,
-        "cum_pct": 9.27
+        "cum_pct": 6.28
       },
       {
-        "symbol": "AME",
-        "name": "Ametek",
+        "symbol": "ACGL",
+        "name": "Arch Capital Group",
         "indices": [
           "sp500"
         ],
         "days": 6,
-        "cum_pct": 8.57
+        "cum_pct": 3.37
       },
       {
         "symbol": "AVIO.MI",
@@ -70,49 +70,31 @@
         "cum_pct": 14.0
       },
       {
-        "symbol": "TRGP",
-        "name": "Targa Resources",
+        "symbol": "ALL",
+        "name": "Allstate",
         "indices": [
           "sp500"
         ],
         "days": 5,
-        "cum_pct": 12.37
+        "cum_pct": 6.56
       },
       {
-        "symbol": "DVN",
-        "name": "Devon Energy",
+        "symbol": "VRSK",
+        "name": "Verisk Analytics",
         "indices": [
           "sp500"
         ],
         "days": 5,
-        "cum_pct": 10.35
+        "cum_pct": 6.06
       },
       {
-        "symbol": "OKTA",
-        "name": "Okta, Inc.",
+        "symbol": "CB",
+        "name": "Chubb Limited",
         "indices": [
           "sp500"
         ],
         "days": 5,
-        "cum_pct": 8.41
-      },
-      {
-        "symbol": "ZTS",
-        "name": "Zoetis",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 5.57
-      },
-      {
-        "symbol": "OKE",
-        "name": "Oneok",
-        "indices": [
-          "sp500"
-        ],
-        "days": 5,
-        "cum_pct": 5.35
+        "cum_pct": 4.91
       },
       {
         "symbol": "PST.MI",
@@ -124,71 +106,91 @@
         "cum_pct": 4.77
       },
       {
-        "symbol": "KR",
-        "name": "Kroger",
+        "symbol": "ES",
+        "name": "Eversource Energy",
         "indices": [
           "sp500"
         ],
         "days": 5,
-        "cum_pct": 4.58
+        "cum_pct": 4.75
       },
       {
-        "symbol": "NI",
-        "name": "NiSource",
+        "symbol": "JKHY",
+        "name": "Jack Henry & Associates",
         "indices": [
           "sp500"
         ],
         "days": 5,
-        "cum_pct": 4.3
+        "cum_pct": 4.5
       },
       {
-        "symbol": "BRK.B",
-        "name": "Berkshire Hathaway",
+        "symbol": "PGR",
+        "name": "Progressive Corporation",
         "indices": [
           "sp500"
         ],
         "days": 5,
-        "cum_pct": 3.86
+        "cum_pct": 4.31
+      },
+      {
+        "symbol": "MO",
+        "name": "Altria",
+        "indices": [
+          "sp500"
+        ],
+        "days": 5,
+        "cum_pct": 4.08
+      },
+      {
+        "symbol": "ADP",
+        "name": "Automatic Data Processing",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 5,
+        "cum_pct": 3.76
       }
     ]
   },
   "down": {
-    "count": 205,
+    "count": 380,
     "by_length": {
-      "1": 59,
-      "2": 103,
-      "3": 18,
-      "4": 21,
-      "5": 2,
-      "7": 2
+      "1": 215,
+      "2": 48,
+      "3": 91,
+      "4": 6,
+      "5": 19,
+      "6": 1
     },
     "top": [
-      {
-        "symbol": "SYK",
-        "name": "Stryker Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": -7,
-        "cum_pct": -8.84
-      },
-      {
-        "symbol": "NEE",
-        "name": "NextEra Energy",
-        "indices": [
-          "sp500"
-        ],
-        "days": -7,
-        "cum_pct": -3.76
-      },
       {
         "symbol": "FSLR",
         "name": "First Solar",
         "indices": [
           "sp500"
         ],
+        "days": -6,
+        "cum_pct": -19.24
+      },
+      {
+        "symbol": "MRNA",
+        "name": "Moderna",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
         "days": -5,
-        "cum_pct": -14.79
+        "cum_pct": -19.97
+      },
+      {
+        "symbol": "SKYD",
+        "name": "Skydance",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -19.08
       },
       {
         "symbol": "STLAM.MI",
@@ -200,68 +202,13 @@
         "cum_pct": -12.49
       },
       {
-        "symbol": "MRNA",
-        "name": "Moderna",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -16.96
-      },
-      {
-        "symbol": "SKYD",
-        "name": "Skydance",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -13.56
-      },
-      {
         "symbol": "ILMN",
         "name": "Illumina, Inc.",
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -6.24
-      },
-      {
-        "symbol": "CCL",
-        "name": "Carnival Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -5.13
-      },
-      {
-        "symbol": "IQV",
-        "name": "IQVIA",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -4.92
-      },
-      {
-        "symbol": "CRH",
-        "name": "CRH plc",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -4.68
-      },
-      {
-        "symbol": "CRL",
-        "name": "Charles River Laboratories",
-        "indices": [
-          "sp500"
-        ],
-        "days": -4,
-        "cum_pct": -4.35
+        "days": -5,
+        "cum_pct": -10.32
       },
       {
         "symbol": "RVTY",
@@ -269,17 +216,71 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -3.94
+        "days": -5,
+        "cum_pct": -7.39
       },
       {
-        "symbol": "VMC",
-        "name": "Vulcan Materials Company",
+        "symbol": "CCL",
+        "name": "Carnival Corporation",
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -3.73
+        "days": -5,
+        "cum_pct": -5.78
+      },
+      {
+        "symbol": "CRH",
+        "name": "CRH plc",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -5.48
+      },
+      {
+        "symbol": "APTV",
+        "name": "Aptiv",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -5.26
+      },
+      {
+        "symbol": "EMR",
+        "name": "Emerson Electric",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -5.23
+      },
+      {
+        "symbol": "TJX",
+        "name": "TJX Companies",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -5.1
+      },
+      {
+        "symbol": "IQV",
+        "name": "IQVIA",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -5.06
+      },
+      {
+        "symbol": "CRL",
+        "name": "Charles River Laboratories",
+        "indices": [
+          "sp500"
+        ],
+        "days": -5,
+        "cum_pct": -5.04
       },
       {
         "symbol": "WAT",
@@ -287,21 +288,23 @@
         "indices": [
           "sp500"
         ],
-        "days": -4,
-        "cum_pct": -3.45
+        "days": -5,
+        "cum_pct": -4.88
       },
       {
-        "symbol": "MLM",
-        "name": "Martin Marietta Materials",
+        "symbol": "HON",
+        "name": "Honeywell Technologies",
         "indices": [
-          "sp500"
+          "sp500",
+          "dow",
+          "nasdaq100"
         ],
-        "days": -4,
-        "cum_pct": -3.27
+        "days": -5,
+        "cum_pct": -4.83
       }
     ]
   },
   "flat": {
-    "count": 4
+    "count": 3
   }
 }
