@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-17T18:26:59Z",
+  "updated": "2026-11-17T18:43:36Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.96,
-      "last": 7348.61
+      "pct": -1.18,
+      "last": 7332.29
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.87,
-      "last": 26969.23
+      "pct": -1.17,
+      "last": 26887.76
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.33,
-      "last": 50944.95
+      "pct": -1.49,
+      "last": 50859.69
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 162.58
-      },
-      {
-        "symbol": "ACM",
-        "name": "AECOM",
-        "pct": 13.68
-      },
-      {
-        "symbol": "BILL",
-        "name": "BILL Holdings, Inc.",
-        "pct": 11.58
+        "pct": 158.1
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": 11.48
+        "pct": 15.47
       },
       {
-        "symbol": "SNAP",
-        "name": "Snap Inc.",
-        "pct": 7.76
+        "symbol": "ACM",
+        "name": "AECOM",
+        "pct": 14.17
+      },
+      {
+        "symbol": "BILL",
+        "name": "BILL Holdings, Inc.",
+        "pct": 12.29
       },
       {
         "symbol": "RYTM",
         "name": "Rhythm Pharmaceuticals, Inc.",
-        "pct": 7.76
+        "pct": 7.85
+      },
+      {
+        "symbol": "SNAP",
+        "name": "Snap Inc.",
+        "pct": 7.56
       },
       {
         "symbol": "AS",
         "name": "Amer Sports, Inc.",
-        "pct": 7.59
+        "pct": 6.51
       },
       {
         "symbol": "ESLT",
         "name": "Elbit Systems Ltd.",
-        "pct": 6.45
+        "pct": 6.23
       },
       {
-        "symbol": "FRVO",
-        "name": "Fervo Energy Company",
-        "pct": 4.83
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": 5.28
       },
       {
-        "symbol": "VIK",
-        "name": "Viking Holdings Ltd",
-        "pct": 4.81
+        "symbol": "GFF",
+        "name": "Griffon Corporation",
+        "pct": 4.68
       }
     ],
     "losers": [
       {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "pct": -9.84
-      },
-      {
         "symbol": "SMMT",
         "name": "Summit Therapeutics Inc.",
-        "pct": -8.5
-      },
-      {
-        "symbol": "CRM",
-        "name": "Salesforce, Inc.",
-        "pct": -8.11
+        "pct": -9.22
       },
       {
         "symbol": "NXT",
         "name": "Nextpower Inc.",
-        "pct": -8.06
+        "pct": -9.07
+      },
+      {
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": -8.94
+      },
+      {
+        "symbol": "CRM",
+        "name": "Salesforce, Inc.",
+        "pct": -7.99
       },
       {
         "symbol": "RGTI",
         "name": "Rigetti Computing, Inc.",
-        "pct": -7.28
+        "pct": -7.51
       },
       {
         "symbol": "QBTS",
         "name": "D-Wave Quantum Inc.",
-        "pct": -6.81
-      },
-      {
-        "symbol": "IONQ",
-        "name": "IonQ, Inc.",
-        "pct": -6.52
-      },
-      {
-        "symbol": "NOW",
-        "name": "ServiceNow, Inc.",
-        "pct": -6.45
+        "pct": -7.21
       },
       {
         "symbol": "BB",
         "name": "BlackBerry Limited",
-        "pct": -6.44
+        "pct": -7.13
       },
       {
-        "symbol": "CPRI",
-        "name": "Capri Holdings Limited",
-        "pct": -6.28
+        "symbol": "IONQ",
+        "name": "IonQ, Inc.",
+        "pct": -7.1
+      },
+      {
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": -6.86
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -6.55
       }
     ],
     "universe": 1272
