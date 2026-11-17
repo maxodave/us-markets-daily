@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-17T14:46:54Z",
+  "updated": "2026-11-17T14:58:48Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.17,
-      "last": 7407.53
+      "pct": -0.12,
+      "last": 7411.27
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.1,
-      "last": 27177.5
+      "pct": -0.04,
+      "last": 27193.92
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.5,
-      "last": 51370.7
+      "pct": -0.41,
+      "last": 51419.47
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.8,
-      "last": 51178.0
+      "pct": -0.74,
+      "last": 51206.92
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 160.71
+        "pct": 142.57
       },
       {
         "symbol": "ACM",
         "name": "AECOM",
-        "pct": 11.71
-      },
-      {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "pct": 10.55
+        "pct": 12.12
       },
       {
         "symbol": "AS",
         "name": "Amer Sports, Inc.",
-        "pct": 8.44
+        "pct": 8.08
+      },
+      {
+        "symbol": "FPS",
+        "name": "Forgent Power Solutions, Inc.",
+        "pct": 7.46
       },
       {
         "symbol": "ESLT",
         "name": "Elbit Systems Ltd.",
-        "pct": 8.36
+        "pct": 7.27
+      },
+      {
+        "symbol": "GFF",
+        "name": "Griffon Corporation",
+        "pct": 6.55
       },
       {
         "symbol": "KLAR",
         "name": "Klarna Group plc",
-        "pct": 6.85
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": 6.73
+        "pct": 5.87
       },
       {
         "symbol": "SNAP",
         "name": "Snap Inc.",
-        "pct": 6.5
-      },
-      {
-        "symbol": "HL",
-        "name": "Hecla Mining Company",
-        "pct": 5.28
+        "pct": 5.3
       },
       {
         "symbol": "SITE",
         "name": "SiteOne Landscape Supply, Inc.",
-        "pct": 5.08
+        "pct": 4.85
+      },
+      {
+        "symbol": "HUT",
+        "name": "Hut 8 Corp.",
+        "pct": 4.81
       }
     ],
     "losers": [
       {
         "symbol": "CGON",
         "name": "CG Oncology, Inc.",
-        "pct": -8.76
+        "pct": -12.66
       },
       {
         "symbol": "CPRI",
         "name": "Capri Holdings Limited",
-        "pct": -6.91
+        "pct": -8.2
       },
       {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "pct": -5.54
+        "symbol": "HELP",
+        "name": "Helus Pharma Inc.",
+        "pct": -6.65
       },
       {
         "symbol": "HUBS",
         "name": "HubSpot, Inc.",
-        "pct": -5.54
-      },
-      {
-        "symbol": "DOCU",
-        "name": "DocuSign, Inc.",
-        "pct": -5.34
-      },
-      {
-        "symbol": "CRM",
-        "name": "Salesforce, Inc.",
-        "pct": -5.33
-      },
-      {
-        "symbol": "HUM",
-        "name": "Humana Inc.",
-        "pct": -5.26
-      },
-      {
-        "symbol": "MDB",
-        "name": "MongoDB, Inc.",
-        "pct": -5.01
-      },
-      {
-        "symbol": "WDAY",
-        "name": "Workday, Inc.",
-        "pct": -4.91
+        "pct": -6.44
       },
       {
         "symbol": "APPN",
         "name": "Appian Corporation",
-        "pct": -4.34
+        "pct": -6.41
+      },
+      {
+        "symbol": "CRM",
+        "name": "Salesforce, Inc.",
+        "pct": -6.27
+      },
+      {
+        "symbol": "WGS",
+        "name": "GeneDx Holdings Corp.",
+        "pct": -5.8
+      },
+      {
+        "symbol": "DOCU",
+        "name": "DocuSign, Inc.",
+        "pct": -5.54
+      },
+      {
+        "symbol": "DOCS",
+        "name": "Doximity, Inc.",
+        "pct": -5.43
+      },
+      {
+        "symbol": "MDB",
+        "name": "MongoDB, Inc.",
+        "pct": -5.33
       }
     ],
     "universe": 1272
