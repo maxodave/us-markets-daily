@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-18T16:28:38Z",
+  "updated": "2026-11-18T16:38:40Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.51,
-      "last": 7303.27
+      "pct": -0.44,
+      "last": 7308.21
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.29,
-      "last": 26918.32
+      "pct": -0.14,
+      "last": 26959.6
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.24,
-      "last": 50129.24
+      "pct": -1.14,
+      "last": 50181.29
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.29,
-      "last": 50200.95
+      "pct": -1.31,
+      "last": 50191.23
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "BRBR",
         "name": "BellRing Brands, Inc.",
-        "pct": 21.93
+        "pct": 23.61
       },
       {
         "symbol": "TENB",
         "name": "Tenable Holdings, Inc.",
-        "pct": 12.2
+        "pct": 11.58
       },
       {
         "symbol": "TJX",
         "name": "TJX Companies, Inc. (The)",
-        "pct": 10.42
+        "pct": 10.27
       },
       {
         "symbol": "FSLY",
         "name": "Fastly, Inc.",
-        "pct": 10.19
-      },
-      {
-        "symbol": "QLYS",
-        "name": "Qualys, Inc.",
-        "pct": 9.28
-      },
-      {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": 8.97
+        "pct": 10.06
       },
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": 8.64
+        "pct": 9.53
+      },
+      {
+        "symbol": "QLYS",
+        "name": "Qualys, Inc.",
+        "pct": 8.86
+      },
+      {
+        "symbol": "NTSK",
+        "name": "Netskope, Inc.",
+        "pct": 8.42
       },
       {
         "symbol": "IRTC",
         "name": "iRhythm Holdings, Inc.",
-        "pct": 8.29
-      },
-      {
-        "symbol": "S",
-        "name": "SentinelOne, Inc.",
-        "pct": 8.16
+        "pct": 8.36
       },
       {
         "symbol": "TTWO",
         "name": "Take-Two Interactive Software, Inc.",
-        "pct": 7.72
+        "pct": 8.3
+      },
+      {
+        "symbol": "S",
+        "name": "SentinelOne, Inc.",
+        "pct": 7.57
       }
     ],
     "losers": [
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -13.11
+        "pct": -13.18
       },
       {
         "symbol": "IAG",
         "name": "Iamgold Corporation",
-        "pct": -9.63
-      },
-      {
-        "symbol": "HBM",
-        "name": "Hudbay Minerals Inc.",
-        "pct": -9.52
+        "pct": -10.13
       },
       {
         "symbol": "EXK",
         "name": "Endeavour Silver Corporation",
-        "pct": -9.42
+        "pct": -10.03
+      },
+      {
+        "symbol": "HBM",
+        "name": "Hudbay Minerals Inc.",
+        "pct": -9.83
       },
       {
         "symbol": "SSRM",
         "name": "SSR Mining Inc.",
-        "pct": -9.22
+        "pct": -9.36
       },
       {
-        "symbol": "AEM",
-        "name": "Agnico Eagle Mines Limited",
-        "pct": -8.7
-      },
-      {
-        "symbol": "CVI",
-        "name": "CVR Energy Inc.",
-        "pct": -8.68
-      },
-      {
-        "symbol": "HMY",
-        "name": "Harmony Gold Mining Company Limited",
-        "pct": -8.64
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "pct": -8.98
       },
       {
         "symbol": "AU",
         "name": "AngloGold Ashanti PLC",
-        "pct": -8.61
+        "pct": -8.95
+      },
+      {
+        "symbol": "HMY",
+        "name": "Harmony Gold Mining Company Limited",
+        "pct": -8.84
       },
       {
         "symbol": "EQX",
         "name": "Equinox Gold Corp.",
-        "pct": -8.27
+        "pct": -8.82
+      },
+      {
+        "symbol": "AEM",
+        "name": "Agnico Eagle Mines Limited",
+        "pct": -8.66
       }
     ],
     "universe": 1286
