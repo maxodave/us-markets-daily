@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-18T14:53:44Z",
+  "updated": "2026-11-18T15:11:49Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.1,
-      "last": 7333.25
+      "pct": -0.09,
+      "last": 7334.1
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.1,
-      "last": 27025.06
+      "pct": 0.42,
+      "last": 27109.02
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.74,
-      "last": 50385.32
+      "pct": -0.88,
+      "last": 50311.93
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.83,
-      "last": 50433.97
+      "pct": -0.52,
+      "last": 50595.19
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "BRBR",
         "name": "BellRing Brands, Inc.",
-        "pct": 23.3
-      },
-      {
-        "symbol": "TJX",
-        "name": "TJX Companies, Inc. (The)",
-        "pct": 8.64
+        "pct": 19.44
       },
       {
         "symbol": "USAR",
         "name": "USA Rare Earth, Inc.",
-        "pct": 8.39
+        "pct": 10.32
       },
       {
-        "symbol": "TTWO",
-        "name": "Take-Two Interactive Software, Inc.",
-        "pct": 6.93
-      },
-      {
-        "symbol": "LYFT",
-        "name": "Lyft, Inc.",
-        "pct": 6.79
-      },
-      {
-        "symbol": "MP",
-        "name": "MP Materials Corp.",
-        "pct": 6.34
-      },
-      {
-        "symbol": "BEAM",
-        "name": "Beam Therapeutics Inc.",
-        "pct": 6.13
+        "symbol": "TJX",
+        "name": "TJX Companies, Inc. (The)",
+        "pct": 9.73
       },
       {
         "symbol": "TENB",
         "name": "Tenable Holdings, Inc.",
-        "pct": 5.7
+        "pct": 9.33
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": 5.63
+        "pct": 9.07
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": 8.36
       },
       {
         "symbol": "IRTC",
         "name": "iRhythm Holdings, Inc.",
-        "pct": 5.46
+        "pct": 7.96
+      },
+      {
+        "symbol": "PANW",
+        "name": "Palo Alto Networks, Inc.",
+        "pct": 7.34
+      },
+      {
+        "symbol": "BEAM",
+        "name": "Beam Therapeutics Inc.",
+        "pct": 7.24
+      },
+      {
+        "symbol": "MP",
+        "name": "MP Materials Corp.",
+        "pct": 7.19
       }
     ],
     "losers": [
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -12.43
-      },
-      {
-        "symbol": "BLLN",
-        "name": "BillionToOne, Inc.",
-        "pct": -11.16
+        "pct": -11.65
       },
       {
         "symbol": "HBM",
         "name": "Hudbay Minerals Inc.",
-        "pct": -9.83
-      },
-      {
-        "symbol": "IAG",
-        "name": "Iamgold Corporation",
-        "pct": -8.26
-      },
-      {
-        "symbol": "FCX",
-        "name": "Freeport-McMoRan, Inc.",
-        "pct": -8.01
+        "pct": -8.94
       },
       {
         "symbol": "GLBE",
         "name": "Global-E Online Ltd.",
-        "pct": -7.89
+        "pct": -8.41
+      },
+      {
+        "symbol": "IAG",
+        "name": "Iamgold Corporation",
+        "pct": -8.23
+      },
+      {
+        "symbol": "FCX",
+        "name": "Freeport-McMoRan, Inc.",
+        "pct": -7.79
+      },
+      {
+        "symbol": "PARR",
+        "name": "Par Pacific Holdings, Inc.",
+        "pct": -7.67
       },
       {
         "symbol": "SCCO",
         "name": "Southern Copper Corporation",
-        "pct": -7.68
-      },
-      {
-        "symbol": "SSRM",
-        "name": "SSR Mining Inc.",
-        "pct": -6.96
-      },
-      {
-        "symbol": "AEM",
-        "name": "Agnico Eagle Mines Limited",
-        "pct": -6.89
+        "pct": -7.6
       },
       {
         "symbol": "AU",
         "name": "AngloGold Ashanti PLC",
-        "pct": -6.86
+        "pct": -7.52
+      },
+      {
+        "symbol": "SSRM",
+        "name": "SSR Mining Inc.",
+        "pct": -7.16
+      },
+      {
+        "symbol": "HMY",
+        "name": "Harmony Gold Mining Company Limited",
+        "pct": -7.09
       }
     ],
     "universe": 1286
