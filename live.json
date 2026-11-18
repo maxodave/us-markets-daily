@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-18T17:39:07Z",
+  "updated": "2026-11-18T17:55:54Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.03,
-      "last": 7338.55
+      "pct": -0.08,
+      "last": 7334.71
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.46,
-      "last": 27120.23
+      "pct": 0.4,
+      "last": 27104.04
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.78,
-      "last": 50364.58
+      "pct": -0.84,
+      "last": 50333.31
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "BRBR",
         "name": "BellRing Brands, Inc.",
-        "pct": 21.89
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": 14.65
+        "pct": 22.25
       },
       {
         "symbol": "TENB",
         "name": "Tenable Holdings, Inc.",
-        "pct": 13.65
+        "pct": 14.02
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": 13.57
       },
       {
         "symbol": "TJX",
         "name": "TJX Companies, Inc. (The)",
-        "pct": 10.99
+        "pct": 10.82
       },
       {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "pct": 10.48
+        "pct": 10.76
       },
       {
         "symbol": "NTSK",
         "name": "Netskope, Inc.",
-        "pct": 10.31
+        "pct": 10.46
+      },
+      {
+        "symbol": "AKAM",
+        "name": "Akamai Technologies, Inc.",
+        "pct": 9.43
+      },
+      {
+        "symbol": "GNRC",
+        "name": "Generac Holdlings Inc.",
+        "pct": 9.21
       },
       {
         "symbol": "IRTC",
         "name": "iRhythm Holdings, Inc.",
-        "pct": 9.56
-      },
-      {
-        "symbol": "S",
-        "name": "SentinelOne, Inc.",
-        "pct": 8.91
+        "pct": 9.17
       },
       {
         "symbol": "OKTA",
         "name": "Okta, Inc.",
-        "pct": 8.9
-      },
-      {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": 8.8
+        "pct": 9.05
       }
     ],
     "losers": [
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -11.09
+        "pct": -10.59
       },
       {
         "symbol": "HUM",
         "name": "Humana Inc.",
-        "pct": -8.64
+        "pct": -10.27
       },
       {
         "symbol": "CVI",
         "name": "CVR Energy Inc.",
-        "pct": -8.31
-      },
-      {
-        "symbol": "EXK",
-        "name": "Endeavour Silver Corporation",
-        "pct": -8.26
+        "pct": -8.88
       },
       {
         "symbol": "SSRM",
         "name": "SSR Mining Inc.",
-        "pct": -8.08
+        "pct": -8.55
       },
       {
         "symbol": "IAG",
         "name": "Iamgold Corporation",
-        "pct": -7.93
+        "pct": -8.46
+      },
+      {
+        "symbol": "EXK",
+        "name": "Endeavour Silver Corporation",
+        "pct": -8.35
       },
       {
         "symbol": "HBM",
         "name": "Hudbay Minerals Inc.",
-        "pct": -7.93
+        "pct": -8.28
       },
       {
         "symbol": "AU",
         "name": "AngloGold Ashanti PLC",
-        "pct": -7.67
-      },
-      {
-        "symbol": "HMY",
-        "name": "Harmony Gold Mining Company Limited",
-        "pct": -7.36
+        "pct": -8.21
       },
       {
         "symbol": "AEM",
         "name": "Agnico Eagle Mines Limited",
-        "pct": -7.36
+        "pct": -7.94
+      },
+      {
+        "symbol": "HMY",
+        "name": "Harmony Gold Mining Company Limited",
+        "pct": -7.7
       }
     ],
     "universe": 1286
