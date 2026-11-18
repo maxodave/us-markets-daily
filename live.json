@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T21:22:11Z",
+  "updated": "2026-11-18T14:13:55Z",
   "market_open": false,
   "indices": [
     {
@@ -12,7 +12,7 @@
       "key": "nasdaq100",
       "label": "Nasdaq-100",
       "pct": -0.75,
-      "last": 27001.79
+      "last": 27001.78
     },
     {
       "key": "dow",
@@ -23,8 +23,8 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.44,
-      "last": 50845.81
+      "pct": -0.4,
+      "last": 50654.82
     }
   ],
   "movers": {
@@ -38,6 +38,11 @@
         "symbol": "BILL",
         "name": "BILL Holdings, Inc.",
         "pct": 12.58
+      },
+      {
+        "symbol": "ENR",
+        "name": "Energizer Holdings, Inc.",
+        "pct": 12.57
       },
       {
         "symbol": "SHAZ",
@@ -65,26 +70,31 @@
         "pct": 7.68
       },
       {
+        "symbol": "SA",
+        "name": "Seabridge Gold, Inc.",
+        "pct": 7.27
+      },
+      {
         "symbol": "TWST",
         "name": "Twist Bioscience Corporation",
         "pct": 6.63
-      },
-      {
-        "symbol": "URGN",
-        "name": "UroGen Pharma Ltd.",
-        "pct": 6.3
-      },
-      {
-        "symbol": "ESLT",
-        "name": "Elbit Systems Ltd.",
-        "pct": 5.85
       }
     ],
     "losers": [
       {
+        "symbol": "OMER",
+        "name": "Omeros Corporation",
+        "pct": -16.55
+      },
+      {
         "symbol": "NXT",
         "name": "Nextpower Inc.",
         "pct": -12.13
+      },
+      {
+        "symbol": "IDYA",
+        "name": "IDEAYA Biosciences, Inc.",
+        "pct": -9.75
       },
       {
         "symbol": "SMMT",
@@ -120,18 +130,8 @@
         "symbol": "LMND",
         "name": "Lemonade, Inc.",
         "pct": -7.76
-      },
-      {
-        "symbol": "ENPH",
-        "name": "Enphase Energy, Inc.",
-        "pct": -7.58
-      },
-      {
-        "symbol": "RUN",
-        "name": "Sunrun Inc.",
-        "pct": -7.54
       }
     ],
-    "universe": 1272
+    "universe": 1285
   }
 }
