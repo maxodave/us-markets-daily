@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-18T20:10:35Z",
+  "updated": "2026-11-18T20:20:33Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.21,
-      "last": 7325.27
+      "pct": -0.25,
+      "last": 7321.93
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.34,
-      "last": 27087.54
+      "pct": 0.21,
+      "last": 27054.28
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": -1.05,
-      "last": 50224.53
+      "last": 50227.15
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "BRBR",
         "name": "BellRing Brands, Inc.",
-        "pct": 23.52
+        "pct": 23.8
       },
       {
         "symbol": "TENB",
         "name": "Tenable Holdings, Inc.",
-        "pct": 15.54
+        "pct": 16.24
       },
       {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "pct": 11.96
+        "pct": 12.05
       },
       {
         "symbol": "SAIL",
         "name": "SailPoint, Inc.",
-        "pct": 11.65
-      },
-      {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": 11.64
-      },
-      {
-        "symbol": "FROG",
-        "name": "JFrog Ltd.",
-        "pct": 11.27
-      },
-      {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": 11.01
-      },
-      {
-        "symbol": "OKTA",
-        "name": "Okta, Inc.",
-        "pct": 10.94
+        "pct": 11.94
       },
       {
         "symbol": "WGS",
         "name": "GeneDx Holdings Corp.",
-        "pct": 10.81
+        "pct": 11.69
+      },
+      {
+        "symbol": "OKTA",
+        "name": "Okta, Inc.",
+        "pct": 11.47
+      },
+      {
+        "symbol": "FSLY",
+        "name": "Fastly, Inc.",
+        "pct": 11.13
+      },
+      {
+        "symbol": "NTSK",
+        "name": "Netskope, Inc.",
+        "pct": 10.89
+      },
+      {
+        "symbol": "FROG",
+        "name": "JFrog Ltd.",
+        "pct": 10.75
       },
       {
         "symbol": "S",
         "name": "SentinelOne, Inc.",
-        "pct": 9.72
+        "pct": 9.88
       }
     ],
     "losers": [
       {
         "symbol": "HUM",
         "name": "Humana Inc.",
-        "pct": -11.38
+        "pct": -11.33
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -10.59
-      },
-      {
-        "symbol": "CVI",
-        "name": "CVR Energy Inc.",
-        "pct": -10.23
+        "pct": -10.66
       },
       {
         "symbol": "CBRS",
         "name": "Cerebras Systems Inc.",
-        "pct": -9.39
+        "pct": -10.13
+      },
+      {
+        "symbol": "CVI",
+        "name": "CVR Energy Inc.",
+        "pct": -9.63
       },
       {
         "symbol": "HBM",
         "name": "Hudbay Minerals Inc.",
-        "pct": -8.43
-      },
-      {
-        "symbol": "DK",
-        "name": "Delek US Holdings, Inc.",
-        "pct": -7.79
+        "pct": -8.41
       },
       {
         "symbol": "EXK",
         "name": "Endeavour Silver Corporation",
-        "pct": -7.64
+        "pct": -8.06
+      },
+      {
+        "symbol": "DK",
+        "name": "Delek US Holdings, Inc.",
+        "pct": -7.71
       },
       {
         "symbol": "HMY",
         "name": "Harmony Gold Mining Company Limited",
-        "pct": -7.26
-      },
-      {
-        "symbol": "DINO",
-        "name": "HF Sinclair Corporation",
-        "pct": -7.2
+        "pct": -7.13
       },
       {
         "symbol": "SSRM",
         "name": "SSR Mining Inc.",
-        "pct": -7.1
+        "pct": -7.06
+      },
+      {
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": -6.99
       }
     ],
     "universe": 1286
