@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-18T16:10:22Z",
+  "updated": "2026-11-18T16:28:38Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.28,
-      "last": 7320.31
+      "pct": -0.51,
+      "last": 7303.27
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.22,
-      "last": 27055.57
+      "pct": -0.29,
+      "last": 26918.32
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.12,
-      "last": 50192.19
+      "pct": -1.24,
+      "last": 50129.24
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.03,
-      "last": 50331.7
+      "pct": -1.29,
+      "last": 50200.95
     }
   ],
   "movers": {
@@ -32,12 +32,17 @@
       {
         "symbol": "BRBR",
         "name": "BellRing Brands, Inc.",
-        "pct": 21.58
+        "pct": 21.93
       },
       {
         "symbol": "TENB",
         "name": "Tenable Holdings, Inc.",
-        "pct": 12.75
+        "pct": 12.2
+      },
+      {
+        "symbol": "TJX",
+        "name": "TJX Companies, Inc. (The)",
+        "pct": 10.42
       },
       {
         "symbol": "FSLY",
@@ -45,91 +50,86 @@
         "pct": 10.19
       },
       {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": 10.1
-      },
-      {
-        "symbol": "TJX",
-        "name": "TJX Companies, Inc. (The)",
-        "pct": 10.08
-      },
-      {
         "symbol": "QLYS",
         "name": "Qualys, Inc.",
-        "pct": 9.67
+        "pct": 9.28
       },
       {
-        "symbol": "S",
-        "name": "SentinelOne, Inc.",
-        "pct": 8.79
+        "symbol": "NTSK",
+        "name": "Netskope, Inc.",
+        "pct": 8.97
       },
       {
-        "symbol": "TTWO",
-        "name": "Take-Two Interactive Software, Inc.",
-        "pct": 8.62
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": 8.64
       },
       {
         "symbol": "IRTC",
         "name": "iRhythm Holdings, Inc.",
-        "pct": 7.51
+        "pct": 8.29
       },
       {
-        "symbol": "SAIL",
-        "name": "SailPoint, Inc.",
-        "pct": 7.38
+        "symbol": "S",
+        "name": "SentinelOne, Inc.",
+        "pct": 8.16
+      },
+      {
+        "symbol": "TTWO",
+        "name": "Take-Two Interactive Software, Inc.",
+        "pct": 7.72
       }
     ],
     "losers": [
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -11.46
+        "pct": -13.11
       },
       {
         "symbol": "IAG",
         "name": "Iamgold Corporation",
-        "pct": -8.93
+        "pct": -9.63
       },
       {
         "symbol": "HBM",
         "name": "Hudbay Minerals Inc.",
-        "pct": -8.89
-      },
-      {
-        "symbol": "SSRM",
-        "name": "SSR Mining Inc.",
-        "pct": -8.65
-      },
-      {
-        "symbol": "AU",
-        "name": "AngloGold Ashanti PLC",
-        "pct": -8.47
-      },
-      {
-        "symbol": "AEM",
-        "name": "Agnico Eagle Mines Limited",
-        "pct": -8.4
-      },
-      {
-        "symbol": "PARR",
-        "name": "Par Pacific Holdings, Inc.",
-        "pct": -8.21
-      },
-      {
-        "symbol": "CVI",
-        "name": "CVR Energy Inc.",
-        "pct": -8.08
-      },
-      {
-        "symbol": "HMY",
-        "name": "Harmony Gold Mining Company Limited",
-        "pct": -8.07
+        "pct": -9.52
       },
       {
         "symbol": "EXK",
         "name": "Endeavour Silver Corporation",
-        "pct": -8.06
+        "pct": -9.42
+      },
+      {
+        "symbol": "SSRM",
+        "name": "SSR Mining Inc.",
+        "pct": -9.22
+      },
+      {
+        "symbol": "AEM",
+        "name": "Agnico Eagle Mines Limited",
+        "pct": -8.7
+      },
+      {
+        "symbol": "CVI",
+        "name": "CVR Energy Inc.",
+        "pct": -8.68
+      },
+      {
+        "symbol": "HMY",
+        "name": "Harmony Gold Mining Company Limited",
+        "pct": -8.64
+      },
+      {
+        "symbol": "AU",
+        "name": "AngloGold Ashanti PLC",
+        "pct": -8.61
+      },
+      {
+        "symbol": "EQX",
+        "name": "Equinox Gold Corp.",
+        "pct": -8.27
       }
     ],
     "universe": 1286
