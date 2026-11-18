@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-18T14:29:58Z",
-  "market_open": false,
+  "updated": "2026-11-18T14:53:44Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.07,
-      "last": 7340.53
+      "pct": -0.1,
+      "last": 7333.25
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.75,
-      "last": 27001.78
+      "pct": 0.1,
+      "last": 27025.06
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.68,
-      "last": 50759.42
+      "pct": -0.74,
+      "last": 50385.32
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.51,
-      "last": 50597.5
+      "pct": -0.83,
+      "last": 50433.97
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "BRBR",
         "name": "BellRing Brands, Inc.",
-        "pct": 21.07
+        "pct": 23.3
       },
       {
-        "symbol": "TXT",
-        "name": "Textron Inc.",
-        "pct": 4.94
+        "symbol": "TJX",
+        "name": "TJX Companies, Inc. (The)",
+        "pct": 8.64
       },
       {
-        "symbol": "IRTC",
-        "name": "iRhythm Holdings, Inc.",
-        "pct": 4.0
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": 8.39
       },
       {
-        "symbol": "BURL",
-        "name": "Burlington Stores, Inc.",
-        "pct": 3.7
+        "symbol": "TTWO",
+        "name": "Take-Two Interactive Software, Inc.",
+        "pct": 6.93
       },
       {
-        "symbol": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "pct": 3.58
+        "symbol": "LYFT",
+        "name": "Lyft, Inc.",
+        "pct": 6.79
       },
       {
-        "symbol": "PENG",
-        "name": "Penguin Solutions, Inc.",
-        "pct": 3.45
+        "symbol": "MP",
+        "name": "MP Materials Corp.",
+        "pct": 6.34
       },
       {
-        "symbol": "OMER",
-        "name": "Omeros Corporation",
-        "pct": 3.36
+        "symbol": "BEAM",
+        "name": "Beam Therapeutics Inc.",
+        "pct": 6.13
+      },
+      {
+        "symbol": "TENB",
+        "name": "Tenable Holdings, Inc.",
+        "pct": 5.7
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": 3.32
+        "pct": 5.63
       },
       {
-        "symbol": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "pct": 3.26
-      },
-      {
-        "symbol": "CRTO",
-        "name": "Criteo S.A.",
-        "pct": 3.26
+        "symbol": "IRTC",
+        "name": "iRhythm Holdings, Inc.",
+        "pct": 5.46
       }
     ],
     "losers": [
       {
-        "symbol": "PRMB",
-        "name": "Primo Brands Corporation",
-        "pct": -11.34
+        "symbol": "AAOI",
+        "name": "Applied Optoelectronics, Inc.",
+        "pct": -12.43
       },
       {
-        "symbol": "GLBE",
-        "name": "Global-E Online Ltd.",
-        "pct": -9.67
+        "symbol": "BLLN",
+        "name": "BillionToOne, Inc.",
+        "pct": -11.16
       },
       {
         "symbol": "HBM",
         "name": "Hudbay Minerals Inc.",
-        "pct": -7.19
+        "pct": -9.83
       },
       {
-        "symbol": "MSTR",
-        "name": "Strategy Inc",
-        "pct": -6.34
-      },
-      {
-        "symbol": "SCCO",
-        "name": "Southern Copper Corporation",
-        "pct": -5.73
+        "symbol": "IAG",
+        "name": "Iamgold Corporation",
+        "pct": -8.26
       },
       {
         "symbol": "FCX",
         "name": "Freeport-McMoRan, Inc.",
-        "pct": -5.73
+        "pct": -8.01
       },
       {
-        "symbol": "HMY",
-        "name": "Harmony Gold Mining Company Limited",
-        "pct": -5.4
+        "symbol": "GLBE",
+        "name": "Global-E Online Ltd.",
+        "pct": -7.89
+      },
+      {
+        "symbol": "SCCO",
+        "name": "Southern Copper Corporation",
+        "pct": -7.68
+      },
+      {
+        "symbol": "SSRM",
+        "name": "SSR Mining Inc.",
+        "pct": -6.96
+      },
+      {
+        "symbol": "AEM",
+        "name": "Agnico Eagle Mines Limited",
+        "pct": -6.89
       },
       {
         "symbol": "AU",
         "name": "AngloGold Ashanti PLC",
-        "pct": -5.28
-      },
-      {
-        "symbol": "EQX",
-        "name": "Equinox Gold Corp.",
-        "pct": -5.17
-      },
-      {
-        "symbol": "AGI",
-        "name": "Alamos Gold Inc. Class A",
-        "pct": -4.86
+        "pct": -6.86
       }
     ],
-    "universe": 893
+    "universe": 1286
   }
 }
