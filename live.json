@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-19T16:44:55Z",
+  "updated": "2026-11-19T17:05:25Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.09,
-      "last": 7315.48
+      "pct": -1.5,
+      "last": 7212.63
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.48,
-      "last": 27240.43
+      "pct": -1.56,
+      "last": 26686.57
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.9,
-      "last": 49741.82
+      "pct": -1.98,
+      "last": 49200.96
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.57,
-      "last": 49981.29
+      "pct": -0.65,
+      "last": 49941.25
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "INSM",
         "name": "Insmed Incorporated",
-        "pct": 19.8
+        "pct": 17.42
       },
       {
         "symbol": "BRBR",
         "name": "BellRing Brands, Inc.",
-        "pct": 14.82
-      },
-      {
-        "symbol": "P",
-        "name": "Everpure, Inc.",
-        "pct": 14.28
+        "pct": 13.47
       },
       {
         "symbol": "VVV",
         "name": "Valvoline Inc.",
-        "pct": 13.28
+        "pct": 12.35
       },
       {
         "symbol": "TU",
         "name": "Telus Corporation",
-        "pct": 10.62
+        "pct": 10.51
       },
       {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": 9.81
+        "symbol": "P",
+        "name": "Everpure, Inc.",
+        "pct": 9.68
       },
       {
-        "symbol": "RBRK",
-        "name": "Rubrik, Inc.",
-        "pct": 9.55
-      },
-      {
-        "symbol": "OKTA",
-        "name": "Okta, Inc.",
-        "pct": 9.03
-      },
-      {
-        "symbol": "GRAL",
-        "name": "GRAIL, Inc.",
-        "pct": 8.9
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": 9.58
       },
       {
         "symbol": "ZS",
         "name": "Zscaler, Inc.",
-        "pct": 7.96
+        "pct": 6.42
+      },
+      {
+        "symbol": "NTSK",
+        "name": "Netskope, Inc.",
+        "pct": 6.3
+      },
+      {
+        "symbol": "RBRK",
+        "name": "Rubrik, Inc.",
+        "pct": 6.13
+      },
+      {
+        "symbol": "OKTA",
+        "name": "Okta, Inc.",
+        "pct": 6.06
       }
     ],
     "losers": [
       {
         "symbol": "CLRO",
         "name": "ClearOne, Inc.",
-        "pct": -19.85
+        "pct": -20.14
       },
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -17.08
+        "pct": -19.25
       },
       {
         "symbol": "WSM",
         "name": "Williams-Sonoma, Inc.",
-        "pct": -13.18
-      },
-      {
-        "symbol": "UGI",
-        "name": "UGI Corporation",
-        "pct": -8.52
-      },
-      {
-        "symbol": "KLAR",
-        "name": "Klarna Group plc",
-        "pct": -7.09
-      },
-      {
-        "symbol": "ROAD",
-        "name": "Construction Partners, Inc.",
-        "pct": -6.79
-      },
-      {
-        "symbol": "GLBE",
-        "name": "Global-E Online Ltd.",
-        "pct": -6.44
+        "pct": -13.68
       },
       {
         "symbol": "KLIC",
         "name": "Kulicke and Soffa Industries, Inc.",
-        "pct": -6.31
+        "pct": -9.97
+      },
+      {
+        "symbol": "KLAR",
+        "name": "Klarna Group plc",
+        "pct": -9.83
+      },
+      {
+        "symbol": "UGI",
+        "name": "UGI Corporation",
+        "pct": -9.03
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "pct": -8.8
+      },
+      {
+        "symbol": "ROAD",
+        "name": "Construction Partners, Inc.",
+        "pct": -8.37
+      },
+      {
+        "symbol": "PRIM",
+        "name": "Primoris Services Corporation",
+        "pct": -7.27
       },
       {
         "symbol": "ACHC",
         "name": "Acadia Healthcare Company, Inc.",
-        "pct": -6.11
-      },
-      {
-        "symbol": "CI",
-        "name": "The Cigna Group",
-        "pct": -5.88
+        "pct": -7.0
       }
     ],
     "universe": 1299
