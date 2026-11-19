@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T21:08:24Z",
+  "updated": "2026-11-19T14:17:27Z",
   "market_open": false,
   "indices": [
     {
@@ -23,16 +23,21 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.35,
-      "last": 50173.67
+      "pct": 0.48,
+      "last": 50509.34
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "CLRO",
+        "name": "ClearOne, Inc.",
+        "pct": 46.19
+      },
+      {
         "symbol": "BRBR",
         "name": "BellRing Brands, Inc.",
-        "pct": 24.14
+        "pct": 24.07
       },
       {
         "symbol": "TENB",
@@ -60,6 +65,11 @@
         "pct": 12.07
       },
       {
+        "symbol": "ATEN",
+        "name": "A10 Networks, Inc.",
+        "pct": 10.52
+      },
+      {
         "symbol": "S",
         "name": "SentinelOne, Inc.",
         "pct": 10.35
@@ -68,28 +78,43 @@
         "symbol": "SAIL",
         "name": "SailPoint, Inc.",
         "pct": 10.26
-      },
-      {
-        "symbol": "PANW",
-        "name": "Palo Alto Networks, Inc.",
-        "pct": 9.9
-      },
-      {
-        "symbol": "WGS",
-        "name": "GeneDx Holdings Corp.",
-        "pct": 9.88
       }
     ],
     "losers": [
       {
+        "symbol": "HY",
+        "name": "Hyster-Yale, Inc.",
+        "pct": -41.07
+      },
+      {
+        "symbol": "AGL",
+        "name": "agilon health, inc.",
+        "pct": -21.41
+      },
+      {
+        "symbol": "ARDT",
+        "name": "Ardent Health, Inc.",
+        "pct": -18.87
+      },
+      {
         "symbol": "HUM",
         "name": "Humana Inc.",
-        "pct": -13.04
+        "pct": -12.98
+      },
+      {
+        "symbol": "ERO",
+        "name": "Ero Copper Corp.",
+        "pct": -11.54
       },
       {
         "symbol": "CVI",
         "name": "CVR Energy Inc.",
         "pct": -11.18
+      },
+      {
+        "symbol": "ACIW",
+        "name": "ACI Worldwide, Inc.",
+        "pct": -10.25
       },
       {
         "symbol": "AAOI",
@@ -104,34 +129,9 @@
       {
         "symbol": "DK",
         "name": "Delek US Holdings, Inc.",
-        "pct": -8.62
-      },
-      {
-        "symbol": "HBM",
-        "name": "Hudbay Minerals Inc.",
         "pct": -8.59
-      },
-      {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "pct": -8.37
-      },
-      {
-        "symbol": "EXK",
-        "name": "Endeavour Silver Corporation",
-        "pct": -8.06
-      },
-      {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": -7.61
-      },
-      {
-        "symbol": "ELV",
-        "name": "Elevance Health, Inc.",
-        "pct": -7.58
       }
     ],
-    "universe": 1286
+    "universe": 1299
   }
 }
