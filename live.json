@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-19T20:15:30Z",
+  "updated": "2026-11-19T20:25:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.88,
-      "last": 7184.82
+      "pct": -1.73,
+      "last": 7195.42
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.14,
-      "last": 26530.3
+      "pct": -1.92,
+      "last": 26588.87
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -2.07,
-      "last": 49155.69
+      "pct": -1.93,
+      "last": 49226.12
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "INSM",
         "name": "Insmed Incorporated",
-        "pct": 21.54
+        "pct": 21.06
       },
       {
         "symbol": "TU",
         "name": "Telus Corporation",
-        "pct": 12.67
+        "pct": 12.93
       },
       {
         "symbol": "BRBR",
         "name": "BellRing Brands, Inc.",
-        "pct": 11.24
+        "pct": 10.83
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 10.14
+        "pct": 9.55
       },
       {
         "symbol": "VVV",
         "name": "Valvoline Inc.",
-        "pct": 9.35
-      },
-      {
-        "symbol": "P",
-        "name": "Everpure, Inc.",
-        "pct": 6.33
+        "pct": 9.09
       },
       {
         "symbol": "PURR",
         "name": "Hyperliquid Strategies Inc",
-        "pct": 5.53
+        "pct": 5.97
       },
       {
         "symbol": "PANW",
         "name": "Palo Alto Networks, Inc.",
-        "pct": 5.49
+        "pct": 5.69
+      },
+      {
+        "symbol": "P",
+        "name": "Everpure, Inc.",
+        "pct": 5.64
       },
       {
         "symbol": "OKTA",
         "name": "Okta, Inc.",
-        "pct": 5.34
+        "pct": 5.3
       },
       {
         "symbol": "CPA",
         "name": "Copa Holdings, S.A.",
-        "pct": 5.32
+        "pct": 5.15
       }
     ],
     "losers": [
       {
         "symbol": "CLRO",
         "name": "ClearOne, Inc.",
-        "pct": -20.32
+        "pct": -20.29
       },
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -19.5
+        "pct": -18.77
       },
       {
         "symbol": "WSM",
         "name": "Williams-Sonoma, Inc.",
-        "pct": -14.43
+        "pct": -15.01
       },
       {
         "symbol": "KLAR",
         "name": "Klarna Group plc",
-        "pct": -11.87
-      },
-      {
-        "symbol": "WRBY",
-        "name": "Warby Parker Inc.",
-        "pct": -10.54
+        "pct": -11.45
       },
       {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": -10.19
+        "pct": -11.0
       },
       {
-        "symbol": "AMD",
-        "name": "Advanced Micro Devices, Inc.",
-        "pct": -9.25
+        "symbol": "WRBY",
+        "name": "Warby Parker Inc.",
+        "pct": -10.97
       },
       {
         "symbol": "DAVE",
         "name": "Dave Inc.",
-        "pct": -9.05
-      },
-      {
-        "symbol": "KLIC",
-        "name": "Kulicke and Soffa Industries, Inc.",
-        "pct": -8.89
+        "pct": -9.06
       },
       {
         "symbol": "ZM",
         "name": "Zoom Communications, Inc.",
-        "pct": -8.73
+        "pct": -9.02
+      },
+      {
+        "symbol": "KLIC",
+        "name": "Kulicke and Soffa Industries, Inc.",
+        "pct": -8.72
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "pct": -8.64
       }
     ],
     "universe": 1299
