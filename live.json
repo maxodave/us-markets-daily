@@ -1,135 +1,135 @@
 {
-  "updated": "2026-11-19T14:17:27Z",
-  "market_open": false,
+  "updated": "2026-11-19T14:45:16Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.23,
-      "last": 7323.63
+      "pct": 1.12,
+      "last": 7404.0
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.44,
-      "last": 27116.26
+      "pct": 2.21,
+      "last": 27708.46
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.11,
-      "last": 50198.17
+      "pct": 0.16,
+      "last": 50273.95
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.48,
-      "last": 50509.34
+      "pct": 0.52,
+      "last": 50527.19
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "CLRO",
-        "name": "ClearOne, Inc.",
-        "pct": 46.19
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": 11.82
       },
       {
-        "symbol": "BRBR",
-        "name": "BellRing Brands, Inc.",
-        "pct": 24.07
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": 11.44
       },
       {
-        "symbol": "TENB",
-        "name": "Tenable Holdings, Inc.",
-        "pct": 15.75
+        "symbol": "P",
+        "name": "Everpure, Inc.",
+        "pct": 11.17
       },
       {
-        "symbol": "QLYS",
-        "name": "Qualys, Inc.",
-        "pct": 12.92
+        "symbol": "USAR",
+        "name": "USA Rare Earth, Inc.",
+        "pct": 10.98
       },
       {
-        "symbol": "NTSK",
-        "name": "Netskope, Inc.",
-        "pct": 12.73
+        "symbol": "RBRK",
+        "name": "Rubrik, Inc.",
+        "pct": 10.22
       },
       {
-        "symbol": "FSLY",
-        "name": "Fastly, Inc.",
-        "pct": 12.58
+        "symbol": "HY",
+        "name": "Hyster-Yale, Inc.",
+        "pct": 9.49
       },
       {
-        "symbol": "OKTA",
-        "name": "Okta, Inc.",
-        "pct": 12.07
+        "symbol": "VVV",
+        "name": "Valvoline Inc.",
+        "pct": 9.05
       },
       {
-        "symbol": "ATEN",
-        "name": "A10 Networks, Inc.",
-        "pct": 10.52
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": 8.68
       },
       {
-        "symbol": "S",
-        "name": "SentinelOne, Inc.",
-        "pct": 10.35
+        "symbol": "IONQ",
+        "name": "IonQ, Inc.",
+        "pct": 8.6
       },
       {
-        "symbol": "SAIL",
-        "name": "SailPoint, Inc.",
-        "pct": 10.26
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": 8.6
       }
     ],
     "losers": [
       {
-        "symbol": "HY",
-        "name": "Hyster-Yale, Inc.",
-        "pct": -41.07
+        "symbol": "SLS",
+        "name": "SELLAS Life Sciences Group, Inc.",
+        "pct": -13.21
       },
       {
-        "symbol": "AGL",
-        "name": "agilon health, inc.",
-        "pct": -21.41
+        "symbol": "CLRO",
+        "name": "ClearOne, Inc.",
+        "pct": -8.7
       },
       {
-        "symbol": "ARDT",
-        "name": "Ardent Health, Inc.",
-        "pct": -18.87
+        "symbol": "WSM",
+        "name": "Williams-Sonoma, Inc.",
+        "pct": -7.11
       },
       {
-        "symbol": "HUM",
-        "name": "Humana Inc.",
-        "pct": -12.98
+        "symbol": "CPB",
+        "name": "The Campbell's Company",
+        "pct": -6.42
       },
       {
-        "symbol": "ERO",
-        "name": "Ero Copper Corp.",
-        "pct": -11.54
+        "symbol": "KLIC",
+        "name": "Kulicke and Soffa Industries, Inc.",
+        "pct": -5.99
       },
       {
-        "symbol": "CVI",
-        "name": "CVR Energy Inc.",
-        "pct": -11.18
+        "symbol": "DXYZ",
+        "name": "Destiny Tech100 Inc.",
+        "pct": -5.85
       },
       {
-        "symbol": "ACIW",
-        "name": "ACI Worldwide, Inc.",
-        "pct": -10.25
+        "symbol": "UGI",
+        "name": "UGI Corporation",
+        "pct": -5.6
       },
       {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": -9.8
+        "symbol": "WEN",
+        "name": "Wendy's Company (The)",
+        "pct": -5.5
       },
       {
-        "symbol": "CBRS",
-        "name": "Cerebras Systems Inc.",
-        "pct": -9.63
+        "symbol": "UNF",
+        "name": "Unifirst Corporation",
+        "pct": -5.34
       },
       {
-        "symbol": "DK",
-        "name": "Delek US Holdings, Inc.",
-        "pct": -8.59
+        "symbol": "BCE",
+        "name": "BCE, Inc.",
+        "pct": -5.28
       }
     ],
     "universe": 1299
