@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-19T15:26:22Z",
+  "updated": "2026-11-19T16:00:18Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.04,
-      "last": 7325.17
+      "pct": -0.25,
+      "last": 7304.19
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.6,
-      "last": 27271.16
+      "pct": 0.19,
+      "last": 27161.77
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.54,
-      "last": 49923.86
+      "pct": -0.95,
+      "last": 49716.44
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.48,
-      "last": 50508.52
+      "pct": -0.26,
+      "last": 50137.41
     }
   ],
   "movers": {
@@ -32,51 +32,51 @@
       {
         "symbol": "INSM",
         "name": "Insmed Incorporated",
-        "pct": 16.42
+        "pct": 16.31
       },
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "pct": 12.42
-      },
-      {
-        "symbol": "TU",
-        "name": "Telus Corporation",
-        "pct": 11.67
+        "pct": 13.39
       },
       {
         "symbol": "VVV",
         "name": "Valvoline Inc.",
-        "pct": 10.22
+        "pct": 12.2
       },
       {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": 9.76
+        "symbol": "TU",
+        "name": "Telus Corporation",
+        "pct": 10.75
+      },
+      {
+        "symbol": "BRBR",
+        "name": "BellRing Brands, Inc.",
+        "pct": 10.43
       },
       {
         "symbol": "NTSK",
         "name": "Netskope, Inc.",
-        "pct": 9.23
+        "pct": 9.93
       },
       {
-        "symbol": "CAPR",
-        "name": "Capricor Therapeutics, Inc.",
-        "pct": 8.22
-      },
-      {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": 8.11
+        "symbol": "RBRK",
+        "name": "Rubrik, Inc.",
+        "pct": 8.63
       },
       {
         "symbol": "OKTA",
         "name": "Okta, Inc.",
-        "pct": 7.57
+        "pct": 8.29
       },
       {
-        "symbol": "STX",
-        "name": "Seagate Technology Holdings PLC",
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": 7.36
+      },
+      {
+        "symbol": "WWD",
+        "name": "Woodward, Inc.",
         "pct": 7.27
       }
     ],
@@ -84,52 +84,52 @@
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -15.38
+        "pct": -16.94
       },
       {
         "symbol": "CLRO",
         "name": "ClearOne, Inc.",
-        "pct": -10.09
-      },
-      {
-        "symbol": "UGI",
-        "name": "UGI Corporation",
-        "pct": -8.38
+        "pct": -12.39
       },
       {
         "symbol": "WSM",
         "name": "Williams-Sonoma, Inc.",
-        "pct": -7.53
+        "pct": -9.29
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "pct": -8.2
+      },
+      {
+        "symbol": "UGI",
+        "name": "UGI Corporation",
+        "pct": -7.7
       },
       {
         "symbol": "GLBE",
         "name": "Global-E Online Ltd.",
-        "pct": -6.73
+        "pct": -6.47
       },
       {
-        "symbol": "KLAR",
-        "name": "Klarna Group plc",
-        "pct": -6.02
+        "symbol": "KLIC",
+        "name": "Kulicke and Soffa Industries, Inc.",
+        "pct": -6.0
       },
       {
-        "symbol": "ACIW",
-        "name": "ACI Worldwide, Inc.",
-        "pct": -5.97
+        "symbol": "ACHC",
+        "name": "Acadia Healthcare Company, Inc.",
+        "pct": -5.61
       },
       {
         "symbol": "CPB",
         "name": "The Campbell's Company",
-        "pct": -5.56
+        "pct": -5.58
       },
       {
-        "symbol": "JJSF",
-        "name": "J & J Snack Foods Corp.",
-        "pct": -5.52
-      },
-      {
-        "symbol": "LW",
-        "name": "Lamb Weston Holdings, Inc.",
-        "pct": -5.48
+        "symbol": "UNF",
+        "name": "Unifirst Corporation",
+        "pct": -5.57
       }
     ],
     "universe": 1299
