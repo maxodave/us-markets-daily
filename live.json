@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-19T20:55:38Z",
-  "market_open": true,
+  "updated": "2026-11-19T21:05:34Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.81,
-      "last": 7190.0
+      "pct": -2.0,
+      "last": 7175.83
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.95,
-      "last": 26579.99
+      "pct": -2.18,
+      "last": 26517.05
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -2.01,
-      "last": 49183.21
+      "pct": -2.18,
+      "last": 49097.06
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "INSM",
         "name": "Insmed Incorporated",
-        "pct": 20.45
+        "pct": 20.58
       },
       {
         "symbol": "TU",
         "name": "Telus Corporation",
-        "pct": 13.93
-      },
-      {
-        "symbol": "BRBR",
-        "name": "BellRing Brands, Inc.",
-        "pct": 9.92
+        "pct": 13.41
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 9.77
+        "pct": 12.07
+      },
+      {
+        "symbol": "BRBR",
+        "name": "BellRing Brands, Inc.",
+        "pct": 10.47
       },
       {
         "symbol": "VVV",
         "name": "Valvoline Inc.",
-        "pct": 9.32
+        "pct": 10.43
       },
       {
         "symbol": "PANW",
         "name": "Palo Alto Networks, Inc.",
-        "pct": 6.57
+        "pct": 6.42
       },
       {
         "symbol": "OKTA",
         "name": "Okta, Inc.",
-        "pct": 6.34
+        "pct": 5.75
       },
       {
-        "symbol": "CPA",
-        "name": "Copa Holdings, S.A.",
-        "pct": 6.25
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": 5.66
       },
       {
         "symbol": "NTSK",
         "name": "Netskope, Inc.",
-        "pct": 5.93
+        "pct": 5.51
       },
       {
-        "symbol": "P",
-        "name": "Everpure, Inc.",
-        "pct": 5.61
+        "symbol": "CPA",
+        "name": "Copa Holdings, S.A.",
+        "pct": 5.41
       }
     ],
     "losers": [
       {
         "symbol": "CLRO",
         "name": "ClearOne, Inc.",
-        "pct": -20.05
+        "pct": -20.29
       },
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -18.66
+        "pct": -17.21
       },
       {
         "symbol": "WSM",
         "name": "Williams-Sonoma, Inc.",
-        "pct": -14.7
+        "pct": -15.05
       },
       {
         "symbol": "WRBY",
         "name": "Warby Parker Inc.",
-        "pct": -14.58
-      },
-      {
-        "symbol": "KLAR",
-        "name": "Klarna Group plc",
-        "pct": -11.8
-      },
-      {
-        "symbol": "DAVE",
-        "name": "Dave Inc.",
-        "pct": -11.48
+        "pct": -14.32
       },
       {
         "symbol": "QNT",
         "name": "Quantinuum Inc.",
-        "pct": -11.32
+        "pct": -12.6
+      },
+      {
+        "symbol": "KLAR",
+        "name": "Klarna Group plc",
+        "pct": -12.35
+      },
+      {
+        "symbol": "DAVE",
+        "name": "Dave Inc.",
+        "pct": -11.5
       },
       {
         "symbol": "ZM",
         "name": "Zoom Communications, Inc.",
-        "pct": -9.14
-      },
-      {
-        "symbol": "ACHC",
-        "name": "Acadia Healthcare Company, Inc.",
-        "pct": -8.87
+        "pct": -9.56
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -8.84
+        "pct": -9.39
+      },
+      {
+        "symbol": "TEVA",
+        "name": "Teva Pharmaceutical Industries Limited",
+        "pct": -8.79
       }
     ],
     "universe": 1299
