@@ -1,135 +1,135 @@
 {
-  "updated": "2026-11-19T14:45:16Z",
+  "updated": "2026-11-19T15:08:06Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.12,
-      "last": 7404.0
+      "pct": 0.85,
+      "last": 7384.19
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 2.21,
-      "last": 27708.46
+      "pct": 1.9,
+      "last": 27623.69
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.16,
-      "last": 50273.95
+      "pct": -0.01,
+      "last": 50188.92
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.52,
-      "last": 50527.19
+      "pct": 0.56,
+      "last": 50545.52
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "PURR",
-        "name": "Hyperliquid Strategies Inc",
-        "pct": 11.82
-      },
-      {
         "symbol": "COHR",
         "name": "Coherent Corp.",
-        "pct": 11.44
+        "pct": 12.81
+      },
+      {
+        "symbol": "NTSK",
+        "name": "Netskope, Inc.",
+        "pct": 12.53
       },
       {
         "symbol": "P",
         "name": "Everpure, Inc.",
-        "pct": 11.17
+        "pct": 11.79
       },
       {
-        "symbol": "USAR",
-        "name": "USA Rare Earth, Inc.",
-        "pct": 10.98
+        "symbol": "ALAB",
+        "name": "Astera Labs, Inc.",
+        "pct": 10.61
       },
       {
         "symbol": "RBRK",
         "name": "Rubrik, Inc.",
-        "pct": 10.22
+        "pct": 10.45
       },
       {
-        "symbol": "HY",
-        "name": "Hyster-Yale, Inc.",
-        "pct": 9.49
+        "symbol": "PURR",
+        "name": "Hyperliquid Strategies Inc",
+        "pct": 10.36
       },
       {
         "symbol": "VVV",
         "name": "Valvoline Inc.",
-        "pct": 9.05
+        "pct": 10.32
       },
       {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": 8.68
+        "symbol": "TU",
+        "name": "Telus Corporation",
+        "pct": 10.25
       },
       {
-        "symbol": "IONQ",
-        "name": "IonQ, Inc.",
-        "pct": 8.6
+        "symbol": "STX",
+        "name": "Seagate Technology Holdings PLC",
+        "pct": 10.16
       },
       {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": 8.6
+        "symbol": "CAPR",
+        "name": "Capricor Therapeutics, Inc.",
+        "pct": 10.02
       }
     ],
     "losers": [
       {
         "symbol": "SLS",
         "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -13.21
+        "pct": -12.37
       },
       {
         "symbol": "CLRO",
         "name": "ClearOne, Inc.",
-        "pct": -8.7
-      },
-      {
-        "symbol": "WSM",
-        "name": "Williams-Sonoma, Inc.",
-        "pct": -7.11
-      },
-      {
-        "symbol": "CPB",
-        "name": "The Campbell's Company",
-        "pct": -6.42
-      },
-      {
-        "symbol": "KLIC",
-        "name": "Kulicke and Soffa Industries, Inc.",
-        "pct": -5.99
-      },
-      {
-        "symbol": "DXYZ",
-        "name": "Destiny Tech100 Inc.",
-        "pct": -5.85
+        "pct": -11.59
       },
       {
         "symbol": "UGI",
         "name": "UGI Corporation",
-        "pct": -5.6
+        "pct": -8.15
       },
       {
-        "symbol": "WEN",
-        "name": "Wendy's Company (The)",
-        "pct": -5.5
+        "symbol": "WSM",
+        "name": "Williams-Sonoma, Inc.",
+        "pct": -7.95
+      },
+      {
+        "symbol": "FOUR",
+        "name": "Shift4 Payments, Inc.",
+        "pct": -6.01
+      },
+      {
+        "symbol": "GLBE",
+        "name": "Global-E Online Ltd.",
+        "pct": -5.86
       },
       {
         "symbol": "UNF",
         "name": "Unifirst Corporation",
-        "pct": -5.34
+        "pct": -5.73
+      },
+      {
+        "symbol": "CPB",
+        "name": "The Campbell's Company",
+        "pct": -5.62
       },
       {
         "symbol": "BCE",
         "name": "BCE, Inc.",
         "pct": -5.28
+      },
+      {
+        "symbol": "WEN",
+        "name": "Wendy's Company (The)",
+        "pct": -4.81
       }
     ],
     "universe": 1299
