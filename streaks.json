@@ -1,32 +1,22 @@
 {
-  "updated": "2026-11-21T06:49:55Z",
+  "updated": "2026-11-21T19:02:24Z",
   "session_date": "2026-11-20",
   "universe": 558,
   "up": {
-    "count": 132,
+    "count": 131,
     "by_length": {
       "1": 123,
-      "2": 8,
-      "8+": 1
+      "2": 8
     },
     "top": [
       {
-        "symbol": "AVIO.MI",
-        "name": "Avio",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 9,
-        "cum_pct": 36.93
-      },
-      {
-        "symbol": "STMMI.MI",
-        "name": "STMicroelectronics",
+        "symbol": "SPM.MI",
+        "name": "Saipem",
         "indices": [
           "ftsemib"
         ],
         "days": 2,
-        "cum_pct": 3.44
+        "cum_pct": 5.46
       },
       {
         "symbol": "WRB",
@@ -102,15 +92,6 @@
         "cum_pct": 9.95
       },
       {
-        "symbol": "SPM.MI",
-        "name": "Saipem",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 1,
-        "cum_pct": 4.66
-      },
-      {
         "symbol": "GIS",
         "name": "General Mills",
         "indices": [
@@ -145,22 +126,49 @@
         ],
         "days": 1,
         "cum_pct": 3.17
+      },
+      {
+        "symbol": "CTSH",
+        "name": "Cognizant",
+        "indices": [
+          "sp500"
+        ],
+        "days": 1,
+        "cum_pct": 3.11
+      },
+      {
+        "symbol": "DVA",
+        "name": "DaVita",
+        "indices": [
+          "sp500"
+        ],
+        "days": 1,
+        "cum_pct": 3.0
       }
     ]
   },
   "down": {
     "count": 422,
     "by_length": {
-      "1": 38,
-      "2": 185,
-      "3": 33,
-      "4": 43,
-      "5": 83,
+      "1": 40,
+      "2": 189,
+      "3": 29,
+      "4": 31,
+      "5": 92,
       "6": 13,
-      "7": 24,
-      "8+": 3
+      "7": 23,
+      "8+": 5
     },
     "top": [
+      {
+        "symbol": "STLAM.MI",
+        "name": "Stellantis",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -10,
+        "cum_pct": -22.13
+      },
       {
         "symbol": "SKYD",
         "name": "Skydance",
@@ -171,13 +179,22 @@
         "cum_pct": -28.74
       },
       {
-        "symbol": "STLAM.MI",
-        "name": "Stellantis",
+        "symbol": "FCT.MI",
+        "name": "Fincantieri",
         "indices": [
           "ftsemib"
         ],
-        "days": -9,
-        "cum_pct": -19.34
+        "days": -8,
+        "cum_pct": -14.07
+      },
+      {
+        "symbol": "LTMC.MI",
+        "name": "Lottomatica Group",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -8,
+        "cum_pct": -11.47
       },
       {
         "symbol": "LDOS",
@@ -280,29 +297,10 @@
         ],
         "days": -7,
         "cum_pct": -16.95
-      },
-      {
-        "symbol": "STLD",
-        "name": "Steel Dynamics",
-        "indices": [
-          "sp500"
-        ],
-        "days": -7,
-        "cum_pct": -13.82
-      },
-      {
-        "symbol": "NXPI",
-        "name": "NXP Semiconductors",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -7,
-        "cum_pct": -12.75
       }
     ]
   },
   "flat": {
-    "count": 4
+    "count": 5
   }
 }
