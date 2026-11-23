@@ -1,137 +1,137 @@
 {
-  "updated": "2026-11-20T20:57:29Z",
+  "updated": "2026-11-23T18:15:41Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -3.98,
-      "last": 6891.7
+      "pct": 4.79,
+      "last": 7249.58
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -5.92,
-      "last": 24954.45
+      "pct": 6.8,
+      "last": 26769.21
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -2.15,
-      "last": 48056.09
+      "pct": 3.15,
+      "last": 49700.13
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -2.54,
-      "last": 48703.72
+      "pct": 0.55,
+      "last": 49021.93
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "VXX",
-        "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 16.3
+        "symbol": "KYMR",
+        "name": "Kymera Therapeutics, Inc.",
+        "pct": 34.22
       },
       {
-        "symbol": "GAP",
-        "name": "Gap, Inc. (The)",
-        "pct": 11.34
-      },
-      {
-        "symbol": "GPN",
-        "name": "Global Payments Inc.",
-        "pct": 10.79
-      },
-      {
-        "symbol": "KVYO",
-        "name": "Klaviyo, Inc. Series A",
-        "pct": 4.91
-      },
-      {
-        "symbol": "NTLA",
-        "name": "Intellia Therapeutics, Inc.",
-        "pct": 4.88
-      },
-      {
-        "symbol": "BIPC",
-        "name": "Brookfield Infrastructure Corporation Brookf",
-        "pct": 4.81
-      },
-      {
-        "symbol": "HDB",
-        "name": "HDFC Bank Limited",
-        "pct": 4.52
-      },
-      {
-        "symbol": "HTFL",
-        "name": "Heartflow, Inc.",
-        "pct": 4.3
-      },
-      {
-        "symbol": "GIS",
-        "name": "General Mills, Inc.",
-        "pct": 3.73
-      },
-      {
-        "symbol": "MNDY",
-        "name": "monday.com Ltd.",
-        "pct": 3.73
-      }
-    ],
-    "losers": [
-      {
-        "symbol": "MARA",
-        "name": "MARA Holdings, Inc.",
-        "pct": -19.12
-      },
-      {
-        "symbol": "APLD",
-        "name": "Applied Digital Corporation",
-        "pct": -18.37
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "pct": 30.96
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": -18.36
+        "pct": 24.12
       },
       {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -18.14
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 22.77
       },
       {
-        "symbol": "HUT",
-        "name": "Hut 8 Corp.",
-        "pct": -17.93
-      },
-      {
-        "symbol": "CIFR",
-        "name": "Cipher Digital Inc.",
-        "pct": -17.28
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": 22.17
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": -17.26
+        "pct": 21.46
       },
       {
-        "symbol": "CLS",
-        "name": "Celestica, Inc.",
-        "pct": -16.84
+        "symbol": "APLD",
+        "name": "Applied Digital Corporation",
+        "pct": 21.45
       },
       {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": -16.83
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": 21.15
       },
       {
-        "symbol": "CLSK",
-        "name": "CleanSpark, Inc.",
-        "pct": -16.7
+        "symbol": "NVTS",
+        "name": "Navitas Semiconductor Corporation",
+        "pct": 21.13
+      },
+      {
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": 20.83
       }
     ],
-    "universe": 1314
+    "losers": [
+      {
+        "symbol": "CAPR",
+        "name": "Capricor Therapeutics, Inc.",
+        "pct": -75.89
+      },
+      {
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": -15.98
+      },
+      {
+        "symbol": "CRWD",
+        "name": "CrowdStrike Holdings, Inc.",
+        "pct": -10.49
+      },
+      {
+        "symbol": "CSIQ",
+        "name": "Canadian Solar Inc.",
+        "pct": -8.14
+      },
+      {
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": -6.94
+      },
+      {
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": -4.78
+      },
+      {
+        "symbol": "TU",
+        "name": "Telus Corporation",
+        "pct": -4.34
+      },
+      {
+        "symbol": "TSN",
+        "name": "Tyson Foods, Inc.",
+        "pct": -3.98
+      },
+      {
+        "symbol": "IP",
+        "name": "International Paper Company",
+        "pct": -3.62
+      },
+      {
+        "symbol": "MOH",
+        "name": "Molina Healthcare Inc",
+        "pct": -3.48
+      }
+    ],
+    "universe": 1353
   }
 }
