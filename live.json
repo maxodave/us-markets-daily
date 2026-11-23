@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-23T18:45:38Z",
+  "updated": "2026-11-23T18:56:08Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 4.58,
-      "last": 7235.47
+      "pct": 4.55,
+      "last": 7233.0
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 6.53,
-      "last": 26700.96
+      "pct": 6.46,
+      "last": 26685.59
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": 2.96,
-      "last": 49608.93
+      "last": 49610.4
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "NVDA",
-        "name": "NVIDIA Corporation",
-        "pct": 30.85
-      },
-      {
         "symbol": "KYMR",
         "name": "Kymera Therapeutics, Inc.",
-        "pct": 30.28
+        "pct": 33.39
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "pct": 30.63
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": 23.6
+        "pct": 23.43
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 22.44
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": 21.91
-      },
-      {
-        "symbol": "NVTS",
-        "name": "Navitas Semiconductor Corporation",
-        "pct": 21.79
+        "pct": 22.64
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": 21.58
+        "pct": 21.46
+      },
+      {
+        "symbol": "NVTS",
+        "name": "Navitas Semiconductor Corporation",
+        "pct": 21.38
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": 20.97
       },
       {
         "symbol": "APLD",
         "name": "Applied Digital Corporation",
-        "pct": 21.06
+        "pct": 20.84
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": 20.71
+        "pct": 20.48
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": 20.69
+        "pct": 20.0
       }
     ],
     "losers": [
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": -76.8
+        "pct": -76.94
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -15.18
+        "pct": -14.68
       },
       {
         "symbol": "CRWD",
         "name": "CrowdStrike Holdings, Inc.",
-        "pct": -10.92
+        "pct": -11.38
       },
       {
         "symbol": "CSIQ",
         "name": "Canadian Solar Inc.",
-        "pct": -7.31
+        "pct": -7.89
       },
       {
         "symbol": "ECO",
         "name": "Okeanis Eco Tankers Corp.",
-        "pct": -7.3
-      },
-      {
-        "symbol": "IOVA",
-        "name": "Iovance Biotherapeutics, Inc.",
-        "pct": -5.07
+        "pct": -7.16
       },
       {
         "symbol": "TU",
         "name": "Telus Corporation",
-        "pct": -4.56
+        "pct": -4.6
       },
       {
         "symbol": "BURL",
         "name": "Burlington Stores, Inc.",
-        "pct": -4.32
+        "pct": -4.53
       },
       {
-        "symbol": "TSN",
-        "name": "Tyson Foods, Inc.",
-        "pct": -4.07
+        "symbol": "IOVA",
+        "name": "Iovance Biotherapeutics, Inc.",
+        "pct": -4.28
       },
       {
         "symbol": "IP",
         "name": "International Paper Company",
-        "pct": -3.89
+        "pct": -3.92
+      },
+      {
+        "symbol": "TSN",
+        "name": "Tyson Foods, Inc.",
+        "pct": -3.84
       }
     ],
     "universe": 1353
