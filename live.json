@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-23T20:20:40Z",
+  "updated": "2026-11-23T20:30:43Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 4.8,
-      "last": 7250.51
+      "pct": 4.96,
+      "last": 7261.4
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 6.79,
-      "last": 26768.04
+      "pct": 7.02,
+      "last": 26825.87
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 3.13,
-      "last": 49695.02
+      "pct": 3.24,
+      "last": 49744.04
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "NVDA",
         "name": "NVIDIA Corporation",
-        "pct": 31.31
+        "pct": 32.49
       },
       {
         "symbol": "KYMR",
         "name": "Kymera Therapeutics, Inc.",
-        "pct": 30.48
+        "pct": 31.5
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 23.88
+        "pct": 24.11
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": 23.22
+        "pct": 23.94
       },
       {
         "symbol": "ALAB",
         "name": "Astera Labs, Inc.",
-        "pct": 22.82
+        "pct": 23.22
+      },
+      {
+        "symbol": "CRWV",
+        "name": "CoreWeave, Inc.",
+        "pct": 22.32
       },
       {
         "symbol": "CRDO",
         "name": "Credo Technology Group Holding Ltd",
-        "pct": 21.67
+        "pct": 22.16
       },
       {
         "symbol": "DELL",
         "name": "Dell Technologies Inc.",
-        "pct": 21.59
+        "pct": 22.12
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": 21.51
-      },
-      {
-        "symbol": "SITM",
-        "name": "SiTime Corporation",
-        "pct": 21.32
+        "pct": 22.03
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": 21.25
+        "pct": 21.91
       }
     ],
     "losers": [
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": -77.09
+        "pct": -76.22
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -13.95
+        "pct": -14.43
       },
       {
         "symbol": "CRWD",
         "name": "CrowdStrike Holdings, Inc.",
-        "pct": -9.99
-      },
-      {
-        "symbol": "ECO",
-        "name": "Okeanis Eco Tankers Corp.",
-        "pct": -7.03
+        "pct": -9.54
       },
       {
         "symbol": "CSIQ",
         "name": "Canadian Solar Inc.",
-        "pct": -6.43
+        "pct": -6.89
+      },
+      {
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": -6.86
       },
       {
         "symbol": "TU",
         "name": "Telus Corporation",
-        "pct": -4.47
-      },
-      {
-        "symbol": "SLS",
-        "name": "SELLAS Life Sciences Group, Inc.",
-        "pct": -4.28
-      },
-      {
-        "symbol": "KSS",
-        "name": "Kohl's Corporation",
-        "pct": -4.25
+        "pct": -4.79
       },
       {
         "symbol": "SSMR",
         "name": "Sunshine Silver Mining & Refining Company",
-        "pct": -4.07
+        "pct": -4.69
+      },
+      {
+        "symbol": "KSS",
+        "name": "Kohl's Corporation",
+        "pct": -4.34
       },
       {
         "symbol": "CHRD",
         "name": "Chord Energy Corporation",
-        "pct": -3.95
+        "pct": -4.1
+      },
+      {
+        "symbol": "BJ",
+        "name": "BJ's Wholesale Club Holdings, Inc.",
+        "pct": -3.99
       }
     ],
     "universe": 1353
