@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-23T20:44:37Z",
-  "market_open": true,
+  "updated": "2026-11-23T21:00:08Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 4.91,
-      "last": 7258.34
+      "pct": 4.61,
+      "last": 7237.71
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 7.05,
-      "last": 26832.92
+      "pct": 6.68,
+      "last": 26739.14
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 3.12,
-      "last": 49686.98
+      "pct": 2.98,
+      "last": 49618.88
     },
     {
       "key": "ftsemib",
@@ -32,64 +32,64 @@
       {
         "symbol": "NVDA",
         "name": "NVIDIA Corporation",
-        "pct": 31.96
+        "pct": 31.28
       },
       {
         "symbol": "KYMR",
         "name": "Kymera Therapeutics, Inc.",
-        "pct": 29.64
+        "pct": 30.4
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 23.42
+        "pct": 24.39
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": 23.22
-      },
-      {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": 22.87
+        "pct": 23.82
       },
       {
         "symbol": "ALAB",
         "name": "Astera Labs, Inc.",
-        "pct": 22.79
+        "pct": 23.11
       },
       {
-        "symbol": "SITM",
-        "name": "SiTime Corporation",
-        "pct": 22.15
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": 22.51
       },
       {
         "symbol": "CRWV",
         "name": "CoreWeave, Inc.",
-        "pct": 22.13
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": 21.86
+        "pct": 22.05
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": 21.76
+        "pct": 21.64
+      },
+      {
+        "symbol": "SITM",
+        "name": "SiTime Corporation",
+        "pct": 21.48
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": 21.3
       }
     ],
     "losers": [
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": -75.23
+        "pct": -74.9
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -14.5
+        "pct": -13.86
       },
       {
         "symbol": "CRWD",
@@ -99,37 +99,37 @@
       {
         "symbol": "ECO",
         "name": "Okeanis Eco Tankers Corp.",
-        "pct": -7.07
-      },
-      {
-        "symbol": "CSIQ",
-        "name": "Canadian Solar Inc.",
-        "pct": -6.73
-      },
-      {
-        "symbol": "TU",
-        "name": "Telus Corporation",
-        "pct": -5.06
-      },
-      {
-        "symbol": "KSS",
-        "name": "Kohl's Corporation",
-        "pct": -4.81
+        "pct": -7.14
       },
       {
         "symbol": "SSMR",
         "name": "Sunshine Silver Mining & Refining Company",
-        "pct": -3.92
+        "pct": -6.36
+      },
+      {
+        "symbol": "CSIQ",
+        "name": "Canadian Solar Inc.",
+        "pct": -5.4
+      },
+      {
+        "symbol": "TU",
+        "name": "Telus Corporation",
+        "pct": -5.1
+      },
+      {
+        "symbol": "KSS",
+        "name": "Kohl's Corporation",
+        "pct": -4.74
       },
       {
         "symbol": "IP",
         "name": "International Paper Company",
-        "pct": -3.89
+        "pct": -4.28
       },
       {
-        "symbol": "BJ",
-        "name": "BJ's Wholesale Club Holdings, Inc.",
-        "pct": -3.88
+        "symbol": "ELV",
+        "name": "Elevance Health, Inc.",
+        "pct": -3.78
       }
     ],
     "universe": 1353
