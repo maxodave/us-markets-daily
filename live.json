@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-23T18:25:41Z",
+  "updated": "2026-11-23T18:35:38Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 5.0,
-      "last": 7264.55
+      "pct": 4.85,
+      "last": 7253.67
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 7.05,
-      "last": 26833.27
+      "pct": 6.85,
+      "last": 26781.31
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 3.3,
-      "last": 49772.75
+      "pct": 3.15,
+      "last": 49703.25
     },
     {
       "key": "ftsemib",
@@ -30,71 +30,76 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "NVDA",
-        "name": "NVIDIA Corporation",
-        "pct": 32.2
-      },
-      {
         "symbol": "KYMR",
         "name": "Kymera Therapeutics, Inc.",
-        "pct": 31.12
+        "pct": 32.07
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "pct": 31.71
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": 25.04
+        "pct": 24.83
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 23.99
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": 22.99
+        "pct": 23.27
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": 22.86
+        "pct": 22.46
       },
       {
         "symbol": "APLD",
         "name": "Applied Digital Corporation",
-        "pct": 22.24
+        "pct": 21.96
       },
       {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "pct": 22.06
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": 21.94
       },
       {
         "symbol": "NVTS",
         "name": "Navitas Semiconductor Corporation",
-        "pct": 21.87
+        "pct": 21.63
       },
       {
-        "symbol": "DELL",
-        "name": "Dell Technologies Inc.",
-        "pct": 21.84
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": 21.29
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": 21.13
       }
     ],
     "losers": [
       {
         "symbol": "CAPR",
         "name": "Capricor Therapeutics, Inc.",
-        "pct": -75.89
+        "pct": -76.15
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -16.97
+        "pct": -16.99
       },
       {
         "symbol": "CRWD",
         "name": "CrowdStrike Holdings, Inc.",
-        "pct": -10.21
+        "pct": -10.29
+      },
+      {
+        "symbol": "ECO",
+        "name": "Okeanis Eco Tankers Corp.",
+        "pct": -7.31
       },
       {
         "symbol": "CSIQ",
@@ -102,34 +107,29 @@
         "pct": -7.31
       },
       {
-        "symbol": "ECO",
-        "name": "Okeanis Eco Tankers Corp.",
-        "pct": -7.27
-      },
-      {
         "symbol": "IOVA",
         "name": "Iovance Biotherapeutics, Inc.",
-        "pct": -4.73
+        "pct": -4.86
+      },
+      {
+        "symbol": "BURL",
+        "name": "Burlington Stores, Inc.",
+        "pct": -4.83
       },
       {
         "symbol": "TU",
         "name": "Telus Corporation",
-        "pct": -4.15
+        "pct": -4.61
       },
       {
         "symbol": "TSN",
         "name": "Tyson Foods, Inc.",
-        "pct": -3.94
+        "pct": -4.07
       },
       {
         "symbol": "MOH",
         "name": "Molina Healthcare Inc",
-        "pct": -3.44
-      },
-      {
-        "symbol": "IP",
-        "name": "International Paper Company",
-        "pct": -3.41
+        "pct": -3.69
       }
     ],
     "universe": 1353
