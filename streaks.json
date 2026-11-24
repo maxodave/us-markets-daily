@@ -1,14 +1,33 @@
 {
-  "updated": "2026-11-23T02:00:03Z",
-  "session_date": "2026-11-20",
+  "updated": "2026-11-24T05:34:06Z",
+  "session_date": "2026-11-23",
   "universe": 558,
   "up": {
-    "count": 131,
+    "count": 440,
     "by_length": {
-      "1": 123,
-      "2": 8
+      "1": 370,
+      "2": 69,
+      "3": 1
     },
     "top": [
+      {
+        "symbol": "EG",
+        "name": "Everest Group",
+        "indices": [
+          "sp500"
+        ],
+        "days": 3,
+        "cum_pct": 0.73
+      },
+      {
+        "symbol": "FICO",
+        "name": "Fair Isaac",
+        "indices": [
+          "sp500"
+        ],
+        "days": 2,
+        "cum_pct": 6.75
+      },
       {
         "symbol": "SPM.MI",
         "name": "Saipem",
@@ -19,104 +38,13 @@
         "cum_pct": 5.46
       },
       {
-        "symbol": "WRB",
-        "name": "W. R. Berkley Corporation",
+        "symbol": "IFF",
+        "name": "International Flavors & Fragrances",
         "indices": [
           "sp500"
         ],
         "days": 2,
-        "cum_pct": 1.79
-      },
-      {
-        "symbol": "COP",
-        "name": "ConocoPhillips",
-        "indices": [
-          "sp500"
-        ],
-        "days": 2,
-        "cum_pct": 1.28
-      },
-      {
-        "symbol": "PGR",
-        "name": "Progressive Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": 2,
-        "cum_pct": 1.28
-      },
-      {
-        "symbol": "CVX",
-        "name": "Chevron Corporation",
-        "indices": [
-          "sp500",
-          "dow"
-        ],
-        "days": 2,
-        "cum_pct": 1.21
-      },
-      {
-        "symbol": "EG",
-        "name": "Everest Group",
-        "indices": [
-          "sp500"
-        ],
-        "days": 2,
-        "cum_pct": 0.46
-      },
-      {
-        "symbol": "OXY",
-        "name": "Occidental Petroleum",
-        "indices": [
-          "sp500"
-        ],
-        "days": 2,
-        "cum_pct": 0.26
-      },
-      {
-        "symbol": "ALL",
-        "name": "Allstate",
-        "indices": [
-          "sp500"
-        ],
-        "days": 2,
-        "cum_pct": 0.15
-      },
-      {
-        "symbol": "GPN",
-        "name": "Global Payments",
-        "indices": [
-          "sp500"
-        ],
-        "days": 1,
-        "cum_pct": 9.95
-      },
-      {
-        "symbol": "GIS",
-        "name": "General Mills",
-        "indices": [
-          "sp500"
-        ],
-        "days": 1,
-        "cum_pct": 3.65
-      },
-      {
-        "symbol": "MKC",
-        "name": "McCormick & Company",
-        "indices": [
-          "sp500"
-        ],
-        "days": 1,
-        "cum_pct": 3.43
-      },
-      {
-        "symbol": "HCA",
-        "name": "HCA Healthcare",
-        "indices": [
-          "sp500"
-        ],
-        "days": 1,
-        "cum_pct": 3.31
+        "cum_pct": 5.38
       },
       {
         "symbol": "CSGP",
@@ -124,8 +52,73 @@
         "indices": [
           "sp500"
         ],
-        "days": 1,
-        "cum_pct": 3.17
+        "days": 2,
+        "cum_pct": 5.23
+      },
+      {
+        "symbol": "ADSK",
+        "name": "Autodesk",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 2,
+        "cum_pct": 4.88
+      },
+      {
+        "symbol": "UHS",
+        "name": "Universal Health Services",
+        "indices": [
+          "sp500"
+        ],
+        "days": 2,
+        "cum_pct": 4.77
+      },
+      {
+        "symbol": "MKC",
+        "name": "McCormick & Company",
+        "indices": [
+          "sp500"
+        ],
+        "days": 2,
+        "cum_pct": 4.45
+      },
+      {
+        "symbol": "DOC",
+        "name": "Healthpeak Properties",
+        "indices": [
+          "sp500"
+        ],
+        "days": 2,
+        "cum_pct": 4.27
+      },
+      {
+        "symbol": "HCA",
+        "name": "HCA Healthcare",
+        "indices": [
+          "sp500"
+        ],
+        "days": 2,
+        "cum_pct": 4.26
+      },
+      {
+        "symbol": "SYY",
+        "name": "Sysco",
+        "indices": [
+          "sp500"
+        ],
+        "days": 2,
+        "cum_pct": 4.08
+      },
+      {
+        "symbol": "IBM",
+        "name": "IBM",
+        "indices": [
+          "sp500",
+          "dow"
+        ],
+        "days": 2,
+        "cum_pct": 4.07
       },
       {
         "symbol": "CTSH",
@@ -133,31 +126,40 @@
         "indices": [
           "sp500"
         ],
-        "days": 1,
-        "cum_pct": 3.11
+        "days": 2,
+        "cum_pct": 4.01
       },
       {
-        "symbol": "DVA",
-        "name": "DaVita",
+        "symbol": "BIIB",
+        "name": "Biogen",
         "indices": [
           "sp500"
         ],
-        "days": 1,
-        "cum_pct": 3.0
+        "days": 2,
+        "cum_pct": 3.88
+      },
+      {
+        "symbol": "HPQ",
+        "name": "HP Inc.",
+        "indices": [
+          "sp500"
+        ],
+        "days": 2,
+        "cum_pct": 3.88
       }
     ]
   },
   "down": {
-    "count": 422,
+    "count": 115,
     "by_length": {
-      "1": 40,
-      "2": 189,
-      "3": 29,
-      "4": 31,
-      "5": 92,
-      "6": 13,
-      "7": 23,
-      "8+": 5
+      "1": 63,
+      "2": 8,
+      "3": 9,
+      "4": 4,
+      "5": 14,
+      "6": 12,
+      "7": 2,
+      "8+": 3
     },
     "top": [
       {
@@ -168,15 +170,6 @@
         ],
         "days": -10,
         "cum_pct": -22.13
-      },
-      {
-        "symbol": "SKYD",
-        "name": "Skydance",
-        "indices": [
-          "sp500"
-        ],
-        "days": -9,
-        "cum_pct": -28.74
       },
       {
         "symbol": "FCT.MI",
@@ -197,110 +190,117 @@
         "cum_pct": -11.47
       },
       {
-        "symbol": "LDOS",
-        "name": "Leidos",
-        "indices": [
-          "sp500"
-        ],
-        "days": -8,
-        "cum_pct": -10.95
-      },
-      {
-        "symbol": "MSTR",
-        "name": "MicroStrategy",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": -7,
-        "cum_pct": -36.41
-      },
-      {
-        "symbol": "BE",
-        "name": "Bloom Energy",
+        "symbol": "DOW",
+        "name": "Dow Inc.",
         "indices": [
           "sp500"
         ],
         "days": -7,
-        "cum_pct": -32.02
+        "cum_pct": -13.73
       },
       {
-        "symbol": "RKLB",
-        "name": "Rocket Lab",
+        "symbol": "UNI.MI",
+        "name": "Unipol",
         "indices": [
-          "nasdaq100"
+          "ftsemib"
         ],
         "days": -7,
-        "cum_pct": -31.34
+        "cum_pct": -7.5
       },
       {
-        "symbol": "NVDA",
-        "name": "Nvidia",
-        "indices": [
-          "sp500",
-          "dow",
-          "nasdaq100"
-        ],
-        "days": -7,
-        "cum_pct": -27.74
-      },
-      {
-        "symbol": "MU",
-        "name": "Micron Technology",
+        "symbol": "SNDK",
+        "name": "Sandisk",
         "indices": [
           "sp500",
           "nasdaq100"
         ],
-        "days": -7,
-        "cum_pct": -26.72
+        "days": -6,
+        "cum_pct": -22.76
       },
       {
-        "symbol": "HOOD",
-        "name": "Robinhood Markets",
+        "symbol": "LYB",
+        "name": "LyondellBasell",
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -26.5
+        "days": -6,
+        "cum_pct": -15.04
       },
       {
-        "symbol": "COIN",
-        "name": "Coinbase",
+        "symbol": "MPC",
+        "name": "Marathon Petroleum",
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -25.17
+        "days": -6,
+        "cum_pct": -13.74
       },
       {
-        "symbol": "ORCL",
-        "name": "Oracle Corporation",
+        "symbol": "VLO",
+        "name": "Valero Energy",
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -21.18
+        "days": -6,
+        "cum_pct": -13.28
       },
       {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise",
+        "symbol": "FDXF",
+        "name": "FedEx Freight",
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -18.59
+        "days": -6,
+        "cum_pct": -12.78
       },
       {
-        "symbol": "ALB",
-        "name": "Albemarle Corporation",
+        "symbol": "PSX",
+        "name": "Phillips 66",
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -16.95
+        "days": -6,
+        "cum_pct": -10.45
+      },
+      {
+        "symbol": "TIT.MI",
+        "name": "Telecom Italia",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -6,
+        "cum_pct": -10.31
+      },
+      {
+        "symbol": "EXE",
+        "name": "Expand Energy",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -8.74
+      },
+      {
+        "symbol": "PM",
+        "name": "Philip Morris International",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -8.27
+      },
+      {
+        "symbol": "EOG",
+        "name": "EOG Resources",
+        "indices": [
+          "sp500"
+        ],
+        "days": -6,
+        "cum_pct": -8.2
       }
     ]
   },
   "flat": {
-    "count": 5
+    "count": 3
   }
 }
