@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-24T16:15:41Z",
+  "updated": "2026-11-24T16:25:34Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.27,
-      "last": 7145.2
+      "pct": -0.85,
+      "last": 7175.34
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.98,
-      "last": 25947.51
+      "pct": -2.48,
+      "last": 26082.56
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.03,
-      "last": 49587.06
+      "pct": 0.3,
+      "last": 49746.87
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.69,
-      "last": 48156.23
+      "pct": -1.8,
+      "last": 48100.98
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ANF",
         "name": "Abercrombie & Fitch Company",
-        "pct": 23.32
-      },
-      {
-        "symbol": "COGT",
-        "name": "Cogent Biosciences, Inc.",
-        "pct": 18.46
+        "pct": 24.71
       },
       {
         "symbol": "AMTM",
         "name": "Amentum Holdings, Inc.",
-        "pct": 17.34
+        "pct": 20.0
       },
       {
-        "symbol": "DKS",
-        "name": "Dick's Sporting Goods Inc",
-        "pct": 15.62
-      },
-      {
-        "symbol": "KSS",
-        "name": "Kohl's Corporation",
-        "pct": 15.24
-      },
-      {
-        "symbol": "INSM",
-        "name": "Insmed Incorporated",
-        "pct": 14.2
+        "symbol": "COGT",
+        "name": "Cogent Biosciences, Inc.",
+        "pct": 18.82
       },
       {
         "symbol": "CUE",
         "name": "Cue Biopharma, Inc.",
-        "pct": 13.91
+        "pct": 17.22
+      },
+      {
+        "symbol": "KSS",
+        "name": "Kohl's Corporation",
+        "pct": 17.08
+      },
+      {
+        "symbol": "DKS",
+        "name": "Dick's Sporting Goods Inc",
+        "pct": 14.8
+      },
+      {
+        "symbol": "INSM",
+        "name": "Insmed Incorporated",
+        "pct": 14.18
       },
       {
         "symbol": "MMED",
         "name": "MiniMed Group, Inc.",
-        "pct": 12.5
+        "pct": 13.34
       },
       {
-        "symbol": "DLTR",
-        "name": "Dollar Tree, Inc.",
-        "pct": 11.98
+        "symbol": "ERAS",
+        "name": "Erasca, Inc.",
+        "pct": 13.03
       },
       {
-        "symbol": "KYMR",
-        "name": "Kymera Therapeutics, Inc.",
-        "pct": 10.88
+        "symbol": "PINS",
+        "name": "Pinterest, Inc.",
+        "pct": 11.83
       }
     ],
     "losers": [
       {
         "symbol": "BNAI",
         "name": "Brand Engagement Network Inc.",
-        "pct": -22.68
+        "pct": -22.54
       },
       {
         "symbol": "ADI",
         "name": "Analog Devices, Inc.",
-        "pct": -19.28
+        "pct": -18.51
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "pct": -17.35
+        "pct": -16.68
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -17.27
+        "pct": -16.58
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -16.95
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -16.09
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": -15.88
+        "pct": -16.23
       },
       {
         "symbol": "HPE",
         "name": "Hewlett Packard Enterprise Company",
-        "pct": -15.87
+        "pct": -14.94
       },
       {
-        "symbol": "ALAB",
-        "name": "Astera Labs, Inc.",
-        "pct": -15.53
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -14.45
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -14.43
+      },
+      {
+        "symbol": "CIFR",
+        "name": "Cipher Digital Inc.",
+        "pct": -13.79
       },
       {
         "symbol": "APLD",
         "name": "Applied Digital Corporation",
-        "pct": -15.23
+        "pct": -13.78
       }
     ],
     "universe": 1318
