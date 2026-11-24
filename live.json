@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-24T15:25:37Z",
+  "updated": "2026-11-24T15:35:32Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.92,
-      "last": 7170.24
+      "pct": -0.77,
+      "last": 7181.24
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.27,
-      "last": 26137.73
+      "pct": -2.16,
+      "last": 26168.45
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.15,
-      "last": 49673.53
+      "pct": 0.25,
+      "last": 49721.96
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.2,
-      "last": 48397.39
+      "pct": -1.47,
+      "last": 48263.25
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ANF",
         "name": "Abercrombie & Fitch Company",
-        "pct": 24.29
+        "pct": 26.38
       },
       {
         "symbol": "CUE",
         "name": "Cue Biopharma, Inc.",
-        "pct": 22.11
-      },
-      {
-        "symbol": "COGT",
-        "name": "Cogent Biosciences, Inc.",
-        "pct": 15.3
+        "pct": 22.14
       },
       {
         "symbol": "AMTM",
         "name": "Amentum Holdings, Inc.",
-        "pct": 15.11
-      },
-      {
-        "symbol": "INSM",
-        "name": "Insmed Incorporated",
-        "pct": 14.28
+        "pct": 16.61
       },
       {
         "symbol": "DKS",
         "name": "Dick's Sporting Goods Inc",
-        "pct": 14.27
+        "pct": 14.91
+      },
+      {
+        "symbol": "COGT",
+        "name": "Cogent Biosciences, Inc.",
+        "pct": 14.66
+      },
+      {
+        "symbol": "INSM",
+        "name": "Insmed Incorporated",
+        "pct": 14.25
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 12.64
+        "pct": 13.7
       },
       {
         "symbol": "GLOB",
         "name": "Globant S.A.",
-        "pct": 11.74
+        "pct": 12.65
       },
       {
         "symbol": "DLTR",
         "name": "Dollar Tree, Inc.",
-        "pct": 10.7
+        "pct": 11.08
       },
       {
         "symbol": "PINS",
         "name": "Pinterest, Inc.",
-        "pct": 10.41
+        "pct": 10.56
       }
     ],
     "losers": [
       {
         "symbol": "BNAI",
         "name": "Brand Engagement Network Inc.",
-        "pct": -23.64
+        "pct": -28.07
       },
       {
         "symbol": "ADI",
         "name": "Analog Devices, Inc.",
-        "pct": -17.25
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": -16.11
-      },
-      {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise Company",
-        "pct": -15.41
+        "pct": -16.36
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -15.33
+        "pct": -15.73
       },
       {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": -13.9
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": -15.68
       },
       {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -13.53
-      },
-      {
-        "symbol": "FORM",
-        "name": "FormFactor, Inc.",
-        "pct": -13.41
-      },
-      {
-        "symbol": "DELL",
-        "name": "Dell Technologies Inc.",
-        "pct": -13.11
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise Company",
+        "pct": -15.04
       },
       {
         "symbol": "ALAB",
         "name": "Astera Labs, Inc.",
-        "pct": -13.02
+        "pct": -13.14
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -12.94
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -12.93
+      },
+      {
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -12.84
+      },
+      {
+        "symbol": "SITM",
+        "name": "SiTime Corporation",
+        "pct": -12.55
       }
     ],
     "universe": 1318
