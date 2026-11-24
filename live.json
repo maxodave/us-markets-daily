@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-24T19:02:46Z",
+  "updated": "2026-11-24T19:18:30Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.63,
-      "last": 7191.56
+      "pct": -0.47,
+      "last": 7203.03
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.05,
-      "last": 26196.77
+      "pct": -1.84,
+      "last": 26253.01
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.71,
-      "last": 49949.81
+      "pct": 0.82,
+      "last": 50006.83
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "CUE",
         "name": "Cue Biopharma, Inc.",
-        "pct": 29.39
+        "pct": 27.13
       },
       {
         "symbol": "ANF",
         "name": "Abercrombie & Fitch Company",
-        "pct": 23.61
+        "pct": 23.54
       },
       {
         "symbol": "AMTM",
         "name": "Amentum Holdings, Inc.",
-        "pct": 20.22
+        "pct": 20.63
       },
       {
         "symbol": "COGT",
         "name": "Cogent Biosciences, Inc.",
-        "pct": 19.25
+        "pct": 19.39
       },
       {
         "symbol": "DKS",
         "name": "Dick's Sporting Goods Inc",
-        "pct": 17.21
+        "pct": 17.72
       },
       {
         "symbol": "CELC",
         "name": "Celcuity Inc.",
-        "pct": 15.82
+        "pct": 15.96
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 15.54
+        "pct": 15.09
       },
       {
         "symbol": "INSM",
         "name": "Insmed Incorporated",
-        "pct": 14.23
-      },
-      {
-        "symbol": "MMED",
-        "name": "MiniMed Group, Inc.",
-        "pct": 14.03
+        "pct": 14.2
       },
       {
         "symbol": "KYMR",
         "name": "Kymera Therapeutics, Inc.",
+        "pct": 13.99
+      },
+      {
+        "symbol": "MMED",
+        "name": "MiniMed Group, Inc.",
         "pct": 13.55
       }
     ],
     "losers": [
       {
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": -16.97
+      },
+      {
         "symbol": "ADI",
         "name": "Analog Devices, Inc.",
-        "pct": -17.14
+        "pct": -16.72
       },
       {
         "symbol": "BNAI",
         "name": "Brand Engagement Network Inc.",
-        "pct": -17.07
-      },
-      {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": -16.76
-      },
-      {
-        "symbol": "DY",
-        "name": "Dycom Industries, Inc.",
-        "pct": -16.17
+        "pct": -16.39
       },
       {
         "symbol": "HPE",
         "name": "Hewlett Packard Enterprise Company",
-        "pct": -16.17
+        "pct": -15.81
+      },
+      {
+        "symbol": "DY",
+        "name": "Dycom Industries, Inc.",
+        "pct": -15.67
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -16.12
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": -15.15
+        "pct": -15.33
       },
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": -14.85
+        "pct": -15.07
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -14.42
       },
       {
         "symbol": "SHAZ",
         "name": "SharonAI Holdings, Inc.",
-        "pct": -14.53
+        "pct": -14.12
       },
       {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": -12.73
+        "symbol": "SITM",
+        "name": "SiTime Corporation",
+        "pct": -12.33
       }
     ],
     "universe": 1318
