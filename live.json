@@ -1,137 +1,137 @@
 {
-  "updated": "2026-11-23T21:00:08Z",
-  "market_open": false,
+  "updated": "2026-11-24T15:25:37Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 4.61,
-      "last": 7237.71
+      "pct": -0.92,
+      "last": 7170.24
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 6.68,
-      "last": 26739.14
+      "pct": -2.27,
+      "last": 26137.73
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 2.98,
-      "last": 49618.88
+      "pct": 0.15,
+      "last": 49673.53
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 0.55,
-      "last": 49021.93
+      "pct": -1.2,
+      "last": 48397.39
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "NVDA",
-        "name": "NVIDIA Corporation",
-        "pct": 31.28
+        "symbol": "ANF",
+        "name": "Abercrombie & Fitch Company",
+        "pct": 24.29
       },
       {
-        "symbol": "KYMR",
-        "name": "Kymera Therapeutics, Inc.",
-        "pct": 30.4
+        "symbol": "CUE",
+        "name": "Cue Biopharma, Inc.",
+        "pct": 22.11
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 24.39
+        "symbol": "COGT",
+        "name": "Cogent Biosciences, Inc.",
+        "pct": 15.3
       },
       {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": 23.82
+        "symbol": "AMTM",
+        "name": "Amentum Holdings, Inc.",
+        "pct": 15.11
       },
       {
-        "symbol": "ALAB",
-        "name": "Astera Labs, Inc.",
-        "pct": 23.11
+        "symbol": "INSM",
+        "name": "Insmed Incorporated",
+        "pct": 14.28
       },
       {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": 22.51
-      },
-      {
-        "symbol": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "pct": 22.05
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": 21.64
-      },
-      {
-        "symbol": "SITM",
-        "name": "SiTime Corporation",
-        "pct": 21.48
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": 21.3
-      }
-    ],
-    "losers": [
-      {
-        "symbol": "CAPR",
-        "name": "Capricor Therapeutics, Inc.",
-        "pct": -74.9
-      },
-      {
-        "symbol": "VXX",
-        "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -13.86
-      },
-      {
-        "symbol": "CRWD",
-        "name": "CrowdStrike Holdings, Inc.",
-        "pct": -8.93
-      },
-      {
-        "symbol": "ECO",
-        "name": "Okeanis Eco Tankers Corp.",
-        "pct": -7.14
-      },
-      {
-        "symbol": "SSMR",
-        "name": "Sunshine Silver Mining & Refining Company",
-        "pct": -6.36
-      },
-      {
-        "symbol": "CSIQ",
-        "name": "Canadian Solar Inc.",
-        "pct": -5.4
-      },
-      {
-        "symbol": "TU",
-        "name": "Telus Corporation",
-        "pct": -5.1
+        "symbol": "DKS",
+        "name": "Dick's Sporting Goods Inc",
+        "pct": 14.27
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": -4.74
+        "pct": 12.64
       },
       {
-        "symbol": "IP",
-        "name": "International Paper Company",
-        "pct": -4.28
+        "symbol": "GLOB",
+        "name": "Globant S.A.",
+        "pct": 11.74
       },
       {
-        "symbol": "ELV",
-        "name": "Elevance Health, Inc.",
-        "pct": -3.78
+        "symbol": "DLTR",
+        "name": "Dollar Tree, Inc.",
+        "pct": 10.7
+      },
+      {
+        "symbol": "PINS",
+        "name": "Pinterest, Inc.",
+        "pct": 10.41
       }
     ],
-    "universe": 1353
+    "losers": [
+      {
+        "symbol": "BNAI",
+        "name": "Brand Engagement Network Inc.",
+        "pct": -23.64
+      },
+      {
+        "symbol": "ADI",
+        "name": "Analog Devices, Inc.",
+        "pct": -17.25
+      },
+      {
+        "symbol": "SMTC",
+        "name": "Semtech Corporation",
+        "pct": -16.11
+      },
+      {
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise Company",
+        "pct": -15.41
+      },
+      {
+        "symbol": "DY",
+        "name": "Dycom Industries, Inc.",
+        "pct": -15.33
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -13.9
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -13.53
+      },
+      {
+        "symbol": "FORM",
+        "name": "FormFactor, Inc.",
+        "pct": -13.41
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "pct": -13.11
+      },
+      {
+        "symbol": "ALAB",
+        "name": "Astera Labs, Inc.",
+        "pct": -13.02
+      }
+    ],
+    "universe": 1318
   }
 }
