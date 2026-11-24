@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-24T16:05:43Z",
+  "updated": "2026-11-24T16:15:41Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.28,
-      "last": 7144.03
+      "pct": -1.27,
+      "last": 7145.2
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.92,
-      "last": 25965.99
+      "pct": -2.98,
+      "last": 25947.51
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.14,
-      "last": 49531.66
+      "pct": -0.03,
+      "last": 49587.06
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.77,
-      "last": 48115.56
+      "pct": -1.69,
+      "last": 48156.23
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ANF",
         "name": "Abercrombie & Fitch Company",
-        "pct": 23.29
+        "pct": 23.32
       },
       {
         "symbol": "COGT",
         "name": "Cogent Biosciences, Inc.",
-        "pct": 17.57
+        "pct": 18.46
       },
       {
         "symbol": "AMTM",
         "name": "Amentum Holdings, Inc.",
-        "pct": 17.24
-      },
-      {
-        "symbol": "CUE",
-        "name": "Cue Biopharma, Inc.",
-        "pct": 16.7
+        "pct": 17.34
       },
       {
         "symbol": "DKS",
         "name": "Dick's Sporting Goods Inc",
-        "pct": 15.29
-      },
-      {
-        "symbol": "INSM",
-        "name": "Insmed Incorporated",
-        "pct": 14.23
+        "pct": 15.62
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 14.22
+        "pct": 15.24
       },
       {
-        "symbol": "DLTR",
-        "name": "Dollar Tree, Inc.",
-        "pct": 12.33
+        "symbol": "INSM",
+        "name": "Insmed Incorporated",
+        "pct": 14.2
+      },
+      {
+        "symbol": "CUE",
+        "name": "Cue Biopharma, Inc.",
+        "pct": 13.91
       },
       {
         "symbol": "MMED",
         "name": "MiniMed Group, Inc.",
-        "pct": 11.3
+        "pct": 12.5
       },
       {
-        "symbol": "PINS",
-        "name": "Pinterest, Inc.",
-        "pct": 10.59
+        "symbol": "DLTR",
+        "name": "Dollar Tree, Inc.",
+        "pct": 11.98
+      },
+      {
+        "symbol": "KYMR",
+        "name": "Kymera Therapeutics, Inc.",
+        "pct": 10.88
       }
     ],
     "losers": [
       {
         "symbol": "BNAI",
         "name": "Brand Engagement Network Inc.",
-        "pct": -21.59
+        "pct": -22.68
       },
       {
         "symbol": "ADI",
         "name": "Analog Devices, Inc.",
-        "pct": -18.62
+        "pct": -19.28
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "pct": -17.55
+        "pct": -17.35
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -16.55
+        "pct": -17.27
       },
       {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -16.18
+        "pct": -16.95
       },
       {
         "symbol": "IREN",
         "name": "IREN Limited",
-        "pct": -15.47
+        "pct": -16.09
       },
       {
         "symbol": "MXL",
         "name": "MaxLinear, Inc",
-        "pct": -15.28
-      },
-      {
-        "symbol": "ALAB",
-        "name": "Astera Labs, Inc.",
-        "pct": -15.14
+        "pct": -15.88
       },
       {
         "symbol": "HPE",
         "name": "Hewlett Packard Enterprise Company",
-        "pct": -15.1
+        "pct": -15.87
       },
       {
-        "symbol": "WOLF",
-        "name": "Wolfspeed, Inc.",
-        "pct": -14.92
+        "symbol": "ALAB",
+        "name": "Astera Labs, Inc.",
+        "pct": -15.53
+      },
+      {
+        "symbol": "APLD",
+        "name": "Applied Digital Corporation",
+        "pct": -15.23
       }
     ],
     "universe": 1318
