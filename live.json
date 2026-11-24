@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-24T15:45:37Z",
+  "updated": "2026-11-24T15:55:33Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.04,
-      "last": 7161.36
+      "pct": -0.95,
+      "last": 7168.03
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.56,
-      "last": 26060.74
+      "pct": -2.43,
+      "last": 26094.53
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.0,
-      "last": 49599.2
+      "pct": 0.16,
+      "last": 49679.85
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.55,
-      "last": 48226.8
+      "pct": -1.51,
+      "last": 48246.57
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "ANF",
         "name": "Abercrombie & Fitch Company",
-        "pct": 24.32
-      },
-      {
-        "symbol": "CUE",
-        "name": "Cue Biopharma, Inc.",
-        "pct": 18.26
-      },
-      {
-        "symbol": "AMTM",
-        "name": "Amentum Holdings, Inc.",
-        "pct": 16.9
+        "pct": 24.68
       },
       {
         "symbol": "COGT",
         "name": "Cogent Biosciences, Inc.",
-        "pct": 15.88
+        "pct": 18.13
+      },
+      {
+        "symbol": "CUE",
+        "name": "Cue Biopharma, Inc.",
+        "pct": 17.74
+      },
+      {
+        "symbol": "AMTM",
+        "name": "Amentum Holdings, Inc.",
+        "pct": 17.12
       },
       {
         "symbol": "DKS",
         "name": "Dick's Sporting Goods Inc",
-        "pct": 15.86
-      },
-      {
-        "symbol": "INSM",
-        "name": "Insmed Incorporated",
-        "pct": 14.27
+        "pct": 15.83
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 13.82
+        "pct": 14.29
+      },
+      {
+        "symbol": "INSM",
+        "name": "Insmed Incorporated",
+        "pct": 14.23
       },
       {
         "symbol": "GLOB",
         "name": "Globant S.A.",
-        "pct": 12.51
+        "pct": 12.14
       },
       {
         "symbol": "DLTR",
         "name": "Dollar Tree, Inc.",
-        "pct": 11.71
+        "pct": 11.37
       },
       {
-        "symbol": "CELC",
-        "name": "Celcuity Inc.",
-        "pct": 11.04
+        "symbol": "PINS",
+        "name": "Pinterest, Inc.",
+        "pct": 10.53
       }
     ],
     "losers": [
       {
         "symbol": "BNAI",
         "name": "Brand Engagement Network Inc.",
-        "pct": -22.4
+        "pct": -24.86
       },
       {
         "symbol": "ADI",
         "name": "Analog Devices, Inc.",
-        "pct": -16.31
-      },
-      {
-        "symbol": "DY",
-        "name": "Dycom Industries, Inc.",
-        "pct": -16.28
+        "pct": -17.7
       },
       {
         "symbol": "SMTC",
         "name": "Semtech Corporation",
-        "pct": -16.26
+        "pct": -16.79
+      },
+      {
+        "symbol": "DY",
+        "name": "Dycom Industries, Inc.",
+        "pct": -16.01
       },
       {
         "symbol": "HPE",
         "name": "Hewlett Packard Enterprise Company",
-        "pct": -15.45
+        "pct": -14.82
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": -14.41
-      },
-      {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": -14.2
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -14.0
+        "pct": -14.64
       },
       {
         "symbol": "ALAB",
         "name": "Astera Labs, Inc.",
-        "pct": -13.91
+        "pct": -14.42
       },
       {
-        "symbol": "TTMI",
-        "name": "TTM Technologies, Inc.",
-        "pct": -13.53
+        "symbol": "WOLF",
+        "name": "Wolfspeed, Inc.",
+        "pct": -14.37
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -14.25
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -13.76
       }
     ],
     "universe": 1318
