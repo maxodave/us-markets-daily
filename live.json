@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-25T19:18:10Z",
+  "updated": "2026-11-25T19:39:41Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.22,
-      "last": 7186.87
+      "pct": -0.19,
+      "last": 7188.99
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.75,
-      "last": 26019.42
+      "pct": -0.65,
+      "last": 26045.92
     },
     {
       "key": "dow",
       "label": "Dow Jones",
       "pct": 0.58,
-      "last": 50318.85
+      "last": 50314.85
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
-        "symbol": "HPQ",
-        "name": "HP Inc.",
-        "pct": 12.81
-      },
-      {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": 11.82
+        "pct": 12.33
+      },
+      {
+        "symbol": "HPQ",
+        "name": "HP Inc.",
+        "pct": 11.97
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 11.42
-      },
-      {
-        "symbol": "QXO",
-        "name": "QXO, Inc.",
-        "pct": 10.16
-      },
-      {
-        "symbol": "COMP",
-        "name": "Compass, Inc.",
-        "pct": 9.75
+        "pct": 11.34
       },
       {
         "symbol": "SEDG",
         "name": "SolarEdge Technologies, Inc.",
-        "pct": 9.72
+        "pct": 10.6
       },
       {
-        "symbol": "COGT",
-        "name": "Cogent Biosciences, Inc.",
-        "pct": 9.6
-      },
-      {
-        "symbol": "RH",
-        "name": "RH",
-        "pct": 9.28
-      },
-      {
-        "symbol": "QNT",
-        "name": "Quantinuum Inc.",
-        "pct": 8.77
+        "symbol": "QXO",
+        "name": "QXO, Inc.",
+        "pct": 10.1
       },
       {
         "symbol": "CAR",
         "name": "Avis Budget Group, Inc.",
-        "pct": 8.57
+        "pct": 9.37
+      },
+      {
+        "symbol": "COMP",
+        "name": "Compass, Inc.",
+        "pct": 9.04
+      },
+      {
+        "symbol": "COGT",
+        "name": "Cogent Biosciences, Inc.",
+        "pct": 8.92
+      },
+      {
+        "symbol": "ASST",
+        "name": "Strive, Inc.",
+        "pct": 8.91
+      },
+      {
+        "symbol": "RH",
+        "name": "RH",
+        "pct": 8.73
       }
     ],
     "losers": [
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": -19.56
+        "pct": -18.38
       },
       {
         "symbol": "NTNX",
         "name": "Nutanix, Inc.",
-        "pct": -16.16
-      },
-      {
-        "symbol": "URBN",
-        "name": "Urban Outfitters, Inc.",
-        "pct": -11.88
+        "pct": -15.91
       },
       {
         "symbol": "JAGX",
         "name": "Jaguar Health, Inc.",
-        "pct": -11.72
+        "pct": -12.89
+      },
+      {
+        "symbol": "URBN",
+        "name": "Urban Outfitters, Inc.",
+        "pct": -11.85
       },
       {
         "symbol": "LRCX",
         "name": "Lam Research Corporation",
-        "pct": -6.91
-      },
-      {
-        "symbol": "MU",
-        "name": "Micron Technology, Inc.",
-        "pct": -5.82
+        "pct": -6.18
       },
       {
         "symbol": "AMAT",
         "name": "Applied Materials, Inc.",
-        "pct": -5.47
+        "pct": -5.1
       },
       {
-        "symbol": "NVDA",
-        "name": "NVIDIA Corporation",
-        "pct": -5.09
-      },
-      {
-        "symbol": "J",
-        "name": "Jacobs Solutions Inc.",
-        "pct": -4.44
+        "symbol": "MU",
+        "name": "Micron Technology, Inc.",
+        "pct": -4.83
       },
       {
         "symbol": "DDOG",
         "name": "Datadog, Inc.",
-        "pct": -4.41
+        "pct": -4.76
+      },
+      {
+        "symbol": "ORCL",
+        "name": "Oracle Corporation",
+        "pct": -4.62
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "pct": -4.56
       }
     ],
     "universe": 1287
