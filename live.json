@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-25T18:10:50Z",
+  "updated": "2026-11-25T18:28:07Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -1.01,
-      "last": 7129.97
+      "pct": -0.51,
+      "last": 7166.05
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -2.03,
-      "last": 25685.05
+      "pct": -1.38,
+      "last": 25855.08
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -0.02,
-      "last": 50017.4
+      "pct": 0.41,
+      "last": 50231.45
     },
     {
       "key": "ftsemib",
@@ -30,106 +30,106 @@
   "movers": {
     "gainers": [
       {
+        "symbol": "HPQ",
+        "name": "HP Inc.",
+        "pct": 10.81
+      },
+      {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 11.22
+        "pct": 10.71
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": 9.52
-      },
-      {
-        "symbol": "HPQ",
-        "name": "HP Inc.",
-        "pct": 9.04
-      },
-      {
-        "symbol": "COGT",
-        "name": "Cogent Biosciences, Inc.",
-        "pct": 8.97
+        "pct": 9.64
       },
       {
         "symbol": "RH",
         "name": "RH",
-        "pct": 8.73
+        "pct": 9.23
       },
       {
-        "symbol": "CAR",
-        "name": "Avis Budget Group, Inc.",
-        "pct": 8.28
-      },
-      {
-        "symbol": "SEDG",
-        "name": "SolarEdge Technologies, Inc.",
-        "pct": 8.07
+        "symbol": "COGT",
+        "name": "Cogent Biosciences, Inc.",
+        "pct": 8.75
       },
       {
         "symbol": "AXON",
         "name": "Axon Enterprise, Inc.",
-        "pct": 7.41
+        "pct": 8.22
       },
       {
         "symbol": "DKNG",
         "name": "DraftKings Inc.",
-        "pct": 7.29
+        "pct": 7.64
       },
       {
-        "symbol": "CHTR",
-        "name": "Charter Communications, Inc.",
-        "pct": 7.14
+        "symbol": "QXO",
+        "name": "QXO, Inc.",
+        "pct": 7.62
+      },
+      {
+        "symbol": "CAR",
+        "name": "Avis Budget Group, Inc.",
+        "pct": 7.4
+      },
+      {
+        "symbol": "SEDG",
+        "name": "SolarEdge Technologies, Inc.",
+        "pct": 7.3
       }
     ],
     "losers": [
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": -21.1
+        "pct": -20.36
       },
       {
         "symbol": "NTNX",
         "name": "Nutanix, Inc.",
-        "pct": -18.23
-      },
-      {
-        "symbol": "URBN",
-        "name": "Urban Outfitters, Inc.",
-        "pct": -12.0
+        "pct": -17.81
       },
       {
         "symbol": "JAGX",
         "name": "Jaguar Health, Inc.",
-        "pct": -11.88
+        "pct": -14.74
+      },
+      {
+        "symbol": "URBN",
+        "name": "Urban Outfitters, Inc.",
+        "pct": -11.45
       },
       {
         "symbol": "LRCX",
         "name": "Lam Research Corporation",
-        "pct": -8.87
+        "pct": -7.9
       },
       {
         "symbol": "MU",
         "name": "Micron Technology, Inc.",
-        "pct": -8.84
-      },
-      {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": -7.89
+        "pct": -7.37
       },
       {
         "symbol": "AMAT",
         "name": "Applied Materials, Inc.",
-        "pct": -6.97
+        "pct": -6.28
+      },
+      {
+        "symbol": "AAOI",
+        "name": "Applied Optoelectronics, Inc.",
+        "pct": -6.25
       },
       {
         "symbol": "PI",
         "name": "Impinj, Inc.",
-        "pct": -6.9
+        "pct": -5.79
       },
       {
-        "symbol": "DOCN",
-        "name": "DigitalOcean Holdings, Inc.",
-        "pct": -6.55
+        "symbol": "J",
+        "name": "Jacobs Solutions Inc.",
+        "pct": -5.49
       }
     ],
     "universe": 1287
