@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T21:11:33Z",
+  "updated": "2026-11-25T14:07:59Z",
   "market_open": false,
   "indices": [
     {
@@ -23,31 +23,41 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.76,
-      "last": 48121.19
+      "pct": -0.85,
+      "last": 47708.84
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "JAGX",
+        "name": "Jaguar Health, Inc.",
+        "pct": 108.98
+      },
+      {
+        "symbol": "AKAN",
+        "name": "Akanda Corp.",
+        "pct": 101.55
+      },
+      {
+        "symbol": "EMBC",
+        "name": "Embecta Corp.",
+        "pct": 40.64
+      },
+      {
         "symbol": "AMTM",
         "name": "Amentum Holdings, Inc.",
-        "pct": 19.95
+        "pct": 20.1
       },
       {
         "symbol": "ANF",
         "name": "Abercrombie & Fitch Company",
-        "pct": 19.8
+        "pct": 19.69
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 19.53
-      },
-      {
-        "symbol": "CUE",
-        "name": "Cue Biopharma, Inc.",
-        "pct": 19.13
+        "pct": 19.48
       },
       {
         "symbol": "CELC",
@@ -60,24 +70,14 @@
         "pct": 17.43
       },
       {
-        "symbol": "KYMR",
-        "name": "Kymera Therapeutics, Inc.",
-        "pct": 15.66
+        "symbol": "NAMS",
+        "name": "NewAmsterdam Pharma Company N.V.",
+        "pct": 16.93
       },
       {
-        "symbol": "DKS",
-        "name": "Dick's Sporting Goods Inc",
-        "pct": 14.6
-      },
-      {
-        "symbol": "INSM",
-        "name": "Insmed Incorporated",
-        "pct": 14.13
-      },
-      {
-        "symbol": "MMED",
-        "name": "MiniMed Group, Inc.",
-        "pct": 14.06
+        "symbol": "STOK",
+        "name": "Stoke Therapeutics, Inc.",
+        "pct": 16.74
       }
     ],
     "losers": [
@@ -87,9 +87,14 @@
         "pct": -19.96
       },
       {
+        "symbol": "SHOE",
+        "name": "Shoe Station Group, Inc.",
+        "pct": -18.39
+      },
+      {
         "symbol": "DY",
         "name": "Dycom Industries, Inc.",
-        "pct": -17.95
+        "pct": -18.02
       },
       {
         "symbol": "ADI",
@@ -114,7 +119,7 @@
       {
         "symbol": "HPE",
         "name": "Hewlett Packard Enterprise Company",
-        "pct": -16.33
+        "pct": -16.31
       },
       {
         "symbol": "ALAB",
@@ -125,13 +130,8 @@
         "symbol": "SITM",
         "name": "SiTime Corporation",
         "pct": -13.79
-      },
-      {
-        "symbol": "SHAZ",
-        "name": "SharonAI Holdings, Inc.",
-        "pct": -13.65
       }
     ],
-    "universe": 1318
+    "universe": 1287
   }
 }
