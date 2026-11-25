@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-25T14:38:18Z",
+  "updated": "2026-11-25T14:50:01Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -2.66,
-      "last": 7010.82
+      "pct": -2.96,
+      "last": 6989.61
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -3.99,
-      "last": 25170.9
+      "pct": -4.34,
+      "last": 25078.13
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.8,
-      "last": 49127.28
+      "pct": -2.04,
+      "last": 49004.04
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.86,
-      "last": 47704.55
+      "pct": -1.02,
+      "last": 47629.84
     }
   ],
   "movers": {
@@ -32,84 +32,84 @@
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 12.79
+        "pct": 14.57
       },
       {
         "symbol": "HPQ",
         "name": "HP Inc.",
-        "pct": 11.1
+        "pct": 10.0
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 8.71
+        "pct": 8.2
       },
       {
         "symbol": "BG",
         "name": "Bunge Limited",
-        "pct": 3.49
-      },
-      {
-        "symbol": "KSS",
-        "name": "Kohl's Corporation",
-        "pct": 3.28
-      },
-      {
-        "symbol": "CPB",
-        "name": "The Campbell's Company",
-        "pct": 2.47
-      },
-      {
-        "symbol": "POST",
-        "name": "Post Holdings, Inc.",
-        "pct": 2.41
+        "pct": 4.35
       },
       {
         "symbol": "DAR",
         "name": "Darling Ingredients Inc.",
-        "pct": 2.18
+        "pct": 3.24
       },
       {
-        "symbol": "TPL",
-        "name": "Texas Pacific Land Corporation",
-        "pct": 2.09
+        "symbol": "KSS",
+        "name": "Kohl's Corporation",
+        "pct": 3.08
+      },
+      {
+        "symbol": "UNF",
+        "name": "Unifirst Corporation",
+        "pct": 2.75
+      },
+      {
+        "symbol": "CPB",
+        "name": "The Campbell's Company",
+        "pct": 2.6
       },
       {
         "symbol": "CNH",
         "name": "CNH Industrial N.V.",
-        "pct": 2.09
+        "pct": 2.59
+      },
+      {
+        "symbol": "COKE",
+        "name": "Coca-Cola Consolidated, Inc.",
+        "pct": 2.24
       }
     ],
     "losers": [
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": -24.2
+        "pct": -20.91
       },
       {
         "symbol": "NTNX",
         "name": "Nutanix, Inc.",
-        "pct": -20.0
+        "pct": -20.43
       },
       {
         "symbol": "JAGX",
         "name": "Jaguar Health, Inc.",
-        "pct": -17.03
+        "pct": -17.19
+      },
+      {
+        "symbol": "AKAN",
+        "name": "Akanda Corp.",
+        "pct": -12.78
       },
       {
         "symbol": "CLS",
         "name": "Celestica, Inc.",
-        "pct": -11.87
+        "pct": -11.91
       },
       {
-        "symbol": "CLSK",
-        "name": "CleanSpark, Inc.",
-        "pct": -11.83
-      },
-      {
-        "symbol": "URBN",
-        "name": "Urban Outfitters, Inc.",
-        "pct": -11.45
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -11.61
       },
       {
         "symbol": "IREN",
@@ -117,21 +117,21 @@
         "pct": -11.12
       },
       {
+        "symbol": "AAOI",
+        "name": "Applied Optoelectronics, Inc.",
+        "pct": -10.98
+      },
+      {
         "symbol": "ALAB",
         "name": "Astera Labs, Inc.",
-        "pct": -10.78
+        "pct": -10.77
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -10.7
-      },
-      {
-        "symbol": "CRDO",
-        "name": "Credo Technology Group Holding Ltd",
-        "pct": -10.56
+        "symbol": "MU",
+        "name": "Micron Technology, Inc.",
+        "pct": -10.69
       }
     ],
-    "universe": 1286
+    "universe": 1287
   }
 }
