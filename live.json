@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-25T15:00:42Z",
+  "updated": "2026-11-25T15:10:35Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -2.24,
-      "last": 7041.03
+      "pct": -2.19,
+      "last": 7044.73
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -3.29,
-      "last": 25354.84
+      "pct": -3.45,
+      "last": 25311.51
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.52,
-      "last": 49264.84
+      "pct": -1.32,
+      "last": 49368.17
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.28,
-      "last": 47502.99
+      "pct": -1.2,
+      "last": 47539.62
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 11.92
+        "pct": 12.41
       },
       {
         "symbol": "HPQ",
         "name": "HP Inc.",
-        "pct": 11.1
+        "pct": 10.2
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 8.95
+        "pct": 8.04
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 5.37
+        "pct": 6.53
       },
       {
         "symbol": "BG",
         "name": "Bunge Limited",
-        "pct": 5.33
+        "pct": 4.81
+      },
+      {
+        "symbol": "CNH",
+        "name": "CNH Industrial N.V.",
+        "pct": 4.05
       },
       {
         "symbol": "DAR",
         "name": "Darling Ingredients Inc.",
-        "pct": 5.14
+        "pct": 3.99
       },
       {
-        "symbol": "COKE",
-        "name": "Coca-Cola Consolidated, Inc.",
-        "pct": 3.43
+        "symbol": "CTSH",
+        "name": "Cognizant Technology Solutions Corporation",
+        "pct": 3.34
       },
       {
-        "symbol": "ADM",
-        "name": "Archer-Daniels-Midland Company",
-        "pct": 3.15
+        "symbol": "SEDG",
+        "name": "SolarEdge Technologies, Inc.",
+        "pct": 3.27
       },
       {
-        "symbol": "SCI",
-        "name": "Service Corporation International",
-        "pct": 2.99
-      },
-      {
-        "symbol": "LYB",
-        "name": "LyondellBasell Industries NV",
-        "pct": 2.96
+        "symbol": "ACN",
+        "name": "Accenture plc",
+        "pct": 3.11
       }
     ],
     "losers": [
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": -20.53
+        "pct": -22.39
       },
       {
         "symbol": "NTNX",
         "name": "Nutanix, Inc.",
-        "pct": -18.67
+        "pct": -18.48
       },
       {
         "symbol": "CLS",
         "name": "Celestica, Inc.",
-        "pct": -11.46
-      },
-      {
-        "symbol": "PI",
-        "name": "Impinj, Inc.",
-        "pct": -10.7
-      },
-      {
-        "symbol": "JAGX",
-        "name": "Jaguar Health, Inc.",
-        "pct": -10.7
-      },
-      {
-        "symbol": "URBN",
-        "name": "Urban Outfitters, Inc.",
-        "pct": -10.33
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": -9.98
-      },
-      {
-        "symbol": "AAOI",
-        "name": "Applied Optoelectronics, Inc.",
-        "pct": -9.66
-      },
-      {
-        "symbol": "ETON",
-        "name": "Eton Pharmaceuticals, Inc.",
-        "pct": -9.19
+        "pct": -11.96
       },
       {
         "symbol": "NBIS",
         "name": "Nebius Group N.V.",
-        "pct": -9.04
+        "pct": -11.16
+      },
+      {
+        "symbol": "URBN",
+        "name": "Urban Outfitters, Inc.",
+        "pct": -10.76
+      },
+      {
+        "symbol": "AAOI",
+        "name": "Applied Optoelectronics, Inc.",
+        "pct": -10.65
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -10.58
+      },
+      {
+        "symbol": "ALAB",
+        "name": "Astera Labs, Inc.",
+        "pct": -10.25
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": -10.22
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy Corporation",
+        "pct": -10.19
       }
     ],
     "universe": 1287
