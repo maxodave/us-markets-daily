@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-25T15:20:55Z",
+  "updated": "2026-11-25T15:34:48Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -2.79,
-      "last": 7001.5
+      "pct": -2.5,
+      "last": 7022.63
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -4.21,
-      "last": 25112.37
+      "pct": -4.0,
+      "last": 25167.34
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -1.77,
-      "last": 49138.81
+      "pct": -1.38,
+      "last": 49335.29
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.74,
-      "last": 47761.05
+      "pct": -1.2,
+      "last": 47543.72
     }
   ],
   "movers": {
@@ -32,64 +32,64 @@
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 15.09
+        "pct": 14.27
       },
       {
         "symbol": "HPQ",
         "name": "HP Inc.",
-        "pct": 10.24
+        "pct": 10.59
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 8.99
+        "pct": 8.87
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 6.55
-      },
-      {
-        "symbol": "BG",
-        "name": "Bunge Limited",
-        "pct": 4.75
-      },
-      {
-        "symbol": "DAR",
-        "name": "Darling Ingredients Inc.",
-        "pct": 3.21
-      },
-      {
-        "symbol": "COKE",
-        "name": "Coca-Cola Consolidated, Inc.",
-        "pct": 3.21
+        "pct": 6.34
       },
       {
         "symbol": "CNH",
         "name": "CNH Industrial N.V.",
-        "pct": 3.18
+        "pct": 5.99
       },
       {
-        "symbol": "POST",
-        "name": "Post Holdings, Inc.",
-        "pct": 3.11
+        "symbol": "BG",
+        "name": "Bunge Limited",
+        "pct": 5.15
       },
       {
-        "symbol": "CPB",
-        "name": "The Campbell's Company",
-        "pct": 2.96
+        "symbol": "COGT",
+        "name": "Cogent Biosciences, Inc.",
+        "pct": 4.54
+      },
+      {
+        "symbol": "COKE",
+        "name": "Coca-Cola Consolidated, Inc.",
+        "pct": 4.19
+      },
+      {
+        "symbol": "HSY",
+        "name": "The Hershey Company",
+        "pct": 3.51
+      },
+      {
+        "symbol": "CHTR",
+        "name": "Charter Communications, Inc.",
+        "pct": 3.5
       }
     ],
     "losers": [
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": -21.71
+        "pct": -19.75
       },
       {
         "symbol": "NTNX",
         "name": "Nutanix, Inc.",
-        "pct": -18.41
+        "pct": -18.22
       },
       {
         "symbol": "JAGX",
@@ -97,39 +97,39 @@
         "pct": -14.45
       },
       {
-        "symbol": "CLS",
-        "name": "Celestica, Inc.",
-        "pct": -13.22
-      },
-      {
         "symbol": "AKAN",
         "name": "Akanda Corp.",
-        "pct": -13.17
+        "pct": -13.56
       },
       {
-        "symbol": "NBIS",
-        "name": "Nebius Group N.V.",
-        "pct": -12.4
+        "symbol": "CLS",
+        "name": "Celestica, Inc.",
+        "pct": -12.13
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -12.06
-      },
-      {
-        "symbol": "AEHR",
-        "name": "Aehr Test Systems",
-        "pct": -11.67
-      },
-      {
-        "symbol": "BE",
-        "name": "Bloom Energy Corporation",
-        "pct": -11.4
+        "pct": -11.41
       },
       {
         "symbol": "URBN",
         "name": "Urban Outfitters, Inc.",
-        "pct": -11.39
+        "pct": -11.18
+      },
+      {
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": -11.15
+      },
+      {
+        "symbol": "AEHR",
+        "name": "Aehr Test Systems",
+        "pct": -10.84
+      },
+      {
+        "symbol": "MXL",
+        "name": "MaxLinear, Inc",
+        "pct": -10.81
       }
     ],
     "universe": 1287
