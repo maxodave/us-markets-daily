@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-25T14:50:01Z",
+  "updated": "2026-11-25T15:00:42Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -2.96,
-      "last": 6989.61
+      "pct": -2.24,
+      "last": 7041.03
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -4.34,
-      "last": 25078.13
+      "pct": -3.29,
+      "last": 25354.84
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": -2.04,
-      "last": 49004.04
+      "pct": -1.52,
+      "last": 49264.84
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.02,
-      "last": 47629.84
+      "pct": -1.28,
+      "last": 47502.99
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": 14.57
+        "pct": 11.92
       },
       {
         "symbol": "HPQ",
         "name": "HP Inc.",
-        "pct": 10.0
+        "pct": 11.1
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 8.2
-      },
-      {
-        "symbol": "BG",
-        "name": "Bunge Limited",
-        "pct": 4.35
-      },
-      {
-        "symbol": "DAR",
-        "name": "Darling Ingredients Inc.",
-        "pct": 3.24
+        "pct": 8.95
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 3.08
+        "pct": 5.37
       },
       {
-        "symbol": "UNF",
-        "name": "Unifirst Corporation",
-        "pct": 2.75
+        "symbol": "BG",
+        "name": "Bunge Limited",
+        "pct": 5.33
       },
       {
-        "symbol": "CPB",
-        "name": "The Campbell's Company",
-        "pct": 2.6
-      },
-      {
-        "symbol": "CNH",
-        "name": "CNH Industrial N.V.",
-        "pct": 2.59
+        "symbol": "DAR",
+        "name": "Darling Ingredients Inc.",
+        "pct": 5.14
       },
       {
         "symbol": "COKE",
         "name": "Coca-Cola Consolidated, Inc.",
-        "pct": 2.24
+        "pct": 3.43
+      },
+      {
+        "symbol": "ADM",
+        "name": "Archer-Daniels-Midland Company",
+        "pct": 3.15
+      },
+      {
+        "symbol": "SCI",
+        "name": "Service Corporation International",
+        "pct": 2.99
+      },
+      {
+        "symbol": "LYB",
+        "name": "LyondellBasell Industries NV",
+        "pct": 2.96
       }
     ],
     "losers": [
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": -20.91
+        "pct": -20.53
       },
       {
         "symbol": "NTNX",
         "name": "Nutanix, Inc.",
-        "pct": -20.43
-      },
-      {
-        "symbol": "JAGX",
-        "name": "Jaguar Health, Inc.",
-        "pct": -17.19
-      },
-      {
-        "symbol": "AKAN",
-        "name": "Akanda Corp.",
-        "pct": -12.78
+        "pct": -18.67
       },
       {
         "symbol": "CLS",
         "name": "Celestica, Inc.",
-        "pct": -11.91
+        "pct": -11.46
+      },
+      {
+        "symbol": "PI",
+        "name": "Impinj, Inc.",
+        "pct": -10.7
+      },
+      {
+        "symbol": "JAGX",
+        "name": "Jaguar Health, Inc.",
+        "pct": -10.7
+      },
+      {
+        "symbol": "URBN",
+        "name": "Urban Outfitters, Inc.",
+        "pct": -10.33
       },
       {
         "symbol": "AEHR",
         "name": "Aehr Test Systems",
-        "pct": -11.61
-      },
-      {
-        "symbol": "IREN",
-        "name": "IREN Limited",
-        "pct": -11.12
+        "pct": -9.98
       },
       {
         "symbol": "AAOI",
         "name": "Applied Optoelectronics, Inc.",
-        "pct": -10.98
+        "pct": -9.66
       },
       {
-        "symbol": "ALAB",
-        "name": "Astera Labs, Inc.",
-        "pct": -10.77
+        "symbol": "ETON",
+        "name": "Eton Pharmaceuticals, Inc.",
+        "pct": -9.19
       },
       {
-        "symbol": "MU",
-        "name": "Micron Technology, Inc.",
-        "pct": -10.69
+        "symbol": "NBIS",
+        "name": "Nebius Group N.V.",
+        "pct": -9.04
       }
     ],
     "universe": 1287
