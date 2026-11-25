@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-25T20:11:06Z",
+  "updated": "2026-11-25T20:20:52Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.4,
-      "last": 7173.73
+      "pct": -0.35,
+      "last": 7177.46
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.95,
-      "last": 25966.58
+      "pct": -0.87,
+      "last": 25988.26
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.38,
-      "last": 50216.74
+      "pct": 0.4,
+      "last": 50227.92
     },
     {
       "key": "ftsemib",
@@ -32,42 +32,42 @@
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 11.26
+        "pct": 11.62
       },
       {
         "symbol": "HPQ",
         "name": "HP Inc.",
-        "pct": 10.7
+        "pct": 11.61
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": 9.77
+        "pct": 9.45
       },
       {
         "symbol": "COGT",
         "name": "Cogent Biosciences, Inc.",
-        "pct": 8.75
-      },
-      {
-        "symbol": "RH",
-        "name": "RH",
-        "pct": 8.6
-      },
-      {
-        "symbol": "QXO",
-        "name": "QXO, Inc.",
-        "pct": 8.59
-      },
-      {
-        "symbol": "CAR",
-        "name": "Avis Budget Group, Inc.",
-        "pct": 8.46
+        "pct": 9.33
       },
       {
         "symbol": "SEDG",
         "name": "SolarEdge Technologies, Inc.",
-        "pct": 8.29
+        "pct": 9.2
+      },
+      {
+        "symbol": "CAR",
+        "name": "Avis Budget Group, Inc.",
+        "pct": 8.76
+      },
+      {
+        "symbol": "QXO",
+        "name": "QXO, Inc.",
+        "pct": 8.67
+      },
+      {
+        "symbol": "RH",
+        "name": "RH",
+        "pct": 8.44
       },
       {
         "symbol": "COMP",
@@ -75,61 +75,61 @@
         "pct": 8.27
       },
       {
-        "symbol": "DKNG",
-        "name": "DraftKings Inc.",
-        "pct": 7.91
+        "symbol": "STOK",
+        "name": "Stoke Therapeutics, Inc.",
+        "pct": 7.95
       }
     ],
     "losers": [
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": -18.48
+        "pct": -18.19
       },
       {
         "symbol": "NTNX",
         "name": "Nutanix, Inc.",
-        "pct": -14.53
+        "pct": -14.2
       },
       {
         "symbol": "URBN",
         "name": "Urban Outfitters, Inc.",
-        "pct": -11.85
+        "pct": -11.73
       },
       {
         "symbol": "JAGX",
         "name": "Jaguar Health, Inc.",
-        "pct": -11.63
+        "pct": -10.94
       },
       {
         "symbol": "LRCX",
         "name": "Lam Research Corporation",
-        "pct": -7.14
+        "pct": -6.95
       },
       {
         "symbol": "AMAT",
         "name": "Applied Materials, Inc.",
-        "pct": -5.65
+        "pct": -5.55
       },
       {
         "symbol": "MU",
         "name": "Micron Technology, Inc.",
-        "pct": -5.23
+        "pct": -5.25
       },
       {
         "symbol": "ORCL",
         "name": "Oracle Corporation",
-        "pct": -5.04
-      },
-      {
-        "symbol": "NVDA",
-        "name": "NVIDIA Corporation",
-        "pct": -4.87
+        "pct": -4.82
       },
       {
         "symbol": "DDOG",
         "name": "Datadog, Inc.",
-        "pct": -4.75
+        "pct": -4.77
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "pct": -4.68
       }
     ],
     "universe": 1287
