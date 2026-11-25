@@ -1,137 +1,137 @@
 {
-  "updated": "2026-11-25T14:26:41Z",
-  "market_open": false,
+  "updated": "2026-11-25T14:38:18Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.49,
-      "last": 7201.09
+      "pct": -2.66,
+      "last": 7010.82
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -1.99,
-      "last": 26214.17
+      "pct": -3.99,
+      "last": 25170.9
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.84,
-      "last": 50018.7
+      "pct": -1.8,
+      "last": 49127.28
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -0.74,
-      "last": 47764.32
+      "pct": -0.86,
+      "last": 47704.55
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "JAGX",
-        "name": "Jaguar Health, Inc.",
-        "pct": 108.98
+        "symbol": "VXX",
+        "name": "iPath Series B S&P 500 VIX Short-Term Future",
+        "pct": 12.79
       },
       {
-        "symbol": "AKAN",
-        "name": "Akanda Corp.",
-        "pct": 101.55
+        "symbol": "HPQ",
+        "name": "HP Inc.",
+        "pct": 11.1
       },
       {
-        "symbol": "EMBC",
-        "name": "Embecta Corp.",
-        "pct": 40.64
+        "symbol": "BZ",
+        "name": "KANZHUN LIMITED - American Depository Shares",
+        "pct": 8.71
       },
       {
-        "symbol": "AMTM",
-        "name": "Amentum Holdings, Inc.",
-        "pct": 20.1
-      },
-      {
-        "symbol": "ANF",
-        "name": "Abercrombie & Fitch Company",
-        "pct": 19.69
+        "symbol": "BG",
+        "name": "Bunge Limited",
+        "pct": 3.49
       },
       {
         "symbol": "KSS",
         "name": "Kohl's Corporation",
-        "pct": 19.48
+        "pct": 3.28
       },
       {
-        "symbol": "CELC",
-        "name": "Celcuity Inc.",
-        "pct": 18.48
+        "symbol": "CPB",
+        "name": "The Campbell's Company",
+        "pct": 2.47
       },
       {
-        "symbol": "COGT",
-        "name": "Cogent Biosciences, Inc.",
-        "pct": 17.43
+        "symbol": "POST",
+        "name": "Post Holdings, Inc.",
+        "pct": 2.41
       },
       {
-        "symbol": "NAMS",
-        "name": "NewAmsterdam Pharma Company N.V.",
-        "pct": 16.93
+        "symbol": "DAR",
+        "name": "Darling Ingredients Inc.",
+        "pct": 2.18
       },
       {
-        "symbol": "STOK",
-        "name": "Stoke Therapeutics, Inc.",
-        "pct": 16.74
+        "symbol": "TPL",
+        "name": "Texas Pacific Land Corporation",
+        "pct": 2.09
+      },
+      {
+        "symbol": "CNH",
+        "name": "CNH Industrial N.V.",
+        "pct": 2.09
       }
     ],
     "losers": [
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": -19.96
+        "pct": -24.2
       },
       {
-        "symbol": "SHOE",
-        "name": "Shoe Station Group, Inc.",
-        "pct": -18.39
+        "symbol": "NTNX",
+        "name": "Nutanix, Inc.",
+        "pct": -20.0
       },
       {
-        "symbol": "DY",
-        "name": "Dycom Industries, Inc.",
-        "pct": -18.02
+        "symbol": "JAGX",
+        "name": "Jaguar Health, Inc.",
+        "pct": -17.03
       },
       {
-        "symbol": "ADI",
-        "name": "Analog Devices, Inc.",
-        "pct": -17.37
+        "symbol": "CLS",
+        "name": "Celestica, Inc.",
+        "pct": -11.87
       },
       {
-        "symbol": "SMTC",
-        "name": "Semtech Corporation",
-        "pct": -16.97
+        "symbol": "CLSK",
+        "name": "CleanSpark, Inc.",
+        "pct": -11.83
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": -16.94
+        "symbol": "URBN",
+        "name": "Urban Outfitters, Inc.",
+        "pct": -11.45
       },
       {
-        "symbol": "MXL",
-        "name": "MaxLinear, Inc",
-        "pct": -16.74
-      },
-      {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise Company",
-        "pct": -16.31
+        "symbol": "IREN",
+        "name": "IREN Limited",
+        "pct": -11.12
       },
       {
         "symbol": "ALAB",
         "name": "Astera Labs, Inc.",
-        "pct": -13.88
+        "pct": -10.78
       },
       {
-        "symbol": "SITM",
-        "name": "SiTime Corporation",
-        "pct": -13.79
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": -10.7
+      },
+      {
+        "symbol": "CRDO",
+        "name": "Credo Technology Group Holding Ltd",
+        "pct": -10.56
       }
     ],
-    "universe": 1287
+    "universe": 1286
   }
 }
