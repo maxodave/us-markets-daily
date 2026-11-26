@@ -1,137 +1,137 @@
 {
-  "updated": "2026-11-25T20:20:52Z",
-  "market_open": true,
+  "updated": "2026-11-26T14:05:17Z",
+  "market_open": false,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.35,
-      "last": 7177.46
+      "pct": -0.27,
+      "last": 7182.78
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.87,
-      "last": 25988.26
+      "pct": -0.65,
+      "last": 26046.9
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.4,
-      "last": 50227.92
+      "pct": 0.31,
+      "last": 50182.95
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": -1.81,
-      "last": 47249.15
+      "pct": 2.03,
+      "last": 48308.64
     }
   ],
   "movers": {
     "gainers": [
       {
+        "symbol": "FCUV",
+        "name": "Focus Universal Inc.",
+        "pct": 53.12
+      },
+      {
+        "symbol": "BNAI",
+        "name": "Brand Engagement Network Inc.",
+        "pct": 22.56
+      },
+      {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 11.62
+        "pct": 12.56
       },
       {
         "symbol": "HPQ",
         "name": "HP Inc.",
-        "pct": 11.61
+        "pct": 11.49
       },
       {
         "symbol": "ASTS",
         "name": "AST SpaceMobile, Inc.",
-        "pct": 9.45
-      },
-      {
-        "symbol": "COGT",
-        "name": "Cogent Biosciences, Inc.",
-        "pct": 9.33
-      },
-      {
-        "symbol": "SEDG",
-        "name": "SolarEdge Technologies, Inc.",
-        "pct": 9.2
+        "pct": 10.25
       },
       {
         "symbol": "CAR",
         "name": "Avis Budget Group, Inc.",
-        "pct": 8.76
+        "pct": 9.62
       },
       {
-        "symbol": "QXO",
-        "name": "QXO, Inc.",
-        "pct": 8.67
+        "symbol": "DKNG",
+        "name": "DraftKings Inc.",
+        "pct": 9.56
+      },
+      {
+        "symbol": "GENI",
+        "name": "Genius Sports Limited",
+        "pct": 9.46
+      },
+      {
+        "symbol": "COGT",
+        "name": "Cogent Biosciences, Inc.",
+        "pct": 9.3
       },
       {
         "symbol": "RH",
         "name": "RH",
-        "pct": 8.44
-      },
-      {
-        "symbol": "COMP",
-        "name": "Compass, Inc.",
-        "pct": 8.27
-      },
-      {
-        "symbol": "STOK",
-        "name": "Stoke Therapeutics, Inc.",
-        "pct": 7.95
+        "pct": 8.67
       }
     ],
     "losers": [
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": -18.19
+        "pct": -19.77
       },
       {
         "symbol": "NTNX",
         "name": "Nutanix, Inc.",
-        "pct": -14.2
+        "pct": -15.19
       },
       {
         "symbol": "URBN",
         "name": "Urban Outfitters, Inc.",
-        "pct": -11.73
-      },
-      {
-        "symbol": "JAGX",
-        "name": "Jaguar Health, Inc.",
-        "pct": -10.94
+        "pct": -10.33
       },
       {
         "symbol": "LRCX",
         "name": "Lam Research Corporation",
-        "pct": -6.95
+        "pct": -5.68
       },
       {
-        "symbol": "AMAT",
-        "name": "Applied Materials, Inc.",
-        "pct": -5.55
-      },
-      {
-        "symbol": "MU",
-        "name": "Micron Technology, Inc.",
-        "pct": -5.25
+        "symbol": "MANE",
+        "name": "Veradermics, Incorporated",
+        "pct": -5.47
       },
       {
         "symbol": "ORCL",
         "name": "Oracle Corporation",
-        "pct": -4.82
+        "pct": -5.13
       },
       {
-        "symbol": "DDOG",
-        "name": "Datadog, Inc.",
-        "pct": -4.77
+        "symbol": "SNEX",
+        "name": "StoneX Group Inc.",
+        "pct": -5.03
       },
       {
-        "symbol": "NVDA",
-        "name": "NVIDIA Corporation",
-        "pct": -4.68
+        "symbol": "SG",
+        "name": "Sweetgreen, Inc.",
+        "pct": -4.96
+      },
+      {
+        "symbol": "XE",
+        "name": "X-Energy, Inc.",
+        "pct": -4.75
+      },
+      {
+        "symbol": "MU",
+        "name": "Micron Technology, Inc.",
+        "pct": -4.53
       }
     ],
-    "universe": 1287
+    "universe": 1294
   }
 }
