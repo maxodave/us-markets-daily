@@ -1,14 +1,15 @@
 {
-  "updated": "2026-11-25T04:36:41Z",
-  "session_date": "2026-11-24",
+  "updated": "2026-11-26T03:48:14Z",
+  "session_date": "2026-11-25",
   "universe": 558,
   "up": {
-    "count": 378,
+    "count": 391,
     "by_length": {
-      "1": 96,
-      "2": 216,
-      "3": 65,
-      "4": 1
+      "1": 102,
+      "2": 65,
+      "3": 169,
+      "4": 54,
+      "5": 1
     },
     "top": [
       {
@@ -17,8 +18,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 4,
-        "cum_pct": 1.86
+        "days": 5,
+        "cum_pct": 3.24
       },
       {
         "symbol": "CSGP",
@@ -26,26 +27,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 3,
-        "cum_pct": 13.73
-      },
-      {
-        "symbol": "BIIB",
-        "name": "Biogen",
-        "indices": [
-          "sp500"
-        ],
-        "days": 3,
-        "cum_pct": 8.89
-      },
-      {
-        "symbol": "IFF",
-        "name": "International Flavors & Fragrances",
-        "indices": [
-          "sp500"
-        ],
-        "days": 3,
-        "cum_pct": 8.54
+        "days": 4,
+        "cum_pct": 18.54
       },
       {
         "symbol": "CTSH",
@@ -53,81 +36,8 @@
         "indices": [
           "sp500"
         ],
-        "days": 3,
-        "cum_pct": 8.29
-      },
-      {
-        "symbol": "SPM.MI",
-        "name": "Saipem",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": 3,
-        "cum_pct": 7.29
-      },
-      {
-        "symbol": "MKC",
-        "name": "McCormick & Company",
-        "indices": [
-          "sp500"
-        ],
-        "days": 3,
-        "cum_pct": 6.98
-      },
-      {
-        "symbol": "DHI",
-        "name": "D. R. Horton",
-        "indices": [
-          "sp500"
-        ],
-        "days": 3,
-        "cum_pct": 6.68
-      },
-      {
-        "symbol": "TRI",
-        "name": "Thomson Reuters",
-        "indices": [
-          "nasdaq100"
-        ],
-        "days": 3,
-        "cum_pct": 6.65
-      },
-      {
-        "symbol": "MRK",
-        "name": "Merck & Co.",
-        "indices": [
-          "sp500",
-          "dow"
-        ],
-        "days": 3,
-        "cum_pct": 6.6
-      },
-      {
-        "symbol": "LEN",
-        "name": "Lennar",
-        "indices": [
-          "sp500"
-        ],
-        "days": 3,
-        "cum_pct": 6.34
-      },
-      {
-        "symbol": "BMY",
-        "name": "Bristol Myers Squibb",
-        "indices": [
-          "sp500"
-        ],
-        "days": 3,
-        "cum_pct": 6.31
-      },
-      {
-        "symbol": "ACN",
-        "name": "Accenture",
-        "indices": [
-          "sp500"
-        ],
-        "days": 3,
-        "cum_pct": 6.29
+        "days": 4,
+        "cum_pct": 12.45
       },
       {
         "symbol": "PHM",
@@ -135,8 +45,72 @@
         "indices": [
           "sp500"
         ],
-        "days": 3,
-        "cum_pct": 6.29
+        "days": 4,
+        "cum_pct": 10.06
+      },
+      {
+        "symbol": "ACN",
+        "name": "Accenture",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 10.02
+      },
+      {
+        "symbol": "DHI",
+        "name": "D. R. Horton",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 9.98
+      },
+      {
+        "symbol": "IFF",
+        "name": "International Flavors & Fragrances",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 9.54
+      },
+      {
+        "symbol": "MKC",
+        "name": "McCormick & Company",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 8.77
+      },
+      {
+        "symbol": "TRI",
+        "name": "Thomson Reuters",
+        "indices": [
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 8.76
+      },
+      {
+        "symbol": "IBM",
+        "name": "IBM",
+        "indices": [
+          "sp500",
+          "dow"
+        ],
+        "days": 4,
+        "cum_pct": 8.75
+      },
+      {
+        "symbol": "LEN",
+        "name": "Lennar",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 8.58
       },
       {
         "symbol": "DOC",
@@ -144,49 +118,68 @@
         "indices": [
           "sp500"
         ],
-        "days": 3,
-        "cum_pct": 6.15
+        "days": 4,
+        "cum_pct": 7.92
+      },
+      {
+        "symbol": "LOW",
+        "name": "Lowe's",
+        "indices": [
+          "sp500"
+        ],
+        "days": 4,
+        "cum_pct": 7.53
+      },
+      {
+        "symbol": "CPRT",
+        "name": "Copart",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": 4,
+        "cum_pct": 7.49
+      },
+      {
+        "symbol": "HD",
+        "name": "Home Depot (The)",
+        "indices": [
+          "sp500",
+          "dow"
+        ],
+        "days": 4,
+        "cum_pct": 7.3
       }
     ]
   },
   "down": {
-    "count": 177,
+    "count": 162,
     "by_length": {
-      "1": 157,
-      "2": 6,
-      "3": 1,
-      "4": 1,
-      "5": 2,
-      "6": 5,
-      "7": 5
+      "1": 88,
+      "2": 61,
+      "3": 4,
+      "6": 3,
+      "7": 3,
+      "8+": 3
     },
     "top": [
-      {
-        "symbol": "VLO",
-        "name": "Valero Energy",
-        "indices": [
-          "sp500"
-        ],
-        "days": -7,
-        "cum_pct": -14.52
-      },
       {
         "symbol": "MPC",
         "name": "Marathon Petroleum",
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -14.35
+        "days": -8,
+        "cum_pct": -16.49
       },
       {
-        "symbol": "FDXF",
-        "name": "FedEx Freight",
+        "symbol": "VLO",
+        "name": "Valero Energy",
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -14.18
+        "days": -8,
+        "cum_pct": -14.96
       },
       {
         "symbol": "PSX",
@@ -194,17 +187,35 @@
         "indices": [
           "sp500"
         ],
-        "days": -7,
-        "cum_pct": -10.55
+        "days": -8,
+        "cum_pct": -10.88
       },
       {
-        "symbol": "TIT.MI",
-        "name": "Telecom Italia",
+        "symbol": "BPE.MI",
+        "name": "BPER Banca",
         "indices": [
           "ftsemib"
         ],
         "days": -7,
-        "cum_pct": -10.49
+        "cum_pct": -9.55
+      },
+      {
+        "symbol": "ENI.MI",
+        "name": "Eni",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -7,
+        "cum_pct": -8.35
+      },
+      {
+        "symbol": "TRN.MI",
+        "name": "Terna",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -7,
+        "cum_pct": -6.71
       },
       {
         "symbol": "SNDK",
@@ -217,49 +228,13 @@
         "cum_pct": -22.76
       },
       {
-        "symbol": "TPL",
-        "name": "Texas Pacific Land Corporation",
-        "indices": [
-          "sp500"
-        ],
-        "days": -6,
-        "cum_pct": -13.95
-      },
-      {
-        "symbol": "BPE.MI",
-        "name": "BPER Banca",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -6,
-        "cum_pct": -8.51
-      },
-      {
-        "symbol": "ENI.MI",
-        "name": "Eni",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -6,
-        "cum_pct": -8.22
-      },
-      {
-        "symbol": "TRN.MI",
-        "name": "Terna",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -6,
-        "cum_pct": -6.37
-      },
-      {
         "symbol": "ISP.MI",
         "name": "Intesa Sanpaolo",
         "indices": [
           "ftsemib"
         ],
-        "days": -5,
-        "cum_pct": -7.01
+        "days": -6,
+        "cum_pct": -9.43
       },
       {
         "symbol": "BAMI.MI",
@@ -267,27 +242,8 @@
         "indices": [
           "ftsemib"
         ],
-        "days": -5,
-        "cum_pct": -6.18
-      },
-      {
-        "symbol": "MNST",
-        "name": "Monster Beverage",
-        "indices": [
-          "sp500",
-          "nasdaq100"
-        ],
-        "days": -4,
-        "cum_pct": -6.1
-      },
-      {
-        "symbol": "INW.MI",
-        "name": "INWIT",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -3,
-        "cum_pct": -1.36
+        "days": -6,
+        "cum_pct": -8.29
       },
       {
         "symbol": "TEN.MI",
@@ -295,12 +251,59 @@
         "indices": [
           "ftsemib"
         ],
+        "days": -3,
+        "cum_pct": -7.54
+      },
+      {
+        "symbol": "UCG.MI",
+        "name": "UniCredit",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -3,
+        "cum_pct": -5.71
+      },
+      {
+        "symbol": "SJM",
+        "name": "J.M. Smucker Company (The)",
+        "indices": [
+          "sp500"
+        ],
+        "days": -3,
+        "cum_pct": -2.71
+      },
+      {
+        "symbol": "COST",
+        "name": "Costco",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
+        "days": -3,
+        "cum_pct": -1.39
+      },
+      {
+        "symbol": "MU",
+        "name": "Micron Technology",
+        "indices": [
+          "sp500",
+          "nasdaq100"
+        ],
         "days": -2,
-        "cum_pct": -6.41
+        "cum_pct": -15.04
+      },
+      {
+        "symbol": "ALAB",
+        "name": "Astera Labs",
+        "indices": [
+          "nasdaq100"
+        ],
+        "days": -2,
+        "cum_pct": -14.31
       }
     ]
   },
   "flat": {
-    "count": 3
+    "count": 5
   }
 }
