@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T14:02:58Z",
+  "updated": "2026-11-27T14:28:58Z",
   "market_open": false,
   "indices": [
     {
@@ -23,17 +23,12 @@
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.71,
-      "last": 49210.72
+      "pct": 1.55,
+      "last": 49133.23
     }
   ],
   "movers": {
     "gainers": [
-      {
-        "symbol": "FCUV",
-        "name": "Focus Universal Inc.",
-        "pct": 53.12
-      },
       {
         "symbol": "BNAI",
         "name": "Brand Engagement Network Inc.",
@@ -78,6 +73,11 @@
         "symbol": "RH",
         "name": "RH",
         "pct": 8.67
+      },
+      {
+        "symbol": "QXO",
+        "name": "QXO, Inc.",
+        "pct": 8.62
       }
     ],
     "losers": [
@@ -102,11 +102,6 @@
         "pct": -5.68
       },
       {
-        "symbol": "MANE",
-        "name": "Veradermics, Incorporated",
-        "pct": -5.47
-      },
-      {
         "symbol": "ORCL",
         "name": "Oracle Corporation",
         "pct": -5.13
@@ -117,11 +112,6 @@
         "pct": -5.03
       },
       {
-        "symbol": "SG",
-        "name": "Sweetgreen, Inc.",
-        "pct": -4.96
-      },
-      {
         "symbol": "XE",
         "name": "X-Energy, Inc.",
         "pct": -4.75
@@ -130,8 +120,18 @@
         "symbol": "MU",
         "name": "Micron Technology, Inc.",
         "pct": -4.53
+      },
+      {
+        "symbol": "BRKR",
+        "name": "Bruker Corporation",
+        "pct": -4.47
+      },
+      {
+        "symbol": "DDOG",
+        "name": "Datadog, Inc.",
+        "pct": -4.31
       }
     ],
-    "universe": 1294
+    "universe": 1187
   }
 }
