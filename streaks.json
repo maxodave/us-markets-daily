@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-26T03:48:14Z",
+  "updated": "2026-11-27T03:49:49Z",
   "session_date": "2026-11-25",
   "universe": 558,
   "up": {
     "count": 391,
     "by_length": {
-      "1": 102,
-      "2": 65,
-      "3": 169,
-      "4": 54,
+      "1": 104,
+      "2": 63,
+      "3": 167,
+      "4": 56,
       "5": 1
     },
     "top": [
@@ -153,14 +153,15 @@
     ]
   },
   "down": {
-    "count": 162,
+    "count": 163,
     "by_length": {
-      "1": 88,
-      "2": 61,
-      "3": 4,
-      "6": 3,
-      "7": 3,
-      "8+": 3
+      "1": 73,
+      "2": 79,
+      "3": 2,
+      "4": 1,
+      "6": 1,
+      "7": 2,
+      "8+": 5
     },
     "top": [
       {
@@ -182,6 +183,15 @@
         "cum_pct": -14.96
       },
       {
+        "symbol": "BPE.MI",
+        "name": "BPER Banca",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -8,
+        "cum_pct": -13.15
+      },
+      {
         "symbol": "PSX",
         "name": "Phillips 66",
         "indices": [
@@ -191,31 +201,31 @@
         "cum_pct": -10.88
       },
       {
-        "symbol": "BPE.MI",
-        "name": "BPER Banca",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -7,
-        "cum_pct": -9.55
-      },
-      {
         "symbol": "ENI.MI",
         "name": "Eni",
         "indices": [
           "ftsemib"
         ],
-        "days": -7,
-        "cum_pct": -8.35
+        "days": -8,
+        "cum_pct": -8.6
       },
       {
-        "symbol": "TRN.MI",
-        "name": "Terna",
+        "symbol": "ISP.MI",
+        "name": "Intesa Sanpaolo",
         "indices": [
           "ftsemib"
         ],
         "days": -7,
-        "cum_pct": -6.71
+        "cum_pct": -12.46
+      },
+      {
+        "symbol": "BAMI.MI",
+        "name": "Banco BPM",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -7,
+        "cum_pct": -11.72
       },
       {
         "symbol": "SNDK",
@@ -228,40 +238,13 @@
         "cum_pct": -22.76
       },
       {
-        "symbol": "ISP.MI",
-        "name": "Intesa Sanpaolo",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -6,
-        "cum_pct": -9.43
-      },
-      {
-        "symbol": "BAMI.MI",
-        "name": "Banco BPM",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -6,
-        "cum_pct": -8.29
-      },
-      {
-        "symbol": "TEN.MI",
-        "name": "Tenaris",
-        "indices": [
-          "ftsemib"
-        ],
-        "days": -3,
-        "cum_pct": -7.54
-      },
-      {
         "symbol": "UCG.MI",
         "name": "UniCredit",
         "indices": [
           "ftsemib"
         ],
-        "days": -3,
-        "cum_pct": -5.71
+        "days": -4,
+        "cum_pct": -8.85
       },
       {
         "symbol": "SJM",
@@ -293,6 +276,15 @@
         "cum_pct": -15.04
       },
       {
+        "symbol": "STMMI.MI",
+        "name": "STMicroelectronics",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -2,
+        "cum_pct": -14.53
+      },
+      {
         "symbol": "ALAB",
         "name": "Astera Labs",
         "indices": [
@@ -300,10 +292,19 @@
         ],
         "days": -2,
         "cum_pct": -14.31
+      },
+      {
+        "symbol": "TPRO.MI",
+        "name": "Technoprobe",
+        "indices": [
+          "ftsemib"
+        ],
+        "days": -2,
+        "cum_pct": -14.29
       }
     ]
   },
   "flat": {
-    "count": 5
+    "count": 4
   }
 }
