@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-27T17:49:06Z",
+  "updated": "2026-11-27T17:55:14Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.29,
-      "last": 7275.73
+      "pct": 1.36,
+      "last": 7280.35
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.96,
-      "last": 26560.66
+      "pct": 2.09,
+      "last": 26595.14
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.01,
-      "last": 50685.33
+      "pct": 1.06,
+      "last": 50714.55
     },
     {
       "key": "ftsemib",
@@ -32,104 +32,104 @@
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": 18.52
+        "pct": 18.65
       },
       {
         "symbol": "BNAI",
         "name": "Brand Engagement Network Inc.",
-        "pct": 16.7
+        "pct": 16.44
       },
       {
         "symbol": "VERA",
         "name": "Vera Therapeutics, Inc.",
-        "pct": 15.49
-      },
-      {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": 12.26
+        "pct": 15.39
       },
       {
         "symbol": "HYMC",
         "name": "Hycroft Mining Holding Corporation",
-        "pct": 11.88
+        "pct": 13.74
       },
       {
-        "symbol": "EXK",
-        "name": "Endeavour Silver Corporation",
-        "pct": 10.99
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": 13.13
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 10.73
+        "pct": 12.19
       },
       {
         "symbol": "ANT",
         "name": "Anthropic, PBC",
-        "pct": 10.68
+        "pct": 11.81
       },
       {
-        "symbol": "FCUV",
-        "name": "Focus Universal Inc.",
-        "pct": 8.67
+        "symbol": "EXK",
+        "name": "Endeavour Silver Corporation",
+        "pct": 11.81
       },
       {
-        "symbol": "EGO",
-        "name": "Eldorado Gold Corporation",
-        "pct": 8.64
+        "symbol": "AAOI",
+        "name": "Applied Optoelectronics, Inc.",
+        "pct": 9.35
+      },
+      {
+        "symbol": "AG",
+        "name": "First Majestic Silver Corp.",
+        "pct": 9.08
       }
     ],
     "losers": [
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -6.6
+        "pct": -7.03
       },
       {
         "symbol": "VRTX",
         "name": "Vertex Pharmaceuticals Incorporated",
-        "pct": -5.69
-      },
-      {
-        "symbol": "RHI",
-        "name": "Robert Half Inc.",
-        "pct": -5.08
+        "pct": -5.5
       },
       {
         "symbol": "IVR",
         "name": "INVESCO MORTGAGE CAPITAL INC",
-        "pct": -4.17
+        "pct": -4.7
       },
       {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "pct": -3.04
-      },
-      {
-        "symbol": "KT",
-        "name": "KT Corporation",
-        "pct": -2.88
-      },
-      {
-        "symbol": "RH",
-        "name": "RH",
-        "pct": -2.78
+        "symbol": "RHI",
+        "name": "Robert Half Inc.",
+        "pct": -4.64
       },
       {
         "symbol": "SFM",
         "name": "Sprouts Farmers Market, Inc.",
-        "pct": -2.77
+        "pct": -3.61
       },
       {
-        "symbol": "MORN",
-        "name": "Morningstar, Inc.",
-        "pct": -2.58
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "pct": -2.79
+      },
+      {
+        "symbol": "PODD",
+        "name": "Insulet Corporation",
+        "pct": -2.7
       },
       {
         "symbol": "IONS",
         "name": "Ionis Pharmaceuticals, Inc.",
-        "pct": -2.54
+        "pct": -2.65
+      },
+      {
+        "symbol": "KT",
+        "name": "KT Corporation",
+        "pct": -2.62
+      },
+      {
+        "symbol": "SJM",
+        "name": "The J.M. Smucker Company",
+        "pct": -2.59
       }
     ],
     "universe": 1294
