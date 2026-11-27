@@ -1,137 +1,137 @@
 {
-  "updated": "2026-11-27T14:28:58Z",
-  "market_open": false,
+  "updated": "2026-11-27T14:44:37Z",
+  "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": -0.27,
-      "last": 7182.78
+      "pct": 0.78,
+      "last": 7238.72
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": -0.65,
-      "last": 26046.9
+      "pct": 0.87,
+      "last": 26277.63
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.31,
-      "last": 50182.95
+      "pct": 0.76,
+      "last": 50563.5
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.55,
-      "last": 49133.23
+      "pct": 1.52,
+      "last": 49117.43
     }
   ],
   "movers": {
     "gainers": [
       {
-        "symbol": "BNAI",
-        "name": "Brand Engagement Network Inc.",
-        "pct": 22.56
+        "symbol": "XP",
+        "name": "XP Inc.",
+        "pct": 16.09
+      },
+      {
+        "symbol": "VERA",
+        "name": "Vera Therapeutics, Inc.",
+        "pct": 15.24
+      },
+      {
+        "symbol": "HYMC",
+        "name": "Hycroft Mining Holding Corporation",
+        "pct": 8.45
+      },
+      {
+        "symbol": "DFTX",
+        "name": "Definium Therapeutics, Inc.",
+        "pct": 8.29
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": 7.88
+      },
+      {
+        "symbol": "EGO",
+        "name": "Eldorado Gold Corporation",
+        "pct": 7.5
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 12.56
+        "pct": 7.25
       },
       {
-        "symbol": "HPQ",
-        "name": "HP Inc.",
-        "pct": 11.49
+        "symbol": "EMBJ",
+        "name": "Embraer S.A.",
+        "pct": 6.43
       },
       {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": 10.25
+        "symbol": "AG",
+        "name": "First Majestic Silver Corp.",
+        "pct": 6.19
       },
       {
-        "symbol": "CAR",
-        "name": "Avis Budget Group, Inc.",
-        "pct": 9.62
-      },
-      {
-        "symbol": "DKNG",
-        "name": "DraftKings Inc.",
-        "pct": 9.56
-      },
-      {
-        "symbol": "GENI",
-        "name": "Genius Sports Limited",
-        "pct": 9.46
-      },
-      {
-        "symbol": "COGT",
-        "name": "Cogent Biosciences, Inc.",
-        "pct": 9.3
-      },
-      {
-        "symbol": "RH",
-        "name": "RH",
-        "pct": 8.67
-      },
-      {
-        "symbol": "QXO",
-        "name": "QXO, Inc.",
-        "pct": 8.62
+        "symbol": "NU",
+        "name": "Nu Holdings Ltd.",
+        "pct": 6.11
       }
     ],
     "losers": [
       {
+        "symbol": "VRTX",
+        "name": "Vertex Pharmaceuticals Incorporated",
+        "pct": -10.35
+      },
+      {
+        "symbol": "TGTX",
+        "name": "TG Therapeutics, Inc.",
+        "pct": -5.43
+      },
+      {
+        "symbol": "PANW",
+        "name": "Palo Alto Networks, Inc.",
+        "pct": -3.79
+      },
+      {
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": -3.57
+      },
+      {
+        "symbol": "RHI",
+        "name": "Robert Half Inc.",
+        "pct": -2.94
+      },
+      {
+        "symbol": "CRSP",
+        "name": "CRISPR Therapeutics AG",
+        "pct": -2.84
+      },
+      {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": -19.77
+        "pct": -2.82
       },
       {
-        "symbol": "NTNX",
-        "name": "Nutanix, Inc.",
-        "pct": -15.19
+        "symbol": "IVR",
+        "name": "INVESCO MORTGAGE CAPITAL INC",
+        "pct": -2.52
       },
       {
-        "symbol": "URBN",
-        "name": "Urban Outfitters, Inc.",
-        "pct": -10.33
+        "symbol": "BEAM",
+        "name": "Beam Therapeutics Inc.",
+        "pct": -2.43
       },
       {
-        "symbol": "LRCX",
-        "name": "Lam Research Corporation",
-        "pct": -5.68
-      },
-      {
-        "symbol": "ORCL",
-        "name": "Oracle Corporation",
-        "pct": -5.13
-      },
-      {
-        "symbol": "SNEX",
-        "name": "StoneX Group Inc.",
-        "pct": -5.03
-      },
-      {
-        "symbol": "XE",
-        "name": "X-Energy, Inc.",
-        "pct": -4.75
-      },
-      {
-        "symbol": "MU",
-        "name": "Micron Technology, Inc.",
-        "pct": -4.53
-      },
-      {
-        "symbol": "BRKR",
-        "name": "Bruker Corporation",
-        "pct": -4.47
-      },
-      {
-        "symbol": "DDOG",
-        "name": "Datadog, Inc.",
-        "pct": -4.31
+        "symbol": "OLLI",
+        "name": "Ollie's Bargain Outlet Holdings, Inc.",
+        "pct": -2.36
       }
     ],
-    "universe": 1187
+    "universe": 1293
   }
 }
