@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-27T16:13:15Z",
+  "updated": "2026-11-27T17:07:45Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.14,
-      "last": 7264.36
+      "pct": 1.31,
+      "last": 7276.62
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.68,
-      "last": 26487.73
+      "pct": 1.87,
+      "last": 26538.06
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.95,
-      "last": 50657.41
+      "pct": 1.12,
+      "last": 50741.65
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
       "pct": 1.85,
-      "last": 49276.19
+      "last": 49275.6
     }
   ],
   "movers": {
@@ -32,104 +32,104 @@
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": 18.35
+        "pct": 18.94
       },
       {
         "symbol": "VERA",
         "name": "Vera Therapeutics, Inc.",
-        "pct": 14.93
+        "pct": 15.73
       },
       {
         "symbol": "FCUV",
         "name": "Focus Universal Inc.",
-        "pct": 12.3
+        "pct": 13.27
       },
       {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "pct": 10.61
+        "symbol": "BNAI",
+        "name": "Brand Engagement Network Inc.",
+        "pct": 12.52
       },
       {
         "symbol": "HYMC",
         "name": "Hycroft Mining Holding Corporation",
-        "pct": 10.35
+        "pct": 11.81
       },
       {
-        "symbol": "AXTI",
-        "name": "AXT Inc",
-        "pct": 9.63
-      },
-      {
-        "symbol": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "pct": 9.57
+        "symbol": "COHR",
+        "name": "Coherent Corp.",
+        "pct": 10.94
       },
       {
         "symbol": "ANT",
         "name": "Anthropic, PBC",
-        "pct": 9.24
+        "pct": 10.41
       },
       {
-        "symbol": "INFQ",
-        "name": "Infleqtion, Inc.",
-        "pct": 8.4
+        "symbol": "EXK",
+        "name": "Endeavour Silver Corporation",
+        "pct": 10.37
       },
       {
-        "symbol": "QBTS",
-        "name": "D-Wave Quantum Inc.",
-        "pct": 8.21
+        "symbol": "AXTI",
+        "name": "AXT Inc",
+        "pct": 10.01
+      },
+      {
+        "symbol": "LUNR",
+        "name": "Intuitive Machines, Inc.",
+        "pct": 9.62
       }
     ],
     "losers": [
       {
-        "symbol": "VRTX",
-        "name": "Vertex Pharmaceuticals Incorporated",
-        "pct": -6.3
-      },
-      {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -4.36
+        "pct": -5.49
+      },
+      {
+        "symbol": "VRTX",
+        "name": "Vertex Pharmaceuticals Incorporated",
+        "pct": -5.4
       },
       {
         "symbol": "RHI",
         "name": "Robert Half Inc.",
-        "pct": -4.09
+        "pct": -5.13
       },
       {
         "symbol": "IVR",
         "name": "INVESCO MORTGAGE CAPITAL INC",
-        "pct": -4.0
-      },
-      {
-        "symbol": "BSP",
-        "name": "Bending Spoons S.p.A.",
-        "pct": -3.46
+        "pct": -3.91
       },
       {
         "symbol": "DLTR",
         "name": "Dollar Tree, Inc.",
-        "pct": -3.42
+        "pct": -2.98
       },
       {
-        "symbol": "TGTX",
-        "name": "TG Therapeutics, Inc.",
-        "pct": -2.98
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "pct": -2.8
+      },
+      {
+        "symbol": "GME",
+        "name": "GameStop Corporation",
+        "pct": -2.6
+      },
+      {
+        "symbol": "CLSK",
+        "name": "CleanSpark, Inc.",
+        "pct": -2.41
+      },
+      {
+        "symbol": "CELC",
+        "name": "Celcuity Inc.",
+        "pct": -2.37
       },
       {
         "symbol": "SFM",
         "name": "Sprouts Farmers Market, Inc.",
-        "pct": -2.63
-      },
-      {
-        "symbol": "IONS",
-        "name": "Ionis Pharmaceuticals, Inc.",
-        "pct": -2.59
-      },
-      {
-        "symbol": "TJX",
-        "name": "TJX Companies, Inc. (The)",
-        "pct": -2.55
+        "pct": -2.33
       }
     ],
     "universe": 1294
