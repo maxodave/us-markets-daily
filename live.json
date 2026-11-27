@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-27T15:58:26Z",
+  "updated": "2026-11-27T16:13:15Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 1.22,
-      "last": 7270.39
+      "pct": 1.14,
+      "last": 7264.36
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 1.79,
-      "last": 26515.81
+      "pct": 1.68,
+      "last": 26487.73
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 1.02,
-      "last": 50693.08
+      "pct": 0.95,
+      "last": 50657.41
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
       "pct": 1.85,
-      "last": 49276.75
+      "last": 49276.19
     }
   ],
   "movers": {
@@ -32,27 +32,32 @@
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": 20.19
+        "pct": 18.35
       },
       {
         "symbol": "VERA",
         "name": "Vera Therapeutics, Inc.",
-        "pct": 14.2
+        "pct": 14.93
       },
       {
-        "symbol": "HYMC",
-        "name": "Hycroft Mining Holding Corporation",
-        "pct": 11.3
+        "symbol": "FCUV",
+        "name": "Focus Universal Inc.",
+        "pct": 12.3
       },
       {
         "symbol": "COHR",
         "name": "Coherent Corp.",
-        "pct": 10.97
+        "pct": 10.61
+      },
+      {
+        "symbol": "HYMC",
+        "name": "Hycroft Mining Holding Corporation",
+        "pct": 10.35
       },
       {
         "symbol": "AXTI",
         "name": "AXT Inc",
-        "pct": 9.62
+        "pct": 9.63
       },
       {
         "symbol": "LUNR",
@@ -60,76 +65,71 @@
         "pct": 9.57
       },
       {
-        "symbol": "QBTS",
-        "name": "D-Wave Quantum Inc.",
-        "pct": 9.36
-      },
-      {
         "symbol": "ANT",
         "name": "Anthropic, PBC",
-        "pct": 8.47
+        "pct": 9.24
       },
       {
-        "symbol": "OUST",
-        "name": "Ouster, Inc.",
-        "pct": 8.44
+        "symbol": "INFQ",
+        "name": "Infleqtion, Inc.",
+        "pct": 8.4
       },
       {
-        "symbol": "RGTI",
-        "name": "Rigetti Computing, Inc.",
-        "pct": 8.41
+        "symbol": "QBTS",
+        "name": "D-Wave Quantum Inc.",
+        "pct": 8.21
       }
     ],
     "losers": [
       {
         "symbol": "VRTX",
         "name": "Vertex Pharmaceuticals Incorporated",
-        "pct": -6.33
+        "pct": -6.3
       },
       {
         "symbol": "VXX",
         "name": "iPath Series B S&P 500 VIX Short-Term Future",
-        "pct": -4.5
-      },
-      {
-        "symbol": "IVR",
-        "name": "INVESCO MORTGAGE CAPITAL INC",
-        "pct": -4.21
+        "pct": -4.36
       },
       {
         "symbol": "RHI",
         "name": "Robert Half Inc.",
-        "pct": -3.48
+        "pct": -4.09
+      },
+      {
+        "symbol": "IVR",
+        "name": "INVESCO MORTGAGE CAPITAL INC",
+        "pct": -4.0
       },
       {
         "symbol": "BSP",
         "name": "Bending Spoons S.p.A.",
-        "pct": -2.86
-      },
-      {
-        "symbol": "KT",
-        "name": "KT Corporation",
-        "pct": -2.82
+        "pct": -3.46
       },
       {
         "symbol": "DLTR",
         "name": "Dollar Tree, Inc.",
-        "pct": -2.77
+        "pct": -3.42
       },
       {
-        "symbol": "CELC",
-        "name": "Celcuity Inc.",
-        "pct": -2.62
+        "symbol": "TGTX",
+        "name": "TG Therapeutics, Inc.",
+        "pct": -2.98
       },
       {
-        "symbol": "CLSK",
-        "name": "CleanSpark, Inc.",
-        "pct": -2.61
+        "symbol": "SFM",
+        "name": "Sprouts Farmers Market, Inc.",
+        "pct": -2.63
       },
       {
         "symbol": "IONS",
         "name": "Ionis Pharmaceuticals, Inc.",
-        "pct": -2.57
+        "pct": -2.59
+      },
+      {
+        "symbol": "TJX",
+        "name": "TJX Companies, Inc. (The)",
+        "pct": -2.55
       }
     ],
     "universe": 1294
