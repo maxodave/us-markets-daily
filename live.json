@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-27T14:44:37Z",
+  "updated": "2026-11-27T15:16:49Z",
   "market_open": true,
   "indices": [
     {
       "key": "sp500",
       "label": "S&P 500",
-      "pct": 0.78,
-      "last": 7238.72
+      "pct": 0.74,
+      "last": 7236.07
     },
     {
       "key": "nasdaq100",
       "label": "Nasdaq-100",
-      "pct": 0.87,
-      "last": 26277.63
+      "pct": 1.0,
+      "last": 26310.32
     },
     {
       "key": "dow",
       "label": "Dow Jones",
-      "pct": 0.76,
-      "last": 50563.5
+      "pct": 0.69,
+      "last": 50525.14
     },
     {
       "key": "ftsemib",
       "label": "FTSE MIB",
-      "pct": 1.52,
-      "last": 49117.43
+      "pct": 1.58,
+      "last": 49146.73
     }
   ],
   "movers": {
@@ -32,106 +32,106 @@
       {
         "symbol": "XP",
         "name": "XP Inc.",
-        "pct": 16.09
+        "pct": 19.35
       },
       {
         "symbol": "VERA",
         "name": "Vera Therapeutics, Inc.",
-        "pct": 15.24
-      },
-      {
-        "symbol": "HYMC",
-        "name": "Hycroft Mining Holding Corporation",
-        "pct": 8.45
-      },
-      {
-        "symbol": "DFTX",
-        "name": "Definium Therapeutics, Inc.",
-        "pct": 8.29
+        "pct": 12.32
       },
       {
         "symbol": "COHR",
         "name": "Coherent Corp.",
-        "pct": 7.88
+        "pct": 9.41
       },
       {
-        "symbol": "EGO",
-        "name": "Eldorado Gold Corporation",
-        "pct": 7.5
+        "symbol": "HYMC",
+        "name": "Hycroft Mining Holding Corporation",
+        "pct": 9.04
+      },
+      {
+        "symbol": "QBTS",
+        "name": "D-Wave Quantum Inc.",
+        "pct": 8.46
+      },
+      {
+        "symbol": "FCUV",
+        "name": "Focus Universal Inc.",
+        "pct": 7.88
       },
       {
         "symbol": "BZ",
         "name": "KANZHUN LIMITED - American Depository Shares",
-        "pct": 7.25
+        "pct": 7.67
       },
       {
-        "symbol": "EMBJ",
-        "name": "Embraer S.A.",
-        "pct": 6.43
+        "symbol": "EXK",
+        "name": "Endeavour Silver Corporation",
+        "pct": 7.08
       },
       {
-        "symbol": "AG",
-        "name": "First Majestic Silver Corp.",
-        "pct": 6.19
+        "symbol": "EGO",
+        "name": "Eldorado Gold Corporation",
+        "pct": 7.01
       },
       {
-        "symbol": "NU",
-        "name": "Nu Holdings Ltd.",
-        "pct": 6.11
+        "symbol": "QNT",
+        "name": "Quantinuum Inc.",
+        "pct": 6.93
       }
     ],
     "losers": [
       {
         "symbol": "VRTX",
         "name": "Vertex Pharmaceuticals Incorporated",
-        "pct": -10.35
+        "pct": -6.93
       },
       {
-        "symbol": "TGTX",
-        "name": "TG Therapeutics, Inc.",
-        "pct": -5.43
-      },
-      {
-        "symbol": "PANW",
-        "name": "Palo Alto Networks, Inc.",
-        "pct": -3.79
-      },
-      {
-        "symbol": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "pct": -3.57
-      },
-      {
-        "symbol": "RHI",
-        "name": "Robert Half Inc.",
-        "pct": -2.94
-      },
-      {
-        "symbol": "CRSP",
-        "name": "CRISPR Therapeutics AG",
-        "pct": -2.84
+        "symbol": "BSP",
+        "name": "Bending Spoons S.p.A.",
+        "pct": -4.77
       },
       {
         "symbol": "AMBA",
         "name": "Ambarella, Inc.",
-        "pct": -2.82
+        "pct": -4.18
+      },
+      {
+        "symbol": "RHI",
+        "name": "Robert Half Inc.",
+        "pct": -3.46
+      },
+      {
+        "symbol": "NTNX",
+        "name": "Nutanix, Inc.",
+        "pct": -3.06
+      },
+      {
+        "symbol": "CLSK",
+        "name": "CleanSpark, Inc.",
+        "pct": -2.99
+      },
+      {
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile, Inc.",
+        "pct": -2.92
+      },
+      {
+        "symbol": "PODD",
+        "name": "Insulet Corporation",
+        "pct": -2.74
       },
       {
         "symbol": "IVR",
         "name": "INVESCO MORTGAGE CAPITAL INC",
-        "pct": -2.52
+        "pct": -2.61
       },
       {
-        "symbol": "BEAM",
-        "name": "Beam Therapeutics Inc.",
-        "pct": -2.43
-      },
-      {
-        "symbol": "OLLI",
-        "name": "Ollie's Bargain Outlet Holdings, Inc.",
-        "pct": -2.36
+        "symbol": "TGTX",
+        "name": "TG Therapeutics, Inc.",
+        "pct": -2.6
       }
     ],
-    "universe": 1293
+    "universe": 1294
   }
 }
